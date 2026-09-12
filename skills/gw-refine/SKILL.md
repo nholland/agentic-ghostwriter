@@ -2,6 +2,9 @@
 description: The Line Editor desk refines a cold draft into finished prose plus a distillation, gated by the counted voice script and the clean-room conformance checker. Writes into this repo's runs/ tree only. Use after /gw-draft for the shadow run of a chapter.
 ---
 
+<!-- DERIVED FILE - DO NOT EDIT.
+     Canonical copy: .claude/skills/gw-refine/SKILL.md
+     Regenerate: python3 scripts/sync_plugin_layout.py -->
 # /gw-refine — refine a cold draft, gated
 
 Argument: a chapter number. `$ARGUMENTS`

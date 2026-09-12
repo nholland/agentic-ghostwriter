@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'GW=\"${CLAUDE_PLUGIN_ROOT:-$CLAUDE_PROJECT_DIR}\"; echo \"=== The House ===\"; echo \"Real clock: $(date \"+%Y-%m-%d %H:%M %Z\") - use this for every dated artifact. Never supply a plausible date.\"; python3 \"$GW/scripts/resolve_book.py\" 2>&1 | sed \"s/^/  /\"; python3 \"$GW/scripts/inbox.py\" 2>&1 | head -20 | sed \"s/^/  /\"'"
+          }
+        ]
+      }
+    ]
+  }
+}

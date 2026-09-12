@@ -1,6 +1,10 @@
 {
   "_comment": "Single source of truth for the counted voice rules. Every threshold here is transcribed from books/the-stoic-husband/01-voice.md 'Counted rules' (line 107) in the playground repo. Do not invent a threshold: if a rule is not in 01-voice.md, it does not belong here.",
-  "bookRoot": "../Playground-260420/books/the-stoic-husband",
+  "_bookRoot_note": "Resolved at runtime by scripts/resolve_book.py, never hardcoded. The hints below are ordered and optional; discovery finds a sibling directory containing book-manifest.json when no hint matches. $GW_BOOK_REPO overrides both.",
+  "bookRepoCandidates": [
+    "../Playground-260420",
+    "~/Playground-260420"
+  ],
   "voice_rules": {
     "em_dash_max": {
       "value": 0,
@@ -16,7 +20,7 @@
       "source": "01-voice.md: 'no more than roughly 10% of a chapter's sentences should run 25 words or longer'"
     },
     "long_sentence_max_share": {
-      "value": 0.10,
+      "value": 0.1,
       "source": "01-voice.md Counted rules: 'the long-sentence cap (<=10% of sentences at 25+ words)'"
     },
     "you_density_min_per_1000": {
@@ -39,9 +43,20 @@
     }
   },
   "stoic_terms": [
-    "prohairesis", "hegemonikon", "phantasia", "askesis", "apatheia",
-    "ataraxia", "oikeiosis", "sympatheia", "eudaimonia", "logos",
-    "prosoche", "premeditatio malorum", "amor fati", "kathekon"
+    "prohairesis",
+    "hegemonikon",
+    "phantasia",
+    "askesis",
+    "apatheia",
+    "ataraxia",
+    "oikeiosis",
+    "sympatheia",
+    "eudaimonia",
+    "logos",
+    "prosoche",
+    "premeditatio malorum",
+    "amor fati",
+    "kathekon"
   ],
   "gloss_window_chars": 260
 }

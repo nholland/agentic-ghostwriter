@@ -2,6 +2,9 @@
 description: Run or resume the parallel bake-off between the old book pipeline and this one for a given chapter - build the blind comparison packet, walk the author through the blind read, then unseal. Use when comparing the two systems on the same chapter.
 ---
 
+<!-- DERIVED FILE - DO NOT EDIT.
+     Canonical copy: .claude/skills/gw-bakeoff/SKILL.md
+     Regenerate: python3 scripts/sync_plugin_layout.py -->
 # /gw-bakeoff — compare the two pipelines on one chapter, blind
 
 Argument: a chapter number, or `--unseal NN`. `$ARGUMENTS`

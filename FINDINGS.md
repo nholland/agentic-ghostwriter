@@ -52,3 +52,51 @@ table rows are dropped. The general lesson is the compile word-count lesson agai
 a counting bug does not error, it just returns a plausible number.
 
 **Status:** no desk has drafted anything yet. Ch12 shadow run is next.
+
+---
+
+## 2026-09-12 — V1 roster wired; three defects found in this repo's own tooling
+
+All ten desks now exist, the two author-facing ones as session modes rather than
+sub-agents (a sub-agent cannot ask the author anything, which is the constraint the
+architecture is built around). Shared context resolved **by reference**: a copy of
+the book was ruled out as the `citation-manifest.md` failure at repo scale.
+
+**The citation-gate regression, found and closed.** The first version of this
+repo's `gw-refine` ran no citation check at all, while the book pipeline's
+`/book-chapter-refine` and `/book-compile` both run `okf_validate.py --strict` as
+a *blocking* gate before writing prose. For a day this replacement pipeline was
+**less safe on citations than the pipeline it replaces**, in the exact area where
+nine defects reached compiled prose, six of them printed. `scripts/okf_gate.py`
+now wraps the book repo's own validator — wraps, not reimplements, because two
+validators would drift — and fails closed when it cannot find it. Wired as
+blocking into `gw-draft`, `gw-refine`, `gw-research`, `gw-verify` and `gw-market`.
+
+**The hardcoded book path.** `config/house.json` originally held
+`../Playground-260420/books/the-stoic-husband`, which resolved only because two
+repos happened to be cloned as siblings with those exact names in one session.
+Replaced by `scripts/resolve_book.py`: discovery, then validation of every required
+artifact, then a non-zero exit that stops every desk. Both the discovery fallback
+and the total-failure path were tested, not assumed. The reason this mattered more
+than it looks: a skill reading a missing voice spec does not crash, it writes
+generic prose.
+
+**`claude plugin validate` caught a bug in the mirror script.**
+`sync_plugin_layout.py` prepended a DO-NOT-EDIT banner to each derived file, which
+put it *above* the YAML frontmatter — so the frontmatter was no longer at the top
+of the file and `description` stopped parsing. Every mirrored skill would have
+loaded without the metadata that makes it findable, and nothing would have
+errored. The banner now goes after the frontmatter block, and `--check` detects
+drift (verified by tampering with a file and confirming exit 1).
+
+Three defects, all three the same shape as the two in the previous entry: **a
+plausible wrong answer that raises no error.** None was found by reading the code.
+Each was found by running something that could disagree — a known number, a probe,
+a validator.
+
+**Two items seeded into `inbox/` from the previous entry's findings**, as the real
+first test of whether the inbox holds what the author would want to rule on:
+#001 whether bolded run-in section headers are legal, #002 the three artifacts
+below the you-density floor.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.

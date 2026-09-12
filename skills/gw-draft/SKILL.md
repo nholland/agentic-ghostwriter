@@ -2,6 +2,9 @@
 description: The Ghostwriter desk drafts a chapter cold from its existing research brief, gated by the brief review, the counted voice script, and the clean-room checker. Writes into this repo's runs/ tree and never touches the book repo. Use for the shadow run of a chapter already researched in the playground pipeline.
 ---
 
+<!-- DERIVED FILE - DO NOT EDIT.
+     Canonical copy: .claude/skills/gw-draft/SKILL.md
+     Regenerate: python3 scripts/sync_plugin_layout.py -->
 # /gw-draft — draft a chapter cold, gated
 
 Argument: a chapter number. `$ARGUMENTS`
