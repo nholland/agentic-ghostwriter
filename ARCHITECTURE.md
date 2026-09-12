@@ -148,27 +148,91 @@ earned their place and currently have no desk.
 
 ---
 
-## What to do about it
+## Two repos. Not three.
 
-Three moves, in dependency order. None is urgent for the Ch12 shadow run, which
-works precisely *because* both repos are present.
+**There is no third repo, and there never needs to be.** An earlier draft of this
+document said "extract the book into its own repo," which was muddled: the book repo
+already exists — it is `Playground-260420`. Once the engine leaves it, that is all it
+is. Nothing needs extracting.
 
-**1. Move L2 and L3 into the engine repo.** The eight production scripts and the
-OKF format spec are book-agnostic. While they live in the book repo, this repo is
-an add-on. Do this by *moving*, not copying — two validators drift, and that is the
-failure this whole repo keeps citing. Until then, `resolve_book.py` at least makes
-the dependency explicit and loud rather than silent.
+It also already scales to more books without another repo. `books/<slug>/`, a
+registry in `book-manifest.json` keyed by path, `/book-switch`, and `/book-spark`
+detecting an existing `bookRoot` to start a fresh one — the multi-book structure was
+built in from the start. Book two is a new folder, not a new repository.
 
-**2. Build the Foundation half of the Developmental Editor.** Without it the
-system continues books but cannot start one, which makes "an agentic publishing
-house" an overstatement.
+### Which one do I go to, and for what?
 
-**3. Then extract the book into its own repo.** Once L1–L3 are in the engine and
-L4–L7 are the only things left, the split is clean and mechanical rather than a
-judgement call about each file.
+| You want to | Go to |
+|---|---|
+| Have the system *do* something — interview, draft, refine, check, compare | **Engine.** Open a session here. |
+| Read or hand-edit a book artifact — the outline, the voice spec, a chapter | **Book.** |
+| Change *how* the system works — a desk, a gate, a threshold | **Engine.** |
+| Change *what the book says* | **Book.** |
+| Ship a chapter on the proven pipeline | **Book.** `/book-resume` there. |
 
-The ordering is deliberate: extracting the book first would leave the engine
-scripts stranded with the content, which is the position we are in now.
+In practice you mostly go to neither by hand: you open a session, and the desks read
+and write the right places. The rule only matters when you are editing by hand, and
+then it is one question — *is this about this book, or about how books get made?*
+
+---
+
+## What to do about it — revised
+
+### 1. Do NOT move the shared scripts yet
+
+The original recommendation was to move L2 and L3 into the engine. Checking it
+first: the book pipeline makes **16 calls to `python3 scripts/*.py` across 8 command
+files**, all relative to its own repo root, and `.claude/OKF.md` is read by 8 more
+commands plus an agent. **Moving them breaks the pipeline that is still shipping
+chapters** — with 16 of 29 left to write.
+
+And "L2" is not one block. By actual caller:
+
+| Script | Book-pipeline callers | Engine callers | Owner, for now |
+|---|---|---|---|
+| `okf_validate.py` | 3 | 1 (`okf_gate.py`) | **Genuinely shared.** Wrapping it is correct. |
+| `pipeline_state.py` | 5 | 0 | Book |
+| `chapter_pdf.py`, `verification_packet.py`, `verification_ingest.py` | 5 | 0 | Book |
+| `citation_queue.py`, `verification_probe.py` | 3 | named, not yet run | Will be shared |
+| the engine's 7 scripts | 0 | all | Engine |
+
+So these are not misplaced *yet* — each sits with its current primary caller. Copying
+them would create two validators that drift, which is the failure this repo keeps
+citing. Pointing the book pipeline at the engine would invert the dependency and make
+losing the engine break the book pipeline, which is strictly worse than today.
+
+**So the coupling gets made explicit and checked instead of moved.**
+`config/house.json` declares every book-repo file this engine calls, with the reason,
+split into required and optional. `resolve_book.py` verifies all eight at session
+start: a missing required one blocks every desk; a missing optional one reports which
+feature is unavailable. Ownership transfers when the legacy pipeline retires — at
+which point the move is free.
+
+### 2. Build the Foundation half of the Developmental Editor — done
+
+`/gw-found`, `/gw-revise`, `/gw-sources`. Three skills covering roughly ten of the
+old commands.
+
+This surfaced a conflict worth recording: **every other skill here is forbidden from
+writing inside the book repo, but the Foundation phase has to write L4 somewhere.**
+Resolved by scope rather than by exception —
+
+| Case | What Foundation may do |
+|---|---|
+| A book this engine created | Author L4 in place. It owns that book from the first file. |
+| A book with a locked foundation that another pipeline ships | **Write nothing.** Report and stop. |
+| Partial foundation | Propose; write only once the author says which pipeline owns the book. |
+
+The Stoic Husband is the middle row. A second system authoring its premise is exactly
+how two sources of truth begin, so `/gw-found` reports and refuses, and `/gw-revise`
+produces a diff for the author to apply through the book pipeline.
+
+### 3. Retire the legacy pipeline — later, and it is not a repo move
+
+What the withdrawn "#3" was actually reaching for. It is migration switch 3 in the
+README: the old `/book-chapter-*` commands retire with a ledger mapping every deleted
+rule to the desk or script now enforcing it. That is when L2 and L3 move, and it
+happens only after desks have shipped chapters the author approved.
 
 ---
 

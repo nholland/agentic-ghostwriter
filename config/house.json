@@ -67,5 +67,20 @@
     "amor fati",
     "kathekon"
   ],
-  "gloss_window_chars": 260
+  "gloss_window_chars": 260,
+  "book_repo_dependencies": {
+    "_note": "Scripts this engine calls that live in the BOOK repo. They are not misplaced: each is in the right place for its current primary caller, and moving them now would break the pipeline still shipping chapters. resolve_book.py verifies every entry, so a missing one is caught at session start rather than mid-chapter. Ownership moves when the legacy pipeline retires, not before.",
+    "required": {
+      "scripts/okf_validate.py": "the citation gate (okf_gate.py). Genuinely shared today: 3 callers in the book pipeline, 1 here. Blocking - without it no desk may write prose."
+    },
+    "optional": {
+      "scripts/citation_queue.py": "/gw-verify regenerates the author's reader-facing queue with it. Never hand-maintain that file.",
+      "scripts/verification_probe.py": "/gw-verify probes per-host reachability. Without it the Fact-Checker would have to guess, which it is told never to do.",
+      "scripts/pipeline_state.py": "/gw-board reports the BOOK pipeline's state. This engine never computes that itself.",
+      "scripts/chapter_pdf.py": "the verdict package. No engine equivalent yet.",
+      "scripts/verification_packet.py": "external verification loop, outbound.",
+      "scripts/verification_ingest.py": "external verification loop, inbound.",
+      ".claude/OKF.md": "the OKF format contract (L3). Read by 8 book-pipeline commands and by this engine's desks."
+    }
+  }
 }

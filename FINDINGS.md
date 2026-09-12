@@ -148,3 +148,53 @@ confirming the gate blocks.
 are real discovered artifacts that earned their place. Not lost, but not served.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+---
+
+## 2026-09-12 — Plan corrected on the author's challenge; Foundation phase built
+
+The author approved moving the shared tooling and building the Foundation desks, and
+questioned the third recommendation. Both halves of that were right to question.
+
+**"Extract the book into its own repo" was muddled and is withdrawn.** The book repo
+already *is* the book repo; once the engine leaves, that is all it is, and nothing
+needs extracting. It also already scales to more books — `books/<slug>/`, a registry
+keyed by path in the manifest, `/book-switch`, `/book-spark` detecting an existing
+`bookRoot`. Book two is a folder, not a repository. What that recommendation was
+actually reaching for was retiring the legacy pipeline, which is migration switch 3
+and was already written down elsewhere. **Two repos, permanently.**
+
+**Moving the shared scripts would have broken the pipeline still shipping chapters,
+and this was not checked before recommending it.** The book pipeline makes 16 calls
+to `python3 scripts/*.py` across 8 command files, relative to its own root, and
+`.claude/OKF.md` is read by 8 more commands plus an agent. With 16 of 29 chapters
+left, moving them breaks `/book-chapter-refine` and `/book-compile`.
+
+Broken down by actual caller, "L2" is not one block: `okf_validate.py` is genuinely
+shared (3 book callers, 1 here); `pipeline_state.py` has 5 book callers and 0 here;
+`chapter_pdf.py`, `verification_packet.py` and `verification_ingest.py` have none
+here at all. Each sits with its current primary caller, so none is misplaced yet.
+Copying would create drifting validators; pointing the book pipeline at the engine
+would invert the dependency so losing the engine breaks the book. Both worse than
+today.
+
+**So the coupling is now explicit and checked rather than moved.**
+`config/house.json` declares all eight book-repo dependencies with reasons, split
+required from optional; `resolve_book.py` verifies each at session start. A missing
+required one blocks every desk; a missing optional one names the unavailable feature.
+Verified by adding a fake required dependency and confirming exit 1.
+
+**The Foundation phase surfaced a genuine conflict.** Every other skill is forbidden
+from writing inside the book repo, but Foundation must write L4 somewhere. Resolved
+by scope, not by exception: `/gw-found` authors in place only for a book this engine
+created; for a book with a locked foundation that another pipeline ships it **reports
+and refuses**, and `/gw-revise` produces a diff for the author to apply there. The
+Stoic Husband is that case. A second system authoring its premise is precisely how
+two sources of truth start.
+
+`/gw-found`, `/gw-revise` and `/gw-sources` now cover roughly ten of the old
+commands. `/gw-revise` carries the rule that revision is not regeneration: `01-voice.md`
+pairs most rules with the incident that produced them, and regenerating it deletes
+that history silently.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.

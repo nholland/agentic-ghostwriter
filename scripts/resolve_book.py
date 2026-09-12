@@ -137,13 +137,25 @@ def inspect(repo_root, require_okf):
     elif require_okf:
         problems.append(f"REQUIRED missing: {rel}/okf/ (--require-okf)")
 
+    # Every book-repo file this engine calls, checked by name. These are declared
+    # in config/house.json rather than scattered through skill prose so the
+    # coupling is auditable in one place - and so a missing one surfaces at
+    # session start instead of halfway through a chapter.
+    cfg = load_config()
+    deps = cfg.get("book_repo_dependencies", {})
+    info["dependencies"] = {"required": {}, "optional": {}}
+    for kind in ("required", "optional"):
+        for rel, why in (deps.get(kind) or {}).items():
+            if rel.startswith("_"):
+                continue
+            full = os.path.join(repo_root, rel)
+            present = os.path.isfile(full)
+            info["dependencies"][kind][rel] = {"present": present, "why": why}
+            if not present and kind == "required":
+                problems.append(f"REQUIRED book-repo dependency missing: {rel} - {why}")
+
     validator = os.path.join(repo_root, "scripts", "okf_validate.py")
     info["okf_validate"] = validator if os.path.isfile(validator) else None
-    if not info["okf_validate"]:
-        problems.append(
-            "cannot find scripts/okf_validate.py in the book repo - the citation "
-            "gate cannot run, and this pipeline must not write prose without it"
-        )
 
     chapters = os.path.join(book_root, "chapters")
     info["chapters"] = chapters
@@ -202,7 +214,17 @@ def main():
             print(f"  okf         : {i.get('okf_concepts')} concepts at {i['okf']}")
         else:
             print("  okf         : ABSENT")
-        print(f"  okf_validate: {i.get('okf_validate') or 'NOT FOUND'}")
+        deps = i.get("dependencies", {})
+        req, opt = deps.get("required", {}), deps.get("optional", {})
+        if req or opt:
+            miss_r = [k for k, v in req.items() if not v["present"]]
+            miss_o = [k for k, v in opt.items() if not v["present"]]
+            print(f"  book-repo deps: {len(req) - len(miss_r)}/{len(req)} required, "
+                  f"{len(opt) - len(miss_o)}/{len(opt)} optional present")
+            for k in miss_r:
+                print(f"    MISSING (required) {k}")
+            for k in miss_o:
+                print(f"    missing (optional) {k} - the feature it serves is unavailable")
         if i.get("optional_present"):
             print(f"  also present: {', '.join(i['optional_present'])}")
         if rep["problems"]:

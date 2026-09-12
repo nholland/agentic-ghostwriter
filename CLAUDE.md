@@ -114,11 +114,16 @@ book repo, so four of its scripts are engine code this repo calls by name.
 
 Two consequences to be honest about when the author asks what this system can do:
 
-- **No desk writes L4.** Every desk reads the premise, voice, audience and outline;
-  none produces them. This system continues a book; it cannot start one.
+- **Only `/gw-found` writes L4, and only for a book this engine created.** For a book
+  another pipeline ships — The Stoic Husband — it reports and refuses, and
+  `/gw-revise` produces a diff the author applies there. Two systems authoring one
+  book's premise is how two sources of truth begin.
 - **This repo keeps no session memory.** `progress.md` and `parking-lot.md` live in
   the book repo. `/gw-board` reads state and writes none. The inbox is the only
   durable record here.
+
+**Two repos, not three.** The book repo already is the book repo, and already holds
+a registry for multiple books. Book two is a new folder there, never a new repository.
 
 When adding anything, ask which layer it is. Book-specific goes to the book repo;
 book-agnostic stays here. Where something is in the wrong place, write it down
