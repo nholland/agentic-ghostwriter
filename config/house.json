@@ -1,0 +1,47 @@
+{
+  "_comment": "Single source of truth for the counted voice rules. Every threshold here is transcribed from books/the-stoic-husband/01-voice.md 'Counted rules' (line 107) in the playground repo. Do not invent a threshold: if a rule is not in 01-voice.md, it does not belong here.",
+  "bookRoot": "../Playground-260420/books/the-stoic-husband",
+  "voice_rules": {
+    "em_dash_max": {
+      "value": 0,
+      "source": "01-voice.md Never Do: 'Never use em-dashes'",
+      "exception": "Inside a direct quotation from a published translation, where the citation concept's verification_note records the dash as the translator's own. Quoted and blockquoted spans are reported separately, never counted against this cap."
+    },
+    "bold_max_per_piece": {
+      "value": 1,
+      "source": "01-voice.md Counted rules: 'the bold cap (at most one per piece)'"
+    },
+    "long_sentence_word_threshold": {
+      "value": 25,
+      "source": "01-voice.md: 'no more than roughly 10% of a chapter's sentences should run 25 words or longer'"
+    },
+    "long_sentence_max_share": {
+      "value": 0.10,
+      "source": "01-voice.md Counted rules: 'the long-sentence cap (<=10% of sentences at 25+ words)'"
+    },
+    "you_density_min_per_1000": {
+      "value": 40,
+      "source": "01-voice.md Counted rules: 'the direct-address floor (you/your at 40+ per 1,000 words)'"
+    },
+    "metaphor_family_max_per_1000": {
+      "value": 3,
+      "source": "01-voice.md / refine Cat H: 'more than roughly 3 times per 1,000 words'",
+      "note": "Requires the drafter to declare the chapter's anchor metaphor family in Draft Notes. Undeclared means unchecked, and the script says so rather than passing silently."
+    },
+    "rhetorical_device_max": {
+      "value": 2,
+      "source": "01-voice.md Counted rules: 'the rhetorical-device cap (no single sentence-shape more than twice)'",
+      "note": "Only mechanically detectable shapes are counted. Reported as CANDIDATES, never as a verdict - see voice_check.py header."
+    },
+    "ending_sentences": {
+      "value": 1,
+      "source": "01-voice.md Never Do: 'Never write two endings' - the close is exactly one sentence"
+    }
+  },
+  "stoic_terms": [
+    "prohairesis", "hegemonikon", "phantasia", "askesis", "apatheia",
+    "ataraxia", "oikeiosis", "sympatheia", "eudaimonia", "logos",
+    "prosoche", "premeditatio malorum", "amor fati", "kathekon"
+  ],
+  "gloss_window_chars": 260
+}

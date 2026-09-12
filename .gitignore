@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Bake-off working files are real artifacts and ARE tracked, except the seal,
+# which must not be readable from a diff before the verdict is written.
+bakeoff/**/.sealed.json

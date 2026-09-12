@@ -1,0 +1,7 @@
+{
+  "name": "gw",
+  "description": "The Agentic Ghostwriter - a Level 3 book production house. Cold desks (Ghostwriter, Line Editor, Conformance Checker) gated by scripts and by each other, so the author's time goes to the interview and the verdict.",
+  "version": "0.1.0",
+  "author": { "name": "Nicholas Holland" },
+  "repository": "https://github.com/nholland/agentic-ghostwriter"
+}
