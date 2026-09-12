@@ -79,7 +79,7 @@ def walk(root):
 
 
 def check():
-    drift = []
+    drift = list(check_hooks())
     for src_rel, dst_rel in PAIRS:
         src, dst = os.path.join(REPO, src_rel), os.path.join(REPO, dst_rel)
         s, d = walk(src), walk(dst)
@@ -98,8 +98,43 @@ def check():
     return drift
 
 
+def sync_hooks():
+    """hooks/hooks.json is derived from .claude/settings.json. The docs say the
+    two formats are identical, so this is a straight extraction of the "hooks"
+    key - one canonical copy, one derived, same as the skills and agents."""
+    import json
+    src = os.path.join(REPO, ".claude", "settings.json")
+    dst = os.path.join(REPO, "hooks", "hooks.json")
+    if not os.path.isfile(src):
+        return 0
+    with open(src, encoding="utf-8") as fh:
+        settings = json.load(fh)
+    hooks = settings.get("hooks")
+    if not hooks:
+        return 0
+    os.makedirs(os.path.dirname(dst), exist_ok=True)
+    with open(dst, "w", encoding="utf-8") as fh:
+        json.dump({"_derived_from": ".claude/settings.json - do not edit; run scripts/sync_plugin_layout.py",
+                   "hooks": hooks}, fh, indent=2)
+        fh.write("\n")
+    return 1
+
+
+def check_hooks():
+    import json
+    src = os.path.join(REPO, ".claude", "settings.json")
+    dst = os.path.join(REPO, "hooks", "hooks.json")
+    if not os.path.isfile(src):
+        return []
+    if not os.path.isfile(dst):
+        return ["hooks/hooks.json missing - derive it from .claude/settings.json"]
+    a = json.load(open(src, encoding="utf-8")).get("hooks")
+    b = json.load(open(dst, encoding="utf-8")).get("hooks")
+    return [] if a == b else ["hooks/hooks.json differs from .claude/settings.json hooks"]
+
+
 def sync():
-    n = 0
+    n = sync_hooks()
     for src_rel, dst_rel in PAIRS:
         src, dst = os.path.join(REPO, src_rel), os.path.join(REPO, dst_rel)
         if not os.path.isdir(src):

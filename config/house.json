@@ -80,7 +80,8 @@
       "scripts/chapter_pdf.py": "the verdict package. No engine equivalent yet.",
       "scripts/verification_packet.py": "external verification loop, outbound.",
       "scripts/verification_ingest.py": "external verification loop, inbound.",
-      ".claude/OKF.md": "the OKF format contract (L3). Read by 8 book-pipeline commands and by this engine's desks."
+      ".claude/OKF.md": "the OKF format contract (L3). Read by 8 book-pipeline commands and by this engine's desks.",
+      ".claude/LEARNINGS.md": "the old pipeline's incident archive: 14 retrospectives on how the SYSTEM fails, not the book. Engine memory (L1) that lives in the book repo. This house's FINDINGS.md is its successor; read LEARNINGS.md before repeating a failure it already recorded."
     }
   }
 }

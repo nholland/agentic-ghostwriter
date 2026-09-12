@@ -1,5 +1,4 @@
 {
-  "_derived_from": ".claude/settings.json - do not edit; run scripts/sync_plugin_layout.py",
   "hooks": {
     "SessionStart": [
       {
