@@ -100,3 +100,51 @@ first test of whether the inbox holds what the author would want to rule on:
 below the you-density floor.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+---
+
+## 2026-09-12 — Dependency audit: this repo is an add-on, not a system
+
+Prompted by the author's question: *if we accidentally lost the playground folder,
+what would we lose?* Answered empirically rather than by reasoning. Full model and
+tables in `ARCHITECTURE.md`; the findings that changed the picture:
+
+**Four of the book repo's scripts are engine code, not book content, and this repo
+calls them by name.** `okf_validate.py`, `citation_queue.py`,
+`verification_probe.py`, `pipeline_state.py`. Losing the book repo would make
+`okf_gate.py` fail closed permanently, stopping every prose-writing skill. The
+dividing line between the two repos is supposed to be book-specific versus
+book-agnostic, and these four sit on the wrong side of it. Recorded as open; the fix
+is to *move* them, never to copy, since two validators drift.
+
+**Nothing here serves the Foundation phase.** The book repo has 41 commands; this
+repo has 10 skills, and all ten serve the per-chapter phase. There is no
+`/gw-spark`, `/gw-voice`, `/gw-audience`, `/gw-outline`. Every cold desk *reads* the
+premise, voice, audience and outline; **no desk writes any of them.** So this system
+can continue a book and cannot start one, which makes "publishing house" an
+overstatement until the Developmental Editor's foundation half exists.
+
+**Personas were already covered, by accident rather than design.** Both reader
+personas are sections inside `02-audience.md`, not separate documents, and three
+desks already read that file. Worth recording because the question "are personas
+handled" had a yes answer that nobody had verified.
+
+**`config/house.json` was a derived file with nothing deriving it — the
+citation-manifest.md failure, committed inside a repo whose README cites that
+failure three times.** Eight counted thresholds were transcribed by hand from
+`01-voice.md`. Had the author raised the you-density floor in the spec,
+`voice_check.py` would have gone on enforcing 40 forever and reported PASS.
+
+Fixed as far as it honestly can be: each threshold now carries a `spec_probe` regex
+that must still match `01-voice.md`, `voice_rules_check.py` asserts all eight, and
+`okf_gate.py` calls it so the check has a caller. Full derivation is not possible —
+the spec states its thresholds in prose, and parsing prose into numbers would layer
+a new guess on the old one — so the check proves the *source wording* is still
+present and fails loudly when it is not. Verified by tampering with one probe and
+confirming the gate blocks.
+
+**Artifacts with no desk:** `callouts.md`, `elevator-pitch.md`,
+`tactics-review.md`, `sweep-report.md`, `parts/`, `appendix/`, `visuals/`. Several
+are real discovered artifacts that earned their place. Not lost, but not served.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.

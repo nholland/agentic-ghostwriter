@@ -71,6 +71,15 @@ def main():
               file=sys.stderr)
         return 1
 
+    # The voice-rule drift check runs here so that it has a caller. A check with
+    # no caller is decoration: okf_validate.py itself sat uninvoked by anything in
+    # the book repo while a rule called it "Enforcement".
+    vrc = subprocess.run(
+        [sys.executable, os.path.join(HERE, "voice_rules_check.py")],
+        capture_output=True, text=True,
+    )
+    voice_drift = vrc.returncode != 0
+
     proc = subprocess.run(
         [sys.executable, validator, book_rel, "--strict"],
         cwd=repo_root, capture_output=True, text=True,
@@ -78,9 +87,12 @@ def main():
     out = (proc.stdout or "") + (proc.stderr or "")
     warnings = [ln.strip() for ln in out.splitlines() if ln.strip().startswith("!")]
 
-    blocked = proc.returncode != 0 or (a.warnings_fatal and warnings)
+    blocked = (proc.returncode != 0 or voice_drift
+               or (a.warnings_fatal and warnings))
     result = {
         "gate": "BLOCKED" if blocked else "PASS",
+        "voice_rules_drift": voice_drift,
+        "voice_rules_output": vrc.stdout.strip(),
         "validator": validator,
         "bookRoot": book_rel,
         "returncode": proc.returncode,
@@ -93,8 +105,13 @@ def main():
     else:
         print(out.strip())
         print()
+        if voice_drift:
+            print(vrc.stdout.strip())
+            print()
         if blocked:
-            print("okf_gate: BLOCKED. Do not write prose. Fix the bundle first.")
+            print("okf_gate: BLOCKED. Do not write prose.")
+            if voice_drift:
+                print("         The counted thresholds may no longer match 01-voice.md.")
             if a.warnings_fatal and warnings and proc.returncode == 0:
                 print(f"         (blocked on {len(warnings)} warning(s) because "
                       f"--warnings-fatal was passed)")

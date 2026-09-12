@@ -10,6 +10,12 @@ input**. Nothing here ever writes inside it.
 > **Status: V1 of the roster is defined and wired. No desk has produced a chapter
 > yet.** The pipeline in `Playground-260420` is still the one that ships. What has
 > actually been *measured* is in `FINDINGS.md`.
+>
+> **This repo is an add-on to the book repo, not yet a standalone system.** Every
+> desk serves the per-chapter phase; nothing here serves Foundation, so a book can
+> be continued but not started. Four of the book repo's production scripts are
+> engine code this repo calls by name. `ARCHITECTURE.md` has the seven-layer model,
+> the full "if we lost the book repo" audit, and what to move where.
 
 ---
 

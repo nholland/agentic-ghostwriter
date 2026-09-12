@@ -105,6 +105,25 @@ An inbox item he cannot answer without scrolling back is not finished.
 
 ---
 
+## Layers, and what this repo does not own
+
+`ARCHITECTURE.md` is the map. In short: **L1 the House, L2 production tooling, L3
+format contracts** are book-agnostic and belong here; **L4 constitution, L5 the OKF
+bundle, L6 output, L7 memory** belong to the book. Today L2 and L3 still sit in the
+book repo, so four of its scripts are engine code this repo calls by name.
+
+Two consequences to be honest about when the author asks what this system can do:
+
+- **No desk writes L4.** Every desk reads the premise, voice, audience and outline;
+  none produces them. This system continues a book; it cannot start one.
+- **This repo keeps no session memory.** `progress.md` and `parking-lot.md` live in
+  the book repo. `/gw-board` reads state and writes none. The inbox is the only
+  durable record here.
+
+When adding anything, ask which layer it is. Book-specific goes to the book repo;
+book-agnostic stays here. Where something is in the wrong place, write it down
+rather than leaving the coupling unrecorded.
+
 ## Status
 
 **V1 of the roster is defined; none of it has produced a chapter yet.** The book
