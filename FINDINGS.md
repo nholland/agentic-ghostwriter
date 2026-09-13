@@ -262,3 +262,62 @@ it against the real repo where the right answer was already known. The comment i
 the script now records this so the next reader does not "simplify" it back.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+
+---
+
+## 2026-09-13 — Session management and learning: hooks and a proposing desk, not agents
+
+The author asked whether to add a Session Agent for git and the manifest, and a
+Learnings Agent that recursively improves the system. The incident record answers
+both, and the answer is the same: **no agent — hooks, scripts, and one desk that
+proposes and never applies.**
+
+**Git.** Every git failure in `LEARNINGS.md` was a model following rule text: the
+sync block copied into twenty skills with eighteen wrong; a session 13 commits
+behind main that bypassed the freshness guard by hand; a branch scan that reasoned
+about commit counts and misreported four branches until it diffed actual trees. The
+confusion the author actually reported was simpler than any of them: not knowing
+whether "pushed" meant the session branch or main. So the engine now has what the
+book repo's hooks proved: `session-start.sh` handles branches (session/ branch from
+main, fast-forward when behind, hands off when diverged); `session-stop.sh` commits
+**work paths only** and writes a derived `runs/log.md`; `sync.py` does push,
+merge-main and a fast-forward-only land, and prints the branch by name every time.
+Rule files are deliberately not auto-committed.
+
+**The manifest** does not need managing yet: the engine reads the book's manifest
+and may not write it, and its own state is derived from artifacts by `next.py`.
+The question returns at migration switch 2, and the answer then is `stage_done.py`
+from the design doc — a script.
+
+**Session memory** is `runs/log.md`, appended by the Stop hook from git and the
+oracle. It cannot carry a wrong date or a stale "next" — the two ways
+`progress.md` failed. The author's own words stay where he said them.
+
+**Learning.** A system that recursively improves itself is the loop the retro hook
+was redesigned to break: the old ledger grew from 739 to 6,026 words in 27 days
+when retrospectives fed on their own output, and five of nine sessions went to
+maintenance instead of the book. The safe version is the **Archivist**
+(`gw-retro`): dispatched cold when the hook fires, it answers the three questions,
+reads all of `FINDINGS.md` for a recurring failure *shape*, and proposes — every
+addition paired with a deletion, preferring a check with a caller over rule text.
+It never edits a rule. The author does, or nobody does.
+
+**Still unproven:** every desk, the Archivist included. Nothing here has drafted a chapter.
+
+
+**Seventh same-shape defect, in the script built to remove ambiguity.**
+`sync.py --status` reported "0 ahead, 0 behind" and "branch not on origin" for
+`main`, which was on origin. `git branch -r` was empty: this repo was cloned while
+the remote was empty, and an empty clone never writes `remote.origin.fetch`, so no
+fetch ever created `refs/remotes/origin/*`. Every `rev-list --count ...origin/main`
+errored, and `int(behind or 0)` turned the error into zero. The session-start hook
+had the same hole and would have fast-forwarded against nothing.
+
+Fixed in three places with one principle: **unknown is rendered as unknown, never
+as 0.** `sync.py` and the hook now write the standard refspec when it is missing
+and fetch; a missing `origin/main` prints UNKNOWN and makes `--land` refuse;
+`next.py`'s branch line says "vs main: UNKNOWN" instead of inventing a comparison.
+Seven defects now share the shape - a plausible number, no error - and every one
+was caught the same way, by running the thing where the right answer was already
+known. That pattern is the Archivist's first standing instruction.

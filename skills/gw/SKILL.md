@@ -67,6 +67,10 @@ dispatch.
 | `change the voice`, `fix the outline`, `revise`, `the premise is wrong` | `/gw-revise <artifact>` |
 | `I have material`, `sources`, `read these`, `ingest` | `/gw-sources` |
 | `interview`, `research`, `draft`, `refine` + N | the stage command — advanced, for deliberate re-runs |
+| `land`, `commit to main`, `merge to main`, `ship it` | `python3 scripts/sync.py --land` — **only on his explicit word**; report which branch, by name |
+| `push`, `save`, `back this up` | `python3 scripts/sync.py --push` — say the branch name in the reply |
+| `where's my work`, `what branch`, `did that land` | `python3 scripts/sync.py --status` |
+| `retro`, `what did we learn`, `retrospective`, `what went wrong` | dispatch `gw-retro` cold; show its proposals; apply nothing without his yes |
 | `help`, `commands`, `what can you do` | the full table above, one line each, then the menu |
 
 **"Next" means this house's next.** If he plainly means the book pipeline, say so
@@ -80,7 +84,14 @@ menu. Never guess into an action that writes, dispatches a desk, or spends his
 time. A wrong guess on "status" costs nothing; a wrong guess on "draft 12" costs a
 chapter run.
 
+## On git, specifically
+
+**Always name the branch when reporting a push or a land.** "Pushed" alone is the
+ambiguity the author actually reported. The Stop hook commits work paths on its
+own; `sync.py` does everything else and prints the branch every time. Nothing
+moves `main` except `--land`, and only when he said so in words.
+
 ## What this command never does
 
-Compute "next" on its own. Invent a desk. Run a stage he did not ask for. Hide the
+Land on main unprompted. Compute "next" on its own. Invent a desk. Run a stage he did not ask for. Hide the
 stage commands — they are not secret, just not the front door.

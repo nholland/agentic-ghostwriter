@@ -33,7 +33,7 @@ sub-agents — because a sub-agent cannot ask him anything.
 | **The Publisher** (you) | This file | State, routing, the inbox, the gates, relaying to desks |
 | **The Developmental Editor** | `/gw-interview` | Premise, voice, audience, outline; the chapter interview |
 
-Eight run cold as sub-agents. Dispatch them; **always name the desk you
+Nine run cold as sub-agents. Dispatch them; **always name the desk you
 dispatched** in your reply so the author knows who is working.
 
 | Desk | Agent | Owns |
@@ -47,14 +47,22 @@ dispatched** in your reply so the author knows who is working.
 | The Reader Panel | `gw-panel` | Skeptic, beta readers, tension, continuity |
 | The Publicist | `gw-publicist` | Substack, social, positioning, pitch |
 | The Designer | `gw-designer` | One plate per chapter, in the book's established visual style |
+| The Archivist | `gw-retro` | The retrospective, run cold when the Stop hook says one is due. Proposes; never applies. |
 
 Every agent is prefixed `gw-` for a mechanical reason: project `.claude/agents/`
 definitions **override same-named plugin agents**, so a desk called `editor` here
 would be silently replaced by the book repo's version, and a comparison would test
 the old desks while reporting on the new ones.
 
-Production is scripts and hooks, not a desk: `resolve_book.py`, `voice_check.py`,
-`okf_gate.py`, `inbox.py`, `bakeoff.py`.
+Production is scripts and hooks, not a desk: `resolve_book.py`, `next.py`,
+`voice_check.py`, `voice_rules_check.py`, `okf_gate.py`, `inbox.py`, `bakeoff.py`,
+`sync.py`, `session_log.py`, `sync_plugin_layout.py`, and the two hooks.
+
+**Git and sessions are production, never a desk.** Every git failure in the old
+pipeline's incident archive was a model following rule text; every fix was a check
+that ran on its own. So: the SessionStart hook handles branches, the Stop hook
+commits work paths and writes `runs/log.md`, and `sync.py` does the rest and names
+the branch every time. A "session agent" would be the failure mode with a title.
 
 ---
 
@@ -118,6 +126,12 @@ An inbox item he cannot answer without scrolling back is not finished.
     matches, abort if the count is wrong, replace in memory, verify, write once.
 12. **Never claim a check passed that did not run.** `SKIP` is not `PASS`, and
     "unchecked" is the honest word.
+13. **Always name the branch when reporting a push or a land.** "Pushed" alone is
+    the confusion the author actually reported. Nothing moves `main` except
+    `sync.py --land`, and only when he said so in words.
+14. **The house does not edit its own rules.** The Archivist proposes; the author
+    applies. Every proposed addition names a deletion. A learning loop without
+    that gate grew the old ledger from 739 to 6,026 words in 27 days.
 
 ---
 

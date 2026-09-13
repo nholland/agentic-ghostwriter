@@ -173,6 +173,28 @@ around; it is the dividing line.
 
 ---
 
+## Sessions, branches, and landing on main
+
+None of this is a desk. It is two hooks and a script, because the incident record
+is unambiguous: every git failure was a model following rule text, and every fix
+was a check that ran on its own.
+
+| Moment | What runs | Does |
+|---|---|---|
+| Session start | `session-start.sh` | On `main` in a remote session → creates `session/<stamp>` from origin/main. Behind → fast-forwards. Diverged → says so, touches nothing. Then the clock, the book, the board. |
+| Session stop | `session-stop.sh` | Commits **work paths only** (`runs/`, `bakeoff/`, `inbox/`, `FINDINGS.md`). Appends a derived entry to `runs/log.md`. Then asks whether a retrospective is due. |
+| Author says "land it" | `sync.py --land` | Fast-forward only. Refuses if diverged. Prints the branch and the sha. |
+| Anytime | `sync.py --status` | Which branch, ahead/behind main, unpushed, uncommitted. `/gw` shows the same line. |
+
+Rule files are **not** auto-committed. Editing the rules is a deliberate act the
+author should see as its own commit.
+
+`runs/log.md` is the engine's session memory and it is derived, never typed: the
+real clock, the branch, the files that changed, and NEXT_ACTION from the oracle.
+It cannot carry a wrong date or a stale "next" — the two ways the old
+`progress.md` failed. What it cannot carry is the author's own words; those stay
+where he said them, in `runs/chNN/interview.md` and on each inbox resolution.
+
 ## The retrospective, which is not optional
 
 Every twelve commits that touch the work — `runs/`, `scripts/`, `config/` — the
@@ -186,6 +208,13 @@ counted toward the threshold that triggered the next rule-editing retrospective 
 loop with no damping that grew the old ledger from 739 to 6,026 words in 27 days
 and spent five of nine sessions on pipeline maintenance instead of the book. **A
 retrospective is triggered by writing, not by its own output.**
+
+The retrospective is run by a desk, the **Archivist** (`gw-retro`), cold, when the
+hook fires. It reads the range, answers the three questions, and reads all of
+`FINDINGS.md` for a failure *shape* recurring — six defects in one week shared one
+shape. It **proposes and never applies**: the author approves every change, and
+every addition names a deletion. That is the difference between a house that
+learns and one that edits its own rules until nobody can find them.
 
 For this house there is a third question the old pipeline never had to ask: *did
 a cold desk decide something silently that should have gone to the inbox?* The

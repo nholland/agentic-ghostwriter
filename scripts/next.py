@@ -147,8 +147,44 @@ def compute(book):
     }
 
 
+def branch_line():
+    """From local refs only - no fetch here. session-start.sh fetched already."""
+    import subprocess
+    def g(*a):
+        try:
+            return subprocess.run(["git", *a], cwd=REPO, capture_output=True, text=True).stdout.strip()
+        except Exception:
+            return ""
+    br = g("symbolic-ref", "--short", "HEAD")
+    if not br:
+        return None
+    # A missing origin/main must read as unknown, never as 0. The first version
+    # used `or "0"` and reported "0 ahead, 0 behind" on a repo whose empty clone
+    # had no remote-tracking refs at all.
+    has_main = subprocess.run(["git", "rev-parse", "--verify", "--quiet", "origin/main"],
+                              cwd=REPO, capture_output=True).returncode == 0
+    ahead = g("rev-list", "--count", f"origin/main..{br}") if has_main else ""
+    behind = g("rev-list", "--count", f"{br}..origin/main") if has_main else ""
+    dirty = len([l for l in g("status", "--porcelain").split("\n") if l.strip()])
+    note = ""
+    if not has_main:
+        note = " · vs main: UNKNOWN (origin/main not fetched)"
+    elif br == "main":
+        note = " · on main"
+    elif ahead.isdigit() and behind.isdigit() and int(ahead) and not int(behind):
+        note = f" · {ahead} commit(s) not yet on main (land with: /gw land)"
+    elif behind.isdigit() and int(behind):
+        note = f" · {behind} BEHIND main"
+    if dirty:
+        note += f" · {dirty} uncommitted"
+    return f"branch: {br}{note}"
+
+
 def render(state):
     L = []
+    bl = branch_line()
+    if bl:
+        L.append(bl)
     shipped = len(state["shipped_by_book_pipeline"])
     L.append(f"{state['book']} · {state['chapters_total']} chapters · {shipped} shipped on the book pipeline")
     eng = state["engine_chapters"]

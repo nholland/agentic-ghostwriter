@@ -57,7 +57,7 @@ COUNT=${COUNT:-0}
 
 if [ "$COUNT" -ge "$THRESHOLD" ] 2>/dev/null; then
   echo "$HEAD_SHA" > "$MARKER_FILE"
-  echo "RETRO CHECK: $COUNT commits have touched the work ($WATCHED_PATHS) since the last retrospective. Before continuing, run one. Answer THREE questions, in this order:
+  echo "RETRO CHECK: $COUNT commits have touched the work ($WATCHED_PATHS) since the last retrospective. Before continuing, dispatch the Archivist (agent gw-retro) to run it cold, then show the author its proposals - do not apply them yourself. It answers THREE questions, in this order:
 
 (1) WHICH EXISTING RULES DID WE VIOLATE OR IGNORE, AND WHY? Answer this first and honestly. A rule that is routinely bypassed is mis-placed (the stage that needs it cannot see it), mis-specified, or dead. This is usually the more valuable question, and on the old pipeline it was never asked: a stage that could not check a chapter against its own spec was visible for six chapters and no retrospective surfaced it, because every retrospective only looked for rules to add.
 

@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT:-$CLAUDE_PROJECT_DIR}/.claude/hooks/retro-check.sh\""
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT:-$CLAUDE_PROJECT_DIR}/.claude/hooks/session-stop.sh\""
           }
         ]
       }

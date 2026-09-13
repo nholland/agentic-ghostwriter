@@ -19,7 +19,7 @@ of them makes the ownership question answerable.
 |---|---|---|---|---|
 | **L0** | **Harness** — Claude Code: skills, agents, hooks, plugin loading | Anthropic ships | No | Neither repo |
 | **L1** | **The House** — the ten desks, their gates, the orchestration | The method improves | No | **Engine** |
-| **L2** | **Production tooling** — validators, state oracles, probes, compile, PDF | A mechanic is fixed | No | **Engine** |
+| **L2** | **Production tooling** — validators, the state oracle, git and session hooks, the session log, probes, compile, PDF | A mechanic is fixed | No | **Engine** |
 | **L3** | **Format contracts** — the OKF schema, manifest schema, `chNN/` layout, frontmatter rules | A format changes | No | **Engine** |
 | **L4** | **Book constitution** — premise, voice, audience + personas, outline, archetype, framework, sources | Phase 1, then rarely | **Yes** | Book |
 | **L5** | **Book knowledge** — the OKF bundle, 185 typed concepts | Continuously, per chapter | **Yes** | Book |
