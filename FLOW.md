@@ -98,6 +98,24 @@ to write.
 
 ---
 
+## The companion artifacts, and which desk owns each
+
+The old pipeline accumulated seven artifacts outside the chapter flow. Four are
+owned here; three were orphans and two of those are decisions, not gaps.
+
+| Artifact | Ships to readers? | Owner here |
+|---|---|---|
+| `parts/part-N-*.md` — Part opening pages | **Yes**, inside the manuscript | `/gw-compile` emits them before each Part's first chapter |
+| `appendix/practice-guide.md` — the accumulating field guide | **Yes**, as a companion | The Line Editor appends a section per chapter at refine |
+| `visuals/*.svg` — one plate per chapter | **Yes** | The Designer |
+| `sweep-report.md` — whole-book coherence | No, internal | `/gw-qa`, written to `runs/qa/<date>-qa.md` |
+| `callouts.md` — pull quotes feeding marketing | No, feedstock | The Publicist, to `runs/marketing/callouts-ch01-chNN.md` |
+| `tactics-review.md` — reader-facing practice companion | **Yes**, if kept | **Open** — overlaps the practice guide; merge or retire |
+| `elevator-pitch.md` — the river/oak/sun triad | No, positioning | **Open** — names the five Parts; probably belongs in `00-premise.md` |
+
+The two open rows are in the inbox. They are author decisions: inventing a desk
+for an artifact that may simply be a duplicate is how a roster grows past its use.
+
 ## Where reader feedback goes
 
 The author hands it to the Publisher through `/gw-signal N` and never has to pick

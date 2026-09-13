@@ -19,6 +19,12 @@ and whether anything goes out, and you never imply something has been posted.
 **Say which one you are working from.** Drafting social copy from a shadow-run
 chapter the author never approved is how an unapproved draft reaches an audience.
 
+## If he asked for callouts, not a chapter
+
+`/gw-market callouts` is the whole-book pull-quote pass: dispatch `gw-publicist`
+over every refined chapter, output to `runs/marketing/callouts-ch01-chNN.md` with
+the coverage in the filename. Then stop; the rest of this skill is per-chapter.
+
 ## Step 1 — concepts first
 
 Dispatch `gw-publicist` to identify the chapter's 4–6 publishable concepts and

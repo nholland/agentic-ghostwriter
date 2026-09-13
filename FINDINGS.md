@@ -353,3 +353,48 @@ his word. Recorded as standing rule 14: a phrase he has to recall is a design
 defect, not a training problem.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+---
+
+## 2026-09-13 — The seven orphan artifacts, assessed rather than re-listed
+
+They had been listed twice as "no desk" without anyone asking whether they were
+needed. Assessed against what ships, what references them, and what they claim:
+
+**Three were already covered, and one of those is better covered than before.**
+`parts/` (five reader-facing Part opening pages) is emitted by `/gw-compile`
+before each Part's first chapter. `visuals/` belongs to the Designer.
+`sweep-report.md` is replaced by `/gw-qa` writing `runs/qa/<date>-qa.md` — dated
+by construction, so it cannot silently claim to be current.
+
+**One was a real gap.** `appendix/practice-guide.md` is a **third output of every
+refine** in the old pipeline, committed alongside `refined.md` and
+`distillation.md`, and it is reader-facing: an accumulating field guide meant to be
+read on its own. Nothing in this house produced it. The Line Editor now appends a
+section per chapter, and the skill carries the warning that the file is shared —
+the old compile once lost all ten Practice sections because a generator looked for
+a `## Practice` heading while the field was `**Practice:**`, and nothing errored.
+
+**Two are author decisions, not gaps, and are now inbox items #003 and #004.**
+`tactics-review.md` (2,075 words, reader-facing, "meant to be read on its own")
+covers the same ground as the practice guide at higher polish — one of them is
+redundant and deciding which is not a desk's call. `elevator-pitch.md` is 270 words
+referenced by nothing, yet it is the river/oak/sun triad that names three of the
+five Parts and reads as the cleanest statement of the premise in the repo.
+Inventing a desk for an artifact that may be a duplicate is how a roster grows past
+its use.
+
+**One got a home.** `callouts.md` feeds marketing and is referenced by ten old
+command files; the Publicist now owns the whole-book pull-quote pass.
+
+**The finding underneath all of it, and it is the same shape again.** Three of the
+seven describe a book that no longer exists: `callouts.md` and `tactics-review.md`
+say "Chapters 1–8", `sweep-report.md` says "Ch01–Ch05", and eleven chapters are
+refined. Each file looks current. That is `citation-manifest.md` in a third form —
+a file presenting itself as live while nothing keeps it true. Generalized as
+standing rule 15: **a point-in-time artifact carries its coverage in its filename,
+or it is regenerated wholesale.** Hence `runs/qa/<date>-qa.md` and
+`runs/marketing/callouts-ch01-chNN.md`; a name that states its range cannot lie
+about being current. An artifact that accumulates appends and never rewrites.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.

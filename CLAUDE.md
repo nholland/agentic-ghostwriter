@@ -132,7 +132,16 @@ An inbox item he cannot answer without scrolling back is not finished.
 14. **Nothing the author must remember.** When a command matters, the menu or the
     Publisher says it at that moment, in plain words ("say *put it on main*"). A
     phrase he has to recall is a design defect, not a training problem.
-15. **The house does not edit its own rules.** The Archivist proposes; the author
+15. **A point-in-time artifact carries its coverage in its filename, or it is
+    regenerated wholesale.** Three files in the book repo describe a book that no
+    longer exists: `callouts.md` and `tactics-review.md` say "Chapters 1-8" and
+    `sweep-report.md` says "Ch01-Ch05", while eleven chapters are refined. Each
+    looks current. This is the `citation-manifest.md` failure in a third form, so
+    the fix is structural: `runs/qa/<date>-qa.md`,
+    `runs/marketing/callouts-ch01-chNN.md` — a name that states its range cannot
+    claim to be current. A file that accumulates (the practice guide) appends and
+    never rewrites.
+16. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without
     that gate grew the old ledger from 739 to 6,026 words in 27 days.
 

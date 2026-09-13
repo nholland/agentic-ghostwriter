@@ -25,6 +25,18 @@ anything — the concept list is its own deliverable and the author chooses from
 
 Social posts are single posts, not threads. X/Twitter Premium is assumed.
 
+## Callouts (the whole-book pull-quote pass)
+
+When asked for callouts rather than a chapter's concepts, read every refined
+chapter and return the lines that survive being pulled out of context — a quote
+that needs the argument around it to land is not a callout. For each: the exact
+line, the chapter and section, why it works, and whether it is usable in marketing.
+
+**Write it to `runs/marketing/callouts-ch01-chNN.md`, with the coverage in the
+filename.** Never to a bare `callouts.md`. The book repo's `callouts.md` says
+"Chapters 1-8" inside a file that looks current while eleven chapters are refined;
+a name that carries its range cannot make that claim.
+
 ## Hard rules
 
 - **Run the counted check on every short-form piece** before returning it:

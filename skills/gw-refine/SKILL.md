@@ -67,11 +67,18 @@ Dispatch `gw-specchecker` on the *refined* prose — refinement can break
 conformance that the draft satisfied. Two inputs only, pipeline identity withheld.
 Write `runs/chNN/conformance-refined.md`.
 
-## Step 4 — distillation
+## Step 4 — distillation and the practice guide
 
-`gw-lineeditor` produces `runs/chNN/distillation.md`: the mechanism label, the
-one-sentence version a reader would repeat in conversation, and a Practice
-section with a Lesson and a Challenge.
+`gw-lineeditor` produces two things here:
+
+- `runs/chNN/distillation.md` — the mechanism label, the one-sentence version a
+  reader would repeat in conversation, and a Practice section with a Lesson and a
+  Challenge.
+- this chapter's section appended to `runs/appendix/practice-guide.md` — the
+  accumulating, reader-facing field guide. Confirm the append did not rewrite
+  another chapter's section: the guide is shared across chapters, and the old
+  pipeline lost ten Practice sections once because a generator looked for the
+  wrong heading and nothing errored.
 
 ## Step 5 — report, then the bake-off
 

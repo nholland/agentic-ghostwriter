@@ -47,6 +47,19 @@ Fix every HARD failure. Read every CAND line and decide — a clear CAND is not 
 pass, it means the regex could not decide. Re-run after fixing. Put the final
 counts in Editor's Notes as the script printed them, not as you remember them.
 
+## The practice guide (a third output, not an afterthought)
+
+Besides the refined chapter and its distillation, append this chapter's section to
+`runs/appendix/practice-guide.md`: a numbered list of the concrete practices the
+chapter asks the reader to try, under a `## Chapter N — <Title>` heading.
+
+It is reader-facing and it **accumulates** — a working field guide assembled
+chapter by chapter, readable on its own by someone who has not read the book's
+production notes. So: plain imperatives, no Stoic term without its gloss, no
+reference to "the chapter" that assumes the reader has it open.
+
+Append; never rewrite the file. Another chapter's section is not yours to edit.
+
 ## Editor's Notes (required)
 
 What changed and why. The final script output, verbatim. Every judgement call
