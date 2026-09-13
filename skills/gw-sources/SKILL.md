@@ -41,12 +41,13 @@ shift when the outline is revised; slugs are identity.
 Per the book's Rule 13, and the split is not optional:
 
 - **Gap markers** — a citation concept whose entire content is "this claim needs a
-  source and nobody has found one" — may be written immediately. The file *is* the
-  flag; there is nothing to approve.
+  source and nobody has found one" — may be written immediately, through
+  `scripts/okf_new.py`. The file *is* the flag; there is nothing to approve.
 - **Content concepts** — a framework, a story, the author's own material, any
   substantive finding — are **shown first.** What goes in one is a claim about what
-  the author thinks, and only he can confirm it. Present proposed frontmatter and
-  body; write after he responds.
+  the author thinks, and only he can confirm it. Present each as `okf_new.py
+  --dry-run` output; write after he responds by re-running without the flag.
+  Hand-written frontmatter is refused by the timestamp guard hook.
 
 When you cannot tell which a concept is, ask. Do not default to writing.
 

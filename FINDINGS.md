@@ -441,3 +441,102 @@ deliverable, not seven skills: they share every input, and splitting them is how
 marketing commands happened the first time.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+---
+
+## 2026-09-13 — The optimisation pass: every script under test, every old command covered, Ch12 runnable in parallel
+
+The author asked for a review of the house against the book pipeline, the
+unaccounted items closed, an author-facing map of how it all works, and the
+system ready to run Chapter 12 alongside the book pipeline. What was measured,
+built, and found, in that order.
+
+**Measured first, against the real book.** `resolve_book.py`, `okf_gate.py`,
+`next.py`, `voice_check.py` (Ch11: 2,833 words, every HARD check within 0.2 of
+the recorded numbers) and `sync_plugin_layout.py --check` all ran clean against
+`Playground-260420` from a fresh clone. The engine can see the book. That was
+not assumed.
+
+**Six defects in the engine's own tooling, none of which raised an error.**
+
+1. `inbox.py --close N --resolution "..."` — the command `/gw-inbox` documents
+   for recording the author's ruling — had no `--resolution` argument. Every
+   close would have died on an argparse error. Documented since the first
+   commit; never run.
+2. `session_log.py` tested the *stdout* of `git cat-file -e` and `git merge-base
+   --is-ancestor` against the empty string. Both print nothing either way, so
+   the ancestor check was always true and a missing start sha produced a diff
+   against an invalid ref: an empty entry, silently.
+3. `session-stop.sh` committed the work, then wrote the log, then ran `git
+   commit --amend` to fold it in. Amend acts on whatever HEAD is. In a session
+   that only edited rule files (committed deliberately, possibly pushed) that
+   rewrote the author's commit and folded `runs/log.md` into it — rewriting
+   pushed history, which `sync.py` promises never to do. Now: log first, one
+   commit, no amend.
+4. `gw-draft` and `gw-refine` parked a stuck chapter by writing
+   `runs/chNN/inbox.md`, a second inbox mechanism `/gw-inbox` never read. A
+   question nobody could see. Every skill now writes to `inbox.py`, and
+   `next.py` reads parked chapters from there (the legacy file is reported as
+   legacy, not honoured).
+5. `resolve_book.py` with `$GW_BOOK_REPO` pointing at a non-repo fell through to
+   the config hint and resolved a *different* book. An explicit override that
+   does not resolve now stops with exit 2 and says so.
+6. `gw-specchecker` was a fifth the length of the desk the design said would
+   survive "unchanged": the field table, the `NOT SUPPLIED` word-count rule, the
+   two-verdicts-only rule and the outline-revision-note rule were all gone, and
+   each had been written after a real miss on Ch10. Restored in full.
+
+Same shape as the eight before them. The structural fix, this time, is
+`scripts/tests/run_tests.sh`: 72 assertions running every script against a
+fixture book with a known answer. It found defects 1 and 5 on its first run,
+and two regressions in code written the same hour (a quote mark in a
+timestamp, a definition matched from the next sentence). The book repo had one
+such test; the engine had none for ten scripts while its own ledger recorded
+the pattern eight times.
+
+**Built: the Stage 0 scripts the design named and the house had not.**
+`okf_new.py` (a concept is created only through the clock and the validator;
+never `verified`; the transcription rule and slug integrity refused at write
+time), `term_check.py` (the Rock incident made mechanical: every capitalised
+coinage in a brief resolves to a concept, the constitution, or a definition in
+the text, or it fails — on Ch11's real brief it reports two, both genuine),
+`parked.py` (park, review, close, notes verbatim), and a PreToolUse hook that
+blocks a hand-written concept or a stamp that is not today, on every write.
+
+**Built: the last 13 old commands, and the floor.** `/gw-publish` with a mode
+per deliverable (seven commands, one desk, one skill, coverage stated first and
+carried in the filename); `/gw-found intro`; `/gw-refine --distill-only|--distill-all`;
+`/gw-edit` for the prologue, introduction and part pages; the switch as a view
+(`--book <slug>`); `parked.py` for review and close. And `/gw-floor`: every cold
+stage `next.py --floor` lists, across chapters, dispatched in one turn, with a
+failing chapter parked rather than the floor held. That is the Level 3 handle
+the design described and the old orchestrator could not run.
+
+**Ch12, in parallel.** `next.py` now knows the shape of the bake-off: when the
+book pipeline's `chapters/chNN/research.md` exists and this house has not
+touched the chapter, the oracle's NEXT_ACTION becomes `/gw N --shadow`, and
+`/gw-chapter --shadow` skips the interview and research, drafts cold from that
+brief, records the plan-only gap list as a finding rather than a blocker, and
+runs every gate from the draft onward exactly as a full run would. Today the
+board says Ch12 is at the interview because the brief does not exist yet; the
+moment `/book-chapter-research 12` writes it, the board changes on its own.
+Verified on the fixture (a chapter with a book-side brief and no runs/ dir
+produces `--shadow`) and on the real book (Ch11, which has a brief, reports the
+shadow path when asked directly).
+
+**Rule 8 was contradicted by three desks and is now scoped.** "Never write
+inside the book repo" sat beside a Researcher that writes gap markers into
+`okf/`, a Fact-Checker that edits citations, and a Signal skill that writes
+signal concepts. All three were right: the ledger is shared by design, and both
+pipelines already write it through one validator. The rule now protects what it
+should — the constitution and `chapters/` — and names the one shared write and
+its one door (`okf_new.py`, enforced by the hook).
+
+**Corpus after this pass:** about 13,000 words of desks and skills, up from
+about 9,900, against the book repo's 83,000. The growth is the publication
+stack, the restored checker, and `EDITORIAL-STANDARDS.md` (1,300 words that
+replace three skills' worth of duplicated taxonomy in the book repo when the
+collapse happens). Every addition above names what it replaces.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter. Chapter 12
+is where that changes.

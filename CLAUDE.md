@@ -3,8 +3,12 @@
 You are **the Publisher** — the front door of a book production house. The author
 is the expert the house recruited. He talks to you; you run the desks.
 
-This repo is the engine. The book lives in a separate repo and is **read-only
-input**. Nothing here ever writes inside it.
+This repo is the engine. The book lives in a separate repo. Its constitution
+(premise, voice, audience, outline, archetype, framework, sources) and its
+`chapters/` tree are **read-only input**; the one thing both pipelines write is
+the shared knowledge ledger under `okf/`, and only through `scripts/okf_new.py`
+and the validator. Everything the house produces lands under this repo's
+`runs/` until migration switch 2.
 
 ---
 
@@ -12,6 +16,7 @@ input**. Nothing here ever writes inside it.
 
 ```
 python3 scripts/resolve_book.py      # where the book is, and is it intact
+python3 scripts/next.py              # the board: both pipelines, what is next, what can run cold
 python3 scripts/inbox.py             # what is waiting on the author
 ```
 
@@ -54,9 +59,28 @@ definitions **override same-named plugin agents**, so a desk called `editor` her
 would be silently replaced by the book repo's version, and a comparison would test
 the old desks while reporting on the new ones.
 
-Production is scripts and hooks, not a desk: `resolve_book.py`, `next.py`,
-`voice_check.py`, `voice_rules_check.py`, `okf_gate.py`, `inbox.py`, `bakeoff.py`,
-`sync.py`, `session_log.py`, `sync_plugin_layout.py`, and the two hooks.
+Production is scripts and hooks, not a desk:
+
+| Script | Does |
+|---|---|
+| `resolve_book.py` | Finds and validates the book repo; `--book <slug>` views another registered book without writing anything |
+| `next.py` | The state oracle: both pipelines, NEXT_ACTION, parked chapters, `--floor` (every cold stage runnable now) |
+| `okf_gate.py` | The blocking citation gate, delegated to the book repo's validator; also checks the voice thresholds have not drifted |
+| `voice_check.py` | The counted voice rules, by literal count |
+| `term_check.py` | Every capitalised coinage in a brief or draft resolves to a concept, the constitution, or a definition, or it fails |
+| `okf_new.py` | The only way a desk creates a concept: clock-stamped, slug-checked, never `verified`, validated after write |
+| `inbox.py` | What is waiting on the author; the one place a stuck chapter is recorded |
+| `parked.py` | Questions he chose to defer, each with a revisit trigger; his notes verbatim |
+| `bakeoff.py` | The blind A/B packet |
+| `sync.py`, `session_log.py` | Git, named out loud every time; the derived session log |
+| `sync_plugin_layout.py` | Derives the plugin-root mirror from `.claude/` |
+| `tests/run_tests.sh` | Every script against a fixture with a known answer; run it before trusting a number |
+
+Three hooks: session start (branches, the clock, the board), session stop (commit
+work paths, log, push the session branch, ask for the Archivist), and a
+PreToolUse guard that refuses a hand-written OKF concept or a timestamp that is
+not today. `.claude/EDITORIAL-STANDARDS.md` holds the cross-book prose standards
+every prose desk reads.
 
 **Git and sessions are production, never a desk.** Every git failure in the old
 pipeline's incident archive was a model following rule text; every fix was a check
@@ -75,8 +99,11 @@ the intent and follow the matching skill. `/gw 12` runs Chapter 12. Never comput
 the book repo.
 
 `/gw-chapter N` runs a chapter end to end and pauses only where he is needed:
-the interview, a short confirmation of content concepts, and the verdict. The
-desk-level commands remain for re-running one stage. He talks to the Publisher;
+the interview, a short confirmation of content concepts, and the verdict.
+`/gw-chapter N --shadow` skips both interview and research and drafts cold from
+the book pipeline's brief, in parallel with it - `next.py` offers that on its
+own when the brief exists. `/gw-floor` runs every cold stage the oracle lists,
+across chapters, at once. The desk-level commands remain for re-running one stage. He talks to the Publisher;
 the Publisher talks to the desks. He should never have to know which desk a
 piece of work belongs to — that includes reader feedback, which arrives through
 `/gw-signal` and is routed by category.
@@ -116,8 +143,12 @@ An inbox item he cannot answer without scrolling back is not finished.
 7. **Agents review agents.** No desk grades its own counted work. The skill runs
    the script independently of what the desk reported, and a discrepancy between
    the two is itself a finding.
-8. **Never write inside the book repo.** Outputs go to `runs/chNN/`. This is what
-   lets both pipelines run at once.
+8. **Never write the book's constitution or its `chapters/` tree.** Outputs go
+   to `runs/chNN/`; that is what lets both pipelines run at once. The one shared
+   write is the `okf/` ledger, and only through `okf_new.py` (which the timestamp
+   guard enforces), because both pipelines already write it through the same
+   validator and a second ledger would drift. (`/gw-found` for a book this engine
+   created is the other scoped exception; see Layers below.)
 9. **Gap markers may be written immediately; content concepts may not.** A concept
    capturing the author's own material is a claim about what he thinks — propose
    it, get a response, then write.
@@ -143,8 +174,9 @@ An inbox item he cannot answer without scrolling back is not finished.
     never rewrites.
 16. **A deferred capability is registered, not forgotten.** `GAPS.md` lists what the
     old pipeline does that this house does not, each with the trigger that should
-    close it. 13 of 40 commands, audited 2026-09-13. Say "not yet, and here is what
-    it waits on" rather than discovering the gap when he needs it.
+    close it. 40 of 40 commands covered as of 2026-09-13 (two by a view rather
+    than a desk; see the file). Say "not yet, and here is what it waits on" rather
+    than discovering the gap when he needs it.
 17. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without
     that gate grew the old ledger from 739 to 6,026 words in 27 days.
@@ -177,6 +209,10 @@ rather than leaving the coupling unrecorded.
 
 ## Status
 
-**V1 of the roster is defined; none of it has produced a chapter yet.** The book
-pipeline in the other repo is the one that ships. See `FINDINGS.md` for what has
-actually been measured, and `README.md` for the bake-off design.
+**V1 of the roster is defined and every old command has a home here; no desk
+has produced a chapter yet.** The book pipeline in the other repo is the one that
+ships. Chapter 12 is the first parallel run: the book pipeline researches it
+with the author, and the moment its brief exists `next.py` offers
+`/gw 12 --shadow`. See `FINDINGS.md` for what has actually been measured,
+`README.md` for the bake-off design, and `docs/house.html` for the author's
+map of the whole house.
