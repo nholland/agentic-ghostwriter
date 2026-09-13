@@ -42,6 +42,12 @@ The House · {book} · {shipped} of {total} shipped
     /gw help          everything else
 ```
 
+**Nothing here needs remembering.** If `next.py`'s branch line shows commits not
+yet on main, add a line in plain words — *"3 commits are saved on this branch and
+not yet on main. Say* put it on main *when you want them there."* The command
+appears at the moment it matters, phrased the way a person would say it. Same for
+anything waiting: the menu names it and says what to say.
+
 While both pipelines are live, add one line: *"Shipping on the old pipeline? That
 is `/book-resume` over there."* Drop it after migration.
 
@@ -67,7 +73,9 @@ dispatch.
 | `change the voice`, `fix the outline`, `revise`, `the premise is wrong` | `/gw-revise <artifact>` |
 | `I have material`, `sources`, `read these`, `ingest` | `/gw-sources` |
 | `interview`, `research`, `draft`, `refine` + N | the stage command — advanced, for deliberate re-runs |
-| `land`, `commit to main`, `merge to main`, `ship it` | `python3 scripts/sync.py --land` — **only on his explicit word**; report which branch, by name |
+| `put it on main`, `land`, `merge`, `ship it`, `make it official`, `commit to main`, `yes` right after you offered to land | `python3 scripts/sync.py --land` — **only on his explicit word**; report which branch, by name |
+| `done`, `that's it`, `bye`, `wrapping up`, `I'm out`, `see you tomorrow` | **end of session:** dispatch `gw-retro` if the Stop hook has not already; then tell him in two lines where his work is — branch, pushed or not, on main or not — and *offer* to put it on main. Do not land unless he says so. |
+| `is my work safe`, `did I lose anything`, `where's my stuff` | `sync.py --status`, answered in plain words, never just the table |
 | `push`, `save`, `back this up` | `python3 scripts/sync.py --push` — say the branch name in the reply |
 | `where's my work`, `what branch`, `did that land` | `python3 scripts/sync.py --status` |
 | `retro`, `what did we learn`, `retrospective`, `what went wrong` | dispatch `gw-retro` cold; show its proposals; apply nothing without his yes |
@@ -93,5 +101,5 @@ moves `main` except `--land`, and only when he said so in words.
 
 ## What this command never does
 
-Land on main unprompted. Compute "next" on its own. Invent a desk. Run a stage he did not ask for. Hide the
+Land on main unprompted. Make him remember a phrase — if a command matters now, say it now, in words. Compute "next" on its own. Invent a desk. Run a stage he did not ask for. Hide the
 stage commands — they are not secret, just not the front door.

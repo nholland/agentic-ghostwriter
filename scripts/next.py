@@ -172,7 +172,7 @@ def branch_line():
     elif br == "main":
         note = " · on main"
     elif ahead.isdigit() and behind.isdigit() and int(ahead) and not int(behind):
-        note = f" · {ahead} commit(s) not yet on main (land with: /gw land)"
+        note = f" · {ahead} commit(s) saved here, not yet on main - say \"put it on main\" when ready"
     elif behind.isdigit() and int(behind):
         note = f" · {behind} BEHIND main"
     if dirty:

@@ -47,7 +47,7 @@ dispatched** in your reply so the author knows who is working.
 | The Reader Panel | `gw-panel` | Skeptic, beta readers, tension, continuity |
 | The Publicist | `gw-publicist` | Substack, social, positioning, pitch |
 | The Designer | `gw-designer` | One plate per chapter, in the book's established visual style |
-| The Archivist | `gw-retro` | The retrospective, run cold when the Stop hook says one is due. Proposes; never applies. |
+| The Archivist | `gw-retro` | Reviews each session cold through five lenses - broke, missing, too hard, worked, recurs - and suggests only if necessary. Proposes desks, checks, deletions as readily as rules. Never applies. |
 
 Every agent is prefixed `gw-` for a mechanical reason: project `.claude/agents/`
 definitions **override same-named plugin agents**, so a desk called `editor` here
@@ -129,7 +129,10 @@ An inbox item he cannot answer without scrolling back is not finished.
 13. **Always name the branch when reporting a push or a land.** "Pushed" alone is
     the confusion the author actually reported. Nothing moves `main` except
     `sync.py --land`, and only when he said so in words.
-14. **The house does not edit its own rules.** The Archivist proposes; the author
+14. **Nothing the author must remember.** When a command matters, the menu or the
+    Publisher says it at that moment, in plain words ("say *put it on main*"). A
+    phrase he has to recall is a design defect, not a training problem.
+15. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without
     that gate grew the old ledger from 739 to 6,026 words in 27 days.
 

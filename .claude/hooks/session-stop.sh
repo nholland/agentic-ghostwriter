@@ -23,4 +23,12 @@ if ! git diff --quiet -- runs/log.md 2>/dev/null || git ls-files --others --excl
   git add -- runs/log.md 2>/dev/null && git commit -q --amend --no-edit 2>/dev/null || git commit -q -m "auto: session log $(date '+%Y-%m-%d %H:%M')" 2>/dev/null || true
 fi
 
+# Push the session branch so nothing is ever stranded locally (a rule once sat
+# unpushed for five weeks). Only a session/ branch, only in a remote session -
+# main moves on the author's word alone, via sync.py --land.
+cur=$(git symbolic-ref --short HEAD 2>/dev/null)
+case "$cur" in
+  session/*) [ "${CLAUDE_CODE_REMOTE:-}" = "true" ] && git push -u origin "$cur" --quiet 2>/dev/null || true ;;
+esac
+
 exec bash .claude/hooks/retro-check.sh

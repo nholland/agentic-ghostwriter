@@ -321,3 +321,35 @@ and fetch; a missing `origin/main` prints UNKNOWN and makes `--land` refuse;
 Seven defects now share the shape - a plausible number, no error - and every one
 was caught the same way, by running the thing where the right answer was already
 known. That pattern is the Archivist's first standing instruction.
+
+
+---
+
+## 2026-09-13 — The Archivist widens; nothing to remember
+
+**The Archivist now reviews, not audits.** The author's point: he wants to learn
+from each session organically — rules broken, yes, but also desks or skills that
+should exist, and ways to simplify. The desk now reads the session through five
+lenses (what broke, what was missing, what was too hard, what worked, what recurs),
+assesses one-off versus pattern, and suggests only if necessary, with every
+suggestion typed and priced: rule edit, new desk or skill, check with a caller,
+deletion, simplification, open item. "What worked" is a lens on purpose — a later
+collapse needs to know what is load-bearing before it deletes anything.
+
+**It runs per session now, not every N commits.** The old threshold existed to
+break a loop: retrospectives edited rule files, rule edits counted toward the next
+retrospective, the ledger grew 8x. That loop is cut at the root here — the Archivist
+never applies, and rule paths are not watched — so frequency is no longer the
+danger. The damper that remains is the desk's own exit: nothing substantive, three
+lines, stop.
+
+**"No author will remember *land it*."** Correct, and the fix is a principle, not a
+synonym list: **a command that matters now is said now, in plain words.** The menu
+shows "3 commits saved here, not yet on main — say *put it on main* when ready"
+only when that is true. Saying *done* or *bye* gets two lines on where the work is
+and an offer. The Stop hook pushes `session/` branches automatically so nothing is
+ever stranded (a rule once sat unpushed for five weeks); `main` still moves only on
+his word. Recorded as standing rule 14: a phrase he has to recall is a design
+defect, not a training problem.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.

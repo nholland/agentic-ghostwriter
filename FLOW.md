@@ -182,7 +182,7 @@ was a check that ran on its own.
 | Moment | What runs | Does |
 |---|---|---|
 | Session start | `session-start.sh` | On `main` in a remote session → creates `session/<stamp>` from origin/main. Behind → fast-forwards. Diverged → says so, touches nothing. Then the clock, the book, the board. |
-| Session stop | `session-stop.sh` | Commits **work paths only** (`runs/`, `bakeoff/`, `inbox/`, `FINDINGS.md`). Appends a derived entry to `runs/log.md`. Then asks whether a retrospective is due. |
+| Session stop | `session-stop.sh` | Commits **work paths only** (`runs/`, `bakeoff/`, `inbox/`, `FINDINGS.md`). Appends a derived entry to `runs/log.md`. Pushes a `session/` branch so nothing is stranded (never `main`). Then, once per session, asks for the Archivist's review. |
 | Author says "land it" | `sync.py --land` | Fast-forward only. Refuses if diverged. Prints the branch and the sha. |
 | Anytime | `sync.py --status` | Which branch, ahead/behind main, unpushed, uncommitted. `/gw` shows the same line. |
 
@@ -195,10 +195,14 @@ It cannot carry a wrong date or a stale "next" — the two ways the old
 `progress.md` failed. What it cannot carry is the author's own words; those stay
 where he said them, in `runs/chNN/interview.md` and on each inbox resolution.
 
-## The retrospective, which is not optional
+## The session review, which is not optional
 
-Every twelve commits that touch the work — `runs/`, `scripts/`, `config/` — the
-Stop hook asks two questions, in order: *which existing rules did we violate or
+Once per session that touched the work, the Stop hook asks the Publisher to
+dispatch the Archivist. It reviews through five lenses — **what broke, what was
+missing, what was too hard, what worked, what recurs** — assesses whether each
+is a one-off or a pattern, and suggests only if necessary: a rule edit, a new
+desk or skill, a check with a caller, a deletion, a simplification. The old
+hook's two questions survive inside the first lens, in order: *which existing rules did we violate or
 ignore, and why?* and only then *what is worth promoting into a rule?* Findings go
 to `FINDINGS.md`, which is an incident archive, not a ruleset. Additions are
 net-zero: a proposed rule must name what it replaces.
