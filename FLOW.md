@@ -60,9 +60,21 @@ that has to be right 29 times.
            │     ├─ gate: gw-specchecker   (refinement can break conformance)
            │     └─ runs/chNN/refined.md + distillation.md
            │
-  AUTHOR  ─┘  5. The verdict              He reads. He says whether it landed.
+  cold ────┤  5. plate                     The Designer draws the mechanism.
+           │     └─ runs/chNN/plate.svg     One image, the chapter's anchor metaphor,
+           │                                the book's existing visual style. Never blocks.
+           │
+  script ──┤  6. /gw-compile N             The PDF readers actually receive.
+           │     └─ gate: okf_gate.py, then the book repo's one renderer
+           │
+  AUTHOR  ─┘  7. The verdict              He reads. He says whether it landed.
                  └─ /gw-inbox              Everything a cold desk could not decide.
 ```
+
+**One handle for all of it: `/gw-chapter N`.** The Publisher runs the sequence
+and pauses at the interview, a short confirmation of content concepts, and the
+verdict. Resumable from whatever stage the chapter stopped at. The desk-level
+commands stay for re-running one stage.
 
 **Two touches.** The interview and the verdict. Everything between runs without
 him. That is the design's whole claim, and it is unproven until a chapter goes
@@ -85,6 +97,30 @@ It catches what the producer cannot see because the producer knew what it meant
 to write.
 
 ---
+
+## Where reader feedback goes
+
+The author hands it to the Publisher through `/gw-signal N` and never has to pick
+a desk. The Publicist logs each response as a signal concept (proposed, then
+written). Then routing is by what the response *is*: a reader who got lost goes
+to the Line Editor; an argued objection to the Reader Panel's Skeptic; a factual
+challenge to the Fact-Checker; a gift — a story, a counter-example — to the
+Developmental Editor, because it is the author's material now; an extension of
+scope to the inbox, because only he decides scope. A reaction with no argument is
+recorded and not routed: a pattern of them is data, one is a mood.
+
+## Coherence across chapters
+
+The old pipeline's `/book-sweep`, `/book-tension`, `/book-argue`, `/book-beta`
+and `/book-human` were five whole-book reads. Here they are two desks under one
+command, `/gw-qa`: the **Reader Panel** carries the Skeptic, the beta readers, the
+tension reader and the **Continuity Editor** (the sweep — contradictions between
+chapters, a mechanism renamed mid-book, a term used as established that nothing
+defined, a callback to material the reader was never given); the **Anti-Slop
+Reader** carries the cross-chapter patterns no per-chapter pass can see — the same
+opening structure twice across Parts, anchor metaphors that contradict each
+other. Both return findings; neither fixes. Disagreements between them are kept,
+not averaged.
 
 ## The gates, and what each one is for
 

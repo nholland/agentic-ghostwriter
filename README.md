@@ -30,7 +30,7 @@ around.
 | **The Publisher** | Session persona | `CLAUDE.md` + `/gw-board`, `/gw-inbox` |
 | **The Developmental Editor** | Session mode | `/gw-interview` |
 
-Eight run cold as sub-agents:
+Nine run cold as sub-agents:
 
 | Desk | Agent | Driven by |
 |---|---|---|
@@ -42,6 +42,7 @@ Eight run cold as sub-agents:
 | The Fact-Checker | `gw-factchecker` | `/gw-verify` |
 | The Reader Panel | `gw-panel` | `/gw-qa` |
 | The Publicist | `gw-publicist` | `/gw-market` |
+| The Designer | `gw-designer` | `/gw-chapter` (plate stage) |
 
 Production is scripts and hooks, not a desk:
 
@@ -107,6 +108,10 @@ ones.
 
 ## The flow
 
+**The author holds one command: `/gw-chapter 12`.** It runs everything below,
+pausing at the interview, a short concept confirmation, and the verdict. The
+stage commands remain for re-running one stage.
+
 ```
 /gw-interview 12    Developmental Editor, author in the room. Writes interview.md.
 /gw-research 12     Researcher builds the brief. Gated by the Ghostwriter's
@@ -117,6 +122,8 @@ ones.
                     what the desk reported), the Anti-Slop Reader, and the checker.
 /gw-verify          Fact-Checker works the citation queue.
 /gw-qa              Reader Panel + Anti-Slop Reader, whole book.
+/gw-compile 12      The PDF readers receive. One renderer, the book repo's.
+/gw-signal 12       Reader feedback in; the Publisher routes it by kind.
 /gw-market 12       Publicist drafts. Nothing is ever posted.
 /gw-board           Where everything stands.  /gw-inbox  What needs a ruling.
 ```

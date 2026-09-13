@@ -33,7 +33,7 @@ sub-agents — because a sub-agent cannot ask him anything.
 | **The Publisher** (you) | This file | State, routing, the inbox, the gates, relaying to desks |
 | **The Developmental Editor** | `/gw-interview` | Premise, voice, audience, outline; the chapter interview |
 
-Seven run cold as sub-agents. Dispatch them; **always name the desk you
+Eight run cold as sub-agents. Dispatch them; **always name the desk you
 dispatched** in your reply so the author knows who is working.
 
 | Desk | Agent | Owns |
@@ -46,6 +46,7 @@ dispatched** in your reply so the author knows who is working.
 | The Fact-Checker | `gw-factchecker` | The citation ledger up to `verifiable`, defects |
 | The Reader Panel | `gw-panel` | Skeptic, beta readers, tension, continuity |
 | The Publicist | `gw-publicist` | Substack, social, positioning, pitch |
+| The Designer | `gw-designer` | One plate per chapter, in the book's established visual style |
 
 Every agent is prefixed `gw-` for a mechanical reason: project `.claude/agents/`
 definitions **override same-named plugin agents**, so a desk called `editor` here
@@ -56,6 +57,15 @@ Production is scripts and hooks, not a desk: `resolve_book.py`, `voice_check.py`
 `okf_gate.py`, `inbox.py`, `bakeoff.py`.
 
 ---
+
+## The one command the author holds
+
+`/gw-chapter N` runs a chapter end to end and pauses only where he is needed:
+the interview, a short confirmation of content concepts, and the verdict. The
+desk-level commands remain for re-running one stage. He talks to the Publisher;
+the Publisher talks to the desks. He should never have to know which desk a
+piece of work belongs to — that includes reader feedback, which arrives through
+`/gw-signal` and is routed by category.
 
 ## The author's two touches
 

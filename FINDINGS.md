@@ -198,3 +198,40 @@ pairs most rules with the incident that produced them, and regenerating it delet
 that history silently.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+
+---
+
+## 2026-09-13 — Five questions, one finding about the visuals
+
+**Compile and PDF** are now `/gw-compile`, wrapping the book repo's single
+renderer (`chapter_pdf.py`) rather than writing a second one. The old compile once
+had two copies of the same stylesheet that shipped the same two defects with only
+one fixed; the skill says so and carries the word-count-delta check that caught the
+1,700-word silent drop.
+
+**Reader feedback** arrives through `/gw-signal` to the Publisher, who routes by
+what the response is. The author never picks a desk.
+
+**Cross-chapter coherence** was already covered — the old sweep is the Reader
+Panel's Continuity Editor persona, the cross-chapter slop patterns belong to the
+Anti-Slop Reader, both under `/gw-qa` — but nothing said so. Now `FLOW.md` does.
+
+**The one-agent handle** is `/gw-chapter N`: the Publisher runs a chapter end to
+end with three pauses. This is the practical difference between Level 3 and Level
+4 in this house: Level 3 is the desks and their gates, which the author still drives
+stage by stage; Level 4 is the author stating the outcome once. Both are now
+present, and the stage commands stay for deliberate re-runs.
+
+**A Designer desk exists, and the visuals it is meant to match mostly do not.**
+The author remembers "a whole bunch of design elements" he liked from a few sessions
+ago. The repo has exactly one: `visuals/ch01-distillation.svg`, committed
+2026-08-17, an 800×420 mechanism diagram in an implicit house style (near-black,
+amber, slate, system sans). `git log --all` confirms nothing else was ever
+committed. The others lived in a conversation and were never saved — the same
+class as the wife's-mood rule stranded on an unpushed branch, with no branch to
+recover from. `gw-designer` treats the one survivor as the style standard and
+proposes a written `visuals/style.md` for the author to ratify rather than
+inventing one.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.
