@@ -190,3 +190,50 @@ retrospective is triggered by writing, not by its own output.**
 For this house there is a third question the old pipeline never had to ask: *did
 a cold desk decide something silently that should have gone to the inbox?* The
 two-touch design fails in exactly one hard-to-notice way, and that is it.
+
+---
+
+## From the author's side
+
+*The designed experience. No chapter has been through it yet.*
+
+You open a session on the engine repo. The hook prints the real clock, the book
+it found, and what is waiting on you. You type `/gw-chapter 12`. That is the
+whole instruction.
+
+**You are needed three times.** The interview — a conversation with the
+Developmental Editor about the chapter, where your corrections are the product.
+A short confirmation after research — *here is what the Researcher thinks you
+think*, each proposed concept with its wording; yes, no, or a fix. The verdict —
+a PDF, the plate, the counts as the scripts printed them, the conformance rows,
+and the inbox. You read. You say whether it landed.
+
+**What you never do.** Pick a desk: feedback, questions and chapters all go to the
+Publisher. Run a stage: `/gw-draft 12` exists for a deliberate re-run, not the
+normal path. Estimate a count: every number came from a script, pasted verbatim.
+Read a draft twice: gates and reviewers read it before you do. Decide something a
+desk resolved on its own: if it was yours, it is in the inbox. Open the book repo
+by hand, unless you are editing the outline yourself.
+
+**When a desk gets stuck.** It gets the gate's output back and revises without
+you, twice. The third failure stops the chapter and writes an inbox item. The old
+pipeline's failure mode was the silent version — a desk that could not decide
+picked an answer and kept going — and parking item #28 recorded it twice before it
+was settled.
+
+**When readers write back.** `/gw-signal 12` and paste what they said. The
+Publicist logs each response; the Publisher routes it by what it is — a lost
+reader to the Line Editor, an argued objection to the Skeptic, a factual challenge
+to the Fact-Checker, a gift to the Developmental Editor because it is your
+material now, new scope to the inbox because only you decide scope. A reaction
+with no argument is recorded, not routed.
+
+**Where things live.** The book never moves. Today the engine reads the book repo
+and writes only to its own `runs/`, so nothing it does can damage the book.
+Migration is one write arrow changing destination, then the old commands retiring.
+Which repo do you go to? *Is this about this book, or about how books get made?*
+
+A day with the house: open a session, say the chapter number, talk for a while,
+confirm a short list, walk away, come back to a PDF. When readers respond, paste
+what they said. When you are lost, `/gw-board`. When something is waiting on you,
+`/gw-inbox`. That is the entire surface.
