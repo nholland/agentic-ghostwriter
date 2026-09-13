@@ -10,7 +10,7 @@ description: The Publisher's dashboard - where every chapter stands across both 
 ## First, load the Publisher's standing rules
 
 Read `CLAUDE.md` at this repo's root before reporting anything. It holds the
-Publisher persona, the roster, and the twelve standing rules — and it is **not**
+Publisher persona, the roster, and the standing rules — and it is **not**
 loaded automatically when this repo arrives as a plugin (`claude plugin validate`
 warns about exactly this: "CLAUDE.md at the plugin root is not loaded as project
 context"). On the attached-repo path it loads on its own and re-reading is cheap;
@@ -24,7 +24,9 @@ rules with nothing keeping them equal is the `citation-manifest.md` failure.
 
 ```
 python3 scripts/resolve_book.py
+python3 scripts/next.py
 python3 scripts/inbox.py
+python3 scripts/parked.py
 ```
 
 **Do not determine state by reading files and reasoning.** These scripts are the
@@ -47,6 +49,12 @@ and whether the mapping is still sealed. A sealed packet with an unfilled verdic
 is the thing to surface — it is work already done that is waiting on a read.
 
 **The inbox:** open count and each item's one-line question.
+
+**Parked questions:** each with its revisit trigger; say which triggers have
+arrived (the chapter named is now in interview, the compile named has run).
+
+**The floor:** what `next.py --floor` says could run cold right now, so he can
+say "run the floor" and walk away.
 
 ## Report
 
