@@ -21,10 +21,14 @@ book repo's `refined.md`, and any Substack or social piece under
 ## Step 1 — log it before judging it
 
 Dispatch `gw-publicist` to record each response as an OKF signal concept
-(`okf/signals/`, per the format contract), attributed to its source and dated
-from the clock. **Propose these; write after the author confirms** — a signal
-concept is a record of what readers said, but the categorisation below is a
-judgement, and the ledger should not carry a judgement he has not seen.
+(`okf/signals/`, per the format contract), attributed to its source. It
+proposes each with `python3 scripts/okf_new.py --type "Reader Signal" --platform
+... --signal-category ... --dry-run`; **write after the author confirms**, by
+re-running without `--dry-run` — a signal concept is a record of what readers
+said, but the categorisation below is a judgement, and the ledger should not
+carry a judgement he has not seen. The script stamps the clock and adds the
+entry to `okf/index.md`, whose Signals section once read "None yet" while six
+signals sat on disk.
 
 ## Step 2 — categorise, then route by category
 

@@ -4,7 +4,13 @@ description: The Line Editor desk refines a cold draft into finished prose plus 
 
 # /gw-refine — refine a cold draft, gated
 
-Argument: a chapter number. `$ARGUMENTS`
+Argument: a chapter number, optionally `--distill-only` or `--distill-all`. `$ARGUMENTS`
+
+`--distill-only NN` regenerates only `distillation.md` and the chapter's
+practice-guide section from the current `refined.md` (after an edit, or a
+chapter that predates auto-distillation). `--distill-all` does it for every
+chapter in `runs/` — the refresh after a bulk editing pass. Both skip Steps
+1–3 and run Step 4 with its voice check.
 
 ## Step 0 — paths
 
@@ -44,7 +50,8 @@ failure that happened on Ch9, Ch10 and the Prologue in the old pipeline, and the
 reason this gate is duplicated rather than trusted once. Record any discrepancy.
 
 On HARD failure: back to `gw-lineeditor` with the script output. Two rounds, then
-`runs/chNN/inbox.md`.
+the inbox: `python3 scripts/inbox.py --add ... --raised-by gw-lineeditor --chapter NN
+--context ... --unblocks ...`.
 
 ## Step 2.5 — the Anti-Slop Reader (the half no script can count)
 
@@ -61,16 +68,18 @@ the inbox exists to prevent.
 ## Step 3 — conformance gate
 
 Dispatch `gw-specchecker` on the *refined* prose — refinement can break
-conformance that the draft satisfied. Two inputs only, pipeline identity withheld.
-Write `runs/chNN/conformance-refined.md`.
+conformance that the draft satisfied. Two inputs only, plus the script's word
+count; pipeline identity withheld. Write `runs/chNN/conformance-refined.md`.
+On a FAIL row: two rounds back to `gw-lineeditor`, then the inbox. Nothing is
+reported as refined while a FAIL row is open and unruled.
 
 ## Step 4 — distillation and the practice guide
 
 `gw-lineeditor` produces two things here:
 
-- `runs/chNN/distillation.md` — the mechanism label, the one-sentence version a
-  reader would repeat in conversation, and a Practice section with a Lesson and a
-  Challenge.
+- `runs/chNN/distillation.md` — in the exact field format of
+  `.claude/EDITORIAL-STANDARDS.md` section 4 (Mechanism, Conversation sentence,
+  distillation, Lesson, Challenge, Practice). Compile reads the **fields**.
 - this chapter's section appended to `runs/appendix/practice-guide.md` — the
   accumulating, reader-facing field guide. Confirm the append did not rewrite
   another chapter's section: the guide is shared across chapters, and the old

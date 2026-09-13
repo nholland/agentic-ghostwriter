@@ -7,7 +7,14 @@ description: Interactive re-edit of a refined chapter with the author, section b
      Regenerate: python3 scripts/sync_plugin_layout.py -->
 # /gw-edit — change a chapter, with him in the room
 
-Argument: a chapter number, optionally a section name. `$ARGUMENTS`
+Argument: a chapter number, or `prologue`, `introduction`, `part-N`; optionally a section name. `$ARGUMENTS`
+
+The Prologue, the Introduction and the Part opening pages are hand-authored
+locked artifacts with no generating command. They are revised here exactly like
+a chapter — section by section, his wording kept — and **never regenerated**: a
+regenerated Introduction loses the author's own credibility story. For these,
+skip the distillation and plate refresh (they have none) and still re-run the
+counted gate.
 
 **Runs as you, in session.** This is the one editing path that is not cold, because
 its input is the author reacting to finished prose — which is the second of his two
@@ -20,7 +27,9 @@ python3 scripts/resolve_book.py
 python3 scripts/okf_gate.py
 ```
 
-Find the chapter: `runs/chNN/refined.md`, or the book repo's `chapters/chNN/refined.md`.
+Find the artifact: `runs/chNN/refined.md`, or the book repo's
+`chapters/chNN/refined.md`, `chapters/prologue/refined.md`,
+`chapters/introduction/refined.md`, or `parts/part-N-*.md`.
 **Say which you are editing.** If it is the book repo's, you may not write there —
 produce the edit as a diff for him to apply with `/book-edit NN`, and say so up front
 rather than after he has worked through it.

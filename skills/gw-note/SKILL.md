@@ -21,15 +21,31 @@ the ruling.
 
 **A note** — something now settled. A decision between commands, a ruling on a
 question, a reason for a choice that a future reader would otherwise have to infer.
-Append to `runs/notes.md` with the real clock from `date '+%Y-%m-%d %H:%M'`.
+
+```
+python3 scripts/parked.py --note "<his words>"
+```
+
+The script stamps the clock and appends to `runs/notes.md`.
 
 **A parked question** — something he does *not* want to decide now and does not want
 to lose. This is **not** an inbox item: the inbox is what a cold desk needs ruled
 *to keep working*; a parked question is one he has chosen to defer, and nothing is
-blocked on it. Append to `runs/parked.md` with a **revisit trigger** — the event that
-should bring it back ("at the Ch13 interview", "before the first compile of Part II"),
-not a date. A date on a deferred question is a guess; a trigger is a condition the
-board can actually check.
+blocked on it. It carries a **revisit trigger** — the event that should bring it
+back ("at the Ch13 interview", "before the first compile of Part III"), not a date.
+A date on a deferred question is a guess; a trigger is a condition the board can
+actually check.
+
+```
+python3 scripts/parked.py --add "<the question>" --trigger "<the event>" --context "<what he'd need>"
+python3 scripts/parked.py                      # review what is parked (also: `/gw parked`)
+python3 scripts/parked.py --close N --resolution "<his ruling, verbatim>"
+```
+
+The script refuses a parked question with no trigger. `next.py` shows the open
+count on the board, and the Publisher raises any item whose trigger has arrived
+(a chapter's interview, a compile) at that moment - the point of a trigger is
+that nobody has to remember it.
 
 ## Write it in his words
 

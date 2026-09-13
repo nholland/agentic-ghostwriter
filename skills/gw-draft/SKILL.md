@@ -77,16 +77,35 @@ from memory. If `metaphor_family` was not declared, say the check is UNCHECKED �
 not passed.
 
 On any HARD failure: hand the script output back to `gw-ghostwriter` to revise,
-cold. Two rounds. Still failing after two → stop and write
-`runs/chNN/inbox.md` with what is stuck and what ruling would unstick it.
+cold. Two rounds. Still failing after two → stop and park the chapter in the
+one inbox, never in a side file:
+
+```
+python3 scripts/inbox.py --add "<what is stuck>" --raised-by gw-ghostwriter --chapter NN \
+    --context "<what he needs to answer cold>" --unblocks "<the ruling>"
+```
+
+(The first version of this skill wrote `runs/chNN/inbox.md`, which `/gw-inbox`
+never read. A question nobody can see is a silent resolution with extra steps.)
 
 ## Step 4 — conformance gate (the clean-room agent)
 
 Dispatch `gw-specchecker` with exactly two inputs: the outline section, and
-`runs/chNN/draft.md`. Nothing else. Do not tell it which pipeline wrote the prose.
+`runs/chNN/draft.md` — plus the **word count from `voice_check.py`'s "words of
+prose" line**, because the checker is read-only and must not estimate one.
+Nothing else. Do not tell it which pipeline wrote the prose.
 
 Write the result to `runs/chNN/conformance.md`. On any FAIL row, same two-round
 revise loop, then the inbox.
+
+## Step 4.5 — coinages
+
+```
+python3 scripts/term_check.py runs/chNN/draft.md
+```
+
+A term the draft uses as established that resolves to nothing is a finding for
+the Ghostwriter's next round, or for the inbox if it came from the brief.
 
 ## Step 5 — report
 

@@ -32,12 +32,18 @@ The House · {book} · {shipped} of {total} shipped
 
   Or just say what you want. Common things:
     /gw 12            run Chapter 12 end to end
+    /gw 12 --shadow   draft 12 cold from the book pipeline's brief, in parallel
+    /gw floor         run every cold stage that can run, across chapters
     /gw status        where everything stands, both pipelines
     /gw inbox         what's waiting on you
     /gw feedback 12   paste what readers said
     /gw compile       a PDF to send to readers
     /gw help          everything else
 ```
+
+Show the `--shadow` line only when `next.py`'s NEXT_ACTION carries it, and the
+`floor` line only when `next.py` lists a cold stage; a menu item that cannot run
+is noise.
 
 **Nothing here needs remembering.** If `next.py`'s branch line shows commits not
 yet on main, add a line in plain words — *"3 commits are saved on this branch and
@@ -66,6 +72,13 @@ dispatch.
 | `verify`, `citations`, `sources right?`, `check the quotes` | `/gw-verify` |
 | `qa`, `whole book`, `coherent`, `beta`, `does it hold together` | `/gw-qa` |
 | `substack`, `social`, `post`, `market`, `newsletter` | `/gw-market N` |
+| `run the floor`, `run everything`, `what can run without me`, `work while I'm gone`, `do all the cold stuff` | `/gw-floor` — every cold stage across chapters, in parallel; never the interview or the verdict |
+| `shadow 12`, `draft 12 from their brief`, `run 12 in parallel`, `bake-off draft` | `/gw-chapter N --shadow` — cold draft from the book pipeline's brief; the oracle offers it on its own when the brief exists |
+| `positioning`, `amazon description`, `taglines`, `pitch`, `proposal`, `query letter`, `indie`, `KDP`, `ARC`, `reviews`, `book club`, `publishing path`, `traditional or self` | `/gw-publish <mode>` — the whole-book publication stack; say the coverage first |
+| `parked`, `what did we defer`, `come back to`, `revisit` | `python3 scripts/parked.py` — and raise any item whose trigger has arrived |
+| `switch to <book>`, `other book`, `which books` | `python3 scripts/resolve_book.py --list-books`; then `GW_BOOK_SLUG=<slug>` for this session's commands — a view; the book repo's manifest is never written from here |
+| `run the tests`, `is the engine ok`, `self-check` | `bash scripts/tests/run_tests.sh` — every script against a known answer; paste the last line |
+| `how does this work`, `explain the house`, `readme`, `show me the map` | open `docs/house.html` (the interactive readme) and point him at the section that answers him |
 | `new book`, `start a book`, `I have an idea for` | `/gw-found` |
 | `change the voice`, `fix the outline`, `revise`, `the premise is wrong` | `/gw-revise <artifact>` |
 | `I have material`, `sources`, `read these`, `ingest` | `/gw-sources` |

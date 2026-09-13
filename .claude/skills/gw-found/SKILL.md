@@ -4,7 +4,7 @@ description: The Developmental Editor runs the Foundation phase with the author 
 
 # /gw-found — the Foundation phase
 
-Argument: optional `--import` (start from existing drafts/posts), or a book slug.
+Argument: optional `--import` (start from existing drafts/posts), `intro`, or a book slug.
 `$ARGUMENTS`
 
 **Runs as you, in session.** Never dispatch this to a sub-agent. Every artifact
@@ -67,6 +67,18 @@ transition to the next chapter.
 Group into Parts when there are 15+ chapters. **Do not generate 29 chapters and
 present them as done.** Produce the arc and the Part structure first, get a ruling
 on that, then fill chapters within the ratified arc.
+
+## `intro` — the Introduction, chapter zero
+
+The author's own story, his credibility, and the misconception about the
+premise that must be defused before Chapter 1. It draws on `00-premise.md` for
+cohesion but **plants no question or framework a later chapter is obliged to
+answer.** Optional and non-blocking; best once Chapter 1 is refined (so the
+voice exists) and often best finalised last. Interview him for it as
+`/gw-interview` would - the story is his - then write
+`{bookRoot}/chapters/introduction/refined.md` under the write rule above (a book
+this engine owns) or a diff for him to apply (a book another pipeline ships).
+Revise later with `/gw-edit introduction`; never regenerate it.
 
 ## `--import`
 

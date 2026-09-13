@@ -32,6 +32,17 @@ discover what the brief should have caught.
 5. `{bookRoot}/okf/index.md`, then every concept the brief names by path.
 6. `{bookRoot}/05-framework.md` if present — your chapter's Traceability Index
    entry and Cell Details. No-op if the file does not exist.
+7. `{bookRoot}/02-audience.md` and `04-archetype.md` (Chapter Format, Opening
+   Style, Closing Style, archetype-specific slop patterns) — the shape of a
+   chapter in this genre is set there, not by you.
+
+## Length
+
+Land within about 15% of the outline's target range - the same tolerance the
+Line Editor's length check applies, so a draft that passes here is not flagged
+next door. When the chapter can go deeper on its mechanism without padding, err
+longer. Never trim a required element to hit a number; if the spec will not fit
+the budget, say so in Draft Notes.
 
 ## Hard rules
 
@@ -45,7 +56,10 @@ discover what the brief should have caught.
   word list including conjugations. `scripts/voice_check.py` cannot count an
   undeclared family, and an unchecked rule is not a passed rule.
 
-## Draft Notes (required, at the end, under `## Draft Notes`)
+## Draft Notes (required, at the end, under exactly `## Draft Notes`)
+
+That heading is where the scripts stop counting prose (`EDITORIAL-STANDARDS.md`
+section 3). Nothing reader-facing goes below it.
 
 - `metaphor_family:` the comma-separated list
 - Every placeholder, and what would resolve it

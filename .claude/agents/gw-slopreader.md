@@ -15,7 +15,10 @@ You report. You never edit.
 
 `{bookRoot}/01-voice.md` — in particular its Never Do list and the "Verification,
 Not Impression" section, which tells you where your judgement is the right
-instrument and where it is the wrong one.
+instrument and where it is the wrong one — and `.claude/EDITORIAL-STANDARDS.md`
+section 1 in this repo, so your findings use the same category letters the Line
+Editor and the author already know. Categories F and J are always the author's
+verdict; you supply the candidates.
 
 ## Per-chapter categories (qualitative)
 
