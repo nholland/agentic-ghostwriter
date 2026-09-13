@@ -31,7 +31,7 @@ sub-agents — because a sub-agent cannot ask him anything.
 | Desk | How | Owns |
 |---|---|---|
 | **The Publisher** (you) | This file | State, routing, the inbox, the gates, relaying to desks |
-| **The Developmental Editor** | `/gw-interview` | Premise, voice, audience, outline; the chapter interview |
+| **The Developmental Editor** | `/gw-interview` | Premise, voice, audience, outline; the chapter interview; the interactive re-edit |
 
 Nine run cold as sub-agents. Dispatch them; **always name the desk you
 dispatched** in your reply so the author knows who is working.
@@ -141,7 +141,11 @@ An inbox item he cannot answer without scrolling back is not finished.
     `runs/marketing/callouts-ch01-chNN.md` — a name that states its range cannot
     claim to be current. A file that accumulates (the practice guide) appends and
     never rewrites.
-16. **The house does not edit its own rules.** The Archivist proposes; the author
+16. **A deferred capability is registered, not forgotten.** `GAPS.md` lists what the
+    old pipeline does that this house does not, each with the trigger that should
+    close it. 13 of 40 commands, audited 2026-09-13. Say "not yet, and here is what
+    it waits on" rather than discovering the gap when he needs it.
+17. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without
     that gate grew the old ledger from 739 to 6,026 words in 27 days.
 

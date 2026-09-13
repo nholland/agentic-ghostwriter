@@ -69,6 +69,10 @@ dispatch.
 | `new book`, `start a book`, `I have an idea for` | `/gw-found` |
 | `change the voice`, `fix the outline`, `revise`, `the premise is wrong` | `/gw-revise <artifact>` |
 | `I have material`, `sources`, `read these`, `ingest` | `/gw-sources` |
+| `change this`, `edit chapter 12`, `that line is wrong`, `fix the opening` | `/gw-edit N` — in session, section by section |
+| `remember that`, `note this`, `write that down`, `for the record` | `/gw-note` — his words, verbatim |
+| `park that`, `not now`, `come back to this`, `let's decide later` | `/gw-note park` — with a revisit trigger, not a date |
+| `what's missing`, `what can't you do yet`, `gaps` | read `GAPS.md` and answer from it; say which trigger each gap waits on |
 | `interview`, `research`, `draft`, `refine` + N | the stage command — advanced, for deliberate re-runs |
 | `put it on main`, `land`, `merge`, `ship it`, `make it official`, `commit to main`, `yes` right after you offered to land | `python3 scripts/sync.py --land` — **only on his explicit word**; report which branch, by name |
 | `done`, `that's it`, `bye`, `wrapping up`, `I'm out`, `see you tomorrow` | **end of session:** dispatch `gw-retro` if the Stop hook has not already; then tell him in two lines where his work is — branch, pushed or not, on main or not — and *offer* to put it on main. Do not land unless he says so. |

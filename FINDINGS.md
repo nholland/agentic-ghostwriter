@@ -398,3 +398,46 @@ or it is regenerated wholesale.** Hence `runs/qa/<date>-qa.md` and
 about being current. An artifact that accumulates appends and never rewrites.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+
+---
+
+## 2026-09-13 — Coverage audit: 27 of 40, not the 34 a loose grep claimed
+
+The author corrected a real misfiling — `callouts` is a *skill* in the old pipeline,
+something run periodically, and it had been assessed as an artifact. That correction
+was worth more than the item: if one was misfiled, the coverage claim itself was
+untested. So all 40 `book-*` commands were mapped.
+
+**The first pass of that audit was wrong, in the usual direction.** A grep for each
+command's keywords reported 34 of 40 covered. But a hit on the word "pitch" is not a
+pitch package, and "park" appears in `gw-chapter` only as "the chapter is parked".
+Checking for the actual deliverables — Amazon description, taglines, comp titles,
+query letter, ARC, KDP — returned **zero hits across every skill and desk.** Real
+coverage is **27 of 40**. Eighth defect of the same shape this week: a plausible
+number, no error, caught only by checking against the thing itself rather than a
+proxy for it.
+
+**The 13 gaps cluster, and the cluster decides what to build.** Seven are Phase 4/5
+publication work — positioning, pitch, publish-path, indie-plan, review-strategy,
+club-guide, substack-connect — and every one of them needs the finished arc, the QA
+findings and the callouts to be accurate. `/book-marketing` says so itself. With 18
+of 29 chapters unwritten, building them now means building the least-validated part
+of the house furthest from the work.
+
+**Built now, because they are needed now:** `/gw-edit` (interactive re-edit, in
+session, then refreshes the distillation, the practice-guide section and the plate —
+an edit can break a count that passed, so the gates re-run) and `/gw-note`, which
+closes a real hole: the engine's session log is *derived*, so it cannot carry a wrong
+date, and equally cannot carry the author's own words. `/gw-note park` is kept
+distinct from the inbox on purpose — the inbox is what a desk needs ruled to keep
+working; a parked question is one he chose to defer, and it carries a **revisit
+trigger** rather than a date, because a date on a deferred question is a guess.
+
+**Registered, not forgotten:** `GAPS.md`, each gap with the trigger that should close
+it, and — per standing rule 15 — the basis of its own audit stated in the file. When
+the publication stack is built it should be **one** `/gw-publish` with a mode per
+deliverable, not seven skills: they share every input, and splitting them is how ten
+marketing commands happened the first time.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.
