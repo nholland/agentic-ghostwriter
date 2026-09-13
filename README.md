@@ -108,9 +108,11 @@ ones.
 
 ## The flow
 
-**The author holds one command: `/gw-chapter 12`.** It runs everything below,
-pausing at the interview, a short concept confirmation, and the verdict. The
-stage commands remain for re-running one stage.
+**The author holds one door: `/gw`.** Alone it shows a menu built from the
+state oracle (`scripts/next.py`). `/gw 12` runs Chapter 12 end to end, pausing at
+the interview, a short concept confirmation, and the verdict. Plain words work too:
+`/gw what's waiting on me`, `/gw readers said…`, `/gw make me a pdf`. The stage
+commands below remain for re-running one stage.
 
 ```
 /gw-interview 12    Developmental Editor, author in the room. Writes interview.md.

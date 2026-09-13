@@ -235,3 +235,30 @@ proposes a written `visuals/style.md` for the author to ratify rather than
 inventing one.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter.
+
+---
+
+## 2026-09-13 — One door: `/gw`
+
+The author asked for the simplest possible surface: type `/gw` and whatever he is
+thinking, and one agent works out the rest; `/gw` alone shows a short menu. Built
+as a router skill the Publisher follows — a bare number runs that chapter, plain
+words map to a desk by an intent table, nothing matched gets one clarifying
+question and the menu, never a guess into an action that spends his time.
+
+**"Next" comes from a script, not from the model.** The book repo's Rule 10 —
+`/book-resume` takes NEXT_ACTION from `pipeline_state.py` and the model may not
+compute it from files or reasoning — is the rule that held when others did not.
+`scripts/next.py` is this house's equivalent: first match wins across parked
+chapters, unread bake-off packets, chapters in progress, the lowest unstarted
+chapter, then QA. `/gw` shows its answer; `/gw-chapter` resumes from it.
+
+**Its first run gave a plausible wrong answer.** "0 shipped on the book pipeline"
+and "start at chapter 1" for a book with eleven numbered chapters refined. Cause:
+`resolve_book.py` reports directory names (`ch01`), and the oracle checked
+`name.isdigit()`, which matched nothing. Same shape as every other defect in this
+ledger — no error, a number that looks fine — and caught the same way, by running
+it against the real repo where the right answer was already known. The comment in
+the script now records this so the next reader does not "simplify" it back.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter.

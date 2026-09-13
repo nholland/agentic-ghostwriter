@@ -71,7 +71,7 @@ that has to be right 29 times.
                  └─ /gw-inbox              Everything a cold desk could not decide.
 ```
 
-**One handle for all of it: `/gw-chapter N`.** The Publisher runs the sequence
+**One door for all of it: `/gw`.** `/gw 12` runs the sequence; The Publisher runs the sequence
 and pauses at the interview, a short confirmation of content concepts, and the
 verdict. Resumable from whatever stage the chapter stopped at. The desk-level
 commands stay for re-running one stage.
@@ -198,8 +198,9 @@ two-touch design fails in exactly one hard-to-notice way, and that is it.
 *The designed experience. No chapter has been through it yet.*
 
 You open a session on the engine repo. The hook prints the real clock, the book
-it found, and what is waiting on you. You type `/gw-chapter 12`. That is the
-whole instruction.
+it found, and what is waiting on you. You type `/gw`. It shows you what is next
+and what is waiting. You type `/gw 12`, or just say what you want in plain words.
+That is the whole instruction.
 
 **You are needed three times.** The interview — a conversation with the
 Developmental Editor about the chapter, where your corrections are the product.
@@ -235,5 +236,5 @@ Which repo do you go to? *Is this about this book, or about how books get made?*
 
 A day with the house: open a session, say the chapter number, talk for a while,
 confirm a short list, walk away, come back to a PDF. When readers respond, paste
-what they said. When you are lost, `/gw-board`. When something is waiting on you,
-`/gw-inbox`. That is the entire surface.
+what they said. When you are lost, `/gw`. When something is waiting on you,
+`/gw` again. That is the entire surface.

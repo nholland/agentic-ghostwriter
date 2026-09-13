@@ -1,0 +1,200 @@
+#!/usr/bin/env python3
+"""
+next.py - the engine's state oracle. What is next, from artifacts, never from reasoning.
+
+WHY A SCRIPT
+    The book repo's Rule 10: /book-resume determines NEXT_ACTION by running
+    pipeline_state.py, and the model must not determine it from file contents,
+    context, or reasoning. That rule held when others did not. This is the
+    engine's equivalent. /gw reads this output and shows it; it never computes
+    "next" itself.
+
+HOW "NEXT" IS DECIDED (first match wins)
+    1. A chapter in runs/ with an inbox.md       -> parked; the inbox comes first
+    2. A bake-off packet with an unfilled verdict -> read it (work already done)
+    3. A chapter in runs/ that is in progress     -> continue at its next stage
+    4. The lowest chapter not refined anywhere    -> start it
+    5. Everything refined                         -> whole-book QA
+
+USAGE
+    python3 scripts/next.py              # the board, human-readable
+    python3 scripts/next.py --chapter 12 # that chapter's next stage only
+    python3 scripts/next.py --json
+"""
+
+import argparse
+import glob
+import json
+import os
+import re
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+import resolve_book  # noqa: E402
+
+STAGES = [
+    # (artifact that must exist to be PAST this stage, stage name, command)
+    ("interview.md", "interview", "/gw-interview"),
+    ("research.md",  "research",  "/gw-research"),
+    ("draft.md",     "draft",     "/gw-draft"),
+    ("refined.md",   "refine",    "/gw-refine"),
+]
+
+
+def chapter_dirs():
+    out = {}
+    for d in sorted(glob.glob(os.path.join(REPO, "runs", "ch*"))):
+        m = re.fullmatch(r"ch(\d{2})", os.path.basename(d))
+        if m:
+            out[int(m.group(1))] = d
+    return out
+
+
+def chapter_state(n, d):
+    """Return (stage, command, detail) for chapter n whose runs dir is d (or None)."""
+    if d is None or not os.path.isdir(d):
+        return "interview", "/gw-interview", "not started"
+    have = set(os.listdir(d))
+    if "inbox.md" in have:
+        return "parked", "/gw-inbox", "a cold desk could not decide; the inbox holds the question"
+    for artifact, stage, cmd in STAGES:
+        if artifact not in have:
+            return stage, cmd, f"{artifact} missing"
+    plate = "plate.svg" in have
+    return "verdict", "/gw-compile", ("refined; plate present" if plate else "refined; no plate yet (optional)")
+
+
+def bakeoffs_waiting():
+    waiting = []
+    for d in sorted(glob.glob(os.path.join(REPO, "bakeoff", "ch*"))):
+        v = os.path.join(d, "verdict.md")
+        if os.path.isfile(v) and "variant-_" in open(v, encoding="utf-8").read():
+            waiting.append(os.path.basename(d))
+    return waiting
+
+
+def inbox_open():
+    n = 0
+    for p in glob.glob(os.path.join(REPO, "inbox", "*.md")):
+        txt = open(p, encoding="utf-8").read()
+        if re.search(r"^status:\s*open\s*$", txt, re.M):
+            n += 1
+    return n
+
+
+def compute(book):
+    info = book["info"]
+    total = info.get("chapter_count") or 0
+    shipped = set()
+    # resolve_book reports directory names: "ch01", "prologue", "introduction".
+    # The first version of this checked name.isdigit(), matched nothing, and
+    # reported 0 shipped and "start at chapter 1" for a book with 13 refined -
+    # a plausible wrong answer, caught only by running it against the real repo.
+    for name in info.get("refined_chapters", []):
+        m = re.fullmatch(r"ch(\d+)", name)
+        if m:
+            shipped.add(int(m.group(1)))
+    runs = chapter_dirs()
+
+    per_chapter = {}
+    for n, d in runs.items():
+        stage, cmd, detail = chapter_state(n, d)
+        per_chapter[n] = {"stage": stage, "command": cmd, "detail": detail,
+                          "shipped_by_book_pipeline": n in shipped}
+
+    parked = sorted(n for n, s in per_chapter.items() if s["stage"] == "parked")
+    in_progress = sorted(n for n, s in per_chapter.items()
+                         if s["stage"] not in ("parked", "verdict"))
+    awaiting_verdict = sorted(n for n, s in per_chapter.items() if s["stage"] == "verdict")
+    packets = bakeoffs_waiting()
+    open_items = inbox_open()
+
+    engine_refined = set(awaiting_verdict)
+    candidates = [n for n in range(1, total + 1) if n not in shipped and n not in runs]
+    next_new = candidates[0] if candidates else None
+
+    if parked:
+        n = parked[0]
+        nxt = {"action": "inbox", "command": "/gw inbox", "chapter": n,
+               "why": f"Chapter {n} is parked on a question only you can answer."}
+    elif packets:
+        nxt = {"action": "verdict", "command": f"/gw compare {packets[0][2:]}", "chapter": int(packets[0][2:]),
+               "why": f"A blind comparison for {packets[0]} is built and waiting on your read."}
+    elif in_progress:
+        n = in_progress[0]
+        s = per_chapter[n]
+        nxt = {"action": "continue", "command": f"/gw {n}", "chapter": n,
+               "why": f"Chapter {n} stopped at {s['stage']} ({s['detail']})."}
+    elif awaiting_verdict:
+        n = awaiting_verdict[0]
+        nxt = {"action": "verdict", "command": f"/gw {n}", "chapter": n,
+               "why": f"Chapter {n} is refined and waiting on your verdict."}
+    elif next_new:
+        nxt = {"action": "start", "command": f"/gw {next_new}", "chapter": next_new,
+               "why": f"Chapter {next_new} has not started in either pipeline."}
+    else:
+        nxt = {"action": "qa", "command": "/gw qa", "chapter": None,
+               "why": "Every chapter is refined. Whole-book QA is next."}
+
+    return {
+        "book": info.get("title"), "chapters_total": total,
+        "shipped_by_book_pipeline": sorted(shipped),
+        "engine_chapters": per_chapter,
+        "inbox_open": open_items, "bakeoffs_awaiting_verdict": packets,
+        "next": nxt,
+    }
+
+
+def render(state):
+    L = []
+    shipped = len(state["shipped_by_book_pipeline"])
+    L.append(f"{state['book']} · {state['chapters_total']} chapters · {shipped} shipped on the book pipeline")
+    eng = state["engine_chapters"]
+    if eng:
+        parts = [f"ch{n:02d} {s['stage']}" for n, s in sorted(eng.items())]
+        L.append(f"this house: {', '.join(parts)}")
+    else:
+        L.append("this house: no chapter started yet")
+    if state["inbox_open"]:
+        L.append(f"inbox: {state['inbox_open']} question(s) waiting on you")
+    if state["bakeoffs_awaiting_verdict"]:
+        L.append(f"bake-off: {', '.join(state['bakeoffs_awaiting_verdict'])} built, verdict unwritten")
+    n = state["next"]
+    L.append("")
+    L.append(f"NEXT_ACTION: {n['command']}")
+    L.append(f"  {n['why']}")
+    return "\n".join(L)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="What is next, from artifacts.")
+    ap.add_argument("--chapter", type=int)
+    ap.add_argument("--json", action="store_true")
+    a = ap.parse_args()
+
+    cfg = resolve_book.load_config()
+    repo_root, _, _ = resolve_book.resolve(cfg)
+    if not repo_root:
+        print("next: no book repo resolvable - run scripts/resolve_book.py", file=sys.stderr)
+        return 2
+    book = resolve_book.inspect(repo_root, require_okf=False)
+    if book["problems"]:
+        print("next: book repo has problems - run scripts/resolve_book.py", file=sys.stderr)
+        return 1
+
+    if a.chapter:
+        d = chapter_dirs().get(a.chapter)
+        stage, cmd, detail = chapter_state(a.chapter, d)
+        out = {"chapter": a.chapter, "stage": stage, "command": cmd, "detail": detail}
+        print(json.dumps(out) if a.json else f"ch{a.chapter:02d}: next stage is {stage} ({detail}) -> {cmd} {a.chapter}")
+        return 0
+
+    state = compute(book)
+    print(json.dumps(state, indent=2) if a.json else render(state))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

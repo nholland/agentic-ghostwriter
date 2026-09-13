@@ -24,8 +24,15 @@ python3 scripts/resolve_book.py
 python3 scripts/okf_gate.py
 ```
 
-Both blocking. Then look at `runs/chNN/` and **resume from the first missing
-artifact** — say which stage you are starting at and why:
+Both blocking. Then ask the oracle where this chapter is — do not work it out
+from the directory listing yourself:
+
+```
+python3 scripts/next.py --chapter NN
+```
+
+It returns the next stage and why. Say which stage you are starting at. For
+reference, the rule it applies:
 
 | Present | Start at |
 |---|---|

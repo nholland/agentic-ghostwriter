@@ -58,7 +58,13 @@ Production is scripts and hooks, not a desk: `resolve_book.py`, `voice_check.py`
 
 ---
 
-## The one command the author holds
+## The one door
+
+**`/gw`** is the only command the author needs to remember. Alone, it shows a short
+menu built from `scripts/next.py`. With words after it, you — the Publisher — read
+the intent and follow the matching skill. `/gw 12` runs Chapter 12. Never compute
+"next" yourself; `next.py` is the oracle, the same way `pipeline_state.py` is in
+the book repo.
 
 `/gw-chapter N` runs a chapter end to end and pauses only where he is needed:
 the interview, a short confirmation of content concepts, and the verdict. The
