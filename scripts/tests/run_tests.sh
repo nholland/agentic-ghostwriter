@@ -39,6 +39,11 @@ echo "== resolve_book"
 out=$(python3 scripts/resolve_book.py 2>&1); rc=$?
 expect_exit "fixture resolves" 0 $rc
 expect_grep "reports the active book" "Test Book" "$out"
+expect_grep "reports the design layer" "design layer: 1 marks, 0 concept plates, 0 Part closing plates, candidate register present" "$out"
+mv "$TMP/book/books/test-book/design" "$TMP/design.bak"
+out=$(python3 scripts/resolve_book.py 2>&1)
+expect_grep "an absent design layer is said, not assumed" "design layer: ABSENT" "$out"
+mv "$TMP/design.bak" "$TMP/book/books/test-book/design"
 out=$(python3 scripts/resolve_book.py --list-books 2>&1); rc=$?
 expect_grep "lists the registry" "test-book .*1/3 refined" "$out"
 out=$(GW_BOOK_SLUG=nope python3 scripts/resolve_book.py 2>&1); rc=$?

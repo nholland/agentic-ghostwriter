@@ -44,6 +44,18 @@ is missing.
 
 - Prologue, then Introduction, then Part opening pages before each Part's first
   chapter — only the ones the range actually crosses.
+- **Part closing plates after each Part's last chapter**, when the Part has one.
+  Find each from `03-outline.md`: under a `## PART` header, a line of the form
+  ``*Reader-facing closing plate: `parts/<file>`*`` names it. **Read the pointer;
+  never derive the filename from the Part title.** Emit it as one raw block after
+  that chapter's "Putting It Into Practice" close:
+  `<div class="plate"><img src="parts/plate-1-steady-river.svg" alt=""></div>`.
+  The SVG carries its own caption; add nothing around it. Include a plate only
+  when its Part's last chapter is in the compile. A pointer naming a missing
+  file: skip it, finish, name it once in the summary. The renderer resolves the
+  relative path from the source file's directory and gives the plate its own
+  page, so a manuscript assembled under `runs/` must either sit beside a copy of
+  `parts/` or reference the book repo's path absolutely; say which you did.
 - Each chapter's prose, apparatus stripped, followed by its "Putting It Into
   Practice" section from `distillation.md`. That section comes from the
   `**Practice:**` field, **not** a `## Practice` heading — the first version of

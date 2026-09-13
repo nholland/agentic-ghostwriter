@@ -81,7 +81,8 @@
       "scripts/verification_packet.py": "external verification loop, outbound.",
       "scripts/verification_ingest.py": "external verification loop, inbound.",
       ".claude/OKF.md": "the OKF format contract (L3). Read by 8 book-pipeline commands and by this engine's desks.",
-      ".claude/LEARNINGS.md": "the old pipeline's incident archive: 14 retrospectives on how the SYSTEM fails, not the book. Engine memory (L1) that lives in the book repo. This house's FINDINGS.md is its successor; read LEARNINGS.md before repeating a failure it already recorded."
+      ".claude/LEARNINGS.md": "the old pipeline's incident archive: 14 retrospectives on how the SYSTEM fails, not the book. Engine memory (L1) that lives in the book repo. This house's FINDINGS.md is its successor; read LEARNINGS.md before repeating a failure it already recorded.",
+      "scripts/design_elements.py": "the Designer's candidate register. Regenerates design/element-candidates.md from okf/frameworks/ and holds the Layer 2 filter (no cardinal-virtue grid on a reader-facing plate). A concept is a plate candidate only if this lists it; the desk runs --check before drawing."
     }
   },
   "term_check": {

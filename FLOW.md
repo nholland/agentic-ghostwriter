@@ -71,10 +71,24 @@ that has to be right 29 times.
                  └─ /gw-inbox              Everything a cold desk could not decide.
 ```
 
-**One door for all of it: `/gw`.** `/gw 12` runs the sequence; The Publisher runs the sequence
-and pauses at the interview, a short confirmation of content concepts, and the
-verdict. Resumable from whatever stage the chapter stopped at. The desk-level
-commands stay for re-running one stage.
+**One door for all of it: `/gw`.** `/gw 12` runs the sequence; the Publisher
+runs it and pauses at the interview, a short confirmation of content concepts,
+and the verdict. Resumable from whatever stage the chapter stopped at. The
+desk-level commands stay for re-running one stage.
+
+**The parallel run: `/gw 12 --shadow`.** When the book pipeline has already
+researched a chapter with the author, its brief is the automation boundary
+already crossed. The house drafts from the *same file*, cold, into `runs/`,
+while the book pipeline drafts its own; steps 1 and 2 above are skipped, the
+plan-only review's gap list is recorded as a finding rather than sent back,
+and everything from step 3 onward is identical. `next.py` offers `--shadow` on
+its own when the brief exists. At the end, `/gw-bakeoff` compares the two
+blind. That is the Chapter 12 plan, and it costs the author nothing.
+
+**The floor: `/gw-floor`.** Every chapter whose next stage is cold, dispatched
+at once, in one turn, each writing only under its own `runs/chNN/`. A chapter
+that fails a gate twice is parked in the inbox; the others continue. While he
+is in one chapter's interview, the rest of the book moves.
 
 **Two touches.** The interview and the verdict. Everything between runs without
 him. That is the design's whole claim, and it is unproven until a chapter goes
@@ -82,9 +96,27 @@ through.
 
 **Two rounds, then the inbox.** A cold desk that fails a gate is handed the gate's
 output and revises, cold. Twice. On the third failure the pipeline stops and writes
-an inbox item with the context he needs to rule without scrolling back. It never
-loops, and it never resolves the question silently — the silent version was
-recorded twice on the old pipeline before it was settled.
+an inbox item (`inbox.py --add --chapter N`) with the context he needs to rule
+without scrolling back. It never loops, and it never resolves the question
+silently — the silent version was recorded twice on the old pipeline before it
+was settled. There is one inbox; `next.py` reads it to know a chapter is parked.
+
+**Design is derived, never invented.** A plate draws a concept the ledger
+already holds and the candidate register (`design/element-candidates.md`,
+generated from `okf/frameworks/` by the book repo's `design_elements.py`) lists
+as reader-facing. If the drawing exposes a gap in the concept, the gap goes to
+the inbox and the concept is changed first; the plate follows. The Incomplete
+Husband plate found a sixth failure mode that way, and the mode was approved
+and written into the framework before it was drawn. The register's Layer 2
+filter keeps the cardinal-virtue grid, which the framework file holds as
+internal architecture, off every reader-facing page.
+
+**Coinages are checked, not trusted.** `term_check.py` runs on the brief and the
+draft: a capitalised term the text leans on resolves to a concept, the
+constitution, or a definition in the text, or it fails. A term that exists only
+in its outline line may not organise the evidence. Parked questions, the ones he
+chose to defer, live in `parked.py` with a revisit trigger and are raised when
+the trigger arrives.
 
 **Agents review agents.** No desk grades its own counted work. The skill re-runs
 `voice_check.py` on the Line Editor's output regardless of what the Line Editor
@@ -107,7 +139,9 @@ owned here; three were orphans and two of those are decisions, not gaps.
 |---|---|---|
 | `parts/part-N-*.md` — Part opening pages | **Yes**, inside the manuscript | `/gw-compile` emits them before each Part's first chapter |
 | `appendix/practice-guide.md` — the accumulating field guide | **Yes**, as a companion | The Line Editor appends a section per chapter at refine |
-| `visuals/*.svg` — one plate per chapter | **Yes** | The Designer |
+| `design/` — four marks, nine concept plates, the generated candidate register, the cover prompt | **Yes** | The Designer, which reuses the marks, matches the plate idiom, and draws only concepts the register lists as reader-facing |
+| `parts/plate-N-*.svg` — Part closing plates (6x9, black line, captioned with the opening page's last sentence) | **Yes**, inside the manuscript | The Designer draws them in their own idiom; `/gw-compile` emits each after its Part's last chapter |
+| `visuals/ch01-distillation.svg` — the one plate that predates the design layer | Historical | Superseded by `design/`; not matched |
 | `sweep-report.md` — whole-book coherence | No, internal | `/gw-qa`, written to `runs/qa/<date>-qa.md` |
 | `callouts.md` — pull quotes feeding marketing | No, feedstock | The Publicist, to `runs/marketing/callouts-ch01-chNN.md` |
 | `tactics-review.md` — reader-facing practice companion | **Yes**, if kept | **Open** — overlaps the practice guide; merge or retire |
@@ -149,6 +183,9 @@ not averaged.
 | Plan-only review | Desk | A brief that cannot be written from cold | Draft |
 | `voice_check.py` | Script | Em-dashes, bold, long-sentence share, you-density, metaphor family — by count | Draft, refine, market |
 | `gw-specchecker` | Desk | Outline rows unmet; sources unnamed in prose | Draft, refine |
+| `term_check.py` | Script | A coinage used as established that nothing defined | Research, draft |
+| `okf_new.py` + the timestamp guard | Script + hook | A hand-typed concept; a `verified` written by a desk; a verbatim quote confirmed by search; a stamp that is not today | Every concept write |
+| `design_elements.py --check` | Script (book repo) | A stale candidate register; a concept that would put the cardinal-virtue grid on a page | Plate |
 | `gw-slopreader` | Desk | Invented foils, indirection, windups, the wife as threat | Refine (findings routed, not auto-applied) |
 | The inbox | Author | Anything a cold desk could not decide | Nothing — it collects |
 

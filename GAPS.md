@@ -20,6 +20,7 @@ an integration; each is named below so nobody mistakes coverage for parity.*
 | `switch` | `resolve_book.py --list-books`; `--book <slug>` / `$GW_BOOK_SLUG` | **A view, not a write.** The old command rewrote the manifest's `bookRoot`; this house never writes the book repo's manifest, so the switch is per session and the manifest's active book stays what the book pipeline set. |
 | `feedback` for `prologue`, `introduction`, `part[N]` | `/gw-edit prologue` / `introduction` / `part-N` | Chapters were already covered by `/gw-edit`; the three hand-authored artifacts now are too. |
 | `park --review` / `--close` | `scripts/parked.py` | The first `/gw-note park` appended to a file nothing read again. |
+| The design layer (`design/marks`, `design/plates`, `element-candidates.md`, `parts/plate-*.svg`, `design_elements.py`) | The Designer desk, rewired 2026-09-13 | The engine's first Designer read `visuals/`, which holds one pre-design-layer plate. The real layer landed on `claude/design-layer-only` and `claude/chapter-11-arc-plates-wyemg5` in the book repo, not on `main`; the engine sees it only where the book checkout carries it, and `resolve_book.py` now says which. |
 | `orchestrate`'s cross-chapter parallelism | `/gw-floor` | The old orchestrator could not run here (unattended sub-agents). The floor dispatches only what `next.py --floor` lists, in one turn, and parks a chapter rather than looping. |
 
 ## Still true, by design

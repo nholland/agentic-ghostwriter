@@ -7,15 +7,20 @@ is, and say whether it landed.**
 This repo is the **engine**. The book lives in a separate repo and is **read-only
 input**. Nothing here ever writes inside it.
 
-> **Status: V1 of the roster is defined and wired. No desk has produced a chapter
-> yet.** The pipeline in `Playground-260420` is still the one that ships. What has
-> actually been *measured* is in `FINDINGS.md`.
+> **Status: every old command has a home here, every script is under test, and
+> no desk has produced a chapter yet.** The pipeline in `Playground-260420` is
+> still the one that ships. Chapter 12 is the first parallel run: the book
+> pipeline researches it with the author; the moment its brief exists the board
+> offers `/gw 12 --shadow`, and the house drafts the same brief cold alongside.
+> What has actually been *measured* is in `FINDINGS.md`.
 >
-> **This repo is an add-on to the book repo, not yet a standalone system.** Every
-> desk serves the per-chapter phase; nothing here serves Foundation, so a book can
-> be continued but not started. Four of the book repo's production scripts are
-> engine code this repo calls by name. `ARCHITECTURE.md` has the seven-layer model,
-> the full "if we lost the book repo" audit, and what to move where.
+> **The author's map of the whole house is `docs/house.html`** — an interactive
+> readme: the flow, the desks, the gates, what to say, where things live. Open it
+> in a browser; nothing on it needs the terminal.
+>
+> Four of the book repo's production scripts are engine code this repo calls by
+> name; `ARCHITECTURE.md` has the seven-layer model and the "if we lost the book
+> repo" audit.
 
 ---
 
@@ -41,19 +46,29 @@ Nine run cold as sub-agents:
 | The Anti-Slop Reader | `gw-slopreader` | `/gw-refine`, `/gw-qa` |
 | The Fact-Checker | `gw-factchecker` | `/gw-verify` |
 | The Reader Panel | `gw-panel` | `/gw-qa` |
-| The Publicist | `gw-publicist` | `/gw-market` |
-| The Designer | `gw-designer` | `/gw-chapter` (plate stage) |
+| The Publicist | `gw-publicist` | `/gw-market`, `/gw-publish` |
+| The Designer | `gw-designer` | `/gw-chapter` (plate stage); draws from the book's `design/` layer |
 
 Production is scripts and hooks, not a desk:
 
 | Script | Does |
 |---|---|
-| `resolve_book.py` | Finds and validates the book repo at runtime. Fails loudly. |
-| `okf_gate.py` | The blocking citation gate. Delegates to the book repo's own validator. |
+| `resolve_book.py` | Finds and validates the book repo at runtime. Fails loudly. `--book <slug>` views another registered book. Reports whether the design layer is present. |
+| `next.py` | The state oracle: both pipelines, NEXT_ACTION, parked chapters, and `--floor`, every cold stage runnable now. |
+| `okf_gate.py` | The blocking citation gate. Delegates to the book repo's own validator; checks the voice thresholds have not drifted. |
 | `voice_check.py` | The counted voice rules, by literal count. |
+| `term_check.py` | Every capitalised coinage in a brief resolves to a concept, the constitution, or a definition, or the gate fails. |
+| `okf_new.py` | The only door for a new concept: clock-stamped, slug-checked, never `verified`, validated after write. |
 | `inbox.py` | Everything waiting on the author, in one place. |
+| `parked.py` | Questions he chose to defer, with a revisit trigger; his notes verbatim. |
 | `bakeoff.py` | The blind A/B comparison packet. |
+| `sync.py`, `session_log.py` | Git named out loud; the derived session log. |
 | `sync_plugin_layout.py` | Derives the plugin-root layout from `.claude/`. |
+| `tests/run_tests.sh` | Every script against a fixture with a known answer. |
+
+And a PreToolUse hook that refuses a hand-written OKF concept or a timestamp that
+is not today, on every write. `.claude/EDITORIAL-STANDARDS.md` is the cross-book
+prose standard every prose desk reads.
 
 ---
 
@@ -115,6 +130,9 @@ the interview, a short concept confirmation, and the verdict. Plain words work t
 commands below remain for re-running one stage.
 
 ```
+/gw 12 --shadow     Draft 12 cold from the book pipeline's brief, in parallel.
+                    The board offers this on its own when the brief exists.
+/gw-floor           Every cold stage across every chapter, at once. He walks away.
 /gw-interview 12    Developmental Editor, author in the room. Writes interview.md.
 /gw-research 12     Researcher builds the brief. Gated by the Ghostwriter's
                     plan-only review: "could someone who never read the
@@ -127,6 +145,7 @@ commands below remain for re-running one stage.
 /gw-compile 12      The PDF readers receive. One renderer, the book repo's.
 /gw-signal 12       Reader feedback in; the Publisher routes it by kind.
 /gw-market 12       Publicist drafts. Nothing is ever posted.
+/gw-publish <mode>  Positioning, pitch, path, indie, reviews, club, channels. Late.
 /gw-board           Where everything stands.  /gw-inbox  What needs a ruling.
 ```
 

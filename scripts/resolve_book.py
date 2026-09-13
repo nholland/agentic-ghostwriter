@@ -42,6 +42,7 @@ EXIT CODES
 """
 
 import argparse
+import glob
 import json
 import os
 import sys
@@ -187,6 +188,20 @@ def inspect(repo_root, require_okf, book_override=None):
     validator = os.path.join(repo_root, "scripts", "okf_validate.py")
     info["okf_validate"] = validator if os.path.isfile(validator) else None
 
+    # The design layer (marks, concept plates, the generated candidate
+    # register, Part closing plates). Optional, and reported so the board says
+    # whether the Designer has a style to match or would be inventing one.
+    design = {
+        "marks": len(glob.glob(os.path.join(book_root, "design", "marks", "*.svg"))),
+        "plates": len(glob.glob(os.path.join(book_root, "design", "plates", "*.svg"))),
+        "part_plates": len(glob.glob(os.path.join(book_root, "parts", "plate-*.svg"))),
+        "candidates_register": os.path.isfile(os.path.join(book_root, "design", "element-candidates.md")),
+        "design_language": os.path.isfile(os.path.join(book_root, "design", "design-language.md")),
+        "covers": len(glob.glob(os.path.join(book_root, "design", "covers", "*"))),
+    }
+    design["present"] = bool(design["marks"] or design["plates"] or design["candidates_register"])
+    info["design"] = design
+
     chapters = os.path.join(book_root, "chapters")
     info["chapters"] = chapters
     if os.path.isdir(chapters):
@@ -285,6 +300,13 @@ def main():
                 print(f"    missing (optional) {k} - the feature it serves is unavailable")
         if i.get("optional_present"):
             print(f"  also present: {', '.join(i['optional_present'])}")
+        d = i.get("design") or {}
+        if d.get("present"):
+            print(f"  design layer: {d['marks']} marks, {d['plates']} concept plates, {d['part_plates']} Part closing plates, "
+                  f"candidate register {'present' if d['candidates_register'] else 'MISSING'}, "
+                  f"design-language.md {'present' if d['design_language'] else 'not yet written'}")
+        else:
+            print("  design layer: ABSENT - the Designer has no house style to match and will say so")
         if rep["problems"]:
             print("\n  PROBLEMS (a desk must not run past these):")
             for p in rep["problems"]:

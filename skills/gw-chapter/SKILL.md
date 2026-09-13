@@ -93,9 +93,16 @@ That is the one inbox. `next.py` reads it and reports the chapter as parked;
 4. **Refine** — follow `/gw-refine`: `gw-lineeditor`, then `voice_check.py`
    run independently, `gw-slopreader`, `gw-specchecker`, distillation and the
    practice-guide section.
-5. **Plate** — dispatch `gw-designer` on the distillation and the declared
-   metaphor family. Skip with `--no-plate`. A plate failure never blocks the
-   chapter; it goes to the inbox.
+5. **Plate** — first `python3 {bookRepo}/scripts/design_elements.py {bookRoot} --check`
+   (regenerate if stale: the candidate register is derived and never reasoned
+   around). Then dispatch `gw-designer` on the distillation, the declared
+   metaphor family, and the design layer under `{bookRoot}/design/`. Skip with
+   `--no-plate`. If this chapter is the last in its Part and the Part has no
+   closing plate, the Designer may propose one in the Part idiom; that is a
+   second product, offered, never assumed. A plate failure never blocks the
+   chapter; it goes to the inbox. If `resolve_book.py` reported the design
+   layer ABSENT, the Designer says so and proposes a `design-language.md`
+   rather than inventing a style.
 6. **Verdict package** — run `/gw-compile NN` to produce the PDF. Then hand him
    the package: the PDF, the plate, the counts as the scripts printed them, the
    conformance rows, and every inbox item raised during the run. Pause 3.

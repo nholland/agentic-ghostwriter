@@ -95,17 +95,19 @@ The ten desks, seven scripts (`resolve_book`, `okf_gate`, `voice_check`,
 
 ### Capability gap, counted
 
-The book repo has **41 commands**; this repo has **10 skills**. Nothing here covers:
+*As written 2026-09-12 this section listed 24 uncovered commands. Re-audited
+2026-09-13 by deliverable: all 40 are covered, two by a view rather than a desk
+and one by an inventory rather than an integration. The live register is
+`GAPS.md`; this section is kept as the record of what the audit found on the
+day it was asked.*
 
-- **The entire Foundation phase** — `spark`, `voice`, `audience`, `outline`,
-  `archetype`, `source-prep`, `intro`, `import`. A new book cannot be started.
-- **Compile and PDF** — `compile`, and no verdict package.
-- **Session memory** — `resume`, `status`, `note`, `park`, `switch`, `feedback`.
-  `/gw-board` reads state; it writes no memory, and this repo has no `progress.md`
-  of its own.
-- **Per-chapter extras** — `distill` as a refresh tool, `edit`, `signal`.
-- **Most of publishing** — `pitch`, `publish-path`, `indie-plan`,
-  `review-strategy`, `club-guide`, `substack-connect`.
+The book repo had **41 commands**; this repo had **10 skills**. Nothing then covered:
+
+- **The entire Foundation phase** — since built as `/gw-found`, `/gw-revise`, `/gw-sources`.
+- **Compile and PDF** — since built as `/gw-compile`, wrapping the book repo's one renderer.
+- **Session memory** — since: `runs/log.md` (derived), `parked.py` (his words), `/gw-board`.
+- **Per-chapter extras** — since: `/gw-refine --distill-only`, `/gw-edit`, `/gw-signal`.
+- **Most of publishing** — since: `/gw-publish` with a mode per deliverable.
 
 ---
 
@@ -194,6 +196,7 @@ And "L2" is not one block. By actual caller:
 | `pipeline_state.py` | 5 | 0 | Book |
 | `chapter_pdf.py`, `verification_packet.py`, `verification_ingest.py` | 5 | 0 | Book |
 | `citation_queue.py`, `verification_probe.py` | 3 | named, not yet run | Will be shared |
+| `design_elements.py` (on `claude/design-layer-only`) | 0 | the Designer, `--check` before a plate | Book, and declared optional here |
 | the engine's 7 scripts | 0 | all | Engine |
 
 So these are not misplaced *yet* — each sits with its current primary caller. Copying

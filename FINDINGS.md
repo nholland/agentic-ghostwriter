@@ -540,3 +540,56 @@ collapse happens). Every addition above names what it replaces.
 
 **Still unproven:** every desk. Nothing here has drafted a chapter. Chapter 12
 is where that changes.
+
+---
+
+## 2026-09-13 — The design layer exists after all; the Designer was pointed at the wrong folder
+
+The 2026-09-13 entry above recorded that the visuals the Designer was meant to
+match "mostly do not exist": one plate under `visuals/`, the rest lost to a
+conversation. That was true of `main` and false of the repo. Two branches carry
+the layer:
+
+- `claude/design-layer-only` (one commit, today): `design/marks/` (river, oak,
+  sun, ornament; 64px, stroke, `currentColor`, each traced to an approved
+  sentence, two rejected drafts recorded and why), `design/plates/` (nine concept
+  plates, each traced to a concept, with the layout rules the set produced and
+  four rejected drafts), `design/covers/` (the author's cover prompt verbatim
+  plus two comps), `design/element-candidates.md` **generated** by a new
+  `scripts/design_elements.py` from `okf/frameworks/` with a Layer 2 filter so
+  the cardinal-virtue grid never reaches a reader-facing page, and a sixth
+  failure mode added to the River/Oak/Sun framework because drawing the plate
+  exposed the gap.
+- `claude/chapter-11-arc-plates-wyemg5` (2026-09-11): Part closing plates for
+  Parts I and II in a second, deliberately different idiom (6x9, black line on
+  white, one image of time in layers, captioned with the opening page's last
+  sentence verbatim), pointed to from the outline, emitted by compile Step 2.7,
+  and a renderer fix (`base_url`, without which WeasyPrint dropped the image
+  silently). Also the Ch11 retitle to "Speak or Endure" with its slug migration.
+
+**What the engine got wrong.** `gw-designer` read `{bookRoot}/visuals/*.svg` and
+proposed `visuals/style.md`. Neither is where the book keeps its design. Had a
+chapter run, the desk would have matched the one superseded plate and invented a
+style the book had already written down twice, in two READMEs. Same shape as
+every other defect in this ledger: a confident answer from the wrong input.
+
+**Rewired.** The Designer now reads the design layer in order (marks, then the
+plate README's rules and rejected drafts, then the candidate register, then the
+Part plate rules), reuses the marks rather than redrawing them, draws only
+concepts the register lists as reader-facing, runs `design_elements.py --check`
+first, keeps the two idioms apart, renders before returning, and raises a gap
+the drawing exposes to the inbox instead of filling it. `resolve_book.py`
+reports the layer's presence and says ABSENT when it is; `design_elements.py`
+is a declared optional dependency; `/gw-compile` emits Part closing plates from
+the outline's pointer lines; `/gw-chapter`'s plate step checks the register.
+
+**What the engine cannot fix.** The layer is on branches. Against a `main`
+checkout the board reports `design layer: ABSENT` and the Designer will say so
+rather than match it. Landing `claude/design-layer-only` is the author's call;
+the older `claude/book-design-storage-bhsg7k` also carries a book retitle
+(`River, Oak, Sun: The Stoic Husband`) and a Gottman citation marked `verified`
+on the author's direction, neither of which is on `main` either. The engine reads
+titles and slugs at runtime, so it follows whichever lands.
+
+**Still unproven:** every desk. Nothing here has drafted a chapter or drawn a
+plate.
