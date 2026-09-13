@@ -36,6 +36,10 @@ USAGE
     python3 scripts/inbox.py --all
     python3 scripts/inbox.py --add "question" --raised-by gw-researcher --chapter 12
     python3 scripts/inbox.py --close 4 --resolution "text"
+
+    (--resolution was documented in /gw-inbox from the first day and did not
+    exist in the parser until 2026-09-13; every close would have died on an
+    argparse error. Found by the test harness, not by reading.)
     python3 scripts/inbox.py --json
 """
 
@@ -50,7 +54,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
-INBOX = os.path.join(REPO, "inbox")
+INBOX = os.path.join(os.environ.get("GW_STATE_ROOT", REPO), "inbox")
 
 
 def now():
@@ -174,6 +178,7 @@ def main():
     ap.add_argument("--raised-by", default="")
     ap.add_argument("--chapter", default="")
     ap.add_argument("--close", metavar="N")
+    ap.add_argument("--resolution", default="", help="the author's ruling, in his words, recorded on close")
     a = ap.parse_args()
 
     items = load_all()

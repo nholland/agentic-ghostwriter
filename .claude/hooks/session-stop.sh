@@ -11,16 +11,20 @@ ROOT="${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-topleve
 cd "$ROOT" || exit 0
 
 WORK="runs/ bakeoff/ inbox/ FINDINGS.md .claude/state/"
+
+# Write the session log FIRST, so it rides in the same commit as the work.
+# The first version committed the work, then wrote the log, then ran
+# `git commit --amend` to fold it in - which amends whatever HEAD is. In a
+# session that only edited rule files (committed deliberately, possibly already
+# pushed), that rewrote the author's own commit and folded runs/log.md into it,
+# rewriting pushed history - the one thing sync.py promises never to do. Order
+# the steps instead; never amend.
+python3 scripts/session_log.py 2>/dev/null || true
+
 changed=$( (git diff --name-only -- $WORK; git ls-files --others --exclude-standard -- $WORK) 2>/dev/null )
 if [ -n "$changed" ]; then
   git add -- $WORK 2>/dev/null
   git commit -q -m "auto: house artifacts updated $(date '+%Y-%m-%d %H:%M')" 2>/dev/null || true
-fi
-
-python3 scripts/session_log.py 2>/dev/null || true
-# session_log.py writes runs/log.md, which is a work path; fold it into the same commit
-if ! git diff --quiet -- runs/log.md 2>/dev/null || git ls-files --others --exclude-standard -- runs/log.md 2>/dev/null | grep -q .; then
-  git add -- runs/log.md 2>/dev/null && git commit -q --amend --no-edit 2>/dev/null || git commit -q -m "auto: session log $(date '+%Y-%m-%d %H:%M')" 2>/dev/null || true
 fi
 
 # Push the session branch so nothing is ever stranded locally (a rule once sat

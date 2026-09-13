@@ -38,18 +38,31 @@ def sh(*args):
         return ""
 
 
+def ok(*args):
+    """True when git exits 0. `cat-file -e` and `merge-base --is-ancestor`
+    print NOTHING either way, so the first version of this script - which
+    tested their stdout against "" - treated every failure as success and then
+    diffed against an invalid ref, silently logging nothing. Same shape as the
+    other defects in FINDINGS.md: no error, a plausible nothing. Test the exit
+    code, not the output."""
+    try:
+        return subprocess.run(args, cwd=REPO, capture_output=True, text=True, check=False).returncode == 0
+    except Exception:
+        return False
+
+
 def main():
     force = "--force" in sys.argv
     clock = sh("date", "+%Y-%m-%d %H:%M")
     branch = sh("git", "symbolic-ref", "--short", "HEAD") or "(detached)"
     head = sh("git", "rev-parse", "--short", "HEAD")
     start = open(START).read().strip() if os.path.isfile(START) else ""
-    if start and sh("git", "cat-file", "-e", start) == "" and sh("git", "merge-base", "--is-ancestor", start, "HEAD") == "":
+    if start and ok("git", "cat-file", "-e", start) and ok("git", "merge-base", "--is-ancestor", start, "HEAD"):
         changed = sh("git", "diff", "--name-only", f"{start}..HEAD")
         commits = sh("git", "rev-list", "--count", f"{start}..HEAD")
     else:
         changed = sh("git", "diff", "--name-only", "HEAD~1..HEAD")
-        commits = "?"
+        commits = "? (session start sha missing or not an ancestor; showing the last commit only)"
     files = [f for f in changed.split("\n") if f]
     if not files and not force:
         return 0

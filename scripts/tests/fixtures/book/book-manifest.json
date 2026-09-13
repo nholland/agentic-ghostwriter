@@ -1,0 +1,19 @@
+{
+  "bookRoot": "books/test-book",
+  "books": {
+    "books/test-book": {
+      "title": "Test Book",
+      "slug": "test-book",
+      "lastModified": "2026-01-01",
+      "chapter_count": 3,
+      "stages": {
+        "foundation": {"spark": "complete", "archetype": "complete", "voice": "complete", "audience": "complete", "outline": "complete"},
+        "chapters": {
+          "01": {"research": "complete", "draft": "complete", "refined": "complete", "distill": "complete"},
+          "02": {"research": "complete", "draft": "pending", "refined": "pending", "distill": "pending"}
+        },
+        "qa": {}, "launch": {}
+      }
+    }
+  }
+}

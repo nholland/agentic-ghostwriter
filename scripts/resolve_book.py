@@ -24,6 +24,16 @@ USAGE
     python3 scripts/resolve_book.py              # human-readable
     python3 scripts/resolve_book.py --json       # for a skill to parse
     python3 scripts/resolve_book.py --require-okf
+    python3 scripts/resolve_book.py --list-books # every book in the registry
+    python3 scripts/resolve_book.py --book <slug> # inspect a book other than
+                                                 # the manifest's active one
+
+WHICH BOOK
+    The manifest's `bookRoot` is the active book. To work another registered
+    book WITHOUT writing to the book repo's manifest (the engine never does),
+    pass --book <slug> or set $GW_BOOK_SLUG; every engine script reads the
+    same override through inspect(), so one switch covers all of them. This is
+    the engine's /book-switch: a view, not a write.
 
 EXIT CODES
     0  book repo found and every required artifact present
@@ -65,8 +75,12 @@ def candidates(cfg):
     for hint in cfg.get("bookRepoCandidates", []):
         p = hint if os.path.isabs(hint) else os.path.join(REPO, hint)
         out.append((f"config hint {hint!r}", os.path.abspath(p)))
-    # Discovery: siblings of this repo, then siblings of its parent.
+    # Discovery: siblings of this repo, then siblings of its parent. The test
+    # harness sets GW_NO_DISCOVERY=1 so a deliberately broken fixture cannot be
+    # rescued by a real book repo that happens to sit next door.
     seen = set()
+    if os.environ.get("GW_NO_DISCOVERY"):
+        return out
     for base in (os.path.dirname(REPO), os.path.dirname(os.path.dirname(REPO))):
         if not os.path.isdir(base) or base in seen:
             continue
@@ -89,10 +103,16 @@ def resolve(cfg):
         tried.append({"source": why, "path": path, "is_book_repo": is_book_repo(path)})
         if is_book_repo(path):
             return path, why, tried
+        if why == "$GW_BOOK_REPO":
+            # An explicit override that does not resolve must stop here. Falling
+            # through to a config hint would silently point every desk at a
+            # DIFFERENT book than the one the author named - the wrong-answer-
+            # that-looks-fine failure this script exists to prevent.
+            return None, None, tried
     return None, None, tried
 
 
-def inspect(repo_root, require_okf):
+def inspect(repo_root, require_okf, book_override=None):
     """Read book-manifest.json for the ACTIVE bookRoot rather than guessing a
     slug. The manifest is the registry; a hardcoded slug goes stale the moment a
     second book is sparked."""
@@ -105,6 +125,16 @@ def inspect(repo_root, require_okf):
         return {"problems": [f"cannot read {mpath}: {exc}"], "info": info}
 
     rel = manifest.get("bookRoot")
+    override = book_override or os.environ.get("GW_BOOK_SLUG")
+    info["registry"] = sorted(manifest.get("books", {}).keys())
+    if override:
+        hits = [k for k in manifest.get("books", {}) if k == override or k.endswith("/" + override)]
+        if len(hits) != 1:
+            problems.append(f"--book {override!r} matches {len(hits)} registry entries "
+                            f"(have: {', '.join(info['registry']) or 'none'})")
+            return {"problems": problems, "info": info}
+        rel = hits[0]
+        info["bookOverride"] = override
     if not rel:
         problems.append(f"{mpath} has no 'bookRoot' key")
         return {"problems": problems, "info": info}
@@ -171,6 +201,8 @@ def main():
     ap = argparse.ArgumentParser(description="Resolve and validate the book repo.")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--require-okf", action="store_true")
+    ap.add_argument("--book", help="registry slug to inspect instead of the active bookRoot (a view, not a write)")
+    ap.add_argument("--list-books", action="store_true", help="list every book in the book repo's registry")
     a = ap.parse_args()
 
     cfg = load_config()
@@ -182,6 +214,9 @@ def main():
             print(json.dumps(out, indent=2))
         else:
             print("resolve_book: NO BOOK REPO FOUND.\n")
+            if tried and tried[0]["source"] == "$GW_BOOK_REPO":
+                print(f"$GW_BOOK_REPO is set to {tried[0]['path']!r} and it is not a book repo. "
+                      "An explicit override is never silently replaced by a guess - fix or unset it.\n")
             print("A directory containing book-manifest.json is required. Tried:")
             for t in tried[:14]:
                 print(f"  [{'x' if not t['is_book_repo'] else 'ok'}] {t['path']}   ({t['source']})")
@@ -194,7 +229,28 @@ def main():
             print("raise an error, it produces generic prose.")
         return 2
 
-    rep = inspect(repo_root, a.require_okf)
+    if a.list_books:
+        manifest = json.load(open(os.path.join(repo_root, "book-manifest.json"), encoding="utf-8"))
+        active = manifest.get("bookRoot")
+        rows = []
+        for key, b in sorted(manifest.get("books", {}).items()):
+            chapters = (b.get("stages") or {}).get("chapters") or {}
+            refined = sum(1 for k, v in chapters.items() if k.isdigit() and v.get("refined") == "complete")
+            rows.append({"key": key, "slug": b.get("slug"), "title": b.get("title"), "active": key == active,
+                         "chapter_count": b.get("chapter_count"), "refined": refined,
+                         "lastModified": b.get("lastModified")})
+        if a.json:
+            print(json.dumps(rows, indent=2))
+        else:
+            print(f"resolve_book: {len(rows)} book(s) registered in {repo_root}/book-manifest.json")
+            for r in rows:
+                mark = "*" if r["active"] else " "
+                print(f"  {mark} {r['slug'] or r['key']:<28} {r['refined']}/{r['chapter_count'] or '?'} refined  "
+                      f"{r['title'] or ''}")
+            print("  (* = active bookRoot; use --book <slug> or $GW_BOOK_SLUG to view another without switching it)")
+        return 0
+
+    rep = inspect(repo_root, a.require_okf, a.book)
     out = {"found": True, "bookRepo": repo_root, "resolvedVia": why, **rep}
 
     if a.json:
@@ -203,6 +259,8 @@ def main():
         i = rep["info"]
         print(f"resolve_book: book repo at {repo_root}")
         print(f"  resolved via: {why}")
+        if i.get("bookOverride"):
+            print(f"  viewing     : {i['bookOverride']} (override; the manifest's active book is unchanged)")
         if i.get("title"):
             print(f"  active book : {i['title']}")
         if i.get("bookRoot"):

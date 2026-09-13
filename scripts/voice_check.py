@@ -13,13 +13,19 @@ WHAT IT IS HONEST ABOUT
 
       HARD   - a literal count against a threshold from config/house.json.
                em-dashes, bold, long-sentence share, you-density, declared
-               metaphor family, ending shape. A FAIL here is a fact.
+               metaphor family. A FAIL here is a fact.
 
       CAND   - candidates needing a human or model read. Rhetorical-device
-               repetition and unglossed Stoic terms cannot be fully decided by
-               regex: a sentence-shape is a judgement, and a gloss can be
-               phrased a hundred ways. The script surfaces suspects and counts
+               repetition, unglossed Stoic terms and the single-ending rule
+               cannot be fully decided by regex: a sentence-shape is a
+               judgement, a gloss can be phrased a hundred ways, and a double
+               ending is an intent. The script surfaces suspects and counts
                what it can match. A clean CAND section is NOT a pass.
+
+    --short-form changes no threshold. It is honest about why: every cap here
+    is per piece or per 1,000 words, so a 500-word post with three anchor
+    mentions already reads 6/1,000 against a cap of 3. The flag is recorded in
+    the output so a reader knows the piece was judged as short-form.
 
     A check whose input is missing reports SKIP and says what was missing. It
     never reports a pass for something it did not look at.
@@ -409,6 +415,9 @@ def render(rep):
     L.append(f"  {rep['word_count']} words of prose, {rep['sentence_count']} sentences")
     if rep["stripped_apparatus"]:
         L.append(f"  excluded from counts: {rep['stripped_apparatus']}")
+    if rep.get("short_form"):
+        L.append("  short-form: same caps as a chapter; per-1,000 normalisation makes them "
+                 "stricter on a short piece, which is the intent")
     L.append("")
     L.append("  HARD (literal counts - a FAIL here is a fact)")
     for r in rep["results"]:
