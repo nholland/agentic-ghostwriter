@@ -2,8 +2,7 @@
   "_comment": "Single source of truth for the counted voice rules. Every threshold here is transcribed from books/the-stoic-husband/01-voice.md 'Counted rules' (line 107) in the playground repo. Do not invent a threshold: if a rule is not in 01-voice.md, it does not belong here.",
   "_bookRoot_note": "Resolved at runtime by scripts/resolve_book.py, never hardcoded. The hints below are ordered and optional; discovery finds a sibling directory containing book-manifest.json when no hint matches. $GW_BOOK_REPO overrides both.",
   "bookRepoCandidates": [
-    "../Playground-260420",
-    "~/Playground-260420"
+    "../Playground-260420"
   ],
   "voice_rules": {
     "em_dash_max": {

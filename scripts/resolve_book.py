@@ -63,7 +63,11 @@ def candidates(cfg):
     if env:
         out.append(("$GW_BOOK_REPO", os.path.abspath(os.path.expanduser(env))))
     for hint in cfg.get("bookRepoCandidates", []):
-        p = hint if os.path.isabs(hint) else os.path.join(REPO, hint)
+        # expanduser BEFORE the isabs test: '~/x' is not an absolute path, so
+        # without this it silently joins to the repo root and prints as
+        # '/home/user/agentic-ghostwriter/~/x' - a candidate that can never match.
+        h = os.path.expanduser(hint)
+        p = h if os.path.isabs(h) else os.path.join(REPO, h)
         out.append((f"config hint {hint!r}", os.path.abspath(p)))
     # Discovery: siblings of this repo, then siblings of its parent.
     seen = set()
@@ -183,11 +187,23 @@ def main():
         else:
             print("resolve_book: NO BOOK REPO FOUND.\n")
             print("A directory containing book-manifest.json is required. Tried:")
-            for t in tried[:14]:
+            hints = [t for t in tried if not t["source"].startswith("discovered")]
+            for t in hints:
                 print(f"  [{'x' if not t['is_book_repo'] else 'ok'}] {t['path']}   ({t['source']})")
-            if len(tried) > 14:
-                print(f"  ... and {len(tried)-14} more")
-            print("\nFix by either:")
+            scanned = len(tried) - len(hints)
+            if scanned:
+                bases = sorted({os.path.dirname(t["path"])
+                                for t in tried if t["source"].startswith("discovered")})
+                print(f"  [x] {scanned} sibling director{'y' if scanned == 1 else 'ies'} "
+                      f"scanned under {', '.join(bases)} - none held book-manifest.json")
+            print("\nFix by one of:")
+            if os.environ.get("CLAUDE_CODE_REMOTE") == "true":
+                # A fresh container clones only the repo the session was started
+                # from. The book repo is then reachable but absent - the one case
+                # neither remedy below covers, and the only one that can occur here.
+                print("  the book repo is not cloned in this container. Attach it")
+                print("  read-only and clone it beside this repo; discovery finds it:")
+                print(f"    git clone --depth 1 <book-repo-url> {os.path.dirname(REPO)}/<name>")
             print("  export GW_BOOK_REPO=/path/to/Playground-260420")
             print("  or add the path to 'bookRepoCandidates' in config/house.json")
             print("\nNo desk may run without this. A missing voice spec does not")

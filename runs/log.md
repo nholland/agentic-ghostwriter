@@ -25,3 +25,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 10:57 — `claude/dreamy-gates-52bn4v` @ `3319189` — 3 commit(s) this session
+- `.claude/state/retro-done-d8e6dd8c3ec1`
+- `.claude/state/session-start-sha`
+- `config/house.json`
+- `runs/log.md`
+- `scripts/resolve_book.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
