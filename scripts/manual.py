@@ -804,8 +804,18 @@ def page_defects(page):
     placeholders = {"name", "handle", "owns", "body", "title", "cmd", "gate",
                     "what", "who", "desk", "None"}
     out = []
-    for m in re.finditer(r"<(td|dd|dt|span|p|b)[^>]*>([^<]*)</\1>", page):
-        text = m.group(2).strip()
+    # (?=[\s>]) after the tag name is load-bearing: without it <b matches the
+    # start of <button, and one bogus 5,386-character match swallowed the whole
+    # desk list, so the guard reported clean on the very bug it was written for.
+    # Match the cell, then strip any inner tags. The first version used
+    # [^<]* for the content, which cannot cross an inner tag, so a cell
+    # rendered as <td><code>name</code></td> matched nothing at all and was
+    # exempt from every check below. That is exactly how the scripts and
+    # commands tables render their dict fields; the regression test passed only
+    # because IN_SESSION renders bare cells. A check with a blind spot where the
+    # bug is most likely to land is not a check.
+    for m in re.finditer(r"<(td|dd|dt|span|p|b)(?=[\s>])[^>]*>(.*?)</\1>", page, re.S):
+        text = re.sub(r"<[^>]+>", "", m.group(2)).strip()
         if text in placeholders:
             out.append("renders the literal word %r - a container was iterated "
                        "by key, or a field was never substituted" % text)
