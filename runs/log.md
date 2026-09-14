@@ -86,3 +86,8 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 11:39 — `claude/book-resolution-script-u8ad59` @ `3041455` — 1 commit(s) this session
+- `.claude/state/session-start-sha`
+
+**Next:** `?` — 
