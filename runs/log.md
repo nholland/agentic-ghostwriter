@@ -288,3 +288,8 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/inbox.py`
 - `scripts/practice_sync.py`
 - `scripts/session_log.py`
+
+## 2026-09-14 19:42 — `claude/gateway-sgjaao` — ? commit(s) this session
+- `docs/manual.html`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
