@@ -46,4 +46,12 @@ case "$cur" in
   *) [ "${CLAUDE_CODE_REMOTE:-}" = "true" ] && git push -u origin "$cur" --quiet 2>/dev/null || true ;;
 esac
 
+# Derived files must have a deriving script AND the check must have a caller -
+# sync_plugin_layout.py's own docstring says so, and until now it had neither.
+# Nothing here rewrites anything: they report, the Publisher acts.
+drift=""
+python3 scripts/sync_plugin_layout.py --check >/dev/null 2>&1 || drift="${drift}the plugin-layout copies under agents/ and skills/ are out of sync (python3 scripts/sync_plugin_layout.py). "
+python3 scripts/manual.py --check >/dev/null 2>&1 || drift="${drift}docs/manual.html is stale - the roster, commands, scripts or thresholds changed (python3 scripts/manual.py, then republish the artifact so the author's link is not stale). "
+[ -n "$drift" ] && echo "DERIVED FILES STALE: ${drift}Regenerate before closing, then tell the author what changed." >&2
+
 exec bash .claude/hooks/retro-check.sh

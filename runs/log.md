@@ -121,10 +121,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-14 11:51 — `claude/gateway-sgjaao` @ `93ba770` — ? commit(s) this session
+## 2026-09-14 11:48 — `claude/dreamy-gates-52bn4v` @ `93ba770` — ? commit(s) this session
 - `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 11:51 — `claude/gateway-sgjaao` @ `93ba770` — ? commit(s) this session
 
 ## 2026-09-14 11:58 — `claude/gateway-sgjaao` @ `fb82ebe` — ? commit(s) this session
 - `runs/log.md`
@@ -180,6 +182,15 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
+## 2026-09-14 12:49 — `claude/dreamy-gates-52bn4v` @ `8f0da97` — 1 commit(s) this session
+- `.claude/hooks/session-stop.sh`
+- `README.md`
+- `docs/manual.html`
+- `scripts/manual.py`
+- `scripts/manual_content.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
 ## 2026-09-14 12:50 — `claude/gateway-sgjaao` @ `2ccbf4d` — 4 commit(s) this session
 - `.claude/agents/gw-lineeditor.md`
 - `.claude/skills/gw-refine/SKILL.md`
@@ -192,6 +203,16 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/revisions/2026-09-14-practice-guide-back-of-book.md`
 - `scripts/inbox.py`
 - `scripts/voice_check.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 12:51 — `claude/dreamy-gates-52bn4v` @ `0038ff5` — 2 commit(s) this session
+- `.claude/hooks/session-stop.sh`
+- `README.md`
+- `docs/manual.html`
+- `runs/log.md`
+- `scripts/manual.py`
+- `scripts/manual_content.py`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
@@ -210,8 +231,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
+## 2026-09-14 12:55 — `claude/dreamy-gates-52bn4v` @ `fed3af9` — 4 commit(s) this session
+- `.claude/hooks/session-stop.sh`
+- `README.md`
+- `docs/manual.html`
+- `runs/log.md`
+- `scripts/manual.py`
+- `scripts/manual_content.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
 ## 2026-09-14 14:11 — `claude/gateway-sgjaao` @ `f064e6a` — 1 commit(s) this session
 - `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 14:11 — `claude/dreamy-gates-52bn4v` @ `d9758ff` — 1 commit(s) this session
+- `docs/manual.html`
+- `scripts/manual.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 14:12 — `claude/dreamy-gates-52bn4v` @ `4bcca7d` — 2 commit(s) this session
+- `docs/manual.html`
+- `runs/log.md`
+- `scripts/manual.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 14:16 — `claude/dreamy-gates-52bn4v` @ `5ffc69c` — 4 commit(s) this session
+- `docs/manual.html`
+- `runs/log.md`
+- `scripts/manual.py`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
@@ -237,5 +288,3 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/inbox.py`
 - `scripts/practice_sync.py`
 - `scripts/session_log.py`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.

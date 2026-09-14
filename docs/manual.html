@@ -1,0 +1,387 @@
+<title>The House Manual</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+:root{
+  --paper:#fbfaf7; --paper-2:#f2f0ea; --ink:#17151a; --ink-2:#4a4750; --ink-3:#7b7884;
+  --rule:#dcd9d1; --pencil:#2f5fa8; --pencil-soft:#e4ebf7; --author:#b8412f;
+  --author-soft:#f7e6e2; --graphite:#5f6470; --graphite-soft:#e9eaee; --code-bg:#f1efe9;
+  --display:'Fraunces',Georgia,'Times New Roman',serif;
+  --body:'Public Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#14161a; --paper-2:#1c1f25; --ink:#ece9e2; --ink-2:#bdb8ae; --ink-3:#8a8780;
+  --rule:#2c3038; --pencil:#7ea3e6; --pencil-soft:#1d2a40; --author:#e07a66;
+  --author-soft:#3a221d; --graphite:#a2a7b3; --graphite-soft:#252930; --code-bg:#1c1f25;
+}}
+:root[data-theme="dark"]{
+  --paper:#14161a; --paper-2:#1c1f25; --ink:#ece9e2; --ink-2:#bdb8ae; --ink-3:#8a8780;
+  --rule:#2c3038; --pencil:#7ea3e6; --pencil-soft:#1d2a40; --author:#e07a66;
+  --author-soft:#3a221d; --graphite:#a2a7b3; --graphite-soft:#252930; --code-bg:#1c1f25;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--pencil);text-underline-offset:2px}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{
+  outline:2px solid var(--pencil);outline-offset:2px;border-radius:3px}
+code{font-family:var(--mono);font-size:.88em;background:var(--code-bg);padding:.1em .35em;border-radius:3px}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.12;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1{font-size:clamp(2.1rem,7vw,4rem)}
+h2{font-size:clamp(1.5rem,4.5vw,2.1rem);margin-bottom:.35em}
+h3{font-size:1.15rem;margin:1.5rem 0 .4rem}
+p{margin:0 0 1em;max-width:68ch}
+ul,ol{max-width:68ch;padding-left:1.25em;margin:0 0 1em}
+li{margin-bottom:.35em}
+.eyebrow{font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:.55rem}
+.lede{font-size:1.1rem;color:var(--ink-2);max-width:62ch}
+.wrap{max-width:1140px;margin:0 auto;padding:2rem 20px 4rem}
+@media (min-width:940px){
+  .wrap{display:grid;grid-template-columns:210px minmax(0,1fr);gap:3rem;padding-top:2.5rem}
+  nav.toc{position:sticky;top:1.5rem;align-self:start}
+}
+nav.toc ol{list-style:none;padding:0;margin:0;font-size:.9rem}
+@media (min-width:940px){nav.toc ol{border-left:1px solid var(--rule)}}
+nav.toc li{margin:0}
+nav.toc a{display:block;padding:.3rem .75rem;color:var(--ink-2);text-decoration:none;
+  border-left:2px solid transparent;margin-left:-1px}
+nav.toc a.active{color:var(--pencil);border-left-color:var(--pencil)}
+@media (max-width:939px){
+  nav.toc{margin-bottom:1.5rem;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  nav.toc ol{display:flex;gap:.4rem;white-space:nowrap;padding-bottom:.3rem}
+  nav.toc a{border:1px solid var(--rule);border-radius:999px;padding:.35rem .8rem}
+  nav.toc a.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+}
+section{padding-block:2.2rem;border-top:1px solid var(--rule);scroll-margin-top:1rem}
+section:first-of-type{border-top:0;padding-top:0}
+header.mast{padding-bottom:2rem}
+.thesis{font-family:var(--display);font-size:clamp(1.15rem,3.4vw,1.5rem);font-weight:400;
+  color:var(--ink-2);max-width:30ch;line-height:1.3;margin:.9rem 0 1.5rem}
+.keys{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.9rem;
+  border-block:1px solid var(--rule);padding-block:1rem;max-width:760px}
+.keys b{display:block;font-family:var(--display);font-size:1.6rem;line-height:1;margin-bottom:.25rem;
+  font-variant-numeric:tabular-nums}
+.keys span{font-size:.8rem;color:var(--ink-3)}
+.who{display:inline-flex;align-items:center;gap:.4em;font-size:.68rem;font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;padding:.18em .55em;border-radius:3px;white-space:nowrap}
+.who::before{content:"";width:.5em;height:.5em;border-radius:50%;background:currentColor}
+.who.author{color:var(--author);background:var(--author-soft)}
+.who.cold{color:var(--pencil);background:var(--pencil-soft)}
+.who.script{color:var(--graphite);background:var(--graphite-soft)}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem .9rem;margin:.3rem 0 1.3rem;font-size:.88rem;
+  color:var(--ink-2);align-items:center}
+.start{list-style:none;padding:0;margin:1rem 0 0;counter-reset:s}
+.start li{counter-increment:s;display:grid;grid-template-columns:2rem 1fr;gap:.9rem;
+  padding:.8rem 0;border-top:1px solid var(--rule)}
+.start li::before{content:counter(s);font-family:var(--mono);font-size:.85rem;color:var(--ink-3);
+  border:1px solid var(--rule);border-radius:50%;width:2rem;height:2rem;display:grid;place-items:center}
+.start b{display:block;margin-bottom:.2rem}
+.start p{margin:0;font-size:.95rem;color:var(--ink-2)}
+.stagebar{display:flex;gap:.4rem;overflow-x:auto;padding-bottom:.5rem;margin:1rem 0 .2rem;
+  -webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.stagebar button{all:unset;cursor:pointer;flex:0 0 auto;padding:.45rem .85rem;border:1px solid var(--rule);
+  border-radius:999px;font-size:.88rem;font-weight:500;color:var(--ink-2);white-space:nowrap}
+.stagebar button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.panel{background:var(--paper-2);border-radius:10px;padding:1.2rem 1.3rem;margin-top:.6rem}
+.panel h3{margin-top:0;display:flex;gap:.7rem;align-items:center;flex-wrap:wrap}
+.panel dt{font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:.9rem}
+.panel dd{margin:.25rem 0 0}
+.panel dl{margin:0}
+.filter{display:flex;gap:.6rem;align-items:center;margin:.8rem 0 1rem;max-width:520px}
+.filter input{flex:1;min-width:0;font:inherit;padding:.6rem .85rem;border:1px solid var(--rule);
+  border-radius:8px;background:var(--paper);color:var(--ink)}
+.filter span{font-size:.85rem;color:var(--ink-3);white-space:nowrap;font-variant-numeric:tabular-nums}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:.8rem}
+.card{border:1px solid var(--rule);border-radius:10px;background:var(--paper)}
+.card[hidden]{display:none}
+#phrases tr[hidden]{display:none}
+.say{font-family:var(--display);font-style:italic;font-size:1rem}
+.card summary{list-style:none;cursor:pointer;padding:.9rem 1rem;display:grid;gap:.35rem}
+.card summary::-webkit-details-marker{display:none}
+.card summary::after{content:"+";position:absolute;right:1rem;color:var(--ink-3);font-family:var(--mono)}
+.card[open] summary::after{content:"\2212"}
+.card summary{position:relative;padding-right:2.2rem}
+.card .nm{font-family:var(--mono);font-size:.8rem;color:var(--ink-3)}
+.card .ti{font-weight:600;line-height:1.3}
+.card .bd{padding:0 1rem 1rem;font-size:.92rem;color:var(--ink-2)}
+.card[open] .bd{border-top:1px solid var(--rule);padding-top:.8rem}
+.tools{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.7rem}
+.tools i{font-style:normal;font-family:var(--mono);font-size:.72rem;color:var(--ink-3);
+  border:1px solid var(--rule);border-radius:4px;padding:.1em .4em}
+.tbl{overflow-x:auto;margin:1rem 0 1.4rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:420px}
+th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
+th{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+td code{white-space:nowrap}
+.note{border-left:3px solid var(--pencil);padding:.15rem 0 .15rem 1rem;color:var(--ink-2);
+  max-width:66ch;margin:1rem 0}
+.note.author{border-left-color:var(--author)}
+.repos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1.2rem 0}
+.repo{border:1px solid var(--rule);border-radius:10px;padding:1.1rem 1.2rem;background:var(--paper-2)}
+.repo h3{margin-top:0}
+.repo .path{font-family:var(--mono);font-size:.78rem;color:var(--ink-3);margin-bottom:.7rem}
+dl.gloss dt{font-weight:600;margin-top:.85rem}
+dl.gloss dd{margin:.15rem 0 0;color:var(--ink-2);max-width:68ch}
+footer{color:var(--ink-3);font-size:.85rem;border-top:1px solid var(--rule);
+  padding-top:1.3rem;margin-top:2.5rem;max-width:68ch}
+footer code{font-size:.8em}
+</style>
+<div class="wrap">
+<nav class="toc" aria-label="Sections"><ol>
+<li><a href="#start">Start here</a></li>
+<li><a href="#flow">How a chapter moves</a></li>
+<li><a href="#desks">Who works here</a></li>
+<li><a href="#commands">What to say</a></li>
+<li><a href="#gates">The counted rules</a></li>
+<li><a href="#production">Scripts and hooks</a></li>
+<li><a href="#where">Where things live</a></li>
+<li><a href="#never">What it never does</a></li>
+<li><a href="#glossary">Glossary</a></li>
+</ol></nav><main>
+<header class="mast"><div class="eyebrow">The house manual &middot; for the author</div>
+<h1>The Agentic Ghostwriter</h1>
+<p class="thesis">You say what the chapter is, and whether it landed. The house does everything in between, and asks you only what only you can answer.</p>
+<div class="keys">
+<div><b>2</b><span>touches per chapter: the interview and the verdict</span></div>
+<div><b>12</b><span>desks, 2 of them in the room with you</span></div>
+<div><b>19</b><span>commands, though you only need one</span></div>
+<div><b>1</b><span>door to remember: <code>/gw</code></span></div>
+</div>
+<p class="lede" style="margin-top:1.4rem">A book production house that runs on Claude Code. You are the expert the house recruited. You talk to the Publisher; the Publisher runs the desks. Every desk is either someone in the room with you, a cold sub-agent that never saw the conversation, or a script that cannot be talked past.</p>
+<div class="legend"><span class="who author">You</span><span>in the room</span><span class="who cold">Cold desk</span><span>a sub-agent that never saw the conversation</span><span class="who script">Script</span><span>counts, checks, refuses; cannot be persuaded</span></div></header>
+<section id="start"><div class="eyebrow">Section 1</div><h2>Start here</h2>
+<ol class="start">
+<li><div><b>Open a session on the engine repo</b><p>Pick <b>agentic-ghostwriter</b> as the repository. The start hook prints the real clock, the book it resolved, and the board.</p></div></li>
+<li><div><b>The book repo gets attached</b><p>A cloud session clones one repository, and the house needs two: this engine, and the book it reads. If the book is not on disk, <code>resolve_book.py</code> stops everything and says so. Attaching it takes seconds and the Publisher does it.</p></div></li>
+<li><div><b>Say <code>/gw</code></b><p>One door. On its own it shows what is next and what is waiting on you. With words after it, the Publisher reads what you mean. Nothing here needs remembering: when a phrase matters, the menu says it at that moment.</p></div></li>
+</ol>
+<p class="note">This page describes the system. It deliberately carries no inbox count and no chapter progress: those are stale the moment they are written, which is the defect this page is generated to avoid. Say <code>/gw</code> for live state.</p></section>
+<section id="flow"><div class="eyebrow">Section 2</div><h2>How a chapter moves</h2><p>Seven stages. Tap one to see who runs it and what stops it. You are needed at two of them; everything between runs cold.</p>
+<div class="stagebar" id="stagebar" role="tablist">
+<button type="button" role="tab" aria-selected="true">1. The interview</button>
+<button type="button" role="tab" aria-selected="false">2. The brief</button>
+<button type="button" role="tab" aria-selected="false">3. The draft</button>
+<button type="button" role="tab" aria-selected="false">4. The refine</button>
+<button type="button" role="tab" aria-selected="false">5. The plate</button>
+<button type="button" role="tab" aria-selected="false">6. The package</button>
+<button type="button" role="tab" aria-selected="false">7. The verdict</button>
+</div>
+<div class="panel" id="stagepanel" role="tabpanel"></div>
+<script type="application/json" id="stagedata">[{"name": "The interview", "who": "author", "label": "You", "desk": "The Developmental Editor, in session", "cmd": "/gw-interview N", "what": "The chapter's ideas come from you here or they do not exist. The Editor opens with what the outline already commits the chapter to, so you react to something concrete, then works the gaps: the memory behind the story slot, where your own experience contradicts the premise, what you believe that you have not seen written anywhere. It pushes back once on anything that sounds received rather than yours. Your corrections are the product.", "gate": "None. Your sign-off that the record is complete is the gate."}, {"name": "The brief", "who": "cold", "label": "Cold desk", "desk": "The Researcher", "cmd": "/gw-research N", "what": "The automation boundary. Everything upstream of a good brief needs you; everything downstream can run cold. The Researcher reads your interview record and the book's own files, and writes gap markers for claims nobody has sourced.", "gate": "The Ghostwriter reads it in plan-only mode and answers one question: could someone who never read the interview write this chapter from this file alone?"}, {"name": "The draft", "who": "cold", "label": "Cold desk", "desk": "The Ghostwriter", "cmd": "/gw-draft N", "what": "A complete chapter, written cold from the brief. It ends in Draft Notes that declare the anchor metaphor, every placeholder, and any outline row it could not satisfy. It never pauses to check in.", "gate": "The counted voice script, pasted verbatim, then the Conformance Checker, which is shown only the outline section and the prose so it cannot be persuaded by the reasons behind a substitution."}, {"name": "The refine", "who": "cold", "label": "Cold desk", "desk": "The Line Editor, then the Anti-Slop Reader", "cmd": "/gw-refine N", "what": "Refinement passes into finished prose, plus the distillation the compile reads. The Anti-Slop Reader then judges the half no script can count: invented foils, scenes watched from outside, a term relabelled between chapters.", "gate": "The voice script again, run by the Publisher independently of what the editor reported. A discrepancy between the two is itself a finding."}, {"name": "The plate", "who": "cold", "label": "Cold desk", "desk": "The Designer", "cmd": "part of /gw-chapter", "what": "One diagram per chapter, drawn in the book's established visual style from the distillation's mechanism and the declared anchor metaphor. It reuses the house marks rather than redrawing them, and introduces no content of its own.", "gate": "The prose rules apply to the labels. Never blocks a chapter."}, {"name": "The package", "who": "script", "label": "Script", "desk": "Production", "cmd": "/gw-compile N", "what": "The chapter as a reader meets it, through the book repo's one renderer. There is one renderer because its predecessor was two copies of a stylesheet that shipped the same two defects and had only one fixed.", "gate": "The citation gate runs before anything is assembled: a manuscript is the one artifact that leaves the building."}, {"name": "The verdict", "who": "author", "label": "You", "desk": "You", "cmd": "read the package", "what": "You come back to the PDF, the plate, the counts as the scripts printed them, the conformance rows, and the inbox. You say whether it landed. If you want a line changed, <code>/gw-edit N</code> walks the chapter with you section by section and re-runs the counts, because an edit can break a count that passed.", "gate": "You are the gate. Only you can say whether it landed."}]</script>
+<p class="note">The brief is the automation boundary. Upstream of it you must be in the room, because that is where the chapter's ideas come from. Downstream, everything can run cold.</p></section>
+<section id="desks"><div class="eyebrow">Section 3</div><h2>Who works here</h2>
+<p>12 desks. 2 run in the session as the voice you are talking to, because a sub-agent cannot ask you anything. 10 run cold. Tap any desk for its mandate.</p>
+<div class="filter"><input id="qdesk" type="search" placeholder="Filter desks…" aria-label="Filter desks"><span id="qdeskn"></span></div>
+<div class="cards" id="desks-list">
+<details class="card"><summary><span class="nm">you talk to it; it is CLAUDE.md</span><span class="ti">The Publisher — State, routing, the inbox, the gates, relaying to desks.</span></summary><div class="bd"><p><b>Mandate.</b> The front door. Never writes prose, never argues a chapter's merits. Routes, relays, and keeps the board honest. Names every desk it dispatches so you always know who is working.</p><p><b>Reads.</b> The oracle and the inbox before anything else, every session. Never determines what is next by reading files and reasoning.</p><p><b>Never.</b> Lands on main unprompted. Makes you remember a phrase. Computes next on its own. Resolves an inbox item on your behalf.</p></div></details>
+<details class="card"><summary><span class="nm">/gw-interview · /gw-found · /gw-revise · /gw-edit</span><span class="ti">The Developmental Editor — The foundation of a new book, the chapter interview, revisions to locked artifacts, the interactive re-edit.</span></summary><div class="bd"><p><b>Mandate.</b> The dialogue is the work. Every artifact here is a claim about what you think, so it runs as the session, never as a sub-agent. Ends an interview by writing the substance of what you said into the record the Researcher works from.</p><p><b>Reviewed by.</b> You, at the check-in, before the hand-off.</p><p><b>Never.</b> Regenerates a locked artifact (the voice spec pairs most rules with the incident that produced them; regeneration deletes that history). Writes the foundation of a book another pipeline ships; it produces a diff instead.</p></div></details>
+<details class="card"><summary><span class="nm">gw-designer</span><span class="ti">The Designer — Concept plates and Part closing plates, drawn from the book's design layer and never invented to fill a layout.</span></summary><div class="bd"><p><b>Mandate.</b> Design elements are derived from approved content, never invented to complete a design. Reuses the four house marks; matches the concept-plate idiom for a chapter and the Part idiom (6x9, black line, captioned with the opening page's last sentence) for a Part's close; draws only concepts the generated candidate register lists as reader-facing. Renders before returning, because two rejected marks and two rejected plates were invisible in the markup.</p><p><b>Why concept first.</b> Drawing the Incomplete Husband plate exposed a sixth failure mode the framework did not name. It was proposed, approved, and written into the concept before it was drawn. A gap the drawing exposes goes to the inbox; the Designer never fills it.</p><p><b>Never.</b> Redraws a mark. Mixes the two idioms. Puts a cardinal-virtue name, an unsourced number, or an unverifiable quotation on a plate. Blocks a chapter.</p><div class="tools"><i>Read</i><i>Write</i><i>Glob</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-factchecker</span><span class="ti">The Fact-Checker — The citation ledger from unverified up to verifiable, the external verification packets, the defects register.</span></summary><div class="bd"><p><b>Mandate.</b> Search may locate a source or flag a defect; it may never transcribe a quotation. Probes what this machine can reach rather than reasoning about it, because reachability differs between the cloud and your laptop. Routes each citation by tier and reachability; packages the rest for a session with real access.</p><p><b>Never.</b> Sets verified; only you can, against your copy. Invents a house translation. Rewrites printed prose silently; it proposes.</p><div class="tools"><i>Read</i><i>Write</i><i>Edit</i><i>Bash</i><i>Grep</i><i>Glob</i><i>WebSearch</i><i>WebFetch</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-ghostwriter</span><span class="ti">The Ghostwriter — The draft. In plan-only mode, the brief's reviewer.</span></summary><div class="bd"><p><b>Mandate.</b> Writes real prose in your voice from the brief. Where something is missing, writes around it and says so in Draft Notes; never invents the missing thing, least of all your own story.</p><p><b>Reviewed by.</b> voice_check.py on every counted rule; the Conformance Checker on every commissioned element.</p><p><b>Never.</b> Em-dashes. A source that reads well and does not exist. A number that is yours. A chapter that fits the word budget by dropping a required element.</p><div class="tools"><i>Read</i><i>Write</i><i>Bash</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-lineeditor</span><span class="ti">The Line Editor — Public placeholders to the ledger's ceiling, the refinement passes, the distillation, the practice-guide section.</span></summary><div class="bd"><p><b>Mandate.</b> Sharpens; does not rewrite. Five passes: approachability, voice, clarity, flow, anti-slop. Runs the counted script itself and pastes the result, and the Publisher runs it again anyway.</p><p><b>Reviewed by.</b> voice_check.py independently, the Anti-Slop Reader, the Conformance Checker.</p><p><b>Never.</b> Resolves a placeholder with invented content. Confirms a verbatim quotation from a search result. Sets verified. Skips the script because the prose reads clean.</p><div class="tools"><i>Read</i><i>Write</i><i>Edit</i><i>Bash</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-panel</span><span class="ti">The Reader Panel — The whole-book readers: the Skeptic, the beta readers, the tension reader, the continuity editor.</span></summary><div class="bd"><p><b>Mandate.</b> Runs several readers over the manuscript and returns one synthesised ranked list, not four reports stapled together. Where two personas disagree, it keeps both; the disagreement is the finding.</p><p><b>Runs under.</b> /gw-qa, with the Anti-Slop Reader alongside. Needs at least half the arc or it says so, because a tension audit over a third of a book reports a flat arc that is simply incomplete.</p><p><b>Never.</b> Fixes anything. Averages two readings into a moderate one.</p><div class="tools"><i>Read</i><i>Grep</i><i>Glob</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-publicist</span><span class="ti">The Publicist — Substack posts, social teasers, the callouts pass, and the whole-book publication stack.</span></summary><div class="bd"><p><b>Mandate.</b> Drafts everything that leaves the building short of the book. Per chapter: identifies the four to six publishable concepts first, as a list you choose from. Whole book, late: positioning, pitch, publishing path, indie plan, review strategy, book-club guide, a channel inventory. States the arc's coverage before producing anything and carries it in the filename.</p><p><b>Never.</b> Posts, submits, connects, or implies any of those happened. Invents a statistic to make a hook land. Quotes a Stoic source below verifiable. Claims reader numbers it was not given.</p><div class="tools"><i>Read</i><i>Write</i><i>Grep</i><i>Glob</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-researcher</span><span class="ti">The Researcher — The brief, gap-marker citations, the cross-chapter reuse check, source ingestion.</span></summary><div class="bd"><p><b>Mandate.</b> Builds the scaffolding a writer needs. Assembles and verifies; never decides what the chapter argues. When the interview record does not settle something, it writes the gap down.</p><p><b>Reviewed by.</b> The Ghostwriter in plan-only mode, and the citation gate.</p><p><b>Never.</b> Invents a citation, including one you cited. Sets verified. Writes a content concept without proposing it first. Supplies a plausible date instead of reading the clock.</p><div class="tools"><i>Read</i><i>Write</i><i>Bash</i><i>Grep</i><i>Glob</i><i>WebSearch</i><i>WebFetch</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-retro</span><span class="ti">The Archivist — The session review: what broke, what was missing, what was too hard, what worked, what recurs.</span></summary><div class="bd"><p><b>Mandate.</b> Dispatched once per session that touched the work. Reads the session's diff, the log, the inbox, all of FINDINGS.md and the old pipeline's incident archive, then reviews through five lenses and suggests only if necessary. Every suggestion is typed and priced, and every addition names a deletion.</p><p><b>Why it proposes and never applies.</b> A learning loop that edits its own rules grew the old ledger from 739 to 6,026 words in 27 days and spent five of nine sessions on maintenance instead of the book.</p><p><b>Never.</b> Edits a rule file. Manufactures a finding; if nothing surfaced, three lines and stop.</p><div class="tools"><i>Read</i><i>Grep</i><i>Glob</i><i>Bash</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-slopreader</span><span class="ti">The Anti-Slop Reader — The qualitative half of the anti-slop check, and the cross-chapter patterns only a whole-book read reveals.</span></summary><div class="bd"><p><b>Mandate.</b> Owns exactly what no script can count: invented foils, indirection, scenes watched from outside, windups, the wife cast as a threat, universal claims about all men. At book level: the same opening structure twice across Parts, anchor metaphors that contradict each other, a term used as established that nothing defined.</p><p><b>Never.</b> Edits. Duplicates a counted rule. Lets silence be read as a pass: it ends by naming what it did not read.</p><div class="tools"><i>Read</i><i>Grep</i><i>Glob</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-specchecker</span><span class="ti">The Conformance Checker — Spec conformance and the attribution audit.</span></summary><div class="bd"><p><b>Mandate.</b> A clean-room reader with a deliberately starved input set: the chapter's outline section and the prose, nothing else. Not the brief, not the notes, not which pipeline wrote it. It answers one question element by element: did this prose deliver what the outline commissioned?</p><p><b>Why it exists.</b> Chapter 10 shipped having silently dropped its four-virtue structure, both Stoic sources, both named researchers, its central story and its reader ah-ha, and four editing passes reported clean, because the editing stage read only the word target.</p><p><b>Never.</b> Edits. Softens a FAIL because the substitution seems sensible. Reports a PASS it cannot quote. Estimates a word count; it is handed one or reports NOT SUPPLIED.</p><div class="tools"><i>Read</i></div></div></details>
+</div>
+<p class="note">Every cold desk is prefixed <code>gw-</code> for a mechanical reason: a project's own agent definitions override same-named plugin agents, so a desk called <code>editor</code> here would be silently replaced by the book repo's version, and a comparison would test the old desks while reporting on the new ones.</p></section>
+<section id="commands"><div class="eyebrow">Section 4</div><h2>What to say</h2>
+<p>You hold one door: <code>/gw</code>. On its own it shows a menu built from the state oracle, so it cannot be stale. With words after it, the Publisher reads what you mean — <em>readers said…</em>, <em>put it on main</em>, <em>do chapter 12</em>. The other 18 commands are for deliberately re-running one stage; they are not secret, just not the front door.</p>
+<div class="filter"><input id="qcmd" type="search" placeholder="Filter commands…" aria-label="Filter commands"><span id="qcmdn"></span></div>
+<div class="cards" id="commands-list">
+<details class="card"><summary><span class="nm">/gw</span><span class="ti">The one door</span></summary><div class="bd">Alone, shows a short menu of what is next and what is waiting. With words after it, the Publisher reads the intent and does the right thing - a chapter number runs that chapter, plain words route to the right desk. The author never has to remember another command.</div></details>
+<details class="card"><summary><span class="nm">/gw-bakeoff</span><span class="ti">Run or resume the parallel bake-off between the old book pipeline and this one for a given chapter - build the blind comparison packet, walk the author through the blind read, then unseal</span></summary><div class="bd">Use when comparing the two systems on the same chapter.</div></details>
+<details class="card"><summary><span class="nm">/gw-board</span><span class="ti">The Publisher's dashboard - where every chapter stands across both pipelines, what each desk has produced, and what is waiting on the author</span></summary><div class="bd">Run at the start of a session to re-enter.</div></details>
+<details class="card"><summary><span class="nm">/gw-chapter</span><span class="ti">The Publisher runs a whole chapter through the house - interview, research, draft, refine, plate, verdict package - pausing only where the author is needed</span></summary><div class="bd">The one command for one chapter. Resumable from wherever the chapter stopped.</div></details>
+<details class="card"><summary><span class="nm">/gw-compile</span><span class="ti">Assemble a clean reader-facing manuscript or a single chapter's PDF - the package the author sends to readers for feedback</span></summary><div class="bd">Uses the book repo's one renderer. Writes into runs/ while both pipelines are live.</div></details>
+<details class="card"><summary><span class="nm">/gw-draft</span><span class="ti">The Ghostwriter desk drafts a chapter cold from its existing research brief, gated by the brief review, the counted voice script, and the clean-room checker</span></summary><div class="bd">Writes into this repo's runs/ tree and never touches the book repo. Use for the shadow run of a chapter already researched in the playground pipeline.</div></details>
+<details class="card"><summary><span class="nm">/gw-edit</span><span class="ti">Interactive re-edit of a refined chapter with the author, section by section, then refresh its distillation and practice-guide entry</span></summary><div class="bd">Runs in session. Use after he has read a chapter and wants to change something.</div></details>
+<details class="card"><summary><span class="nm">/gw-found</span><span class="ti">The Developmental Editor runs the Foundation phase with the author - premise, archetype, voice, audience, outline - for a NEW book, or reports what a book already has</span></summary><div class="bd">Runs in session, never as a sub-agent. Resumable mid-sequence.</div></details>
+<details class="card"><summary><span class="nm">/gw-inbox</span><span class="ti">Show what is waiting on the author and take his answers, closing each item with the ruling recorded</span></summary><div class="bd">Use when he wants to clear decisions the cold desks could not make.</div></details>
+<details class="card"><summary><span class="nm">/gw-interview</span><span class="ti">The Developmental Editor desk interviews the author about a chapter and writes the interview record that the Researcher builds the brief from</span></summary><div class="bd">Runs in session with the author, never as a sub-agent. Use before any drafting of a chapter.</div></details>
+<details class="card"><summary><span class="nm">/gw-market</span><span class="ti">The Publicist desk identifies a refined chapter's publishable concepts and drafts Substack posts and social teasers from them</span></summary><div class="bd">Drafts only - nothing is ever posted. Use after a chapter is refined.</div></details>
+<details class="card"><summary><span class="nm">/gw-note</span><span class="ti">Record something the author said that should outlive the session - a decision, a ruling, or a question he wants to defer rather than answer now</span></summary><div class="bd">His words, kept verbatim. Use when he says something worth keeping but there is no artifact to put it in.</div></details>
+<details class="card"><summary><span class="nm">/gw-qa</span><span class="ti">Whole-book QA - the Reader Panel's four personas plus the Anti-Slop Reader's cross-chapter pass, synthesized into one ranked list</span></summary><div class="bd">Needs the whole manuscript, not a single chapter.</div></details>
+<details class="card"><summary><span class="nm">/gw-refine</span><span class="ti">The Line Editor desk refines a cold draft into finished prose plus a distillation, gated by the counted voice script and the clean-room conformance checker</span></summary><div class="bd">Writes into this repo's runs/ tree only. Use after /gw-draft for the shadow run of a chapter.</div></details>
+<details class="card"><summary><span class="nm">/gw-research</span><span class="ti">The Researcher desk builds a chapter research brief cold from the interview record, gated by the Ghostwriter's plan-only review of whether the brief can be written from at all</span></summary><div class="bd">Use after /gw-interview.</div></details>
+<details class="card"><summary><span class="nm">/gw-revise</span><span class="ti">Revisit a locked foundation artifact - premise, voice, audience, outline, archetype, framework, sources - with the author</span></summary><div class="bd">Proposes changes for a book another pipeline ships; writes only for a book this engine owns.</div></details>
+<details class="card"><summary><span class="nm">/gw-signal</span><span class="ti">Take reader feedback in - paste what readers said - and route it to the right desk</span></summary><div class="bd">The Publisher receives it; the Publicist logs it as a signal concept; the Developmental Editor, Line Editor or Fact-Checker act on it depending on what kind of feedback it is.</div></details>
+<details class="card"><summary><span class="nm">/gw-sources</span><span class="ti">The Researcher ingests raw source material into typed OKF concepts - frameworks, stories, citations</span></summary><div class="bd">Raw intake stays raw; curation is proposed, not written. Run before chapter work and whenever new material arrives.</div></details>
+<details class="card"><summary><span class="nm">/gw-verify</span><span class="ti">The Fact-Checker desk works the citation queue down - probes what is reachable, transcribes real pages where it can, confirms claims by search where that is enough, and packages the rest</span></summary><div class="bd">Never marks anything verified. Runs anytime after the first refined chapter.</div></details>
+</div>
+<h3>Or just say it in your own words</h3>
+<p>The Publisher reads intent, so the phrasing below is a sample, not a syntax. If nothing matches it asks one question with the likely readings rather than guessing: a wrong guess on <em>status</em> costs nothing, a wrong guess on <em>draft 12</em> costs a chapter run.</p>
+<div class="filter"><input id="qsay" type="search" placeholder="Try: readers said, put it on main, floor…" aria-label="Filter phrases"><span id="qsayn"></span></div>
+<div class="tbl"><table id="phrases"><thead><tr><th>You say something like</th><th>What happens</th><th>Who</th></tr></thead><tbody>
+<tr><td class="say">/gw</td><td>The menu: what is next (from the oracle), what is waiting on you, and the few things you might say. Never stale, because it is computed.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">12 · chapter 12 · do the next chapter</td><td>Runs Chapter 12 end to end, pausing at the interview, the concept confirmation, and the verdict. Resumes from wherever it stopped.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">shadow 12 · draft 12 from their brief · run 12 in parallel</td><td>Drafts Chapter 12 cold from the book pipeline's brief, into runs/, with every gate from the draft onward. The board offers this on its own when the brief exists.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">run the floor · work while I'm gone · do all the cold stuff</td><td>Every chapter whose next stage needs no author, dispatched at once. A chapter that fails a gate twice is parked; the others continue.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">next · go · continue · what now</td><td>Runs the oracle's next action. Never a guess.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">status · where are we · how's it going</td><td>The board: both pipelines, every chapter, the inbox, parked questions, the floor.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">inbox · what do you need from me · waiting on me</td><td>The questions cold desks could not decide, each with the context to answer cold. Your ruling is recorded in your words and the desk resumes.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">readers said… · feedback · someone told me</td><td>Each response is logged as a signal (proposed first, written after you confirm), then routed by what it is: lost reader, argued objection, factual challenge, gift, new scope.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">compile · pdf · send to readers · print it</td><td>A clean PDF through the book repo's one renderer, citation gate first, word count compared with the previous compile.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">compare · bake-off · which is better · old vs new</td><td>The blind packet for a chapter both pipelines refined. You read two neutral variants; the mapping stays sealed until your verdict is written.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">verify · citations · are the sources right · check the quotes</td><td>The Fact-Checker works the citation queue: probes reachability, transcribes real pages where it can, confirms claims by search where that is enough, packages the rest. Never sets verified.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">qa · whole book · does it hold together · beta</td><td>The Reader Panel and the Anti-Slop Reader over the manuscript, merged into one ranked list. Reports; opens no fix loop.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">substack · social · post · newsletter</td><td>The Publicist identifies a chapter's publishable concepts as a list you choose from, then drafts. Nothing is posted.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">positioning · taglines · pitch · proposal · query letter · KDP · ARC · book club · traditional or self</td><td>The publication stack, one mode per deliverable. The coverage of the arc is stated first and carried in the filename.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">new book · I have an idea for…</td><td>The Foundation phase with the Developmental Editor: premise, archetype, voice, audience, outline, each shown and ratified before the next.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">change the voice · fix the outline · the premise is wrong</td><td>Revise a locked artifact with the history kept. For a book the book pipeline ships, a diff for you to apply there.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">I have material · read these · ingest</td><td>Raw sources into typed knowledge: gap markers written, content concepts proposed for your yes.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">edit 12 · that line is wrong · fix the opening · edit the introduction</td><td>Section by section, in the room, your wording kept, counts re-run afterwards. Also the prologue, the introduction, and the part pages.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">remember that · write that down · for the record</td><td>Your words, verbatim, clock-stamped. Never on a desk's initiative.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">park that · not now · let's decide later</td><td>A deferred question with a revisit trigger (an event, not a date). Raised again when the trigger arrives.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">parked · what did we defer · come back to</td><td>The parked list, with each question's trigger.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">what's missing · what can't you do yet</td><td>Answered from GAPS.md, which registers each deferred capability with the trigger that closes it. Say "not yet, and here is what it waits on" rather than discovering the gap when you need it.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">interview 12 · research 12 · draft 12 · refine 12</td><td>One stage, for a deliberate re-run. Not the normal path.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">put it on main · land · ship it · make it official</td><td>Fast-forward only, on your word alone. The branch is named in the reply.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">push · save · back this up</td><td>Pushes the session branch and says its name. Not main.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">is my work safe · where's my stuff · what branch</td><td>Branch, ahead and behind main, unpushed, uncommitted, in plain words.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">done · that's it · bye · see you tomorrow</td><td>The Archivist reviews the session if it has not yet; then two lines on where your work is and an offer to put it on main. Nothing lands unless you say so.</td><td><span class="who author">You</span></td></tr>
+<tr><td class="say">retro · what did we learn · what went wrong</td><td>The Archivist, cold. Proposals shown; nothing applied without your yes.</td><td><span class="who cold">Cold desk</span></td></tr>
+<tr><td class="say">switch to… · which books</td><td>Lists the registry; views another registered book for this session without touching the manifest.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">how does this work · explain the house · show me the map</td><td>This page.</td><td><span class="who script">Script</span></td></tr>
+<tr><td class="say">help · what can you do</td><td>The full table, one line each, then the menu.</td><td><span class="who script">Script</span></td></tr>
+</tbody></table></div></section>
+<section id="gates"><div class="eyebrow">Section 5</div><h2>The gates</h2>
+<p>A producer's work is not done until a different reader says so, and that reader is a script or another desk, never the producer's own report. Self-reported counts were wrong on Chapters 9 and 10 and the Prologue, and once hid a live violation. So the counts come from a script and are pasted verbatim. A gate that cannot run fails closed: the citation gate blocks when it cannot find its validator, and the voice script reports UNCHECKED, which is explicitly not a pass.</p>
+<div class="tbl"><table><thead><tr><th>Gate</th><th>Kind</th><th>Catches</th><th>Blocks</th><th>On fail</th></tr></thead><tbody>
+<tr><td><code>resolve_book.py</code></td><td><span class="who script">Script</span></td><td>No book, a missing voice spec, a missing dependency. A skill reading a missing voice spec does not crash; it writes generic prose.</td><td>Every desk</td><td>Nothing runs until it resolves</td></tr>
+<tr><td><code>okf_gate.py</code></td><td><span class="who script">Script</span></td><td>A citation bundle breaking the transcription rule; a voice threshold that no longer matches the spec</td><td>Every prose-writing skill</td><td>No prose is written</td></tr>
+<tr><td>Plan-only review</td><td><span class="who cold">Cold desk</span></td><td>A brief that cannot be written from cold: the Ghostwriter answers one question, <em>could someone who never read the interview write this from this file alone?</em></td><td>Draft</td><td>One round back to the Researcher, then the gaps only you can close go to the inbox</td></tr>
+<tr><td><code>voice_check.py</code></td><td><span class="who script">Script</span></td><td>Em-dashes, bold as a crutch, the long-sentence share, direct-address density, the anchor metaphor's family count. Literal counts against the thresholds in your voice spec.</td><td>Draft, refine, every short-form piece</td><td>Two cold rounds, then the inbox</td></tr>
+<tr><td>Conformance Checker</td><td><span class="who cold">Cold desk</span></td><td>An outline row the prose did not deliver; a source used but not named where the reader can see it. Two verdicts, PASS and FAIL, a quote behind every PASS.</td><td>Draft, refine</td><td>Two cold rounds, then the inbox</td></tr>
+<tr><td>Anti-Slop Reader</td><td><span class="who cold">Cold desk</span></td><td>The half no script can count: invented foils, indirection, scenes watched from outside, the wife cast as a threat, a term relabelled between chapters</td><td>Refine (findings routed, never auto-applied)</td><td>Plain fixes to the Line Editor; anything that changes the argument to you</td></tr>
+<tr><td>The inbox</td><td><span class="who author">Author</span></td><td>Everything a cold desk could not decide</td><td>Nothing; it collects</td><td>You rule, in your words, and the desk resumes</td></tr>
+</tbody></table></div>
+<p>A gate that cannot run fails closed. The citation gate blocks when it cannot find its validator; the voice script reports <code>UNCHECKED</code>, explicitly not a pass, for a metaphor family nobody declared. Nothing here reports a pass for something it did not look at.</p>
+<h3>The counted thresholds</h3>
+<div class="tbl"><table><thead><tr><th>Rule</th><th>Threshold</th><th>Where it comes from</th></tr></thead><tbody>
+<tr><td><code>em_dash_max</code></td><td>0</td><td>01-voice.md Never Do: 'Never use em-dashes'</td></tr>
+<tr><td><code>bold_max_per_piece</code></td><td>1</td><td>01-voice.md Counted rules: 'the bold cap (at most one per piece)'</td></tr>
+<tr><td><code>long_sentence_word_threshold</code></td><td>25</td><td>01-voice.md: 'no more than roughly 10% of a chapter's sentences should run 25 words or longer'</td></tr>
+<tr><td><code>long_sentence_max_share</code></td><td>0.1</td><td>01-voice.md Counted rules: 'the long-sentence cap (<=10% of sentences at 25+ words)'</td></tr>
+<tr><td><code>you_density_min_per_1000</code></td><td>40</td><td>01-voice.md Counted rules: 'the direct-address floor (you/your at 40+ per 1,000 words)'</td></tr>
+<tr><td><code>metaphor_family_max_per_1000</code></td><td>3</td><td>01-voice.md / refine Cat H: 'more than roughly 3 times per 1,000 words' <span style='color:var(--ink-3)'>· Requires the drafter to declare the chapter's anchor metaphor family in Draft Notes. Undeclared means unchecked, and the script says so rather than passing silently.</span></td></tr>
+<tr><td><code>rhetorical_device_max</code></td><td>2</td><td>01-voice.md Counted rules: 'the rhetorical-device cap (no single sentence-shape more than twice)' <span style='color:var(--ink-3)'>· Only mechanically detectable shapes are counted. Reported as CANDIDATES, never as a verdict - see voice_check.py header.</span></td></tr>
+<tr><td><code>ending_sentences</code></td><td>1</td><td>01-voice.md Never Do: 'Never write two endings' - the close is exactly one sentence</td></tr>
+</tbody></table></div>
+<p class="note">Every threshold above is read from <code>config/house.json</code>, the same file <code>voice_check.py</code> enforces, and each carries a probe asserting it still matches the book's voice spec. A threshold the author changes in the spec cannot silently diverge from the copy the script enforces.</p></section>
+<section id="production"><div class="eyebrow">Section 6</div><h2>Scripts and hooks</h2>
+<p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's incident archive was a model following rule text, and every fix was a check that ran on its own. A session agent would be that failure mode with a title.</p>
+<div class="tbl"><table><thead><tr><th>Script</th><th>Does</th></tr></thead><tbody>
+<tr><td><code>bakeoff.py</code></td><td>compare two versions of the same chapter, blind.</td></tr>
+<tr><td><code>inbox.py</code></td><td>the exceptions inbox: everything waiting on the author, in one place.</td></tr>
+<tr><td><code>manual.py</code></td><td>derive the house manual (docs/manual.html) from the house itself.</td></tr>
+<tr><td><code>manual_content.py</code></td><td>the AUTHORED half of the house manual.</td></tr>
+<tr><td><code>next.py</code></td><td>the engine's state oracle. What is next, from artifacts, never from reasoning.</td></tr>
+<tr><td><code>okf_gate.py</code></td><td>the citation gate, delegated to the book repo's own validator.</td></tr>
+<tr><td><code>resolve_book.py</code></td><td>find the book repo at runtime, or fail loudly.</td></tr>
+<tr><td><code>session_log.py</code></td><td>mechanical session memory. Appended by the Stop hook.</td></tr>
+<tr><td><code>sync.py</code></td><td>the git mechanics, done the same way every time, and named out loud.</td></tr>
+<tr><td><code>sync_plugin_layout.py</code></td><td>mirror .claude/ into the plugin-root layout.</td></tr>
+<tr><td><code>voice_check.py</code></td><td>the counted half of the voice spec, by literal count.</td></tr>
+<tr><td><code>voice_rules_check.py</code></td><td>prove config/house.json still agrees with 01-voice.md.</td></tr>
+</tbody></table></div></section>
+<section id="where"><div class="eyebrow">Section 7</div><h2>Where things live</h2>
+<p>Two repositories, permanently. Book two is a new folder in the book repo, never a third repository. When you are editing by hand the question is one line: is this about this book, or about how books get made?</p>
+<div class="repos">
+<div class="repo"><h3>The book</h3><div class="path">Playground-260420</div><p>The premise, voice, audience and outline every desk reads. The knowledge ledger. The chapters the proven pipeline ships. Read-only to this engine, with one exception: the ledger, written only through the book repo's own validator.</p></div>
+<div class="repo"><h3>The engine</h3><div class="path">agentic-ghostwriter</div><p>The desks, the commands, the gates, the oracle, the inbox, and everything the house produces under <code>runs/chNN/</code>. Change how books get made here.</p></div>
+</div></section>
+<section id="never"><div class="eyebrow">Section 8</div><h2>What it never does</h2><ul>
+<li>Invent a citation, a statistic, or a story.</li>
+<li>Mark a citation <code>verified</code>. That is yours, against your physical copy.</li>
+<li>Let a search transcribe a quotation. Search may locate a source or flag a defect, never quote it.</li>
+<li>Write the book's constitution, its chapters, or its manifest.</li>
+<li>Resolve a question that was yours. It goes to the inbox instead.</li>
+<li>Edit its own rules. The Archivist proposes; you apply.</li>
+<li>Move <code>main</code>. Only <code>sync.py --land</code> does that, and only when you say so in words.</li>
+<li>Claim a check passed that did not run. SKIP is not PASS, and unchecked is the honest word.</li>
+</ul></section>
+<section id="glossary"><div class="eyebrow">Section 9</div><h2>Glossary</h2><dl class="gloss">
+<dt>Cold</dt><dd>Running as a sub-agent with clean context. It never saw the conversation, so it cannot be persuaded by the reasons behind a choice, and it cannot ask you anything, which is why anything only you can decide goes to the inbox.</dd>
+<dt>The board</dt><dd>What the state oracle prints. Computed from files, never reasoned about, so it cannot be stale. Say <code>/gw</code>.</dd>
+<dt>The brief</dt><dd>The research brief. The automation boundary: everything upstream needs you, everything downstream runs cold.</dd>
+<dt>The inbox</dt><dd>Questions a cold desk could not decide. Each carries the context you need to answer it without scrolling back, and what your answer unblocks.</dd>
+<dt>Gap marker</dt><dd>A citation concept whose whole content is "this claim needs a source and nobody has found one." Written immediately; the file is the flag. A content concept, which captures what you think, is shown to you first.</dd>
+<dt>The ledger</dt><dd>The book's knowledge bundle. Every citation carries three independent axes: its status, whether it is quoted verbatim, and what evidence was actually looked at.</dd>
+<dt>Shadow run</dt><dd>The house running a chapter's cold stages from a brief the book pipeline produced, in parallel, without touching the book.</dd>
+<dt>The two touches</dt><dd>The interview and the verdict. The design's whole claim.</dd>
+</dl></section>
+<footer><p>This page is <b>derived</b>. The roster, the commands, the thresholds and the scripts are read from the house itself by <code>scripts/manual.py</code>; only the narrative is written by hand. Regenerate with <code>python3 scripts/manual.py</code>. The Stop hook runs <code>--check</code> and says so when the house has changed.</p><p>Source of record: <code>CLAUDE.md</code>, <code>ARCHITECTURE.md</code>, <code>FLOW.md</code>, <code>GAPS.md</code> and <code>FINDINGS.md</code>. Where this page and those disagree, they win.</p></footer>
+</main></div>
+<script>
+(function(){
+  var bar=document.getElementById('stagebar'),pan=document.getElementById('stagepanel');
+  if(bar&&pan){
+    var data=JSON.parse(document.getElementById('stagedata').textContent);
+    function draw(i){
+      var s=data[i];
+      pan.innerHTML='<h3><span>'+(i+1)+'. '+s.name+'</span><span class="who '+s.who+'">'+s.label+'</span></h3>'
+        +'<dl><dt>Say</dt><dd><code>'+s.cmd+'</code></dd>'
+        +'<dt>Who</dt><dd>'+s.desk+'</dd>'
+        +'<dt>What happens</dt><dd>'+s.what+'</dd>'
+        +'<dt>Gated by</dt><dd>'+s.gate+'</dd></dl>';
+      Array.prototype.forEach.call(bar.children,function(b,j){
+        b.setAttribute('aria-selected',String(j===i));});
+    }
+    Array.prototype.forEach.call(bar.children,function(b,j){
+      b.addEventListener('click',function(){draw(j);});});
+    draw(0);
+  }
+  function wire(inputId,countId,scope){
+    var q=document.getElementById(inputId),c=document.getElementById(countId),
+        root=document.getElementById(scope);
+    if(!q||!root)return;
+    var items=Array.prototype.slice.call(root.querySelectorAll('.card'));
+    function run(){
+      var v=q.value.trim().toLowerCase(),n=0;
+      items.forEach(function(el){
+        var hit=!v||el.textContent.toLowerCase().indexOf(v)>-1;
+        el.hidden=!hit; if(hit)n++;
+      });
+      if(c)c.textContent=v?(n+' of '+items.length):(items.length+' total');
+    }
+    q.addEventListener('input',run); run();
+  }
+  (function(){
+    var q=document.getElementById('qsay'),c=document.getElementById('qsayn'),
+        tb=document.querySelector('#phrases tbody');
+    if(!q||!tb)return;
+    var rows=Array.prototype.slice.call(tb.querySelectorAll('tr'));
+    function run(){
+      var v=q.value.trim().toLowerCase(),n=0;
+      rows.forEach(function(tr){
+        var hit=!v||tr.textContent.toLowerCase().indexOf(v)>-1;
+        tr.hidden=!hit; if(hit)n++;
+      });
+      if(c)c.textContent=v?(n+' of '+rows.length):(rows.length+' total');
+    }
+    q.addEventListener('input',run); run();
+  })();
+  wire('qdesk','qdeskn','desks');
+  wire('qcmd','qcmdn','commands');
+  var links=Array.prototype.slice.call(document.querySelectorAll('nav.toc a')),
+      secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting)return;
+        var i=secs.indexOf(e.target);
+        if(i>-1)links.forEach(function(a,j){a.classList.toggle('active',j===i);});
+      });
+    },{rootMargin:'-10% 0px -80% 0px'});
+    secs.forEach(function(s){if(s)io.observe(s);});
+  }
+})();
+</script>
+<!-- inputs-digest: e75e3bdc2d6d261f -->
