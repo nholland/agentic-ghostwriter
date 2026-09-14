@@ -174,6 +174,10 @@ def main():
     ap.add_argument("--raised-by", default="")
     ap.add_argument("--chapter", default="")
     ap.add_argument("--close", metavar="N")
+    ap.add_argument("--resolution", default="",
+                    help="the author's ruling, in his own words. Recorded verbatim "
+                         "on the closed item; without it the close warns and the "
+                         "next reader learns only that something was decided.")
     a = ap.parse_args()
 
     items = load_all()

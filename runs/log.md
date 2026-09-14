@@ -130,3 +130,22 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 12:36 — `claude/gateway-sgjaao` @ `0231876` — 1 commit(s) this session
+- `inbox/001-are-bolded-run-in-section-headers-legal.md`
+- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
+- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
+- `scripts/inbox.py`
+- `scripts/voice_check.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 12:39 — `claude/gateway-sgjaao` @ `e447ef4` — 1 commit(s) this session
+- `inbox/001-are-bolded-run-in-section-headers-legal.md`
+- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
+- `runs/log.md`
+- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
+- `scripts/inbox.py`
+- `scripts/voice_check.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
