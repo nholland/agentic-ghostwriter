@@ -669,8 +669,8 @@ def render(desks, commands, scripts, thresholds, digest):
     a('<div class="filter"><input id="qdesk" type="search" placeholder="Filter desks…" '
       'aria-label="Filter desks"><span id="qdeskn"></span></div>')
     a('<div class="cards" id="desks-list">')
-    for nm, handle, owns, body in IN_SESSION:
-        a(card(handle, nm + " — " + owns, body))
+    for d in IN_SESSION:
+        a(card(d["handle"], d["name"] + " — " + d["owns"], d["body"]))
     for d in desks:
         a(card(d["name"], d["title"], d["body"], d["tools"]))
     a("</div>")
@@ -789,6 +789,51 @@ def render(desks, commands, scripts, thresholds, digest):
     return "\n".join(h) + "\n"
 
 
+def page_defects(page):
+    """Refuse to write a page that renders placeholders or blanks.
+
+    On 2026-09-14 the two in-session desks rendered as the literal words
+    "handle", "name - owns" and "body": IN_SESSION became a list of dicts while
+    the loop still unpacked it as tuples, so Python iterated each dict's KEYS.
+    Valid Python, valid HTML, published to the author's link, and caught by him
+    reading the page. The counted-rules doctrine applies to the generator's own
+    output: check it, do not assume it.
+    """
+    from html.parser import HTMLParser
+
+    placeholders = {"name", "handle", "owns", "body", "title", "cmd", "gate",
+                    "what", "who", "desk", "None"}
+    out = []
+    for m in re.finditer(r"<(td|dd|dt|span|p|b)[^>]*>([^<]*)</\1>", page):
+        text = m.group(2).strip()
+        if text in placeholders:
+            out.append("renders the literal word %r - a container was iterated "
+                       "by key, or a field was never substituted" % text)
+        elif not text and m.group(1) in ("td", "dt"):
+            out.append("empty <%s>" % m.group(1))
+    for frag in ("{'", "['", "object at 0x", "&lt;built-in"):
+        if frag in page:
+            out.append("a Python container was stringified into the page (%r)" % frag)
+
+    class Balance(HTMLParser):
+        VOID = {"br", "img", "meta", "link", "input", "hr"}
+        def __init__(self):
+            super().__init__(convert_charrefs=True)
+            self.stack = []
+        def handle_starttag(self, t, a):
+            if t not in self.VOID:
+                self.stack.append(t)
+        def handle_endtag(self, t):
+            while self.stack:
+                if self.stack.pop() == t:
+                    break
+    b = Balance()
+    b.feed(page)
+    if b.stack:
+        out.append("unclosed tags at end of document: %s" % ", ".join(sorted(set(b.stack))))
+    return sorted(set(out))
+
+
 def main():
     ap = argparse.ArgumentParser(description="Derive the house manual from the house.")
     ap.add_argument("--check", action="store_true",
@@ -832,9 +877,17 @@ def main():
         print("manual: in sync (%d cold desks, %d commands)." % (len(desks), len(commands)))
         return 0
 
+    page = render(desks, commands, scripts, thresholds, digest)
+    defects = page_defects(page)
+    if defects:
+        print("manual: the rendered page has %d defect(s); nothing written:" % len(defects))
+        for d in defects:
+            print("  x %s" % d)
+        return 1
+
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
-        fh.write(render(desks, commands, scripts, thresholds, digest))
+        fh.write(page)
     print("manual: wrote %s" % os.path.relpath(OUT, REPO))
     print("  %d desks (%d cold, %d in session), %d commands, %d scripts, %d counted rules"
           % (len(desks) + len(IN_SESSION), len(desks), len(IN_SESSION),
