@@ -174,3 +174,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/manual.py`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 19:46 — `claude/dreamy-gates-52bn4v` @ `8c4cb10` — 1 commit(s) this session
+- `docs/diagrams.html`
+- `docs/diagrams/01-automation-boundary.svg`
+- `docs/diagrams/02-nobody-grades-themselves.svg`
+- `docs/diagrams/03-derived-not-remembered.svg`
+- `scripts/build_diagrams_page.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
