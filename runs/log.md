@@ -134,3 +134,13 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/manual_content.py`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 12:51 — `claude/dreamy-gates-52bn4v` @ `0038ff5` — 2 commit(s) this session
+- `.claude/hooks/session-stop.sh`
+- `README.md`
+- `docs/manual.html`
+- `runs/log.md`
+- `scripts/manual.py`
+- `scripts/manual_content.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
