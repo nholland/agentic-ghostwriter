@@ -42,7 +42,6 @@ def main():
     force = "--force" in sys.argv
     clock = sh("date", "+%Y-%m-%d %H:%M")
     branch = sh("git", "symbolic-ref", "--short", "HEAD") or "(detached)"
-    head = sh("git", "rev-parse", "--short", "HEAD")
     start = open(START).read().strip() if os.path.isfile(START) else ""
     if start and sh("git", "cat-file", "-e", start) == "" and sh("git", "merge-base", "--is-ancestor", start, "HEAD") == "":
         changed = sh("git", "diff", "--name-only", f"{start}..HEAD")
@@ -51,6 +50,11 @@ def main():
         changed = sh("git", "diff", "--name-only", "HEAD~1..HEAD")
         commits = "?"
     files = [f for f in changed.split("\n") if f]
+    # An entry recording nothing but its own write is noise. Two such entries were
+    # produced on 2026-09-14 before this guard existed.
+    if files == ["runs/log.md"] and not force:
+        print("session_log: nothing but runs/log.md changed - no entry written")
+        return 0
     if not files and not force:
         return 0
 
@@ -68,7 +72,11 @@ def main():
         if new:
             fh.write("# Session log\n\nAppended by the Stop hook. Every line is read from git or the oracle; "
                      "nothing here is typed by hand, so nothing here can carry a wrong date or a stale next.\n")
-        fh.write(f"\n## {clock} — `{branch}` @ `{head}` — {commits} commit(s) this session\n")
+        # No SHA. It was the only field here that could stop resolving: 13 of 23
+        # recorded SHAs were already dead by 2026-09-14, orphaned by the amends
+        # this container's identity check forces, and nothing ever parsed one.
+        # FLOW.md's enumeration of this format never listed it either.
+        fh.write(f"\n## {clock} — `{branch}` — {commits} commit(s) this session\n")
         for f in files[:30]:
             fh.write(f"- `{f}`\n")
         if len(files) > 30:

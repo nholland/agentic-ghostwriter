@@ -63,13 +63,10 @@ rhythm whether or not anything has gone wrong yet — or **Reactive**, something
 done once a specific moment has already started. The tag is there so a reader can
 see the balance at a glance, not to rank one above the other.
 
-**The practices are the distillation's Practice items, verbatim.** Not a reworded
-second version of them. The Lesson and the Challenge stay out of this file: the
-compiled manuscript already lands both at the end of each chapter, so repeating
-them here would make a third copy of the chapter close. The old pipeline shipped
-two differently worded versions of Chapter 1's three practices, one in the
-manuscript and one in this guide, asking the reader two different questions. One
-source, no drift.
+**The practices are the distillation's Practice items, verbatim** — enforced by
+`scripts/practice_sync.py`, not by your care. The Lesson and the Challenge stay
+out of this file: the compiled manuscript already lands both at the end of each
+chapter.
 
 It is reader-facing and it **accumulates** — readable on its own by someone who
 has not read the book's production notes. So: plain imperatives, no Stoic term

@@ -80,10 +80,16 @@ Write `runs/chNN/conformance-refined.md`.
   the old pipeline lost ten Practice sections once because a generator looked
   for the wrong heading and nothing errored.
 
-  Then check the two against each other. The distillation's practices and the
-  guide's must be the same words. The old pipeline's Chapter 1 shipped a
-  manuscript close and a guide entry asking the reader two different questions,
-  and nothing errored there either.
+  Then run the check, rather than reading the two files against each other:
+
+  ```
+  python3 scripts/practice_sync.py N
+  ```
+
+  **Blocking.** It compares this chapter's guide practices against its
+  distillation's and fails on a divergence. The old pipeline's Chapter 1 shipped
+  a manuscript close and a guide entry asking the reader two different
+  questions, for weeks, and nothing errored.
 
 ## Step 5 — report, then the bake-off
 
