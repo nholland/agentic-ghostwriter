@@ -36,6 +36,8 @@ USAGE
     python3 scripts/inbox.py --all
     python3 scripts/inbox.py --add "question" --raised-by gw-researcher --chapter 12
     python3 scripts/inbox.py --close 4 --resolution "text"
+    python3 scripts/inbox.py --add "question" --recommend "..." --evidence "..." \
+                             --context "..." --unblocks "..."   # all four required
     python3 scripts/inbox.py --json
 """
 
@@ -101,6 +103,29 @@ def next_id(items):
 
 
 def do_add(a, items):
+    """Open an item. Refuses without a recommendation and its evidence.
+
+    On 2026-09-14 the author worked five items in one sitting. All five handed
+    him a menu - three opened their unblocks line "Either (a)... or (b)..." -
+    and he said so: "You aren't clear on what you recommend, please speak
+    plainly." Two of the five also asserted something false, each from a
+    filename and a header rather than from opening the file.
+
+    A desk that cannot commit to one recommendation has not finished thinking,
+    and a recommendation with no command behind it is an impression. Both are
+    required here rather than urged in a skill file, because the soft version
+    of this rule was already written down and was skipped five times out of
+    five.
+    """
+    missing = [n for n, v in (("--recommend", a.recommend), ("--evidence", a.evidence),
+                              ("--context", a.context), ("--unblocks", a.unblocks)) if not v]
+    if missing:
+        print(f"inbox: refusing to open an item without {', '.join(missing)}.")
+        print("  --recommend  one recommendation, not a menu. Name the option you would take.")
+        print("  --evidence   the command you ran and what it printed. Rule 5: counted, never estimated.")
+        print("  --context    what he needs to rule cold, without scrolling back.")
+        print("  --unblocks   the specific ruling this waits on.")
+        return 2
     os.makedirs(INBOX, exist_ok=True)
     nid = next_id(items)
     slug = re.sub(r"[^a-z0-9]+", "-", a.add.lower()).strip("-")[:48] or "item"
@@ -109,12 +134,11 @@ def do_add(a, items):
         fh.write(f"---\nid: {nid}\nstatus: open\n"
                  f"raised_by: {a.raised_by or '?'}\nchapter: {a.chapter or '-'}\n"
                  f"opened: {now()}\n---\n\n# {a.add}\n\n"
-                 f"{a.context or '_Context not supplied. An item the author cannot act on without scrolling back is not finished._'}\n\n"
-                 f"**What unblocks this:** {a.unblocks or '_not stated_'}\n")
+                 f"{a.context}\n\n"
+                 f"**Recommendation:** {a.recommend}\n\n"
+                 f"**Checked:**\n\n```\n{a.evidence}\n```\n\n"
+                 f"**What unblocks this:** {a.unblocks}\n")
     print(f"inbox: opened #{nid} -> {os.path.relpath(path, REPO)}")
-    if not a.context or not a.unblocks:
-        print("  warning: missing context and/or what-unblocks-this. Fill these in;")
-        print("           an item he cannot answer cold will sit there.")
     return 0
 
 
@@ -173,7 +197,15 @@ def main():
     ap.add_argument("--unblocks", default="")
     ap.add_argument("--raised-by", default="")
     ap.add_argument("--chapter", default="")
+    ap.add_argument("--recommend", default="",
+                    help="required with --add: one recommendation, not a menu.")
+    ap.add_argument("--evidence", default="",
+                    help="required with --add: the command run and its output, verbatim.")
     ap.add_argument("--close", metavar="N")
+    ap.add_argument("--resolution", default="",
+                    help="the author's ruling, in his own words. Recorded verbatim "
+                         "on the closed item; without it the close warns and the "
+                         "next reader learns only that something was decided.")
     a = ap.parse_args()
 
     items = load_all()

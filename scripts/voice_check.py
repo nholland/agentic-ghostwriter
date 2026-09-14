@@ -180,6 +180,23 @@ def check_em_dash(raw, rules):
     }
 
 
+# A paragraph-leading run-in header is a short label, not a bolded sentence.
+# Eight words is deliberately generous: the longest real one in the manuscript
+# is ch01's "Brave enough to stay engaged." at five. Raising this would start
+# excusing the bolded pull-quote the cap exists to limit, so it is a detection
+# heuristic here and NOT a threshold in config/house.json, whose contract is
+# that every value there is transcribed from 01-voice.md.
+RUN_IN_HEADER_MAX_WORDS = 8
+
+
+def _is_run_in_label(text):
+    """A bold span that reads as a section label rather than emphasis."""
+    inner = text.strip()
+    if not inner.endswith((".", ":", "?", "!")):
+        return False
+    return len(inner.split()) <= RUN_IN_HEADER_MAX_WORDS
+
+
 def check_bold(raw, rules):
     """Separate the two things a ** span can be.
 
@@ -190,11 +207,23 @@ def check_bold(raw, rules):
     count therefore fails every chapter for a convention the spec never
     contemplated, which is a spec-vs-practice gap, not 11 defects.
 
-    So only INLINE bold - a span with prose on the same line, which is bold
-    standing in for sentence construction, the thing the rule is actually
-    about - counts against the cap. Run-in headers are reported separately and
-    left to the author, because loosening a counted rule is his call, not this
-    script's.
+    The author legalized the convention on 2026-09-14 ("legalize them"), so
+    run-in headers do not count against the cap. They appear in TWO typeset
+    forms and both are the same device:
+
+      own-line    `**The Gap**` alone on its line, then the paragraph below
+      paragraph-leading  `**The fix.** The internet goes down on a Tuesday...`
+
+    Counting only the first form was this check's own defect, not four
+    chapters' defect: it failed ch01, ch03, ch07 and ch08 for the second form
+    while passing nine chapters for the first. A paragraph-leading header is
+    recognised by three things together - it opens the line, it is short, and
+    it closes with terminal punctuation, which is what makes it a label rather
+    than emphasis inside a sentence.
+
+    What still counts is bold standing in for sentence construction, which is
+    what 01-voice.md line 45 is actually about: a span mid-sentence, or a long
+    bolded span used as a pull-quote. The cap of one still applies to those.
     """
     cap = rules["bold_max_per_piece"]["value"]
     inline, headers = [], []
@@ -206,14 +235,17 @@ def check_bold(raw, rules):
         only_bold = re.fullmatch(r"(\*\*[^*\n]+\*\*)[\s.:\u2014-]*", stripped)
         if only_bold and len(spans) == 1:
             headers.append((i, spans[0]))
-        else:
-            inline.extend((i, s) for s in spans)
+            continue
+        lead = re.match(r"(\*\*([^*\n]+)\*\*)\s*[.:?!]?\s+\S", stripped)
+        if lead and _is_run_in_label(lead.group(2)):
+            headers.append((i, lead.group(1)))
+            spans = spans[1:]
+        inline.extend((i, s) for s in spans)
     detail = f"{len(inline)} inline bolded span(s) (cap {cap})"
     if headers:
-        detail += (f"; {len(headers)} bolded run-in header(s) on their own line, "
-                   f"NOT counted - book-wide convention that 01-voice.md's bold "
-                   f"cap does not yet allow for. Needs an author ruling, not a "
-                   f"silent exemption.")
+        detail += (f"; {len(headers)} bolded run-in header(s), NOT counted - "
+                   f"legalized as structure by the author 2026-09-14, per "
+                   f"01-voice.md's run-in header exception.")
     return {
         "check": "bold-as-crutch", "kind": "HARD",
         "status": "PASS" if len(inline) <= cap else "FAIL",

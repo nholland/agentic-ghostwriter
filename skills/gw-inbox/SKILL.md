@@ -21,8 +21,8 @@ specifically unblocks it. If an item lacks that context, say so — and treat th
 gap as a defect in the desk that raised it, not as a reason to ask him to
 reconstruct it.
 
-Where an item has a recommendation, give it. He asked for a house, not a queue of
-open questions.
+Every item carries a `**Recommendation:**` and a `**Checked:**` block, because
+`inbox.py --add` refuses to open one without them. Read both to him.
 
 ## Closing
 

@@ -72,10 +72,24 @@ Write `runs/chNN/conformance-refined.md`.
   reader would repeat in conversation, and a Practice section with a Lesson and a
   Challenge.
 - this chapter's section appended to `runs/appendix/practice-guide.md` — the
-  accumulating, reader-facing field guide. Confirm the append did not rewrite
-  another chapter's section: the guide is shared across chapters, and the old
-  pipeline lost ten Practice sections once because a generator looked for the
-  wrong heading and nothing errored.
+  accumulating, reader-facing back-of-book guide. **Practices only**, per the
+  author's ruling of 2026-09-14: each item tagged `**Proactive.**` or
+  `**Reactive.**`, taken verbatim from the distillation's Practice items, with
+  no Lesson, no Challenge and no summary table. Confirm the append did not
+  rewrite another chapter's section: the guide is shared across chapters, and
+  the old pipeline lost ten Practice sections once because a generator looked
+  for the wrong heading and nothing errored.
+
+  Then run the check, rather than reading the two files against each other:
+
+  ```
+  python3 scripts/practice_sync.py N
+  ```
+
+  **Blocking.** It compares this chapter's guide practices against its
+  distillation's and fails on a divergence. The old pipeline's Chapter 1 shipped
+  a manuscript close and a guide entry asking the reader two different
+  questions, for weeks, and nothing errored.
 
 ## Step 5 — report, then the bake-off
 

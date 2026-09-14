@@ -23,6 +23,17 @@ If fewer than half the planned chapters are refined, say so before running: a
 tension audit over a third of an arc will report a flat arc that is simply
 incomplete, and that is a false finding the author may act on.
 
+Then run the back-of-book check across every chapter, and report its output with
+the panel's findings:
+
+```
+python3 scripts/practice_sync.py --book
+```
+
+Not blocking here — the panel's read is still worth having on a book whose
+appendix has drifted. But a divergence is a finding in its own right, and it is
+the one finding on this list a reader would hit with the book in his hands.
+
 ## Step 1 — dispatch both desks, in parallel
 
 - `gw-panel` — skeptic, beta readers, tension, continuity. Returns **one**

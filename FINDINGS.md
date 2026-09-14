@@ -2,6 +2,10 @@
 
 One honest row per experiment. A bake-off that only records wins is decoration.
 
+**Still unproven: every desk, the Archivist included.** Nothing in this house
+has drafted a chapter. That line stood at the foot of nine entries; it belongs
+once, here, until it stops being true.
+
 ---
 
 ## 2026-09-12 — Stage 0: `voice_check.py` validated against the existing corpus
@@ -99,7 +103,6 @@ first test of whether the inbox holds what the author would want to rule on:
 #001 whether bolded run-in section headers are legal, #002 the three artifacts
 below the you-density floor.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
 
 ---
 
@@ -143,11 +146,7 @@ a new guess on the old one — so the check proves the *source wording* is still
 present and fails loudly when it is not. Verified by tampering with one probe and
 confirming the gate blocks.
 
-**Artifacts with no desk:** `callouts.md`, `elevator-pitch.md`,
-`tactics-review.md`, `sweep-report.md`, `parts/`, `appendix/`, `visuals/`. Several
-are real discovered artifacts that earned their place. Not lost, but not served.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
 
 ---
 
@@ -197,7 +196,6 @@ commands. `/gw-revise` carries the rule that revision is not regeneration: `01-v
 pairs most rules with the incident that produced them, and regenerating it deletes
 that history silently.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
 
 
 ---
@@ -234,7 +232,6 @@ recover from. `gw-designer` treats the one survivor as the style standard and
 proposes a written `visuals/style.md` for the author to ratify rather than
 inventing one.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
 
 ---
 
@@ -261,7 +258,6 @@ ledger — no error, a number that looks fine — and caught the same way, by ru
 it against the real repo where the right answer was already known. The comment in
 the script now records this so the next reader does not "simplify" it back.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
 
 
 ---
@@ -303,7 +299,6 @@ reads all of `FINDINGS.md` for a recurring failure *shape*, and proposes — eve
 addition paired with a deletion, preferring a check with a caller over rule text.
 It never edits a rule. The author does, or nobody does.
 
-**Still unproven:** every desk, the Archivist included. Nothing here has drafted a chapter.
 
 
 **Seventh same-shape defect, in the script built to remove ambiguity.**
@@ -352,7 +347,6 @@ ever stranded (a rule once sat unpushed for five weeks); `main` still moves only
 his word. Recorded as standing rule 14: a phrase he has to recall is a design
 defect, not a training problem.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
 
 ---
 
@@ -375,14 +369,14 @@ section per chapter, and the skill carries the warning that the file is shared �
 the old compile once lost all ten Practice sections because a generator looked for
 a `## Practice` heading while the field was `**Practice:**`, and nothing errored.
 
-**Two are author decisions, not gaps, and are now inbox items #003 and #004.**
-`tactics-review.md` (2,075 words, reader-facing, "meant to be read on its own")
-covers the same ground as the practice guide at higher polish — one of them is
-redundant and deciding which is not a desk's call. `elevator-pitch.md` is 270 words
-referenced by nothing, yet it is the river/oak/sun triad that names three of the
-five Parts and reads as the cleanest statement of the premise in the repo.
-Inventing a desk for an artifact that may be a duplicate is how a roster grows past
-its use.
+**Two were author decisions and both were ruled on 2026-09-14 — and both items
+overstated their case.** #003 said the practice guide was stale; it had a section
+for every chapter 1 through 11. #004 called the elevator pitch the cleanest
+statement of the premise in the repo; the *file* was orphaned, the *content* was
+already canonical in `00-premise.md` and in the river/oak/sun Framework concept.
+Both claims came from a filename and a header, not from reading to the end of the
+file. Rulings: the tactics review is archived under its range and the practice
+guide becomes the tagged back-of-book guide; the pitch becomes a Publicist asset.
 
 **One got a home.** `callouts.md` feeds marketing and is referenced by ten old
 command files; the Publicist now owns the whole-book pull-quote pass.
@@ -397,7 +391,6 @@ or it is regenerated wholesale.** Hence `runs/qa/<date>-qa.md` and
 `runs/marketing/callouts-ch01-chNN.md`; a name that states its range cannot lie
 about being current. An artifact that accumulates appends and never rewrites.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
 
 
 ---
@@ -440,4 +433,3 @@ the publication stack is built it should be **one** `/gw-publish` with a mode pe
 deliverable, not seven skills: they share every input, and splitting them is how ten
 marketing commands happened the first time.
 
-**Still unproven:** every desk. Nothing here has drafted a chapter.
