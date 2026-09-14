@@ -25,7 +25,9 @@ DONE="$STATE/retro-done-$(echo "$START" | cut -c1-12)"
 [ -f "$DONE" ] && exit 0
 
 # The WORK, never the rules. .claude/, CLAUDE.md and the docs are excluded on purpose.
-WATCHED="runs/ bakeoff/ inbox/ scripts/ config/ FINDINGS.md"
+# NOT runs/: session-stop.sh writes and commits runs/log.md itself, so watching
+# it made the hook dispatch a retrospective on its own bookkeeping.
+WATCHED="bakeoff/ inbox/ scripts/ config/ FINDINGS.md"
 COUNT=$(git rev-list --count "$START..$HEAD_SHA" -- $WATCHED 2>/dev/null); COUNT=${COUNT:-0}
 [ "$COUNT" -ge 1 ] || exit 0
 

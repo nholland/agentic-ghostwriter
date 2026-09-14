@@ -20,15 +20,28 @@ fi
 python3 scripts/session_log.py 2>/dev/null || true
 # session_log.py writes runs/log.md, which is a work path; fold it into the same commit
 if ! git diff --quiet -- runs/log.md 2>/dev/null || git ls-files --others --exclude-standard -- runs/log.md 2>/dev/null | grep -q .; then
-  git add -- runs/log.md 2>/dev/null && git commit -q --amend --no-edit 2>/dev/null || git commit -q -m "auto: session log $(date '+%Y-%m-%d %H:%M')" 2>/dev/null || true
+  git add -- runs/log.md 2>/dev/null
+  # Amend ONLY while HEAD is unpublished. Amending a pushed commit rewrote
+  # history on every push of 2026-09-14 (six --force-with-lease in one session,
+  # against sync.py's own "never rewrites history"), and orphaned every SHA in
+  # runs/log.md: 9 of 9 existed but were no ancestor of HEAD.
+  cur_b=$(git symbolic-ref --short HEAD 2>/dev/null)
+  if [ -n "$cur_b" ] && git merge-base --is-ancestor HEAD "origin/$cur_b" 2>/dev/null; then
+    git commit -q -m "auto: session log $(date '+%Y-%m-%d %H:%M')" 2>/dev/null || true
+  else
+    git commit -q --amend --no-edit 2>/dev/null || git commit -q -m "auto: session log $(date '+%Y-%m-%d %H:%M')" 2>/dev/null || true
+  fi
 fi
 
-# Push the session branch so nothing is ever stranded locally (a rule once sat
-# unpushed for five weeks). Only a session/ branch, only in a remote session -
-# main moves on the author's word alone, via sync.py --land.
+# Push the working branch so nothing is ever stranded locally (a rule once sat
+# unpushed for five weeks). ANY branch but main - the old session/* glob matched
+# nothing in a cloud container, which names branches claude/<name>, so the net
+# was inert in the one environment that reclaims the disk. main still moves on
+# the author's word alone, via sync.py --land.
 cur=$(git symbolic-ref --short HEAD 2>/dev/null)
 case "$cur" in
-  session/*) [ "${CLAUDE_CODE_REMOTE:-}" = "true" ] && git push -u origin "$cur" --quiet 2>/dev/null || true ;;
+  main|"") : ;;
+  *) [ "${CLAUDE_CODE_REMOTE:-}" = "true" ] && git push -u origin "$cur" --quiet 2>/dev/null || true ;;
 esac
 
 exec bash .claude/hooks/retro-check.sh
