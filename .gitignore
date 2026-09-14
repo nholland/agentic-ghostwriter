@@ -5,3 +5,11 @@ __pycache__/
 # Bake-off working files are real artifacts and ARE tracked, except the seal,
 # which must not be readable from a diff before the verdict is written.
 bakeoff/**/.sealed.json
+
+# Per-container session state: written by session-start.sh, read only by
+# retro-check.sh and session_log.py, all inside one container. Tracking it made
+# every session start dirty the tree and produce an empty "auto:" commit - five
+# of them on 2026-09-14 alone. A fresh clone does not want a previous
+# container's SHA, and retro-check.sh already falls back to HEAD~1.
+.claude/state/session-start-sha
+.claude/state/retro-done-*

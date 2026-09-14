@@ -10,7 +10,9 @@ ROOT="${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-topleve
 [ -z "$ROOT" ] && exit 0
 cd "$ROOT" || exit 0
 
-WORK="runs/ bakeoff/ inbox/ FINDINGS.md .claude/state/"
+# NOT .claude/state/: that is per-container scratch, now gitignored. Adding it
+# here is what turned every session start into an empty "auto:" commit.
+WORK="runs/ bakeoff/ inbox/ FINDINGS.md"
 changed=$( (git diff --name-only -- $WORK; git ls-files --others --exclude-standard -- $WORK) 2>/dev/null )
 if [ -n "$changed" ]; then
   git add -- $WORK 2>/dev/null
