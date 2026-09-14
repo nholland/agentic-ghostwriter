@@ -16,8 +16,11 @@ HOW THE TWO HALVES ARE KEPT HONEST
     and says its mandate is unwritten, and a note for a desk that no longer
     exists is reported. Neither can be silent, which is the whole point.
 
-    If you are about to write a COUNT here, stop: it belongs in manual.py's
-    derived half. Every wrong number in the page this replaced was authored.
+    Nothing named here may be absent from disk: manual.py's probe checks every
+    script and command this file mentions and fails --check when one is missing.
+    Two gate rows published on 2026-09-14 named term_check.py and okf_new.py,
+    which exist in neither repo. They were extracted programmatically from the
+    previous page and therefore trusted. Provenance is not verification.
 """
 
 # Desks that run in the session as the Publisher's own voice. No agent file by
@@ -43,12 +46,12 @@ DESK_NOTES = {
     'gw-researcher': {
         'title': 'The Researcher',
         'owns': 'The brief, gap-marker citations, the cross-chapter reuse check, source ingestion.',
-        'body': '<p><b>Mandate.</b> Builds the scaffolding a writer needs. Assembles and verifies; never decides what the chapter argues. When the interview record does not settle something, it writes the gap down.</p><p><b>Reviewed by.</b> The Ghostwriter in plan-only mode, term_check.py, the citation gate.</p><p><b>Never.</b> Invents a citation, including one you cited. Sets verified. Writes a content concept without proposing it first. Types a concept by hand; okf_new.py reads the clock.</p>',
+        'body': '<p><b>Mandate.</b> Builds the scaffolding a writer needs. Assembles and verifies; never decides what the chapter argues. When the interview record does not settle something, it writes the gap down.</p><p><b>Reviewed by.</b> The Ghostwriter in plan-only mode, and the citation gate.</p><p><b>Never.</b> Invents a citation, including one you cited. Sets verified. Writes a content concept without proposing it first. Supplies a plausible date instead of reading the clock.</p>',
     },
     'gw-ghostwriter': {
         'title': 'The Ghostwriter',
         'owns': "The draft. In plan-only mode, the brief's reviewer.",
-        'body': '<p><b>Mandate.</b> Writes real prose in your voice from the brief. Where something is missing, writes around it and says so in Draft Notes; never invents the missing thing, least of all your own story.</p><p><b>Reviewed by.</b> voice_check.py on every counted rule; the Conformance Checker on every commissioned element; term_check.py.</p><p><b>Never.</b> Em-dashes. A source that reads well and does not exist. A number that is yours. A chapter that fits the word budget by dropping a required element.</p>',
+        'body': '<p><b>Mandate.</b> Writes real prose in your voice from the brief. Where something is missing, writes around it and says so in Draft Notes; never invents the missing thing, least of all your own story.</p><p><b>Reviewed by.</b> voice_check.py on every counted rule; the Conformance Checker on every commissioned element.</p><p><b>Never.</b> Em-dashes. A source that reads well and does not exist. A number that is yours. A chapter that fits the word budget by dropping a required element.</p>',
     },
     'gw-lineeditor': {
         'title': 'The Line Editor',
@@ -97,11 +100,9 @@ GATES = [
     ['<code>resolve_book.py</code>', '<span class="who script">Script</span>', 'No book, a missing voice spec, a missing dependency. A skill reading a missing voice spec does not crash; it writes generic prose.', 'Every desk', 'Nothing runs until it resolves'],
     ['<code>okf_gate.py</code>', '<span class="who script">Script</span>', 'A citation bundle breaking the transcription rule; a voice threshold that no longer matches the spec', 'Every prose-writing skill', 'No prose is written'],
     ['Plan-only review', '<span class="who cold">Cold desk</span>', 'A brief that cannot be written from cold: the Ghostwriter answers one question, <em>could someone who never read the interview write this from this file alone?</em>', 'Draft', 'One round back to the Researcher, then the gaps only you can close go to the inbox'],
-    ['<code>term_check.py</code>', '<span class="who script">Script</span>', 'A capitalised term the brief or draft treats as established that no concept, no foundation document, and no sentence in the text defines', 'Research, draft', 'Define it, make it a concept, or stop using it'],
     ['<code>voice_check.py</code>', '<span class="who script">Script</span>', "Em-dashes, bold as a crutch, the long-sentence share, direct-address density, the anchor metaphor's family count. Literal counts against the thresholds in your voice spec.", 'Draft, refine, every short-form piece', 'Two cold rounds, then the inbox'],
     ['Conformance Checker', '<span class="who cold">Cold desk</span>', 'An outline row the prose did not deliver; a source used but not named where the reader can see it. Two verdicts, PASS and FAIL, a quote behind every PASS.', 'Draft, refine', 'Two cold rounds, then the inbox'],
     ['Anti-Slop Reader', '<span class="who cold">Cold desk</span>', 'The half no script can count: invented foils, indirection, scenes watched from outside, the wife cast as a threat, a term relabelled between chapters', 'Refine (findings routed, never auto-applied)', 'Plain fixes to the Line Editor; anything that changes the argument to you'],
-    ['<code>okf_new.py</code> and the timestamp guard', '<span class="who script">Script</span> + hook', 'A concept typed by hand; a date that is not today; a desk writing <code>verified</code>; a verbatim quotation "confirmed" by a search', 'Every write to the knowledge ledger', 'Refused before anything lands on disk'],
     ['The inbox', '<span class="who author">Author</span>', 'Everything a cold desk could not decide', 'Nothing; it collects', 'You rule, in your words, and the desk resumes'],
 ]
 
@@ -128,7 +129,7 @@ PHRASES = [
     ['remember that · write that down · for the record', "Your words, verbatim, clock-stamped. Never on a desk's initiative.", 'author'],
     ["park that · not now · let's decide later", 'A deferred question with a revisit trigger (an event, not a date). Raised again when the trigger arrives.', 'author'],
     ['parked · what did we defer · come back to', "The parked list, with each question's trigger.", 'script'],
-    ["what's missing · what can't you do yet", 'Answered from the gap register, which currently says: nothing deferred, and names what is a view rather than a desk.', 'script'],
+    ["what's missing · what can't you do yet", 'Answered from GAPS.md, which registers each deferred capability with the trigger that closes it. Say "not yet, and here is what it waits on" rather than discovering the gap when you need it.', 'script'],
     ['interview 12 · research 12 · draft 12 · refine 12', 'One stage, for a deliberate re-run. Not the normal path.', 'cold'],
     ['put it on main · land · ship it · make it official', 'Fast-forward only, on your word alone. The branch is named in the reply.', 'script'],
     ['push · save · back this up', 'Pushes the session branch and says its name. Not main.', 'script'],
@@ -136,7 +137,6 @@ PHRASES = [
     ["done · that's it · bye · see you tomorrow", 'The Archivist reviews the session if it has not yet; then two lines on where your work is and an offer to put it on main. Nothing lands unless you say so.', 'author'],
     ['retro · what did we learn · what went wrong', 'The Archivist, cold. Proposals shown; nothing applied without your yes.', 'cold'],
     ['switch to… · which books', 'Lists the registry; views another registered book for this session without touching the manifest.', 'script'],
-    ['run the tests · is the engine ok', 'Every script against a fixture with a known answer. The last line says how many passed.', 'script'],
     ['how does this work · explain the house · show me the map', 'This page.', 'script'],
     ['help · what can you do', 'The full table, one line each, then the menu.', 'script'],
 ]

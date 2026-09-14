@@ -316,6 +316,36 @@ def read_thresholds():
     return out
 
 
+def phantom_references(commands):
+    """Every script and command the AUTHORED half names must exist on disk.
+
+    Two gate rows published on 2026-09-14 named term_check.py and okf_new.py as
+    gates. Neither exists in either repo. They were extracted programmatically
+    from the previous page rather than retyped, and were therefore trusted:
+    provenance is not verification. This is the same shape as house.json's
+    spec_probe, which asserts a threshold still matches the spec it claims to
+    come from, and the same fix - the claim is checked against the thing.
+    """
+    blob = json.dumps([GATES, PHRASES, NARRATIVE, DESK_NOTES], default=str)
+    known_cmds = {c["name"] for c in commands}
+    try:
+        with open(CONFIG, encoding="utf-8") as fh:
+            deps = json.load(fh).get("book_repo_dependencies", {})
+        book = {os.path.basename(k) for grp in ("required", "optional")
+                for k in deps.get(grp, {})}
+    except (OSError, ValueError):
+        book = set()
+
+    missing = []
+    for name in sorted(set(re.findall(r"\b([a-z_]+\.py)\b", blob))):
+        if not os.path.isfile(os.path.join(SCRIPTS, name)) and name not in book:
+            missing.append(name)
+    for cmd in sorted(set(re.findall(r"(/gw[a-z-]*)", blob))):
+        if cmd not in known_cmds:
+            missing.append(cmd)
+    return missing
+
+
 def inputs_digest(desks, commands, scripts, thresholds):
     """Hash of everything derived, plus this file. --check compares against it.
 
@@ -770,6 +800,16 @@ def main():
     scripts = read_scripts()
     thresholds = read_thresholds()
     digest = inputs_digest(desks, commands, scripts, thresholds)
+
+    phantoms = phantom_references(commands)
+    if phantoms:
+        print("manual: the authored half names %d thing(s) that do not exist on disk:"
+              % len(phantoms))
+        for x in phantoms:
+            print("  x %s" % x)
+        print("  Fix scripts/manual_content.py. A manual that invents a gate is the "
+              "defect this house exists to prevent.")
+        return 1
 
     if args.check:
         try:
