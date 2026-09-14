@@ -328,3 +328,34 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `skills/gw-refine/SKILL.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 19:52 — `claude/dreamy-gates-52bn4v` — 20 commit(s) this session
+- `.claude/agents/gw-lineeditor.md`
+- `.claude/skills/gw-inbox/SKILL.md`
+- `.claude/skills/gw-qa/SKILL.md`
+- `.claude/skills/gw-refine/SKILL.md`
+- `FINDINGS.md`
+- `agents/gw-lineeditor.md`
+- `docs/diagrams.html`
+- `docs/diagrams/01-automation-boundary.svg`
+- `docs/diagrams/02-nobody-grades-themselves.svg`
+- `docs/diagrams/03-derived-not-remembered.svg`
+- `docs/manual.html`
+- `inbox/001-are-bolded-run-in-section-headers-legal.md`
+- `inbox/002-three-artifacts-are-below-the-you-density-floor.md`
+- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
+- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
+- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
+- `runs/log.md`
+- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
+- `runs/revisions/2026-09-14-practice-guide-back-of-book.md`
+- `scripts/build_diagrams_page.py`
+- `scripts/inbox.py`
+- `scripts/practice_sync.py`
+- `scripts/session_log.py`
+- `scripts/voice_check.py`
+- `skills/gw-inbox/SKILL.md`
+- `skills/gw-qa/SKILL.md`
+- `skills/gw-refine/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
