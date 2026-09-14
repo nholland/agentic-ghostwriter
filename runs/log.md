@@ -149,3 +149,33 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/voice_check.py`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 12:42 — `claude/gateway-sgjaao` @ `23683c3` — 2 commit(s) this session
+- `.claude/agents/gw-lineeditor.md`
+- `.claude/skills/gw-refine/SKILL.md`
+- `inbox/001-are-bolded-run-in-section-headers-legal.md`
+- `inbox/002-three-artifacts-are-below-the-you-density-floor.md`
+- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
+- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
+- `runs/log.md`
+- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
+- `runs/revisions/2026-09-14-practice-guide-back-of-book.md`
+- `scripts/inbox.py`
+- `scripts/voice_check.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 12:48 — `claude/gateway-sgjaao` @ `f5d4ad4` — 2 commit(s) this session
+- `.claude/agents/gw-lineeditor.md`
+- `.claude/skills/gw-refine/SKILL.md`
+- `inbox/001-are-bolded-run-in-section-headers-legal.md`
+- `inbox/002-three-artifacts-are-below-the-you-density-floor.md`
+- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
+- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
+- `runs/log.md`
+- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
+- `runs/revisions/2026-09-14-practice-guide-back-of-book.md`
+- `scripts/inbox.py`
+- `scripts/voice_check.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.

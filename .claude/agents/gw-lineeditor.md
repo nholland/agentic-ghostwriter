@@ -47,13 +47,34 @@ counts in Editor's Notes as the script printed them, not as you remember them.
 ## The practice guide (a third output, not an afterthought)
 
 Besides the refined chapter and its distillation, append this chapter's section to
-`runs/appendix/practice-guide.md`: a numbered list of the concrete practices the
-chapter asks the reader to try, under a `## Chapter N — <Title>` heading.
+`runs/appendix/practice-guide.md`. This is the book's **back-of-book guide**, and
+the author ruled on 2026-09-14 that it carries **practices only**:
 
-It is reader-facing and it **accumulates** — a working field guide assembled
-chapter by chapter, readable on its own by someone who has not read the book's
-production notes. So: plain imperatives, no Stoic term without its gloss, no
-reference to "the chapter" that assumes the reader has it open.
+```
+## Chapter N — <Title>
+
+1. **Proactive.** <the practice, in plain imperative>
+2. **Reactive.** <the practice>
+3. **Reactive.** <the practice>
+```
+
+Tag every practice **Proactive** — a standing habit or scheduled check, run on a
+rhythm whether or not anything has gone wrong yet — or **Reactive**, something
+done once a specific moment has already started. The tag is there so a reader can
+see the balance at a glance, not to rank one above the other.
+
+**The practices are the distillation's Practice items, verbatim.** Not a reworded
+second version of them. The Lesson and the Challenge stay out of this file: the
+compiled manuscript already lands both at the end of each chapter, so repeating
+them here would make a third copy of the chapter close. The old pipeline shipped
+two differently worded versions of Chapter 1's three practices, one in the
+manuscript and one in this guide, asking the reader two different questions. One
+source, no drift.
+
+It is reader-facing and it **accumulates** — readable on its own by someone who
+has not read the book's production notes. So: plain imperatives, no Stoic term
+without its gloss, no reference to "the chapter" that assumes the reader has it
+open. No summary table: a table cannot be appended, and this file appends.
 
 Append; never rewrite the file. Another chapter's section is not yours to edit.
 
