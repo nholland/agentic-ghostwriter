@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" role="img" aria-label="On the left, four files each state how many desks the system has and three of them disagree: the agents directory holds ten, CLAUDE.md says nine, the README said ten in total, the manual said twelve. Each was written by hand and was correct on the day it was typed. On the right, one directory is the source, a script reads it and writes the page, and a check run by the session's stop hook fails when the source has changed since the page was generated.">
+  <defs>
+    <marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7b7884"/>
+    </marker>
+    <marker id="a3g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f6470"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="880" height="380" fill="#fbfaf7"/>
+
+  <text x="24" y="34" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#17151a">Derived, not remembered</text>
+  <text x="24" y="56" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#7b7884">Four files answered one question. Three were wrong, and none of them looked wrong.</text>
+
+  <line x1="440" y1="80" x2="440" y2="358" stroke="#dcd9d1" stroke-width="1"/>
+
+  <!-- LEFT -->
+  <text x="34" y="100" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#b8412f">FOUR SOURCES, ONE FACT</text>
+
+  <rect x="34" y="118" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75"/>
+  <text x="46" y="143" font-family="monospace" font-size="12" fill="#17151a">.claude/agents/</text>
+  <text x="212" y="143" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#17151a">10 files</text>
+
+  <rect x="34" y="166" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="46" y="191" font-family="monospace" font-size="12" fill="#7b7884">CLAUDE.md</text>
+  <text x="212" y="191" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#b8412f">&#8220;nine&#8221;</text>
+
+  <rect x="34" y="214" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="46" y="239" font-family="monospace" font-size="12" fill="#7b7884">README.md</text>
+  <text x="212" y="239" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#b8412f">&#8220;ten&#8221;</text>
+
+  <rect x="34" y="262" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="46" y="287" font-family="monospace" font-size="12" fill="#7b7884">the manual</text>
+  <text x="212" y="287" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#b8412f">&#8220;twelve&#8221;</text>
+
+  <g stroke="#b8412f" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#a3)">
+    <line x1="228" y1="138" x2="292" y2="200"/>
+    <line x1="228" y1="186" x2="292" y2="206"/>
+    <line x1="228" y1="234" x2="292" y2="214"/>
+    <line x1="228" y1="282" x2="292" y2="220"/>
+  </g>
+  <text x="300" y="205" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="#b8412f">?</text>
+  <text x="300" y="232" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">each correct</text>
+  <text x="300" y="246" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">on the day it</text>
+  <text x="300" y="260" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">was typed</text>
+
+  <text x="34" y="332" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">The number was settled by comparing sources</text>
+  <text x="34" y="348" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">against each other, not by counting the thing.</text>
+
+  <!-- RIGHT -->
+  <text x="474" y="100" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#2f5fa8">ONE SOURCE, READ BY A SCRIPT</text>
+
+  <rect x="474" y="166" width="170" height="48" rx="5" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75"/>
+  <text x="559" y="188" text-anchor="middle" font-family="monospace" font-size="12" fill="#17151a">.claude/agents/</text>
+  <text x="559" y="204" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">the only source</text>
+
+  <line x1="648" y1="190" x2="682" y2="190" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a3)"/>
+  <text x="665" y="178" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">reads</text>
+
+  <rect x="686" y="166" width="170" height="48" rx="5" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <text x="771" y="188" text-anchor="middle" font-family="monospace" font-size="12" fill="#17151a">manual.py</text>
+  <text x="771" y="204" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">writes the page</text>
+
+  <line x1="771" y1="218" x2="771" y2="252" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a3)"/>
+  <rect x="686" y="256" width="170" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="771" y="281" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#17151a">the manual</text>
+
+  <!-- the check -->
+  <rect x="474" y="256" width="170" height="40" rx="5" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75" stroke-dasharray="5 4"/>
+  <text x="559" y="281" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#5f6470">--check, every session</text>
+  <path d="M 559 252 L 559 224" fill="none" stroke="#5f6470" stroke-width="1.3" marker-end="url(#a3g)"/>
+  <path d="M 682 276 L 650 276" fill="none" stroke="#5f6470" stroke-width="1.3" marker-end="url(#a3g)"/>
+
+  <text x="474" y="332" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">Nobody has to remember. The check fails when</text>
+  <text x="474" y="348" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">the source changed and the page did not.</text>
+</svg>
