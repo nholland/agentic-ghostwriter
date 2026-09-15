@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" style="color:#1a1a1a" role="img" aria-label="The First Thing Cut">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .hd{font:600 11px Georgia,serif;letter-spacing:.12em;text-anchor:middle;opacity:.7}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .note{font:italic 11.5px Georgia,serif;opacity:.6}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+
+  <rect x="0" y="0" width="640" height="450" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE FIRST THING CUT</text>
+    <text class="sub" x="320" y="66">You cut it every heavy week, and it never felt like a decision.</text>
+  </g>
+
+  <!-- column headings -->
+  <g fill="currentColor">
+    <text class="hd" x="375" y="112">A DAY</text>
+    <text class="hd" x="375" y="128">ATTACHED</text>
+    <text class="hd" x="460" y="112">SOMEONE</text>
+    <text class="hd" x="460" y="128">WATCHING</text>
+    <text class="hd" x="545" y="112">SOMEONE</text>
+    <text class="hd" x="545" y="128">CHASING YOU</text>
+  </g>
+  <g class="rule" fill="none"><path d="M44 144h552"/></g>
+
+  <!-- the three that shout -->
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="180">THE MORTGAGE</text>
+    <text class="lbl" x="44" y="238">THE DEADLINE</text>
+    <text class="lbl" x="44" y="296">THE KID’S GAME AT EIGHT</text>
+  </g>
+  <g fill="currentColor">
+    <circle cx="375" cy="175" r="5"/><circle cx="460" cy="175" r="5"/><circle cx="545" cy="175" r="5"/>
+    <circle cx="375" cy="233" r="5"/><circle cx="460" cy="233" r="5"/><circle cx="545" cy="233" r="5"/>
+    <circle cx="375" cy="291" r="5"/><circle cx="460" cy="291" r="5"/><circle cx="545" cy="291" r="5"/>
+  </g>
+  <g class="rule" fill="none">
+    <path d="M44 202h552"/>
+    <path d="M44 260h552"/>
+  </g>
+
+  <!-- where the effort runs out -->
+  <g fill="currentColor"><text class="note" x="596" y="326" text-anchor="end">where the effort runs out</text></g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".42"><path d="M44 340h552"/></g>
+
+  <!-- the one that does not shout -->
+  <g fill="currentColor"><text class="lbl" x="44" y="378">ROMANCE</text></g>
+  <g fill="#ffffff" stroke="currentColor" stroke-width="1.4">
+    <circle cx="375" cy="373" r="5"/><circle cx="460" cy="373" r="5"/><circle cx="545" cy="373" r="5"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M38 373h87"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="412">It is the only row with nothing forcing it.</text>
+    <text class="cap" x="320" y="432">So it goes first, quietly, every time, and you never catch it happening.</text>
+  </g>
+</svg>
