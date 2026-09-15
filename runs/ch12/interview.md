@@ -2,7 +2,7 @@
 **Chapter:** Romance Is a Discipline
 **Desk:** The Developmental Editor (in session, as the Publisher)
 **Started:** 2026-09-15 16:00
-**Status:** ROUND 1 COMPLETE — round 2 outstanding (see Open Questions)
+**Status:** INTERVIEW COMPLETE — rounds 1 and 2 ruled. Ready for the Researcher.
 
 > This file is the Researcher's only access to the author. His phrasing is
 > preserved verbatim where it carries the idea. Paraphrase is marked as such.
@@ -189,6 +189,114 @@ assert either way without a citation concept.
 
 ---
 
+## Round 2 — his rulings
+
+Asked: the five open questions below. He ruled on all five. These are decisions,
+not discussion — the Researcher and every desk downstream treat them as settled.
+
+### RULING 1 — the chapter anchors on the grandfather, not the anniversary dinner
+
+> "Let's anchor on the grandfather story."
+
+**The anniversary dinner is out.** It was never written, it exists nowhere in the
+OKF bundle, and it is not to be invented or substituted. The chapter's central
+story is now:
+
+> "When my grandfather was giving me advice, when I first got married, he said,
+> **'Put your wife first. Focus on her because your kids will leave you.'** While
+> it came off as somewhat harsh, what I think he was saying was that at the end
+> of the day when you pick a partner, treat them like a top priority. When you
+> stop treating them like a top priority, that's when you'll start to see cracks
+> and problems."
+
+This is an outline change. See the revision proposal below.
+
+*Why it is the stronger anchor: the grandfather story is about priority under
+competing claims — the kids, the job, the life — which is the energy-allocation
+mechanism the author actually described. The dinner was about mood. The chapter's
+own argument now has a story that matches it.*
+
+### RULING 2 — platinum, not golden
+
+> "Let's go platinum. I like that."
+
+**The chapter's claim:** treat her the way *she* wants to be treated, not the way
+you would want to be treated. The golden rule is what men default to, and the
+default is the failure — real effort, delivered in the wrong currency, that does
+not land and then breeds resentment on both sides. He gets no credit; she gets no
+care; both are correct about their own experience.
+
+This resolves the round-1 contradiction. His own receiving-side observation now
+sits on the correct side of the line: downplaying a partner's effort is "quite
+insulting because the person is putting in effort" — so the platinum rule binds
+*both* people, the giver to study her currency and the receiver to honour effort
+spent in the wrong one.
+
+**Flag for the Researcher:** "the platinum rule" is an existing named concept with
+an attributable origin. Establish it and cite it, or the chapter is using someone
+else's coinage unattributed. Do not assert its provenance without a citation
+concept.
+
+### RULING 3 — the incel / red pill material is parked, not cut
+
+> "Should we add it to a parking lot item? I'm wondering if it has any place in
+> the book because it effectively touches on what happens when you don't put in
+> the effort and you get caught up in the concept of the internet zeitgeist: the
+> blaming, the scapegoating, the social media. Even married men can fall prey to
+> that."
+
+**Out of Chapter 12. Parked at `runs/parked.md`, revisit trigger: the Chapter 13
+interview.** Not cut — he is unsure whether it belongs in the book at all, which
+is a book-level question, not a Ch12 question. The Researcher does not build on
+it and the Ghostwriter does not use it.
+
+*One observation he did not ask for but the record should hold: his own framing
+ends with "even married men can fall prey to that," which is what makes it a
+candidate at all. The material is only in-scope for this book if it is about a
+married man's grievance, not a single man's.*
+
+### RULING 4 — the principle stays, the Walgreens scene stays out
+
+> "I think that's a good phrase: if you're a bare minimum partner, you get bare
+> minimum in return. We don't have to talk about Walgreens."
+
+**"If you're a bare minimum partner, you get bare minimum in return" is
+in-chapter, and close to verbatim.** The Valentine's Day / Walgreens scene that
+produced it is excluded (his round-1 ruling, unchanged). The Ghostwriter finds
+another way in, or uses the line bare.
+
+### RULING 5 — the personal admission is printable
+
+> "I'm willing to share that."
+
+Cleared for print, in his words:
+
+> "For my own marriage romance definitely ebbs and flows. We hear all the same
+> advice that you should go on a date once a week but we have found ourselves
+> going weeks and sometimes months without going on a date."
+
+*This is the chapter's credibility. A chapter arguing that romance is a
+discipline, written by a man who claims to have it handled, is a chapter no
+reader believes. Ghostwriter: do not soften "weeks and sometimes months."*
+
+---
+
+## The chapter as it now stands
+
+| | |
+|---|---|
+| **Mechanism** | Energy allocation — romance is the first line item cut when life gets expensive. Not askesis, not feeling-follows-practice. |
+| **Central story** | The grandfather at his wedding: "Put your wife first. Focus on her because your kids will leave you." |
+| **Definition of romance** | "Trying to win favour with your partner. It's not about you, it's about them." Requires study, communication, mystery, surprise, intrigue. |
+| **The sharp idea** | Platinum over golden. Her currency, not yours. |
+| **The consequence** | Not wanted, valued, loved, cherished → cracks → resentment → infidelity. |
+| **The line** | "If you're a bare minimum partner, you get bare minimum in return." |
+| **The admission** | Weeks and sometimes months without a date. |
+| **Out of scope** | The anniversary dinner (never existed). The Walgreens scene (excluded). The incel / red pill material (parked to Ch13 interview). |
+| **Research burden** | Medium — author override of the outline's "Low". |
+
+---
+
 ## Outline Revision Proposal — for the author to apply, or to hand to the old pipeline
 
 **File:** `books/the-stoic-husband/03-outline.md`, Chapter 12.
@@ -197,24 +305,21 @@ assert either way without a citation concept.
 | Field | Now | Proposed |
 |---|---|---|
 | Premise | "Romance is not a feeling that arrives when conditions are right — it is a practice, with the same internal logic as every other Stoic discipline." | "Romance is the first thing a man's energy budget cuts when life gets expensive — and the cut is invisible to him and obvious to her. It is not a feeling to wait for; it is a priority to defend." |
-| Central story | The anniversary dinner he almost didn't plan | **UNRESOLVED** — the dinner has never been written down. His grandfather's wedding advice is the strongest story in hand. Round 2, question #1. |
-| Key point 1 | The man who was relentlessly romantic when trying to win her — the urgency was doing the work | Keep, and extend: the same effort is visible in men *outside* relationships (gym, cologne, presentable), and where that effort curdles when it fails — "it's easier to blame and hate than to compete." |
+| Central story | The anniversary dinner he almost didn't plan | **The grandfather at his wedding** — "Put your wife first. Focus on her because your kids will leave you." RULED round 2. The dinner is out; it never existed. |
+| Key point 1 | The man who was relentlessly romantic when trying to win her — the urgency was doing the work | Keep. The proposed extension into men *outside* relationships (gym, cologne, "easier to blame and hate than to compete") is **withdrawn** — parked at round 2, revisit at the Ch13 interview. |
 | Research burden | Low | **Medium** — author override, this session. |
+| Reader ah-ha | "I've been waiting to feel romantic. That's backwards." | "I've been loving her in my language and calling it effort." — follows from ruling 2. Proposed, not ruled. |
 
 ---
 
-## Open questions — round 2, outstanding
+## Open questions — none blocking
 
-1. **The anniversary dinner.** Still unanswered. It is the outline's central story
-   slot and no version of it exists anywhere. Either he tells it, or the chapter
-   anchors on the grandfather instead.
-2. **Golden rule vs. love languages.** Which is the chapter's claim?
-3. **The incel / red pill material** — does it open the chapter, or is it a
-   digression in a Part III chapter written for married men?
-4. **Does "bare minimum partner, bare minimum in return" survive** without the
-   Walgreens scene he excluded?
-5. **Is he willing to print "weeks and sometimes months without a date"** about
-   his own marriage?
+All five round-2 questions are ruled. One item is deferred by his choice, not
+blocked: the incel / red pill material, parked at `runs/parked.md` with the
+Chapter 13 interview as its revisit trigger.
+
+One question is proposed but not ruled, and does not block the Researcher: the
+revised reader ah-ha in the table above.
 
 ---
 
@@ -223,4 +328,5 @@ assert either way without a citation concept.
 | Round | What happened | What it changed |
 |---|---|---|
 | 1 | Five questions asked. He answered none directly and opened the territory instead. | Surfaced the energy-allocation mechanism, the grandfather story, the golden-rule contradiction, and an author override on research burden. Outline revision proposed. |
-| 2 | Pending — pushback on the golden rule, and the central story still missing. | — |
+| 2 | Pushback delivered on the golden rule. Five questions, five rulings. | Central story changed from a story that never existed to the grandfather. Platinum rule adopted as the chapter's claim, resolving the round-1 contradiction. Incel/red-pill material parked out of the chapter. "Bare minimum" line kept, its scene cut. Personal admission cleared for print. |
+| — | Pushback outcome | The author changed his position on the golden rule after one round. Recorded per Rule 10: the pushback was worth making, and it produced the chapter's sharpest idea. |
