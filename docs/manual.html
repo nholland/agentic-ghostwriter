@@ -112,6 +112,11 @@ header.mast{padding-bottom:2rem}
 .tools{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.7rem}
 .tools i{font-style:normal;font-family:var(--mono);font-size:.72rem;color:var(--ink-3);
   border:1px solid var(--rule);border-radius:4px;padding:.1em .4em}
+.fig{margin:1.4rem 0 1.6rem}
+.fig .plate{background:#fbfaf7;border:1px solid var(--rule);border-radius:10px;
+  padding:.45rem;overflow-x:auto}
+.fig svg{display:block;width:100%;height:auto;min-width:560px}
+.fig figcaption{margin-top:.7rem;font-size:.9rem;color:var(--ink-3);max-width:64ch}
 .tbl{overflow-x:auto;margin:1rem 0 1.4rem}
 table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:420px}
 th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
@@ -161,6 +166,68 @@ footer code{font-size:.8em}
 </ol>
 <p class="note">This page describes the system. It deliberately carries no inbox count and no chapter progress: those are stale the moment they are written, which is the defect this page is generated to avoid. Say <code>/gw</code> for live state.</p></section>
 <section id="flow"><div class="eyebrow">Section 2</div><h2>How a chapter moves</h2><p>Seven stages. Tap one to see who runs it and what stops it. You are needed at two of them; everything between runs cold.</p>
+<figure class="fig"><div class="plate"><svg viewBox="0 0 880 300" role="img" aria-label="A chapter's seven stages in a row. The author is present at stage one, the interview, and at stage seven, the verdict. Stages two through six run cold. A dashed vertical line after the brief marks the automation boundary: past it, nothing needs the author until the verdict.">
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7b7884"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="880" height="300" fill="#fbfaf7"/>
+
+  <text x="24" y="34" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#17151a">Where the author is actually needed</text>
+  <text x="24" y="56" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#7b7884">Seven stages. Two touches.</text>
+
+  <!-- brackets -->
+  <path d="M 24 128 L 24 122 L 124 122 L 124 128" fill="none" stroke="#b8412f" stroke-width="1.5"/>
+  <text x="74" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#b8412f">YOU</text>
+  <path d="M 146 128 L 146 122 L 734 122 L 734 128" fill="none" stroke="#2f5fa8" stroke-width="1.5"/>
+  <text x="440" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#2f5fa8">RUNS COLD — CLOSE THE LAPTOP</text>
+  <path d="M 756 128 L 756 122 L 856 122 L 856 128" fill="none" stroke="#b8412f" stroke-width="1.5"/>
+  <text x="806" y="112" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#b8412f">YOU</text>
+
+  <!-- nodes -->
+  <rect x="24"  y="150" width="100" height="54" rx="6" fill="#fbfaf7" stroke="#b8412f" stroke-width="1.75"/>
+  <rect x="146" y="150" width="100" height="54" rx="6" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <rect x="268" y="150" width="100" height="54" rx="6" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <rect x="390" y="150" width="100" height="54" rx="6" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <rect x="512" y="150" width="100" height="54" rx="6" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <rect x="634" y="150" width="100" height="54" rx="6" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75"/>
+  <rect x="756" y="150" width="100" height="54" rx="6" fill="#fbfaf7" stroke="#b8412f" stroke-width="1.75"/>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#17151a" text-anchor="middle">
+    <text x="74"  y="182">Interview</text>
+    <text x="196" y="182">Brief</text>
+    <text x="318" y="182">Draft</text>
+    <text x="440" y="182">Refine</text>
+    <text x="562" y="182">Plate</text>
+    <text x="684" y="182">Package</text>
+    <text x="806" y="182">Verdict</text>
+  </g>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884" text-anchor="middle">
+    <text x="74"  y="222">you + the editor</text>
+    <text x="196" y="222">Researcher</text>
+    <text x="318" y="222">Ghostwriter</text>
+    <text x="440" y="222">Line Editor</text>
+    <text x="562" y="222">Designer</text>
+    <text x="684" y="222">one renderer</text>
+    <text x="806" y="222">you, reading</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#7b7884" stroke-width="1.3" marker-end="url(#a1)">
+    <line x1="126" y1="177" x2="142" y2="177"/>
+    <line x1="248" y1="177" x2="264" y2="177"/>
+    <line x1="370" y1="177" x2="386" y2="177"/>
+    <line x1="492" y1="177" x2="508" y2="177"/>
+    <line x1="614" y1="177" x2="630" y2="177"/>
+    <line x1="736" y1="177" x2="752" y2="177"/>
+  </g>
+
+  <!-- the boundary -->
+  <line x1="257" y1="132" x2="257" y2="240" stroke="#b8412f" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="257" y="260" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#b8412f">the automation boundary</text>
+  <text x="257" y="277" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">upstream, only you have the material</text>
+</svg></div><figcaption>Two touches. Everything between them runs cold.</figcaption></figure>
 <div class="stagebar" id="stagebar" role="tablist">
 <button type="button" role="tab" aria-selected="true">1. The interview</button>
 <button type="button" role="tab" aria-selected="false">2. The brief</button>
@@ -253,6 +320,68 @@ footer code{font-size:.8em}
 </tbody></table></div></section>
 <section id="gates"><div class="eyebrow">Section 5</div><h2>The gates</h2>
 <p>A producer's work is not done until a different reader says so, and that reader is a script or another desk, never the producer's own report. Self-reported counts were wrong on Chapters 9 and 10 and the Prologue, and once hid a live violation. So the counts come from a script and are pasted verbatim. A gate that cannot run fails closed: the citation gate blocks when it cannot find its validator, and the voice script reports UNCHECKED, which is explicitly not a pass.</p>
+<figure class="fig"><div class="plate"><svg viewBox="0 0 880 400" role="img" aria-label="Two flows side by side. On the left, a desk writes prose and reports its own counts, and the work ships: this was wrong on three chapters and once hid a live violation. On the right, the same prose is counted by a script whose output is pasted verbatim, the Publisher runs the same script independently so a discrepancy is itself a finding, and two failed rounds send the question to the author's inbox instead of looping.">
+  <defs>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7b7884"/>
+    </marker>
+    <marker id="a2r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b8412f"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="880" height="400" fill="#fbfaf7"/>
+
+  <text x="24" y="34" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#17151a">No desk grades its own counted work</text>
+  <text x="24" y="56" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#7b7884">The difference is one node, and who is allowed to report the number.</text>
+
+  <line x1="440" y1="80" x2="440" y2="378" stroke="#dcd9d1" stroke-width="1"/>
+
+  <!-- LEFT: the failure -->
+  <text x="34" y="100" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#b8412f">WHAT FAILED</text>
+  <rect x="120" y="118" width="170" height="46" rx="6" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <text x="205" y="146" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#17151a">The desk</text>
+  <line x1="205" y1="166" x2="205" y2="196" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a2)"/>
+  <text x="215" y="185" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">writes</text>
+
+  <rect x="120" y="200" width="170" height="46" rx="6" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="205" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13.5" fill="#17151a">The prose</text>
+
+  <!-- self-report loop -->
+  <path d="M 290 223 C 350 223 350 141 292 141" fill="none" stroke="#b8412f" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#a2r)"/>
+  <text x="356" y="186" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#b8412f">reports its</text>
+  <text x="356" y="200" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#b8412f">own counts</text>
+
+  <line x1="205" y1="248" x2="205" y2="278" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a2)"/>
+  <rect x="120" y="282" width="170" height="46" rx="6" fill="#fbfaf7" stroke="#b8412f" stroke-width="1.75"/>
+  <text x="205" y="310" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#b8412f">Ships</text>
+  <text x="205" y="352" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">Wrong on three chapters.</text>
+  <text x="205" y="368" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">Once hid a live violation.</text>
+
+  <!-- RIGHT: the fix -->
+  <text x="474" y="100" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#2f5fa8">WHAT WORKS</text>
+  <rect x="560" y="118" width="170" height="46" rx="6" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <text x="645" y="146" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#17151a">The desk</text>
+  <line x1="645" y1="166" x2="645" y2="196" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a2)"/>
+  <text x="655" y="185" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">writes</text>
+
+  <rect x="560" y="200" width="170" height="46" rx="6" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="645" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13.5" fill="#17151a">The prose</text>
+  <line x1="645" y1="248" x2="645" y2="278" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a2)"/>
+  <text x="655" y="267" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">counted by</text>
+
+  <rect x="560" y="282" width="170" height="46" rx="6" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75"/>
+  <text x="645" y="303" text-anchor="middle" font-family="monospace" font-size="12.5" font-weight="600" fill="#17151a">a script</text>
+  <text x="645" y="319" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">output pasted verbatim</text>
+
+  <!-- the publisher re-runs it, stated under the panel it belongs to -->
+  <text x="645" y="352" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#5f6470">the Publisher runs the same script again, independently</text>
+  <text x="645" y="368" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">a disagreement between the two reports is itself a finding</text>
+
+  <line x1="730" y1="305" x2="790" y2="305" stroke="#b8412f" stroke-width="1.3" marker-end="url(#a2r)"/>
+  <text x="800" y="296" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#b8412f">fails twice</text>
+  <text x="800" y="310" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#b8412f">→ your inbox</text>
+  <text x="800" y="326" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">never a loop</text>
+</svg></div><figcaption>The difference is one node: a script counts, and the desk that wrote the prose never supplies the number.</figcaption></figure>
 <div class="tbl"><table><thead><tr><th>Gate</th><th>Kind</th><th>Catches</th><th>Blocks</th><th>On fail</th></tr></thead><tbody>
 <tr><td><code>resolve_book.py</code></td><td><span class="who script">Script</span></td><td>No book, a missing voice spec, a missing dependency. A skill reading a missing voice spec does not crash; it writes generic prose.</td><td>Every desk</td><td>Nothing runs until it resolves</td></tr>
 <tr><td><code>okf_gate.py</code></td><td><span class="who script">Script</span></td><td>A citation bundle breaking the transcription rule; a voice threshold that no longer matches the spec</td><td>Every prose-writing skill</td><td>No prose is written</td></tr>
@@ -277,6 +406,82 @@ footer code{font-size:.8em}
 <p class="note">Every threshold above is read from <code>config/house.json</code>, the same file <code>voice_check.py</code> enforces, and each carries a probe asserting it still matches the book's voice spec. A threshold the author changes in the spec cannot silently diverge from the copy the script enforces.</p></section>
 <section id="production"><div class="eyebrow">Section 6</div><h2>Scripts and hooks</h2>
 <p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's incident archive was a model following rule text, and every fix was a check that ran on its own. A session agent would be that failure mode with a title.</p>
+<figure class="fig"><div class="plate"><svg viewBox="0 0 880 380" role="img" aria-label="On the left, four files each state how many desks the system has and three of them disagree: the agents directory holds ten, CLAUDE.md says nine, the README said ten in total, the manual said twelve. Each was written by hand and was correct on the day it was typed. On the right, one directory is the source, a script reads it and writes the page, and a check run by the session's stop hook fails when the source has changed since the page was generated.">
+  <defs>
+    <marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7b7884"/>
+    </marker>
+    <marker id="a3g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5f6470"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="880" height="380" fill="#fbfaf7"/>
+
+  <text x="24" y="34" font-family="Georgia,'Times New Roman',serif" font-size="19" font-weight="600" fill="#17151a">Derived, not remembered</text>
+  <text x="24" y="56" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#7b7884">Four files answered one question. Three were wrong, and none of them looked wrong.</text>
+
+  <line x1="440" y1="80" x2="440" y2="358" stroke="#dcd9d1" stroke-width="1"/>
+
+  <!-- LEFT -->
+  <text x="34" y="100" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#b8412f">FOUR SOURCES, ONE FACT</text>
+
+  <rect x="34" y="118" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75"/>
+  <text x="46" y="143" font-family="monospace" font-size="12" fill="#17151a">.claude/agents/</text>
+  <text x="212" y="143" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#17151a">10 files</text>
+
+  <rect x="34" y="166" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="46" y="191" font-family="monospace" font-size="12" fill="#7b7884">CLAUDE.md</text>
+  <text x="212" y="191" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#b8412f">&#8220;nine&#8221;</text>
+
+  <rect x="34" y="214" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="46" y="239" font-family="monospace" font-size="12" fill="#7b7884">README.md</text>
+  <text x="212" y="239" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#b8412f">&#8220;ten&#8221;</text>
+
+  <rect x="34" y="262" width="190" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="46" y="287" font-family="monospace" font-size="12" fill="#7b7884">the manual</text>
+  <text x="212" y="287" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#b8412f">&#8220;twelve&#8221;</text>
+
+  <g stroke="#b8412f" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#a3)">
+    <line x1="228" y1="138" x2="292" y2="200"/>
+    <line x1="228" y1="186" x2="292" y2="206"/>
+    <line x1="228" y1="234" x2="292" y2="214"/>
+    <line x1="228" y1="282" x2="292" y2="220"/>
+  </g>
+  <text x="300" y="205" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="#b8412f">?</text>
+  <text x="300" y="232" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">each correct</text>
+  <text x="300" y="246" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">on the day it</text>
+  <text x="300" y="260" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7b7884">was typed</text>
+
+  <text x="34" y="332" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">The number was settled by comparing sources</text>
+  <text x="34" y="348" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">against each other, not by counting the thing.</text>
+
+  <!-- RIGHT -->
+  <text x="474" y="100" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#2f5fa8">ONE SOURCE, READ BY A SCRIPT</text>
+
+  <rect x="474" y="166" width="170" height="48" rx="5" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75"/>
+  <text x="559" y="188" text-anchor="middle" font-family="monospace" font-size="12" fill="#17151a">.claude/agents/</text>
+  <text x="559" y="204" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">the only source</text>
+
+  <line x1="648" y1="190" x2="682" y2="190" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a3)"/>
+  <text x="665" y="178" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">reads</text>
+
+  <rect x="686" y="166" width="170" height="48" rx="5" fill="#fbfaf7" stroke="#2f5fa8" stroke-width="1.75"/>
+  <text x="771" y="188" text-anchor="middle" font-family="monospace" font-size="12" fill="#17151a">manual.py</text>
+  <text x="771" y="204" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#7b7884">writes the page</text>
+
+  <line x1="771" y1="218" x2="771" y2="252" stroke="#7b7884" stroke-width="1.3" marker-end="url(#a3)"/>
+  <rect x="686" y="256" width="170" height="40" rx="5" fill="#fbfaf7" stroke="#dcd9d1" stroke-width="1.75"/>
+  <text x="771" y="281" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#17151a">the manual</text>
+
+  <!-- the check -->
+  <rect x="474" y="256" width="170" height="40" rx="5" fill="#fbfaf7" stroke="#5f6470" stroke-width="1.75" stroke-dasharray="5 4"/>
+  <text x="559" y="281" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#5f6470">--check, every session</text>
+  <path d="M 559 252 L 559 224" fill="none" stroke="#5f6470" stroke-width="1.3" marker-end="url(#a3g)"/>
+  <path d="M 682 276 L 650 276" fill="none" stroke="#5f6470" stroke-width="1.3" marker-end="url(#a3g)"/>
+
+  <text x="474" y="332" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">Nobody has to remember. The check fails when</text>
+  <text x="474" y="348" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">the source changed and the page did not.</text>
+</svg></div><figcaption>Why this page is generated. Four files once answered one question and three were wrong, each correct on the day it was typed.</figcaption></figure>
 <div class="tbl"><table><thead><tr><th>Script</th><th>Does</th></tr></thead><tbody>
 <tr><td><code>bakeoff.py</code></td><td>compare two versions of the same chapter, blind.</td></tr>
 <tr><td><code>build_diagrams_page.py</code></td><td>assemble docs/diagrams.html from docs/diagrams/*.svg.</td></tr>
@@ -386,4 +591,4 @@ footer code{font-size:.8em}
   }
 })();
 </script>
-<!-- inputs-digest: f9970a9f3a940bb3 -->
+<!-- inputs-digest: 2dfdee42e76017b4 -->

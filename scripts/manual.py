@@ -65,6 +65,7 @@ SKILLS = os.path.join(REPO, ".claude", "skills")
 SCRIPTS = os.path.join(REPO, "scripts")
 CONFIG = os.path.join(REPO, "config", "house.json")
 OUT = os.path.join(REPO, "docs", "manual.html")
+DIAGRAMS = os.path.join(REPO, "docs", "diagrams")
 
 sys.path.insert(0, HERE)
 from manual_content import IN_SESSION, DESK_NOTES, GATES, PHRASES  # noqa: E402
@@ -346,6 +347,17 @@ def phantom_references(commands):
     return missing
 
 
+FIGURES = {
+    "01-automation-boundary.svg": "Two touches. Everything between them runs cold.",
+    "02-nobody-grades-themselves.svg":
+        "The difference is one node: a script counts, and the desk that wrote the prose "
+        "never supplies the number.",
+    "03-derived-not-remembered.svg":
+        "Why this page is generated. Four files once answered one question and three were "
+        "wrong, each correct on the day it was typed.",
+}
+
+
 def inputs_digest(desks, commands, scripts, thresholds):
     """Hash of everything derived, plus this file. --check compares against it.
 
@@ -361,6 +373,14 @@ def inputs_digest(desks, commands, scripts, thresholds):
             h.update(fh.read())
     except OSError:
         pass
+    # The inlined drawings are inputs too: a redrawn figure must make the page
+    # stale, exactly as a renamed desk does.
+    for fn in sorted(FIGURES):
+        try:
+            with open(os.path.join(DIAGRAMS, fn), "rb") as fh:
+                h.update(fh.read())
+        except OSError:
+            pass
     try:
         with open(os.path.abspath(__file__), "rb") as fh:
             h.update(fh.read())
@@ -490,6 +510,11 @@ header.mast{padding-bottom:2rem}
 .tools{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.7rem}
 .tools i{font-style:normal;font-family:var(--mono);font-size:.72rem;color:var(--ink-3);
   border:1px solid var(--rule);border-radius:4px;padding:.1em .4em}
+.fig{margin:1.4rem 0 1.6rem}
+.fig .plate{background:#fbfaf7;border:1px solid var(--rule);border-radius:10px;
+  padding:.45rem;overflow-x:auto}
+.fig svg{display:block;width:100%;height:auto;min-width:560px}
+.fig figcaption{margin-top:.7rem;font-size:.9rem;color:var(--ink-3);max-width:64ch}
 .tbl{overflow-x:auto;margin:1rem 0 1.4rem}
 table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:420px}
 th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
@@ -576,6 +601,24 @@ JS = """
 """
 
 
+def figure(fn, caption):
+    """Inline a drawing from docs/diagrams/ with a caption.
+
+    The SVG files are the source, shared with docs/diagrams.html, so a figure
+    cannot say one thing in the manual and another on the diagrams page. A
+    missing drawing raises rather than rendering an empty figure: the manual has
+    already published a blank once.
+    """
+    path = os.path.join(DIAGRAMS, fn)
+    with open(path, encoding="utf-8") as fh:
+        svg = fh.read().strip()
+    if "<svg" not in svg:
+        raise SystemExit("manual: %s is not a drawing" % fn)
+    svg = svg.replace(' xmlns="http://www.w3.org/2000/svg"', "")
+    return ('<figure class="fig"><div class="plate">%s</div>'
+            "<figcaption>%s</figcaption></figure>" % (svg, caption))
+
+
 def card(name, title, body, tools=None):
     t = ""
     if tools:
@@ -650,6 +693,7 @@ def render(desks, commands, scripts, thresholds, digest):
       "<h2>How a chapter moves</h2>"
       "<p>Seven stages. Tap one to see who runs it and what stops it. You are needed at two of "
       "them; everything between runs cold.</p>")
+    a(figure("01-automation-boundary.svg", FIGURES["01-automation-boundary.svg"]))
     a('<div class="stagebar" id="stagebar" role="tablist">')
     for i, s in enumerate(NARRATIVE["stages"]):
         a('<button type="button" role="tab" aria-selected="%s">%d. %s</button>'
@@ -720,6 +764,7 @@ def render(desks, commands, scripts, thresholds, digest):
     # gates
     a('<section id="gates"><div class="eyebrow">Section 5</div><h2>The gates</h2>')
     a("<p>%s</p>" % NARRATIVE["gates_intro"])
+    a(figure("02-nobody-grades-themselves.svg", FIGURES["02-nobody-grades-themselves.svg"]))
     a('<div class="tbl"><table><thead><tr><th>Gate</th><th>Kind</th><th>Catches</th>'
       "<th>Blocks</th><th>On fail</th></tr></thead><tbody>")
     for row in GATES:
@@ -749,6 +794,7 @@ def render(desks, commands, scripts, thresholds, digest):
     a("<p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's "
       "incident archive was a model following rule text, and every fix was a check that ran on "
       "its own. A session agent would be that failure mode with a title.</p>")
+    a(figure("03-derived-not-remembered.svg", FIGURES["03-derived-not-remembered.svg"]))
     a('<div class="tbl"><table><thead><tr><th>Script</th><th>Does</th></tr></thead><tbody>')
     for s in scripts:
         a("<tr><td><code>%s</code></td><td>%s</td></tr>" % (esc(s["name"]), esc(s["purpose"])))

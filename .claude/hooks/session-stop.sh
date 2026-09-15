@@ -49,9 +49,22 @@ esac
 # Derived files must have a deriving script AND the check must have a caller -
 # sync_plugin_layout.py's own docstring says so, and until now it had neither.
 # Nothing here rewrites anything: they report, the Publisher acts.
+# One list, not one line per generated file. Adding the next derived artifact
+# should cost an entry here, not another line of shell - a bespoke line per file
+# is how the third one quietly never gets added. Each entry is
+# script|what is stale|what to do about it.
+DERIVED="
+scripts/sync_plugin_layout.py|the plugin-layout copies under agents/ and skills/|python3 scripts/sync_plugin_layout.py
+scripts/manual.py|docs/manual.html - the roster, commands, scripts or thresholds changed|python3 scripts/manual.py, then republish the artifact so the author's link is not stale
+scripts/build_diagrams_page.py|docs/diagrams.html - a drawing or caption changed|python3 scripts/build_diagrams_page.py, then republish the artifact
+"
 drift=""
-python3 scripts/sync_plugin_layout.py --check >/dev/null 2>&1 || drift="${drift}the plugin-layout copies under agents/ and skills/ are out of sync (python3 scripts/sync_plugin_layout.py). "
-python3 scripts/manual.py --check >/dev/null 2>&1 || drift="${drift}docs/manual.html is stale - the roster, commands, scripts or thresholds changed (python3 scripts/manual.py, then republish the artifact so the author's link is not stale). "
+while IFS='|' read -r script what fix; do
+  [ -z "$script" ] && continue
+  python3 "$script" --check >/dev/null 2>&1 || drift="${drift}${what} (${fix}). "
+done <<EOF
+$DERIVED
+EOF
 [ -n "$drift" ] && echo "DERIVED FILES STALE: ${drift}Regenerate before closing, then tell the author what changed." >&2
 
 exec bash .claude/hooks/retro-check.sh

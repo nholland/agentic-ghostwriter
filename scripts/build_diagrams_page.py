@@ -14,12 +14,20 @@ WHY A SCRIPT
     it. The drawing is the figure; the caption is the argument.
 
 USAGE
-    python3 scripts/build_diagrams_page.py
+    python3 scripts/build_diagrams_page.py           # derive docs/diagrams.html
+    python3 scripts/build_diagrams_page.py --check   # exit 1 if a drawing changed
+
+EXIT CODES
+    0  written, or --check found no drift
+    1  --check found drift: rebuild and republish
 """
 
+import argparse
+import hashlib
 import io
 import os
 import re
+import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
@@ -119,7 +127,46 @@ footer em{color:var(--ink-2);font-style:normal}
 """
 
 
+def digest():
+    """Hash of the drawings plus this file - the same --check convention
+    manual.py and sync_plugin_layout.py already follow, so the Stop hook can
+    treat all three the same way."""
+    h = hashlib.sha256()
+    for fn, title, caption in FIGURES:
+        h.update(fn.encode())
+        h.update(title.encode())
+        h.update(caption.encode())
+        with io.open(os.path.join(SRC, fn), "rb") as fh:
+            h.update(fh.read())
+    with io.open(os.path.abspath(__file__), "rb") as fh:
+        h.update(fh.read())
+    return h.hexdigest()[:16]
+
+
 def main():
+    ap = argparse.ArgumentParser(description="Assemble the diagrams page from the drawings.")
+    ap.add_argument("--check", action="store_true",
+                    help="exit 1 if a drawing or caption changed since the page was built")
+    args = ap.parse_args()
+
+    if args.check:
+        try:
+            with io.open(OUT, encoding="utf-8") as fh:
+                current = fh.read()
+        except OSError:
+            print("diagrams: docs/diagrams.html does not exist. Run: "
+                  "python3 scripts/build_diagrams_page.py")
+            return 1
+        m = re.search(r"<!-- inputs-digest: ([0-9a-f]+) -->", current)
+        if not m or m.group(1) != digest():
+            print("diagrams: STALE. A drawing or caption changed since "
+                  "docs/diagrams.html was built.")
+            print("  Rebuild: python3 scripts/build_diagrams_page.py")
+            print("  Then republish the artifact so the author's link is not stale.")
+            return 1
+        print("diagrams: in sync (%d figures)." % len(FIGURES))
+        return 0
+
     blocks = []
     for i, (fn, title, caption) in enumerate(FIGURES, 1):
         with io.open(os.path.join(SRC, fn), encoding="utf-8") as fh:
@@ -134,6 +181,7 @@ def main():
             % (i, len(FIGURES), fn, svg, title, caption))
 
     page = PAGE.replace("{{FIGURES}}", "\n".join(blocks))
+    page += "\n<!-- inputs-digest: %s -->\n" % digest()
 
     # The page must not ship a figure whose drawing failed to inline.
     for fn, _, _ in FIGURES:
@@ -152,4 +200,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

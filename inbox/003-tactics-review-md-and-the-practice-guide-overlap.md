@@ -1,10 +1,11 @@
 ---
 id: 003
-status: resolved
+status: ruled
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-13 04:36
 resolved: 2026-09-14 12:39
+applied_by: grep -qF '**Proactive.**' /home/user/playground-260420/books/the-stoic-husband/appendix/practice-guide.md
 ---
 
 # tactics-review.md and the practice guide overlap - merge or retire?
@@ -14,3 +15,5 @@ Two reader-facing artifacts cover the same ground. appendix/practice-guide.md (g
 **What unblocks this:** Either (a) tactics-review is the reader-facing polish of the practice guide, in which case one generates the other and the Line Editor's section format should carry the Proactive/Reactive marking; or (b) it was a one-off and should be retired to an archive. Right now both exist, neither is current, and no desk owns the second.
 
 **Resolution (2026-09-14 12:39):** practices only
+
+**Reopened as RULED (2026-09-15).** The ruling above was recorded and never applied: each practice in the guide is tagged Proactive or Reactive is still not true on disk. Closing an item cannot mean the author said something; it has to mean the thing is true. This closes itself when `grep -qE '^## Chapter [0-9]+ .*\\[' /home/user/playground-260420/books/the-stoic-husband/appendix/practice-guide.md` exits 0.

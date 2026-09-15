@@ -27,6 +27,7 @@ import glob
 import json
 import os
 import re
+import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -75,13 +76,46 @@ def bakeoffs_waiting():
     return waiting
 
 
-def inbox_open():
-    n = 0
+def inbox_counts():
+    """(open, ruled). A RULED item is the author's decision that has not landed.
+
+    Counted separately and shown on the board because it is invisible otherwise:
+    on 2026-09-14 three rulings were recorded and never applied while every
+    surface reported nothing waiting. An item the author has answered is not the
+    same as an item that is finished.
+    """
+    o = r = 0
     for p in glob.glob(os.path.join(REPO, "inbox", "*.md")):
         txt = open(p, encoding="utf-8").read()
         if re.search(r"^status:\s*open\s*$", txt, re.M):
-            n += 1
-    return n
+            o += 1
+        elif re.search(r"^status:\s*ruled\s*$", txt, re.M):
+            r += 1
+    return o, r
+
+
+def prose_gate():
+    """Return the blocking reason from okf_gate.py, or None when prose may be written.
+
+    WHY THE ORACLE ASKS. On 2026-09-14 the citation gate was red for a whole day
+    while this script kept answering "/gw 12". Rule 4 already says the gate is
+    blocking; it was simply invisible on the one surface the author reads every
+    session, so he would have met it only after starting work. An oracle that
+    names an action the gate forbids is a plausible wrong answer, which is the
+    failure this repo is built against.
+    """
+    try:
+        r = subprocess.run([sys.executable, os.path.join(HERE, "okf_gate.py")],
+                           cwd=REPO, capture_output=True, text=True, timeout=120)
+    except Exception:
+        return None          # cannot run it: say nothing rather than invent a block
+    if r.returncode == 0:
+        return None
+    for line in (r.stdout + r.stderr).splitlines():
+        line = line.strip()
+        if line.startswith("x "):
+            return line[2:].strip()
+    return "okf_gate.py is blocking; run it to see why"
 
 
 def compute(book):
@@ -109,7 +143,7 @@ def compute(book):
                          if s["stage"] not in ("parked", "verdict"))
     awaiting_verdict = sorted(n for n, s in per_chapter.items() if s["stage"] == "verdict")
     packets = bakeoffs_waiting()
-    open_items = inbox_open()
+    open_items, ruled_items = inbox_counts()
 
     engine_refined = set(awaiting_verdict)
     candidates = [n for n in range(1, total + 1) if n not in shipped and n not in runs]
@@ -138,11 +172,22 @@ def compute(book):
         nxt = {"action": "qa", "command": "/gw qa", "chapter": None,
                "why": "Every chapter is refined. Whole-book QA is next."}
 
+    # A gated action is not the next action. Checked last so the rest of the
+    # board still computes normally, and reported rather than hidden.
+    blocked = prose_gate()
+    if blocked and nxt["action"] in ("start", "verdict", "shadow", "qa"):
+        nxt = {"action": "unblock", "command": "fix the blocking citation, then /gw",
+               "chapter": nxt.get("chapter"),
+               "why": ("No desk may write prose while the citation gate is red: "
+                       + blocked)}
+
     return {
         "book": info.get("title"), "chapters_total": total,
+        "prose_gate_blocked": blocked,
         "shipped_by_book_pipeline": sorted(shipped),
         "engine_chapters": per_chapter,
-        "inbox_open": open_items, "bakeoffs_awaiting_verdict": packets,
+        "inbox_open": open_items, "inbox_ruled": ruled_items,
+        "bakeoffs_awaiting_verdict": packets,
         "next": nxt,
     }
 
@@ -195,6 +240,9 @@ def render(state):
         L.append("this house: no chapter started yet")
     if state["inbox_open"]:
         L.append(f"inbox: {state['inbox_open']} question(s) waiting on you")
+    if state.get("inbox_ruled"):
+        L.append(f"inbox: {state['inbox_ruled']} ruling(s) you made that have not "
+                 f"landed yet - say /gw inbox")
     if state["bakeoffs_awaiting_verdict"]:
         L.append(f"bake-off: {', '.join(state['bakeoffs_awaiting_verdict'])} built, verdict unwritten")
     n = state["next"]

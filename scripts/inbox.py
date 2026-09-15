@@ -18,7 +18,7 @@ FORMAT
 
         ---
         id: 004
-        status: open            # open | resolved
+        status: open            # open | ruled | resolved
         raised_by: gw-lineeditor
         chapter: 12
         opened: 2026-09-12 21:04
@@ -42,6 +42,7 @@ USAGE
 """
 
 import argparse
+import subprocess
 import datetime
 import glob
 import json
@@ -88,6 +89,10 @@ def parse(path):
         "id": fm.get("id"), "status": fm.get("status", "open").lower(),
         "raised_by": fm.get("raised_by", "?"), "chapter": fm.get("chapter", "-"),
         "opened": fm.get("opened", "?"), "resolved": fm.get("resolved"),
+        # The proof command for a ruling whose action lives outside this repo.
+        # Surfaced as a top-level key because reconcile() reads it on every run;
+        # leaving it buried in frontmatter is how a check silently sees nothing.
+        "applied_by": fm.get("applied_by", ""),
         "title": title, "body": body, "frontmatter": fm,
     }
 
@@ -142,20 +147,86 @@ def do_add(a, items):
     return 0
 
 
+def applied(cmd):
+    """Run the proof command. Exit 0 means the ruling actually landed.
+
+    Read-only by construction: this engine never writes in the book repo
+    (CLAUDE.md Rule 8), so the most it may do across that boundary is look and
+    decline to call a thing done.
+    """
+    try:
+        r = subprocess.run(cmd, shell=True, cwd=REPO, timeout=120,
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return r.returncode == 0
+    except Exception:
+        return False
+
+
+def reconcile(items):
+    """Flip any 'ruled' item to 'resolved' once its proof command passes.
+
+    Called on every listing, so the reconciliation happens wherever the author
+    already looks rather than somewhere he has to remember to go.
+    """
+    flipped = []
+    for it in items:
+        if it["status"] != "ruled" or not it.get("applied_by"):
+            continue
+        if applied(it["applied_by"]):
+            with open(it["path"], encoding="utf-8") as fh:
+                text = fh.read()
+            text = re.sub(r"^status:\s*ruled\s*$", "status: resolved",
+                          text, count=1, flags=re.MULTILINE)
+            text = text.rstrip() + (
+                f"\n\n**Applied, confirmed {now()}:** `{it['applied_by']}` now exits 0.\n")
+            with open(it["path"], "w", encoding="utf-8") as fh:
+                fh.write(text)
+            it["status"] = "resolved"
+            flipped.append(it)
+    return flipped
+
+
 def do_close(a, items):
     target = f"{int(a.close):03d}"
     for it in items:
         if it.get("id") == target:
             with open(it["path"], encoding="utf-8") as fh:
                 text = fh.read()
-            text = re.sub(r"^status:\s*open\s*$", "status: resolved",
+            # A ruling whose action lives outside this repo is RULED, not
+            # resolved, until the command that proves it exits 0. On 2026-09-14
+            # three items closed as resolved with their rulings recorded and
+            # never applied; inbox.py reported "nothing waiting on the author"
+            # while okf_gate.py was still red. "Resolved" has to mean the thing
+            # is true, not that he said something.
+            done = "resolved" if not a.applied_by else "ruled"
+            text = re.sub(r"^status:\s*open\s*$", f"status: {done}",
                           text, count=1, flags=re.MULTILINE)
             if "resolved:" not in text:
                 text = text.replace("---\n\n", f"resolved: {now()}\n---\n\n", 1)
+            if a.applied_by:
+                text = text.replace("---\n\n", f"applied_by: {a.applied_by}\n---\n\n", 1)
             text = text.rstrip() + f"\n\n**Resolution ({now()}):** {a.resolution or '_not recorded_'}\n"
+            if a.applied_by:
+                text += (f"\n**Not applied yet.** This ruling lands outside this repo. "
+                         f"It closes when `{a.applied_by}` exits 0.\n")
             with open(it["path"], "w", encoding="utf-8") as fh:
                 fh.write(text)
-            print(f"inbox: closed #{target} - {it['title']}")
+
+            if a.applied_by:
+                it["status"], it["applied_by"] = "ruled", a.applied_by
+                if applied(a.applied_by):
+                    reconcile([it])
+                    print(f"inbox: closed #{target} - {it['title']}")
+                    print(f"  confirmed applied: `{a.applied_by}` exits 0.")
+                else:
+                    print(f"inbox: #{target} RULED, not yet applied - {it['title']}")
+                    print(f"  your ruling is recorded. `{a.applied_by}` still fails,")
+                    print("  so the item stays visible until the change actually lands.")
+            else:
+                print(f"inbox: closed #{target} - {it['title']}")
+                print("  note: closed without a proof command, so nothing checked that")
+                print("        the ruling reached the world. Use --applied-by for a")
+                print("        ruling whose action lives outside this repo.")
             if not a.resolution:
                 print("  warning: no resolution text recorded. The next reader will")
                 print("           not know what was decided, only that it was.")
@@ -166,25 +237,36 @@ def do_close(a, items):
 
 def render(items, show_all):
     open_items = [i for i in items if i["status"] == "open"]
-    shown = items if show_all else open_items
+    ruled = [i for i in items if i["status"] == "ruled"]
+    shown = items if show_all else (open_items + ruled)
     if not shown:
         return ("inbox: nothing waiting on the author."
                 if not show_all else "inbox: empty.")
-    L = [f"inbox: {len(open_items)} open"
-         + (f", {len(items) - len(open_items)} resolved" if show_all else "")]
+    head = f"inbox: {len(open_items)} open"
+    if ruled:
+        head += f", {len(ruled)} ruled but not yet applied"
+    if show_all:
+        head += f", {len([i for i in items if i['status'] == 'resolved'])} resolved"
+    L = [head]
     L.append("")
     for i in shown:
         if i["malformed"]:
             L.append(f"  [!] {os.path.basename(i['path'])} - malformed frontmatter")
             continue
-        flag = "open" if i["status"] == "open" else "done"
+        flag = {"open": "open", "ruled": "RULED"}.get(i["status"], "done")
         L.append(f"  #{i['id']} [{flag}] ch{i['chapter']}  {i['title']}")
         L.append(f"        raised by {i['raised_by']} at {i['opened']}")
+        if i["status"] == "ruled":
+            L.append("        You ruled on this. The change has not landed yet.")
+            L.append(f"        Closes on its own when: {i.get('applied_by', '(no command recorded)')}")
         for line in i["body"].split("\n"):
             if line.strip().startswith("**What unblocks this:**"):
                 L.append(f"        {line.strip()}")
     L.append("")
     L.append("  Full text: inbox/*.md   Close: scripts/inbox.py --close N --resolution '...'")
+    if ruled:
+        L.append("  A RULED item is your decision waiting on a change this engine cannot")
+        L.append("  make - it lives in the book repo. It closes itself once the change lands.")
     return "\n".join(L)
 
 
@@ -202,6 +284,10 @@ def main():
     ap.add_argument("--evidence", default="",
                     help="required with --add: the command run and its output, verbatim.")
     ap.add_argument("--close", metavar="N")
+    ap.add_argument("--applied-by", default="", metavar="COMMAND",
+                    help="shell command that exits 0 only once this ruling has "
+                         "actually landed. Use it whenever the change belongs to "
+                         "the book repo, which this engine never writes to.")
     ap.add_argument("--resolution", default="",
                     help="the author's ruling, in his own words. Recorded verbatim "
                          "on the closed item; without it the close warns and the "
@@ -213,9 +299,17 @@ def main():
         return do_add(a, items)
     if a.close:
         return do_close(a, items)
+
+    # Reconcile before reporting: a ruling that has since landed should not still
+    # be listed as waiting, and the author should not have to run anything to
+    # find that out. This reads; it never writes in the book repo.
+    for it in reconcile(items):
+        print(f"inbox: #{it['id']} is now applied - closing it. ({it['title']})")
+
     if a.json:
         print(json.dumps({"open": [i for i in items if i["status"] == "open"],
-                          "resolved": [i for i in items if i["status"] != "open"]},
+                          "ruled": [i for i in items if i["status"] == "ruled"],
+                          "resolved": [i for i in items if i["status"] == "resolved"]},
                          indent=2, default=str))
         return 0
     print(render(items, a.all))
