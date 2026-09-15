@@ -63,7 +63,8 @@ dispatch.
 | `feedback`, `readers said`, `signal`, `someone told me`, pasted quotes | `/gw-signal N` — ask for N only if you truly cannot tell |
 | `compile`, `pdf`, `send to readers`, `manuscript`, `print it` | `/gw-compile` |
 | `compare`, `bake-off`, `which is better`, `old vs new` | `/gw-bakeoff N` |
-| `verify`, `citations`, `sources right?`, `check the quotes` | `/gw-verify` |
+| `citations`, `where do the sources stand`, `what's unverified` | `python3 scripts/citations.py` — whole book, or `--chapter N` |
+| `verify`, `sources right?`, `check the quotes` | `/gw-verify` |
 | `qa`, `whole book`, `coherent`, `beta`, `does it hold together` | `/gw-qa` |
 | `substack`, `social`, `post`, `market`, `newsletter` | `/gw-market N` |
 | `new book`, `start a book`, `I have an idea for` | `/gw-found` |

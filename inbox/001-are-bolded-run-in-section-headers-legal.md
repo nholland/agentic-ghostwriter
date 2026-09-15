@@ -16,4 +16,4 @@ voice_check.py flags every numbered chapter: ch01 5, ch05/ch10/ch11 5, ch09 4 bo
 
 **Resolution (2026-09-14 12:33):** legalize them
 
-**Reopened as RULED (2026-09-15).** The ruling above was recorded and never applied: the voice spec states the run-in header exemption voice_check.py already enforces is still not true on disk. Closing an item cannot mean the author said something; it has to mean the thing is true. This closes itself when `grep -q 'run-in' /home/user/playground-260420/books/the-stoic-husband/01-voice.md` exits 0.
+**Reopened as RULED (2026-09-15).** The ruling above was recorded and never applied: the voice spec states the run-in header exemption voice_check.py already enforces is still not true on disk. Closing an item cannot mean the author said something; it has to mean the thing is true.

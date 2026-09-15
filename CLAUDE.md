@@ -106,8 +106,17 @@ An inbox item he cannot answer without scrolling back is not finished.
 3. **Never mark a citation `verified`.** Only he can, against his physical copy.
    And search may locate a source or flag a defect — **never transcribe a
    quotation.** Search fails confidently; that is why the evidence axis exists.
-4. **The citation gate is blocking.** `python3 scripts/okf_gate.py` before any
-   desk writes prose. It fails closed.
+4. **The citation gate reports; it does not stop the book.** `python3
+   scripts/okf_gate.py` before any desk writes prose. A citation nobody has
+   confirmed yet never blocks a chapter — the desk does its best, records what it
+   could and could not establish, and the run continues. Only a **structural**
+   failure blocks: unreadable frontmatter, a missing validator, a voice threshold
+   that no longer matches the spec. A gate that cannot see is not a gate.
+   A concept claiming more than its evidence supports is reported, never halted:
+   the repair is to lower the status to what the evidence actually supports.
+   `scripts/citations.py` says where everything stands, per chapter or whole book.
+   The manifest is the book repo's generated `citation-queue.md` — never a second,
+   hand-kept one.
 5. **Counted rules are counted, never estimated.** `voice_check.py`, and paste its
    output verbatim rather than restating numbers from memory. Self-reported counts
    were wrong on Ch9, Ch10 and the Prologue, once hiding a live violation.

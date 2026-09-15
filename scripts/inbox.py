@@ -204,7 +204,11 @@ def do_close(a, items):
             if "resolved:" not in text:
                 text = text.replace("---\n\n", f"resolved: {now()}\n---\n\n", 1)
             if a.applied_by:
-                text = text.replace("---\n\n", f"applied_by: {a.applied_by}\n---\n\n", 1)
+                if re.search(r"^applied_by:.*$", text, flags=re.MULTILINE):
+                    text = re.sub(r"^applied_by:.*$", f"applied_by: {a.applied_by}",
+                                  text, count=1, flags=re.MULTILINE)
+                else:
+                    text = text.replace("---\n\n", f"applied_by: {a.applied_by}\n---\n\n", 1)
             text = text.rstrip() + f"\n\n**Resolution ({now()}):** {a.resolution or '_not recorded_'}\n"
             if a.applied_by:
                 text += (f"\n**Not applied yet.** This ruling lands outside this repo. "

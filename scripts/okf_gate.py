@@ -21,14 +21,46 @@ WHY IT EXISTS AT ALL
     replaces - in the exact area where nine defects reached printed prose, six
     of them printed. This closes that.
 
+WHY IT NO LONGER BLOCKS ON UNVERIFIED WORK
+    Author's direction, 2026-09-15: "Nothing should stop the progress of the
+    book. It should just keep up with its different statuses and let me know in
+    the inbox." A citation nobody has confirmed yet is not a defect, it is
+    unfinished work, and halting a chapter over it spends the one resource the
+    house cannot make more of.
+
+    So the gate now sorts what the validator says into three kinds:
+
+      STRUCTURAL   the check itself cannot be trusted - unreadable frontmatter,
+                   a missing validator, a voice threshold that no longer matches
+                   the spec. This still blocks, because a gate that cannot see
+                   is not a gate.
+      OVERCLAIM    a concept claims more than its evidence supports: a verbatim
+                   quotation called confirmed when nobody opened the page, or
+                   `verified` set by anything but the author's own copy. This
+                   does NOT block. The honest repair is to lower the status to
+                   what the evidence actually supports, which is a correction,
+                   not a halt - so it is reported, and proposed as a downgrade.
+      OPEN         simply not verified yet. Counted, never mentioned as a fault.
+
+    The distinction that matters: the house still refuses to let a claim stand
+    above its evidence. It just fixes that by telling the truth about the
+    status rather than by stopping the book.
+
+    An error line this script does not recognise is treated as OVERCLAIM, not
+    STRUCTURAL - non-blocking by default. That is deliberate: the classification
+    reads the validator's message text, so an unfamiliar phrasing is much more
+    likely to be a new editorial rule than a new structural one, and the author
+    asked for nothing to stop the book.
+
 USAGE
-    python3 scripts/okf_gate.py                # gate; exit 1 blocks the caller
+    python3 scripts/okf_gate.py                # advisory; exit 0 unless structural
+    python3 scripts/okf_gate.py --strict       # the old behaviour: any error blocks
     python3 scripts/okf_gate.py --warnings-fatal
     python3 scripts/okf_gate.py --json
 
 EXIT CODES
-    0  bundle conforms; caller may write prose
-    1  bundle does not conform, or the validator could not be run. BLOCK.
+    0  the caller may write prose (open and overclaiming items are reported)
+    1  STRUCTURAL problem, or --strict and something did not conform. BLOCK.
     2  no book repo resolvable
 """
 
@@ -43,10 +75,48 @@ sys.path.insert(0, HERE)
 import resolve_book  # noqa: E402
 
 
+# Substrings that mark an error as STRUCTURAL - the check itself cannot be
+# trusted. Everything else the validator reports is editorial: the concept is
+# either incomplete or claiming more than its evidence supports, and neither
+# stops a chapter. Matching message text couples this to the validator's
+# wording, which is why an unrecognised line falls through to OVERCLAIM rather
+# than to STRUCTURAL: the author asked that nothing stop the book, so the
+# default has to be the non-blocking one.
+STRUCTURAL_MARKS = (
+    "missing or unparseable YAML frontmatter",
+    "frontmatter has no non-empty `type`",
+    "is in the future",
+)
+
+# A claim standing above its evidence. Not a halt: a status to be lowered.
+OVERCLAIM_MARKS = (
+    "violates the transcription rule",
+    "requires evidence_source: author-copy",
+    "but `resource` is empty",
+)
+
+
+def classify(out):
+    """Split the validator's error lines into (structural, overclaim)."""
+    structural, overclaim = [], []
+    for raw in out.splitlines():
+        line = raw.strip()
+        if not line.startswith("x "):
+            continue
+        body = line[2:].strip()
+        if any(m in body for m in STRUCTURAL_MARKS):
+            structural.append(body)
+        else:
+            overclaim.append(body)
+    return structural, overclaim
+
+
 def main():
     ap = argparse.ArgumentParser(description="Run the book repo's OKF validator as a gate.")
     ap.add_argument("--warnings-fatal", action="store_true",
                     help="treat the validator's non-fatal warnings as blocking too")
+    ap.add_argument("--strict", action="store_true",
+                    help="block on any error, as this gate did before 2026-09-15")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
 
@@ -87,10 +157,19 @@ def main():
     out = (proc.stdout or "") + (proc.stderr or "")
     warnings = [ln.strip() for ln in out.splitlines() if ln.strip().startswith("!")]
 
-    blocked = (proc.returncode != 0 or voice_drift
-               or (a.warnings_fatal and warnings))
+    structural, overclaim = classify(out)
+    # Voice-rule drift is structural: a threshold the script enforces has
+    # diverged from the spec it claims to come from, so no count can be trusted.
+    if voice_drift:
+        structural.append("voice thresholds no longer match the book's voice spec "
+                          "(scripts/voice_rules_check.py)")
+
+    blocked = bool(structural) or (a.strict and proc.returncode != 0) \
+        or (a.warnings_fatal and warnings)
     result = {
         "gate": "BLOCKED" if blocked else "PASS",
+        "structural": structural,
+        "overclaim": overclaim,
         "voice_rules_drift": voice_drift,
         "voice_rules_output": vrc.stdout.strip(),
         "validator": validator,
@@ -117,6 +196,10 @@ def main():
                       f"--warnings-fatal was passed)")
         else:
             print("okf_gate: PASS - the caller may write prose.")
+            if overclaim:
+                print(f"         {len(overclaim)} concept(s) claim more than their "
+                      f"evidence supports. Not blocking; the status should come")
+                print("         down to match the evidence. Say /gw citations for the list.")
             if warnings:
                 print(f"         {len(warnings)} non-fatal warning(s) above. Not "
                       f"blocking, but they are drift and someone should own them.")
