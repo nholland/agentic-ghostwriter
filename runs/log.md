@@ -559,3 +559,9 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `skills/gw-sources/SKILL.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-15 13:19 — `claude/gateway-iqyyso` — ? commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `agents/gw-retro.md`
+
+**Next:** `?` — 
