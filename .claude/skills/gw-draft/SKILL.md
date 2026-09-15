@@ -44,13 +44,13 @@ section. It returns a gap list.
   chapter shipped fine, the author closed those gaps live, and that is exactly the
   measurement this exercise wants.
 
-## Step 1.5 — citation gate (blocking)
+## Step 1.5 — citation gate (reports; Rule 4)
 
 ```
 python3 scripts/okf_gate.py
 ```
 
-If it blocks, stop. The bundle is broken and no prose may be written against it.
+A structural failure blocks; an unverified citation does not (Rule 4).
 This gate exists because the first version of this pipeline ran no citation check
 at all, which made it less safe on citations than the pipeline it replaces - in
 the one area where nine defects reached compiled prose, six of them printed.

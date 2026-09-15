@@ -21,7 +21,7 @@ python3 scripts/resolve_book.py
 python3 scripts/okf_gate.py
 ```
 
-Both blocking. Then ask the oracle where this chapter is — do not work it out
+`resolve_book.py` is blocking. The citation gate **reports** and does not stop the run (Rule 4): an unverified citation is unfinished work, not a defect. A structural failure there still blocks.
 from the directory listing yourself:
 
 ```

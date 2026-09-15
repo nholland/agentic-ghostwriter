@@ -1086,7 +1086,13 @@ def governing_doc_drift():
         return out
 
     on_disk = {f[:-3] for f in os.listdir(AGENTS) if f.endswith(".md")}
-    in_table = set(re.findall(r"`(gw-[a-z]+)`", claude))
+    # Anchored to a table ROW. The first version matched `gw-x` anywhere in the
+    # file, so deleting a desk's roster row while leaving one prose mention
+    # elsewhere passed - and the tamper test that "verified" it passed for the
+    # wrong reason, because deleting the row also deleted its only mention.
+    # The character class is widened so a hyphenated or numbered desk name is
+    # not reported missing while it is in fact listed.
+    in_table = set(re.findall(r"^\|[^|]*\|\s*`(gw-[a-z0-9-]+)`\s*\|", claude, re.M))
     for d in sorted(on_disk - in_table):
         out.append("CLAUDE.md's roster does not list `%s`, which exists in "
                    ".claude/agents/ - the Publisher dispatches from that table" % d)
@@ -1095,7 +1101,10 @@ def governing_doc_drift():
 
     # README's derived-files table against the Stop hook's own DERIVED list.
     hook_scripts = set(re.findall(r"^(scripts/[a-z_]+\.py)\|", hook, re.M))
-    readme_scripts = set(re.findall(r"python3 (scripts/[a-z_]+\.py)[^|]*\|", readme))
+    # Same anchoring, plus [^|] could cross newlines, so any earlier mention of a
+    # script in prose or a code block satisfied the derived-files table.
+    readme_scripts = set(re.findall(
+        r"^\|\s*`python3 (scripts/[a-z_0-9]+\.py)`\s*\|", readme, re.M))
     for x in sorted(hook_scripts - readme_scripts):
         out.append("the Stop hook checks %s but README's derived-files table "
                    "does not list it" % x)

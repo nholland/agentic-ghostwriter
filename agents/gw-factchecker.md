@@ -54,7 +54,7 @@ different things. Never let one field stand in for another.
 5. Regenerate the reader-facing queue with the book repo's
    `scripts/citation_queue.py` — never hand-maintain it. A file that calls itself
    derived must have a script deriving it.
-6. Gate: `python3 scripts/okf_gate.py`. If it blocks, stop.
+6. Gate: `python3 scripts/okf_gate.py`. A structural failure blocks; an unverified citation does not (Rule 4).
 
 ## Known reachable channel
 

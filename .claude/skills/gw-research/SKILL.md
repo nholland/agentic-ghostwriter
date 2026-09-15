@@ -46,7 +46,7 @@ unfinished whatever it looks like.
 python3 scripts/okf_gate.py
 ```
 
-Blocking. If it fails, the bundle is broken and nothing downstream may run.
+A structural failure blocks; unverified citations do not (Rule 4).
 
 ## Step 4 — check in
 

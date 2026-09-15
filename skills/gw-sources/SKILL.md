@@ -16,7 +16,7 @@ python3 scripts/resolve_book.py
 python3 scripts/okf_gate.py
 ```
 
-Both blocking. Read `{bookRoot}/okf/index.md` and `.claude/OKF.md` in the book repo
+`resolve_book.py` is blocking. The citation gate **reports** and does not stop the run (Rule 4): an unverified citation is unfinished work, not a defect. A structural failure there still blocks.
 — that is the format contract, and this skill must not invent a concept shape.
 
 ## The two directories, which are not the same thing

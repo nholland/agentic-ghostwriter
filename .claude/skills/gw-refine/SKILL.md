@@ -13,7 +13,7 @@ python3 scripts/resolve_book.py
 python3 scripts/okf_gate.py
 ```
 
-**Both are blocking.** Stop on either failure: the first means no book, the
+`resolve_book.py` is blocking. The citation gate **reports** and does not stop the run (Rule 4): an unverified citation is unfinished work, not a defect. A structural failure there still blocks.
 second a broken citation bundle. `/book-chapter-refine` in the book repo runs the
 same citation gate before writing prose, and this pipeline must not be the laxer
 of the two.

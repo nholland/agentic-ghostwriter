@@ -8,11 +8,11 @@ resolved: 2026-09-14 14:11
 applied_by: grep -q '^status: verifiable' /home/user/playground-260420/books/the-stoic-husband/okf/citations/gottman-four-horsemen.md
 ---
 
-# gottman-four-horsemen.md is status: verified with evidence_source: page-text, so okf_gate blocks all prose
+# gottman-four-horsemen.md claims more than its evidence supports
 
-okf_gate.py exits 1 on okf/citations/gottman-four-horsemen.md. Only you can close a citation, against your physical copy - CLAUDE.md Rule 3. The file is in the book repo, which this engine never writes to, so the fix is yours to apply there.
+okf_gate.py reports okf/citations/gottman-four-horsemen.md as overclaiming. Only you can close a citation, against your physical copy - CLAUDE.md Rule 3. The file is in the book repo, which this engine never writes to, so the fix is yours to apply there.
 
-**What unblocks this:** Either you confirm the quote against your own copy and evidence_source becomes author-copy, or status drops to verifiable until you can. Until one of those, /gw 12 cannot start - no desk may write prose while the gate is red.
+**What unblocks this:** Either you confirm the quote against your own copy and evidence_source becomes author-copy, or status drops to verifiable until you can. Neither blocks Chapter 12: since 2026-09-15 the gate reports rather than halts (Rule 4). This is a status telling the truth about itself, not a gate.
 
 **Resolution (2026-09-14 14:11):** Approved: status drops to verifiable. Public-source confirmation is good enough - that is the standard used for every other citation, including ones verified via external deep research. The author-copy pass stays pending.
 
