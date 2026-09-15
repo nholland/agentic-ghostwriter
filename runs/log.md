@@ -431,3 +431,26 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `skills/gw-inbox/SKILL.md`
 
 **Next:** `fix the blocking citation, then /gw` — No desk may write prose while the citation gate is red: okf/citations/gottman-four-horsemen.md: status: verified requires evidence_source: author-copy (got 'page-text'). Only the author closes a citation, against his own copy — CLAUDE.md Rule 11.
+
+## 2026-09-15 10:18 — `claude/dreamy-gates-52bn4v` — 9 commit(s) this session
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-inbox/SKILL.md`
+- `.claude/skills/gw/SKILL.md`
+- `CLAUDE.md`
+- `docs/diagrams.html`
+- `docs/manual.html`
+- `inbox/001-are-bolded-run-in-section-headers-legal.md`
+- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
+- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
+- `inbox/006-84-citations-are-open-21-unverified-63-confirmed.md`
+- `runs/log.md`
+- `scripts/build_diagrams_page.py`
+- `scripts/citations.py`
+- `scripts/inbox.py`
+- `scripts/manual.py`
+- `scripts/next.py`
+- `scripts/okf_gate.py`
+- `skills/gw-inbox/SKILL.md`
+- `skills/gw/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
