@@ -1,6 +1,6 @@
 # Chapter 12: Romance Is a Discipline
 
-There's a version of you that used to plan things for her. You know roughly when that stopped, and you've probably filed it under the phase of life you're in. Filing it there is the mistake. You made that decision a few hundred times, and you never once noticed you were making one.
+You used to plan things for her. You know roughly when that stopped, and you've probably filed it under the phase of life you're in. Filing it there is the mistake. You made that decision a few hundred times, and you never once noticed you were making one.
 
 ---
 
@@ -8,7 +8,7 @@ There's a version of you that used to plan things for her. You know roughly when
 
 That came off as harsh. It still does. You're supposed to say your family is everything. You're not supposed to rank the people inside it. Here was an old man ranking them out loud to me. And this is the same man whose temper I inherited. He never had a gap between what he felt and what came out of his mouth. He got plenty wrong. He got this right.
 
-I think he meant something simpler than it sounded. When you pick a partner, you put that person first. You keep putting her first after the house fills up with other people who need you more loudly. The kids grow and go. They're supposed to. She's the one still sitting across from you when they do. And when you stop putting her first, the cracks start.
+I think he meant something simpler than it sounded. When you pick a partner, you put that person first. You keep putting her first after the house fills up with other people who need you more loudly. The kids grow and go. They're supposed to. She's the one still sitting across from you when they do. And when you stop putting her first, she notices before you do.
 
 ---
 
@@ -16,9 +16,9 @@ I think he meant something simpler than it sounded. When you pick a partner, you
 
 Romance takes real effort, and you only have so much effort in a day. The more life takes out of you, the less you have left over for her. So when a week gets heavy, something gets cut. And the thing that goes first is never the mortgage, or the deadline, or the kid's game at eight on a Saturday. Those shout. They have a day attached and other people watching. Romance has neither. Nobody calls you at work because you haven't surprised your wife since March. So it goes first, quietly, every time. You never catch it happening, because it never felt like a decision.
 
-You already run the rest of your life on purpose. You decide what you train and what you take on at work. If you've read any Stoicism at all, you've already aimed it at your temper. It held. You know what your temper is allowed to do in a kitchen at seven on a weeknight. You'd call that discipline, and you'd be right. This is the one corner of your life where you never aimed it anywhere. Your wife reads that corner to find out whether she's still wanted.
+You already run the rest of your life on purpose. You decide what you train and what you take on at work. If you've read any Stoicism at all, you've already aimed it at your temper. It held. You know what your temper is allowed to do in a kitchen at seven on a weeknight. You'd call that discipline, and you'd be right. This is the one corner of your life where you never aimed it anywhere. Your wife watches that corner to find out whether she's still wanted.
 
-Marcus Aurelius was a Roman emperor and a Stoic, and *Meditations* is the private notebook he kept for himself. In it he picks up an old line he credits to the philosopher Democritus: if you want to be untroubled, do few things. Marcus thought that was close but not right, and corrected it. Do the necessary things. Those are two different lists. The second one is worse to write, because it makes you say out loud what actually counts.
+Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and that notebook is *Meditations*. In 4.24 he picks up an old line he credits to the philosopher Democritus: if you want to be untroubled, do few things. Marcus thought that was close but not right, and corrected it. Do the necessary things. Those are two different lists. The second one is worse to write, because it makes you say out loud what actually counts.
 
 In my own marriage, romance ebbs and flows. We've heard the same advice you've heard, that you should get out on a date once a week. We have gone weeks and sometimes months without going on a date.
 
@@ -26,29 +26,29 @@ In my own marriage, romance ebbs and flows. We've heard the same advice you've h
 
 **Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, and some of it is a little mystery, a little surprise, a little intrigue. So the whole thing runs on study. You can't win favor with someone you stopped learning about.
 
-You default to the golden rule here without ever deciding to. Treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that back in 1979. The golden rule quietly assumes the other person is basically like you, and wants what you'd want. People sometimes call his version the platinum rule. Treat her the way she wants to be treated. The second one takes more work, because first you have to find out what she actually wants.
+You default to the golden rule here. Treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that back in 1979. The golden rule quietly assumes the other person is basically like you, and wants what you'd want. People sometimes call his version the platinum rule. Treat her the way she wants to be treated. The second one takes more work, because first you have to find out what she actually wants.
 
-Say the kitchen faucet has been dripping since spring, and you give it a Saturday. Six hours, a trip out for the part, two skinned knuckles. If someone had done that for you, you'd have been floored. She says thank you, and she means it, and it's flat. You carry that flatness around for three days, building a quiet case that she's ungrateful.
+Say the kitchen faucet has been dripping since spring, and you give it a Saturday. Six hours, a trip out for the part, skinned knuckles. If someone had done that for you, you'd have been floored. She says thank you, and she means it, and it's flat. You carry that flatness around for three days, quietly deciding she's ungrateful.
 
-She isn't ungrateful. The effort was real and the care underneath it was real, and it arrived in a form she doesn't read as love. She reads love in you asking about the meeting at work she's been dreading. Then asking again on Thursday, because you remembered there was a Thursday. You're both right about what you felt. She's the only one who can see why it didn't land.
+She isn't ungrateful. The effort was real and the care underneath it was real, and it arrived in a form she doesn't read as love. To her, love is you asking about the meeting at work she's been dreading. Then asking again on Thursday, because you remembered there was a Thursday. You're both right about what you felt. She's the only one who can see why it didn't land.
 
 This is also why romance at year ten looks smaller than most men expect it to. The trip and the party are rarely what she's missing. What lands is the detail you kept and the question you came back to. It's the small thing that says I still see you, instead of I planned something impressive. A gesture gets arranged once. Attention doesn't get to stop.
 
-It runs the other direction too. When love shows up in a form that doesn't land for you, the reflex is to overlook it. Or worse, to make a joke of it in front of someone. You're insulting a person who tried. Effort in the wrong language is still effort, and you owe it an honest read. It doesn't work as a trade, either. If you're doing it to collect something later that night, she'll know. She'll see a man performing romance at her rather than giving it.
+When love shows up in a form that doesn't land for you, the reflex is to overlook it. Or worse, to make a joke of it in front of someone. You're insulting a person who tried. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't the same as trading for it. If you're doing it to get sex, she'll know. She'll see you performing romance at her rather than giving it.
 
 ---
 
-**What it costs.** A wife who stops feeling wanted and valued doesn't file a complaint about it.
+**What it costs.** Your wife won't tell you when she stops feeling wanted.
 
-Researchers who followed couples over time keep finding the same pattern. Partners who feel appreciated tend to be more appreciative back, and more responsive to what the other one needs. They also tend to be more committed, and more likely to still be together years later. All the research says is that these things travel together. You've already watched what happens in your own house when they stop. Nobody announces it. First there's a little more distance in the room than there used to be. Then resentment. It's the ordinary word for what settles in when someone gives more than she gets. Long enough that she stops expecting better.
+Researchers who followed couples over time keep finding the same pattern. Partners who feel appreciated tend to be more appreciative back, and more responsive to what the other one needs. They also tend to be more committed, and more likely to still be together years later. All the research says is that these things travel together. You've already watched what happens in your own house when they stop. First there's a little more distance in the room than there used to be. Then resentment. It's the ordinary word for what settles in when someone gives more than she gets for long enough to stop expecting better.
 
-If you're a bare minimum partner, you get bare minimum in return. That's not her being petty. That's what anyone does after a few years of being somebody's leftover time.
+If you give her the bare minimum, the bare minimum is what comes back. That's not her being petty. That's what you'd do after a few years of being somebody's leftover time.
 
-Romance is as much an art as it is a science. It works like any muscle: the more you use it, the better you get at it. Leave it alone long enough and it atrophies, which means it wastes away. Then the first honest attempt feels ridiculous, and expensive, and like something other men were just born knowing how to do.
+Romance works like any muscle: the more you use it, the better you get at it. Leave it alone long enough and it wastes away. Then the first honest attempt feels ridiculous, and expensive, and like something other men were just born knowing how to do.
 
 ---
 
-She's been waiting to be one of the necessary things, and putting her there is a muscle you can start using tonight.
+She's been waiting to be one of the necessary things, and the muscle that puts her there is one you can start using tonight.
 
 ## Editor's Notes (Line Editor, 2026-09-15 17:44)
 
@@ -148,7 +148,7 @@ Counted by hand, the constructions the regex does not model:
 
 ### Length
 
-1,234 words of prose against a 1,000–1,300 target. The draft was 1,271. Every
+1,202 words of prose against a 1,000–1,300 target. The draft was 1,271, round 1 left it at 1,234, round 2 took 32 more out. Every
 addition was paid for: the atrophy gloss and the named faucet were funded by the
 windup cut and the "top priority" compression.
 
@@ -214,25 +214,96 @@ because there are none.
 
 0.
 
+### Round 2 (Line Editor, 2026-09-15 18:00) — second and final round
+
+Applied from the conformance and anti-slop reports. Where round 2 reverses a
+round-1 edit of mine, it is named as such so the record reads straight.
+
+**Citation and certainty.**
+- **The Stoic anchor now carries its locator.** *Meditations* 4.24, matching the
+  numbering style Ch9, Ch10 and Ch11 already print. A locator is not a
+  quotation; the no-quotation ruling is untouched and nothing is bracketed.
+- **The Marcus credential sentence was boilerplate** across Ch9, Ch11 and Ch12
+  ("private notebook he kept for himself"). Replaced with what this beat
+  actually needs: *"Marcus Aurelius ran the Roman empire and kept a notebook
+  where he argued with himself. He was a Stoic, and that notebook is
+  *Meditations*. In 4.24 he picks up an old line..."* The Stoic label is kept,
+  in its own clause, because the objection row depends on the reader connecting
+  the anchor to the Stoicism he has already practised.
+- **Certainty creep, fixed as a habit.** *"That's what anyone does"* is now
+  *"That's what you'd do after a few years of being somebody's leftover time."*
+  No general law, and it seats the reader in her chair, which is the sentence's
+  actual job. Scanning for the same shape turned up one more: *"Nobody announces
+  it"* was a flat universal and, after the new beat opener, a restatement of it.
+  Cut.
+
+**Repetition the script cannot see.**
+- **"You did it and never decided to" is down to 2** from 3. Dropped the L29
+  instance: *"You default to the golden rule here."*
+- **The unregistered reading metaphor is down to 1** in the prose, the instance
+  that earns it: *"it arrived in a form she doesn't read as love."* The other
+  three are gone. *"Your wife reads that corner"* is now *watches*; *"you owe it
+  an honest read"* is now *"you owe it a real thank you"*, which also answers
+  the reflex the sentence is correcting; *"She reads love in you asking"* (my own
+  round-1 edit) is now *"To her, love is you asking..."*, which keeps the gerund
+  parallel into the Thursday line the Anti-Slop Reader asked to protect. **The
+  muscle stays the declared anchor.**
+- **The three-chapter opening template is broken.** *"You used to plan things
+  for her."*
+- **Windup cut:** *"It runs the other direction too."*
+
+**Line fixes.** *"the cracks start"* to *"she notices before you do"* (masonry
+image out, and specific where it was vague). The fragment *"Long enough that she
+stops expecting better"* is rejoined into one 22-word sentence, which was my
+splitting-pass debris. *"Romance is as much an art as it is a science"* cut, with
+the next sentence's antecedent repaired to *"Romance works like any muscle."*
+*"collect something later that night"* named as *"get sex."* *"A wife who stops
+feeling wanted and valued doesn't file a complaint"* to *"Your wife won't tell
+you when she stops feeling wanted"* (second person, and the legal register out).
+*"If you're a bare minimum partner"* to *"If you give her the bare minimum, the
+bare minimum is what comes back"*, shape intact. *"two skinned knuckles"* to
+*"skinned knuckles."* *"building a quiet case"* to *"quietly deciding"*, off
+Ch6's line and off the legal register in the same stroke. *"She'll see a man
+performing romance at her"* to *"She'll see you..."*
+
+**The internal inconsistency in beat 3 is now explicit.** *Win favor* stays as
+the author's phrasing; the later sentence does the distinguishing work out loud:
+*"Winning favor isn't the same as trading for it. If you're doing it to get sex,
+she'll know."*
+
+**The close keeps the image and fixes the grammar.** *"She's been waiting to be
+one of the necessary things, and the muscle that puts her there is one you can
+start using tonight."* An action is not a muscle; a muscle is what performs one.
+
+**Metaphor family is now 2 mentions, not 3**, because the atrophy gloss came out
+with *"which means it wastes away"* and the plain verb replaced the term
+entirely. Under cap. No third mention was added to compensate, and no undeclared
+cousin was reached for.
+
+**Not acted on, as instructed:** the four argument-level findings with the author
+as inbox #012–#014 (the Ch11 mechanism collision, the Ch6 resentment
+definition, the Ch7 reciprocity double standard, and whether "romance ebbs and
+flows" leaves the date paragraph). All four sit exactly as they were.
+
 ### Final `voice_check.py`, verbatim
 
 ```
 voice_check: refined.md
-  1234 words of prose, 103 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1827}
+  1202 words of prose, 100 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 2546}
 
   HARD (literal counts - a FAIL here is a fact)
     [ok  ] em-dash                  0 in prose (cap 0)
     [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      4/103 sentences at 25+ words = 3.9% (cap 10%)
+    [ok  ] long-sentence share      3/100 sentences at 25+ words = 3.0% (cap 10%)
              32w: You made that decision a few hundred times, and you never once noticed you were making one. **The second piece...
-             30w: And when you stop putting her first, the cracks start. **The first thing cut.** It makes sense that you stoppe...
-             29w: She'll see a man performing romance at her rather than giving it. **What it costs.** A wife who stops feeling ...
-    [ok  ] you-density              70 direct-address words in 1234 = 56.7 per 1,000 (floor 40)
-    [ok  ] metaphor family          3 mentions in 1234 words = 2.4 per 1,000 (cap 3); {'muscl': 2, 'atroph': 1}
+             32w: And when you stop putting her first, she notices before you do. **The first thing cut.** It makes sense that y...
+             25w: We have gone weeks and sometimes months without going on a date. **Her currency, not yours.** Romance is tryin...
+    [ok  ] you-density              74 direct-address words in 1202 = 61.6 per 1,000 (floor 40)
+    [ok  ] metaphor family          2 mentions in 1202 words = 1.7 per 1,000 (cap 3); {'muscl': 2}
 
   CAND (needs a read - a clear line here is not a pass)
-    [clear ] single ending            final sentence 22 words, shares 3 words with the previous one. Close: "She's been waiting to be one of the necessary things, and putting her there is a muscle you can start using tonight."
+    [clear ] single ending            final sentence 24 words, shares 3 words with the previous one. Close: "She's been waiting to be one of the necessary things, and the muscle that puts her there is one you can start using toni"
     [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: {"reframe  'That's not X. That's Y.'": 1}. Regex cannot see every sentence-shape - a model read is still required.
     [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
 
@@ -253,7 +324,7 @@ was not restated here to keep this file from carrying two copies of one record.
 
 **Conversation sentence:** Romance didn't fade on him, he cut it, every heavy week, and he never once noticed he was making a decision.
 
-Romance takes effort, and effort runs out. So when a week gets heavy, romance is the first thing to go, because it has no deadline attached and nobody watching. It isn't fixed by a bigger gesture. It's fixed by priority and by form: care has to arrive in the shape she reads as care, which means you never get to stop learning what that shape is.
+Romance takes effort, and effort runs out. So when a week gets heavy, romance is the first thing to go, because it has no deadline attached and nobody watching. It isn't fixed by a bigger gesture. It's fixed by priority and by form: care has to arrive in the form she reads as care, which means you never get to stop learning what that shape is.
 
 **Lesson:** Marcus Aurelius corrected an old line about doing few things. Do the necessary things instead. Writing that list honestly means saying out loud whether she is on it.
 **Challenge:** You won't catch yourself cutting her, because it never feels like a decision. And the effort you do make will come out in your own language, which is how it can be real and still land flat.
