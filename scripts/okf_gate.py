@@ -155,6 +155,10 @@ def main():
         cwd=repo_root, capture_output=True, text=True,
     )
     out = (proc.stdout or "") + (proc.stderr or "")
+    # The validator cites "CLAUDE.md Rule 11" meaning the BOOK repo's rule 11
+    # (only the author closes a citation). In this repo Rule 11 is the bulk-edit
+    # rule, and the unqualified reference has already propagated into runs/log.md.
+    out = out.replace("CLAUDE.md Rule 11", "the book's CLAUDE.md Rule 11")
     warnings = [ln.strip() for ln in out.splitlines() if ln.strip().startswith("!")]
 
     structural, overclaim = classify(out)

@@ -89,13 +89,16 @@ book content — and they are the real coupling.**
 
 ### Survives
 
-The ten desks, seven scripts (`resolve_book`, `okf_gate`, `voice_check`,
-`voice_rules_check`, `inbox`, `bakeoff`, `sync_plugin_layout`), the gate wiring,
-`CLAUDE.md`, the SessionStart hook, `FINDINGS.md`.
+The desks, the production scripts, the gate wiring, `CLAUDE.md`, the SessionStart
+hook, `FINDINGS.md`. The current roster and script list are in the generated
+manual (`docs/manual.html`) rather than enumerated here, because an enumeration
+kept by hand is a count that goes wrong the next time something is added - this
+one said seven while `scripts/` held fifteen.
 
 ### Capability gap, counted
 
-The book repo has **41 commands**; this repo has **10 skills**. Nothing here covers:
+The book repo has **41 commands**. What this repo has is counted in the generated
+manual, never here. Nothing here covers:
 
 - **The entire Foundation phase** — `spark`, `voice`, `audience`, `outline`,
   `archetype`, `source-prep`, `intro`, `import`. A new book cannot be started.
@@ -194,7 +197,7 @@ And "L2" is not one block. By actual caller:
 | `pipeline_state.py` | 5 | 0 | Book |
 | `chapter_pdf.py`, `verification_packet.py`, `verification_ingest.py` | 5 | 0 | Book |
 | `citation_queue.py`, `verification_probe.py` | 3 | named, not yet run | Will be shared |
-| the engine's 7 scripts | 0 | all | Engine |
+| the engine's own scripts | 0 | all | Engine |
 
 So these are not misplaced *yet* — each sits with its current primary caller. Copying
 them would create two validators that drift, which is the failure this repo keeps

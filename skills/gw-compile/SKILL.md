@@ -20,9 +20,10 @@ python3 scripts/resolve_book.py
 python3 scripts/okf_gate.py
 ```
 
-Both blocking. The citation gate runs **before** anything is assembled: a
-manuscript is the one artifact that leaves the building, and the old pipeline's
-compile runs the same gate for the same reason.
+`resolve_book.py` is blocking. The citation gate reports and does not stop the
+compile (Rule 4, changed 2026-09-15): an unverified citation is unfinished work,
+and the statuses ride along in `scripts/citations.py`. A structural failure there
+still blocks.
 
 ## One renderer, not two
 
@@ -40,18 +41,24 @@ is missing.
 - A range or the whole book: assemble the markdown per the rules below, write
   it to `runs/manuscript/manuscript.md`, then render the same way.
 
-## Assembly rules, carried from the old pipeline
+## Assembly is a script, not a checklist
 
-- Prologue, then Introduction, then Part opening pages before each Part's first
-  chapter — only the ones the range actually crosses.
-- Each chapter's prose, apparatus stripped, followed by its "Putting It Into
-  Practice" section from `distillation.md`. That section comes from the
-  `**Practice:**` field, **not** a `## Practice` heading — the first version of
-  the old compile looked for the heading and silently dropped all ten sections,
-  1,700 words, caught only by the word count.
-- **Compare the word count against the previous compile and investigate any
-  unexplained drop.** A compile that loses a section does not error; it produces
-  a shorter book. The count is the only signal.
+```
+python3 scripts/compile.py --to 11       # precursors through chapter 11
+python3 scripts/compile.py --from 1 --to 5
+```
+
+It reads the Parts and their opening pages out of `03-outline.md` rather than
+being told, strips apparatus, appends each chapter's `**Practice:**` field, and
+writes a coverage header. Before reporting success it asserts every crossed Part
+opening is present, one Practice per in-range distillation, no apparatus, and
+chapters in order.
+
+**Do not assemble by hand.** The one time a model followed these rules as prose,
+on 2026-09-15, it dropped both Part openings and nothing noticed: the only check
+was a word-count delta, the pages are ~120 words, and there was no previous
+compile to compare against. A delta cannot see a defect already in the baseline,
+which is why the checks above are absolute.
 
 ## Which chapters, from which pipeline
 

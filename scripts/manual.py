@@ -1063,6 +1063,47 @@ def render(desks, commands, scripts, thresholds, digest):
     return "\n".join(h) + "\n"
 
 
+def governing_doc_drift():
+    """CLAUDE.md's roster and README's derived-files table, against disk.
+
+    Not prose parsing: table rows compared to filenames, exactly, both ways.
+    The Publisher dispatches from CLAUDE.md's roster, so a desk on disk but
+    absent from that table is a desk that is never dispatched and nothing looks.
+    On 2026-09-15 that table listed ten desks under the words "Nine run cold",
+    and four other counts in the governing documents were also wrong - each
+    correct on the day it was typed.
+    """
+    out = []
+    try:
+        with open(os.path.join(REPO, "CLAUDE.md"), encoding="utf-8") as fh:
+            claude = fh.read()
+        with open(os.path.join(REPO, "README.md"), encoding="utf-8") as fh:
+            readme = fh.read()
+        with open(os.path.join(REPO, ".claude", "hooks", "session-stop.sh"),
+                  encoding="utf-8") as fh:
+            hook = fh.read()
+    except OSError:
+        return out
+
+    on_disk = {f[:-3] for f in os.listdir(AGENTS) if f.endswith(".md")}
+    in_table = set(re.findall(r"`(gw-[a-z]+)`", claude))
+    for d in sorted(on_disk - in_table):
+        out.append("CLAUDE.md's roster does not list `%s`, which exists in "
+                   ".claude/agents/ - the Publisher dispatches from that table" % d)
+    for d in sorted(in_table - on_disk):
+        out.append("CLAUDE.md's roster lists `%s`, which has no agent file" % d)
+
+    # README's derived-files table against the Stop hook's own DERIVED list.
+    hook_scripts = set(re.findall(r"^(scripts/[a-z_]+\.py)\|", hook, re.M))
+    readme_scripts = set(re.findall(r"python3 (scripts/[a-z_]+\.py)[^|]*\|", readme))
+    for x in sorted(hook_scripts - readme_scripts):
+        out.append("the Stop hook checks %s but README's derived-files table "
+                   "does not list it" % x)
+    for x in sorted(readme_scripts - hook_scripts):
+        out.append("README lists %s as derived but the Stop hook does not check it" % x)
+    return out
+
+
 def page_defects(page):
     """Refuse to write a page that renders placeholders or blanks.
 
@@ -1136,6 +1177,13 @@ def main():
     scripts = read_scripts()
     thresholds = read_thresholds()
     digest = inputs_digest(desks, commands, scripts, thresholds)
+
+    gov = governing_doc_drift()
+    if gov:
+        print("manual: the governing documents disagree with what is on disk:")
+        for g in gov:
+            print("  x %s" % g)
+        return 1
 
     phantoms = phantom_references(commands)
     if phantoms:

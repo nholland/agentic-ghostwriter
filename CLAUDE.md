@@ -33,7 +33,7 @@ sub-agents — because a sub-agent cannot ask him anything.
 | **The Publisher** (you) | This file | State, routing, the inbox, the gates, relaying to desks |
 | **The Developmental Editor** | `/gw-interview` | Premise, voice, audience, outline; the chapter interview; the interactive re-edit |
 
-Nine run cold as sub-agents. Dispatch them; **always name the desk you
+The rest run cold as sub-agents. Dispatch them; **always name the desk you
 dispatched** in your reply so the author knows who is working.
 
 | Desk | Agent | Owns |
