@@ -481,3 +481,10 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `skills/gw/SKILL.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-15 11:05 — `claude/dreamy-gates-52bn4v` — 1 commit(s) this session
+- `docs/manual.html`
+- `scripts/manual.py`
+- `scripts/manual_content.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
