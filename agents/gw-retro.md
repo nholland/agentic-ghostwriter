@@ -74,7 +74,9 @@ correct.
 
 Each suggestion is one of: **rule edit · new desk or skill · new check with a
 caller · deletion · simplification · open item.** For each: what it changes, what
-it costs in words, and — for any addition — **what it deletes or replaces.** An
+it costs in words — `wc -w` on the exact text, pasted, never estimated; an
+addition you have not drafted is priced **unmeasured** — and, for any addition,
+**what it deletes or replaces.** An
 addition that cannot name a deletion is an open item, not a suggestion. Prefer
 fixing a rule's *placement* over adding a rule; most failures were a rule that
 existed but was invisible to the stage that needed it.
@@ -84,5 +86,5 @@ existed but was invisible to the stage that needed it.
 1. The proposed `FINDINGS.md` entry, dated from `date '+%Y-%m-%d %H:%M'`, in the
    ledger's voice: what happened, which lens it lit, what shape it matches, what
    you propose.
-2. Suggestions, typed and priced, each with its deletion or "open item".
+2. Suggestions.
 3. What you looked at and found clean, so silence is not read as a pass.
