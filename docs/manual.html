@@ -156,6 +156,7 @@ footer code{font-size:.8em}
 <li><a href="#desks">Who works here</a></li>
 <li><a href="#commands">What to say</a></li>
 <li><a href="#gates">The gates</a></li>
+<li><a href="#knowledge">Knowledge and artifacts</a></li>
 <li><a href="#production">Scripts and hooks</a></li>
 <li><a href="#where">Where things live</a></li>
 <li><a href="#never">What it never does</a></li>
@@ -418,7 +419,53 @@ footer code{font-size:.8em}
 <tr><td><code>ending_sentences</code></td><td>1</td><td>01-voice.md Never Do: 'Never write two endings' - the close is exactly one sentence</td></tr>
 </tbody></table></div>
 <p class="note">Every threshold above is read from <code>config/house.json</code>, the same file <code>voice_check.py</code> enforces, and each carries a probe asserting it still matches the book's voice spec. A threshold the author changes in the spec cannot silently diverge from the copy the script enforces.</p></section>
-<section id="production"><div class="eyebrow">Section 6</div><h2>Scripts and hooks</h2>
+<section id="knowledge"><div class="eyebrow">Section 6</div><h2>Knowledge and artifacts</h2>
+<p>What a book is, on disk: a backbone every desk reads, a knowledge layer behind the prose, a citation ledger that tracks its own honesty, and one direction of writing between the two repositories. A desk that cannot find these does not fail - it writes generic prose - so each is a contract rather than a convention.</p>
+<h3>The backbone</h3>
+<p>9 documents the whole house reads. 3 are required and nothing runs without them, because a desk handed a missing voice spec does not crash - it writes prose that could be anyone's.</p>
+<div class="tbl"><table><thead><tr><th>File</th><th>Required</th><th>What it is</th></tr></thead><tbody>
+<tr><td><code>01-voice.md</code></td><td>yes</td><td><b>The voice constitution.</b> How the prose sounds, and the counted rules that enforce it. Most of its rules are paired with the incident that produced them, which is why it is revised and never regenerated.</td></tr>
+<tr><td><code>00-premise.md</code></td><td>yes</td><td><b>The premise.</b> What the book argues and who it is for, in under a page. Every desk reads it; a chapter that drifts from it is drifting from the book.</td></tr>
+<tr><td><code>03-outline.md</code></td><td>yes</td><td><b>The outline.</b> The commission. Each chapter's required elements, and what the Conformance Checker grades the prose against, row by row.</td></tr>
+<tr><td><code>02-audience.md</code></td><td>optional</td><td><b>The audience map.</b> Who is reading, what they already believe, and what they will not sit still for.</td></tr>
+<tr><td><code>04-archetype.md</code></td><td>optional</td><td><b>The archetype.</b> The book's shape - how a chapter opens, turns and closes - so chapters feel like one book rather than a collection.</td></tr>
+<tr><td><code>05-framework.md</code></td><td>optional</td><td><b>The framework.</b> The book's central model, and which chapter carries which cell of it.</td></tr>
+<tr><td><code>06-sources.md</code></td><td>optional</td><td><b>The sources policy.</b> Which editions and translations are the house's, so two chapters never quote the same passage from two different books.</td></tr>
+<tr><td><code>progress.md</code></td><td>optional</td><td><b>The progress log.</b> The book repo's own memory. This engine reads it and never writes it.</td></tr>
+<tr><td><code>parking-lot.md</code></td><td>optional</td><td><b>The parking lot.</b> Questions deliberately deferred, each with the trigger that brings it back - not a date, an event.</td></tr>
+</tbody></table></div>
+<h3>The knowledge layer</h3>
+<p>Everything the book knows that is not the book itself - the frameworks it argues from, the stories it tells, the sources it leans on, what readers said - lives as <b>one markdown file per idea</b>, with typed frontmatter. That is the Open Knowledge Format. Concepts link to each other like any markdown, and readers of the format are deliberately permissive: an unknown field or a broken link is knowledge not yet written, not an error. The manuscript is <em>not</em> in here - prose and knowledge are kept apart on purpose, so a chapter can be rewritten without losing what it was built from.</p>
+<div class="tbl"><table><thead><tr><th>Folder</th><th>Type</th></tr></thead><tbody>
+<tr><td><code>okf/citations/</code></td><td>Citation</td></tr>
+<tr><td><code>okf/findings/</code></td><td>QA Finding</td></tr>
+<tr><td><code>okf/frameworks/</code></td><td>Framework</td></tr>
+<tr><td><code>okf/notes/</code></td><td>Author Note</td></tr>
+<tr><td><code>okf/signals/</code></td><td>Reader Signal</td></tr>
+<tr><td><code>okf/stories/</code></td><td>Story</td></tr>
+</tbody></table></div>
+<h3>Citations</h3>
+<p>A citation carries three independent axes, because one status cannot describe whether a source is safe to print. <b>What is it</b> (the status), <b>what kind of check is owed</b> (verbatim or paraphrase), and <b>what was actually looked at</b> (the evidence). Keeping them apart is what makes the transcription rule checkable: a quotation may not be called confirmed when nobody opened the page, however confident the search result was.</p>
+<div class="tbl"><table><thead><tr><th>Axis</th><th>Values</th></tr></thead><tbody>
+<tr><td><code>status</code></td><td><code>superseded</code>, <code>unverified</code>, <code>verifiable</code>, <code>verified</code></td></tr>
+<tr><td><code>quote_form</code></td><td><code>none</code>, <code>paraphrase</code>, <code>verbatim</code></td></tr>
+<tr><td><code>evidence_source</code></td><td><code>author-copy</code>, <code>database-abstract</code>, <code>none</code>, <code>page-image</code>, <code>page-text</code>, <code>search-synthesis</code></td></tr>
+</tbody></table></div>
+<p>The transcription rule falls straight out of those three: a <code>verbatim</code> quotation may not hold a confirmed status (<code>verifiable</code>, <code>verified</code>) while its evidence is one of <code>database-abstract</code>, <code>none</code>, <code>search-synthesis</code> - nobody opened the page. And only the author sets <code>verified</code>, against his own copy; every desk tops out at <code>verifiable</code>.</p>
+<p class="note">None of this stops a chapter. A citation nobody has confirmed yet is unfinished work, not a defect: the desk records what it could and could not establish, the run continues, and the count is reported. <code>scripts/citations.py</code> says where everything stands; the queue the author works from is generated from the concepts themselves, never kept by hand.</p>
+<h3>Where the work lands</h3>
+<p>Two repositories, and one direction of writing. The engine reads the book and writes only into its own <code>runs/</code> tree; a change that belongs in the book is produced as a diff for the author to apply there. That boundary is what lets the old pipeline and this one run on the same book at the same time without either being able to damage the other.</p>
+<div class="tbl"><table><thead><tr><th>Path</th><th>Repo</th><th>What goes there</th></tr></thead><tbody>
+<tr><td><code>runs/chNN/</code></td><td>engine</td><td>Everything a chapter run produces: the interview record, the brief, the draft, the refined prose, the distillation, the plate. The worst case for a failed experiment is a directory of prose nobody uses.</td></tr>
+<tr><td><code>runs/manuscript/</code></td><td>engine</td><td>Compiled manuscripts and their PDFs, each filename carrying its coverage and date. A file called manuscript.pdf claims to be current forever.</td></tr>
+<tr><td><code>runs/revisions/</code></td><td>engine</td><td>Diffs for changes that belong in the book repo, which this engine never makes. The author applies them there.</td></tr>
+<tr><td><code>runs/qa/, runs/marketing/</code></td><td>engine</td><td>Whole-book reads and publicity drafts, also named by the range they cover.</td></tr>
+<tr><td><code>inbox/</code></td><td>engine</td><td>The only durable record this repo keeps. Questions a cold desk could not decide, and rulings whose change has not landed yet.</td></tr>
+<tr><td><code>okf/</code></td><td><b>book</b></td><td>The knowledge layer. The one thing both pipelines write, and only through the book repo's own scripts.</td></tr>
+<tr><td><code>chapters/chNN/</code></td><td><b>book</b></td><td>The chapters that ship. Written by the book pipeline; read here, never written.</td></tr>
+</tbody></table></div>
+</section>
+<section id="production"><div class="eyebrow">Section 7</div><h2>Scripts and hooks</h2>
 <p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's incident archive was a model following rule text, and every fix was a check that ran on its own. A session agent would be that failure mode with a title.</p>
 <figure class="fig"><div class="plate"><svg viewBox="0 0 880 380" role="img" aria-label="On the left, four files each state how many desks the system has and three of them disagree: the agents directory holds ten, CLAUDE.md says nine, the README said ten in total, the manual said twelve. Each was written by hand and was correct on the day it was typed. On the right, one directory is the source, a script reads it and writes the page, and a check run by the session's stop hook fails when the source has changed since the page was generated.">
   <defs>
@@ -513,13 +560,13 @@ footer code{font-size:.8em}
 <tr><td><code>voice_check.py</code></td><td>the counted half of the voice spec, by literal count.</td></tr>
 <tr><td><code>voice_rules_check.py</code></td><td>prove config/house.json still agrees with 01-voice.md.</td></tr>
 </tbody></table></div></section>
-<section id="where"><div class="eyebrow">Section 7</div><h2>Where things live</h2>
+<section id="where"><div class="eyebrow">Section 8</div><h2>Where things live</h2>
 <p>Two repositories, permanently. Book two is a new folder in the book repo, never a third repository. When you are editing by hand the question is one line: is this about this book, or about how books get made?</p>
 <div class="repos">
 <div class="repo"><h3>The book</h3><div class="path">Playground-260420</div><p>The premise, voice, audience and outline every desk reads. The knowledge ledger. The chapters the proven pipeline ships. Read-only to this engine, with one exception: the ledger, written only through the book repo's own validator.</p></div>
 <div class="repo"><h3>The engine</h3><div class="path">agentic-ghostwriter</div><p>The desks, the commands, the gates, the oracle, the inbox, and everything the house produces under <code>runs/chNN/</code>. Change how books get made here.</p></div>
 </div></section>
-<section id="never"><div class="eyebrow">Section 8</div><h2>What it never does</h2><ul>
+<section id="never"><div class="eyebrow">Section 9</div><h2>What it never does</h2><ul>
 <li>Invent a citation, a statistic, or a story.</li>
 <li>Mark a citation <code>verified</code>. That is yours, against your physical copy.</li>
 <li>Let a search transcribe a quotation. Search may locate a source or flag a defect, never quote it.</li>
@@ -529,7 +576,7 @@ footer code{font-size:.8em}
 <li>Move <code>main</code>. Only <code>sync.py --land</code> does that, and only when you say so in words.</li>
 <li>Claim a check passed that did not run. SKIP is not PASS, and unchecked is the honest word.</li>
 </ul></section>
-<section id="glossary"><div class="eyebrow">Section 9</div><h2>Glossary</h2><dl class="gloss">
+<section id="glossary"><div class="eyebrow">Section 10</div><h2>Glossary</h2><dl class="gloss">
 <dt>Cold</dt><dd>Running as a sub-agent with clean context. It never saw the conversation, so it cannot be persuaded by the reasons behind a choice, and it cannot ask you anything, which is why anything only you can decide goes to the inbox.</dd>
 <dt>The board</dt><dd>What the state oracle prints. Computed from files, never reasoned about, so it cannot be stale. Say <code>/gw</code>.</dd>
 <dt>The brief</dt><dd>The research brief. The automation boundary: everything upstream needs you, everything downstream runs cold.</dd>
@@ -659,4 +706,4 @@ footer code{font-size:.8em}
   paint();
 })();
 </script>
-<!-- inputs-digest: ad8dc2d4d8c5bc1b -->
+<!-- inputs-digest: f0003ea2dde9c6da -->

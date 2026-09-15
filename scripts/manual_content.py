@@ -140,3 +140,62 @@ PHRASES = [
     ['how does this work · explain the house · show me the map', 'This page.', 'script'],
     ['help · what can you do', 'The full table, one line each, then the menu.', 'script'],
 ]
+
+
+# What each foundation document is for. Keyed by filename so manual.py can check
+# both ways against resolve_book.py's own lists: a file the house requires but
+# nobody described renders as unlabelled rather than silently missing, and a
+# description for a file no longer required is reported.
+FOUNDATION_ROLES = {
+    "00-premise.md": ("The premise",
+        "What the book argues and who it is for, in under a page. Every desk reads it; "
+        "a chapter that drifts from it is drifting from the book."),
+    "01-voice.md": ("The voice constitution",
+        "How the prose sounds, and the counted rules that enforce it. Most of its rules "
+        "are paired with the incident that produced them, which is why it is revised "
+        "and never regenerated."),
+    "02-audience.md": ("The audience map",
+        "Who is reading, what they already believe, and what they will not sit still for."),
+    "03-outline.md": ("The outline",
+        "The commission. Each chapter's required elements, and what the Conformance "
+        "Checker grades the prose against, row by row."),
+    "04-archetype.md": ("The archetype",
+        "The book's shape - how a chapter opens, turns and closes - so chapters feel "
+        "like one book rather than a collection."),
+    "05-framework.md": ("The framework",
+        "The book's central model, and which chapter carries which cell of it."),
+    "06-sources.md": ("The sources policy",
+        "Which editions and translations are the house's, so two chapters never quote "
+        "the same passage from two different books."),
+    "progress.md": ("The progress log",
+        "The book repo's own memory. This engine reads it and never writes it."),
+    "parking-lot.md": ("The parking lot",
+        "Questions deliberately deferred, each with the trigger that brings it back - "
+        "not a date, an event."),
+}
+
+# Where everything the house produces actually lands. Authored because it is the
+# house's own contract rather than a fact in any file; the boundary it describes
+# is CLAUDE.md Rule 8, which is the reason both pipelines can run at once.
+ARTIFACTS = [
+    ("runs/chNN/", "engine",
+     "Everything a chapter run produces: the interview record, the brief, the draft, "
+     "the refined prose, the distillation, the plate. The worst case for a failed "
+     "experiment is a directory of prose nobody uses."),
+    ("runs/manuscript/", "engine",
+     "Compiled manuscripts and their PDFs, each filename carrying its coverage and "
+     "date. A file called manuscript.pdf claims to be current forever."),
+    ("runs/revisions/", "engine",
+     "Diffs for changes that belong in the book repo, which this engine never makes. "
+     "The author applies them there."),
+    ("runs/qa/, runs/marketing/", "engine",
+     "Whole-book reads and publicity drafts, also named by the range they cover."),
+    ("inbox/", "engine",
+     "The only durable record this repo keeps. Questions a cold desk could not "
+     "decide, and rulings whose change has not landed yet."),
+    ("okf/", "book",
+     "The knowledge layer. The one thing both pipelines write, and only through the "
+     "book repo's own scripts."),
+    ("chapters/chNN/", "book",
+     "The chapters that ship. Written by the book pipeline; read here, never written."),
+]

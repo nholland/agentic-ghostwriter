@@ -68,7 +68,8 @@ OUT = os.path.join(REPO, "docs", "manual.html")
 DIAGRAMS = os.path.join(REPO, "docs", "diagrams")
 
 sys.path.insert(0, HERE)
-from manual_content import IN_SESSION, DESK_NOTES, GATES, PHRASES  # noqa: E402
+from manual_content import (IN_SESSION, DESK_NOTES, GATES, PHRASES,  # noqa: E402
+                            FOUNDATION_ROLES, ARTIFACTS)
 
 
 # ---------------------------------------------------------------------------
@@ -143,6 +144,33 @@ NARRATIVE = {
                  "section and re-runs the counts, because an edit can break a count that passed.",
          "gate": "You are the gate. Only you can say whether it landed."},
     ],
+    "knowledge_intro":
+        "What a book is, on disk: a backbone every desk reads, a knowledge layer behind "
+        "the prose, a citation ledger that tracks its own honesty, and one direction of "
+        "writing between the two repositories. A desk that cannot find these does not "
+        "fail - it writes generic prose - so each is a contract rather than a convention.",
+    "okf_intro":
+        "Everything the book knows that is not the book itself - the frameworks it argues "
+        "from, the stories it tells, the sources it leans on, what readers said - lives as "
+        "<b>one markdown file per idea</b>, with typed frontmatter. That is the Open "
+        "Knowledge Format. Concepts link to each other like any markdown, and readers of "
+        "the format are deliberately permissive: an unknown field or a broken link is "
+        "knowledge not yet written, not an error. The manuscript is <em>not</em> in "
+        "here - prose and knowledge are kept apart on purpose, so a chapter can be "
+        "rewritten without losing what it was built from.",
+    "citations_intro":
+        "A citation carries three independent axes, because one status cannot describe "
+        "whether a source is safe to print. <b>What is it</b> (the status), <b>what kind "
+        "of check is owed</b> (verbatim or paraphrase), and <b>what was actually looked "
+        "at</b> (the evidence). Keeping them apart is what makes the transcription rule "
+        "checkable: a quotation may not be called confirmed when nobody opened the page, "
+        "however confident the search result was.",
+    "artifacts_intro":
+        "Two repositories, and one direction of writing. The engine reads the book and "
+        "writes only into its own <code>runs/</code> tree; a change that belongs in the "
+        "book is produced as a diff for the author to apply there. That boundary is what "
+        "lets the old pipeline and this one run on the same book at the same time without "
+        "either being able to damage the other.",
     "gates_intro": "A producer's work is not done until a different reader says so, and that "
                    "reader is a script or another desk, never the producer's own report. "
                    "Self-reported counts were wrong on Chapters 9 and 10 and the Prologue, and "
@@ -299,6 +327,60 @@ def read_scripts():
             pass
         out.append({"name": fn, "purpose": purpose})
     return out
+
+
+def read_okf_contract():
+    """The knowledge-layer contract, read from the book repo's own validator.
+
+    The concept types and the three citation axes are enforced by
+    okf_validate.py, so that file is where they are true. Transcribing them here
+    would be a second copy of a rule with nothing keeping the copies equal -
+    which is how citation-manifest.md drifted until its queue read "None at this
+    time" while seven concepts waited.
+
+    Returns {} when the book repo is not resolvable, and the section renders its
+    prose without the tables rather than inventing them.
+    """
+    try:
+        import resolve_book
+        root, _, _ = resolve_book.resolve(resolve_book.load_config())
+        if not root:
+            return {}
+        with open(os.path.join(root, "scripts", "okf_validate.py"), encoding="utf-8") as fh:
+            src = fh.read()
+    except Exception:
+        return {}
+
+    def const_set(name):
+        m = re.search(name + r"\s*=\s*\{(.*?)\}", src, re.S)
+        return sorted(re.findall(r'"([^"]+)"', m.group(1))) if m else []
+
+    types = {}
+    m = re.search(r"TYPE_DIRS\s*=\s*\{(.*?)\}", src, re.S)
+    if m:
+        types = dict(re.findall(r'"([^"]+)"\s*:\s*"([^"]+)"', m.group(1)))
+    return {
+        "types": types,
+        "status": const_set("STATUS_VALUES"),
+        "quote_form": const_set("QUOTE_FORM_VALUES"),
+        "evidence": const_set("EVIDENCE_VALUES"),
+        "untranscribed": const_set("UNTRANSCRIBED_EVIDENCE"),
+        "confirmed": const_set("CONFIRMED_STATUS"),
+    }
+
+
+def read_foundation():
+    """Which foundation documents the house requires, from resolve_book.py."""
+    try:
+        with open(os.path.join(SCRIPTS, "resolve_book.py"), encoding="utf-8") as fh:
+            src = fh.read()
+    except OSError:
+        return [], []
+
+    def lst(name):
+        m = re.search(name + r"\s*=\s*\[(.*?)\]", src, re.S)
+        return re.findall(r'"([^"]+)"', m.group(1)) if m else []
+    return lst("REQUIRED_BOOK_FILES"), lst("OPTIONAL_BOOK_FILES")
 
 
 def read_thresholds():
@@ -718,6 +800,7 @@ def render(desks, commands, scripts, thresholds, digest):
 
     secs = [("start", "Start here"), ("flow", "How a chapter moves"), ("desks", "Who works here"),
             ("commands", "What to say"), ("gates", "The gates"),
+            ("knowledge", "Knowledge and artifacts"),
             ("production", "Scripts and hooks"), ("where", "Where things live"),
             ("never", "What it never does"), ("glossary", "Glossary")]
 
@@ -746,7 +829,7 @@ def render(desks, commands, scripts, thresholds, digest):
       "</div></header>")
 
     # start
-    a('<section id="start"><div class="eyebrow">Section 1</div><h2>Start here</h2>')
+    a('<section id="start"><div class="eyebrow">{{SEC}}</div><h2>Start here</h2>')
     a('<ol class="start">')
     for t, d in NARRATIVE["start"]:
         a("<li><div><b>%s</b><p>%s</p></div></li>" % (t, d))
@@ -756,7 +839,7 @@ def render(desks, commands, scripts, thresholds, digest):
       "this page is generated to avoid. Say <code>/gw</code> for live state.</p></section>")
 
     # flow
-    a('<section id="flow"><div class="eyebrow">Section 2</div>'
+    a('<section id="flow"><div class="eyebrow">{{SEC}}</div>'
       "<h2>How a chapter moves</h2>"
       "<p>Seven stages. Tap one to see who runs it and what stops it. You are needed at two of "
       "them; everything between runs cold.</p>")
@@ -773,7 +856,7 @@ def render(desks, commands, scripts, thresholds, digest):
       "cold.</p></section>")
 
     # desks
-    a('<section id="desks"><div class="eyebrow">Section 3</div><h2>Who works here</h2>')
+    a('<section id="desks"><div class="eyebrow">{{SEC}}</div><h2>Who works here</h2>')
     a("<p>%d desks. %d run in the session as the voice you are talking to, because a sub-agent "
       "cannot ask you anything. %d run cold. Tap any desk for its mandate.</p>"
       % (n_cold + n_room, n_room, n_cold))
@@ -802,7 +885,7 @@ def render(desks, commands, scripts, thresholds, digest):
       "comparison would test the old desks while reporting on the new ones.</p></section>")
 
     # commands
-    a('<section id="commands"><div class="eyebrow">Section 4</div><h2>What to say</h2>')
+    a('<section id="commands"><div class="eyebrow">{{SEC}}</div><h2>What to say</h2>')
     a("<p>You hold one door: <code>/gw</code>. On its own it shows a menu built from the state "
       "oracle, so it cannot be stale. With words after it, the Publisher reads what you mean — "
       "<em>readers said…</em>, <em>put it on main</em>, <em>do chapter 12</em>. The other %d "
@@ -829,7 +912,7 @@ def render(desks, commands, scripts, thresholds, digest):
     a("</tbody></table></div></section>")
 
     # gates
-    a('<section id="gates"><div class="eyebrow">Section 5</div><h2>The gates</h2>')
+    a('<section id="gates"><div class="eyebrow">{{SEC}}</div><h2>The gates</h2>')
     a("<p>%s</p>" % NARRATIVE["gates_intro"])
     a(figure("02-nobody-grades-themselves.svg", FIGURES["02-nobody-grades-themselves.svg"]))
     a('<div class="tbl"><table><thead><tr><th>Gate</th><th>Kind</th><th>Catches</th>'
@@ -856,8 +939,86 @@ def render(desks, commands, scripts, thresholds, digest):
       "still matches the book's voice spec. A threshold the author changes in the spec cannot "
       "silently diverge from the copy the script enforces.</p></section>")
 
+
+    # knowledge
+    okf = read_okf_contract()
+    req, opt = read_foundation()
+    a('<section id="knowledge"><div class="eyebrow">{{SEC}}</div>'
+      "<h2>Knowledge and artifacts</h2>")
+    a("<p>%s</p>" % NARRATIVE["knowledge_intro"])
+
+    a("<h3>The backbone</h3>")
+    a("<p>%d documents the whole house reads. %d %s required and nothing runs without "
+      "%s, because a desk handed a missing voice spec does not crash - it writes prose "
+      "that could be anyone's.</p>"
+      % (len(req) + len(opt), len(req), "is" if len(req) == 1 else "are",
+         "it" if len(req) == 1 else "them"))
+    a('<div class="tbl"><table><thead><tr><th>File</th><th>Required</th><th>What it is</th>'
+      "</tr></thead><tbody>")
+    unlabelled = []
+    for fn in req + opt:
+        role = FOUNDATION_ROLES.get(fn)
+        if not role:
+            unlabelled.append(fn)
+        a("<tr><td><code>%s</code></td><td>%s</td><td>%s</td></tr>"
+          % (esc(fn), "yes" if fn in req else "optional",
+             "<b>%s.</b> %s" % (esc(role[0]), role[1]) if role
+             else "<em>No description written for this file yet.</em>"))
+    a("</tbody></table></div>")
+    orphan_roles = [k for k in FOUNDATION_ROLES if k not in req + opt]
+
+    a("<h3>The knowledge layer</h3>")
+    a("<p>%s</p>" % NARRATIVE["okf_intro"])
+    if okf.get("types"):
+        a('<div class="tbl"><table><thead><tr><th>Folder</th><th>Type</th></tr></thead><tbody>')
+        for d, t in sorted(okf["types"].items()):
+            a("<tr><td><code>okf/%s/</code></td><td>%s</td></tr>" % (esc(d), esc(t)))
+        a("</tbody></table></div>")
+
+    a("<h3>Citations</h3>")
+    a("<p>%s</p>" % NARRATIVE["citations_intro"])
+    if okf.get("status"):
+        a('<div class="tbl"><table><thead><tr><th>Axis</th><th>Values</th></tr></thead><tbody>')
+        for label, key in (("status", "status"), ("quote_form", "quote_form"),
+                           ("evidence_source", "evidence")):
+            a("<tr><td><code>%s</code></td><td>%s</td></tr>"
+              % (label, ", ".join("<code>%s</code>" % esc(v) for v in okf[key])))
+        a("</tbody></table></div>")
+        a("<p>The transcription rule falls straight out of those three: a "
+          "<code>verbatim</code> quotation may not hold a confirmed status (%s) while "
+          "its evidence is one of %s - nobody opened the page. And only the author sets "
+          "<code>verified</code>, against his own copy; every desk tops out at "
+          "<code>verifiable</code>.</p>"
+          % (", ".join("<code>%s</code>" % esc(v) for v in okf["confirmed"]),
+             ", ".join("<code>%s</code>" % esc(v) for v in okf["untranscribed"])))
+    a('<p class="note">None of this stops a chapter. A citation nobody has confirmed yet '
+      "is unfinished work, not a defect: the desk records what it could and could not "
+      "establish, the run continues, and the count is reported. "
+      "<code>scripts/citations.py</code> says where everything stands; the queue the "
+      "author works from is generated from the concepts themselves, never kept by "
+      "hand.</p>")
+
+    a("<h3>Where the work lands</h3>")
+    a("<p>%s</p>" % NARRATIVE["artifacts_intro"])
+    a('<div class="tbl"><table><thead><tr><th>Path</th><th>Repo</th><th>What goes there</th>'
+      "</tr></thead><tbody>")
+    for path, repo, what in ARTIFACTS:
+        a("<tr><td><code>%s</code></td><td>%s</td><td>%s</td></tr>"
+          % (esc(path), "engine" if repo == "engine" else "<b>book</b>", what))
+    a("</tbody></table></div>")
+    if unlabelled or orphan_roles:
+        bits = []
+        if unlabelled:
+            bits.append("the house requires %s but nothing here says what they are"
+                        % ", ".join("<code>%s</code>" % esc(f) for f in unlabelled))
+        if orphan_roles:
+            bits.append("%s are described but no longer required"
+                        % ", ".join("<code>%s</code>" % esc(f) for f in orphan_roles))
+        a('<p class="note author"><b>Drift:</b> %s. Fix in '
+          "<code>scripts/manual_content.py</code>.</p>" % "; ".join(bits))
+    a("</section>")
     # production
-    a('<section id="production"><div class="eyebrow">Section 6</div><h2>Scripts and hooks</h2>')
+    a('<section id="production"><div class="eyebrow">{{SEC}}</div><h2>Scripts and hooks</h2>')
     a("<p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's "
       "incident archive was a model following rule text, and every fix was a check that ran on "
       "its own. A session agent would be that failure mode with a title.</p>")
@@ -868,7 +1029,7 @@ def render(desks, commands, scripts, thresholds, digest):
     a("</tbody></table></div></section>")
 
     # where
-    a('<section id="where"><div class="eyebrow">Section 7</div><h2>Where things live</h2>')
+    a('<section id="where"><div class="eyebrow">{{SEC}}</div><h2>Where things live</h2>')
     a("<p>%s</p>" % NARRATIVE["where_rule"])
     a('<div class="repos">')
     for title, path, body in NARRATIVE["where"]:
@@ -877,13 +1038,13 @@ def render(desks, commands, scripts, thresholds, digest):
     a("</div></section>")
 
     # never
-    a('<section id="never"><div class="eyebrow">Section 8</div><h2>What it never does</h2><ul>')
+    a('<section id="never"><div class="eyebrow">{{SEC}}</div><h2>What it never does</h2><ul>')
     for n in NARRATIVE["never"]:
         a("<li>%s</li>" % n)
     a("</ul></section>")
 
     # glossary
-    a('<section id="glossary"><div class="eyebrow">Section 9</div><h2>Glossary</h2>'
+    a('<section id="glossary"><div class="eyebrow">{{SEC}}</div><h2>Glossary</h2>'
       '<dl class="gloss">')
     for term, d in NARRATIVE["glossary"]:
         a("<dt>%s</dt><dd>%s</dd>" % (esc(term), d))
@@ -1008,6 +1169,10 @@ def main():
         return 0
 
     page = render(desks, commands, scripts, thresholds, digest)
+    # Number the sections from their order on the page. Hand-written numbers
+    # collided the moment a section was inserted in the middle.
+    seq = iter(range(1, 99))
+    page = re.sub(r"\{\{SEC\}\}", lambda m: "Section %d" % next(seq), page)
     defects = page_defects(page)
     if defects:
         print("manual: the rendered page has %d defect(s); nothing written:" % len(defects))
