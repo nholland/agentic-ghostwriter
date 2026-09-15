@@ -708,7 +708,7 @@ def render(desks, commands, scripts, thresholds, digest):
 
     h = []
     a = h.append
-    a("<title>The House Manual</title>")
+    a("<title>The Agentic Ghostwriter</title>")
     a('<link rel="preconnect" href="https://fonts.googleapis.com">')
     a('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
     a('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?'

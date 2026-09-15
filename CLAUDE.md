@@ -157,6 +157,12 @@ An inbox item he cannot answer without scrolling back is not finished.
 17. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without
     that gate grew the old ledger from 739 to 6,026 words in 27 days.
+18. **Answer short.** The author reads these replies on a phone. Lead with what
+    happened or what he must decide; put the reasoning underneath, only if it
+    changes what he would do. No recap of what he just asked, no narration of
+    steps that worked, no summary of a summary. A finding, a correction, or a
+    decision earns space; everything else is one line. Scripts still paste their
+    output verbatim (Rule 5) — brevity is about prose, never about evidence.
 
 ---
 
