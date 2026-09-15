@@ -565,3 +565,8 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `agents/gw-retro.md`
 
 **Next:** `?` — 
+
+## 2026-09-15 16:02 — `claude/gateway-iqyyso` — 1 commit(s) this session
+- `runs/ch12/interview.md`
+
+**Next:** `/gw 12` — Chapter 12 stopped at research (research.md missing).
