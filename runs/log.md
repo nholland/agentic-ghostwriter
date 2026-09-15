@@ -533,3 +533,29 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `skills/gw-compile/SKILL.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-15 11:41 — `claude/dreamy-gates-52bn4v` — 4 commit(s) this session
+- `.claude/agents/gw-factchecker.md`
+- `.claude/skills/gw-chapter/SKILL.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `.claude/skills/gw-draft/SKILL.md`
+- `.claude/skills/gw-refine/SKILL.md`
+- `.claude/skills/gw-research/SKILL.md`
+- `.claude/skills/gw-sources/SKILL.md`
+- `ARCHITECTURE.md`
+- `CLAUDE.md`
+- `README.md`
+- `agents/gw-factchecker.md`
+- `docs/manual.html`
+- `inbox/005-gottman-four-horsemen-claims-more-than-its-evidence.md`
+- `runs/log.md`
+- `scripts/manual.py`
+- `scripts/okf_gate.py`
+- `skills/gw-chapter/SKILL.md`
+- `skills/gw-compile/SKILL.md`
+- `skills/gw-draft/SKILL.md`
+- `skills/gw-refine/SKILL.md`
+- `skills/gw-research/SKILL.md`
+- `skills/gw-sources/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
