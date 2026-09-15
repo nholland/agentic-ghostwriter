@@ -570,3 +570,9 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch12/interview.md`
 
 **Next:** `/gw 12` — Chapter 12 stopped at research (research.md missing).
+
+## 2026-09-15 16:47 — `claude/gateway-iqyyso` — 1 commit(s) this session
+- `runs/ch12/interview.md`
+- `runs/parked.md`
+
+**Next:** `/gw 12` — Chapter 12 stopped at research (research.md missing).
