@@ -454,3 +454,30 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `skills/gw/SKILL.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-15 10:25 — `claude/dreamy-gates-52bn4v` — 12 commit(s) this session
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-inbox/SKILL.md`
+- `.claude/skills/gw/SKILL.md`
+- `CLAUDE.md`
+- `docs/diagrams.html`
+- `docs/manual.html`
+- `inbox/001-are-bolded-run-in-section-headers-legal.md`
+- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
+- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
+- `inbox/006-84-citations-are-open-21-unverified-63-confirmed.md`
+- `inbox/007-migration-plan-after-chapter-12-clone-the-book-a.md`
+- `runs/log.md`
+- `runs/manuscript/README.md`
+- `runs/manuscript/manuscript-prologue-ch11-2026-09-15.md`
+- `runs/manuscript/the-stoic-husband-prologue-ch11-2026-09-15.pdf`
+- `scripts/build_diagrams_page.py`
+- `scripts/citations.py`
+- `scripts/inbox.py`
+- `scripts/manual.py`
+- `scripts/next.py`
+- `scripts/okf_gate.py`
+- `skills/gw-inbox/SKILL.md`
+- `skills/gw/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
