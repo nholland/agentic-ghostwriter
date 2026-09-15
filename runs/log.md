@@ -618,3 +618,22 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/parked.md`
 
 **Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
+
+## 2026-09-15 17:11 — `claude/gateway-iqyyso` — 7 commit(s) this session
+- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
+- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
+- `runs/ch12/brief-gaps.md`
+- `runs/ch12/interview.md`
+- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
+- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
+- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
+- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
+- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
+- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
+- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
+- `runs/ch12/research.md`
+- `runs/log.md`
+- `runs/parked.md`
+
+**Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
