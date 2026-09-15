@@ -701,3 +701,27 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/retro/2026-09-15-ch12-dry-run.md`
 
 **Next:** `/gw 12` — Chapter 12 stopped at refine (refined.md missing).
+
+## 2026-09-15 17:37 — `claude/gateway-iqyyso` — 15 commit(s) this session
+- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
+- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
+- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
+- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
+- `runs/ch12/brief-gaps.md`
+- `runs/ch12/conformance.md`
+- `runs/ch12/draft.md`
+- `runs/ch12/interview.md`
+- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
+- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
+- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
+- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
+- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
+- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
+- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
+- `runs/ch12/research.md`
+- `runs/log.md`
+- `runs/parked.md`
+- `runs/retro/2026-09-15-ch12-dry-run.md`
+
+**Next:** `/gw 12` — Chapter 12 stopped at refine (refined.md missing).
