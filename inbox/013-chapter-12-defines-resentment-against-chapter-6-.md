@@ -1,9 +1,11 @@
 ---
 id: 013
-status: open
+status: ruled
 raised_by: gw-slopreader
 chapter: 12
 opened: 2026-09-15 17:57
+resolved: 2026-09-16 11:29
+applied_by: ! grep -q 'gives more than she gets' /home/user/agentic-ghostwriter/runs/ch12/refined.md
 ---
 
 # Chapter 12 defines resentment against Chapter 6's definition, and normalises in her what Chapter 7 condemns in him.
@@ -19,3 +21,7 @@ gw-slopreader cross-chapter pass, 2026-09-15, quoting Ch6 line 31 and Ch7's evid
 ```
 
 **What unblocks this:** Whether Ch12's resentment line is rewritten to sit alongside Ch6's definition, and whether the reciprocity double standard is acknowledged or left.
+
+**Resolution (2026-09-16 11:29):** Approved as recommended. Ch12's resentment line becomes 'someone who has been getting the leftovers long enough to stop expecting better' - about what is visible, not about a tally, so Ch6's definition stands. The second half, that the book condemns scorekeeping in him and accepts it in her, goes to the whole-book QA pass; it needs a sentence and Ch12 has no room.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'gives more than she gets' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.

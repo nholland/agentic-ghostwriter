@@ -1,9 +1,11 @@
 ---
 id: 015
-status: open
+status: ruled
 raised_by: gw-designer
 chapter: 0
 opened: 2026-09-15 18:06
+resolved: 2026-09-16 11:29
+applied_by: test -f /home/user/agentic-ghostwriter/runs/design/ch01-distillation.svg
 ---
 
 # Your book has two visual languages and no style file. Which one is the standard?
@@ -19,3 +21,7 @@ gw-designer, 2026-09-15. Publisher verified: design/plates/ 9 files, visuals/ 1 
 ```
 
 **What unblocks this:** Which visual language new plates are drawn in, and whether a style file gets written so this is not re-decided every chapter.
+
+**Resolution (2026-09-16 11:29):** design/plates/ is the standard - Georgia serif, stroke-only, currentColor, no background. The author also ruled the odd one out gets remade rather than archived: 'agreed. But we need to remake the one that is in the wrong style, let's fix that one.' So visuals/ch01-distillation.svg is redrawn in the plates language. NOTE ON WHERE IT LANDS: that file lives in the book repo, which this engine never writes to (Rule 8). The redraw is produced at runs/design/ch01-distillation.svg and the author applies it there, or it lands with the migration in #007. A visuals/style.md capturing the plates conventions is still unwritten and still his to ratify.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `test -f /home/user/agentic-ghostwriter/runs/design/ch01-distillation.svg` exits 0.

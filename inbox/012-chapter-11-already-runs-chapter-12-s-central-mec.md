@@ -1,9 +1,11 @@
 ---
 id: 012
-status: open
+status: ruled
 raised_by: gw-slopreader
 chapter: 12
 opened: 2026-09-15 17:56
+resolved: 2026-09-16 11:29
+applied_by: ! grep -q 'The first thing cut' /home/user/agentic-ghostwriter/runs/ch12/refined.md
 ---
 
 # Chapter 11 already runs Chapter 12's central mechanism, one chapter earlier. How should 12 handle it?
@@ -19,3 +21,7 @@ gw-slopreader whole-book pass, 2026-09-15: 'Same mechanism, same selection rule,
 ```
 
 **What unblocks this:** Whether Ch12 keeps the mechanism as-is, turns it into a callback, or differentiates it from Ch11's emergency framing.
+
+**Resolution (2026-09-16 11:29):** Not a cut - atrophy. The author's reframe: 'I see it less as a cutting and more like atrophy of the muscle. You stop working out the romance muscle and it begins to shrink. You need to keep at it!' This resolves the Ch11 collision by differentiation rather than by callback: Ch11 owns triage under load, the order of the cuts; Ch12 owns disuse and atrophy. Beat 2's label 'The first thing cut' is replaced. It also promotes the muscle from a simile used twice to the chapter's actual mechanism, which fixes the Line Editor's separate flag that the anchor image had thinned to two mentions.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'The first thing cut' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
