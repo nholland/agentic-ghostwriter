@@ -1,61 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" style="color:#1a1a1a" role="img" aria-label="The First Thing Cut">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 640" style="color:#1a1a1a" role="img" aria-label="The Habit Is the Doing">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
     .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
-    .hd{font:600 11px Georgia,serif;letter-spacing:.12em;text-anchor:middle;opacity:.7}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
-    .note{font:italic 11.5px Georgia,serif;opacity:.6}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .frm{font:600 13px Georgia,serif;letter-spacing:.10em;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
 
-  <rect x="0" y="0" width="640" height="450" fill="#ffffff"/>
+  <rect x="0" y="0" width="500" height="640" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE FIRST THING CUT</text>
-    <text class="sub" x="320" y="66">You cut it every heavy week, and it never felt like a decision.</text>
+    <text class="ttl" x="250" y="48">THE HABIT IS THE DOING</text>
+    <text class="sub" x="250" y="74">What you keep doing, you keep.</text>
+    <text class="cap" x="250" y="124">Each mark is one more time you did it.</text>
   </g>
 
-  <!-- column headings -->
+  <!-- the rule, in three capacities that are nothing but their own actions -->
   <g fill="currentColor">
-    <text class="hd" x="375" y="112">A DAY</text>
-    <text class="hd" x="375" y="128">ATTACHED</text>
-    <text class="hd" x="460" y="112">SOMEONE</text>
-    <text class="hd" x="460" y="128">WATCHING</text>
-    <text class="hd" x="549" y="112">SOMEONE</text>
-    <text class="hd" x="549" y="128">CHASING</text>
-  </g>
-  <g class="rule" fill="none"><path d="M44 144h552"/></g>
-
-  <!-- the three that shout -->
-  <g fill="currentColor">
-    <text class="lbl" x="44" y="180">THE MORTGAGE</text>
-    <text class="lbl" x="44" y="238">THE DEADLINE</text>
-    <text class="lbl" x="44" y="296">THE KID’S GAME AT EIGHT</text>
-  </g>
-  <g fill="currentColor">
-    <circle cx="375" cy="175" r="5"/><circle cx="460" cy="175" r="5"/><circle cx="545" cy="175" r="5"/>
-    <circle cx="375" cy="233" r="5"/><circle cx="460" cy="233" r="5"/><circle cx="545" cy="233" r="5"/>
-    <circle cx="375" cy="291" r="5"/><circle cx="460" cy="291" r="5"/><circle cx="545" cy="291" r="5"/>
-  </g>
-  <g class="rule" fill="none">
-    <path d="M44 202h552"/>
-    <path d="M44 260h552"/>
+    <text class="lbl" x="52" y="185">WALKING</text>
+    <text class="lbl" x="52" y="241">RUNNING</text>
+    <text class="lbl" x="52" y="297">READING</text>
   </g>
 
-  <!-- where the effort runs out -->
-  <g fill="currentColor"><text class="note" x="596" y="326" text-anchor="end">where the effort runs out</text></g>
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".42"><path d="M44 340h552"/></g>
-
-  <!-- the one that does not shout -->
-  <g fill="currentColor"><text class="lbl" x="44" y="378">ROMANCE</text></g>
-  <g fill="#ffffff" stroke="currentColor" stroke-width="1.4">
-    <circle cx="375" cy="373" r="5"/><circle cx="460" cy="373" r="5"/><circle cx="545" cy="373" r="5"/>
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+    <path d="M176 180H440"/>
+    <path d="M176 236H440"/>
+    <path d="M176 292H440"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M38 373h87"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".55">
+    <path d="M441 176L452 180L441 184"/>
+    <path d="M441 232L452 236L441 240"/>
+    <path d="M441 288L452 292L441 296"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".82">
+    <path d="M184 178V169M201 178V169M218 178V169M235 178V169M252 178V169M269 178V169M286 178V169M303 178V169M320 178V169M337 178V169M354 178V169M371 178V169M388 178V169M405 178V169M422 178V169"/>
+    <path d="M184 234V225M201 234V225M218 234V225M235 234V225M252 234V225M269 234V225M286 234V225M303 234V225M320 234V225M337 234V225M354 234V225M371 234V225M388 234V225M405 234V225M422 234V225"/>
+    <path d="M184 290V281M201 290V281M218 290V281M235 290V281M252 290V281M269 290V281M286 290V281M303 290V281M320 290V281M337 290V281M354 290V281M371 290V281M388 290V281M405 290V281M422 290V281"/>
+  </g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="412">It is the only row with nothing forcing it.</text>
-    <text class="cap" x="320" y="432">So it goes first, quietly, every time, and you never catch it happening.</text>
+    <text class="src" x="250" y="328">Epictetus, Discourses 2.18</text>
+  </g>
+  <g class="rule" fill="none"><path d="M44 356H456"/></g>
+
+  <!-- the same rule, applied where you never applied it -->
+  <g fill="currentColor">
+    <text class="cap" x="250" y="402">The one corner you never aimed at.</text>
+    <text class="lbl" x="52" y="457">ROMANCE</text>
+  </g>
+
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+    <path d="M176 452H278"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 6" opacity=".38">
+    <path d="M278 452H440"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".55">
+    <path d="M441 448L452 452L441 456"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".82">
+    <path d="M184 450V441M201 450V441M218 450V441M235 450V441M252 450V441M269 450V441"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-linecap="round">
+    <path d="M318 452H342" stroke-width="1.8"/>
+    <path d="M330 450V436" stroke-width="2.4"/>
+  </g>
+  <g fill="currentColor">
+    <text class="cap" x="330" y="484">tonight</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 528H456"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="250" y="560">Nothing here is lost. It is only out of use.</text>
+    <text class="frm" x="250" y="586">One more mark, and it starts again.</text>
   </g>
 </svg>
