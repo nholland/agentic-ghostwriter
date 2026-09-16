@@ -1,9 +1,11 @@
 ---
 id: 017
-status: open
+status: resolved
 raised_by: gw-researcher
 chapter: 12
 opened: 2026-09-16 11:40
+resolved: 2026-09-16 14:15
+applied_by: ! grep -qi 'every man' /home/user/agentic-ghostwriter/runs/ch12/refined.md
 ---
 
 # 'Every man loves touch' cannot be printed. Three ways to fix it.
@@ -19,3 +21,9 @@ gw-researcher round 2: 'Straight violation of 01-voice.md's Never Do. Evidence s
 ```
 
 **What unblocks this:** Whether the chapter makes any claim about men in general on this point.
+
+**Resolution (2026-09-16 14:15):** Option (a), taken as the Publisher's reading and flagged as such rather than as his explicit word: cut the general claim about all men, keep his own instance. 01-voice.md's Never Do list bans universal claims about all men, the evidence supports only 'more likely than women on average', and no printable number exists. His lap-and-head-rub instance does the whole job and no reader can be the counterexample to it. He gets the last word if this is wrong.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -qi 'every man' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
+
+**Applied, confirmed 2026-09-16 14:15:** `! grep -qi 'every man' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.

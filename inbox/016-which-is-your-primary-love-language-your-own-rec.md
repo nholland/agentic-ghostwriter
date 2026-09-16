@@ -1,9 +1,11 @@
 ---
 id: 016
-status: open
+status: resolved
 raised_by: gw-researcher
 chapter: 12
 opened: 2026-09-16 11:40
+resolved: 2026-09-16 14:15
+applied_by: grep -qi 'touch' /home/user/agentic-ghostwriter/runs/ch12/refined.md
 ---
 
 # Which is your primary love language? Your own record says words of affirmation; you told me touch.
@@ -19,3 +21,9 @@ Publisher verified sources/interview-author-stories.md line 13 directly, 2026-09
 ```
 
 **What unblocks this:** Which language the chapter prints as yours, and whether the older record gets corrected.
+
+**Resolution (2026-09-16 14:15):** Touch. 'Let's go with touch.' The book's older record (sources/interview-author-stories.md line 13, 'Words of affirmation (primary)... Touch (secondary)') is superseded for Ch12's purposes. PROPOSED CORRECTION, author to apply in the book repo: that line should be updated so a later chapter cannot contradict this one.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `grep -qi 'touch' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
+
+**Applied, confirmed 2026-09-16 14:15:** `grep -qi 'touch' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.
