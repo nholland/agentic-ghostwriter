@@ -1,6 +1,6 @@
 ---
 id: 009
-status: ruled
+status: resolved
 raised_by: gw-ghostwriter
 chapter: 12
 opened: 2026-09-15 17:09
@@ -25,3 +25,5 @@ gw-ghostwriter plan-only gate, 2026-09-15: 'It supplies the abstraction (her cur
 **Resolution (2026-09-16 11:14):** KEEP the five love languages, with the author's own calibration: 'I do want to keep the 5 love languages even if it's pseudoscience. I think it has become an extremely helpful framework to think about putting in effort. Let's say it's less scientific when it comes to the specific tactics. I think it is highly relevant to the fact that you need to think about all 5 of those and you have higher tendencies to do one versus the other.' HIS CONCRETE INSTANCE, which is what this item asked for: 'I specifically love it when my wife rubs my back whenever I lay my head in her lap while we watch TV and she rubs my head. That is one of my favorite things and I feel close to her when that happens.' HERS: 'I know that she loves acts of service. Her favorite time is if we're grilling together, I'm helping cook, and we're both working towards a family meal, both having a little wine, both laughing and talking while we also get work done. She loves that.' THE ASYMMETRY, which is the chapter's whole point: 'My lowest love language is acts of service. I do not naturally think of kind things to do, like washing someone's clothes or bringing somebody coffee, and that takes real work. My love language is touch so I'm often hugging and touching and pulling in for handholding myself.' The invented kitchen-faucet composite is replaced by the grilling instance.
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `grep -q 'grilling' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
+
+**Applied, confirmed 2026-09-16 15:26:** `grep -q 'grilling' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.

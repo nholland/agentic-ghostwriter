@@ -1,6 +1,6 @@
 ---
 id: 011
-status: ruled
+status: resolved
 raised_by: gw-specchecker
 chapter: 12
 opened: 2026-09-15 17:36
@@ -25,3 +25,5 @@ gw-specchecker conformance row 3: 'Courtship is never mentioned - no winning her
 **Resolution (2026-09-16 11:29):** Ch12 keeps it, as the author's own story. His words: 'When I was younger I did big things, like I rented planes and cars and wrote her letters, all of which was 20 years ago.' CONSTRAINT HE ADDED: 'Make sure to clarify it was a small tour of Nashville. I don't want to sound rich.' So the plane is a short sightseeing flight over Nashville, named as such, not a charter. Ch13 keeps the pursuit framing. The split: Ch12 is why the effort stopped; Ch13 is the pursuit that should have continued.
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `grep -qi 'nashville' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
+
+**Applied, confirmed 2026-09-16 15:26:** `grep -qi 'nashville' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.

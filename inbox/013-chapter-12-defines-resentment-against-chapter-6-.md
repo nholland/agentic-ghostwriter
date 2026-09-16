@@ -1,6 +1,6 @@
 ---
 id: 013
-status: ruled
+status: resolved
 raised_by: gw-slopreader
 chapter: 12
 opened: 2026-09-15 17:57
@@ -25,3 +25,5 @@ gw-slopreader cross-chapter pass, 2026-09-15, quoting Ch6 line 31 and Ch7's evid
 **Resolution (2026-09-16 11:29):** Approved as recommended. Ch12's resentment line becomes 'someone who has been getting the leftovers long enough to stop expecting better' - about what is visible, not about a tally, so Ch6's definition stands. The second half, that the book condemns scorekeeping in him and accepts it in her, goes to the whole-book QA pass; it needs a sentence and Ch12 has no room.
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'gives more than she gets' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
+
+**Applied, confirmed 2026-09-16 15:26:** `! grep -q 'gives more than she gets' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.
