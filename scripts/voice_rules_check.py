@@ -71,10 +71,31 @@ def main():
             results.append({"rule": name, "status": "NO-PROBE", "value": rule.get("value")})
             failed.append(name)
             continue
-        ok = re.search(probe, spec, re.IGNORECASE) is not None
-        results.append({"rule": name, "status": "ok" if ok else "DRIFT",
-                        "value": rule.get("value"), "probe": probe})
-        if not ok:
+        m = re.search(probe, spec, re.IGNORECASE)
+        ok = m is not None
+        status = "ok" if ok else "DRIFT"
+
+        # The phrase being present is not the same as the phrase agreeing with
+        # the number this engine enforces. Added 2026-09-16 after an Archivist
+        # probe showed `value` could be mutated 3 -> 5 while 01-voice.md still
+        # read "~3 mentions" and this check printed [ok] and exited 0. An engine
+        # enforcing a number its constitution does not state is the two-sources-
+        # of-truth failure the whole check exists to prevent.
+        value = rule.get("value")
+        nums = []
+        if ok and isinstance(value, (int, float)):
+            nums = [float(n) for n in re.findall(r"\d+(?:\.\d+)?", m.group(0))]
+            # A fraction in the config and a percentage in the spec are the same
+            # threshold: 0.1 here is "10%" there. Accept either reading.
+            accepted = {float(value), float(value) * 100.0}
+            if nums and not (accepted & set(nums)):
+                status = "MISMATCH"
+
+        results.append({"rule": name, "status": status, "value": value,
+                        "probe": probe,
+                        "spec_text": m.group(0) if m else None,
+                        "spec_numbers": nums})
+        if status != "ok":
             failed.append(name)
 
     out = {"spec": spec_path, "results": results, "failed": failed}
@@ -83,9 +104,20 @@ def main():
     else:
         print(f"voice_rules_check: against {spec_path}")
         for r in results:
-            mark = {"ok": "ok   ", "DRIFT": "DRIFT", "NO-PROBE": "NO-PR"}[r["status"]]
+            mark = {"ok": "ok   ", "DRIFT": "DRIFT", "NO-PROBE": "NO-PR",
+                    "MISMATCH": "MISMA"}[r["status"]]
             print(f"  [{mark}] {r['rule']:<32} = {r['value']}")
+            if r["status"] == "MISMATCH":
+                print(f"          spec says {r['spec_numbers']} in: {r['spec_text']!r}")
         print()
+        mismatched = [r["rule"] for r in results if r["status"] == "MISMATCH"]
+        if mismatched:
+            print("  MISMATCH: the spec wording is present but states a different")
+            print("            number than this engine enforces. The engine must")
+            print("            never enforce a threshold its constitution does not")
+            print("            state. Change the spec first, then the value.")
+            print(f"            Affected: {', '.join(mismatched)}")
+            print()
         if failed:
             print("  DRIFT: the voice spec no longer contains the wording these")
             print("         thresholds were transcribed from. Either the author changed")

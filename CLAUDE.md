@@ -127,6 +127,22 @@ An inbox item he cannot answer without scrolling back is not finished.
    the two is itself a finding.
 8. **Never write inside the book repo.** Outputs go to `runs/chNN/`. This is what
    lets both pipelines run at once.
+
+   **One exception, the constitution, added 2026-09-16 on the author's approval.**
+   The Publisher — never a desk — may write the book's L4 files, under all five:
+   **(a) Scope.** Only `00-premise.md` through `06-sources.md` and `sources/*`.
+   Never `chapters/`, `okf/`, `manuscript.md` or `appendix/` — those are output,
+   and output is what this rule is for. **(b) Authority.** His explicit word that
+   session, quoted verbatim in the commit. Not a prior inbox ruling, not a desk's
+   recommendation, not an inference. **(c) Never cold.** No sub-agent writes there
+   under any circumstance; a desk that thinks the constitution should change files
+   an inbox item. **(d) Revertible.** Its own commit on its own branch in the book
+   repo, never its `main`, so the other pipeline sees a proposal it can refuse.
+   **(e) The engine follows.** Where `config/house.json` mirrors a threshold, the
+   spec changes first and the value changes in the same commit pair;
+   `voice_rules_check.py` fails on a number mismatch, not merely a missing phrase.
+   This exception is scaffolding: it is deleted at migration, when this repo owns
+   the book and Rule 8 loses its reason.
 9. **Gap markers may be written immediately; content concepts may not.** A concept
    capturing the author's own material is a claim about what he thinks — propose
    it, get a response, then write.
