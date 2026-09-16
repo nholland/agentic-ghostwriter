@@ -1,9 +1,11 @@
 ---
 id: 014
-status: open
+status: ruled
 raised_by: gw-slopreader
 chapter: 12
 opened: 2026-09-15 17:57
+resolved: 2026-09-16 11:14
+applied_by: ! grep -q 'ebbs and flows' /home/user/agentic-ghostwriter/runs/ch12/refined.md
 ---
 
 # Your date admission is cushioned in front of itself, and your own wording is doing the cushioning.
@@ -19,3 +21,7 @@ gw-slopreader, 2026-09-15: 'Ebbs and flows pre-frames the admission as natural r
 ```
 
 **What unblocks this:** Whether 'romance ebbs and flows' is cut, and whether the admission moves into beat 2 to work as evidence rather than as an aside.
+
+**Resolution (2026-09-16 11:14):** Cut. Author: 'As for number 14 you can cut it.' 'Romance ebbs and flows' comes out of the date paragraph; the admission stands with no cushion in front of it or behind it.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'ebbs and flows' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
