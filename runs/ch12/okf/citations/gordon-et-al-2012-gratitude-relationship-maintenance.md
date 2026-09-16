@@ -29,8 +29,11 @@ evidence_source: search-synthesis
 gap_type: research
 verification_note: >
   Real, well-cited paper; authors, title, journal, year, volume, issue and page
-  range corroborated across independent listings. DOI not captured this session
-  (expected form 10.1037/a0028723 — CONFIRM, do not print unchecked). Primary
+  range corroborated across independent listings. DOI CONFIRMED 2026-09-16 at
+  search level as 10.1037/a0028723, corroborated across the PubMed record
+  (PMID 22642482), Semantic Scholar and two independent reference-list
+  entries; doi.org and api.crossref.org are both refused by the egress proxy
+  so the DOI was not resolved, only cross-read. Primary
   text NOT read; every host carrying it is proxy-blocked here. What still needs
   checking before the chapter states anything as this paper's finding: the
   sample sizes and the length of the longitudinal follow-up, and whether the
@@ -40,7 +43,7 @@ verification_note: >
   but the designs are largely correlational and longitudinal rather than
   experimental. The chapter should say what travels with what, not what causes
   what. Author confirmation still required per CLAUDE.md Rule 11.
-tags: [citation, gratitude, appreciation, responsiveness, gordon, impett, needs-verification]
+tags: [citation, gratitude, appreciation, responsiveness, gordon, impett, needs-verification, updated-round2]
 chapter_slugs: [romance-is-a-discipline]
 timestamp: 2026-09-15T16:54:07Z
 ---
@@ -57,7 +60,8 @@ feeds her sense of being appreciated.
 # Status
 
 **Verifiable, not verified.** Abstract- and summary-level evidence. Primary
-unread, DOI unconfirmed.
+unread. DOI corroborated at search level 2026-09-16 (10.1037/a0028723); not
+resolved, because doi.org is proxy-blocked here.
 
 # Why It Matters for Ch12
 

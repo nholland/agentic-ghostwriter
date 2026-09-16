@@ -37,7 +37,21 @@ verification_note: >
   languages in this book as a research finding, a psychological model, or
   anything a reader should take as established. If the book names it at all,
   it names it as a popular idea, and says plainly what holds and what does not.
-tags: [citation, chapman, love-languages, pop-psychology, unverified, do-not-present-as-research]
+  ROUND-2 CORRECTION, 2026-09-16 11:25. The round-1 wording above ("its three
+  central assumptions fail when tested") is STRONGER THAN THE EVIDENCE. The
+  review (Impett, Park & Muise 2024) concludes the support is weak; one dyadic
+  study of 100 couples (Mostova, Stolarski & Matthews 2022) found love-language
+  mismatch correlated with lower relationship and sexual satisfaction. The
+  field is mixed and entirely correlational. The defensible statement is: no
+  study has shown that changing your behaviour to match a partner's stated
+  language changes anything, and the taxonomy itself was never derived from
+  data. Both halves of that sentence are still true and neither overclaims.
+  The author has ruled (round 3, 2026-09-16) that the five-language taxonomy
+  stays in the chapter as a thinking tool and not as science. That ruling is
+  compatible with everything in this file. What it may NOT do is borrow
+  Chapman's authority: the taxonomy goes in as a popular framework the author
+  finds useful, in his own voice, with no implication of research behind it.
+tags: [citation, chapman, love-languages, pop-psychology, unverified, do-not-present-as-research, updated-round2]
 chapter_slugs: [romance-is-a-discipline]
 timestamp: 2026-09-15T16:54:07Z
 ---

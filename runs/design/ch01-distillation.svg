@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-label="The Gap">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE GAP</text>
+    <text class="sub" x="320" y="66">Between what she says and your response is three seconds.</text>
+    <text class="sub" x="320" y="86">What fills it, chosen or inherited, is your marriage.</text>
+  </g>
+  <g class="rule" fill="none"><path d="M250 112h140"/></g>
+  <g stroke="currentColor" fill="none" stroke-width="1.5" stroke-linecap="round">
+    <path d="M44 250h196"/>
+    <path d="M240 242v16"/>
+    <path d="M340 242v16"/>
+    <path d="M340 250 436 196h160"/>
+    <path d="M340 250h256"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".42">
+    <path d="M240 250h100"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="142" y="228" text-anchor="middle">THE IMPRESSION</text>
+    <text class="lbl" x="290" y="228" text-anchor="middle">THE GAP</text>
+    <text class="lbl" x="516" y="168" text-anchor="middle">CHOSEN</text>
+    <text class="lbl" x="516" y="278" text-anchor="middle">INHERITED</text>
+    <text class="cap" x="516" y="188">you put it there on purpose</text>
+    <text class="cap" x="142" y="278">it lands already loaded</text>
+    <text class="cap" x="142" y="296">with what it means</text>
+    <text class="cap" x="290" y="278">prohairesis</text>
+    <text class="cap" x="290" y="296">your faculty of choice</text>
+    <text class="cap" x="516" y="296">you never chose it</text>
+  </g>
+  <g class="rule" fill="none"><path d="M44 348h552"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="320" y="378">The gap doesn't come empty. If you haven't decided what goes in it,</text>
+    <text class="cap" x="320" y="398">something else already has.</text>
+  </g>
+</svg>
