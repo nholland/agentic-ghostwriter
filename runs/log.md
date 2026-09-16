@@ -1145,3 +1145,11 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 4 more
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-16 12:01 — `claude/gateway-iqyyso` — 1 commit(s) this session
+- `runs/ch12/plate.svg`
+- `runs/design/ch01-distillation.svg`
+- `runs/design/svgcheck.py`
+- `runs/design/ttfwidth.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
