@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-label="The Gap">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Gap">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
@@ -8,6 +8,8 @@
     .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE GAP</text>
     <text class="sub" x="320" y="66">Between what she says and your response is three seconds.</text>
