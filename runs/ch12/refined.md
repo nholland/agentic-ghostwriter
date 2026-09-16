@@ -1,50 +1,66 @@
 # Chapter 12: Romance Is a Discipline
 
-You used to plan things for her. You know roughly when that stopped, and you've probably filed it under the phase of life you're in. Filing it there is the mistake. You made that decision a few hundred times, and you never once noticed you were making one.
+The question that woke me up in my own marriage came in a normal conversation, from a woman who wasn't angry, and it had the answer sitting inside it.
+
+Last year my wife and I hit twenty-four years married. We were talking about nothing in particular, and she asked when the last time was that I took her on a date.
+
+It hit me like a ton of bricks, because she was right. I counted back. Close to five months, and I hadn't felt one of them go by. You've heard the same advice I have, that a couple should get out once a week. Nobody established that number. Being there is the part that counts.
+
+She wasn't accusing me of anything. She was asking. If there's a stretch like that in your house, you probably don't know how long it is either. You didn't stop loving her. Nothing in a week tells you how long it's been.
 
 ---
 
-**The second piece of advice.** My grandfather gave me two things worth keeping about marriage. You've already had the one about giving sixty and expecting forty. The other one came when I first got married, and it was harder to take: "Put your wife first. Focus on her because your kids will leave you."
+**The second piece of advice.** My grandfather gave me two things worth keeping about marriage. You've already had the one about giving sixty and expecting forty. The other came when I first got married, and it was harder to take: "Put your wife first. Focus on her because your kids will leave you."
 
-That came off as harsh. It still does. You're supposed to say your family is everything. You're not supposed to rank the people inside it. Here was an old man ranking them out loud to me. And this is the same man whose temper I inherited. He never had a gap between what he felt and what came out of his mouth. He got plenty wrong. He got this right.
+That came off as harsh. It still does. You're supposed to say your family is everything, not rank the people inside it. Here was an old man ranking them out loud to me. He's also the man whose temper I inherited. He got plenty wrong. He got this right.
 
-I think he meant something simpler than it sounded. When you pick a partner, you put that person first. You keep putting her first after the house fills up with other people who need you more loudly. The kids grow and go. They're supposed to. She's the one still sitting across from you when they do. And when you stop putting her first, she notices before you do.
-
----
-
-**The first thing cut.** It makes sense that you stopped, and I'd rather say why than pretend you got lazy.
-
-Romance takes real effort, and you only have so much effort in a day. The more life takes out of you, the less you have left over for her. So when a week gets heavy, something gets cut. And the thing that goes first is never the mortgage, or the deadline, or the kid's game at eight on a Saturday. Those shout. They have a day attached and other people watching. Romance has neither. Nobody calls you at work because you haven't surprised your wife since March. So it goes first, quietly, every time. You never catch it happening, because it never felt like a decision.
-
-You already run the rest of your life on purpose. You decide what you train and what you take on at work. If you've read any Stoicism at all, you've already aimed it at your temper. It held. You know what your temper is allowed to do in a kitchen at seven on a weeknight. You'd call that discipline, and you'd be right. This is the one corner of your life where you never aimed it anywhere. Your wife watches that corner to find out whether she's still wanted.
-
-Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and that notebook is *Meditations*. In 4.24 he picks up an old line he credits to the philosopher Democritus: if you want to be untroubled, do few things. Marcus thought that was close but not right, and corrected it. Do the necessary things. Those are two different lists. The second one is worse to write, because it makes you say out loud what actually counts.
-
-In my own marriage, romance ebbs and flows. We've heard the same advice you've heard, that you should get out on a date once a week. We have gone weeks and sometimes months without going on a date.
+I think he meant something gentler than it sounded. You pick a partner, and you keep putting her first after the house fills up with people who need you more loudly. The kids grow and go. They're supposed to. She's the one still across from you when they do, and the one who notices first when you drift.
 
 ---
 
-**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, and some of it is a little mystery, a little surprise, a little intrigue. So the whole thing runs on study. You can't win favor with someone you stopped learning about.
+**The thing with no deadline.** It makes sense that it faded, and I'd rather say why than let you think you got lazy.
 
-You default to the golden rule here. Treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that back in 1979. The golden rule quietly assumes the other person is basically like you, and wants what you'd want. People sometimes call his version the platinum rule. Treat her the way she wants to be treated. The second one takes more work, because first you have to find out what she actually wants.
+Romance takes real effort, and you only have so much in a day. The more life takes out of you, the less is left over for her. So when a week gets heavy, something goes, and it's never the mortgage or the kid's game at eight on a Saturday. Those shout. They have a day attached and other people watching. Nobody calls you at work because you haven't surprised your wife since March. So romance goes, quietly, and you never catch it.
 
-Say the kitchen faucet has been dripping since spring, and you give it a Saturday. Six hours, a trip out for the part, skinned knuckles. If someone had done that for you, you'd have been floored. She says thank you, and she means it, and it's flat. You carry that flatness around for three days, quietly deciding she's ungrateful.
+It isn't only me. My wife has gotten every bit as busy, and we've both forgotten our anniversary in a hard year. Get far enough in and you can laugh about it. We do.
 
-She isn't ungrateful. The effort was real and the care underneath it was real, and it arrived in a form she doesn't read as love. To her, love is you asking about the meeting at work she's been dreading. Then asking again on Thursday, because you remembered there was a Thursday. You're both right about what you felt. She's the only one who can see why it didn't land.
+You run the rest of your life on purpose. If you've read any Stoicism, you aimed it at your temper and it held. This is the one corner you never aimed at.
 
-This is also why romance at year ten looks smaller than most men expect it to. The trip and the party are rarely what she's missing. What lands is the detail you kept and the question you came back to. It's the small thing that says I still see you, instead of I planned something impressive. A gesture gets arranged once. Attention doesn't get to stop.
+Epictetus was born a slave in the Roman empire, was freed, and became a teacher whose students wrote down what he said. He put it this way nineteen hundred years ago, and he wasn't talking about marriage.
 
-When love shows up in a form that doesn't land for you, the reflex is to overlook it. Or worse, to make a joke of it in front of someone. You're insulting a person who tried. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't the same as trading for it. If you're doing it to get sex, she'll know. She'll see you performing romance at her rather than giving it.
+*"Every habit and faculty is maintained and increased by the corresponding actions: the habit of walking by walking, the habit of running by running. If you would be a good reader, read; if a writer, write."* (*Discourses* 2.18, Long trans.)
+
+What you keep doing, you keep. Then he turns it around. Go thirty days without reading, he says, and you'll know the consequence. Romance works like any muscle: the more you use it, the better you get at it. Leave it a while and the first honest attempt feels ridiculous. That's only what thirty days does.
 
 ---
 
-**What it costs.** Your wife won't tell you when she stops feeling wanted.
+**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, with a little mystery and surprise. It runs on study, and you can't win favor with someone you stopped learning about.
 
-Researchers who followed couples over time keep finding the same pattern. Partners who feel appreciated tend to be more appreciative back, and more responsive to what the other one needs. They also tend to be more committed, and more likely to still be together years later. All the research says is that these things travel together. You've already watched what happens in your own house when they stop. First there's a little more distance in the room than there used to be. Then resentment. It's the ordinary word for what settles in when someone gives more than she gets for long enough to stop expecting better.
+Your default here is the golden rule: treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that in 1979. The golden rule quietly assumes she's built like you. People call his version the platinum rule. Treat her the way she wants to be treated, which means finding out what that is.
 
-If you give her the bare minimum, the bare minimum is what comes back. That's not her being petty. That's what you'd do after a few years of being somebody's leftover time.
+You've probably met the five love languages. It's a popular list rather than a science, and nobody has shown that matching hers changes anything. As a tactic rather than a philosophy it does one thing well: it makes you look at all five instead of the one you'd reach for. Touch. Saying it out loud. Doing things for her without being asked.
 
-Romance works like any muscle: the more you use it, the better you get at it. Leave it alone long enough and it wastes away. Then the first honest attempt feels ridiculous, and expensive, and like something other men were just born knowing how to do.
+Mine is touch. My favorite part of a week is laying my head in my wife's lap while we watch TV and having her rub my head. That's when I feel closest to her.
+
+Hers is acts of service. Her favorite evening is the two of us grilling together, me helping cook, a little wine, laughing and talking while the work gets done. An ordinary night with both people in it.
+
+And acts of service is my lowest. Bringing somebody a coffee, seeing what needs doing before anyone asks. None of it occurs to me on its own. The language I'm worst at is the one she reads best. I didn't choose that, and if it's true in your house you didn't either. It still has to be done.
+
+So your effort can be real and still land flat. You put your back into something in your own language, she thanks you and means it, and it's flat. You carry that for three days deciding she's ungrateful. She isn't. It arrived in a form she doesn't read as love. To her, love is you asking about the meeting she's been dreading, then asking again on Thursday, because you remembered there was a Thursday.
+
+When love arrives in a form that doesn't land for you, the reflex is to overlook it. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't trading for it, either.
+
+Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is the detail you kept and the question you came back to. It's the small thing that says I still see you rather than I planned something impressive.
+
+---
+
+**What's still there.** Couples followed over the years don't usually come apart because the fighting starts. They come apart because the warmth stops, and it stops first in the couples who've been at it longest. Partners who feel appreciated tend to be more appreciative back, and the research only says they travel together.
+
+That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing, and starting again asks nobody's forgiveness.
+
+If you give her the bare minimum, the bare minimum is what comes back. That isn't her being petty. That's anyone who's been getting the leftovers long enough to stop expecting better.
+
+Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and the notebook is *Meditations*. In 4.24 he picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
 
 ---
 
@@ -317,19 +333,237 @@ voice_check: refined.md
 applied) stands unchanged and still governs. It is in `runs/ch12/draft.md` and
 was not restated here to keep this file from carrying two copies of one record.
 
+### Round 3 (Ghostwriter, 2026-09-16 14:21) — rewrite on the author's round-4 rulings
+
+Not a refine. The prose above is a substantial rewrite of the 1,202-word version
+that rounds 1 and 2 produced. The governing instruction was the author's tone
+ruling: *"the tone of the chapter (and the entire arc) should be light and
+loving oriented. This is the SUN!"* The old chapter diagnosed the marriage in
+Part I's register. This one diagnoses without indicting. Everything below is
+what changed and why.
+
+**Tone, the governing change.** The old chapter reached for decay, cracks, and
+a wife who stops feeling wanted. Each of those is now either cut or re-pointed
+at what is still recoverable. The clearest instance is the last beat: **"What it
+costs." is now "What's still there."**, and the research inside it now turns the
+finding into good news (*"That sounds bleak for about four seconds. Fighting is a
+problem you have to solve. This is a thing you stopped doing, and starting again
+asks nobody's forgiveness."*). The opening line *"Your wife won't tell you when
+she stops feeling wanted"* is gone. So is *"Your wife watches that corner to
+find out whether she's still wanted."* The unintentional reading is now explicit
+and warm: *"You didn't stop loving her. Nothing in a week tells you how long
+it's been."*
+
+**The opening is the author's real scene, and the invented composite is gone.**
+The chapter now opens on his wife's question after twenty-four years and the
+close-to-five-months answer. It is written as a question in an ordinary
+conversation, with no raised voice and no accusation, per the ruling. This also
+breaks the three-consecutive-chapter opening problem: Ch10, Ch11 and the old
+Ch12 all opened with direct address into the reader's head, and `04-archetype.md`
+forbids repeating an approach in consecutive chapters. The old first line
+("You used to plan things for her") is cut, and no sentence in the chapter opens
+with *There's a* or *There are*.
+
+**The kitchen faucet paragraph is deleted.** It staged the author performing an
+act of service, which is his *lowest* language and his wife's highest, so the
+invented instance ran his real dynamic backwards. The load-bearing turn inside
+it survives, re-pointed to his real configuration: *"She isn't. It arrived in a
+form she doesn't read as love... Then asking again on Thursday, because you
+remembered there was a Thursday."*
+
+**Epictetus is now the chapter's Stoic spine.** *Discourses* 2.18, Long's
+translation, quoted verbatim and confirmed against Project Gutenberg #10661
+(re-fetched and read this session, not taken on report). The quotation stops
+before the thirty-days clause, which is rendered in plain English because Long's
+*"when you shall not have read for thirty days in succession"* fights the
+6th-grade target; `06-sources.md` pre-authorises that trade. Nothing is quoted
+across a dash. The locator style matches Ch9 to Ch11: *(*Discourses* 2.18, Long
+trans.)*. This is also what makes the metaphor cap a non-issue: Epictetus
+carries the argument in *walking, running, reading, thirty days*, none of which
+counts against `muscl,atroph`.
+
+**The Democritus defect is repaired.** The chapter no longer says Marcus
+"credits" the line to Democritus. Long's text reads "says the philosopher" and
+names nobody; the ascription is editorial apparatus from a non-house edition.
+The prose now reads *"an old line from a philosopher he doesn't name."*
+*Meditations* 4.24 and "do the necessary things" are unchanged.
+
+**The five love languages are in, expanded, and handled honestly.** Named once,
+calibrated in one clause (*"a popular list rather than a science, and nobody has
+shown that matching hers changes anything"*), framed as **a tactic rather than a
+philosophy**, which is the book's own phrasing from `sources/audience-signals.md`.
+No debunking is staged. Three examples are given rather than a five-item
+taxonomy. The author's own instance carries the paragraph: touch is his, acts of
+service is hers, and acts of service is his lowest. **"The language I'm worst at
+is the one she reads best"** is the chapter's real idea and it is now printed as
+one. No relationship researcher is named in the prose; the only name is
+Bennett's.
+
+**No universal claim about men.** The "every man loves touch" material was not
+written in any form. His instance does the whole job.
+
+**Resentment.** The old line contradicted Ch6, which says resentment fires on
+what's visible right now rather than on the real accounting. The word itself is
+now gone and the beat is lighter: *"That's anyone who's been getting the
+leftovers long enough to stop expecting better."*
+
+**Beat 2's label.** "The first thing cut." is now **"The thing with no
+deadline."** Ch11 owns triage under load; Ch12 owns disuse. No cross-reference
+to Ch11 appears.
+
+**The planes and the letters are in Ch12,** per the ruling that the courtship
+contrast stays here while Ch13 keeps the pursuit framing. Written to the author's
+hard constraint: *"a short sightseeing flight over Nashville."* Never a charter,
+never a private jet. It is placed so that the point is not the flight: *"she's
+never asked for another flight. She asked about a date."*
+
+**Both of them forgot the anniversary.** Used, in the register he asked for:
+*"Get far enough in and you can laugh about it. We do."*
+
+**Date frequency.** The advice is still reported as advice and still failed, per
+Ruling 5, and the one available clause is taken: *"Nobody ever established that
+number. Being there is the part that counts."* No number from the marriage-
+promotion survey work is printed.
+
+**Length.** 1,300 words of prose against 1,000–1,300. The 15% refine tolerance
+was not used. Roughly 400 words came out to pay for the new material: the old
+opening paragraph, the faucet composite, the "romance ebbs and flows" date
+admission, the year-ten paragraph (folded into the Nashville paragraph), the
+Democritus clause, and compression across every surviving beat.
+
+**Counted rules, verified by running the script rather than by reading.** Output
+verbatim below. Two notes on shapes the regex cannot see, counted by hand:
+- reframe / negation pair: **2** (*"It isn't about you, it's about her"*;
+  *"That isn't her being petty. That's anyone who's been..."*). At cap. The old
+  chapter's third instance (*"Not because you stopped loving her"*) was rewritten
+  out.
+- pseudo-cleft: **1** (*"What lands is the detail you kept..."*). The opening's
+  old *"what got me wasn't the number"* was cut for the same reason.
+- The three 25+ word "sentences" flagged are all the script joining prose across
+  a bolded run-in label or across the block quotation. The longest real sentence
+  is the close, at 24 words.
+
+### Round 3 `voice_check.py`, verbatim
+
+```
+voice_check: refined.md
+  1300 words of prose, 106 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 4425}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      6/106 sentences at 25+ words = 5.7% (cap 10%)
+             42w: She's the one still across from you when they do, and the one who notices first when you drift. **The thing wi...
+             39w: He put it this way nineteen hundred years ago, and he wasn't talking about marriage. *"Every habit and faculty...
+             32w: It's the small thing that says I still see you rather than I planned something impressive. **What's still ther...
+    [ok  ] you-density              63 direct-address words in 1300 = 48.5 per 1,000 (floor 40)
+    [ok  ] metaphor family          2 mentions in 1300 words = 1.5 per 1,000 (cap 3); {'muscl': 2}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 24 words, shares 4 words with the previous one. Close: "She's been waiting to be one of the necessary things, and the muscle that puts her there is one you can start using toni"
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+```
+
 ---
 ## Distillation
 
-**Mechanism:** The First Thing Cut
+**Mechanism:** The Thing With No Deadline
 
-**Conversation sentence:** Romance didn't fade on him, he cut it, every heavy week, and he never once noticed he was making a decision.
+**Conversation sentence:** His wife asked him when he'd last taken her on a date, and the honest answer was five months he never felt go by.
 
-Romance takes effort, and effort runs out. So when a week gets heavy, romance is the first thing to go, because it has no deadline attached and nobody watching. It isn't fixed by a bigger gesture. It's fixed by priority and by form: care has to arrive in the form she reads as care, which means you never get to stop learning what that shape is.
+Romance takes effort, and effort runs out. So when a week gets heavy, romance is what goes, because it has no deadline attached and nobody watching. Epictetus had already named the mechanism: a habit is kept by doing it, and thirty days off tells you what disuse does. The repair isn't a bigger gesture. It's priority and form: care has to arrive in the shape she reads as care, and the shape you're worst at is usually hers.
 
 **Lesson:** Marcus Aurelius corrected an old line about doing few things. Do the necessary things instead. Writing that list honestly means saying out loud whether she is on it.
-**Challenge:** You won't catch yourself cutting her, because it never feels like a decision. And the effort you do make will come out in your own language, which is how it can be real and still land flat.
+**Challenge:** You won't catch yourself letting it go, because it never feels like a decision. And the effort you do make will come out in your own language, which is how it can be real and still land flat.
 
 **Practice:**
 1. Once a week, on a set day, ask what actually counted that week and whether anything you did was for her alone. If nothing was, the week made that call for you.
 2. When she tells you about something she's dreading, write down the day it lands, and ask her about it again on that day. Coming back to it is what says you were listening.
-3. When you put real effort in and the thank-you lands flat, don't build a case that she's ungrateful. Ask her what she'd want more of, and take the answer at face value.
+3. Name your own lowest language out loud, and check it against hers. The one you'd never think of is usually the one she reads best.
+
+---
+## Draft Notes
+
+`metaphor_family: muscl,atroph`
+
+**Placeholders:** 0. No citation, statistic or study was invented. No number from
+any relationship-science source is printed anywhere in the prose.
+
+**Quotation evidence.** The Epictetus passage was re-fetched and read this
+session from Project Gutenberg #10661 (*A Selection from the Discourses of
+Epictetus with the Encheiridion*, trans. George Long) and matched character for
+character against the printed sentence. `status: verifiable`. **Not `verified`**
+and never will be by a desk: only the author sets that, against his own copy.
+The *Meditations* 4.24 idea is rendered in plain English and carries no
+quotation marks, so nothing there needs confirming beyond the locator.
+
+**Where I wrote around a missing author detail.**
+1. **The grandfather's setting.** He is introduced as known, with no wedding, no
+   room, no scene built around him. The record says only that the advice came
+   "when I first got married," so nothing was added to it.
+2. **The head-rub and the grill.** Written from his exact words and no further.
+   No duration, no frequency, no day of the week, nothing about how often either
+   happens.
+3. **The Nashville flight.** Written as a short sightseeing flight, per his hard
+   constraint. No aircraft, no cost, no occasion, no year beyond his own
+   "twenty years ago."
+4. **The anniversary.** Both of them have forgotten it in a busy year, which is
+   all he said. No year, no consequence, no scene.
+
+**For the author, not for a desk.**
+- **RG2-1 is still open and this chapter now prints one side of it.** The prose
+  says his primary language is touch. `sources/interview-author-stories.md` line
+  13 records **words of affirmation as primary, touch as secondary.** A later
+  chapter using the older record would catch the book contradicting itself. This
+  is his to settle, and it is the one thing in the chapter I could not verify
+  against anything but his most recent words.
+- **The receiving-side beat shrank to two sentences** to pay for the love-
+  languages expansion. It still answers `02-audience.md`'s objection 2 ("this
+  puts all the responsibility on me"), but it is thinner than round 1 specified.
+  If he wants that half restored to its old weight, the words have to come from
+  the Nashville paragraph or the appreciation research sentence.
+- **"Winning favor isn't trading for it, either"** now carries the whole
+  virtuous-versus-performative distinction alone. The old chapter's *"If you're
+  doing it to get sex, she'll know"* was cut on the tone ruling. His call
+  whether that reads as softening or as restraint.
+- **RG2-4, the Platinum Rule trademark**, is unchanged and still open. The phrase
+  is in the prose, which is fine. It stays out of any title or marketing asset
+  until he rules.
+
+**Outline rows I could not satisfy, and why.** `03-outline.md`'s Ch12 entry is
+still the stale pre-interview spec, so the supersession table in
+`runs/ch12/research.md` §0 still governs and a clean-room conformance read will
+return these as FAILs:
+1. *Mechanism: askesis, practice until the feeling follows.* Superseded by the
+   interview. The chapter's mechanism is priority and disuse, and Epictetus
+   states it directly.
+2. *Central story: the anniversary dinner he almost didn't plan.* That story has
+   never existed. The author's real scene replaces it.
+3. *Key point 1: the man who was relentlessly romantic while winning her.* That
+   is Ch13's premise nearly verbatim. Ch12 gestures at it in the Nashville
+   paragraph and does not develop it.
+4. *Reader ah-ha: "I've been waiting to feel romantic. That's backwards."*
+   Belongs to the superseded mechanism. What the chapter actually delivers is
+   closer to "I've been loving her in my language and calling it effort."
+5. *Research burden: Low.* Wrong, and the author said so first.
+Rows that **are** satisfied: key point 3 (romance at year ten is specific
+attention, "I still see you" rather than "I planned something impressive"), the
+master table's objection row ("I've applied Stoicism already, why
+marriage-specific?", discharged in *"This is the one corner you never aimed
+at"*), the Stoic-lesson row by way of Epictetus on habit and Marcus on the
+necessary things, and the word-count target.
+
+**Prohibitions observed, listed so the next desk does not have to re-derive
+them.** No em-dash. No River, Oak or Sun named in the prose, and no light or
+weather figure anywhere near the Part III preamble's territory. No infidelity,
+in any framing. No Walgreens, no gift, no anniversary dinner. No Gottman and no
+bids (Ch11 owns them). No Randall & Bodenmann (Ch11 owns it). No accounting
+register: *budget, ledger, tally, account, balance, spend, spent, invest, line
+item, price, payment, arithmetic, math* return zero literal matches. No
+*move/moves/moved*. No undeclared metaphor cousins: *stronger, weaker, exercise,
+flex* return zero matches, so the narrow family declaration is honest rather
+than evasive.

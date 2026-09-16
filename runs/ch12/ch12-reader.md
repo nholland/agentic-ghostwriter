@@ -1,50 +1,66 @@
 # Chapter 12: Romance Is a Discipline
 
-You used to plan things for her. You know roughly when that stopped, and you've probably filed it under the phase of life you're in. Filing it there is the mistake. You made that decision a few hundred times, and you never once noticed you were making one.
+The question that woke me up in my own marriage came in a normal conversation, from a woman who wasn't angry, and it had the answer sitting inside it.
+
+Last year my wife and I hit twenty-four years married. We were talking about nothing in particular, and she asked when the last time was that I took her on a date.
+
+It hit me like a ton of bricks, because she was right. I counted back. Close to five months, and I hadn't felt one of them go by. You've heard the same advice I have, that a couple should get out once a week. Nobody established that number. Being there is the part that counts.
+
+She wasn't accusing me of anything. She was asking. If there's a stretch like that in your house, you probably don't know how long it is either. You didn't stop loving her. Nothing in a week tells you how long it's been.
 
 ---
 
-**The second piece of advice.** My grandfather gave me two things worth keeping about marriage. You've already had the one about giving sixty and expecting forty. The other one came when I first got married, and it was harder to take: "Put your wife first. Focus on her because your kids will leave you."
+**The second piece of advice.** My grandfather gave me two things worth keeping about marriage. You've already had the one about giving sixty and expecting forty. The other came when I first got married, and it was harder to take: "Put your wife first. Focus on her because your kids will leave you."
 
-That came off as harsh. It still does. You're supposed to say your family is everything. You're not supposed to rank the people inside it. Here was an old man ranking them out loud to me. And this is the same man whose temper I inherited. He never had a gap between what he felt and what came out of his mouth. He got plenty wrong. He got this right.
+That came off as harsh. It still does. You're supposed to say your family is everything, not rank the people inside it. Here was an old man ranking them out loud to me. He's also the man whose temper I inherited. He got plenty wrong. He got this right.
 
-I think he meant something simpler than it sounded. When you pick a partner, you put that person first. You keep putting her first after the house fills up with other people who need you more loudly. The kids grow and go. They're supposed to. She's the one still sitting across from you when they do. And when you stop putting her first, she notices before you do.
-
----
-
-**The first thing cut.** It makes sense that you stopped, and I'd rather say why than pretend you got lazy.
-
-Romance takes real effort, and you only have so much effort in a day. The more life takes out of you, the less you have left over for her. So when a week gets heavy, something gets cut. And the thing that goes first is never the mortgage, or the deadline, or the kid's game at eight on a Saturday. Those shout. They have a day attached and other people watching. Romance has neither. Nobody calls you at work because you haven't surprised your wife since March. So it goes first, quietly, every time. You never catch it happening, because it never felt like a decision.
-
-You already run the rest of your life on purpose. You decide what you train and what you take on at work. If you've read any Stoicism at all, you've already aimed it at your temper. It held. You know what your temper is allowed to do in a kitchen at seven on a weeknight. You'd call that discipline, and you'd be right. This is the one corner of your life where you never aimed it anywhere. Your wife watches that corner to find out whether she's still wanted.
-
-Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and that notebook is *Meditations*. In 4.24 he picks up an old line he credits to the philosopher Democritus: if you want to be untroubled, do few things. Marcus thought that was close but not right, and corrected it. Do the necessary things. Those are two different lists. The second one is worse to write, because it makes you say out loud what actually counts.
-
-In my own marriage, romance ebbs and flows. We've heard the same advice you've heard, that you should get out on a date once a week. We have gone weeks and sometimes months without going on a date.
+I think he meant something gentler than it sounded. You pick a partner, and you keep putting her first after the house fills up with people who need you more loudly. The kids grow and go. They're supposed to. She's the one still across from you when they do, and the one who notices first when you drift.
 
 ---
 
-**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, and some of it is a little mystery, a little surprise, a little intrigue. So the whole thing runs on study. You can't win favor with someone you stopped learning about.
+**The thing with no deadline.** It makes sense that it faded, and I'd rather say why than let you think you got lazy.
 
-You default to the golden rule here. Treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that back in 1979. The golden rule quietly assumes the other person is basically like you, and wants what you'd want. People sometimes call his version the platinum rule. Treat her the way she wants to be treated. The second one takes more work, because first you have to find out what she actually wants.
+Romance takes real effort, and you only have so much in a day. The more life takes out of you, the less is left over for her. So when a week gets heavy, something goes, and it's never the mortgage or the kid's game at eight on a Saturday. Those shout. They have a day attached and other people watching. Nobody calls you at work because you haven't surprised your wife since March. So romance goes, quietly, and you never catch it.
 
-Say the kitchen faucet has been dripping since spring, and you give it a Saturday. Six hours, a trip out for the part, skinned knuckles. If someone had done that for you, you'd have been floored. She says thank you, and she means it, and it's flat. You carry that flatness around for three days, quietly deciding she's ungrateful.
+It isn't only me. My wife has gotten every bit as busy, and we've both forgotten our anniversary in a hard year. Get far enough in and you can laugh about it. We do.
 
-She isn't ungrateful. The effort was real and the care underneath it was real, and it arrived in a form she doesn't read as love. To her, love is you asking about the meeting at work she's been dreading. Then asking again on Thursday, because you remembered there was a Thursday. You're both right about what you felt. She's the only one who can see why it didn't land.
+You run the rest of your life on purpose. If you've read any Stoicism, you aimed it at your temper and it held. This is the one corner you never aimed at.
 
-This is also why romance at year ten looks smaller than most men expect it to. The trip and the party are rarely what she's missing. What lands is the detail you kept and the question you came back to. It's the small thing that says I still see you, instead of I planned something impressive. A gesture gets arranged once. Attention doesn't get to stop.
+Epictetus was born a slave in the Roman empire, was freed, and became a teacher whose students wrote down what he said. He put it this way nineteen hundred years ago, and he wasn't talking about marriage.
 
-When love shows up in a form that doesn't land for you, the reflex is to overlook it. Or worse, to make a joke of it in front of someone. You're insulting a person who tried. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't the same as trading for it. If you're doing it to get sex, she'll know. She'll see you performing romance at her rather than giving it.
+*"Every habit and faculty is maintained and increased by the corresponding actions: the habit of walking by walking, the habit of running by running. If you would be a good reader, read; if a writer, write."* (*Discourses* 2.18, Long trans.)
+
+What you keep doing, you keep. Then he turns it around. Go thirty days without reading, he says, and you'll know the consequence. Romance works like any muscle: the more you use it, the better you get at it. Leave it a while and the first honest attempt feels ridiculous. That's only what thirty days does.
 
 ---
 
-**What it costs.** Your wife won't tell you when she stops feeling wanted.
+**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, with a little mystery and surprise. It runs on study, and you can't win favor with someone you stopped learning about.
 
-Researchers who followed couples over time keep finding the same pattern. Partners who feel appreciated tend to be more appreciative back, and more responsive to what the other one needs. They also tend to be more committed, and more likely to still be together years later. All the research says is that these things travel together. You've already watched what happens in your own house when they stop. First there's a little more distance in the room than there used to be. Then resentment. It's the ordinary word for what settles in when someone gives more than she gets for long enough to stop expecting better.
+Your default here is the golden rule: treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that in 1979. The golden rule quietly assumes she's built like you. People call his version the platinum rule. Treat her the way she wants to be treated, which means finding out what that is.
 
-If you give her the bare minimum, the bare minimum is what comes back. That's not her being petty. That's what you'd do after a few years of being somebody's leftover time.
+You've probably met the five love languages. It's a popular list rather than a science, and nobody has shown that matching hers changes anything. As a tactic rather than a philosophy it does one thing well: it makes you look at all five instead of the one you'd reach for. Touch. Saying it out loud. Doing things for her without being asked.
 
-Romance works like any muscle: the more you use it, the better you get at it. Leave it alone long enough and it wastes away. Then the first honest attempt feels ridiculous, and expensive, and like something other men were just born knowing how to do.
+Mine is touch. My favorite part of a week is laying my head in my wife's lap while we watch TV and having her rub my head. That's when I feel closest to her.
+
+Hers is acts of service. Her favorite evening is the two of us grilling together, me helping cook, a little wine, laughing and talking while the work gets done. An ordinary night with both people in it.
+
+And acts of service is my lowest. Bringing somebody a coffee, seeing what needs doing before anyone asks. None of it occurs to me on its own. The language I'm worst at is the one she reads best. I didn't choose that, and if it's true in your house you didn't either. It still has to be done.
+
+So your effort can be real and still land flat. You put your back into something in your own language, she thanks you and means it, and it's flat. You carry that for three days deciding she's ungrateful. She isn't. It arrived in a form she doesn't read as love. To her, love is you asking about the meeting she's been dreading, then asking again on Thursday, because you remembered there was a Thursday.
+
+When love arrives in a form that doesn't land for you, the reflex is to overlook it. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't trading for it, either.
+
+Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is the detail you kept and the question you came back to. It's the small thing that says I still see you rather than I planned something impressive.
+
+---
+
+**What's still there.** Couples followed over the years don't usually come apart because the fighting starts. They come apart because the warmth stops, and it stops first in the couples who've been at it longest. Partners who feel appreciated tend to be more appreciative back, and the research only says they travel together.
+
+That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing, and starting again asks nobody's forgiveness.
+
+If you give her the bare minimum, the bare minimum is what comes back. That isn't her being petty. That's anyone who's been getting the leftovers long enough to stop expecting better.
+
+Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and the notebook is *Meditations*. In 4.24 he picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
 
 ---
 
