@@ -1,6 +1,6 @@
 ---
 id: 015
-status: ruled
+status: resolved
 raised_by: gw-designer
 chapter: 0
 opened: 2026-09-15 18:06
@@ -25,3 +25,5 @@ gw-designer, 2026-09-15. Publisher verified: design/plates/ 9 files, visuals/ 1 
 **Resolution (2026-09-16 11:29):** design/plates/ is the standard - Georgia serif, stroke-only, currentColor, no background. The author also ruled the odd one out gets remade rather than archived: 'agreed. But we need to remake the one that is in the wrong style, let's fix that one.' So visuals/ch01-distillation.svg is redrawn in the plates language. NOTE ON WHERE IT LANDS: that file lives in the book repo, which this engine never writes to (Rule 8). The redraw is produced at runs/design/ch01-distillation.svg and the author applies it there, or it lands with the migration in #007. A visuals/style.md capturing the plates conventions is still unwritten and still his to ratify.
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `test -f /home/user/agentic-ghostwriter/runs/design/ch01-distillation.svg` exits 0.
+
+**Applied, confirmed 2026-09-16 14:17:** `test -f /home/user/agentic-ghostwriter/runs/design/ch01-distillation.svg` now exits 0.
