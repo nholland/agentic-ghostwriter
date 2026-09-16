@@ -31,11 +31,11 @@
     <text class="lbl" x="290" y="228" text-anchor="middle">THE GAP</text>
     <text class="lbl" x="516" y="168" text-anchor="middle">CHOSEN</text>
     <text class="lbl" x="516" y="278" text-anchor="middle">INHERITED</text>
-    <text class="cap" x="516" y="188">you put it there on purpose</text>
-    <text class="cap" x="142" y="278">it lands already loaded</text>
-    <text class="cap" x="142" y="296">with what it means</text>
+    <text class="cap" x="516" y="188">you put it there</text>
+    <text class="cap" x="142" y="278">it arrives loaded</text>
+    <text class="cap" x="142" y="296">with its meaning</text>
     <text class="cap" x="290" y="278">prohairesis</text>
-    <text class="cap" x="290" y="296">your faculty of choice</text>
+    <text class="cap" x="290" y="296">your faculty</text>
     <text class="cap" x="516" y="296">you never chose it</text>
   </g>
   <g class="rule" fill="none"><path d="M44 348h552"/></g>

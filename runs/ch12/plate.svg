@@ -22,8 +22,8 @@
     <text class="hd" x="375" y="128">ATTACHED</text>
     <text class="hd" x="460" y="112">SOMEONE</text>
     <text class="hd" x="460" y="128">WATCHING</text>
-    <text class="hd" x="545" y="112">SOMEONE</text>
-    <text class="hd" x="545" y="128">CHASING YOU</text>
+    <text class="hd" x="549" y="112">SOMEONE</text>
+    <text class="hd" x="549" y="128">CHASING</text>
   </g>
   <g class="rule" fill="none"><path d="M44 144h552"/></g>
 
