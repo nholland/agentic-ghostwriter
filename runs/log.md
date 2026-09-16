@@ -1040,3 +1040,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/retro/2026-09-16-ch12-second-half.md`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-16 11:40 — `claude/gateway-iqyyso` — 12 commit(s) this session
+- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
+- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
+- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
+- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
+- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
+- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+- `inbox/015-your-book-has-two-visual-languages-and-no-style-.md`
+- `inbox/016-which-is-your-primary-love-language-your-own-rec.md`
+- `inbox/017-every-man-loves-touch-cannot-be-printed-three-wa.md`
+- `runs/ch12/okf/citations/algoe-gable-maisel-2010-everyday-gratitude.md`
+- `runs/ch12/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
+- `runs/ch12/okf/citations/bolger-zuckerman-kessler-2000-invisible-support.md`
+- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
+- `runs/ch12/okf/citations/gable-et-al-2004-capitalization.md`
+- `runs/ch12/okf/citations/girme-overall-faingataa-2014-date-nights-take-two.md`
+- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch12/okf/citations/harasymchuk-et-al-2021-planning-date-nights.md`
+- `runs/ch12/okf/citations/huston-et-al-2001-connubial-crucible.md`
+- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
+- `runs/ch12/okf/citations/meditations-4-24-democritus-ascription-defect.md`
+- `runs/ch12/okf/citations/mostova-stolarski-matthews-2022-love-language-matching.md`
+- `runs/ch12/okf/citations/ogolsky-bowers-2013-maintenance-meta-analysis.md`
+- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
+- `runs/ch12/okf/citations/seneca-de-ira-3-6-democritus-tranquillity.md`
+- `runs/ch12/okf/citations/stafford-canary-1991-relational-maintenance.md`
+- `runs/ch12/okf/citations/touch-preference-gender-evidence.md`
+- `runs/ch12/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md`
+- `runs/ch12/okf/citations/wilcox-dew-2012-date-night-opportunity.md`
+- `runs/ch12/research-round2.md`
+- … and 3 more
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
