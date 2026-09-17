@@ -133,6 +133,7 @@ body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
 
 /* ---- the distillation card, first page ---- */
 .dist { page-break-after: always; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
 .dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
         color:#5a5a5a; text-align:center; margin:0 0 .35in; }
 .dist h1 { font-size:17pt; font-weight:600; letter-spacing:.01em;
@@ -183,9 +184,9 @@ figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
 """
 
 
-def build(chapter_md, distillation_md, plates, out_pdf, title):
+def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back"):
     body = []
-    if distillation_md:
+    if distillation_md and dist_at == "front":
         d = md_to_html(distillation_md)
         d = re.sub(r"<h1>(.*?)</h1>",
                    lambda m: f'<p class="kicker">Chapter distillation</p><h1>{m.group(1)}</h1>'
@@ -215,6 +216,22 @@ def build(chapter_md, distillation_md, plates, out_pdf, title):
             c = c.replace(marker, fig + marker, 1)
     body.append(f"<section>{c}</section>")
 
+    if distillation_md and dist_at == "back":
+        d = md_to_html(distillation_md)
+        d = re.sub(r"<h1>(.*?)</h1>",
+                   lambda m: '<p class="kicker">Not part of the chapter &middot; '
+                             'working notes</p><h1>' + m.group(1) + '</h1>'
+                             '<div class="rule"></div>', d, count=1)
+        d = re.sub(r"<p><strong>Mechanism:</strong>\s*(.*?)</p>",
+                   r'<p class="mech">\1</p>', d, count=1)
+        d = re.sub(r"<p><strong>Conversation sentence:</strong>\s*(.*?)</p>",
+                   r'<p class="convo">\1</p>', d, count=1)
+        for lab in ("Lesson", "Challenge", "Practice"):
+            d = re.sub(rf"<p><strong>{lab}:</strong>\s*(.*?)</p>", rf'<h2>{lab}</h2><p>\1</p>', d)
+            d = re.sub(rf"<p><strong>{lab}:</strong></p>", rf"<h2>{lab}</h2>", d)
+            d = re.sub(rf'<p class="runin"><strong>{lab}:</strong></p>', rf"<h2>{lab}</h2>", d)
+        body.append(f'<section class="dist distback">{d}</section>')
+
     doc = (f"<!doctype html><html><head><meta charset='utf-8'>"
            f"<title>{_html.escape(title)}</title><style>{CSS}</style></head>"
            f"<body>{''.join(body)}</body></html>")
@@ -231,6 +248,10 @@ def main():
     ap = argparse.ArgumentParser(description="Render a chapter to PDF via headless Chromium.")
     ap.add_argument("--chapter", required=True)
     ap.add_argument("--distillation")
+    ap.add_argument("--distillation-at", choices=["front", "back"], default="back",
+                    help="The shipped manuscript carries no distillation at all - it is "
+                         "working apparatus that feeds the back-of-book practice guide. "
+                         "Default back, and labelled, so a reader copy never opens on it.")
     ap.add_argument("--plate", action="append", default=[],
                     help="SVG[::marker][::caption]; marker END appends at the end")
     ap.add_argument("--out", required=True)
@@ -257,7 +278,7 @@ def main():
 
     chapter = open(a.chapter, encoding="utf-8").read()
     dist = open(a.distillation, encoding="utf-8").read() if a.distillation else None
-    html_path = build(chapter, dist, plates, a.out, a.title)
+    html_path = build(chapter, dist, plates, a.out, a.title, a.distillation_at)
     size = os.path.getsize(a.out)
     print(f"  html:  {html_path}")
     print(f"  pdf:   {a.out}  ({size:,} bytes)")
