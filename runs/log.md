@@ -1263,3 +1263,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/chapter_pdf_local.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-17 05:46 — `claude/gateway-iqyyso` — 4 commit(s) this session
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
+- `runs/retro/2026-09-17-the-render-gate.md`
+- `scripts/chapter_pdf_local.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
