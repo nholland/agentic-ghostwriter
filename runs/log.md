@@ -1248,3 +1248,10 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/voice_rules_check.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-17 05:40 — `claude/gateway-iqyyso` — 1 commit(s) this session
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `scripts/chapter_pdf_local.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
