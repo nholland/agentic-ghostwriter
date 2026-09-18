@@ -22,21 +22,31 @@ compile (Rule 4, changed 2026-09-15): an unverified citation is unfinished work,
 and the statuses ride along in `scripts/citations.py`. A structural failure there
 still blocks.
 
-## One renderer, not two
+## One renderer where one can run, and a check on what comes out
 
-The book repo has one PDF renderer, `scripts/chapter_pdf.py`, and it is the only
-one because its predecessor was two copies of the same stylesheet that shipped
-the same two defects and had only one fixed. **Do not write a second renderer
-here.** It is declared as an optional dependency; `resolve_book.py` reports if it
-is missing.
+The book repo's `scripts/chapter_pdf.py` is the renderer. Use it wherever it runs:
+its predecessor was two copies of one stylesheet that shipped the same two defects
+and had only one fixed, and its `markup()` already carries three transforms, each
+fixing a defect the author found in a shipped PDF.
 
-- Single chapter from this pipeline:
-  `python3 {bookRepo}/scripts/chapter_pdf.py --markdown runs/chNN/refined.md runs/chNN/<Title>.pdf`
-  (`--markdown` renders an explicit file to an explicit destination — it does
-  not strip apparatus, so strip Editor's and Draft Notes first, exactly as
-  `voice_check.py` does: prose ends at the first apparatus heading.)
-- A range or the whole book: assemble the markdown per the rules below, write
-  it to `runs/manuscript/manuscript.md`, then render the same way.
+Where it **cannot** run - this container has no weasyprint, pandoc or
+wkhtmltopdf, and pip cannot reach PyPI - `scripts/chapter_pdf_local.py` drives the
+headless Chromium already present. That is a registered gap (`GAPS.md`), not a
+licence to diverge: **read `markup()` before changing either renderer.** Writing a
+second one from scratch is how those three transforms were lost and re-found.
+
+Then check what a reader actually receives:
+
+```
+python3 scripts/package_check.py "runs/chNN/pdf/<name>.html"   # quoted: the names have spaces
+```
+
+**It must exit 0.** It asserts the package opens on the chapter and not on
+apparatus, that any distillation is at the back and labelled (the shipped
+manuscript contains none - it is working apparatus feeding the practice guide),
+and that no Draft Notes or Editor's Notes heading reached the page. It reads the
+emitted HTML, so it cannot see overlapping glyphs or a plate that renders blank.
+Those stay with `runs/design/svgcheck.py` and with the author's own eye.
 
 ## Assembly is a script, not a checklist
 

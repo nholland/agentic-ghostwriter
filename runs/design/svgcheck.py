@@ -35,9 +35,16 @@ def boxes(path):
         out.append(dict(cls=c,text=t,x=x,y=y,l=l,r=l+w,size=size))
     return out, s
 
-def check(path, left=44, right=596):
+def check(path, left=44, right=None):
     bx, s = boxes(path)
     vb=[float(v) for v in re.search(r'viewBox="([^"]+)"', s).group(1).split()]
+    # Derive the right margin from THIS file's canvas. It was hardcoded at 596,
+    # correct for the 640-wide landscape plates and meaningless for a 500-wide
+    # portrait one, where the bound sat 96px off the artboard and no right-edge
+    # overflow could ever be seen. Caught by the Designer reading the source
+    # rather than by the checker itself.
+    if right is None:
+        right = vb[2] - left
     issues=[]
     for b in bx:
         if b['l']<left-0.5 or b['r']>right+0.5:

@@ -9,44 +9,56 @@
       "value": 0,
       "source": "01-voice.md Never Do: 'Never use em-dashes'",
       "exception": "Inside a direct quotation from a published translation, where the citation concept's verification_note records the dash as the translator's own. Quoted and blockquoted spans are reported separately, never counted against this cap.",
-      "spec_probe": "Never use em-dashes"
+      "spec_probe": "Never use em-dashes",
+      "spec_number": 0,
+      "spec_number_note": "spec states it as a word: 'Never use em-dashes' means a cap of 0."
     },
     "bold_max_per_piece": {
       "value": 1,
       "source": "01-voice.md Counted rules: 'the bold cap (at most one per piece)'",
-      "spec_probe": "bold cap \\(at most one per piece\\)"
+      "spec_probe": "bold cap \\(at most one per piece\\)",
+      "spec_number": 1,
+      "spec_number_note": "spec states it as a word: 'at most one per piece' means 1."
     },
     "long_sentence_word_threshold": {
       "value": 25,
       "source": "01-voice.md: 'no more than roughly 10% of a chapter's sentences should run 25 words or longer'",
-      "spec_probe": "25 words or longer|25\\+ words"
+      "spec_probe": "25 words or longer|25\\+ words",
+      "spec_number": 25
     },
     "long_sentence_max_share": {
       "value": 0.1,
       "source": "01-voice.md Counted rules: 'the long-sentence cap (<=10% of sentences at 25+ words)'",
-      "spec_probe": "10% of (?:a chapter's )?sentences"
+      "spec_probe": "10% of (?:a chapter's )?sentences",
+      "spec_number": 10
     },
     "you_density_min_per_1000": {
       "value": 40,
       "source": "01-voice.md Counted rules: 'the direct-address floor (you/your at 40+ per 1,000 words)'",
-      "spec_probe": "40\\+ per 1,000 words"
+      "spec_probe": "40\\+ per 1,000 words",
+      "spec_number": 40
     },
     "metaphor_family_max_per_1000": {
       "value": 3,
       "source": "01-voice.md / refine Cat H: 'more than roughly 3 times per 1,000 words'",
       "note": "Requires the drafter to declare the chapter's anchor metaphor family in Draft Notes. Undeclared means unchecked, and the script says so rather than passing silently.",
-      "spec_probe": "3 total mentions|~3 mentions"
+      "spec_probe": "3 total mentions|~3 mentions",
+      "spec_number": 3
     },
     "rhetorical_device_max": {
       "value": 2,
       "source": "01-voice.md Counted rules: 'the rhetorical-device cap (no single sentence-shape more than twice)'",
       "note": "Only mechanically detectable shapes are counted. Reported as CANDIDATES, never as a verdict - see voice_check.py header.",
-      "spec_probe": "no single sentence-shape more than twice|repeats more than twice"
+      "spec_probe": "no single sentence-shape more than twice|repeats more than twice",
+      "spec_number": 2,
+      "spec_number_note": "spec states it as a word: 'more than twice' means 2."
     },
     "ending_sentences": {
       "value": 1,
       "source": "01-voice.md Never Do: 'Never write two endings' - the close is exactly one sentence",
-      "spec_probe": "Never write two endings"
+      "spec_probe": "Never write two endings",
+      "spec_number": 1,
+      "spec_number_note": "spec states it as a word: 'Never write two endings' means 1."
     },
     "_probe_note": "Each rule carries a spec_probe regex that must still match {bookRoot}/01-voice.md. scripts/voice_rules_check.py asserts this and is called by okf_gate.py, so a threshold the author changes in the voice spec cannot silently diverge from the copy the script enforces."
   },

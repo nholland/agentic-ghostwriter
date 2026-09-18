@@ -22,6 +22,24 @@ current work.
 
 ---
 
+## Deferred: the PDF renderer, 1 gap, environmental
+
+| Gap | What it waits on |
+|---|---|
+| The book's `chapter_pdf.py` cannot run in the cloud container | A container carrying weasyprint, or the migration in inbox `#007` |
+
+`weasyprint`, `pandoc` and `wkhtmltopdf` are all absent here and pip cannot reach
+PyPI through the egress proxy, so the book repo's one renderer fails at the point
+of use. `scripts/chapter_pdf_local.py` stands in, driving the headless Chromium
+the container already has, and `scripts/package_check.py` guards what it emits.
+
+**Registered because it was discovered at the point of use, twice.** The fallback
+was also written from scratch rather than porting the book renderer's `markup()`,
+which cost three formatting defects the author had already had fixed once. Whoever
+closes this gap deletes the fallback rather than maintaining two.
+
+---
+
 ## Deferred: the publication stack — 7 gaps, one trigger
 
 **Trigger: the author approves the whole-book QA pass (`/gw-qa`) and says the book

@@ -53,6 +53,16 @@ esac
 # should cost an entry here, not another line of shell - a bespoke line per file
 # is how the third one quietly never gets added. Each entry is
 # script|what is stale|what to do about it.
+# The stored fixtures. Two checks written on 2026-09-17 each contained the defect
+# they were written to fix, because each was proved by a one-off run nobody kept.
+# These are those proofs, kept. Runs only when a script or fixture changed.
+if git diff --quiet HEAD -- scripts/ tests/ 2>/dev/null; then :; else
+  if ! out=$(python3 tests/run.py 2>&1); then
+    echo "FIXTURES FAILING: a check no longer catches what it was written to catch." >&2
+    echo "$out" | tail -20 >&2
+  fi
+fi
+
 DERIVED="
 scripts/sync_plugin_layout.py|the plugin-layout copies under agents/ and skills/|python3 scripts/sync_plugin_layout.py
 scripts/manual.py|docs/manual.html - the roster, commands, scripts or thresholds changed|python3 scripts/manual.py, then republish the artifact so the author's link is not stale

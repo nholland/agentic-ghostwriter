@@ -1191,15 +1191,273 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
-## 2026-09-18 18:33 — `claude/gateway-tmjrgm` — ? commit(s) this session
-- `inbox/019-the-ch12-plate-draws-a-mechanism-the-chapter-no-.md`
-
-**Next:** `?` — 
-
-## 2026-09-18 18:34 — `claude/gateway-tmjrgm` — ? commit(s) this session
+## 2026-09-16 15:28 — `claude/gateway-iqyyso` — ? commit(s) this session
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
 - `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
 
-**Next:** `?` — 
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-16 16:28 — `claude/gateway-iqyyso` — 1 commit(s) this session
+- `CLAUDE.md`
+- `runs/appendix/practice-guide.md`
+- `runs/ch12/distillation.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/ch12/pdf/page-preview.png`
+- `runs/ch12/pdf/preview.png`
+- `scripts/chapter_pdf_local.py`
+- `scripts/voice_rules_check.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-16 16:32 — `claude/gateway-iqyyso` — 4 commit(s) this session
+- `CLAUDE.md`
+- `docs/manual.html`
+- `runs/appendix/practice-guide.md`
+- `runs/ch12/distillation.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/ch12/pdf/page-preview.png`
+- `runs/ch12/pdf/plate.png`
+- `runs/ch12/pdf/preview.png`
+- `runs/ch12/plate.svg`
+- `runs/design/svgcheck.py`
+- `runs/log.md`
+- `scripts/chapter_pdf_local.py`
+- `scripts/voice_rules_check.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-16 16:38 — `claude/gateway-iqyyso` — 6 commit(s) this session
+- `CLAUDE.md`
+- `docs/manual.html`
+- `runs/appendix/practice-guide.md`
+- `runs/ch12/distillation.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/ch12/pdf/page-preview.png`
+- `runs/ch12/pdf/plate.png`
+- `runs/ch12/pdf/preview.png`
+- `runs/ch12/plate.svg`
+- `runs/design/svgcheck.py`
+- `runs/log.md`
+- `runs/retro/2026-09-16-second-renderer.md`
+- `scripts/chapter_pdf_local.py`
+- `scripts/voice_rules_check.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-17 05:40 — `claude/gateway-iqyyso` — 1 commit(s) this session
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `scripts/chapter_pdf_local.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-17 05:40 — `claude/gateway-iqyyso` — 2 commit(s) this session
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
+- `scripts/chapter_pdf_local.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-17 05:46 — `claude/gateway-iqyyso` — 4 commit(s) this session
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
+- `runs/retro/2026-09-17-the-render-gate.md`
+- `scripts/chapter_pdf_local.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 04:53 — `claude/gateway-iqyyso` — 1 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `GAPS.md`
+- `config/house.json`
+- `docs/manual.html`
+- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `scripts/chapter_pdf_local.py`
+- `scripts/package_check.py`
+- `scripts/voice_check.py`
+- `scripts/voice_rules_check.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 04:54 — `claude/gateway-iqyyso` — 3 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `config/house.json`
+- `docs/manual.html`
+- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
+- `scripts/chapter_pdf_local.py`
+- `scripts/package_check.py`
+- `scripts/voice_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 05:00 — `claude/gateway-iqyyso` — 5 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `config/house.json`
+- `docs/manual.html`
+- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
+- `runs/retro/2026-09-18-the-checks-contain-the-defect.md`
+- `scripts/chapter_pdf_local.py`
+- `scripts/package_check.py`
+- `scripts/voice_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:33 — `claude/gateway-tmjrgm` — 1 commit(s) this session
+- `inbox/019-the-ch12-plate-draws-a-mechanism-the-chapter-no-.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:34 — `claude/gateway-iqyyso` — 2 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-retro.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `scripts/package_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/fixtures/apparatus-in-span.html`
+- `tests/fixtures/distback-but-first.html`
+- `tests/fixtures/extra-attribute.html`
+- `tests/fixtures/good.html`
+- `tests/fixtures/opens-on-distillation.html`
+- `tests/run.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:35 — `claude/gateway-iqyyso` — 3 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-retro.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `runs/log.md`
+- `scripts/package_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/fixtures/apparatus-in-span.html`
+- `tests/fixtures/distback-but-first.html`
+- `tests/fixtures/extra-attribute.html`
+- `tests/fixtures/good.html`
+- `tests/fixtures/opens-on-distillation.html`
+- `tests/run.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:44 — `claude/gateway-iqyyso` — 4 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-retro.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `runs/log.md`
+- `scripts/package_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/fixtures/apparatus-in-span.html`
+- `tests/fixtures/distback-but-first.html`
+- `tests/fixtures/extra-attribute.html`
+- `tests/fixtures/good.html`
+- `tests/fixtures/opens-on-distillation.html`
+- `tests/run.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:46 — `claude/gateway-iqyyso` — 6 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-retro.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `inbox/024-tests-run-py-scores-14-14-against-a-voice-rules-.md`
+- `inbox/025-package-check-py-still-passes-six-packages-that-.md`
+- `inbox/026-tests-run-py-mutates-the-tracked-config-house-js.md`
+- `inbox/027-delete-the-stop-hook-s-fixture-guard-and-run-the.md`
+- `runs/log.md`
+- `runs/retro/2026-09-18-the-fixtures-cannot-fail.md`
+- `scripts/package_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/fixtures/apparatus-in-span.html`
+- `tests/fixtures/distback-but-first.html`
+- `tests/fixtures/extra-attribute.html`
+- `tests/fixtures/good.html`
+- `tests/fixtures/opens-on-distillation.html`
+- `tests/run.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:49 — `claude/gateway-iqyyso` — 8 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-retro.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `inbox/024-tests-run-py-scores-14-14-against-a-voice-rules-.md`
+- `inbox/025-package-check-py-still-passes-six-packages-that-.md`
+- `inbox/026-tests-run-py-mutates-the-tracked-config-house-js.md`
+- `inbox/027-delete-the-stop-hook-s-fixture-guard-and-run-the.md`
+- `runs/log.md`
+- `runs/migration/2026-09-18-migration-manifest.md`
+- `runs/retro/2026-09-18-the-fixtures-cannot-fail.md`
+- `scripts/package_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/fixtures/apparatus-in-span.html`
+- `tests/fixtures/distback-but-first.html`
+- `tests/fixtures/extra-attribute.html`
+- `tests/fixtures/good.html`
+- `tests/fixtures/opens-on-distillation.html`
+- `tests/run.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.

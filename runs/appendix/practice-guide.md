@@ -10,4 +10,4 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 
 1. **Proactive.** Once a week, on a set day, ask what actually counted that week and whether anything you did was for her alone. If nothing was, the week made that call for you.
 2. **Reactive.** When she tells you about something she's dreading, write down the day it lands, and ask her about it again on that day. Coming back to it is what says you were listening.
-3. **Reactive.** When you put real effort in and the thank-you lands flat, don't build a case that she's ungrateful. Ask her what she'd want more of, and take the answer at face value.
+3. **Reactive.** Name your own lowest language out loud, and check it against hers. The one you'd never think of is usually the one she reads best.

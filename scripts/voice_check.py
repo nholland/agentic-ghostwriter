@@ -477,8 +477,23 @@ def main():
                     help="comma-separated word family for the chapter's anchor image")
     ap.add_argument("--short-form", action="store_true",
                     help="mark the piece as short-form (Substack/social)")
+    ap.add_argument("--prose-only", action="store_true",
+                    help="Print the prose with apparatus stripped and exit. An "
+                         "inbox close-condition that greps the whole file matches "
+                         "the Draft Notes recording the fix, so the record of a "
+                         "change blocks the change; point the condition here.")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
+
+    if a.prose_only:
+        try:
+            raw = strip_code_fences(open(a.file, encoding="utf-8").read())
+        except Exception as exc:
+            print(f"voice_check: cannot read {a.file}: {exc}", file=sys.stderr)
+            return 2
+        body, _ = split_front_matter(raw)
+        sys.stdout.write(prose_only(strip_tables(body)))
+        return 0
 
     if not os.path.isfile(a.file):
         print(f"voice_check: no such file: {a.file}", file=sys.stderr)

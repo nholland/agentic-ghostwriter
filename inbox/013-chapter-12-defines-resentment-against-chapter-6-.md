@@ -26,4 +26,4 @@ gw-slopreader cross-chapter pass, 2026-09-15, quoting Ch6 line 31 and Ch7's evid
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'gives more than she gets' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
 
-**Applied, confirmed 2026-09-18 18:32:** `! grep -q 'gives more than she gets' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.
+**Applied, confirmed 2026-09-16 15:26:** `! grep -q 'gives more than she gets' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.

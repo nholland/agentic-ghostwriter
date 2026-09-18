@@ -26,4 +26,4 @@ gw-specchecker conformance row 3: 'Courtship is never mentioned - no winning her
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `grep -qi 'nashville' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
 
-**Applied, confirmed 2026-09-18 18:32:** `grep -qi 'nashville' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.
+**Applied, confirmed 2026-09-16 15:26:** `grep -qi 'nashville' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.

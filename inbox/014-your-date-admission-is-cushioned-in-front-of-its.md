@@ -1,11 +1,11 @@
 ---
 id: 014
-status: ruled
+status: resolved
 raised_by: gw-slopreader
 chapter: 12
 opened: 2026-09-15 17:57
 resolved: 2026-09-16 11:14
-applied_by: ! grep -q 'ebbs and flows' /home/user/agentic-ghostwriter/runs/ch12/refined.md
+applied_by: ! python3 /home/user/agentic-ghostwriter/scripts/voice_check.py /home/user/agentic-ghostwriter/runs/ch12/refined.md --prose-only | grep -q 'ebbs and flows'
 ---
 
 # Your date admission is cushioned in front of itself, and your own wording is doing the cushioning.
@@ -24,4 +24,6 @@ gw-slopreader, 2026-09-15: 'Ebbs and flows pre-frames the admission as natural r
 
 **Resolution (2026-09-16 11:14):** Cut. Author: 'As for number 14 you can cut it.' 'Romance ebbs and flows' comes out of the date paragraph; the admission stands with no cushion in front of it or behind it.
 
-**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'ebbs and flows' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
+**Not applied yet.** This ruling lands outside this repo. It closes when `! python3 /home/user/agentic-ghostwriter/scripts/voice_check.py /home/user/agentic-ghostwriter/runs/ch12/refined.md --prose-only | grep -q 'ebbs and flows'` exits 0.
+
+**Applied, confirmed 2026-09-18 04:52:** `! python3 /home/user/agentic-ghostwriter/scripts/voice_check.py /home/user/agentic-ghostwriter/runs/ch12/refined.md --prose-only | grep -q 'ebbs and flows'` now exits 0.
