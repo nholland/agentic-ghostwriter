@@ -15,10 +15,10 @@
     },
     "bold_max_per_piece": {
       "value": 1,
-      "source": "01-voice.md Counted rules: 'the bold cap (at most one per piece)'",
-      "spec_probe": "bold cap \\(at most one per piece\\)",
+      "source": "01-voice.md Counted rules: 'the bold cap (at most one per piece, run-in section headers excluded)'",
+      "spec_probe": "bold cap \\(at most one per piece",
       "spec_number": 1,
-      "spec_number_note": "spec states it as a word: 'at most one per piece' means 1."
+      "spec_number_note": "spec states it as a word: 'at most one per piece' means 1. Wording widened 2026-09-18 (inbox #001) to exclude run-in section headers from the cap; the cap itself, and voice_check.py's own exemption for that device, are both unchanged, so the probe was loosened to not require the sentence's old exact closing parenthesis."
     },
     "long_sentence_word_threshold": {
       "value": 25,
