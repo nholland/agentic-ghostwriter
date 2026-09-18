@@ -158,14 +158,19 @@ An inbox item he cannot answer without scrolling back is not finished.
     Publisher says it at that moment, in plain words ("say *put it on main*"). A
     phrase he has to recall is a design defect, not a training problem.
 15. **A point-in-time artifact carries its coverage in its filename, or it is
-    regenerated wholesale.** Three files in the book repo describe a book that no
-    longer exists: `callouts.md` and `tactics-review.md` say "Chapters 1-8" and
-    `sweep-report.md` says "Ch01-Ch05", while eleven chapters are refined. Each
-    looks current. This is the `citation-manifest.md` failure in a third form, so
-    the fix is structural: `runs/qa/<date>-qa.md`,
+    regenerated wholesale.** Named when three files in the book repo described a
+    book that no longer existed: `callouts.md` and `tactics-review.md` said
+    "Chapters 1-8" and `sweep-report.md` said "Ch01-Ch05", while eleven chapters
+    were refined. Each looked current. This is the `citation-manifest.md` failure
+    in a third form, so the fix is structural: `runs/qa/<date>-qa.md`,
     `runs/marketing/callouts-ch01-chNN.md` — a name that states its range cannot
     claim to be current. A file that accumulates (the practice guide) appends and
-    never rewrites.
+    never rewrites. `tactics-review.md` is fixed this way (2026-09-18: retired to
+    a stub pointing at the practice guide, which now carries its Proactive/Reactive
+    marking on all twelve chapters); `callouts.md` ("Chapters 1-8") and
+    `sweep-report.md` ("Ch01-Ch05") still name the coverage this rule was written
+    against, with twelve chapters refined now — this rule names the fix and does
+    not itself apply it.
 16. **A deferred capability is registered, not forgotten.** `GAPS.md` lists what the
     old pipeline does that this house does not, each with the trigger that should
     close it. 13 of 40 commands, audited 2026-09-13. Say "not yet, and here is what
