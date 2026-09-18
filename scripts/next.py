@@ -58,6 +58,15 @@ def chapter_state(n, d):
     if d is None or not os.path.isdir(d):
         return "interview", "/gw-interview", "not started"
     have = set(os.listdir(d))
+    # Terminal state, checked first. "verdict" had no exit: on 2026-09-18 Ch12
+    # was landed into the book repo and this still answered "waiting on your
+    # verdict", and would have gone on answering it with Ch13 fully refined
+    # beside it. Nothing else in this house writes runs/chNN/verdict.md - only
+    # bakeoff.py writes one, and into bakeoff/chNN/, a different file. The
+    # verdict step of /gw-chapter writes this one, with the real clock, once
+    # the author has actually given the verdict.
+    if "verdict.md" in have:
+        return "shipped", None, "verdict recorded; chapter is done here"
     if "inbox.md" in have:
         return "parked", "/gw-inbox", "a cold desk could not decide; the inbox holds the question"
     for artifact, stage, cmd in STAGES:
@@ -140,12 +149,11 @@ def compute(book):
 
     parked = sorted(n for n, s in per_chapter.items() if s["stage"] == "parked")
     in_progress = sorted(n for n, s in per_chapter.items()
-                         if s["stage"] not in ("parked", "verdict"))
+                         if s["stage"] not in ("parked", "verdict", "shipped"))
     awaiting_verdict = sorted(n for n, s in per_chapter.items() if s["stage"] == "verdict")
     packets = bakeoffs_waiting()
     open_items, ruled_items = inbox_counts()
 
-    engine_refined = set(awaiting_verdict)
     candidates = [n for n in range(1, total + 1) if n not in shipped and n not in runs]
     next_new = candidates[0] if candidates else None
 

@@ -75,6 +75,12 @@ fails in exactly one hard-to-notice way, and that is it.
 
 ## After the verdict
 
+- **Write `runs/chNN/verdict.md`** the moment he actually gives it — his words,
+  the real clock. `next.py` treats this file as the chapter's only exit from
+  "verdict": without it, the oracle reports this chapter waiting on him forever,
+  even once a later chapter is fully refined beside it (inbox #028). Do not
+  write it before he has given the verdict, and never on a re-run that only
+  reproduces the package.
 - If the old pipeline also has this chapter, offer `/gw-bakeoff NN`.
 - Record in `FINDINGS.md`: which pauses happened, how many gate rounds each cold
   stage took, every inbox item, and any discrepancy between a desk's

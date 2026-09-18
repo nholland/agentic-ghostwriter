@@ -65,14 +65,39 @@ EXIT CODES
 """
 
 import argparse
+import glob
 import json
 import os
+import re
 import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import resolve_book  # noqa: E402
+
+# The book's own okf/ concepts link each other as /citations/slug.md,
+# /frameworks/slug.md, /stories/slug.md - never /okf/citations/slug.md. A
+# staged chapter's runs/chNN/okf/ tree is written under its own okf/ subpath,
+# so a link copied verbatim from a relative path carries the shadow-tree
+# prefix into the bundle it is about to join, where it breaks (#029: 5 of
+# Ch12's 23 staged citation files carried 9 such links, caught only by the
+# Publisher's eye before landing).
+STAGED_LINK_RE = re.compile(r"\]\(/okf/([a-zA-Z0-9_-]+/[^)]+)\)")
+
+
+def staged_link_defects(repo_root_this):
+    """Scan this engine's own runs/ch*/okf/ trees (never the book repo) for
+    internal links that would break on landing. Returns (file, link) pairs,
+    file relative to repo_root_this."""
+    out = []
+    for path in sorted(glob.glob(os.path.join(repo_root_this, "runs", "ch*", "okf", "**", "*.md"),
+                                 recursive=True)):
+        text = open(path, encoding="utf-8").read()
+        for m in STAGED_LINK_RE.finditer(text):
+            out.append((os.path.relpath(path, repo_root_this), m.group(0)))
+    return out
 
 
 # Substrings that mark an error as STRUCTURAL - the check itself cannot be
@@ -168,6 +193,8 @@ def main():
         structural.append("voice thresholds no longer match the book's voice spec "
                           "(scripts/voice_rules_check.py)")
 
+    staged_broken = staged_link_defects(REPO)
+
     blocked = bool(structural) or (a.strict and proc.returncode != 0) \
         or (a.warnings_fatal and warnings)
     result = {
@@ -180,6 +207,7 @@ def main():
         "bookRoot": book_rel,
         "returncode": proc.returncode,
         "warnings": warnings,
+        "staged_okf_broken_links": [f"{f}: {link}" for f, link in staged_broken],
         "output": out.strip(),
     }
 
@@ -207,6 +235,9 @@ def main():
             if warnings:
                 print(f"         {len(warnings)} non-fatal warning(s) above. Not "
                       f"blocking, but they are drift and someone should own them.")
+            if staged_broken:
+                print(f"         {len(staged_broken)} staged link(s) under runs/ch*/okf/ "
+                      f"would break on landing (#029): {', '.join(result['staged_okf_broken_links'])}")
     return 1 if blocked else 0
 
 

@@ -1,9 +1,11 @@
 ---
 id: 029
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 12
 opened: 2026-09-18 20:18
+resolved: 2026-09-18 20:29
+applied_by: python3 tests/run.py
 ---
 
 # Nothing validates runs/chNN/okf/ before it lands in the book. Should okf_gate.py resolve the staged bundle's internal links against the bundle it will join?
@@ -19,3 +21,9 @@ gw-retro re-ran the check against the pre-repoint tree (61c7f5c): 9 broken links
 ```
 
 **What unblocks this:** Every future chapter's citations are link-checked before they touch the book, by the one function every prose-writing skill already calls.
+
+**Resolution (2026-09-18 20:29):** fix the 9 broken ones
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/run.py` exits 0.
+
+**Applied, confirmed 2026-09-18 20:29:** `python3 tests/run.py` now exits 0.

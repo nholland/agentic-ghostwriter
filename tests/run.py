@@ -180,8 +180,70 @@ def voice_rules_cases():
     return out
 
 
+def next_cases():
+    """chapter_state() must terminate on verdict.md (#028). Before this fixture,
+    a refined chapter reported "verdict" forever - nothing in this house ever
+    wrote runs/chNN/verdict.md, so the oracle could never advance past it, even
+    with a later chapter fully refined beside it."""
+    import next as next_mod
+    out = []
+    tmp = tempfile.mkdtemp(prefix="gw-tests-chapter-")
+    try:
+        for name in ("interview.md", "research.md", "draft.md", "refined.md"):
+            open(os.path.join(tmp, name), "w").close()
+        stage, cmd, detail = next_mod.chapter_state(12, tmp)
+        out.append((stage == "verdict", "next chapter_state, no verdict.md",
+                    "a fully refined chapter with no verdict.md must still report verdict",
+                    stage))
+
+        open(os.path.join(tmp, "verdict.md"), "w").close()
+        stage, cmd, detail = next_mod.chapter_state(12, tmp)
+        out.append((stage == "shipped" and cmd is None, "next chapter_state, verdict.md present",
+                    "a chapter with a recorded verdict must report shipped, not verdict, "
+                    "so a later chapter can surface as next",
+                    stage))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
+def staged_link_cases():
+    """okf_gate.py must catch a runs/chNN/okf/ link written with the shadow-tree
+    prefix (#029: 5 of Ch12's 23 staged citations carried 9 such links, caught
+    only by the Publisher's eye before landing)."""
+    import okf_gate
+    out = []
+    tmp = tempfile.mkdtemp(prefix="gw-tests-repo-")
+    try:
+        bad_dir = os.path.join(tmp, "runs", "ch99", "okf", "citations")
+        os.makedirs(bad_dir)
+        open(os.path.join(bad_dir, "a.md"), "w").write(
+            "See [other](/okf/citations/b.md) for more.\n")
+        found = okf_gate.staged_link_defects(tmp)
+        out.append((len(found) == 1 and found[0][1] == "](/okf/citations/b.md)",
+                    "okf_gate staged link, shadow prefix", "a /okf/citations/ link must be caught",
+                    found))
+
+        # A separate tree containing only a clean, book-convention link must
+        # report nothing.
+        clean_tmp = tempfile.mkdtemp(prefix="gw-tests-repo-clean-")
+        try:
+            cd = os.path.join(clean_tmp, "runs", "ch98", "okf", "citations")
+            os.makedirs(cd)
+            open(os.path.join(cd, "a.md"), "w").write("See [other](/citations/b.md).\n")
+            found_clean = okf_gate.staged_link_defects(clean_tmp)
+        finally:
+            shutil.rmtree(clean_tmp, ignore_errors=True)
+        out.append((found_clean == [], "okf_gate staged link, book convention",
+                    "a /citations/ link (the book's own convention) must not be flagged",
+                    found_clean))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
 def main():
-    rows = package_cases() + voice_rules_cases()
+    rows = package_cases() + voice_rules_cases() + next_cases() + staged_link_cases()
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")

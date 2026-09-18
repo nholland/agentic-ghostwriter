@@ -1,9 +1,11 @@
 ---
 id: 028
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 20:18
+resolved: 2026-09-18 20:29
+applied_by: python3 tests/run.py
 ---
 
 # next.py has no terminal chapter stage: it will answer '/gw 12 - waiting on your verdict' forever, and Chapter 13 can never surface as next. Add a 'shipped' state that a runs/chNN/verdict.md closes?
@@ -19,3 +21,9 @@ Reproduced by gw-retro: a scratch tree with ch12 (refined+plate) and a fully ref
 ```
 
 **What unblocks this:** next.py's 'next' answer correctly advances past a shipped chapter. #007 becomes answerable. The dead variable engine_refined on next.py:148 goes with it.
+
+**Resolution (2026-09-18 20:29):** Make the small fix
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/run.py` exits 0.
+
+**Applied, confirmed 2026-09-18 20:29:** `python3 tests/run.py` now exits 0.
