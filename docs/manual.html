@@ -410,11 +410,11 @@ footer code{font-size:.8em}
 <h3>The counted thresholds</h3>
 <div class="tbl"><table><thead><tr><th>Rule</th><th>Threshold</th><th>Where it comes from</th></tr></thead><tbody>
 <tr><td><code>em_dash_max</code></td><td>0</td><td>01-voice.md Never Do: 'Never use em-dashes'</td></tr>
-<tr><td><code>bold_max_per_piece</code></td><td>1</td><td>01-voice.md Counted rules: 'the bold cap (at most one per piece)'</td></tr>
+<tr><td><code>bold_max_per_piece</code></td><td>1</td><td>01-voice.md Counted rules: 'the bold cap (at most one per piece, run-in section headers excluded)'</td></tr>
 <tr><td><code>long_sentence_word_threshold</code></td><td>25</td><td>01-voice.md: 'no more than roughly 10% of a chapter's sentences should run 25 words or longer'</td></tr>
 <tr><td><code>long_sentence_max_share</code></td><td>0.1</td><td>01-voice.md Counted rules: 'the long-sentence cap (<=10% of sentences at 25+ words)'</td></tr>
 <tr><td><code>you_density_min_per_1000</code></td><td>40</td><td>01-voice.md Counted rules: 'the direct-address floor (you/your at 40+ per 1,000 words)'</td></tr>
-<tr><td><code>metaphor_family_max_per_1000</code></td><td>3</td><td>01-voice.md / refine Cat H: 'more than roughly 3 times per 1,000 words' <span style='color:var(--ink-3)'>· Requires the drafter to declare the chapter's anchor metaphor family in Draft Notes. Undeclared means unchecked, and the script says so rather than passing silently.</span></td></tr>
+<tr><td><code>metaphor_family_max_per_1000</code></td><td>5</td><td>01-voice.md Counted rules: 'up to 5 where the anchor image carries the chapter's mechanism rather than decorating it, declared in Draft Notes' <span style='color:var(--ink-3)'>· Requires the drafter to declare the chapter's anchor metaphor family in Draft Notes. Undeclared means unchecked, and the script says so rather than passing silently. Raised 3-&gt;5 2026-09-18 (runs/revisions/2026-09-16-voice-metaphor-cap.md): the base rate is still ~3 per 1,000 words, scaled by length; 5 is the ceiling for a chapter whose anchor image carries the mechanism itself.</span></td></tr>
 <tr><td><code>rhetorical_device_max</code></td><td>2</td><td>01-voice.md Counted rules: 'the rhetorical-device cap (no single sentence-shape more than twice)' <span style='color:var(--ink-3)'>· Only mechanically detectable shapes are counted. Reported as CANDIDATES, never as a verdict - see voice_check.py header.</span></td></tr>
 <tr><td><code>ending_sentences</code></td><td>1</td><td>01-voice.md Never Do: 'Never write two endings' - the close is exactly one sentence</td></tr>
 </tbody></table></div>
@@ -709,4 +709,4 @@ footer code{font-size:.8em}
   paint();
 })();
 </script>
-<!-- inputs-digest: b6099b7f4c9a8a39 -->
+<!-- inputs-digest: 4f11ff60c7635b1e -->
