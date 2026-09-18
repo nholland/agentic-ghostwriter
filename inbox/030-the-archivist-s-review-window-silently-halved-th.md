@@ -1,9 +1,11 @@
 ---
 id: 030
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 20:18
+resolved: 2026-09-18 23:47
+applied_by: grep -q retro-last-sha .claude/hooks/retro-check.sh && grep -q retro-last-sha .claude/agents/gw-retro.md && grep -q retro-last-sha agents/gw-retro.md
 ---
 
 # The Archivist's review window silently halved this session. Should it read .claude/state/retro-last-sha instead of session-start-sha?
@@ -19,3 +21,9 @@ git log --oneline $(cat .claude/state/session-start-sha)..HEAD | wc -l -> 8 comm
 ```
 
 **What unblocks this:** The Archivist reads the whole session without being handed a manifest by hand, and runs/log.md stops restating itself.
+
+**Resolution (2026-09-18 23:47):** fix everything that is outstanding
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `grep -q retro-last-sha .claude/hooks/retro-check.sh && grep -q retro-last-sha .claude/agents/gw-retro.md && grep -q retro-last-sha agents/gw-retro.md` exits 0.
+
+**Applied, confirmed 2026-09-18 23:47:** `grep -q retro-last-sha .claude/hooks/retro-check.sh && grep -q retro-last-sha .claude/agents/gw-retro.md && grep -q retro-last-sha agents/gw-retro.md` now exits 0.

@@ -12,4 +12,5 @@ bakeoff/**/.sealed.json
 # of them on 2026-09-14 alone. A fresh clone does not want a previous
 # container's SHA, and retro-check.sh already falls back to HEAD~1.
 .claude/state/session-start-sha
+.claude/state/retro-last-sha
 .claude/state/retro-done-*
