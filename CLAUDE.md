@@ -169,10 +169,9 @@ An inbox item he cannot answer without scrolling back is not finished.
     claim to be current. A file that accumulates (the practice guide) appends and
     never rewrites. `tactics-review.md` is fixed this way (2026-09-18: retired to
     a stub pointing at the practice guide, which now carries its Proactive/Reactive
-    marking on all twelve chapters); `callouts.md` ("Chapters 1-8") and
-    `sweep-report.md` ("Ch01-Ch05") still name the coverage this rule was written
-    against, with twelve chapters refined now — this rule names the fix and does
-    not itself apply it.
+    marking on all twelve chapters); `callouts.md` and `sweep-report.md` followed
+    on 2026-09-18, retired to stubs pointing at `runs/marketing/callouts-ch01-chNN.md`
+    and `runs/qa/<date>-qa.md`, the two artifacts that carry their range by name.
 16. **A deferred capability is registered, not forgotten.** `GAPS.md` lists what the
     old pipeline does that this house does not, each with the trigger that should
     close it. 13 of 40 commands, audited 2026-09-13. Say "not yet, and here is what
