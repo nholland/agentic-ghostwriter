@@ -1478,3 +1478,22 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch12/plate.svg`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 20:12 — `claude/gateway-tmjrgm` — 7 commit(s) this session
+- `config/house.json`
+- `docs/manual.html`
+- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
+- `inbox/005-gottman-four-horsemen-claims-more-than-its-evidence.md`
+- `inbox/019-the-ch12-plate-draws-a-mechanism-the-chapter-no-.md`
+- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
+- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
+- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
+- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/ch12/pdf/plate.png`
+- `runs/ch12/plate.svg`
+- `runs/log.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
