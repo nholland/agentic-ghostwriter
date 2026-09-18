@@ -41,7 +41,7 @@ second one from scratch is how those three transforms were lost and re-found.
 Then check what a reader actually receives:
 
 ```
-python3 scripts/package_check.py runs/chNN/pdf/<name>.html
+python3 scripts/package_check.py "runs/chNN/pdf/<name>.html"   # quoted: the names have spaces
 ```
 
 **It must exit 0.** It asserts the package opens on the chapter and not on

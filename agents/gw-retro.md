@@ -104,6 +104,16 @@ python3 scripts/inbox.py --add "<the proposal, as a question he can rule on>" \
     --applied-by "<a shell command that exits 0 only once the change has landed>"
 ```
 
+**A proposal that adds or fixes a check closes on its fixture, never on a grep
+for its own text.** `grep -q 'spec_number' voice_rules_check.py` would have closed
+green over two half-fixes: a check that crashed on its own honest state, and one
+that passed the very defect it was written for. Add the failing input to
+`tests/fixtures/` and point `--applied-by` at `tests/run.py`. A proof that cannot
+be re-run is a comment.
+
+```
+```
+
 The Publisher runs them on his yes. `--applied-by` is the point: a proposal he
 accepts becomes an item that closes itself when the change lands, and `next.py`
 surfaces it until then. **This replaces the standalone ranked list as the system

@@ -45,26 +45,42 @@ def check(path):
         return [f"UNREADABLE {path}: {exc}"], None
 
     fails = []
-    sections = re.findall(r'<section(?:\s+class="([^"]*)")?>', html)
+
+    # Parse every section tag, not just those whose first attribute is class.
+    # `<section class="dist" id="d">` was invisible to the old pattern, so a
+    # package that opened on the distillation reported "opens on: chapter".
+    tags = re.findall(r"<section\b[^>]*>", html)
+    sections = [re.search(r'class="([^"]*)"', t).group(1)
+                if re.search(r'class="([^"]*)"', t) else "" for t in tags]
     first = (sections[0] or "chapter") if sections else None
 
-    # 1. The package opens on the chapter, never on apparatus.
+    # 1. The package opens on the chapter, never on apparatus. POSITION, not
+    #    class name: "distback" is a label, and a section classed "dist distback"
+    #    placed first passed this check clean until 2026-09-18. Only the index
+    #    proves a thing is at the back.
     if first is None:
         fails.append("no <section> found; cannot tell what the package opens on")
-    elif "dist" in first and "distback" not in first:
+    elif "dist" in (sections[0] or ""):
         fails.append("opens on the distillation; the shipped manuscript has none")
 
-    # 2. Any distillation is at the back and labelled as not-for-readers.
+    # 2. Any distillation is last, and labelled as not-for-readers.
+    for i, c in enumerate(sections):
+        if "dist" in (c or "") and i != len(sections) - 1:
+            fails.append(f"a distillation section is not last "
+                         f"(position {i + 1} of {len(sections)})")
     if any("dist" in (c or "") for c in sections):
         if not any("distback" in (c or "") for c in sections):
             fails.append("a distillation section is not marked distback")
         if "Not part of the chapter" not in html:
             fails.append("apparatus present but not labelled as apparatus")
 
-    # 3. No apparatus heading reached the reader.
-    for word in APPARATUS:
-        if re.search(r"<h[1-3][^>]*>[^<]*" + re.escape(word), html, re.I):
-            fails.append(f"apparatus heading in reader output: {word!r}")
+    # 3. No apparatus heading reached the reader. Strip inner tags first:
+    #    <h2><span>Draft Notes</span></h2> escaped the old scan.
+    for m in re.finditer(r"<h[1-3][^>]*>(.*?)</h[1-3]>", html, re.S | re.I):
+        text = re.sub(r"<[^>]+>", "", m.group(1))
+        for word in APPARATUS:
+            if word.lower() in text.lower():
+                fails.append(f"apparatus heading in reader output: {word!r}")
 
     return fails, first
 
