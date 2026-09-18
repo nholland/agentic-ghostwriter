@@ -1,6 +1,6 @@
 ---
 id: 005
-status: ruled
+status: resolved
 raised_by: gw-retro
 chapter: 12
 opened: 2026-09-14 11:22
@@ -19,3 +19,5 @@ okf_gate.py reports okf/citations/gottman-four-horsemen.md as overclaiming. Only
 **Reopened as RULED (2026-09-15).** The ruling above was recorded and never applied: the citation gate passes is still not true on disk. Closing an item cannot mean the author said something; it has to mean the thing is true. This closes itself when `python3 scripts/okf_gate.py` exits 0.
 
 **Proof command corrected 2026-09-15.** It was `python3 scripts/okf_gate.py`, and the gate stopped blocking on unverified work the same day - so the item closed itself while the citation was untouched. A proof command must check the thing the ruling names, not a gate whose meaning can change underneath it.
+
+**Applied, confirmed 2026-09-18 20:09:** `grep -q '^status: verifiable' /home/user/playground-260420/books/the-stoic-husband/okf/citations/gottman-four-horsemen.md` now exits 0.

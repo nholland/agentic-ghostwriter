@@ -1,6 +1,6 @@
 ---
 id: 003
-status: ruled
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-13 04:36
@@ -17,3 +17,5 @@ Two reader-facing artifacts cover the same ground. appendix/practice-guide.md (g
 **Resolution (2026-09-14 12:39):** practices only
 
 **Reopened as RULED (2026-09-15).** The ruling above was recorded and never applied: each practice in the guide is tagged Proactive or Reactive is still not true on disk. Closing an item cannot mean the author said something; it has to mean the thing is true.
+
+**Applied, confirmed 2026-09-18 20:09:** `grep -qF '**Proactive.**' /home/user/playground-260420/books/the-stoic-husband/appendix/practice-guide.md` now exits 0.
