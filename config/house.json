@@ -39,11 +39,11 @@
       "spec_number": 40
     },
     "metaphor_family_max_per_1000": {
-      "value": 3,
-      "source": "01-voice.md / refine Cat H: 'more than roughly 3 times per 1,000 words'",
-      "note": "Requires the drafter to declare the chapter's anchor metaphor family in Draft Notes. Undeclared means unchecked, and the script says so rather than passing silently.",
-      "spec_probe": "3 total mentions|~3 mentions",
-      "spec_number": 3
+      "value": 5,
+      "source": "01-voice.md Counted rules: 'up to 5 where the anchor image carries the chapter's mechanism rather than decorating it, declared in Draft Notes'",
+      "note": "Requires the drafter to declare the chapter's anchor metaphor family in Draft Notes. Undeclared means unchecked, and the script says so rather than passing silently. Raised 3->5 2026-09-18 (runs/revisions/2026-09-16-voice-metaphor-cap.md): the base rate is still ~3 per 1,000 words, scaled by length; 5 is the ceiling for a chapter whose anchor image carries the mechanism itself.",
+      "spec_probe": "up to 5 where the anchor image carries",
+      "spec_number": 5
     },
     "rhetorical_device_max": {
       "value": 2,
