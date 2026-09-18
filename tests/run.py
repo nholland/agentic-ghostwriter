@@ -12,9 +12,12 @@ directory has not been proved; it has been asserted.
 
     python3 tests/run.py          # every fixture; exit 1 on any failure
 """
+import json
 import os
+import shutil
 import subprocess
 import sys
+import tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
@@ -36,6 +39,20 @@ def package_cases():
          "check then reported 'opens on: chapter'"),
         ("apparatus-in-span.html", True,
          "<h2><span>Draft Notes</span></h2> escaped the apparatus scan"),
+        ("single-quoted-class.html", True,
+         "#025: class='dist distback' (single-quoted) escaped the double-quote regex"),
+        ("div-container.html", True,
+         "#025: a <div class=\"dist\"> container - only <section> was known"),
+        ("nested-distillation.html", True,
+         "#025: a distillation nested inside the chapter section was 'last' by "
+         "flat index though more chapter prose followed it on the page"),
+        ("entity-in-heading.html", True,
+         "#025: <h2>Editor&#39;s Notes</h2> - the entity was never unescaped"),
+        ("h4-apparatus-heading.html", True,
+         "#025: <h4>Draft Notes</h4> - the old scan was h1-h3 only"),
+        ("unrecognised-first-section.html", True,
+         "#025: a classless, headingless first section defaulted to \"chapter\" "
+         "instead of failing closed as unrecognised"),
         ("good.html", False, "chapter first, distillation last and labelled"),
     ]
     out = []
@@ -47,47 +64,119 @@ def package_cases():
     return out
 
 
-def voice_rules_cases():
-    """Mutate each threshold, assert the check catches it, restore the file."""
-    import json
-    import shutil
-    cfg = os.path.join(REPO, "config", "house.json")
-    bak = cfg + ".testbak"
-    shutil.copy(cfg, bak)
-    out = []
-    try:
+def _isolated_engine():
+    """Copy scripts/ + config/ into a tempdir so mutating a threshold never
+    touches the tracked config/house.json (#026: a killed run used to leave
+    it corrupted - 12/12 on two concurrent runs - and block every prose desk).
+    Returns the path to the copied voice_rules_check.py."""
+    tmp = tempfile.mkdtemp(prefix="gw-tests-engine-")
+    shutil.copytree(os.path.join(REPO, "scripts"), os.path.join(tmp, "scripts"))
+    shutil.copytree(os.path.join(REPO, "config"), os.path.join(tmp, "config"))
+    return tmp
+
+
+def _run_isolated(engine_tmp, book_repo, cfg_mutator=None):
+    """Run the isolated copy's voice_rules_check.py against book_repo, after
+    cfg_mutator (if given) edits the isolated copy's config/house.json."""
+    cfg = os.path.join(engine_tmp, "config", "house.json")
+    if cfg_mutator:
         d = json.load(open(cfg))
-        for name in list(d["voice_rules"]):
-            if not isinstance(d["voice_rules"][name], dict):
+        cfg_mutator(d)
+        json.dump(d, open(cfg, "w"), indent=2)
+    env = dict(os.environ, GW_BOOK_REPO=book_repo)
+    return subprocess.run(
+        [sys.executable, os.path.join(engine_tmp, "scripts", "voice_rules_check.py")],
+        capture_output=True, text=True, env=env)
+
+
+def _fake_book(voice_md_text):
+    """A minimal book repo - book-manifest.json + bookRoot/01-voice.md - so
+    the DRIFT fixture can mutate spec text without touching the real book."""
+    book = tempfile.mkdtemp(prefix="gw-tests-book-")
+    os.makedirs(os.path.join(book, "the-book"))
+    json.dump({"bookRoot": "the-book", "books": {"the-book": {"title": "test"}}},
+              open(os.path.join(book, "book-manifest.json"), "w"))
+    open(os.path.join(book, "the-book", "01-voice.md"), "w", encoding="utf-8") \
+        .write(voice_md_text)
+    return book
+
+
+def voice_rules_cases():
+    """Run voice_rules_check.py, isolated (#026), against three states: the
+    real book untouched (must PASS clean - #024's missing baseline), each
+    threshold mutated in turn (must MISMATCH, the rule NAMED in the output,
+    not just a non-zero exit - #024), and a spec with one probe's wording
+    removed (must DRIFT, the rule named - #024's missing fixture)."""
+    import resolve_book
+    real_cfg = resolve_book.load_config()
+    real_book, _, _ = resolve_book.resolve(real_cfg)
+    out = []
+    if not real_book:
+        out.append((False, "voice_rules baseline", "no book repo resolvable",
+                    "cannot test against a spec that is not there"))
+        return out
+    rep = resolve_book.inspect(real_book, require_okf=False)
+    spec_path = rep["info"].get("bookRoot")
+    real_spec_text = open(os.path.join(spec_path, "01-voice.md"),
+                          encoding="utf-8").read() if spec_path else ""
+
+    engine_tmp = _isolated_engine()
+    try:
+        # Baseline: the pristine config against the real spec must PASS clean.
+        # Verified 2026-09-18: without this, a check whose main() only ever
+        # returns 1 still scored 14/14, because nothing asserted the healthy
+        # case ever printed ok.
+        r = _run_isolated(engine_tmp, real_book)
+        clean = r.returncode == 0 and "MISMATCH" not in r.stdout and "DRIFT" not in r.stdout
+        out.append((clean, "voice_rules baseline",
+                    "the unmutated config must PASS with no MISMATCH or DRIFT",
+                    r.stdout.strip().splitlines()[-1] if r.stdout else r.stderr[:80]))
+
+        # Each threshold mutated +7: must MISMATCH, and that rule must be
+        # named in the output - non-zero exit alone is what a dead check and
+        # a live one have in common.
+        d = json.load(open(os.path.join(REPO, "config", "house.json")))
+        for name, rule in d["voice_rules"].items():
+            if not isinstance(rule, dict) or "value" not in rule:
                 continue
-            if "value" not in d["voice_rules"][name]:
-                continue
-            orig = d["voice_rules"][name]["value"]
-            d["voice_rules"][name]["value"] = float(orig) + 7
-            json.dump(d, open(cfg, "w"), indent=2)
-            r = subprocess.run([sys.executable, os.path.join(REPO, "scripts",
-                                                            "voice_rules_check.py")],
-                               capture_output=True, text=True)
-            caught = r.returncode != 0 and "Traceback" not in r.stderr
+            orig = rule["value"]
+            mutated = float(orig) + 7
+
+            def mutate(cfg, name=name, mutated=mutated):
+                cfg["voice_rules"][name]["value"] = mutated
+            r = _run_isolated(engine_tmp, real_book, mutate)
+            named = "MISMATCH" in r.stdout and name in r.stdout
+            caught = r.returncode != 0 and "Traceback" not in r.stderr and named
             out.append((caught, f"voice_rules mutation {name}",
-                        f"{orig} -> {orig + 7} must be caught",
+                        f"{orig} -> {mutated} must MISMATCH, named in the output",
                         r.stdout.strip().splitlines()[-1] if r.stdout else r.stderr[:80]))
-            d["voice_rules"][name]["value"] = orig
-            json.dump(d, open(cfg, "w"), indent=2)
 
         # The one honest state must print, not crash. Removing spec_number is
         # exactly what a ninth rule added without one would look like.
-        d["voice_rules"]["em_dash_max"].pop("spec_number", None)
-        json.dump(d, open(cfg, "w"), indent=2)
-        r = subprocess.run([sys.executable, os.path.join(REPO, "scripts",
-                                                        "voice_rules_check.py")],
-                           capture_output=True, text=True)
-        out.append(("Traceback" not in r.stderr, "voice_rules spec_number null",
-                    "an undeclared number must report UNCHECKED, never crash",
-                    "crashed" if "Traceback" in r.stderr else "reported"))
+        def strip_spec_number(cfg):
+            cfg["voice_rules"]["em_dash_max"].pop("spec_number", None)
+        r = _run_isolated(engine_tmp, real_book, strip_spec_number)
+        unchecked = "UNCHECKED" in r.stdout and "em_dash_max" in r.stdout
+        out.append((unchecked and "Traceback" not in r.stderr,
+                    "voice_rules spec_number null",
+                    "an undeclared number must report UNCHECKED by name, never crash",
+                    "crashed" if "Traceback" in r.stderr else r.stdout.strip().splitlines()[-1]))
+
+        # DRIFT: the founding purpose of this check had no fixture at all.
+        # Remove the em-dash rule's own source phrase from the spec; the
+        # check must report DRIFT, naming em_dash_max, not silently pass it.
+        drifted_spec = real_spec_text.replace("Never use em-dashes", "Avoid long dashes")
+        fake_book = _fake_book(drifted_spec)
+        try:
+            r = _run_isolated(engine_tmp, fake_book)
+            drift_named = "DRIFT" in r.stdout and "em_dash_max" in r.stdout
+            out.append((drift_named and r.returncode != 0, "voice_rules DRIFT fixture",
+                        "a probe phrase removed from 01-voice.md must DRIFT, named",
+                        r.stdout.strip().splitlines()[-1] if r.stdout else r.stderr[:80]))
+        finally:
+            shutil.rmtree(fake_book, ignore_errors=True)
     finally:
-        shutil.copy(bak, cfg)
-        os.remove(bak)
+        shutil.rmtree(engine_tmp, ignore_errors=True)
     return out
 
 

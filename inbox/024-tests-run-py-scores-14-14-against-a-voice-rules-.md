@@ -1,9 +1,10 @@
 ---
 id: 024
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 18:45
+resolved: 2026-09-18 19:22
 ---
 
 # tests/run.py scores 14/14 against a voice_rules_check.py that is simply broken. Add a baseline and a DRIFT fixture?
@@ -19,3 +20,5 @@ main() replaced with 'return 1' -> tests/run.py prints 14/14 fixtures pass. GW_B
 ```
 
 **What unblocks this:** Whether tests/ is evidence or decoration. Every future proposal closing on tests/run.py inherits this.
+
+**Resolution (2026-09-18 19:22):** Apply all four (Recommended)

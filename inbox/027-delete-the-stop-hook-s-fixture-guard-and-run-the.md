@@ -1,9 +1,11 @@
 ---
 id: 027
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 18:45
+resolved: 2026-09-18 19:22
+applied_by: ! grep -q 'git diff --quiet HEAD -- scripts' .claude/hooks/session-stop.sh
 ---
 
 # Delete the Stop hook's fixture guard and run the fixtures unconditionally?
@@ -19,3 +21,9 @@ pristine clean: SKIPPED. unstaged: runs. staged: runs. COMMITTED: SKIPPED. untra
 ```
 
 **What unblocks this:** Whether the fixtures run at the end of the session that changed a check.
+
+**Resolution (2026-09-18 19:22):** Apply all four (Recommended)
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'git diff --quiet HEAD -- scripts' .claude/hooks/session-stop.sh` exits 0.
+
+**Applied, confirmed 2026-09-18 19:22:** `! grep -q 'git diff --quiet HEAD -- scripts' .claude/hooks/session-stop.sh` now exits 0.

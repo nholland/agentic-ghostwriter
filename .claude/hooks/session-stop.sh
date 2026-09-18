@@ -55,12 +55,13 @@ esac
 # script|what is stale|what to do about it.
 # The stored fixtures. Two checks written on 2026-09-17 each contained the defect
 # they were written to fix, because each was proved by a one-off run nobody kept.
-# These are those proofs, kept. Runs only when a script or fixture changed.
-if git diff --quiet HEAD -- scripts/ tests/ 2>/dev/null; then :; else
-  if ! out=$(python3 tests/run.py 2>&1); then
-    echo "FIXTURES FAILING: a check no longer catches what it was written to catch." >&2
-    echo "$out" | tail -20 >&2
-  fi
+# These are those proofs, kept. Unconditional (#027): a `git diff --quiet HEAD`
+# guard here skipped in 5 of 6 real tree states, including the normal end of a
+# session - the author commits the very check he edited, then the guard sees a
+# clean tree and never runs it. The run is 0.3s; the guard cost more than it saved.
+if ! out=$(python3 tests/run.py 2>&1); then
+  echo "FIXTURES FAILING: a check no longer catches what it was written to catch." >&2
+  echo "$out" | tail -20 >&2
 fi
 
 DERIVED="

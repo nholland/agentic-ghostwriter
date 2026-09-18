@@ -1,9 +1,11 @@
 ---
 id: 025
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 18:45
+resolved: 2026-09-18 19:22
+applied_by: python3 tests/run.py
 ---
 
 # package_check.py still passes six packages that open on apparatus, all printing 'opens on: chapter'. Replace class-name reasoning with document position?
@@ -19,3 +21,9 @@ grep -o '<section[^>]*>' on the live Ch12 package returns '<section>' then '<sec
 ```
 
 **What unblocks this:** Whether the only gate that reads what a reader receives fails open or fails closed.
+
+**Resolution (2026-09-18 19:22):** Apply all four (Recommended)
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/run.py` exits 0.
+
+**Applied, confirmed 2026-09-18 19:22:** `python3 tests/run.py` now exits 0.
