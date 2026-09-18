@@ -441,13 +441,17 @@ marketing commands happened the first time.
 Interview (two rounds, five rulings), research, draft, refine (2 rounds — Rule 6's
 last, the objection row moved FAIL→PASS on the refined prose, confirmed by a fresh
 clean-room desk), plate, verdict. Three pauses happened as designed and no others.
-19 inbox items raised on this chapter, all resolved: the scene the Ghostwriter had
-no permission to invent (#008), a concrete instance for an abstract paragraph
-(#009), a key point a desk moved without ruling (#011), a definition collision with
-Ch6 (#013), a trademark hedge (#010), a redundant mechanism with Ch11 (#012), a
-cushioned admission (#014), a love-language contradiction against the chapter's own
-source (#016-#018), and a plate drawn against a mechanism the chapter no longer had
-after the author's atrophy reframe (#019).
+**12 inbox items raised on this chapter, all resolved** (`scripts/inbox.py --all
+--chapter 12`, counted - a hand enumeration first put this at 19, caught by the
+Archivist the same session): the citation claiming more than its evidence (#005),
+the scene the Ghostwriter had no permission to invent (#008), a concrete instance
+for an abstract paragraph (#009), a trademark hedge (#010), a key point a desk
+moved without ruling (#011), a redundant mechanism with Ch11 (#012), a definition
+collision with Ch6 (#013), a cushioned admission (#014), a love-language claim
+against the chapter's own source (#016, #017 — the correction itself is #018,
+tagged ch0, since it landed outside this chapter), a plate drawn against a
+mechanism the chapter no longer had after the author's atrophy reframe (#019),
+and a staged citation link that would have broken on landing (#029).
 
 **What worked:** the two-touch design held under real pressure — every content
 concept was proposed and answered before being written, never inferred. Rule 8(e)

@@ -68,7 +68,10 @@ fails in exactly one hard-to-notice way, and that is it.
    chapter; it goes to the inbox.
 6. **Verdict package** — run `/gw-compile NN` to produce the PDF. Then hand him
    the package: the PDF, the plate, the counts as the scripts printed them, the
-   conformance rows, and every inbox item raised during the run. Pause 3.
+   conformance rows, and `python3 scripts/inbox.py --all --chapter NN` for every
+   inbox item this chapter raised — run it, don't recall it (a hand-enumerated
+   list of Ch12's items disagreed with the script by 7, silently, until a fixed
+   `--chapter` filter existed). Pause 3.
 
 ## After the verdict
 
@@ -80,8 +83,9 @@ fails in exactly one hard-to-notice way, and that is it.
   reproduces the package.
 - If the old pipeline also has this chapter, offer `/gw-bakeoff NN`.
 - Record in `FINDINGS.md`: which pauses happened, how many gate rounds each cold
-  stage took, every inbox item, and any discrepancy between a desk's
-  self-reported count and the script's. One honest entry per chapter.
+  stage took, `scripts/inbox.py --all --chapter NN`'s count (paste it, don't
+  restate it from memory), and any discrepancy between a desk's self-reported
+  count and a script's. One honest entry per chapter.
 
 ## What this command never does
 

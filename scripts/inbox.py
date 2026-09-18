@@ -310,6 +310,15 @@ def main():
     for it in reconcile(items):
         print(f"inbox: #{it['id']} is now applied - closing it. ({it['title']})")
 
+    # --chapter on a read call filters. Before this, --chapter was accepted,
+    # exited 0, and printed every item under a header claiming the whole
+    # inbox's counts - a desk (or the Publisher, writing FINDINGS.md by hand)
+    # asking "what did chapter 12 raise" got a plausible answer covering all
+    # 30 items, no error. That silent miss produced three disagreeing counts
+    # for Chapter 12 in one commit (19, 11, 12) before this filter existed.
+    if a.chapter:
+        items = [i for i in items if i["chapter"] == a.chapter]
+
     if a.json:
         print(json.dumps({"open": [i for i in items if i["status"] == "open"],
                           "ruled": [i for i in items if i["status"] == "ruled"],

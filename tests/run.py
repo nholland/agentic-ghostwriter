@@ -207,6 +207,50 @@ def next_cases():
     return out
 
 
+def inbox_cases():
+    """--chapter must filter on read (2026-09-18: it was accepted, exited 0, and
+    printed every item under a header claiming the whole inbox's counts - a
+    desk asking what one chapter raised got a plausible answer covering all
+    30 items, no error. That silent miss produced three disagreeing counts for
+    Chapter 12 in one commit before this fixture existed). Isolated: a fake
+    scripts/+inbox/ copy, never the tracked inbox/, so this does not depend
+    on - or drift with - the real inbox's contents."""
+    import subprocess as sp
+    out = []
+    tmp = tempfile.mkdtemp(prefix="gw-tests-inbox-")
+    try:
+        shutil.copytree(os.path.join(REPO, "scripts"), os.path.join(tmp, "scripts"))
+        idir = os.path.join(tmp, "inbox")
+        os.makedirs(idir)
+        items = [
+            ("001", "12", "open"), ("002", "0", "open"),
+            ("003", "12", "resolved"), ("004", "7", "resolved"),
+        ]
+        for iid, ch, status in items:
+            open(os.path.join(idir, f"{iid}-fixture.md"), "w").write(
+                f"---\nid: {iid}\nstatus: {status}\nraised_by: fixture\n"
+                f"chapter: {ch}\nopened: 2026-01-01 00:00\n---\n# fixture {iid}\n")
+
+        def run(*args):
+            r = sp.run([sys.executable, os.path.join(tmp, "scripts", "inbox.py"), *args],
+                       capture_output=True, text=True)
+            return json.loads(r.stdout) if r.stdout.strip().startswith("{") else None
+
+        d = run("--all", "--json", "--chapter", "12")
+        got = sorted(i["id"] for k in ("open", "ruled", "resolved") for i in (d or {}).get(k, []))
+        out.append((got == ["001", "003"], "inbox --chapter filters on read",
+                    "--chapter 12 must return only the two chapter-12 fixtures",
+                    got))
+
+        d_all = run("--all", "--json")
+        got_all = sorted(i["id"] for k in ("open", "ruled", "resolved") for i in (d_all or {}).get(k, []))
+        out.append((got_all == ["001", "002", "003", "004"], "inbox --all with no --chapter, unfiltered",
+                    "omitting --chapter must still return every fixture", got_all))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
 def staged_link_cases():
     """okf_gate.py must catch a runs/chNN/okf/ link written with the shadow-tree
     prefix (#029: 5 of Ch12's 23 staged citations carried 9 such links, caught
@@ -243,7 +287,8 @@ def staged_link_cases():
 
 
 def main():
-    rows = package_cases() + voice_rules_cases() + next_cases() + staged_link_cases()
+    rows = (package_cases() + voice_rules_cases() + next_cases()
+           + inbox_cases() + staged_link_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")
