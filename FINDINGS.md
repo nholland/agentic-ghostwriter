@@ -433,3 +433,51 @@ the publication stack is built it should be **one** `/gw-publish` with a mode pe
 deliverable, not seven skills: they share every input, and splitting them is how ten
 marketing commands happened the first time.
 
+
+---
+
+## 2026-09-18 — Chapter 12 shipped: the house's first chapter, end to end
+
+Interview (two rounds, five rulings), research, draft, refine (2 rounds — Rule 6's
+last, the objection row moved FAIL→PASS on the refined prose, confirmed by a fresh
+clean-room desk), plate, verdict. Three pauses happened as designed and no others.
+19 inbox items raised on this chapter, all resolved: the scene the Ghostwriter had
+no permission to invent (#008), a concrete instance for an abstract paragraph
+(#009), a key point a desk moved without ruling (#011), a definition collision with
+Ch6 (#013), a trademark hedge (#010), a redundant mechanism with Ch11 (#012), a
+cushioned admission (#014), a love-language contradiction against the chapter's own
+source (#016-#018), and a plate drawn against a mechanism the chapter no longer had
+after the author's atrophy reframe (#019).
+
+**What worked:** the two-touch design held under real pressure — every content
+concept was proposed and answered before being written, never inferred. Rule 8(e)
+fired correctly and unprompted: a wording change to satisfy #001 broke
+`bold_max_per_piece`'s probe the same session, `okf_gate.py` caught it as structural
+DRIFT, one commit fixed it. `--applied-by` closed the standing complaint that 0 of
+16 Archivist proposals had ever actually landed — seven of nine items closed this
+arc closed on a re-runnable proof command instead of a status field.
+
+**What was too hard, alone:** landing the chapter into the book repo needed real
+judgment calls a script couldn't make — which of two research rounds to ship
+(round 2 only; round 1 is working apparatus, not a second source of truth),
+whether "supersedes nothing" in a file's own header overrides a later shipping
+decision (it doesn't), what a "prose-only" chapter file means against a sibling
+chapter's full-apparatus convention. Each was resolved by reading the actual
+target convention rather than trusting either source's self-description.
+
+**What broke, caught only by re-deriving it:** two structural bugs surfaced during
+this chapter's landing that had nothing to do with the chapter itself. `next.py`
+had no terminal chapter stage — a shipped chapter reported "waiting on your
+verdict" forever, which would have silently pinned the oracle on Ch12 the moment
+Ch13 existed (fixed: #028, a `verdict.md` file is now the exit, written only when
+the author actually gives the verdict). Five of Ch12's 23 staged citation files
+carried internal links written for the shadow tree, not the book's own convention
+— 9 links that would have broken on arrival, caught by eye, then closed
+structurally so the next chapter's citations are checked before they land (#029).
+Ninth and tenth instances of the same house shape: a plausible answer, no error,
+caught only by running it against a state whose right answer was already known.
+
+**Recurs:** every defect this arc found was in something no script read — the
+oracle's own terminal state, a staged bundle's internal links, a review window
+keyed to the wrong commit. The prose gates are earning their keep; the state and
+staging layers are where the house is still finding its own blind spots.
