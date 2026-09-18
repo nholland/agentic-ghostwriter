@@ -21,11 +21,14 @@ holds.
 
 ## Why this stage cannot be automated
 
-On Chapter 11, five of eight exchanges were the author correcting the brief, and
-four of the ideas the chapter rests on exist only because he was there to say
-them. A cold pipeline would have shipped the wrong chapter and nothing would have
-asked. Treat every one of his corrections as the most valuable output of the
-session, not as friction.
+A cold pipeline cannot ask the author anything, and every chapter interviewed so
+far has produced material nothing else could have supplied: on Ch11, five of
+eight exchanges were him correcting the brief; on Ch12, round 2's five questions
+produced five rulings that changed the chapter's central story and its central
+claim (`runs/ch12/interview.md`, Provenance). See `FINDINGS.md` for the running
+record, one entry per chapter — a single pinned example goes stale the moment a
+later chapter makes a stronger one. Treat every one of his corrections as the
+most valuable output of the session, not as friction.
 
 ## The interview
 

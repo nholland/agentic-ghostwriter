@@ -49,9 +49,11 @@ to the gap, not to the ambition.*
 **What was too hard.** A command the author had to remember or asked about twice. A
 step that needed explaining. Two skills that do nearly the same thing. Prose
 instructions a script could replace. A desk doing work a cheaper mechanism could.
-*This is where simplification comes from. The corpus is ~9,900 words against
-82,800; the whole point is that it does not grow for free, and shrinking is a
-finding too.*
+*This is where simplification comes from. The corpus was ~9,900 words against
+the old pipeline's 82,800 when that ratio was first measured; count it again
+before citing it (`cat CLAUDE.md .claude/agents/*.md .claude/skills/*/SKILL.md
+| wc -w` — 16,569 as of 2026-09-18). The whole point is that it does not grow
+for free, and shrinking is a finding too.*
 
 **What worked.** Name it. A gate that caught something, a desk that came back
 clean first time, a phrasing the author reached for naturally. A later
@@ -91,10 +93,12 @@ existed but was invisible to the stage that needed it.
 
 ## Your proposals must be able to close themselves
 
-0 of 16 proposals across two sessions were applied. Rulings land; proposals do
-not, because a ruling has a close-condition and a proposal is prose in a file
-nobody greps. So end your return with the `inbox.py --add` command for each
-proposal, ready to run:
+Before `--applied-by` existed, 0 of 16 proposals across two sessions were ever
+applied: rulings land, proposals do not, because a ruling has a close-condition
+and a proposal is prose in a file nobody greps. `--applied-by` fixed it — as of
+2026-09-18, 9 of those same 16 have closed on a re-runnable proof command
+(`grep -c 'raised_by: gw-retro'` against `inbox/*.md`, cross-checked against
+each one's `applied_by` field). Keep ending every proposal this way:
 
 ```
 python3 scripts/inbox.py --add "<the proposal, as a question he can rule on>" \
@@ -110,9 +114,6 @@ green over two half-fixes: a check that crashed on its own honest state, and one
 that passed the very defect it was written for. Add the failing input to
 `tests/fixtures/` and point `--applied-by` at `tests/run.py`. A proof that cannot
 be re-run is a comment.
-
-```
-```
 
 The Publisher runs them on his yes. `--applied-by` is the point: a proposal he
 accepts becomes an item that closes itself when the change lands, and `next.py`
