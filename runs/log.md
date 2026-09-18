@@ -1428,3 +1428,31 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `tests/run.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:49 — `claude/gateway-iqyyso` — 8 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-retro.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `inbox/024-tests-run-py-scores-14-14-against-a-voice-rules-.md`
+- `inbox/025-package-check-py-still-passes-six-packages-that-.md`
+- `inbox/026-tests-run-py-mutates-the-tracked-config-house-js.md`
+- `inbox/027-delete-the-stop-hook-s-fixture-guard-and-run-the.md`
+- `runs/log.md`
+- `runs/migration/2026-09-18-migration-manifest.md`
+- `runs/retro/2026-09-18-the-fixtures-cannot-fail.md`
+- `scripts/package_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/fixtures/apparatus-in-span.html`
+- `tests/fixtures/distback-but-first.html`
+- `tests/fixtures/extra-attribute.html`
+- `tests/fixtures/good.html`
+- `tests/fixtures/opens-on-distillation.html`
+- `tests/run.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
