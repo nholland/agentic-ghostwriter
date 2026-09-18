@@ -81,7 +81,13 @@ fails in exactly one hard-to-notice way, and that is it.
   even once a later chapter is fully refined beside it (inbox #028). Do not
   write it before he has given the verdict, and never on a re-run that only
   reproduces the package.
-- If the old pipeline also has this chapter, offer `/gw-bakeoff NN`.
+- **Land it:** `python3 scripts/land.py NN`. It refuses without `verdict.md`,
+  refuses a staged citation link that would break on arrival, copies the prose
+  above Editor's Notes, the distillation, the brief, the interview record, the
+  plate and the citation concepts into `{bookRoot}`, appends the practice-guide
+  section, regenerates `citation-queue.md`, and runs `practice_sync.py --book`
+  and the validator. Then commit it as its own commit, naming the verdict. The
+  script lands; it never invents - anything it cannot find, it says so and stops.
 - Record in `FINDINGS.md`: which pauses happened, how many gate rounds each cold
   stage took, `scripts/inbox.py --all --chapter NN`'s count (paste it, don't
   restate it from memory), and any discrepancy between a desk's self-reported
@@ -89,5 +95,5 @@ fails in exactly one hard-to-notice way, and that is it.
 
 ## What this command never does
 
-Write inside the book repo. Skip a gate because the prose read clean. Resolve
+Let a desk write inside `books/`. Skip a gate because the prose read clean. Resolve
 an inbox item on his behalf. Report a count from memory.

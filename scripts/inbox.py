@@ -150,9 +150,8 @@ def do_add(a, items):
 def applied(cmd):
     """Run the proof command. Exit 0 means the ruling actually landed.
 
-    Read-only by construction: this engine never writes in the book repo
-    (CLAUDE.md Rule 8), so the most it may do across that boundary is look and
-    decline to call a thing done.
+    Read-only by construction: a proof command looks and declines to call a
+    thing done. It never makes the change it is checking for.
     """
     try:
         r = subprocess.run(cmd, shell=True, cwd=REPO, timeout=120,
@@ -269,8 +268,8 @@ def render(items, show_all):
     L.append("")
     L.append("  Full text: inbox/*.md   Close: scripts/inbox.py --close N --resolution '...'")
     if ruled:
-        L.append("  A RULED item is your decision waiting on a change this engine cannot")
-        L.append("  make - it lives in the book repo. It closes itself once the change lands.")
+        L.append("  A RULED item is your decision waiting on a change that has not landed")
+        L.append("  yet. It closes itself once its proof command passes.")
     return "\n".join(L)
 
 
@@ -290,8 +289,8 @@ def main():
     ap.add_argument("--close", metavar="N")
     ap.add_argument("--applied-by", default="", metavar="COMMAND",
                     help="shell command that exits 0 only once this ruling has "
-                         "actually landed. Use it whenever the change belongs to "
-                         "the book repo, which this engine never writes to.")
+                         "actually landed. Use it whenever the change has not "
+                         "landed yet: a recorded ruling is not an applied one.")
     ap.add_argument("--resolution", default="",
                     help="the author's ruling, in his own words. Recorded verbatim "
                          "on the closed item; without it the close warns and the "
@@ -306,7 +305,7 @@ def main():
 
     # Reconcile before reporting: a ruling that has since landed should not still
     # be listed as waiting, and the author should not have to run anything to
-    # find that out. This reads; it never writes in the book repo.
+    # find that out. This reads; a proof command never makes the change it checks for.
     for it in reconcile(items):
         print(f"inbox: #{it['id']} is now applied - closing it. ({it['title']})")
 

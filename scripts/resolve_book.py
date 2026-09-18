@@ -11,6 +11,11 @@ WHY THIS EXISTS
     missing voice spec does not crash, it just writes generic prose. A silent
     wrong answer, which is the failure mode this whole repo is built against.
 
+    Since 2026-09-18 (inbox #007) the book lives in THIS repo: book-manifest.json
+    at the root, the book under books/<slug>/. The first config hint is "." and
+    resolution normally stops there. The rest of the order is kept so a checkout
+    that predates the migration still resolves loudly rather than drafting blind.
+
     So the path is discovered and VALIDATED, never assumed, and this script
     exits non-zero with a readable reason rather than letting a desk run blind.
 
@@ -198,13 +203,13 @@ def main():
                       f"scanned under {', '.join(bases)} - none held book-manifest.json")
             print("\nFix by one of:")
             if os.environ.get("CLAUDE_CODE_REMOTE") == "true":
-                # A fresh container clones only the repo the session was started
-                # from. The book repo is then reachable but absent - the one case
-                # neither remedy below covers, and the only one that can occur here.
-                print("  the book repo is not cloned in this container. Attach it")
-                print("  read-only and clone it beside this repo; discovery finds it:")
-                print(f"    git clone --depth 1 <book-repo-url> {os.path.dirname(REPO)}/<name>")
-            print("  export GW_BOOK_REPO=/path/to/Playground-260420")
+                # Since the 2026-09-18 migration the book is in this repo, so a
+                # miss here means book-manifest.json is gone from the root - a
+                # branch that predates the migration, or a broken checkout.
+                print("  book-manifest.json is missing from this repo's root. Since the")
+                print("  2026-09-18 migration the book lives here (books/<slug>/); check")
+                print("  the branch, or `git checkout main -- book-manifest.json books/`.")
+            print("  export GW_BOOK_REPO=/path/to/a/checkout/holding/book-manifest.json")
             print("  or add the path to 'bookRepoCandidates' in config/house.json")
             print("\nNo desk may run without this. A missing voice spec does not")
             print("raise an error, it produces generic prose.")

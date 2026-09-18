@@ -18,10 +18,10 @@ specifically unblocks it. If an item lacks that context, say so — and treat th
 gap as a defect in the desk that raised it, not as a reason to ask him to
 reconstruct it.
 
-**A ruling applied in the book repo closes with `--applied-by`,** since this
-engine never writes there. Pass a command that exits 0 only once the change is
-real - `--applied-by "python3 scripts/okf_gate.py"`. The item becomes `ruled`
-and closes itself when that passes.
+**A ruling whose change has not landed yet closes with `--applied-by`.** Pass a
+command that exits 0 only once the change is real - a fixture in `tests/run.py`
+for a check, a grep against the file for a text change. The item becomes `ruled`
+and closes itself when that passes; a ruling recorded is not a ruling applied.
 
 ## Closing
 
@@ -29,7 +29,7 @@ Only after he has actually ruled:
 
 ```
 python3 scripts/inbox.py --close N --resolution "what he decided, in his words"
-# add --applied-by "<command>" when the change belongs to the book repo
+# add --applied-by "<command>" when the change has not landed yet
 ```
 
 Record **his** wording, not your summary of it. The next reader needs to know what

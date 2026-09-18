@@ -26,7 +26,9 @@ current work.
 
 | Gap | What it waits on |
 |---|---|
-| The book's `chapter_pdf.py` cannot run in the cloud container | A container carrying weasyprint, or the migration in inbox `#007` |
+| The book's `chapter_pdf.py` cannot run in the cloud container | A container carrying weasyprint. (The migration in `#007` moved the script here; it did not bring the renderer's dependency.) |
+| `books/<slug>/manuscript.md` and `manuscript.pdf` are the old pipeline's last compile and go stale from here | `/gw-compile` writing its whole-book output into the book tree with the coverage in the filename, and retiring these two |
+| Desks still write to `runs/chNN/`; a chapter reaches `books/` only through `land.py` after the verdict ("switch 2" in `FLOW.md`) | A chapter landing that `land.py` could not do, or the apparatus/output split costing more than the landing-step defects it catches (two so far: #029's broken links, the round-1/round-2 brief choice) |
 
 `weasyprint`, `pandoc` and `wkhtmltopdf` are all absent here and pip cannot reach
 PyPI through the egress proxy, so the book repo's one renderer fails at the point

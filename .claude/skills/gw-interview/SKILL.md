@@ -60,8 +60,8 @@ Stamp it with the real clock: `date '+%Y-%m-%d %H:%M'`.
 ## Step 3 — outline revisions
 
 If he changed the commission, say exactly what changed and propose the edit to
-`{bookRoot}/03-outline.md` — **as a proposal.** This skill does not write to the
-book repo. He applies it, or tells you to hand it to the old pipeline.
+`{bookRoot}/03-outline.md` — **as a proposal.** Show the diff; on his yes, apply
+it as its own commit that quotes him. The outline is L4 and is never edited cold.
 
 ## Step 4 — check in, then hand off
 

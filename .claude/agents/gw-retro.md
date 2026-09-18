@@ -21,12 +21,13 @@ up with rules nobody can find.
 
 ## Read
 
-- `git log --stat` and `git diff` for the session: from `.claude/state/session-start-sha`
+- `git log --stat` and `git diff` for the window: from `.claude/state/retro-last-sha`
+  (where the last review ended; fall back to `session-start-sha` only if it is absent)
   to HEAD. This is what actually happened; the rest is context for judging it.
 - `runs/log.md` — the session's derived entries.
 - Inbox items opened or closed this session, with their resolutions in the author's words.
 - `FINDINGS.md` — **all of it.** Your most valuable finding is usually that something has happened before.
-- The book repo's `.claude/LEARNINGS.md` — fourteen retrospectives from the old pipeline. Check it before calling anything new.
+- `.claude/LEARNINGS.md` — fourteen retrospectives from the old pipeline, migrated here with the book. Check it before calling anything new.
 
 ## Review through five lenses
 

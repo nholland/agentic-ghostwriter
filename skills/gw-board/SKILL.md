@@ -1,5 +1,5 @@
 ---
-description: The Publisher's dashboard - where every chapter stands across both pipelines, what each desk has produced, and what is waiting on the author. Run at the start of a session to re-enter.
+description: The Publisher's dashboard - where every chapter stands, what each desk has produced, and what is waiting on the author. Run at the start of a session to re-enter.
 ---
 
 <!-- DERIVED FILE - DO NOT EDIT.
@@ -17,7 +17,7 @@ context"). On the attached-repo path it loads on its own and re-reading is cheap
 on the plugin path this is the only thing that loads it.
 
 It is pointed at rather than copied here on purpose. Two copies of the standing
-rules with nothing keeping them equal is the `citation-manifest.md` failure.
+rules with nothing keeping them equal is the retired citation-manifest failure.
 
 
 ## Run these first, and report what they say
@@ -32,11 +32,11 @@ oracle. If `resolve_book.py` fails, that is the whole report: say so and stop.
 
 ## Then assemble
 
-**The book, from the old pipeline** (read-only): from `resolve_book.py`, the
-active book, chapters planned, chapters refined. The book repo's own
-`scripts/pipeline_state.py` owns its NEXT_ACTION — if the author wants that, tell
-him to run `/book-resume` there rather than guessing it here. This repo does not
-compute the other pipeline's next action.
+**The book** (`books/<slug>/`, read here, written only by a landing): from
+`resolve_book.py`, the active book, chapters planned, chapters refined.
+`book-manifest.json`'s per-chapter stages are the old pipeline's record and stop
+at Chapter 11; `scripts/pipeline_state.py` still reads them if he asks what that
+pipeline last thought. Neither is this house's "next" - `next.py` is.
 
 **This pipeline:** for each `runs/chNN/`, which artifacts exist — `interview.md`,
 `research.md`, `brief-gaps.md`, `draft.md`, `refined.md`, `distillation.md`,

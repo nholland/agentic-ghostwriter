@@ -40,16 +40,16 @@ different things. Never let one field stand in for another.
    evidence bar. **Never invent a house translation.** If the file is absent, fall
    back to `01-voice.md` and say that you did.
 2. Probe reachability rather than assuming it; reachability differs between a
-   cloud container and the author's laptop. Use the book repo's
-   `scripts/verification_probe.py` where present. Do not reason about which lanes
+   cloud container and the author's laptop. Use `scripts/verification_probe.py`.
+   Do not reason about which lanes
    are available — run the probe.
 3. Route each citation by tier and reachability. Fetch and transcribe where a real
    page is reachable; confirm by search only where that is all the claim needs and
    the citation is not verbatim; package the rest for a session with real access.
 4. Record defects in `quality/citation-defects.md` with what is wrong and what the
    fix would be. Propose; do not silently rewrite printed prose.
-5. Regenerate the reader-facing queue with the book repo's
-   `scripts/citation_queue.py` — never hand-maintain it. A file that calls itself
+5. Regenerate the reader-facing queue with `scripts/citation_queue.py` — never
+   hand-maintain it. A file that calls itself
    derived must have a script deriving it.
 6. Gate: `python3 scripts/okf_gate.py`. A structural failure blocks; an unverified citation does not (Rule 4).
 

@@ -13,8 +13,8 @@ contradict each other, a term used as established that nothing ever defined.
 ## Step 0
 
 `python3 scripts/resolve_book.py`. You need the compiled manuscript or the refined
-chapter range. The book repo's `/book-compile` produces the manuscript; this repo
-does not compile, and must not write one into the book repo.
+chapter range. `/gw-compile` produces the manuscript under `runs/`; this skill
+reads it and writes only its own report, `runs/qa/<date>-qa.md`.
 
 If fewer than half the planned chapters are refined, say so before running: a
 tension audit over a third of an arc will report a flat arc that is simply

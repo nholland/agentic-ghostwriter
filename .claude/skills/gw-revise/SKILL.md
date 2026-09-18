@@ -1,5 +1,5 @@
 ---
-description: Revisit a locked foundation artifact - premise, voice, audience, outline, archetype, framework, sources - with the author. Proposes changes for a book another pipeline ships; writes only for a book this engine owns.
+description: Revisit a locked foundation artifact - premise, voice, audience, outline, archetype, framework, sources - with the author, in session. Shows the diff, applies it on his word as its own commit, and moves the engine's mirrored threshold in the same commit.
 ---
 
 # /gw-revise — revisit a locked artifact
@@ -13,12 +13,11 @@ Argument: the artifact name. `$ARGUMENTS`
 python3 scripts/resolve_book.py
 ```
 
-| Case | What you may do |
-|---|---|
-| **This engine created the book** | Revise in place, after check-in. |
-| **Another pipeline ships it** (The Stoic Husband) | **Propose only.** Produce the exact diff and hand it to the author. Writing here creates a second source of truth for an artifact the other pipeline also edits. |
-
-Say which case you are in before showing anything.
+Every book under `books/` is this engine's to revise, in session, after check-in.
+L4 is never edited cold: a desk that thinks it should change files an inbox item,
+and the Publisher brings it here. Where `config/house.json` mirrors a threshold
+(the counted voice rules), the spec changes first and the value in the same
+commit; `voice_rules_check.py` blocks the next gate on a mismatch (Rule 8).
 
 ## Why revision is not regeneration
 
@@ -62,5 +61,6 @@ occurrences before editing, edit, then re-grep to confirm zero remain.**
 
 ## Check in, then stop
 
-Show the diff. Get a response. For a book another pipeline ships, hand him the diff
-and say which of its commands applies it. Do not apply it yourself.
+Show the diff. Get a response. On his yes, apply it as its own commit quoting his
+word, then run `python3 scripts/okf_gate.py` - a threshold the spec no longer
+states is a structural failure and blocks until `config/house.json` follows.

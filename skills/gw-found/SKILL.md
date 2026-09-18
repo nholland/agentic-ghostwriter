@@ -15,20 +15,21 @@ here is a claim about what the author thinks, and a cold desk cannot ask him.
 
 ## The write rule, and its one exception
 
-Every other skill in this repo is forbidden from writing inside the book repo.
-**This one is the exception, and only for a book nobody else is shipping.**
+No cold desk writes inside `books/` (Rule 8). L4 is written in session, by the
+Publisher, and this skill is where a new book's L4 comes from.
 
 At Step 0 decide which case you are in, out loud:
 
 | Case | What you may do |
 |---|---|
-| **New book** | Create `{bookRepo}/books/<slug>/` and author L4 there. The engine owns a book it created from the first file. |
+| **New book** | Create `books/<slug>/`, register it in `book-manifest.json`, and author L4 there. |
 | **Existing book with a complete foundation** | **Write nothing.** Report what exists and stop. Offer `/gw-revise <artifact>`. |
-| **Existing book, partial foundation** | Propose the missing artifacts. Do not write them until the author says which pipeline owns this book. |
+| **Existing book, partial foundation** | Propose the missing artifacts. Write them only on his word, one at a time, after check-in. |
 
-The Stoic Husband is the second case. Its foundation is locked, the other pipeline
-ships it, and a second system authoring its premise is how two sources of truth
-start. Say so plainly rather than helpfully producing a file.
+The Stoic Husband is the second case: its foundation is locked and complete.
+Regenerating a locked artifact deletes the incident history its rules carry (the
+voice spec pairs most rules with what produced them), so this skill never
+regenerates one; `/gw-revise` edits in place.
 
 ## Step 0
 
@@ -36,7 +37,7 @@ start. Say so plainly rather than helpfully producing a file.
 python3 scripts/resolve_book.py
 ```
 
-Read `{bookRepo}/book-manifest.json` for the registry and whether this slug exists.
+Read `book-manifest.json` for the registry and whether this slug exists.
 Then state the case before doing anything else.
 
 ## The sequence
@@ -86,5 +87,4 @@ summarise his "looks good" into a ratification he did not give.
 
 ## Then
 
-`/gw-interview 1` for the first chapter. Record the foundation in the manifest and
-say which pipeline owns this book from here.
+`/gw-interview 1` for the first chapter. Record the foundation in the manifest.

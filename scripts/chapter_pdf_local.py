@@ -2,7 +2,7 @@
 """Render a chapter to PDF with headless Chromium.
 
 WHY THIS EXISTS, and why it is not a second renderer in the sense
-gw-compile/SKILL.md forbids: the book repo's `chapter_pdf.py` is the one
+gw-compile/SKILL.md forbids: the book's `scripts/chapter_pdf.py` is the one
 renderer and it cannot run in this container - weasyprint, pandoc and
 wkhtmltopdf are all absent and pip cannot reach PyPI through the egress
 proxy. This is a fallback that produces the reader package here, and it is

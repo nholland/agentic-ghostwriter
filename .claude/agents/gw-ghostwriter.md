@@ -54,5 +54,6 @@ discover what the brief should have caught.
 
 ## Output
 
-Write to the path you are given. Do not write anywhere else. Do not touch the
-playground repo's `chapters/` tree — your outputs live under this repo's `runs/`.
+Write to the path you are given. Do not write anywhere else. Never inside
+`books/` — the book tree is output, and only the Publisher lands there, after the
+author's verdict. Your outputs live under `runs/`.

@@ -175,7 +175,7 @@ def compute(book):
                "why": f"Chapter {n} is refined and waiting on your verdict."}
     elif next_new:
         nxt = {"action": "start", "command": f"/gw {next_new}", "chapter": next_new,
-               "why": f"Chapter {next_new} has not started in either pipeline."}
+               "why": f"Chapter {next_new} has not started."}
     else:
         nxt = {"action": "qa", "command": "/gw qa", "chapter": None,
                "why": "Every chapter is refined. Whole-book QA is next."}
@@ -239,7 +239,7 @@ def render(state):
     if bl:
         L.append(bl)
     shipped = len(state["shipped_by_book_pipeline"])
-    L.append(f"{state['book']} · {state['chapters_total']} chapters · {shipped} shipped on the book pipeline")
+    L.append(f"{state['book']} · {state['chapters_total']} chapters · {shipped} landed in the book")
     eng = state["engine_chapters"]
     if eng:
         parts = [f"ch{n:02d} {s['stage']}" for n, s in sorted(eng.items())]

@@ -1,5 +1,5 @@
 ---
-description: The Ghostwriter desk drafts a chapter cold from its existing research brief, gated by the brief review, the counted voice script, and the clean-room checker. Writes into this repo's runs/ tree and never touches the book repo. Use for the shadow run of a chapter already researched in the playground pipeline.
+description: The Ghostwriter desk drafts a chapter cold from its research brief, gated by the brief review, the counted voice script, and the clean-room checker. Writes into runs/chNN/ and never inside books/. Use after /gw-research.
 ---
 
 # /gw-draft — draft a chapter cold, gated
@@ -24,13 +24,15 @@ session; a skill reading a missing voice spec does not crash, it writes generic
 prose. Take `bookRoot` from the script's output. Then confirm these exist:
 
 - `{bookRoot}/01-voice.md`, `{bookRoot}/00-premise.md`, `{bookRoot}/03-outline.md`
-- `{bookRoot}/chapters/chNN/research.md`  ← the brief. **Required.**
+- `runs/chNN/research.md`  ← the brief, from `/gw-research`. **Required.**
 
 If the brief is missing, stop and say so. This desk does not research; the
 research interview needs the author in the room and cannot run cold. That is the
 automation boundary and this command does not cross it.
 
-Output directory: `runs/chNN/`. Create it. **Never write inside `{bookRoot}`.**
+Output directory: `runs/chNN/`. Create it. **Never write inside `{bookRoot}`** -
+the book tree is output, and only the Publisher lands there, after the verdict
+(Rule 8).
 
 ## Step 1 — brief review (the first gate)
 
@@ -95,6 +97,6 @@ Then say what the next command is: `/gw-refine NN`.
 
 ## What this command must never do
 
-- Write anywhere inside `{bookRoot}`. The book repo stays untouched.
+- Write anywhere inside `{bookRoot}`. Landing is the Publisher's, after the verdict.
 - Mark a citation verified, or resolve a placeholder with invented content.
 - Claim a check passed that it did not run.

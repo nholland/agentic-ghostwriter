@@ -32,7 +32,7 @@ The House · {book} · {shipped} of {total} shipped
 
   Or just say what you want. Common things:
     /gw 12            run Chapter 12 end to end
-    /gw status        where everything stands, both pipelines
+    /gw status        where everything stands
     /gw inbox         what's waiting on you
     /gw feedback 12   paste what readers said
     /gw compile       a PDF to send to readers
@@ -44,9 +44,6 @@ yet on main, add a line in plain words — *"3 commits are saved on this branch 
 not yet on main. Say* put it on main *when you want them there."* The command
 appears at the moment it matters, phrased the way a person would say it. Same for
 anything waiting: the menu names it and says what to say.
-
-While both pipelines are live, add one line: *"Shipping on the old pipeline? That
-is `/book-resume` over there."* Drop it after migration.
 
 ## If `$ARGUMENTS` has content — read the intent, then follow the skill
 
@@ -83,9 +80,9 @@ dispatch.
 | `retro`, `what did we learn`, `retrospective`, `what went wrong` | dispatch `gw-retro` cold; show its proposals; apply nothing without his yes |
 | `help`, `commands`, `what can you do` | the full table above, one line each, then the menu |
 
-**"Next" means this house's next.** If he plainly means the book pipeline, say so
-and point at `/book-resume`. Do not guess between the two when both are live — the
-book repo's Rule 16 exists because an ambiguous "next" across two queues misfires.
+**"Next" is `next.py`'s answer and nothing else.** There is one pipeline now; the
+old one is frozen in Playground-260420. If he asks about something the archive
+shipped, read it there and say so, but never compute a second "next" from it.
 
 ## When nothing matches
 

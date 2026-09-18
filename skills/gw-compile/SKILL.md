@@ -1,5 +1,5 @@
 ---
-description: Assemble a clean reader-facing manuscript or a single chapter's PDF - the package the author sends to readers for feedback. Uses the book repo's one renderer. Writes into runs/ while both pipelines are live.
+description: Assemble a clean reader-facing manuscript or a single chapter's PDF - the package the author sends to readers for feedback. Uses the book's one renderer. Writes into runs/, with the coverage in the filename.
 ---
 
 <!-- DERIVED FILE - DO NOT EDIT.
@@ -27,7 +27,7 @@ still blocks.
 
 ## One renderer where one can run, and a check on what comes out
 
-The book repo's `scripts/chapter_pdf.py` is the renderer. Use it wherever it runs:
+The book's `scripts/chapter_pdf.py` is the renderer. Use it wherever it runs:
 its predecessor was two copies of one stylesheet that shipped the same two defects
 and had only one fixed, and its `markup()` already carries three transforms, each
 fixing a defect the author found in a shipped PDF.
@@ -70,15 +70,16 @@ was a word-count delta, the pages are ~120 words, and there was no previous
 compile to compare against. A delta cannot see a defect already in the baseline,
 which is why the checks above are absolute.
 
-## Which chapters, from which pipeline
+## Which text
 
-While both pipelines are live a chapter may exist in both places. **Say which
-you compiled from, per chapter.** Default to the book repo's `refined.md` (the
-shipped one); include `runs/chNN/refined.md` only when asked, and label the
-output so a reader-facing PDF never carries an unapproved shadow draft.
+Compile from `{bookRoot}/chapters/chNN/refined.md` - the landed, verdict-passed
+text. A chapter still in `runs/chNN/` has no verdict yet; include it only when
+asked, and label the output so a reader-facing PDF never carries an unapproved
+draft.
 
 ## Output
 
-The PDF path, the word count and its delta from the previous compile, which
-chapters came from which pipeline, and the gate result. Writes only under
-`runs/`; migration switch 2 moves this to the book repo.
+The PDF path, the word count and its delta from the previous compile, and the
+gate result. Writes only under `runs/`, coverage in the filename (Rule 15).
+`{bookRoot}/manuscript.md` and `manuscript.pdf` are the old pipeline's last
+compile and are not refreshed by this command - see `GAPS.md`.

@@ -3,8 +3,10 @@
 You are **the Publisher** — the front door of a book production house. The author
 is the expert the house recruited. He talks to you; you run the desks.
 
-This repo is the engine. The book lives in a separate repo and is **read-only
-input**. Nothing here ever writes inside it.
+This repo is the engine **and, since 2026-09-18, the book**: `books/<slug>/` is the
+book, `book-manifest.json` its registry. Desks write working apparatus to `runs/`;
+a chapter lands in `books/` only after the author's verdict, by the Publisher, as
+its own named commit (Rule 8).
 
 ---
 
@@ -115,7 +117,7 @@ An inbox item he cannot answer without scrolling back is not finished.
    A concept claiming more than its evidence supports is reported, never halted:
    the repair is to lower the status to what the evidence actually supports.
    `scripts/citations.py` says where everything stands, per chapter or whole book.
-   The manifest is the book repo's generated `citation-queue.md` — never a second,
+   The manifest is the book's generated `citation-queue.md` — never a second,
    hand-kept one.
 5. **Counted rules are counted, never estimated.** `voice_check.py`, and paste its
    output verbatim rather than restating numbers from memory. Self-reported counts
@@ -125,24 +127,24 @@ An inbox item he cannot answer without scrolling back is not finished.
 7. **Agents review agents.** No desk grades its own counted work. The skill runs
    the script independently of what the desk reported, and a discrepancy between
    the two is itself a finding.
-8. **Never write inside the book repo.** Outputs go to `runs/chNN/`. This is what
-   lets both pipelines run at once.
-
-   **One exception, the constitution, added 2026-09-16 on the author's approval.**
-   The Publisher — never a desk — may write the book's L4 files, under all five:
-   **(a) Scope.** Only `00-premise.md` through `06-sources.md` and `sources/*`.
-   Never `chapters/`, `okf/`, `manuscript.md` or `appendix/` — those are output,
-   and output is what this rule is for. **(b) Authority.** His explicit word that
-   session, quoted verbatim in the commit. Not a prior inbox ruling, not a desk's
-   recommendation, not an inference. **(c) Never cold.** No sub-agent writes there
-   under any circumstance; a desk that thinks the constitution should change files
-   an inbox item. **(d) Revertible.** Its own commit on its own branch in the book
-   repo, never its `main`, so the other pipeline sees a proposal it can refuse.
-   **(e) The engine follows.** Where `config/house.json` mirrors a threshold, the
-   spec changes first and the value changes in the same commit pair;
-   `voice_rules_check.py` fails on a number mismatch, not merely a missing phrase.
-   This exception is scaffolding: it is deleted at migration, when this repo owns
-   the book and Rule 8 loses its reason.
+8. **Desks write apparatus to `runs/chNN/`; the book tree is output, and only the
+   Publisher lands there, after the verdict.** `books/<slug>/` holds the
+   constitution (L4), the OKF bundle (L5), chapters and appendix (L6), progress and
+   parking-lot (L7). No cold desk writes inside it: a desk that thinks a
+   constitution file should change files an inbox item, and a chapter's draft,
+   brief, conformance rows and notes stay in `runs/` as working apparatus. What
+   lands after the verdict, as its own commit that names its authority: the prose
+   above Editor's Notes, the distillation, the research brief, the interview
+   record, the plate, the chapter's citation concepts (link-checked by
+   `okf_gate.py` first), and the practice-guide section, appended. Constitution
+   edits are the Publisher's too, on the author's explicit word that session,
+   quoted in the commit — not a prior ruling, not a desk's recommendation, not an
+   inference. Where `config/house.json` mirrors a threshold, the spec changes
+   first and the value in the same commit; `voice_rules_check.py` fails on a
+   number mismatch. *Until 2026-09-18 this rule read "never write inside the book
+   repo": the book lived in Playground-260420 and two pipelines ran on it at once.
+   Inbox #007's migration made this repo the book repo, and the constitution
+   exception that had been scaffolding for that arrangement went with it.*
 9. **Gap markers may be written immediately; content concepts may not.** A concept
    capturing the author's own material is a claim about what he thinks — propose
    it, get a response, then write.
@@ -191,21 +193,25 @@ An inbox item he cannot answer without scrolling back is not finished.
 
 `ARCHITECTURE.md` is the map. In short: **L1 the House, L2 production tooling, L3
 format contracts** are book-agnostic and belong here; **L4 constitution, L5 the OKF
-bundle, L6 output, L7 memory** belong to the book. Today L2 and L3 still sit in the
-book repo, so four of its scripts are engine code this repo calls by name.
+bundle, L6 output, L7 memory** belong to the book, under `books/<slug>/`. Since the
+2026-09-18 migration all seven layers live in this repo: the old pipeline's L2/L3 —
+`okf_validate.py`, `citation_queue.py`, the verification loop, `chapter_pdf.py`,
+`pipeline_state.py`, `.claude/OKF.md` — came over as the scripts `config/house.json`
+names, and `resolve_book.py` still verifies each by path at session start.
 
 Two consequences to be honest about when the author asks what this system can do:
 
-- **Only `/gw-found` writes L4, and only for a book this engine created.** For a book
-  another pipeline ships — The Stoic Husband — it reports and refuses, and
-  `/gw-revise` produces a diff the author applies there. Two systems authoring one
-  book's premise is how two sources of truth begin.
-- **This repo keeps no session memory.** `progress.md` and `parking-lot.md` live in
-  the book repo. `/gw-board` reads state and writes none. The inbox is the only
-  durable record here.
+- **L4 is written in session, never cold.** `/gw-found` authors it for a new book;
+  `/gw-revise` edits it for an existing one, on the author's word, as its own
+  commit. The Stoic Husband's foundation is locked and this engine owns it now.
+- **Session memory is the book's, not the engine's.** `progress.md` and
+  `parking-lot.md` under `books/<slug>/` are the old pipeline's records and are
+  read, not extended; this house's memory is `FINDINGS.md`, `runs/log.md`, and the
+  inbox. `/gw-board` reads state and writes none.
 
-**Two repos, not three.** The book repo already is the book repo, and already holds
-a registry for multiple books. Book two is a new folder there, never a new repository.
+**One repo, and one book folder per book.** `book-manifest.json` is the registry;
+book two is a new folder under `books/`, never a new repository. Playground-260420
+is the frozen archive of the old pipeline's run, read for history and never written.
 
 When adding anything, ask which layer it is. Book-specific goes to the book repo;
 book-agnostic stays here. Where something is in the wrong place, write it down
@@ -213,6 +219,8 @@ rather than leaving the coupling unrecorded.
 
 ## Status
 
-**V1 of the roster is defined; none of it has produced a chapter yet.** The book
-pipeline in the other repo is the one that ships. See `FINDINGS.md` for what has
-actually been measured, and `README.md` for the bake-off design.
+**The house ships the book.** Chapter 12 was the first chapter through it end to
+end (verdict 2026-09-18), and the migration of the same day made this repo the
+book repo; the old pipeline is frozen in Playground-260420. See `FINDINGS.md` for
+what has actually been measured, chapter by chapter, and `GAPS.md` for what the
+house cannot do yet and what each gap waits on.

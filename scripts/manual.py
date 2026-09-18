@@ -87,10 +87,10 @@ NARRATIVE = {
         ("Open a session on the engine repo",
          "Pick <b>agentic-ghostwriter</b> as the repository. The start hook prints the real "
          "clock, the book it resolved, and the board."),
-        ("The book repo gets attached",
-         "A cloud session clones one repository, and the house needs two: this engine, and the "
-         "book it reads. If the book is not on disk, <code>resolve_book.py</code> stops "
-         "everything and says so. Attaching it takes seconds and the Publisher does it."),
+        ("The book is already here",
+         "Since 2026-09-18 the book lives in this repository, under <code>books/</code>, with "
+         "<code>book-manifest.json</code> as its registry. <code>resolve_book.py</code> verifies "
+         "it every session start and stops everything if it is not intact."),
         ("Say <code>/gw</code>",
          "One door. On its own it shows what is next and what is waiting on you. With words "
          "after it, the Publisher reads what you mean. Nothing here needs remembering: when a "
@@ -132,7 +132,7 @@ NARRATIVE = {
                  "marks rather than redrawing them, and introduces no content of its own.",
          "gate": "The prose rules apply to the labels. Never blocks a chapter."},
         {"name": "The package", "who": "script", "desk": "Production", "cmd": "/gw-compile N",
-         "what": "The chapter as a reader meets it, through the book repo's one renderer. There "
+         "what": "The chapter as a reader meets it, through the book's one renderer. There "
                  "is one renderer because its predecessor was two copies of a stylesheet that "
                  "shipped the same two defects and had only one fixed.",
          "gate": "The citation gate runs before anything is assembled: a manuscript is the one "
@@ -166,11 +166,10 @@ NARRATIVE = {
         "checkable: a quotation may not be called confirmed when nobody opened the page, "
         "however confident the search result was.",
     "artifacts_intro":
-        "Two repositories, and one direction of writing. The engine reads the book and "
-        "writes only into its own <code>runs/</code> tree; a change that belongs in the "
-        "book is produced as a diff for the author to apply there. That boundary is what "
-        "lets the old pipeline and this one run on the same book at the same time without "
-        "either being able to damage the other.",
+        "One repository, and one direction of writing. Desks write working apparatus into "
+        "<code>runs/</code>; the book tree under <code>books/</code> is output, and only the "
+        "Publisher lands there, after the author's verdict, as its own named commit. A cold "
+        "desk that thinks the constitution should change files an inbox item instead.",
     "gates_intro": "A producer's work is not done until a different reader says so, and that "
                    "reader is a script or another desk, never the producer's own report. "
                    "Self-reported counts were wrong on Chapters 9 and 10 and the Prologue, and "
@@ -189,16 +188,19 @@ NARRATIVE = {
         "Claim a check passed that did not run. SKIP is not PASS, and unchecked is the honest word.",
     ],
     "where": [
-        ("The book", "Playground-260420",
+        ("The book", "books/&lt;slug&gt;/",
          "The premise, voice, audience and outline every desk reads. The knowledge ledger. The "
-         "chapters the proven pipeline ships. Read-only to this engine, with one exception: the "
-         "ledger, written only through the book repo's own validator."),
-        ("The engine", "agentic-ghostwriter",
+         "chapters that have landed. Written only by a landing after the verdict, or a "
+         "constitution edit on the author's word, each its own commit."),
+        ("The engine", "everything else in agentic-ghostwriter",
          "The desks, the commands, the gates, the oracle, the inbox, and everything the house "
          "produces under <code>runs/chNN/</code>. Change how books get made here."),
+        ("The archive", "Playground-260420",
+         "The old pipeline's run, frozen on 2026-09-18 when the book moved here. Read for "
+         "history; never written."),
     ],
-    "where_rule": "Two repositories, permanently. Book two is a new folder in the book repo, "
-                  "never a third repository. When you are editing by hand the question is one "
+    "where_rule": "One repository. Book two is a new folder under <code>books/</code>, never a "
+                  "second repository. When you are editing by hand the question is one "
                   "line: is this about this book, or about how books get made?",
     "glossary": [
         ("Cold", "Running as a sub-agent with clean context. It never saw the conversation, so it "
@@ -330,7 +332,7 @@ def read_scripts():
 
 
 def read_okf_contract():
-    """The knowledge-layer contract, read from the book repo's own validator.
+    """The knowledge-layer contract, read from the book's validator (scripts/okf_validate.py).
 
     The concept types and the three citation axes are enforced by
     okf_validate.py, so that file is where they are true. Transcribing them here

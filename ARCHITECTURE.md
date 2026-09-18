@@ -2,9 +2,16 @@
 
 *Written 2026-09-12, in answer to: "if we accidentally lost the playground folder,
 what functionality and context and artifacts would we lose?" That question is a
-dependency audit, and the audit is below. The short answer is that this repo is
-currently an **add-on to the book repo, not a system** — it can refine a chapter of
-a book that already exists, in a repo that still exists.*
+dependency audit, and the audit is below. The short answer, then, was that this
+repo was an **add-on to the book repo, not a system** — it could refine a chapter of
+a book that already existed, in a repo that still existed.*
+
+*2026-09-18: the audit's answer changed. Inbox #007's migration moved the book
+(L4-L7), the four scripts this document names as engine code, and the two
+governance files into this repo; `Playground-260420` is now the frozen archive of
+the old pipeline's run. Everything below describes the arrangement the audit found,
+kept as written because its reasoning is why the migration took the shape it did.
+Where it says "the book repo", read `books/<slug>/` here.*
 
 ---
 

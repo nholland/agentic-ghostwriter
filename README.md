@@ -15,21 +15,21 @@ their thresholds, how a chapter moves, and what the house will never do. It is
 by `scripts/manual.py`, so it cannot drift the way this file used to. Open it in a
 browser, or read the published version, which is the same page.
 
-> **Status: the roster is defined and wired. No desk has produced a chapter yet.**
-> The pipeline in `Playground-260420` is still the one that ships. What has actually
-> been *measured* is in `FINDINGS.md`; what this house cannot do yet is in `GAPS.md`.
+> **Status: the house ships the book.** Chapter 12 was the first chapter through it
+> end to end (verdict 2026-09-18), and the same day's migration made this the book
+> repo; the old pipeline is frozen in `Playground-260420`. What has actually been
+> *measured* is in `FINDINGS.md`; what this house cannot do yet is in `GAPS.md`.
 
 ---
 
 ## Using it
 
-A cloud session clones **one** repository and the house needs **two**: this engine,
-and the book it reads. So:
+One repository: the engine, and the book under `books/<slug>/`. So:
 
 1. Start a session on **`agentic-ghostwriter`**.
 2. Say **`/gw`**.
-3. If the book repo is not on disk, `resolve_book.py` stops everything and says so.
-   Attaching it takes seconds and the Publisher does it.
+3. `resolve_book.py` verifies the book is intact every session start and stops
+   everything if it is not.
 
 `/gw` is the only command to remember. Alone it shows what is next and what is
 waiting on you; with words after it, the Publisher reads what you mean. Never
@@ -92,10 +92,11 @@ adding a number here, ask whether `manual.py` should be reading it instead.
 
 ## The bake-off
 
-The house is not adopted because it is newer. Each half is proven on a real chapter
-against the pipeline that ships: the cold half first, drafting from a brief the book
-pipeline already produced, so the comparison costs the author no extra time and
-risks nothing in the book. `/gw-bakeoff N` builds a blind packet, and the script
+The house was not adopted because it was newer. Each half was proven on a real
+chapter against the pipeline that shipped: the cold half first, drafting from a
+brief that pipeline already produced, so the comparison cost the author no extra
+time and risked nothing in the book. `/gw-bakeoff N` still builds a blind packet
+for any of Ch1-11 (the control lives in the frozen archive), and the script
 refuses to unseal which variant is which until the verdict is written — because the
 judge is also the person who wants the new system to win. One honest row in
 `FINDINGS.md` either way.

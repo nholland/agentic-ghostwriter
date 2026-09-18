@@ -37,7 +37,7 @@ IN_SESSION = [
         'name': 'The Developmental Editor',
         'handle': '/gw-interview · /gw-found · /gw-revise · /gw-edit',
         'owns': 'The foundation of a new book, the chapter interview, revisions to locked artifacts, the interactive re-edit.',
-        'body': '<p><b>Mandate.</b> The dialogue is the work. Every artifact here is a claim about what you think, so it runs as the session, never as a sub-agent. Ends an interview by writing the substance of what you said into the record the Researcher works from.</p><p><b>Reviewed by.</b> You, at the check-in, before the hand-off.</p><p><b>Never.</b> Regenerates a locked artifact (the voice spec pairs most rules with the incident that produced them; regeneration deletes that history). Writes the foundation of a book another pipeline ships; it produces a diff instead.</p>',
+        'body': '<p><b>Mandate.</b> The dialogue is the work. Every artifact here is a claim about what you think, so it runs as the session, never as a sub-agent. Ends an interview by writing the substance of what you said into the record the Researcher works from.</p><p><b>Reviewed by.</b> You, at the check-in, before the hand-off.</p><p><b>Never.</b> Regenerates a locked artifact (the voice spec pairs most rules with the incident that produced them; regeneration deletes that history). Regenerates a locked artifact; it revises in place, on your word, as its own commit.</p>',
     },
 ]
 
@@ -113,11 +113,11 @@ PHRASES = [
     ['shadow 12 · draft 12 from their brief · run 12 in parallel', "Drafts Chapter 12 cold from the book pipeline's brief, into runs/, with every gate from the draft onward. The board offers this on its own when the brief exists.", 'cold'],
     ["run the floor · work while I'm gone · do all the cold stuff", 'Every chapter whose next stage needs no author, dispatched at once. A chapter that fails a gate twice is parked; the others continue.', 'cold'],
     ['next · go · continue · what now', "Runs the oracle's next action. Never a guess.", 'script'],
-    ["status · where are we · how's it going", 'The board: both pipelines, every chapter, the inbox, parked questions, the floor.', 'script'],
+    ["status · where are we · how's it going", 'The board: every chapter, the inbox, parked questions, the floor.', 'script'],
     ['inbox · what do you need from me · waiting on me', 'The questions cold desks could not decide, each with the context to answer cold. Your ruling is recorded in your words and the desk resumes.', 'author'],
     ['readers said… · feedback · someone told me', 'Each response is logged as a signal (proposed first, written after you confirm), then routed by what it is: lost reader, argued objection, factual challenge, gift, new scope.', 'cold'],
-    ['compile · pdf · send to readers · print it', "A clean PDF through the book repo's one renderer, citation gate first, word count compared with the previous compile.", 'script'],
-    ['compare · bake-off · which is better · old vs new', 'The blind packet for a chapter both pipelines refined. You read two neutral variants; the mapping stays sealed until your verdict is written.', 'author'],
+    ['compile · pdf · send to readers · print it', "A clean PDF through the book's one renderer, citation gate first, word count compared with the previous compile.", 'script'],
+    ['compare · bake-off · which is better · old vs new', 'The blind packet for a chapter the old pipeline also refined (Ch1-11, control in the frozen archive). You read two neutral variants; the mapping stays sealed until your verdict is written.', 'author'],
     ['verify · citations · are the sources right · check the quotes', 'The Fact-Checker works the citation queue: probes reachability, transcribes real pages where it can, confirms claims by search where that is enough, packages the rest. Never sets verified.', 'cold'],
     ['qa · whole book · does it hold together · beta', 'The Reader Panel and the Anti-Slop Reader over the manuscript, merged into one ranked list. Reports; opens no fix loop.', 'cold'],
     ['substack · social · post · newsletter', "The Publicist identifies a chapter's publishable concepts as a list you choose from, then drafts. Nothing is posted.", 'cold'],
@@ -168,7 +168,7 @@ FOUNDATION_ROLES = {
         "Which editions and translations are the house's, so two chapters never quote "
         "the same passage from two different books."),
     "progress.md": ("The progress log",
-        "The book repo's own memory. This engine reads it and never writes it."),
+        "The old pipeline's memory, migrated with the book. Read for history; this house's memory is FINDINGS.md and the inbox."),
     "parking-lot.md": ("The parking lot",
         "Questions deliberately deferred, each with the trigger that brings it back - "
         "not a date, an event."),
@@ -176,7 +176,7 @@ FOUNDATION_ROLES = {
 
 # Where everything the house produces actually lands. Authored because it is the
 # house's own contract rather than a fact in any file; the boundary it describes
-# is CLAUDE.md Rule 8, which is the reason both pipelines can run at once.
+# is CLAUDE.md Rule 8: apparatus in runs/, the book in books/, landed after the verdict.
 ARTIFACTS = [
     ("runs/chNN/", "engine",
      "Everything a chapter run produces: the interview record, the brief, the draft, "
@@ -186,16 +186,17 @@ ARTIFACTS = [
      "Compiled manuscripts and their PDFs, each filename carrying its coverage and "
      "date. A file called manuscript.pdf claims to be current forever."),
     ("runs/revisions/", "engine",
-     "Diffs for changes that belong in the book repo, which this engine never makes. "
-     "The author applies them there."),
+     "Proposed diffs to the constitution, kept until the author rules; applied on his "
+     "word as their own commit."),
     ("runs/qa/, runs/marketing/", "engine",
      "Whole-book reads and publicity drafts, also named by the range they cover."),
     ("inbox/", "engine",
      "The only durable record this repo keeps. Questions a cold desk could not "
      "decide, and rulings whose change has not landed yet."),
     ("okf/", "book",
-     "The knowledge layer. The one thing both pipelines write, and only through the "
-     "book repo's own scripts."),
+     "The knowledge layer. Gap markers land with a chapter; content concepts only "
+     "after the author confirms them; every status change through the validator."),
     ("chapters/chNN/", "book",
-     "The chapters that ship. Written by the book pipeline; read here, never written."),
+     "The chapters that ship. Landed by the Publisher after the verdict, via land.py; "
+     "never written by a desk."),
 ]

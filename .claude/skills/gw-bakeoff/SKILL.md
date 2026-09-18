@@ -15,7 +15,9 @@ and the mapping stays sealed until the verdict is written down.
 
 ## Build
 
-Resolve the book first — the control side lives in the book repo:
+Resolve the book first. The control side is the old pipeline's chapter, which
+lives in the frozen archive (Playground-260420) for chapters it shipped; for a
+chapter only this house has written, there is no control and no bake-off:
 
 ```
 python3 scripts/resolve_book.py
@@ -25,7 +27,7 @@ Stop if it exits non-zero. Take `bookRoot` from its output; never assume a path.
 
 Require both sides to exist:
 
-- control: `{bookRoot}/chapters/chNN/refined.md` (old pipeline)
+- control: the old pipeline's `refined.md` for that chapter (Playground-260420, Ch1-11 only)
 - variant: `runs/chNN/refined.md` (this pipeline, from `/gw-draft` + `/gw-refine`)
 
 ```

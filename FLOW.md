@@ -161,17 +161,21 @@ not look at.
 
 ## Where things land
 
-| While both pipelines run | After migration switch 2 |
-|---|---|
-| `runs/chNN/` in the engine | `{bookRoot}/chapters/chNN/` in the book repo |
-| `bakeoff/chNN/` blind packets | — |
-| `inbox/` | `inbox/` |
-| The book repo untouched | The old commands retired (switch 3) |
+| What | Where | Written by |
+|---|---|---|
+| A chapter's apparatus: interview, brief, draft, conformance rows, notes, plate | `runs/chNN/` | the desks, cold |
+| The chapter that ships: prose, distillation, brief, interview record, plate, its citation concepts, its practice-guide section | `books/<slug>/` | the Publisher, after the verdict, via `scripts/land.py`, as its own commit |
+| The constitution (L4) | `books/<slug>/0*.md`, `sources/` | the Publisher, in session, on the author's word |
+| Questions and rulings | `inbox/` | any desk raises; only he rules |
+| Blind packets, for Ch1-11 only | `bakeoff/chNN/` | `bakeoff.py` |
 
-Until switch 2, the worst case for a failed experiment is a directory of prose
-nobody uses. The book repo cannot be damaged by anything the engine does, because
-no engine skill is permitted to write there — with one scoped exception,
-`/gw-found` authoring a book the engine itself created.
+Migration switch 1 (2026-09-18, inbox #007) moved the book into this repo and
+froze the old pipeline's repo as an archive. The worst case for a failed
+experiment is still a directory of prose nobody uses: nothing lands in `books/`
+without a verdict, and `land.py` refuses to overwrite a chapter already there.
+What was planned as switch 2 — desks writing straight into the book tree — is
+registered in `GAPS.md`, not done: the apparatus/output split has caught real
+defects at the landing step and is kept on purpose.
 
 ---
 

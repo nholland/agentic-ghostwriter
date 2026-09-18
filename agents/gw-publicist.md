@@ -36,9 +36,10 @@ that needs the argument around it to land is not a callout. For each: the exact
 line, the chapter and section, why it works, and whether it is usable in marketing.
 
 **Write it to `runs/marketing/callouts-ch01-chNN.md`, with the coverage in the
-filename.** Never to a bare `callouts.md`. The book repo's `callouts.md` says
-"Chapters 1-8" inside a file that looks current while eleven chapters are refined;
-a name that carries its range cannot make that claim.
+filename.** Never to a bare `callouts.md`. The book's own `callouts.md` said
+"Chapters 1-8" inside a file that looked current while eleven chapters were
+refined, and was retired to a stub on 2026-09-18 for exactly that; a name that
+carries its range cannot make that claim.
 
 ## Hard rules
 

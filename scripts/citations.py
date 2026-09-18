@@ -196,7 +196,8 @@ def main():
                   i["quote_form"] or "unset", i["evidence_source"] or "unset"))
             print("      -> should read `status: %s` until better evidence exists"
                   % i["proposed_status"])
-        print("\n  These are edits in the BOOK repo, which this engine never makes.")
+        print("\n  These are edits to okf/citations/ concept files: the Fact-Checker proposes,")
+        print("  the Publisher applies, and only the author ever sets `verified`.")
 
     if by["open"]:
         print("\n  Open, by status:")
@@ -207,7 +208,7 @@ def main():
             print("    %-12s %d" % (k, counts[k]))
 
     print("\n  The manifest is generated, not kept here: %s" % queue)
-    print("  Regenerate it with the book repo's scripts/citation_queue.py.")
+    print("  Regenerate it with scripts/citation_queue.py.")
     return 0
 
 

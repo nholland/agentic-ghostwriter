@@ -14,9 +14,10 @@ which desk it belongs to.** Routing is the Publisher's job.
 
 ## Step 0
 
-`python3 scripts/resolve_book.py`. Read the chapter as it was published (the
-book repo's `refined.md`, and any Substack or social piece under
-`marketing/`) so every response can be matched to the sentence it is about.
+`python3 scripts/resolve_book.py`. Read the chapter as it was published
+(`{bookRoot}/chapters/chNN/refined.md`, and any Substack or social piece under
+`{bookRoot}/marketing/` or `runs/marketing/chNN/`) so every response can be
+matched to the sentence it is about.
 
 ## Step 1 — log it before judging it
 

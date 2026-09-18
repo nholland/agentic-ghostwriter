@@ -60,4 +60,4 @@ because the audience is social. Run `python3 scripts/okf_gate.py`.
 Per concept, show him the draft and get a response before saving. Then state
 plainly what he must approve before anything is posted, and that nothing has been.
 
-Write to `runs/marketing/chNN/`. Never into the book repo.
+Write to `runs/marketing/chNN/`. Never into `books/`.

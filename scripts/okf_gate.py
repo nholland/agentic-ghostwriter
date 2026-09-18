@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-okf_gate.py - the citation gate, delegated to the book repo's own validator.
+okf_gate.py - the citation gate, delegated to the book's own validator (scripts/okf_validate.py).
 
 WHY THIS WRAPS RATHER THAN REIMPLEMENTS
     The book repo already has scripts/okf_validate.py, and it is the enforcement
@@ -137,7 +137,7 @@ def classify(out):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Run the book repo's OKF validator as a gate.")
+    ap = argparse.ArgumentParser(description="Run the book's OKF validator as a gate.")
     ap.add_argument("--warnings-fatal", action="store_true",
                     help="treat the validator's non-fatal warnings as blocking too")
     ap.add_argument("--strict", action="store_true",

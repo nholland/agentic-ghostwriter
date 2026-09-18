@@ -14,13 +14,13 @@ python3 scripts/okf_gate.py
 ```
 
 `resolve_book.py` is blocking. The citation gate **reports** and does not stop the run (Rule 4): an unverified citation is unfinished work, not a defect. A structural failure there still blocks.
-second a broken citation bundle. `/book-chapter-refine` in the book repo runs the
-same citation gate before writing prose, and this pipeline must not be the laxer
-of the two.
+second a broken citation bundle. The old pipeline's `/book-chapter-refine` ran
+the same citation gate before writing prose, and this house is not laxer than
+what it replaced.
 
 Require `runs/chNN/draft.md`. Output
 `runs/chNN/refined.md` and `runs/chNN/distillation.md`. **Never write inside
-`{bookRoot}`.**
+`{bookRoot}`** - landing is the Publisher's, after the verdict (Rule 8).
 
 ## Step 1 — refine
 
@@ -91,20 +91,12 @@ Write `runs/chNN/conformance-refined.md`.
   a manuscript close and a guide entry asking the reader two different
   questions, for weeks, and nothing errored.
 
-## Step 5 — report, then the bake-off
+## Step 5 — report
 
-Report as in `/gw-draft` Step 5, plus any editor-vs-script discrepancy.
+Report as in `/gw-draft` Step 5, plus any editor-vs-script discrepancy. The
+chapter stays in `runs/chNN/` until his verdict; landing it in `books/` is
+`/gw-chapter`'s last step, not this one's.
 
-Then, if the old pipeline has a refined chapter at
-`{bookRoot}/chapters/chNN/refined.md`, offer the comparison:
-
-```
-python3 scripts/bakeoff.py --chapter NN \
-  --control {bookRoot}/chapters/chNN/refined.md \
-  --variant runs/chNN/refined.md \
-  --metaphor-family "<declared>"
-```
-
-Do not run it without saying what it does first: it writes two neutrally-named
-variants and a sealed mapping, and the author reads them blind before learning
-which is which.
+A bake-off (`/gw-bakeoff NN`) only exists for a chapter the old pipeline also
+refined, Ch1-11, with its control in the frozen archive; there is none for a
+chapter only this house has written.

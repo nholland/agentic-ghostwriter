@@ -25,7 +25,7 @@ editions, rights posture, evidence bar. Absent, fall back to `01-voice.md` and
 
 ## Step 1 — probe, do not reason
 
-Run the book repo's `scripts/verification_probe.py`. **Do not decide which lanes
+Run `scripts/verification_probe.py`. **Do not decide which lanes
 are available by reasoning about the environment** — reachability differs between
 the cloud container and the author's laptop, and a guess here produces confident
 nonsense. The probe is the oracle.
@@ -40,8 +40,8 @@ Name the desk.
 
 ## Step 3 — regenerate, never hand-maintain
 
-The reader-facing queue is rebuilt wholesale by the book repo's
-`scripts/citation_queue.py`. Never edit it by hand: `citation-manifest.md` claimed
+The reader-facing queue is rebuilt wholesale by `scripts/citation_queue.py`.
+Never edit it by hand: the retired `sources/citation-manifest.md` claimed
 to be derived while nothing derived it, and drifted until its own queue read "None
 at this time" with seven concepts waiting.
 

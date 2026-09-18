@@ -17,10 +17,11 @@ python3 scripts/resolve_book.py
 python3 scripts/okf_gate.py
 ```
 
-Find the chapter: `runs/chNN/refined.md`, or the book repo's `chapters/chNN/refined.md`.
-**Say which you are editing.** If it is the book repo's, you may not write there —
-produce the edit as a diff for him to apply with `/book-edit NN`, and say so up front
-rather than after he has worked through it.
+Find the chapter: `{bookRoot}/chapters/chNN/refined.md` if it has landed, else
+`runs/chNN/refined.md`. **Say which you are editing.** An edit to a landed chapter
+is an edit to the book: it is its own commit, naming what he changed and why, and
+the distillation, practice-guide section and plate are re-checked against it
+before it lands (the gates below re-run).
 
 ## How to run it
 
