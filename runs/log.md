@@ -1357,3 +1357,25 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `tests/run.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:35 — `claude/gateway-iqyyso` — 3 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-retro.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `runs/log.md`
+- `scripts/package_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/fixtures/apparatus-in-span.html`
+- `tests/fixtures/distback-but-first.html`
+- `tests/fixtures/extra-attribute.html`
+- `tests/fixtures/good.html`
+- `tests/fixtures/opens-on-distillation.html`
+- `tests/run.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
