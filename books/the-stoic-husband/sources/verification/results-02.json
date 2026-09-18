@@ -1,0 +1,90 @@
+[
+ {
+  "slug": "marcus-aurelius-meditations-4-3-no-opinion",
+  "verdict": "WRONG_LOCATOR",
+  "edition": "Gregory Hays, Modern Library, 2002; house comparison George Long, Little Brown, 1889; probable actual source C. Scot Hicks & David V. Hicks, The Emperor's Handbook, Scribner, 2002",
+  "url": "https://www.penguinrandomhouse.com/books/6367/meditations-by-marcus-aurelius/",
+  "exact_text": "Hays 6.52: \"You don't have to turn this into something. It doesn't have to upset you.\" Long 6.52: \"It is in our power to have no opinion about a thing\"",
+  "surrounding_context": "Hays 4.3 is a sustained reflection on withdrawing into one's own mind rather than escaping to the country, beach, or mountains. The corresponding judgment passage occurs at 6.52, where both Hays and Long say an external thing need not determine the mind's judgment or disturbance.",
+  "locator": "NOT 4.3. Correct locus is Meditations VI.52 in both Hays and Long. Secondary references point to Hicks & Hicks p. 75 / VI.52, page not inspectable.",
+  "notes": "The attribution to Hays 4.3 is false on both counts. Hays 4.3 says something else entirely, and Hays 6.52 renders the thought very differently from our recorded wording. Long independently confirms VI.52 as the correct locus. Our wording is strongly associated with the Hicks brothers' 2002 The Emperor's Handbook. DO NOT PRINT as Hays 4.3.",
+  "confidence": "high"
+ },
+ {
+  "slug": "marcus-aurelius-meditations-4-49-fortunate-not-shattered",
+  "verdict": "DIFFERENT_WORDING",
+  "edition": "Gregory Hays, Modern Library, 2002; compared with George Long, Little Brown, 1889",
+  "url": "https://chris.pelatari.com/meditations",
+  "exact_text": "Hays 4.49a: \"I've remained unharmed by it-not shattered by the present or frightened of the future.\" Long 4.49: \"Unhappy am I because this has happened to me? Not so, but happy am I\"",
+  "surrounding_context": "Hays 4.49 first gives the image of a rock standing firm while waves crash over it. The following subdivision 4.49a reframes the event from misfortune to good fortune and then asks whether what happened prevents justice, generosity, self-control, or other virtues.",
+  "locator": "Hays: Book IV, section 49a following 49. Long: Book IV, section 49.",
+  "notes": "Passage and location genuine but not verbatim Hays. Hays uses the contraction It's where we have It is, and connects the unharmed clause to the not-shattered clause with an em dash rather than our comma. Official Modern Library record confirms Hays 2002 but did not expose the passage; punctuation checked in a full-text reproduction. Long's public-domain wording is materially different and is the appropriate house-standard replacement.",
+  "confidence": "medium"
+ },
+ {
+  "slug": "marcus-aurelius-meditations-6-20-nothing-manly-in-anger",
+  "verdict": "WRONG_LOCATOR",
+  "edition": "Martin Hammond, Penguin Classics, 2006; compared with George Long, Little Brown, 1889",
+  "url": "https://fliphtml5.com/wtlgs/nacu/Marcus_Aurelius_%28Emperor_of_Rome%29%2C_Martin_Hammond%2C_Diskin_Clay_-Meditations-Penguin_Books_%282006%29/159/",
+  "exact_text": "Hammond XI.18: \"there is nothing manly in being angry, but a gentle calm is both more human and therefore more virile.\" Long XI.18: \"to be moved by passion is not manly, but that mildness and gentleness\"",
+  "surrounding_context": "In Hammond the line occurs during Marcus's extended set of reminders for responding to other people's wrongdoing and anger. He immediately contrasts the angry person with the gentle person who possesses strength and courage. Long VI.20 instead discusses how to react when another person accidentally scratches or wounds you during gymnastic exercise.",
+  "locator": "Book XI, section 18 \u2014 NOT Book VI, section 20.",
+  "notes": "The words are genuine Hammond when excerpted mid-sentence, but the citation 6.20 is wrong; correct locus is XI.18. Because no translator was named in the manuscript the line misleadingly appears edition-neutral. It is not: Long's public-domain wording differs. Penguin's official page confirms Hammond 2006; exact text inspected in a third-party facsimile.",
+  "confidence": "high"
+ },
+ {
+  "slug": "marcus-aurelius-meditations-6-8-ruling-reason",
+  "verdict": "CONFIRMED",
+  "edition": "C. R. Haines, The Communings with Himself of Marcus Aurelius Antoninus, Loeb Classical Library, Heinemann/Putnam, 1916; compared with George Long, Little Brown, 1889",
+  "url": "https://en.wikisource.org/wiki/Page:Marcus_Aurelius_(Haines_1916).djvu/173",
+  "exact_text": "The ruling Reason it is that can arouse and deflect itself, make itself whatever it will, and invest everything that befalls with such a semblance",
+  "surrounding_context": "Haines places the sentence at numbered section 8 of Book VI. Section 7 concerns moving from one social act to another while keeping one's thoughts on God, and section 9 turns to the universal Nature according to which each individual event is accomplished.",
+  "locator": "Meditations VI.8; Haines scan leaf 173.",
+  "notes": "CONFIRMED against the Haines 1916 scan. The complete sentence matches Haines's wording, capitalization and punctuation; the scan also carries a footnote marker after 'will' which is annotation, not text. Long's house-standard VI.8 is a different translation beginning 'The ruling principle'. Any attribution of this wording to Long would be wrong; Haines is correct as recorded.",
+  "confidence": "high"
+ },
+ {
+  "slug": "marcus-aurelius-meditations-7-57-love-what-happens",
+  "verdict": "CONFIRMED",
+  "edition": "George Long, The Thoughts of the Emperor Marcus Aurelius Antoninus, Little, Brown, and Company, 1889 (our recorded 1888 date was not located)",
+  "url": "https://en.wikisource.org/wiki/The_Thoughts_of_the_Emperor_Marcus_Aurelius_Antoninus/Book_VII",
+  "exact_text": "Love that only which happens to thee and is spun with the thread of thy destiny. For what is more suitable?",
+  "surrounding_context": "The sentence appears as the compact numbered reflection VII.57. Marcus joins acceptance of what happens with the metaphor of the thread spun by destiny, then closes by asking what could be more fitting or suitable.",
+  "locator": "Meditations VII.57.",
+  "notes": "Long wording confirmed exactly in the inspected 1889 Little, Brown edition. No primary scan established our recorded 1888 date; the authoritative Long edition inspected is 1889. Edition history records earlier Long printings in 1862 and a revised second edition in 1873. The Farquharson and Hays alternatives listed in the packet were NOT independently reopened in primary page images and must not be promoted on the basis of this report.",
+  "confidence": "high"
+ },
+ {
+  "slug": "marcus-aurelius-meditations-9-28-view-from-above",
+  "verdict": "WRONG_LOCATOR",
+  "edition": "Martin Hammond, Penguin Classics, 2006; compared with George Long, Little Brown, 1889",
+  "url": "https://fliphtml5.com/wtlgs/nacu/Marcus_Aurelius_%28Emperor_of_Rome%29%2C_Martin_Hammond%2C_Diskin_Clay_-Meditations-Penguin_Books_%282006%29/",
+  "exact_text": "Hammond IX.30: \"Take a view from above - look at the thousands of flocks and herds, the thousands of human ceremonies, every sort of voyage\" Long IX.30: \"Look down from above on the countless herds of men and their countless solemnities, and the infinitely varied voyagings in storms and calms\"",
+  "surrounding_context": "Hammond introduces the passage immediately after warning against being seduced into pompous pride. The numbered reflection then surveys animal herds, human ceremonies, voyages, and the processes of coming into existence and passing away. Hammond's own notes cross-reference the conceit explicitly as 9.30.",
+  "locator": "Meditations IX.30 \u2014 NOT IX.28.",
+  "notes": "Wording is substantially Hammond 2006 but our section number is wrong. Hammond's own commentary identifies it as 9.30, and Long has the view-from-above passage at IX.30. Hays 9.28 is an unrelated reflection on the world's cycles, which rules out an edition-numbering explanation. IMPORTANT: the facsimile extraction renders the punctuation after 'above' as a hyphen-minus, which does NOT prove the printed dash glyph, so our claim that the em dash is physically confirmed should not stand. A visual check of the printed Penguin page is still required.",
+  "confidence": "medium"
+ },
+ {
+  "slug": "seneca-letter-75-letters-as-conversation",
+  "verdict": "DIFFERENT_WORDING",
+  "edition": "Richard Mott Gummere, Seneca: Ad Lucilium Epistulae Morales vol. II, Loeb Classical Library, Heinemann/Putnam, 1920",
+  "url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_75",
+  "exact_text": "taking walks together,-spontaneous and easy; for my letters have nothing strained or artificial about them.",
+  "surrounding_context": "Letter 75 opens with Lucilius's complaint that Seneca's letters seem carelessly written. Seneca answers by comparing the desired style of his letters with ordinary conversation between the two men, then explains that even when arguing he does not want the theatrical gestures of an orator.",
+  "locator": "Epistulae Morales LXXV.1; volume II, printed p. 136.",
+  "notes": "Substantive wording is Gummere but not typographically verbatim. The 1920 source prints 'together,-spontaneous' with a comma immediately followed by the dash and no intervening space; we print 'together - spontaneous'. The source also uses a typographic apostrophe in 'one another's'. Under the strict punctuation rule this is DIFFERENT_WORDING, not CONFIRMED.",
+  "confidence": "high"
+ },
+ {
+  "slug": "seneca-letter-91-the-unexpected-load",
+  "verdict": "PARTIAL",
+  "edition": "Richard Mott Gummere, Seneca: Ad Lucilium Epistulae Morales vol. II, Loeb Classical Library, Heinemann/Putnam, 1920",
+  "url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_91",
+  "exact_text": "Section 3: \"it is the unexpected that puts the heaviest load upon us.\" Section 4: \"Our minds should be sent forward in advance to meet all problems\"",
+  "surrounding_context": "In section 3 Seneca explains why Liberalis has been shaken by the destruction of Lyons and then discusses how surprise increases the weight of calamity. Section 4 begins with the principle that nothing ought to be unexpected, after which Seneca says the mind should be sent ahead to anticipate possible problems.",
+  "locator": "Epistulae Morales XCI.3-4; volume II, Letter XCI begins on printed p. 430.",
+  "notes": "SILENT SPLICE. Both fragments are genuinely Gummere but we join them into a continuous two-sentence quotation when the source does not. In section 3 the first fragment begins lowercase 'it' after a semicolon, not capitalized as a new sentence. Two further sentences about strangeness and surprise follow it. Section 4 then adds a transitional statement that nothing should be unexpected before our second sentence begins. A publishable quotation must either quote the portions separately or signal the omission with an ellipsis.",
+  "confidence": "high"
+ }
+]

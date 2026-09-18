@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" role="img" aria-label="The Operating System">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .el{font:600 15px Georgia,serif;letter-spacing:.18em;text-anchor:middle}
+    .ql{font:italic 12px Georgia,serif;text-anchor:middle;opacity:.7}
+    .bd{font:12.5px Georgia,serif;text-anchor:middle;opacity:.88}
+    .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
+    .cap{font:italic 11.5px Georgia,serif;text-anchor:middle;opacity:.64}
+    .frm{font:600 13px Georgia,serif;letter-spacing:.10em;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.26}
+    .ln{stroke:currentColor;stroke-width:1.5}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="330" y="40">THE OPERATING SYSTEM</text>
+    <text class="sub" x="330" y="66">The impression arrives already loaded. Then something fires.</text>
+  </g>
+  <g class="ln" fill="none" stroke-linecap="round">
+    <path d="M55 194h275"/>
+    <path d="M470 194h135"/>
+    <path d="M330 186v16"/><path d="M470 186v16"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".42"><path d="M330 194h140"/></g>
+  <g fill="currentColor">
+    <text class="lbl" x="120" y="170">TRIGGER</text>
+    <text class="lbl" x="255" y="170">LOADED MEANING</text>
+    <text class="lbl" x="400" y="170">THE GAP</text>
+    <text class="lbl" x="551" y="170">AUTOMATIC RESPONSE</text>
+    <text class="cap" x="192" y="248">an impression — phantasia</text>
+    <text class="cap" x="400" y="226">prohairesis</text>
+    <text class="cap" x="551" y="226">the inherited pattern</text>
+  </g>
+  <g class="rule" fill="none"><path d="M55 218v10h275v-10"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="330" y="300">Most men never use the gap. The impression runs straight through.</text>
+    <text class="cap" x="330" y="322">The faculty is there every time, whether you use it or not.</text>
+  </g>
+</svg>

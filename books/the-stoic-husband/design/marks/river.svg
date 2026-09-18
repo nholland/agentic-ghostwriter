@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="River mark">
+  <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+    <path d="M3 19c4.8-4.8 9.7-4.8 14.5 0s9.7 4.8 14.5 0 9.7-4.8 14.5 0 9.7 4.8 14.5 0"/>
+    <path d="M3 32c4.8-4.8 9.7-4.8 14.5 0"/>
+    <path d="M46.5 32c4.8-4.8 9.7-4.8 14.5 0"/>
+    <path d="M3 45c4.8-4.8 9.7-4.8 14.5 0s9.7 4.8 14.5 0 9.7-4.8 14.5 0 9.7 4.8 14.5 0"/>
+  </g>
+  <circle cx="32" cy="32" r="6.5" fill="currentColor"/>
+</svg>

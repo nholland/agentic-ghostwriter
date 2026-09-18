@@ -1,0 +1,159 @@
+{
+  "bookRoot": "books/the-stoic-husband",
+  "books": {
+    "books/the-stoic-husband": {
+      "title": "River, Oak, Sun: The Stoic Husband",
+      "slug": "the-stoic-husband",
+      "lastModified": "2026-09-09",
+      "chapter_count": 29,
+      "stages": {
+        "source_prep": "skipped",
+        "foundation": {
+          "spark": "complete",
+          "archetype": "complete",
+          "voice": "complete",
+          "audience": "complete",
+          "outline": "complete"
+        },
+        "chapters": {
+          "prologue": {
+            "refined": "complete"
+          },
+          "introduction": {
+            "refined": "complete"
+          },
+          "03": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          },
+          "04": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          },
+          "01": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete",
+            "publishing": {
+              "concepts_identified": true,
+              "concepts_total": 5,
+              "concepts_written": 5,
+              "concepts_drafted": 5,
+              "concepts_posted": 5,
+              "feedback_received": true,
+              "signal_run": true
+            }
+          },
+          "02": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete",
+            "publishing": {
+              "concepts_identified": true,
+              "concepts_total": 4,
+              "concepts_written": 4,
+              "concepts_drafted": 4,
+              "concepts_posted": 1,
+              "feedback_received": false,
+              "signal_run": false
+            }
+          },
+          "05": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          },
+          "06": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          },
+          "07": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          },
+          "08": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete",
+            "publishing": {
+              "substack_written": false,
+              "social_written": false,
+              "posted": false,
+              "feedback_received": true,
+              "signal_run": true
+            }
+          },
+          "09": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          },
+          "10": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          },
+          "11": {
+            "research": "complete",
+            "draft": "complete",
+            "refined": "complete",
+            "distill": "complete"
+          }
+        },
+        "parts": {
+          "1-steady-river": {
+            "opening": "complete",
+            "closing": "complete"
+          },
+          "2-sturdy-oak": {
+            "opening": "complete",
+            "closing": "complete"
+          },
+          "3-warm-sun": {
+            "opening": "complete"
+          },
+          "4-fall-to-winter": {
+            "opening": "complete"
+          },
+          "5-spring-to-summer": {
+            "opening": "complete"
+          }
+        },
+        "qa": {
+          "human": "complete",
+          "argue": "pending",
+          "beta": "complete",
+          "tension": "pending",
+          "sweep": "complete"
+        },
+        "launch": {
+          "callouts": "complete",
+          "marketing": "pending",
+          "pitch": "pending"
+        }
+      },
+      "currentPhase": "writing",
+      "integrations": {
+        "substack": {
+          "status": "connected",
+          "publication_url": "https://stoichusband.substack.com",
+          "parking_lot_item": null
+        }
+      }
+    }
+  }
+}

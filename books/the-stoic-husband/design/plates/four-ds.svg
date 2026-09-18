@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-label="The Four Ds">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="42">THE FOUR Ds</text>
+    <text class="sub" x="320" y="70">What defensiveness actually looks like from the inside.</text>
+    <text class="lbl" x="44" y="150">DEFENSE</text>
+    <text class="txt" x="196" y="150">Attack back. Catalogue what she has not done.</text>
+    <text class="lbl" x="44" y="214">DENY</text>
+    <text class="txt" x="196" y="214">Reject the feedback outright. “No I have not.”</text>
+    <text class="lbl" x="44" y="278">DOWNPLAY</text>
+    <text class="txt" x="196" y="278">Argue the intensity, not the message. “It’s not that bad.”</text>
+    <text class="lbl" x="44" y="342">DEFLECT</text>
+    <text class="txt" x="196" y="342">Move the responsibility somewhere else, or onto someone else.</text>
+  </g>
+  <g class="rule" fill="none">
+    <path d="M44 172h552"/>
+    <path d="M44 236h552"/>
+    <path d="M44 300h552"/>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+[
+ {
+  "slug": "cloud-townsend-boundaries",
+  "verdict": "CONFIRMED",
+  "edition": "Henry Cloud and John Townsend, Boundaries, Zondervan, 1992, 304pp, ISBN 0310585902. Google Books labels the indexed copy 'reprint, revised.'",
+  "url": "https://books.google.com/books/about/Boundaries.html?id=S4kJsno_txYC",
+  "exact_text": "A boundary is a personal property line that marks those things for which we are responsible. We are responsible to others and for ourselves.",
+  "surrounding_context": "The property-line sentence follows the statement that clear boundaries are essential to a balanced life, and is followed by explanations that boundaries define who a person is and is not. The responsible-to/for material develops Galatians 6:2 and 6:5; Sowing and Reaping concerns rescuing others from natural consequences.",
+  "locator": "Google Books descriptive text for the 1992 edition; no page number claimed.",
+  "notes": "CAVEAT, and it matters: the evidence is Google Books DESCRIPTIVE TEXT, not a page image. The property-line metaphor, the responsible-to vs responsible-for distinction, and the Law of Sowing and Reaping all support the conceptual claim Ch10 makes. But cite the book and paraphrase; do not claim page-level verification.",
+  "confidence": "medium"
+ },
+ {
+  "slug": "epictetus-discourses-2-18-test-the-impression",
+  "verdict": "DIFFERENT_WORDING",
+  "edition": "Epictetus, Discourses, trans. George Long, George Bell and Sons, 1877",
+  "url": "https://en.wikisource.org/wiki/The_Discourses_of_Epictetus;_with_the_Encheiridion_and_Fragments/Book_2/Chapter_18",
+  "exact_text": "Appearances, wait for me a little: let me see who you are, and what you are about: let me put you to the test.",
+  "surrounding_context": "Immediately before, Epictetus recommends opposing seductive impressions with noble and just examples, including Socrates and Alcibiades. Afterward he warns against letting the appearance spin vivid pictures and advises bringing a nobler appearance against it.",
+  "locator": "Discourses II.18, late in the chapter, 'how we should struggle against appearances.'",
+  "notes": "VERDICT OVERRIDDEN from the verifier's CONFIRMED. Its own note said 'the manuscript wording is not verbatim George Long, but a close and faithful paraphrase' \u2014 which is a DIFFERENT_WORDING finding, not a confirmation, because of how Ch1 presents it. Ch1 prints: \"Hold on a moment,\" he told himself, when an impression hit hard. \"Let me see who you are and what you represent.\" (Discourses, II.18) \u2014 double quotation marks plus a citation, i.e. a direct quotation. Long has 'Appearances, wait for me a little' not 'Hold on a moment', and 'what you are about' not 'what you represent'. A paraphrase set in quotation marks and cited is a misquotation. Fix by quoting Long exactly or by removing the quotation marks and presenting it as a paraphrase.",
+  "confidence": "high"
+ },
+ {
+  "slug": "epictetus-enchiridion-33-disciplined-speech",
+  "verdict": "CONFIRMED",
+  "edition": "Epictetus, Encheiridion, trans. George Long, George Bell and Sons, 1877; Carter 1759 inspected for comparison",
+  "url": "https://en.wikisource.org/wiki/The_Discourses_of_Epictetus/The_Encheiridion,_or_Manual",
+  "exact_text": "Long: \"And let silence be the general rule, or let only what is necessary be said, and in few words.\" Carter: \"Be for the most part silent: or speak merely what is necessary, and in few Words.\"",
+  "surrounding_context": "Chapter 33 prescribes conduct in solitude and company. After the quoted line Long permits speech when occasion calls, while discouraging chatter about spectacles, food and drink, gossip, blame, praise, and comparison.",
+  "locator": "Enchiridion XXXIII, opening portion.",
+  "notes": "Supports disciplined, economical speech rather than total muteness, which is exactly the distinction Ch9 draws. Ch9 presents it as paraphrase without quotation marks, so no wording exposure. Long is the house standard; Carter 1759 independently confirms the sense.",
+  "confidence": "high"
+ },
+ {
+  "slug": "epictetus-smoke-in-the-room",
+  "verdict": "CONFIRMED",
+  "edition": "Epictetus, Discourses, trans. George Long, George Bell and Sons, 1877",
+  "url": "https://en.wikisource.org/wiki/The_Discourses_of_Epictetus;_with_the_Encheiridion_and_Fragments/Book_1/Chapter_25",
+  "exact_text": "Has it smoked in the chamber? If the smoke is moderate, I will stay; if it is excessive, I go out",
+  "surrounding_context": "Follows a discussion of tolerating an unpleasant dinner companion and comparing judgments. Epictetus then applies the analogy to Nicopolis, Athens, Rome, and Gyarus, stressing that 'the door is open' when circumstances become intolerable.",
+  "locator": "Discourses I.25, latter part.",
+  "notes": "Previously status unverified with no locus recorded. Now located at Discourses I.25 rather than inferred from a secondary quotation. Supports the conditional model: endure moderate smoke, leave when excessive.",
+  "confidence": "high"
+ },
+ {
+  "slug": "glover-no-more-mr-nice-guy",
+  "verdict": "DIFFERENT_WORDING",
+  "edition": "Robert A. Glover, No More Mr Nice Guy, Running Press hardcover, 192pp, ISBN 9780762415335",
+  "url": "https://www.hachettebookgroup.com/titles/robert-a-glover/no-more-mr-nice-guy/9780762415335/",
+  "exact_text": "Common Nice Guy patterns include giving to get, difficulty setting boundaries, dishonesty, codependency, people-pleasing, conflict avoidance",
+  "surrounding_context": "The publisher describes the Nice Guy as reshaping himself into what others want so he can be liked, loved, and get his needs met, while hiding traits that might trigger negative responses. It later emphasizes setting boundaries, handling conflict, and prioritizing one's own needs.",
+  "locator": "Publisher catalog description \u2014 not a page image.",
+  "notes": "Ch9's conceptual representation (approval-seeking, indirect needs, transactional compliance, giving to get) is substantially right and is presented as paraphrase, so there is no wording exposure. But the underlying passage was NOT verified from page images. Also: the publisher lists an on-sale date of 2002-12-16 while other sources say early 2003, so do not state '1st ed. 2003' without the copyright page.",
+  "confidence": "medium"
+ },
+ {
+  "slug": "gottman-four-horsemen",
+  "verdict": "CONFIRMED",
+  "edition": "The Gottman Institute, 'The Four Horsemen: Criticism, Contempt, Defensiveness, and Stonewalling', current official article; a 1998 peer-reviewed newlywed study checked as background",
+  "url": "https://www.gottman.com/blog/the-four-horsemen-recognizing-criticism-contempt-defensiveness-and-stonewalling-/",
+  "exact_text": "The Four Horsemen: Criticism, Contempt, Defensiveness, and Stonewalling",
+  "surrounding_context": "The article explains the biblical Four Horsemen metaphor, applies it to destructive relationship communication, and treats criticism, contempt, defensiveness and stonewalling as the four named patterns, associating them with relationship instability and endings.",
+  "locator": "'What Are the Four Horsemen?' and the four named subsections.",
+  "notes": "The four labels are directly supported, which is all Ch9 asserts. STANDING BAR REAFFIRMED: do not attach a universal divorce-prediction percentage to this; the research base is more nuanced than a single headline accuracy figure.",
+  "confidence": "high"
+ },
+ {
+  "slug": "gottman-repair-attempts",
+  "verdict": "CONFIRMED",
+  "edition": "Gottman, J. M., Driver, J., & Tabares, A. (2015). Repair During Marital Conflict in Newlyweds: How Couples Move from Attack-Defend to Collaboration. Journal of Family Psychotherapy, 26(2), 85-108. DOI 10.1080/08975353.2015.1038962",
+  "url": "https://www.tandfonline.com/doi/full/10.1080/08975353.2015.1038962",
+  "exact_text": "Criteria for the effectiveness of repair attempts were (1) reducing negative affect or (2) increasing positive affect during conflict.",
+  "surrounding_context": "The paper describes observational coding of attacks and repairs during newlywed conflict. Early, emotionally connective repairs such as humor, affection, self-disclosure, understanding, empathy and taking responsibility appeared especially effective at changing the affective climate.",
+  "locator": "Article pp. 85-108, abstract and coding/results sections.",
+  "notes": "MAJOR UPGRADE. This concept previously had status unverified and a Gottman Institute BLOG URL as its only resource, flagged as needing a researcher to confirm the underlying study. There is a real peer-reviewed paper with a DOI, and it supports the claim. The paper does NOT support a simple universal divorce-prediction percentage for repair attempts.",
+  "confidence": "high"
+ },
+ {
+  "slug": "gottman-turning-toward-bids",
+  "verdict": "CONFIRMED",
+  "edition": "American Psychological Association 'Speaking of Psychology' interview with John Gottman; Gottman Institute article on turning toward bids; Driver & Gottman 2004 (Family Process) inspected",
+  "url": "https://www.apa.org/news/podcasts/speaking-of-psychology/loving-relationships",
+  "exact_text": "At the six-year follow-up, couples that stayed married turned towards one another 86% of the time. Couples that divorced averaged only 33%",
+  "surrounding_context": "The underlying newlywed project involved 130 couples observed in an apartment laboratory. Bids and responses were coded as turning toward, turning away, or turning against. Seventeen couples had divorced by the six-year follow-up, compared with 113 still married.",
+  "locator": "APA interview discussion of bids and the apartment laboratory; corresponding Gottman Institute discussion.",
+  "notes": "I PREDICTED THIS WOULD FAIL AND IT DID NOT. The 86%/33% figures, the six-year follow-up, the 130-couple sample and the 17 divorces are all confirmed in Gottman's own reporting, including an APA interview where he states them himself. The remaining limit is narrower than 'unfounded': the exact PEER-REVIEWED provenance of that precise percentage pair is still unresolved, so do not attribute the numbers to Driver & Gottman 2004 specifically. Attribute to Gottman's own account of the apartment-lab study.",
+  "confidence": "high for figures, sample and follow-up; medium for exact peer-reviewed provenance"
+ }
+]

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-label="The Virtue Question">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE VIRTUE QUESTION</text>
+    <text class="sub" x="320" y="66">Am I being the best husband I can be right now?</text>
+    <text class="lbl" x="44" y="128">LOGICAL</text>
+    <text class="txt" x="44" y="154">Think it through before you answer. Is this what the moment</text>
+    <text class="txt" x="44" y="174">needs, or what you had already decided?</text>
+    <text class="lbl" x="44" y="204">KIND</text>
+    <text class="txt" x="44" y="230">Act from genuine care for her and for the marriage — not from</text>
+    <text class="txt" x="44" y="250">ego, and not from the score you have been keeping.</text>
+    <text class="lbl" x="44" y="280">SELF-CONTROLLED</text>
+    <text class="txt" x="44" y="306">Govern the impulse before it fires. Say nothing that will</text>
+    <text class="txt" x="44" y="326">still be in the room tomorrow.</text>
+    <text class="lbl" x="44" y="356">BRAVE</text>
+    <text class="txt" x="44" y="382">Stay in it. Stay reachable. Do not leave through your words,</text>
+    <text class="txt" x="44" y="402">your silence, or the thing that ends the conversation.</text>
+  </g>
+  <g class="rule" fill="none">
+    <path d="M44 188h552"/>
+    <path d="M44 264h552"/>
+    <path d="M44 340h552"/>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 540" role="img" aria-label="The Incomplete Husband">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.72}
+    .el{font:600 14px Georgia,serif;letter-spacing:.18em;text-anchor:middle}
+    .fm{font:600 12.5px Georgia,serif;letter-spacing:.14em}
+    .fs{font:italic 11.5px Georgia,serif;opacity:.66}
+    .edge{stroke:currentColor;stroke-width:1.15;opacity:.55}
+    .tick{stroke:currentColor;stroke-width:.9;opacity:.32}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="350" y="40">THE INCOMPLETE HUSBAND</text>
+    <text class="sub" x="350" y="66">Each failure is one element without another.</text>
+  </g>
+  <g class="edge" fill="none">
+    <path d="M184 260h292"/>
+    <path d="M486.1 284.2 353.9 417.8"/>
+    <path d="M306.1 417.8 173.9 284.2"/>
+  </g>
+  <g stroke="currentColor" fill="none" stroke-width="2.2" stroke-linecap="round">
+    <g transform="translate(122.8,232.8) scale(0.85)" ><path d="M3 19c4.8-4.8 9.7-4.8 14.5 0s9.7 4.8 14.5 0 9.7-4.8 14.5 0 9.7 4.8 14.5 0"/>
+      <path d="M3 32c4.8-4.8 9.7-4.8 14.5 0"/><path d="M46.5 32c4.8-4.8 9.7-4.8 14.5 0"/>
+      <path d="M3 45c4.8-4.8 9.7-4.8 14.5 0s9.7 4.8 14.5 0 9.7-4.8 14.5 0 9.7 4.8 14.5 0"/>
+      <circle cx="32" cy="32" r="6.5" fill="currentColor" stroke="none"/></g>
+    <g transform="translate(482.8,232.8) scale(0.85)" stroke-linejoin="round"><path d="M24 38c-6 0-10-2-12-4a8 8 0 0 1-2-12 9 9 0 0 1 8-9 10 10 0 0 1 14-4 10 10 0 0 1 14 4 9 9 0 0 1 8 9 8 8 0 0 1-2 12c-2 2-6 4-12 4"/>
+      <path d="M25 58c1-9 2-14 2-21"/><path d="M39 58c-1-9-2-14-2-21"/><path d="M15 58h34"/></g>
+    <g transform="translate(302.8,414.8) scale(0.85)" ><circle cx="32" cy="32" r="12"/>
+      <path d="M50 32h7M44.73 44.73l4.95 4.95M32 50v7M19.27 44.73l-4.95 4.95M14 32H7M19.27 19.27l-4.95-4.95M32 14V7M44.73 19.27l4.95-4.95"/></g>
+  </g>
+  <g fill="currentColor">
+    <text class="el" x="116" y="212">RIVER</text>
+    <text class="el" x="544" y="212">OAK</text>
+    <text class="el" x="330" y="500">SUN</text>
+
+    <text class="fm" x="250" y="224" text-anchor="middle">PASSIVE</text>
+    <text class="fs" x="250" y="240" text-anchor="middle">river without oak</text>
+    <text class="fm" x="410" y="224" text-anchor="middle">RIGID</text>
+    <text class="fs" x="410" y="240" text-anchor="middle">oak without river</text>
+
+    <text class="fm" x="168" y="322" text-anchor="end">DETACHED</text>
+    <text class="fs" x="168" y="338" text-anchor="end">river without sun</text>
+    <text class="fm" x="224" y="386" text-anchor="end">VOLATILE</text>
+    <text class="fs" x="224" y="402" text-anchor="end">sun without river</text>
+
+    <text class="fm" x="492" y="322">COLD</text>
+    <text class="fs" x="492" y="338">oak without sun</text>
+    <text class="fm" x="436" y="386">UNRELIABLE</text>
+    <text class="fs" x="436" y="402">sun without oak</text>
+  </g>
+  <g class="tick" fill="none">
+    <path d="M250 248v8"/><path d="M410 248v8"/>
+    <path d="M206 322h-30"/><path d="M262 382l-30 3"/>
+    <path d="M454 322h30"/><path d="M398 382l30 3"/>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "falconier-2015-dyadic-coping-meta-analysis",
+    "verdict": "CONFIRMED",
+    "edition": "Falconier, M. K., Jackson, J. B., Hilpert, P., & Bodenmann, G. (2015). Clinical Psychology Review, 42, 28-46. PMID 26295276.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26295276/",
+    "exact_text": "Aggregated standardized zero-order correlation (r) for total dyadic coping with relationship satisfaction was .45 (p=.000). 72 independent samples from 57 reports, combined 17,856 participants.",
+    "surrounding_context": "Total dyadic coping predicted relationship satisfaction regardless of gender, age, relationship length, education level, and nationality. Perceptions of dyadic coping by partner and by both partners together were stronger predictors than perceptions by self. Aggregated positive forms were a stronger predictor than aggregated negative forms.",
+    "locator": "Clinical Psychology Review, 42, 28-46",
+    "notes": "Every figure in the concept is confirmed, including the moderator claim, which matches near-verbatim. REFINEMENT: the 72 samples come from 57 reports; the concept omits the report count. r = .45 now carries its p-value. Evidence is from database abstract/listing text (PubMed, ZORA, SONAR, SciSpace, ScienceDirect), not the primary PDF, which remains proxy-blocked. quote_form is none, so there is no wording exposure.",
+    "confidence": "high",
+    "evidence_source": "database-abstract"
+  },
+  {
+    "slug": "marcus-newhall-2000-displaced-aggression",
+    "verdict": "CONFIRMED",
+    "edition": "Marcus-Newhall, A., Pedersen, W. C., Carlson, M., & Miller, N. (2000). Journal of Personality and Social Psychology, 78(4), 670-689. PMID 10794373.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10794373/",
+    "exact_text": "Displaced aggression is a robust effect, mean effect size +0.54.",
+    "surrounding_context": "Moderator analyses: (a) the more negative the setting in which participant and target interacted, the greater the magnitude of displaced aggression; (b) per N. E. Miller's (1948) stimulus generalization principle, the more similar the provocateur and target, the more displaced aggression; (c) consistent with the contrast effect, intensity of initial provocation is inversely related to magnitude of displaced aggression.",
+    "locator": "JPSP 78(4), 670-689",
+    "notes": "Effect size and all three moderators confirmed, including the one the concept relies on (negative setting amplifies). Title confirmed as 'Displaced aggression is alive and well: A meta-analytic review.' A full-text PDF is publicly mirrored at cognitionandculture.net if page-level checking is later wanted. The concept's Handling Note (use the mechanism, not the number) is unaffected and should stand.",
+    "confidence": "high",
+    "evidence_source": "database-abstract"
+  },
+  {
+    "slug": "randall-bodenmann-2009-stress-erodes-relationships",
+    "verdict": "CONFIRMED",
+    "edition": "Randall, A. K., & Bodenmann, G. (2009). Clinical Psychology Review, 29(2), 105-115. DOI 10.1016/j.cpr.2008.10.004. PMID 19167139.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19167139/",
+    "exact_text": "Chronic minor stresses, which originate outside the relationship, are particularly deleterious for marriage because they erode relationship quality slowly and often outside of conscious awareness.",
+    "surrounding_context": "Bodenmann's stress-divorce model concerns the impact of minor (acute or chronic) daily stress on couple functioning - time spent together, communication, well-being of both partners - and how these mediators co-vary with relationship satisfaction and likelihood of divorce. External stress decreases time partners spend together, causing loss of joint experiences and weakening feelings of togetherness; chronic minor stresses increase tension and conflict, erode affection, tenderness and love, and lead slowly to alienation.",
+    "locator": "Clinical Psychology Review 29(2), 105-115",
+    "notes": "Bibliographic details fully confirmed (journal, volume, issue, pages, DOI, PMID). The 'slowly and often outside of conscious awareness' characterization and the mechanism list are corroborated, but the wording found describes Bodenmann's stress-divorce model across review literature rather than being transcribed from the 2009 primary PDF, which remains proxy-blocked. The concept's existing PARAPHRASE-ONLY restriction therefore still stands and should NOT be relaxed: do not quote a sentence from this paper verbatim. The chapter may state the model's claim in its own words.",
+    "confidence": "medium",
+    "evidence_source": "database-abstract"
+  },
+  {
+    "slug": "treynor-2003-brooding-vs-reflection",
+    "verdict": "CONFIRMED",
+    "edition": "Treynor, W., Gonzalez, R., & Nolen-Hoeksema, S. (2003). Cognitive Therapy and Research, 27(3), 247-259.",
+    "url": "https://websites.umich.edu/~gonzo/papers/treynor-rumination.pdf",
+    "exact_text": "After constructing a measure of rumination unconfounded with depression content, support for a two factor model of rumination was found. These analyses indicate that the 2 components, reflective pondering and brooding, differentially relate to depression in terms of predictive ability and gender difference mediation.",
+    "surrounding_context": "A scree plot revealed two factors, brooding and reflection, each with five items. Brooding is conceptualized as maladaptive - a chronic and persistent self-focus on negative emotional states and unachieved standards; reflection is more adaptive.",
+    "locator": "Cognitive Therapy and Research 27(3), 247-259",
+    "notes": "Two-factor split and the direction of each factor confirmed, which is the whole of what Ch11 relies on. A full-text PDF is hosted by co-author Richard Gonzalez at the University of Michigan - an author-hosted copy, which is stronger evidence than the secondary listings the concept was built on. quote_form is paraphrase and no figures are printed, so there is no remaining exposure.",
+    "confidence": "high",
+    "evidence_source": "database-abstract"
+  },
+  {
+    "slug": "marcus-aurelius-instruct-or-bear-with-them",
+    "verdict": "CONFIRMED",
+    "edition": "George Long translation",
+    "url": "https://americanart.si.edu/artwork/men-exist-sake-one-another-teach-them-then-or-bear-them-marcus-aurelius-antoninus",
+    "exact_text": "Men exist for the sake of one another. Teach them then or bear with them.",
+    "surrounding_context": "Meditations Book VIII, section 59. The passage states the interdependence of people and the resulting obligation either to instruct others or to tolerate their limitations.",
+    "locator": "Meditations VIII.59",
+    "notes": "Locus 8.59 confirmed and the Long wording located. Independently corroborated by the Smithsonian American Art Museum, which catalogues a 1958 Jacob Lawrence work titled with this quotation and cites it as Meditations VIII:59 - a non-quote-aggregator source, which matters given how many of this book's defects came from aggregators. SCHEMA GAP, separate from the verdict: this concept has no quote_form field at all, the only Ch11 citation missing one. It should be set to verbatim if the chapter quotes the line, paraphrase if not. okf_validate.py does not currently catch a missing quote_form.",
+    "confidence": "high",
+    "evidence_source": "search-synthesis"
+  }
+]

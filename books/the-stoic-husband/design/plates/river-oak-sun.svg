@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 470" role="img" aria-label="River, Oak, Sun">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .el{font:600 15px Georgia,serif;letter-spacing:.18em;text-anchor:middle}
+    .ql{font:italic 12px Georgia,serif;text-anchor:middle;opacity:.7}
+    .bd{font:12.5px Georgia,serif;text-anchor:middle;opacity:.88}
+    .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
+    .cap{font:italic 11.5px Georgia,serif;text-anchor:middle;opacity:.64}
+    .frm{font:600 13px Georgia,serif;letter-spacing:.10em;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.26}
+    .ln{stroke:currentColor;stroke-width:1.5}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="330" y="40">RIVER. OAK. SUN.</text>
+    <text class="sub" x="330" y="66">A husband is not measured by any one alone.</text>
+  </g>
+  <g stroke="currentColor" fill="none" stroke-width="2.2" stroke-linecap="round">
+    <g transform="translate(90.6,98.6) scale(0.92)" ><path d="M3 19c4.8-4.8 9.7-4.8 14.5 0s9.7 4.8 14.5 0 9.7-4.8 14.5 0 9.7 4.8 14.5 0"/>
+      <path d="M3 32c4.8-4.8 9.7-4.8 14.5 0"/><path d="M46.5 32c4.8-4.8 9.7-4.8 14.5 0"/>
+      <path d="M3 45c4.8-4.8 9.7-4.8 14.5 0s9.7 4.8 14.5 0 9.7-4.8 14.5 0 9.7 4.8 14.5 0"/>
+      <circle cx="32" cy="32" r="6.5" fill="currentColor" stroke="none"/></g>
+    <g transform="translate(300.6,98.6) scale(0.92)" stroke-linejoin="round"><path d="M24 38c-6 0-10-2-12-4a8 8 0 0 1-2-12 9 9 0 0 1 8-9 10 10 0 0 1 14-4 10 10 0 0 1 14 4 9 9 0 0 1 8 9 8 8 0 0 1-2 12c-2 2-6 4-12 4"/>
+      <path d="M25 58c1-9 2-14 2-21"/><path d="M39 58c-1-9-2-14-2-21"/><path d="M15 58h34"/></g>
+    <g transform="translate(510.6,98.6) scale(0.92)" ><circle cx="32" cy="32" r="12"/>
+      <path d="M50 32h7M44.73 44.73l4.95 4.95M32 50v7M19.27 44.73l-4.95 4.95M14 32H7M19.27 19.27l-4.95-4.95M32 14V7M44.73 19.27l4.95-4.95"/></g>
+  </g>
+  <g fill="currentColor">
+    <text class="el" x="120" y="192">RIVER</text>
+    <text class="ql" x="120" y="214">Calm and adaptable</text>
+    <text class="bd" x="120" y="250">Self-command that moves.</text>
+    <text class="bd" x="120" y="270">The river doesn't fight every</text>
+    <text class="bd" x="120" y="290">stone in its path. It accepts</text>
+    <text class="bd" x="120" y="310">the landscape and keeps</text>
+    <text class="bd" x="120" y="330">flowing in the same direction.</text>
+    <text class="el" x="330" y="192">OAK</text>
+    <text class="ql" x="330" y="214">Strong and dependable</text>
+    <text class="bd" x="330" y="250">Strength isn't announced.</text>
+    <text class="bd" x="330" y="270">It's revealed when weight is</text>
+    <text class="bd" x="330" y="290">placed on it. To possess the</text>
+    <text class="bd" x="330" y="310">oak is to become</text>
+    <text class="bd" x="330" y="330">load-bearing.</text>
+    <text class="el" x="540" y="192">SUN</text>
+    <text class="ql" x="540" y="214">Warm and life-giving</text>
+    <text class="bd" x="540" y="250">A house can be structurally</text>
+    <text class="bd" x="540" y="270">sound and still feel cold.</text>
+    <text class="bd" x="540" y="290">Warmth isn't weakness.</text>
+    <text class="bd" x="540" y="310">It's what gives strength</text>
+    <text class="bd" x="540" y="330">a purpose.</text>
+  </g>
+  <g class="rule" fill="none">
+    <path d="M225 100v250"/>
+    <path d="M435 100v250"/>
+    <path d="M90 386h480"/>
+  </g>
+  <g fill="currentColor">
+    <text class="frm" x="330" y="420">When life changes, flow. When life becomes heavy, stand.</text>
+    <text class="frm" x="330" y="442">When life becomes ordinary, bring warmth.</text>
+  </g>
+</svg>

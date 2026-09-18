@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-label="The Four Horsemen">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="42">THE FOUR HORSEMEN</text>
+    <text class="sub" x="320" y="70">Decades of research on what actually predicts divorce</text>
+    <text class="sub" x="320" y="90">found four warning signs.</text>
+    <text class="lbl" x="320" y="160" text-anchor="middle" style="font-size:19px">CRITICISM</text>
+    <text class="lbl" x="320" y="216" text-anchor="middle" style="font-size:19px">CONTEMPT</text>
+    <text class="lbl" x="320" y="272" text-anchor="middle" style="font-size:19px">DEFENSIVENESS</text>
+    <text class="lbl" x="320" y="328" text-anchor="middle" style="font-size:19px">STONEWALLING</text>
+    <text class="cap" x="320" y="392">Contempt is the one that matters most.</text>
+    <text class="src" x="320" y="416">After John Gottman</text>
+  </g>
+  <g class="rule" fill="none"><path d="M250 112h140"/></g>
+</svg>

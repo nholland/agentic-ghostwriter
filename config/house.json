@@ -1,7 +1,8 @@
 {
-  "_comment": "Single source of truth for the counted voice rules. Every threshold here is transcribed from books/the-stoic-husband/01-voice.md 'Counted rules' (line 107) in the playground repo. Do not invent a threshold: if a rule is not in 01-voice.md, it does not belong here.",
-  "_bookRoot_note": "Resolved at runtime by scripts/resolve_book.py, never hardcoded. The hints below are ordered and optional; discovery finds a sibling directory containing book-manifest.json when no hint matches. $GW_BOOK_REPO overrides both.",
+  "_comment": "Single source of truth for the counted voice rules. Every threshold here is transcribed from books/the-stoic-husband/01-voice.md 'Counted rules' (line 107). Do not invent a threshold: if a rule is not in 01-voice.md, it does not belong here.",
+  "_bookRoot_note": "Resolved at runtime by scripts/resolve_book.py, never hardcoded. Since the 2026-09-18 migration (inbox #007) the book lives in THIS repo: '.' is the first hint and book-manifest.json sits at the repo root. The old sibling hint is kept second so an un-migrated checkout still resolves rather than silently drafting generic prose. $GW_BOOK_REPO overrides both; discovery of siblings is the last resort.",
   "bookRepoCandidates": [
+    ".",
     "../Playground-260420"
   ],
   "voice_rules": {
@@ -80,7 +81,7 @@
   ],
   "gloss_window_chars": 260,
   "book_repo_dependencies": {
-    "_note": "Scripts this engine calls that live in the BOOK repo. They are not misplaced: each is in the right place for its current primary caller, and moving them now would break the pipeline still shipping chapters. resolve_book.py verifies every entry, so a missing one is caught at session start rather than mid-chapter. Ownership moves when the legacy pipeline retires, not before.",
+    "_note": "Scripts and governance files that came over with the book on 2026-09-18 (inbox #007) and now live at these paths in this repo. They are the old pipeline's L2/L3 - the OKF validator and format contract, the citation queue, the verification loop, the renderer, the state script - and the engine calls them by name. resolve_book.py verifies every entry against the resolved book repo root, so a missing one is caught at session start rather than mid-chapter.",
     "required": {
       "scripts/okf_validate.py": "the citation gate (okf_gate.py). Genuinely shared today: 3 callers in the book pipeline, 1 here. Blocking - without it no desk may write prose."
     },

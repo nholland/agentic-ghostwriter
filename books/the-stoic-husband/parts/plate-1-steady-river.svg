@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+<rect width="600" height="900" fill="#ffffff"/>
+<line x1="90" y1="190.0" x2="197.6" y2="190.0" stroke="#111111" stroke-width="1.1"/>
+<line x1="398.2" y1="190.0" x2="510" y2="190.0" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="213.7" x2="207.8" y2="213.7" stroke="#111111" stroke-width="1.1"/>
+<line x1="390.0" y1="213.7" x2="510" y2="213.7" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="237.4" x2="214.3" y2="237.4" stroke="#111111" stroke-width="1.1"/>
+<line x1="384.9" y1="237.4" x2="510" y2="237.4" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="261.1" x2="217.6" y2="261.1" stroke="#111111" stroke-width="1.1"/>
+<line x1="378.9" y1="261.1" x2="510" y2="261.1" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="284.7" x2="224.3" y2="284.7" stroke="#111111" stroke-width="1.1"/>
+<line x1="371.5" y1="284.7" x2="510" y2="284.7" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="308.4" x2="231.1" y2="308.4" stroke="#111111" stroke-width="1.1"/>
+<line x1="362.2" y1="308.4" x2="510" y2="308.4" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="332.1" x2="240.3" y2="332.1" stroke="#111111" stroke-width="1.1"/>
+<line x1="361.7" y1="332.1" x2="510" y2="332.1" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="355.8" x2="243.9" y2="355.8" stroke="#111111" stroke-width="1.1"/>
+<line x1="350.9" y1="355.8" x2="510" y2="355.8" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="379.5" x2="253.6" y2="379.5" stroke="#111111" stroke-width="1.1"/>
+<line x1="351.0" y1="379.5" x2="510" y2="379.5" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="403.2" x2="258.7" y2="403.2" stroke="#111111" stroke-width="1.1"/>
+<line x1="341.1" y1="403.2" x2="510" y2="403.2" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="426.8" x2="267.0" y2="426.8" stroke="#111111" stroke-width="1.1"/>
+<line x1="333.2" y1="426.8" x2="510" y2="426.8" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="450.5" x2="270.8" y2="450.5" stroke="#111111" stroke-width="1.1"/>
+<line x1="330.4" y1="450.5" x2="510" y2="450.5" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="474.2" x2="269.5" y2="474.2" stroke="#111111" stroke-width="1.1"/>
+<line x1="324.6" y1="474.2" x2="510" y2="474.2" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="497.9" x2="274.9" y2="497.9" stroke="#111111" stroke-width="1.1"/>
+<line x1="326.1" y1="497.9" x2="510" y2="497.9" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="521.6" x2="277.6" y2="521.6" stroke="#111111" stroke-width="1.1"/>
+<line x1="320.5" y1="521.6" x2="510" y2="521.6" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="545.3" x2="284.5" y2="545.3" stroke="#111111" stroke-width="1.1"/>
+<line x1="315.6" y1="545.3" x2="510" y2="545.3" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="568.9" x2="286.6" y2="568.9" stroke="#111111" stroke-width="1.1"/>
+<line x1="310.3" y1="568.9" x2="510" y2="568.9" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="592.6" x2="285.0" y2="592.6" stroke="#111111" stroke-width="1.1"/>
+<line x1="309.2" y1="592.6" x2="510" y2="592.6" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="616.3" x2="291.6" y2="616.3" stroke="#111111" stroke-width="1.1"/>
+<line x1="309.2" y1="616.3" x2="510" y2="616.3" stroke="#111111" stroke-width="1.1"/>
+<line x1="90" y1="640.0" x2="289.5" y2="640.0" stroke="#111111" stroke-width="1.1"/>
+<line x1="309.7" y1="640.0" x2="510" y2="640.0" stroke="#111111" stroke-width="1.1"/>
+<polyline points="197.6,190.0 207.8,213.7 214.3,237.4 217.6,261.1 224.3,284.7 231.1,308.4 240.3,332.1 243.9,355.8 253.6,379.5 258.7,403.2 267.0,426.8 270.8,450.5 269.5,474.2 274.9,497.9 277.6,521.6 284.5,545.3 286.6,568.9 285.0,592.6 291.6,616.3 289.5,640.0" fill="none" stroke="#111111" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="398.2,190.0 390.0,213.7 384.9,237.4 378.9,261.1 371.5,284.7 362.2,308.4 361.7,332.1 350.9,355.8 351.0,379.5 341.1,403.2 333.2,426.8 330.4,450.5 324.6,474.2 326.1,497.9 320.5,521.6 315.6,545.3 310.3,568.9 309.2,592.6 309.2,616.3 309.7,640.0" fill="none" stroke="#111111" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline points="276.0,650.0 277.2,650.7 278.4,651.3 279.6,651.8 280.8,652.1 282.0,652.2 283.2,652.1 284.4,651.8 285.6,651.3 286.8,650.7 288.0,650.0 289.2,649.3 290.4,648.7 291.6,648.2 292.8,647.9 294.0,647.8 295.2,647.9 296.4,648.2 297.6,648.7 298.8,649.3 300.0,650.0 301.2,650.7 302.4,651.3 303.6,651.8 304.8,652.1 306.0,652.2 307.2,652.1 308.4,651.8 309.6,651.3 310.8,650.7 312.0,650.0 313.2,649.3 314.4,648.7 315.6,648.2 316.8,647.9 318.0,647.8 319.2,647.9 320.4,648.2 321.6,648.7 322.8,649.3 324.0,650.0" fill="none" stroke="#111111" stroke-width="1.4" stroke-linecap="round"/>
+<text x="300.0" y="730" text-anchor="middle" font-family='Georgia, "Times New Roman", serif' font-size="17" font-style="italic" fill="#111111">It's patient enough to cut a canyon out of rock,</text>
+<text x="300.0" y="756" text-anchor="middle" font-family='Georgia, "Times New Roman", serif' font-size="17" font-style="italic" fill="#111111">one ordinary day at a time.</text>
+</svg>
