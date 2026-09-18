@@ -1289,3 +1289,24 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/voice_rules_check.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 04:54 — `claude/gateway-iqyyso` — 3 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `config/house.json`
+- `docs/manual.html`
+- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
+- `scripts/chapter_pdf_local.py`
+- `scripts/package_check.py`
+- `scripts/voice_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
