@@ -1,79 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 640" style="color:#1a1a1a" role="img" aria-label="The Habit Is the Doing">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" style="color:#1a1a1a" role="img" aria-label="The Muscle You Stopped Using">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
     .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
     .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
-    .frm{font:600 13px Georgia,serif;letter-spacing:.10em;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
 
-  <rect x="0" y="0" width="500" height="640" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="460" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="250" y="48">THE HABIT IS THE DOING</text>
-    <text class="sub" x="250" y="74">What you keep doing, you keep.</text>
-    <text class="cap" x="250" y="124">Each mark is one more time you did it.</text>
+    <text class="ttl" x="320" y="40">THE MUSCLE YOU STOPPED USING</text>
+    <text class="sub" x="320" y="66">Nobody took it away. It shrank while you were busy.</text>
   </g>
 
-  <!-- the rule, in three capacities that are nothing but their own actions -->
-  <g fill="currentColor">
-    <text class="lbl" x="52" y="185">WALKING</text>
-    <text class="lbl" x="52" y="241">RUNNING</text>
-    <text class="lbl" x="52" y="297">READING</text>
-  </g>
-
-  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-    <path d="M176 180H440"/>
-    <path d="M176 236H440"/>
-    <path d="M176 292H440"/>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".55">
-    <path d="M441 176L452 180L441 184"/>
-    <path d="M441 232L452 236L441 240"/>
-    <path d="M441 288L452 292L441 296"/>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".82">
-    <path d="M184 178V169M201 178V169M218 178V169M235 178V169M252 178V169M269 178V169M286 178V169M303 178V169M320 178V169M337 178V169M354 178V169M371 178V169M388 178V169M405 178V169M422 178V169"/>
-    <path d="M184 234V225M201 234V225M218 234V225M235 234V225M252 234V225M269 234V225M286 234V225M303 234V225M320 234V225M337 234V225M354 234V225M371 234V225M388 234V225M405 234V225M422 234V225"/>
-    <path d="M184 290V281M201 290V281M218 290V281M235 290V281M252 290V281M269 290V281M286 290V281M303 290V281M320 290V281M337 290V281M354 290V281M371 290V281M388 290V281M405 290V281M422 290V281"/>
-  </g>
-
-  <g fill="currentColor">
-    <text class="src" x="250" y="328">Epictetus, Discourses 2.18</text>
-  </g>
-  <g class="rule" fill="none"><path d="M44 356H456"/></g>
-
-  <!-- the same rule, applied where you never applied it -->
-  <g fill="currentColor">
-    <text class="cap" x="250" y="402">The one corner you never aimed at.</text>
-    <text class="lbl" x="52" y="457">ROMANCE</text>
-  </g>
-
-  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
-    <path d="M176 452H278"/>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 6" opacity=".38">
-    <path d="M278 452H440"/>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".55">
-    <path d="M441 448L452 452L441 456"/>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".82">
-    <path d="M184 450V441M201 450V441M218 450V441M235 450V441M252 450V441M269 450V441"/>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-linecap="round">
-    <path d="M318 452H342" stroke-width="1.8"/>
-    <path d="M330 450V436" stroke-width="2.4"/>
+  <!-- the three Epictetus names, each kept at full size by the doing -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="196" y="112" width="364" height="20"/>
+    <rect x="196" y="150" width="364" height="20"/>
+    <rect x="196" y="188" width="364" height="20"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="330" y="484">tonight</text>
+    <text class="lbl" x="44" y="127">WALKING</text>
+    <text class="lbl" x="44" y="165">RUNNING</text>
+    <text class="lbl" x="44" y="203">READING</text>
+    <text class="cap" x="320" y="234">Each one is kept by doing it. Nothing else keeps it.</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 528H456"/></g>
+  <g class="rule" fill="none"><path d="M44 262h552"/></g>
+
+  <!-- the same rule, in the corner nobody aimed at -->
   <g fill="currentColor">
-    <text class="cap" x="250" y="560">Nothing here is lost. It is only out of use.</text>
-    <text class="frm" x="250" y="586">One more mark, and it starts again.</text>
+    <text class="cap" x="320" y="288">The same rule, in the one corner you never aimed at.</text>
+  </g>
+
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
+    <rect x="196" y="308" width="364" height="20"/>
+  </g>
+  <g fill="currentColor" opacity=".82">
+    <rect x="196" y="308" width="74" height="20"/>
+  </g>
+  <g fill="currentColor" opacity=".38">
+    <rect x="276" y="308" width="20" height="20"/>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="323">ROMANCE</text>
+    <text class="cap" x="44" y="340" text-anchor="start" style="font-size:10.5px">no deadline, nobody watching</text>
+    <text class="cap" x="286" y="366">tonight</text>
+    <text class="cap" x="430" y="366">where it used to reach</text>
+  </g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="394">Nothing here is gone. It is only out of use.</text>
+    <text class="cap" x="320" y="414">It comes back the way it was built, by doing it.</text>
+    <text class="src" x="320" y="440">After Epictetus, Discourses 2.18</text>
   </g>
 </svg>

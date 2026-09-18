@@ -1,9 +1,11 @@
 ---
 id: 019
-status: open
+status: resolved
 raised_by: gw-designer
 chapter: 12
 opened: 2026-09-16 15:25
+resolved: 2026-09-18 20:01
+applied_by: ! grep -q 'THE FIRST THING CUT' runs/ch12/plate.svg
 ---
 
 # The Ch12 plate draws a mechanism the chapter no longer has. Redraw or retire?
@@ -19,3 +21,9 @@ Publisher verified: the plate's title element reads THE FIRST THING CUT; the cha
 ```
 
 **What unblocks this:** Whether Ch12 ships with a plate, and whether Ch1 keeps three.
+
+**Resolution (2026-09-18 20:01):** Redraw around atrophy (Recommended)
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q 'THE FIRST THING CUT' runs/ch12/plate.svg` exits 0.
+
+**Applied, confirmed 2026-09-18 20:01:** `! grep -q 'THE FIRST THING CUT' runs/ch12/plate.svg` now exits 0.
