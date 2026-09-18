@@ -1,9 +1,10 @@
 ---
 id: 021
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 04:59
+resolved: 2026-09-18 18:34
 ---
 
 # voice_rules_check.py crashes on its own NUMBER-UNCHECKED state, and one MISMATCH prints three advice paragraphs, the last of them false.
@@ -19,3 +20,5 @@ spec_number removed from em_dash_max -> Traceback, KeyError: 'NUMBER-UNCHECKED'.
 ```
 
 **What unblocks this:** Whether the gate Rule 8(e) rests on survives its ninth rule.
+
+**Resolution (2026-09-18 18:34):** Fixed. Author: 'Fix both and commit!' The NUMBER-UNCHECKED mark key is added so the honest state prints instead of crashing, the duplicated MISMATCH advice block is deleted, and the DRIFT paragraph is gated on actual drift so it can no longer tell the author to update a probe in a way that would hide a mismatch. The null-spec_number case is a stored fixture.

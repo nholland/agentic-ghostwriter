@@ -1,9 +1,10 @@
 ---
 id: 023
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 04:59
+resolved: 2026-09-18 18:34
 ---
 
 # A retro proposal that adds or fixes a check should close on its fixture, not on a grep for its own text.
@@ -19,3 +20,5 @@ Zero inbox items were created for the seven proposals applied yesterday - they l
 ```
 
 **What unblocks this:** Whether the next retro's proposals survive a no.
+
+**Resolution (2026-09-18 18:34):** Applied. gw-retro now requires that a proposal adding or fixing a check closes on its fixture rather than on a grep for its own text, and points at tests/fixtures/ and tests/run.py. The evidence for the rule is that a grep for 'spec_number' would have closed green over both half-fixes found this morning.

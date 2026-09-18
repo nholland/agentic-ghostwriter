@@ -1,9 +1,10 @@
 ---
 id: 020
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 04:59
+resolved: 2026-09-18 18:34
 ---
 
 # package_check.py passes a package that opens on the distillation, so long as the class says distback. Assert position instead of class name?
@@ -19,3 +20,5 @@ printf a distback-classed section first | package_check.py -> [ ok ] opens on: d
 ```
 
 **What unblocks this:** Whether the render gate can see the fault that created it.
+
+**Resolution (2026-09-18 18:34):** Fixed. Author: 'Fix both and commit!' package_check.py now asserts position by index rather than class name, parses every section tag including those with extra attributes, fails loudly on a tag it cannot parse, and strips inner tags before scanning headings. All three escapes the Archivist constructed are stored as fixtures in tests/fixtures/ and re-run by tests/run.py.

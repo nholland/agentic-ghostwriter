@@ -1,9 +1,10 @@
 ---
 id: 022
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-18 04:59
+resolved: 2026-09-18 18:34
 ---
 
 # voice_rules_check.py's docstring still describes the behaviour it had before yesterday's rewrite.
@@ -19,3 +20,5 @@ ast.get_docstring contains no match for spec_number; the behaviour compares numb
 ```
 
 **What unblocks this:** Whether the first thing a caller reads about the gate is true.
+
+**Resolution (2026-09-18 18:34):** Fixed alongside #021, since a rewritten check with a stale docstring is the same defect the arc was clearing. The docstring now describes number comparison, names spec_number, and states the residual hole: three rules have digit-free probe spans and hand-transcribed numbers, so value and spec_number must be edited together.
