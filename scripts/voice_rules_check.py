@@ -81,21 +81,35 @@ def main():
         # read "~3 mentions" and this check printed [ok] and exited 0. An engine
         # enforcing a number its constitution does not state is the two-sources-
         # of-truth failure the whole check exists to prevent.
+        #
+        # Rewritten 2026-09-18. The first version accepted any number anywhere in
+        # the matched span, and printed ok where the span held no digits at all -
+        # so em_dash_max 0 -> 9, the bold cap 1 -> 7 and the you-density floor
+        # 40 -> 1 all passed. Each rule now declares `spec_number`: the number the
+        # constitution states, in digits or in words ("Never use em-dashes" is a
+        # cap of 0, recorded in spec_number_note), and the engine's value is
+        # compared against that declaration every time.
         value = rule.get("value")
+        want = rule.get("spec_number")
         nums = []
-        if ok and isinstance(value, (int, float)):
-            nums = [float(n) for n in re.findall(r"\d+(?:\.\d+)?", m.group(0))]
-            # A fraction in the config and a percentage in the spec are the same
-            # threshold: 0.1 here is "10%" there. Accept either reading.
-            accepted = {float(value), float(value) * 100.0}
-            if nums and not (accepted & set(nums)):
-                status = "MISMATCH"
+        if ok:
+            nums = [float(n) for n in re.findall(r"\d+(?:\.\d+)?",
+                                                 m.group(0).replace(",", ""))]
+            if want is None:
+                status = "NUMBER-UNCHECKED"      # nothing compared; never ok (Rule 12)
+            elif nums and float(want) not in nums:
+                status = "MISMATCH"              # the spec was reworded under the declaration
+            elif float(value) not in (float(want), float(want) / 100.0):
+                status = "MISMATCH"              # engine enforces a number the spec does not state
 
         results.append({"rule": name, "status": status, "value": value,
-                        "probe": probe,
+                        "spec_number": want, "probe": probe,
                         "spec_text": m.group(0) if m else None,
-                        "spec_numbers": nums})
-        if status != "ok":
+                        "spec_numbers": nums,
+                        "note": rule.get("spec_number_note")})
+        # UNCHECKED is honest, not broken, and must not fail the build, or
+        # okf_gate would read a correctly-declared rule as structural drift.
+        if status not in ("ok", "NUMBER-UNCHECKED"):
             failed.append(name)
 
     out = {"spec": spec_path, "results": results, "failed": failed}
@@ -116,6 +130,12 @@ def main():
             print("            number than this engine enforces. The engine must")
             print("            never enforce a threshold its constitution does not")
             print("            state. Change the spec first, then the value.")
+            print(f"            Affected: {', '.join(mismatched)}")
+            print()
+        mismatched = [r["rule"] for r in results if r["status"] == "MISMATCH"]
+        if mismatched:
+            print("  MISMATCH: the engine enforces a number the constitution does")
+            print("            not state. Change the spec first, then the value.")
             print(f"            Affected: {', '.join(mismatched)}")
             print()
         if failed:

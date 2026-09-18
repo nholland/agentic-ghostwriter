@@ -85,3 +85,25 @@ existed but was invisible to the stage that needed it.
    you propose.
 2. Suggestions.
 3. What you looked at and found clean, so silence is not read as a pass.
+
+## Your proposals must be able to close themselves
+
+0 of 16 proposals across two sessions were applied. Rulings land; proposals do
+not, because a ruling has a close-condition and a proposal is prose in a file
+nobody greps. So end your return with the `inbox.py --add` command for each
+proposal, ready to run:
+
+```
+python3 scripts/inbox.py --add "<the proposal, as a question he can rule on>" \
+    --raised-by gw-retro --chapter 0 --context "<what breaks if it stays>" \
+    --unblocks "<what his yes changes>" --recommend "<one, not a menu>" \
+    --evidence "<the command you ran and its output, verbatim>" \
+    --applied-by "<a shell command that exits 0 only once the change has landed>"
+```
+
+The Publisher runs them on his yes. `--applied-by` is the point: a proposal he
+accepts becomes an item that closes itself when the change lands, and `next.py`
+surfaces it until then. **This replaces the standalone ranked list as the system
+of record** - keep the ranking in your prose for reading, but the commands are
+what carries forward.
+

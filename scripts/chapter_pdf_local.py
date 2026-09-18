@@ -184,23 +184,31 @@ figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
 """
 
 
+def distillation_html(md, kicker):
+    """One transform, two call sites. Extracted 2026-09-18: the front and back
+    paths were 7 lines each and 5 identical, which is the two-copies-of-one-
+    stylesheet shape that caused the defects this renderer exists to avoid."""
+    d = md_to_html(md)
+    d = re.sub(r"<h1>(.*?)</h1>",
+               lambda m: f'<p class="kicker">{kicker}</p><h1>{m.group(1)}</h1>'
+                         f'<div class="rule"></div>', d, count=1)
+    d = re.sub(r"<p><strong>Mechanism:</strong>\s*(.*?)</p>",
+               r'<p class="mech">\1</p>', d, count=1)
+    d = re.sub(r"<p><strong>Conversation sentence:</strong>\s*(.*?)</p>",
+               r'<p class="convo">\1</p>', d, count=1)
+    for lab in ("Lesson", "Challenge", "Practice"):
+        d = re.sub(rf"<p><strong>{lab}:</strong>\s*(.*?)</p>", rf'<h2>{lab}</h2><p>\1</p>', d)
+        d = re.sub(rf"<p><strong>{lab}:</strong></p>", rf"<h2>{lab}</h2>", d)
+        d = re.sub(rf'<p class="runin"><strong>{lab}:</strong></p>', rf"<h2>{lab}</h2>", d)
+    return d
+
+
 def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back"):
     body = []
     if distillation_md and dist_at == "front":
-        d = md_to_html(distillation_md)
-        d = re.sub(r"<h1>(.*?)</h1>",
-                   lambda m: f'<p class="kicker">Chapter distillation</p><h1>{m.group(1)}</h1>'
-                             f'<div class="rule"></div>', d, count=1)
-        d = re.sub(r"<p><strong>Mechanism:</strong>\s*(.*?)</p>",
-                   r'<p class="mech">\1</p>', d, count=1)
-        d = re.sub(r"<p><strong>Conversation sentence:</strong>\s*(.*?)</p>",
-                   r'<p class="convo">\1</p>', d, count=1)
-        for lab in ("Lesson", "Challenge", "Practice"):
-            d = re.sub(rf"<p><strong>{lab}:</strong>\s*(.*?)</p>",
-                       rf'<h2>{lab}</h2><p>\1</p>', d)
-            d = re.sub(rf"<p><strong>{lab}:</strong></p>", rf"<h2>{lab}</h2>", d)
-            d = re.sub(rf"<p class=\"runin\"><strong>{lab}:</strong></p>", rf"<h2>{lab}</h2>", d)
-        body.append(f'<section class="dist">{d}</section>')
+        body.append('<section class="dist">'
+                    + distillation_html(distillation_md, "Chapter distillation")
+                    + '</section>')
 
     c = md_to_html(chapter_md)
     c = re.sub(r"<h1>Chapter (\d+): (.*?)</h1>",
@@ -217,20 +225,10 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back"):
     body.append(f"<section>{c}</section>")
 
     if distillation_md and dist_at == "back":
-        d = md_to_html(distillation_md)
-        d = re.sub(r"<h1>(.*?)</h1>",
-                   lambda m: '<p class="kicker">Not part of the chapter &middot; '
-                             'working notes</p><h1>' + m.group(1) + '</h1>'
-                             '<div class="rule"></div>', d, count=1)
-        d = re.sub(r"<p><strong>Mechanism:</strong>\s*(.*?)</p>",
-                   r'<p class="mech">\1</p>', d, count=1)
-        d = re.sub(r"<p><strong>Conversation sentence:</strong>\s*(.*?)</p>",
-                   r'<p class="convo">\1</p>', d, count=1)
-        for lab in ("Lesson", "Challenge", "Practice"):
-            d = re.sub(rf"<p><strong>{lab}:</strong>\s*(.*?)</p>", rf'<h2>{lab}</h2><p>\1</p>', d)
-            d = re.sub(rf"<p><strong>{lab}:</strong></p>", rf"<h2>{lab}</h2>", d)
-            d = re.sub(rf'<p class="runin"><strong>{lab}:</strong></p>', rf"<h2>{lab}</h2>", d)
-        body.append(f'<section class="dist distback">{d}</section>')
+        body.append('<section class="dist distback">'
+                    + distillation_html(distillation_md,
+                                        "Not part of the chapter &middot; working notes")
+                    + '</section>')
 
     doc = (f"<!doctype html><html><head><meta charset='utf-8'>"
            f"<title>{_html.escape(title)}</title><style>{CSS}</style></head>"
