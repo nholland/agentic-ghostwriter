@@ -1,6 +1,6 @@
 ---
 id: 008
-status: ruled
+status: resolved
 raised_by: gw-ghostwriter
 chapter: 12
 opened: 2026-09-15 17:08
@@ -25,3 +25,5 @@ gw-ghostwriter plan-only gate, 2026-09-15: 'The chapter has no story, and no per
 **Resolution (2026-09-16 11:14):** Three real moments, no invention needed. THE SCENE: 'It was just this last year that, after 24 years of marriage, she and I were talking and she said, "When was the last time you took me on a date?" It hit me like a ton of bricks because she's right. It had been months since we had done that. And I was blown away at how much time had already gone by. People tell you to go on a date once a week and we hadn't gone on a date in nearly 5 months.' SUPPORTING: 'There have been years over the past 20+ years where I have forgotten our anniversary because life has been so busy. I think the more surprising part is that my wife, as she has also gotten busy, has also forgotten our anniversary. As you get older you can laugh about it but the reality is that both people get extremely busy.' AND: 'When I was younger I did big things, like I rented planes and cars and wrote her letters, all of which was 20 years ago. Now it's been a very long time since I've rented her a plane.' The invented composite comes out; her question replaces it.
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `grep -q 'ton of bricks' /home/user/agentic-ghostwriter/runs/ch12/refined.md` exits 0.
+
+**Applied, confirmed 2026-09-18 18:32:** `grep -q 'ton of bricks' /home/user/agentic-ghostwriter/runs/ch12/refined.md` now exits 0.
