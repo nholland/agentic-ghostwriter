@@ -1310,3 +1310,29 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `skills/gw-compile/SKILL.md`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 05:00 — `claude/gateway-iqyyso` — 5 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `config/house.json`
+- `docs/manual.html`
+- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
+- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
+- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
+- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
+- `runs/retro/2026-09-18-the-checks-contain-the-defect.md`
+- `scripts/chapter_pdf_local.py`
+- `scripts/package_check.py`
+- `scripts/voice_check.py`
+- `scripts/voice_rules_check.py`
+- `skills/gw-compile/SKILL.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
