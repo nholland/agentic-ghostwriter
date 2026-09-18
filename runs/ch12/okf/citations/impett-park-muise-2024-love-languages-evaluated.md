@@ -92,9 +92,9 @@ survives and has better support elsewhere. See the brief at
 - Same first author as
   [Park, Johnson, Gordon & Impett (2025)](/citations/park-et-al-2025-pay-me-back-exchange-orientation.md),
   already in the bundle and used in Ch7.
-- [Bunt & Hazelwood (2017)](/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md)
+- [Bunt & Hazelwood (2017)](/citations/bunt-hazelwood-2017-love-languages-self-regulation.md)
   is the single empirical study that most directly tests assumption 3.
-- [Chapman (1992) — The Five Love Languages](/okf/citations/chapman-1992-five-love-languages.md)
+- [Chapman (1992) — The Five Love Languages](/citations/chapman-1992-five-love-languages.md)
   is the source being evaluated.
 
 # Citations

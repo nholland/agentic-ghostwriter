@@ -52,8 +52,8 @@ on a review plus an independent empirical test rather than on one source.
 
 # Related
 
-- [Impett, Park & Muise (2024)](/okf/citations/impett-park-muise-2024-love-languages-evaluated.md)
-- [Chapman (1992)](/okf/citations/chapman-1992-five-love-languages.md)
+- [Impett, Park & Muise (2024)](/citations/impett-park-muise-2024-love-languages-evaluated.md)
+- [Chapman (1992)](/citations/chapman-1992-five-love-languages.md)
 
 # Citations
 

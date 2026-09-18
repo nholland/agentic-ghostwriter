@@ -90,7 +90,7 @@ coined it. Do not attach the ® or the assessment product.
   between the golden rule and the five love languages.
 - The empirical cousin of this idea is perceived partner responsiveness, not
   love languages: see
-  [Impett, Park & Muise (2024)](/okf/citations/impett-park-muise-2024-love-languages-evaluated.md).
+  [Impett, Park & Muise (2024)](/citations/impett-park-muise-2024-love-languages-evaluated.md).
 
 # Citations
 

@@ -87,9 +87,9 @@ name — perceived partner responsiveness, and felt appreciation. See
 
 # Related
 
-- [Impett, Park & Muise (2024)](/okf/citations/impett-park-muise-2024-love-languages-evaluated.md) —
+- [Impett, Park & Muise (2024)](/citations/impett-park-muise-2024-love-languages-evaluated.md) —
   the review that tests and rejects the three assumptions.
-- [Bunt & Hazelwood (2017)](/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md) —
+- [Bunt & Hazelwood (2017)](/citations/bunt-hazelwood-2017-love-languages-self-regulation.md) —
   a direct empirical test of the matching claim.
 
 # Citations

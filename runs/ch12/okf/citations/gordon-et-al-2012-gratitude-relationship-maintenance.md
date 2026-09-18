@@ -77,12 +77,12 @@ appreciative.
 # Related
 
 - Same research group as
-  [Impett, Park & Muise (2024)](/okf/citations/impett-park-muise-2024-love-languages-evaluated.md)
+  [Impett, Park & Muise (2024)](/citations/impett-park-muise-2024-love-languages-evaluated.md)
   and as
   [Muise et al. (2013)](/citations/muise-2013-sexual-communal-strength.md)
   already in the bundle.
 - The responsiveness construct it runs through is
-  [Perceived Partner Responsiveness](/okf/citations/perceived-partner-responsiveness-reis.md).
+  [Perceived Partner Responsiveness](/citations/perceived-partner-responsiveness-reis.md).
 
 # Citations
 
