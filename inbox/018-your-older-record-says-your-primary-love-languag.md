@@ -1,9 +1,11 @@
 ---
 id: 018
-status: open
+status: resolved
 raised_by: gw-researcher
 chapter: 0
 opened: 2026-09-16 14:15
+resolved: 2026-09-18 19:24
+applied_by: ! grep -qi 'Words of affirmation (primary)' /home/user/playground-260420/books/the-stoic-husband/sources/interview-author-stories.md
 ---
 
 # Your older record says your primary love language is words of affirmation. Ch12 now prints touch.
@@ -19,3 +21,9 @@ Publisher verified sources/interview-author-stories.md line 13 directly, 2026-09
 ```
 
 **What unblocks this:** Whether the book's own source file agrees with the chapter it is about to ship.
+
+**Resolution (2026-09-18 19:24):** Touch is my number one, words of affirmation is my number too
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -qi 'Words of affirmation (primary)' /home/user/playground-260420/books/the-stoic-husband/sources/interview-author-stories.md` exits 0.
+
+**Applied, confirmed 2026-09-18 19:24:** `! grep -qi 'Words of affirmation (primary)' /home/user/playground-260420/books/the-stoic-husband/sources/interview-author-stories.md` now exits 0.
