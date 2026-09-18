@@ -1546,3 +1546,9 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `tests/run.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 20:42 — `claude/gateway-tmjrgm` — 1 commit(s) this session
+- `FINDINGS.md`
+- `runs/ch12/verdict.md`
+
+**Next:** `/gw 13` — Chapter 13 has not started in either pipeline.
