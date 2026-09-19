@@ -286,9 +286,26 @@ def staged_link_cases():
     return out
 
 
+def toolcheck_cases():
+    """toolcheck.py's own two detectors, proved against something real rather
+    than trusted by inspection: a module every fixture run already imports
+    (os) must report present, and a binary name no real tool will ever have
+    must report absent."""
+    import toolcheck
+    out = []
+    out.append((toolcheck.check_python("os") is True, "toolcheck python detector",
+                "a stdlib module that is definitely importable must report present",
+                toolcheck.check_python("os")))
+    out.append((toolcheck.check_binary("a-binary-that-does-not-exist-gw") is False,
+                "toolcheck binary detector",
+                "a binary name nothing provides must report absent",
+                toolcheck.check_binary("a-binary-that-does-not-exist-gw")))
+    return out
+
+
 def main():
     rows = (package_cases() + voice_rules_cases() + next_cases()
-           + inbox_cases() + staged_link_cases())
+           + inbox_cases() + staged_link_cases() + toolcheck_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")

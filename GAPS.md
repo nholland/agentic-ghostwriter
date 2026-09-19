@@ -26,19 +26,38 @@ current work.
 
 | Gap | What it waits on |
 |---|---|
-| The book's `chapter_pdf.py` cannot run in the cloud container | A container carrying weasyprint. (The migration in `#007` moved the script here; it did not bring the renderer's dependency.) |
+| The book's `chapter_pdf.py` cannot run in this container | An environment whose network policy reaches PyPI. Checked 2026-09-19, not assumed: `pypi.org` itself returns **403** on a direct request, and `registry.npmjs.org` returns 403 through this environment's proxy allowlist - both registries are unreachable regardless of what a session hook tries. `scripts/toolcheck.py` reports the live status every session (wired into `session-start.sh`, silent when nothing is missing). |
 | `books/<slug>/manuscript.md` and `manuscript.pdf` are the old pipeline's last compile and go stale from here | `/gw-compile` writing its whole-book output into the book tree with the coverage in the filename, and retiring these two |
 | Desks still write to `runs/chNN/`; a chapter reaches `books/` only through `land.py` after the verdict ("switch 2" in `FLOW.md`) | A chapter landing that `land.py` could not do, or the apparatus/output split costing more than the landing-step defects it catches (two so far: #029's broken links, the round-1/round-2 brief choice) |
 
-`weasyprint`, `pandoc` and `wkhtmltopdf` are all absent here and pip cannot reach
-PyPI through the egress proxy, so the book repo's one renderer fails at the point
-of use. `scripts/chapter_pdf_local.py` stands in, driving the headless Chromium
-the container already has, and `scripts/package_check.py` guards what it emits.
+`chapter_pdf.py` needs two Python packages (`weasyprint`, `markdown`) and pip
+cannot install either here. `pandoc` and `wkhtmltopdf` are unwired alternates,
+also absent. `scripts/chapter_pdf_local.py` stands in, driving the headless
+Chromium the container already has, and `scripts/package_check.py` guards what
+it emits.
+
+**A fifth name in this list, `ttfwidth`, turned out not to belong here at all -
+checked 2026-09-19, not assumed.** `runs/design/svgcheck.py` imports it from a
+hardcoded path into one prior session's scratchpad (`/tmp/claude-0/...`), which
+only ever worked by accident, in whichever container happened to have a stray
+copy sitting there. The module was never missing - `runs/design/ttfwidth.py`
+sits right next to the script that imports it. Fixed by importing from the
+script's own directory; no install of any kind involved. Recorded here as the
+shape to watch for next time something looks like a missing dependency: check
+whether it actually is one before writing it down as an environmental gap.
 
 **Registered because it was discovered at the point of use, twice.** The fallback
 was also written from scratch rather than porting the book renderer's `markup()`,
 which cost three formatting defects the author had already had fixed once. Whoever
 closes this gap deletes the fallback rather than maintaining two.
+
+**What is, and is not, "environment setup."** `scripts/toolcheck.py` only ever
+checks; it never installs, because there is nothing here it could install past
+the network policy. Two things stay off this list on purpose: the personal MCP
+connectors (Substack, Buffer) documented below under the publication stack.
+Those hold the author's own account credentials - a connector he sets up
+through claude.ai's connector settings or his own machine, never a package a
+shared environment's startup script should be trying to configure for him.
 
 ---
 
