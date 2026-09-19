@@ -1,5 +1,9 @@
-import sys, re
-sys.path.insert(0,'/tmp/claude-0')
+import sys, os, re
+# Not a missing external package: ttfwidth.py sits right here. The prior line
+# hardcoded a scratchpad path from one session's container
+# ('/tmp/claude-0/...'), which only worked by accident when that exact path
+# happened to hold a stray copy. Import from this file's own directory instead.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ttfwidth import metrics, width
 # Measure against the WIDEST plausible serif fallback, not the narrowest.
 # The CSS says "Georgia,serif"; where Georgia is absent the generic serif is

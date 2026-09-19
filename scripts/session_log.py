@@ -22,6 +22,7 @@ USAGE
 """
 
 import os
+import re
 import subprocess
 import sys
 
@@ -29,6 +30,25 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 LOG = os.path.join(REPO, "runs", "log.md")
 START = os.path.join(REPO, ".claude", "state", "session-start-sha")
+
+
+def last_entry_files():
+    """The file list of the most recent '## ...' block in runs/log.md, or None
+    if the log doesn't exist yet or has no entry.
+
+    The diff this script logs is cumulative (session-start-sha..HEAD), not
+    incremental, so a Stop with no new work commit since the last entry
+    reproduces the same list verbatim - the retro dispatch forces exactly
+    this second Stop every time it fires. 39 of 117 entries were this exact
+    duplicate before this existed."""
+    if not os.path.isfile(LOG):
+        return None
+    text = open(LOG, encoding="utf-8").read()
+    blocks = text.split("\n## ")
+    if len(blocks) < 2:
+        return None
+    last = blocks[-1]
+    return set(re.findall(r"^- `([^`]+)`$", last, re.MULTILINE)) - {"runs/log.md"}
 
 
 def sh(*args):
@@ -56,6 +76,13 @@ def main():
         print("session_log: nothing but runs/log.md changed - no entry written")
         return 0
     if not files and not force:
+        return 0
+    # The diff is cumulative from session start, so a Stop with no new work
+    # commit since the last entry reproduces the same file set verbatim - most
+    # often the retro dispatch's forced second Stop. Skip the restatement.
+    this_set = set(files) - {"runs/log.md"}
+    if not force and this_set and this_set == last_entry_files():
+        print("session_log: same file set as the last entry - no entry written")
         return 0
 
     nxt = sh(sys.executable, os.path.join(HERE, "next.py"))
