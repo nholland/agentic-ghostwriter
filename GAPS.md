@@ -46,7 +46,7 @@ closes this gap deletes the fallback rather than maintaining two.
 
 **Trigger: the author approves the whole-book QA pass (`/gw-qa`) and says the book
 is close.** Every one of these needs the finished arc, the QA findings, and the
-callouts to be accurate. With 18 of 29 chapters unwritten, each would be built on
+callouts to be accurate. With 17 of 29 chapters unwritten, each would be built on
 a book that does not exist yet — and `/book-marketing`'s own note says as much:
 *"It requires the full arc, QA results, and callouts before it can be accurate."*
 
@@ -58,7 +58,23 @@ a book that does not exist yet — and `/book-marketing`'s own note says as much
 | Indie launch plan | `indie-plan` | KDP / IngramSpark strategy |
 | Review strategy | `review-strategy` | ARC programme and early reviews |
 | Book club guide | `club-guide` | Reading group materials |
-| Substack integration | `substack-connect` | Connecting or verifying the publishing channel |
+| Substack integration | `substack-connect` | Pushing a drafted post to Substack, not just writing one |
+
+**Substack, checked rather than assumed, 2026-09-19.** `ListConnectors` against this
+session returns **zero** Substack connectors — there is no MCP credential attached
+here at all, regardless of the shared trigger above. `book-manifest.json`'s
+`integrations.substack.status: "connected"` does **not** mean this system can post:
+read closely, it is the author's own publication existing at that URL, a business
+fact carried over from the old pipeline's manifest, not a technical credential.
+That old pipeline's own `scripts/pipeline_state.py` describes what a real
+integration looked like: "the Substack MCP integration can push drafts but can't
+read publish status back" — push-only, and even then the author confirmed what
+was actually live, because self-reported "posted" status drifted. **Nothing here
+changes `gw-publicist`'s mandate** ("nothing is ever posted, and publishing
+decisions stay the author's") — closing this gap means a draft can be pushed to
+Substack as a draft for the author to publish, never that this house posts
+unattended. Until it is closed, a drafted post is copied out and posted by hand,
+same as today.
 
 **Owner when built: the Publicist.** Not seven skills — the old pipeline's shape.
 One `/gw-publish` with a mode per deliverable, because they share their inputs (the
