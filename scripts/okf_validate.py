@@ -63,6 +63,15 @@ def valid_chapter_slugs(book_root):
     slugs = {"introduction", "conclusion", "all"}
     for m in re.finditer(r"^## Chapter \d+: (.+)$", text, re.MULTILINE):
         slugs.add(slugify(m.group(1)))
+    # The Introduction and Conclusion carry titles too - "## Introduction: The
+    # Man Without a Blueprint" - and a concept may name either by its title
+    # slug, exactly as it would a numbered chapter. Accepting only the bare
+    # tokens reported a correct slug as an orphan (2026-09-19: the river/oak/sun
+    # framework's 'the-man-without-a-blueprint', which is a real chapter). A
+    # checker that calls good data drift is worse than no checker: the repair it
+    # invites is to damage the data until the check goes quiet.
+    for m in re.finditer(r"^## (?:Introduction|Conclusion): (.+)$", text, re.MULTILINE):
+        slugs.add(slugify(m.group(1)))
     return slugs
 
 RESERVED = {"index.md", "log.md", "README.md"}
@@ -340,17 +349,46 @@ def main():
             # past tense by design, the same exemption chapters/ and okf/ get below.
             if os.path.basename(p) == "LEARNINGS.md":
                 continue
+            # Same exemption, same reason, for the book's own append-only
+            # history (2026-09-19). okf/log.md is a timestamped bundle log,
+            # okf/README.md is the pilot assessment index.md itself points at
+            # ("the original pilot assessment"), and its argument IS a Today-vs-OKF
+            # comparison, so it names the retired file by design. Rewriting either
+            # to quiet this guard would falsify a record - the house's Rule 15 says
+            # a file that accumulates appends and never rewrites. A live pointer in
+            # a file nothing writes to is not the risk this guard was built for;
+            # governance and draft instructions are, and those are still scanned.
+            if os.path.relpath(p, args.book_root) in (
+                    os.path.join("okf", "log.md"), os.path.join("okf", "README.md")):
+                continue
             if os.path.basename(p) in ("evidence-library.md", "citation-manifest.md"):
                 continue  # a tombstone may reference itself
             text = open(p, encoding="utf-8").read()
             # Same changelog exemption the citation-manifest half uses below: a
-            # mention on a line that also marks the file retired/superseded is a
+            # mention whose own PARAGRAPH marks the file retired/superseded is a
             # record of its own history, not a live pointer. Without this, the
             # note documenting a fix gets flagged as the defect it just fixed.
-            for line in text.splitlines():
-                if "evidence-library.md" not in line:
+            #
+            # Paragraph, not line, and word STEMS, not inflections (2026-09-19).
+            # The line-and-inflection version reported all six of its hits as
+            # live when every one was historical: prose wraps, so the mention and
+            # the word clearing it land on different lines, and the list missed
+            # the forms actually used - index.md says "supersedes" where the
+            # regex wanted "superseded", progress.md says "migration" not
+            # "migrated". A guard that cries wolf on a tombstone teaches its
+            # reader to edit good prose until it goes quiet, which is the damage
+            # it exists to prevent. The teeth are unchanged: a live instruction
+            # ("append new IP to evidence-library.md") carries none of these
+            # stems anywhere in its paragraph and still flags - fixtured.
+            CLEARED = re.compile(
+                r"retir|supersed|migrat|tombstone|correct|replac|no longer|"
+                r"instead of|the old|used to|has been|deprecat|"
+                r"deriv|drawn from|faithfully",
+                re.I)
+            for para in re.split(r"\n\s*\n", text):
+                if "evidence-library.md" not in para:
                     continue
-                if re.search(r"retired|superseded|migrated|tombstone|corrected", line, re.I):
+                if CLEARED.search(para):
                     continue
                 live_refs.append(os.path.relpath(p, args.book_root))
                 break
@@ -364,6 +402,11 @@ def main():
                 or os.path.basename(p) in (
                     "progress.md", "sweep-report.md", "citation-queue.md",
                 )
+                # sources/verification/ holds dated verification packets: each
+                # records what was logged, and where, at the time it ran. Naming
+                # the manifest that was live in August is the record being
+                # accurate, not a reader being misdirected (2026-09-19).
+                or rel.startswith("sources" + os.sep + "verification" + os.sep)
             )
             # A mention on a line that also marks it retired/migrated is a
             # changelog entry, not a live pointer -- those are how a file records

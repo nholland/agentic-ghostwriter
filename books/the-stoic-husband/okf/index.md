@@ -131,8 +131,8 @@ External sources backing factual claims. Each carries a verification
 `status` (`unverified` | `verifiable` | `verified`) — this is the
 no-fabrication ledger for CLAUDE.md Rule 3.
 
-- [Gottman — The Four Horsemen](/citations/gottman-four-horsemen.md) — status: unverified
-- [Gottman — Repair Attempts](/citations/gottman-repair-attempts.md) — status: unverified
+- [Gottman — The Four Horsemen](/citations/gottman-four-horsemen.md) — status: verifiable
+- [Gottman — Repair Attempts](/citations/gottman-repair-attempts.md) — status: verifiable
 - [Morally Good People and Happiness/Meaning](/citations/morally-good-people-and-happiness-meaning.md) — status: unverified (Psyche article)
 - [Perel — Mating in Captivity](/citations/perel-mating-in-captivity.md) — status: verifiable
 - [Knee et al. 2005 — Autonomy Predicts Less Defensiveness](/citations/knee-2005-autonomy-and-defensiveness.md) — status: unverified
@@ -140,7 +140,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Marcus Aurelius — "Either Instruct Them or Bear with Them"](/citations/marcus-aurelius-instruct-or-bear-with-them.md) — status: verifiable
 - [Musonius Rufus on Marriage](/citations/musonius-rufus-on-marriage.md) — status: verifiable
 - [Seneca — De Ira (On Anger)](/citations/seneca-de-ira-on-anger.md) — status: unverified
-- [Epictetus — "Smoke in the Room" Passage](/citations/epictetus-smoke-in-the-room.md) — status: unverified
+- [Epictetus — "Smoke in the Room" Passage](/citations/epictetus-smoke-in-the-room.md) — status: verifiable
 - [Marcus Aurelius — Impermanence and Gratitude in Meditations](/citations/marcus-aurelius-impermanence-and-gratitude.md) — status: unverified
 - [Prosoche (Daily Self-Attention)](/citations/prosoche-daily-self-attention.md) — status: unverified
 - [Amor Fati](/citations/amor-fati.md) — status: superseded — record of why the book drops the label: the phrase is Nietzsche's, the idea is Stoic; Ch11 teaches it from Enchiridion 8 without the Latin (author ruling, 2026-08-27)
@@ -150,21 +150,21 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Marcus-Newhall et al. (2000) — Displaced Aggression Is Alive and Well](/citations/marcus-newhall-2000-displaced-aggression.md) — status: verifiable — triggered displaced aggression: the delivery system for what a silent man eventually puts on his wife
 - [Randall & Bodenmann (2009) — How Chronic External Stress Erodes a Relationship](/citations/randall-bodenmann-2009-stress-erodes-relationships.md) — status: verifiable — Ch11's mechanism in academic language: chronic minor stress erodes a marriage slowly and outside conscious awareness
 - [Falconier et al. (2015) — Dyadic Coping and Relationship Satisfaction Meta-Analysis](/citations/falconier-2015-dyadic-coping-meta-analysis.md) — status: verifiable — r = .45 across 72 samples, 17,856 participants
-- [Gottman — Bids for Connection and the Turning-Toward Rate (86% vs. 33%)](/citations/gottman-turning-toward-bids.md) — status: unverified — gap: framework safe to use, figures not pinned to a primary; the "94% accuracy" claim is a known overclaim and is barred
-- [Marcus Aurelius — "It Is Fortunate That This Has Happened" (Meditations 4.49)](/citations/marcus-aurelius-meditations-4-49-fortunate-not-shattered.md) — status: verifiable — Ch11's Claim 2 anchor; quote the reframe, leave the headland image behind
+- [Gottman — Bids for Connection and the Turning-Toward Rate (86% vs. 33%)](/citations/gottman-turning-toward-bids.md) — status: verifiable — gap: framework safe to use, figures not pinned to a primary; the "94% accuracy" claim is a known overclaim and is barred
+- [Marcus Aurelius — "It Is Fortunate That This Has Happened" (Meditations 4.49)](/citations/marcus-aurelius-meditations-4-49-fortunate-not-shattered.md) — status: unverified — Ch11's Claim 2 anchor; quote the reframe, leave the headland image behind
 - [Marcus Aurelius — "Love Only That Which Happens to Thee" (Meditations 7.57)](/citations/marcus-aurelius-meditations-7-57-love-what-happens.md) — status: verifiable — real Stoic source for the idea labelled amor fati
 - [Epictetus — "Wish the Things Which Happen to Be as They Are" (Enchiridion 8)](/citations/epictetus-enchiridion-8-wish-things-as-they-are.md) — status: verifiable — the shorter, more usable of the two amor-fati anchors
 - [Skowron 2000 — Differentiation of Self and Marital Satisfaction](/citations/skowron-2000-differentiation-and-marital-satisfaction.md) — status: unverified
 - [Fatherly — "23 Damn Good Pieces of Marriage Advice"](/citations/fatherly-23-pieces-of-marriage-advice.md) — status: unverified
 - [Kruse — Stoic Compassion (Psychology Today)](/citations/kruse-stoic-compassion-psychology-today.md) — status: verified — backs the compassion-vs-empathy distinction
 - [Pillemer — Communication Is Paramount](/citations/pillemer-communication-is-paramount.md) — status: verifiable — Cornell Marriage Advice Project
-- [Pillemer — Don't Keep Score](/citations/pillemer-dont-keep-score.md) — status: verifiable — Cornell Marriage Advice Project
+- [Pillemer — Don't Keep Score](/citations/pillemer-dont-keep-score.md) — status: unverified — Cornell Marriage Advice Project
 - [Pillemer — Friendship as Important as Love](/citations/pillemer-friendship-as-important-as-love.md) — status: verifiable — Cornell Marriage Advice Project
 - [Pillemer — Long Marriages Don't Avoid Fighting, They Learn to Fight](/citations/pillemer-long-marriages-learn-to-fight.md) — status: verifiable — Cornell Marriage Advice Project
-- [Seneca — "Reason wishes to give calm to our emotions, not to root them out"](/citations/seneca-calm-not-root-out-emotions.md) — status: verifiable — De Ira II.3
+- [Seneca — "Reason wishes to give calm to our emotions, not to root them out"](/citations/seneca-calm-not-root-out-emotions.md) — status: unverified — De Ira II.3
 - [Household Labor Distribution and Caretaker Burden Research](/citations/household-labor-and-caretaker-burden.md) — status: unverified — gap: research on the "job never ends" feeling, without "emotional labor"/"mental load" framing
 - [Sisyphean Labor and the Loss of Meaning (Repetitive Undone Work)](/citations/sisyphean-labor-and-meaning.md) — status: unverified — gap: research on repetitive "undone and redone" work sapping motivation regardless of pay (possible Ariely)
-- [Marcus Aurelius — Bad Breath, Tolerance, and the Virtue of Being Wrong (Meditations 5.28)](/citations/marcus-aurelius-on-correction-and-tolerance.md) — status: verifiable — receiving criticism gracefully; not used in Ch6's redraft, earmarked for Ch8's double-standard beat
+- [Marcus Aurelius — Bad Breath, Tolerance, and the Virtue of Being Wrong (Meditations 5.28)](/citations/marcus-aurelius-on-correction-and-tolerance.md) — status: unverified — receiving criticism gracefully; not used in Ch6's redraft, earmarked for Ch8's double-standard beat
 - [Marcus Aurelius — "You Weren't Born to Stay Under the Covers" (Meditations 5.1)](/citations/marcus-aurelius-born-to-act.md) — status: verifiable — Ch6's single anchor quote: duty is simply proper work, not a transaction
 - [Park, Johnson, Gordon & Impett (2025) — "Pay Me Back": Exchange Orientation in Intimate Relationships](/citations/park-et-al-2025-pay-me-back-exchange-orientation.md) — status: verifiable — 13-year longitudinal study, 7,293 couples; exchange orientation predicts declining satisfaction
 - [Gillespie, Peterson & Lever (2019) — Gendered Perceptions of Fairness in Housework and Shared Expenses](/citations/gillespie-peterson-lever-2019-fairness-housework-expenses.md) — status: verifiable — N=10,236; closes the household-labor fairness gap for Ch7/Ch8
@@ -179,12 +179,12 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Herbenick et al. (2014) — Desire Discrepancy as a Feature, Not a Bug](/citations/herbenick-2014-desire-discrepancy-feature-not-bug.md) — status: verifiable — desire mismatch normalized as common, not a verdict on the relationship
 - [Infidelity Motivation — Gendered Split](/citations/infidelity-motivation-gendered-split.md) — status: unverified — real research question, but no clean primary source pinned down yet; do not use until better sourced
 - [In-Law and Family-of-Origin Boundaries in Marriage](/citations/in-law-family-of-origin-boundaries.md) — status: unverified — outline gap resolved (Ch10, "Boundaries Are Strength"); still needs its research pass
-- [Glover — No More Mr. Nice Guy (Nice Guy Syndrome)](/citations/glover-no-more-mr-nice-guy.md) — status: unverified — Ch9 background concept, gap identified during /book-chapter-research 9
+- [Glover — No More Mr. Nice Guy (Nice Guy Syndrome)](/citations/glover-no-more-mr-nice-guy.md) — status: verifiable — Ch9 background concept, gap identified during /book-chapter-research 9
 - [Jack & Dill (1992) — The Silencing the Self Scale](/citations/jack-dill-1992-silencing-the-self.md) — status: verifiable — Ch9 anchor for "silence is not peace"
 - [Gross & John (2003) — Expressive Suppression and Interpersonal Functioning](/citations/gross-john-2003-expressive-suppression.md) — status: verifiable — Ch9, the emotional cost of unspoken accommodation
 - [Gunnysacking — Stored Grievances](/citations/gunnysacking-stored-grievances.md) — status: unverified — Ch9, names the disproportionate-blowup mechanism; use unattributed
-- [Marcus Aurelius — Meditations 12.4: Concealing Our Thoughts](/citations/marcus-aurelius-concealing-thoughts.md) — status: unverified — Ch9 Stoic anchor
-- [Epictetus — Enchiridion 33: Disciplined, Not Total, Silence](/citations/epictetus-enchiridion-33-disciplined-speech.md) — status: unverified — Ch9 Stoic anchor, corrects the "Stoicism means silence" misreading
+- [Marcus Aurelius — Meditations 12.4: Concealing Our Thoughts](/citations/marcus-aurelius-concealing-thoughts.md) — status: verifiable — Ch9 Stoic anchor
+- [Epictetus — Enchiridion 33: Disciplined, Not Total, Silence](/citations/epictetus-enchiridion-33-disciplined-speech.md) — status: verifiable — Ch9 Stoic anchor, corrects the "Stoicism means silence" misreading
 - [Elie Wiesel — The Opposite of Love Is Indifference](/citations/wiesel-opposite-of-love-is-indifference.md) — status: verifiable — Ch9, names where the silence-to-protect-peace trade actually leads
 - [Loneliness Inside a Marriage as a Signal, Not a Verdict](/citations/loneliness-as-signal-not-verdict.md) — status: superseded — resolved into the Married but Lonely framework and its two citations below
 - [Weiss (1973) — Emotional vs. Social Loneliness](/citations/weiss-1973-emotional-vs-social-loneliness.md) — status: verifiable — married people can be socially full and emotionally lonely at once; emotional isolation isn't fixed by more company
@@ -194,7 +194,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Sprecher, Schmeeckle & Felmlee (2006) — The Principle of Least Interest](/citations/sprecher-schmeeckle-felmlee-2006-principle-of-least-interest.md) — status: verifiable — the classic "whoever cares less has more power" concept, empirically tested
 - [Grote & Clark (1998) — Distributive Justice Norms and Family Work](/citations/grote-clark-1998-distributive-justice-family-work.md) — status: verifiable — both spouses rate the communal norm ("give per need, don't track") as most ideal
 - [Christensen & Heavey (1990) — Demand/Withdraw Pattern in Marital Conflict](/citations/christensen-heavey-1990-demand-withdraw.md) — status: verifiable — foundational study on conflict-engagement style and its relationship cost
-- [Seneca — Letters to Lucilius, Letter 81: The Wages of a Good Deed](/citations/seneca-letter-81-wages-of-a-good-deed.md) — status: verifiable — virtue's reward is in the act itself; the "don't reach for the third thing" equivalent for a man's own felt unfairness, distinct from Ch7's Marcus Aurelius passage
+- [Seneca — Letters to Lucilius, Letter 81: The Wages of a Good Deed](/citations/seneca-letter-81-wages-of-a-good-deed.md) — status: unverified — virtue's reward is in the act itself; the "don't reach for the third thing" equivalent for a man's own felt unfairness, distinct from Ch7's Marcus Aurelius passage
 - [Brickman & Campbell (1971) / Brickman, Coates & Janoff-Bulman (1978) — The Hedonic Treadmill](/citations/brickman-1978-lottery-winners-and-accident-victims.md) — status: verifiable — corrects a source's overstated "full baseline" claim for accident victims
 - [Gilbert & Wilson (2000) — Miswanting](/citations/gilbert-wilson-2000-miswanting.md) — status: verifiable
 - [Berridge & Robinson — Wanting vs. Liking (Incentive Salience)](/citations/berridge-robinson-wanting-vs-liking.md) — status: verifiable
@@ -214,27 +214,56 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Marcus Aurelius — "You Have Power Over Your Mind" (Modern Condensation)](/citations/marcus-aurelius-power-over-your-mind-condensation.md) — status: unverified / paraphrase — Ch1; famous condensation, not a verbatim line in any standard translation
 - [Epictetus — Enchiridion 1: What Is and Isn't in Our Control](/citations/epictetus-enchiridion-1-what-is-in-our-control.md) — status: verifiable / verbatim — Ch2's foundational dichotomy-of-control passage, Carter trans.
 - [Marcus Aurelius — Meditations 6.8: The Ruling Reason Shapes Itself](/citations/marcus-aurelius-meditations-6-8-ruling-reason.md) — status: verifiable / verbatim — Ch2's hegemonikon passage, Haines trans. (attribution corrected from Long)
-- [Seneca — Letter 91: The Unexpected Puts the Heaviest Load](/citations/seneca-letter-91-the-unexpected-load.md) — status: verifiable / verbatim — Ch3's premeditatio malorum grounding, Gummere trans.
+- [Seneca — Letter 91: The Unexpected Puts the Heaviest Load](/citations/seneca-letter-91-the-unexpected-load.md) — status: unverified / verbatim — Ch3's premeditatio malorum grounding, Gummere trans.
 - [Marcus Aurelius — Meditations 11.18: They Act Involuntarily and in Ignorance](/citations/marcus-aurelius-meditations-11-18-wrongdoing-is-ignorance.md) — status: verifiable / verbatim — Ch3; **carries the confirmation the em-dash exception in 01-voice.md depends on**
 - [Sell, Tooby & Cosmides (2009) — Formidability and the Logic of Human Anger](/citations/sell-tooby-cosmides-2009-recalibrational-anger.md) — status: verifiable / none — Ch4's recalibrational-theory evidence; cited, not quoted
 - [Marcus Aurelius — Meditations 11.18: Mildness and Gentleness Are More Manly](/citations/marcus-aurelius-meditations-6-20-nothing-manly-in-anger.md) — status: verifiable — Ch4's climax; Long XI.18 (the "6.20" locator was wrong; slug kept for links)
 - [Marcus Aurelius — Meditations 9.30: The View From Above](/citations/marcus-aurelius-meditations-9-28-view-from-above.md) — status: verifiable — Ch5's scale shift; Long IX.30 (the "9.28" locator was wrong; slug kept for links)
 - [Seneca — Letter 75: Letters Should Be Just What Conversation Would Be](/citations/seneca-letter-75-letters-as-conversation.md) — status: verifiable / verbatim — Ch5's model for direct speech, Gummere trans.
+- [Algoe, Gable & Maisel (2010) — 'It's the little things': everyday gratitude and next-day connection](/citations/algoe-gable-maisel-2010-everyday-gratitude.md) — status: verifiable
+- [Aron, Norman, Aron, McKenna & Heyman (2000) — Novel, arousing shared activity raises relationship quality (experimental)](/citations/aron-et-al-2000-novel-arousing-activities.md) — status: verifiable
+- [Bennett (1979) — The Platinum Rule (origin of the coinage)](/citations/bennett-1979-platinum-rule.md) — status: verifiable
+- [Bolger, Zuckerman & Kessler (2000) — Invisible support: what the giver did and what the receiver registered come apart](/citations/bolger-zuckerman-kessler-2000-invisible-support.md) — status: verifiable
+- [Bunt & Hazelwood (2017) — Love Languages, Self-Regulation, and Relationship Satisfaction](/citations/bunt-hazelwood-2017-love-languages-self-regulation.md) — status: verifiable
+- [Chapman (1992) — The Five Love Languages](/citations/chapman-1992-five-love-languages.md) — status: unverified
+- [DEFECT — Ch12 credits Meditations 4.24 to Democritus; Long's text does not](/citations/meditations-4-24-democritus-ascription-defect.md) — status: verifiable
+- [Evidence on men and physical touch — scoping the 'every man loves touch' claim](/citations/touch-preference-gender-evidence.md) — status: unverified
+- [Gable, Reis, Impett & Asher (2004) — Capitalization: how you answer her good news](/citations/gable-et-al-2004-capitalization.md) — status: verifiable
+- [Girme, Overall & Faingataa (2014) — 'Date nights take two': shared activity works only when both are engaged](/citations/girme-overall-faingataa-2014-date-nights-take-two.md) — status: verifiable
+- [Gordon, Impett, Kogan, Oveis & Keltner (2012) — Feeling Appreciated and Relationship Maintenance](/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md) — status: verifiable
+- [Harasymchuk, Walker, Muise & Impett (2021) — Planning date nights that promote closeness](/citations/harasymchuk-et-al-2021-planning-date-nights.md) — status: verifiable
+- [Huston et al. (2001) — 'The Connubial Crucible': the decline of affection, not the arrival of conflict, predicts divorce](/citations/huston-et-al-2001-connubial-crucible.md) — status: verifiable
+- [Impett, Park & Muise (2024) — Love Languages Evaluated From a Relationship Science Perspective](/citations/impett-park-muise-2024-love-languages-evaluated.md) — status: verifiable
+- [Marcus Aurelius, Meditations IV.24 — 'Occupy thyself with few things' (Long) — wording RETRIEVED](/citations/marcus-aurelius-meditations-4-24-do-few-things.md) — status: verifiable
+- [Mostova, Stolarski & Matthews (2022) — the study that supports love-language matching, and why it does not settle it](/citations/mostova-stolarski-matthews-2022-love-language-matching.md) — status: verifiable
+- [Ogolsky & Bowers (2013) — Meta-Analysis of Relationship Maintenance; effort falls as duration rises](/citations/ogolsky-bowers-2013-maintenance-meta-analysis.md) — status: verifiable
+- [Perceived Partner Responsiveness (Reis & Shaver 1988; Reis, Clark & Holmes 2004) — primary now pinned](/citations/perceived-partner-responsiveness-reis.md) — status: verifiable
+- [Selterman, Garcia & Tsapelas (2019) — Motivations for Extradyadic Infidelity Revisited](/citations/selterman-2019-infidelity-motivations.md) — status: verifiable
+- [Seneca, On Anger III.6 (Stewart) — Democritus's maxim on peace of mind](/citations/seneca-de-ira-3-6-democritus-tranquillity.md) — status: verifiable
+- [Stafford & Canary (1991) — The Five Relational Maintenance Strategies](/citations/stafford-canary-1991-relational-maintenance.md) — status: verifiable
+- [Tsapelas, Aron & Orbuch (2009) — Marital boredom now predicts less satisfaction nine years later](/citations/tsapelas-aron-orbuch-2009-marital-boredom.md) — status: verifiable
+- [Wilcox & Dew (2012), 'The Date Night Opportunity' — where the once-a-week advice comes from, and what it is worth](/citations/wilcox-dew-2012-date-night-opportunity.md) — status: unverified
 
 ## Signals
 
-None yet. Reader responses from `/book-signal` will populate this section as
-`type: Reader Signal` concepts.
+Reader responses, logged as `type: Reader Signal` concepts by `/gw-signal`.
+
+- [Action paragraph shifts into therapeutic register](/signals/2026-06-19-therapeutic-tone-objection.md)
+- [Bolded sentences tell instead of earning the line](/signals/2026-06-19-bold-as-crutch-objection.md)
+- [Ch8 gives a reframe for owned unfairness but no in-moment tactic](/signals/2026-07-27-ch08-needs-in-moment-tactic.md)
+- [Operating-system metaphor repeated until structural, not stylistic](/signals/2026-06-19-metaphor-saturation-objection.md)
+- [Post closes twice instead of once](/signals/2026-06-19-double-ending-objection.md)
+- [Single rhetorical device (negated comparison) overused](/signals/2026-06-19-negated-comparison-objection.md)
 
 ## Findings
 
-None yet. Actionable findings from `/book-human`, `/book-argue`, `/book-beta`,
-`/book-tension`, and `/book-sweep` will populate this section as
+None yet. Actionable findings from `/gw-qa` — the Reader Panel's four personas
+and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 `type: QA Finding` concepts.
 
 ## Notes
 
-None yet. Substantive author notes logged via `/book-note` will populate this
+None yet. Substantive author notes logged via `/gw-note` will populate this
 section as `type: Author Note` concepts.
 
 ## Logs

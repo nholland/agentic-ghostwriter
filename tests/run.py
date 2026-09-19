@@ -248,6 +248,167 @@ def resolve_cases():
     return out
 
 
+def _fake_bundle():
+    """A minimal book with an okf/ bundle: two citations on disk, one of them
+    listed in index.md with the WRONG status, the other not listed at all, plus
+    a framework row carrying a hand-written gloss that must survive --fix."""
+    book = tempfile.mkdtemp(prefix="gw-tests-bundle-")
+    root = os.path.join(book, "the-book")
+    for d in ("frameworks", "stories", "citations", "signals"):
+        os.makedirs(os.path.join(root, "okf", d))
+    json.dump({"bookRoot": "the-book", "books": {"the-book": {"title": "test"}}},
+              open(os.path.join(book, "book-manifest.json"), "w"))
+
+    def concept(kind, name, title, extra=""):
+        open(os.path.join(root, "okf", kind, name), "w", encoding="utf-8").write(
+            f"---\ntype: X\ntitle: {title}\n{extra}---\nbody\n")
+    concept("citations", "listed-wrong.md", "Listed Wrong", "status: unverified\n")
+    concept("citations", "not-listed.md", "Not Listed", "status: verifiable\n")
+    concept("frameworks", "kept.md", "Kept")
+
+    open(os.path.join(root, "okf", "index.md"), "w", encoding="utf-8").write(
+        "# Index\n\n## Frameworks\n\n"
+        "- [Kept](/frameworks/kept.md) — a gloss nobody generated\n\n"
+        "## Stories\n\nNone yet.\n\n## Citations\n\n"
+        "- [Listed Wrong](/citations/listed-wrong.md) — status: verifiable — anchors Ch3\n\n"
+        "## Signals\n\nNone yet.\n")
+    return book, root
+
+
+def okf_index_cases():
+    """okf_index.py must see what count-parity cannot, and must not eat prose.
+
+    okf_validate compares counts per type, so a row whose status contradicts the
+    concept it points at is invisible to it - thirteen were on 2026-09-19, six
+    claiming better evidence than the file carried. The reconciler reports per
+    concept. The second half of this matters more: 249 rows in the real index
+    carry hand-written annotation that exists nowhere else, so --fix preserving
+    a gloss and a shortened title is the property that makes it safe to run."""
+    out = []
+    book, root = _fake_bundle()
+    try:
+        def run(*args):
+            return subprocess.run(
+                [sys.executable, os.path.join(REPO, "scripts", "okf_index.py"),
+                 root, *args], capture_output=True, text=True)
+
+        r = run("--json")
+        d = json.loads(r.stdout)
+        out.append((any(m["name"] == "not-listed.md" for m in d["missing"]),
+                    "okf_index: a concept absent from the index is named",
+                    "membership drift must be reported per concept, not as a count",
+                    d["missing"]))
+        out.append((any(x["name"] == "listed-wrong.md" and x["index"] == "verifiable"
+                        and x["file"] == "unverified" for x in d["status_mismatch"]),
+                    "okf_index: a row whose status contradicts the concept is caught",
+                    "count-parity is blind to this, and it is how the index came to "
+                    "overstate the evidence for six citations",
+                    d["status_mismatch"]))
+        out.append((r.returncode == 1,
+                    "okf_index: drift exits 1",
+                    "okf_gate reads the exit code to raise its warning", r.returncode))
+
+        run("--fix")
+        idx = open(os.path.join(root, "okf", "index.md"), encoding="utf-8").read()
+        out.append(("— a gloss nobody generated" in idx,
+                    "okf_index --fix preserves a hand-written gloss",
+                    "249 rows in the real index carry annotation found nowhere else; "
+                    "a generator would have deleted every one",
+                    idx))
+        out.append(("status: unverified — anchors Ch3" in idx,
+                    "okf_index --fix rewrites the status and keeps the annotation after it",
+                    "the status is derived and must be corrected; the note after it is "
+                    "editorial and must not be touched",
+                    [l for l in idx.splitlines() if "listed-wrong" in l]))
+        out.append(("](/citations/not-listed.md)" in idx,
+                    "okf_index --fix appends the missing concept",
+                    "the 23 Ch12 citations that landed with the migration were absent "
+                    "from the index for a day", None))
+        out.append((run("--json").returncode == 0,
+                    "okf_index: a reconciled bundle exits 0",
+                    "the gate must go quiet once the drift is actually gone", None))
+    finally:
+        shutil.rmtree(book, ignore_errors=True)
+    return out
+
+
+def tombstone_cases():
+    """The retired-source guard must flag a live pointer and clear a record.
+
+    Its line-and-inflection version reported all six of its hits as live when
+    every one was historical - prose wraps, so the mention and the word clearing
+    it land on different lines, and "supersedes"/"migration" were not in the
+    list. A guard that cries wolf on a tombstone teaches its reader to edit good
+    prose until it goes quiet, which is the damage it exists to prevent. Both
+    directions are fixtured, because loosening it is how the hole it was built
+    for (a draft command routing new author IP into the dead file) reopens."""
+    import subprocess as sp
+    out = []
+    book, root = _fake_bundle()
+    try:
+        def refs():
+            r = sp.run([sys.executable, os.path.join(REPO, "scripts", "okf_validate.py"),
+                        "the-book"], cwd=book, capture_output=True, text=True)
+            return (r.stdout or "") + (r.stderr or "")
+
+        live = os.path.join(root, "governance.md")
+        open(live, "w", encoding="utf-8").write(
+            "# Draft\n\nStep 7: append new frameworks to sources/evidence-library.md.\n")
+        out.append(("governance.md" in refs(),
+                    "tombstone guard: a live pointer to the retired file flags",
+                    "the hole this guard exists for - a draft step routing the author's "
+                    "own IP into a dead file - must still be caught",
+                    refs()[:200]))
+        os.remove(live)
+
+        hist = os.path.join(root, "history.md")
+        open(hist, "w", encoding="utf-8").write(
+            "# Notes\n\nThe bundle supersedes `sources/evidence-library.md`, which\n"
+            "has been replaced with a tombstone pointing here.\n")
+        out.append(("history.md" not in refs(),
+                    "tombstone guard: a paragraph that records the retirement does not flag",
+                    "the mention and the word clearing it land on different lines once "
+                    "prose wraps; matching a single line reported six tombstones as live",
+                    refs()[:200]))
+        os.remove(hist)
+    finally:
+        shutil.rmtree(book, ignore_errors=True)
+    return out
+
+
+def chapter_slug_cases():
+    """A titled Introduction/Conclusion heading yields a usable slug.
+
+    'the-man-without-a-blueprint' is a real chapter - "## Introduction: The Man
+    Without a Blueprint" - and the checker called it an orphan because it
+    slugified only '## Chapter N:' headings. The repair such a warning invites
+    is to damage good data until the check goes quiet, so the fixture pins the
+    checker instead."""
+    sys.path.insert(0, os.path.join(REPO, "scripts"))
+    import importlib
+    v = importlib.import_module("okf_validate")
+    tmp = tempfile.mkdtemp(prefix="gw-tests-outline-")
+    try:
+        open(os.path.join(tmp, "03-outline.md"), "w", encoding="utf-8").write(
+            "## Introduction: The Man Without a Blueprint\n\n"
+            "## Chapter 1: The Three-Second Window\n\n"
+            "## Conclusion: The Blueprint\n")
+        slugs = v.valid_chapter_slugs(tmp)
+        return [
+            ("the-man-without-a-blueprint" in slugs,
+             "chapter slugs: a titled Introduction resolves",
+             "a real chapter was reported as an orphan slug", sorted(slugs)),
+            ("the-blueprint" in slugs,
+             "chapter slugs: a titled Conclusion resolves",
+             "same hole, same shape, one heading further down", sorted(slugs)),
+            ("the-three-second-window" in slugs,
+             "chapter slugs: numbered chapters still resolve",
+             "the fix must not cost the behaviour that already worked", sorted(slugs)),
+        ]
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def next_cases():
     """chapter_state() must terminate on verdict.md (#028). Before this fixture,
     a refined chapter reported "verdict" forever - nothing in this house ever
@@ -825,6 +986,7 @@ def retro_window_cases():
 
 def main():
     rows = (package_cases() + voice_rules_cases() + resolve_cases()
+           + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + next_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
            + sys_path_hardcode_cases() + session_log_dedup_cases()

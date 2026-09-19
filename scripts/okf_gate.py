@@ -175,6 +175,19 @@ def main():
     )
     voice_drift = vrc.returncode != 0
 
+    # Index reconciliation runs here for the same reason: a caller. okf_validate
+    # compares COUNTS per type, which cannot see a row whose status contradicts
+    # the concept it points at - thirteen did on 2026-09-19, six of them claiming
+    # better evidence than the file carried. Reported, never blocking: a stale
+    # rollup is drift, and Rule 4 says drift is reported while the book keeps
+    # moving. okf_index.py --fix repairs it without touching a word of the
+    # hand-written annotation.
+    idx = subprocess.run(
+        [sys.executable, os.path.join(HERE, "okf_index.py"), "--check"],
+        capture_output=True, text=True,
+    )
+    index_drift = idx.returncode == 1   # 2 means it could not run at all
+
     proc = subprocess.run(
         [sys.executable, validator, book_rel, "--strict"],
         cwd=repo_root, capture_output=True, text=True,
@@ -185,6 +198,9 @@ def main():
     # rule, and the unqualified reference has already propagated into runs/log.md.
     out = out.replace("CLAUDE.md Rule 11", "the book's CLAUDE.md Rule 11")
     warnings = [ln.strip() for ln in out.splitlines() if ln.strip().startswith("!")]
+    if index_drift:
+        warnings.append("okf/index.md has drifted from the concepts on disk "
+                        "(scripts/okf_index.py --check names each one; --fix applies)")
 
     structural, overclaim = classify(out)
     # Voice-rule drift is structural: a threshold the script enforces has
@@ -202,6 +218,8 @@ def main():
         "structural": structural,
         "overclaim": overclaim,
         "voice_rules_drift": voice_drift,
+        "index_drift": index_drift,
+        "index_output": idx.stdout.strip(),
         "voice_rules_output": vrc.stdout.strip(),
         "validator": validator,
         "bookRoot": book_rel,
