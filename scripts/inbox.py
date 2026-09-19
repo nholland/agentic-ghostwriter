@@ -69,6 +69,22 @@ def now():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
 
+def _window_start():
+    """The commit this session's review window began at, for do_add's
+    --prove-case freshness check. Same fallback order as gw-retro.md's own
+    read convention: retro-window (its first token), then retro-last-sha,
+    then session-start-sha. None found means no window is known at all - the
+    caller skips the freshness check rather than refusing blind."""
+    state = os.path.join(REPO, ".claude", "state")
+    for name in ("retro-window", "retro-last-sha", "session-start-sha"):
+        p = os.path.join(state, name)
+        if os.path.isfile(p):
+            tokens = open(p, encoding="utf-8").read().split()
+            if tokens:
+                return tokens[0]
+    return None
+
+
 def parse(path):
     with open(path, encoding="utf-8") as fh:
         text = fh.read()
@@ -131,14 +147,94 @@ def do_add(a, items):
         print("  --context    what he needs to rule cold, without scrolling back.")
         print("  --unblocks   the specific ruling this waits on.")
         return 2
+    # gw-retro's own brief ends every proposal with a --applied-by command (its
+    # own rule: "a proof that cannot be re-run is a comment"). 8 of the first 18
+    # gw-retro items landed with no proof command anyway, because --applied-by
+    # passed here was silently dropped (only --close ever wrote it) and nothing
+    # forced the desk - or the Publisher relaying it - to notice. Enforced only
+    # for gw-retro: other desks raise items with no outside-repo action to prove.
+    if (a.raised_by or "").lower().startswith("gw-retro") and not a.applied_by:
+        print("inbox: refusing to open a gw-retro item without --applied-by.")
+        print("  Your own brief's convention ends every proposal with one - a proof")
+        print("  that cannot be re-run is a comment. If the proposal adds or fixes a")
+        print("  check, point it at tests/run.py, never a grep for the fix's own text.")
+        return 2
+    # A proof command that was never run red first is not a proof - it is an
+    # assertion that happens to say "checked". #039 closed on exactly this
+    # twice inside one hour: its own fixture case was renamed to describe the
+    # defect it was meant to catch without ever being run against the buggy
+    # code, so it passed both the pre-fix and post-fix trees identically.
+    # #041's own first version "fixed" this with a typed [FAIL]-substring
+    # check in --evidence - which is an attestation, not a measurement, and
+    # was itself proven gameable the same session: an item whose evidence
+    # read "I did not run anything. [FAIL] is a string I typed." was accepted,
+    # exit 0. tests/prove.py runs the red pass mechanically instead of
+    # trusting a claim about it - once the machine performs the check there is
+    # nothing left to attest.
+    if (a.raised_by or "").lower().startswith("gw-retro") and "tests/run.py" in a.applied_by:
+        missing_prove = [n for n, v in (("--prove-file", a.prove_file),
+                                        ("--prove-at", a.prove_at),
+                                        ("--prove-case", a.prove_case)) if not v]
+        if missing_prove:
+            print(f"inbox: refusing - --applied-by names tests/run.py but {', '.join(missing_prove)} is missing.")
+            print("  A typed claim of having run something red is not proof of it. Point")
+            print("  --prove-file/--prove-at/--prove-case at what tests/prove.py should run")
+            print("  red-then-green, or it refuses.")
+            return 2
+        # A case that already existed before this review's window proves
+        # nothing about the change actually being proposed - only that SOME
+        # case, somewhere, once discriminated something. Found 2026-09-19,
+        # the day prove.py landed: an unrelated "should the house adopt a
+        # mascot" proposal, filed with fabricated --evidence, was accepted by
+        # reusing prove.py's own worked example (a real, older, unrelated
+        # case). The case named here must be new within this window.
+        #
+        # This check has known, deliberately-unclosed holes (see
+        # tests/prove.py's WHAT THIS DOES NOT DO): renaming an old case,
+        # reusing a case this window itself already added, or an unreadable
+        # window state silently skipping the check below. None of those are
+        # closed here - each would be an eighth layer on a lineage that
+        # cannot be made airtight by adding more checks, since deciding
+        # whether a fixture is actually ABOUT an English proposal is a
+        # semantic judgment, not a mechanical one. What IS added: when the
+        # check cannot run at all, it says so instead of passing in silence -
+        # a gate that cannot see must not report as a gate that looked.
+        window_start = _window_start()
+        if not window_start:
+            print("inbox: NOTE - no session review window found (.claude/state/retro-window, "
+                  "retro-last-sha and session-start-sha are all absent). The --prove-case "
+                  "freshness check did not run; this item's proof is unconfirmed to be new.")
+        else:
+            wr = subprocess.run(["git", "show", f"{window_start}:tests/run.py"],
+                                cwd=REPO, capture_output=True, text=True)
+            if wr.returncode != 0:
+                print(f"inbox: NOTE - could not read tests/run.py at the window start "
+                      f"({window_start[:12]}: {wr.stderr.strip() or 'git show failed'}). The "
+                      f"--prove-case freshness check did not run; this item's proof is "
+                      f"unconfirmed to be new.")
+            elif a.prove_case in wr.stdout:
+                print(f"inbox: refusing - --prove-case already existed at the window start ({window_start[:12]}).")
+                print("  A case from before this session's review window proves nothing about")
+                print("  what this item is actually proposing. Name a case this window added")
+                print("  or changed.")
+                return 2
+        r = subprocess.run([sys.executable, os.path.join(REPO, "tests", "prove.py"),
+                            "--file", a.prove_file, "--at", a.prove_at, "--case", a.prove_case],
+                           cwd=REPO, capture_output=True, text=True)
+        if r.returncode != 0:
+            print("inbox: refusing - tests/prove.py did not confirm this case discriminates.")
+            for line in (r.stdout + r.stderr).strip().splitlines():
+                print(f"  {line}")
+            return 2
     os.makedirs(INBOX, exist_ok=True)
     nid = next_id(items)
     slug = re.sub(r"[^a-z0-9]+", "-", a.add.lower()).strip("-")[:48] or "item"
     path = os.path.join(INBOX, f"{nid}-{slug}.md")
+    applied_line = f"applied_by: {a.applied_by}\n" if a.applied_by else ""
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(f"---\nid: {nid}\nstatus: open\n"
                  f"raised_by: {a.raised_by or '?'}\nchapter: {a.chapter or '-'}\n"
-                 f"opened: {now()}\n---\n\n# {a.add}\n\n"
+                 f"opened: {now()}\n{applied_line}---\n\n# {a.add}\n\n"
                  f"{a.context}\n\n"
                  f"**Recommendation:** {a.recommend}\n\n"
                  f"**Checked:**\n\n```\n{a.evidence}\n```\n\n"
@@ -189,6 +285,12 @@ def do_close(a, items):
     target = f"{int(a.close):03d}"
     for it in items:
         if it.get("id") == target:
+            # --close with no --applied-by falls back to whatever the item's own
+            # frontmatter already carries (written by --add, per gw-retro's
+            # convention) rather than silently dropping it - closing #033 and
+            # #034 this way was the exact miss that made "8 of 18 gw-retro items
+            # have no proof command" true.
+            applied_by = a.applied_by or it.get("applied_by", "")
             with open(it["path"], encoding="utf-8") as fh:
                 text = fh.read()
             # A ruling whose action lives outside this repo is RULED, not
@@ -197,33 +299,33 @@ def do_close(a, items):
             # never applied; inbox.py reported "nothing waiting on the author"
             # while okf_gate.py was still red. "Resolved" has to mean the thing
             # is true, not that he said something.
-            done = "resolved" if not a.applied_by else "ruled"
+            done = "resolved" if not applied_by else "ruled"
             text = re.sub(r"^status:\s*open\s*$", f"status: {done}",
                           text, count=1, flags=re.MULTILINE)
             if "resolved:" not in text:
                 text = text.replace("---\n\n", f"resolved: {now()}\n---\n\n", 1)
-            if a.applied_by:
+            if applied_by:
                 if re.search(r"^applied_by:.*$", text, flags=re.MULTILINE):
-                    text = re.sub(r"^applied_by:.*$", f"applied_by: {a.applied_by}",
+                    text = re.sub(r"^applied_by:.*$", f"applied_by: {applied_by}",
                                   text, count=1, flags=re.MULTILINE)
                 else:
-                    text = text.replace("---\n\n", f"applied_by: {a.applied_by}\n---\n\n", 1)
+                    text = text.replace("---\n\n", f"applied_by: {applied_by}\n---\n\n", 1)
             text = text.rstrip() + f"\n\n**Resolution ({now()}):** {a.resolution or '_not recorded_'}\n"
-            if a.applied_by:
+            if applied_by:
                 text += (f"\n**Not applied yet.** This ruling lands outside this repo. "
-                         f"It closes when `{a.applied_by}` exits 0.\n")
+                         f"It closes when `{applied_by}` exits 0.\n")
             with open(it["path"], "w", encoding="utf-8") as fh:
                 fh.write(text)
 
-            if a.applied_by:
-                it["status"], it["applied_by"] = "ruled", a.applied_by
-                if applied(a.applied_by):
+            if applied_by:
+                it["status"], it["applied_by"] = "ruled", applied_by
+                if applied(applied_by):
                     reconcile([it])
                     print(f"inbox: closed #{target} - {it['title']}")
-                    print(f"  confirmed applied: `{a.applied_by}` exits 0.")
+                    print(f"  confirmed applied: `{applied_by}` exits 0.")
                 else:
                     print(f"inbox: #{target} RULED, not yet applied - {it['title']}")
-                    print(f"  your ruling is recorded. `{a.applied_by}` still fails,")
+                    print(f"  your ruling is recorded. `{applied_by}` still fails,")
                     print("  so the item stays visible until the change actually lands.")
             else:
                 print(f"inbox: closed #{target} - {it['title']}")
@@ -286,6 +388,14 @@ def main():
                     help="required with --add: one recommendation, not a menu.")
     ap.add_argument("--evidence", default="",
                     help="required with --add: the command run and its output, verbatim.")
+    ap.add_argument("--prove-file", default="", metavar="PATH",
+                    help="required with a gw-retro --add whose --applied-by names "
+                         "tests/run.py: the repo-relative file the proposal changed.")
+    ap.add_argument("--prove-at", default="", metavar="SHA",
+                    help="the commit before the fix, for tests/prove.py to revert --prove-file to.")
+    ap.add_argument("--prove-case", default="", metavar="NAME",
+                    help="the exact fixture case name tests/prove.py must see go "
+                         "[FAIL] at --prove-at and [ ok ] on the current tree.")
     ap.add_argument("--close", metavar="N")
     ap.add_argument("--applied-by", default="", metavar="COMMAND",
                     help="shell command that exits 0 only once this ruling has "

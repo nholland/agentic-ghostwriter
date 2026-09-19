@@ -51,7 +51,82 @@ If the migration in inbox #007 goes ahead, the two merge.
 
 ---
 
-## P-002 — The contrast-chapter commission for Ch23 (*The Difference Between Endurance and Cowardice*)
+## P-002 — Reach parity or beyond with the old pipeline before treating the migration as done in spirit, not just in file location
+
+**Parked:** 2026-09-19 00:30
+**Raised at:** this session, discussing the Playground → agentic-ghostwriter
+migration's rationale and future evolution with the author.
+
+**His words:**
+
+> "Let's add the new items we should do, as well as Gaps, to the parking lot.
+> We need parity or beyond on the new system."
+
+**What this tracks, and what it deliberately does not duplicate:** `GAPS.md` is
+already the live, trigger-based list of what the old pipeline could do that this
+house cannot yet — the PDF renderer (environmental, waits on a container with
+weasyprint), the seven-item publication stack (one shared trigger: the author
+approves the whole-book QA pass and says the book is close), and three smaller
+gaps each with their own trigger. As of this session it audited 27 of 40 old
+commands covered, 13 not, 3 of those 13 closed this pass (`edit`, `note`, `park`).
+Copying that list into this file would be the `citation-manifest.md` failure
+again — two files claiming to be the same record, with nothing keeping them
+equal. This item is the standing bar the gap list is measured against, not a
+second copy of it.
+
+**Revisit trigger:** every whole-book QA pass (`/gw-qa`), and whenever a gap's
+own trigger fires in `GAPS.md` — check the closed gap against *this* bar
+("parity or beyond"), not only against its own trigger, since closing a gap and
+actually reaching parity are not automatically the same thing. Also revisit at
+the next full command audit (the last one is dated 2026-09-13, predates the
+migration) — the 40-command baseline was counted against the old pipeline before
+it was frozen, and re-auditing after the freeze may turn up commands whose
+correct answer changed once there was one repo instead of two.
+
+---
+
+**Correction, 2026-09-19, to P-001's closing note.** That note predicted "if the
+migration in inbox #007 goes ahead, the two [parking-lot.md and this file]
+merge." The migration went ahead; the files did not merge. `books/the-stoic-husband/parking-lot.md`
+is the old pipeline's record and was migrated as history — read, never
+extended (`CLAUDE.md`, Layers section). This file, `runs/parked.md`, stays the
+one live parking lot. Recorded here rather than silently editing the original
+note, since a prediction that didn't happen the way it predicted is itself
+worth knowing.
+
+---
+
+## P-003 — Triage the old pipeline's ~17 still-OPEN parking-lot items against the new house
+
+**Parked:** 2026-09-19 00:46
+**Raised at:** the author asking "what else did you miss" after the Substack
+finding, which led to actually reading `books/the-stoic-husband/parking-lot.md`
+in full rather than trusting `CLAUDE.md`'s "read for history" framing to mean
+"nothing in it is still live."
+
+**What was found:** `parking-lot.md` has roughly 17 items still marked `OPEN`
+(numbers #5, #8, #9, #12, #20–#24, #26, #27, #29–#35), spanning 2026-06-12 through
+2026-09-10 — content decisions, not just tooling. Two examples surfaced already:
+`#8` (Buffer social auto-posting, now in `GAPS.md`) and the general shape that
+`#7` in `.claude/LEARNINGS.md` warned about (a manifest field asserting a state
+nobody re-checked). "Migrated as history, read never extended" is correct for
+*resolved* items; it silently mis-describes an *open* one, since an open item is
+undecided business, not a record of something that already happened.
+
+**Why not done in this pass:** 17 items, each needing a judgment call about
+current relevance (has this house since decided it? is it superseded by
+something in `FINDINGS.md` or `progress.md`'s later entries? is it still live?)
+is a real read-through, not a grep. Guessing at 17 answers to look responsive
+would be worse than flagging it plainly.
+
+**Revisit trigger:** the next session with room for a dedicated pass, or before
+the whole-book QA trigger fires (P-002) — QA is a bad time to discover a decision
+was never actually made. Each item that's still genuinely open moves to this file
+with a real trigger; each one superseded gets a one-line note saying by what.
+
+---
+
+## P-004 — The contrast-chapter commission for Ch23 (*The Difference Between Endurance and Cowardice*)
 
 **Parked:** 2026-09-19 07:00
 **Raised at:** the `/gw` session routing the fabricated Ch11 feedback (see

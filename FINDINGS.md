@@ -485,3 +485,178 @@ caught only by running it against a state whose right answer was already known.
 oracle's own terminal state, a staged bundle's internal links, a review window
 keyed to the wrong commit. The prose gates are earning their keep; the state and
 staging layers are where the house is still finding its own blind spots.
+
+---
+
+## 2026-09-19 — The #030 lineage closed, on a fixture and zero rule words
+
+Three sessions and four inbox items (#030, #033, #034) chased one defect: the
+Archivist's review window. #030 fixed it and closed on a grep for a variable
+name; the same collapse recurred on 2026-09-18 and went unnoticed until
+2026-09-19. #033 moved the window into its own file, written before the dedupe
+pointer, and backed it with `retro_window_cases()` — a fixture that builds a real
+git repo and runs the actual hook. #034, raised by the Archivist against #033's
+own fixture, guarded its second read of `retro-window` so a future regression
+reports a named `[FAIL]` instead of a traceback that discards the rows already
+computed, and added the one assertion the fixture was missing: that the dispatch
+message carries the range inline, since that text — not the file — is the channel
+the Publisher actually reads.
+
+Reviewed cold, both assertions are real, not decorative. Stripping
+`($START..$HEAD_SHA)` from the hook's message drops the suite to 36/37 with the
+new row named; deleting the `retro-window` write drops it to 35/37 with two named
+rows and no traceback. `tests/run.py` exits 1 on a failing tree and 0 on a clean
+one, so it is a sound `--applied-by` target. The two dispatches in real history
+chain exactly — the prior window ended at `b26879c`, this one starts there —
+which is the property #030 broke.
+
+The lens this lit is **what recurs**, and the answer is the shape the old
+pipeline already wrote down: a fix that closes on a grep is a comment. What is
+worth recording is the cost. The whole repair added **zero words** to the rules
+corpus (16,904 at the end of 2026-09-18, 16,979 after — the entire +75 is
+`gw-retro.md`'s own edit describing the fix). It landed in `tests/run.py` and one
+line of `.gitignore`. Three sessions of defect, and the rule text did not grow —
+that is the intended shape, and it is the first time it could be measured.
+
+**A second, smaller recurrence in the same window:** `gw-retro`'s own inbox
+items keep landing without their required proof command — 8 of the first 18,
+including #033 and #034 themselves, closed with no `applied_by` field, because
+`inbox.py --add` silently discarded `--applied-by` (only `--close` ever wrote
+it) and nothing forced either the desk or the Publisher relaying it to notice.
+Fixed the same session: `--add` now refuses a `gw-retro` item outright without
+the flag, records it into the new item's frontmatter, and `--close` carries that
+value forward if not repeated — closing the gap `--applied-by` was meant to close
+in the first place.
+
+---
+
+## 2026-09-19 06:35 — The dedup fix shipped green and duplicated on its first real Stop
+
+`session_log.py`'s dedup guard (above) landed, closed on `python3 tests/run.py`,
+and wrote a duplicate `runs/log.md` entry on its very next real Stop anyway.
+Cause: `last_entry_files()` kept `runs/log.md` in its returned set while the
+current file set had it stripped, so the two could never be equal once the log
+itself entered the cumulative diff — which the fixture's synthetic repo never
+did, so it tested only the happy path. Found and reproduced by the Archivist
+reviewing this session's own commit; independently reproduced here before
+fixing. Same shape as #030 (closed on a grep, recurred) one level up: a fixture
+that never exercises the real sequence certifies a guard that does not guard.
+Fixed both sides — `last_entry_files()` now strips `runs/log.md` too, and the
+fixture commits the log between runs, matching what the Stop hook actually
+does. Cleaned the one duplicate block this produced.
+
+---
+
+## 2026-09-19 06:44 — The fixed fixture was renamed, not fixed
+
+The fixture above (`session_log_dedup_cases()`) was renamed for the #039
+defect without ever running it against the pre-fix code. Reproduced
+independently: with only `scripts/session_log.py` reverted to `c17f979`, the
+renamed case still printed `[ok]` — entry 1 is written before `runs/log.md` is
+ever committed, so it never contains the one thing the defect needs to see.
+Fourth instance of one shape: #030's grep, `voice_rules_check` passing its own
+defect, the dedup half-fix, now the fixture written for that half-fix. Added a
+fourth run that commits a *second* logged entry (which genuinely lists
+`runs/log.md`) before re-checking — confirmed `[FAIL]` on the exact pre-fix
+script, `[ok]` on the fix. Also made this class of miss structural rather than
+relying on the next Archivist to notice by hand: `inbox.py --add` now refuses
+a `gw-retro` item whose `--applied-by` names `tests/run.py` unless `--evidence`
+shows a `[FAIL]` line, verified the same way (red on the pre-guard `inbox.py`,
+green on the fix). This supersedes last session's still-undecided proposal to
+require every `--applied-by` to name a case — that proposal's own item, #039,
+named its case and was still unproven.
+
+---
+
+## 2026-09-19 06:54 — The guard against unproven proofs was itself unproven
+
+The `[FAIL]`-substring guard above (#041) checked that `--evidence` contained
+the text `[FAIL]` — an attestation, not a measurement. Demonstrated gameable
+before building the replacement: an item filed with `--evidence "I did not run
+anything. [FAIL] is a string I typed."` was accepted, exit 0. Fifth instance of
+the shape this session (#030's grep, a check passing its own defect, a
+half-fixed guard, an unproven fixture, now an unproven proof-of-proof). Each
+prior fix raised the floor by measuring something new; a typed-string check
+does not measure anything.
+
+Replaced with `tests/prove.py`: given `--file`, `--at` (a commit) and `--case`
+(an exact fixture case name), it reverts the file to that commit's content in
+a throwaway `git worktree` — never the live tree, which would race the Stop
+hook's own auto-commit — runs the worktree's own `tests/run.py`, confirms the
+case is `[FAIL]`, restores the file, confirms `[ ok ]`. `inbox.py --add` now
+shells out to it instead of reading a string the agent wrote. Proved both
+directions against real repo history (`PROVED` on a genuinely discriminating
+case, `REFUSED` on one that wasn't) before wiring it in, then re-ran the exact
+fabrication that broke #041 against the new code and confirmed it refuses.
+Five new fixtures in `prove_cases()`, built against a synthetic repo rather
+than real commit history, so nothing here depends on a specific SHA staying
+reachable. Corpus unchanged (17,017) — this landed entirely in `tests/` and
+`scripts/`.
+
+---
+
+## 2026-09-19 07:03 — The mechanical proof measured something, but not this change
+
+`tests/prove.py` (above) genuinely runs the red pass — that part held. What
+didn't: nothing bound the proved case to the item being filed. `git worktree
+add` checks out HEAD, blind to uncommitted work, so the only triples that
+could ever pass were older, already-committed ones — unrelated to whatever
+was actually being proposed. Demonstrated cold: a "should the house adopt a
+mascot?" item, `--evidence "I ran nothing at all. This evidence is
+fabricated."`, reusing prove.py's own worked example as `--prove-*` — accepted,
+exit 0. #042's own first use had done exactly this by accident: it proved a
+`session_log` case that entered `tests/run.py` in the *previous* window's
+commit, not this one's.
+
+Fixed both halves, since either alone makes the other worse: `prove.py` now
+copies every `git status`-dirty path into the worktree right after creating
+it, so a case that only exists in uncommitted work is provable at all;
+`inbox.py` reads `.claude/state/retro-window`'s start commit and refuses a
+`--prove-case` that already existed in `tests/run.py` there. Deleted
+`prove.py`'s literal copy-pasteable `USAGE` example — the exact string the
+mascot attack reused — for a placeholder. Re-ran the mascot attack against the
+fixed code and confirmed it now refuses. Six new fixtures added, mutation-
+tested both directions (each half reverted individually to confirm the
+corresponding case goes red). Corpus unchanged (17,017).
+
+Sixth instance of "the check meant to catch X doesn't actually catch X" this
+session, and the first where the *mechanism* (running the case at all) was
+sound and only the *binding* (which case, to what) was missing — a different
+failure than the five before it, which is why it surfaced only once the
+measuring itself was solid enough to expose it.
+
+---
+
+## 2026-09-19 07:11 — The window guard narrowed the hole; it did not close it, and it cannot
+
+Seven rounds now on one lineage: #036, #039, #040, #041, #042, #043, this one.
+Each built a guard; each next review broke it inside ten minutes. This time,
+three bypasses survived the window-start guard above, all verified
+independently before acting: renaming a few words of an older, unrelated,
+genuinely-discriminating case makes its string "new" while it still
+discriminates against its own old commit; reusing a case *this window itself*
+already added needs no rename at all, since the guard only excludes cases
+older than the window start; and an unreadable window state (all three
+`.claude/state/*` files absent, or pointing at a commit `tests/run.py` can't be
+read from — all three files gitignored, so a fresh clone has this off by
+default) used to skip the check with no output whatsoever.
+
+The reason is structural, not a bug the next layer fixes: deciding whether a
+fixture case is actually *about* an English proposal is a semantic judgment,
+and any caller who can edit `tests/run.py` and pass arbitrary `--prove-*` flags
+can always construct something that discriminates but isn't related. Round
+eight would be broken too, the same way. This is the same conclusion
+`LEARNINGS.md` already reached once, in a different shape: no amount of check
+text closes a problem that is not mechanically decidable, and recording that
+plainly is worth more than a fifth (here, eighth) proposed clause.
+
+**Decision: stop hardening this lineage.** The residual bypasses all require
+deliberate effort that leaves a rename or a corrupted state file visible in
+the diff — a different, much higher bar than the accidental reuse that
+actually happened twice (#042, and this guard's own first design). Landed only
+the honest version instead: `inbox.py` now prints a `NOTE` when the freshness
+check cannot run at all, rather than passing in silence, and `tests/prove.py`
+carries a `WHAT THIS DOES NOT DO` section naming all three holes explicitly,
+closing with an instruction not to add a ninth layer. Corpus unchanged
+(17,017). 70+ commits went into this machinery since 2026-09-18 12:00 while
+`next.py` read `/gw 13` throughout — next up.

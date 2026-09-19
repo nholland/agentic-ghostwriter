@@ -48,5 +48,9 @@ git rev-parse HEAD > .claude/state/session-start-sha 2>/dev/null || true
   [ -n "$branch_msg" ] && echo "Branch: $branch_msg"
   python3 scripts/resolve_book.py 2>&1 | sed 's/^/  /'
   python3 scripts/next.py 2>&1 | sed 's/^/  /'
+  # Non-blocking (Rule 4's spirit): report once at the door, never fail the
+  # session over it. chapter_pdf_local.py already covers the gap this reports.
+  tc=$(python3 scripts/toolcheck.py 2>&1)
+  [ "$tc" != "toolcheck: all optional tools present." ] && echo "$tc" | sed 's/^/  /'
 } 2>/dev/null
 exit 0

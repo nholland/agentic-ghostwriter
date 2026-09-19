@@ -64,6 +64,6 @@ returned FAIL on you-density (14.2 per 1,000 against a floor of 40), 9
 definitional reframes against a cap of 2, "she/her" 0 times against 42 in Ch11,
 "your partner" twice, and Oak and River stacked in one chapter against the
 author's own ruling in book `parking-lot.md` #259. Nothing from it enters the
-book as prose. Two commissions were taken from it: P-002 below, and the
-framework question in this session's `/gw-revise`.
+book as prose. Two commissions were taken from it: P-004 in
+`runs/parked.md`, and the framework question in this session's `/gw-revise`.
 

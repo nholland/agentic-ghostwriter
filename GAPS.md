@@ -26,19 +26,41 @@ current work.
 
 | Gap | What it waits on |
 |---|---|
-| The book's `chapter_pdf.py` cannot run in the cloud container | A container carrying weasyprint. (The migration in `#007` moved the script here; it did not bring the renderer's dependency.) |
+| The book's `chapter_pdf.py` cannot run in this container | An environment whose network policy reaches PyPI. Checked 2026-09-19, not assumed: `pypi.org` itself returns **403** on a direct request, and `registry.npmjs.org` returns 403 through this environment's proxy allowlist - both registries are unreachable regardless of what a session hook tries. `scripts/toolcheck.py` reports the live status every session (wired into `session-start.sh`, silent when nothing is missing). |
 | `books/<slug>/manuscript.md` and `manuscript.pdf` are the old pipeline's last compile and go stale from here | `/gw-compile` writing its whole-book output into the book tree with the coverage in the filename, and retiring these two |
 | Desks still write to `runs/chNN/`; a chapter reaches `books/` only through `land.py` after the verdict ("switch 2" in `FLOW.md`) | A chapter landing that `land.py` could not do, or the apparatus/output split costing more than the landing-step defects it catches (two so far: #029's broken links, the round-1/round-2 brief choice) |
 
-`weasyprint`, `pandoc` and `wkhtmltopdf` are all absent here and pip cannot reach
-PyPI through the egress proxy, so the book repo's one renderer fails at the point
-of use. `scripts/chapter_pdf_local.py` stands in, driving the headless Chromium
-the container already has, and `scripts/package_check.py` guards what it emits.
+`chapter_pdf.py` needs two Python packages (`weasyprint`, `markdown`) and pip
+cannot install either here. `pandoc` and `wkhtmltopdf` are unwired alternates,
+also absent. `scripts/chapter_pdf_local.py` stands in, driving the headless
+Chromium the container already has, and `scripts/package_check.py` guards what
+it emits.
+
+**A fifth name in this list, `ttfwidth`, turned out not to belong here at all -
+checked 2026-09-19, not assumed.** `runs/design/svgcheck.py` imports it from a
+hardcoded path into one prior session's scratchpad (`/tmp/claude-0/...`), which
+only ever worked by accident, in whichever container happened to have a stray
+copy sitting there. The module was never missing - `runs/design/ttfwidth.py`
+sits right next to the script that imports it. Fixed by importing from the
+script's own directory; no install of any kind involved. The shape - a
+hardcoded absolute literal in `sys.path.insert()` - is no longer something a
+future reader has to remember to watch for: `tests/run.py`'s
+`sys_path_hardcode_cases()` greps every tracked script for it, mutation-tested
+against both the exact bug (must catch it) and the fix's own `HERE`-based idiom
+(must not flag it).
 
 **Registered because it was discovered at the point of use, twice.** The fallback
 was also written from scratch rather than porting the book renderer's `markup()`,
 which cost three formatting defects the author had already had fixed once. Whoever
 closes this gap deletes the fallback rather than maintaining two.
+
+**What is, and is not, "environment setup."** `scripts/toolcheck.py` only ever
+checks; it never installs, because there is nothing here it could install past
+the network policy. Two things stay off this list on purpose: the personal MCP
+connectors (Substack, Buffer) documented below under the publication stack.
+Those hold the author's own account credentials - a connector he sets up
+through claude.ai's connector settings or his own machine, never a package a
+shared environment's startup script should be trying to configure for him.
 
 ---
 
@@ -46,7 +68,7 @@ closes this gap deletes the fallback rather than maintaining two.
 
 **Trigger: the author approves the whole-book QA pass (`/gw-qa`) and says the book
 is close.** Every one of these needs the finished arc, the QA findings, and the
-callouts to be accurate. With 18 of 29 chapters unwritten, each would be built on
+callouts to be accurate. With 17 of 29 chapters unwritten, each would be built on
 a book that does not exist yet — and `/book-marketing`'s own note says as much:
 *"It requires the full arc, QA results, and callouts before it can be accurate."*
 
@@ -58,7 +80,54 @@ a book that does not exist yet — and `/book-marketing`'s own note says as much
 | Indie launch plan | `indie-plan` | KDP / IngramSpark strategy |
 | Review strategy | `review-strategy` | ARC programme and early reviews |
 | Book club guide | `club-guide` | Reading group materials |
-| Substack integration | `substack-connect` | Connecting or verifying the publishing channel |
+| Substack integration | `substack-connect` | Pushing a drafted post to Substack, not just writing one |
+| Buffer integration | *never built* | Auto-posting social.md content to X/IG/FB after the Substack push |
+
+**Substack, checked rather than assumed, 2026-09-19.** Two separate things were
+checked, not one. First: this session's org-level connectors (`ListConnectors`,
+full list) are Gmail, Google Calendar, Google Drive and Linear — nothing
+publishing-related at all. Second, and more precise: the old pipeline's Substack
+tool was never an org connector to begin with. `progress.md` (2026-07-08) records
+it as `substack-mcp`, a locally-installed npm package on the author's own machine,
+cookie-authenticated, configured in a `.mcp.json` the book repo's own `.gitignore`
+explicitly excludes ("contains live credentials, never commit"). So nothing was
+lost migrating it — it was never in either repo to lose. `book-manifest.json`'s
+`integrations.substack.status: "connected"` does **not** mean this system can post:
+read closely, it is the author's own publication existing at that URL, a business
+fact, not a technical credential live in this session.
+
+**This exact failure already happened once and is on record.** `.claude/LEARNINGS.md`
+item 7 (migrated with the book): *"Manifest state can lie about live session
+capability. `book-manifest.json` said Substack was `"connected"`, but no MCP tool
+was actually loaded in this (cloud) session."* The old pipeline's fix was a live
+tool-availability check at the point of use, in `/book-substack` Step 3.5. This
+house doesn't need that specific fix — `gw-publicist` never attempts a live push,
+so there's no point of use to check at — but the stale manifest field itself rode
+along unflagged until asked about directly here. Fixing the manifest field is not
+listed as its own gap: it is stale data, not missing capability, and correcting it
+belongs to whoever next touches `book-manifest.json`'s `integrations` block.
+
+**Buffer was never audited in, because it was never a command.** The 2026-09-13
+audit covered the 40 `book-*` commands; Buffer (`parking-lot.md` #8, 2026-06-17)
+was a parked idea for extending one of them, deferred behind "Substack working
+end-to-end" and never implemented, so it had no command to be counted against.
+Same shape as the Substack finding: `gw-publicist`'s mandate covers it exactly the
+same way (drafts only; if built, pushes a draft, never posts unattended).
+
+**Nothing above changes `gw-publicist`'s mandate** ("nothing is ever posted, and
+publishing decisions stay the author's") for either row — closing them means a
+draft can be pushed as a draft for the author to publish, never that this house
+posts unattended. Until they're closed, a drafted post is copied out and posted by
+hand, same as today.
+
+**Open, and not this audit's job: `parking-lot.md` carries roughly 17 other still-OPEN
+items** (content and process decisions, `#5` through `#35`) that were migrated as
+history, per `CLAUDE.md`'s Layers section, and never triaged into `runs/parked.md`
+or the inbox. "Open" is not the same as "history" — an open item is live undecided
+business, and moving the file didn't decide any of them. Whether each is still live,
+superseded by a decision made in this house since, or genuinely forgotten needs a
+read-through this pass didn't do. Filed as parked item P-003 below rather than
+guessed at here.
 
 **Owner when built: the Publicist.** Not seven skills — the old pipeline's shape.
 One `/gw-publish` with a mode per deliverable, because they share their inputs (the

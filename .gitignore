@@ -13,4 +13,5 @@ bakeoff/**/.sealed.json
 # container's SHA, and retro-check.sh already falls back to HEAD~1.
 .claude/state/session-start-sha
 .claude/state/retro-last-sha
+.claude/state/retro-window
 .claude/state/retro-done-*
