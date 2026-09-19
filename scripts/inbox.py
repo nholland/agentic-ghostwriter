@@ -188,11 +188,31 @@ def do_add(a, items):
         # mascot" proposal, filed with fabricated --evidence, was accepted by
         # reusing prove.py's own worked example (a real, older, unrelated
         # case). The case named here must be new within this window.
+        #
+        # This check has known, deliberately-unclosed holes (see
+        # tests/prove.py's WHAT THIS DOES NOT DO): renaming an old case,
+        # reusing a case this window itself already added, or an unreadable
+        # window state silently skipping the check below. None of those are
+        # closed here - each would be an eighth layer on a lineage that
+        # cannot be made airtight by adding more checks, since deciding
+        # whether a fixture is actually ABOUT an English proposal is a
+        # semantic judgment, not a mechanical one. What IS added: when the
+        # check cannot run at all, it says so instead of passing in silence -
+        # a gate that cannot see must not report as a gate that looked.
         window_start = _window_start()
-        if window_start:
+        if not window_start:
+            print("inbox: NOTE - no session review window found (.claude/state/retro-window, "
+                  "retro-last-sha and session-start-sha are all absent). The --prove-case "
+                  "freshness check did not run; this item's proof is unconfirmed to be new.")
+        else:
             wr = subprocess.run(["git", "show", f"{window_start}:tests/run.py"],
                                 cwd=REPO, capture_output=True, text=True)
-            if wr.returncode == 0 and a.prove_case in wr.stdout:
+            if wr.returncode != 0:
+                print(f"inbox: NOTE - could not read tests/run.py at the window start "
+                      f"({window_start[:12]}: {wr.stderr.strip() or 'git show failed'}). The "
+                      f"--prove-case freshness check did not run; this item's proof is "
+                      f"unconfirmed to be new.")
+            elif a.prove_case in wr.stdout:
                 print(f"inbox: refusing - --prove-case already existed at the window start ({window_start[:12]}).")
                 print("  A case from before this session's review window proves nothing about")
                 print("  what this item is actually proposing. Name a case this window added")

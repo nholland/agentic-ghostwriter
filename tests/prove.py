@@ -33,9 +33,43 @@ USAGE
     python3 tests/prove.py --file <path changed by the fix> --at <commit before the fix> \
         --case "<exact fixture case name the fix's own commit added or changed>"
 
-    Not a copy-pasteable example: inbox.py --add now separately refuses a
-    --prove-case that already existed in tests/run.py before this session's
-    review window, so a case from an old, unrelated fix cannot be reused here.
+    Not a copy-pasteable example - see WHAT THIS DOES NOT DO.
+
+WHAT THIS DOES NOT DO
+    It measures that --case genuinely goes [FAIL] at --at and [ ok ] now. It
+    does NOT measure that --case has anything to do with the item being filed.
+    Binding a fixture case to an English proposal is a semantic judgment, not
+    a mechanical one, and this file cannot make it. inbox.py --add adds one
+    guard on top (refusing a --prove-case already present in tests/run.py at
+    this session's review-window start), which closes the failure that
+    actually happened by accident (#042 reused a stale case unknowingly). It
+    does not close, and no further layer here should try to close, these
+    (all measured live, 2026-09-19, after that guard landed):
+
+    - Renaming an older, unrelated, genuinely-discriminating case's string by
+      a few words makes it "new" to the window-start check while it still
+      discriminates against its own old, unrelated commit.
+    - Reusing a case THIS window itself already added, verbatim - the guard
+      only excludes cases older than the window start, and everything the
+      window has added so far is fair game until the pointer next moves.
+    - An unreadable window state (retro-window/retro-last-sha/session-start-
+      sha all absent, or pointing at a commit tests/run.py can't be read
+      from) used to skip the check with no output at all - inbox.py now
+      prints a NOTE when this happens, which does not close the hole, only
+      stops it from passing in silence.
+    - A dirty path with a git-quoted name (non-ASCII, an embedded quote) is
+      silently skipped by sync_dirty's plain-string unquoting instead of
+      copied - latent, since this repo is all-ASCII today.
+
+    Found and reasoned through 2026-09-19, reviewing the window-start guard
+    that closed the exact "mascot" attack that broke #042: every proposed
+    tightening has its own bypass, discoverable in about ten minutes, because
+    the underlying problem - "is this proof about this proposal" - cannot be
+    decided by a script reading strings. The house's own prior conclusion on
+    a differently-shaped recurrence applies unchanged: "no amount of rule
+    text will fix this... recording this plainly so a fifth occurrence is not
+    met with a fifth proposed clause" (LEARNINGS.md). This is that note for
+    this lineage. An eighth guard is not the answer; noticing the pattern is.
 
 EXIT
     0  PROVED - case is [FAIL] at --at, [ ok ] on the current tree.

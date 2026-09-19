@@ -437,6 +437,20 @@ def prove_cases():
         out.append((rc_fresh == 0, "inbox accepts a --prove-case genuinely new within the window",
                     "the window-start guard must not block a case that is actually about this window's change",
                     (rc_fresh, out_fresh)))
+
+        # An unreadable window (present but pointing at a commit tests/run.py
+        # can't be read from) used to skip the freshness check with no
+        # output at all - the exact input that broke it. This does not close
+        # the hole (see prove.py's WHAT THIS DOES NOT DO); it only makes the
+        # skip visible instead of silent.
+        open(os.path.join(tmp, ".claude", "state", "retro-window"), "w").write(
+            "0000000000000000000000000000000000000000 " + fixed_sha)
+        rc_note, out_note = run_add("--prove-file", "target2.py", "--prove-at", target2_base_sha,
+                                    "--prove-case", "target2 has the second fix")
+        out.append(("NOTE - could not read tests/run.py at the window start" in out_note,
+                    "inbox says the freshness check did not run when the window is unreadable",
+                    "a check that cannot see must say so, not pass in silence - the prior behaviour accepted an unrelated item with no warning printed at all",
+                    (rc_note, out_note)))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out

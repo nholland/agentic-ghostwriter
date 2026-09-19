@@ -624,3 +624,39 @@ session, and the first where the *mechanism* (running the case at all) was
 sound and only the *binding* (which case, to what) was missing — a different
 failure than the five before it, which is why it surfaced only once the
 measuring itself was solid enough to expose it.
+
+---
+
+## 2026-09-19 07:11 — The window guard narrowed the hole; it did not close it, and it cannot
+
+Seven rounds now on one lineage: #036, #039, #040, #041, #042, #043, this one.
+Each built a guard; each next review broke it inside ten minutes. This time,
+three bypasses survived the window-start guard above, all verified
+independently before acting: renaming a few words of an older, unrelated,
+genuinely-discriminating case makes its string "new" while it still
+discriminates against its own old commit; reusing a case *this window itself*
+already added needs no rename at all, since the guard only excludes cases
+older than the window start; and an unreadable window state (all three
+`.claude/state/*` files absent, or pointing at a commit `tests/run.py` can't be
+read from — all three files gitignored, so a fresh clone has this off by
+default) used to skip the check with no output whatsoever.
+
+The reason is structural, not a bug the next layer fixes: deciding whether a
+fixture case is actually *about* an English proposal is a semantic judgment,
+and any caller who can edit `tests/run.py` and pass arbitrary `--prove-*` flags
+can always construct something that discriminates but isn't related. Round
+eight would be broken too, the same way. This is the same conclusion
+`LEARNINGS.md` already reached once, in a different shape: no amount of check
+text closes a problem that is not mechanically decidable, and recording that
+plainly is worth more than a fifth (here, eighth) proposed clause.
+
+**Decision: stop hardening this lineage.** The residual bypasses all require
+deliberate effort that leaves a rename or a corrupted state file visible in
+the diff — a different, much higher bar than the accidental reuse that
+actually happened twice (#042, and this guard's own first design). Landed only
+the honest version instead: `inbox.py` now prints a `NOTE` when the freshness
+check cannot run at all, rather than passing in silence, and `tests/prove.py`
+carries a `WHAT THIS DOES NOT DO` section naming all three holes explicitly,
+closing with an instruction not to add a ninth layer. Corpus unchanged
+(17,017). 70+ commits went into this machinery since 2026-09-18 12:00 while
+`next.py` read `/gw 13` throughout — next up.
