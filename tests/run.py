@@ -361,6 +361,27 @@ def tombstone_cases():
                     refs()[:200]))
         os.remove(live)
 
+        # The loosening's own hole, pinned. "has been" was in the clearing list
+        # for a day and cleared this decoy silently, while the control - the same
+        # sentence without those two words - flagged. A tightened check is proved
+        # by its own fixture; a loosened one is only proved by the thing it must
+        # still catch, so the live pointer is fixtured once per phrase that could
+        # excuse it.
+        for tag, body in (
+            ("hasbeen", "Step 7: when new author IP has been gathered, append it "
+                        "to sources/evidence-library.md."),
+            ("nolonger", "Step 7: append new author IP to sources/evidence-library.md. "
+                         "Drafts are no longer collected anywhere else."),
+        ):
+            d = os.path.join(root, f"decoy-{tag}.md")
+            open(d, "w", encoding="utf-8").write(f"# Draft\n\n{body}\n")
+            out.append((f"decoy-{tag}.md" in refs(),
+                        f"tombstone guard: a live pointer is not excused by '{tag}'",
+                        "ordinary English in the clearing list silently cleared a "
+                        "pointer of the exact shape this guard exists for",
+                        refs()[:200]))
+            os.remove(d)
+
         hist = os.path.join(root, "history.md")
         open(hist, "w", encoding="utf-8").write(
             "# Notes\n\nThe bundle supersedes `sources/evidence-library.md`, which\n"

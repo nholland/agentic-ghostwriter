@@ -381,9 +381,19 @@ def main():
             # ("append new IP to evidence-library.md") carries none of these
             # stems anywhere in its paragraph and still flags - fixtured.
             CLEARED = re.compile(
-                r"retir|supersed|migrat|tombstone|correct|replac|no longer|"
-                r"instead of|the old|used to|has been|deprecat|"
-                r"deriv|drawn from|faithfully",
+                # Only stems that mark a RETIREMENT. Six ordinary-English
+                # phrases were in this list for a day - no longer, instead of,
+                # used to, has been, drawn from, faithfully - and "has been"
+                # alone silently cleared a decoy carrying the exact shape this
+                # guard exists for: a Step 7 routing new author IP into the dead
+                # file. None of the six was needed; the four real historical
+                # paragraphs are cleared by the stems that remain. The lesson is
+                # narrower than "be careful": a TIGHTENED check is proved by its
+                # own fixture, a LOOSENED one is only proved by the thing it must
+                # still catch, and this loosening was proved with one live
+                # pointer when it needed one per alternative it added.
+                r"retir|supersed|migrat|tombstone|deprecat|"
+                r"correct|replac|the old|deriv",
                 re.I)
             for para in re.split(r"\n\s*\n", text):
                 if "evidence-library.md" not in para:
