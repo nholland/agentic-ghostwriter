@@ -14,14 +14,28 @@ WHY THIS EXISTS
 WHAT THIS DOES
     Creates a throwaway git worktree - never the live tree, since reverting a
     tracked file in place during --add would race the Stop hook's own
-    auto-commit. Overwrites --file with its content at --at, runs the
-    worktree's own tests/run.py, confirms --case prints [FAIL]. Restores
-    --file to the worktree's checked-out (current) version, runs again,
-    confirms --case prints [ ok ]. Removes the worktree either way.
+    auto-commit. `git worktree add` checks out HEAD, which is blind to
+    uncommitted work - the exact state a case new this session is usually in
+    when someone is about to file the item proving it. So immediately after
+    creating the worktree, every path `git status --porcelain` reports as
+    modified or untracked in the live tree is copied in over the checkout
+    (deleted paths are removed), which is what makes "the current tree" in
+    this file's claims actually mean the live tree, not just HEAD (found
+    2026-09-19: without this, a case that only existed uncommitted was
+    REFUSED as "missing", and the only triples that could ever pass were
+    older committed ones - unrelated to whatever the item being filed was
+    actually about). Then overwrites --file with its content at --at, runs
+    the worktree's own tests/run.py, confirms --case prints [FAIL]. Restores
+    --file to the synced current version, runs again, confirms --case prints
+    [ ok ]. Removes the worktree either way.
 
 USAGE
-    python3 tests/prove.py --file scripts/session_log.py --at c17f979 \
-        --case "session_log dedups when the last entry itself lists runs/log.md"
+    python3 tests/prove.py --file <path changed by the fix> --at <commit before the fix> \
+        --case "<exact fixture case name the fix's own commit added or changed>"
+
+    Not a copy-pasteable example: inbox.py --add now separately refuses a
+    --prove-case that already existed in tests/run.py before this session's
+    review window, so a case from an old, unrelated fix cannot be reused here.
 
 EXIT
     0  PROVED - case is [FAIL] at --at, [ ok ] on the current tree.
@@ -42,6 +56,27 @@ REPO = os.path.dirname(HERE)
 
 def sh(*args, cwd=None, check=True):
     return subprocess.run(args, cwd=cwd or REPO, capture_output=True, text=True, check=check)
+
+
+def sync_dirty(worktree):
+    """Copy every uncommitted change in the live tree into the worktree, which
+    `git worktree add` checks out at HEAD and so never sees on its own."""
+    status = sh("git", "status", "--porcelain", "-uall").stdout
+    for line in status.splitlines():
+        if not line.strip():
+            continue
+        code, path = line[:2], line[3:]
+        if " -> " in path:  # a rename or copy: only the destination matters here
+            path = path.split(" -> ", 1)[1]
+        path = path.strip('"')
+        src = os.path.join(REPO, path)
+        dst = os.path.join(worktree, path)
+        if code.strip().startswith("D") or not os.path.isfile(src):
+            if os.path.isfile(dst):
+                os.remove(dst)
+            continue
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        shutil.copy2(src, dst)
 
 
 def run_case(worktree, case):
@@ -65,6 +100,7 @@ def main():
     wt = os.path.join(base, "wt")
     try:
         sh("git", "worktree", "add", "--detach", "--quiet", wt, "HEAD")
+        sync_dirty(wt)
 
         old_content = sh("git", "show", f"{a.at}:{a.file}").stdout
         target = os.path.join(wt, a.file)

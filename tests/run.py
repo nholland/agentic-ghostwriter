@@ -335,6 +335,7 @@ def prove_cases():
         open(os.path.join(tmp, "target.py"), "w").write("# buggy\n# FIXED\n")
         _git(tmp, "add", "-A")
         _git(tmp, "commit", "-q", "-m", "fixed")
+        fixed_sha = _git_out(tmp, "rev-parse", "HEAD")
 
         prove = os.path.join(tmp, "tests", "prove.py")
         r_ok = subprocess.run([sys.executable, prove, "--file", "target.py", "--at", buggy_sha,
@@ -381,6 +382,61 @@ def prove_cases():
         out.append((rc_proved == 0, "inbox accepts when tests/prove.py proves the case",
                     "a genuinely discriminating case must be accepted, not just any [FAIL]-shaped text",
                     (rc_proved, out_proved)))
+
+        # Half (a): git worktree add checks out HEAD, blind to uncommitted
+        # work - a case whose check exists only in the live, uncommitted
+        # tests/run.py must still be provable, or the only triples that can
+        # ever pass are older committed ones unrelated to whatever is
+        # actually being proposed (found 2026-09-19: an unrelated "adopt a
+        # mascot" item was accepted this way, reusing prove.py's own real,
+        # older, unrelated worked example). target2.py's no-marker baseline is
+        # committed (--at needs a real commit to revert to); the marker and
+        # the case that checks for it are added only as uncommitted edits.
+        open(os.path.join(tmp, "target2.py"), "w").write("# no second fix\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "target2 baseline")
+        target2_base_sha = _git_out(tmp, "rev-parse", "HEAD")
+
+        # The synthetic tests/run.py is a plain script (not this real file's
+        # main()/rows structure), so the appended case must call and print
+        # itself directly.
+        open(os.path.join(tmp, "tests", "run.py"), "a").write(
+            "\n\ncontent2 = open(os.path.join(REPO, 'target2.py')).read()\n"
+            "ok2 = 'SECOND' in content2\n"
+            "print(f\"{'[ ok ]' if ok2 else '[FAIL]'} target2 has the second fix\")\n")
+        # Neither target2.py's marker nor this tests/run.py edit is committed
+        # yet - both stay live, uncommitted changes for the next check.
+        open(os.path.join(tmp, "target2.py"), "w").write("# no second fix\n# SECOND\n")
+
+        r_uncommitted = subprocess.run([sys.executable, prove, "--file", "target2.py",
+                                        "--at", target2_base_sha, "--case", "target2 has the second fix"],
+                                       cwd=tmp, capture_output=True, text=True)
+        out.append((r_uncommitted.returncode == 0 and "PROVED" in r_uncommitted.stdout,
+                    "prove.py proves a case whose check exists only in uncommitted tests/run.py",
+                    "without copying the live tree's dirty paths into the worktree, this reports REFUSED - case not found, not PROVED",
+                    (r_uncommitted.returncode, r_uncommitted.stdout)))
+
+        # Half (b): a --prove-case must be new within this session's review
+        # window, not a case that already existed before it - otherwise any
+        # older, unrelated, genuinely-discriminating case can be reused to
+        # close an item proving nothing about it.
+        os.makedirs(os.path.join(tmp, ".claude", "state"))
+        open(os.path.join(tmp, ".claude", "state", "retro-window"), "w").write(f"{buggy_sha} {fixed_sha}")
+
+        rc_stale, out_stale = run_add("--prove-file", "target.py", "--prove-at", buggy_sha,
+                                      "--prove-case", "target has the fix")
+        out.append((rc_stale == 2 and "already existed at the window start" in out_stale,
+                    "inbox refuses a --prove-case that predates the review window",
+                    "a case present before this session's window proves nothing about what this item proposes",
+                    (rc_stale, out_stale)))
+
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "third: add target2 case")
+        rc_fresh, out_fresh = run_add("--prove-file", "target2.py", "--prove-at", target2_base_sha,
+                                      "--prove-case", "target2 has the second fix")
+        out.append((rc_fresh == 0, "inbox accepts a --prove-case genuinely new within the window",
+                    "the window-start guard must not block a case that is actually about this window's change",
+                    (rc_fresh, out_fresh)))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out

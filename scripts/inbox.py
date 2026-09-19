@@ -69,6 +69,22 @@ def now():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
 
+def _window_start():
+    """The commit this session's review window began at, for do_add's
+    --prove-case freshness check. Same fallback order as gw-retro.md's own
+    read convention: retro-window (its first token), then retro-last-sha,
+    then session-start-sha. None found means no window is known at all - the
+    caller skips the freshness check rather than refusing blind."""
+    state = os.path.join(REPO, ".claude", "state")
+    for name in ("retro-window", "retro-last-sha", "session-start-sha"):
+        p = os.path.join(state, name)
+        if os.path.isfile(p):
+            tokens = open(p, encoding="utf-8").read().split()
+            if tokens:
+                return tokens[0]
+    return None
+
+
 def parse(path):
     with open(path, encoding="utf-8") as fh:
         text = fh.read()
@@ -165,6 +181,23 @@ def do_add(a, items):
             print("  --prove-file/--prove-at/--prove-case at what tests/prove.py should run")
             print("  red-then-green, or it refuses.")
             return 2
+        # A case that already existed before this review's window proves
+        # nothing about the change actually being proposed - only that SOME
+        # case, somewhere, once discriminated something. Found 2026-09-19,
+        # the day prove.py landed: an unrelated "should the house adopt a
+        # mascot" proposal, filed with fabricated --evidence, was accepted by
+        # reusing prove.py's own worked example (a real, older, unrelated
+        # case). The case named here must be new within this window.
+        window_start = _window_start()
+        if window_start:
+            wr = subprocess.run(["git", "show", f"{window_start}:tests/run.py"],
+                                cwd=REPO, capture_output=True, text=True)
+            if wr.returncode == 0 and a.prove_case in wr.stdout:
+                print(f"inbox: refusing - --prove-case already existed at the window start ({window_start[:12]}).")
+                print("  A case from before this session's review window proves nothing about")
+                print("  what this item is actually proposing. Name a case this window added")
+                print("  or changed.")
+                return 2
         r = subprocess.run([sys.executable, os.path.join(REPO, "tests", "prove.py"),
                             "--file", a.prove_file, "--at", a.prove_at, "--case", a.prove_case],
                            cwd=REPO, capture_output=True, text=True)

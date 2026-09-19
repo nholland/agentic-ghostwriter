@@ -592,3 +592,35 @@ Five new fixtures in `prove_cases()`, built against a synthetic repo rather
 than real commit history, so nothing here depends on a specific SHA staying
 reachable. Corpus unchanged (17,017) — this landed entirely in `tests/` and
 `scripts/`.
+
+---
+
+## 2026-09-19 07:03 — The mechanical proof measured something, but not this change
+
+`tests/prove.py` (above) genuinely runs the red pass — that part held. What
+didn't: nothing bound the proved case to the item being filed. `git worktree
+add` checks out HEAD, blind to uncommitted work, so the only triples that
+could ever pass were older, already-committed ones — unrelated to whatever
+was actually being proposed. Demonstrated cold: a "should the house adopt a
+mascot?" item, `--evidence "I ran nothing at all. This evidence is
+fabricated."`, reusing prove.py's own worked example as `--prove-*` — accepted,
+exit 0. #042's own first use had done exactly this by accident: it proved a
+`session_log` case that entered `tests/run.py` in the *previous* window's
+commit, not this one's.
+
+Fixed both halves, since either alone makes the other worse: `prove.py` now
+copies every `git status`-dirty path into the worktree right after creating
+it, so a case that only exists in uncommitted work is provable at all;
+`inbox.py` reads `.claude/state/retro-window`'s start commit and refuses a
+`--prove-case` that already existed in `tests/run.py` there. Deleted
+`prove.py`'s literal copy-pasteable `USAGE` example — the exact string the
+mascot attack reused — for a placeholder. Re-ran the mascot attack against the
+fixed code and confirmed it now refuses. Six new fixtures added, mutation-
+tested both directions (each half reverted individually to confirm the
+corresponding case goes red). Corpus unchanged (17,017).
+
+Sixth instance of "the check meant to catch X doesn't actually catch X" this
+session, and the first where the *mechanism* (running the case at all) was
+sound and only the *binding* (which case, to what) was missing — a different
+failure than the five before it, which is why it surfaced only once the
+measuring itself was solid enough to expose it.
