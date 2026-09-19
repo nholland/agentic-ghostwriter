@@ -147,16 +147,32 @@ def do_add(a, items):
     # assertion that happens to say "checked". #039 closed on exactly this
     # twice inside one hour: its own fixture case was renamed to describe the
     # defect it was meant to catch without ever being run against the buggy
-    # code, so it passed both the pre-fix and post-fix trees identically. Any
-    # gw-retro item whose --applied-by touches tests/run.py must show a
-    # `[FAIL]` line in --evidence, proving someone actually watched it fail
-    # before trusting it to pass.
-    if ((a.raised_by or "").lower().startswith("gw-retro") and "tests/run.py" in a.applied_by
-            and "[FAIL]" not in a.evidence):
-        print("inbox: refusing - --applied-by names tests/run.py but --evidence has no [FAIL] line.")
-        print("  A case that has never failed has never been proved to discriminate.")
-        print("  Run it against the pre-fix code first, paste the [FAIL] line, then the [ ok ].")
-        return 2
+    # code, so it passed both the pre-fix and post-fix trees identically.
+    # #041's own first version "fixed" this with a typed [FAIL]-substring
+    # check in --evidence - which is an attestation, not a measurement, and
+    # was itself proven gameable the same session: an item whose evidence
+    # read "I did not run anything. [FAIL] is a string I typed." was accepted,
+    # exit 0. tests/prove.py runs the red pass mechanically instead of
+    # trusting a claim about it - once the machine performs the check there is
+    # nothing left to attest.
+    if (a.raised_by or "").lower().startswith("gw-retro") and "tests/run.py" in a.applied_by:
+        missing_prove = [n for n, v in (("--prove-file", a.prove_file),
+                                        ("--prove-at", a.prove_at),
+                                        ("--prove-case", a.prove_case)) if not v]
+        if missing_prove:
+            print(f"inbox: refusing - --applied-by names tests/run.py but {', '.join(missing_prove)} is missing.")
+            print("  A typed claim of having run something red is not proof of it. Point")
+            print("  --prove-file/--prove-at/--prove-case at what tests/prove.py should run")
+            print("  red-then-green, or it refuses.")
+            return 2
+        r = subprocess.run([sys.executable, os.path.join(REPO, "tests", "prove.py"),
+                            "--file", a.prove_file, "--at", a.prove_at, "--case", a.prove_case],
+                           cwd=REPO, capture_output=True, text=True)
+        if r.returncode != 0:
+            print("inbox: refusing - tests/prove.py did not confirm this case discriminates.")
+            for line in (r.stdout + r.stderr).strip().splitlines():
+                print(f"  {line}")
+            return 2
     os.makedirs(INBOX, exist_ok=True)
     nid = next_id(items)
     slug = re.sub(r"[^a-z0-9]+", "-", a.add.lower()).strip("-")[:48] or "item"
@@ -319,6 +335,14 @@ def main():
                     help="required with --add: one recommendation, not a menu.")
     ap.add_argument("--evidence", default="",
                     help="required with --add: the command run and its output, verbatim.")
+    ap.add_argument("--prove-file", default="", metavar="PATH",
+                    help="required with a gw-retro --add whose --applied-by names "
+                         "tests/run.py: the repo-relative file the proposal changed.")
+    ap.add_argument("--prove-at", default="", metavar="SHA",
+                    help="the commit before the fix, for tests/prove.py to revert --prove-file to.")
+    ap.add_argument("--prove-case", default="", metavar="NAME",
+                    help="the exact fixture case name tests/prove.py must see go "
+                         "[FAIL] at --prove-at and [ ok ] on the current tree.")
     ap.add_argument("--close", metavar="N")
     ap.add_argument("--applied-by", default="", metavar="COMMAND",
                     help="shell command that exits 0 only once this ruling has "

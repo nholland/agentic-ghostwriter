@@ -286,22 +286,101 @@ def inbox_cases():
                         "closing without repeating --applied-by must not lose the proof command --add already recorded",
                         text))
 
-        # A gw-retro item proved by tests/run.py must show it was actually run
-        # red first - #039 closed twice on a case that had never failed against
-        # the code it claimed to catch.
+        # A gw-retro item proved by tests/run.py must show --prove-* flags -
+        # see prove_cases() for the full red/green enforcement, which needs
+        # its own git repo and is kept separate from this function's
+        # git-less fixture.
         rc4, _ = run_raw("--add", "unproven proof", "--raised-by", "gw-retro", "--chapter", "0",
                          *common, "--applied-by", "python3 tests/run.py")
-        out.append((rc4 == 2, "inbox refuses a gw-retro tests/run.py proof with no [FAIL] in evidence",
-                    "a proof command that was never watched fail first has not been shown to discriminate",
+        out.append((rc4 == 2, "inbox refuses a gw-retro tests/run.py proof with no --prove-* flags",
+                    "a claim of having run something red is not proof of it - tests/prove.py must be pointed at what to check",
                     rc4))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
 
-        rc5, out5 = run_raw("--add", "proven proof", "--raised-by", "gw-retro", "--chapter", "0",
-                            "--context", "c", "--unblocks", "u", "--recommend", "r",
-                            "--evidence", "before the fix: [FAIL] the case  after: [ ok ] the case",
-                            "--applied-by", "python3 tests/run.py")
-        out.append((rc5 == 0, "inbox accepts a gw-retro tests/run.py proof once [FAIL] is shown",
-                    "the guard must not block a genuinely proven item",
-                    rc5))
+
+def prove_cases():
+    """tests/prove.py and inbox.py's integration with it, proved against a
+    synthetic git repo whose 'buggy' commit genuinely fails a case and whose
+    'fixed' commit genuinely passes it - not the real repo's own history, so
+    this does not depend on any specific commit staying reachable.
+
+    #041's first version accepted a typed "[FAIL]" substring in --evidence as
+    proof a case was watched fail - an attestation, not a measurement, and
+    demonstrably gameable (an item whose evidence read "I did not run
+    anything. [FAIL] is a string I typed." was accepted, exit 0). This
+    replaces that with tests/prove.py actually running the red pass."""
+    out = []
+    tmp = tempfile.mkdtemp(prefix="gw-tests-prove-")
+    try:
+        _git(tmp, "init", "-q")
+        _git(tmp, "config", "user.email", "test@example.com")
+        _git(tmp, "config", "user.name", "test")
+        os.makedirs(os.path.join(tmp, "tests"))
+        shutil.copy(os.path.join(REPO, "tests", "prove.py"), os.path.join(tmp, "tests", "prove.py"))
+        # A minimal harness in the same [ ok ]/[FAIL] format tests/prove.py
+        # parses, checking one thing: whether target.py contains a marker.
+        open(os.path.join(tmp, "tests", "run.py"), "w").write(
+            "import os\n"
+            "HERE = os.path.dirname(os.path.abspath(__file__))\n"
+            "REPO = os.path.dirname(HERE)\n"
+            "content = open(os.path.join(REPO, 'target.py')).read()\n"
+            "ok = 'FIXED' in content\n"
+            "print(f\"{'[ ok ]' if ok else '[FAIL]'} target has the fix\")\n")
+        open(os.path.join(tmp, "target.py"), "w").write("# buggy\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "buggy")
+        buggy_sha = _git_out(tmp, "rev-parse", "HEAD")
+        open(os.path.join(tmp, "target.py"), "w").write("# buggy\n# FIXED\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "fixed")
+
+        prove = os.path.join(tmp, "tests", "prove.py")
+        r_ok = subprocess.run([sys.executable, prove, "--file", "target.py", "--at", buggy_sha,
+                              "--case", "target has the fix"], cwd=tmp, capture_output=True, text=True)
+        out.append((r_ok.returncode == 0 and "PROVED" in r_ok.stdout,
+                    "prove.py PROVES a case that genuinely fails at the given commit",
+                    "reverting target.py to the buggy commit must show [FAIL], then [ ok ] on the current tree",
+                    (r_ok.returncode, r_ok.stdout)))
+
+        r_bad = subprocess.run([sys.executable, prove, "--file", "target.py", "--at", buggy_sha,
+                               "--case", "no such case"], cwd=tmp, capture_output=True, text=True)
+        out.append((r_bad.returncode == 2 and "REFUSED" in r_bad.stdout,
+                    "prove.py refuses a case name that never appears",
+                    "a typo'd or nonexistent case name must not silently pass",
+                    (r_bad.returncode, r_bad.stdout)))
+
+        wt_list = subprocess.run(["git", "worktree", "list"], cwd=tmp, capture_output=True, text=True).stdout
+        out.append((wt_list.strip().count("\n") == 0, "prove.py removes its worktree after running",
+                    "a leaked worktree would accumulate across every gw-retro proposal that uses this",
+                    wt_list))
+
+        # inbox.py's own integration: copy it in and drive it against this
+        # same synthetic repo.
+        os.makedirs(os.path.join(tmp, "scripts"))
+        shutil.copy(os.path.join(REPO, "scripts", "inbox.py"), os.path.join(tmp, "scripts", "inbox.py"))
+        os.makedirs(os.path.join(tmp, "inbox"))
+        common = ["--context", "c", "--unblocks", "u", "--recommend", "r", "--evidence", "e"]
+
+        def run_add(*extra):
+            r = subprocess.run([sys.executable, os.path.join(tmp, "scripts", "inbox.py"), "--add",
+                               "x", "--raised-by", "gw-retro", "--chapter", "0", *common,
+                               "--applied-by", "python3 tests/run.py", *extra],
+                               cwd=tmp, capture_output=True, text=True)
+            return r.returncode, r.stdout
+
+        rc_refused, out_refused = run_add("--prove-file", "target.py", "--prove-at", buggy_sha,
+                                          "--prove-case", "no such case")
+        out.append((rc_refused == 2, "inbox refuses when tests/prove.py refuses",
+                    "a case that does not actually discriminate must not close a gw-retro item",
+                    (rc_refused, out_refused)))
+
+        rc_proved, out_proved = run_add("--prove-file", "target.py", "--prove-at", buggy_sha,
+                                        "--prove-case", "target has the fix")
+        out.append((rc_proved == 0, "inbox accepts when tests/prove.py proves the case",
+                    "a genuinely discriminating case must be accepted, not just any [FAIL]-shaped text",
+                    (rc_proved, out_proved)))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out
@@ -612,7 +691,8 @@ def main():
     rows = (package_cases() + voice_rules_cases() + next_cases()
            + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
-           + sys_path_hardcode_cases() + session_log_dedup_cases())
+           + sys_path_hardcode_cases() + session_log_dedup_cases()
+           + prove_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")

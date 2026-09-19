@@ -565,3 +565,30 @@ shows a `[FAIL]` line, verified the same way (red on the pre-guard `inbox.py`,
 green on the fix). This supersedes last session's still-undecided proposal to
 require every `--applied-by` to name a case — that proposal's own item, #039,
 named its case and was still unproven.
+
+---
+
+## 2026-09-19 06:54 — The guard against unproven proofs was itself unproven
+
+The `[FAIL]`-substring guard above (#041) checked that `--evidence` contained
+the text `[FAIL]` — an attestation, not a measurement. Demonstrated gameable
+before building the replacement: an item filed with `--evidence "I did not run
+anything. [FAIL] is a string I typed."` was accepted, exit 0. Fifth instance of
+the shape this session (#030's grep, a check passing its own defect, a
+half-fixed guard, an unproven fixture, now an unproven proof-of-proof). Each
+prior fix raised the floor by measuring something new; a typed-string check
+does not measure anything.
+
+Replaced with `tests/prove.py`: given `--file`, `--at` (a commit) and `--case`
+(an exact fixture case name), it reverts the file to that commit's content in
+a throwaway `git worktree` — never the live tree, which would race the Stop
+hook's own auto-commit — runs the worktree's own `tests/run.py`, confirms the
+case is `[FAIL]`, restores the file, confirms `[ ok ]`. `inbox.py --add` now
+shells out to it instead of reading a string the agent wrote. Proved both
+directions against real repo history (`PROVED` on a genuinely discriminating
+case, `REFUSED` on one that wasn't) before wiring it in, then re-ran the exact
+fabrication that broke #041 against the new code and confirmed it refuses.
+Five new fixtures in `prove_cases()`, built against a synthetic repo rather
+than real commit history, so nothing here depends on a specific SHA staying
+reachable. Corpus unchanged (17,017) — this landed entirely in `tests/` and
+`scripts/`.
