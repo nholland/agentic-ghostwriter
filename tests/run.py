@@ -372,6 +372,14 @@ def tombstone_cases():
                         "to sources/evidence-library.md."),
             ("nolonger", "Step 7: append new author IP to sources/evidence-library.md. "
                          "Drafts are no longer collected anywhere else."),
+            ("insteadof", "Step 7: append new author IP to sources/evidence-library.md "
+                          "instead of leaving it in the transcript."),
+            ("usedto", "Step 7: append new author IP to sources/evidence-library.md, "
+                       "as we used to for interviews."),
+            ("drawnfrom", "Step 7: append new author IP drawn from the interview to "
+                          "sources/evidence-library.md."),
+            ("faithfully", "Step 7: faithfully append new author IP to "
+                           "sources/evidence-library.md."),
         ):
             d = os.path.join(root, f"decoy-{tag}.md")
             open(d, "w", encoding="utf-8").write(f"# Draft\n\n{body}\n")
