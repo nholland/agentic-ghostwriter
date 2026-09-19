@@ -59,22 +59,53 @@ a book that does not exist yet — and `/book-marketing`'s own note says as much
 | Review strategy | `review-strategy` | ARC programme and early reviews |
 | Book club guide | `club-guide` | Reading group materials |
 | Substack integration | `substack-connect` | Pushing a drafted post to Substack, not just writing one |
+| Buffer integration | *never built* | Auto-posting social.md content to X/IG/FB after the Substack push |
 
-**Substack, checked rather than assumed, 2026-09-19.** `ListConnectors` against this
-session returns **zero** Substack connectors — there is no MCP credential attached
-here at all, regardless of the shared trigger above. `book-manifest.json`'s
+**Substack, checked rather than assumed, 2026-09-19.** Two separate things were
+checked, not one. First: this session's org-level connectors (`ListConnectors`,
+full list) are Gmail, Google Calendar, Google Drive and Linear — nothing
+publishing-related at all. Second, and more precise: the old pipeline's Substack
+tool was never an org connector to begin with. `progress.md` (2026-07-08) records
+it as `substack-mcp`, a locally-installed npm package on the author's own machine,
+cookie-authenticated, configured in a `.mcp.json` the book repo's own `.gitignore`
+explicitly excludes ("contains live credentials, never commit"). So nothing was
+lost migrating it — it was never in either repo to lose. `book-manifest.json`'s
 `integrations.substack.status: "connected"` does **not** mean this system can post:
 read closely, it is the author's own publication existing at that URL, a business
-fact carried over from the old pipeline's manifest, not a technical credential.
-That old pipeline's own `scripts/pipeline_state.py` describes what a real
-integration looked like: "the Substack MCP integration can push drafts but can't
-read publish status back" — push-only, and even then the author confirmed what
-was actually live, because self-reported "posted" status drifted. **Nothing here
-changes `gw-publicist`'s mandate** ("nothing is ever posted, and publishing
-decisions stay the author's") — closing this gap means a draft can be pushed to
-Substack as a draft for the author to publish, never that this house posts
-unattended. Until it is closed, a drafted post is copied out and posted by hand,
-same as today.
+fact, not a technical credential live in this session.
+
+**This exact failure already happened once and is on record.** `.claude/LEARNINGS.md`
+item 7 (migrated with the book): *"Manifest state can lie about live session
+capability. `book-manifest.json` said Substack was `"connected"`, but no MCP tool
+was actually loaded in this (cloud) session."* The old pipeline's fix was a live
+tool-availability check at the point of use, in `/book-substack` Step 3.5. This
+house doesn't need that specific fix — `gw-publicist` never attempts a live push,
+so there's no point of use to check at — but the stale manifest field itself rode
+along unflagged until asked about directly here. Fixing the manifest field is not
+listed as its own gap: it is stale data, not missing capability, and correcting it
+belongs to whoever next touches `book-manifest.json`'s `integrations` block.
+
+**Buffer was never audited in, because it was never a command.** The 2026-09-13
+audit covered the 40 `book-*` commands; Buffer (`parking-lot.md` #8, 2026-06-17)
+was a parked idea for extending one of them, deferred behind "Substack working
+end-to-end" and never implemented, so it had no command to be counted against.
+Same shape as the Substack finding: `gw-publicist`'s mandate covers it exactly the
+same way (drafts only; if built, pushes a draft, never posts unattended).
+
+**Nothing above changes `gw-publicist`'s mandate** ("nothing is ever posted, and
+publishing decisions stay the author's") for either row — closing them means a
+draft can be pushed as a draft for the author to publish, never that this house
+posts unattended. Until they're closed, a drafted post is copied out and posted by
+hand, same as today.
+
+**Open, and not this audit's job: `parking-lot.md` carries roughly 17 other still-OPEN
+items** (content and process decisions, `#5` through `#35`) that were migrated as
+history, per `CLAUDE.md`'s Layers section, and never triaged into `runs/parked.md`
+or the inbox. "Open" is not the same as "history" — an open item is live undecided
+business, and moving the file didn't decide any of them. Whether each is still live,
+superseded by a decision made in this house since, or genuinely forgotten needs a
+read-through this pass didn't do. Filed as parked item P-003 below rather than
+guessed at here.
 
 **Owner when built: the Publicist.** Not seven skills — the old pipeline's shape.
 One `/gw-publish` with a mode per deliverable, because they share their inputs (the

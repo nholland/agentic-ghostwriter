@@ -93,3 +93,33 @@ extended (`CLAUDE.md`, Layers section). This file, `runs/parked.md`, stays the
 one live parking lot. Recorded here rather than silently editing the original
 note, since a prediction that didn't happen the way it predicted is itself
 worth knowing.
+
+---
+
+## P-003 — Triage the old pipeline's ~17 still-OPEN parking-lot items against the new house
+
+**Parked:** 2026-09-19 00:46
+**Raised at:** the author asking "what else did you miss" after the Substack
+finding, which led to actually reading `books/the-stoic-husband/parking-lot.md`
+in full rather than trusting `CLAUDE.md`'s "read for history" framing to mean
+"nothing in it is still live."
+
+**What was found:** `parking-lot.md` has roughly 17 items still marked `OPEN`
+(numbers #5, #8, #9, #12, #20–#24, #26, #27, #29–#35), spanning 2026-06-12 through
+2026-09-10 — content decisions, not just tooling. Two examples surfaced already:
+`#8` (Buffer social auto-posting, now in `GAPS.md`) and the general shape that
+`#7` in `.claude/LEARNINGS.md` warned about (a manifest field asserting a state
+nobody re-checked). "Migrated as history, read never extended" is correct for
+*resolved* items; it silently mis-describes an *open* one, since an open item is
+undecided business, not a record of something that already happened.
+
+**Why not done in this pass:** 17 items, each needing a judgment call about
+current relevance (has this house since decided it? is it superseded by
+something in `FINDINGS.md` or `progress.md`'s later entries? is it still live?)
+is a real read-through, not a grep. Guessing at 17 answers to look responsive
+would be worse than flagging it plainly.
+
+**Revisit trigger:** the next session with room for a dedicated pass, or before
+the whole-book QA trigger fires (P-002) — QA is a bad time to discover a decision
+was never actually made. Each item that's still genuinely open moves to this file
+with a real trigger; each one superseded gets a one-line note saying by what.
