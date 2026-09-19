@@ -21,9 +21,15 @@ up with rules nobody can find.
 
 ## Read
 
-- `git log --stat` and `git diff` for the window: from `.claude/state/retro-last-sha`
-  (where the last review ended; fall back to `session-start-sha` only if it is absent)
-  to HEAD. This is what actually happened; the rest is context for judging it.
+- `git log --stat` and `git diff` for the window: read `.claude/state/retro-window`
+  (written by the hook as `START HEAD_SHA`, before it touches the dedupe pointer) -
+  that pair, not `retro-last-sha`, is the review's actual bounds. Fall back to
+  `retro-last-sha`..HEAD only if `retro-window` is absent (an older hook run).
+  Never read `retro-last-sha` as the window's start: the hook overwrites it to
+  HEAD_SHA in the same dispatch, so by the time you read it the window it names
+  is always already-current and empty - this collapsed the window silently once
+  (#030) and recurred once after that fix closed on a grep rather than a fixture.
+  This is what actually happened; the rest is context for judging it.
 - `runs/log.md` — the session's derived entries.
 - Inbox items opened or closed this session, with their resolutions in the author's words.
 - `FINDINGS.md` — **all of it.** Your most valuable finding is usually that something has happened before.

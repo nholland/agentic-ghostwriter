@@ -303,9 +303,104 @@ def toolcheck_cases():
     return out
 
 
+def _git(repo, *args):
+    subprocess.run(["git", "-C", repo] + list(args), check=True,
+                    capture_output=True, text=True)
+
+
+def _git_out(repo, *args):
+    return subprocess.run(["git", "-C", repo] + list(args), check=True,
+                           capture_output=True, text=True).stdout.strip()
+
+
+def retro_window_cases():
+    """retro-check.sh's dispatch window, proved against a real git repo rather
+    than trusted by inspection. #030: the window collapsed to empty once
+    because it was read from a variable the same block was about to overwrite;
+    that fix closed on a grep for the new variable's name, not on running the
+    hook, and the same collapse recurred (found 2026-09-19 reviewing the
+    toolcheck commit). This fixture runs the actual hook against a repo it
+    controls and checks the window it writes, not the source text."""
+    import re
+    out = []
+    hook = os.path.join(REPO, ".claude", "hooks", "retro-check.sh")
+    tmp = tempfile.mkdtemp(prefix="gw-tests-retro-")
+    try:
+        _git(tmp, "init", "-q")
+        _git(tmp, "config", "user.email", "test@example.com")
+        _git(tmp, "config", "user.name", "test")
+        os.makedirs(os.path.join(tmp, "scripts"))
+        open(os.path.join(tmp, "scripts", "a.py"), "w").write("# a\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "session start")
+        start_sha = _git_out(tmp, "rev-parse", "HEAD")
+
+        state = os.path.join(tmp, ".claude", "state")
+        os.makedirs(state)
+        open(os.path.join(state, "session-start-sha"), "w").write(start_sha)
+
+        # The triggering commit: touches a watched path (scripts/).
+        open(os.path.join(tmp, "scripts", "a.py"), "w").write("# a changed\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "touch scripts/")
+        head_sha = _git_out(tmp, "rev-parse", "HEAD")
+
+        env = dict(os.environ)
+        env["CLAUDE_PROJECT_DIR"] = tmp
+        env.pop("CLAUDE_PLUGIN_ROOT", None)
+        r = subprocess.run(["bash", hook], cwd=tmp, env=env,
+                            capture_output=True, text=True)
+        out.append((r.returncode == 2, "retro-check dispatches on a watched-path commit",
+                    "a commit touching scripts/ must trigger exit 2 (Stop hook signal)",
+                    r.returncode))
+
+        window_path = os.path.join(state, "retro-window")
+        window = open(window_path).read().split() if os.path.exists(window_path) else []
+        out.append((window == [start_sha, head_sha], "retro-window written as START HEAD",
+                    "the window must span exactly the session-start commit to the triggering commit",
+                    window))
+
+        in_window = int(_git_out(tmp, "rev-list", "--count", f"{start_sha}..{head_sha}"))
+        out.append((in_window == 1, "triggering commit falls inside its own window",
+                    "the commit that caused the dispatch must be counted in the range gw-retro reads",
+                    in_window))
+
+        last_sha = open(os.path.join(state, "retro-last-sha")).read().strip()
+        out.append((last_sha == head_sha, "retro-last-sha dedupe pointer still advances",
+                    "the unrelated dedupe pointer must still land on HEAD",
+                    last_sha))
+
+        # Prove the bug this fixture guards against: reading retro-last-sha as
+        # the window START (the pre-fix instruction) gives an empty range,
+        # because by dispatch time it has already been overwritten to HEAD.
+        naive_start = last_sha
+        naive_count = int(_git_out(tmp, "rev-list", "--count", f"{naive_start}..{head_sha}"))
+        out.append((naive_count == 0, "reading retro-last-sha as START reproduces #030",
+                    "confirms retro-window, not retro-last-sha, is what must be read for the window",
+                    naive_count))
+
+        # A second watched-path commit should open a fresh window starting
+        # where the first one ended, not from session-start-sha again.
+        open(os.path.join(tmp, "scripts", "b.py"), "w").write("# b\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "touch scripts/ again")
+        head2_sha = _git_out(tmp, "rev-parse", "HEAD")
+        r2 = subprocess.run(["bash", hook], cwd=tmp, env=env,
+                            capture_output=True, text=True)
+        window2 = open(window_path).read().split()
+        out.append((r2.returncode == 2 and window2 == [head_sha, head2_sha],
+                    "second dispatch windows from the first dispatch's end",
+                    "a later session commit must open a fresh window starting at the prior HEAD, not session-start-sha",
+                    (r2.returncode, window2)))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
 def main():
     rows = (package_cases() + voice_rules_cases() + next_cases()
-           + inbox_cases() + staged_link_cases() + toolcheck_cases())
+           + inbox_cases() + staged_link_cases() + toolcheck_cases()
+           + retro_window_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")

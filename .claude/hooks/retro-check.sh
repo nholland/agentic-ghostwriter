@@ -42,6 +42,12 @@ COUNT=$(git rev-list --count "$START..$HEAD_SHA" -- $WATCHED 2>/dev/null); COUNT
 [ "$COUNT" -ge 1 ] || exit 0
 
 touch "$DONE"
+# Write the window BEFORE the dedupe pointer, and from the START/HEAD_SHA this
+# run computed - not from retro-last-sha, which this same block is about to
+# overwrite. #030 recurrence: gw-retro.md's own first read step was
+# retro-last-sha, so by the time it ran, dedupe and window were the same
+# variable and the window it read was always already-current (empty).
+echo "$START $HEAD_SHA" > "$STATE/retro-window"
 echo "$HEAD_SHA" > "$STATE/retro-last-sha"
-echo "SESSION REVIEW: this session made $COUNT commit(s) touching the work. Before closing, dispatch the Archivist (agent gw-retro) to review it cold - what broke, what was missing, what was too hard, what worked, what recurs - and show the author its suggestions. It proposes; you apply nothing without his yes. If it reports nothing substantive, pass that on in one line and move on. Then tell him where his work is: which branch, whether it is pushed, and whether it is on main." >&2
+echo "SESSION REVIEW: this session made $COUNT commit(s) touching the work ($START..$HEAD_SHA). Before closing, dispatch the Archivist (agent gw-retro) to review it cold - what broke, what was missing, what was too hard, what worked, what recurs - and show the author its suggestions. It proposes; you apply nothing without his yes. If it reports nothing substantive, pass that on in one line and move on. Then tell him where his work is: which branch, whether it is pushed, and whether it is on main." >&2
 exit 2
