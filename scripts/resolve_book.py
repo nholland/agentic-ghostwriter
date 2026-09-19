@@ -63,7 +63,31 @@ def is_book_repo(path):
 
 
 def candidates(cfg):
+    """Ordered sources for the book repo. Self first, since the migration.
+
+    Before 2026-09-18 the book lived in a second repo and $GW_BOOK_REPO was the
+    top of this list. It no longer is: `book-manifest.json` sits at this repo's
+    root, so when this repo IS a book repo, that is the answer and every other
+    source is outranked - the environment variable included, and sibling
+    discovery skipped entirely, because with the book here the only thing
+    discovery can still find is the wrong book.
+
+    That reordering is load-bearing rather than tidy. The cloud container still
+    exports GW_BOOK_REPO=/opt/playground-260420 from the two-repo era, and under
+    the old order it won. It resolves to nothing today only because that path
+    happens not to exist; the day anything creates it, every desk reads the
+    frozen archive's constitution instead of the live one - and a desk reading a
+    stale voice spec does not raise an error, it writes to the wrong spec. That
+    is this script's whole reason for existing, arriving by a new route.
+
+    An override is not silently dropped. resolve() marks every book repo this
+    order outranked, and main() names it, so a deliberate one stays visible.
+    """
     out = []
+    self_is_book = is_book_repo(REPO)
+    if self_is_book:
+        out.append(("this repo", REPO))
+
     env = os.environ.get("GW_BOOK_REPO")
     if env:
         out.append(("$GW_BOOK_REPO", os.path.abspath(os.path.expanduser(env))))
@@ -74,7 +98,12 @@ def candidates(cfg):
         h = os.path.expanduser(hint)
         p = h if os.path.isabs(h) else os.path.join(REPO, h)
         out.append((f"config hint {hint!r}", os.path.abspath(p)))
-    # Discovery: siblings of this repo, then siblings of its parent.
+    if self_is_book:
+        return out
+    # Discovery, and only when the book is NOT in this repo: siblings, then
+    # siblings of the parent. This is the un-migrated path; it stays for a
+    # checkout that predates 2026-09-18, and for an engine clone with no book
+    # in it yet.
     seen = set()
     for base in (os.path.dirname(REPO), os.path.dirname(os.path.dirname(REPO))):
         if not os.path.isdir(base) or base in seen:
@@ -93,12 +122,24 @@ def candidates(cfg):
 
 
 def resolve(cfg):
-    tried = []
+    """First hit wins. Later hits are recorded as outranked, never dropped in
+    silence: a second book repo on the list means two books are reachable, and
+    which one a desk got is exactly the question this script exists to answer
+    out loud. Returns the same 3-tuple it always has - nine callers unpack it -
+    with the outranked ones flagged inside `tried`."""
+    tried, chosen = [], None
     for why, path in candidates(cfg):
-        tried.append({"source": why, "path": path, "is_book_repo": is_book_repo(path)})
-        if is_book_repo(path):
-            return path, why, tried
-    return None, None, tried
+        row = {"source": why, "path": path, "is_book_repo": is_book_repo(path)}
+        tried.append(row)
+        if not row["is_book_repo"]:
+            continue
+        if chosen is None:
+            chosen = (path, why)
+        elif os.path.realpath(path) != os.path.realpath(chosen[0]):
+            row["outranked"] = True
+    if chosen is None:
+        return None, None, tried
+    return chosen[0], chosen[1], tried
 
 
 def inspect(repo_root, require_okf):
@@ -146,12 +187,12 @@ def inspect(repo_root, require_okf):
     elif require_okf:
         problems.append(f"REQUIRED missing: {rel}/okf/ (--require-okf)")
 
-    # Every book-repo file this engine calls, checked by name. These are declared
+    # Every migrated file this engine calls, checked by name. These are declared
     # in config/house.json rather than scattered through skill prose so the
     # coupling is auditable in one place - and so a missing one surfaces at
     # session start instead of halfway through a chapter.
     cfg = load_config()
-    deps = cfg.get("book_repo_dependencies", {})
+    deps = cfg.get("migrated_dependencies", {})
     info["dependencies"] = {"required": {}, "optional": {}}
     for kind in ("required", "optional"):
         for rel, why in (deps.get(kind) or {}).items():
@@ -161,7 +202,7 @@ def inspect(repo_root, require_okf):
             present = os.path.isfile(full)
             info["dependencies"][kind][rel] = {"present": present, "why": why}
             if not present and kind == "required":
-                problems.append(f"REQUIRED book-repo dependency missing: {rel} - {why}")
+                problems.append(f"REQUIRED migrated dependency missing: {rel} - {why}")
 
     validator = os.path.join(repo_root, "scripts", "okf_validate.py")
     info["okf_validate"] = validator if os.path.isfile(validator) else None
@@ -216,7 +257,9 @@ def main():
         return 2
 
     rep = inspect(repo_root, a.require_okf)
-    out = {"found": True, "bookRepo": repo_root, "resolvedVia": why, **rep}
+    outranked = [t for t in tried if t.get("outranked")]
+    out = {"found": True, "bookRepo": repo_root, "resolvedVia": why,
+           "outranked": outranked, **rep}
 
     if a.json:
         print(json.dumps(out, indent=2))
@@ -224,6 +267,11 @@ def main():
         i = rep["info"]
         print(f"resolve_book: book repo at {repo_root}")
         print(f"  resolved via: {why}")
+        for t in outranked:
+            # A second reachable book. Named every session rather than dropped,
+            # because "which book did that desk just read" is the one question
+            # this script exists to answer out loud.
+            print(f"  OUTRANKED   : {t['source']} -> {t['path']} (not used)")
         if i.get("title"):
             print(f"  active book : {i['title']}")
         if i.get("bookRoot"):
@@ -240,7 +288,7 @@ def main():
         if req or opt:
             miss_r = [k for k, v in req.items() if not v["present"]]
             miss_o = [k for k, v in opt.items() if not v["present"]]
-            print(f"  book-repo deps: {len(req) - len(miss_r)}/{len(req)} required, "
+            print(f"  migrated deps: {len(req) - len(miss_r)}/{len(req)} required, "
                   f"{len(opt) - len(miss_o)}/{len(opt)} optional present")
             for k in miss_r:
                 print(f"    MISSING (required) {k}")

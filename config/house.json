@@ -1,9 +1,8 @@
 {
   "_comment": "Single source of truth for the counted voice rules. Every threshold here is transcribed from books/the-stoic-husband/01-voice.md 'Counted rules' (line 107). Do not invent a threshold: if a rule is not in 01-voice.md, it does not belong here.",
-  "_bookRoot_note": "Resolved at runtime by scripts/resolve_book.py, never hardcoded. Since the 2026-09-18 migration (inbox #007) the book lives in THIS repo: '.' is the first hint and book-manifest.json sits at the repo root. The old sibling hint is kept second so an un-migrated checkout still resolves rather than silently drafting generic prose. $GW_BOOK_REPO overrides both; discovery of siblings is the last resort.",
+  "_bookRoot_note": "Resolved at runtime by scripts/resolve_book.py, never hardcoded. Since the 2026-09-18 migration (inbox #007) the book lives in THIS repo: book-manifest.json sits at the repo root, so resolve_book.py answers 'this repo' before it reads this list at all. The sibling hint '../Playground-260420' was removed 2026-09-19: the archive is frozen, and a fallback to it is not a safety net but a silent swap of a live constitution for a dead one. $GW_BOOK_REPO and sibling discovery no longer outrank a book that is here; an override that loses is printed as OUTRANKED rather than dropped.",
   "bookRepoCandidates": [
-    ".",
-    "../Playground-260420"
+    "."
   ],
   "voice_rules": {
     "em_dash_max": {
@@ -80,20 +79,20 @@
     "kathekon"
   ],
   "gloss_window_chars": 260,
-  "book_repo_dependencies": {
+  "migrated_dependencies": {
     "_note": "Scripts and governance files that came over with the book on 2026-09-18 (inbox #007) and now live at these paths in this repo. They are the old pipeline's L2/L3 - the OKF validator and format contract, the citation queue, the verification loop, the renderer, the state script - and the engine calls them by name. resolve_book.py verifies every entry against the resolved book repo root, so a missing one is caught at session start rather than mid-chapter.",
     "required": {
-      "scripts/okf_validate.py": "the citation gate (okf_gate.py). Genuinely shared today: 3 callers in the book pipeline, 1 here. Blocking - without it no desk may write prose."
+      "scripts/okf_validate.py": "the citation gate (okf_gate.py) shells out to it. Blocking - without it no desk may write prose."
     },
     "optional": {
       "scripts/citation_queue.py": "/gw-verify regenerates the author's reader-facing queue with it. Never hand-maintain that file.",
       "scripts/verification_probe.py": "/gw-verify probes per-host reachability. Without it the Fact-Checker would have to guess, which it is told never to do.",
-      "scripts/pipeline_state.py": "/gw-board reports the BOOK pipeline's state. This engine never computes that itself.",
+      "scripts/pipeline_state.py": "/gw-board reads per-chapter stages from book-manifest.json through it. Those stages are the old pipeline's record, read and not extended.",
       "scripts/chapter_pdf.py": "the verdict package. No engine equivalent yet.",
       "scripts/verification_packet.py": "external verification loop, outbound.",
       "scripts/verification_ingest.py": "external verification loop, inbound.",
       ".claude/OKF.md": "the OKF format contract (L3). Read by 8 book-pipeline commands and by this engine's desks.",
-      ".claude/LEARNINGS.md": "the old pipeline's incident archive: 14 retrospectives on how the SYSTEM fails, not the book. Engine memory (L1) that lives in the book repo. This house's FINDINGS.md is its successor; read LEARNINGS.md before repeating a failure it already recorded."
+      ".claude/LEARNINGS.md": "the old pipeline's incident archive: 14 retrospectives on how the SYSTEM fails, not the book. Engine memory (L1), migrated here with the book. This house's FINDINGS.md is its successor; read LEARNINGS.md before repeating a failure it already recorded."
     }
   }
 }

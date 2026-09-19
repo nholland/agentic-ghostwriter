@@ -18,9 +18,12 @@ and the mapping stays sealed until the verdict is written down.
 
 ## Build
 
-Resolve the book first. The control side is the old pipeline's chapter, which
-lives in the frozen archive (Playground-260420) for chapters it shipped; for a
-chapter only this house has written, there is no control and no bake-off:
+Resolve the book first. The control side is the old pipeline's chapter — and
+since the 2026-09-18 migration those came over with the book, so they are here,
+in `{bookRoot}/chapters/`, not in the archive. **Nothing about a bake-off needs
+Playground-260420 cloned.** Ch1-11, the prologue and the introduction are the old
+pipeline's prose; Ch12 onward is this house's own and has no control, so there is
+no bake-off to run for it:
 
 ```
 python3 scripts/resolve_book.py
@@ -30,7 +33,7 @@ Stop if it exits non-zero. Take `bookRoot` from its output; never assume a path.
 
 Require both sides to exist:
 
-- control: the old pipeline's `refined.md` for that chapter (Playground-260420, Ch1-11 only)
+- control: `{bookRoot}/chapters/chNN/refined.md` — the old pipeline's prose, migrated (Ch1-11, prologue, introduction)
 - variant: `runs/chNN/refined.md` (this pipeline, from `/gw-draft` + `/gw-refine`)
 
 ```

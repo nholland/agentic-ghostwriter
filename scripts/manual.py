@@ -195,9 +195,10 @@ NARRATIVE = {
         ("The engine", "everything else in agentic-ghostwriter",
          "The desks, the commands, the gates, the oracle, the inbox, and everything the house "
          "produces under <code>runs/chNN/</code>. Change how books get made here."),
-        ("The archive", "Playground-260420",
-         "The old pipeline's run, frozen on 2026-09-18 when the book moved here. Read for "
-         "history; never written."),
+        ("The archive", "Playground-260420, on GitHub only",
+         "The old pipeline's run, frozen on 2026-09-18 when the book moved here. It is not "
+         "cloned into a session and nothing in the house reads it: every chapter it shipped "
+         "came over with the book. Open it on GitHub for history; never written."),
     ],
     "where_rule": "One repository. Book two is a new folder under <code>books/</code>, never a "
                   "second repository. When you are editing by hand the question is one "
@@ -415,7 +416,7 @@ def phantom_references(commands):
     known_cmds = {c["name"] for c in commands}
     try:
         with open(CONFIG, encoding="utf-8") as fh:
-            deps = json.load(fh).get("book_repo_dependencies", {})
+            deps = json.load(fh).get("migrated_dependencies", {})
         book = {os.path.basename(k) for grp in ("required", "optional")
                 for k in deps.get(grp, {})}
     except (OSError, ValueError):

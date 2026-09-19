@@ -180,6 +180,72 @@ def voice_rules_cases():
     return out
 
 
+def resolve_cases():
+    """Self must outrank every other source for the book repo.
+
+    Fixtured because the danger is live rather than theoretical: this cloud
+    container still exports GW_BOOK_REPO=/opt/playground-260420 from the
+    two-repo era, and under the pre-2026-09-19 ordering that variable outranked
+    everything. It resolves to nothing today only because the path happens not
+    to exist - the day anything creates it, every desk reads the frozen
+    archive's constitution, and a desk handed a dead voice spec does not raise,
+    it writes to it. Exactly the silent wrong answer resolve_book.py exists to
+    prevent, arriving by a new route.
+
+    Four cases: the override loses; the override is still NAMED (an ignored
+    override must not be a mystery); discovery is skipped while the book is
+    here (with a book in this repo, the only thing a sibling scan can find is
+    the wrong book); and the un-migrated path still works, so the fallback was
+    reordered rather than destroyed.
+    """
+    import resolve_book
+    out = []
+    decoy = _fake_book("# decoy voice spec\n")
+    try:
+        r = subprocess.run(
+            [sys.executable, os.path.join(REPO, "scripts", "resolve_book.py"), "--json"],
+            capture_output=True, text=True, env=dict(os.environ, GW_BOOK_REPO=decoy))
+        got = json.loads(r.stdout)
+        out.append((os.path.realpath(got.get("bookRepo", "")) == os.path.realpath(REPO),
+                    "resolve: a stale $GW_BOOK_REPO must not outrank this repo",
+                    "the book is here since the migration; an override pointing "
+                    "elsewhere must lose, or a desk drafts against a frozen spec",
+                    got.get("bookRepo")))
+        named = [o["path"] for o in got.get("outranked", [])]
+        out.append((any(os.path.realpath(x) == os.path.realpath(decoy) for x in named),
+                    "resolve: the outranked book repo is named, not dropped",
+                    "an override that loses must be printed, so 'which book did "
+                    "that desk read' is never a mystery",
+                    named or "not reported"))
+
+        cand = resolve_book.candidates(resolve_book.load_config())
+        out.append((not any(w.startswith("discovered") for w, _ in cand),
+                    "resolve: no sibling discovery while the book is in this repo",
+                    "with book-manifest.json at the root, a sibling scan can only "
+                    "find the wrong book",
+                    [w for w, _ in cand]))
+
+        # The un-migrated shape: an engine copy with no book-manifest.json at its
+        # root. The override must still win there - this reorders the chain, it
+        # does not delete it.
+        eng = _isolated_engine()
+        try:
+            r2 = subprocess.run(
+                [sys.executable, os.path.join(eng, "scripts", "resolve_book.py"), "--json"],
+                capture_output=True, text=True, env=dict(os.environ, GW_BOOK_REPO=decoy))
+            got2 = json.loads(r2.stdout)
+            out.append((os.path.realpath(got2.get("bookRepo", "")) == os.path.realpath(decoy),
+                        "resolve: $GW_BOOK_REPO still wins when the book is NOT here",
+                        "an engine checkout with no book of its own must still "
+                        "resolve by override, not fail",
+                        got2.get("bookRepo")))
+        finally:
+            shutil.rmtree(eng, ignore_errors=True)
+    finally:
+        shutil.rmtree(decoy, ignore_errors=True)
+    return out
+
+
 def next_cases():
     """chapter_state() must terminate on verdict.md (#028). Before this fixture,
     a refined chapter reported "verdict" forever - nothing in this house ever
@@ -287,8 +353,8 @@ def staged_link_cases():
 
 
 def main():
-    rows = (package_cases() + voice_rules_cases() + next_cases()
-           + inbox_cases() + staged_link_cases())
+    rows = (package_cases() + voice_rules_cases() + resolve_cases()
+           + next_cases() + inbox_cases() + staged_link_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")

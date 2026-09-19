@@ -84,8 +84,9 @@ dispatch.
 | `help`, `commands`, `what can you do` | the full table above, one line each, then the menu |
 
 **"Next" is `next.py`'s answer and nothing else.** There is one pipeline now; the
-old one is frozen in Playground-260420. If he asks about something the archive
-shipped, read it there and say so, but never compute a second "next" from it.
+old one is frozen in Playground-260420, on GitHub and not cloned into sessions.
+Everything it shipped came over with the book, so answer from `books/<slug>/` —
+do not clone the archive, and never compute a second "next" from it.
 
 ## When nothing matches
 
