@@ -321,7 +321,6 @@ def retro_window_cases():
     hook, and the same collapse recurred (found 2026-09-19 reviewing the
     toolcheck commit). This fixture runs the actual hook against a repo it
     controls and checks the window it writes, not the source text."""
-    import re
     out = []
     hook = os.path.join(REPO, ".claude", "hooks", "retro-check.sh")
     tmp = tempfile.mkdtemp(prefix="gw-tests-retro-")

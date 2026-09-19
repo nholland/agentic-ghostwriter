@@ -56,8 +56,8 @@ instructions a script could replace. A desk doing work a cheaper mechanism could
 *This is where simplification comes from. The corpus was ~9,900 words against
 the old pipeline's 82,800 when that ratio was first measured; count it again
 before citing it (`cat CLAUDE.md .claude/agents/*.md .claude/skills/*/SKILL.md
-| wc -w` — 16,569 as of 2026-09-18). The whole point is that it does not grow
-for free, and shrinking is a finding too.*
+| wc -w` — 16,904 as of end-of-day 2026-09-18, 16,979 as of 2026-09-19). The
+whole point is that it does not grow for free, and shrinking is a finding too.*
 
 **What worked.** Name it. A gate that caught something, a desk that came back
 clean first time, a phrasing the author reached for naturally. A later
