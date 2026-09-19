@@ -1274,3 +1274,37 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `tests/run.py`
 
 **Next:** `/gw 13` — Chapter 13 has not started.
+
+## 2026-09-19 13:45 — `claude/gateway-brzxoo` — 32 commit(s) this session
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/retro-check.sh`
+- `.claude/hooks/session-start.sh`
+- `.gitignore`
+- `FINDINGS.md`
+- `GAPS.md`
+- `agents/gw-retro.md`
+- `books/the-stoic-husband/05-framework.md`
+- `docs/manual.html`
+- `inbox/033-the-archivist-s-review-window-collapsed-to-empty.md`
+- `inbox/034-retro-window-cases-guarded-its-first-read-of-ret.md`
+- `inbox/035-runs-log-md-restated-the-same-file-set-on-39-of-.md`
+- `inbox/036-inbox-py-accepted-a-gw-retro-proposal-with-no-ap.md`
+- `inbox/037-nothing-asserts-that-the-files-the-hooks-write-u.md`
+- `inbox/038-gaps-md-carried-the-ttfwidth-hardcoded-path-bug-.md`
+- `inbox/039-session-log-py-s-dedup-guard-strips-runs-log-md-.md`
+- `inbox/040-session-log-dedup-cases-was-renamed-but-not-fixe.md`
+- `inbox/041-make-seen-red-mechanical-refuse-a-gw-retro-item-.md`
+- `inbox/042-the-041-fail-substring-guard-was-gameable-an-ite.md`
+- `inbox/043-tests-prove-py-measured-a-real-red-pass-but-noth.md`
+- `inbox/044-the-prove-case-window-guard-has-three-measured-b.md`
+- `runs/design/svgcheck.py`
+- `runs/log.md`
+- `runs/notes.md`
+- `runs/parked.md`
+- `scripts/inbox.py`
+- `scripts/session_log.py`
+- `scripts/toolcheck.py`
+- `tests/prove.py`
+- `tests/run.py`
+
+**Next:** `/gw 13` — Chapter 13 has not started.
