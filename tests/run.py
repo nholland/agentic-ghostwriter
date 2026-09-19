@@ -387,11 +387,17 @@ def retro_window_cases():
         head2_sha = _git_out(tmp, "rev-parse", "HEAD")
         r2 = subprocess.run(["bash", hook], cwd=tmp, env=env,
                             capture_output=True, text=True)
-        window2 = open(window_path).read().split()
+        window2 = (open(window_path).read().split()
+                   if os.path.exists(window_path) else [])
         out.append((r2.returncode == 2 and window2 == [head_sha, head2_sha],
                     "second dispatch windows from the first dispatch's end",
                     "a later session commit must open a fresh window starting at the prior HEAD, not session-start-sha",
                     (r2.returncode, window2)))
+
+        out.append((f"{start_sha}..{head_sha}" in r.stderr,
+                    "dispatch message carries the window range inline",
+                    "the range the Publisher actually reads must match the file gw-retro reads, not just agree with it by coincidence",
+                    r.stderr))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out
