@@ -131,14 +131,27 @@ def do_add(a, items):
         print("  --context    what he needs to rule cold, without scrolling back.")
         print("  --unblocks   the specific ruling this waits on.")
         return 2
+    # gw-retro's own brief ends every proposal with a --applied-by command (its
+    # own rule: "a proof that cannot be re-run is a comment"). 8 of the first 18
+    # gw-retro items landed with no proof command anyway, because --applied-by
+    # passed here was silently dropped (only --close ever wrote it) and nothing
+    # forced the desk - or the Publisher relaying it - to notice. Enforced only
+    # for gw-retro: other desks raise items with no outside-repo action to prove.
+    if (a.raised_by or "").lower().startswith("gw-retro") and not a.applied_by:
+        print("inbox: refusing to open a gw-retro item without --applied-by.")
+        print("  Your own brief's convention ends every proposal with one - a proof")
+        print("  that cannot be re-run is a comment. If the proposal adds or fixes a")
+        print("  check, point it at tests/run.py, never a grep for the fix's own text.")
+        return 2
     os.makedirs(INBOX, exist_ok=True)
     nid = next_id(items)
     slug = re.sub(r"[^a-z0-9]+", "-", a.add.lower()).strip("-")[:48] or "item"
     path = os.path.join(INBOX, f"{nid}-{slug}.md")
+    applied_line = f"applied_by: {a.applied_by}\n" if a.applied_by else ""
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(f"---\nid: {nid}\nstatus: open\n"
                  f"raised_by: {a.raised_by or '?'}\nchapter: {a.chapter or '-'}\n"
-                 f"opened: {now()}\n---\n\n# {a.add}\n\n"
+                 f"opened: {now()}\n{applied_line}---\n\n# {a.add}\n\n"
                  f"{a.context}\n\n"
                  f"**Recommendation:** {a.recommend}\n\n"
                  f"**Checked:**\n\n```\n{a.evidence}\n```\n\n"
@@ -189,6 +202,12 @@ def do_close(a, items):
     target = f"{int(a.close):03d}"
     for it in items:
         if it.get("id") == target:
+            # --close with no --applied-by falls back to whatever the item's own
+            # frontmatter already carries (written by --add, per gw-retro's
+            # convention) rather than silently dropping it - closing #033 and
+            # #034 this way was the exact miss that made "8 of 18 gw-retro items
+            # have no proof command" true.
+            applied_by = a.applied_by or it.get("applied_by", "")
             with open(it["path"], encoding="utf-8") as fh:
                 text = fh.read()
             # A ruling whose action lives outside this repo is RULED, not
@@ -197,33 +216,33 @@ def do_close(a, items):
             # never applied; inbox.py reported "nothing waiting on the author"
             # while okf_gate.py was still red. "Resolved" has to mean the thing
             # is true, not that he said something.
-            done = "resolved" if not a.applied_by else "ruled"
+            done = "resolved" if not applied_by else "ruled"
             text = re.sub(r"^status:\s*open\s*$", f"status: {done}",
                           text, count=1, flags=re.MULTILINE)
             if "resolved:" not in text:
                 text = text.replace("---\n\n", f"resolved: {now()}\n---\n\n", 1)
-            if a.applied_by:
+            if applied_by:
                 if re.search(r"^applied_by:.*$", text, flags=re.MULTILINE):
-                    text = re.sub(r"^applied_by:.*$", f"applied_by: {a.applied_by}",
+                    text = re.sub(r"^applied_by:.*$", f"applied_by: {applied_by}",
                                   text, count=1, flags=re.MULTILINE)
                 else:
-                    text = text.replace("---\n\n", f"applied_by: {a.applied_by}\n---\n\n", 1)
+                    text = text.replace("---\n\n", f"applied_by: {applied_by}\n---\n\n", 1)
             text = text.rstrip() + f"\n\n**Resolution ({now()}):** {a.resolution or '_not recorded_'}\n"
-            if a.applied_by:
+            if applied_by:
                 text += (f"\n**Not applied yet.** This ruling lands outside this repo. "
-                         f"It closes when `{a.applied_by}` exits 0.\n")
+                         f"It closes when `{applied_by}` exits 0.\n")
             with open(it["path"], "w", encoding="utf-8") as fh:
                 fh.write(text)
 
-            if a.applied_by:
-                it["status"], it["applied_by"] = "ruled", a.applied_by
-                if applied(a.applied_by):
+            if applied_by:
+                it["status"], it["applied_by"] = "ruled", applied_by
+                if applied(applied_by):
                     reconcile([it])
                     print(f"inbox: closed #{target} - {it['title']}")
-                    print(f"  confirmed applied: `{a.applied_by}` exits 0.")
+                    print(f"  confirmed applied: `{applied_by}` exits 0.")
                 else:
                     print(f"inbox: #{target} RULED, not yet applied - {it['title']}")
-                    print(f"  your ruling is recorded. `{a.applied_by}` still fails,")
+                    print(f"  your ruling is recorded. `{applied_by}` still fails,")
                     print("  so the item stays visible until the change actually lands.")
             else:
                 print(f"inbox: closed #{target} - {it['title']}")

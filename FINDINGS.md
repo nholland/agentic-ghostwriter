@@ -485,3 +485,45 @@ caught only by running it against a state whose right answer was already known.
 oracle's own terminal state, a staged bundle's internal links, a review window
 keyed to the wrong commit. The prose gates are earning their keep; the state and
 staging layers are where the house is still finding its own blind spots.
+
+---
+
+## 2026-09-19 — The #030 lineage closed, on a fixture and zero rule words
+
+Three sessions and four inbox items (#030, #033, #034) chased one defect: the
+Archivist's review window. #030 fixed it and closed on a grep for a variable
+name; the same collapse recurred on 2026-09-18 and went unnoticed until
+2026-09-19. #033 moved the window into its own file, written before the dedupe
+pointer, and backed it with `retro_window_cases()` — a fixture that builds a real
+git repo and runs the actual hook. #034, raised by the Archivist against #033's
+own fixture, guarded its second read of `retro-window` so a future regression
+reports a named `[FAIL]` instead of a traceback that discards the rows already
+computed, and added the one assertion the fixture was missing: that the dispatch
+message carries the range inline, since that text — not the file — is the channel
+the Publisher actually reads.
+
+Reviewed cold, both assertions are real, not decorative. Stripping
+`($START..$HEAD_SHA)` from the hook's message drops the suite to 36/37 with the
+new row named; deleting the `retro-window` write drops it to 35/37 with two named
+rows and no traceback. `tests/run.py` exits 1 on a failing tree and 0 on a clean
+one, so it is a sound `--applied-by` target. The two dispatches in real history
+chain exactly — the prior window ended at `b26879c`, this one starts there —
+which is the property #030 broke.
+
+The lens this lit is **what recurs**, and the answer is the shape the old
+pipeline already wrote down: a fix that closes on a grep is a comment. What is
+worth recording is the cost. The whole repair added **zero words** to the rules
+corpus (16,904 at the end of 2026-09-18, 16,979 after — the entire +75 is
+`gw-retro.md`'s own edit describing the fix). It landed in `tests/run.py` and one
+line of `.gitignore`. Three sessions of defect, and the rule text did not grow —
+that is the intended shape, and it is the first time it could be measured.
+
+**A second, smaller recurrence in the same window:** `gw-retro`'s own inbox
+items keep landing without their required proof command — 8 of the first 18,
+including #033 and #034 themselves, closed with no `applied_by` field, because
+`inbox.py --add` silently discarded `--applied-by` (only `--close` ever wrote
+it) and nothing forced either the desk or the Publisher relaying it to notice.
+Fixed the same session: `--add` now refuses a `gw-retro` item outright without
+the flag, records it into the new item's frontmatter, and `--close` carries that
+value forward if not repeated — closing the gap `--applied-by` was meant to close
+in the first place.

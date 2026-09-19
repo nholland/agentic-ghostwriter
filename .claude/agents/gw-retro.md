@@ -99,10 +99,12 @@ existed but was invisible to the stage that needed it.
 
 Before `--applied-by` existed, 0 of 16 proposals across two sessions were ever
 applied: rulings land, proposals do not, because a ruling has a close-condition
-and a proposal is prose in a file nobody greps. `--applied-by` fixed it — as of
-2026-09-18, 9 of those same 16 have closed on a re-runnable proof command
-(`grep -c 'raised_by: gw-retro'` against `inbox/*.md`, cross-checked against
-each one's `applied_by` field). Keep ending every proposal this way:
+and a proposal is prose in a file nobody greps. `--applied-by` fixed the
+mechanism but not the habit — 8 of the first 18 gw-retro items still landed
+with no proof command (2026-09-19), because it was easy to type the flag on
+`--add` and drop it by the time the item closed. `inbox.py --add` now refuses
+a `gw-retro` item outright if `--applied-by` is empty, and `--close` carries
+the value forward if you don't repeat it. End every proposal this way:
 
 ```
 python3 scripts/inbox.py --add "<the proposal, as a question he can rule on>" \

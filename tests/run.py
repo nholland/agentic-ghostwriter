@@ -12,8 +12,10 @@ directory has not been proved; it has been asserted.
 
     python3 tests/run.py          # every fixture; exit 1 on any failure
 """
+import glob
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -246,6 +248,43 @@ def inbox_cases():
         got_all = sorted(i["id"] for k in ("open", "ruled", "resolved") for i in (d_all or {}).get(k, []))
         out.append((got_all == ["001", "002", "003", "004"], "inbox --all with no --chapter, unfiltered",
                     "omitting --chapter must still return every fixture", got_all))
+
+        def run_raw(*args):
+            r = sp.run([sys.executable, os.path.join(tmp, "scripts", "inbox.py"), *args],
+                       capture_output=True, text=True)
+            return r.returncode, r.stdout
+
+        # gw-retro items without --applied-by: 8 of the first 18 landed with no
+        # proof command because --add silently dropped the flag and nothing
+        # forced the desk (or the Publisher relaying it) to notice.
+        common = ["--context", "c", "--unblocks", "u", "--recommend", "r", "--evidence", "e"]
+        rc, _ = run_raw("--add", "no proof cmd", "--raised-by", "gw-retro", "--chapter", "0", *common)
+        out.append((rc == 2, "inbox refuses a gw-retro item with no --applied-by",
+                    "gw-retro's own brief requires ending every proposal this way",
+                    rc))
+
+        rc2, out2 = run_raw("--add", "has proof cmd", "--raised-by", "gw-retro", "--chapter", "0",
+                            *common, "--applied-by", "true")
+        new_id = out2.strip().split("-> ")[-1].split("/")[-1].split("-")[0] if "-> " in out2 else None
+        carried = False
+        if new_id:
+            path = glob.glob(os.path.join(idir, f"{new_id}-*.md"))
+            if path:
+                carried = "applied_by: true" in open(path[0]).read()
+        out.append((rc2 == 0 and carried, "inbox --add records --applied-by in frontmatter",
+                    "a gw-retro proposal's proof command must survive into the item, not require --close to repeat it",
+                    (rc2, carried)))
+
+        # --close with no --applied-by must fall back to what --add already
+        # wrote, rather than silently dropping it (the exact miss that left
+        # #033/#034 with no proof command on their closed items).
+        if new_id:
+            rc3, out3 = run_raw("--close", str(int(new_id)), "--resolution", "fixture close")
+            text = open(glob.glob(os.path.join(idir, f"{new_id}-*.md"))[0]).read()
+            out.append((rc3 == 0 and "applied_by: true" in text and "status: resolved" in text,
+                        "inbox --close carries forward an item's own --applied-by",
+                        "closing without repeating --applied-by must not lose the proof command --add already recorded",
+                        text))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out
@@ -283,6 +322,123 @@ def staged_link_cases():
                     found_clean))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
+def session_log_dedup_cases():
+    """session_log.py's diff is cumulative from session-start-sha, so a Stop
+    with no new work commit since the last entry reproduces the same file set
+    verbatim - 39 of 117 real entries were exactly this before the dedup guard
+    existed, most from the retro dispatch's own forced second Stop. Proves the
+    fix against a real git repo and a real second run, not a grep for the
+    guard's text."""
+    out = []
+    tmp = tempfile.mkdtemp(prefix="gw-tests-log-")
+    try:
+        shutil.copytree(os.path.join(REPO, "scripts"), os.path.join(tmp, "scripts"))
+        _git(tmp, "init", "-q")
+        _git(tmp, "config", "user.email", "test@example.com")
+        _git(tmp, "config", "user.name", "test")
+        open(os.path.join(tmp, "README.md"), "w").write("start\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "session start")
+        start_sha = _git_out(tmp, "rev-parse", "HEAD")
+        state = os.path.join(tmp, ".claude", "state")
+        os.makedirs(state)
+        open(os.path.join(state, "session-start-sha"), "w").write(start_sha)
+
+        os.makedirs(os.path.join(tmp, "runs"), exist_ok=True)
+        open(os.path.join(tmp, "work.py"), "w").write("# work\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "some work")
+
+        script = os.path.join(tmp, "scripts", "session_log.py")
+        r1 = subprocess.run([sys.executable, script], cwd=tmp, capture_output=True, text=True)
+        log_path = os.path.join(tmp, "runs", "log.md")
+        entries1 = open(log_path).read().count("\n## ") if os.path.exists(log_path) else 0
+        out.append((entries1 == 1, "session_log writes an entry for real work",
+                    "the first run, with a real commit since session start, must append one entry",
+                    (r1.stdout, entries1)))
+
+        # No new commit since the last entry: this Stop's diff is the same
+        # session-start..HEAD set as before, and must not restate it.
+        r2 = subprocess.run([sys.executable, script], cwd=tmp, capture_output=True, text=True)
+        entries2 = open(log_path).read().count("\n## ") if os.path.exists(log_path) else 0
+        out.append((entries2 == 1 and "same file set" in r2.stdout,
+                    "session_log skips a same-file-set second run",
+                    "a Stop with no new commit since the last entry (the retro dispatch's forced second pass) must not append a duplicate",
+                    (r2.stdout, entries2)))
+
+        # A real second commit must still get logged.
+        open(os.path.join(tmp, "work2.py"), "w").write("# work2\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "more work")
+        r3 = subprocess.run([sys.executable, script], cwd=tmp, capture_output=True, text=True)
+        entries3 = open(log_path).read().count("\n## ") if os.path.exists(log_path) else 0
+        out.append((entries3 == 2, "session_log still logs genuinely new work",
+                    "the dedup guard must not suppress an entry when the file set actually grew",
+                    (r3.stdout, entries3)))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
+def state_ignore_cases():
+    """Every path the hooks write under .claude/state/ must be gitignored.
+    retro-window was introduced without its line (2026-09-19) and caught only
+    because a review happened to run; the same miss on session-start-sha cost
+    five empty auto-commits in one day."""
+    out = []
+    hooks = os.path.join(REPO, ".claude", "hooks")
+    src = "".join(open(os.path.join(hooks, h)).read() for h in sorted(os.listdir(hooks)))
+    for name in sorted(set(re.findall(r"\$STATE/([A-Za-z0-9_-]+)", src))):
+        probe = ".claude/state/" + (name + "probe" if name.endswith("-") else name)
+        rc = subprocess.run(["git", "-C", REPO, "check-ignore", "-q", probe],
+                            capture_output=True).returncode
+        out.append((rc == 0, f"hook state file {probe} is gitignored",
+                    "an unignored state file dirties the tree every session and makes empty auto-commits",
+                    probe))
+    return out
+
+
+HARDCODED_SYS_PATH = re.compile(
+    r"sys\.path\.insert\(\s*0\s*,\s*(['\"])(/[^'\"]*)\1")
+
+
+def sys_path_hardcode_cases():
+    """A hardcoded absolute literal in sys.path.insert() only works by accident
+    - whichever container happens to have a stray copy sitting at that exact
+    path. runs/design/svgcheck.py did exactly this until 2026-09-19, importing
+    ttfwidth.py from a previous session's scratchpad ('/tmp/claude-0/...').
+    GAPS.md used to carry that as a sentence telling the next reader to
+    remember to check; a fixture does not need remembering."""
+    out = []
+    tracked = subprocess.run(["git", "-C", REPO, "ls-files", "*.py"],
+                             capture_output=True, text=True, check=True).stdout.split()
+    offenders = []
+    for f in tracked:
+        if f.startswith("tests/"):
+            continue
+        text = open(os.path.join(REPO, f)).read()
+        for m in HARDCODED_SYS_PATH.finditer(text):
+            offenders.append(f"{f}: {m.group(0)}")
+    out.append((offenders == [], "no tracked script hardcodes an absolute sys.path.insert literal",
+                "a literal path only works by accident in whichever container happens to hold a stray copy there",
+                offenders))
+
+    # Negative control: the pattern must actually catch the shape that broke
+    # svgcheck.py, not just pass because today's tree happens to be clean.
+    reintroduced = "import sys\nsys.path.insert(0, '/tmp/claude-0')\nfrom ttfwidth import metrics\n"
+    caught = bool(HARDCODED_SYS_PATH.search(reintroduced))
+    out.append((caught, "the pattern catches the exact bug it was written for",
+                "reintroducing svgcheck.py's old hardcoded line must be flagged, or this check is decorative",
+                caught))
+
+    clean = "import sys, os\nsys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))\n"
+    not_flagged = not HARDCODED_SYS_PATH.search(clean)
+    out.append((not_flagged, "the pattern does not flag the fix itself",
+                "the HERE-based idiom every tracked script now uses must not be a false positive",
+                not_flagged))
     return out
 
 
@@ -405,7 +561,8 @@ def retro_window_cases():
 def main():
     rows = (package_cases() + voice_rules_cases() + next_cases()
            + inbox_cases() + staged_link_cases() + toolcheck_cases()
-           + retro_window_cases())
+           + retro_window_cases() + state_ignore_cases()
+           + sys_path_hardcode_cases() + session_log_dedup_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")

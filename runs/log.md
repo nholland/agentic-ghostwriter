@@ -7,18 +7,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-14 10:51 — `claude/dreamy-gates-52bn4v` @ `0d5d12f` — 1 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 10:52 — `claude/dreamy-gates-52bn4v` @ `8d403b7` — 1 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
 ## 2026-09-14 10:52 — `claude/dreamy-gates-52bn4v` @ `124f243` — 2 commit(s) this session
 - `.claude/state/retro-done-d8e6dd8c3ec1`
 - `.claude/state/session-start-sha`
@@ -40,26 +28,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-14 11:09 — `claude/dreamy-gates-52bn4v` @ `c5dedc9` — 1 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 11:11 — `claude/dreamy-gates-52bn4v` @ `fc484d3` — 1 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
 ## 2026-09-14 11:11 — `claude/dreamy-gates-52bn4v` @ `e175126` — 2 commit(s) this session
-- `.claude/state/retro-done-c754864aabc6`
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 11:12 — `claude/dreamy-gates-52bn4v` @ `2936743` — 2 commit(s) this session
 - `.claude/state/retro-done-c754864aabc6`
 - `.claude/state/session-start-sha`
 - `runs/log.md`
@@ -78,35 +47,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 ## 2026-09-14 11:31 — `claude/dreamy-gates-52bn4v` @ `a2ed3e2` — 1 commit(s) this session
 - `.claude/state/session-start-sha`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 11:34 — `claude/dreamy-gates-52bn4v` @ `d26ff32` — 2 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 11:35 — `claude/dreamy-gates-52bn4v` @ `4eb8325` — 3 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 11:41 — `claude/dreamy-gates-52bn4v` @ `1094fa2` — 1 commit(s) this session
-- `.claude/state/session-start-sha`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 11:42 — `claude/dreamy-gates-52bn4v` @ `e1f8061` — 2 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 11:45 — `claude/dreamy-gates-52bn4v` @ `d3be287` — 3 commit(s) this session
-- `.claude/state/session-start-sha`
-- `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
@@ -142,32 +82,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-14 12:39 — `claude/gateway-sgjaao` @ `e447ef4` — 1 commit(s) this session
-- `inbox/001-are-bolded-run-in-section-headers-legal.md`
-- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
-- `runs/log.md`
-- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
-- `scripts/inbox.py`
-- `scripts/voice_check.py`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
 ## 2026-09-14 12:42 — `claude/gateway-sgjaao` @ `23683c3` — 2 commit(s) this session
-- `.claude/agents/gw-lineeditor.md`
-- `.claude/skills/gw-refine/SKILL.md`
-- `inbox/001-are-bolded-run-in-section-headers-legal.md`
-- `inbox/002-three-artifacts-are-below-the-you-density-floor.md`
-- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
-- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
-- `runs/log.md`
-- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
-- `runs/revisions/2026-09-14-practice-guide-back-of-book.md`
-- `scripts/inbox.py`
-- `scripts/voice_check.py`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 12:48 — `claude/gateway-sgjaao` @ `f5d4ad4` — 2 commit(s) this session
 - `.claude/agents/gw-lineeditor.md`
 - `.claude/skills/gw-refine/SKILL.md`
 - `inbox/001-are-bolded-run-in-section-headers-legal.md`
@@ -252,20 +167,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-14 14:12 — `claude/dreamy-gates-52bn4v` @ `4bcca7d` — 2 commit(s) this session
-- `docs/manual.html`
-- `runs/log.md`
-- `scripts/manual.py`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 14:16 — `claude/dreamy-gates-52bn4v` @ `5ffc69c` — 4 commit(s) this session
-- `docs/manual.html`
-- `runs/log.md`
-- `scripts/manual.py`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
 ## 2026-09-14 14:23 — `claude/gateway-sgjaao` — 1 commit(s) this session
 - `.claude/agents/gw-lineeditor.md`
 - `.claude/skills/gw-inbox/SKILL.md`
@@ -277,17 +178,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/session_log.py`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-14 14:23 — `claude/gateway-sgjaao` — 2 commit(s) this session
-- `.claude/agents/gw-lineeditor.md`
-- `.claude/skills/gw-inbox/SKILL.md`
-- `.claude/skills/gw-qa/SKILL.md`
-- `.claude/skills/gw-refine/SKILL.md`
-- `FINDINGS.md`
-- `runs/log.md`
-- `scripts/inbox.py`
-- `scripts/practice_sync.py`
-- `scripts/session_log.py`
 
 ## 2026-09-14 19:42 — `claude/gateway-sgjaao` — ? commit(s) this session
 - `docs/manual.html`
@@ -334,37 +224,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-14 19:52 — `claude/dreamy-gates-52bn4v` — 20 commit(s) this session
-- `.claude/agents/gw-lineeditor.md`
-- `.claude/skills/gw-inbox/SKILL.md`
-- `.claude/skills/gw-qa/SKILL.md`
-- `.claude/skills/gw-refine/SKILL.md`
-- `FINDINGS.md`
-- `agents/gw-lineeditor.md`
-- `docs/diagrams.html`
-- `docs/diagrams/01-automation-boundary.svg`
-- `docs/diagrams/02-nobody-grades-themselves.svg`
-- `docs/diagrams/03-derived-not-remembered.svg`
-- `docs/manual.html`
-- `inbox/001-are-bolded-run-in-section-headers-legal.md`
-- `inbox/002-three-artifacts-are-below-the-you-density-floor.md`
-- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
-- `inbox/004-where-does-the-river-oak-sun-elevator-pitch-belo.md`
-- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
-- `runs/log.md`
-- `runs/revisions/2026-09-14-01-voice-run-in-headers.md`
-- `runs/revisions/2026-09-14-practice-guide-back-of-book.md`
-- `scripts/build_diagrams_page.py`
-- `scripts/inbox.py`
-- `scripts/practice_sync.py`
-- `scripts/session_log.py`
-- `scripts/voice_check.py`
-- `skills/gw-inbox/SKILL.md`
-- `skills/gw-qa/SKILL.md`
-- `skills/gw-refine/SKILL.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
 ## 2026-09-15 10:07 — `claude/dreamy-gates-52bn4v` — 1 commit(s) this session
 - `.claude/hooks/session-stop.sh`
 - `.claude/skills/gw-inbox/SKILL.md`
@@ -373,57 +232,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `inbox/001-are-bolded-run-in-section-headers-legal.md`
 - `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
 - `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
-- `scripts/build_diagrams_page.py`
-- `scripts/inbox.py`
-- `scripts/manual.py`
-- `scripts/next.py`
-- `skills/gw-inbox/SKILL.md`
-
-**Next:** `fix the blocking citation, then /gw` — No desk may write prose while the citation gate is red: okf/citations/gottman-four-horsemen.md: status: verified requires evidence_source: author-copy (got 'page-text'). Only the author closes a citation, against his own copy — CLAUDE.md Rule 11.
-
-## 2026-09-15 10:08 — `claude/dreamy-gates-52bn4v` — 4 commit(s) this session
-- `.claude/hooks/session-stop.sh`
-- `.claude/skills/gw-inbox/SKILL.md`
-- `docs/diagrams.html`
-- `docs/manual.html`
-- `inbox/001-are-bolded-run-in-section-headers-legal.md`
-- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
-- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
-- `runs/log.md`
-- `scripts/build_diagrams_page.py`
-- `scripts/inbox.py`
-- `scripts/manual.py`
-- `scripts/next.py`
-- `skills/gw-inbox/SKILL.md`
-
-**Next:** `fix the blocking citation, then /gw` — No desk may write prose while the citation gate is red: okf/citations/gottman-four-horsemen.md: status: verified requires evidence_source: author-copy (got 'page-text'). Only the author closes a citation, against his own copy — CLAUDE.md Rule 11.
-
-## 2026-09-15 10:11 — `claude/dreamy-gates-52bn4v` — 5 commit(s) this session
-- `.claude/hooks/session-stop.sh`
-- `.claude/skills/gw-inbox/SKILL.md`
-- `docs/diagrams.html`
-- `docs/manual.html`
-- `inbox/001-are-bolded-run-in-section-headers-legal.md`
-- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
-- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
-- `runs/log.md`
-- `scripts/build_diagrams_page.py`
-- `scripts/inbox.py`
-- `scripts/manual.py`
-- `scripts/next.py`
-- `skills/gw-inbox/SKILL.md`
-
-**Next:** `?` — 
-
-## 2026-09-15 10:12 — `claude/dreamy-gates-52bn4v` — 7 commit(s) this session
-- `.claude/hooks/session-stop.sh`
-- `.claude/skills/gw-inbox/SKILL.md`
-- `docs/diagrams.html`
-- `docs/manual.html`
-- `inbox/001-are-bolded-run-in-section-headers-legal.md`
-- `inbox/003-tactics-review-md-and-the-practice-guide-overlap.md`
-- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
-- `runs/log.md`
 - `scripts/build_diagrams_page.py`
 - `scripts/inbox.py`
 - `scripts/manual.py`
@@ -489,14 +297,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-15 11:05 — `claude/dreamy-gates-52bn4v` — 2 commit(s) this session
-- `docs/manual.html`
-- `runs/log.md`
-- `scripts/manual.py`
-- `scripts/manual_content.py`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
 ## 2026-09-15 11:15 — `claude/dreamy-gates-52bn4v` — 4 commit(s) this session
 - `docs/manual.html`
 - `runs/log.md`
@@ -515,19 +315,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `CLAUDE.md`
 - `README.md`
 - `docs/manual.html`
-- `scripts/manual.py`
-- `scripts/okf_gate.py`
-- `skills/gw-compile/SKILL.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
-## 2026-09-15 11:34 — `claude/dreamy-gates-52bn4v` — 2 commit(s) this session
-- `.claude/skills/gw-compile/SKILL.md`
-- `ARCHITECTURE.md`
-- `CLAUDE.md`
-- `README.md`
-- `docs/manual.html`
-- `runs/log.md`
 - `scripts/manual.py`
 - `scripts/okf_gate.py`
 - `skills/gw-compile/SKILL.md`
@@ -577,13 +364,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 stopped at research (research.md missing).
 
-## 2026-09-15 17:03 — `claude/gateway-iqyyso` — 2 commit(s) this session
-- `runs/ch12/interview.md`
-- `runs/log.md`
-- `runs/parked.md`
-
-**Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
-
 ## 2026-09-15 17:03 — `claude/gateway-iqyyso` — 4 commit(s) this session
 - `runs/ch12/interview.md`
 - `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
@@ -619,47 +399,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
 
-## 2026-09-15 17:11 — `claude/gateway-iqyyso` — 7 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `runs/ch12/brief-gaps.md`
-- `runs/ch12/interview.md`
-- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
-- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
-- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
-- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
-- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
-- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
-- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
-- `runs/ch12/research.md`
-- `runs/log.md`
-- `runs/parked.md`
-
-**Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
-
 ## 2026-09-15 17:19 — `claude/gateway-iqyyso` — 10 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
-- `runs/ch12/brief-gaps.md`
-- `runs/ch12/interview.md`
-- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
-- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
-- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
-- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
-- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
-- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
-- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
-- `runs/ch12/research.md`
-- `runs/log.md`
-- `runs/parked.md`
-- `runs/retro/2026-09-15-ch12-dry-run.md`
-
-**Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
-
-## 2026-09-15 17:24 — `claude/gateway-iqyyso` — 11 commit(s) this session
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
@@ -703,30 +443,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 **Next:** `/gw 12` — Chapter 12 stopped at refine (refined.md missing).
 
 ## 2026-09-15 17:37 — `claude/gateway-iqyyso` — 15 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
-- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
-- `runs/ch12/brief-gaps.md`
-- `runs/ch12/conformance.md`
-- `runs/ch12/draft.md`
-- `runs/ch12/interview.md`
-- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
-- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
-- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
-- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
-- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
-- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
-- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
-- `runs/ch12/research.md`
-- `runs/log.md`
-- `runs/parked.md`
-- `runs/retro/2026-09-15-ch12-dry-run.md`
-
-**Next:** `/gw 12` — Chapter 12 stopped at refine (refined.md missing).
-
-## 2026-09-15 17:40 — `claude/gateway-iqyyso` — 17 commit(s) this session
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
@@ -805,66 +521,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
-## 2026-09-15 17:58 — `claude/gateway-iqyyso` — 22 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
-- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
-- `runs/appendix/practice-guide.md`
-- `runs/ch12/brief-gaps.md`
-- `runs/ch12/conformance-refined.md`
-- `runs/ch12/conformance.md`
-- `runs/ch12/distillation.md`
-- `runs/ch12/draft.md`
-- `runs/ch12/interview.md`
-- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
-- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
-- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
-- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
-- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
-- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
-- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
-- `runs/ch12/refined.md`
-- `runs/ch12/research.md`
-- `runs/log.md`
-- `runs/parked.md`
-- `runs/retro/2026-09-15-ch12-dry-run.md`
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
 ## 2026-09-15 17:58 — `claude/gateway-iqyyso` — 24 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
-- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
-- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
-- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
-- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
-- `runs/appendix/practice-guide.md`
-- `runs/ch12/brief-gaps.md`
-- `runs/ch12/conformance-refined.md`
-- `runs/ch12/conformance.md`
-- `runs/ch12/distillation.md`
-- `runs/ch12/draft.md`
-- `runs/ch12/interview.md`
-- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
-- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
-- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
-- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
-- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
-- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
-- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
-- `runs/ch12/refined.md`
-- `runs/ch12/research.md`
-- `runs/log.md`
-- `runs/parked.md`
-- `runs/retro/2026-09-15-ch12-dry-run.md`
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
-## 2026-09-15 18:03 — `claude/gateway-iqyyso` — 26 commit(s) this session
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
@@ -933,14 +590,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
-## 2026-09-16 11:16 — `claude/gateway-iqyyso` — 2 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
-- `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
@@ -1076,76 +725,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
-## 2026-09-16 11:42 — `claude/gateway-iqyyso` — 14 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
-- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
-- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
-- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
-- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
-- `inbox/015-your-book-has-two-visual-languages-and-no-style-.md`
-- `inbox/016-which-is-your-primary-love-language-your-own-rec.md`
-- `inbox/017-every-man-loves-touch-cannot-be-printed-three-wa.md`
-- `runs/ch12/okf/citations/algoe-gable-maisel-2010-everyday-gratitude.md`
-- `runs/ch12/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
-- `runs/ch12/okf/citations/bolger-zuckerman-kessler-2000-invisible-support.md`
-- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
-- `runs/ch12/okf/citations/gable-et-al-2004-capitalization.md`
-- `runs/ch12/okf/citations/girme-overall-faingataa-2014-date-nights-take-two.md`
-- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch12/okf/citations/harasymchuk-et-al-2021-planning-date-nights.md`
-- `runs/ch12/okf/citations/huston-et-al-2001-connubial-crucible.md`
-- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
-- `runs/ch12/okf/citations/meditations-4-24-democritus-ascription-defect.md`
-- `runs/ch12/okf/citations/mostova-stolarski-matthews-2022-love-language-matching.md`
-- `runs/ch12/okf/citations/ogolsky-bowers-2013-maintenance-meta-analysis.md`
-- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
-- `runs/ch12/okf/citations/seneca-de-ira-3-6-democritus-tranquillity.md`
-- `runs/ch12/okf/citations/stafford-canary-1991-relational-maintenance.md`
-- `runs/ch12/okf/citations/touch-preference-gender-evidence.md`
-- `runs/ch12/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md`
-- `runs/ch12/okf/citations/wilcox-dew-2012-date-night-opportunity.md`
-- `runs/ch12/research-round2.md`
-- … and 4 more
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
-## 2026-09-16 11:49 — `claude/gateway-iqyyso` — 16 commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
-- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
-- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
-- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
-- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
-- `inbox/015-your-book-has-two-visual-languages-and-no-style-.md`
-- `inbox/016-which-is-your-primary-love-language-your-own-rec.md`
-- `inbox/017-every-man-loves-touch-cannot-be-printed-three-wa.md`
-- `runs/ch12/okf/citations/algoe-gable-maisel-2010-everyday-gratitude.md`
-- `runs/ch12/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
-- `runs/ch12/okf/citations/bolger-zuckerman-kessler-2000-invisible-support.md`
-- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
-- `runs/ch12/okf/citations/gable-et-al-2004-capitalization.md`
-- `runs/ch12/okf/citations/girme-overall-faingataa-2014-date-nights-take-two.md`
-- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch12/okf/citations/harasymchuk-et-al-2021-planning-date-nights.md`
-- `runs/ch12/okf/citations/huston-et-al-2001-connubial-crucible.md`
-- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
-- `runs/ch12/okf/citations/meditations-4-24-democritus-ascription-defect.md`
-- `runs/ch12/okf/citations/mostova-stolarski-matthews-2022-love-language-matching.md`
-- `runs/ch12/okf/citations/ogolsky-bowers-2013-maintenance-meta-analysis.md`
-- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
-- `runs/ch12/okf/citations/seneca-de-ira-3-6-democritus-tranquillity.md`
-- `runs/ch12/okf/citations/stafford-canary-1991-relational-maintenance.md`
-- `runs/ch12/okf/citations/touch-preference-gender-evidence.md`
-- `runs/ch12/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md`
-- `runs/ch12/okf/citations/wilcox-dew-2012-date-night-opportunity.md`
-- `runs/ch12/research-round2.md`
-- … and 4 more
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
 ## 2026-09-16 12:01 — `claude/gateway-iqyyso` — 1 commit(s) this session
 - `runs/ch12/plate.svg`
 - `runs/design/ch01-distillation.svg`
@@ -1158,14 +737,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `inbox/016-which-is-your-primary-love-language-your-own-rec.md`
 - `inbox/017-every-man-loves-touch-cannot-be-printed-three-wa.md`
 - `inbox/018-your-older-record-says-your-primary-love-languag.md`
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
-## 2026-09-16 14:17 — `claude/gateway-iqyyso` — 2 commit(s) this session
-- `inbox/016-which-is-your-primary-love-language-your-own-rec.md`
-- `inbox/017-every-man-loves-touch-cannot-be-printed-three-wa.md`
-- `inbox/018-your-older-record-says-your-primary-love-languag.md`
-- `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
@@ -1252,14 +823,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 ## 2026-09-17 05:40 — `claude/gateway-iqyyso` — 1 commit(s) this session
 - `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
 - `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
-- `scripts/chapter_pdf_local.py`
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
-## 2026-09-17 05:40 — `claude/gateway-iqyyso` — 2 commit(s) this session
-- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
-- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
-- `runs/log.md`
 - `scripts/chapter_pdf_local.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
@@ -1351,50 +914,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
 - `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
 - `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
-- `scripts/package_check.py`
-- `scripts/voice_rules_check.py`
-- `skills/gw-compile/SKILL.md`
-- `tests/fixtures/apparatus-in-span.html`
-- `tests/fixtures/distback-but-first.html`
-- `tests/fixtures/extra-attribute.html`
-- `tests/fixtures/good.html`
-- `tests/fixtures/opens-on-distillation.html`
-- `tests/run.py`
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
-## 2026-09-18 18:35 — `claude/gateway-iqyyso` — 3 commit(s) this session
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/session-stop.sh`
-- `.claude/skills/gw-compile/SKILL.md`
-- `agents/gw-retro.md`
-- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
-- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
-- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
-- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
-- `runs/log.md`
-- `scripts/package_check.py`
-- `scripts/voice_rules_check.py`
-- `skills/gw-compile/SKILL.md`
-- `tests/fixtures/apparatus-in-span.html`
-- `tests/fixtures/distback-but-first.html`
-- `tests/fixtures/extra-attribute.html`
-- `tests/fixtures/good.html`
-- `tests/fixtures/opens-on-distillation.html`
-- `tests/run.py`
-
-**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
-
-## 2026-09-18 18:44 — `claude/gateway-iqyyso` — 4 commit(s) this session
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/session-stop.sh`
-- `.claude/skills/gw-compile/SKILL.md`
-- `agents/gw-retro.md`
-- `inbox/020-package-check-py-passes-a-package-that-opens-on-.md`
-- `inbox/021-voice-rules-check-py-crashes-on-its-own-number-u.md`
-- `inbox/022-voice-rules-check-py-s-docstring-still-describes.md`
-- `inbox/023-a-retro-proposal-that-adds-or-fixes-a-check-shou.md`
-- `runs/log.md`
 - `scripts/package_check.py`
 - `scripts/voice_rules_check.py`
 - `skills/gw-compile/SKILL.md`
@@ -1553,13 +1072,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 13` — Chapter 13 has not started in either pipeline.
 
-## 2026-09-18 20:43 — `claude/gateway-tmjrgm` — 2 commit(s) this session
-- `FINDINGS.md`
-- `runs/ch12/verdict.md`
-- `runs/log.md`
-
-**Next:** `/gw 13` — Chapter 13 has not started in either pipeline.
-
 ## 2026-09-18 20:48 — `claude/gateway-tmjrgm` — 4 commit(s) this session
 - `.claude/skills/gw-chapter/SKILL.md`
 - `FINDINGS.md`
@@ -1608,28 +1120,11 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 13` — Chapter 13 has not started.
 
-## 2026-09-19 00:46 — `claude/gateway-tmjrgm` — 1 commit(s) this session
-- `GAPS.md`
-- `runs/parked.md`
-
-**Next:** `/gw 13` — Chapter 13 has not started.
-
 ## 2026-09-19 01:32 — `claude/gateway-tmjrgm` — 1 commit(s) this session
 - `.claude/hooks/session-start.sh`
 - `GAPS.md`
 - `docs/manual.html`
 - `runs/design/svgcheck.py`
-- `scripts/toolcheck.py`
-- `tests/run.py`
-
-**Next:** `/gw 13` — Chapter 13 has not started.
-
-## 2026-09-19 01:33 — `claude/gateway-tmjrgm` — 2 commit(s) this session
-- `.claude/hooks/session-start.sh`
-- `GAPS.md`
-- `docs/manual.html`
-- `runs/design/svgcheck.py`
-- `runs/log.md`
 - `scripts/toolcheck.py`
 - `tests/run.py`
 
@@ -1644,41 +1139,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 13` — Chapter 13 has not started.
 
-## 2026-09-19 01:42 — `claude/gateway-tmjrgm` — 2 commit(s) this session
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/retro-check.sh`
-- `agents/gw-retro.md`
-- `inbox/033-the-archivist-s-review-window-collapsed-to-empty.md`
-- `runs/log.md`
-- `tests/run.py`
-
-**Next:** `/gw 13` — Chapter 13 has not started.
-
 ## 2026-09-19 01:48 — `claude/gateway-tmjrgm` — 4 commit(s) this session
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/retro-check.sh`
-- `.gitignore`
-- `agents/gw-retro.md`
-- `inbox/033-the-archivist-s-review-window-collapsed-to-empty.md`
-- `inbox/034-retro-window-cases-guarded-its-first-read-of-ret.md`
-- `runs/log.md`
-- `tests/run.py`
-
-**Next:** `/gw 13` — Chapter 13 has not started.
-
-## 2026-09-19 01:48 — `claude/gateway-tmjrgm` — 5 commit(s) this session
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/retro-check.sh`
-- `.gitignore`
-- `agents/gw-retro.md`
-- `inbox/033-the-archivist-s-review-window-collapsed-to-empty.md`
-- `inbox/034-retro-window-cases-guarded-its-first-read-of-ret.md`
-- `runs/log.md`
-- `tests/run.py`
-
-**Next:** `/gw 13` — Chapter 13 has not started.
-
-## 2026-09-19 01:54 — `claude/gateway-tmjrgm` — 7 commit(s) this session
 - `.claude/agents/gw-retro.md`
 - `.claude/hooks/retro-check.sh`
 - `.gitignore`

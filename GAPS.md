@@ -42,9 +42,12 @@ hardcoded path into one prior session's scratchpad (`/tmp/claude-0/...`), which
 only ever worked by accident, in whichever container happened to have a stray
 copy sitting there. The module was never missing - `runs/design/ttfwidth.py`
 sits right next to the script that imports it. Fixed by importing from the
-script's own directory; no install of any kind involved. Recorded here as the
-shape to watch for next time something looks like a missing dependency: check
-whether it actually is one before writing it down as an environmental gap.
+script's own directory; no install of any kind involved. The shape - a
+hardcoded absolute literal in `sys.path.insert()` - is no longer something a
+future reader has to remember to watch for: `tests/run.py`'s
+`sys_path_hardcode_cases()` greps every tracked script for it, mutation-tested
+against both the exact bug (must catch it) and the fix's own `HERE`-based idiom
+(must not flag it).
 
 **Registered because it was discovered at the point of use, twice.** The fallback
 was also written from scratch rather than porting the book renderer's `markup()`,
