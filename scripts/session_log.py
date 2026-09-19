@@ -48,7 +48,7 @@ def last_entry_files():
     if len(blocks) < 2:
         return None
     last = blocks[-1]
-    return set(re.findall(r"^- `([^`]+)`$", last, re.MULTILINE))
+    return set(re.findall(r"^- `([^`]+)`$", last, re.MULTILINE)) - {"runs/log.md"}
 
 
 def sh(*args):

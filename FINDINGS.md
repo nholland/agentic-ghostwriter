@@ -527,3 +527,20 @@ Fixed the same session: `--add` now refuses a `gw-retro` item outright without
 the flag, records it into the new item's frontmatter, and `--close` carries that
 value forward if not repeated — closing the gap `--applied-by` was meant to close
 in the first place.
+
+---
+
+## 2026-09-19 06:35 — The dedup fix shipped green and duplicated on its first real Stop
+
+`session_log.py`'s dedup guard (above) landed, closed on `python3 tests/run.py`,
+and wrote a duplicate `runs/log.md` entry on its very next real Stop anyway.
+Cause: `last_entry_files()` kept `runs/log.md` in its returned set while the
+current file set had it stripped, so the two could never be equal once the log
+itself entered the cumulative diff — which the fixture's synthetic repo never
+did, so it tested only the happy path. Found and reproduced by the Archivist
+reviewing this session's own commit; independently reproduced here before
+fixing. Same shape as #030 (closed on a grep, recurred) one level up: a fixture
+that never exercises the real sequence certifies a guard that does not guard.
+Fixed both sides — `last_entry_files()` now strips `runs/log.md` too, and the
+fixture commits the log between runs, matching what the Stop hook actually
+does. Cleaned the one duplicate block this produced.

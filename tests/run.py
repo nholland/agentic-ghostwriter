@@ -361,12 +361,22 @@ def session_log_dedup_cases():
                     (r1.stdout, entries1)))
 
         # No new commit since the last entry: this Stop's diff is the same
-        # session-start..HEAD set as before, and must not restate it.
+        # session-start..HEAD set as before, and must not restate it. The real
+        # Stop hook commits runs/log.md itself between runs (that's how the
+        # entry r1 just wrote lands on disk in real use) - a fixture that
+        # skips this step tests only the happy path and would pass a guard
+        # that does not actually guard (found 2026-09-19: the fix shipped,
+        # then wrote a literal duplicate on its first real Stop, because
+        # last_entry_files() kept runs/log.md in its set while this_set
+        # stripped it, so the two sets could never match once the log itself
+        # was in the diff).
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "auto: session log")
         r2 = subprocess.run([sys.executable, script], cwd=tmp, capture_output=True, text=True)
         entries2 = open(log_path).read().count("\n## ") if os.path.exists(log_path) else 0
         out.append((entries2 == 1 and "same file set" in r2.stdout,
-                    "session_log skips a same-file-set second run",
-                    "a Stop with no new commit since the last entry (the retro dispatch's forced second pass) must not append a duplicate",
+                    "session_log skips when the last entry listed runs/log.md itself",
+                    "a Stop with no new work commit, run after the log entry itself has been committed (the real sequence every session), must not append a duplicate",
                     (r2.stdout, entries2)))
 
         # A real second commit must still get logged.
