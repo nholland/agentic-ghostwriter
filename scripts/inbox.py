@@ -143,6 +143,20 @@ def do_add(a, items):
         print("  that cannot be re-run is a comment. If the proposal adds or fixes a")
         print("  check, point it at tests/run.py, never a grep for the fix's own text.")
         return 2
+    # A proof command that was never run red first is not a proof - it is an
+    # assertion that happens to say "checked". #039 closed on exactly this
+    # twice inside one hour: its own fixture case was renamed to describe the
+    # defect it was meant to catch without ever being run against the buggy
+    # code, so it passed both the pre-fix and post-fix trees identically. Any
+    # gw-retro item whose --applied-by touches tests/run.py must show a
+    # `[FAIL]` line in --evidence, proving someone actually watched it fail
+    # before trusting it to pass.
+    if ((a.raised_by or "").lower().startswith("gw-retro") and "tests/run.py" in a.applied_by
+            and "[FAIL]" not in a.evidence):
+        print("inbox: refusing - --applied-by names tests/run.py but --evidence has no [FAIL] line.")
+        print("  A case that has never failed has never been proved to discriminate.")
+        print("  Run it against the pre-fix code first, paste the [FAIL] line, then the [ ok ].")
+        return 2
     os.makedirs(INBOX, exist_ok=True)
     nid = next_id(items)
     slug = re.sub(r"[^a-z0-9]+", "-", a.add.lower()).strip("-")[:48] or "item"

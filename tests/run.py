@@ -285,6 +285,23 @@ def inbox_cases():
                         "inbox --close carries forward an item's own --applied-by",
                         "closing without repeating --applied-by must not lose the proof command --add already recorded",
                         text))
+
+        # A gw-retro item proved by tests/run.py must show it was actually run
+        # red first - #039 closed twice on a case that had never failed against
+        # the code it claimed to catch.
+        rc4, _ = run_raw("--add", "unproven proof", "--raised-by", "gw-retro", "--chapter", "0",
+                         *common, "--applied-by", "python3 tests/run.py")
+        out.append((rc4 == 2, "inbox refuses a gw-retro tests/run.py proof with no [FAIL] in evidence",
+                    "a proof command that was never watched fail first has not been shown to discriminate",
+                    rc4))
+
+        rc5, out5 = run_raw("--add", "proven proof", "--raised-by", "gw-retro", "--chapter", "0",
+                            "--context", "c", "--unblocks", "u", "--recommend", "r",
+                            "--evidence", "before the fix: [FAIL] the case  after: [ ok ] the case",
+                            "--applied-by", "python3 tests/run.py")
+        out.append((rc5 == 0, "inbox accepts a gw-retro tests/run.py proof once [FAIL] is shown",
+                    "the guard must not block a genuinely proven item",
+                    rc5))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out
@@ -362,24 +379,33 @@ def session_log_dedup_cases():
 
         # No new commit since the last entry: this Stop's diff is the same
         # session-start..HEAD set as before, and must not restate it. The real
-        # Stop hook commits runs/log.md itself between runs (that's how the
-        # entry r1 just wrote lands on disk in real use) - a fixture that
-        # skips this step tests only the happy path and would pass a guard
-        # that does not actually guard (found 2026-09-19: the fix shipped,
-        # then wrote a literal duplicate on its first real Stop, because
-        # last_entry_files() kept runs/log.md in its set while this_set
-        # stripped it, so the two sets could never match once the log itself
-        # was in the diff).
+        # Stop hook commits runs/log.md itself between runs. NOTE this case
+        # alone does NOT exercise the actual #039 defect: entry 1 was written
+        # before runs/log.md was ever committed, so entry 1's own file list
+        # never contains "runs/log.md" - last_entry_files() returns the same
+        # set whether or not it strips that name, because the name was never
+        # there to strip. The defect needs a LOGGED entry whose own file list
+        # already contains "runs/log.md"; that only happens after a run that
+        # writes a new entry while the log is already tracked. Case 4 below
+        # builds that state. (Found 2026-09-19: the #039 fix shipped, this
+        # case was added and named for the defect, and the fixed fixture still
+        # passed unchanged against the pre-fix script - the precondition it
+        # claimed to test was never actually built. This case is kept because
+        # it is still real - a same-file-set second run must not duplicate -
+        # just renamed to what it actually proves.)
         _git(tmp, "add", "-A")
         _git(tmp, "commit", "-q", "-m", "auto: session log")
         r2 = subprocess.run([sys.executable, script], cwd=tmp, capture_output=True, text=True)
         entries2 = open(log_path).read().count("\n## ") if os.path.exists(log_path) else 0
         out.append((entries2 == 1 and "same file set" in r2.stdout,
-                    "session_log skips when the last entry listed runs/log.md itself",
-                    "a Stop with no new work commit, run after the log entry itself has been committed (the real sequence every session), must not append a duplicate",
+                    "session_log skips a same-file-set second run",
+                    "a Stop with no new commit since the last entry (the retro dispatch's forced second pass) must not append a duplicate",
                     (r2.stdout, entries2)))
 
-        # A real second commit must still get logged.
+        # A real second commit must still get logged. This run's own entry
+        # (entry 2) DOES now contain "runs/log.md" in its file list, because
+        # runs/log.md is genuinely part of the cumulative diff by this point -
+        # this is the state case 4 needs to exist before it can test anything.
         open(os.path.join(tmp, "work2.py"), "w").write("# work2\n")
         _git(tmp, "add", "-A")
         _git(tmp, "commit", "-q", "-m", "more work")
@@ -388,6 +414,20 @@ def session_log_dedup_cases():
         out.append((entries3 == 2, "session_log still logs genuinely new work",
                     "the dedup guard must not suppress an entry when the file set actually grew",
                     (r3.stdout, entries3)))
+
+        # The actual #039 case: commit entry 2 (which lists runs/log.md) into
+        # git, then run again with no new work. last_entry_files() must strip
+        # "runs/log.md" from what it read back, or this compares unequal to
+        # this_set (which always strips it) and duplicates - confirmed to
+        # reproduce on the pre-fix script (git show c17f979:scripts/session_log.py).
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "auto: session log 2")
+        r4 = subprocess.run([sys.executable, script], cwd=tmp, capture_output=True, text=True)
+        entries4 = open(log_path).read().count("\n## ") if os.path.exists(log_path) else 0
+        out.append((entries4 == 2 and "same file set" in r4.stdout,
+                    "session_log dedups when the last entry itself lists runs/log.md",
+                    "the #039 defect: last_entry_files() must strip runs/log.md from a logged entry's own file list, not just from the current diff, or the two sets can never match once a real entry has recorded the log file",
+                    (r4.stdout, entries4)))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out

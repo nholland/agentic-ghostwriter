@@ -544,3 +544,24 @@ that never exercises the real sequence certifies a guard that does not guard.
 Fixed both sides — `last_entry_files()` now strips `runs/log.md` too, and the
 fixture commits the log between runs, matching what the Stop hook actually
 does. Cleaned the one duplicate block this produced.
+
+---
+
+## 2026-09-19 06:44 — The fixed fixture was renamed, not fixed
+
+The fixture above (`session_log_dedup_cases()`) was renamed for the #039
+defect without ever running it against the pre-fix code. Reproduced
+independently: with only `scripts/session_log.py` reverted to `c17f979`, the
+renamed case still printed `[ok]` — entry 1 is written before `runs/log.md` is
+ever committed, so it never contains the one thing the defect needs to see.
+Fourth instance of one shape: #030's grep, `voice_rules_check` passing its own
+defect, the dedup half-fix, now the fixture written for that half-fix. Added a
+fourth run that commits a *second* logged entry (which genuinely lists
+`runs/log.md`) before re-checking — confirmed `[FAIL]` on the exact pre-fix
+script, `[ok]` on the fix. Also made this class of miss structural rather than
+relying on the next Archivist to notice by hand: `inbox.py --add` now refuses
+a `gw-retro` item whose `--applied-by` names `tests/run.py` unless `--evidence`
+shows a `[FAIL]` line, verified the same way (red on the pre-guard `inbox.py`,
+green on the fix). This supersedes last session's still-undecided proposal to
+require every `--applied-by` to name a case — that proposal's own item, #039,
+named its case and was still unproven.
