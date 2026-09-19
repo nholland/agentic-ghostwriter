@@ -139,9 +139,29 @@ private one) — duty done *for credit*, which always accumulates into a ledger.
 Left running long enough, the ledger stops being a record of what happened and
 becomes a verdict about who the other person *is* — this is where
 scorekeeping ripens into contempt.
+**Second route into the same failure: The Scoreboard kept against her.** The
+ledger runs the other direction — slights logged rather than credit banked. He
+says a thing is dropped and files it instead, and it returns as ammunition in
+an argument it was never part of. Grace is the missing piece: some friction is
+released rather than addressed, and releasing it means the record closes.
+Letting a thing go and keeping it are not two degrees of the same act; the
+second is the failure wearing the first one's name. Same cell, same missing
+virtue — the ledger is of her debts rather than his deposits.
 **Chapters:** Ch6 (Duty Without Resentment), Ch7 (The End of Scorekeeping),
 Ch8 (When Your Marriage Feels Unfair), Ch22 (Betrayal, Secrets, and the Work
 of Repair — honest accounting of what's owed)
+
+*Second route added 2026-09-19 on the author's word ("Approved"), following the
+same convention Sun × Temperance already uses for a second way into one failure
+mode. The Scoreboard's original text is unchanged above. It came in sideways:
+material about grace and discernment reached the author inside a fabricated
+editor's log (`runs/notes.md` N-001) and was the one idea in it the matrix had
+no home for — endurance was already Oak × Courage, and the return-to-course half
+was already split between River × Courage and Sun × Courage. The distinction
+this records is that The Scoreboard was written as a ledger of credit he has
+banked, while a grievance kept as ammunition is a ledger of what she owes. Same
+missing virtue, opposite direction. Whether Ch7 and Ch17 carry this route in
+prose is a chapter question, not settled here.*
 
 ### Oak × Temperance — Sustainable Strength
 **Positive:** Strength that knows its sustainable limit and says so — holding
