@@ -39,6 +39,7 @@ EXIT CODES
 import argparse
 import json
 import os
+import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -140,6 +141,40 @@ def resolve(cfg):
     if chosen is None:
         return None, None, tried
     return chosen[0], chosen[1], tried
+
+
+def freshness(repo=REPO):
+    """How far this checkout is behind origin/main, against the last fetch.
+
+    WHY THIS IS IN THIS SCRIPT AND NOT ONLY IN THE HOOK
+        The SessionStart hook already compares the branch to main, but it is
+        silent in two different states that look identical: up to date, and
+        could-not-fetch. On 2026-09-19 a session opened nine commits behind a
+        main that already held the migration, resolved the book to the frozen
+        archive, and reported "11 of 29 shipped" to the author as live state.
+        LEARNINGS.md records the same failure twice before, once at 79 commits
+        behind. The hook's guard did not fire either time, and no desk or script
+        could see it - so the comparison belongs where every caller already
+        looks, which is this script's banner.
+
+        No network here on purpose: this runs before every desk, and a fetch per
+        run would cost more than it is worth. It reads the last-known
+        origin/main, and says so rather than implying it just checked.
+    """
+    def git(*a):
+        r = subprocess.run(["git", "-C", repo, *a], capture_output=True, text=True)
+        return r.stdout.strip() if r.returncode == 0 else None
+
+    if git("rev-parse", "--git-dir") is None:
+        return {"known": False, "why": "not a git checkout"}
+    if git("rev-parse", "--verify", "--quiet", "refs/remotes/origin/main") is None:
+        return {"known": False, "why": "no local origin/main ref - never fetched here"}
+    counts = git("rev-list", "--left-right", "--count", "HEAD...origin/main")
+    if not counts:
+        return {"known": False, "why": "could not compare HEAD to origin/main"}
+    ahead, behind = (int(x) for x in counts.split())
+    return {"known": True, "ahead": ahead, "behind": behind,
+            "branch": git("rev-parse", "--abbrev-ref", "HEAD") or "?"}
 
 
 def inspect(repo_root, require_okf):
@@ -267,6 +302,14 @@ def main():
         i = rep["info"]
         print(f"resolve_book: book repo at {repo_root}")
         print(f"  resolved via: {why}")
+        fr = freshness()
+        if not fr["known"]:
+            print(f"  freshness   : UNVERIFIED - {fr['why']}")
+        elif fr["behind"]:
+            print(f"  freshness   : {fr['behind']} commit(s) BEHIND origin/main "
+                  f"as of the last fetch - this tree may not be the current book")
+        else:
+            print(f"  freshness   : level with origin/main as of the last fetch")
         for t in outranked:
             # A second reachable book. Named every session rather than dropped,
             # because "which book did that desk just read" is the one question

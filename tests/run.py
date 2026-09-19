@@ -409,6 +409,89 @@ def chapter_slug_cases():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def freshness_cases():
+    """resolve_book must say how stale this checkout is, and never stay silent.
+
+    A session opened nine commits behind a main that already held the migration,
+    resolved the book to the frozen archive, and reported "11 of 29 shipped" to
+    the author as live state. LEARNINGS records the same shape twice before, once
+    at 79 commits behind. The hook's guard is silent for up-to-date and for
+    could-not-fetch alike, so the two states that must never look the same did.
+    Both are pinned here: a behind count reported, and UNVERIFIED said out loud
+    when there is nothing to compare against."""
+    import resolve_book, subprocess as sp
+    out = []
+    tmp = tempfile.mkdtemp(prefix="gw-tests-fresh-")
+    try:
+        def git(repo, *a):
+            return sp.run(["git", "-C", repo, *a], capture_output=True, text=True)
+        up = os.path.join(tmp, "up")
+        os.makedirs(up)
+        git(up, "init", "-q", "-b", "main")
+        open(os.path.join(up, "f"), "w").write("1")
+        git(up, "add", "-A"); git(up, "-c", "user.email=t@t", "-c", "user.name=t",
+                                  "commit", "-qm", "one")
+        dn = os.path.join(tmp, "down")
+        sp.run(["git", "clone", "-q", up, dn], capture_output=True, text=True)
+        open(os.path.join(up, "f"), "w").write("2")
+        git(up, "add", "-A"); git(up, "-c", "user.email=t@t", "-c", "user.name=t",
+                                  "commit", "-qm", "two")
+        git(dn, "fetch", "-q", "origin")
+
+        fr = resolve_book.freshness(dn)
+        out.append((fr["known"] and fr["behind"] == 1,
+                    "freshness: a checkout behind origin/main says how far",
+                    "a session nine commits behind reported the frozen archive's "
+                    "state to the author as live", fr))
+
+        bare = os.path.join(tmp, "nogit")
+        os.makedirs(bare)
+        fr2 = resolve_book.freshness(bare)
+        out.append((not fr2["known"] and bool(fr2.get("why")),
+                    "freshness: nothing to compare against reports UNVERIFIED with a reason",
+                    "the hook printed nothing for up-to-date and for could-not-fetch "
+                    "alike; the two states must never look the same", fr2))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
+def migrated_dep_cases():
+    """The one check that gates every desk's prose must itself be proved.
+
+    resolve_book reports a REQUIRED migrated dependency missing and exits 1 -
+    without scripts/okf_validate.py no desk may write prose. The failure mode of
+    breaking it is silent: a missed call site in a key rename makes cfg.get()
+    return {}, the check a no-op, and the suite stays green while the line that
+    says "migrated deps: 1/1 required" simply stops printing."""
+    out = []
+    book = _fake_book("# voice\n")
+    try:
+        os.makedirs(os.path.join(book, "scripts"), exist_ok=True)
+        for rel in ("00-premise.md", "03-outline.md"):
+            open(os.path.join(book, "the-book", rel), "w").close()
+        # An ISOLATED engine copy, not this repo: since the cutover self outranks
+        # $GW_BOOK_REPO, so a decoy can only win where the engine holds no book
+        # of its own. That is the same shape resolve_cases() pins from the other
+        # side, and it is why this fixture cannot simply export the variable.
+        eng = _isolated_engine()
+        try:
+            r = subprocess.run(
+                [sys.executable, os.path.join(eng, "scripts", "resolve_book.py")],
+                capture_output=True, text=True, env=dict(os.environ, GW_BOOK_REPO=book))
+        finally:
+            shutil.rmtree(eng, ignore_errors=True)
+        said = "REQUIRED migrated dependency missing" in r.stdout and "okf_validate.py" in r.stdout
+        out.append((said and r.returncode == 1,
+                    "migrated deps: a missing required dependency is named and exits 1",
+                    "this is the check that stops a desk writing prose with no citation "
+                    "validator; a silent no-op here is invisible to every other fixture",
+                    (r.returncode, r.stdout[-200:])))
+    finally:
+        shutil.rmtree(book, ignore_errors=True)
+    return out
+
+
 def next_cases():
     """chapter_state() must terminate on verdict.md (#028). Before this fixture,
     a refined chapter reported "verdict" forever - nothing in this house ever
@@ -987,6 +1070,7 @@ def retro_window_cases():
 def main():
     rows = (package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
+           + freshness_cases() + migrated_dep_cases()
            + next_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
            + sys_path_hardcode_cases() + session_log_dedup_cases()
