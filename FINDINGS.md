@@ -755,3 +755,28 @@ plausible number, the re-fabricated correction), and what worked: catching the
 third recurrence in the same sitting it was made, before it left the working
 tree. Corpus unchanged; every fix above lives in `tests/`, `scripts/`, or
 `inbox/`.
+
+---
+
+## 2026-09-20 15:35 — The fixes held; the eighth guard didn't, and it was applied without a ruling
+
+Three claims from the entry above were re-verified and stood: the reshaped
+streak fixture genuinely discriminates, `(26, 0)`/`(27, 0)` are correct, and
+`#047`'s code claim (`sync.py` L78-79 vs L162-163) is exact.
+
+Two did not. First: that same commit widened `inbox.py`'s `tests/run.py`
+proof-freshness guard from `gw-retro`-scoped to every filer — an eighth layer
+on the lineage this file decided at 07:11 to stop hardening, applied directly
+rather than filed, in the same commit that correctly deferred a *smaller*
+guard (`#052`) to the author. Measured, the widening refused legitimate
+filings (a deletion proof, any not-yet-applied proposal) and was evaded by
+`cd tests && python3 run.py`. Reverted to `gw-retro` scope; filed `#053` for
+the author to rule on rather than decided again here. Second: `#047`'s
+"deleted the historical narrative" claim was true of its **Checked** block
+only — the same wrong forced-update SHA and wrong cause survived in the
+item's body untouched. Cut there too, this time; the code defect never needed
+either copy.
+
+Lens: what recurs — a fix applying the fix it just correctly declined to
+apply elsewhere in the same breath. Corpus unchanged; every change lives in
+`tests/`, `scripts/`, or `inbox/`.

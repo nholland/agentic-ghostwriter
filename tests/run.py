@@ -762,13 +762,16 @@ def inbox_cases():
                     "a claim of having run something red is not proof of it - tests/prove.py must be pointed at what to check",
                     rc4))
 
-        # The --prove-* requirement must not be opt-out via --raised-by - #050
-        # was filed raised_by: Publisher with a flagless tests/run.py proof
-        # and shipped a fixture that turned out to be blind to its own bug.
-        rc5, _ = run_raw("--add", "unproven proof, not gw-retro", "--raised-by", "Publisher",
-                         "--chapter", "0", *common, "--applied-by", "python3 tests/run.py")
-        out.append((rc5 == 2, "inbox refuses a flagless tests/run.py proof regardless of raised_by",
-                    "a guard keyed on a string the filer chooses is opt-out by construction",
+        # The --prove-* requirement is scoped to raised_by: gw-retro on
+        # purpose (reverted 2026-09-20 after briefly widening it - see
+        # inbox #053): a non-gw-retro filer citing tests/run.py in
+        # --applied-by for an unrelated, legitimate reason (e.g. a deletion
+        # proof combined with "the suite still passes") must not be refused.
+        rc5, _ = run_raw("--add", "legitimate non-gw-retro proof", "--raised-by", "Publisher",
+                         "--chapter", "0", *common, "--applied-by",
+                         "python3 tests/run.py && test 1 -eq 1")
+        out.append((rc5 == 0, "inbox accepts a non-gw-retro tests/run.py proof with no --prove-* flags",
+                    "the proof-freshness guard is scoped to gw-retro; a legitimate non-gw-retro filing must not be refused for citing tests/run.py incidentally",
                     rc5))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
