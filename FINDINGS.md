@@ -755,3 +755,47 @@ plausible number, the re-fabricated correction), and what worked: catching the
 third recurrence in the same sitting it was made, before it left the working
 tree. Corpus unchanged; every fix above lives in `tests/`, `scripts/`, or
 `inbox/`.
+
+---
+
+## 2026-09-20 15:35 — The fixes held; the eighth guard didn't, and it was applied without a ruling
+
+Three claims from the entry above were re-verified and stood: the reshaped
+streak fixture genuinely discriminates, `(26, 0)`/`(27, 0)` are correct, and
+`#047`'s code claim (`sync.py` L78-79 vs L162-163) is exact.
+
+Two did not. First: that same commit widened `inbox.py`'s `tests/run.py`
+proof-freshness guard from `gw-retro`-scoped to every filer — an eighth layer
+on the lineage this file decided at 07:11 to stop hardening, applied directly
+rather than filed, in the same commit that correctly deferred a *smaller*
+guard (`#052`) to the author. Measured, the widening refused legitimate
+filings (a deletion proof, any not-yet-applied proposal) and was evaded by
+`cd tests && python3 run.py`. Reverted to `gw-retro` scope; filed `#053` for
+the author to rule on rather than decided again here. Second: `#047`'s
+"deleted the historical narrative" claim was true of its **Checked** block
+only — the same wrong forced-update SHA and wrong cause survived in the
+item's body untouched. Cut there too, this time; the code defect never needed
+either copy.
+
+Lens: what recurs — a fix applying the fix it just correctly declined to
+apply elsewhere in the same breath. Corpus unchanged; every change lives in
+`tests/`, `scripts/`, or `inbox/`.
+
+---
+
+## 2026-09-20 15:37 — #047's history, wrong a fourth time, deleted rather than corrected a fifth
+
+The guard revert held under independent re-verification (`gw-retro` still
+refused without `--prove-*`; a non-`gw-retro` filer citing `tests/run.py`
+incidentally was accepted again). One thing didn't: the sentence left standing
+after the last cut — "the original engine root c74fe66 is NOT an ancestor of
+origin/main, i.e. local main and origin/main were genuinely unrelated
+histories at that moment" — was itself wrong. `main` was reset to
+`origin/main` on 2026-09-18, a day before the incident this item describes;
+its root on 2026-09-19 was already `d34a3ec`, an ancestor of `origin/main`,
+not `c74fe66`. Four corrections, four different wrong claims. Removed the
+narrative outright this time rather than attempting a fifth rewrite — the
+item's actual defect (`sync.py` measures `origin/main`, acts on local `main`)
+never needed an account of any specific incident to stand, and now has none.
+This closes the #047-history sub-thread; nothing about it should need a sixth
+look.
