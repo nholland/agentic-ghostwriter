@@ -307,6 +307,10 @@ def main() -> int:
      itself, so no page-break-after here; one would strand the separator rule
      on a blank page of its own. */
   div.plate img {{ max-height: 8.6in; max-width: 100%; width: auto; height: auto; }}
+  /* Chapter plates (compile.py --plates): in the flow after the chapter's
+     prose, never split across a page. */
+  figure.plate {{ margin: 0.3in 0; text-align: center; page-break-inside: avoid; }}
+  figure.plate img {{ max-width: 100%; max-height: 5.6in; height: auto; }}
 </style>
 </head>
 <body>

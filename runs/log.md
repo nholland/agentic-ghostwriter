@@ -1535,3 +1535,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/manuscript/the-stoic-husband-prologue-ch12-2026-09-20.pdf`
 
 **Next:** `/gw 13` — Chapter 13 has not started.
+
+## 2026-09-20 16:24 — `claude/gateway-45bnh4` — 1 commit(s) this session
+- `runs/ch12/plate.svg`
+- `runs/design/svgcheck.py`
+- `scripts/chapter_pdf.py`
+- `scripts/chapter_pdf_local.py`
+- `scripts/compile.py`
+
+**Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).

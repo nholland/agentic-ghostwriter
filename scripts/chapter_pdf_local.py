@@ -43,6 +43,22 @@ def md_inline(t):
 
 LABEL = re.compile(r"^\*\*[A-Z][A-Za-z ]{1,24}:\*\*")
 DISPLAY_QUOTE = re.compile(r'^\*"(.+?)"\*\s*(?:\((.+)\))?\s*$')
+PLATE_BLOCK = re.compile(r'^<(figure|div) class="plate">')
+PLATE_IMG = re.compile(r'(<(?:figure|div) class="plate"><img src=")([^"]+\.svg)(")')
+
+
+def rasterise_plates(md, base_dir, outdir):
+    """Replace every plate block's SVG src with a PNG next to the output.
+    The PNG name comes from the SVG's relative path, because every chapter
+    plate is called plate.svg and basenames alone would overwrite each other."""
+    def one(m):
+        svg = os.path.normpath(os.path.join(base_dir, m.group(2)))
+        stem = re.sub(r"[^A-Za-z0-9]+", "-", os.path.relpath(svg, base_dir)).strip("-")
+        png = os.path.join(outdir, stem[:-4] + ".png" if stem.endswith("-svg") else stem + ".png")
+        w, h = svg_to_png(svg, png)
+        print(f"  plate rasterised: {os.path.basename(png)}  {int(w)}x{int(h)} @3x")
+        return f'{m.group(1)}{os.path.basename(png)}" width="{int(w)}" height="{int(h)}{m.group(3)}'
+    return PLATE_IMG.sub(one, md)
 
 
 def md_to_html(md):
@@ -55,6 +71,11 @@ def md_to_html(md):
             continue
         if s in ("---", "***", "___"):
             out.append('<hr class="beat">')
+            i += 1
+            continue
+        if PLATE_BLOCK.match(s):
+            # compile.py --plates emits these already rasterised by build().
+            out.append(s)
             i += 1
             continue
         m = re.match(r"^(#{1,4})\s+(.*)$", s)
@@ -79,7 +100,7 @@ def md_to_html(md):
             continue
         buf = []
         while i < len(lines) and lines[i].strip() and not re.match(
-                r"^(#{1,4}\s|>\s|---$|\d+\.\s)", lines[i].strip()):
+                r"^(#{1,4}\s|>\s|---$|\d+\.\s|<(figure|div) class=\"plate\")", lines[i].strip()):
             # A label line - "**Lesson:**", "**Challenge:**" - is its own
             # paragraph even when the source puts it on the very next line with
             # no blank between. Without this, Lesson and Challenge merge into
@@ -180,6 +201,11 @@ figure.plate { margin:.3in 0; text-align:center; page-break-inside:avoid; }
 figure.plate img { max-width:100%; max-height:5.6in; height:auto; }
 figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
      margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
 .dropfirst::first-letter { font-size:1em; }
 """
 
@@ -203,16 +229,20 @@ def distillation_html(md, kicker):
     return d
 
 
-def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back"):
+def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", base_dir="."):
     body = []
+    chapter_md = rasterise_plates(chapter_md, base_dir,
+                                  os.path.dirname(os.path.abspath(out_pdf)) or ".")
     if distillation_md and dist_at == "front":
         body.append('<section class="dist">'
                     + distillation_html(distillation_md, "Chapter distillation")
                     + '</section>')
 
     c = md_to_html(chapter_md)
+    # Every chapter heading, not only the first: a whole manuscript passes
+    # through here too, and count=1 left Chapters 2 onward without the kicker.
     c = re.sub(r"<h1>Chapter (\d+): (.*?)</h1>",
-               r'<h1><span class="num">Chapter \1</span>\2</h1>', c, count=1)
+               r'<h1><span class="num">Chapter \1</span>\2</h1>', c)
     for marker, png, cap, (w, h) in plates:
         fig = (f'<figure class="plate"><img src="{os.path.basename(png)}" '
                f'width="{int(w)}" height="{int(h)}" alt="">'
@@ -276,7 +306,8 @@ def main():
 
     chapter = open(a.chapter, encoding="utf-8").read()
     dist = open(a.distillation, encoding="utf-8").read() if a.distillation else None
-    html_path = build(chapter, dist, plates, a.out, a.title, a.distillation_at)
+    html_path = build(chapter, dist, plates, a.out, a.title, a.distillation_at,
+                      base_dir=os.path.dirname(os.path.abspath(a.chapter)))
     size = os.path.getsize(a.out)
     print(f"  html:  {html_path}")
     print(f"  pdf:   {a.out}  ({size:,} bytes)")

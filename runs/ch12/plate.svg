@@ -48,7 +48,7 @@
 
   <g fill="currentColor">
     <text class="lbl" x="44" y="323">ROMANCE</text>
-    <text class="cap" x="44" y="340" text-anchor="start" style="font-size:10.5px">no deadline, nobody watching</text>
+    <text class="cap" x="44" y="340" style="text-anchor:start;font-size:10.5px">no deadline, nobody watching</text>
     <text class="cap" x="286" y="366">tonight</text>
     <text class="cap" x="430" y="366">where it used to reach</text>
   </g>

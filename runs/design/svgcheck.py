@@ -24,13 +24,22 @@ def boxes(path):
         cls[m.group(1)]=(float(sz.group(1)) if sz else 12,
                          float('.'+ls.group(1)) if ls else 0,
                          ta.group(1) if ta else 'start',
-                         'italic' in b, ('600' in b or '700' in b))
+                         'italic' in b, ('600' in b or '700' in b),
+                         ta is not None)
     out=[]
     for m in re.finditer(r'<text class="(\w+)"([^>]*)>([^<]*)</text>', s):
         c,attrs,t=m.group(1),m.group(2),m.group(3)
-        size,ls,anch,it,bd=cls.get(c,(12,0,'start',False,False))
+        size,ls,anch,it,bd,class_sets_anchor=cls.get(c,(12,0,'start',False,False,False))
+        # SVG precedence: inline style > stylesheet class > presentation
+        # attribute. The Ch12 plate set text-anchor="start" on an element whose
+        # class says middle; the browser centred it off the left edge while
+        # this checker, reading the attribute as final, reported clean.
+        ist=re.search(r'style="[^"]*text-anchor:\s*(\w+)',attrs)
         ia=re.search(r'text-anchor="(\w+)"',attrs)
-        if ia: anch=ia.group(1)
+        if ist: anch=ist.group(1)
+        elif ia and not class_sets_anchor: anch=ia.group(1)
+        isz=re.search(r'style="[^"]*font-size:\s*([\d.]+)px',attrs)
+        if isz: size=float(isz.group(1))
         x=float(re.search(r'x="([\d.]+)"',attrs).group(1))
         y=float(re.search(r'y="([\d.]+)"',attrs).group(1))
         fo=FONTS['ita'] if it else (FONTS['bold'] if bd else FONTS['reg'])
@@ -60,7 +69,9 @@ def check(path, left=44, right=None):
                     ov=min(a['r'],c['r'])-max(a['l'],c['l'])  # negative = gap smaller than CLEARANCE
                     issues.append(f"COLLIDE y={a['y']:>5} '{a['text'][:26]}' [{a['l']:.0f}..{a['r']:.0f}] "
                                   f"x '{c['text'][:26]}' [{c['l']:.0f}..{c['r']:.0f}]  overlap {ov:.0f}px")
-    lowest=max(b['y'] for b in bx)
+    # A plate with no classed <text> (the Part closing plates) has nothing to
+    # measure; that is not a defect, so do not crash on the empty set.
+    lowest=max((b['y'] for b in bx), default=0)
     if lowest > vb[3]-6: issues.append(f"VIEWBOX lowest baseline {lowest} vs height {vb[3]}")
     return issues
 
