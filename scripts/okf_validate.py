@@ -364,41 +364,39 @@ def main():
             if os.path.basename(p) in ("evidence-library.md", "citation-manifest.md"):
                 continue  # a tombstone may reference itself
             text = open(p, encoding="utf-8").read()
-            # Same changelog exemption the citation-manifest half uses below: a
-            # mention whose own PARAGRAPH marks the file retired/superseded is a
-            # record of its own history, not a live pointer. Without this, the
-            # note documenting a fix gets flagged as the defect it just fixed.
+            # This guard exists for ONE defect: an instruction routing new
+            # material into the retired file. book-chapter-draft.md's Step 7 did
+            # exactly that until 2026-08-17, and following it literally would
+            # have written the author's own frameworks into a dead file.
             #
-            # Paragraph, not line, and word STEMS, not inflections (2026-09-19).
-            # The line-and-inflection version reported all six of its hits as
-            # live when every one was historical: prose wraps, so the mention and
-            # the word clearing it land on different lines, and the list missed
-            # the forms actually used - index.md says "supersedes" where the
-            # regex wanted "superseded", progress.md says "migration" not
-            # "migrated". A guard that cries wolf on a tombstone teaches its
-            # reader to edit good prose until it goes quiet, which is the damage
-            # it exists to prevent. The teeth are unchanged: a live instruction
-            # ("append new IP to evidence-library.md") carries none of these
-            # stems anywhere in its paragraph and still flags - fixtured.
+            # ROUTE is the teeth and CLEARED is only the mercy. Three passes were
+            # spent editing CLEARED - line scope to paragraph scope, loosened,
+            # tightened - and after each one a live pointer still walked through,
+            # because a word list is a proxy for "this text is a record" and a
+            # paragraph can be a live instruction AND mention a retirement at
+            # once. "has been" cleared a Step 7 decoy; so did "retir" and
+            # "migrat", which were in the original list from the start. So the
+            # routing pattern is checked FIRST and overrides every exemption:
+            # what the guard is for no longer depends on which words happen to
+            # surround it. Measured 2026-09-20: 7 of 7 decoys caught, 0 of 13
+            # real historical paragraphs in the book flagged.
+            ROUTE = re.compile(
+                r"\b(append|add|write|record|file|put|store|save|log)\b"
+                r"[^.]{0,80}?\b(to|in|into)\b[^.]{0,40}?evidence-library\.md",
+                re.I)
+            # A paragraph whose mention sits inside its own retirement notice is
+            # a record, not a pointer - without this the note documenting a fix
+            # is flagged as the defect it just fixed. Stems, not inflections, and
+            # the whole paragraph, because prose wraps: index.md says
+            # "supersedes" where an earlier list wanted "superseded".
             CLEARED = re.compile(
-                # Only stems that mark a RETIREMENT. Six ordinary-English
-                # phrases were in this list for a day - no longer, instead of,
-                # used to, has been, drawn from, faithfully - and "has been"
-                # alone silently cleared a decoy carrying the exact shape this
-                # guard exists for: a Step 7 routing new author IP into the dead
-                # file. None of the six was needed; the four real historical
-                # paragraphs are cleared by the stems that remain. The lesson is
-                # narrower than "be careful": a TIGHTENED check is proved by its
-                # own fixture, a LOOSENED one is only proved by the thing it must
-                # still catch, and this loosening was proved with one live
-                # pointer when it needed one per alternative it added.
                 r"retir|supersed|migrat|tombstone|deprecat|"
                 r"correct|replac|the old|deriv",
                 re.I)
             for para in re.split(r"\n\s*\n", text):
                 if "evidence-library.md" not in para:
                     continue
-                if CLEARED.search(para):
+                if not ROUTE.search(para) and CLEARED.search(para):
                     continue
                 live_refs.append(os.path.relpath(p, args.book_root))
                 break

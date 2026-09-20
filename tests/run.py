@@ -390,6 +390,35 @@ def tombstone_cases():
                         refs()[:200]))
             os.remove(d)
 
+        # The teeth must not depend on the word list at all. Every clearing stem
+        # in turn, inside a real routing instruction: each one cleared this
+        # before ROUTE existed - including retir and migrat, which were in the
+        # original list from the start - so this is the case that makes the
+        # guard's purpose independent of its vocabulary.
+        for stem, body in (
+            ("retir", "Step 7: append new author IP to sources/evidence-library.md "
+                      "before retiring the draft."),
+            ("migrat", "Step 7: when migrating an interview, append the new IP to "
+                       "sources/evidence-library.md."),
+            ("theold", "Step 7: append new author IP to sources/evidence-library.md, "
+                       "the same way the old pipeline did."),
+            ("correct", "Step 7: append the correct framework text to "
+                        "sources/evidence-library.md."),
+            ("deriv", "Step 7: append derived claims to sources/evidence-library.md."),
+            ("replac", "Step 7: append new author IP to sources/evidence-library.md, "
+                       "replacing any older draft."),
+            ("supersed", "Step 7: append new author IP to sources/evidence-library.md, "
+                         "superseding the transcript."),
+        ):
+            d = os.path.join(root, f"route-{stem}.md")
+            open(d, "w", encoding="utf-8").write(f"# Draft\n\n{body}\n")
+            out.append((f"route-{stem}.md" in refs(),
+                        f"tombstone guard: a routing instruction flags regardless of '{stem}'",
+                        "the guard's teeth must not depend on which words happen to "
+                        "surround the pointer; every stem here cleared it before",
+                        refs()[:200]))
+            os.remove(d)
+
         hist = os.path.join(root, "history.md")
         open(hist, "w", encoding="utf-8").write(
             "# Notes\n\nThe bundle supersedes `sources/evidence-library.md`, which\n"
@@ -543,6 +572,43 @@ def next_cases():
                     "a chapter with a recorded verdict must report shipped, not verdict, "
                     "so a later chapter can surface as next",
                     stage))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
+def streak_cases():
+    """next.py must count how long NEXT_ACTION has stood still, from the log.
+
+    Derived from runs/log.md's own 'Next:' lines, so there is no counter to go
+    stale. Pinned in both directions: a run of identical Next lines counts, and
+    a different one breaks the streak rather than being ignored."""
+    sys.path.insert(0, os.path.join(REPO, "scripts"))
+    import importlib, next as next_mod
+    importlib.reload(next_mod)
+    tmp = tempfile.mkdtemp(prefix="gw-tests-streak-")
+    out = []
+    try:
+        os.makedirs(os.path.join(tmp, "runs"))
+        entries = ["\n## e1\n\n**Next:** `/gw 5` — x\n",
+                   "\n## e2\n\n**Next:** `/gw 13` — x\n",
+                   "\n## e3\n\n**Next:** `/gw 13` — x\n",
+                   "\n## e4\n\n**Next:** `/gw 13` — x\n"]
+        open(os.path.join(tmp, "runs", "log.md"), "w", encoding="utf-8").write(
+            "# Session log\n" + "".join(entries))
+        real = next_mod.REPO
+        next_mod.REPO = tmp
+        try:
+            three = next_mod.next_action_streak("/gw 13")
+            broken = next_mod.next_action_streak("/gw 5")
+        finally:
+            next_mod.REPO = real
+        out.append((three == 3, "next: NEXT_ACTION streak counts consecutive log entries",
+                    "two consecutive reviews counted this by hand before a script owned it",
+                    three))
+        out.append((broken == 0, "next: a different Next line breaks the streak",
+                    "the count must be consecutive-from-the-end, not a total, or it "
+                    "reports staleness that ended sessions ago", broken))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out
@@ -857,6 +923,17 @@ def session_log_dedup_cases():
         _git(tmp, "add", "-A")
         _git(tmp, "commit", "-q", "-m", "some work")
 
+        # 34 files, deliberately ABOVE the 30 an entry stores. Below that
+        # ceiling every earlier fixture in this lineage passed while dedup was
+        # dead in real use: the guard compared the whole diff against a list
+        # that only ever holds the first 30, so a session big enough to matter
+        # could never match. Third miss here (#035, #039, #040), same cause
+        # each time - the synthetic case never reached the real sequence.
+        for n in range(34):
+            open(os.path.join(tmp, f"big{n:02d}.py"), "w").write("# big\n")
+        _git(tmp, "add", "-A")
+        _git(tmp, "commit", "-q", "-m", "a session larger than one entry stores")
+
         script = os.path.join(tmp, "scripts", "session_log.py")
         r1 = subprocess.run([sys.executable, script], cwd=tmp, capture_output=True, text=True)
         log_path = os.path.join(tmp, "runs", "log.md")
@@ -1100,7 +1177,7 @@ def main():
     rows = (package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
-           + next_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
+           + next_cases() + streak_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
            + sys_path_hardcode_cases() + session_log_dedup_cases()
            + prove_cases())

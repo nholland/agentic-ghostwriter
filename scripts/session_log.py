@@ -48,7 +48,9 @@ def last_entry_files():
     if len(blocks) < 2:
         return None
     last = blocks[-1]
-    return set(re.findall(r"^- `([^`]+)`$", last, re.MULTILINE)) - {"runs/log.md"}
+    listed = set(re.findall(r"^- `([^`]+)`$", last, re.MULTILINE)) - {"runs/log.md"}
+    m = re.search(r"^- … and (\d+) more$", last, re.MULTILINE)
+    return listed, len(listed) + (int(m.group(1)) if m else 0)
 
 
 def sh(*args):
@@ -75,13 +77,33 @@ def main():
     if files == ["runs/log.md"] and not force:
         print("session_log: nothing but runs/log.md changed - no entry written")
         return 0
+    # Drop the log's own name once, here, so every line below sees the same
+    # list. It used to be stripped in two places and left in a third - the
+    # entry listed it, the current set removed it, and the stored overflow
+    # count still counted it - which is why prefix comparison alone could
+    # never match once the log became tracked. One filter, no asymmetry, and
+    # "this session changed runs/log.md" was never information anyway.
+    files = [f for f in files if f != "runs/log.md"]
     if not files and not force:
         return 0
     # The diff is cumulative from session start, so a Stop with no new work
     # commit since the last entry reproduces the same file set verbatim - most
     # often the retro dispatch's forced second Stop. Skip the restatement.
-    this_set = set(files) - {"runs/log.md"}
-    if not force and this_set and this_set == last_entry_files():
+    # Compare what the entry actually STORES - its first-30 list and its
+    # overflow count - not the whole diff. An entry writes files[:30], so on any
+    # session touching more than 30 files the full set could never equal what
+    # last_entry_files() reads back, and dedup was dead exactly when a session
+    # was big enough to matter: five restatements on 2026-09-19. Third miss in
+    # this lineage (#035, #039, #040), the same cause each time - the fixture
+    # never reached the real sequence, here because it never crossed 30 files.
+    #
+    # The overflow count is half the comparison, not decoration. Comparing the
+    # prefix alone silently swaps one bug for a worse one: work whose new files
+    # all sort past the 30th would read as "same file set" and a real session's
+    # entry would be dropped. A duplicate entry is noise; a missing one is a
+    # lost record. Caught by the fixture below on its first run.
+    this_sig = (set(files[:30]), len(files))
+    if not force and this_sig[0] and this_sig == last_entry_files():
         print("session_log: same file set as the last entry - no entry written")
         return 0
 

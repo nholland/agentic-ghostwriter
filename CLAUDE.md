@@ -167,11 +167,7 @@ An inbox item he cannot answer without scrolling back is not finished.
     in a third form, so the fix is structural: `runs/qa/<date>-qa.md`,
     `runs/marketing/callouts-ch01-chNN.md` — a name that states its range cannot
     claim to be current. A file that accumulates (the practice guide) appends and
-    never rewrites. `tactics-review.md` is fixed this way (2026-09-18: retired to
-    a stub pointing at the practice guide, which now carries its Proactive/Reactive
-    marking on all twelve chapters); `callouts.md` and `sweep-report.md` followed
-    on 2026-09-18, retired to stubs pointing at `runs/marketing/callouts-ch01-chNN.md`
-    and `runs/qa/<date>-qa.md`, the two artifacts that carry their range by name.
+    never rewrites.
 16. **A deferred capability is registered, not forgotten.** `GAPS.md` lists what the
     old pipeline does that this house does not, each with the trigger that should
     close it. 13 of 40 commands, audited 2026-09-13. Say "not yet, and here is what
@@ -179,6 +175,11 @@ An inbox item he cannot answer without scrolling back is not finished.
 17. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without
     that gate grew the old ledger from 739 to 6,026 words in 27 days.
+    **This binds the Publisher's recommendations too.** Before proposing to
+    generate or replace something that exists, count what the replacement would
+    delete. Generating `okf/index.md` was approved before anyone counted; it
+    would have destroyed 249 hand-written annotations to fix 29 missing rows.
+    The count is the recommendation. Without it there is only its shape.
 18. **Answer short.** The author reads these replies on a phone. Lead with what
     happened or what he must decide; put the reasoning underneath, only if it
     changes what he would do. No recap of what he just asked, no narration of

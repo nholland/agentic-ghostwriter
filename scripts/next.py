@@ -233,6 +233,29 @@ def branch_line():
     return f"branch: {br}{note}"
 
 
+def next_action_streak(command):
+    """How many consecutive log entries already carried this NEXT_ACTION.
+
+    Derived from runs/log.md's own 'Next:' lines - no new state file, so it
+    cannot go stale the way a counter would. The old pipeline's recorded
+    failure was five of nine sessions going to maintenance instead of the
+    book; nothing here counted that, and the Archivist ended up noticing it
+    by hand in two consecutive reviews. Twice by hand is a thing a script
+    should own.
+    """
+    log = os.path.join(REPO, "runs", "log.md")
+    if not os.path.isfile(log):
+        return 0
+    entries = open(log, encoding="utf-8").read().split("\n## ")[1:]
+    streak = 0
+    for e in reversed(entries):
+        m = re.search(r"^\*\*Next:\*\* `([^`]+)`", e, re.M)
+        if not m or m.group(1).strip() != command.strip():
+            break
+        streak += 1
+    return streak
+
+
 def render(state):
     L = []
     bl = branch_line()
@@ -257,6 +280,10 @@ def render(state):
     L.append("")
     L.append(f"NEXT_ACTION: {n['command']}")
     L.append(f"  {n['why']}")
+    streak = next_action_streak(n["command"])
+    if streak >= 5:
+        L.append(f"  unchanged for {streak} log entries - that many sessions have "
+                 f"gone somewhere other than the book")
     return "\n".join(L)
 
 
