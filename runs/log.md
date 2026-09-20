@@ -1881,3 +1881,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 26 more
 
 **Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
+
+## 2026-09-20 19:46 — `claude/gateway-45bnh4` — 9 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-panel.md`
+- `.claude/skills/gw-chapter/SKILL.md`
+- `.claude/skills/gw-plate/SKILL.md`
+- `agents/gw-designer.md`
+- `agents/gw-panel.md`
+- `docs/manual.html`
+- `runs/ch01/pdf/plate.png`
+- `runs/ch02/pdf/plate.png`
+- `runs/ch03/pdf/plate.png`
+- `runs/ch04/pdf/plate.png`
+- `runs/ch05/pdf/plate.png`
+- `runs/ch06/pdf/plate.png`
+- `runs/ch07/pdf/plate.png`
+- `runs/ch07/plate-brief.md`
+- `runs/ch07/plate-notes.md`
+- `runs/ch07/plate.svg`
+- `runs/ch08/concepts/A.png`
+- `runs/ch08/concepts/A.svg`
+- `runs/ch08/concepts/B.png`
+- `runs/ch08/concepts/B.svg`
+- `runs/ch08/concepts/C.png`
+- `runs/ch08/concepts/C.svg`
+- `runs/ch08/pdf/plate.png`
+- `runs/ch08/plate-brief.md`
+- `runs/ch08/plate-concepts.md`
+- `runs/ch08/plate-notes.md`
+- `runs/ch08/plate-pick.md`
+- `runs/ch08/plate-read.md`
+- `runs/ch08/plate.svg`
+- … and 28 more
+
+**Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
