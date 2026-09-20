@@ -158,6 +158,14 @@ def main():
 
     plate = os.path.join(run, "plate.svg")
     if os.path.isfile(plate):
+        # Inbox #062: the Ch12 plate landed with a gloss off the artboard past
+        # every gate because nothing checked it at the moment it became
+        # permanent. A FAIL row stops the land; --force overrides it.
+        import plate_check
+        fails = [(name, det) for st, name, det in plate_check.rows(plate, chapter=n) if st == "FAIL"]
+        if fails and not a.force:
+            return refuse("plate_check.py fails on runs/%s/plate.svg (--force to land anyway): "
+                          % tag + "; ".join("%s: %s" % f for f in fails))
         pname = plate_name(open(plate, encoding="utf-8").read(), n)
         pdest = os.path.join(book_root, "design", "plates", pname)
         if os.path.isfile(pdest) and not same_file(plate, pdest) and not a.force:

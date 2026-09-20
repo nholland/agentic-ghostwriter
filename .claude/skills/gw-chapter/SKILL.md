@@ -63,8 +63,9 @@ fails in exactly one hard-to-notice way, and that is it.
    then `gw-specchecker`.
 4. **Refine** — follow `/gw-refine`: `gw-lineeditor`, then `voice_check.py`
    run independently, `gw-slopreader`, `gw-specchecker`, distillation.
-5. **Plate** — dispatch `gw-designer` on the distillation and the declared
-   metaphor family. Skip with `--no-plate`. A plate failure never blocks the
+5. **Plate** — follow `/gw-plate N`: brief, three concepts, the Panel's cold
+   pick, draft, the counted check run by you, the Panel's standalone read, one
+   revision. Skip with `--no-plate`. A plate failure never blocks the
    chapter; it goes to the inbox.
 6. **Verdict package** — run `/gw-compile NN` to produce the PDF. Then hand him
    the package: the PDF, the plate, the counts as the scripts printed them, the

@@ -1130,6 +1130,107 @@ def sys_path_hardcode_cases():
     return out
 
 
+PLATE_HEAD = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-label="%s">'
+              '<style>.ttl{font:600 17px Georgia,serif;text-anchor:middle}'
+              '.sub{font:italic 13px Georgia,serif;text-anchor:middle}'
+              '.lbl{font:600 14px Georgia,serif}'
+              '.cap{font:italic 12px Georgia,serif;text-anchor:middle}</style>'
+              '<rect x="0" y="0" width="640" height="430" fill="#fff"/>')
+
+
+def _plate(tmp, name, aria, body):
+    p = os.path.join(tmp, name + ".svg")
+    with open(p, "w", encoding="utf-8") as f:
+        f.write(PLATE_HEAD % aria + body + "</svg>")
+    return p
+
+
+def plate_check_cases():
+    """scripts/plate_check.py, proved on the shapes that reached the author
+    on 2026-09-20: a text-anchor attribute a class overrode (the landed Ch12
+    gloss printed off the artboard, old checker said clean); an apostrophe
+    rendered as three garbage glyphs; a title that was not the chapter's
+    mechanism; a lone block off centre; a label the chapter never says."""
+    import plate_check
+    out = []
+    tmp = tempfile.mkdtemp(prefix="plate-")
+    try:
+        book = os.path.join(tmp, "book")
+        runs = os.path.join(tmp, "runs")
+        ch = os.path.join(book, "chapters", "ch05")
+        os.makedirs(ch)
+        os.makedirs(os.path.join(runs, "ch05"))
+        with open(os.path.join(ch, "distillation.md"), "w") as f:
+            f.write("# D\n\n**Mechanism:** The Remaining Nails\n**Conversation sentence:** x\n")
+        with open(os.path.join(ch, "refined.md"), "w") as f:
+            f.write("# Chapter 5\n\nThe nail will stay in. Every fight that ended before the real thing got said.\n")
+
+        def st(p, **kw):
+            return {n: s for s, n, d in plate_check.rows(p, book_root=book, runs_root=runs, **kw)}
+
+        good = _plate(tmp, "good", "The Remaining Nails",
+                      '<text class="ttl" x="320" y="40">THE REMAINING NAILS</text>'
+                      '<text class="sub" x="320" y="66">The nail will stay in.</text>'
+                      '<g fill="none" stroke="#000"><path d="M120 200h400"/></g>'
+                      '<text class="cap" x="320" y="300">every fight that ended before</text>')
+        g = st(good, chapter=5)
+        out.append((all(v == "ok" for v in g.values()), "plate_check passes a clean plate on every row",
+                    "a checker that flags a plate with nothing wrong is decorative in the other direction", g))
+
+        conflict = _plate(tmp, "conflict", "The Remaining Nails",
+                          '<text class="ttl" x="320" y="40">THE REMAINING NAILS</text>'
+                          '<text class="cap" x="44" y="340" text-anchor="start">no deadline, nobody watching</text>')
+        c = st(conflict)
+        out.append((c["anchor-attr"] == "FAIL" and c["geometry"] == "FAIL",
+                    "plate anchor: an attribute a class overrides fails anchor-attr and geometry",
+                    "the landed Ch12 gloss: class says middle, attribute says start, browser centres it off the left edge; the old checker said clean",
+                    c))
+
+        fixed = _plate(tmp, "fixed", "The Remaining Nails",
+                       '<text class="ttl" x="320" y="40">THE REMAINING NAILS</text>'
+                       '<text class="cap" x="44" y="340" style="text-anchor:start">no deadline, nobody watching</text>')
+        fx = st(fixed)
+        out.append((fx["anchor-attr"] == "ok" and fx["geometry"] == "ok",
+                    "plate anchor: the inline-style fix passes both rows",
+                    "the same gloss anchored by inline style sits inside the frame", fx))
+
+        moj = _plate(tmp, "moj", "The Remaining Nails",
+                     '<text class="ttl" x="320" y="40">SHEâ€™S NEVER HEARD</text>')
+        out.append((st(moj)["charset"] == "FAIL", "charset: mojibake in a plate fails",
+                    "the Ch11 title as the author saw it in the round-1 PDF", st(moj)["charset"]))
+
+        off = _plate(tmp, "off", "The Muscle You Stopped Using",
+                     '<text class="ttl" x="320" y="40">THE MUSCLE YOU STOPPED USING</text>')
+        out.append((st(off, chapter=5)["title"] != "ok", "title: a title that is not the Mechanism line is reported",
+                    "Ch12 round 1 was titled by the chapter, not the distillation; the panel ranked it worst", st(off, chapter=5)["title"]))
+
+        lone = _plate(tmp, "lone", "The Remaining Nails",
+                      '<text class="ttl" x="320" y="40">THE REMAINING NAILS</text>'
+                      '<g fill="none" stroke="#000"><path d="M60 200h200"/><path d="M60 220h200"/></g>')
+        out.append((st(lone)["alignment"] == "WARN", "alignment: a lone drawing block off centre is reported",
+                    "the Ch9 round-2 list block sat left of centre with nothing mirroring it", st(lone)["alignment"]))
+
+        stray = _plate(tmp, "stray", "The Remaining Nails",
+                       '<text class="ttl" x="320" y="40">THE REMAINING NAILS</text>'
+                       '<text class="cap" x="486" y="300">a list only you are keeping</text>')
+        out.append((st(stray)["alignment"] == "WARN", "alignment: centred text on no shared axis is reported",
+                    "the Ch9 gloss at x=486 shared its axis with nothing", st(stray)["alignment"]))
+
+        loose = _plate(tmp, "loose", "The Remaining Nails",
+                       '<text class="ttl" x="320" y="40">THE REMAINING NAILS</text>'
+                       '<text class="cap" x="320" y="300">The tip feels sudden and never is</text>')
+        out.append((st(loose, chapter=5)["grounded"] == "WARN", "grounded: a run of words the chapter never says is reported",
+                    "the Ch8 subtitle appears in no chapter; a plate may use nothing the chapter does not say", st(loose, chapter=5)["grounded"]))
+
+        with open(os.path.join(runs, "ch05", "plate-brief.md"), "w") as f:
+            f.write("## Author additions\n\n- 2026-09-20 19:30: The tip feels sudden and never is\n")
+        out.append((st(loose, chapter=5)["grounded"] == "ok", "grounded: the author's recorded words count as the chapter's",
+                    "Rule 9: his words in session are a source once plate-brief.md records them", st(loose, chapter=5)["grounded"]))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    return out
+
+
 def toolcheck_cases():
     """toolcheck.py's own two detectors, proved against something real rather
     than trusted by inspection: a module every fixture run already imports
@@ -1253,7 +1354,7 @@ def main():
            + next_cases() + streak_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
            + sys_path_hardcode_cases() + session_log_dedup_cases()
-           + prove_cases())
+           + prove_cases() + plate_check_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")
