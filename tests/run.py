@@ -658,6 +658,58 @@ def streak_cases():
     return out
 
 
+def log_check_cases():
+    """runs/log.md's invariants, both directions.
+
+    Two hand-resolved merges damaged the log before anything noticed - one
+    dropped 26 entries whole, one detached a 30-file body - and both commit
+    messages asserted the result was complete. The only check that ran was
+    `grep -c '<<<<<<<'`, which both bad merges pass. These cases measure against
+    a known-right answer instead, which is the only thing that would have caught
+    either."""
+    import importlib, log_check
+    importlib.reload(log_check)
+    out = []
+    good = ("# Session log\n"
+            "\n## 2026-09-20 10:00 — `b` — 1 commit(s) this session\n"
+            "- `a.py`\n\n**Next:** `/gw 13` — x\n"
+            "\n## 2026-09-20 10:05 — `b` — 2 commit(s) this session\n"
+            "- `c.py`\n\n**Next:** `/gw 13` — x\n")
+    out.append((log_check.structure_breaches(good) == [],
+                "log_check: an intact log reports no structure breach",
+                "the check must not cry wolf on a healthy log, or it teaches its "
+                "reader to ignore it", log_check.structure_breaches(good)))
+
+    nobody = good.replace("- `a.py`\n", "")
+    b = log_check.structure_breaches(nobody)
+    out.append((len(b) == 1 and b[0]["files"] == 0,
+                "log_check: an entry with no file list is caught",
+                "a detached body is what merge bd3a334 produced and grep could not see", b))
+
+    twonext = good.replace("- `c.py`\n\n**Next:** `/gw 13` — x\n",
+                           "- `c.py`\n\n**Next:** `/gw 13` — x\n**Next:** `/gw 13` — x\n")
+    b2 = log_check.structure_breaches(twonext)
+    out.append((len(b2) == 1 and b2[0]["next_lines"] == 2,
+                "log_check: an entry with two Next lines is caught",
+                "two bodies concatenated under one heading is the other half of "
+                "the same merge damage", b2))
+
+    # Two sessions finishing in the same minute on different branches is real
+    # (2026-09-14 14:11). Keying on the timestamp would collapse them and let a
+    # lost entry hide behind a survivor.
+    same_minute = ("# Session log\n"
+                   "\n## 2026-09-20 10:00 — `one` — 1 commit(s) this session\n"
+                   "- `a.py`\n\n**Next:** `/gw 13` — x\n"
+                   "\n## 2026-09-20 10:00 — `two` — 1 commit(s) this session\n"
+                   "- `b.py`\n\n**Next:** `/gw 13` — x\n")
+    out.append((len(log_check.entries(same_minute)) == 2,
+                "log_check: two sessions in the same minute are distinct entries",
+                "keying on the timestamp collapses them, and a genuinely lost "
+                "entry would hide behind a same-minute survivor", 
+                len(log_check.entries(same_minute))))
+    return out
+
+
 def inbox_cases():
     """--chapter must filter on read (2026-09-18: it was accepted, exited 0, and
     printed every item under a header claiming the whole inbox's counts - a
@@ -1247,7 +1299,7 @@ def main():
     rows = (package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
-           + next_cases() + streak_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
+           + next_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
            + sys_path_hardcode_cases() + session_log_dedup_cases()
            + prove_cases())
