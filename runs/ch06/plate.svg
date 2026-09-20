@@ -15,8 +15,8 @@
     <text class="sub" x="320" y="66">Resentment does not come from doing too much.</text>
   </g>
 
-  <!-- the week you carried: real, and nobody can see it -->
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
+  <!-- the week you carried: solid, real, and nobody can see it -->
+  <g fill="currentColor" opacity=".82">
     <rect x="250" y="124" width="320" height="34"/>
   </g>
   <g fill="currentColor">
@@ -25,12 +25,12 @@
   </g>
 
   <!-- tonight: the only part the room can see -->
-  <g fill="currentColor" opacity=".82">
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
     <rect x="250" y="216" width="320" height="34"/>
   </g>
   <g fill="currentColor">
     <text class="lbl" x="44" y="238">TONIGHT</text>
-    <text class="gl" x="44" y="270">her hands moving, yours still</text>
+    <text class="gl" x="44" y="270">what she can see right now</text>
   </g>
 
   <g fill="currentColor">

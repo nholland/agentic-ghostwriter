@@ -165,3 +165,67 @@ dashed outline still reads as an outline.
    same filled bar means accruing cost on Ch03 and rehearsal on Ch11. That is a
    book-wide call, not this plate's, and it is the panel's `design-language.md`
    recommendation in section 4.
+
+## Round 4, edits from the standalone sweep (2026-09-20 21:50)
+
+Brief: `runs/design/2026-09-20-plate-standalone-sweep.md`, FAIL 06. The finding
+was polarity, not layout: the solid black bar was captioned "her hands moving,
+yours still," so black read as *her* contribution and the ghost as his, flipping
+the plate into the self-pity position ("I do the invisible work and get no
+credit") that the subtitle exists to deny.
+
+**Applied, exactly three edits.**
+
+1. **Fills swapped.** THE WEEK (y=124) is now the solid bar,
+   `fill="currentColor" opacity=".82"`. TONIGHT (y=216) is now the dashed ghost,
+   `stroke-dasharray="3 5"` at 1.2 stroke, .5 opacity. Geometry, widths and
+   positions are untouched, so the two bars remain the same length: the argument
+   is still visibility and not volume (Round 2's note stands).
+2. **TONIGHT's gloss relabelled** from "her hands moving, yours still" to
+   "what she can see right now."
+3. **Title untouched.** The sweep also asked for a retitle to THE WEEK SHE
+   DIDN'T SEE. Not applied: the title is the distillation's Mechanism line
+   (inbox #065) and a retitle is the author's call, not this desk's.
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch06/plate.svg --chapter 6
+runs/ch06/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x430
+  [ ok ] title       title 'THE TALLY YOU DON’T READ ALOUD' / aria-label "The Tally You Don't Read Aloud" vs Mechanism "The Tally You Don't Read Aloud"
+  [WARN] grounded    no three-word run of these appears in the chapter, its distillation or plate-brief.md: 'what she can see right now', 'The week is real. Only tonight is visibl', 'Keeping the tally is not the problem. Re'
+  [WARN] captions    6 italic lines against a cap of 4 (2 labels + subtitle + closing line) (over; inbox #066)
+  [ ok ] alignment   5 centred texts on the axis or a shared column; 3 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows. Both WARNs are carried over from Round 3 and neither is new work
+from this round: the caption count is unchanged (inbox #066), and the new gloss
+is the sweep's own wording, adjacent to the chapter's "It fires on what's
+visible right now, in the room, tonight" and the distillation's "What's visible
+right now isn't the same as what's actually true," but not a three-word match.
+
+**What the render showed** (`runs/ch06/pdf/plate.png`). The polarity now reads
+the intended way in the first second: the heavy black mark is the reader's own
+week, and the empty dashed outline is the thin slice of it she is standing in
+front of tonight. The self-pity reading is gone, because the black no longer
+belongs to her. The closing pair then does the work the title promises: the
+solid bar is real and still must not be recited.
+
+**For the author to rule on.**
+
+1. **Dashed now carries "tonight."** In the rest of the set dashed means *not
+   real* or *not in play*; here it means *small and visible*. The caption "The
+   week is real. Only tonight is visible." holds it, but a reader who skips the
+   caption could read the ghost as "tonight doesn't count," which is not the
+   claim. The alternative is dashed for the week and a short solid bar for
+   tonight, which draws size and so drifts toward Ch07. Flagging, not changing.
+2. **The retitle stands open.** The sweep's collision finding against Ch07 (both
+   plates titled around a tally) is unresolved until he rules on the Mechanism
+   line.
