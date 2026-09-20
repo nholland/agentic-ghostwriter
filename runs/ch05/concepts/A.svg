@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Remaining Nails, concept A, the altitude test">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:13px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.6}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE REMAINING NAILS</text>
+    <text class="sub" x="320" y="66">Zoom out until the thing is at its actual scale.</text>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="130" y="102">IN THE ROOM</text>
+    <text class="lbl" x="400" y="102">FROM ABOVE</text>
+  </g>
+  <g class="rule" fill="none"><path d="M44 116h552"/></g>
+
+  <!-- row one: the small fight, gone from altitude -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="158" y="140" width="44" height="44"/>
+    <rect x="454" y="155" width="13" height="13"/>
+  </g>
+  <g fill="currentColor">
+    <text class="cap" x="180" y="204">what time to get up in the morning</text>
+    <text class="cap" x="461" y="204">almost nothing from up here</text>
+  </g>
+  <g class="rule" fill="none"><path d="M44 222h552"/></g>
+
+  <!-- row two: the thing that does not shrink -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="158" y="244" width="44" height="44"/>
+    <rect x="439" y="244" width="44" height="44"/>
+  </g>
+  <g fill="currentColor">
+    <text class="cap" x="180" y="308">the thing that never got said</text>
+    <text class="cap" x="461" y="308">it did not shrink, so say it</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 348h552"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="320" y="374">Most fights are small. The one that stays big from up there is the one you have to go back to.</text>
+    <text class="cap" x="320" y="402">Parrhesia, frank speech: say it plainly, then let it land however it lands.</text>
+  </g>
+</svg>

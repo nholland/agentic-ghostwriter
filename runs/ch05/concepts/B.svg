@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Remaining Nails, concept B, the same man leaving two fights">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:13px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.6}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE REMAINING NAILS</text>
+    <text class="sub" x="320" y="66">Are you leaving the fight the same size you were when it started?</text>
+  </g>
+
+  <!-- row one: it went quiet -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="236" y="130" width="26" height="76"/>
+    <rect x="456" y="166" width="26" height="40"/>
+  </g>
+  <g class="ln" fill="none" stroke-linecap="round"><path d="M214 206h292"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
+    <path d="M262 130h220"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="168">IT WENT QUIET</text>
+    <text class="capl" x="44" y="187">nobody came back to it</text>
+    <text class="cap" x="359" y="150">the fight stops</text>
+    <text class="cap" x="359" y="226">walked in his size, walked out smaller</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 252h552"/></g>
+
+  <!-- row two: he went back and said it -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="236" y="286" width="26" height="76"/>
+    <rect x="456" y="286" width="26" height="76"/>
+  </g>
+  <g class="ln" fill="none" stroke-linecap="round"><path d="M214 362h292"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
+    <path d="M262 286h194"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="324">YOU GO BACK</text>
+    <text class="capl" x="44" y="343">you say the true thing, calm</text>
+    <text class="cap" x="359" y="306">the same fight</text>
+    <text class="cap" x="359" y="382">walked out the size he walked in</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 396h552"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="320" y="420">Parrhesia, frank speech: you govern the saying, never how it lands.</text>
+  </g>
+</svg>

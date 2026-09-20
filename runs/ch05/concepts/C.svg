@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Remaining Nails, concept C, the room cools and the thing runs on">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:13px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.8}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE REMAINING NAILS</text>
+    <text class="sub" x="320" y="66">The fight ends before the real thing gets said.</text>
+  </g>
+
+  <!-- the temperature in the room: up, then back to calm -->
+  <g class="ln" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 236c34 0 44-98 96-98s62 98 96 98h308"/>
+  </g>
+  <g class="rule" fill="none"><path d="M96 236h500"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="192" y="126">the temperature in the room</text>
+    <text class="capl" x="300" y="228">quiet again, so you call it over</text>
+    <text class="capl" x="44" y="240">calm</text>
+  </g>
+
+  <!-- the thing that needed to be said, running on past the quiet -->
+  <g class="ln" fill="none" stroke-linecap="round">
+    <path d="M192 300h404"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
+    <path d="M192 236v64"/>
+    <path d="M288 236v64"/>
+  </g>
+  <g fill="currentColor">
+    <text class="cap" x="330" y="326">the thing that needed to be said, still running, with interest</text>
+  </g>
+
+  <!-- the only cut in the lower line -->
+  <g class="ln" fill="none" stroke-linecap="round"><path d="M512 286v28"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="512" y="356">going back and saying it</text>
+    <text class="cap" x="512" y="372">is the only thing that ends this one</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 392h552"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="320" y="416">Parrhesia, frank speech: say the true thing once you are calm, and let her answer be hers.</text>
+  </g>
+</svg>
