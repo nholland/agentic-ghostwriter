@@ -16,7 +16,28 @@ land() gates on status()'s behind_main/ahead_of_main, both computed against orig
 **Checked:**
 
 ```
-Measured 2026-09-20 in /home/user/agentic-ghostwriter: git rev-list --max-parents=0 main -> c74fe66; same for origin/main -> cbb7a37, fcb3fcb; 'git merge-base main HEAD' -> none; 'git merge-base origin/main HEAD' -> 1ccc0cf; 'git merge-base --is-ancestor c74fe66 origin/main' -> non-zero. git reflog show origin/main -> @{2} 4eb8325 'storing head', @{1} 9d8a346 'forced-update', @{0} 1ccc0cf 'fast-forward'. git reflog show main -> single entry, 'branch: Created from refs/remotes/origin/main' at 4eb8325. Local main's tip 4eb8325 is contained in origin/claude/book-resolution-script-u8ad59, origin/claude/dreamy-gates-52bn4v and origin/claude/gateway-sgjaao, so repointing loses nothing.
+Corrected 2026-09-20 - two measurements below were false when originally
+written, not merely stale; both are struck and replaced. Re-measured in
+/home/user/agentic-ghostwriter: git rev-list --max-parents=0 main -> c74fe66;
+git rev-list --max-parents=0 origin/main -> d34a3ec (a SINGLE root - the
+original entry named two ordinary commits, cbb7a37 and fcb3fcb, which both
+have parents and cannot be --max-parents=0 output; that line was
+reconstructed, not pasted, and is withdrawn). 'git merge-base --is-ancestor
+c74fe66 origin/main' -> non-zero, which is the measurement that actually
+carries this item's claim, and still reproduces. git reflog show origin/main
+-> eight entries; the forced-update is @{6} 11ee076 'forced-update', not
+9d8a346, which is @{3}: update by push (the original entry quoted a
+three-entry reflog with the wrong SHA on the wrong verb; withdrawn).
+
+REMEDY ALREADY APPLIED in this container, 2026-09-20: git reflog show main
+now includes 'main@{3}: branch: Reset to origin/main', and 'git merge-base
+--is-ancestor main origin/main' now exits 0. This item's original repro
+('--land then died on unrelated histories') will not reproduce here anymore -
+that is expected, not a sign the defect is fixed. The code defect itself is
+untouched and still live: sync.py L78-79 measure origin/main; L162-163
+checkout and merge LOCAL main; nothing asserts the two are the same ref. A
+future container that hits the same one-time drift (or any future forced
+remote history change) will hit the same unguarded gap.
 ```
 
 **What unblocks this:** Whether land() asserts 'git merge-base --is-ancestor main origin/main' before checkout, refusing with the remedy named in words, and whether say_status labels its comparison as being against origin/main

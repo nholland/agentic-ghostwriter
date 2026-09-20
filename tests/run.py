@@ -691,6 +691,23 @@ def inbox_cases():
                         "closing without repeating --applied-by must not lose the proof command --add already recorded",
                         text))
 
+        # --close must not crash on an --applied-by containing a backslash-
+        # digit sequence (e.g. a sed capture group), which re.sub's
+        # replacement argument otherwise parses as its own backreference
+        # (found 2026-09-20, closing #049: the exact shape of --applied-by a
+        # data-repair fix naturally reaches for).
+        rc_bs, out_bs = run_raw("--add", "backref shaped proof", "--raised-by", "gw-retro",
+                                "--chapter", "0", *common, "--applied-by",
+                                r"test $(ls | sed -n 's/\(a\)/\1/p') -eq x")
+        bs_id = out_bs.strip().split("-> ")[-1].split("/")[-1].split("-")[0] if "-> " in out_bs else None
+        rc_bs2, out_bs2 = (None, None)
+        if bs_id:
+            rc_bs2, out_bs2 = run_raw("--close", str(int(bs_id)), "--resolution", "fixture close")
+        out.append((bs_id is not None and rc_bs2 == 0,
+                    "inbox --close survives a backreference-shaped --applied-by",
+                    "re.sub's replacement must be a function, not an f-string, or a sed-capture-group proof command crashes do_close outright",
+                    (rc_bs, rc_bs2, out_bs2)))
+
         # A gw-retro item proved by tests/run.py must show --prove-* flags -
         # see prove_cases() for the full red/green enforcement, which needs
         # its own git repo and is kept separate from this function's

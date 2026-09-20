@@ -299,14 +299,19 @@ def do_close(a, items):
             # never applied; inbox.py reported "nothing waiting on the author"
             # while okf_gate.py was still red. "Resolved" has to mean the thing
             # is true, not that he said something.
+            # re.sub's replacement arg is a function here, never an f-string -
+            # a --applied-by command containing a backslash-digit sequence
+            # (e.g. a sed capture group) is otherwise parsed as a regex
+            # backreference and crashes do_close outright (found 2026-09-20).
             done = "resolved" if not applied_by else "ruled"
-            text = re.sub(r"^status:\s*open\s*$", f"status: {done}",
+            text = re.sub(r"^status:\s*open\s*$", lambda m, done=done: f"status: {done}",
                           text, count=1, flags=re.MULTILINE)
             if "resolved:" not in text:
                 text = text.replace("---\n\n", f"resolved: {now()}\n---\n\n", 1)
             if applied_by:
                 if re.search(r"^applied_by:.*$", text, flags=re.MULTILINE):
-                    text = re.sub(r"^applied_by:.*$", f"applied_by: {applied_by}",
+                    text = re.sub(r"^applied_by:.*$",
+                                  lambda m, applied_by=applied_by: f"applied_by: {applied_by}",
                                   text, count=1, flags=re.MULTILINE)
                 else:
                     text = text.replace("---\n\n", f"applied_by: {applied_by}\n---\n\n", 1)
