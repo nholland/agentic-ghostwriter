@@ -599,18 +599,44 @@ def streak_cases():
         real = next_mod.REPO
         next_mod.REPO = tmp
         try:
-            three = next_mod.next_action_streak("/gw 13")
-            broken = next_mod.next_action_streak("/gw 5")
+            three, three_gap = next_mod.next_action_streak("/gw 13")
+            broken, broken_gap = next_mod.next_action_streak("/gw 5")
         finally:
             next_mod.REPO = real
-        out.append((three == 3, "next: NEXT_ACTION streak counts consecutive log entries",
+        out.append((three == 3 and three_gap == 0, "next: NEXT_ACTION streak counts consecutive log entries",
                     "two consecutive reviews counted this by hand before a script owned it",
-                    three))
+                    (three, three_gap)))
         out.append((broken == 0, "next: a different Next line breaks the streak",
                     "the count must be consecutive-from-the-end, not a total, or it "
                     "reports staleness that ended sessions ago", broken))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+
+    # A malformed entry (no Next: line - a concurrent merge into one shared
+    # runs/log.md stripped it from two real entries on 2026-09-19, caught
+    # 2026-09-20) must be skipped, not read as a change of direction: the
+    # true streak was 13 of the last 14 entries and next.py reported 6.
+    tmp2 = tempfile.mkdtemp(prefix="gw-tests-streak-gap-")
+    try:
+        os.makedirs(os.path.join(tmp2, "runs"))
+        entries = ["\n## e1\n\n**Next:** `/gw 5` — x\n",
+                   "\n## e2 (malformed, no Next line)\n- `some/file.py`\n",
+                   "\n## e3\n\n**Next:** `/gw 13` — x\n",
+                   "\n## e4\n\n**Next:** `/gw 13` — x\n"]
+        open(os.path.join(tmp2, "runs", "log.md"), "w", encoding="utf-8").write(
+            "# Session log\n" + "".join(entries))
+        real = next_mod.REPO
+        next_mod.REPO = tmp2
+        try:
+            skip, skip_gap = next_mod.next_action_streak("/gw 13")
+        finally:
+            next_mod.REPO = real
+        out.append((skip == 2 and skip_gap == 1,
+                    "next: a malformed log entry is skipped, not read as a direction change",
+                    "e2 has no Next line and must not break the streak the way e1's real /gw 5 does - the true streak is e3+e4=2, with 1 entry unreadable",
+                    (skip, skip_gap)))
+    finally:
+        shutil.rmtree(tmp2, ignore_errors=True)
     return out
 
 

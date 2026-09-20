@@ -1,0 +1,22 @@
+---
+id: 051
+status: open
+raised_by: gw-retro
+chapter: 0
+opened: 2026-09-20 15:09
+applied_by: true
+---
+
+# Inbox #047's evidence was corrected twice now - the first correction (fixing fabricated evidence) itself carried forward a stale SHA and a wrong date, because it reused positional reflog references (@{N}) that shift on every fetch or push, and reused a number without re-running the command. Should inbox.py --add refuse an --evidence block that cites a positional git reference (@{N}, 'the Nth entry') instead of a dated SHA?
+
+This directly conflicts with FINDINGS 2026-09-19 07:11's decision to stop hardening the gw-retro proof-lineage rather than add another guard - so this is not a routine addition, it needs your explicit call rather than mine. The case for it: this is a different lineage (evidence content, not proof mechanics) and the failure just recurred at real cost - I (the Publisher) reproduced the exact anti-pattern while correcting the first instance of it. The case against: it is still a guard on free-text prose, and 'is this SHA actually re-measured or reused from memory' may be as undecidable as 'is this fixture about this proposal' was.
+
+**Recommendation:** your call - I would lean toward not building this (it repeats the shape the house already declined to keep hardening), but the Archivist disagrees and the evidence for disagreement is concrete
+
+**Checked:**
+
+```
+inbox/047's first correction (2026-09-20 ~14:24) claimed 'git rev-list --max-parents=0 main -> c74fe66' and 'main@{3}... 2026-09-20' - both wrong by the time they were written (main was d34a3ec-rooted since 2026-09-18 20:58, and the reflog position had already shifted). Corrected a second time with dated SHAs throughout, verified fresh at every line.
+```
+
+**What unblocks this:** whether inbox.py enforces dated-SHA evidence for future gw-retro items, or whether this specific recurrence is accepted as the residual cost of the 2026-09-19 07:11 decision

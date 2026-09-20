@@ -660,3 +660,48 @@ carries a `WHAT THIS DOES NOT DO` section naming all three holes explicitly,
 closing with an instruction not to add a ninth layer. Corpus unchanged
 (17,017). 70+ commits went into this machinery since 2026-09-18 12:00 while
 `next.py` read `/gw 13` throughout — next up.
+
+---
+
+## 2026-09-20 15:09 — Two sessions, one set of records: the house's memory does not survive concurrency
+
+Nine work commits landed from three branches in one window, merged twice. Both
+of the house's own records were damaged by that concurrency, in opposite ways,
+and neither had a check that could see it.
+
+**The inbox is one file per item, so a clean merge hid a collision.** Two
+branches each correctly computed `next_id()` as 045 and filed a different item;
+git merged both with no conflict, and `--close 045` would have bound the
+author's ruling to whichever slug sorted first. Caught by hand, renumbered to
+#048. `LEARNINGS.md` L1346-1353 holds the same collision from the old
+pipeline, "caught by hand, not by anything structural"; `runs/parked.md` P-002
+was the second instance; this is the third. #046, the proposal for a
+structural guard, was already open and unruled when it happened.
+
+**`runs/log.md` is one shared file, so a line-level merge ate two entries.**
+The 2026-09-19 06:38 entry lost its last file and its whole `**Next:**` line;
+the 13:45 entry was left a bare header. Both mid-log, so nothing appended
+after could notice. `next_action_streak()` then read each gap as a change of
+direction and reported `unchanged for 6 log entries` where the true run was 13
+of the last 14 — a plausible number, no error, in the one script whose job is
+telling the author honestly whether the house is working on the book or on
+itself. Repaired both entries from pre-merge git history (fully recoverable);
+`next_action_streak()` now skips a malformed entry and reports how many it
+skipped instead of silently undercounting.
+
+**Then the correction itself repeated the shape it was fixing.** Inbox #047's
+evidence (a real `sync.py` landing-mechanics defect) contained two fabricated-
+looking git measurements; corrected once, and the correction carried forward a
+stale SHA and mis-dated an event by two days, because it cited positional
+reflog references (`@{N}`) that shift on every fetch or push instead of dated
+SHAs. Corrected a second time, every line re-run fresh. Filed as inbox #051,
+open: whether to guard this mechanically conflicts with this file's own
+2026-09-19 07:11 entry ("stop hardening this lineage"), so it is left for the
+author rather than decided here.
+
+Lenses: what broke, and what recurs — the collision, instance three; the
+plausible number, instance eight; a correction re-fabricating what it
+corrected, new. What worked: the pulled-in window's own four-pass tombstone
+guard fix, the OKF index reconciliation (0 warnings, down from 5, without
+touching a human sentence), and the cutover finish all held under independent
+re-verification.

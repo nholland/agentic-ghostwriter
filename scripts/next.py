@@ -234,7 +234,8 @@ def branch_line():
 
 
 def next_action_streak(command):
-    """How many consecutive log entries already carried this NEXT_ACTION.
+    """How many consecutive log entries already carried this NEXT_ACTION, and
+    how many entries in that span had no 'Next:' line at all to read.
 
     Derived from runs/log.md's own 'Next:' lines - no new state file, so it
     cannot go stale the way a counter would. The old pipeline's recorded
@@ -242,18 +243,30 @@ def next_action_streak(command):
     book; nothing here counted that, and the Archivist ended up noticing it
     by hand in two consecutive reviews. Twice by hand is a thing a script
     should own.
+
+    A malformed entry (no 'Next:' line - two branches' concurrent merges into
+    one shared runs/log.md stripped this line from two entries on 2026-09-19,
+    caught 2026-09-20) is not evidence of a change in direction; it is a gap
+    the log cannot see through, and must not stop the streak the way an
+    actual different command does. It is skipped and counted separately, so
+    the caller can say a check that cannot see could not see, rather than
+    silently reporting an undercount as though it were the truth.
     """
     log = os.path.join(REPO, "runs", "log.md")
     if not os.path.isfile(log):
-        return 0
+        return 0, 0
     entries = open(log, encoding="utf-8").read().split("\n## ")[1:]
     streak = 0
+    unreadable = 0
     for e in reversed(entries):
         m = re.search(r"^\*\*Next:\*\* `([^`]+)`", e, re.M)
-        if not m or m.group(1).strip() != command.strip():
+        if not m:
+            unreadable += 1
+            continue
+        if m.group(1).strip() != command.strip():
             break
         streak += 1
-    return streak
+    return streak, unreadable
 
 
 def render(state):
@@ -280,9 +293,10 @@ def render(state):
     L.append("")
     L.append(f"NEXT_ACTION: {n['command']}")
     L.append(f"  {n['why']}")
-    streak = next_action_streak(n["command"])
+    streak, unreadable = next_action_streak(n["command"])
     if streak >= 5:
-        L.append(f"  unchanged for {streak} log entries - that many sessions have "
+        gap = f" ({unreadable} more unreadable, skipped)" if unreadable else ""
+        L.append(f"  unchanged for {streak} log entries{gap} - that many sessions have "
                  f"gone somewhere other than the book")
     return "\n".join(L)
 
