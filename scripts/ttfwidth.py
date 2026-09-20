@@ -1,3 +1,4 @@
+"""ttfwidth.py - text widths from a TrueType file's own tables, for plate_check.py; no font library is installable here."""
 import struct
 def metrics(path):
     d=open(path,'rb').read()
