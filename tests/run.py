@@ -705,8 +705,29 @@ def log_check_cases():
     out.append((len(log_check.entries(same_minute)) == 2,
                 "log_check: two sessions in the same minute are distinct entries",
                 "keying on the timestamp collapses them, and a genuinely lost "
-                "entry would hide behind a same-minute survivor", 
+                "entry would hide behind a same-minute survivor",
                 len(log_check.entries(same_minute))))
+
+    # The exemption set must not be a timestamp. Its first version was, matched
+    # with head[:16], which would have excused any session finishing in that
+    # minute on any branch - and the 26-entry restore made exactly that mistake
+    # one level down, leaving nine entries behind. Both halves are pinned: a
+    # real legacy entry stays exempt, and a same-minute impostor does not.
+    legacy = sorted(log_check.LEGACY_MALFORMED)[0]
+    ts = legacy[:16]
+    exempt_real = ("# Session log\n\n## " + legacy + "\n\n")
+    impostor = ("# Session log\n\n## " + ts +
+                " — `other-branch` — 1 commit(s) this session\n\n")
+    out.append((log_check.structure_breaches(exempt_real) == [],
+                "log_check: a proven legacy entry stays exempt",
+                "it was malformed where it was written, in every commit that "
+                "carries it; failing on it would teach its reader to ignore the check",
+                log_check.structure_breaches(exempt_real)))
+    out.append((len(log_check.structure_breaches(impostor)) == 1,
+                "log_check: a bare timestamp must not exempt another session in the same minute",
+                "the exemption is keyed on the whole heading line; keyed on the "
+                "timestamp it excuses any branch that finished in that minute",
+                log_check.structure_breaches(impostor)))
     return out
 
 

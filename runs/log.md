@@ -20,6 +20,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
+## 2026-09-14 10:52 — `claude/dreamy-gates-52bn4v` @ `8d403b7` — 1 commit(s) this session
+- `.claude/state/session-start-sha`
+- `runs/log.md`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
 ## 2026-09-14 10:57 — `claude/dreamy-gates-52bn4v` @ `3319189` — 3 commit(s) this session
 - `.claude/state/retro-done-d8e6dd8c3ec1`
 - `.claude/state/session-start-sha`
@@ -42,6 +48,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 ## 2026-09-14 11:11 — `claude/dreamy-gates-52bn4v` @ `e175126` — 2 commit(s) this session
 - `.claude/state/retro-done-c754864aabc6`
+- `.claude/state/session-start-sha`
+- `runs/log.md`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 11:11 — `claude/dreamy-gates-52bn4v` @ `fc484d3` — 1 commit(s) this session
 - `.claude/state/session-start-sha`
 - `runs/log.md`
 
@@ -266,6 +278,17 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
+## 2026-09-14 14:23 — `claude/gateway-sgjaao` — 2 commit(s) this session
+- `.claude/agents/gw-lineeditor.md`
+- `.claude/skills/gw-inbox/SKILL.md`
+- `.claude/skills/gw-qa/SKILL.md`
+- `.claude/skills/gw-refine/SKILL.md`
+- `FINDINGS.md`
+- `runs/log.md`
+- `scripts/inbox.py`
+- `scripts/practice_sync.py`
+- `scripts/session_log.py`
+
 ## 2026-09-14 19:42 — `claude/gateway-sgjaao` — ? commit(s) this session
 - `docs/manual.html`
 
@@ -466,6 +489,14 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
+## 2026-09-15 11:05 — `claude/dreamy-gates-52bn4v` — 2 commit(s) this session
+- `docs/manual.html`
+- `runs/log.md`
+- `scripts/manual.py`
+- `scripts/manual_content.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
 ## 2026-09-15 11:15 — `claude/dreamy-gates-52bn4v` — 4 commit(s) this session
 - `docs/manual.html`
 - `runs/log.md`
@@ -557,6 +588,13 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
 - `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
 - `runs/ch12/research.md`
+- `runs/log.md`
+- `runs/parked.md`
+
+**Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
+
+## 2026-09-15 17:03 — `claude/gateway-iqyyso` — 2 commit(s) this session
+- `runs/ch12/interview.md`
 - `runs/log.md`
 - `runs/parked.md`
 
@@ -798,6 +836,34 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
+## 2026-09-15 17:58 — `claude/gateway-iqyyso` — 22 commit(s) this session
+- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
+- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
+- `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
+- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
+- `runs/appendix/practice-guide.md`
+- `runs/ch12/brief-gaps.md`
+- `runs/ch12/conformance-refined.md`
+- `runs/ch12/conformance.md`
+- `runs/ch12/distillation.md`
+- `runs/ch12/draft.md`
+- `runs/ch12/interview.md`
+- `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
+- `runs/ch12/okf/citations/bunt-hazelwood-2017-love-languages-self-regulation.md`
+- `runs/ch12/okf/citations/chapman-1992-five-love-languages.md`
+- `runs/ch12/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch12/okf/citations/impett-park-muise-2024-love-languages-evaluated.md`
+- `runs/ch12/okf/citations/marcus-aurelius-meditations-4-24-do-few-things.md`
+- `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
+- `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
+- `runs/ch12/refined.md`
+- `runs/ch12/research.md`
+- `runs/log.md`
+- `runs/parked.md`
+- `runs/retro/2026-09-15-ch12-dry-run.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
 ## 2026-09-15 18:03 — `claude/gateway-iqyyso` — 26 commit(s) this session
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
@@ -867,6 +933,14 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-16 11:16 — `claude/gateway-iqyyso` — 2 commit(s) this session
+- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
+- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
+- `runs/log.md`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
@@ -1087,6 +1161,14 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
+## 2026-09-16 14:17 — `claude/gateway-iqyyso` — 2 commit(s) this session
+- `inbox/016-which-is-your-primary-love-language-your-own-rec.md`
+- `inbox/017-every-man-loves-touch-cannot-be-printed-three-wa.md`
+- `inbox/018-your-older-record-says-your-primary-love-languag.md`
+- `runs/log.md`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
 ## 2026-09-16 14:26 — `claude/gateway-iqyyso` — 5 commit(s) this session
 - `inbox/015-your-book-has-two-visual-languages-and-no-style-.md`
 - `inbox/016-which-is-your-primary-love-language-your-own-rec.md`
@@ -1170,6 +1252,14 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 ## 2026-09-17 05:40 — `claude/gateway-iqyyso` — 1 commit(s) this session
 - `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
 - `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `scripts/chapter_pdf_local.py`
+
+**Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-17 05:40 — `claude/gateway-iqyyso` — 2 commit(s) this session
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.html`
+- `runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf`
+- `runs/log.md`
 - `scripts/chapter_pdf_local.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.

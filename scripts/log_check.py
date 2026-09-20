@@ -54,11 +54,18 @@ LOG = os.path.join(REPO, "runs", "log.md")
 # miss this script exists to catch.
 HEADING = re.compile(r'^## (\d{4}-\d{2}-\d{2} \d{2}:\d{2}[^\n]*)', re.M)
 
-# Entries that were written without a body and never had one in ANY commit.
-# Exempted by name rather than by a date cutoff or a pattern, so the exemption
-# cannot silently widen to cover real damage: adding one means proving, as this
-# one was proved, that no commit in history ever carried a body for it.
-BORN_EMPTY = {"2026-09-14 11:51"}
+# Entries that were already malformed where they were written, verified against
+# every commit that carries them. Keyed by the WHOLE heading line, like every
+# other key here: the first version of this set held a bare timestamp and was
+# matched with head[:16], which would have exempted any session finishing in
+# that minute on any branch - the same timestamp-as-key collapse this file's own
+# fixtures exist to prevent, written twenty lines from where it was caught.
+# Adding an entry means proving, as these two were proved against 3ba52c7,
+# a846d9c^1, 8d5d7da and 93ba770, that no commit ever carried it whole.
+LEGACY_MALFORMED = {
+    "2026-09-14 11:51 — `claude/gateway-sgjaao` @ `93ba770` — ? commit(s) this session",
+    "2026-09-14 14:23 — `claude/gateway-sgjaao` — 2 commit(s) this session",
+}
 
 
 def entries(text):
@@ -74,7 +81,7 @@ def entries(text):
 def structure_breaches(text):
     bad = []
     for head, block in entries(text).items():
-        if head[:16] in BORN_EMPTY:   # keyed by timestamp; the key is the full line
+        if head in LEGACY_MALFORMED:
             continue
         files = len(re.findall(r'^- `', block, re.M))
         nxt = len(re.findall(r'^\*\*Next:\*\*', block, re.M))
@@ -94,16 +101,39 @@ def union_breaches():
         r = subprocess.run(["git", "-C", REPO, *a], capture_output=True, text=True)
         return r.stdout if r.returncode == 0 else None
 
-    parents = (git("rev-list", "--parents", "-n", "1", "HEAD") or "").split()
-    if len(parents) < 3:          # sha + 2 parents = a merge
+    # Walk every merge that touched the log, not just HEAD. The first version
+    # only looked at HEAD, and the Stop hook commits the session's work paths
+    # BEFORE calling this - so HEAD is a work commit by then and the check
+    # printed "UNCHECKED" on the very commit that shipped it. Of the four merges
+    # that have ever touched runs/log.md, exactly one was HEAD at a Stop, and it
+    # was not a846d9c - the incident this script was written for, which would
+    # have sailed past. A check wired to a condition that is almost never true
+    # is not a check; it is Rule 4's "a gate that cannot see".
+    merges = (git("log", "--merges", "--format=%H", "--", "runs/log.md") or "").split()
+    if not merges:
         return [], False
+    cur = entries(open(LOG, encoding="utf-8").read())
+    # A heading may legitimately disappear: session_log.py drops a restatement
+    # whose file set repeats the previous entry's, and five were removed by hand
+    # on that rule. So the invariant is about CONTENT, not headings - a lost
+    # heading is a breach only when no surviving entry carries the same file
+    # set. Stated as headings alone it forbids the dedup the house performs on
+    # purpose, and a check that fails on correct behaviour gets switched off.
+    survives = {frozenset(re.findall(r'^- `([^`]+)`', b, re.M)) for b in cur.values()}
     missing = set()
-    result = set(entries(open(LOG, encoding="utf-8").read()))
-    for p in parents[1:]:
-        t = git("show", f"{p}:runs/log.md")
-        if t is None:
-            continue
-        missing |= set(entries(t)) - result
+    for m in merges:
+        parents = (git("rev-list", "--parents", "-n", "1", m) or "").split()
+        for p in parents[1:]:
+            t = git("show", f"{p}:runs/log.md")
+            if t is None:
+                continue
+            for head, block in entries(t).items():
+                if head in cur:
+                    continue
+                files = frozenset(re.findall(r'^- `([^`]+)`', block, re.M))
+                if files and files in survives:
+                    continue          # its content lives on under another heading
+                missing.add(head)
     return sorted(missing), True
 
 
@@ -127,7 +157,7 @@ def main():
         return 1 if (struct or lost) else 0
 
     if not struct and not lost:
-        tail = "union checked against both parents" if union_ran else "union UNCHECKED (HEAD is not a merge)"
+        tail = "union checked against every merge parent" if union_ran else "union UNCHECKED (no merge has touched the log)"
         print(f"log_check: {total} entries intact - structure ok, {tail}.")
         return 0
 
