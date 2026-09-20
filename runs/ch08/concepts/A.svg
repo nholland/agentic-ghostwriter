@@ -1,0 +1,99 @@
+<!-- ROUGH THUMBNAIL, concept A. Not a deliverable plate. Carrier: the same weeks
+     landing on the same scale twice, uncounted and named. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Tipping Scale, concept A">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lblc{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:middle}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .fall{stroke:currentColor;stroke-width:1.1;fill:none;stroke-dasharray:3 5;opacity:.45}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE TIPPING SCALE</text>
+    <text class="sub" x="320" y="66">The tip feels sudden. It never is.</text>
+    <text class="cap" x="320" y="92">The same weeks land on both of these.</text>
+  </g>
+
+  <!-- LEFT: uncounted -->
+  <g fill="currentColor">
+    <text class="lblc" x="172" y="120">UNCOUNTED</text>
+  </g>
+  <g fill="currentColor" opacity=".55">
+    <circle cx="104" cy="140" r="3"/>
+    <circle cx="130" cy="146" r="3"/>
+    <circle cx="156" cy="138" r="3"/>
+    <circle cx="182" cy="147" r="3"/>
+    <circle cx="208" cy="139" r="3"/>
+    <circle cx="234" cy="145" r="3"/>
+  </g>
+  <g class="fall">
+    <path d="M104 148v96"/><path d="M130 154v86"/><path d="M156 146v100"/>
+    <path d="M182 155v84"/><path d="M208 147v96"/><path d="M234 153v86"/>
+  </g>
+
+  <g class="ln" stroke="currentColor">
+    <path d="M172 232 158 292h28z"/>
+    <path d="M148 292h48"/>
+    <path d="M84 252 260 220"/>
+    <path d="M84 252v24"/><path d="M260 220v24"/>
+    <path d="M62 276q22 14 44 0"/>
+    <path d="M238 244q22 14 44 0"/>
+  </g>
+  <g fill="currentColor" opacity=".55">
+    <circle cx="70" cy="272" r="2.7"/><circle cx="78" cy="273" r="2.7"/>
+    <circle cx="86" cy="273" r="2.7"/><circle cx="94" cy="272" r="2.7"/>
+    <circle cx="74" cy="265" r="2.7"/><circle cx="82" cy="266" r="2.7"/>
+    <circle cx="90" cy="265" r="2.7"/><circle cx="98" cy="266" r="2.7"/>
+    <circle cx="78" cy="258" r="2.7"/><circle cx="86" cy="259" r="2.7"/>
+    <circle cx="94" cy="258" r="2.7"/><circle cx="82" cy="251" r="2.7"/>
+  </g>
+  <g fill="currentColor">
+    <text class="cap" x="172" y="326">Nothing said out loud, so all of it</text>
+    <text class="cap" x="172" y="344">stays on and one day it tips.</text>
+  </g>
+
+  <!-- RIGHT: named as it lands -->
+  <g fill="currentColor">
+    <text class="lblc" x="468" y="120">NAMED AS IT LANDS</text>
+  </g>
+  <g fill="currentColor" opacity=".55">
+    <circle cx="400" cy="140" r="3"/>
+    <circle cx="426" cy="146" r="3"/>
+    <circle cx="452" cy="138" r="3"/>
+    <circle cx="478" cy="147" r="3"/>
+    <circle cx="504" cy="139" r="3"/>
+    <circle cx="530" cy="145" r="3"/>
+  </g>
+  <g class="fall">
+    <path d="M400 148v28"/><path d="M426 154v22"/><path d="M452 146v30"/>
+    <path d="M478 155v21"/><path d="M504 147v29"/><path d="M530 153v23"/>
+  </g>
+  <!-- each one stopped by being said out loud -->
+  <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M392 180h16"/><path d="M418 180h16"/><path d="M444 180h16"/>
+    <path d="M470 180h16"/><path d="M496 180h16"/><path d="M522 180h16"/>
+  </g>
+
+  <g class="ln" stroke="currentColor">
+    <path d="M468 232 454 292h28z"/>
+    <path d="M444 292h48"/>
+    <path d="M380 236 556 236"/>
+    <path d="M380 236v24"/><path d="M556 236v24"/>
+    <path d="M358 260q22 14 44 0"/>
+    <path d="M534 260q22 14 44 0"/>
+  </g>
+  <g fill="currentColor">
+    <text class="cap" x="460" y="326">Each one said out loud, so none of</text>
+    <text class="cap" x="460" y="344">it stacks and the scale holds level.</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 384h552"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="320" y="410">Nothing tips that you name on the day it lands.</text>
+  </g>
+</svg>

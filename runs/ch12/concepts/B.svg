@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Thing With No Deadline, concept B">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .lblc{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:middle}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE THING WITH NO DEADLINE</text>
+    <text class="sub" x="320" y="66">Real effort, made in your own shape, can still land flat.</text>
+  </g>
+
+  <!-- the place it has to reach -->
+  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".6">
+    <path d="M470 130v210"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lblc" x="470" y="118">WHAT SHE READS AS CARE</text>
+  </g>
+
+  <!-- the language you are best at: heaviest effort, stops short -->
+  <g fill="currentColor" opacity=".85">
+    <rect x="90" y="196" width="282" height="8"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="90" y="178">THE LANGUAGE YOU ARE BEST AT</text>
+    <text class="capl" x="90" y="226">the one you reach for without thinking</text>
+  </g>
+
+  <!-- the language you are worst at: lightest effort, goes through -->
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <path d="M90 296h456"/>
+  </g>
+  <g fill="currentColor" opacity=".85">
+    <rect x="540" y="290" width="11" height="11"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="90" y="278">THE LANGUAGE YOU ARE WORST AT</text>
+    <text class="capl" x="90" y="322">the one that never occurs to you</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 388h552"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="412">The shape you are worst at is usually the one she reads best.</text>
+  </g>
+</svg>

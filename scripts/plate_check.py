@@ -277,8 +277,9 @@ def corpus(chapter_dir_candidates, run_dir):
     return normalise('\n'.join(parts))
 
 
-def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None):
-    """[(status, name, detail)] where status is 'ok', 'WARN' or 'FAIL'."""
+def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, render=False):
+    """[(status, name, detail)] where status is 'ok', 'WARN' or 'FAIL'.
+    render=True adds the ink row, which rasterises the plate (a few seconds)."""
     out = []
     raw = open(svg_path, 'rb').read()
     try:
@@ -394,7 +395,92 @@ def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None):
         det.append('drawing off centre with no mirror and no text on its axis: ' + ', '.join(lone))
     out.append(('WARN' if det else 'ok', 'alignment', '; '.join(det) if det else
                 f'{len(mids)} centred texts on the axis or a shared column; {len(groups)} drawing blocks centred or mirrored'))
+
+    if render:
+        margin = 60 if part is not None else 40
+        try:
+            bands = ink(svg_path, margin=margin)
+            hot = {k: v for k, v in bands.items() if v > 40}   # antialiasing noise is under 40 px at 3x
+            out.append(('FAIL' if hot else 'ok', 'ink',
+                        'rendered ink inside the %dpx margin bands: %s' % (margin, ', '.join('%s=%d' % kv for kv in hot.items()))
+                        if hot else 'no rendered ink inside the %dpx margin bands (dark px %s)' % (margin, bands)))
+        except Exception as e:
+            out.append(('WARN', 'ink', 'render failed, unchecked: %s' % str(e)[:120]))
     return out
+
+
+def png_rows(path):
+    """Decode an 8-bit non-interlaced RGB/RGBA PNG (what Chromium writes) into
+    rows of pixel tuples, with no image library: none is installable here."""
+    import struct
+    import zlib
+    d = open(path, 'rb').read()
+    assert d[:8] == b'\x89PNG\r\n\x1a\n', 'not a PNG'
+    pos, idat, w, h, bpp = 8, [], 0, 0, 0
+    while pos < len(d):
+        ln, typ = struct.unpack('>I4s', d[pos:pos + 8])
+        body = d[pos + 8:pos + 8 + ln]
+        if typ == b'IHDR':
+            w, h, depth, ctype = struct.unpack('>IIBB', body[:10])
+            assert depth == 8 and ctype in (2, 6) and body[12] == 0, 'unsupported PNG layout'
+            bpp = 3 if ctype == 2 else 4
+        elif typ == b'IDAT':
+            idat.append(body)
+        pos += 12 + ln
+    raw = zlib.decompress(b''.join(idat))
+    stride = w * bpp
+    rows, prev = [], bytearray(stride)
+    p = 0
+    for _ in range(h):
+        f = raw[p]
+        cur = bytearray(raw[p + 1:p + 1 + stride])
+        p += 1 + stride
+        for i in range(stride):
+            a = cur[i - bpp] if i >= bpp else 0
+            b = prev[i]
+            c = prev[i - bpp] if i >= bpp else 0
+            if f == 1:
+                cur[i] = (cur[i] + a) & 255
+            elif f == 2:
+                cur[i] = (cur[i] + b) & 255
+            elif f == 3:
+                cur[i] = (cur[i] + (a + b) // 2) & 255
+            elif f == 4:
+                pa, pb, pc = abs(b - c), abs(a - c), abs(a + b - 2 * c)
+                pr = a if pa <= pb and pa <= pc else (b if pb <= pc else c)
+                cur[i] = (cur[i] + pr) & 255
+        rows.append(bytes(cur))
+        prev = cur
+    return w, h, bpp, rows
+
+
+def ink(svg_path, margin=40, scale=3, tmp=None):
+    """Render the plate and count dark pixels in the four margin bands. The
+    Ch9 right label overshot its grid by 11px in the real render while the
+    font-estimate rows passed it; the Designer caught it by measuring ink."""
+    from chapter_pdf_local import svg_to_png
+    tmp = tmp or os.path.join(os.environ.get('TMPDIR', '/tmp'), 'plate-ink-%d.png' % os.getpid())
+    svg_to_png(svg_path, tmp, scale=scale)
+    w, h, bpp, rows = png_rows(tmp)
+    try:
+        os.remove(tmp)
+    except OSError:
+        pass
+    m = margin * scale
+    bands = {'left': 0, 'right': 0, 'top': 0, 'bottom': 0}
+    for y, row in enumerate(rows):
+        for x in range(w):
+            r, g, b = row[x * bpp], row[x * bpp + 1], row[x * bpp + 2]
+            if r + g + b < 384:
+                if x < m:
+                    bands['left'] += 1
+                elif x >= w - m:
+                    bands['right'] += 1
+                if y < 4 * scale:
+                    bands['top'] += 1
+                elif y >= h - 4 * scale:
+                    bands['bottom'] += 1
+    return bands
 
 
 def default_book_root():
@@ -423,11 +509,13 @@ def main(argv=None):
     ap.add_argument('--part', type=int)
     ap.add_argument('--book-root')
     ap.add_argument('--runs-root')
+    ap.add_argument('--no-render', action='store_true',
+                    help='skip the ink row (the render takes a few seconds per plate)')
     a = ap.parse_args(argv)
     bad = 0
     for p in a.svg:
         print(p)
-        for status, name, detail in rows(p, a.chapter, a.part, a.book_root, a.runs_root):
+        for status, name, detail in rows(p, a.chapter, a.part, a.book_root, a.runs_root, render=not a.no_render):
             tag = {'ok': '[ ok ]', 'WARN': '[WARN]', 'FAIL': '[FAIL]'}[status]
             print(f'  {tag} {name:<11} {detail}')
             if status == 'FAIL':

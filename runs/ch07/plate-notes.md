@@ -155,3 +155,44 @@ caption and the closing line are visible.
    by its Mechanism. If he wants plates titled by framework instead, this is the
    plate to say so on, because `design/plates/small-rocks-big-rocks.svg` still
    exists untouched and would become the chapter plate again.
+
+---
+
+## Round 3 (2026-09-20 19:25)
+
+**What changed.** One line of copy, on the author's own words: the third entry in
+WHAT YOU COUNTED goes from *The day off work* to *Cleaning the kitchen*. His
+reason, verbatim: "On the private tally, let's swap the day off work with
+cleaning the kitchen. The day off work is a bit vague." Nothing else on the plate
+moved.
+
+**Author addition, recorded as such.** *Cleaning the kitchen* is the author's
+phrase, not the chapter's. Ch7's prose names the router and the coaching weekend;
+it does not name the kitchen. The plate is therefore carrying one item that a
+reader will not meet in the text. That is his call and he made it, but it needs
+to survive into `plate-brief.md` under an **Author additions** heading when that
+file is written, so a later desk does not "correct" it back to the prose.
+
+**Checker output, verbatim**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch07/plate.svg
+
+runs/ch07/plate.svg
+  clean
+```
+
+**What the render showed.** The new line sits well inside its rule: at the widest
+plausible serif fallback it runs 76..232 against a rule that ends at 284, so there
+is no crowding in any font. It is also the most concrete of the three entries now,
+which helps the plate stand on its own: a router, a coaching weekend, a kitchen
+are all things a reader can picture without the chapter.
+
+**A note against the new standard.** The author's standing rule from this session
+is "these plates need to stand on their own even if somebody hasn't read the
+chapter." This plate passes on the left column and the field of marks. The
+**right column is still empty by design**, and a cold reader may read that as
+*she counted nothing* rather than *you never saw her page*. That is the same
+open question raised in Round 1, and the new standard sharpens it rather than
+settling it. Still one word from him: four words inside the dashed box, *you never
+saw this page*, would close it.

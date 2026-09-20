@@ -2,8 +2,8 @@
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
-    .txt{font:13px Georgia,serif;opacity:.86}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .txt{font:13px Georgia,serif;opacity:.86;text-anchor:start}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
     .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
@@ -17,57 +17,59 @@
     <text class="sub" x="320" y="66">You never named the deal, so she never agreed to it.</text>
   </g>
 
-  <!-- what went out, and what was quietly expected back -->
+  <!-- Two columns on one grid: left edge 44, right edge 596, so the pair is
+       centred on 320 and spans exactly the width of the rule below. -->
   <g fill="currentColor">
-    <text class="lbl" x="44" y="104">WHAT YOU GAVE</text>
-    <text class="lbl" x="352" y="104">WHAT YOU EXPECTED</text>
+    <text class="lbl" x="44" y="100">WHAT YOU GAVE</text>
+    <text class="lbl" x="404" y="100">WHAT YOU EXPECTED</text>
   </g>
 
   <g fill="currentColor">
-    <text class="txt" x="44" y="140">A night you did everything she wanted</text>
-    <text class="txt" x="44" y="172">A plan you went along with, not yours</text>
-    <text class="txt" x="44" y="204">Her story, heard all the way through</text>
-    <text class="txt" x="352" y="140">Respect</text>
-    <text class="txt" x="352" y="172">Warmth</text>
-    <text class="txt" x="352" y="204">Being asked about</text>
+    <text class="txt" x="44" y="132">A night you did everything she wanted</text>
+    <text class="txt" x="44" y="160">A plan you went along with, not yours</text>
+    <text class="txt" x="44" y="188">Her story, heard all the way through</text>
+    <text class="txt" x="404" y="132">Respect</text>
+    <text class="txt" x="404" y="160">Warmth</text>
+    <text class="txt" x="404" y="188">Being heard</text>
   </g>
 
-  <!-- the yes goes out -->
+  <!-- the yes goes out: one arrow per row, in the gutter between the columns -->
   <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M304 135h28"/><path d="M304 167h28"/><path d="M304 199h28"/>
+    <path d="M345 127h36"/><path d="M345 155h36"/><path d="M345 183h36"/>
   </g>
   <g fill="currentColor">
-    <path d="M340 135l-10-4v8z"/>
-    <path d="M340 167l-10-4v8z"/>
-    <path d="M340 199l-10-4v8z"/>
+    <path d="M389 127l-10-4v8z"/>
+    <path d="M389 155l-10-4v8z"/>
+    <path d="M389 183l-10-4v8z"/>
   </g>
 
-  <!-- the return trip, empty -->
+  <!-- the return trip, empty: it spans both columns, 596 back to 44 -->
   <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
-    <path d="M576 248H68"/>
+    <path d="M596 222H56"/>
   </g>
   <g fill="currentColor" opacity=".5">
-    <path d="M56 248l12-5v10z"/>
+    <path d="M44 222l12-5v10z"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="320" y="276">Nothing comes back, and you never once asked for it.</text>
+    <text class="cap" x="320" y="250">Nothing comes back, and you never once asked for it.</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 300h552"/></g>
+  <g class="rule" fill="none"><path d="M44 272h552"/></g>
 
-  <!-- where the shortfall goes -->
+  <!-- where the shortfall goes: one centred stack, lines on 320 and the
+       gloss directly under them -->
   <g fill="currentColor">
-    <text class="cap" x="320" y="326">Every yes that does not come back becomes a line on a list.</text>
+    <text class="cap" x="320" y="296">Every yes that does not come back becomes a line on a list.</text>
   </g>
   <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".8">
-    <path d="M170 344h210"/>
-    <path d="M170 358h210"/>
-    <path d="M170 372h210"/>
-    <path d="M170 386h210"/>
-    <path d="M170 400h128"/>
+    <path d="M215 316h210"/>
+    <path d="M215 330h210"/>
+    <path d="M215 344h210"/>
+    <path d="M215 358h210"/>
+    <path d="M215 372h128"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="486" y="374">a list only you are keeping</text>
-    <text class="cap" x="320" y="420">Say it plainly and kindly, while the list is still short.</text>
+    <text class="cap" x="320" y="392">a list only you are keeping</text>
+    <text class="cap" x="320" y="424">Say it plainly and kindly, while the list is still short.</text>
   </g>
 </svg>

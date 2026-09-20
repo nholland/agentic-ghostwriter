@@ -1,0 +1,69 @@
+<!-- ROUGH THUMBNAIL, concept B. Not a deliverable plate. Carrier: a surface line,
+     with weeks of small uncounted things stacking under it until one crosses. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Tipping Scale, concept B">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round}
+    .fall{stroke:currentColor;stroke-width:1.1;fill:none;stroke-dasharray:3 5;opacity:.45}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE TIPPING SCALE</text>
+    <text class="sub" x="320" y="66">The day it surfaces is not the day it started.</text>
+  </g>
+
+  <!-- the one that came up -->
+  <g fill="currentColor"><circle cx="492" cy="184" r="5"/></g>
+  <g class="fall"><path d="M492 192v14"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="492" y="166">the one you argue about</text>
+  </g>
+
+  <!-- the surface -->
+  <g class="ln" stroke="currentColor"><path d="M56 210h528"/></g>
+  <g fill="currentColor">
+    <text class="lbl" x="56" y="200">WHAT YOU NOTICE</text>
+    <text class="lbl" x="56" y="232">WHAT YOU NEVER COUNTED</text>
+  </g>
+
+  <!-- weeks, stacking -->
+  <g fill="currentColor" opacity=".55">
+    <circle cx="96" cy="334" r="3"/><circle cx="96" cy="323" r="3"/>
+    <circle cx="132" cy="334" r="3"/><circle cx="132" cy="323" r="3"/><circle cx="132" cy="312" r="3"/>
+    <circle cx="168" cy="334" r="3"/><circle cx="168" cy="323" r="3"/><circle cx="168" cy="312" r="3"/>
+    <circle cx="204" cy="334" r="3"/><circle cx="204" cy="323" r="3"/><circle cx="204" cy="312" r="3"/><circle cx="204" cy="301" r="3"/>
+    <circle cx="240" cy="334" r="3"/><circle cx="240" cy="323" r="3"/><circle cx="240" cy="312" r="3"/><circle cx="240" cy="301" r="3"/><circle cx="240" cy="290" r="3"/>
+    <circle cx="276" cy="334" r="3"/><circle cx="276" cy="323" r="3"/><circle cx="276" cy="312" r="3"/><circle cx="276" cy="301" r="3"/><circle cx="276" cy="290" r="3"/>
+    <circle cx="312" cy="334" r="3"/><circle cx="312" cy="323" r="3"/><circle cx="312" cy="312" r="3"/><circle cx="312" cy="301" r="3"/><circle cx="312" cy="290" r="3"/><circle cx="312" cy="279" r="3"/>
+    <circle cx="348" cy="334" r="3"/><circle cx="348" cy="323" r="3"/><circle cx="348" cy="312" r="3"/><circle cx="348" cy="301" r="3"/><circle cx="348" cy="290" r="3"/><circle cx="348" cy="279" r="3"/><circle cx="348" cy="268" r="3"/>
+    <circle cx="384" cy="334" r="3"/><circle cx="384" cy="323" r="3"/><circle cx="384" cy="312" r="3"/><circle cx="384" cy="301" r="3"/><circle cx="384" cy="290" r="3"/><circle cx="384" cy="279" r="3"/><circle cx="384" cy="268" r="3"/><circle cx="384" cy="257" r="3"/>
+    <circle cx="420" cy="334" r="3"/><circle cx="420" cy="323" r="3"/><circle cx="420" cy="312" r="3"/><circle cx="420" cy="301" r="3"/><circle cx="420" cy="290" r="3"/><circle cx="420" cy="279" r="3"/><circle cx="420" cy="268" r="3"/><circle cx="420" cy="257" r="3"/><circle cx="420" cy="246" r="3"/>
+    <circle cx="456" cy="334" r="3"/><circle cx="456" cy="323" r="3"/><circle cx="456" cy="312" r="3"/><circle cx="456" cy="301" r="3"/><circle cx="456" cy="290" r="3"/><circle cx="456" cy="279" r="3"/><circle cx="456" cy="268" r="3"/><circle cx="456" cy="257" r="3"/><circle cx="456" cy="246" r="3"/><circle cx="456" cy="235" r="3"/>
+    <circle cx="492" cy="334" r="3"/><circle cx="492" cy="323" r="3"/><circle cx="492" cy="312" r="3"/><circle cx="492" cy="301" r="3"/><circle cx="492" cy="290" r="3"/><circle cx="492" cy="279" r="3"/><circle cx="492" cy="268" r="3"/><circle cx="492" cy="257" r="3"/><circle cx="492" cy="246" r="3"/><circle cx="492" cy="235" r="3"/><circle cx="492" cy="224" r="3"/>
+  </g>
+
+  <!-- the ones you said out loud, off the pile -->
+  <g class="fall">
+    <path d="M132 340v14"/><path d="M204 340v14"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".7">
+    <circle cx="132" cy="362" r="4"/><circle cx="204" cy="362" r="4"/>
+  </g>
+
+  <g class="rule" fill="none"><path d="M56 346h528"/></g>
+  <g fill="currentColor">
+    <text class="capl" x="222" y="366">said out loud, so it never stacked</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 388h552"/></g>
+  <g fill="currentColor">
+    <text class="cap" x="320" y="412">Name each one as it lands, and nothing has to surface.</text>
+  </g>
+</svg>

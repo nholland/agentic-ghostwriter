@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Thing With No Deadline, concept A">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .txt{font:13px Georgia,serif;opacity:.86;text-anchor:start}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE THING WITH NO DEADLINE</text>
+    <text class="sub" x="320" y="66">A week gets done in the order of what has a day attached.</text>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="60" y="106">THE WEEK’S NECESSARY THINGS</text>
+    <text class="lbl" x="430" y="106">THE DAY IT LANDS</text>
+  </g>
+
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".8">
+    <path d="M60 142h330"/>
+    <path d="M60 178h330"/>
+    <path d="M60 214h330"/>
+    <path d="M60 250h330"/>
+  </g>
+  <g fill="currentColor">
+    <text class="txt" x="60" y="136">The mortgage</text>
+    <text class="txt" x="60" y="172">The kid’s game, eight on a Saturday</text>
+    <text class="txt" x="60" y="208">Work</text>
+    <text class="txt" x="60" y="244">Everything else that shouts</text>
+  </g>
+  <g fill="currentColor" opacity=".85">
+    <rect x="440" y="128" width="11" height="11"/>
+    <rect x="440" y="164" width="11" height="11"/>
+    <rect x="440" y="200" width="11" height="11"/>
+    <rect x="440" y="236" width="11" height="11"/>
+  </g>
+
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".8">
+    <path d="M60 306h330"/>
+  </g>
+  <g fill="currentColor">
+    <text class="txt" x="60" y="300">Something that was for her alone</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
+    <rect x="430" y="284" width="56" height="26" fill="none"/>
+  </g>
+  <g fill="currentColor">
+    <text class="capl" x="430" y="330">the line left blank</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 388h552"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="412">The ones with a day attached got done. Give this one a day too.</text>
+  </g>
+</svg>
