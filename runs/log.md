@@ -1247,6 +1247,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 13` — Chapter 13 has not started.
 
+## 2026-09-19 07:02 — `claude/gateway-brzxoo` — 1 commit(s) this session
+- `runs/notes.md`
+- `runs/parked.md`
+
+**Next:** `/gw 13` — Chapter 13 has not started.
+
 ## 2026-09-19 07:11 — `claude/gateway-tmjrgm` — 10 commit(s) this session
 - `.claude/agents/gw-retro.md`
 - `FINDINGS.md`
@@ -1292,6 +1298,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 13` — Chapter 13 has not started.
 
+## 2026-09-19 13:45 — `claude/gateway-brzxoo` — 32 commit(s) this session
 ## 2026-09-19 13:57 — `claude/gateway-qve5zb` — 34 commit(s) this session
 - `.claude/agents/gw-retro.md`
 - `.claude/hooks/retro-check.sh`
@@ -1301,6 +1308,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `GAPS.md`
 - `agents/gw-retro.md`
 - `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/05-framework.md`
 - `docs/manual.html`
 - `inbox/033-the-archivist-s-review-window-collapsed-to-empty.md`
 - `inbox/034-retro-window-cases-guarded-its-first-read-of-ret.md`
@@ -1327,6 +1335,16 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 13` — Chapter 13 has not started.
 
+## 2026-09-19 15:03 — `claude/gateway-brzxoo` — ? commit(s) this session
+- `inbox/045-should-gw-signal-step-0-become-a-stop-condition-.md`
+- `inbox/046-two-branches-can-allocate-the-same-inbox-number-.md`
+
+**Next:** `/gw 13` — Chapter 13 has not started.
+
+## 2026-09-20 14:24 — `claude/gateway-brzxoo` — 1 commit(s) this session
+- `inbox/047-should-sync-py-land-refuse-when-local-main-is-no.md`
+
+**Next:** `/gw 13` — Chapter 13 has not started.
 ## 2026-09-20 14:29 — `claude/gateway-qve5zb` — 1 commit(s) this session
 - `CLAUDE.md`
 - `scripts/next.py`
@@ -1335,3 +1353,15 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `tests/run.py`
 
 **Next:** `/gw 13` — Chapter 13 has not started.
+- `runs/design/svgcheck.py`
+- `runs/log.md`
+- `runs/notes.md`
+- `runs/parked.md`
+- `scripts/inbox.py`
+- `scripts/session_log.py`
+- `scripts/toolcheck.py`
+- `tests/prove.py`
+- `tests/run.py`
+
+**Next:** `/gw 13` — Chapter 13 has not started.
+
