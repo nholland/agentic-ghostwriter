@@ -170,7 +170,9 @@ def svg_to_png(svg_path, png_path, scale=3):
     src = open(svg_path, encoding="utf-8").read()
     m = re.search(r'viewBox="[\d.]+ [\d.]+ ([\d.]+) ([\d.]+)"', src)
     w, h = (float(m.group(1)), float(m.group(2))) if m else (640.0, 450.0)
-    wrap = f"<!doctype html><style>*{{margin:0;padding:0}}body{{width:{w}px;height:{h}px}}svg{{display:block;width:{w}px;height:{h}px}}</style>{src}"
+    # The charset is not optional: without it Chromium sniffs the file, and
+    # the Ch11 title's curly apostrophe came out as three garbage glyphs.
+    wrap = f"<!doctype html><meta charset='utf-8'><style>*{{margin:0;padding:0}}body{{width:{w}px;height:{h}px}}svg{{display:block;width:{w}px;height:{h}px}}</style>{src}"
     tmp = png_path + ".html"
     open(tmp, "w", encoding="utf-8").write(wrap)
     env = dict(os.environ, NODE_PATH=node_modules())

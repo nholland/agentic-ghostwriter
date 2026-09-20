@@ -104,3 +104,45 @@ runs/ch11/plate.svg
    word.
 2. **"Forty times" is printed on the plate.** Sourced above. Flagged because a
    number on a diagram is the thing readers photograph and quote back.
+
+## Round 2 (2026-09-20 17:45)
+
+**Verdict acted on:** EDIT, small. All of it is subtraction except the title.
+
+**Panel edits applied.** Retitled to the distillation's exact Mechanism, **THE
+CONVERSATION SHE'S NEVER HEARD**, in the title and in the root `aria-label`. The
+displayed FORTY TIMES / ZERO pair is cut, per the panel's recommendation to keep
+the subtitle instead: the same two figures were set twice, in the two largest
+type sizes on the plate. One of the three closing lines is cut. Canvas came in
+from 430 to 390 and the divider and both remaining lines moved up with it.
+
+**The line I cut, and why it is a question.** The panel said the two say the same
+thing and did not say which to keep. I kept *"Each pass makes the next one more
+expensive."* and cut *"Raise it now and you are also defending the delay."* The
+kept line reads faster at phone width; the cut one is closer to the
+distillation's Challenge wording. Easy to swap.
+
+**Not applied, with the panel's agreement.** The three-way sort (a door, no door,
+friction) is still not drawn. The sort is the chapter's coverage; the silence is
+its mechanism, and the mechanism is what a plate draws.
+
+**Checker output, verbatim**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch11/plate.svg
+
+runs/ch11/plate.svg
+  clean
+```
+
+**What the render showed.** With the two big numerals gone, the argument is the
+pair of boxes: one packed with identical bars, one dashed and empty with *nothing
+said out loud* in the middle of it. The numbers survive where they belong, in the
+subtitle, said as a sentence.
+
+**For the author to rule on**
+
+1. **Which of the two closing lines stays** (above).
+2. **The apostrophe.** The title now carries a curly apostrophe in SHE'S, to
+   match the distillation exactly. If plate titles should stay straight-quoted
+   for the typesetter, say so and it is one character.

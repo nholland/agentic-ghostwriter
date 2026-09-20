@@ -106,3 +106,43 @@ Rendered at 3x through `scripts/chapter_pdf_local.py` and looked at.
 2. **"a list only you are keeping"** is the plate's label for the tally. The
    chapter calls it both a list and a gunnysack. The plate uses only the list,
    for the one-image rule. Ruling wanted only if he wants the sack drawn instead.
+
+## Round 2 (2026-09-20 17:45)
+
+**Verdict acted on:** EDIT, trim. Nothing was added.
+
+**Panel edits applied.** The three short dashed stubs to the right of *Respect /
+Warmth / Being asked about* are gone; they duplicated the long return arrow and
+read as unfinished drawing. One closing line is gone. The canvas came in from 460
+to 440 and the kept line moved up with it.
+
+**The line I cut, and why it is a question.** The panel said cut one and keep
+*"Say it plainly and kindly, while the list is still short."* So the line that
+went is *"Kept up long enough, that is not peace. It is apathy with better
+manners."* That is the chapter's title claim in one sentence, and it is the only
+place on the plate where the cost of the silence is named. I cut it as
+instructed, and I am flagging it rather than quietly choosing for him.
+
+**Kept, deliberately.** The ruled list with *a list only you are keeping*, which
+the panel called the best mark on the plate and the one that connects to Ch11's
+box; the long dashed return arrow that comes back empty, which is the carrier.
+
+**Checker output, verbatim**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch09/plate.svg
+
+runs/ch09/plate.svg
+  clean
+```
+
+**What the render showed.** The right-hand column is quieter now and the eye
+follows three arrows out, then one long dashed line back with nothing on it, then
+the list. Ten-second read: everything went one way and the list is his alone.
+
+**For the author to rule on**
+
+1. **The apathy line.** Restore it, or leave the plate with one closing line? The
+   panel's cross-set finding is that these plates carry too much italic copy, and
+   this is the cheapest place to prove it. But "silence is not peace" is the
+   chapter's name.

@@ -95,3 +95,63 @@ before the reader PDF is compiled or this plate loses its argument.
    chapter plates should be titled by their mechanism, this is a one-line
    change to the copy, and then the book has two files with the same drawing
    and different titles, which I would rather he decided than I did.
+
+## Round 2 (2026-09-20 17:45)
+
+**Verdict acted on:** REPLACE CONCEPT. The reuse of
+`design/plates/small-rocks-big-rocks.svg` is gone; this is the Designer's own
+option 1 from the round-1 ruling above, drawn.
+
+**Panel edits applied, all of them.** Retitled **THE PRIVATE TALLY** (aria-label
+matches the distillation's Mechanism). Two ruled columns headed WHAT YOU COUNTED
+and WHAT SHE COUNTED, ruled identically; the left carries three legible entries,
+the right is completely empty. Both stand on one shared field, captioned *the
+part neither column reached*. Subtitle kept: *The ledger can only count what it
+can see.* Closing line added, as written: *Half the data, and it always said you
+were ahead.* Nothing else was added.
+
+**Copy, and where it comes from.** The three entries are the chapter's own
+examples from beat one: "The router, that Tuesday" ("The internet goes down on a
+Tuesday night... You reset the router"), "The coaching weekend" ("an entire
+weekend at a tournament three hours away, coaching your kid's team"), "The day
+off work" ("The day you took off work for the family"). No number appears
+anywhere: the 60/40 line, Pillemer and the 7,000-couple study stay off the plate,
+same as round 1.
+
+**One drawing decision the panel did not name.** The right column's frame and
+rules are **dashed**, the left's solid. That is the set's existing grammar for
+*not visible to you*, and it is a mark rather than a sentence, so it does the
+work a gloss would otherwise have to do. See the ruling below.
+
+**The dot problem, fixed.** Ch7's field and Ch8's pan both used filled round dots
+for different things. Ch7's field is now a field of **short tally strokes** (the
+mechanism is a tally, and these are the marks nobody made); Ch8 keeps the round
+dots as units of weight. The two are now different marks at a glance.
+
+**Checker output, verbatim**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch07/plate.svg
+
+runs/ch07/plate.svg
+  clean
+```
+
+**What the render showed.** Ten-second read: my page has three lines written on
+it, her page has the same lines and I cannot read one of them, and under both
+sits a field far larger than either column. The tally strokes read as marks, not
+as texture, and they are plainly not the same object as Ch8's dots. No
+collisions; the rasteriser now captures the full canvas, and both the field
+caption and the closing line are visible.
+
+**For the author to rule on**
+
+1. **The empty column can be misread as "she counted nothing."** The dashed rules
+   say *you never saw this page*, but they say it quietly. The one-gloss fix
+   would be four words inside the right column, *you never saw this page*. The
+   panel did not ask for it and the brief said not to add copy, so it is not
+   there. One word from him and it goes in.
+2. **The round-1 title question is now closed in practice**: this plate is titled
+   by its Mechanism. If he wants plates titled by framework instead, this is the
+   plate to say so on, because `design/plates/small-rocks-big-rocks.svg` still
+   exists untouched and would become the chapter plate again.

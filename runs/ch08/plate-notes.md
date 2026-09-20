@@ -96,3 +96,54 @@ compiled. All visual checks in these notes were made through a padded window
 
 1. **The tipped-weight position or label** (above). Until he rules, the
    deliverable is the approved plate, unchanged.
+
+## Round 2 (2026-09-20 17:45)
+
+**Verdict acted on:** EDIT. The scale is kept; the panel called it the strongest
+physical object in the set.
+
+**Panel edits applied, all three.** The raised pan is now named: *everything you
+told yourself was fine*, so the balance has a second term. *Relitigating the last
+one misses where the weight came from* is now **Arguing about the last one misses
+where the weight came from** ("relitigating" was the least plain word on any
+plate). The corrective is on the plate for the first time, one line under the
+loaded pan: *Name each one as it lands, and nothing has to tip* — the chapter's
+first practice, and the Lesson arriving as something you can do rather than a
+diagnosis.
+
+**Two things the panel did not name, done anyway.** The drawing sat in the middle
+of a canvas with a third of the height empty above it; the whole scale and its
+four glosses moved up 68px and the canvas came in from 420 to 350, so the plate
+is denser at phone width. And the file's opening comment no longer calls itself a
+proposal: it is the chapter plate, and it records the one geometry change from
+`design/plates/tipping-scale.svg` (the last small weight sits on the loaded side,
+because Ch8's prose says the last one is another small one landing on the same
+pile). The source file in `design/plates/` is still untouched by this desk.
+
+**Not applied.** Nothing. The two Stoic tools of the chapter's Lesson (Marcus's
+true-or-not-true test, Seneca's deed that pays itself) are still absent: they are
+two tools for two directions, and drawing both would make a second plate. The
+single corrective line covers the direction the drawing is about.
+
+**Checker output, verbatim**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch08/plate.svg
+
+runs/ch08/plate.svg
+  clean
+```
+
+(Two margin failures were fixed in between, both on the new copy: the pan label
+at 613px and the corrective line at 375px against the 596 and 44 bounds.)
+
+**What the render showed.** The scale now has two named sides, and the eye goes
+loaded pan, raised pan, then the line that says what to do. The dot mass and the
+single falling dot still read as the same kind of object, which is the point of
+that pan. Ch7's field no longer uses this mark.
+
+**For the author to rule on**
+
+1. **The raised pan's label sits below and right of the pan**, not on it, because
+   at 12px the copy is 266px wide and the pan is 64px. If he wants it visually
+   attached, the copy has to get shorter, and the panel wrote that copy.

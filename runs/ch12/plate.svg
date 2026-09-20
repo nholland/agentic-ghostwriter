@@ -1,61 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" style="color:#1a1a1a" role="img" aria-label="The Muscle You Stopped Using">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" style="color:#1a1a1a" role="img" aria-label="The Thing With No Deadline">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
-    .txt{font:14px Georgia,serif;opacity:.86}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .txt{font:13px Georgia,serif;opacity:.86;text-anchor:start}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
-    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
 
-  <rect x="0" y="0" width="640" height="460" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="390" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE MUSCLE YOU STOPPED USING</text>
-    <text class="sub" x="320" y="66">Nobody took it away. It shrank while you were busy.</text>
+    <text class="ttl" x="320" y="40">THE THING WITH NO DEADLINE</text>
+    <text class="sub" x="320" y="66">Nobody calls you at work about this one.</text>
   </g>
 
-  <!-- the three Epictetus names, each kept at full size by the doing -->
+  <g fill="currentColor">
+    <text class="lbl" x="60" y="108">THE WEEK’S NECESSARY THINGS</text>
+  </g>
+
+  <!-- the things with a day attached, each one marked -->
   <g fill="currentColor" opacity=".82">
-    <rect x="196" y="112" width="364" height="20"/>
-    <rect x="196" y="150" width="364" height="20"/>
-    <rect x="196" y="188" width="364" height="20"/>
+    <rect x="60" y="136" width="10" height="10"/>
+    <rect x="60" y="170" width="10" height="10"/>
+    <rect x="60" y="204" width="10" height="10"/>
+    <rect x="60" y="238" width="10" height="10"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".8">
+    <path d="M60 154h280"/>
+    <path d="M60 188h280"/>
+    <path d="M60 222h280"/>
+    <path d="M60 256h280"/>
   </g>
   <g fill="currentColor">
-    <text class="lbl" x="44" y="127">WALKING</text>
-    <text class="lbl" x="44" y="165">RUNNING</text>
-    <text class="lbl" x="44" y="203">READING</text>
-    <text class="cap" x="320" y="234">Each one is kept by doing it. Nothing else keeps it.</text>
+    <text class="txt" x="84" y="148">The mortgage</text>
+    <text class="txt" x="84" y="182">The kid’s game, eight on a Saturday</text>
+    <text class="txt" x="84" y="216">Work</text>
+    <text class="txt" x="84" y="250">Everything else that shouts</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 262h552"/></g>
-
-  <!-- the same rule, in the corner nobody aimed at -->
+  <!-- the line nothing was written on, and no mark beside it -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".8">
+    <path d="M60 296h280"/>
+  </g>
   <g fill="currentColor">
-    <text class="cap" x="320" y="288">The same rule, in the one corner you never aimed at.</text>
+    <text class="capl" x="84" y="316">her</text>
   </g>
 
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
-    <rect x="196" y="308" width="364" height="20"/>
+  <!-- one shape stops short of the line; one reaches it -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
+    <path d="M390 276 354 290"/>
   </g>
-  <g fill="currentColor" opacity=".82">
-    <rect x="196" y="308" width="74" height="20"/>
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+    <path d="M390 318 340 297"/>
   </g>
-  <g fill="currentColor" opacity=".38">
-    <rect x="276" y="308" width="20" height="20"/>
-  </g>
-
   <g fill="currentColor">
-    <text class="lbl" x="44" y="323">ROMANCE</text>
-    <text class="cap" x="44" y="340" style="text-anchor:start;font-size:10.5px">no deadline, nobody watching</text>
-    <text class="cap" x="286" y="366">tonight</text>
-    <text class="cap" x="430" y="366">where it used to reach</text>
+    <text class="capl" x="398" y="272">said in your language</text>
+    <text class="capl" x="398" y="324">heard in hers</text>
   </g>
+
+  <g class="rule" fill="none"><path d="M44 344h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="394">Nothing here is gone. It is only out of use.</text>
-    <text class="cap" x="320" y="414">It comes back the way it was built, by doing it.</text>
-    <text class="src" x="320" y="440">After Epictetus, Discourses 2.18</text>
+    <text class="cap" x="320" y="370">Everything on this list had a day attached. One thing did not.</text>
   </g>
 </svg>
