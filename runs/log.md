@@ -1527,3 +1527,11 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `inbox/052-should-inbox-py-add-refuse-an-applied-by-that-al.md`
 
 **Next:** `/gw 13` — Chapter 13 has not started.
+
+## 2026-09-20 15:47 — `claude/gateway-45bnh4` — ? commit(s) this session
+- `runs/manuscript/README.md`
+- `runs/manuscript/manuscript-prologue-ch12-2026-09-20.md`
+- `runs/manuscript/the-stoic-husband-prologue-ch12-2026-09-20.html`
+- `runs/manuscript/the-stoic-husband-prologue-ch12-2026-09-20.pdf`
+
+**Next:** `/gw 13` — Chapter 13 has not started.
