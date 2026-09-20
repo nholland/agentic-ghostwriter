@@ -1706,3 +1706,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/chapter_pdf_local.py`
 
 **Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
+
+## 2026-09-20 17:57 — `claude/gateway-45bnh4` — 6 commit(s) this session
+- `inbox/062-land-py-copies-a-chapter-plate-into-books-with-n.md`
+- `inbox/063-svg-to-png-silently-lost-the-bottom-fifth-of-eve.md`
+- `inbox/064-retro-check-sh-overwrites-retro-window-on-every-.md`
+- `inbox/065-is-a-chapter-plate-always-titled-by-the-distilla.md`
+- `inbox/066-the-reader-panel-proposes-three-set-wide-rules-f.md`
+- `inbox/067-round-2-label-calls-on-the-redrawn-plates-ch9-lo.md`
+- `runs/ch01/plate-notes.md`
+- `runs/ch01/plate.svg`
+- `runs/ch02/plate-notes.md`
+- `runs/ch02/plate.svg`
+- `runs/ch04/plate-notes.md`
+- `runs/ch04/plate.svg`
+- `runs/ch05/plate-notes.md`
+- `runs/ch05/plate.svg`
+- `runs/ch06/plate-notes.md`
+- `runs/ch06/plate.svg`
+- `runs/ch07/plate-notes.md`
+- `runs/ch07/plate.svg`
+- `runs/ch08/plate-notes.md`
+- `runs/ch08/plate.svg`
+- `runs/ch09/plate-notes.md`
+- `runs/ch09/plate.svg`
+- `runs/ch11/plate-notes.md`
+- `runs/ch11/plate.svg`
+- `runs/ch12/plate-notes.md`
+- `runs/ch12/plate.svg`
+- `runs/design/2026-09-20-plate-reader-review.md`
+- `runs/manuscript/README.md`
+- `runs/manuscript/ch01-plate.png`
+- `runs/manuscript/ch02-plate.png`
+- … and 15 more
+
+**Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
