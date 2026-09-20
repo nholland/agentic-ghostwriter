@@ -85,3 +85,51 @@ it is not using the same call, or the bottom of every plate will be missing.
   page sizes in a reader PDF. I left the reused plate at its own size rather
   than reflowing the author's layout. Say the word and I will reset it to
   640x430.
+
+## Round 2 (2026-09-20 17:45)
+
+Reader Panel review `runs/design/2026-09-20-plate-reader-review.md`, section 2,
+Ch01: EDIT. Every edit it named was applied.
+
+**Applied.** Cut both time labels (*half a second*, *two and a half seconds*),
+which is what fought the title. Cut the bracket measure and the displayed
+THREE SECONDS. The span now carries two end labels only: *she says something*
+at the left end, *the words are already out* at the right. The dark block is
+relabelled **THE GAP**, the distillation's Mechanism name. Two short strokes now
+rise out of that block at the same place, one solid glossed *chosen*, one dashed
+glossed *inherited*: the chapter's own "chosen or inherited" made a mark rather
+than a sentence, which is the panel's cross-set fix (section 4, the Lesson as a
+mark). Closing line reworded off measurement to *"The part you choose is the
+small one. It is still the one that decides."*
+
+The block widened from 87px to 120px so both strokes stand inside it with room
+to gloss them. It is still plainly the small part of the span, which is what the
+closing line claims.
+
+**Not applied.** Nothing the panel asked for was declined.
+
+**Checker output, verbatim:**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch01/plate.svg
+
+runs/ch01/plate.svg
+  clean
+```
+
+**What the render showed.** Rendered with `chapter_pdf_local.svg_to_png` and
+read at full size and at phone width. The eye lands on the black block, then on
+the two strokes standing in it, then on the two end labels. The solid and the
+dashed stroke are legible against white at phone width because they sit above
+the block, not inside it. No quantitative register remains: there is no number
+anywhere on the plate. Nothing collides, and the strokes clear the dashed
+stroke's gloss by more than the checker's 10px clearance.
+
+**For the author to rule on.**
+
+1. **Plate title versus Mechanism.** This plate is still titled by the chapter,
+   THE THREE-SECOND WINDOW, while the distillation's Mechanism is **The Gap**,
+   now the label on the dark block. The panel's edit put the Mechanism on the
+   block and left the title alone; the standing house question ("are chapter
+   plates titled by Mechanism") would retitle the plate THE GAP and leave the
+   block unlabelled. One word, one file, your call.

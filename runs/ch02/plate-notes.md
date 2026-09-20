@@ -90,3 +90,53 @@ this file.
   precedent (the rule, then the corner nobody aimed at). If you read it as two
   plates' worth, the fix is to cut track two and let the chapter carry the
   corrective.
+
+## Round 2 (2026-09-20 17:45)
+
+Reader Panel review, section 2, Ch02: EDIT. The panel's diagnosis was that the
+labels did the work the drawing should, with solid-versus-dashed on one thin
+rule carrying the whole argument.
+
+**Applied.** Row two is redrawn: her weather now runs in and **stops**, there is
+a real white gap, and **the governing part is a short upright stroke standing in
+that gap**, drawn at 2.6 against the tracks' 1.5 so it reads as an object rather
+than a line style. Your own weather starts on the far side of the gap as its own
+line. The dashed continuation is gone, so nothing on this plate now depends on
+telling solid from dashed. Row one keeps the same two tick marks at the same two
+x positions and runs straight through them, so the difference between the rows
+is a physical break in one place, not a change of texture. THE MIRROR is
+relabelled **YOU, MATCHING IT** (a mirror is not a line; a man matching her is).
+The *hegemonikon* gloss is cut, and with the Greek word gone the label THE
+GOVERNING PART is already plain English and needs no gloss.
+
+**Applied with one judgement call.** The panel said "cut one of the three
+closing lines (keep *The day is still hers...*)". I cut the *hegemonikon* line
+and moved *"Not to go cold. To bring something real through the door."* up to
+sit under row two as that row's gloss, leaving exactly one closing line. The
+alternative reading, cutting it outright, loses the chapter's explicit guard
+against reading the plate as "go cold", which is the misreading the chapter
+spends a section preventing. The plate now runs at the panel's cap: subtitle,
+one setup line, one gloss per row, one closing line.
+
+The setup line changed one word, *"What sits in the middle"* to *"What stands in
+the middle"*, because something now stands there.
+
+**Checker output, verbatim:**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch02/plate.svg
+
+runs/ch02/plate.svg
+  clean
+```
+
+**What the render showed.** The break in row two is the first thing the eye
+finds, and the upright stroke reads as planted. At phone width the two rows
+still read as the same evening twice. Row one's ticks sit at exactly the x
+values where row two breaks, which is what makes the comparison land.
+
+**For the author to rule on.**
+
+1. **The guard line as a gloss.** If you would rather the plate carry only the
+   panel's single closing line, deleting *"Not to go cold..."* is one line and
+   nothing else moves.

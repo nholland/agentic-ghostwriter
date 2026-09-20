@@ -2,11 +2,8 @@
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .el{font:600 15px Georgia,serif;letter-spacing:.18em;text-anchor:middle}
     .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
-    .txt{font:14px Georgia,serif;opacity:.86}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
-    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
     .ln{stroke:currentColor;stroke-width:1.5}
   </style>
@@ -16,45 +13,44 @@
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE MOOD MIRROR</text>
     <text class="sub" x="320" y="66">When her mood sets your mood, you've outsourced your peace.</text>
-    <text class="cap" x="320" y="102">The same evening, twice. What sits in the middle is the difference.</text>
+    <text class="cap" x="320" y="102">The same evening, twice. What stands in the middle is the difference.</text>
   </g>
 
-  <!-- track one: nothing in the middle, so it runs straight through -->
+  <!-- track one: nothing standing in the middle, so it runs straight through -->
   <g fill="currentColor">
     <text class="lbl" x="130" y="168">HER WEATHER</text>
-    <text class="lbl" x="300" y="168">THE MIRROR</text>
-    <text class="lbl" x="500" y="168">THE SAME WEATHER</text>
+    <text class="lbl" x="320" y="168">YOU, MATCHING IT</text>
+    <text class="lbl" x="510" y="168">THE SAME WEATHER</text>
   </g>
   <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M60 190h520"/>
-    <path d="M200 182v16"/><path d="M400 182v16"/>
+    <path d="M60 192h520"/>
+    <path d="M250 184v16"/><path d="M390 184v16"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="320" y="220">You match it before you notice. Two people in a low is a lower low.</text>
+    <text class="cap" x="320" y="224">You match it before you notice. Two people in a low is a lower low.</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 250h552"/></g>
+  <g class="rule" fill="none"><path d="M44 254h552"/></g>
 
-  <!-- track two: the same arrival, with the governed part in the middle -->
+  <!-- track two: the same arrival, and something of yours standing in the gap -->
   <g fill="currentColor">
-    <text class="lbl" x="130" y="308">HER WEATHER</text>
-    <text class="lbl" x="300" y="308">THE GOVERNING PART</text>
-    <text class="lbl" x="500" y="308">YOUR OWN WEATHER</text>
+    <text class="lbl" x="130" y="298">HER WEATHER</text>
+    <text class="lbl" x="320" y="298">THE GOVERNING PART</text>
+    <text class="lbl" x="510" y="298">YOUR OWN WEATHER</text>
   </g>
   <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M60 330h140"/>
-    <path d="M400 330h180"/>
-    <path d="M200 322v16"/><path d="M400 322v16"/>
+    <path d="M60 336h190"/>
+    <path d="M390 336h190"/>
+    <path d="M250 328v16"/><path d="M390 328v16"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
-    <path d="M200 330h200"/>
+  <g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+    <path d="M320 310v52"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="320" y="352">hegemonikon, the part of you that governs your own state</text>
-    <text class="cap" x="320" y="378">The day is still hers. What comes through the door is yours.</text>
+    <text class="cap" x="320" y="388">Not to go cold. To bring something real through the door.</text>
   </g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="410">Not to go cold. To bring something real through the door.</text>
+    <text class="cap" x="320" y="416">The day is still hers. What comes through the door is yours.</text>
   </g>
 </svg>

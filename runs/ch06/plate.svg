@@ -2,10 +2,9 @@
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
-    .txt{font:14px Georgia,serif;opacity:.86}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .gl{font:italic 10.5px Georgia,serif;opacity:.66;text-anchor:start}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
-    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
 
@@ -18,37 +17,30 @@
 
   <!-- the week you carried: real, and nobody can see it -->
   <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
-    <rect x="244" y="104" width="316" height="22"/>
+    <rect x="250" y="124" width="320" height="34"/>
   </g>
   <g fill="currentColor">
-    <text class="lbl" x="44" y="119">THE WEEK</text>
-    <text class="cap" x="44" y="136" style="text-anchor:start;font-size:10.5px">the bucket you emptied, with no slot on the calendar</text>
+    <text class="lbl" x="44" y="146">THE WEEK</text>
+    <text class="gl" x="44" y="178">the bucket you emptied, with no slot on the calendar</text>
   </g>
 
   <!-- tonight: the only part the room can see -->
   <g fill="currentColor" opacity=".82">
-    <rect x="244" y="166" width="316" height="22"/>
+    <rect x="250" y="216" width="320" height="34"/>
   </g>
   <g fill="currentColor">
-    <text class="lbl" x="44" y="181">TONIGHT</text>
-    <text class="cap" x="44" y="198" style="text-anchor:start;font-size:10.5px">her hands moving, yours still</text>
-    <text class="cap" x="402" y="218">The comment fires on the one the room can see.</text>
+    <text class="lbl" x="44" y="238">TONIGHT</text>
+    <text class="gl" x="44" y="270">her hands moving, yours still</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 240h552"/></g>
-
   <g fill="currentColor">
-    <text class="lbl" x="180" y="272" text-anchor="middle">READ IT ALOUD</text>
-    <text class="cap" x="180" y="298">now there are two tallies</text>
-    <text class="cap" x="180" y="318">and neither one gets shorter</text>
-    <text class="lbl" x="460" y="272" text-anchor="middle">SAY WHAT YOU SEE</text>
-    <text class="cap" x="460" y="298">“I see you’re working. Want to sit</text>
-    <text class="cap" x="460" y="318">down, or should I help first?”</text>
+    <text class="cap" x="320" y="306">The week is real. Only tonight is visible.</text>
   </g>
-  <g class="rule" fill="none"><path d="M320 256v76"/></g>
+
+  <g class="rule" fill="none"><path d="M44 344h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="368">Keeping the tally is not the problem. Reading it out is.</text>
-    <text class="cap" x="320" y="392">Read yours out and you have handed her a reason to keep one.</text>
+    <text class="cap" x="320" y="380">Keeping the tally is not the problem. Reading it out is.</text>
+    <text class="cap" x="320" y="406">Read yours out and you have handed her a reason to keep one.</text>
   </g>
 </svg>

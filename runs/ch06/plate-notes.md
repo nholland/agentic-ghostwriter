@@ -120,3 +120,48 @@ padded window instead.
    pattern and is his call, not mine.
 2. **The trimmed quoted line.** "I appreciate it." was dropped for width. If it
    matters, the fork's right column becomes three lines instead of two.
+
+## Round 2 (2026-09-20 17:45)
+
+Reader Panel review, section 2, Ch06: EDIT, cut half. The panel's finding was
+that this was two plates on one page, and that the divider split attention
+exactly where the plate should land.
+
+**Applied.** The entire lower two-column panel is cut: READ IT ALOUD, SAY WHAT
+YOU SEE, the vertical divider, and with them **the set's only quotation**, the
+scripted line in quotation marks. That removes the one place in the set where a
+plate could be photographed carrying speech. One caption is added under the
+remaining pair, the panel's wording: *"The week is real. Only tonight is
+visible."* The two closing lines are kept as the closing block, as the panel
+asked, because they are the mechanism.
+
+With half the plate gone the remaining pair was re-laid out to fill the canvas:
+both bars are wider and deeper, and each label and its gloss now sit clear of
+the bar rather than tucking under its edge.
+
+**Not applied.** Nothing the panel asked for was declined. The two bars remain
+the same length: the argument is visibility, not volume, and making the week
+longer would restate Ch07's claim about size.
+
+**Checker output, verbatim:**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch06/plate.svg
+
+runs/ch06/plate.svg
+  clean
+```
+
+**What the render showed.** The first render after the cut had the row-one gloss
+running under the dashed bar and touching it; the checker does not see
+text-on-shape collisions, the render does. Both glosses were dropped clear and
+the bars nudged. The final render reads as one comparison: a dashed empty bar
+and a solid black one, the same size, one of them visible. At phone width the
+dashed outline still reads as an outline.
+
+**For the author to rule on.**
+
+1. **The filled bar's meaning.** Here it means *visible*; the panel notes the
+   same filled bar means accruing cost on Ch03 and rehearsal on Ch11. That is a
+   book-wide call, not this plate's, and it is the panel's `design-language.md`
+   recommendation in section 4.

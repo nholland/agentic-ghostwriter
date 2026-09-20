@@ -96,3 +96,39 @@ drops everything below about 83% of the canvas. See `runs/ch01/plate-notes.md`.
   Hole Maker, so the stages went to the chapter. If you want them drawn, that
   is a second plate and a finding about the distillation, not a change to this
   one.
+
+## Round 2 (2026-09-20 17:45)
+
+Reader Panel review, section 2, Ch04: EDIT, one change, with two options. The
+panel recommended the second and that is what was done.
+
+**Applied.** The sub-caption reads **"One fence post, over the years. Hot or
+cold, both drive a nail."** Row three shows ten holes where rows one and two
+show five; with "three times" gone the drawing no longer contradicts its own
+caption, and the doubling reads as more years rather than as an error. Nothing
+else on the plate moved.
+
+**Not applied.** The panel's first option (setting the five original holes solid
+and the five later ones light grey, and relabelling row three) was not taken;
+the panel itself recommended the second as the complete fix, and greying half
+the holes would have introduced a fourth meaning for a filled dot in a set the
+panel already flags for unstable primitives.
+
+**Cross-plate.** Ch04 and Ch05 now share one nail glyph and one hole glyph
+exactly, as the brief required. Ch04 is the reference: nail as a 1.6 shaft with
+a 16px head stroke across the top, hole as a filled circle r=4, board as a 26px
+rect at stroke 1.2 and opacity .55. Ch05 was redrawn to those numbers, so the
+promise "the nail comes out, the hole stays where it was" is now the same two
+objects across the two chapters.
+
+**Checker output, verbatim:**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch04/plate.svg
+
+runs/ch04/plate.svg
+  clean
+```
+
+**What the render showed.** Unchanged from round one apart from the caption. The
+three rows still read top to bottom as one post over time.

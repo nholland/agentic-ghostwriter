@@ -176,3 +176,78 @@ under the line in plate 5.
    because the surface line has to sit above it. Caption clearance is 49px. If
    `chapter_pdf.py` crops tighter than the viewBox on that page, tell me and I
    will lift the whole field.
+
+## Round 2 (2026-09-20 17:45)
+
+Reader Panel review `runs/design/2026-09-20-plate-reader-review.md`, section 3.
+Plates 1 and 2 are untouched and were not opened. Plates 4 and 5 were not
+touched either; only `plate-3-warm-sun.svg` was redrawn.
+
+**The finding.** Plate 3 rendered as a dome or a fingerprint rather than as
+warmth or reaching; the two small gaps carrying the irregularity were far too
+subtle to be felt at page size; and it broke the set's own logic, since plates 1
+and 2 show the thing the element made while this showed an ambiguous surface.
+
+**Applied, as the panel suggested: the opening drawn plainly.** The line
+vocabulary is unchanged, which is what holds the set together: a field of
+stacked layers, black on white, one weight at 1.1, the same drawing box x
+90..510 and y 190..640, the same hand wobble, the caption in the same type at
+the same baseline. What changed is what the field does. From one point low on
+the page the layers part, and every layer laid down above it parts a little
+wider, its inner end lifting toward the opening. Below that point the layers are
+whole. The parting widens slowly at first and fast near the top, so the two arms
+are curved rather than a plain wedge.
+
+**The irregularity and the sentence it carries.** The parting itself, and the
+lift at each layer's inner end:
+
+> "Everything alive leans toward the light."
+
+That replaces round one's broken arc, which carried "It comes back every morning,
+whether or not anyone thanked it for yesterday." Both sentences are on the Part
+III page; this one is the sentence the drawing can actually show.
+
+**Form rules held, checked one by one against `parts/README.md`.** 600x900
+viewBox; white rect first; ink `#111111`; one weight throughout, no accent
+weight; `fill="none"` on every open path; no colour, no shading; no text but the
+caption; the caption is the page's last sentence verbatim, *"What it reaches,
+opens."*, at x=300, 17px Georgia italic, baseline 730, the same as plates 1, 2, 4
+and 5; nothing domestic, nothing human, no marriage vocabulary, no numbers, no
+quotation, no em-dash.
+
+The generator is kept beside the others so the plate can be re-tuned rather than
+re-invented: `runs/parts/gen-plate-3-r2.py`. It imports the shared helpers from
+`gen-plates-345.py` and writes only plate 3.
+
+**Checker output, verbatim:**
+
+```
+$ python3 runs/design/svgcheck.py runs/parts/plate-3-warm-sun.svg
+
+runs/parts/plate-3-warm-sun.svg
+  clean
+```
+
+As in round one, "clean" means the checker found no classed `<text>` to measure;
+the caption was verified by eye against `parts/part-3-warm-sun.md`.
+
+**What the renders showed.** Two rounds. The first version parted along straight
+arms and read as two symmetric blocks of lines; the parting was legible but the
+whole was static. The parting was reshaped to open slowly low down and fast near
+the top, and the lift at the inner ends was made sharper and more local, which
+is what makes the lines read as leaning rather than merely stopping. At page
+size and at phone width the opening is unmissable, which was the panel's whole
+complaint.
+
+**For the author to rule on.**
+
+1. **It can be read as an open book.** A symmetrical field parting down the
+   middle with lifted inner edges is close to the shape of a book lying open,
+   and this is a book. It is not domestic and not human, so it breaks no rule in
+   `parts/README.md`, and every reader I can simulate sees *opening* first. If
+   you see the book and it bothers you, the fix is to make the two sides
+   unequal, and I would want your word before breaking the symmetry, because the
+   symmetry is what makes the opening read.
+2. **The irregularity now carries a different sentence** from the Part III page
+   than round one's did. Both are on the page; this is a choice about which
+   sentence the plate is for.

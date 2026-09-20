@@ -97,3 +97,73 @@ existing plate including `ch12`. Rendered here through a padded window
    It is the chapter's fourth outcome ("someone has the courage to come back")
    in four words. If he wants the chapter's word "courage" in it, the caption
    can read "the one you had the courage to go back to" and still fit.
+
+## Round 2 (2026-09-20 17:45)
+
+Reader Panel review, section 2, Ch05: EDIT, structural. Ranked third worst in
+the set, and the one plate the panel said actively misleads, because Ch04's
+caption promises "the nail comes out, the hole stays where it was" and this
+plate showed a nail out and no hole.
+
+**Applied.** The plate is redrawn.
+
+- **The hole is drawn.** The dashed vertical rule is gone; in its place is a
+  filled dark circle in the board's face, **Ch04's hole glyph at Ch04's radius**.
+  The two adjacent plates now make one promise with one object.
+- **One nail glyph across both chapters.** The driven nails are Ch04's exactly:
+  1.6 shaft, 16px head stroke, 10px of nail proud of the board, board 26px deep
+  at stroke 1.2 and opacity .55. The old rect-headed nails are gone.
+- **The removed nail lies flat and blunt.** Head at the left as a short upright
+  stroke, shaft running right, `stroke-linecap="butt"` so the far end is square.
+  Nothing on it points, so it can no longer read as being driven in.
+- **It sits beside its hole.** The loose nail lies 30px above the board,
+  directly over the hole it left, so the nail and the hole read as one event.
+- **The board was raised** and the whole drawing recentred, killing the dead
+  space that used to sit above it.
+- **Relabelled** *the one you went back to* to **the one you went back and
+  said**, the panel's wording.
+- **The display-size PARRHESIA row is cut** and folded into the one closing
+  line, which glosses the term where it stands: *"Parrhesia, frank speech: said
+  once you are calm. How it lands is hers."* The gloss requirement in
+  `01-voice.md` is met on the plate, and the plate no longer uses a type size
+  nothing else in the set uses.
+
+**Not applied.** Nothing the panel asked for was declined. The closing line is
+shorter than the round-one draft because the longer version overran the right
+margin; the checker caught it and the line was cut to fit rather than shrunk.
+
+**Checker output, verbatim:**
+
+```
+$ python3 runs/design/svgcheck.py runs/ch05/plate.svg
+
+runs/ch05/plate.svg
+  clean
+```
+
+An earlier state of this same plate was not clean, and the output is kept here
+because it is what forced the wording:
+
+```
+runs/ch05/plate.svg
+  MARGIN  y=278.0 'every fight that ended before the ' 42..424
+  MARGIN  y=374.0 'Parrhesia, frank speech: said once' 36..604
+```
+
+**What the render showed.** Rendered three times. The first render had the nails
+standing 30px proud of the board, which made them read as tall posts rather than
+as Ch04's nails; they were cut back to Ch04's 10px. The second showed the
+drawing sitting high with a heavy blank bottom third; the whole drawing was
+moved down 24px. The final render reads, in this order: four nails still in, one
+lying out, a hole under it. That is the chapter.
+
+**For the author to rule on.**
+
+1. **The hole is unlabelled.** It relies on the reader having met the same dot
+   one chapter earlier, on Ch04's apology row, where the caption names it. That
+   is deliberate and it is the panel's own argument for a stable set of
+   primitives, but it does mean a reader who opens at Chapter 5 sees an
+   unexplained dot. Adding a three-word gloss is one line if you want it.
+2. **Parrhesia stays on the plate,** now glossed inside the closing line. Round
+   one raised the same question about the display row; the question survives the
+   redraw in smaller form.
