@@ -129,20 +129,57 @@ def md_to_html(md):
     return "\n".join(out)
 
 
+_NODE_PATH = None
+
+
+def node_modules():
+    global _NODE_PATH
+    if _NODE_PATH is None:
+        env = os.environ.get("NODE_PATH")
+        if env and os.path.isdir(os.path.join(env, "playwright")):
+            _NODE_PATH = env
+        else:
+            r = subprocess.run(["npm", "root", "-g"], capture_output=True, text=True)
+            _NODE_PATH = r.stdout.strip() if r.returncode == 0 else ""
+    return _NODE_PATH
+
+
+SHOT_JS = """
+const [html, png, w, h, scale, exe] = process.argv.slice(1);
+const { chromium } = require('playwright');
+(async () => {
+  const b = await chromium.launch({ executablePath: exe, args: ['--no-sandbox'] });
+  const p = await b.newPage({ viewport: { width: +w, height: +h }, deviceScaleFactor: +scale });
+  await p.goto('file://' + html);
+  await p.screenshot({ path: png });
+  await b.close();
+})().catch(e => { console.error(e.message); process.exit(1); });
+"""
+
+
 def svg_to_png(svg_path, png_path, scale=3):
+    """Rasterise an SVG at exactly its viewBox size.
+
+    Chromium's own --screenshot with --window-size loses a fixed band at the
+    bottom of every capture (the window includes chrome the viewport does
+    not), which silently cut the last three lines off the Ch12 plate in the
+    reader PDF and hid four plates' captions from the Designer. Found
+    2026-09-20 by the plate-review desk, counting dark pixels. Playwright
+    sets the viewport itself, so the capture is the canvas and nothing less.
+    """
     src = open(svg_path, encoding="utf-8").read()
     m = re.search(r'viewBox="[\d.]+ [\d.]+ ([\d.]+) ([\d.]+)"', src)
     w, h = (float(m.group(1)), float(m.group(2))) if m else (640.0, 450.0)
     wrap = f"<!doctype html><style>*{{margin:0;padding:0}}body{{width:{w}px;height:{h}px}}svg{{display:block;width:{w}px;height:{h}px}}</style>{src}"
     tmp = png_path + ".html"
     open(tmp, "w", encoding="utf-8").write(wrap)
-    subprocess.run(CHROME_CMD := [CHROME, *FLAGS,
-                                  f"--screenshot={png_path}",
-                                  f"--window-size={int(w)},{int(h)}",
-                                  f"--force-device-scale-factor={scale}",
-                                  "file://" + os.path.abspath(tmp)],
-                   check=True, capture_output=True, timeout=120)
+    env = dict(os.environ, NODE_PATH=node_modules())
+    r = subprocess.run(["node", "-e", SHOT_JS, os.path.abspath(tmp), os.path.abspath(png_path),
+                        str(int(w)), str(int(h)), str(scale), CHROME],
+                       capture_output=True, text=True, timeout=120, env=env)
     os.remove(tmp)
+    if r.returncode != 0:
+        raise RuntimeError("svg_to_png: playwright capture failed: " + (r.stderr or r.stdout).strip()[-300:])
     return w, h
 
 
