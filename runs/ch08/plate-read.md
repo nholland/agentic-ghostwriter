@@ -57,3 +57,32 @@ Read: `runs/ch08/pdf/plate.png` (cold, alone),
 `books/the-stoic-husband/chapters/ch08/distillation.md`,
 `runs/ch08/plate-pick.md`. Not read: the Ch8 prose, premise/audience/outline,
 the plate SVG or the Designer's notes.
+
+## Round 2 (2026-09-20 20:45)
+
+Plate re-viewed cold, alone, before re-reading round 1.
+
+**Cold sentence.** Little things you never counted stack on one side until one
+more small one tips the whole scale; name each as it lands and it stays level.
+
+**Skeptic's misreading.** On the right, the dots sit three-a-side across both
+pans — a defensive man can read that as an evened ledger, "name it so the
+scorekeeping comes out fair between us." Weaker than round 1's, and blocked in
+the same breath by *Name it to yourself right then.* Not a blocker.
+
+**Needs the chapter.** Nothing. Every word on the plate is self-carrying.
+
+**Off centre.** Two columns now hold equal vertical mass. Edit 5 is unmet: the
+left caption still centres under the column, not under the loaded pan, which
+sits left of it. Cosmetic.
+
+**Verdict: PASS.** The cold sentence is the Conversation sentence in the
+stranger's words — uncounted small things tipping quietly — and the drawing,
+not a caption, carries it. Round 1's misreading is gone with the two Stoic
+tests; the pick's second misreading ("the work disappears if you talk about
+it") went with them. Edits 1, 2, 3, 4 and 6 are done; the footer no longer
+repeats the subtitle.
+
+Read: `runs/ch08/pdf/plate.png` (cold, alone), then round 1 above,
+`books/the-stoic-husband/chapters/ch08/distillation.md`, `runs/ch08/plate-pick.md`.
+Not read: the Ch8 prose, premise/audience/outline, the plate SVG, Designer's notes.
