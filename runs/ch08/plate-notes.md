@@ -231,3 +231,99 @@ solid stroke.
 2. **The subtitle changed** from the approved plate's "The tip feels sudden. It
    never is." to the chapter's own words. If he wants the old line back it needs
    to enter the chapter first, or be recorded as an Author addition in the brief.
+
+## Round 3, revision from the Panel's read (2026-09-20 20:35)
+
+**Verdict acted on:** EDITS, from `runs/ch08/plate-read.md`. All six addressed;
+four applied as written, two applied in substance with the reason below.
+
+1. **Applied.** *WHEN IT LANDS ON YOU / is it true, or not true?* and *WHEN IT'S
+   YOURS / the work already paid itself* are off the plate. They were the Lesson,
+   and "the work already paid itself" printed above a level beam was the pick's
+   second misreading in ink. The plate now draws the Mechanism and nothing else.
+2. **Applied with one word changed.** The right header is **NAMED WHEN IT LANDS**,
+   not "NAMED AS IT LANDS": the grounded rule is that every run of three or more
+   words is the chapter's, and "as it lands" is nowhere in Ch8, while "when it
+   lands" is the chapter's own section heading. Same sense, chapter's words. The
+   practice line *Name it to yourself right then.* now sits where the cut block
+   was, directly under that header, as the right column's one gloss.
+3. **Applied.** The six underlines are gone. The right weights now fall on their
+   own short lines, straight down, three to each pan, and sit singly with space
+   between them: the weight arrives, nothing stacks. Contrast with the left, where
+   six lines funnel into one pan that already holds a pile.
+4. **Applied, by compression rather than by moving one row.** The dot rows stay
+   mirrored at the same height, because the argument is that the same things land
+   on both men; moving the left row alone would break that. Instead the whole
+   drawing is tighter (canvas 430 to 360, scales up 60px, beam span 160 to 120)
+   and each column now carries a header, a gloss and a drawing of equal mass.
+5. **Declined as written, addressed in the drawing.** The caption cannot centre on
+   the loaded pan: at 12px it is about 190px wide, so centred at the pan's x it
+   would cross the 40px left margin and fail the ink row, and it would be the only
+   centred text on that axis, which fails the alignment row. Rule wins. So the
+   mass moved to the caption instead: the beam is narrower, and the loaded pan
+   sits at x=108 rather than x=88, inside the caption's own width.
+6. **Applied.** The two-line footer is gone with its rule. The Conversation
+   sentence appears once, as the subtitle. *One day something small tips it.* is
+   the only line under the drawing, and it names what the left scale does.
+
+**Format checklist**
+
+- Every centred text on the axis or a shared column: title and subtitle x=320;
+  UNCOUNTED, its gloss and the closing caption all x=168; NAMED WHEN IT LANDS and
+  its gloss both x=472. Checker: 7 centred texts, none stray.
+- The two scales mirrored about the centre: left block 86..250, right 390..554,
+  exact mirror. Fulcrums at 168 and 472. Dot rows 88..248 and 392..552.
+- Drawing blocks centred or mirrored: checker counts 8, all paired.
+- Canvas 640 wide (640x360).
+- Caption count within the cap: 4 italic lines against a cap of 4 (subtitle, one
+  gloss per labelled element, one closing line). No room was left over, which is
+  why the right column has no bottom caption.
+- No bare `text-anchor` attribute: anchors are in `.ttl`, `.sub`, `.lblc`, `.cap`.
+- No em-dashes, no digits, no quotation, no invented number.
+- Nothing the chapter does not say: every phrase is `refined.md` or the
+  distillation. *Each one was too small to name.* is the chapter's "because each
+  one was too small to name"; *Name it to yourself right then.* is Practice 1;
+  *One day something small tips it.* is verbatim; the subtitle is the
+  Conversation sentence's first half.
+
+**Checker output, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch08/plate.svg --chapter 8
+
+runs/ch08/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x360
+  [ ok ] title       title 'THE TIPPING SCALE' / aria-label 'The Tipping Scale' vs Mechanism 'The Tipping Scale'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   7 centred texts on the axis or a shared column; 8 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows, and none were fixed in between: the first render of the new layout
+passed every row.
+
+**What the render showed.** The eye goes to the loaded pan and the tipped beam
+first, then across to the level one. The pile reads as a mass of the same small
+mark the falling weights are, so the weight is plainly cumulative and plainly
+small-grained. On the right the three-and-three dots sit apart and low in the
+pans, which reads as arrived and not stacked, and the level beam is the second
+thing seen. No text block outweighs the drawing now; both columns end at the same
+height and the only remaining asymmetry is the closing caption under the left
+scale, which is where the tipping is.
+
+**For the author to rule on**
+
+1. **The right scale is level with weight in both pans.** It answers the pick's
+   second misreading (the work does not vanish when you name it), but a defensive
+   reader could read two equal pans as a score kept even with her, which is what
+   Chapter 7 took apart. The alternative is empty right pans, which the last round
+   showed reads as "nothing happened". I chose the first; it is his call.
+2. **"NAMED WHEN IT LANDS"** is the Panel's label with one word swapped to stay
+   inside the chapter's vocabulary (item 2 above). If he prefers "as it lands", it
+   needs to enter the chapter or be recorded as an Author addition in the brief.
