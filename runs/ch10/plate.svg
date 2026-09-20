@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Undecided Line">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:13px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.8}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE UNDECIDED LINE</text>
+    <text class="sub" x="320" y="66">A rule folds unless you can say what it is protecting.</text>
+    <text class="cap" x="320" y="96">The rule, both times: no big spend without talking first.</text>
+  </g>
+
+  <!-- the same lean, twice -->
+  <g class="ln" fill="none" stroke-linecap="round">
+    <path d="M300 118v24"/>
+    <path d="M300 266v24"/>
+  </g>
+  <g fill="currentColor">
+    <path d="M300 150l-5-10h10z"/>
+    <path d="M300 298l-5-10h10z"/>
+  </g>
+
+  <!-- top: nothing underneath it, so it folds -->
+  <g class="ln" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 168h107l33 26 33-26h137"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
+    <rect x="212" y="212" width="176" height="26" fill="none"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="173">UNDECIDED</text>
+    <text class="capl" x="44" y="192">a preference, and preferences fold</text>
+    <text class="capl" x="316" y="134">somebody leans on it</text>
+    <text class="capl" x="484" y="173">so it folds</text>
+    <text class="cap" x="300" y="230">this protects ________</text>
+    <text class="cap" x="300" y="258">nobody ever finished the sentence</text>
+  </g>
+
+  <!-- bottom: one sentence underneath it, so it holds -->
+  <g class="ln" fill="none" stroke-linecap="round">
+    <path d="M160 316h310"/>
+  </g>
+  <g fill="currentColor" opacity=".82">
+    <rect x="258" y="318" width="84" height="22"/>
+  </g>
+  <g class="rule" fill="none"><path d="M236 344h128"/></g>
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="321">DECIDED</text>
+    <text class="capl" x="44" y="340">a boundary, and it holds</text>
+    <text class="capl" x="316" y="282">the same lean</text>
+    <text class="capl" x="484" y="321">so it holds</text>
+    <text class="cap" x="300" y="368">this protects the savings and the big calls we make together</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 388h552"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="412">Now the argument is about what you are protecting, not about the rule.</text>
+  </g>
+</svg>

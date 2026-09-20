@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Conversation She Has Never Heard">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .lblc{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:middle}
+    .txt{font:13px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.4}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE CONVERSATION SHE HAS NEVER HEARD</text>
+    <text class="sub" x="320" y="66">You have run it forty times. She has heard it zero.</text>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="60" y="98">INSIDE YOUR HEAD</text>
+    <text class="lbl" x="366" y="98">IN THE ROOM</text>
+  </g>
+
+  <!-- the rehearsals, stacked -->
+  <g fill="none" stroke="currentColor" stroke-width="1" opacity=".35">
+    <rect x="60" y="110" width="240" height="134"/>
+  </g>
+  <g fill="currentColor" opacity=".82">
+    <rect x="84" y="126" width="192" height="8"/>
+    <rect x="84" y="142" width="192" height="8"/>
+    <rect x="84" y="158" width="192" height="8"/>
+    <rect x="84" y="174" width="192" height="8"/>
+    <rect x="84" y="190" width="192" height="8"/>
+    <rect x="84" y="206" width="192" height="8"/>
+    <rect x="84" y="222" width="192" height="8"/>
+  </g>
+
+  <!-- it starts out and never arrives -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
+    <rect x="366" y="110" width="214" height="134"/>
+  </g>
+  <g class="ln" fill="none" stroke-linecap="round" opacity=".6"><path d="M308 177h18"/></g>
+  <g fill="currentColor" opacity=".6"><path d="M334 177l-10-4v8z"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="473" y="182">nothing said out loud</text>
+    <text class="cap" x="180" y="268">the same argument, run again</text>
+    <text class="cap" x="473" y="268">where it would have to happen</text>
+    <text class="lblc" x="180" y="296">FORTY TIMES</text>
+    <text class="lblc" x="473" y="296">ZERO</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 322h552"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="348">Each pass makes the next one more expensive.</text>
+    <text class="cap" x="320" y="370">Raise it now and you are also defending the delay.</text>
+    <text class="cap" x="320" y="402">Say the true thing on the Tuesday you notice it, small and kind and once.</text>
+  </g>
+</svg>
