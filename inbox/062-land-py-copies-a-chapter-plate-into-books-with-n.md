@@ -4,7 +4,7 @@ status: open
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 17:38
-applied_by: grep -q svgcheck scripts/land.py
+applied_by: grep -q plate_check scripts/land.py
 ---
 
 # land.py copies a chapter plate into books/ with no check at all. Should it run runs/design/svgcheck.py first and refuse a MARGIN or COLLIDE row unless --force?
