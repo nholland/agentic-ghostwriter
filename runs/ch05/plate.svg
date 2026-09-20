@@ -1,48 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Remaining Nails">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" style="color:#1a1a1a" role="img" aria-label="The courage to come back: the same fight twice, once with the real thing left unsaid and once with it said">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txtc{font:13px Georgia,serif;opacity:.86;text-anchor:middle}
+    .note{font:12.5px Georgia,serif;opacity:.7;text-anchor:middle}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+    .ln{stroke:currentColor;stroke-width:1.6}
   </style>
 
-  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="460" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE REMAINING NAILS</text>
-    <text class="sub" x="320" y="66">An apology will end the fight. The nail will stay in.</text>
+    <text class="ttl" x="320" y="40">THE COURAGE TO COME BACK</text>
+    <text class="sub" x="320" y="66">Are you leaving the fight the same size you were when it started?</text>
+    <text class="note" x="320" y="94">Same fight both times. What changes is whether the real thing gets said.</text>
   </g>
 
-  <!-- the board -->
-  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55">
-    <rect x="110" y="230" width="420" height="26"/>
+  <!-- row one: it goes quiet, and the piece he never said is the piece he loses -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="196" y="140" width="26" height="76"/>
+    <rect x="418" y="174" width="26" height="42"/>
   </g>
-
-  <!-- the four nobody came back for: still driven in -->
-  <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="butt">
-    <path d="M170 220v36"/><path d="M232 220v36"/>
-    <path d="M294 220v36"/><path d="M356 220v36"/>
-    <path d="M162 220h16"/><path d="M224 220h16"/>
-    <path d="M286 220h16"/><path d="M348 220h16"/>
+  <g class="ln" fill="none" stroke-linecap="round"><path d="M170 216h300"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
+    <path d="M222 140h196"/>
+    <rect x="418" y="140" width="26" height="34" fill="none"/>
   </g>
-
-  <!-- the one that came out, lying blunt beside the hole it left -->
-  <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="butt">
-    <path d="M424 200h36"/>
-    <path d="M424 192v16"/>
-  </g>
+  <g class="rule" fill="none"><path d="M431 134v6"/></g>
   <g fill="currentColor">
-    <circle cx="452" cy="243" r="4"/>
+    <text class="note" x="431" y="130">the real thing, never said</text>
+    <text class="lbl" x="44" y="174">GOES QUIET</text>
+    <text class="capl" x="44" y="193">nobody comes back to it</text>
+    <text class="note" x="209" y="234">walks in</text>
+    <text class="note" x="431" y="234">walks out</text>
+    <text class="txtc" x="320" y="258">he becomes small without deciding to</text>
   </g>
 
+  <g class="rule" fill="none"><path d="M44 278h552"/></g>
+
+  <!-- row two: he comes back, says it, and leaves at the size he came in -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="196" y="296" width="26" height="76"/>
+    <rect x="418" y="330" width="26" height="42"/>
+    <rect x="418" y="296" width="26" height="34"/>
+  </g>
+  <g class="ln" fill="none" stroke-linecap="round"><path d="M170 372h300"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".85">
+    <rect x="418" y="296" width="26" height="34" fill="none"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
+    <path d="M222 296h196"/>
+  </g>
+  <g class="rule" fill="none"><path d="M431 290v6"/></g>
   <g fill="currentColor">
-    <text class="cap" x="455" y="168">the one you went back and said</text>
-    <text class="cap" x="252" y="296">every fight that ended before the real thing got said</text>
+    <text class="note" x="431" y="286">the real thing, said</text>
+    <text class="lbl" x="44" y="338">GOES BACK</text>
+    <text class="capl" x="44" y="357">he says the true thing</text>
+    <text class="note" x="209" y="390">walks in</text>
+    <text class="note" x="431" y="390">walks out</text>
+    <text class="txtc" x="320" y="414">he leaves the fight the same size</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 350h552"/></g>
-
+  <g class="rule" fill="none"><path d="M44 432h552"/></g>
   <g fill="currentColor">
-    <text class="cap" x="320" y="388">Parrhesia, frank speech: said once you are calm. How it lands is hers.</text>
+    <text class="cap" x="320" y="452">Parrhesia, frank speech: say it, then let it land however it lands.</text>
   </g>
 </svg>
