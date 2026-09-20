@@ -1,0 +1,68 @@
+<!-- PROPOSAL, not the deliverable. runs/ch08/plate.svg is the approved
+     design/plates/tipping-scale.svg copied verbatim. In that drawing the
+     weight labelled "the one that finally tipped it" sits on the pan that
+     is UP, so the picture says the last one tipped nothing. Ch8's prose
+     says the last one is another small one landing on the same pile:
+     "Individually, each one is nothing. Together, over weeks, they add
+     weight to an invisible scale. One day something small tips it."
+     This version moves that weight to the loaded side, still falling.
+     Nothing else is changed. The author rules; the parallel plate review
+     owns the source file. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="The Tipping Scale">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE TIPPING SCALE</text>
+    <text class="sub" x="320" y="66">The tip feels sudden. It never is.</text>
+  </g>
+  <g stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M320 250 296 330h48z"/>
+    <path d="M278 330h84"/>
+    <path d="M160 274 480 226"/>
+    <path d="M160 274v24"/><path d="M480 226v24"/>
+    <path d="M128 298h64"/><path d="M448 250h64"/>
+  </g>
+  <g fill="currentColor" opacity=".55">
+    <circle cx="133.9" cy="291.2" r="2.7"/>
+    <circle cx="142.2" cy="291.3" r="2.7"/>
+    <circle cx="148.8" cy="291.2" r="2.7"/>
+    <circle cx="155.6" cy="291.3" r="2.7"/>
+    <circle cx="163.9" cy="290.9" r="2.7"/>
+    <circle cx="170.2" cy="291.6" r="2.7"/>
+    <circle cx="177.6" cy="290.9" r="2.7"/>
+    <circle cx="186.2" cy="291.9" r="2.7"/>
+    <circle cx="135.0" cy="283.2" r="2.7"/>
+    <circle cx="141.7" cy="283.7" r="2.7"/>
+    <circle cx="148.1" cy="284.6" r="2.7"/>
+    <circle cx="156.3" cy="284.5" r="2.7"/>
+    <circle cx="163.0" cy="284.3" r="2.7"/>
+    <circle cx="170.1" cy="284.0" r="2.7"/>
+    <circle cx="178.3" cy="283.4" r="2.7"/>
+    <circle cx="185.8" cy="283.7" r="2.7"/>
+    <circle cx="134.0" cy="276.3" r="2.7"/>
+    <circle cx="141.3" cy="276.8" r="2.7"/>
+    <circle cx="149.8" cy="275.8" r="2.7"/>
+    <circle cx="156.9" cy="276.2" r="2.7"/>
+    <circle cx="163.2" cy="276.9" r="2.7"/>
+    <circle cx="170.6" cy="277.1" r="2.7"/>
+    <circle cx="178.9" cy="276.6" r="2.7"/>
+    <circle cx="186.5" cy="276.7" r="2.7"/>
+  </g>
+  <!-- the last small one, still falling, on the side the weight is on -->
+  <g fill="currentColor"><circle cx="160" cy="232" r="4.6"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 5" opacity=".45">
+    <path d="M160 240v26"/>
+  </g>
+  <g fill="currentColor">
+    <text class="cap" x="160" y="214">the one that finally tipped it</text>
+    <text class="cap" x="160" y="330">weeks of weight nobody saw land</text>
+    <text class="cap" x="320" y="384">Relitigating the last one misses where the weight came from.</text>
+  </g>
+</svg>

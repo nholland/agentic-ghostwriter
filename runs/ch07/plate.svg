@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Small Rocks, Big Rocks">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">SMALL ROCKS, BIG ROCKS</text>
+    <text class="sub" x="320" y="66">The ledger can only count what it can see.</text>
+  </g>
+  <g stroke="currentColor" fill="none" stroke-width="1.6">
+    <circle cx="120" cy="190" r="34"/>
+    <circle cx="196" cy="214" r="26"/>
+    <circle cx="150" cy="262" r="20"/>
+  </g>
+  <g fill="currentColor" opacity=".62">
+    <circle cx="443.2" cy="172.6" r="3.8"/>
+    <circle cx="386.4" cy="230.4" r="3.2"/>
+    <circle cx="468.0" cy="160.5" r="2.6"/>
+    <circle cx="465.9" cy="274.0" r="2.7"/>
+    <circle cx="420.5" cy="244.1" r="4.5"/>
+    <circle cx="500.4" cy="209.5" r="4.5"/>
+    <circle cx="380.5" cy="278.8" r="3.0"/>
+    <circle cx="402.6" cy="167.7" r="3.1"/>
+    <circle cx="554.4" cy="177.1" r="3.7"/>
+    <circle cx="514.4" cy="205.9" r="3.6"/>
+    <circle cx="384.2" cy="158.9" r="2.9"/>
+    <circle cx="523.8" cy="214.1" r="3.1"/>
+    <circle cx="549.5" cy="254.8" r="2.9"/>
+    <circle cx="499.8" cy="228.8" r="4.3"/>
+    <circle cx="534.9" cy="193.2" r="4.6"/>
+    <circle cx="396.7" cy="212.7" r="4.1"/>
+    <circle cx="404.3" cy="223.3" r="2.5"/>
+    <circle cx="521.0" cy="264.7" r="3.7"/>
+    <circle cx="567.9" cy="197.1" r="3.9"/>
+    <circle cx="559.8" cy="291.7" r="3.4"/>
+    <circle cx="520.1" cy="159.1" r="3.9"/>
+    <circle cx="516.3" cy="299.0" r="4.2"/>
+    <circle cx="434.3" cy="207.9" r="3.9"/>
+    <circle cx="375.1" cy="219.3" r="2.8"/>
+    <circle cx="396.5" cy="158.8" r="4.1"/>
+    <circle cx="399.2" cy="187.1" r="3.3"/>
+    <circle cx="566.9" cy="162.1" r="3.4"/>
+    <circle cx="494.2" cy="282.5" r="4.2"/>
+    <circle cx="451.1" cy="282.6" r="4.5"/>
+    <circle cx="422.7" cy="222.7" r="3.7"/>
+    <circle cx="429.4" cy="150.6" r="3.3"/>
+    <circle cx="453.5" cy="235.0" r="4.5"/>
+    <circle cx="526.1" cy="227.3" r="3.8"/>
+    <circle cx="546.3" cy="281.2" r="4.2"/>
+    <circle cx="458.7" cy="209.8" r="2.6"/>
+    <circle cx="417.2" cy="174.3" r="3.1"/>
+    <circle cx="381.9" cy="150.0" r="2.7"/>
+    <circle cx="567.6" cy="242.1" r="2.7"/>
+    <circle cx="397.8" cy="277.3" r="4.6"/>
+    <circle cx="475.3" cy="222.6" r="2.6"/>
+    <circle cx="393.1" cy="201.4" r="3.0"/>
+    <circle cx="584.9" cy="229.2" r="2.7"/>
+    <circle cx="492.8" cy="154.1" r="3.6"/>
+    <circle cx="591.1" cy="279.5" r="3.9"/>
+    <circle cx="544.5" cy="229.9" r="4.1"/>
+    <circle cx="487.0" cy="203.3" r="2.5"/>
+    <circle cx="376.3" cy="191.9" r="3.0"/>
+    <circle cx="526.5" cy="293.5" r="3.4"/>
+    <circle cx="581.8" cy="298.2" r="4.5"/>
+    <circle cx="452.4" cy="183.1" r="2.9"/>
+    <circle cx="573.5" cy="276.1" r="3.5"/>
+    <circle cx="548.3" cy="199.9" r="4.2"/>
+    <circle cx="589.6" cy="209.4" r="3.3"/>
+    <circle cx="584.0" cy="258.7" r="2.8"/>
+    <circle cx="591.5" cy="248.6" r="3.2"/>
+    <circle cx="494.0" cy="169.6" r="2.4"/>
+    <circle cx="436.2" cy="186.1" r="3.7"/>
+    <circle cx="411.4" cy="150.6" r="4.2"/>
+    <circle cx="495.5" cy="267.6" r="2.6"/>
+    <circle cx="496.6" cy="187.3" r="3.0"/>
+    <circle cx="478.0" cy="291.2" r="3.9"/>
+    <circle cx="386.4" cy="186.1" r="2.6"/>
+    <circle cx="404.9" cy="257.4" r="3.9"/>
+    <circle cx="419.6" cy="292.9" r="3.3"/>
+    <circle cx="533.2" cy="152.9" r="3.6"/>
+    <circle cx="511.0" cy="226.8" r="2.5"/>
+    <circle cx="465.4" cy="286.7" r="4.2"/>
+    <circle cx="428.4" cy="172.4" r="4.4"/>
+    <circle cx="499.0" cy="255.1" r="2.6"/>
+    <circle cx="383.0" cy="253.2" r="3.3"/>
+    <circle cx="386.4" cy="290.8" r="3.8"/>
+    <circle cx="551.2" cy="162.6" r="4.3"/>
+    <circle cx="438.9" cy="263.9" r="3.0"/>
+    <circle cx="483.0" cy="176.7" r="3.2"/>
+    <circle cx="555.1" cy="214.8" r="3.5"/>
+    <circle cx="560.1" cy="280.6" r="3.9"/>
+    <circle cx="456.2" cy="221.2" r="3.5"/>
+    <circle cx="539.6" cy="248.6" r="4.0"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="168" y="330" text-anchor="middle">BIG ROCKS</text>
+    <text class="cap" x="168" y="354">Countable. Citable in an argument.</text>
+    <text class="cap" x="168" y="372">A small share of the total.</text>
+    <text class="lbl" x="478" y="330" text-anchor="middle">SMALL ROCKS</text>
+    <text class="cap" x="478" y="354">Too many and too small to count.</text>
+    <text class="cap" x="478" y="372">Almost all of it.</text>
+  </g>
+  <g class="rule" fill="none"><path d="M320 140v170"/></g>
+</svg>

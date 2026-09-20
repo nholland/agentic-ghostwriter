@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Remaining Nails">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE REMAINING NAILS</text>
+    <text class="sub" x="320" y="66">An apology will end the fight. The nail will stay in.</text>
+  </g>
+
+  <!-- the one that came out, lying above the hole it left -->
+  <g fill="currentColor">
+    <rect x="418" y="172" width="4.5" height="16"/>
+    <path d="M472 178.4h12l-4 1.6 4 1.6h-12z"/>
+  </g>
+  <g stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="butt">
+    <path d="M422 180h52"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 5" opacity=".42">
+    <path d="M452 198v34"/>
+  </g>
+
+  <!-- the board, and the four nobody came back for -->
+  <rect x="120" y="236" width="400" height="26" fill="#ffffff" stroke="currentColor" stroke-width="1.6"/>
+  <g fill="currentColor">
+    <rect x="161" y="228" width="18" height="4.5"/>
+    <rect x="217" y="228" width="18" height="4.5"/>
+    <rect x="273" y="228" width="18" height="4.5"/>
+    <rect x="329" y="228" width="18" height="4.5"/>
+  </g>
+  <g stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="butt">
+    <path d="M170 232.5v21"/>
+    <path d="M226 232.5v21"/>
+    <path d="M282 232.5v21"/>
+    <path d="M338 232.5v21"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 4" opacity=".5">
+    <path d="M452 237v24"/>
+  </g>
+
+  <g fill="currentColor">
+    <text class="cap" x="452" y="152">the one you went back to</text>
+    <text class="cap" x="254" y="298">every fight that ended before the real thing got said</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 336h552"/></g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="372">PARRHESIA</text>
+    <text class="txt" x="196" y="372">frank speech, said once you are calm</text>
+    <text class="cap" x="320" y="404">You govern the saying. You do not govern how it lands.</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Tally You Don't Read Aloud">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE TALLY YOU DON’T READ ALOUD</text>
+    <text class="sub" x="320" y="66">Resentment does not come from doing too much.</text>
+  </g>
+
+  <!-- the week you carried: real, and nobody can see it -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
+    <rect x="244" y="104" width="316" height="22"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="119">THE WEEK</text>
+    <text class="cap" x="44" y="136" style="text-anchor:start;font-size:10.5px">the bucket you emptied, with no slot on the calendar</text>
+  </g>
+
+  <!-- tonight: the only part the room can see -->
+  <g fill="currentColor" opacity=".82">
+    <rect x="244" y="166" width="316" height="22"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="181">TONIGHT</text>
+    <text class="cap" x="44" y="198" style="text-anchor:start;font-size:10.5px">her hands moving, yours still</text>
+    <text class="cap" x="402" y="218">The comment fires on the one the room can see.</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 240h552"/></g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="180" y="272" text-anchor="middle">READ IT ALOUD</text>
+    <text class="cap" x="180" y="298">now there are two tallies</text>
+    <text class="cap" x="180" y="318">and neither one gets shorter</text>
+    <text class="lbl" x="460" y="272" text-anchor="middle">SAY WHAT YOU SEE</text>
+    <text class="cap" x="460" y="298">“I see you’re working. Want to sit</text>
+    <text class="cap" x="460" y="318">down, or should I help first?”</text>
+  </g>
+  <g class="rule" fill="none"><path d="M320 256v76"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="368">Keeping the tally is not the problem. Reading it out is.</text>
+    <text class="cap" x="320" y="392">Read yours out and you have handed her a reason to keep one.</text>
+  </g>
+</svg>
