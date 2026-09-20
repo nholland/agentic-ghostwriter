@@ -307,10 +307,22 @@ def main() -> int:
      itself, so no page-break-after here; one would strand the separator rule
      on a blank page of its own. */
   div.plate img {{ max-height: 8.6in; max-width: 100%; width: auto; height: auto; }}
-  /* Chapter plates (compile.py --plates): in the flow after the chapter's
-     prose, never split across a page. */
-  figure.plate {{ margin: 0.3in 0; text-align: center; page-break-inside: avoid; }}
-  figure.plate img {{ max-width: 100%; max-height: 5.6in; height: auto; }}
+  /* Chapter plates (compile.py --plates): a page of their own, the same
+     treatment as a Part closing plate - a reader flips to it, it is not a
+     figure sitting in the running text. */
+  figure.plate {{
+    page-break-before: always;
+    page-break-after: always;
+    page-break-inside: avoid;
+    text-align: center;
+    margin: 0;
+  }}
+  figure.plate img {{ max-width: 100%; max-height: 8.6in; height: auto; }}
+  figure.plate figcaption {{ font-style: italic; font-size: 10pt; color: #444; margin-top: 0.3in; }}
+  /* compile.py's "start fresh page here" marker, used before the Putting It
+     Into Practice section so a chapter's back matter never runs onto the
+     same page as its closing lines. Zero height: it does not itself print. */
+  .pb {{ page-break-before: always; }}
 </style>
 </head>
 <body>

@@ -185,7 +185,12 @@ def main():
                     plate_missing.append("ch%02d" % n)
             pr = practice(os.path.join(d, "distillation.md"))
             if pr:
-                body += "\n\n## Putting It Into Practice\n\n" + pr + "\n"
+                # The pb marker, not a "## Putting It Into Practice" heading
+                # alone: a heading has no page-break CSS of its own (other
+                # h2s appear inside chapter prose, e.g. the Introduction's
+                # sub-sections, and must NOT force a break), so the section
+                # needs its own explicit break point.
+                body += "\n\n<div class=\"pb\"></div>\n\n## Putting It Into Practice\n\n" + pr + "\n"
             pieces.append(body)
             sections.append("ch%02d" % n)
         if a.plates and in_part:
@@ -221,7 +226,13 @@ def main():
                       ", ".join(plate_missing) or "none"))
     header += "\n"
 
-    md = header + "\n\n\\pagebreak\n\n".join(pieces) + "\n"
+    # No manual page-break marker between pieces: every piece (a precursor,
+    # a Part opening, a chapter) starts with its own h1, and h1 already
+    # forces a fresh page in both renderers' CSS. The literal "\pagebreak"
+    # text this used to insert here was never interpreted by either
+    # renderer - neither has ever defined that token - so it printed
+    # verbatim as visible text on the page instead of breaking anything.
+    md = header + "\n\n".join(pieces) + "\n"
     stem = "prologue-ch%02d" % hi if lo == 1 else "ch%02d-ch%02d" % (lo, hi)
     if a.plates:
         stem += "-plates" + ("" if all(ok for _, _, ok in plates) else "-draft")
