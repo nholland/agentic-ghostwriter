@@ -705,3 +705,53 @@ corrected, new. What worked: the pulled-in window's own four-pass tombstone
 guard fix, the OKF index reconciliation (0 warnings, down from 5, without
 touching a human sentence), and the cutover finish all held under independent
 re-verification.
+
+---
+
+## 2026-09-20 15:23 — The repair's own proof was blind, and the correction of the correction needed a third correction
+
+The Archivist's review of the entry above found the entry above wrong in two
+more places, verified independently before acting on any of them.
+
+**The streak fixture didn't test the fix it shipped with.** Its malformed
+entry sat next to a genuine direction change (`/gw 5`), so `break` and
+`continue` on the missing-`Next:` branch both returned `(2, 1)` — reverting
+just that one line left the suite at 97/97 with the case still `[ ok ]`.
+Reshaped so the gap sits between two matching entries on both sides; now
+`break` gives `(2, 1)` and `continue` gives the correct `(4, 1)`, a real
+`[FAIL]`/`[ ok ]` split. Given a tolerant int-or-tuple unpack (14 words), the
+case now runs through `tests/prove.py` for a mechanical red-then-green proof —
+the "interface change means this can't be proved" reasoning in the prior entry
+was true of the fixture as shipped and false as a general claim.
+
+**The number in the prior entry's own evidence was wrong.** It said the fix
+produced `(13, 0)`; measured fresh, it was `(26, 0)` at the repair commit and
+`(27, 0)` by the next one. 13 was carried forward from an earlier review's
+prose instead of re-run — inside the item whose entire subject was that habit.
+Corrected in both inbox #050 and here; this file does not edit its own past
+entries, so the wrong number above stands as the historical record and this
+one carries the fix forward.
+
+**And #047's evidence needed a third correction, not a second.** Its "second"
+correction (prior entry) fixed the notation (dated SHAs instead of `@{N}`) but
+not the habit: it asserted what git state existed at the moment of filing and
+still got it wrong — main was already reset by then, not still on its old
+root. Deleted the historical narrative outright rather than attempt a fourth
+rewrite; the code defect it names never needed a story about timing to stand.
+
+**Two structural gaps, fixed.** `inbox.py`'s proof-freshness guard applied
+only to items whose `raised_by` started with `gw-retro` — a string the filer
+chooses, and exactly what let #050 ship a blind fixture with a flagless proof
+by being filed under a different name. Now applies to any item whose
+`--applied-by` names `tests/run.py`, regardless of filer. And #051 carried
+`applied_by: true` — a tautology that would have auto-confirmed on ruling with
+nothing landed. Caught and fixed there; **caught again in #052, filed minutes
+later with the identical mistake, before it was committed.** Left unfixed
+mechanically — the proposal to guard it is #052 itself, open, because building
+it would reopen the 2026-09-19 07:11 decision without the author's word.
+
+Lens: what recurs, three more times in one review (the blind check, the
+plausible number, the re-fabricated correction), and what worked: catching the
+third recurrence in the same sitting it was made, before it left the working
+tree. Corpus unchanged; every fix above lives in `tests/`, `scripts/`, or
+`inbox/`.

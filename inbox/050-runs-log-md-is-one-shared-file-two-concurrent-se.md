@@ -17,7 +17,29 @@ The Archivist found this reviewing a window it pulled in via merge-main; I verif
 **Checked:**
 
 ```
-Before: python3 -c 'import sys; sys.path.insert(0,"scripts"); import next; print(next.next_action_streak("/gw 13"))' -> 6. After repair+fix -> (13, 0), no gaps left in the last 14 entries. python3 tests/run.py -> 97/97, including a new case built against a synthetic fixture log with one malformed entry, mutation-tested by reverting only the skip-vs-break logic (keeping the tuple return so callers do not crash): reverted gives (2, 0), fixed gives (2, 1). Not routed through tests/prove.py: reverting the whole file to any commit before this fix changes next_action_streak's return signature from int to (int, int), which crashes every caller in streak_cases() rather than failing cleanly - the same class of gap #048 already names (prove.py cannot prove a fixture across an interface change), not a new one.
+Corrected 2026-09-20 15:16 - "After repair+fix -> (13, 0)" below was wrong when
+written: 13 was carried forward from the Archivist's prior review prose rather
+than re-run, inside the very item whose subject is that exact habit. Re-run
+just now against runs/log.md at commit 61c6e17 (this item's own fix, before
+the next commit added another log entry): (26, 0), not (13, 0). Confirmed
+independently: `git show 61c6e17:runs/log.md` copied into an isolated tmp
+root and run through next_action_streak - (26, 0). At HEAD today the number
+has moved further (more sessions have logged /gw 13 since); the durable claim
+is "no gap remains unaccounted for in the trailing run," not a specific count.
+
+Before: python3 -c 'import sys; sys.path.insert(0,"scripts"); import next; print(next.next_action_streak("/gw 13"))' -> 6. After repair+fix, measured at 61c6e17 -> (26, 0), no gaps left in the trailing run. python3 tests/run.py -> 97/97.
+
+Also corrected 2026-09-20 15:16 - the fixture named below did not actually
+test the fix. Its malformed entry sat next to a genuine different-command
+entry (/gw 5), so break-on-missing and skip-on-missing both returned (2, 1) -
+verified by reverting only the continue-vs-break line and re-running: suite
+still 97/97, this case still [ ok ]. Reshaped the fixture to place the gap
+between two matching entries on both sides (now asserts (4, 1)); reverting
+that same line now correctly fails: got (2, 1), [FAIL]. Also added a
+tolerant int-or-tuple unpack so the case is no longer exempt from
+tests/prove.py the way this item originally (and wrongly) argued: `python3
+tests/prove.py --file scripts/next.py --at bd43509 --case "next: a malformed
+log entry is skipped, not read as a direction change"` -> PROVED, exit 0.
 ```
 
 **What unblocks this:** whether the author sees an accurate count of how long the house has been away from the book

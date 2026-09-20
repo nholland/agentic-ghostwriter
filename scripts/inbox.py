@@ -171,7 +171,15 @@ def do_add(a, items):
     # exit 0. tests/prove.py runs the red pass mechanically instead of
     # trusting a claim about it - once the machine performs the check there is
     # nothing left to attest.
-    if (a.raised_by or "").lower().startswith("gw-retro") and "tests/run.py" in a.applied_by:
+    #
+    # Applies regardless of --raised-by, unlike the plain --applied-by
+    # requirement above. #050 was filed raised_by: Publisher and skipped
+    # this guard entirely with a flagless "python3 tests/run.py" proof - its
+    # fixture was in fact blind to the defect it claimed to prove, found only
+    # because a later review happened to look. A guard keyed on a string the
+    # filer chooses is opt-out by construction; the standard belongs to the
+    # work, not to which desk volunteers to be checked.
+    if "tests/run.py" in a.applied_by:
         missing_prove = [n for n, v in (("--prove-file", a.prove_file),
                                         ("--prove-at", a.prove_at),
                                         ("--prove-case", a.prove_case)) if not v]

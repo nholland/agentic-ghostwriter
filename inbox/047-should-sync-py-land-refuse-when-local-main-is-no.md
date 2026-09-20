@@ -16,38 +16,28 @@ land() gates on status()'s behind_main/ahead_of_main, both computed against orig
 **Checked:**
 
 ```
-Corrected twice now - first on 2026-09-20 14:24-ish (struck two false
-measurements), and again 2026-09-20 15:0x after the Archivist found the first
-correction had reproduced the same defect class it was fixing: it carried
-forward a stale SHA without re-running the command, and dated an event two
-days off. This block uses dated SHAs throughout instead of positional reflog
-references (@{N}), which shift by one on every fetch or push and were already
-wrong by the second correction.
+Corrected THREE times now (2026-09-20 14:24-ish, 15:0x, 15:16). The first two
+corrections each tried to describe what git state existed at some past
+moment and got it wrong - carrying forward a stale SHA, then mis-dating an
+event by two days, then (second correction) misreading main's reflog as of
+the wrong timestamp entirely. Every attempt to narrate history introduced a
+new error while fixing the last one. The historical narrative is deleted
+below rather than rewritten a fourth time - it was never load-bearing; the
+defect stands on the code, not on a story about how this container got here.
 
-HISTORICAL, at the time this item was originally filed (2026-09-20 ~14:20,
-before local main had been reset): main's tip was 4eb8325 (per its reflog,
-'branch: Created from refs/remotes/origin/main', 2026-09-14 11:38:04+00:00),
-rooted at c74fe66 (git rev-list --max-parents=0 4eb8325). origin/main was
-already rooted at d34a3ec. 'git merge-base --is-ancestor c74fe66 origin/main'
--> non-zero: two unrelated histories, which is the actual defect this item
-reports and is unaffected by anything below.
+Read directly, not measured against any point in time: sync.py L78-79
+compute behind_main/ahead_of_main against origin/main; L162-163 then
+checkout and merge-ff-only against LOCAL main. No line between them asserts
+the two are the same ref. That is the whole defect, and it needs no history
+to see.
 
-CURRENT, re-run just now (2026-09-20, main at 8f1fbfe): git rev-list
---max-parents=0 main -> d34a3ec8fd2c04070287971b0c069fe0388ae7db. git
-rev-list --max-parents=0 origin/main -> the same SHA. 'git merge-base
---is-ancestor main origin/main' -> exit 0. main's reflog shows the repointing
-commit as 459ae3e, dated 2026-09-18 20:58:00+00:00 - 'branch: Reset to
-origin/main' - which is BEFORE this item was ever filed, not something this
-session did; the first correction's claim that the remedy was "already
-applied in this container, 2026-09-20" mis-dated this by two days. This
-item's original repro ('--land then died on unrelated histories') will not
-reproduce today - expected, not a sign the code defect is fixed.
-
-The code defect is unaffected by any of the above and is still live: sync.py
-L78-79 measure origin/main; L162-163 checkout and merge LOCAL main; nothing
-asserts the two are the same ref. A future container that hits the same
-one-time drift, or any future forced remote history change, hits the same
-unguarded gap.
+CURRENT, re-run fresh 2026-09-20 15:16 (main at 8f1fbfe): git rev-list
+--max-parents=0 main -> d34a3ec8fd2c04070287971b0c069fe0388ae7db; same for
+origin/main. 'git merge-base --is-ancestor main origin/main' -> exit 0. Local
+main and origin/main currently agree, so --land's own repro from 2026-09-19
+('fatal: refusing to merge unrelated histories') will not reproduce in this
+container today - that is a fact about today, not evidence the code defect
+is fixed, and this item does not depend on reproducing it to stay open.
 ```
 
 **What unblocks this:** Whether land() asserts 'git merge-base --is-ancestor main origin/main' before checkout, refusing with the remedy named in words, and whether say_status labels its comparison as being against origin/main

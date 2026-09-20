@@ -586,6 +586,16 @@ def streak_cases():
     sys.path.insert(0, os.path.join(REPO, "scripts"))
     import importlib, next as next_mod
     importlib.reload(next_mod)
+
+    def _streak(cmd):
+        # Tolerant of both return shapes so tests/prove.py can revert
+        # next.py to before next_action_streak returned a tuple and still
+        # get a clean [FAIL] on the case that actually differs, instead of
+        # every case in this function crashing before it's reached - the
+        # exact #048-shaped gap this fixture would otherwise fall into.
+        r = next_mod.next_action_streak(cmd)
+        return r if isinstance(r, tuple) else (r, 0)
+
     tmp = tempfile.mkdtemp(prefix="gw-tests-streak-")
     out = []
     try:
@@ -599,8 +609,8 @@ def streak_cases():
         real = next_mod.REPO
         next_mod.REPO = tmp
         try:
-            three, three_gap = next_mod.next_action_streak("/gw 13")
-            broken, broken_gap = next_mod.next_action_streak("/gw 5")
+            three, three_gap = _streak("/gw 13")
+            broken, broken_gap = _streak("/gw 5")
         finally:
             next_mod.REPO = real
         out.append((three == 3 and three_gap == 0, "next: NEXT_ACTION streak counts consecutive log entries",
@@ -614,12 +624,20 @@ def streak_cases():
 
     # A malformed entry (no Next: line - a concurrent merge into one shared
     # runs/log.md stripped it from two real entries on 2026-09-19, caught
-    # 2026-09-20) must be skipped, not read as a change of direction: the
-    # true streak was 13 of the last 14 entries and next.py reported 6.
+    # 2026-09-20) must be skipped, not read as a change of direction. The gap
+    # sits BETWEEN two matching entries, not next to a real direction change
+    # (found 2026-09-20, reviewing this exact fix: the first version of this
+    # case placed the gap next to a genuine /gw 5 entry, so break-on-missing
+    # and skip-on-missing returned the identical (2, 1) either way - break
+    # stops at the gap, and continuing to /gw 5 would have stopped the very
+    # next entry regardless. Reverting `continue` to `break` left the suite
+    # at 97/97 with this case still [ ok ]. This shape only agrees if the
+    # skip logic is actually exercised.)
     tmp2 = tempfile.mkdtemp(prefix="gw-tests-streak-gap-")
     try:
         os.makedirs(os.path.join(tmp2, "runs"))
-        entries = ["\n## e1\n\n**Next:** `/gw 5` — x\n",
+        entries = ["\n## e0\n\n**Next:** `/gw 13` — x\n",
+                   "\n## e1\n\n**Next:** `/gw 13` — x\n",
                    "\n## e2 (malformed, no Next line)\n- `some/file.py`\n",
                    "\n## e3\n\n**Next:** `/gw 13` — x\n",
                    "\n## e4\n\n**Next:** `/gw 13` — x\n"]
@@ -628,12 +646,12 @@ def streak_cases():
         real = next_mod.REPO
         next_mod.REPO = tmp2
         try:
-            skip, skip_gap = next_mod.next_action_streak("/gw 13")
+            skip, skip_gap = _streak("/gw 13")
         finally:
             next_mod.REPO = real
-        out.append((skip == 2 and skip_gap == 1,
+        out.append((skip == 4 and skip_gap == 1,
                     "next: a malformed log entry is skipped, not read as a direction change",
-                    "e2 has no Next line and must not break the streak the way e1's real /gw 5 does - the true streak is e3+e4=2, with 1 entry unreadable",
+                    "e2 has no Next line, sits between two real /gw 13 entries on both sides, and must not break the streak - the true streak is e0+e1+e3+e4=4, with 1 entry unreadable",
                     (skip, skip_gap)))
     finally:
         shutil.rmtree(tmp2, ignore_errors=True)
@@ -743,6 +761,15 @@ def inbox_cases():
         out.append((rc4 == 2, "inbox refuses a gw-retro tests/run.py proof with no --prove-* flags",
                     "a claim of having run something red is not proof of it - tests/prove.py must be pointed at what to check",
                     rc4))
+
+        # The --prove-* requirement must not be opt-out via --raised-by - #050
+        # was filed raised_by: Publisher with a flagless tests/run.py proof
+        # and shipped a fixture that turned out to be blind to its own bug.
+        rc5, _ = run_raw("--add", "unproven proof, not gw-retro", "--raised-by", "Publisher",
+                         "--chapter", "0", *common, "--applied-by", "python3 tests/run.py")
+        out.append((rc5 == 2, "inbox refuses a flagless tests/run.py proof regardless of raised_by",
+                    "a guard keyed on a string the filer chooses is opt-out by construction",
+                    rc5))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out
