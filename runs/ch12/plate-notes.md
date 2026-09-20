@@ -68,3 +68,98 @@ one reaches. Canvas 640x390, no collisions, whole canvas captured.
 2. **The solid connector touches the blank line's right end**, so at small sizes
    it can read as the line bending rather than as something arriving. The
    alternative is an arrowhead, which no other plate uses.
+
+## Round 3, draft from concept C (2026-09-20 19:50)
+
+**What the plate shows.** Two rows of weeks running from the same start rule on
+the left to one shared column on the right, labelled THIS WEEK. The top row,
+THE THINGS WITH A DAY ATTACHED, carries a mark in every week, unbroken, right
+into this one. The bottom row, THE ONE THING FOR HER, carries three marks near
+the start and then nothing, and the week line keeps running underneath the
+blank. At the far right, in the same THIS WEEK column, the bottom row's square
+is open, larger than the marks and the only white shape on the page, with
+TONIGHT under it.
+
+**The carrier.** The distance between where the bottom row stopped and where we
+are standing now. That length is the Conversation sentence: the elapsed time is
+drawn, never printed, so no number appears. A stranger reads a stretch he did
+not notice go by, and an open square that is this week rather than a verdict.
+
+**How the two Panel instructions were solved in the drawing.** *Recognition,
+not scorecard:* nothing counts his misses. No empty boxes march across the
+blank, only the week line continuing, so the page records an absence rather
+than a tally. The marks are set at .78 opacity rather than black, so the top
+row is not a row of gold stars. The bracket under the blank is hairline weight
+and carries two lines, *the stretch you never felt go by* and *you didn't stop
+loving her*, the chapter's own exoneration sitting inside the gap itself.
+*Visibly this week:* the right column is a shared vertical rule through both
+rows with THIS WEEK at its head, so the open square is not the end of a record
+but the present moment both rows are standing in; the rows stop there, nothing
+runs past it, and TONIGHT sits under the square.
+
+**Every phrase and where it comes from.**
+
+- Title, THE THING WITH NO DEADLINE: the distillation's Mechanism, word for
+  word, and the chapter's own section heading.
+- Subtitle, *Nothing in a week tells you how long it has been*: "Nothing in a
+  week tells you how long it's been." Chosen because it makes sense cold to a
+  man who has read nothing, which the retired subtitle did not.
+- THE THINGS WITH A DAY ATTACHED and *these shout, and other people are
+  watching*: "Those shout. They have a day attached and other people watching."
+- THE ONE THING FOR HER and *no day attached, and nobody waiting*: the same
+  sentence read in the negative, which is the chapter's argument for why it
+  goes.
+- THIS WEEK, TONIGHT: "the muscle that puts her there is one you can start
+  using tonight."
+- *the stretch you never felt go by*: "Close to five months, and I hadn't felt
+  one of them go by," with the number removed.
+- *you didn't stop loving her*: the chapter's sentence exactly.
+- Closing, *It is a thing you stopped doing. Starting again asks nobody's
+  forgiveness*: "This is a thing you stopped doing, and starting again asks
+  nobody's forgiveness."
+
+No quotation, no statistic, no number, no source line, no Stoic term, so
+nothing needs a gloss. The chapter's second half, care in her language, is not
+on the plate: it needed a caption to explain rather than one drawn mark, and
+the caption cap is spent. It stays in the chapter.
+
+**Checker output, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch12/plate.svg --chapter 12
+
+runs/ch12/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x430
+  [ ok ] title       title 'THE THING WITH NO DEADLINE' / aria-label 'The Thing With No Deadline' vs Mechanism 'The Thing With No Deadline'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    6 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   7 centred texts on the axis or a shared column; 8 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+All rows ok, no WARN and no FAIL, so nothing is carried to the Publisher from
+the counted check.
+
+**What the render showed.** At full size the ten-second read runs title, top row
+full to the right edge, bottom row stopping a long way back, then the eye lands
+on the one white square because it is the only unfilled shape on the page. The
+open square was 12px and read as one more mark; it went to 13px at 1.8 stroke
+and now holds the corner. The bracket and its two lines sit clear of the row
+above and the foot rule. TONIGHT and the bottom gloss share a baseline with
+about 120px of white between them, no collision. Nothing in the margins.
+
+**For the author to rule on**
+
+1. **TONIGHT set in the same bold small caps as the row labels.** It is the
+   only imperative word on the plate, and a word can nag where a drawing does
+   not. If it reads as an instruction rather than an opening, it comes out and
+   THIS WEEK carries the column alone.
+2. **Three marks at the start of her row.** The chapter says the dates stopped,
+   not how many there had been, so three is a drawing decision standing for
+   "briefly, a while ago". Any small number reads the same; I want it on the
+   record that it is not a count of anything.
