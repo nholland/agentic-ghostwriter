@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Closed Door">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE CLOSED DOOR</text>
+    <text class="sub" x="320" y="66">You taught her the conversation wasn't worth having.</text>
+    <text class="cap" x="320" y="98">The same doorway, four times. It never shuts in one go.</text>
+  </g>
+
+  <!-- the doorway, seen four times, closing from the right by degrees -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".5">
+    <rect x="196" y="126" width="364" height="20"/>
+    <rect x="196" y="190" width="364" height="20"/>
+    <rect x="196" y="254" width="364" height="20"/>
+    <rect x="196" y="318" width="364" height="20"/>
+  </g>
+  <g fill="currentColor" opacity=".82">
+    <rect x="440" y="190" width="120" height="20"/>
+    <rect x="320" y="254" width="240" height="20"/>
+    <rect x="216" y="318" width="344" height="20"/>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="141">SHE BRINGS IT</text>
+    <text class="lbl" x="44" y="205">YOU EXPLAIN</text>
+    <text class="lbl" x="44" y="269">SHE UPDATES</text>
+    <text class="lbl" x="44" y="333">SHE STOPS</text>
+  </g>
+
+  <g fill="currentColor">
+    <text class="cap" x="378" y="166">She picked the time and came to you with it.</text>
+    <text class="cap" x="378" y="230">Defend, deny, downplay, deflect. All four feel like honesty.</text>
+    <text class="cap" x="378" y="294">She counts what it costs to bring something to you.</text>
+    <text class="cap" x="378" y="358">The easy things still come. The ones that matter don't.</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 374h552"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="394">She can tell whether the door is open.</text>
+    <text class="cap" x="320" y="414">She's been keeping track longer than you know.</text>
+  </g>
+</svg>

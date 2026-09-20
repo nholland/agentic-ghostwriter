@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Hole Maker">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
+    .txt{font:14px Georgia,serif;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
+    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
+  </style>
+
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">THE HOLE MAKER</text>
+    <text class="sub" x="320" y="66">Every outburst drives a nail you'll never fully pull out.</text>
+    <text class="cap" x="320" y="98">One fence post, three times. Hot or cold, both drive a nail.</text>
+  </g>
+
+  <!-- the post, the day it happens: nails driven in -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55">
+    <rect x="216" y="126" width="344" height="26"/>
+  </g>
+  <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M258 116v36"/><path d="M300 116v36"/><path d="M356 116v36"/>
+    <path d="M414 116v36"/><path d="M470 116v36"/>
+    <path d="M250 116h16"/><path d="M292 116h16"/><path d="M348 116h16"/>
+    <path d="M406 116h16"/><path d="M462 116h16"/>
+  </g>
+
+  <!-- the post, after the apology: nails out, holes left -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55">
+    <rect x="216" y="204" width="344" height="26"/>
+  </g>
+  <g fill="currentColor">
+    <circle cx="258" cy="217" r="4"/><circle cx="300" cy="217" r="4"/>
+    <circle cx="356" cy="217" r="4"/><circle cx="414" cy="217" r="4"/>
+    <circle cx="470" cy="217" r="4"/>
+  </g>
+
+  <!-- the post, months on: the holes are the record -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55">
+    <rect x="216" y="282" width="344" height="26"/>
+  </g>
+  <g fill="currentColor">
+    <circle cx="242" cy="295" r="4"/><circle cx="270" cy="295" r="4"/>
+    <circle cx="300" cy="295" r="4"/><circle cx="330" cy="295" r="4"/>
+    <circle cx="356" cy="295" r="4"/><circle cx="384" cy="295" r="4"/>
+    <circle cx="414" cy="295" r="4"/><circle cx="442" cy="295" r="4"/>
+    <circle cx="470" cy="295" r="4"/><circle cx="500" cy="295" r="4"/>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="44" y="144">THE OUTBURST</text>
+    <text class="lbl" x="44" y="222">THE APOLOGY</text>
+    <text class="lbl" x="44" y="300">MONTHS ON</text>
+  </g>
+
+  <g fill="currentColor">
+    <text class="cap" x="376" y="172">A nail goes in. You know which one it was.</text>
+    <text class="cap" x="376" y="250">The nail comes out. The hole stays where it was.</text>
+    <text class="cap" x="376" y="328">Nothing she could point to. Just a settled sense of you.</text>
+  </g>
+
+  <g class="rule" fill="none"><path d="M44 352h552"/></g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="380">The holes stop being incidents. They become what she believes.</text>
+    <text class="cap" x="320" y="406">Stop making holes.</text>
+  </g>
+</svg>

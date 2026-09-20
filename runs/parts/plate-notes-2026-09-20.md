@@ -1,0 +1,178 @@
+# Part closing plates 3, 4, 5 — Designer's notes
+
+2026-09-20 16:27. Drawn cold against `books/the-stoic-husband/parts/README.md`
+("Closing plates"), `plate-1-steady-river.svg`, `plate-2-sturdy-oak.svg` and the
+three Part opening pages. Nothing under `books/` was written or altered.
+
+Files: `runs/parts/plate-3-warm-sun.svg`, `runs/parts/plate-4-fall-to-winter.svg`,
+`runs/parts/plate-5-spring-to-summer.svg`. The generator that produced them,
+kept so the set can be re-tuned rather than re-invented:
+`runs/parts/gen-plates-345.py`.
+
+## What I measured off plates 1 and 2 before drawing
+
+| Decision | Value in plate 1 / plate 2 | Value used in 3, 4, 5 |
+|---|---|---|
+| Canvas | `width=600 height=900 viewBox="0 0 600 900"` | identical |
+| Background | `<rect width="600" height="900" fill="#ffffff"/>` first element | identical |
+| Ink | `#111111` on every stroke | identical |
+| Field weight | 1.1 (plate 1 strata), 1.05 (plate 2 rings) | 1.1 |
+| Accent weight | 1.6 canyon walls, 1.4 river, 1.35 every fourth ring | 1.6 (plate 4 band edges), 1.4 (plate 5 surface and water) |
+| Fill | explicit on every shape; `fill="none"` on every open path | identical |
+| Drawing box | x 90..510; y 190..640 (plate 1 strata), river wiggle to 652 | x 90..510; y 190..640, plate 5's water to 681 |
+| Field density | 20 strata rows (plate 1); 30 rings (plate 2) | 20 arcs / 24 layers / 21 layers |
+| Hand wobble | plate 2's rings are not true circles; radii drift ~1-3px | same, a smooth 3-term sine wobble, amplitude 1.3-1.6px |
+| Caption type | `Georgia, "Times New Roman", serif`, 17px, italic, `text-anchor="middle"`, `x="300.0"`, `fill="#111111"` | identical |
+| Caption baseline | 730, and 756 for the second line | 730 (all three captions are one line) |
+
+No colour, no fill on any drawn shape, no shading, no text on any plate but the
+caption, no numbers, no quotations, no em-dashes, nothing domestic or human.
+
+## Plate 3 — Part III, The Warm Sun
+
+**The image.** Twenty arcs laid one over the other, each spanning the full width
+of the box, each reaching a little higher and a little deeper than the one below
+it. Days of light, stacked: not a picture of the sun but what the sun leaves
+behind, the way plate 1 draws the river's canyon rather than the river.
+
+**The irregularity and the sentence it carries.** One arc, the eleventh, is
+broken on its morning side: a 72px gap between x=210 and x=282. Every arc laid
+down after it crosses that same stretch of sky unbroken.
+
+> "It comes back every morning, whether or not anyone thanked it for yesterday."
+
+**Form decisions matched.** Field weight 1.1, the only weight on the plate, the
+way plate 1's twenty strata are all 1.1. Twenty layers, matching plate 1's twenty
+strata rows. The arcs run flush to x=90 and x=510, as plate 1's strata do. Apex
+of the top arc at y=190, edge of the bottom arc at y=634: plate 1's box exactly.
+
+## Plate 4 — Part IV, Fall to Winter
+
+**The image.** Twenty-four layers of a settling year, thinning from 22px of
+spacing at the bottom to 6px near the top, long before anything else changes.
+Then one band, 61px deep, where nothing was laid down at all. Above it the layers
+are back at the spacing they had before.
+
+**The irregularity and the sentence it carries.** The empty band has a top edge,
+and eight layers stand on it.
+
+> "Every winter ends."
+
+The slow thinning under the band carries the page's other structural sentence,
+"By the time you feel the cold, it's been coming for months," but the band is
+the one irregularity, as the README requires.
+
+**Form decisions matched.** The two layers that bound the band are drawn at 1.6,
+the weight plate 1 gives its canyon walls; every other layer is 1.1. Field runs
+y 640 to 190, x 90 to 510.
+
+## Plate 5 — Part V, Spring to Summer
+
+**The image.** The same layers as plate 4, opening instead of closing: tight
+bands at the bottom giving way to wider and wider ones as the days stretch.
+Below them, one straight hard line at y=652 is the surface.
+
+**The irregularity and the sentence it carries.** Under that straight surface
+line, at y=676, the water is already moving in a small wave, while the layers
+directly above it are still at their tightest.
+
+> "The thaw starts under the ice, weeks before anything shows on the surface."
+
+**Form decisions matched.** The wave is drawn at 1.4, the exact weight and the
+same 48px period as plate 1's river, so the river reads as the river across the
+set. The surface line is 1.4. The field is 1.1 throughout.
+
+## The set logic, stated plainly
+
+- Plates 1, 2 and 3 are the three elements, each with its own geometry: strata,
+  rings, arcs.
+- Plates 4 and 5 are the two seasons, and they deliberately share one geometry,
+  mirrored. Plate 4's layers close and stop; plate 5's open. This is the same
+  move the pages make, where "No summer is the last one" answers "No winter is
+  the last one."
+
+## Checker output, verbatim
+
+```
+$ python3 runs/design/svgcheck.py runs/parts/plate-3-warm-sun.svg runs/parts/plate-4-fall-to-winter.svg runs/parts/plate-5-spring-to-summer.svg
+
+runs/parts/plate-3-warm-sun.svg
+  clean
+
+runs/parts/plate-4-fall-to-winter.svg
+  clean
+
+runs/parts/plate-5-spring-to-summer.svg
+  clean
+```
+
+`svgcheck.py` only measures `<text class="...">`; like plates 1 and 2, these
+captions are unclassed, so "clean" here means "nothing to measure," not "type
+verified." The captions were verified separately against the part pages:
+
+```
+plate-3-warm-sun.svg
+  caption   : 'What it reaches, opens.'
+  page last : 'What it reaches, opens.'
+  match=True  em-dash=False  viewBox=0 0 600 900  strokes=['1.1']  fills=['#111111', '#ffffff', 'none']  lines=21
+plate-4-fall-to-winter.svg
+  caption   : 'No winter is the last one.'
+  page last : 'No winter is the last one.'
+  match=True  em-dash=False  viewBox=0 0 600 900  strokes=['1.1', '1.6']  fills=['#111111', '#ffffff', 'none']  lines=24
+plate-5-spring-to-summer.svg
+  caption   : 'Stand in the summer you built.'
+  page last : 'Stand in the summer you built.'
+  match=True  em-dash=False  viewBox=0 0 600 900  strokes=['1.1', '1.4']  fills=['#111111', '#ffffff', 'none']  lines=23
+```
+
+## What the renders showed, and what changed because of them
+
+Every plate was rasterised with `scripts/chapter_pdf_local.py:svg_to_png` and
+looked at beside renders of plates 1 and 2. Two rounds of fixes, then stop.
+
+**First attempt, discarded.** Plate 3 was nested arcs sharing one baseline; at
+6x9 they crowded into a hive of near-vertical lines along the bottom and read as
+a fingerprint. Plates 4 and 5 were three horizontal lanes, one per element: a row
+of day arcs for the sun, ring ticks for the oak, a wave for the river, with a
+winter column crossing all three. Rendered, that is an infographic, not a plate.
+Three lanes of marks with white alleys between them read as three charts stacked
+on a page, and nothing in plates 1 or 2 licenses it. Both were redrawn as single
+unified fields.
+
+**Round two.** Plate 3's break was at x=152..214, on the steep morning limb,
+where the two cut ends sat 25px apart vertically and read as two different lines
+failing rather than one line broken; moved to x=210..282, where the arc is
+flatter and the break reads as one gap. Plate 4's band was 76px with 1.35 edges
+and split the plate into two separate-looking fields; narrowed to 61px and the
+bounding layers taken to 1.6, so the band reads as a hiatus inside one field.
+Plate 5's field topped out at y=265, well inside plate 1's box; the spacings are
+now scaled to land exactly on y=190.
+
+**Side by side at the end.** Line counts 20/24/21 against plate 1's 20 and plate
+2's 30. Margins identical on all five. Caption sits in the same place and the
+same type on all five. At phone width (600px wide render scaled to ~390) each
+irregularity is still visible: the gap in plate 3, the band in plate 4, the wave
+under the line in plate 5.
+
+## For the author to rule on
+
+1. **Single-line captions sit at y=730, the first of plate 1's two baselines.**
+   All three of these last sentences are short enough for one line, where plates
+   1 and 2 both run to two. Starting at the same baseline keeps the caption
+   beginning in the same place on every page; optically centring the single line
+   against the two-line blocks would mean y=743. One number, three files, your
+   call.
+2. **Plates 4 and 5 share a geometry on purpose.** They are the season pair and
+   they mirror: layers closing to a band, layers opening from the ice. If you
+   would rather every plate look unlike every other, 4 is the one to redraw, and
+   I would want a different sentence from its page to carry.
+3. **The three elements are not all on plates 4 and 5.** The brief allowed them
+   and the pages name all three, but the only version that fitted all three on a
+   plate was the three-lane chart described above, which failed. Plate 5 carries
+   the river explicitly, at plate 1's weight and wavelength; the layers on both
+   plates are the days. If you want the oak visible by name on either plate, that
+   is a fourth mark and I would rather you decided it than I assumed it.
+4. **Plate 5's water runs to y=681,** 29px lower than anything on plates 1 and 2,
+   because the surface line has to sit above it. Caption clearance is 49px. If
+   `chapter_pdf.py` crops tighter than the viewBox on that page, tell me and I
+   will lift the whole field.
