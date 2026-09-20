@@ -140,3 +140,62 @@ values where row two breaks, which is what makes the comparison land.
 1. **The guard line as a gloss.** If you would rather the plate carry only the
    panel's single closing line, deleting *"Not to go cold..."* is one line and
    nothing else moves.
+
+## Round 4, edits from the standalone sweep (2026-09-20 21:50)
+
+Brief: `runs/design/2026-09-20-plate-standalone-sweep.md`, section "FAIL 02 — The
+Mood Mirror". All four edits applied, no new concept.
+
+1. **Row two's line is closed.** The break Round 2 opened is gone: row two is now
+   one continuous `M60 344h520`, the same span as row one, with the same two ticks
+   at x=250 and x=390. The governing stroke at x=320 runs `v314..374`, straight
+   **through** the line rather than sitting in a gap in it. The panel's cold read
+   was "disconnect from her, go cold", which the closing line then had to deny in
+   words; with the line closed the drawing no longer argues against its own caption.
+2. **THE GOVERNING PART is now SOMETHING OF YOURS.** Faculty language, even in
+   English, stops a reader who has not read the chapter.
+3. **THE SAME WEATHER is now HER WEATHER, DOUBLED**, set on two lines (y=150, y=170)
+   at the same x=510 column centre because one line of twenty letter-spaced caps
+   overruns the right margin band. Row one now reads as loss, not symmetry.
+4. **Second footer cut.** Two footer lines existed; "The day is still hers. What
+   comes through the door is yours." (y=416) is deleted and "Not to go cold. To
+   bring something real through the door." is the only closing line. Row two was
+   nudged down 8px (labels 306, line 344, footer 390) to take up the slack.
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch02/plate.svg --chapter 2
+
+runs/ch02/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x430
+  [ ok ] title       title 'THE MOOD MIRROR' / aria-label 'The Mood Mirror' vs Mechanism 'The Mood Mirror'
+  [WARN] grounded    no three-word run of these appears in the chapter, its distillation or plate-brief.md: 'The same evening, twice. What stands in ', 'YOU, MATCHING IT', 'SOMETHING OF YOURS', 'YOUR OWN WEATHER'
+  [ ok ] captions    4 italic lines against a cap of 9 (7 labels + subtitle + closing line)
+  [ ok ] alignment   12 centred texts on the axis or a shared column; 4 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows. The `grounded` WARN is the sweep's own wording plus two labels held
+from earlier rounds; the chapter has "her weather", "his own weather", "the
+governing part", and "To bring something real through the door", so every label is
+a phrase the chapter could have written, but "something of yours" and "her weather,
+doubled" are not verbatim in it. Author's call if he wants them chapter-exact.
+
+**What the render showed.** `runs/ch02/pdf/plate.png`. The bottom line reads
+continuous at a glance: the eye crosses row two without a stop, and the heavy
+upright at x=320 reads as one thing planted in the line rather than as a wall
+between her and you. The two rows now differ by exactly one added object, which is
+the comparison the plate is making. Ten-second read at phone width: her weather in,
+her weather doubled out; her weather in, something of yours in the middle, your own
+weather out. That is the Conversation sentence.
+
+**For the author to rule on.** Row two keeps the two plain ticks at x=250 and x=390
+so it is visibly the same line as row one. They cluster near the heavy stroke and
+could be read as noise; cutting them would make the stroke lonelier but would break
+the parallel that carries "the same evening, twice".

@@ -16,11 +16,12 @@
     <text class="cap" x="320" y="102">The same evening, twice. What stands in the middle is the difference.</text>
   </g>
 
-  <!-- track one: nothing standing in the middle, so it runs straight through -->
+  <!-- track one: nothing of yours in the middle, so her weather runs straight through -->
   <g fill="currentColor">
-    <text class="lbl" x="130" y="168">HER WEATHER</text>
-    <text class="lbl" x="320" y="168">YOU, MATCHING IT</text>
-    <text class="lbl" x="510" y="168">THE SAME WEATHER</text>
+    <text class="lbl" x="130" y="170">HER WEATHER</text>
+    <text class="lbl" x="320" y="170">YOU, MATCHING IT</text>
+    <text class="lbl" x="510" y="150">HER WEATHER,</text>
+    <text class="lbl" x="510" y="170">DOUBLED</text>
   </g>
   <g class="ln" fill="none" stroke-linecap="round">
     <path d="M60 192h520"/>
@@ -32,25 +33,20 @@
 
   <g class="rule" fill="none"><path d="M44 254h552"/></g>
 
-  <!-- track two: the same arrival, and something of yours standing in the gap -->
+  <!-- track two: the same evening, the same unbroken line, and one thing of yours standing through it -->
   <g fill="currentColor">
-    <text class="lbl" x="130" y="298">HER WEATHER</text>
-    <text class="lbl" x="320" y="298">THE GOVERNING PART</text>
-    <text class="lbl" x="510" y="298">YOUR OWN WEATHER</text>
+    <text class="lbl" x="130" y="306">HER WEATHER</text>
+    <text class="lbl" x="320" y="306">SOMETHING OF YOURS</text>
+    <text class="lbl" x="510" y="306">YOUR OWN WEATHER</text>
   </g>
   <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M60 336h190"/>
-    <path d="M390 336h190"/>
-    <path d="M250 328v16"/><path d="M390 328v16"/>
+    <path d="M60 344h520"/>
+    <path d="M250 336v16"/><path d="M390 336v16"/>
   </g>
   <g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
-    <path d="M320 310v52"/>
+    <path d="M320 314v60"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="320" y="388">Not to go cold. To bring something real through the door.</text>
-  </g>
-
-  <g fill="currentColor">
-    <text class="cap" x="320" y="416">The day is still hers. What comes through the door is yours.</text>
+    <text class="cap" x="320" y="390">Not to go cold. To bring something real through the door.</text>
   </g>
 </svg>
