@@ -12,9 +12,10 @@ light." The caption is the page's last sentence, verbatim, at plate 1 and 2's
 baseline.
 """
 import math
+import os
 import sys
 
-sys.path.insert(0, "/home/user/agentic-ghostwriter/runs/parts")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from importlib.machinery import SourceFileLoader
 
 g = SourceFileLoader("g", "/home/user/agentic-ghostwriter/runs/parts/gen-plates-345.py").load_module()
