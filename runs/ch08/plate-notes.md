@@ -147,3 +147,87 @@ that pan. Ch7's field no longer uses this mark.
 1. **The raised pan's label sits below and right of the pan**, not on it, because
    at 12px the copy is 266px wide and the pan is 64px. If he wants it visually
    attached, the copy has to get shorter, and the panel wrote that copy.
+
+## Round 3, draft from concept A (2026-09-20 19:50)
+
+**What it shows.** Two identical scales, mirrored about x=320, fed by the same
+six small weights. Left, under UNCOUNTED, the weights fall on long dashed lines
+that all lean toward one pan; a pile of twelve already sits in it and the beam
+has tipped. Right, under NAMED, the same six weights are stopped the moment they
+land, each resting on its own short stroke, and the beam holds level. The weights
+on the right are still drawn, the same mark at the same size and opacity as the
+left's: stopped, not gone. The space the left spends falling is, on the right,
+the space where the naming happens, and that space holds the chapter's two tools.
+
+**The carrier.** Same input, two outcomes, and the difference is whether anything
+counted them. The drawing argues it; every caption only names what is drawn.
+
+**The two misreadings, and what stops each.** "A comment every time something
+bugs me" is stopped by the right gloss, which is the chapter's own practice and
+says *to yourself*, and by the strokes being six small calm marks rather than a
+stream. "The work disappears if you talk about it" is stopped by the weights
+still being there on the right, in plain sight, resting on what stopped them.
+
+**Every phrase and where it comes from.**
+
+| On the plate | Source |
+|---|---|
+| THE TIPPING SCALE | distillation Mechanism, word for word |
+| Unfairness rarely arrives as one moment. | Conversation sentence, first half |
+| UNCOUNTED / NAMED | one word each, the chapter's own terms |
+| WHEN IT LANDS ON YOU | refined.md section heading |
+| is it true, or not true? | refined.md, "Is what she's saying true, or not true?" |
+| WHEN IT'S YOURS | refined.md section heading |
+| the work already paid itself | distillation Practice 3 |
+| One day something small tips it. | refined.md, verbatim |
+| Name it to yourself right then. | distillation Practice 1 |
+| It's small things you never counted, / tipping quietly until you finally feel the weight. | Conversation sentence, second half, verbatim |
+
+The subtitle is no longer "The tip feels sudden. It never is." That line is not
+in the chapter; the Conversation sentence is, so it now opens the plate at the
+top and closes it at the bottom, with the drawing in between. No quotation, no
+number, no em-dash, no Stoic term unglossed: Marcus's test and Seneca's teaching
+are on the plate as what they do, not as names.
+
+**Checker output, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch08/plate.svg --chapter 8
+
+runs/ch08/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x430
+  [ ok ] title       title 'THE TIPPING SCALE' / aria-label 'The Tipping Scale' vs Mechanism 'The Tipping Scale'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    5 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   12 centred texts on the axis or a shared column; 8 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+One FAIL was fixed in between: the Conversation sentence on a single line
+measured 626px against the 552px text column, so it is set as two centred lines
+and the block below the rule moved up ten pixels to keep the last baseline clear
+of the bottom band.
+
+**What the render showed.** The tipped beam and the loaded pan read first, the
+level beam second, and the eye finishes on the sentence under the rule. The pile
+sits inside the pan rather than on the cords, which was the round 1 defect. The
+right pans are empty and that is the point: nothing reached them. The six stopped
+weights are the ones carrying the reader's sense that the work still happened, so
+they are drawn at full weight and are the only marks on the plate that touch a
+solid stroke.
+
+**For the author to rule on**
+
+1. **The right pans are empty.** A stranger could read an empty pan as "nothing
+   happened" rather than "nothing piled". The fix, if he wants one, is to move
+   the six stopped weights down into the two right pans, three a side, level; the
+   cost is that a scale with matched piles can read as keeping score, which is
+   the thing Chapter 7 took apart.
+2. **The subtitle changed** from the approved plate's "The tip feels sudden. It
+   never is." to the chapter's own words. If he wants the old line back it needs
+   to enter the chapter first, or be recorded as an Author addition in the brief.
