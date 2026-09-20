@@ -780,3 +780,22 @@ either copy.
 Lens: what recurs — a fix applying the fix it just correctly declined to
 apply elsewhere in the same breath. Corpus unchanged; every change lives in
 `tests/`, `scripts/`, or `inbox/`.
+
+---
+
+## 2026-09-20 15:37 — #047's history, wrong a fourth time, deleted rather than corrected a fifth
+
+The guard revert held under independent re-verification (`gw-retro` still
+refused without `--prove-*`; a non-`gw-retro` filer citing `tests/run.py`
+incidentally was accepted again). One thing didn't: the sentence left standing
+after the last cut — "the original engine root c74fe66 is NOT an ancestor of
+origin/main, i.e. local main and origin/main were genuinely unrelated
+histories at that moment" — was itself wrong. `main` was reset to
+`origin/main` on 2026-09-18, a day before the incident this item describes;
+its root on 2026-09-19 was already `d34a3ec`, an ancestor of `origin/main`,
+not `c74fe66`. Four corrections, four different wrong claims. Removed the
+narrative outright this time rather than attempting a fifth rewrite — the
+item's actual defect (`sync.py` measures `origin/main`, acts on local `main`)
+never needed an account of any specific incident to stand, and now has none.
+This closes the #047-history sub-thread; nothing about it should need a sixth
+look.

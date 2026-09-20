@@ -16,6 +16,14 @@ opened: 2026-09-20 15:23
 
 ```
 grep -h '^applied_by:' inbox/*.md | sort | uniq -c -> 'applied_by: true' appeared exactly once (inbox/051), now removed
+
+Added 2026-09-20 15:37, a second live instance of the same shape: #053 was
+filed with --applied-by 'python3 tests/run.py', which already exits 0
+(98/98 passing) at the moment of filing - it asks whether to re-widen a
+guard, and the proof it carries would already be satisfied before any
+widening lands, the same self-confirming-before-landing shape #051 had.
+Strengthens the case for this item without changing the recommendation
+above.
 ```
 
 **What unblocks this:** whether a ruling can ever again be auto-confirmed by a proof that was green before the work started
