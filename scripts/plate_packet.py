@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Build a feedback packet: every plate, one to a page, followed by a page
-stating what it is meant to communicate and what the reader should take
-away - not the cold visual-only read runs/design/*-names-and-visual-
-summaries.md gives (that document is deliberately blind, for testing
-whether the image alone carries the argument). This is the opposite
-document: the author showing others the intent, to get feedback on whether
-the plate delivers it.
+"""Build the plate feedback packet: each plate on its own page, then its intent and takeaway.
+
+Not the cold visual-only read runs/design/*-names-and-visual-summaries.md
+gives (that document is deliberately blind, for testing whether the image
+alone carries the argument). This is the opposite document: the author
+showing others the intent, to get feedback on whether the plate delivers it.
 
 Source of truth per plate, so nothing here is invented:
   - Plate title: this session's curated name
