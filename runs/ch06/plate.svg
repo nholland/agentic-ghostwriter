@@ -15,9 +15,12 @@
     <text class="sub" x="320" y="70">You are counting the week. She can only see tonight.</text>
   </g>
 
-  <!-- the whole week, solid and yours; only the last of it stands in the light -->
+  <!-- the whole week, yours and real; only the stretch standing inside her
+       view is solid, the rest of it is there and unseen. Faint means it landed
+       and nothing counted it, which is the Ch8 grammar. -->
   <g stroke="currentColor">
-    <rect x="76" y="160" width="488" height="40" fill="currentColor" stroke="none" opacity=".85"/>
+    <rect x="76" y="160" width="412" height="40" fill="currentColor" stroke="none" opacity=".17"/>
+    <rect x="488" y="160" width="76" height="40" fill="currentColor" stroke="none" opacity=".88"/>
     <rect x="488" y="148" width="80" height="64" fill="none" stroke-width="1.3" stroke-dasharray="4 5" opacity=".75"/>
   </g>
 

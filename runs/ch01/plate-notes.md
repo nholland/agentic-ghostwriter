@@ -209,3 +209,83 @@ labels clear each other by 160px.
    old subtitle and drawn as two small strokes. The endorsed sentence replaced
    both. If you want the idea back, it is a third caption, not a mark, and it
    costs the plate its one-action reading.
+
+## Round 6, the standalone-read fix (2026-09-21 05:10)
+
+**Brief.** `runs/design/2026-09-21-plate-standalone-read.md`, **FAIL 01**. The
+plate carried the endorsed line faithfully and the endorsed line is a truncation:
+it keeps "between what she says and what you say next are three seconds" and drops
+"what fills it, chosen or inherited, is your marriage". So a stranger took away
+*pause before you answer*, the most widely circulated marriage tip there is,
+rather than the chapter's claim. The Panel also reported a live misreading: a solid
+black block on the opening plate of the book reads to a defensive man as a
+redaction bar, as though the book were telling him to shut up.
+
+**What changed.**
+
+1. **The missing half is back, in the drawing, as labelling.** Two words stand
+   inside the block, reversed out in white: **CHOSEN** / **OR INHERITED**. They are
+   the distillation's own words, and white-on-black inside a solid block is the
+   house device already used on Ch10 (`WHAT IT PROTECTS`). No object was added.
+2. **"THE GAP" is cut**, per the Panel. A black block between two named endpoints
+   is self-evidently the gap, and it was the most diagram-like thing on the plate.
+   The two words now standing in the block do the naming, and they name what the
+   chapter cares about instead of what the shape already is.
+3. **The drawing dropped 14px** to take up the room the cut label left. Sizes,
+   widths and the proud 12px of the block over its neighbours are unchanged.
+
+**The one judgement call, and I went against the Panel on it.** The Panel suggested
+the block could become an open interval. I kept it solid, because an outline says
+*here is a space you could fill*, which is the pause-tip reading the chapter is
+arguing against. The chapter's claim is that the gap is **already full** of
+something you did not choose. A block with CHOSEN and OR INHERITED written in it
+says that, and it also kills the redaction reading on its own terms: a redaction
+bar is a bar with the words taken out, and this one has the words on it. The gain
+from last round, the gap being where the eye lands, survives intact; it is still
+the only dark object on the plate and it is now the only place with anything
+written inside it.
+
+Round 5 cut "chosen / inherited" as two small strokes standing in the block,
+because they were a second visual action competing with the interval and because
+an upright planted in a line is Ch02's device. That reasoning holds and is not
+reversed here: this is lettering on the block, not a mark in it.
+
+**Copy is unchanged.** Subtitle and closing line are the endorsed 2026-09-21
+sentence, word for word.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch01/plate.svg --chapter 1
+runs/ch01/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x340
+  [WARN] title       title 'THE THREE-SECOND WINDOW' / aria-label 'The Three-Second Window' vs Mechanism 'The Gap' (differs; inbox #065)
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   5 centred texts on the axis or a shared column; 3 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+The only WARN is the standing inbox #065 title question, carried from Round 5.
+Note that with "THE GAP" cut, the Mechanism word no longer appears anywhere on the
+plate; if he rules the title to THE GAP, that closes itself.
+
+**What the render showed** (`runs/ch01/pdf/plate.png`, 2x, and at 0.62x for phone
+width). First render set the reversed label at 11.5px, which survived phone width
+but was the smallest type on the plate; it is now 12.5px with .10em tracking, the
+house label size, and clears the block's edges by 17px each side. The block reads
+as a keystone between two empty outlines rather than as a bar over something
+deleted. Cold sequence at phone width: title, then the black block with two words
+in it, then the two names either side, then "Your marriage lives there."
+
+**For the author to rule on.**
+
+1. **The title, still.** Inbox #065, unchanged, now with the note above.
+2. **Whether CHOSEN / OR INHERITED should instead read as a fork.** It cannot be
+   drawn as one inside this round's constraint without a new object. As set, the
+   two words read as one condition with two values, which is the claim.

@@ -26,6 +26,7 @@ summaries.md`, which is deliberately cold/visual-only for blind testing.
 
 | File | Coverage | Plates | Notes |
 |---|---|---|---|
+| `the-stoic-husband-plate-feedback-packet-ch01-ch12-2026-09-21-0513.pdf` | As below | 14 (12 draft, 2 landed) | Round 5. All twelve chapter plates edited from outside reader feedback under the author's ruling "No rethinks. Just improve our existing concepts": every drawn object kept, only arrangement, labelling, weighting and copy changed. Reader Panel cold read returned ten PASS and two FAIL (Ch1, Ch6); both were fixed and re-read. Ch1's gap now carries the chapter's own "chosen or inherited" inside it, which killed both the generic pause-tip reading and a skeptic's redaction-bar misreading. Ch6 ghosts the week outside the frame so the plate argues visibility rather than proportion. |
 | `the-stoic-husband-plate-feedback-packet-ch01-ch12-2026-09-21-0047.pdf` | Ch1-12 chapter plates + Part I/II closing plates | 14 (12 draft, 2 landed) | Part III's closing plate isn't included: its Part runs past Ch12, outside this range. Ch5's page shows the open Mechanism/title mismatch (#070) verbatim, since both are read from their own sources rather than reconciled. |
 
 ## Why this is a script and not a checklist

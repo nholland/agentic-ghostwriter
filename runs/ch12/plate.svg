@@ -13,6 +13,7 @@
     .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
     .lbld{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start;opacity:.45}
     .lblc{font:600 12.5px Georgia,serif;letter-spacing:.16em;text-anchor:middle}
+    .lblcd{font:600 12.5px Georgia,serif;letter-spacing:.16em;text-anchor:middle;opacity:.45}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
     .span{stroke:currentColor;stroke-width:1.2;fill:none;opacity:.5}
@@ -66,7 +67,7 @@
   <g fill="currentColor">
     <text class="lbld" x="110" y="134">THE THINGS WITH A DAY ATTACHED</text>
     <text class="lbl" x="110" y="232">THE ONE THING FOR HER</text>
-    <text class="lblc" x="520" y="104">THIS WEEK</text>
+    <text class="lblcd" x="520" y="104">THIS WEEK</text>
     <text class="lblc" x="520" y="282">TONIGHT</text>
     <text class="cap" x="347" y="322">the stretch you never felt go by</text>
     <text class="cap" x="347" y="344">you didn’t stop loving her</text>

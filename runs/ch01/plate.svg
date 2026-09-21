@@ -5,6 +5,7 @@
     .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
     .lble{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
     .lbls{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
+    .lblw{font:600 12.5px Georgia,serif;letter-spacing:.10em;text-anchor:middle;fill:#ffffff}
     .cap{font:italic 12px Georgia,serif;text-anchor:middle;opacity:.66}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.26}
   </style>
@@ -16,19 +17,24 @@
     <text class="sub" x="320" y="70">Between what she says and what you say next are three seconds.</text>
   </g>
 
-  <!-- her words, then the interval, then yours: the interval is the only dark thing on the plate -->
+  <!-- her words, then the interval, then yours: the interval is the only dark
+       thing on the plate, and it is dark because something is already in it.
+       The two words standing inside it are what that something can be. -->
   <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5">
-    <rect x="76" y="160" width="174" height="34"/>
-    <rect x="390" y="160" width="174" height="34"/>
+    <rect x="76" y="174" width="174" height="34"/>
+    <rect x="390" y="174" width="174" height="34"/>
   </g>
   <g fill="currentColor" opacity=".92">
-    <rect x="250" y="148" width="140" height="58"/>
+    <rect x="250" y="162" width="140" height="58"/>
   </g>
 
   <g fill="currentColor">
-    <text class="lble" x="240" y="136">WHAT SHE SAYS</text>
-    <text class="lbls" x="400" y="136">WHAT YOU SAY NEXT</text>
-    <text class="lbl" x="320" y="234">THE GAP</text>
+    <text class="lble" x="240" y="150">WHAT SHE SAYS</text>
+    <text class="lbls" x="400" y="150">WHAT YOU SAY NEXT</text>
+  </g>
+  <g>
+    <text class="lblw" x="320" y="185">CHOSEN</text>
+    <text class="lblw" x="320" y="205">OR INHERITED</text>
   </g>
 
   <g class="rule" fill="none"><path d="M44 272h552"/></g>

@@ -407,3 +407,55 @@ it is all black. Cover every word and the contrast still reads.
 reconsidered: the uncounted weights sit at .22 and .24, which is deliberately
 near the edge of visibility on a phone. Raising them to .35 makes them easier to
 see and weakens the point.
+
+## Round 6, the standalone-read fix (2026-09-21 05:10)
+
+**Brief.** `runs/design/2026-09-21-plate-standalone-read.md`, Ch08 PASS. One cut
+asked for on its own merits, and it is also half of the set-wide dashed-line fix:
+the Panel found dashed strokes carrying five different meanings across twelve
+plates, and deleting two objects brings five plates into one vocabulary.
+
+**What changed, one deletion.** The six dashed trajectory lines on the **right**
+scale are cut. On the left they earn their place, because they say *these arrived
+over time and nothing counted them*; on the right they crossed each other, added
+clutter, and said nothing the dark weights do not already say. Nothing else on the
+plate moved, and no copy changed. Dashed now means one thing on this plate,
+*it landed and nobody counted it*, which is what it means on Ch05, Ch06, Ch07,
+Ch09 and Ch11.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch08/plate.svg --chapter 8
+runs/ch08/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x352
+  [ ok ] title       title 'THE TIPPING SCALE' / aria-label 'The Tipping Scale' vs Mechanism 'The Tipping Scale'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   3 centred texts on the axis or a shared column; 10 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows, no WARNs. `alignment` reports ten drawing blocks where Round 4
+reported eleven, which is the deleted group and nothing else.
+
+**What the render showed** (`runs/ch08/pdf/plate.png`, 2x). The right half is
+quieter and the left half's trajectories now read as the only motion on the plate,
+which sharpens the contrast rather than flattening it. **One cost to record:** the
+six named weights on the right now float clear of their scale with nothing joining
+them to it, and there is a visible void between the row and the beam. I left the
+row at `y=160` deliberately, because it is level with the left-hand row and that
+levelness is what says *the same things arrived on both sides*. Dropping it nearer
+the beam would close the gap and lose the comparison. If the author would rather
+have the tighter picture, that is a two-line change.
+
+**Not applied.** The Panel's relabel of the right panel from NAMED WHEN IT LANDS to
+"NAMED, SO IT NEVER PILES UP", which answers its skeptic-misreading finding
+(pebbles distributed across both pans reading as *naming it makes her carry half*).
+It was not in this round's brief and it is copy, not a cut. Worth the author's
+attention: it is the cheapest fix to a real misreading anywhere in the set.

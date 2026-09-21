@@ -214,3 +214,70 @@ at row one's nail positions exactly.
    this is the one thing in this round I would most want a second opinion on.
 2. **The Round 1 question about "Just a settled sense of you." is now moot.**
    That caption is cut.
+
+## Round 6, the standalone-read fix (2026-09-21 05:10)
+
+**Brief.** `runs/design/2026-09-21-plate-standalone-read.md`, Ch04 PASS with the
+round's most expensive word-level loss. The Panel's finding: the title, the row
+label and the deck all said *outburst*, so cold this is a plate about men who
+shout, and the silently withdrawing husband, who is the subject of Ch05 and Ch11,
+is let off the hook inside ten seconds. Round 5's open question in these notes
+("Hot or cold, both drive a nail." is off the plate) is what the Panel
+independently found, so it is closed here.
+
+**What changed, one line of copy.** The closing deck is now:
+
+> *Sometimes it's cold, and cold is often worse. Both make holes.*
+
+replacing **Stop making holes.**, which the Panel asked to cut on its own merits:
+it is the one hectoring line in the set, and the three row captions plus the
+subtitle have already delivered the argument by the time the eye reaches it. So
+the guard came back at no cost to the caption cap, which was exactly at five and
+still is.
+
+**Why not the Panel's wording.** It suggested *"Anger isn't strength. Hot or cold,
+both drive a nail."* I checked it before writing it, as instructed, and it is not
+grounded: the chapter never says "hot or cold" and never says "both drive a nail".
+What it says, verbatim, is: *"Sometimes it's hot: a raised voice... Sometimes it's
+cold, and cold is often worse. Three days of silence... Both are anger. Both make
+holes."* The line on the plate is two of those sentences joined, unaltered, and
+"Both make holes" has the further merit of naming the object that is drawn. The
+first half of the Panel's version is also already the subtitle. **If he prefers the
+Panel's exact wording it needs an Author addition on file in `plate-brief.md`;** it
+is one line and nothing in the drawing moves.
+
+**One typographic tidy.** The subtitle's apostrophe was straight while every other
+apostrophe in the set is curly; it is now *Anger isn't strength.* with the curly
+form. Same words.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch04/plate.svg --chapter 4
+runs/ch04/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x396
+  [ ok ] title       title 'THE HOLE MAKER' / aria-label 'The Hole Maker' vs Mechanism 'The Hole Maker'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    5 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   6 centred texts on the axis or a shared column; 7 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows, no WARNs. `captions` sits exactly at the cap, as it did before, so
+anything added here still costs a line somewhere else.
+
+**What the render showed** (`runs/ch04/pdf/plate.png`, 2x). The deck is 502px wide
+measured against the widest serif fallback, inside 552px of live width, and it sits
+on one line under the rule with room either side. The read is unchanged above the
+rule; below it, the last thing a cold reader takes is that the cold version counts
+too, which is the whole purpose of the restoration.
+
+**Not done.** The Panel also wanted row three's caption changed to "The holes
+remain. And they keep coming." to match its ten dots against rows one and two's
+five. That is a second copy change and it was not in this round's brief; it is
+cheap, grounded-adjacent, and worth doing next time someone opens this file.

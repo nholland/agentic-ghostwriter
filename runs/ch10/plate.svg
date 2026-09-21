@@ -33,10 +33,9 @@
     <path d="M320 294l-5.5-12h11z"/>
   </g>
 
-  <!-- top: nothing wedged underneath, so the line falls through the gap -->
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 5" opacity=".4">
-    <rect x="232" y="158" width="176" height="30"/>
-  </g>
+  <!-- top: nothing wedged underneath, so the line falls through the gap. The
+       dashed outline that used to stand here is cut: it read as a selection
+       box, and the V sags on its own. -->
   <g class="ln">
     <path d="M160 156h100l60 50 60-50h100"/>
   </g>

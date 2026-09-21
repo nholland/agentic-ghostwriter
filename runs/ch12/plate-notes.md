@@ -240,3 +240,50 @@ week, this one stopped, and there is one square left open.*
 enough that on a small phone it can read as background rather than as a
 comparison. That is deliberate and it is the reviewer's instruction, but it is
 the one setting in this round I would most expect him to want dialled back.
+
+## Round 6, the standalone-read fix (2026-09-21 05:10)
+
+**Brief.** `runs/design/2026-09-21-plate-standalone-read.md`, Ch12 PASS with one
+correction. The Panel confirmed Round 4's quietened top row is right and must not
+be undone: it buys the reading order, eye onto the black row first, then up to find
+the comparison already made. But **THIS WEEK** was set full-weight black while
+labelling a grey row, and it sits on the same vertical axis as TONIGHT, also
+full-weight black. Two hard time-labels stacked on one axis was the only place the
+plate stalled.
+
+**What changed, one class.** THIS WEEK now uses a new `.lblcd`, identical to
+`.lblc` with `opacity:.45`, the same value the row's own label `.lbld` already
+carries. Pure weighting; nothing moved and no copy changed. TONIGHT stays black,
+because the row it labels is black.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch12/plate.svg --chapter 12
+runs/ch12/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x430
+  [ ok ] title       title 'THE THING WITH NO DEADLINE' / aria-label 'The Thing With No Deadline' vs Mechanism 'The Thing With No Deadline'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    4 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   7 centred texts on the axis or a shared column; 9 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows, no WARNs. The label count is unchanged: a greyed label is still a
+label to the checker.
+
+**What the render showed** (`runs/ch12/pdf/plate.png`, 2x). The stall is gone. The
+two grey labels now read as one quiet row together, the black label and the black
+row read as the argument, and the eye goes where Round 4 intended.
+
+**Not applied.** The Panel's relabel of the bracket from "the stretch you never
+felt go by" to "five months you never felt go by", and its cut of "you didn't stop
+loving her". Neither was in this round's brief. The first is worth a ruling: the
+Conversation sentence has the number in it and the plate has none, but the
+`digits` row warns on numerals, so it would have to be the word *five*, which the
+checker treats as prose and passes.

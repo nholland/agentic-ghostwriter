@@ -52,7 +52,8 @@
   </g>
 
   <!-- RIGHT: every one of them is named the moment it lands, so every one of
-       them is dark, and they go down singly to the side they belong to. -->
+       them is dark. The trajectories are cut: on this side they crossed each
+       other and said nothing the dark weights do not already say. -->
   <g fill="currentColor" opacity=".85">
     <circle cx="392" cy="160" r="3"/>
     <circle cx="424" cy="160" r="3"/>
@@ -61,15 +62,6 @@
     <circle cx="520" cy="160" r="3"/>
     <circle cx="552" cy="160" r="3"/>
   </g>
-  <g class="fall" style="opacity:.42">
-    <path d="M392 168 396 244"/>
-    <path d="M424 168 412 244"/>
-    <path d="M456 168 428 244"/>
-    <path d="M488 168 516 244"/>
-    <path d="M520 168 532 244"/>
-    <path d="M552 168 548 244"/>
-  </g>
-
   <!-- the left scale: weeks of uncounted weight in one pan, and it has gone over -->
   <g class="ln" stroke="currentColor">
     <path d="M168 236 153 286h30z"/>

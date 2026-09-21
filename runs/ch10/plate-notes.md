@@ -186,3 +186,51 @@ line collapsing through the space where the support should be.
    caption count still holds.
 2. **The money example is off the plate.** It was the only concrete instance,
    and cold readers sometimes need one. Putting it back costs one caption.
+
+## Round 6, the standalone-read fix (2026-09-21 05:10)
+
+**Brief.** `runs/design/2026-09-21-plate-standalone-read.md`, Ch10 PASS. One cut
+asked for on its own merits, and the other half of the set-wide dashed-line fix.
+
+**What changed, one deletion.** The dashed rectangle under the top row is cut.
+
+**What that costs, stated plainly, because these notes argued the other way in
+Round 4.** That box was drawn as the mirror of the solid block below it: the same
+size at the same offset under the line, so the V could be seen falling through the
+place where the support should have been. Cold, the Panel did not read it that way
+at all. It read it as a selection box or a render artifact, called it the only
+purely decorative object in the set, and asked for it on its own merits before the
+vocabulary argument was made. Two cold readings beat one intention, so it goes. The
+unfinished test *this protects ________* still sits under the dip and still carries
+the missing half, and the V sags on its own.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch10/plate.svg --chapter 10
+runs/ch10/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x368
+  [ ok ] title       title 'THE UNDECIDED LINE' / aria-label 'The Undecided Line' vs Mechanism 'The Undecided Line'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 5 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows, no WARNs. `alignment` reports five drawing blocks where Round 4
+reported six, which is the deleted rect and nothing else.
+
+**What the render showed** (`runs/ch10/pdf/plate.png`, 2x). The top row is now one
+line under one arrow, sagging, with the unfinished sentence beneath it; the bottom
+row is the same line and the same arrow with a named block wedged under it. The
+comparison is faster without the box, and the mirror of *missing support* is still
+legible because the black block below sits in the same x-range the V dips through.
+
+**For the author, unchanged from Round 4.** This is still the only plate in twelve
+with no hairline rule and no closing caption, which the Panel raised again from the
+whole-set view. Fixing it is new copy, so it stays an inbox question.

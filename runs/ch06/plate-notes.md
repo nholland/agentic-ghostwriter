@@ -320,3 +320,61 @@ viewport, not as an absence.
 3. **The retitle question from Round 4 is closed by this round in practice.** The
    sweep wanted THE WEEK SHE DIDN'T SEE; the drawing now says that without the
    words, and the title stays the Mechanism line.
+
+## Round 6, the standalone-read fix (2026-09-21 05:10)
+
+**Brief.** `runs/design/2026-09-21-plate-standalone-read.md`, **FAIL 06**. Cold, the
+Panel got *the week is long and tonight is a sliver*, which is proportion. The
+chapter is about visibility. Its diagnosis: the bar was solid black through both
+regions, so nothing in the ink separated what you count from what she can see,
+and the dashed frame read as a crop mark.
+
+**What changed, one edit.** The bar is ghosted outside the frame and solid inside
+it. The single rect `x=76 w=488 opacity=.85` is now two abutting rects of the same
+bar: `x=76 w=412 opacity=.17` and `x=488 w=76 opacity=.88`. No geometry moved, no
+object was added, no copy changed. The dashed frame is untouched at `.75`.
+
+That is the Ch08 grammar borrowed exactly, as the Panel asked: **faint means it
+landed and nothing counted it, dark means it was named.** Here, faint is the week
+she cannot see and dark is the stretch standing in her view. It also settles the
+Round 4 worry in these notes about dashed meaning *not real*: the dashes now
+enclose the only solid thing on the plate, so they read as the edge of a field of
+view rather than as an absence.
+
+**Not applied.** The Panel also wanted the closing caption down to one line. It is
+the author's endorsed sentence and it cannot be halved without writing new copy;
+one line needs the caption set at 11.5px to clear the margin (measured 569px at
+12px against 552px of live width), which shrinks the best sentence on the plate to
+win a line. Two-line captions already exist on Ch11 and Ch12. Left for the author.
+Its retitle recommendation (the word *tally* colliding with Ch07) is unchanged and
+still the author's, inbox #065.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch06/plate.svg --chapter 6
+runs/ch06/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x338
+  [ ok ] title       title 'THE TALLY YOU DON’T READ ALOUD' / aria-label "The Tally You Don't Read Aloud" vs Mechanism "The Tally You Don't Read Aloud"
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    3 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 2 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows and no WARNs.
+
+**What the render showed** (`runs/ch06/pdf/plate.png`, 2x, and again at 0.62x for
+phone width). The plate now says *she sees only this much* before a word is read:
+a long pale record with one black stretch inside a window at its end. At phone
+width the pale bar still holds as a bar, and the black is the only thing the eye
+lands on. The junction of pale and dark falls exactly on the frame's left edge,
+which is what makes the frame read as a limit of view rather than as a highlight.
+
+**For the author.** Nothing new. Two standing items: the second caption line,
+above, and the retitle.

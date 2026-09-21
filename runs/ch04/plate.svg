@@ -12,7 +12,7 @@
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE HOLE MAKER</text>
-    <text class="sub" x="320" y="70">Anger isn't strength.</text>
+    <text class="sub" x="320" y="70">Anger isn’t strength.</text>
   </g>
 
   <!-- the post the day it happens: nails driven through it -->
@@ -63,6 +63,6 @@
   <g class="rule" fill="none"><path d="M44 340h552"/></g>
 
   <g fill="currentColor">
-    <text class="capb" x="320" y="370">Stop making holes.</text>
+    <text class="capb" x="320" y="370">Sometimes it’s cold, and cold is often worse. Both make holes.</text>
   </g>
 </svg>
