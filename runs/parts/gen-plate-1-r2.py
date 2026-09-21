@@ -4,12 +4,12 @@
 Two changes, and only these:
 
   1. A title, THE STEADY RIVER, in the chapter plates' display idiom.
-  2. The canyon is full of the river. The landed plate drew the canyon as an
-     empty notch with a thread of water floating under it, which reads as a
-     rift between two sides. Here the same horizontal layers carry on straight
-     through the rock and go wavy where they cross the cut: the channel the
-     water made is the channel the water runs in, and the surface line joins
-     the two walls instead of standing between them.
+  2. The canyon holds the river. The landed plate drew the cut as an empty
+     notch with a thread of water floating beneath it, which at a glance is a
+     rift widening between two sides. Here the cut is a channel with the water
+     running in it: what the ordinary days took out is what the river now runs
+     through, and the surface line joins the two walls rather than standing
+     between them.
 
 Everything else - canvas, ink, weights, strata count and spacing, drawing box,
 caption text and position - is copied from
@@ -31,49 +31,45 @@ W_WALL = 1.6                # canyon wall weight, as landed
 W_RIVER = 1.4               # river weight, as landed
 CENTRE = 300.0
 
-HALF_TOP = 102.4            # the landed top stratum's half-gap, unchanged
-HALF_SLOT = 62.0            # the channel below the waterline
-WATERLINE = 13              # first row that carries water
-WAVELEN = 62.0
-AMPL = 3.6
+HALF_TOP = 96.0            # the landed plate's top half-gap, near enough
+HALF_BOT = 46.0             # the channel at the canyon floor
+TAPER = 0.62                # <1: the shoulders fall away early, the gorge is sheer
+
+WATER_TOP = 405.0           # the surface
+WATER_GAP = 15.0            # water is a tighter texture than rock: its own thing
+AMPL = 3.0
+WAVELEN = 30.0
 
 
-def half_widths(rnd):
-    ys = [BOX_T + (BOX_B - BOX_T) * i / (N - 1) for i in range(N)]
-    hw = []
-    for i in range(N):
-        if i <= WATERLINE:
-            u = i / WATERLINE
-            h = HALF_TOP - (HALF_TOP - HALF_SLOT) * (u ** 0.60)
-        else:
-            h = HALF_SLOT
-        hw.append(h)
-    jl = [rnd.uniform(-1.5, 1.5) for _ in range(N)]
-    jr = [rnd.uniform(-1.5, 1.5) for _ in range(N)]
-    left = [CENTRE - hw[i] + jl[i] for i in range(N)]
-    right = [CENTRE + hw[i] + jr[i] for i in range(N)]
-    return ys, left, right
+def halfwidth(y):
+    u = (y - BOX_T) / (BOX_B - BOX_T)
+    return HALF_TOP - (HALF_TOP - HALF_BOT) * (u ** TAPER)
 
 
-def wave(x0, x1, y, rnd):
+def wave(y, rnd, amp=None):
+    amp = AMPL if amp is None else amp
+    h = halfwidth(y)
+    x0, x1 = CENTRE - h, CENTRE + h
     span = x1 - x0
-    cycles = max(1.0, round(span / WAVELEN * 2) / 2.0)
+    cycles = max(1.5, round(span / WAVELEN * 2) / 2.0)
     ph = rnd.uniform(0, 2 * math.pi)
     pts = []
-    steps = 64
+    steps = 60
     for k in range(steps + 1):
         t = k / steps
-        x = x0 + span * t
-        # the ends sit on the rock, so the water meets both walls
-        env = math.sin(math.pi * t) ** 0.35
-        y2 = y - AMPL * env * math.sin(2 * math.pi * cycles * t + ph)
-        pts.append(f'{x:.1f},{y2:.1f}')
+        env = math.sin(math.pi * t) ** 0.3     # the ends settle onto the rock
+        y2 = y - amp * env * math.sin(2 * math.pi * cycles * t + ph)
+        pts.append(f'{x0 + span * t:.1f},{y2:.1f}')
     return ' '.join(pts)
 
 
 def build(title='THE STEADY RIVER', title_y=150.0, title_px=21):
     rnd = random.Random(11)
-    ys, left, right = half_widths(rnd)
+    ys = [BOX_T + (BOX_B - BOX_T) * i / (N - 1) for i in range(N)]
+    jl = [rnd.uniform(-1.5, 1.5) for _ in range(N)]
+    jr = [rnd.uniform(-1.5, 1.5) for _ in range(N)]
+    left = [CENTRE - halfwidth(y) + jl[i] for i, y in enumerate(ys)]
+    right = [CENTRE + halfwidth(y) + jr[i] for i, y in enumerate(ys)]
 
     o = []
     o.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
@@ -91,18 +87,20 @@ def build(title='THE STEADY RIVER', title_y=150.0, title_px=21):
         o.append(f'<line x1="{right[i]:.1f}" y1="{y:.1f}" x2="{BOX_R:.0f}" y2="{y:.1f}" '
                  f'stroke="{INK}" stroke-width="{W_FIELD}"/>')
 
-    # the cliff, drawn only where there is air: it stops at the waterline
-    lp = ' '.join(f'{left[i]:.1f},{ys[i]:.1f}' for i in range(WATERLINE + 1))
-    rp = ' '.join(f'{right[i]:.1f},{ys[i]:.1f}' for i in range(WATERLINE + 1))
+    lp = ' '.join(f'{left[i]:.1f},{ys[i]:.1f}' for i in range(N))
+    rp = ' '.join(f'{right[i]:.1f},{ys[i]:.1f}' for i in range(N))
     o.append(f'<polyline points="{lp}" fill="none" stroke="{INK}" '
              f'stroke-width="{W_WALL}" stroke-linejoin="round"/>')
     o.append(f'<polyline points="{rp}" fill="none" stroke="{INK}" '
              f'stroke-width="{W_WALL}" stroke-linejoin="round"/>')
 
-    # the water, one line per layer, filling the channel it cut
-    for i in range(WATERLINE, N):
-        o.append(f'<polyline points="{wave(left[i], right[i], ys[i], rnd)}" fill="none" '
-                 f'stroke="{INK}" stroke-width="{W_RIVER}" stroke-linecap="round"/>')
+    y = WATER_TOP
+    first = True
+    while y <= BOX_B + 0.5:
+        o.append(f'<polyline points="{wave(y, rnd, AMPL if first else AMPL * 0.72)}" '
+                 f'fill="none" stroke="{INK}" stroke-width="{W_RIVER}" stroke-linecap="round"/>')
+        first = False
+        y += WATER_GAP
 
     o.append(f'<text class="ttl" x="{CENTRE:.1f}" y="{title_y:.0f}" fill="{INK}">{title}</text>')
     o.append(f'<text class="cap" x="{CENTRE:.1f}" y="730" fill="{INK}">'
@@ -117,6 +115,10 @@ if __name__ == '__main__':
     import sys
     name = sys.argv[sys.argv.index('--out') + 1] if '--out' in sys.argv else 'plate-1-steady-river.svg'
     px = int(sys.argv[sys.argv.index('--px') + 1]) if '--px' in sys.argv else 21
+    for k in ('HALF_TOP', 'HALF_BOT', 'TAPER', 'WATER_TOP', 'WATER_GAP', 'AMPL', 'WAVELEN'):
+        f = '--' + k.lower()
+        if f in sys.argv:
+            globals()[k] = float(sys.argv[sys.argv.index(f) + 1])
     p = os.path.join(OUT_DIR, name)
     open(p, 'w', encoding='utf-8').write(build(title_px=px))
     print(p)

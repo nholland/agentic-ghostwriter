@@ -39,7 +39,7 @@ TIGHT = [(7, 9), (15, 17)]   # the hard years: rings that barely widened
 TIGHT_FACTOR = 0.32
 SCAR_RING = 11                # the year the wound was taken
 SCAR_ANGLE = -1.05            # radians, upper right
-SCAR_WIDTH = 0.26
+SCAR_WIDTH = 0.30
 SCAR_DEPTH = 26.0
 SCAR_CLOSE = 4.0              # years over which the later rings close it
 
@@ -73,8 +73,8 @@ def ring_path(i, r, rnd, gap):
     for k in range(steps + 1):
         t = 2 * math.pi * k / steps
         # the trunk's own lumps, the same on every ring
-        shape = (0.042 * math.sin(2 * t + 0.6)
-                 + 0.024 * math.sin(3 * t - 1.4))
+        shape = (0.050 * math.sin(2 * t + 0.6)
+                 + 0.030 * math.sin(3 * t - 1.4))
         # the hand, and the kink of a hard year
         wob = kink * (0.55 * math.sin(3 * t + ph[0])
                       + 0.35 * math.sin(5 * t + ph[1])
@@ -88,7 +88,8 @@ def ring_path(i, r, rnd, gap):
             dep = min(SCAR_DEPTH, 0.85 * gap)
             rr -= (dep * math.exp(-((i - SCAR_RING) / SCAR_CLOSE) ** 2)
                    * math.exp(-(d / SCAR_WIDTH) ** 2))
-        pts.append((CX + rr * math.cos(t), CY + rr * math.sin(t)))
+        # a trunk's section is never round: a touch taller than it is wide
+        pts.append((CX + rr * math.cos(t), CY + 1.05 * rr * math.sin(t)))
     d = 'M ' + ' L '.join('%.1f %.1f' % p for p in pts) + ' Z'
     return d
 

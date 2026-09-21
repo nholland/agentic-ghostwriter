@@ -251,3 +251,278 @@ complaint.
 2. **The irregularity now carries a different sentence** from the Part III page
    than round one's did. Both are on the page; this is a choice about which
    sentence the plate is for.
+
+---
+
+# Part plates 1 and 2 — Designer's notes, round 3
+
+2026-09-21 12:48. Three instructions from the author, quoted in the dispatch:
+titles on both plates; the oak's rings made to say growth rather than age; the
+river's canyon tied to something positive. Drafts written to
+`runs/parts/plate-1-steady-river.svg` and `runs/parts/plate-2-sturdy-oak.svg`.
+**Nothing under `books/` was written or altered.** The generators are kept
+beside the others so either plate can be re-tuned rather than re-invented:
+`runs/parts/gen-plate-1-r2.py`, `runs/parts/gen-plate-2-r2.py`.
+
+## 1. The titles
+
+`THE STEADY RIVER` and `THE STURDY OAK`, matching `parts/part-N-*.md` and
+`03-outline.md` lines 38 and 125 word for word. *Adaptive* was not used: the
+author ruled for the book's own word after being asked, and a plate that
+contradicts the page it closes is a defect the reader can see in one flip.
+
+Set in the chapter plates' display idiom, read off `design/plates/*.svg`, which
+all carry the identical rule:
+
+| | Chapter plates | These two |
+|---|---|---|
+| class | `.ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}` | same rule, `21px`, with the `"Times New Roman"` fallback the Part captions already carry |
+| case | full caps | full caps |
+| position | `x` = canvas centre, `y=40` on a 430-tall canvas | `x=300`, `y=150` on a 900-tall canvas |
+| `role`/`aria-label` | `role="img" aria-label="<title>"` | added, same form |
+
+**Why 21px and not 17.** A Part plate is a full trim page and its caption is
+17px italic where a chapter plate's is 12px; the Part set has already scaled
+type up by about 1.4. Holding the chapter ratio exactly would give 24px, which
+rendered louder than the drawing. 21px is a 1.24 ratio to the caption: clearly
+the title, clearly subordinate to the image. One number, two files, the
+author's call if he wants it nearer the chapter ratio.
+
+**Why `y=150`.** The ink block then runs from the title's cap height (~138) to
+the caption's last baseline (756), centred on 447 against a page centre of 450,
+and leaves 40px between the title and the top of the drawing box at y=190.
+
+**A markup change worth naming.** Both files now carry a `<style>` block, so
+the captions moved from `text-anchor="middle" font-family=... font-size="17"
+font-style="italic"` attributes to `class="cap"` with the same values. Nothing
+about the render changes; what changes is that `plate_check.py`'s `anchor-attr`
+row goes from WARN to ok, and the captions are now counted as italic lines
+(2 against a cap of 2). Reject it in one word if you would rather the drafts
+differed from the landed files in the drawing only.
+
+## 2. The oak, and the rings
+
+**The finding, restated.** Thirty near-circular rings with a clean outer edge,
+isolated on white, is the end of a cut log. It argues age and felling at a
+reader who is being told about a man still standing.
+
+**What was kept.** The rings themselves, the pith dot at the centre, two bands
+of tight years, one scar the later rings closed over, the ink, both weights
+(1.05 field, 1.35 accent), the drawing box, the caption and its position.
+
+**How the rings were made to say strength rather than age.** Three changes, and
+all three are about the same thing:
+
+1. **No outer edge.** The rings run off all four sides of the drawing box. The
+   outermost ring is at radius 322; the box corner is 307.6 from the pith, so
+   nothing closes anywhere in frame. There is no bark line, no silhouette, no
+   round of timber: the reader is looking at part of something bigger that is
+   still going outward. This is the change that kills the felled-tree read, and
+   rendering confirmed it does so immediately.
+2. **The rings widen outward.** Radii 14, 23, 33, 43, 54, 66, 78, 82, 86, 91,
+   106, 121, 138, 155, 172, 178, 184, 190, 211, 232, 253, 276, 298, 322. Early
+   years lay down 9 or 10px; the last years lay down 22 to 24. The field
+   accelerates away from the centre, so what the eye reads is *more every year*,
+   not *older every year*.
+3. **The two hard bands are grown past, and the ring after each one is the
+   heaviest line on the plate.** Rings 7 to 9 (radii 78 to 91) and 15 to 17
+   (172 to 190) barely widen at all and kink; the ring immediately after each
+   band, at 106 and at 211, is drawn at 1.35 where everything else is 1.05.
+   That is the same logic plate 4 uses for the two layers bounding its winter
+   band. It means: the year after the hard one, it laid down more.
+
+**The scar.** A wound taken in year 11, upper right, pinching that ring toward
+the one inside it and closing over across the next four rings until no trace is
+left. It is never drawn deeper than 85% of that year's own growth, so no ring
+crosses the ring inside it — the first attempt did, and rendered as a tear
+through the wood rather than a dent grown over. The scar is the single
+irregularity `parts/README.md` asks for, and it carries the caption: *"The
+storm comes through, and in the morning the oak is still there."*
+
+**Two smaller decisions.** Every ring carries the same low-order lumps, so they
+all belong to one trunk rather than to a target or a ripple; and the section is
+5% taller than it is wide, because a trunk's cross-section never is round.
+
+## 3. The river, and the canyon
+
+**What the drawing does now.** The canyon still cuts down through all twenty
+layers, but it is a channel with the river running in it rather than an empty
+notch with a thread of water floating underneath. From y=405 to the bottom of
+the field the cut is full of water, drawn as wave lines on a 15px pitch — a
+tighter texture than the 23.7px rock layers, so it reads as a different
+substance and not as more strata. The surface line spans wall to wall and
+touches both walls. The water runs off the bottom edge of the drawing box: it
+goes on.
+
+**Why that is the tie, as far as a drawing can make it.** The landed plate's
+strongest shape was a white wedge widening upward between two striped blocks,
+and on a page in a marriage book that is a gap opening between two sides. The
+canyon now holds something. The two walls are joined at the waterline instead
+of standing apart, and the thing that made the cut is visibly still in it. The
+canyon reads as a course, not a wound.
+
+**The canyon profile was reshaped to allow it**: half-width 96 at the top
+falling to 46 at the floor on a 0.62 exponent, so the shoulders fall away early
+and the gorge below is close to sheer. The landed profile closed to a 20px slot
+at the bottom, which no legible amount of water fits into.
+
+### The words, and what I could not source
+
+**The caption is unchanged and verbatim**: *"It's patient enough to cut a
+canyon out of rock, one ordinary day at a time."*
+
+I searched the book for language that ties the canyon to something the marriage
+gained. It is not there. `canyon` appears in exactly one place in the whole
+corpus — the Part I page's last sentence, the caption itself. The Introduction's
+"River: Calm and Adaptable" section and `okf/frameworks/the-river-the-oak-and-
+the-sun.md` give the river's vocabulary as *accepts the landscape*, *keeps
+flowing in the same direction*, *governs yourself before the moment*, *steady
+enough that his marriage can move through difficulty without being damaged by
+his reaction to it* — all of it about adapting and holding, none of it about
+what the patience built. `04-archetype.md` adds nothing on the river beyond the
+Part titles.
+
+So per the brief I wrote nothing. **The sentence I would want, for the author to
+write, reject or replace:**
+
+> The canyon is not the damage. It is what the ordinary days built.
+
+Two notes on it. It carries no marriage vocabulary, so it does not break the
+Part pages' hard rule, and *built* is already the book's word in this register
+(Part V's "Stand in the summer you built", Ch23's "The Marriage You Build Every
+Day"). But it would be a **second caption line under the first**, which is a
+second break in "the caption is the opening page's last sentence, verbatim. The
+plate reprints the book's own words; it adds none." If he wants it, the natural
+home is the Part I page itself — added there, it becomes the page's last
+sentence and the caption rule stands unbroken.
+
+## Checker output, verbatim
+
+```
+$ python3 scripts/plate_check.py runs/parts/plate-1-steady-river.svg --part 1
+runs/parts/plate-1-steady-river.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      600x900
+  [ ok ] captions    2 italic lines against a cap of 2 (0 labels + subtitle + closing line)
+  [ ok ] alignment   3 centred texts on the axis or a shared column; 0 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 60px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+
+$ python3 scripts/plate_check.py runs/parts/plate-2-sturdy-oak.svg --part 2
+runs/parts/plate-2-sturdy-oak.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      600x900
+  [ ok ] captions    2 italic lines against a cap of 2 (0 labels + subtitle + closing line)
+  [ ok ] alignment   3 centred texts on the axis or a shared column; 0 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 60px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+For comparison, the two landed plates were run first and both return
+`[WARN] anchor-attr` on their captions and `0 italic lines` on the captions row;
+every other row is identical. That WARN is what the `<style>` block clears.
+
+**Rows that do not apply to a Part plate, and why.** `plate_check.py` was built
+around chapter plates, so `--part` skips two rows by design and a third is
+vacuous here:
+
+- **title** — only runs under `--chapter`, where it compares the `.ttl` text to
+  the chapter's `distillation.md` Mechanism line. Part plates have no
+  distillation; the Part page and `03-outline.md` are the authority, and both
+  titles were checked against them by hand and match.
+- **grounded** — only runs under `--chapter`, where it looks for every
+  three-word run in the chapter corpus. Checked by hand instead: both captions
+  appear verbatim in their Part page, and both titles appear verbatim in the
+  Part page heading and `03-outline.md`.
+- **alignment / drawing blocks** — reports `0 drawing blocks` on all four
+  files. Plate 1 has no `<g>` at all; plate 2's single `<g>` spans the canvas
+  once its unclipped path coordinates are measured, so the checker treats it as
+  the white ground. Nothing is being verified by that half of the row on either
+  plate. The centred-text half does run, and passes: three texts on x=300.
+
+Additional checks run by hand, since nothing counts them:
+
+```
+plate-1-steady-river   title 'THE STEADY RIVER'  caption verbatim in page: True
+                       em-dash False  colours ['#111111', '#ffffff']
+                       open paths without fill="none": none
+                       strokes ['1.1', '1.4', '1.6']   40 lines, 18 polylines
+plate-2-sturdy-oak     title 'THE STURDY OAK'    caption verbatim in page: True
+                       em-dash False  colours ['#111111', '#ffffff']
+                       open paths without fill="none": none
+                       strokes ['1.05', '1.35']        24 paths
+```
+
+## What the renders showed
+
+Everything was rasterised with `scripts/chapter_pdf_local.py:svg_to_png`, at
+full size and at 0.65 scale for phone width, and looked at beside renders of
+the two landed plates. Five compositions were drawn and three were thrown away;
+none of the defects was visible in the markup.
+
+**Rejected, plate 1, first attempt — the canyon widened to a 100px floor with
+the river drawn across it.** Rendered, the white wedge got *bigger*. Widening
+the bottom to make room for water made the void the dominant shape on the page,
+which is the exact fault being repaired.
+
+**Rejected, plate 1, second attempt — the strata carried on straight through
+the rock and went wavy where they crossed the cut.** Sound in principle and it
+did unify the field, but because the waves sat at the same twenty baselines as
+the rock layers, the eye joined each wave to the straight line either side of
+it and read the water as a wobble in the stone. The water has to be on its own
+pitch to be water. That is why the final plate puts it on 15px against the
+rock's 23.7px.
+
+**Rejected, plate 1, third attempt — a narrow slot full of water top to
+bottom.** Unified and rather handsome, but there was no canyon in it at all: a
+striped field with a wavy seam down the middle, which the caption then
+contradicts.
+
+**Rejected, plate 2, first attempt — rings with the wobble applied at full
+amplitude near the pith.** At radius 9 a 4px wobble is 40% of the radius, and
+the core rendered as a spiky rosette. The wobble is now absolute and low
+frequency, and the first ring starts at radius 14 as the landed plate's does.
+
+**Rejected, plate 2, second attempt — the scar cut 26px deep regardless of the
+year's growth.** Where the growth that year was 15px, the scarred ring crossed
+inside the ring before it and rendered as a tear across the wood. Capped at 85%
+of the year's own growth.
+
+**At phone width.** Plate 1: the title is legible, the gorge and the body of
+water in it are unmistakable, and the tighter pitch of the water still reads as
+a different substance at 0.65 scale. Plate 2: the title is legible, the
+widening outward is the first thing the eye gets, the two hard bands read as
+dense rings, and the scar is still visible though it is the first thing to
+soften. Nothing in either plate depends on detail that disappears.
+
+## For the author to rule on
+
+1. **The title breaks a rule in `parts/README.md`.** "No marriage vocabulary,
+   same as the opening pages" and the caption rule both survive, but *"The
+   caption is the opening page's last sentence, verbatim. The plate reprints
+   the book's own words; it adds none"* now has a second kind of text above it.
+   The README is a book file and only the Publisher edits it on your word; it
+   needs a line saying a Part plate carries its Part's title, set in the chapter
+   plates' `.ttl` idiom. Until that line exists the set has an undocumented rule.
+2. **Plates 3, 4 and 5 have no titles.** The drafts in `runs/parts/` predate
+   this instruction. Furniture that stops at Part II reads as an accident, the
+   same lesson as parking-lot #27 and the reason this set exists at all. Say the
+   word and they get `THE WARM SUN`, `FALL TO WINTER` and `SPRING TO SUMMER` in
+   the same idiom, plus the `<style>` block that clears their `anchor-attr`
+   WARN. I did not do it unasked because you named two plates.
+3. **The river sentence above.** Write it, replace it, or leave the plate
+   carrying the tie in the drawing alone. If you write it, my preference is that
+   it goes on the Part I page rather than only on the plate, so the caption rule
+   stays intact and the page and the plate keep saying the same last thing.
+4. **21px titles.** Named above; the chapter-plate ratio would put them at 24.
+5. **Plate 2 now needs a clip path.** It is the first plate in the set with
+   `<defs>` and a `<g clip-path>`. `chapter_pdf.py` renders it correctly here,
+   but if any downstream tool flattens or re-serialises the SVG, that is the one
+   feature that could be dropped, and dropping it restores the cut log. Worth
+   one look at the compiled PDF before this lands.
