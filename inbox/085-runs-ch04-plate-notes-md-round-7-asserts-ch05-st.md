@@ -20,3 +20,23 @@ notes claimed Ch05 draws a filled dot: True. Circles actually in ch05: 0 (grep -
 ```
 
 **What unblocks this:** Whether cross-plate claims in desk notes are checkable or taken on trust
+
+## Second instance, 2026-09-21 13:20 (gw-retro, same session, same desk)
+
+`runs/parts/plate-notes-2026-09-20.md` escalation 5: *"chapter_pdf.py renders it
+correctly here."* It did not and could not. `compile.py:part_plate()` returns the
+landed book file whenever one exists and only falls back to `runs/parts/`; Parts
+I and II are landed, so `--plates` embeds
+`books/the-stoic-husband/parts/plate-1-steady-river.svg` and the draft is
+unreachable by that path. The 1250 packet HTML contains 0 occurrences of
+`clipPath`.
+
+The same escalation also names a mechanism this repo does not have: no
+`ElementTree`, `lxml`, `minidom` or `BeautifulSoup` appears anywhere in
+`scripts/*.py`, so nothing here re-serialises SVG. The real exposure is
+WeasyPrint's SVG engine at `chapter_pdf.py:346`, which is not installed in this
+container and therefore untested.
+
+Third in the same file: *"Ch23's The Marriage You Build Every Day"* is Chapter 24
+(`03-outline.md:456`); Ch23 is "The Difference Between Endurance and Cowardice"
+(`:434`), and neither is written.

@@ -20,3 +20,14 @@ md5sum runs/manuscript/*.png grouped by hash: 14 byte-identical pairs, chNN-plat
 ```
 
 **What unblocks this:** Whether a stamped filename in runs/manuscript/ can be trusted to show what it showed when it was made
+
+## The shape has reached a second directory, 2026-09-21 13:20
+
+`ecb6285` commits `runs/parts/oak.png` (278 KB) and `runs/parts/river.png`
+(79 KB): unstamped renders of two SVGs still in revision, so both names will
+silently misrepresent their contents the next time a generator runs. Same shape
+as this item, one directory over.
+
+Not this shape, recorded so the distinction survives: the generators in
+`runs/parts/` each reproduce their committed SVG byte for byte, and the A/B
+variants committed mid-round were deleted in the same commit (-144 lines).
