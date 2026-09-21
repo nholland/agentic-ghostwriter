@@ -26,26 +26,26 @@
     <path d="M406 102h16"/><path d="M462 102h16"/>
   </g>
 
-  <!-- the same post after the apology: the nails are gone, the holes are not -->
+  <!-- the same post after the apology: the nails are out, the openings they left are not -->
   <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55">
     <rect x="216" y="190" width="344" height="26"/>
   </g>
-  <g fill="currentColor">
-    <circle cx="258" cy="203" r="4"/><circle cx="300" cy="203" r="4"/>
-    <circle cx="356" cy="203" r="4"/><circle cx="414" cy="203" r="4"/>
-    <circle cx="470" cy="203" r="4"/>
+  <g fill="#ffffff" stroke="currentColor" stroke-width="1.8">
+    <circle cx="258" cy="203" r="6.5"/><circle cx="300" cy="203" r="6.5"/>
+    <circle cx="356" cy="203" r="6.5"/><circle cx="414" cy="203" r="6.5"/>
+    <circle cx="470" cy="203" r="6.5"/>
   </g>
 
-  <!-- the same post months on: the first five holes, and the ones that came after -->
+  <!-- the same post months on: the earlier openings, and the ones that came after -->
   <g fill="none" stroke="currentColor" stroke-width="1.2" opacity=".55">
     <rect x="216" y="268" width="344" height="26"/>
   </g>
-  <g fill="currentColor">
-    <circle cx="242" cy="281" r="4"/><circle cx="270" cy="281" r="4"/>
-    <circle cx="300" cy="281" r="4"/><circle cx="330" cy="281" r="4"/>
-    <circle cx="356" cy="281" r="4"/><circle cx="384" cy="281" r="4"/>
-    <circle cx="414" cy="281" r="4"/><circle cx="442" cy="281" r="4"/>
-    <circle cx="470" cy="281" r="4"/><circle cx="500" cy="281" r="4"/>
+  <g fill="#ffffff" stroke="currentColor" stroke-width="1.8">
+    <circle cx="242" cy="281" r="6.5"/><circle cx="270" cy="281" r="6.5"/>
+    <circle cx="300" cy="281" r="6.5"/><circle cx="330" cy="281" r="6.5"/>
+    <circle cx="356" cy="281" r="6.5"/><circle cx="384" cy="281" r="6.5"/>
+    <circle cx="414" cy="281" r="6.5"/><circle cx="442" cy="281" r="6.5"/>
+    <circle cx="470" cy="281" r="6.5"/><circle cx="500" cy="281" r="6.5"/>
   </g>
 
   <g fill="currentColor">

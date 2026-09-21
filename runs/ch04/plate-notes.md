@@ -281,3 +281,119 @@ too, which is the whole purpose of the restoration.
 remain. And they keep coming." to match its ten dots against rows one and two's
 five. That is a second copy change and it was not in this round's brief; it is
 cheap, grounded-adjacent, and worth doing next time someone opens this file.
+
+## Round 7, the hole as an absence (2026-09-21 12:38)
+
+**Brief, the author's words.** *"On the hole maker, the nails do get fully pulled
+out. The concept is that the hole remains, not the nail."* The copy already said
+that. The drawing said the opposite: rows two and three marked each hole with a
+solid black dot, and a filled dot is a presence, not an absence. Cold, it reads
+as a nail head seen end on, which is exactly the misreading he is correcting.
+Standing ruling for this round: no rethinks, improve the existing concept.
+
+**What changed, one glyph.** The hole is now an opening: an unfilled circle,
+`r=6.5`, white fill, rim stroke `1.8` at full ink. It was a filled circle `r=4`.
+Fifteen marks changed, five in THE APOLOGY and ten in MONTHS ON. Nothing else
+moved: same positions, same board, same nails, same five lines of copy, same
+canvas. Two source comments were reworded to describe the new glyph.
+
+**Why a ring and not a slot.** Two families were drawn and rendered before either
+was written in, because a hole has to survive the phone.
+
+- *A vertical channel through the board* (two walls, the board's top and bottom
+  edge broken at each mouth). Correct in projection, since row one's nails pass
+  through the board from above, and a total failure on the page: five gaps in a
+  long thin rail stop reading as a rail with holes and start reading as six
+  separate boxes, a film strip. The ten-hole row was worse. Rejected on the
+  render, not on principle.
+- *The ring.* Reads as an opening at every size tested. Five variants were
+  rendered (r5 light rim, r5 with an inner shadow arc, a double ring, r5.5 heavy
+  rim, r5.5 with a weighted top arc). The shaded ones re-darken the centre and
+  drift back toward the dot at phone size, which is the failure being fixed; the
+  double ring reads as a washer or a grommet, an object sitting on the board. The
+  plain heavy rim was the only one where nothing sits in the hole. Sized up from
+  r5.5 to r6.5 because at 0.6 scale the smaller rings start to fill in.
+
+**How it reads now.** The hole is the darkest, largest mark on the plate, heavier
+than the nail that made it (rim 1.8 against the nail's 1.6) and darker than the
+board (full ink against .55). The eye goes down the column: a thin line driven
+through the board, then the line gone and a void left at the same spot, then more
+voids. The nail is a stroke, the hole is a gap in the surface. The argument is now
+in the marks and not only in the captions.
+
+**The five versus ten question, checked and left alone.**
+
+*What I found.* The doubling is supported by the chapter and by the distillation,
+which says in as many words that *the accumulated holes become contempt over
+time*, and the chapter says *you get there from hundreds of small ones that were
+never quite fully repaired*. So ten is not a fabricated number and MONTHS ON is
+not holes breeding; it is the accumulation the prose argues, and Round 2 put it
+there deliberately on the Reader Panel's recommendation.
+
+*What is still off, and it is real.* The plate never draws the cause. No second
+batch of nails appears between row two and row three, so the drawing asks the
+reader to supply the years. Worse, the row three caption is *"The hole remains."*,
+a sentence about persistence, under a picture that is making a claim about
+multiplication. Picture and caption are arguing two different points in the same
+row. That is not the same class of error as the one fixed in Round 3, which was a
+line contradicting the metaphor; this is a caption that is true and incomplete.
+
+*Why I did not fix it.* The two available fixes both cost more than this round
+may spend. Cutting row three to five holes would contradict the distillation.
+Changing the caption to the Panel's *"The holes remain. And they keep coming."*
+is the right fix, it is one line and nothing in the drawing moves, and it needs
+the author: the row captions are his endorsed sequence on file in
+`plate-brief.md`, and *"and they keep coming"* is not the chapter's phrase, so it
+needs an Author addition before `grounded` will pass it. **Recommended, for his
+word.**
+
+*A smaller one found while checking.* Round 1's note claims row three keeps the
+first five holes among the later ones. It keeps four. Row three's positions are
+242, 270, 300, 330, 356, 384, 414, 442, 470, 500; the original nail at 258 has no
+hole in row three. Rows one and two match exactly, which is what makes the
+sequence work, so the break only affects the third row. Re-spacing row three to
+carry all five originals was drawn and abandoned: the five original positions are
+unevenly spaced (42, 56, 58, 56 apart), so any ten that contains them either puts
+two rings 16px apart, nearly touching, or pushes the block's centre to 378 or
+beyond, where `alignment` loses its mirror and turns WARN. Left as found, and
+recorded here so the next round does not rediscover it.
+
+**Cross-plate, and this one does need a decision.** Round 2 recorded a promise
+that Ch04 and Ch05 draw one hole glyph exactly, Ch04 being the reference: *hole as
+a filled circle r=4*. That promise is now broken by this round, on the author's
+instruction, and Ch05 still draws the old filled dot. Ch05's plate should take the
+same open ring, and it is a like-for-like substitution there. Not done here: this
+round's brief is one plate.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch04/plate.svg --chapter 4
+runs/ch04/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x396
+  [ ok ] title       title 'THE HOLE MAKER' / aria-label 'The Hole Maker' vs Mechanism 'The Hole Maker'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    5 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   6 centred texts on the axis or a shared column; 7 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows, no WARNs. No copy changed, so the caption count is untouched and
+still exactly at its cap of five.
+
+**What the render showed.** Rendered at 3x for the desk, at 0.6 scale as a phone
+proxy (384px wide, deliberately harsher than a real phone, which has the pixels to
+spare), and the cached `runs/ch04/pdf/plate.png` refreshed at 2x against the new
+SVG; it was stale.
+
+At full size the three rows read straight down as one board over time: nails
+through it, nails gone and openings left in the same five places, then the same
+board later with the openings multiplied. Covering every word, the drawing alone
+now says the nail came out and the hole stayed, which it did not say a round ago.
+At phone width the rings hold their white centres and do not fill in, so the
+absence survives the shrink, which was the whole risk in the fix.
