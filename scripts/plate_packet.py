@@ -71,16 +71,25 @@ def curated_names():
 
 
 def chapter_takeaway(B, n):
-    """(mechanism, conversation, lesson) straight from the chapter's own
-    distillation - the field plate_brief.py reads, read directly here so
-    every chapter is covered, not only the four with a brief on file."""
+    """(mechanism, conversation, context, lesson) straight from the chapter's
+    own distillation - the field plate_brief.py reads, read directly here so
+    every chapter is covered, not only the four with a brief on file.
+
+    `context` is the unlabelled paragraph the distillation puts between the
+    Conversation sentence and the first **Label:** field. It is what the
+    packet expands the one-line explanation into. Chapters differ on whether
+    a blank line precedes it (Ch11 has none), so the span is bounded by the
+    next label rather than by a paragraph break."""
     path = os.path.join(B, "chapters", "ch%02d" % n, "distillation.md")
     t = open(path, encoding="utf-8").read()
     mech = re.search(r"\*\*Mechanism:\*\*\s*(.+)", t)
     convo = re.search(r"\*\*Conversation sentence:\*\*\s*(.+)", t)
     lesson = re.search(r"\*\*Lesson:\*\*\s*(.+)", t)
+    ctx = re.search(r"\*\*Conversation sentence:\*\*.*?\n(.*?)(?=\n\s*\*\*\w)", t, re.S)
+    context = " ".join(ctx.group(1).split()) if ctx else ""
     return (mech.group(1).strip() if mech else "",
            convo.group(1).strip() if convo else "",
+           context,
            lesson.group(1).strip() if lesson else "")
 
 
@@ -121,8 +130,6 @@ section.note:last-of-type { page-break-after: auto; }
 section.note .kicker { font:italic 9.5pt Georgia,serif; letter-spacing:.06em;
     color:#5a5a5a; text-align:center; margin:0 0 .3in; }
 section.note h1 { font-size:19pt; font-weight:600; text-align:center; margin:0 0 .3in; }
-section.note .draft { display:block; font:italic 10pt Georgia,serif; color:#a33;
-    text-align:center; margin:.06in 0 .28in; }
 section.note h2 { font:600 9.5pt Georgia,serif; letter-spacing:.14em; text-transform:uppercase;
     color:#5a5a5a; margin:.26in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
 section.note p { margin:0 0 .16in; text-align:left; }
@@ -131,11 +138,9 @@ section.note .convo { font:italic 12.5pt/1.5 Georgia,serif; text-align:center; m
 """
 
 
-def note_page(kicker, title, draft, rows):
+def note_page(kicker, title, rows):
     h = ['<section class="note">', '<p class="kicker">%s</p>' % md_inline(kicker),
         '<h1>%s</h1>' % md_inline(title)]
-    if draft:
-        h.append('<span class="draft">Draft plate - not yet landed in the book</span>')
     for label, body, cls in rows:
         if not body:
             continue
@@ -184,10 +189,11 @@ def main():
         body.append('<section class="plate"><img src="%s" alt=""></section>'
                     % os.path.basename(png))
         title = names.get("ch%02d" % n, "Chapter %d" % n)
-        mech, convo, lesson = chapter_takeaway(B, n)
+        mech, convo, context, lesson = chapter_takeaway(B, n)
         body.append(note_page(
-            "Chapter %d" % n, title, not landed,
+            "Chapter %d" % n, title,
             [("", mech, "mech"), ("", convo, "convo"),
+             ("What the plate is saying", context, None),
              ("Lesson - the takeaway", lesson, None)]))
 
         for numeral, ptitle, first_ch, last_ch, opening_f, closing in parts_list:
@@ -207,9 +213,8 @@ def main():
                 cap = svg_caption(svg)
                 body.append(note_page(
                     "Part %s closing plate" % numeral, pname,
-                    not landed,
-                    [("What the Part sets up", opening, None),
-                     ("The line it closes on", cap, "convo")]))
+                    [("The line it closes on", cap, "convo"),
+                     ("What the Part sets up", opening, None)]))
 
     doc = ("<!doctype html><html><head><meta charset='utf-8'>"
           "<title>Plate feedback packet</title><style>%s</style></head>"
