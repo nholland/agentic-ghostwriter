@@ -397,3 +397,26 @@ board later with the openings multiplied. Covering every word, the drawing alone
 now says the nail came out and the hole stayed, which it did not say a round ago.
 At phone width the rings hold their white centres and do not fill in, so the
 absence survives the shrink, which was the whole risk in the fix.
+
+## Publisher correction, 2026-09-21 12:56
+
+**Round 7 above asserts "Ch05 still draws the old filled dot" and escalates
+syncing it as a decision. That is false, and the decision has no subject.**
+
+Measured: `grep -c '<circle' runs/ch05/plate.svg` returns **0**. Ch05 has no
+circles of any kind. The Round 2 promise that Ch04 and Ch05 share one hole
+glyph lapsed when Ch05 was rebuilt from a new concept in Round 4, and this
+same file already recorded that lapse 195 lines above the Round 7 paragraph
+("Ch05 no longer draws nails at all").
+
+Left in place rather than deleted, because the mistake is the useful part: a
+desk restated a prior round's promise as present fact without opening the file
+it was describing. The correction is recorded here rather than only in
+`05bb5e6`'s commit message, because this file is what the next plate round
+reads and a commit message is not.
+
+Open, with the author (#084): row three's caption says "The hole remains.",
+singular and about persistence, under a picture of ten holes claiming
+accumulation. The chapter's own `refined.md:73` says "It's full of holes.",
+which passes `grounded` and holds the caption cap. The Panel's suggested
+"The holes remain. And they keep coming." fails `grounded`.
