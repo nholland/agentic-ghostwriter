@@ -327,3 +327,83 @@ scale, which is where the tipping is.
 2. **"NAMED WHEN IT LANDS"** is the Panel's label with one word swapped to stay
    inside the chapter's vocabulary (item 2 above). If he prefers "as it lands", it
    needs to enter the chapter or be recorded as an Author addition in the brief.
+
+---
+
+## Round 4, the outside-reader round (2026-09-21 04:53)
+
+**Scope.** The author's ruling: *"No rethinks. Just improve our existing
+concepts."* Objects are round 3's exactly: two balance scales, small weights,
+pans, beams. Nothing was added or swapped.
+
+**The reviewer's ask, taken in full.** On the loaded side, most of the small
+weights should read as faint and uncounted while the final one is dark and
+distinct, "so the picture says the last small thing is not the whole weight, it
+is merely the one that landed last."
+
+What that produced is a single grammar that now runs across the whole plate, and
+this is the round's real gain: **faint means it landed and nothing counted it;
+dark means it was named as it landed.** On the left, five airborne weights at
+.22 and a heap of nine at .24 that nobody ever counted, plus one dark weight,
+the only one you noticed, sitting on top of the heap in a pan that has already
+gone over. Its trajectory is the one dark dashed line on that side. On the
+right, every weight is dark, because each one was named the moment it arrived,
+and the beam holds level. So dark does not mean two different things in two
+places; it means *counted* everywhere, which is exactly the chapter's mechanism.
+
+**Copy.** The closing caption **One day something small tips it** is replaced by
+the author-endorsed line on file, **The last pebble is rarely the whole weight**
+(`plate-brief.md`, 2026-09-21, reader feedback he endorsed). It states what the
+drawing now shows, and it is the better sentence.
+
+**Two captions cut, per the cross-cutting rule.** *Each one was too small to
+name* is gone, because the faint weights say it without words. *Name it to
+yourself right then* is gone, because it only restates the label above it,
+NAMED WHEN IT LANDS. Italic count went from four to two.
+
+**One consequence to record.** Cutting those two glosses left the two centred
+column labels alone on their axes, which `alignment` reports. Both labels are
+now start-anchored at x=44 and x=348, heading their halves, which is the
+grammar Ch9, Ch11 and Ch12 already use.
+
+**What I declined.** Collapsing to a single scale was excluded by the author and
+I did not attempt it; the level scale is the chapter's corrective and dropping
+it would change what the plate argues.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch08/plate.svg --chapter 8
+runs/ch08/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x352
+  [ ok ] title       title 'THE TIPPING SCALE' / aria-label 'The Tipping Scale' vs Mechanism 'The Tipping Scale'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   3 centred texts on the axis or a shared column; 11 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+**What the render showed, including two defects it caught.** Rendered at 2x
+three times.
+
+1. First render: the dark last weight sat at the left pan's hanger vertex and
+   read as a joint in the scale, not as a pebble. Fixed by deepening the left
+   pan (`q22 24 44 0`) and lowering the heap so the dark one caps a pyramid
+   clear of the vertex.
+2. First render: the dark trajectory was a solid line and read as a second beam
+   running parallel to the real one. Fixed by dashing it, which makes it a
+   trajectory and not a bar.
+
+Neither was visible in the markup. Final render: the tipped pan is a drift of
+near-invisible weight with one black pebble on top, and the level scale beside
+it is all black. Cover every word and the contrast still reads.
+
+**For the author.** Nothing blocking. One judgement call if he wants it
+reconsidered: the uncounted weights sit at .22 and .24, which is deliberately
+near the edge of visibility on a phone. Raising them to .35 makes them easier to
+see and weakens the point.

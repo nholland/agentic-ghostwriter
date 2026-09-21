@@ -1,52 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Mood Mirror">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 368" style="color:#1a1a1a" role="img" aria-label="The Mood Mirror">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
     .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
+    .lbls{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
+    .lble{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
-    .ln{stroke:currentColor;stroke-width:1.5}
   </style>
 
-  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="368" fill="#ffffff"/>
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE MOOD MIRROR</text>
-    <text class="sub" x="320" y="66">When her mood sets your mood, you've outsourced your peace.</text>
-    <text class="cap" x="320" y="102">The same evening, twice. What stands in the middle is the difference.</text>
+    <text class="sub" x="320" y="70">When her mood sets your mood, you've outsourced your peace.</text>
   </g>
 
-  <!-- track one: nothing of yours in the middle, so her weather runs straight through -->
+  <!-- the evening with nothing of yours in it: her weather comes in, and leaves twice as heavy -->
   <g fill="currentColor">
-    <text class="lbl" x="130" y="170">HER WEATHER</text>
-    <text class="lbl" x="320" y="170">YOU, MATCHING IT</text>
-    <text class="lbl" x="510" y="150">HER WEATHER,</text>
-    <text class="lbl" x="510" y="170">DOUBLED</text>
+    <text class="lbls" x="60" y="132">HER WEATHER</text>
+    <text class="lble" x="580" y="132">THE STORM DOUBLES</text>
   </g>
-  <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M60 192h520"/>
-    <path d="M250 184v16"/><path d="M390 184v16"/>
-  </g>
-  <g fill="currentColor">
-    <text class="cap" x="320" y="224">You match it before you notice. Two people in a low is a lower low.</text>
+  <g fill="none" stroke="currentColor" stroke-linecap="round">
+    <path d="M60 156h260" stroke-width="1.5"/>
+    <path d="M320 156h260" stroke-width="5"/>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 254h552"/></g>
+  <g class="rule" fill="none"><path d="M44 204h552"/></g>
 
-  <!-- track two: the same evening, the same unbroken line, and one thing of yours standing through it -->
+  <!-- the same evening, with one thing of yours planted in it: the line comes out the weight it went in -->
   <g fill="currentColor">
-    <text class="lbl" x="130" y="306">HER WEATHER</text>
-    <text class="lbl" x="320" y="306">SOMETHING OF YOURS</text>
-    <text class="lbl" x="510" y="306">YOUR OWN WEATHER</text>
+    <text class="lbls" x="60" y="252">HER WEATHER</text>
+    <text class="lbl" x="320" y="252">YOUR OWN WEATHER</text>
   </g>
-  <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M60 344h520"/>
-    <path d="M250 336v16"/><path d="M390 336v16"/>
+  <g fill="none" stroke="currentColor" stroke-linecap="round">
+    <path d="M60 288h520" stroke-width="1.5"/>
+    <path d="M320 264v48" stroke-width="5"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
-    <path d="M320 314v60"/>
-  </g>
+
+  <g class="rule" fill="none"><path d="M44 328h552"/></g>
+
   <g fill="currentColor">
-    <text class="cap" x="320" y="390">Not to go cold. To bring something real through the door.</text>
+    <text class="cap" x="320" y="354">Not to go cold. To bring something real through the door.</text>
   </g>
 </svg>

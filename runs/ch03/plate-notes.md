@@ -93,3 +93,88 @@ drops everything below about 83% of the canvas. See `runs/ch01/plate-notes.md`.
   you want the remedy on it, the honest way is a fifth line, not a fifth row,
   and it would need the gloss ("pre-living the conversation before it
   arrives"), which is the chapter's own plain wording.
+
+## Round 2, the symbol pass (2026-09-21 04:53)
+
+**Brief.** Outside reader feedback, accepted by the author. He wanted literal
+doors; that is excluded and the bars stay. What was released for use: his copy,
+which is tougher and clearer than the old subtitle and is on file as an Author
+addition; a four-step progression that reads faster at phone size; and a final
+state more final than a sliver.
+
+**What changed.**
+
+1. **The subtitle is the endorsed line.** *"Defend yourself enough times, and
+   she stops bringing you the truth."* The old one ("You taught her the
+   conversation wasn't worth having.") named the lesson; this one names the
+   cost, and it also retires the Round 1 question about the conversation
+   sentence being shortened to fit.
+2. **The door actually shuts.** Row four was a sliver of light at the left end.
+   It is now solid across the full width. Open, a third, two thirds, shut: four
+   states, three visible steps, and an end state that is an end.
+3. **The four rows read as one object.** Row pitch cut from 64px to 44px and bar
+   height from 20px to 30px, so the stack is a single narrowing figure rather
+   than four spaced rows. The four per-row captions are gone; the left labels
+   alone carry the sequence.
+4. **Labels.** SHE BRINGS IT was the one label the chapter does not say. It is
+   now SHE BRINGS SOMETHING, the chapter's own words ("When she brings something
+   to you tonight"). YOU EXPLAIN became YOU DEFEND, which is the first of the
+   four D's and the verb the endorsed subtitle uses. SHE UPDATES and SHE STOPS
+   stand.
+5. **One closing line, not two.** "She can tell whether the door is open." is
+   cut; "She's been keeping track longer than you know." is the last beat.
+6. **Canvas 640x430 to 640x360**, the space the cut captions were holding.
+
+**Reviewer suggestions taken:** the copy, the faster progression, the final
+state. **Declined:** drawing literal doors (excluded by the author's ruling).
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch03/plate.svg --chapter 3
+runs/ch03/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x360
+  [ ok ] title       title 'THE CLOSED DOOR' / aria-label 'The Closed Door' vs Mechanism 'The Closed Door'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   3 centred texts on the axis or a shared column; 2 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Both WARNs from the previous state are cleared (`grounded`, from SHE BRINGS IT
+and the old orienting line; `captions`, which was 8 italic lines against a cap
+of 6).
+
+An earlier pass of this round was not clean and the row is kept because it set
+the label size:
+
+```
+  [FAIL] geometry    MARGIN  y=138.0 'SHE BRINGS SOMETHING' 43..228
+  [FAIL] ink         rendered ink inside the 40px margin bands: left=125
+```
+
+The label overran the left margin by one pixel at 12.5px. Set to 12px rather
+than shortened, because the shorter version is the one the chapter does not say.
+
+**What the render showed** (`runs/ch03/pdf/plate.png`). The narrowing is the
+first thing the eye gets and it now arrives in one movement instead of four
+stops. Covering every word but the title leaves an opening that closes in three
+steps and then is closed, which under THE CLOSED DOOR is the chapter. Round 1's
+open risk (a filled bar reading as a progress bar, which conventionally means
+*more done*) is reduced but not eliminated: what settles it is that the last row
+is entirely dark and nothing on the plate rewards that as completion.
+
+**For the author to rule on.**
+
+1. **The orienting line is gone.** "The same doorway, four times. It never shuts
+   in one go." was the sentence telling a reader the four bars are one doorway.
+   It was also copy the chapter does not say. The title plus the progression now
+   carry it. If you want it back it is one line at y=98 and the rows drop 20px.
+2. **YOU DEFEND for YOU EXPLAIN.** The four D's are all in the chapter and
+   Defend is the first; explaining is what it feels like from the inside. I
+   chose the reader's word over his. Say the word and it goes back.

@@ -104,3 +104,85 @@ Three defects the markup did not show and the checker could not catch.
 2. **The money example is his.** It is on a page meant to be shared. No figure
    appears, only the rule and what it protects, but he should confirm he is happy
    to have that one in a diagram rather than only in prose.
+
+---
+
+## Round 4, the outside-reader round (2026-09-21 04:53)
+
+**Scope.** The author's ruling: *"No rethinks. Just improve our existing
+concepts."* Objects are unchanged: two horizontal lines under identical downward
+arrows of pressure, one buckling into a V, the other held flat by a solid dark
+block wedged underneath.
+
+**The reviewer's verdict and his fix.** He called this the cleanest
+before-and-after in the packet, and said it reads as a civil-engineering stress
+diagram for one reason: the block is unlabelled. His fix was pure labelling,
+which is entirely inside this round's scope, so it is taken.
+
+**What changed.**
+
+- **The block is named.** It now carries **WHAT IT PROTECTS** in white, set
+  inside the solid dark block. That is the chapter's own phrase ("Not what it
+  stops. What it protects."). The physical causality is now readable without
+  captions: a named thing is wedged under the line, so the line holds.
+- **The empty block is the mirror of it.** The top row now shows the same block
+  at the same size and the same offset below the line, drawn as an empty dashed
+  outline, and the line falls straight through where it should have been. Round
+  3 had that box floating below the fold, where it read as a caption box rather
+  than as missing support. It carries the chapter's unfinished test, *this
+  protects ________.*
+- **The subtitle is the author-endorsed line on file**, **If you cannot name
+  what it protects, it is probably a preference** (`plate-brief.md`, 2026-09-21),
+  replacing *A rule folds unless you can say what it is protecting.* Sharper,
+  and it is the sentence the plate is for.
+- Both lines are stroke 2.2 now, so the fold reads as a structural event rather
+  than a thin graph.
+
+**Eight captions cut.** This plate was the worst offender in the set: twelve
+italic lines against a cap of four, a standing WARN, and five of them
+`grounded` misses. Gone: *The rule, both times: no big spend without talking
+first* / *a preference, and preferences fold* / *somebody leans on it* / *so it
+folds* / *nobody ever finished the sentence* / *the same lean* / *a boundary,
+and it holds* / *so it holds* / *Now the argument is about what you are
+protecting, not about the rule.* Two italic lines remain. Each cut caption was
+either restating a label, restating the drawing, or narrating a step the two
+identical arrows already show.
+
+That includes losing the money example. The plate is more abstract for it, and
+that is the trade the reviewer asked for: symbol first, sentence underneath.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch10/plate.svg --chapter 10
+runs/ch10/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x368
+  [ ok ] title       title 'THE UNDECIDED LINE' / aria-label 'The Undecided Line' vs Mechanism 'The Undecided Line'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 6 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Round 3 carried two WARNs (`grounded`, `captions`). Both cleared.
+
+**What the render showed.** Rendered at 2x. This is now the plate in the set
+that survives the cover-every-word test best: same arrow, same line, one falls
+through a hole and one rests on a black block, and the block has a name written
+on it. The V's legs cross the dashed outline, which is the reading I wanted, the
+line collapsing through the space where the support should be.
+
+**For the author to rule on**
+
+1. **This plate now has no closing line below a hairline rule**, which every
+   other plate in the set has. The one memorable sentence sits in the subtitle
+   slot instead. If he wants the house shape held exactly, the endorsed line
+   moves to the bottom and something shorter goes under the title, and the
+   caption count still holds.
+2. **The money example is off the plate.** It was the only concrete instance,
+   and cold readers sometimes need one. Putting it back costs one caption.

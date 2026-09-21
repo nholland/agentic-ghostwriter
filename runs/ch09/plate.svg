@@ -1,75 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" style="color:#1a1a1a" role="img" aria-label="The Bottomless Yes">
+<!-- Chapter 9 plate, round 4 (outside-reader round, 2026-09-21).
+     Same objects as round 3: short solid arrows running one way, one long
+     dashed arrow running back to empty space, a small stack of ruled lines
+     with the last one cut short. Re-weighted so the traffic is the first
+     thing the eye reads: three heavy black arrows going out, one hairline
+     dashed line coming back, and what it comes back to is blank. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Bottomless Yes">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:start}
-    .txt{font:13px Georgia,serif;opacity:.86;text-anchor:start}
+    .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .lbll{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start;opacity:.42}
+    .txt{font:12.5px Georgia,serif;text-anchor:start}
+    .txtl{font:12.5px Georgia,serif;text-anchor:start;opacity:.32}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
-    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
-    .ln{stroke:currentColor;stroke-width:1.4}
   </style>
 
-  <rect x="0" y="0" width="640" height="440" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE BOTTOMLESS YES</text>
     <text class="sub" x="320" y="66">You never named the deal, so she never agreed to it.</text>
   </g>
 
-  <!-- Two columns on one grid: left edge 44, right edge 596, so the pair is
-       centred on 320 and spans exactly the width of the rule below. -->
   <g fill="currentColor">
-    <text class="lbl" x="44" y="100">WHAT YOU GAVE</text>
-    <text class="lbl" x="404" y="100">WHAT YOU EXPECTED</text>
+    <text class="lbl" x="44" y="106">EVERY YES YOU GAVE</text>
+    <text class="lbll" x="404" y="106">SOMETHING BACK</text>
   </g>
 
+  <!-- what actually went out: solid, and there is no question it happened -->
   <g fill="currentColor">
-    <text class="txt" x="44" y="132">A night you did everything she wanted</text>
-    <text class="txt" x="44" y="160">A plan you went along with, not yours</text>
-    <text class="txt" x="44" y="188">Her story, heard all the way through</text>
-    <text class="txt" x="404" y="132">Respect</text>
-    <text class="txt" x="404" y="160">Warmth</text>
-    <text class="txt" x="404" y="188">Being heard</text>
+    <text class="txt" x="44" y="142">A night you did everything she wanted</text>
+    <text class="txt" x="44" y="174">A plan you went along with, not yours</text>
+    <text class="txt" x="44" y="206">Her story, heard all the way through</text>
   </g>
 
-  <!-- the yes goes out: one arrow per row, in the gutter between the columns -->
-  <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M345 127h36"/><path d="M345 155h36"/><path d="M345 183h36"/>
+  <!-- three heavy arrows, one per row, all of them pointing the same way -->
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt">
+    <path d="M336 137h46"/>
+    <path d="M336 169h46"/>
+    <path d="M336 201h46"/>
   </g>
   <g fill="currentColor">
-    <path d="M389 127l-10-4v8z"/>
-    <path d="M389 155l-10-4v8z"/>
-    <path d="M389 183l-10-4v8z"/>
+    <path d="M396 137l-14-6v12z"/>
+    <path d="M396 169l-14-6v12z"/>
+    <path d="M396 201l-14-6v12z"/>
   </g>
 
-  <!-- the return trip, empty: it spans both columns, 596 back to 44 -->
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
-    <path d="M596 222H56"/>
+  <!-- what you expected to arrive, drawn as faintly as it arrived -->
+  <g fill="currentColor">
+    <text class="txtl" x="404" y="142">Respect</text>
+    <text class="txtl" x="404" y="174">Warmth</text>
+    <text class="txtl" x="404" y="206">Being heard</text>
   </g>
-  <g fill="currentColor" opacity=".5">
-    <path d="M44 222l12-5v10z"/>
+
+  <!-- the return trip: one hairline, dashed, the whole width, carrying nothing -->
+  <g fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3 6" opacity=".34">
+    <path d="M596 236H60"/>
+  </g>
+  <g fill="currentColor" opacity=".34">
+    <path d="M44 236l14-6v12z"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="320" y="250">Nothing comes back, and you never once asked for it.</text>
+    <text class="cap" x="320" y="262">you never asked for it</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 272h552"/></g>
+  <g class="rule" fill="none"><path d="M44 290h552"/></g>
 
-  <!-- where the shortfall goes: one centred stack, lines on 320 and the
-       gloss directly under them -->
-  <g fill="currentColor">
-    <text class="cap" x="320" y="296">Every yes that does not come back becomes a line on a list.</text>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".8">
-    <path d="M215 316h210"/>
-    <path d="M215 330h210"/>
-    <path d="M215 344h210"/>
-    <path d="M215 358h210"/>
-    <path d="M215 372h128"/>
+  <!-- and every one of them lands here instead -->
+  <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity=".88">
+    <path d="M215 314h210"/>
+    <path d="M215 328h210"/>
+    <path d="M215 342h210"/>
+    <path d="M215 356h210"/>
+    <path d="M215 370h128"/>
   </g>
   <g fill="currentColor">
     <text class="cap" x="320" y="392">a list only you are keeping</text>
-    <text class="cap" x="320" y="424">Say it plainly and kindly, while the list is still short.</text>
+  </g>
+
+  <g fill="currentColor">
+    <text class="cap" x="320" y="418">Say what you need before generosity becomes debt.</text>
   </g>
 </svg>

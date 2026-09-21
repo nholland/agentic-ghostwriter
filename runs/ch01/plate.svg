@@ -1,46 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" style="color:#1a1a1a" role="img" aria-label="The Three-Second Window">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" style="color:#1a1a1a" role="img" aria-label="The Three-Second Window">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
     .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
-    .capm{font:italic 11.5px Georgia,serif;text-anchor:middle;opacity:.64}
-    .capl{font:italic 11.5px Georgia,serif;text-anchor:start;opacity:.64}
-    .capr{font:italic 11.5px Georgia,serif;text-anchor:end;opacity:.64}
+    .lble{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
+    .lbls{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
+    .cap{font:italic 12px Georgia,serif;text-anchor:middle;opacity:.66}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.26}
-    .ln{stroke:currentColor;stroke-width:1.8}
   </style>
-  <rect x="0" y="0" width="660" height="380" fill="#ffffff"/>
+
+  <rect x="0" y="0" width="640" height="340" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="330" y="40">THE THREE-SECOND WINDOW</text>
-    <text class="sub" x="330" y="66">What fills it, chosen or inherited, is your marriage.</text>
+    <text class="ttl" x="320" y="40">THE THREE-SECOND WINDOW</text>
+    <text class="sub" x="320" y="70">Between what she says and what you say next are three seconds.</text>
   </g>
 
-  <!-- what stands in the gap: one chosen, one inherited -->
-  <g class="ln" fill="none" stroke-linecap="butt">
-    <path d="M104 160v40"/>
+  <!-- her words, then the interval, then yours: the interval is the only dark thing on the plate -->
+  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5">
+    <rect x="76" y="160" width="174" height="34"/>
+    <rect x="390" y="160" width="174" height="34"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="4 5" opacity=".55">
-    <path d="M156 160v40"/>
-  </g>
-
-  <!-- the span: she speaks, then the words are out -->
-  <g stroke="currentColor" fill="none" stroke-width="1.4">
-    <rect x="70" y="200" width="120" height="44" fill="currentColor" stroke="none"/>
-    <rect x="190" y="200" width="400" height="44" opacity=".5"/>
+  <g fill="currentColor" opacity=".92">
+    <rect x="250" y="148" width="140" height="58"/>
   </g>
 
   <g fill="currentColor">
-    <text class="lbl" x="130" y="134">THE GAP</text>
-    <text class="capr" x="96" y="164">chosen</text>
-    <text class="capl" x="164" y="164">inherited</text>
-    <text class="capl" x="70" y="272">she says something</text>
-    <text class="capr" x="590" y="272">the words are already out</text>
+    <text class="lble" x="240" y="136">WHAT SHE SAYS</text>
+    <text class="lbls" x="400" y="136">WHAT YOU SAY NEXT</text>
+    <text class="lbl" x="320" y="234">THE GAP</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 308h572"/></g>
+  <g class="rule" fill="none"><path d="M44 272h552"/></g>
 
   <g fill="currentColor">
-    <text class="capm" x="330" y="340">The part you choose is the small one. It is still the one that decides.</text>
+    <text class="cap" x="320" y="304">Your marriage lives there.</text>
   </g>
 </svg>

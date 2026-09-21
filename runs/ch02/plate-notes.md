@@ -199,3 +199,80 @@ weather out. That is the Conversation sentence.
 so it is visibly the same line as row one. They cluster near the heavy stroke and
 could be read as noise; cutting them would make the stroke lonelier but would break
 the parallel that carries "the same evening, twice".
+
+## Round 5, the symbol pass (2026-09-21 04:53)
+
+**Brief.** Outside reader feedback, accepted by the author: "intellectually
+correct, but probably one of the more abstract plates. The horizontal lines and
+tick marks look like a mathematical diagram. 'Something of yours' is also too
+vague." His weather-panel redraw is excluded; the drawing stays two lines.
+
+**What changed.**
+
+1. **The axis ticks are gone.** The four small ticks at x=250 and x=390 were
+   what made the plate read as a number line, and the Round 3 note already had
+   them open as a question ("could be read as noise"). Both rows are now one
+   clean span of the same length, so the parallel the ticks were protecting is
+   carried by the lines themselves.
+2. **The doubling is drawn instead of asserted.** Row one's line enters at
+   stroke 1.5 and leaves at stroke 5 from the midpoint on. That is weighting,
+   not a new object, and it is the one visual action the plate needed: her
+   weather comes in, and what leaves is heavier. Row two's line is the same
+   weight end to end, because something of his is planted in it. The two rows
+   now differ in a way a stranger can see before reading anything.
+3. **SOMETHING OF YOURS is gone.** The upright is labelled **YOUR OWN WEATHER**,
+   which is the chapter's own image ("a man with his own weather") and the
+   author's endorsed line ("Bring your own weather"). Row one's right end is
+   **THE STORM DOUBLES**, also endorsed. The vaguest label in the set is out and
+   both remaining labels are concrete.
+4. **Copy count.** YOU, MATCHING IT and the two mid-plate captions are cut. What
+   is left is the title, the subtitle, four labels and one closing line.
+
+**Reviewer suggestions taken:** the abstraction complaint (ticks cut, doubling
+drawn), and the label complaint in full.
+**Declined:** the weather-panel redraw (excluded by the author's ruling). The
+weather language lives in the copy, which is where he put it.
+
+**One asymmetry, on purpose.** Row two has no right-hand label. Row one produces
+something new and worse and says so; row two produces nothing new, and the line
+running on unchanged is the statement. Adding a fourth label there would have
+meant inventing copy.
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch02/plate.svg --chapter 2
+runs/ch02/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x368
+  [ ok ] title       title 'THE MOOD MIRROR' / aria-label 'The Mood Mirror' vs Mechanism 'The Mood Mirror'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 4 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows, and the `grounded` WARN that stood through Rounds 3 and 4 is
+cleared: every phrase on the plate is now the chapter's or an Author addition on
+file. That closes the "author's call if he wants them chapter-exact" question
+from Round 4.
+
+**What the render showed** (`runs/ch02/pdf/plate.png`). The thickening reads at a
+glance and lands as *more of the same thing*, not as a different object. Row two
+reads as one continuous line with a post planted in it; the Round 4 finding that
+the line must not break still holds. Covering every word but the title leaves a
+line that doubles and a line that does not, which is the mechanism. The upright
+is the only mark that leaves the line in either row, so it stays the thing the
+eye goes to in row two.
+
+**For the author to rule on.**
+
+1. **The missing fourth label.** See the asymmetry note above. If you want row
+   two's outcome named, the words have to come from you.
+2. **Stroke 5 against 1.5 is more than double.** Drawn at exactly double the
+   difference is too small to see at phone width. The claim on the plate is the
+   endorsed sentence's, not a measurement.

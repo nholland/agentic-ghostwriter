@@ -1,69 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Undecided Line">
+<!-- Chapter 10 plate, round 4 (outside-reader round, 2026-09-21).
+     Same objects as round 3: two horizontal lines under identical downward
+     arrows of pressure, one buckling into a V, the other held flat by a solid
+     dark block wedged underneath. The only change the reviewer asked for is
+     labelling: the block is now named for what it is, and the top row shows
+     the same block as an empty dashed outline with the sentence nobody
+     finished, so the line falls straight through where the support should be. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 368" style="color:#1a1a1a" role="img" aria-label="The Undecided Line">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em}
-    .txt{font:13px Georgia,serif;opacity:.86}
+    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:start}
+    .lblw{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:middle;fill:#ffffff}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
-    .capl{font:italic 12px Georgia,serif;opacity:.66;text-anchor:start}
-    .src{font:11.5px Georgia,serif;opacity:.55;text-anchor:middle}
-    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
-    .ln{stroke:currentColor;stroke-width:1.8}
+    .ln{stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .press{stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round}
   </style>
 
-  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="368" fill="#ffffff"/>
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE UNDECIDED LINE</text>
-    <text class="sub" x="320" y="66">A rule folds unless you can say what it is protecting.</text>
-    <text class="cap" x="320" y="96">The rule, both times: no big spend without talking first.</text>
+    <text class="sub" x="320" y="66">If you cannot name what it protects, it is probably a preference.</text>
   </g>
 
-  <!-- the same lean, twice -->
-  <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M300 118v24"/>
-    <path d="M300 266v24"/>
+  <!-- the same pressure, twice -->
+  <g class="press">
+    <path d="M320 100v28"/>
+    <path d="M320 252v28"/>
   </g>
   <g fill="currentColor">
-    <path d="M300 150l-5-10h10z"/>
-    <path d="M300 298l-5-10h10z"/>
+    <path d="M320 142l-5.5-12h11z"/>
+    <path d="M320 294l-5.5-12h11z"/>
   </g>
 
-  <!-- top: nothing underneath it, so it folds -->
-  <g class="ln" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M160 168h107l33 26 33-26h137"/>
+  <!-- top: nothing wedged underneath, so the line falls through the gap -->
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 5" opacity=".4">
+    <rect x="232" y="158" width="176" height="30"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".45">
-    <rect x="212" y="212" width="176" height="26" fill="none"/>
+  <g class="ln">
+    <path d="M160 156h100l60 50 60-50h100"/>
   </g>
   <g fill="currentColor">
-    <text class="lbl" x="44" y="173">UNDECIDED</text>
-    <text class="capl" x="44" y="192">a preference, and preferences fold</text>
-    <text class="capl" x="316" y="134">somebody leans on it</text>
-    <text class="capl" x="484" y="173">so it folds</text>
-    <text class="cap" x="300" y="230">this protects ________</text>
-    <text class="cap" x="300" y="258">nobody ever finished the sentence</text>
+    <text class="lbl" x="44" y="161">UNDECIDED</text>
+    <text class="cap" x="320" y="230">this protects ________</text>
   </g>
 
-  <!-- bottom: one sentence underneath it, so it holds -->
-  <g class="ln" fill="none" stroke-linecap="round">
-    <path d="M160 316h310"/>
+  <!-- bottom: the same line, with the named thing wedged under it -->
+  <g class="ln">
+    <path d="M160 308h320"/>
   </g>
-  <g fill="currentColor" opacity=".82">
-    <rect x="258" y="318" width="84" height="22"/>
+  <g fill="currentColor" opacity=".92">
+    <rect x="232" y="310" width="176" height="30"/>
   </g>
-  <g class="rule" fill="none"><path d="M236 344h128"/></g>
   <g fill="currentColor">
-    <text class="lbl" x="44" y="321">DECIDED</text>
-    <text class="capl" x="44" y="340">a boundary, and it holds</text>
-    <text class="capl" x="316" y="282">the same lean</text>
-    <text class="capl" x="484" y="321">so it holds</text>
-    <text class="cap" x="300" y="368">this protects the savings and the big calls we make together</text>
-  </g>
-
-  <g class="rule" fill="none"><path d="M44 388h552"/></g>
-
-  <g fill="currentColor">
-    <text class="cap" x="320" y="412">Now the argument is about what you are protecting, not about the rule.</text>
+    <text class="lbl" x="44" y="313">DECIDED</text>
+    <text class="lblw" x="320" y="330">WHAT IT PROTECTS</text>
   </g>
 </svg>

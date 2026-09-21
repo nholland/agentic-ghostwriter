@@ -235,3 +235,88 @@ the chapter, the case for restoring it is stronger than it was: it is the only
 place the *cost* of the silence gets named, and without it a cold reader sees an
 unfair trade but not why it matters. The counter is the panel's cross-set finding
 that these plates carry too much italic copy. His call, not mine.
+
+---
+
+## Round 4, the outside-reader round (2026-09-21 04:53)
+
+**Scope.** The author's ruling: *"No rethinks. Just improve our existing
+concepts."* Objects are round 3's: short solid arrows running one way, one long
+dashed arrow running back to empty space, a small stack of ruled lines with the
+last one cut short.
+
+**The reviewer's verdict.** "The intellectual structure is excellent. The
+illustration is too much like a business transaction diagram." He wanted the
+contrast between everything going out and nothing coming back to be the first
+thing the eye reads, rather than something assembled from labels.
+
+**What changed, and it is all weighting.** The plate used to be two text columns
+with thin arrows between them, so the eye landed on reading. Now:
+
+- The three outgoing arrows are stroke 3, solid black, with solid heads. They
+  are the darkest thing on the plate.
+- **What you gave is dark; what you expected is pale.** The right column's
+  entries sit at .32 and its label at .42. That is the argument drawn rather
+  than captioned: the things you actually did are solid, the things you were
+  waiting for were never more than an expectation.
+- The return trip is one hairline dashed line at .34, running the full width
+  back to an arrowhead with nothing behind it, and it has been moved up to sit
+  directly under the three rows so out-and-back reads as one unit.
+- The list stack went heavier, stroke 2.4 at .88, because it is where all of it
+  actually lands.
+
+**Copy.** The subtitle is kept exactly as the reviewer asked: **You never named
+the deal, so she never agreed to it.** The closing is now the author-endorsed
+line on file, **Say what you need before generosity becomes debt**
+(`plate-brief.md`, 2026-09-21), replacing *Say it plainly and kindly, while the
+list is still short.* It is warmer and it names the mechanism.
+
+Two captions were cut and one short one put in their place. *Nothing comes back,
+and you never once asked for it* and *Every yes that does not come back becomes
+a line on a list* are gone; the return arrow now carries **you never asked for
+it** (the chapter's own clause, "something you never asked for directly"), and
+the stack keeps **a list only you are keeping**. Italic count went from five,
+which was over cap and a standing WARN, to four, which is at cap.
+
+The two column labels were both `grounded` misses. WHAT YOU GAVE became **EVERY
+YES YOU GAVE** ("A yes you gave expecting something back for it") and WHAT YOU
+EXPECTED became **SOMETHING BACK** ("you expect something back for it"). Both
+are the chapter's words now and the WARN is cleared.
+
+**What I declined, and why.** The reviewer's redraw was a hidden receipt being
+handed over. It is excluded twice over: it introduces objects this plate does
+not have, and it needs a hand, and the author ruled objects only, no human
+figures. Not attempted.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch09/plate.svg --chapter 9
+runs/ch09/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x430
+  [ ok ] title       title 'THE BOTTOMLESS YES' / aria-label 'The Bottomless Yes' vs Mechanism 'The Bottomless Yes'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   5 centred texts on the axis or a shared column; 6 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Round 3 carried two WARNs (`grounded`, `captions`). Both cleared.
+
+**What the render showed.** Rendered twice at 2x. The first render had the
+return arrow sitting far below the columns with white space between, so out and
+back read as two separate events; moving it to y=236 fixed that. Final render:
+three black arrows leaving solid words and arriving at grey ones, a dotted line
+coming back to nothing, and a heavy list underneath. The left column entries run
+to x=322 at the widest serif fallback and the arrows start at 336, so the gutter
+holds in any font.
+
+**For the author.** One thing worth his eye: the left entries are set at 12.5px
+rather than the house 13px, because the longest of them ("A night you did
+everything she wanted") needs the room to clear the arrow gutter. If he wants
+13px back, the shortest fix is to trim that entry, which is the chapter's line.

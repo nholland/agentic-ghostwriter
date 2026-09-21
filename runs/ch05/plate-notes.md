@@ -285,3 +285,92 @@ walk-out was left as drawn; it reads as the length of the fight.
    deictic labels for the drawing rather than claims. If he wants nothing on a
    plate the chapter does not say, they come off and the drawing loses its
    clearest cue that these are the same man twice.
+
+## Round 5, the symbol pass (2026-09-21 04:53)
+
+**Brief.** Outside reader feedback, accepted by the author: "I understand the bar
+metaphor after studying it, but this is one of the plates I would redesign most
+aggressively. 'Walks in / walks out' as vertical bars asks too much
+interpretation." His doorway redraw is excluded. What was released for use:
+making the ghost outline and the filled version read as the same measurement
+twice, making the failure panel and the repair panel obvious, and his endorsed
+copy, which draws the difference between taking space and leaving for good far
+more sharply than the old lines did.
+
+**What changed.**
+
+1. **Both endorsed lines are on the plate, and they are the two lines that carry
+   the distinction.** Subtitle: *"A pause is only healthy if you come back."*
+   That is the sentence the plate was missing, and it says in the first second
+   that the plate is not against pausing. Closing: *"Say the real thing before
+   silence says it for you."*
+2. **Parrhesia is off the plate.** The standalone read (stage 5) found it
+   "unglossed jargon at ten seconds, harmless as a signature line, useless as a
+   takeaway," and it was the only line that needed the chapter. It is replaced by
+   the endorsed instruction. There is now no Stoic term on the plate, so the
+   voice spec's gloss rule has nothing to cover here.
+3. **The same measurement, twice.** In both panels the dashed reference line now
+   runs from the top of the walk-in bar past the walk-out bar to the ground
+   line's own end, so it reads as a level taken across the fight rather than a
+   connector. The missing piece in panel one and the restored piece in panel two
+   are the identical rectangle at the identical height.
+4. **The repair is visible as the same piece put back.** Panel two's walk-out bar
+   was drawn as two stacked blocks with a dark seam. It is now one continuous
+   full-height bar with a white dashed seam at exactly panel one's ghost height,
+   so the eye reads *the bar reaches the line, and this is the piece that got it
+   there*, not *two boxes*. That also answers the Round 4 open question about the
+   seam.
+5. **Five lines cut.** The orienting line, both sub-labels ("nobody comes back to
+   it", "he says the true thing") and the parrhesia footer. What remains per
+   panel is one label, one note on the piece, the two deictics and one sentence.
+6. **Bars widened 26px to 28px and the ground line lengthened** so the two panels
+   sit on the same measure. Canvas 640x460 to 640x486 for the new closing rule.
+
+**Reviewer suggestions taken:** the measurement reading, the failure/repair
+distinction, the copy. **Declined:** the doorway redraw and any human figure,
+both excluded by the author's ruling. Within the objects available, a bar is the
+only thing that can be the same height twice.
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch05/plate.svg --chapter 5
+runs/ch05/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x486
+  [WARN] title       title 'THE COURAGE TO COME BACK' / aria-label 'The courage to come back: the same fight twice, once with the real thing left unsaid and once with it said' vs Mechanism 'The Remaining Nails' (differs; inbox #065)
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   11 centred texts on the axis or a shared column; 9 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+No FAIL rows. The title WARN is Round 4's unresolved question and nothing in this
+round touches it.
+
+**What the render showed** (`runs/ch05/pdf/plate.png`). Panel one: a tall bar, a
+level line, a short bar with an empty dashed box sitting in the space it does not
+fill. Panel two: the same two bars, the same level line, and the second bar
+reaching it with the seam showing where the piece went. Covering every word but
+the title leaves *something is missing here, and here it is not*, which is the
+chapter. The white seam reads cleanly against the fill at full size and survives
+at phone width; it is the one element worth a fresh pair of eyes, because a seam
+that disappears turns panel two into a plain bar.
+
+**For the author to rule on.**
+
+1. **The title, still.** The Mechanism line is **The Remaining Nails**, which is
+   Chapter 4's picture and appears nowhere in this drawing. Either the
+   distillation's Mechanism line changes to this chapter's own beat heading or
+   the plate carries a Ch04 title. Unchanged from Round 4; only you can settle
+   it.
+2. **"walks in" and "walks out" stay.** Four two-word deictics, the plate's own
+   words, below the grounded row's three-word floor. The reviewer's complaint was
+   the device, not the labels, and taking them off costs the drawing its clearest
+   cue that this is one man twice.
+3. **Parrhesia is gone, above.** If you want the term in the book's plate set it
+   belongs where the chapter glosses it, not as a footer nobody can use.

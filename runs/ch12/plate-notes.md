@@ -163,3 +163,80 @@ about 120px of white between them, no collision. Nothing in the margins.
    not how many there had been, so three is a drawing decision standing for
    "briefly, a while ago". Any small number reads the same; I want it on the
    record that it is not a count of anything.
+
+---
+
+## Round 4, the outside-reader round (2026-09-21 04:53)
+
+**Scope.** The author's ruling: *"No rethinks. Just improve our existing
+concepts."* Objects are round 3's: two horizontal timelines running to the same
+right-hand endpoint, dark squares along them, one hollow open square at the end.
+
+**The reviewer's verdict.** "The timeline explains it, but again it feels
+analytical." He asked for the conspicuous stretch of nothing in the lower line
+to be what the eye lands on first, and for the single open square at the end to
+read clearly as the chance still available. His overlapping-calendar-pages
+redraw is excluded and was not attempted.
+
+**What changed, all of it weighting and copy.**
+
+- **The busy row was turned down.** The things with a day attached now sit at
+  .34 with a .22 rule and a .45 label. They are the control, not the argument,
+  and at full strength they were the loudest thing on the plate.
+- **The row for her was turned up.** Its three early squares are at .9 on a .55
+  rule, so the marked weeks are solid and the stretch after them is a hole.
+- **The span marker is now visible.** It was a .28 hairline; it is 1.2 at .5,
+  and it is the single mark that points at the emptiness.
+- **The open square is the heaviest single object on the plate**: eighteen
+  square at stroke 2.6, white-filled, up from thirteen at 1.8. The vertical
+  guide that used to run straight through it now stops above it, so it reads as
+  an opening rather than a crossing. TONIGHT sits directly beneath it.
+
+**Copy, both lines from the endorsed pair on file** (`plate-brief.md`,
+2026-09-21). Subtitle: **What has no deadline is easiest to neglect**, replacing
+*Nothing in a week tells you how long it has been.* Closing: **Love rarely
+becomes urgent. That is why you have to make room for it**, replacing *It is a
+thing you stopped doing. Starting again asks nobody's forgiveness.* The author
+preferred the second because it is about making room rather than about
+scheduling, and that preference is the right one for the plate too: the old
+subtitle was a fact about calendars and the new one is a fact about what
+happens to unurgent things.
+
+**Two captions cut.** *these shout, and other people are watching* and *no day
+attached, and nobody waiting* both restated the labels immediately above them.
+Four italic lines remain against a cap of six. **the stretch you never felt go
+by** stays, because it names the argument, and **you didn't stop loving her**
+stays, because it is the only line that keeps the plate from reading as an
+accusation.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch12/plate.svg --chapter 12
+runs/ch12/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x430
+  [ ok ] title       title 'THE THING WITH NO DEADLINE' / aria-label 'The Thing With No Deadline' vs Mechanism 'The Thing With No Deadline'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    4 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   7 centred texts on the axis or a shared column; 9 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Round 3 was already clean; it is still clean, with two fewer captions.
+
+**What the render showed.** Rendered twice at 2x. The first render had the THIS
+WEEK guide running straight down through the open square, which muddied the one
+object that had to read as open; shortening the guide fixed it. Final render:
+the eye goes to the gap in the lower line, then to the heavy open square at the
+end of it. Cover every word and the plate still says *this row got marked every
+week, this one stopped, and there is one square left open.*
+
+**For the author.** Nothing blocking. Worth knowing: the top row is now quiet
+enough that on a small phone it can read as background rather than as a
+comparison. That is deliberate and it is the reviewer's instruction, but it is
+the one setting in this round I would most expect him to want dialled back.

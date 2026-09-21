@@ -229,3 +229,94 @@ solid bar is real and still must not be recited.
 2. **The retitle stands open.** The sweep's collision finding against Ch07 (both
    plates titled around a tally) is unresolved until he rules on the Mechanism
    line.
+
+## Round 5, the symbol pass (2026-09-21 04:53)
+
+**Brief.** Outside reader feedback, accepted by the author: "the black horizontal
+bar again feels like data visualization rather than marriage", and separately,
+Ch06 and Ch07 are starting to read as two variations of one accounting graphic.
+His calendar redraw is excluded; the two bars stay.
+
+**What changed.**
+
+1. **The two bars became one bar and a window.** They were the same length,
+   stacked, one solid and one a dashed ghost, which is the shape of a bar chart
+   comparing two quantities. The week is now a single long solid bar, and the
+   dashed outline is a small frame standing around its last stretch, taller than
+   the bar so the dashes read above and below it. One object, one thing happening
+   to it: the whole week is real and only its last inch is standing in the light.
+   That is the endorsed sentence drawn.
+2. **This is the one place I stretched the ruling, and it should be checked.**
+   The objects are the same two: a solid bar and an empty dashed outline. What
+   changed is their relationship, from side by side to one inside the other. If
+   you read that as changing an object rather than its arrangement, say so and it
+   goes back to two stacked bars with the new copy, which is a smaller but real
+   improvement.
+3. **The collision with Ch07 is gone.** Ch07 is two ruled ledger pages side by
+   side with a field of tally marks. Ch06 is now one heavy bar with a small frame
+   at its end. Nobody will mistake one for a variant of the other.
+4. **The copy is the author's endorsed lines and nothing else.** Subtitle: *"You
+   are counting the week. She can only see tonight."* Closing, over two lines:
+   *"Resentment grows when you expect someone to read a tally you never showed
+   them."* That states the asymmetry far more plainly than the old plate did, and
+   it keeps the blame where the chapter puts it, on the man holding the tally.
+5. **Four lines cut:** both glosses, "The week is real. Only tonight is visible."
+   and "Keeping the tally is not the problem. Reading it out is." The last is the
+   one I would most want back if a line is ever added here; the endorsed closing
+   covers it with "a tally you never showed them."
+6. **Canvas 640x430 to 640x338.**
+
+**Reviewer suggestions taken:** the data-visualisation complaint, the Ch07
+collision, the copy. **Declined:** the calendar redraw (excluded by the author's
+ruling).
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch06/plate.svg --chapter 6
+runs/ch06/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x338
+  [ ok ] title       title 'THE TALLY YOU DON’T READ ALOUD' / aria-label "The Tally You Don't Read Aloud" vs Mechanism "The Tally You Don't Read Aloud"
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    3 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 2 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Both previous WARNs cleared: `grounded` was flagging three lines, all now cut or
+replaced by endorsed copy, and `captions` was 6 italic lines against a cap of 4.
+
+An intermediate state of this round produced one row worth keeping, because it
+set how the drawing is grouped:
+
+```
+  [WARN] alignment   drawing off centre with no mirror and no text on its axis: block 484..572 centred at 528
+```
+
+The frame was its own top-level group and read as an off-centre block. Both rects
+now sit in one group, which is also what they are: one figure.
+
+**What the render showed** (`runs/ch06/pdf/plate.png`). The polarity the Round 4
+sweep fixed still holds: the heavy black mark is his week, not hers, so the
+self-pity reading has nothing to stand on. Covering every word but the title
+leaves a long black record with a small window around its last inch, which reads
+as *most of this is not in view* before any word is read. The Round 4 worry about
+dashed meaning "not real" is weaker here than it was, because the dashes now
+enclose part of the solid bar rather than replacing it: the frame reads as a
+viewport, not as an absence.
+
+**For the author to rule on.**
+
+1. **The nesting, above.** The one change in the six that goes further than
+   rearranging.
+2. **"Keeping the tally is not the problem. Reading it out is."** is off the
+   plate. It is the chapter's sharpest nuance and the title's own logic. Adding
+   it back is one line inside the caption cap.
+3. **The retitle question from Round 4 is closed by this round in practice.** The
+   sweep wanted THE WEEK SHE DIDN'T SEE; the drawing now says that without the
+   words, and the title stays the Mechanism line.

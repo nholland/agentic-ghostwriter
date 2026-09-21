@@ -1,95 +1,96 @@
-<!-- Chapter 8 plate, round 3 revision (Reader Panel's read of 2026-09-20 20:25).
-     Carrier: the same small weights land on two identical scales. On the left
-     nothing counts them, so they funnel into one pan where weeks of them are
-     already piled, and it has tipped. On the right each one is named the
-     moment it lands, so it arrives singly and stays single, nothing piles,
-     and the beam holds level. The two Stoic tests are off the plate: they are
-     the chapter's Lesson, not its Mechanism. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" style="color:#1a1a1a" role="img" aria-label="The Tipping Scale">
+<!-- Chapter 8 plate, round 4 (outside-reader round, 2026-09-21).
+     Carrier unchanged: the same small weights land on two identical scales.
+     Re-weighted so the grammar is one rule everywhere on the plate: faint = it
+     landed and nothing counted it, dark = it was named as it landed. On the
+     left, eleven faint weights nobody counted and one dark one, the only one
+     you noticed, and the beam has already gone over. On the right every weight
+     is named as it arrives, so none of them pile and the beam holds level. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 352" style="color:#1a1a1a" role="img" aria-label="The Tipping Scale">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lblc{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:middle}
+    .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
     .ln{stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
-    .fall{stroke:currentColor;stroke-width:1.1;fill:none;stroke-dasharray:3 5;opacity:.45}
+    .fall{stroke:currentColor;stroke-width:1.1;fill:none;stroke-dasharray:3 5;opacity:.2}
+    .last{stroke:currentColor;stroke-width:1.3;fill:none;opacity:.7;stroke-dasharray:3 5}
   </style>
 
-  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="352" fill="#ffffff"/>
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="44">THE TIPPING SCALE</text>
     <text class="sub" x="320" y="70">Unfairness rarely arrives as one moment.</text>
   </g>
 
-  <!-- the two columns, named, each with its one gloss -->
   <g fill="currentColor">
-    <text class="lblc" x="168" y="112">UNCOUNTED</text>
-    <text class="lblc" x="472" y="112">NAMED WHEN IT LANDS</text>
+    <text class="lbl" x="44" y="112">UNCOUNTED</text>
+    <text class="lbl" x="348" y="112">NAMED WHEN IT LANDS</text>
+  </g>
+
+  <!-- LEFT: the same six small things arrive, and five of them register on
+       nobody. Only the last one is dark, because it is the only one you saw. -->
+  <g fill="currentColor" opacity=".22">
+    <circle cx="88" cy="160" r="3"/>
+    <circle cx="120" cy="160" r="3"/>
+    <circle cx="152" cy="160" r="3"/>
+    <circle cx="184" cy="160" r="3"/>
+    <circle cx="216" cy="160" r="3"/>
   </g>
   <g fill="currentColor">
-    <text class="cap" x="168" y="134">Each one was too small to name.</text>
-    <text class="cap" x="472" y="134">Name it to yourself right then.</text>
+    <circle cx="248" cy="160" r="3.8"/>
   </g>
-
-  <!-- the same six small things, landing on both lives -->
-  <g fill="currentColor" opacity=".62">
-    <circle cx="88" cy="168" r="3"/>
-    <circle cx="120" cy="168" r="3"/>
-    <circle cx="152" cy="168" r="3"/>
-    <circle cx="184" cy="168" r="3"/>
-    <circle cx="216" cy="168" r="3"/>
-    <circle cx="248" cy="168" r="3"/>
-  </g>
-  <g fill="currentColor" opacity=".62">
-    <circle cx="392" cy="168" r="3"/>
-    <circle cx="424" cy="168" r="3"/>
-    <circle cx="456" cy="168" r="3"/>
-    <circle cx="488" cy="168" r="3"/>
-    <circle cx="520" cy="168" r="3"/>
-    <circle cx="552" cy="168" r="3"/>
-  </g>
-
-  <!-- LEFT: nothing counts them, so every one funnels into the same pan -->
   <g class="fall">
-    <path d="M88 176 98 256"/>
-    <path d="M120 176 102 256"/>
-    <path d="M152 176 106 256"/>
-    <path d="M184 176 110 256"/>
-    <path d="M216 176 114 256"/>
-    <path d="M248 176 118 256"/>
+    <path d="M88 168 98 252"/>
+    <path d="M120 168 102 252"/>
+    <path d="M152 168 106 252"/>
+    <path d="M184 168 108 252"/>
+    <path d="M216 168 110 252"/>
+  </g>
+  <g class="last">
+    <path d="M248 168 112 246"/>
   </g>
 
-  <!-- RIGHT: each one goes down on its own, to the side it belongs to -->
-  <g class="fall">
-    <path d="M392 176 396 248"/>
-    <path d="M424 176 412 248"/>
-    <path d="M456 176 428 248"/>
-    <path d="M488 176 516 248"/>
-    <path d="M520 176 532 248"/>
-    <path d="M552 176 548 248"/>
+  <!-- RIGHT: every one of them is named the moment it lands, so every one of
+       them is dark, and they go down singly to the side they belong to. -->
+  <g fill="currentColor" opacity=".85">
+    <circle cx="392" cy="160" r="3"/>
+    <circle cx="424" cy="160" r="3"/>
+    <circle cx="456" cy="160" r="3"/>
+    <circle cx="488" cy="160" r="3"/>
+    <circle cx="520" cy="160" r="3"/>
+    <circle cx="552" cy="160" r="3"/>
+  </g>
+  <g class="fall" style="opacity:.42">
+    <path d="M392 168 396 244"/>
+    <path d="M424 168 412 244"/>
+    <path d="M456 168 428 244"/>
+    <path d="M488 168 516 244"/>
+    <path d="M520 168 532 244"/>
+    <path d="M552 168 548 244"/>
   </g>
 
-  <!-- the left scale: weeks of them already in one pan, and it has tipped -->
+  <!-- the left scale: weeks of uncounted weight in one pan, and it has gone over -->
   <g class="ln" stroke="currentColor">
     <path d="M168 236 153 286h30z"/>
     <path d="M147 286h42"/>
     <path d="M108 254 228 218"/>
-    <path d="M108 254 86 276"/><path d="M108 254 130 276"/>
-    <path d="M86 276q22 14 44 0"/>
+    <path d="M108 254 86 278"/><path d="M108 254 130 278"/>
+    <path d="M86 278q22 24 44 0"/>
     <path d="M228 218 206 240"/><path d="M228 218 250 240"/>
     <path d="M206 240q22 14 44 0"/>
   </g>
-  <g fill="currentColor" opacity=".62">
-    <circle cx="92" cy="274" r="2.8"/><circle cx="100" cy="274" r="2.8"/>
-    <circle cx="108" cy="274" r="2.8"/><circle cx="116" cy="274" r="2.8"/>
-    <circle cx="124" cy="274" r="2.8"/>
-    <circle cx="96" cy="267" r="2.8"/><circle cx="104" cy="267" r="2.8"/>
-    <circle cx="112" cy="267" r="2.8"/><circle cx="120" cy="267" r="2.8"/>
-    <circle cx="104" cy="260" r="2.8"/><circle cx="112" cy="260" r="2.8"/>
+  <g fill="currentColor" opacity=".24">
+    <circle cx="96" cy="282" r="2.8"/><circle cx="104" cy="282" r="2.8"/>
+    <circle cx="112" cy="282" r="2.8"/><circle cx="120" cy="282" r="2.8"/>
+    <circle cx="100" cy="275" r="2.8"/><circle cx="108" cy="275" r="2.8"/>
+    <circle cx="116" cy="275" r="2.8"/>
+  </g>
+  <g fill="currentColor">
+    <circle cx="108" cy="268" r="3.2"/>
   </g>
 
-  <!-- the right scale: the same weight arrived, single, and it holds level -->
+  <!-- the right scale: the same weight arrived, each piece named, and it holds level -->
   <g class="ln" stroke="currentColor">
     <path d="M472 236 457 286h30z"/>
     <path d="M451 286h42"/>
@@ -99,7 +100,7 @@
     <path d="M532 236 510 258"/><path d="M532 236 554 258"/>
     <path d="M510 258q22 14 44 0"/>
   </g>
-  <g fill="currentColor" opacity=".62">
+  <g fill="currentColor" opacity=".85">
     <circle cx="396" cy="254" r="2.8"/><circle cx="412" cy="254" r="2.8"/>
     <circle cx="428" cy="254" r="2.8"/>
     <circle cx="516" cy="254" r="2.8"/><circle cx="532" cy="254" r="2.8"/>
@@ -107,6 +108,6 @@
   </g>
 
   <g fill="currentColor">
-    <text class="cap" x="168" y="322">One day something small tips it.</text>
+    <text class="cap" x="320" y="330">The last pebble is rarely the whole weight.</text>
   </g>
 </svg>

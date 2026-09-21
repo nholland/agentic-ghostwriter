@@ -133,3 +133,79 @@ stroke's gloss by more than the checker's 10px clearance.
    block and left the title alone; the standing house question ("are chapter
    plates titled by Mechanism") would retitle the plate THE GAP and leave the
    block unlabelled. One word, one file, your call.
+
+## Round 3, the symbol pass (2026-09-21 04:53)
+
+**Brief.** Outside reader feedback, accepted by the author: the plate read as a
+progress indicator and only resolved once the labels were read. His fix, which
+the author released for use: make the gap itself the hero rather than the
+proportion, and name the two sides plainly. His falling-dominoes alternative is
+excluded. Objects unchanged: one horizontal bar, a black block, tick/label marks.
+
+**What changed.**
+
+1. **The gap moved to the middle and became the biggest thing on the plate.**
+   It was a short black block flush against the far left of the span, which is
+   the shape of a progress bar and reads as *how far along you are*. It is now
+   inset at dead centre, with a light outlined segment on each side, and it
+   stands 12px proud of those segments top and bottom. Nothing else is dark. The
+   eye lands on the interval first, which is the whole point of the chapter.
+2. **The two sides are named.** WHAT SHE SAYS leans in from the left, WHAT YOU
+   SAY NEXT from the right, both anchored toward the block so they point at it.
+   Both are the author's endorsed sentence, split.
+3. **Copy cut from six lines to three.** Subtitle: *"Between what she says and
+   what you say next are three seconds."* Closing: *"Your marriage lives there."*
+   That is the 2026-09-21 Author addition, one sentence, with the drawing sitting
+   inside it: read the top, look, read the bottom. The old subtitle, the two end
+   captions and the old closing line are gone.
+4. **The chosen / inherited pair is gone from the drawing.** The solid and dashed
+   strokes standing in the block were a second visual action competing with the
+   interval, and an upright planted in a line is Ch02's device. The block keeps
+   the Mechanism label, THE GAP.
+5. **Canvas 660x380 to 640x340**, which settles the open question from Round 1:
+   every other chapter plate in `runs/` is 640 wide and the checker's canvas row
+   expects it.
+
+**Reviewer suggestions taken:** the gap as hero, the two sides named plainly.
+**Declined:** the dominoes redraw (excluded by the author's ruling), and any
+human figure (excluded set-wide).
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch01/plate.svg --chapter 1
+runs/ch01/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x340
+  [WARN] title       title 'THE THREE-SECOND WINDOW' / aria-label 'The Three-Second Window' vs Mechanism 'The Gap' (differs; inbox #065)
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    2 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 3 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+The captions row was WARN (6 italic lines against a cap of 3) before this round
+and is now clear. The title row is the standing inbox #065 question and is the
+only WARN left.
+
+**What the render showed** (`runs/ch01/pdf/plate.png`, viewed at full size). The
+dark block is the first thing the eye finds and the two names read as arriving at
+it from either side. Covering every word but the title leaves a heavy block held
+between two lighter ones, which is an interval; with the title above it, it is
+three seconds between her words and yours. The proud block no longer reads as
+fill, so the progress-bar misreading is gone. Nothing collides; the two side
+labels clear each other by 160px.
+
+**For the author to rule on.**
+
+1. **The title, still.** Inbox #065. The plate is titled by the chapter (THE
+   THREE-SECOND WINDOW) and the block by the Mechanism (THE GAP). One word, one
+   file, and nothing else on the plate moves either way.
+2. **"Chosen or inherited" is no longer anywhere on this plate.** It was in the
+   old subtitle and drawn as two small strokes. The endorsed sentence replaced
+   both. If you want the idea back, it is a third caption, not a mark, and it
+   costs the plate its one-action reading.

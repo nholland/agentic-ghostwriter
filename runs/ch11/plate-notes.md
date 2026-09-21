@@ -146,3 +146,74 @@ subtitle, said as a sentence.
 2. **The apostrophe.** The title now carries a curly apostrophe in SHE'S, to
    match the distillation exactly. If plate titles should stay straight-quoted
    for the typesetter, say so and it is one character.
+
+---
+
+## Round 4, the outside-reader round (2026-09-21 04:53)
+
+**Scope.** The author's ruling: *"No rethinks. Just improve our existing
+concepts."* The reviewer called this one of the strongest plates in the packet
+and said to barely touch it. Every object, size and position is round 3's: two
+boxes at the same size, one solid-bordered and packed with heavy dark bars, one
+an empty dashed outline, one arrow crossing between them.
+
+**The one change he asked for, done.** The closing sentence was doing too much
+at once. It is now the two author-endorsed lines on file (`plate-brief.md`,
+2026-09-21): a short instruction, **Say the true thing while it is still small**,
+and under it a two-word maxim, **Kindly. Once.**, set at 15px so it carries. The
+old single line, *Say the true thing on the Tuesday you notice it, small and
+kind and once*, is gone. Breaking it gives the words the weight he wanted.
+
+**The opening line is kept exactly**, as he singled it out: *You have run it
+forty times. She has heard it zero.*
+
+**Three glosses cut, and this is more than "barely touch".** *the same argument,
+run again* only restated the label INSIDE YOUR HEAD above a stack of seven
+identical bars. *where it would have to happen* only restated IN THE ROOM. Both
+were also `grounded` misses, and the first was the plate's `alignment` WARN, a
+centred text sitting alone on x=180. Cutting them also made room for the split
+closing without going over the caption cap. **nothing said out loud** stays,
+because it is the one gloss that stops the empty box being read as a to-do list,
+and it is now start-anchored inside the box rather than centred, which keeps the
+axis clean.
+
+That is three lines removed where he said to change one. It is caption-cutting
+only, the cross-cutting rule for this round, and no line, box, bar or arrow
+moved. Flagging it because it exceeds "barely" in letter if not in spirit.
+
+**One drawing touch.** The crossing arrow is dashed now instead of solid, at
+.45. It reads as setting out rather than arriving, which is the chapter's point
+and was previously being carried by the gloss that is gone.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch11/plate.svg --chapter 11
+runs/ch11/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x376
+  [ ok ] title       title 'THE CONVERSATION SHE’S NEVER HEARD' / aria-label 'The Conversation She’s Never Heard' vs Mechanism "The Conversation She's Never Heard"
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 6 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Round 3 carried three WARNs (`grounded`, `captions`, `alignment`). All cleared.
+The title row passes because the checker normalises the curly apostrophe; the
+plate keeps ’ and the distillation keeps ', which is a typographic difference
+and not a discrepancy.
+
+**What the render showed.** Rendered at 2x. Seven black bars in a solid box, an
+identical empty dashed box beside it, and a dotted arrow that does not reach.
+*Kindly. Once.* lands as the last thing on the plate and is the line a reader
+would photograph.
+
+**For the author.** One judgement: *Each pass makes the next one more expensive*
+was cut, and it was a good line. It went rather than **nothing said out loud**
+because the caption cap allowed only one of the two and the other one is what
+stops the empty box being misread. If he wants it back, it costs the gloss.

@@ -196,3 +196,96 @@ chapter." This plate passes on the left column and the field of marks. The
 open question raised in Round 1, and the new standard sharpens it rather than
 settling it. Still one word from him: four words inside the dashed box, *you never
 saw this page*, would close it.
+
+---
+
+## Round 4, the outside-reader round (2026-09-21 04:53)
+
+**The brief.** The author circulated the plates; the reviewer's standard, which
+the author accepted, is that a reader should be able to cover every word except
+the title and still get most of the lesson. The author's ruling on scope: *"No
+rethinks. Just improve our existing concepts."* So the drawn objects here are
+round 3's exactly — two boxes, one holding legible written lines and one holding
+blank placeholder lines, with a dense scattered field beneath both. Only their
+weighting, labelling and copy moved.
+
+**The reviewer's ask, taken.** He said the absence is the point and the polite
+dashed blank lines were undercutting it: "let the emptiness itself be the
+message." So the three dashed rules inside her box are gone. Her page is now a
+faint dashed outline containing nothing at all, at the same size as yours. The
+left box went the other way: solid frame at .62, rules at 1.5/.9, entries at
+full black and 13.5px. The asymmetry is now a weighting contrast rather than a
+line-for-line mirror, and it lands before any word is read.
+
+**Copy, and why each line is on file.**
+
+- Labels **YOUR PAGE** / **HER PAGE** replace WHAT YOU COUNTED / WHAT SHE
+  COUNTED. Two reasons. The old pair was the source of the misreading logged in
+  rounds 1 and 3 (an empty box under "what she counted" reads as *she counted
+  nothing*), and both old labels were `grounded` misses. The new pair is the
+  chapter's own two-page ledger: "It's arithmetic done on one page of a two-page
+  ledger."
+- **The router, that Tuesday** became **Fixing the router**, which is the
+  chapter's phrase verbatim from the "Two honest ledgers" beat, and clears the
+  third `grounded` miss. The coaching weekend and Cleaning the kitchen (the
+  author's own addition of 2026-09-20, on file in `plate-brief.md`) stand.
+- The empty box now carries one faint gloss, **a ledger you can't fully read**,
+  which is the chapter's own clause from the Seneca paragraph: "Gratitude for
+  more than you can see is the only honest response to a ledger you can't fully
+  read." This is the four-word gloss the author has twice been asked to rule on
+  (rounds 1 and 3). It is in now because it is the chapter's language rather
+  than a new sentence, so it needed no ruling, and because a stark empty box
+  without it argues the opposite of the chapter. **If he would rather the box
+  stayed wordless, this is one line to delete.**
+- The field caption **the part neither column reached** (a `grounded` miss)
+  became **the smaller things neither of you tracks**, which is the chapter's
+  own sentence: "The dozens of smaller things neither of you tracks, on either
+  side, wouldn't make your list."
+- Closing line kept, as the reviewer asked, in the author's quoted tense:
+  **Half the data, and it always says you're ahead.**
+
+**What I did not do.** The title stays THE PRIVATE TALLY. Retitling was excluded
+from this round; it tracks the Mechanism line and is already open in the inbox.
+Ch6/Ch7 reading as two accounting graphics is a set-level question I cannot fix
+inside one plate without changing objects, which the ruling forbids. Noted below.
+
+**Caption count.** Four italic lines against a cap of four. The cross-cutting
+rule was to cut where possible; here the count held level rather than falling,
+because the one caption added (the empty-box gloss) pays for itself by killing
+the misreading, and the one removed was the field's.
+
+**plate_check.py, verbatim**
+
+```
+$ python3 scripts/plate_check.py runs/ch07/plate.svg --chapter 7
+runs/ch07/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x424
+  [ ok ] title       title 'THE PRIVATE TALLY' / aria-label 'The Private Tally' vs Mechanism 'The Private Tally'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 5 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Round 3 carried two WARNs (`grounded`, `alignment`). Both are cleared: the
+labels are start-anchored now, so there are no centred texts off the axis.
+
+**What the render showed** (Chromium at 2x, full canvas). Ten-second read with
+every word covered: a filled page, an identical empty one, and under both a
+field of marks bigger than either. The empty box is stark rather than polite,
+which was the point of the round. The field still reads as a band of tally
+strokes rather than as texture at phone width. No collisions, no clipping.
+
+**For the author to rule on**
+
+1. **The gloss inside her page.** *a ledger you can't fully read.* Chapter's own
+   words, so legal, but it is a fourth caption and the round's cross-cutting
+   rule was to cut captions. One word and it goes.
+2. **Ch6 and Ch7 as two accounting graphics.** The reviewer's real worry. Fixing
+   it means changing one of the two plates' objects, which this round forbids.
+   That is his call, not mine.

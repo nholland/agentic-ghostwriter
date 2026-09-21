@@ -1,46 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Tally You Don't Read Aloud">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 338" style="color:#1a1a1a" role="img" aria-label="The Tally You Don't Read Aloud">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:start}
-    .gl{font:italic 10.5px Georgia,serif;opacity:.66;text-anchor:start}
+    .lbls{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
+    .lble{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
     .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
 
-  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="338" fill="#ffffff"/>
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE TALLY YOU DON’T READ ALOUD</text>
-    <text class="sub" x="320" y="66">Resentment does not come from doing too much.</text>
+    <text class="sub" x="320" y="70">You are counting the week. She can only see tonight.</text>
   </g>
 
-  <!-- the week you carried: solid, real, and nobody can see it -->
-  <g fill="currentColor" opacity=".82">
-    <rect x="250" y="124" width="320" height="34"/>
-  </g>
-  <g fill="currentColor">
-    <text class="lbl" x="44" y="146">THE WEEK</text>
-    <text class="gl" x="44" y="178">the bucket you emptied, with no slot on the calendar</text>
-  </g>
-
-  <!-- tonight: the only part the room can see -->
-  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5">
-    <rect x="250" y="216" width="320" height="34"/>
-  </g>
-  <g fill="currentColor">
-    <text class="lbl" x="44" y="238">TONIGHT</text>
-    <text class="gl" x="44" y="270">what she can see right now</text>
+  <!-- the whole week, solid and yours; only the last of it stands in the light -->
+  <g stroke="currentColor">
+    <rect x="76" y="160" width="488" height="40" fill="currentColor" stroke="none" opacity=".85"/>
+    <rect x="488" y="148" width="80" height="64" fill="none" stroke-width="1.3" stroke-dasharray="4 5" opacity=".75"/>
   </g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="306">The week is real. Only tonight is visible.</text>
+    <text class="lbls" x="76" y="138">THE WEEK</text>
+    <text class="lble" x="568" y="138">TONIGHT</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 344h552"/></g>
+  <g class="rule" fill="none"><path d="M44 252h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="380">Keeping the tally is not the problem. Reading it out is.</text>
-    <text class="cap" x="320" y="406">Read yours out and you have handed her a reason to keep one.</text>
+    <text class="cap" x="320" y="282">Resentment grows when you expect someone</text>
+    <text class="cap" x="320" y="304">to read a tally you never showed them.</text>
   </g>
 </svg>

@@ -132,3 +132,85 @@ runs/ch04/plate.svg
 
 **What the render showed.** Unchanged from round one apart from the caption. The
 three rows still read top to bottom as one post over time.
+
+## Round 3, the symbol pass (2026-09-21 04:53)
+
+**Brief.** Outside reader feedback, accepted by the author. He called this one of
+the strongest concepts in the packet and asked for two things: a clearer
+sequence, and a fix for a real logic bug. The bug: the plate's subtitle said
+every outburst drives a nail *you will never fully pull out*, when the whole
+metaphor depends on the nail coming out. It is the hole that stays. The endorsed
+line on file fixes it.
+
+**What changed.**
+
+1. **The bug is gone.** The subtitle is now *"Anger isn't strength."*, the
+   chapter's own sentence, and the three rows carry the author's endorsed
+   sequence one sentence each:
+   THE OUTBURST, *"Every outburst drives a nail."*
+   THE APOLOGY, *"An apology can pull it out."*
+   MONTHS ON, *"The hole remains."*
+   Nothing on the plate now claims the nail cannot be pulled out, and the
+   sentence that runs down the page is the argument in the order the drawing
+   makes it.
+2. **"Stop making holes."** stays, and is promoted to subtitle size (13.5px
+   against the captions' 12px) under the rule, because it is the only
+   instruction on the plate and the reviewer called it excellent.
+3. **Two lines cut.** The orienting line "One fence post, over the years. Hot or
+   cold, both drive a nail." and the closing pair's first half, "The holes stop
+   being incidents. They become what she believes." The second was also the
+   longest ungrounded phrase on the plate.
+4. **Nothing drawn moved.** The post, the nail glyph (1.6 shaft, 16px head), the
+   hole glyph (filled circle r=4), the five nail positions, row two's holes at
+   row one's nail positions and row three's ten: all identical, shifted up 14px
+   as a block to take the space the cut orienting line left. The Ch04/Ch05 glyph
+   promise recorded in Round 2 is unaffected, and Ch05 no longer draws nails at
+   all.
+5. **Captions re-centred on the post's own axis (388, was 376).** Optical
+   alignment only.
+6. **Canvas 640x430 to 640x396.**
+
+**Reviewer suggestions taken:** the logic fix and the sequence.
+**Declined:** nothing he asked for on this plate.
+
+**Checker output, verbatim:**
+
+```
+$ python3 scripts/plate_check.py runs/ch04/plate.svg --chapter 4
+runs/ch04/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x396
+  [ ok ] title       title 'THE HOLE MAKER' / aria-label 'The Hole Maker' vs Mechanism 'The Hole Maker'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    5 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   6 centred texts on the axis or a shared column; 7 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```
+
+Both previous WARNs cleared. `grounded` was flagging "A nail goes in. You know
+which one it was." and "The holes stop being incidents..."; `captions` was 7
+italic lines against a cap of 5. It now sits exactly at the cap, so any line
+added here costs a line somewhere else.
+
+**What the render showed** (`runs/ch04/pdf/plate.png`). Nails, then holes, then
+more holes, reading straight down with one short sentence per row. Covering every
+word but the title leaves a post with nails in it, the same post with the nails
+gone and the marks still there, and the same post later with twice as many marks.
+That is the mechanism without a caption. The earlier reading still holds: the
+three rows are one post over time, not three posts, because row two's holes sit
+at row one's nail positions exactly.
+
+**For the author to rule on.**
+
+1. **"Hot or cold, both drive a nail." is off the plate.** It was the Reader
+   Panel's Round 2 fix against a reader assuming only shouting counts, and the
+   chapter still carries the point in full. Restoring it means either a fourth
+   caption (over the cap) or replacing "Every outburst drives a nail." in row
+   one, which breaks the endorsed sentence sequence. My call was the sequence;
+   this is the one thing in this round I would most want a second opinion on.
+2. **The Round 1 question about "Just a settled sense of you." is now moot.**
+   That caption is cut.
