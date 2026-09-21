@@ -12,6 +12,22 @@ CLAUDE.md Rule 15.
 | `the-stoic-husband-prologue-ch12-plates-draft-2026-09-20-1952.pdf` | As above; round 3: Ch8 and Ch12 through `/gw-plate` (concepts, cold pick, draft, check, cold read, one revision), Ch7 and Ch9 on the author's words. Filenames carry the clock from here (Rule 15: two same-day compiles once shared a name). | `compile.py --plates` | `chapter_pdf_local.py`; plates rasterised via Playwright and checked by `plate_check.py` | 24,067 |
 | `the-stoic-husband-prologue-ch12-plates-draft-2026-09-20.pdf` | As above, plus 15 plates: one per chapter Ch1-12 after its prose, Part I/II/III closing plates on their own pages. **13 of 15 are drafts** (`runs/chNN/plate.svg`, `runs/parts/`); only the Part I/II plates are landed. Rebuilt 17:56 after the Reader Panel's round-2 edits (`runs/design/2026-09-20-plate-reader-review.md`). | `compile.py --plates` | `chapter_pdf_local.py`, plates rasterised via Playwright | 24,067 |
 
+## Plate feedback packets
+
+Built by `python3 scripts/plate_packet.py --to N`. A different document from the
+table above: not the reader manuscript, but plate + intent, for the author to
+circulate for feedback on whether each plate delivers what it is meant to.
+Each plate gets its own page, followed by a page giving its title, Mechanism,
+Conversation sentence and Lesson (chapters) or opening paragraph and closing
+line (Parts) — pulled straight from `books/the-stoic-husband/chapters/*/
+distillation.md` and `books/the-stoic-husband/parts/*.md`, nothing invented.
+This is the opposite of `runs/design/2026-09-20-plate-names-and-visual-
+summaries.md`, which is deliberately cold/visual-only for blind testing.
+
+| File | Coverage | Plates | Notes |
+|---|---|---|---|
+| `the-stoic-husband-plate-feedback-packet-ch01-ch12-2026-09-21-0047.pdf` | Ch1-12 chapter plates + Part I/II closing plates | 14 (12 draft, 2 landed) | Part III's closing plate isn't included: its Part runs past Ch12, outside this range. Ch5's page shows the open Mechanism/title mismatch (#070) verbatim, since both are read from their own sources rather than reconciled. |
+
 ## Why this is a script and not a checklist
 
 The first compile, on 2026-09-15, was assembled by following the skill's prose
