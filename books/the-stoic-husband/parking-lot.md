@@ -2,6 +2,14 @@
 
 ## Open Items
 
+### [#38] — [2026-09-21 13:12]
+**Question:** Two whole-set findings from the Reader Panel's cold read that cannot be fixed under the current "no rethinks" ruling. Do they get a round when that ruling lifts?
+**Context:** Both come from `runs/design/2026-09-21-plate-standalone-read.md`, the Panel's cold read of all twelve chapter plates, and both are only visible having looked at the whole set rather than any one plate. Recorded here because they were reported to the author in conversation and nowhere durable, which is the failure he corrected on 2026-09-21.
+**(1) Ch7 and Ch11 have converged on one composition.** Solid full box on the left, dashed empty box on the right, same proportions and same positions. Ch11 is one of the two strongest plates in the set and will be read less carefully for looking like something the reader has already seen four chapters earlier. Separating them means changing the objects on one of the two, which is a rethink and therefore outside the current ruling.
+**(2) Nothing in twelve plates depicts warmth.** Every right answer in the set is drawn as damage avoided: a hole not made, a scale not tipped, a door not closed, a line not crossed. That is the correct register for Parts I and II, but Part III is the Warm Sun, and the visual language has no vocabulary for the thing that Part is about. Worth knowing before Part III's chapters get plates of their own, because the pattern will either continue by default or have to be broken deliberately.
+**When to revisit:** When the "no rethinks" ruling lifts, or at the first Part III chapter plate, whichever comes first. (2) is the more consequential of the two and is cheapest to act on before Part III plates exist rather than after.
+**Status:** OPEN, non-blocking.
+
 ### [#36] — [2026-09-21 13:05]
 **Question:** The Oak Part plate was told to say "something about how each year it grows stronger." The drawing now says it; no words on the plate do. What sentence carries it, and does it go on the plate or on the Part II page?
 **Context:** The author's instruction on 2026-09-21 was to keep the rings and make them mean growth rather than age, after outside feedback caught that tree rings depict a tree already cut down, which argues against a husband still standing. The drawing was changed and works: rings run off all four sides so nothing closes, there is no bark line and no cut end, ring widths widen from core to edge, and the first ring after each hard band is the heaviest line on the plate. The caption is unchanged and is still the Part II page's last sentence, verbatim per the Part idiom: *"The storm comes through, and in the morning the oak is still there."* That sentence is about survival, not accumulation, so the growth idea is carried entirely by the picture.
