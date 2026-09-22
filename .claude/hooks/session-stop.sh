@@ -20,6 +20,16 @@ if [ -n "$changed" ]; then
 fi
 
 python3 scripts/session_log.py 2>/dev/null || true
+# runs/log.md is memory, and it is resolved BY HAND every time two branches
+# diverge. Two such resolutions damaged it before anything noticed - one dropped
+# 26 entries, one detached a 30-file body - and both were "verified" with
+# `grep -c '<<<<<<<'`, which both of them pass. Reported, never blocking: the
+# damage is already committed by the time a Stop runs, so this tells the
+# Publisher to repair it rather than standing between the author and his work.
+if ! log_out=$(python3 scripts/log_check.py 2>&1); then
+  echo "RUNS/LOG.MD DAMAGED: ${log_out}" >&2
+  echo "  Repair before closing: restore lost entries from the merge parent named above." >&2
+fi
 # session_log.py writes runs/log.md, which is a work path; fold it into the same commit
 if ! git diff --quiet -- runs/log.md 2>/dev/null || git ls-files --others --exclude-standard -- runs/log.md 2>/dev/null | grep -q .; then
   git add -- runs/log.md 2>/dev/null
