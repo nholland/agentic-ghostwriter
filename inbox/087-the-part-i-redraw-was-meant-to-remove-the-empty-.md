@@ -39,16 +39,24 @@ The desk's note and the Publisher's original report to the author both said the 
 
 **Recommendation:** Redraw: keep the landed taper above the waterline and widen only below it. Built and measured, not guessed - a ten-line edit to `halfwidth()` in `runs/parts/gen-plate-1-r2.py` (the generator both walls derive from) restores the taper to within a unit at every height while keeping the void below the landed plate's: variant span 135.7/110.4/98.7/84.4 against landed 136.8/110.5/99.2/84.4, `plate_check.py --part 1` all nine rows ok.
 
+**Second correction, 2026-09-22 22:41 (gw-retro, re-verified by the Publisher with a constructed counter-example, not just a re-derivation).** The applied_by above has a demonstrated blind spot: both its checks sample only y=190-405, entirely above the waterline. A plate built by literally following this item's own Recommendation - keep the landed taper above the waterline, widen only below it - and then over-widened below the waterline **passes this proof at exit 0**: void not_grown=True, taper ratio=1.62 converges=True, while its canyon flares to 400 units wide at y=640 against the landed plate's 20.2, walls running to the drawing-box margins. That is the "gap opening between two sides" reading this redraw exists to kill, in its purest form, and the proof calls it applied. Not fixed here with a fourth quick patch - a first attempt at tightening it (a uniform per-height width-ratio bound) proved too strict to be usable, failing even the plate's legitimate top-of-canyon geometry, which is its own lesson: this needs a designed check with a fixture, not another one-shot script. Filed as #090 (a `canyon` row in plate_check under --part) rather than patched again in place. The applied_by above is left as-is, documented as insufficient, so the item cannot be marked applied on it alone - #090 or a human render-and-look is required first.
+
+**Also surfaced:** the "void shrank 17.8%" conclusion itself rests on a judgment the first correction never stated - treating the draft's watered lower canyon as *filled* rather than as mostly-white pixels (it is 91% white by raw pixel count). That judgment is defensible: the water strokes measure 9.33% ink density against the surrounding rock field's 4.65%, denser than the rock itself, not emptier. But weighting the region by raw white-pixel area instead of ink density flips the sign to **+41.2%**. The correction's arithmetic is right; its choice of what counts as "filled" was implicit. #090 proposes making that choice explicit in the new check.
+
 **Checked:**
 
 ```
 Original (superseded) claim: band 190-400, draft void 32033.0, landed void 29444.5, +8.8%.
 
-Corrected, each plate to its own extent: draft void (190->405) 32764.1, landed void (190->640) 39852.0, draft is 82.2% of landed (-17.8%). Ink inside canyon walls y405-640: draft 9.09%, landed 0.00%.
+First correction, each plate to its own extent: draft void (190->405) 32764.1, landed void (190->640) 39852.0, draft is 82.2% of landed (-17.8%). Ink inside canyon walls y405-640: draft 9.09%, landed 0.00%.
 
 Taper, span at x=300 by height y=300/350/375/400 - landed 135.5/109.0/98.0/83.0 (converging, ratio ~1.6), draft 148.0/138.0/132.5/129.0 (near-parallel, ratio ~1.15). Threshold for "converges" set at ratio>=1.5.
 
 Re-verified by the Publisher independently via geometric integral of the wall polylines (no rasteriser): draft 32117.1, landed 29572.5 on the same band - 0.3% from the raster figures above, confirming the arithmetic; the band was the error, not the number.
+
+Second correction: an over-widened half-fix (landed taper kept above y=405, widened below to reach the drawing-box margins) passes the above applied_by - void: draft=29988.8 landed=39852.0 not_grown=True; taper: span300=136.8 span400=84.4 ratio=1.62 converges=True; exit 0. Span at y=640 in that half-fix: 400.0 vs landed 20.2.
+
+Alternative sign check: weighting the draft's lower canyon by ink density instead of raw white-pixel area gives void +41.2% against the landed plate, not -17.8%. Water ink density 9.33%, rock field ink density 4.65%.
 ```
 
-**What unblocks this:** Whether runs/parts/plate-1-steady-river.svg lands as drawn or goes back for another profile
+**What unblocks this:** Whether runs/parts/plate-1-steady-river.svg lands as drawn or goes back for another profile. Now also gated on #090 (a canyon check that can see below the waterline) or a human rendering and looking at the file directly - the applied_by above cannot certify a fix on its own.
