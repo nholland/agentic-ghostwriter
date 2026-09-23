@@ -22,27 +22,17 @@ resource: >
   PMID: 10707334
 status: verifiable
 quote_form: none
-evidence_source: search-synthesis
+evidence_source: page-text
 gap_type: research
 verification_note: >
-  Authors, title, journal, year, volume, issue, pages, DOI and PMID
-  corroborated across the PubMed listing, two hosted PDFs' own title-page
-  metadata as surfaced in search, and multiple reference-list entries. Primary
-  NOT read: files.blogs.baruch.cuny.edu (which hosts the PDF openly) is
-  refused by the egress proxy with EGRESS_BLOCKED, as is researchgate.net; the
-  PubMed record serves a cookie challenge.
-  WHAT MAY BE SAID. This is the one place in the Ch12 material where "causes"
-  is defensible, because three of the studies are randomised laboratory
-  experiments. But be precise about what they show: a short novel task produced
-  a measured rise in how the relationship FELT immediately afterward. They do
-  not show that date nights save marriages, and they do not show the effect
-  lasts. Tsapelas, Aron & Orbuch (2009) is the longitudinal companion.
-  The "seven-minute" detail and the specific task (the velcro-suit obstacle
-  course, in most secondary descriptions) come from summaries. The duration
-  appeared in the abstract text returned by search. CONFIRM before printing
-  any specific number or describing the task.
+  Updated 2026-09-22: Researcher read full primary PDF and Publisher retrieved
+  it independently at https://files.blogs.baruch.cuny.edu/wp-content/blogs.dir/7309/files/2019/11/Aron_Norman_Aron_McKenna_Heyman_2000.pdf .
+  Three laboratory experiments support immediate effects of a combined novel
+  and arousing joint task. Seven-minute duration confirmed. This does not
+  isolate novelty from arousal or demonstrate durable marital improvement.
+  Exact task description should be checked before reuse; no author-copy verification.
 tags: [citation, self-expansion, novelty, aron, experimental, romance, needs-verification]
-chapter_slugs: [romance-is-a-discipline]
+chapter_slugs: [romance-is-a-discipline, pursue-her-after-you-have-her]
 timestamp: 2026-09-16T11:25:45Z
 ---
 
@@ -73,3 +63,27 @@ imported as one. Use the finding, not the metaphor.
    Couples' shared participation in novel and arousing activities and
    experienced relationship quality. *Journal of Personality and Social
    Psychology*, 78(2), 273-284.
+
+# Prior access record, superseded 2026-09-23T04:30:26+00:00
+
+The following is historical, not the current evidence axis:
+
+```yaml
+verification_note: >
+  Authors, title, journal, year, volume, issue, pages, DOI and PMID
+  corroborated across the PubMed listing, two hosted PDFs' own title-page
+  metadata as surfaced in search, and multiple reference-list entries. Primary
+  NOT read: files.blogs.baruch.cuny.edu (which hosts the PDF openly) is
+  refused by the egress proxy with EGRESS_BLOCKED, as is researchgate.net; the
+  PubMed record serves a cookie challenge.
+  WHAT MAY BE SAID. This is the one place in the Ch12 material where "causes"
+  is defensible, because three of the studies are randomised laboratory
+  experiments. But be precise about what they show: a short novel task produced
+  a measured rise in how the relationship FELT immediately afterward. They do
+  not show that date nights save marriages, and they do not show the effect
+  lasts. Tsapelas, Aron & Orbuch (2009) is the longitudinal companion.
+  The "seven-minute" detail and the specific task (the velcro-suit obstacle
+  course, in most secondary descriptions) come from summaries. The duration
+  appeared in the abstract text returned by search. CONFIRM before printing
+  any specific number or describing the task.
+```

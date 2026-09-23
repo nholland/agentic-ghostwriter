@@ -107,6 +107,8 @@ research unless explicitly noted under `# Citations`.
 - [The Slide Starts Before the Line — Bright-Line Boundaries Set in Advance](/frameworks/bright-line-boundaries-before-temptation.md) — Ch22's preventive-boundary mechanism against the infidelity slow-slide, moved out of Ch10 at the author's request
 - [Defending Mom's Standing in the House](/frameworks/defending-moms-standing-in-the-house.md) — parked for Ch21, moved out of Ch10 at the author's request
 - [The Oak's Boundary — Strength That Makes Growth Possible](/frameworks/the-oaks-boundary.md) — Ch10's corrected central mechanism: boundary strength is what makes growth possible, not the opposite of it; direct, non-stacked use of the book's own core Oak metaphor
+- [Affection Without Attention](/frameworks/affection-without-attention.md)
+- [Continuing Curiosity as Partners Change](/frameworks/continuing-curiosity-as-partners-change.md)
 
 ## Stories
 
@@ -243,6 +245,16 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Stafford & Canary (1991) — The Five Relational Maintenance Strategies](/citations/stafford-canary-1991-relational-maintenance.md) — status: verifiable
 - [Tsapelas, Aron & Orbuch (2009) — Marital boredom now predicts less satisfaction nine years later](/citations/tsapelas-aron-orbuch-2009-marital-boredom.md) — status: verifiable
 - [Wilcox & Dew (2012), 'The Date Night Opportunity' — where the once-a-week advice comes from, and what it is worth](/citations/wilcox-dew-2012-date-night-opportunity.md) — status: unverified
+- [Garcia-Rada, Sezer & Norton (2019) — Relationship Rituals and Shared Meaning](/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md) — status: verifiable
+- [Laurenceau, Barrett & Rovine (2005) — Disclosure and Responsiveness in Marriage](/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md) — status: verifiable
+- [Neff & Buck (2023) — Stress and Attention to Negative Partner Behavior](/citations/neff-buck-2023-stress-partner-perception.md) — status: verifiable
+- [Neff, Nguyen & Williamson (2021) — Stress, Noticing Needs, and Responding](/citations/neff-nguyen-williamson-2021-stress-noticing-support.md) — status: verifiable
+- [Perel — Novelty, Curiosity, and Familiarity](/citations/perel-novelty-curiosity-and-familiarity.md) — status: verifiable
+- [Perel — Otherness and Desire in Long-Term Relationships](/citations/perel-otherness-and-desire.md) — status: verifiable
+- [Reis et al. (2010) — Responsive Listening to Good News](/citations/reis-et-al-2010-responsive-good-news-listening.md) — status: verifiable
+- [Scheibehenne, Mata & Todd (2011) — Partner Preference Accuracy and Overconfidence](/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md) — status: verifiable
+- [Seneca, Letter 58.22-23 — Heraclitus, the river, and changing people](/citations/seneca-letter-58-heraclitus-river-and-change.md) — status: verifiable
+- [Thomas, Carnelley & Hart (2022) — Phone Distraction and Retaliation](/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md) — status: unverified
 
 ## Signals
 
