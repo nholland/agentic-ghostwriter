@@ -144,6 +144,13 @@ def compute(book):
     per_chapter = {}
     for n, d in runs.items():
         stage, cmd, detail = chapter_state(n, d)
+        # A runs dir is not a chapter in progress. On 2026-09-21 the Round 5
+        # plate edits created runs/ch01..ch10 holding only plates, and this
+        # answered "/gw 1 - stopped at interview" for a chapter already in the
+        # book, for 54 log entries. A shipped chapter with no pipeline artifact
+        # here is done; only one that has actually started a stage is not.
+        if n in shipped and stage == "interview":
+            stage, cmd, detail = "shipped", None, "in the book; runs dir holds apparatus only"
         per_chapter[n] = {"stage": stage, "command": cmd, "detail": detail,
                           "shipped_by_book_pipeline": n in shipped}
 
