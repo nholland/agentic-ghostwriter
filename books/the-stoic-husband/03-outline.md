@@ -265,7 +265,7 @@
 ---
 
 ## Chapter 13: Pursue Her After You Have Her
-**Premise:** A man who worked relentlessly to win his wife and then stopped has made the most common and costly mistake in a long marriage.
+**Premise:** A man who worked relentlessly to win his wife and then stopped has made a costly mistake in a long marriage. Sustained effort keeps him from taking her for granted.
 **The reader's takeaway:** He understands the pre-commitment paradox and has a clear picture of what active pursuit looks like in the years after commitment — different from courtship, but just as deliberate.
 **Key points:**
 1. The pre-commitment paradox: men who would move mountains to win her — and then stop, because the goal was achieved; the fundamental misunderstanding that the relationship was the prize rather than the ongoing practice

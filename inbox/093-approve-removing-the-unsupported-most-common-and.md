@@ -1,9 +1,10 @@
 ---
 id: 093
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 13
 opened: 2026-09-22 23:49
+resolved: 2026-09-23 06:51
 ---
 
 # Approve removing the unsupported most-common-and-costly ranking from Chapter 13’s outline premise?
@@ -19,3 +20,5 @@ Read runs/ch13/outline-spec.md and runs/ch13/draft.md independently: 9 of 10 row
 ```
 
 **What unblocks this:** Chapter 13 conformance approval and progression to refine.
+
+**Resolution (2026-09-23 06:51):** As for the outline, you can remove that It's the most common... But I think it is indeed a costly mistake. The whole point of this chapter is to keep the effort high throughout the relationship and not take her for granted
