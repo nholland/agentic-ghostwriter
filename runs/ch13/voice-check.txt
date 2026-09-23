@@ -1,0 +1,19 @@
+voice_check: draft.md
+  1124 words of prose, 104 sentences
+  excluded from counts: {'cut_at_heading': 'Draft Notes', 'apparatus_words': 220}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      2/104 sentences at 25+ words = 1.9% (cap 10%)
+             28w: Choosing her keeps happening inside that life. **She's still becoming.** In Letter 58 of his *Moral Letters to...
+             27w: Either answer gives you something to work with, because you asked the woman who's here now. **Be interested in...
+    [ok  ] you-density              101 direct-address words in 1124 = 89.9 per 1,000 (floor 40)
+    [ok  ] metaphor family          2 mentions in 1124 words = 1.8 per 1,000 (cap 5); {'river': 1, 'water': 1}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 18 words, shares 2 words with the previous one. Close: "For now, put the phone down and turn toward her while she's still telling you about her day."
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
