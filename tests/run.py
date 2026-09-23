@@ -1421,7 +1421,8 @@ def retro_window_cases():
 
 
 def main():
-    rows = (package_cases() + voice_rules_cases() + resolve_cases()
+    from draft_package_cases import draft_package_cases
+    rows = (draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()

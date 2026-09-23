@@ -69,10 +69,18 @@ which is why the checks above are absolute.
 
 ## Which text
 
-Compile from `{bookRoot}/chapters/chNN/refined.md` - the landed, verdict-passed
-text. A chapter still in `runs/chNN/` has no verdict yet; include it only when
-asked, and label the output so a reader-facing PDF never carries an unapproved
-draft.
+Default manuscript input is `{bookRoot}/chapters/chNN/refined.md`, the landed
+text. For an explicitly requested draft PDF with full distillation, use:
+
+```
+python3 scripts/compile.py --draft runs/chNN/refined.md --distillation runs/chNN/distillation.md
+```
+
+Both source paths are required. This mode labels the output `review-draft`,
+checks the matching chapter and complete distillation (including practices),
+and passes both to the existing renderer. Missing or altered content fails
+before rendering. It does not change the manuscript's practice-only format.
+Inspect the PDF visually and provide a clickable download link.
 
 ## Output
 
