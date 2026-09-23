@@ -69,6 +69,15 @@ def chapter_state(n, d):
         return "shipped", None, "verdict recorded; chapter is done here"
     if "inbox.md" in have:
         return "parked", "/gw-inbox", "a cold desk could not decide; the inbox holds the question"
+    # Pause 2 as an artifact, not a memory. On 2026-09-23 a Codex run held its
+    # proposed concepts in chat and never asked; the author found out by asking.
+    # A proposal on disk with status: open is the chapter waiting on him.
+    if "proposed-concepts.md" in have:
+        txt = open(os.path.join(d, "proposed-concepts.md"), encoding="utf-8").read()
+        if re.search(r"^status:\s*open\s*$", txt, re.M):
+            k = len(re.findall(r"^## ", txt, re.M))
+            return "concepts", "/gw-chapter", (f"{k} content concept(s) proposed, "
+                                               "waiting on your yes (proposed-concepts.md)")
     for artifact, stage, cmd in STAGES:
         if artifact not in have:
             return stage, cmd, f"{artifact} missing"

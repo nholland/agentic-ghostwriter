@@ -43,8 +43,10 @@ Per the book's Rule 13, and the split is not optional:
 - **Gap markers** — a citation concept whose entire content is "this claim needs a
   source and nobody has found one" — may be written immediately. The file *is* the
   flag; there is nothing to approve.
-- **Content concepts** — a framework, a story, the author's own material, any
-  substantive finding — are **shown first.** What goes in one is a claim about what
+- **Source findings** — what an external source says, at `status: unverified`
+  — may be written immediately too (Rule 9).
+- **Content concepts** — a framework, a story, the author's own material — are
+  **shown first.** What goes in one is a claim about what
   the author thinks, and only he can confirm it. Present proposed frontmatter and
   body; write after he responds.
 

@@ -23,10 +23,9 @@ book's foundation files. Output `runs/chNN/research.md`.
 
 Name the desk in your reply.
 
-It may write **gap-marker** citation concepts directly — the file is the flag and
-the brief needs its path. It must **propose** content concepts rather than write
-them; those are claims about what the author thinks. Collect its proposals for
-Step 4.
+It writes **gap markers** and **source findings** directly (Rule 9) — the brief
+needs their paths. It **proposes** content concepts, the author's own material,
+in `runs/chNN/proposed-concepts.md` (`status: open`) rather than writing them.
 
 ## Step 2 — the gate that matters
 
@@ -54,7 +53,9 @@ A structural failure blocks; unverified citations do not (Rule 4).
 ## Step 4 — check in
 
 Show the author: the brief, the gap list, the reuse findings, and every **proposed
-content concept** as proposed frontmatter plus body. Get a response before any of
-them is written to the bundle. Then hand off:
+content concept** in `runs/chNN/proposed-concepts.md`. Get a response before any of
+them is written. Write the accepted ones, record his answer under each proposal,
+and set the file's `status: answered` — until then `next.py` reports the chapter
+as waiting on him. Then hand off:
 
 `/gw-draft NN`

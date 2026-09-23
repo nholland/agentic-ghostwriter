@@ -48,16 +48,18 @@ cannot get there, say which gaps block it rather than padding around them.
 
 ## Writing concepts — which may go straight to disk
 
-Per the book's Rule 13, the two cases differ and you must not collapse them:
+Per `CLAUDE.md` Rule 9 there are three kinds, and only one waits:
 
-- **Gap markers** may be written immediately. There is nothing to approve.
-- **Content concepts** — a framework, a story, the author's own material, any
-  substantive finding — must be **proposed in your return, not written.** What
-  goes in a content concept is a claim about what the author thinks, and only he
-  can confirm it. Return them as proposed frontmatter plus body for the session
-  to take to him.
-
-When in doubt which it is, return it as a proposal and say you were unsure.
+- **Gap markers** — a claim that needs a source nobody has found. Write now.
+- **Source findings** — what an external source says: a study, a book, a
+  located quotation, with `status: unverified` and `evidence_source` set to what
+  you actually looked at. Write now. It is a claim about the source, not about
+  the author, and the evidence axis already records how far it is confirmed.
+- **Content concepts** — a framework, a story, the author's own material: what
+  *he* thinks. **Propose, never write.** Put each one, as proposed frontmatter
+  plus body, in `runs/chNN/proposed-concepts.md` with `status: open` in its
+  frontmatter. The file is what makes the proposal survive: `next.py` reports
+  the chapter as waiting on the author until it reads `status: answered`.
 
 ## Provenance (Rule 14)
 
@@ -78,5 +80,6 @@ second outing for an anchor image is a finding, not a convenience.
 
 ## Return
 
-The brief, the gap list, the proposed content concepts, the reuse findings, and
+The brief, the gap list and source findings you wrote (paths), the path of
+`proposed-concepts.md` if you wrote one, the reuse findings, and
 an explicit statement of what the brief still cannot answer.

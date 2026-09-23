@@ -145,9 +145,11 @@ An inbox item he cannot answer without scrolling back is not finished.
    repo": the book lived in Playground-260420 and two pipelines ran on it at once.
    Inbox #007's migration made this repo the book repo, and the constitution
    exception that had been scaffolding for that arrangement went with it.*
-9. **Gap markers may be written immediately; content concepts may not.** A concept
-   capturing the author's own material is a claim about what he thinks — propose
-   it, get a response, then write.
+9. **Gap markers and source findings are written immediately; content concepts
+   are not.** A source finding says what a source says, at `unverified`; the
+   evidence axis carries the doubt. A concept capturing the author's own material
+   is a claim about what he thinks — propose it in `runs/chNN/proposed-concepts.md`,
+   get a response, then write.
 10. **Record pushback in `provenance`.** How many rounds, and what each changed.
 11. **Bulk mechanical edits assert uniqueness before writing.** Count exact
     matches, abort if the count is wrong, replace in memory, verify, write once.

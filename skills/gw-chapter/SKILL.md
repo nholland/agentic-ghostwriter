@@ -38,6 +38,7 @@ reference, the rule it applies:
 |---|---|
 | nothing | interview |
 | `interview.md` | research |
+| `proposed-concepts.md` with `status: open` | Pause 2 |
 | `research.md` (and no `brief-gaps.md` outstanding) | draft |
 | `draft.md` with conformance passed | refine |
 | `refined.md` | plate, then verdict |
@@ -49,7 +50,7 @@ reference, the rule it applies:
 | Pause | Why it cannot run cold |
 |---|---|
 | **1. The interview** | The chapter's ideas come from the author here or they do not exist. |
-| **2. Content concepts** | A concept capturing what he thinks is a claim only he can confirm (Rule 9 in `CLAUDE.md`). Small: show, get a yes or a correction, continue. Gap markers do not pause. |
+| **2. Content concepts** | A concept capturing what he thinks is a claim only he can confirm (Rule 9 in `CLAUDE.md`). Small: show `proposed-concepts.md`, get a yes or a correction, mark it `answered`, continue. Gap markers and source findings do not pause. |
 | **3. The verdict** | Only he can say whether it landed. |
 
 Everything else runs cold and gated. If a cold stage fails its gate twice, stop,
