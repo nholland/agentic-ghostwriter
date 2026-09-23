@@ -1,0 +1,5 @@
+.claude/agents/gw-retro.md: 1228 -> 1233 (+5)
+.claude/skills/gw-chapter/SKILL.md: 781 -> 947 (+166)
+.claude/skills/gw-qa/SKILL.md: 376 -> 384 (+8)
+.claude/skills/gw/SKILL.md: 1085 -> 1099 (+14)
+.claude/skills/gw-compile/SKILL.md: 563 -> 644 (+81)

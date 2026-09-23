@@ -1,4 +1,5 @@
 ---
+name: gw
 description: The one door. Alone, shows a short menu of what is next and what is waiting. With words after it, the Publisher reads the intent and does the right thing - a chapter number runs that chapter, plain words route to the right desk. The author never has to remember another command.
 ---
 
@@ -80,7 +81,7 @@ dispatch.
 | `is my work safe`, `did I lose anything`, `where's my stuff` | `sync.py --status`, answered in plain words, never just the table |
 | `push`, `save`, `back this up` | `python3 scripts/sync.py --push` — say the branch name in the reply |
 | `where's my work`, `what branch`, `did that land` | `python3 scripts/sync.py --status` |
-| `retro`, `what did we learn`, `retrospective`, `what went wrong` | dispatch `gw-retro` cold; show its proposals; apply nothing without his yes |
+| `retro`, `what did we learn`, `retrospective`, `what went wrong` | dispatch `gw-retro` with evidence and the improvement objective, without steering toward more or fewer recommendations; show its proposals; apply nothing without his yes |
 | `help`, `commands`, `what can you do` | the full table above, one line each, then the menu |
 
 **"Next" is `next.py`'s answer and nothing else.** There is one pipeline now; the

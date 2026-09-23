@@ -10,7 +10,7 @@ The refined chapter is 1,176 prose words by voice_check.py. The checker uses a d
 
 Plate: arrowheads on both curved lines; balanced equally styled past/current columns; full-width separator; a centered two-line takeaway, “The effort that follows / deserves just as much of you.” The title matches the final Mechanism. The Publisher synchronized the takeaway to final prose after the Designer's layout pass. The local checker uses the same house geometry/ink logic with Sharp for rendering and this machine's DejaVu font path. All rows pass, including rendered margins.
 
-PDF: pdf/Chapter-13-Pursue-Her-After-You-Have-Her-author-review.pdf. Uses the existing house Chromium renderer with isolated temporary profile and existing assembly helpers. Contains chapter, practices, and raster plate; no editorial apparatus. All seven pages visually inspected: no clipping, overlap, blank plate, or stray working notes. This is the first Chapter 13 reading PDF, so no previous PDF word-count delta exists. Refined prose adds 52 words to the 1,124-word draft.
+PDF: pdf/Chapter-13-Pursue-Her-After-You-Have-Her-reader-v2.pdf. Uses the existing house Chromium renderer with isolated temporary profile and existing assembly helpers. Contains chapter, practices, and raster plate; no editorial apparatus. All seven pages visually inspected: no clipping, overlap, blank plate, or stray working notes. This is the first Chapter 13 reading PDF, so no previous PDF word-count delta exists. Refined prose adds 52 words to the 1,124-word draft.
 
 Evidence: final-gates.txt, conformance-refined.md, slop-refined.md, persona-refined.md, plate-read-author-revision.md, factcheck.md.
 
@@ -19,3 +19,5 @@ Older-book consistency findings are deferred by the author as inbox #094–#102;
 Citation: Seneca Letter 58.22–23 paraphrase remains verifiable from primary page text; no citation was marked author-verified. Author-copy verification is still a source-ledger task, not a chapter-production blocker. No chapter verdict has been fabricated.
 
 Renderer process note: Chrome wrote the complete PDF but did not exit before the house renderer’s 180-second timeout. The render command therefore exited nonzero; this is not reported as a clean command pass. The produced file was independently parsed (seven pages), every page rasterized and visually inspected, and its HTML passed package_check.py. The artifact is complete despite the renderer shutdown issue.
+
+Latest PDF update: reader-v2 uses the shared chapter-opening style, ordinary untracked Chapter 13, semantic bold title, extra title/body separation, and explicit flush-left opening. All seven pages visually inspected; extracted text is unchanged except heading case/spacing. The Playwright print path exits cleanly; the historical CLI shutdown issue above no longer affects this export. The exact ebook/audiobook application has not been exercised.

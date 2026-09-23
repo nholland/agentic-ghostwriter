@@ -1,0 +1,36 @@
+{
+  "inputs": {
+    "refined.md": "6a6d4d52e9bdd1db248b1417e467714c71f714712e70657ae7acc9fa7bf5de26",
+    "../../books/the-stoic-husband/chapters/ch12/refined.md": "14a83227f3a2dc6d2b9377ed3293b22a8183acf00ed8a3bd61535f29d99fc893",
+    "../../books/the-stoic-husband/03-outline.md": "99099981336b56a2151c58e3b9d8c0dab60611d97a6a4954f790e4e5463d5f57",
+    "../../books/the-stoic-husband/02-audience.md": "d761633095a8811c0329045ad99a6b311ce801a8b85520342d49f92389d96fc7",
+    "persona-coherence-ch01-ch13.md": "de3d1de5a320f202e0550977b5d2f745ef9ba0657cf9da8270b0ab9bdf7d233b",
+    "slop-coherence-ch01-ch13.md": "8d71927bb1a8ef3f15ca6d351b3f0e761927120c10e76bdefb8be0cc39f457aa",
+    "slop-refined.md": "8253923314d9ed0124b51b2e5618a584735efc939788f32ed5b69a6c32d99dcd"
+  },
+  "reviews": {
+    "personas": {
+      "status": "pass",
+      "report": "persona-refined.md",
+      "sha256": "da5f19aa445f49ecc43ccc5fef735bccede00c94ba9d7aefe59bad9c16b6d68d",
+      "scope": "Final Chapter 13 audience/skeptic/tension reading with prior full-manuscript report and Chapter 13\u201314 outline; earlier chapters not reread."
+    },
+    "coherence": {
+      "status": "pass",
+      "report": "coherence-refined.md",
+      "sha256": "a654e474391b5435ffb930482b679b05a009de1abdf18bbf8ef058c1ed343507",
+      "scope": "Final Chapter 13 vs actual Chapter 12, planned Chapter 14, and earlier full manuscript review reports; older issues author-deferred."
+    }
+  },
+  "deferred": [
+    "#094",
+    "#095",
+    "#096",
+    "#097",
+    "#098",
+    "#099",
+    "#100",
+    "#101",
+    "#102"
+  ]
+}

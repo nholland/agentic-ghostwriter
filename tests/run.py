@@ -13,6 +13,7 @@ directory has not been proved; it has been asserted.
     python3 tests/run.py          # every fixture; exit 1 on any failure
 """
 import glob
+import hashlib
 import json
 import os
 import re
@@ -562,9 +563,57 @@ def next_cases():
         for name in ("interview.md", "research.md", "draft.md", "refined.md"):
             open(os.path.join(tmp, name), "w").close()
         stage, cmd, detail = next_mod.chapter_state(12, tmp)
-        out.append((stage == "verdict", "next chapter_state, no verdict.md",
-                    "a fully refined chapter with no verdict.md must still report verdict",
+        out.append((stage == "review", "next requires scoped reviews before verdict",
+                    "refined prose alone is not an author-ready chapter",
                     stage))
+
+        def write(name, text):
+            with open(os.path.join(tmp, name), "w") as f:
+                f.write(text)
+            return hashlib.sha256(text.encode()).hexdigest()
+
+        refined = write("refined.md", "# Chapter 12: Example\n\nActual prose.")
+        context = write("context.md", "The neighboring chapter.")
+        persona = write("personas.md", "Audience review; no essential findings.")
+        coherence = write("coherence.md", "Continuity review; older issues deferred by author.")
+        record = {"inputs": {"refined.md": refined, "context.md": context},
+                  "reviews": {"personas": {"status": "pass", "report": "personas.md", "sha256": persona, "scope": "Chapter 12 audience"},
+                              "coherence": {"status": "pass", "report": "coherence.md", "sha256": coherence, "scope": "Chapter 12 and context.md"}},
+                  "deferred": ["author-deferred older-book issue"]}
+        def save():
+            with open(os.path.join(tmp, "review.json"), "w") as f:
+                json.dump(record, f)
+        save()
+        stage = next_mod.chapter_state(12, tmp)[0]
+        out.append((stage == "verdict", "current scoped reviews permit verdict",
+                    "deferred older-book issues do not block current passing reviews", stage))
+        record["reviews"]["personas"]["status"] = "edit"
+        save()
+        out.append((next_mod.chapter_state(12, tmp)[0] == "review", "failed persona review blocks handoff",
+                    "a report existing does not make its verdict pass", ""))
+        record["reviews"]["personas"]["status"] = "pass"
+        for scope in (None, [], " "):
+            record["reviews"]["personas"]["scope"] = scope
+            save()
+            out.append((next_mod.chapter_state(12, tmp)[0] == "review", "invalid scope rejected: " + repr(scope),
+                        "scope must be meaningful text, not a coerced null or collection", ""))
+        record["reviews"]["personas"]["scope"] = "Chapter 12 audience"
+        saved = record["reviews"].pop("coherence")
+        record["reviews"]["plate"] = saved
+        save()
+        out.append((next_mod.chapter_state(12, tmp)[0] == "review", "plate review cannot replace coherence",
+                    "plate and chapter reads cover different artifacts", ""))
+        record["reviews"]["coherence"] = record["reviews"].pop("plate")
+        save()
+        for name in ("refined.md", "context.md", "personas.md"):
+            original = open(os.path.join(tmp, name)).read()
+            write(name, original + "\nChanged.")
+            out.append((next_mod.chapter_state(12, tmp)[0] == "review", "stale review rejected: " + name,
+                        "changed prose, context or report needs review refresh", ""))
+            write(name, original)
+        write("review.json", "[]")
+        out.append((next_mod.chapter_state(12, tmp)[0] == "review", "malformed review record fails closed",
+                    "invalid evidence must not become ready", ""))
 
         open(os.path.join(tmp, "verdict.md"), "w").close()
         stage, cmd, detail = next_mod.chapter_state(12, tmp)
@@ -575,6 +624,29 @@ def next_cases():
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     return out
+
+
+def pdf_heading_cases():
+    from pdf_chapter_style import format_headings
+    from chapter_pdf_local import md_to_html
+    from html.parser import HTMLParser
+    class Headings(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.tags, self.text = [], []
+        def handle_starttag(self, tag, attrs):
+            self.tags.append((tag, dict(attrs)))
+        def handle_data(self, data):
+            self.text.append(data)
+    source = '# Chapter 13: Pursue Her After You Have Her\n\nYou can mean it.\n\n# Chapter 14: Enough\n\nNext opening.'
+    html = format_headings(md_to_html(source))
+    p = Headings(); p.feed(html)
+    return [(sum(tag == 'h1' and attrs.get('class') == 'chapter-heading' for tag, attrs in p.tags) == 2,
+             'PDF chapter headings retain semantic structure', 'every chapter, not only the first, has a heading', html),
+            (sum(tag == 'strong' and attrs.get('class') == 'chapter-title' for tag, attrs in p.tags) == 2,
+             'PDF chapter titles carry explicit emphasis', 'reflow readers receive emphasis in addition to CSS', html),
+            ('Chapter 13' in p.text and 'Pursue Her After You Have Her' in p.text and p.text.index('Chapter 13') < p.text.index('You can mean it.'),
+             'PDF heading text uses ordinary words in reading order', 'no inserted letter spaces or duplicated labels', p.text)]
 
 
 def streak_cases():
@@ -1424,7 +1496,7 @@ def main():
     rows = (package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
-           + next_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
+           + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
            + sys_path_hardcode_cases() + session_log_dedup_cases()
            + prove_cases() + plate_check_cases())

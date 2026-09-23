@@ -25,6 +25,7 @@ import os
 import re
 import subprocess
 import sys
+from pdf_chapter_style import CSS as CHAPTER_CSS, format_headings
 
 CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 FLAGS = ["--headless", "--disable-gpu", "--no-sandbox", "--hide-scrollbars"]
@@ -242,8 +243,6 @@ body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
 h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
      margin:0 0 .06in; page-break-before:always; }
 h1:first-of-type { page-break-before:avoid; }
-h1 .num { display:block; font:600 9.5pt Georgia,serif; letter-spacing:.2em;
-     text-transform:uppercase; color:#6a6a6a; margin-bottom:.12in; }
 h1 + hr.beat { display:none; }
 /* compile.py's marker for "start fresh page here", used before the Putting
    It Into Practice section so a chapter's back matter never runs onto the
@@ -319,8 +318,7 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", b
     c = md_to_html(chapter_md)
     # Every chapter heading, not only the first: a whole manuscript passes
     # through here too, and count=1 left Chapters 2 onward without the kicker.
-    c = re.sub(r"<h1>Chapter (\d+): (.*?)</h1>",
-               r'<h1><span class="num">Chapter \1</span>\2</h1>', c)
+    c = format_headings(c)
     for marker, png, cap, (w, h) in plates:
         fig = (f'<figure class="plate"><img src="{os.path.basename(png)}" '
                f'width="{int(w)}" height="{int(h)}" alt="">'
@@ -339,14 +337,33 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", b
                     + '</section>')
 
     doc = (f"<!doctype html><html><head><meta charset='utf-8'>"
-           f"<title>{_html.escape(title)}</title><style>{CSS}</style></head>"
+           f"<title>{_html.escape(title)}</title><style>{CSS}\n{CHAPTER_CSS}</style></head>"
            f"<body>{''.join(body)}</body></html>")
     html_path = os.path.splitext(out_pdf)[0] + ".html"
     open(html_path, "w", encoding="utf-8").write(doc)
-    subprocess.run([CHROME, *FLAGS, "--no-pdf-header-footer",
-                    f"--print-to-pdf={out_pdf}", "file://" + os.path.abspath(html_path)],
-                   check=True, capture_output=True, timeout=180)
+    # Use the same Playwright dependency as SVG rendering. Explicit close avoids
+    # Chrome's CLI hanging after writing the PDF on macOS.
+    subprocess.run(["node", "-e", PDF_JS, os.path.abspath(html_path),
+                    os.path.abspath(out_pdf), CHROME],
+                   env=dict(os.environ, NODE_PATH=node_modules()),
+                   check=True, capture_output=True, timeout=90)
     return html_path
+
+
+PDF_JS = """
+const [html, pdf, exe] = process.argv.slice(1);
+const { chromium } = require('playwright');
+(async () => {
+  const browser = await chromium.launch({ executablePath: exe, args: ['--no-sandbox'] });
+  try {
+    const page = await browser.newPage();
+    await page.goto(require('url').pathToFileURL(html).href);
+    await page.evaluate(() => document.fonts.ready);
+    await page.pdf({ path: pdf, preferCSSPageSize: true, printBackground: true,
+                     tagged: true, outline: true });
+  } finally { await browser.close(); }
+})().catch(e => { console.error(e.stack); process.exit(1); });
+"""
 
 
 def main():

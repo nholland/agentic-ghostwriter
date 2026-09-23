@@ -1,4 +1,5 @@
 ---
+name: gw-chapter
 description: The Publisher runs a whole chapter through the house - interview, research, draft, refine, plate, verdict package - pausing only where the author is needed. The one command for one chapter. Resumable from wherever the chapter stopped.
 ---
 
@@ -37,7 +38,7 @@ reference, the rule it applies:
 | `interview.md` | research |
 | `research.md` (and no `brief-gaps.md` outstanding) | draft |
 | `draft.md` with conformance passed | refine |
-| `refined.md` | plate, then verdict |
+| `refined.md` | scoped review, plate, then verdict |
 
 `--from <stage>` overrides, for a deliberate re-run.
 
@@ -63,11 +64,31 @@ fails in exactly one hard-to-notice way, and that is it.
    then `gw-specchecker`.
 4. **Refine** — follow `/gw-refine`: `gw-lineeditor`, then `voice_check.py`
    run independently, `gw-slopreader`, `gw-specchecker`, distillation.
-5. **Plate** — follow `/gw-plate N`: brief, three concepts, the Panel's cold
+5. **Scoped review** — dispatch `gw-panel` on the refined chapter for audience
+   personas and `gw-slopreader` for coherence with relevant existing chapters,
+   claims, terminology, and the outline. Name the actual scope and unread limits;
+   a whole-book reread is not required for every chapter. Reuse current review
+   evidence where it covers the final text. Route essential chapter findings to
+   the owning desk and independently recheck changes; two rounds, then inbox.
+   Keep author-deferred older-book findings separate. A plate read cannot satisfy
+   this chapter review. The Publisher records completion in `review.json`:
+
+   ```json
+   {"inputs": {"refined.md": "sha256", "relative/context.md": "sha256"},
+    "reviews": {"personas": {"status": "pass", "report": "persona-refined.md", "sha256": "sha256", "scope": "actual coverage"},
+                "coherence": {"status": "pass", "report": "coherence-refined.md", "sha256": "sha256", "scope": "actual coverage"}},
+    "deferred": ["author-approved older-book inbox IDs"]}
+   ```
+
+   Hash the exact reviewed files, including relevant context, relative to the
+   chapter directory. Record `pass` only after essential findings are resolved;
+   report existence is not approval. `next.py` checks evidence and freshness
+   before reporting verdict. Missing, failed or stale reviews return to review.
+6. **Plate** — follow `/gw-plate N`: brief, three concepts, the Panel's cold
    pick, draft, the counted check run by you, the Panel's standalone read, one
    revision. Skip with `--no-plate`. A plate failure never blocks the
    chapter; it goes to the inbox.
-6. **Verdict package** — run `/gw-compile NN` to produce the PDF. Then hand him
+7. **Verdict package** — run `/gw-compile NN` to produce the PDF. Then hand him
    the package: the PDF, the plate, the counts as the scripts printed them, the
    conformance rows, and `python3 scripts/inbox.py --all --chapter NN` for every
    inbox item this chapter raised — run it, don't recall it (a hand-enumerated

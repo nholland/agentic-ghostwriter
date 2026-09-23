@@ -1,4 +1,5 @@
 ---
+name: gw-qa
 description: Whole-book QA - the Reader Panel's four personas plus the Anti-Slop Reader's cross-chapter pass, synthesized into one ranked list. Needs the whole manuscript, not a single chapter.
 ---
 
@@ -9,9 +10,10 @@ description: Whole-book QA - the Reader Panel's four personas plus the Anti-Slop
 
 Argument: optional chapter range. `$ARGUMENTS`
 
-These checks only make sense at book level. They find what no per-chapter pass
-can: the same opening structure twice across Parts, anchor metaphors that
-contradict each other, a term used as established that nothing ever defined.
+This is the broader manuscript audit. Chapter handoff uses the same desks with
+relevant context under `/gw-chapter`; it does not require this full sweep.
+Across the book, look for repeated openings, contradictory anchor metaphors,
+and terms used as established before they are defined.
 
 ## Step 0
 

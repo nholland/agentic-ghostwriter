@@ -227,7 +227,8 @@ def main() -> int:
     except Exception:
         title = "Manuscript"
 
-    html_body = markdown.markdown(md_text, extensions=["extra", "smarty"])
+    from pdf_chapter_style import CSS as CHAPTER_CSS, format_headings
+    html_body = format_headings(markdown.markdown(md_text, extensions=["extra", "smarty"]))
 
     html = f"""<!DOCTYPE html>
 <html>
@@ -323,6 +324,7 @@ def main() -> int:
      Into Practice section so a chapter's back matter never runs onto the
      same page as its closing lines. Zero height: it does not itself print. */
   .pb {{ page-break-before: always; }}
+{CHAPTER_CSS}
 </style>
 </head>
 <body>

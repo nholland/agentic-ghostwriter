@@ -799,3 +799,9 @@ item's actual defect (`sync.py` measures `origin/main`, acts on local `main`)
 never needed an account of any specific incident to stand, and now has none.
 This closes the #047-history sub-thread; nothing about it should need a sixth
 look.
+
+## 2026-09-23 08:02 — Scoped chapter review and reader-friendly PDF openings
+
+Author authority: “Let's make the changes.” Chapter handoff now calls existing persona/coherence desks with relevant context and checks revision-bound evidence before verdict. Archivist assessment distinguishes repairing one instance from preventing recurrence; neutral dispatch replaces recommendation-minimizing steering. No new desk or whole-book reread requirement. Independent forward testing caught null scope acceptance, now rejected. Older author-deferred findings remain separate.
+
+The author reported spaced chapter letters and an undifferentiated title in his audio reader. Both PDF backends now share ordinary chapter labels, explicit bold titles and flush-left openings. Actual PDF integration checks reject the old export and pass the new one; seven pages inspected and extracted content preserved. Chromium rendering now closes explicitly through the existing Playwright dependency. No claim of testing the author's particular reader. Regression suite: 123/123 with local font-path override, followed by 15/15 focused tests including three new scope cases. Instruction word changes are recorded in runs/ch13/workflow-word-costs.txt; generated plugin copies synced.

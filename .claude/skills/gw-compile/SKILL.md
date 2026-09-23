@@ -1,4 +1,5 @@
 ---
+name: gw-compile
 description: Assemble a clean reader-facing manuscript or a single chapter's PDF - the package the author sends to readers for feedback. Uses the book's one renderer. Writes into runs/, with the coverage in the filename.
 ---
 
@@ -46,7 +47,14 @@ apparatus, that any distillation is at the back and labelled (the shipped
 manuscript contains none - it is working apparatus feeding the practice guide),
 and that no Draft Notes or Editor's Notes heading reached the page. It reads the
 emitted HTML, so it cannot see overlapping glyphs or a plate that renders blank.
-Those stay with `runs/design/svgcheck.py` and with the author's own eye.
+Render and inspect every page before delivery. Also extract the PDF text: the
+chapter label must read `Chapter N`, never spaced letters, followed by the title
+and opening in reading order. Both backends share `pdf_chapter_style.py`: bold,
+separate chapter title; ordinary untracked chapter label; flush-left opening
+paragraph. This book's reading PDFs feed an audiobook reader, so visual checks
+alone are insufficient. No running headers or decorative extractable labels.
+For a single chapter, run `tests/check_pdf_opening.py PDF --chapter N --title
+"Title"` with Python containing pdfplumber and pypdf; it checks the actual PDF.
 
 ## Assembly is a script, not a checklist
 
