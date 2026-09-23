@@ -275,8 +275,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 
 ## Notes
 
-None yet. Substantive author notes logged via `/gw-note` will populate this
-section as `type: Author Note` concepts.
+- [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage.
 
 ## Logs
 
