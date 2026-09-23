@@ -67,3 +67,12 @@ author's own ruling in book `parking-lot.md` #259. Nothing from it enters the
 book as prose. Two commissions were taken from it: P-004 in
 `runs/parked.md`, and the framework question in this session's `/gw-revise`.
 
+
+
+## 2026-09-22 21:50 — Author concern: Chapter 11 complexity
+
+> For the record, I don't like chapter 11 much. But I can't put my finger on it. Which desk helps with that.
+>
+> My sense is the metaphors and structure doesn't land with a basic male reader. Still too complex
+
+Author concern recorded for diagnosis; no revision or specific diagnosis settled.

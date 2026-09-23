@@ -129,3 +129,60 @@ An honest request may not get the answer you want. It gives both of you a chance
 ---
 
 Tell her what bothered you while you can still talk about that one moment, then listen to what she says.
+
+## Editor's Notes
+
+Review draft dated 2026-09-22. Prepared from the existing refined chapter and its outline for the author's request for plain language. The author approved this revision for landing on 2026-09-22; see verdict.md. The book chapter receives the prose above these notes.
+
+### Changes and judgment calls
+
+- Kept the title, three practical distinctions, financial story, tolerance examples, parenting example, delayed-conversation sequence, two harmful response patterns, five virtues, named studies, and both Marcus quotations. Replaced the door/no-door/friction taxonomy with literal headings and actions. Removed the ratchet and torpedo labels. Removed the seagull reference at the author's request on 2026-09-22. The two behaviors and why they prevent a useful conversation are stated directly. Declared figurative family: hills (the familiar expression the author asked to complete).
+- Completed “hills to die on” in the opening as the author's requested correction. This familiar expression is retained at the author's explicit request; the literal explanation follows immediately. No extended metaphor organizes the chapter.
+- Replaced abstract virtues-as-failures with observable practices. This changes the outline's accusatory retrospective wording intentionally to follow the voice rule against moral verdicts while preserving all five virtues. The outline also asks for seagull/torpedo labels; both behaviors remain without their labels.
+- Retained the author's approximate ten years, mostly his wife's income, uncertain company paycheck, three children, and two full-time working parents. No new autobiographical scene or invented personal detail. Generic second-person examples and suggested dialogue are editorial illustrations, not reported conversations.
+- Omitted the old claim that men universally experience father/mother yelling differently. Preserved the relevant possibility and the reader's duty to consider the children's experience. Kept the shared conduct standard and distinction from contribution scorekeeping.
+- Made “don't require a response” mean don't require immediate agreement or apology. Added listening and later follow-up so it cannot be read as speaking once and walking away. This is an interpretive clarification for author review.
+- Preserved both classical quotation strings and attributions verbatim; no new verification claimed. The nineteenth-century wording remains harder than the surrounding prose, with a plain explanation beside each quote.
+- Narrowed the Marcus-Newhall description to displaced aggression, without repeating the old stronger description of a study of triggered marital responses. Retained the study and year. The marriage application is editorial interpretation, not presented as a direct experimental finding. Research sources were not re-verified in this language pass.
+- The missing autobiographical detail about the first sacrifice during the ten years is still absent. No placeholder has been filled with invention. The general rest/plans examples are addressed to the reader, not attributed to the author.
+- Removed most cross-chapter references so the argument stands alone. Kept the two that prevent a concrete misunderstanding: contribution scorekeeping and conduct during an existing disagreement.
+
+### Voice review
+
+All candidate checks require reading regardless of the script label. Read-through: the closing paragraph is exactly one sentence; the preceding paragraph supplies an unfinished conversation's practical consequence rather than a second close. The draft uses direct statements and questions instead of repeating a reframe device. Each of the five named virtues receives an immediate plain explanation. The two literal three-way comparisons serve different decisions and do not introduce competing imagery. The initial device candidate flagged three ordinary negative clauses, not three actual pivots. Two were nevertheless simplified for clarity; the remaining clause explains choosing whether a comment needs a response. No unresolved bracketed placeholders.
+
+### Representative meaning checks
+
+- Before: “Sometimes he’s telling himself the story because he doesn’t want to look at the thing.” After: “But sometimes you’re avoiding a conversation because you expect it to be uncomfortable.” The avoided action and anticipated discomfort are named.
+- Before: “Not everything hard is the same kind of hard.” After: “Some problems need a conversation or a practical step. Some hardships can’t be ended by either of you. Some annoyances aren’t worth trying to change.” Each distinction now says what the reader can do.
+- Before: “You feel it fully. You stay reachable.” After: “If you’re exhausted, say you’re exhausted. If you need an evening to rest, ask for it.” The reader receives examples of the behavior rather than a description he must interpret.
+- Before: “That’s the ratchet.” After: “Staying quiet starts to seem easier than admitting you’ve been unhappy for a while.” The cause of continued delay is stated without requiring a mechanical analogy.
+
+### Inherited outline mismatches
+
+The source chapter uses politics as the second tolerance example, although the outline names family money or parenting differences. This draft preserves the inherited example rather than inventing autobiography. The outline also calls for a transition from steadiness to active love; the source chapter has no explicit transition of that kind. This draft preserves the chapter’s focus on speaking up instead of adding a new transition solely to match that outline field.
+
+### Final counted check
+
+```text
+voice_check: plain-language-draft.md
+  2542 words of prose, 208 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 789}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 5 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      9/208 sentences at 25+ words = 4.3% (cap 10%)
+             46w: Arguing about a harmless preference can use up the evening while the problem you need to discuss goes unmentio...
+             44w: One of them was about choosing what deserved his attention. *"It is in our power to have no opinion about a th...
+             36w: If, then, it happens to thee in such way as thou art formed by nature to bear it, do not complain, but bear it...
+    [ok  ] you-density              242 direct-address words in 2542 = 95.2 per 1,000 (floor 40)
+    [ok  ] metaphor family          1 mentions in 2542 words = 0.4 per 1,000 (cap 5); {'hills': 1}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 20 words, shares 2 words with the previous one. Close: 'Tell her what bothered you while you can still talk about that one moment, then listen to what she says.'
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: {"you-don't pivot  'you don't X, you Y'": 1}. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+```
