@@ -188,7 +188,7 @@ NARRATIVE = {
         "Claim a check passed that did not run. SKIP is not PASS, and unchecked is the honest word.",
     ],
     "where": [
-        ("The book", "books/&lt;slug&gt;/",
+        ("The book", "books/<slug>/",
          "The premise, voice, audience and outline every desk reads. The knowledge ledger. The "
          "chapters that have landed. Written only by a landing after the verdict, or a "
          "constitution edit on the author's word, each its own commit."),
