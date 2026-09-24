@@ -1458,19 +1458,30 @@ def retro_window_cases():
         os.makedirs(state)
         open(os.path.join(state, "session-start-sha"), "w").write(start_sha)
 
-        # The triggering commit: touches a watched path (scripts/).
-        open(os.path.join(tmp, "scripts", "a.py"), "w").write("# a changed\n")
-        _git(tmp, "add", "-A")
-        _git(tmp, "commit", "-q", "-m", "touch scripts/")
-        head_sha = _git_out(tmp, "rev-parse", "HEAD")
-
         env = dict(os.environ)
         env["CLAUDE_PROJECT_DIR"] = tmp
         env.pop("CLAUDE_PLUGIN_ROOT", None)
+
+        # #092: batched. One watched-path commit is below the threshold (3).
+        def _touch(i):
+            open(os.path.join(tmp, "scripts", "a.py"), "w").write(f"# a changed {i}\n")
+            _git(tmp, "add", "-A")
+            _git(tmp, "commit", "-q", "-m", f"touch scripts/ {i}")
+        _touch(1)
         r = subprocess.run(["bash", hook], cwd=tmp, env=env,
                             capture_output=True, text=True)
-        out.append((r.returncode == 2, "retro-check dispatches on a watched-path commit",
-                    "a commit touching scripts/ must trigger exit 2 (Stop hook signal)",
+        out.append((r.returncode == 0, "retro-check holds below three watched-path commits",
+                    "one commit touching scripts/ must not dispatch the Archivist (#092)",
+                    r.returncode))
+
+        # The triggering commit: the third touching a watched path (scripts/).
+        _touch(2)
+        _touch(3)
+        head_sha = _git_out(tmp, "rev-parse", "HEAD")
+        r = subprocess.run(["bash", hook], cwd=tmp, env=env,
+                            capture_output=True, text=True)
+        out.append((r.returncode == 2, "retro-check dispatches at three watched-path commits",
+                    "three commits touching scripts/ must trigger exit 2 (Stop hook signal)",
                     r.returncode))
 
         window_path = os.path.join(state, "retro-window")
@@ -1480,7 +1491,7 @@ def retro_window_cases():
                     window))
 
         in_window = int(_git_out(tmp, "rev-list", "--count", f"{start_sha}..{head_sha}"))
-        out.append((in_window == 1, "triggering commit falls inside its own window",
+        out.append((in_window == 3, "triggering commits fall inside their own window",
                     "the commit that caused the dispatch must be counted in the range gw-retro reads",
                     in_window))
 
@@ -1498,11 +1509,11 @@ def retro_window_cases():
                     "confirms retro-window, not retro-last-sha, is what must be read for the window",
                     naive_count))
 
-        # A second watched-path commit should open a fresh window starting
+        # Three more watched-path commits should open a fresh window starting
         # where the first one ended, not from session-start-sha again.
-        open(os.path.join(tmp, "scripts", "b.py"), "w").write("# b\n")
-        _git(tmp, "add", "-A")
-        _git(tmp, "commit", "-q", "-m", "touch scripts/ again")
+        _touch(4)
+        _touch(5)
+        _touch(6)
         head2_sha = _git_out(tmp, "rev-parse", "HEAD")
         r2 = subprocess.run(["bash", hook], cwd=tmp, env=env,
                             capture_output=True, text=True)

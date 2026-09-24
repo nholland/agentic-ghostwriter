@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
-# Stop hook, last step: if this SESSION touched the work, ask the Publisher to
-# dispatch the Archivist - once per session.
+# Stop hook, last step: once MIN_COMMITS commits touching the work have piled
+# up since the last review, ask the Publisher to dispatch the Archivist.
 #
-# Per session, not every N commits. The old pipeline's threshold existed to stop
-# a loop: retrospectives edited rule files, rule-file edits counted toward the
-# next retrospective, and the ledger grew 8x in 27 days. That loop is broken at
-# the root here - the Archivist never applies, and rule paths are not watched -
-# so frequency is no longer the danger, and the author asked to learn from each
-# session. The damper that remains is the desk's own: nothing substantive,
-# three lines, stop.
+# Batched, not per checkpoint (#092, author's yes 2026-09-24). The Stop hook
+# fires after every turn, so "any commit" meant five reviews in 40 minutes on
+# 2026-09-22 and a review of a one-commit fix the last review had proposed on
+# 2026-09-24. Fewer than MIN_COMMITS still get one review when the author says
+# he is done - /gw's end-of-session row dispatches it.
 ROOT="${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel 2>/dev/null)}}"
 [ -z "$ROOT" ] && exit 0
 cd "$ROOT" || exit 0
@@ -39,7 +37,8 @@ DONE="$STATE/retro-done-$(echo "$START" | cut -c1-12)"
 # books/ IS watched: a landing or a constitution edit is the work, since 2026-09-18.
 WATCHED="bakeoff/ inbox/ scripts/ config/ books/ FINDINGS.md"
 COUNT=$(git rev-list --count "$START..$HEAD_SHA" -- $WATCHED 2>/dev/null); COUNT=${COUNT:-0}
-[ "$COUNT" -ge 1 ] || exit 0
+MIN_COMMITS=3
+[ "$COUNT" -ge "$MIN_COMMITS" ] || exit 0
 
 touch "$DONE"
 # Write the window BEFORE the dedupe pointer, and from the START/HEAD_SHA this

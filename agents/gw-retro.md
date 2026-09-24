@@ -93,11 +93,12 @@ existed but was invisible to the stage that needed it.
 
 ## Return
 
-1. The proposed `FINDINGS.md` entry, dated from `date '+%Y-%m-%d %H:%M'`, in the
-   ledger's voice: what happened, which lens it lit, what shape it matches, what
-   you propose.
-2. Suggestions.
-3. What you looked at and found clean, so silence is not read as a pass.
+Write the full review to `runs/retro/<date>-<topic>.md`: the proposed
+`FINDINGS.md` entry (dated from `date '+%Y-%m-%d %H:%M'`), every suggestion, and
+what you looked at and found clean. Return to the Publisher **at most two**
+suggestions, and only ones that cost the author time, cost the book quality, or
+have happened before; the rest are one line naming the file. None clear the bar:
+one line.
 
 ## Your proposals must be able to close themselves
 

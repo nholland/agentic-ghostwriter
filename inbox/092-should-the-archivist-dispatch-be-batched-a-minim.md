@@ -1,9 +1,11 @@
 ---
 id: 092
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-09-22 22:58
+resolved: 2026-09-24 07:41
+applied_by: python3 tests/run.py 2>&1 | grep -q '\[ ok \] retro-check holds below three watched-path commits'
 ---
 
 # Should the Archivist dispatch be batched (a minimum number of watched-path commits accumulated) instead of firing on every Stop-hook checkpoint that finds even one unreviewed commit?
@@ -19,3 +21,9 @@ Session transcript: five gw-retro dispatches between roughly 22:22 and 22:56 (Pa
 ```
 
 **What unblocks this:** Whether the Archivist's mandate itself needs narrowing, or whether the fix is entirely in when it fires - the Publisher's read is the latter: the five-lens review is doing real work each time it runs, and batching would keep that value while cutting how often the author waits for it
+
+**Resolution (2026-09-24 07:41):** Check main... If not, we can make these and then submit to main
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/run.py 2>&1 | grep -q '\[ ok \] retro-check holds below three watched-path commits'` exits 0.
+
+**Applied, confirmed 2026-09-24 07:41:** `python3 tests/run.py 2>&1 | grep -q '\[ ok \] retro-check holds below three watched-path commits'` now exits 0.
