@@ -91,7 +91,7 @@ DESK_NOTES = {
     'gw-retro': {
         'title': 'The Archivist',
         'owns': 'The session review: what broke, what was missing, what was too hard, what worked, what recurs.',
-        'body': "<p><b>Mandate.</b> Dispatched once per session that touched the work. Reads the session's diff, the log, the inbox, all of FINDINGS.md and the old pipeline's incident archive, then reviews through five lenses and suggests only if necessary. Every suggestion is typed and priced, and every addition names a deletion.</p><p><b>Why it proposes and never applies.</b> A learning loop that edits its own rules grew the old ledger from 739 to 6,026 words in 27 days and spent five of nine sessions on maintenance instead of the book.</p><p><b>Never.</b> Edits a rule file. Manufactures a finding; if nothing surfaced, three lines and stop.</p>",
+        'body': "<p><b>Mandate.</b> Dispatched once three commits touching the work have piled up, or when you say you are done. Reads the session's diff, the log, the inbox, all of FINDINGS.md and the old pipeline's incident archive, then reviews through five lenses and suggests only if necessary. Every suggestion is typed and priced, and every addition names a deletion.</p><p><b>Why it proposes and never applies.</b> A learning loop that edits its own rules grew the old ledger from 739 to 6,026 words in 27 days and spent five of nine sessions on maintenance instead of the book.</p><p><b>Never.</b> Edits a rule file. Manufactures a finding. Shows you more than two suggestions; the full review goes to runs/retro/, and if nothing clears the bar you get one line.</p>",
     },
 }
 
@@ -124,7 +124,7 @@ PHRASES = [
     ['positioning · taglines · pitch · proposal · query letter · KDP · ARC · book club · traditional or self', 'The publication stack, one mode per deliverable. The coverage of the arc is stated first and carried in the filename.', 'cold'],
     ['new book · I have an idea for…', 'The Foundation phase with the Developmental Editor: premise, archetype, voice, audience, outline, each shown and ratified before the next.', 'author'],
     ['change the voice · fix the outline · the premise is wrong', 'Revise a locked artifact with the history kept. For a book the book pipeline ships, a diff for you to apply there.', 'author'],
-    ['I have material · read these · ingest', 'Raw sources into typed knowledge: gap markers written, content concepts proposed for your yes.', 'cold'],
+    ['I have material · read these · ingest', 'Raw sources into typed knowledge: gap markers and source findings written, content concepts proposed for your yes.', 'cold'],
     ['edit 12 · that line is wrong · fix the opening · edit the introduction', 'Section by section, in the room, your wording kept, counts re-run afterwards. Also the prologue, the introduction, and the part pages.', 'author'],
     ['remember that · write that down · for the record', "Your words, verbatim, clock-stamped. Never on a desk's initiative.", 'author'],
     ["park that · not now · let's decide later", 'A deferred question with a revisit trigger (an event, not a date). Raised again when the trigger arrives.', 'author'],
@@ -194,7 +194,7 @@ ARTIFACTS = [
      "The only durable record this repo keeps. Questions a cold desk could not "
      "decide, and rulings whose change has not landed yet."),
     ("okf/", "book",
-     "The knowledge layer. Gap markers land with a chapter; content concepts only "
+     "The knowledge layer. Gap markers and source findings land with a chapter; content concepts only "
      "after the author confirms them; every status change through the validator."),
     ("chapters/chNN/", "book",
      "The chapters that ship. Landed by the Publisher after the verdict, via land.py; "
