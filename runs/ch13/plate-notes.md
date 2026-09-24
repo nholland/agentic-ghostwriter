@@ -124,3 +124,32 @@ Expected provisional-title and checker-render warnings remain; Sharp output is `
 2026-09-23T07:00:23.371201-05:00
 
 Actual refined prose and distillation now exist. Publisher retained the Designer layout and replaced the draft-only choosing phrase with one exact-source takeaway: “The effort that follows / deserves just as much of you.” The brief was regenerated from final sources. Final cold read passed in plate-read-author-revision.md. All geometry, source, title, caption, alignment, and rendered-ink checks pass; see final-gates.txt. The previous provisional warnings above are historical. No book landing yet.
+
+## Author correction — curiosity while dating (current plate)
+
+2026-09-23. Supersedes the historical remembered-answer interpretation above. The author correctly observed that dating involved curiosity about answers not yet known. Replaced the left column with the chapter's exact phrase “you wanted to hear / what she thought.” The right column remains “Ask what / happened next.” The two arrows now connect early curiosity to continued interest, while the becoming subtitle and sustained-effort takeaway carry the chapter's reason for continuing. No claim remains that he already had the answers during dating.
+
+Preserved the established 640 × 480 canvas, Georgia, ink color, thin strokes, two centered columns at x=176 and x=464, arrowheads, separator, and centered takeaway. Source: refined.md, paragraph beginning “That's the pre-commitment paradox.” Every visible phrase remains chapter-grounded; the mechanism title matches distillation.md exactly. The author's correction is recorded in plate-brief.md.
+
+- [x] Ten centered text elements use the center axis or symmetric shared columns.
+- [x] Drawing block remains centered; both arrows remain visible.
+- [x] Three italic lines are within the cap of four.
+- [x] No bare text-anchor attributes, em-dashes, or numbers.
+- [x] Sharp rendered to pdf/plate.png; image visually inspected, with no clipped copy or collisions.
+
+Independent Publisher check and cold Panel read remain pending. Designer local check:
+
+```text
+runs/ch13/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x480
+  [ ok ] title       title 'Keep learning what matters to her' / aria-label 'Keep learning what matters to her' vs Mechanism 'Keep learning what matters to her'
+  [ ok ] grounded    every run of three or more words is the chapter's
+  [ ok ] captions    3 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   10 centred texts on the axis or a shared column; 1 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+```

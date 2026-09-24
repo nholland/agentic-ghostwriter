@@ -1,0 +1,78 @@
+{
+  "removed_superseded_pdfs": [
+    {
+      "path": "runs/manuscript/the-stoic-husband-plate-feedback-packet-ch01-ch12-2026-09-21-1250.pdf",
+      "sha256": "4084a1420b5cdce08b5670b6fda4f46c7491bd6deaab00eb7bae4591d7cdef6e"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-prologue-ch12-plates-draft-2026-09-20-2330.pdf",
+      "sha256": "353ae4ebcc2808de811529deadcf28638f917f7e5155e34584a6f0d8113b6355"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-plate-feedback-packet-ch01-ch12-2026-09-21-0513.pdf",
+      "sha256": "65891dfbe6894485db2fe1a1044116a85b92714f4681d13582fc5dd3eb19840b"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-prologue-ch12-plates-draft-2026-09-20-1952.pdf",
+      "sha256": "b301571cdd4bfc5a3fa4d51fca291a972c8bf0c4f3f7d954f82f7015343ff7e1"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-prologue-ch12-2026-09-20.pdf",
+      "sha256": "d57a5354c8fcd67018687937661c2441b54127818bb88b113288ec3d57aec3ac"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-prologue-ch12-plates-draft-2026-09-20.pdf",
+      "sha256": "00e0793702d5f3b0d2c4ab88f0601bc70863225d19b0e06965b3a89ce496f35b"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-plate-feedback-packet-ch01-ch12-2026-09-21-0047.pdf",
+      "sha256": "4e18d1e992971d658aaa6f92cd1a2bf85a048589cb51675fa6ea683525e5de18"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-prologue-ch11-2026-09-15.pdf",
+      "sha256": "f3d38848c0ac4a8017ffd461456cd58ae18f2a5ab1e966d439c881f4dc2f9829"
+    },
+    {
+      "path": "runs/manuscript/the-stoic-husband-prologue-ch12-plates-draft-2026-09-20-2200.pdf",
+      "sha256": "aab7fb9ef2b55e0922a6d9484cdce59abfd22d93dd847c9fb3b18aee4dbf55b5"
+    },
+    {
+      "path": "runs/ch12/pdf/Chapter 12 - Romance Is a Discipline.pdf",
+      "sha256": "f0433772578728636f406c12ec847363d1e0d7537bfa79ddd4bab2f2a18e24ab"
+    },
+    {
+      "path": "runs/ch13/pdf/Chapter-13-Pursue-Her-After-You-Have-Her-reader-v2.pdf",
+      "sha256": "9245d560880c8431f8d50cf458b6742bfae4cc22f36fa39d4b69bb87f35ad8fe"
+    },
+    {
+      "path": "runs/ch13/pdf/Chapter-13-Pursue-Her-After-You-Have-Her-author-review.pdf",
+      "sha256": "cf30d4b8f362092323cc6eaaa4a22fcc7955e64359a6e617aca7aae57d4338a5"
+    },
+    {
+      "path": "runs/ch13/pdf/Chapter-13-Pursue-Her-After-You-Have-Her-plate-and-distillation.pdf",
+      "sha256": "7fd724534f67b2799a46f09000c286033129402ae6d2cab261e10ee3a519282e"
+    },
+    {
+      "path": "output/pdf/Chapter-11-Speak-or-Endure-Review-Draft.pdf",
+      "sha256": "4aa5eec4fdbea8f8349412e5ed6765591ab2361364fddb051d11d3fe552da9d5"
+    },
+    {
+      "path": "books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf",
+      "sha256": "4aa5eec4fdbea8f8349412e5ed6765591ab2361364fddb051d11d3fe552da9d5"
+    },
+    {
+      "path": "books/the-stoic-husband/manuscript.pdf",
+      "sha256": "d511add38b80e023580883a954393907218516b65aced329ba2eae47154b16ad"
+    }
+  ],
+  "relocated_sole_copies": [
+    {
+      "from": "books/the-stoic-husband/chapters/ch09/Chapter-9-Silence-Is-Not-Peace.pdf",
+      "to": "output/compiled/chapters/ch09.pdf"
+    },
+    {
+      "from": "books/the-stoic-husband/chapters/ch10/Chapter-10-Boundaries-Are-Strength.pdf",
+      "to": "output/compiled/chapters/ch10.pdf"
+    }
+  ]
+}

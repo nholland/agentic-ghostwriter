@@ -85,3 +85,10 @@ existed; and anything the author must rule on — a label you were unsure of, a
 gloss that would not fit, a metaphor conflict with the prose. Run
 `python3 scripts/plate_check.py runs/chNN/plate.svg --chapter N` and paste it
 into your notes; the Publisher runs it again regardless (Rule 7).
+
+## Maintained explanation
+
+When revising a plate, update its entry in `runs/design/plate-briefs.md`: plain
+intent, visual explanation, validation question, and source references. Preserve
+unrelated entries. This maintained Markdown feeds `scripts/plate_packet.py`;
+regeneration must not invent or overwrite the brief.

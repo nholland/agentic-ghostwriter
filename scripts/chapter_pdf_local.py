@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 """Render a chapter to PDF with headless Chromium.
 
-WHY THIS EXISTS, and why it is not a second renderer in the sense
-gw-compile/SKILL.md forbids: the book's `scripts/chapter_pdf.py` is the one
-renderer and it cannot run in this container - weasyprint, pandoc and
-wkhtmltopdf are all absent and pip cannot reach PyPI through the egress
-proxy. This is a fallback that produces the reader package here, and it is
-registered in GAPS.md as such. When the container can run the book's
-renderer, this goes away.
+The single approved PDF backend. chapter_pdf.py is a compatibility entry point.
 
 Two choices are deliberate and worth stating:
 
@@ -25,9 +19,15 @@ import os
 import re
 import subprocess
 import sys
+from pathlib import Path
+import shutil
 from pdf_chapter_style import CSS as CHAPTER_CSS, format_headings
 
-CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
+CHROME = os.environ.get("CHROME") or next((p for p in [
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
+    shutil.which("chromium"), shutil.which("google-chrome")
+] if p and os.path.isfile(p)), "")
 FLAGS = ["--headless", "--disable-gpu", "--no-sandbox", "--hide-scrollbars"]
 
 
@@ -155,6 +155,10 @@ def node_modules():
     global _NODE_PATH
     if _NODE_PATH is None:
         env = os.environ.get("NODE_PATH")
+        if not env:
+            bundled = Path.home() / '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules'
+            if bundled.is_dir():
+                env = str(bundled)
         if env and os.path.isdir(os.path.join(env, "playwright")):
             _NODE_PATH = env
         else:
@@ -211,25 +215,25 @@ body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
        margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
 
 /* ---- the distillation card, first page ---- */
-.dist { page-break-after: always; }
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
 .dist.distback { page-break-before: always; page-break-after: auto; }
 .dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
-        color:#5a5a5a; text-align:center; margin:0 0 .35in; }
-.dist h1 { font-size:17pt; font-weight:600; letter-spacing:.01em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
         text-align:center; line-height:1.25; margin:0 0 .08in;
         page-break-before:avoid; }
 .dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
-        margin:.18in auto .3in; }
+        margin:.08in auto .10in; }
 .dist .mech { text-align:center; font: 600 11pt Georgia,serif;
         letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
 .dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
         margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
-.dist p { margin:0 0 .16in; }
+.dist p { margin:0 0 .08in; }
 .dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
         text-transform:uppercase; color:#5a5a5a;
-        margin:.28in 0 .1in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
 .dist ol { margin:0 0 .1in; padding-left:.24in; }
-.dist li { margin:0 0 .11in; }
+.dist li { margin:0 0 .07in; }
 
 /* ---- chapter ---- */
 /* Every h1 (Prologue, Introduction, a Part opening, a Chapter) starts a
@@ -248,8 +252,7 @@ h1 + hr.beat { display:none; }
    It Into Practice section so a chapter's back matter never runs onto the
    same page as its closing lines. Zero height: it does not itself print. */
 .pb { page-break-before:always; }
-p { margin:0 0 .13in; text-align:justify; }
-p + p { text-indent:1.1em; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
 p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
 p.runin { margin-top:.2in; }
 p.runin strong { font-weight:600; letter-spacing:.01em; }
@@ -310,10 +313,8 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", b
     body = []
     chapter_md = rasterise_plates(chapter_md, base_dir,
                                   os.path.dirname(os.path.abspath(out_pdf)) or ".")
-    if distillation_md and dist_at == "front":
-        body.append('<section class="dist">'
-                    + distillation_html(distillation_md, "Chapter distillation")
-                    + '</section>')
+    if dist_at != "back":
+        raise ValueError("The approved chapter format puts distillation at the back")
 
     c = md_to_html(chapter_md)
     # Every chapter heading, not only the first: a whole manuscript passes
@@ -336,9 +337,14 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", b
                                         "Not part of the chapter &middot; working notes")
                     + '</section>')
 
+    return render_html(''.join(body), out_pdf, title)
+
+
+def render_html(body, out_pdf, title):
+    """Print chapter and collection HTML with the same approved stylesheet."""
     doc = (f"<!doctype html><html><head><meta charset='utf-8'>"
            f"<title>{_html.escape(title)}</title><style>{CSS}\n{CHAPTER_CSS}</style></head>"
-           f"<body>{''.join(body)}</body></html>")
+           f"<body>{body}</body></html>")
     html_path = os.path.splitext(out_pdf)[0] + ".html"
     open(html_path, "w", encoding="utf-8").write(doc)
     # Use the same Playwright dependency as SVG rendering. Explicit close avoids
@@ -371,7 +377,7 @@ def main():
     ap = argparse.ArgumentParser(description="Render a chapter to PDF via headless Chromium.")
     ap.add_argument("--chapter", required=True)
     ap.add_argument("--distillation")
-    ap.add_argument("--distillation-at", choices=["front", "back"], default="back",
+    ap.add_argument("--distillation-at", choices=["back"], default="back",
                     help="The shipped manuscript carries no distillation at all - it is "
                          "working apparatus that feeds the back-of-book practice guide. "
                          "Default back, and labelled, so a reader copy never opens on it.")

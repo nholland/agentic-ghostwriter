@@ -19,8 +19,8 @@
 <path fill="none" d="M64 206C160 168 252 244 350 206S505 181 576 200"/>
 <path fill="none" d="M567 190L576 200L563 204"/>
 </g>
-<text class="txt" fill="currentColor" x="176" y="276">the answers</text>
-<text class="txt" fill="currentColor" x="176" y="306">you already had</text>
+<text class="txt" fill="currentColor" x="176" y="276">you wanted to hear</text>
+<text class="txt" fill="currentColor" x="176" y="306">what she thought</text>
 <text class="txt" fill="currentColor" x="464" y="276">Ask what</text>
 <text class="txt" fill="currentColor" x="464" y="306">happened next.</text>
 <path class="rule" fill="none" d="M64 351H576"/>

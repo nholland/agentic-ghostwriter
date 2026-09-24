@@ -1,3 +1,17 @@
+## Approved-prose copy refresh — 2026-09-24
+
+This entry supersedes the historical copy rationale below. The 2026-09-22 verdict explicitly excluded the old plate from its approved PDF. The current compilation request includes a plate, so its copy now follows the landed chapter and distillation.
+
+Geometry, bars, dashed empty box, arrow, divider, canvas, font classes, and colors are unchanged. The subtitle is now “You keep arguing with her in your head.” from the landed distillation's conversation sentence. The box labels are “IN YOUR HEAD” and “WITH HER”; the empty box says “you haven’t told her,” also from that sentence. The closing lines are “Tell her what’s bothering you.” from its Lesson and “Then listen.” from Practice 2. This removes the obsolete numerical rehearsal count and the misleading implication that one conversation always suffices.
+
+Checked against the landed chapter directly, rather than relying on the old brief's broader grounding corpus. Rendered at 3x with Sharp and visually inspected: no overlap, clipping, or crowded labels; the repeated argument remains visibly confined to his head, with the conversation with her still absent. The house style matches the existing Chapter 12 plate and the design/plates collection.
+
+`python3 runs/ch13/check-plate-local.py runs/ch11/plate.svg --chapter 11`
+
+All eleven rows pass: charset, geometry, anchor-attr, em-dash, digits, canvas (640x376), title, grounded, captions (4/4), alignment, ink. No remaining checker warnings. No book files edited.
+
+---
+
 # Ch11 plate notes — The Conversation She Has Never Heard
 
 **Date:** 2026-09-20

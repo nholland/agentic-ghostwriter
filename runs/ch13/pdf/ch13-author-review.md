@@ -65,11 +65,3 @@ The same desire to discover someone can draw your attention toward another woman
 ---
 
 For now, put the phone down and turn toward her while she's still telling you about her day.
-
-<div class="pb"></div>
-
-## Putting It Into Practice
-
-1. Once a week, make time together around something she enjoys now. Ask rather than relying only on what she liked when you were dating, and follow through on the plan.
-2. When she tells you about something she's enjoying, set aside what you're doing and ask what caught her interest. Let yourself be pleased for her, and return to it another day.
-3. When you're spending time together, tell her about something you've begun to enjoy or reconsider. Give her a chance to know who you're becoming too.

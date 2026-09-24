@@ -130,6 +130,9 @@ def main():
     ap.add_argument("--no-pdf", action="store_true")
     ap.add_argument("--plates", action="store_true",
                     help="embed chapter plates and Part closing plates")
+    ap.add_argument("--include-run", type=int, action="append", default=[],
+                    help="Explicitly include an unlanded chapter from runs/")
+    ap.add_argument("--outdir", default=os.path.join(REPO, "output", "compiled", "assets"))
     a = ap.parse_args()
 
     root, _, _ = resolve_book.resolve(resolve_book.load_config())
@@ -140,9 +143,12 @@ def main():
     B = os.path.join(root, rel)
     outline = io.open(os.path.join(B, "03-outline.md"), encoding="utf-8").read()
 
+    def chapter_dir(n):
+        return os.path.join(REPO, "runs", "ch%02d" % n) if n in a.include_run else os.path.join(B, "chapters", "ch%02d" % n)
+
     have = []
     for n in range(a.lo, (a.hi or 99) + 1):
-        if os.path.isfile(os.path.join(B, "chapters", "ch%02d" % n, "refined.md")):
+        if os.path.isfile(os.path.join(chapter_dir(n), "refined.md")):
             have.append(n)
     if not have:
         print("compile: no refined chapters in that range.", file=sys.stderr)
@@ -153,7 +159,7 @@ def main():
     pieces, sections, missing_part_files = [], [], []
     plates = []   # (label, svg, landed) in page order
     plate_missing = []
-    outdir = os.path.join(REPO, "runs", "manuscript")
+    outdir = os.path.abspath(a.outdir)
     os.makedirs(outdir, exist_ok=True)
 
     for key in PRECURSORS:
@@ -172,7 +178,7 @@ def main():
                 missing_part_files.append(opening)
         in_part = [c for c in have if first <= c <= last]
         for n in in_part:
-            d = os.path.join(B, "chapters", "ch%02d" % n)
+            d = chapter_dir(n)
             body = strip_apparatus(io.open(os.path.join(d, "refined.md"),
                                            encoding="utf-8").read())
             if a.plates:
@@ -224,7 +230,7 @@ def main():
                    % (", ".join("%s=%s" % (lab, "landed" if ok else "DRAFT")
                                 for lab, _, ok in plates) or "none",
                       ", ".join(plate_missing) or "none"))
-    header += "\n"
+    header += "<!-- Unapproved chapter runs: %s. -->\n\n" % a.include_run
 
     # No manual page-break marker between pieces: every piece (a precursor,
     # a Part opening, a chapter) starts with its own h1, and h1 already
@@ -236,7 +242,7 @@ def main():
     stem = "prologue-ch%02d" % hi if lo == 1 else "ch%02d-ch%02d" % (lo, hi)
     if a.plates:
         stem += "-plates" + ("" if all(ok for _, _, ok in plates) else "-draft")
-    md_path = os.path.join(outdir, "manuscript-%s-%s.md" % (stem, today))
+    md_path = os.path.join(outdir, "manuscript.md")
     io.open(md_path, "w", encoding="utf-8").write(md)
 
     # --- assertions, before anything is called a success -------------------
@@ -247,7 +253,7 @@ def main():
             if key.replace("-", " ").lower() not in md.lower():
                 problems.append("PART %s opening did not reach the manuscript" % numeral)
     want = sum(1 for n in have
-               if practice(os.path.join(B, "chapters", "ch%02d" % n, "distillation.md")))
+               if practice(os.path.join(chapter_dir(n), "distillation.md")))
     got = md.count("## Putting It Into Practice")
     if got != want:
         problems.append("%d Practice sections, but %d chapters have one" % (got, want))
@@ -289,26 +295,10 @@ def main():
     if not os.path.isfile(renderer):
         print("  no renderer in the book repo; markdown only.")
         return 0
-    pdf_path = md_path.replace("manuscript-", "the-stoic-husband-").replace(".md", ".pdf")
-    r = subprocess.run([sys.executable, renderer, "--markdown", md_path, pdf_path],
-                       capture_output=True, text=True)
-    if r.returncode != 0:
-        # The book's renderer needs weasyprint, which this container cannot
-        # install (GAPS.md). chapter_pdf_local.py stands in, driving headless
-        # Chromium; say so rather than failing silently on the same wall.
-        local = os.path.join(HERE, "chapter_pdf_local.py")
-        if not os.path.isfile(local):
-            print("  renderer failed:\n%s" % (r.stderr or r.stdout)[-400:])
-            return 1
-        print("  chapter_pdf.py could not run (%s); falling back to chapter_pdf_local.py"
-              % ((r.stderr or r.stdout).strip().splitlines() or ["?"])[-1][:80])
-        r = subprocess.run([sys.executable, local, "--chapter", md_path, "--out", pdf_path,
-                            "--title", "River, Oak, Sun: The Stoic Husband (%s)" % stem],
-                           capture_output=True, text=True)
-        if r.returncode != 0:
-            print("  fallback renderer failed:\n%s" % (r.stderr or r.stdout)[-400:])
-            return 1
-        print((r.stdout or "").rstrip())
+    pdf_path = os.path.join(os.path.dirname(outdir), "book.pdf")
+    r = subprocess.run([sys.executable, renderer, "--markdown", md_path, pdf_path])
+    if r.returncode:
+        return r.returncode
     print("  %s" % os.path.relpath(pdf_path, REPO))
     return 0
 

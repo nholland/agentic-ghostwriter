@@ -22,19 +22,14 @@ current work.
 
 ---
 
-## Deferred: the PDF renderer, 1 gap, environmental
+## PDF rendering consolidated
 
-| Gap | What it waits on |
-|---|---|
-| The book's `chapter_pdf.py` cannot run in this container | An environment whose network policy reaches PyPI. Checked 2026-09-19, not assumed: `pypi.org` itself returns **403** on a direct request, and `registry.npmjs.org` returns 403 through this environment's proxy allowlist - both registries are unreachable regardless of what a session hook tries. `scripts/toolcheck.py` reports the live status every session (wired into `session-start.sh`, silent when nothing is missing). |
-| `books/<slug>/manuscript.md` and `manuscript.pdf` are the old pipeline's last compile and go stale from here | `/gw-compile` writing its whole-book output into the book tree with the coverage in the filename, and retiring these two |
-| Desks still write to `runs/chNN/`; a chapter reaches `books/` only through `land.py` after the verdict ("switch 2" in `FLOW.md`) | A chapter landing that `land.py` could not do, or the apparatus/output split costing more than the landing-step defects it catches (two so far: #029's broken links, the round-1/round-2 brief choice) |
-
-`chapter_pdf.py` needs two Python packages (`weasyprint`, `markdown`) and pip
-cannot install either here. `pandoc` and `wkhtmltopdf` are unwired alternates,
-also absent. `scripts/chapter_pdf_local.py` stands in, driving the headless
-Chromium the container already has, and `scripts/package_check.py` guards what
-it emits.
+The author approved one format and stable current exports on 2026-09-24.
+`chapter_pdf_local.py` is the only rendering implementation; `chapter_pdf.py`
+delegates to it. WeasyPrint and its alternative stylesheet were removed.
+`output/compiled/` holds current chapter, book, distillation, and plate PDFs;
+its manifest records coverage and source hashes. Historical exported copies are
+removed after replacement checks. Manuscript sources and reviews remain intact.
 
 **A fifth name in this list, `ttfwidth`, turned out not to belong here at all -
 checked 2026-09-19, not assumed.** `runs/design/svgcheck.py` imports it from a
@@ -48,11 +43,6 @@ future reader has to remember to watch for: `tests/run.py`'s
 `sys_path_hardcode_cases()` greps every tracked script for it, mutation-tested
 against both the exact bug (must catch it) and the fix's own `HERE`-based idiom
 (must not flag it).
-
-**Registered because it was discovered at the point of use, twice.** The fallback
-was also written from scratch rather than porting the book renderer's `markup()`,
-which cost three formatting defects the author had already had fixed once. Whoever
-closes this gap deletes the fallback rather than maintaining two.
 
 **What is, and is not, "environment setup."** `scripts/toolcheck.py` only ever
 checks; it never installs, because there is nothing here it could install past

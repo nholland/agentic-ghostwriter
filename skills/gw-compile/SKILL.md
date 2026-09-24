@@ -1,93 +1,64 @@
 ---
 name: gw-compile
-description: Assemble a clean reader-facing manuscript or a single chapter's PDF - the package the author sends to readers for feedback. Uses the book's one renderer. Writes into runs/, with the coverage in the filename.
+description: Compile current chapter, book, distillation, and plate PDFs with the one approved format. Replace stable exports under output/compiled/.
 ---
 
 <!-- DERIVED FILE - DO NOT EDIT.
      Canonical copy: .claude/skills/gw-compile/SKILL.md
      Regenerate: python3 scripts/sync_plugin_layout.py -->
-# /gw-compile — the package readers get
+# /gw-compile — current reader copies
 
-Argument: a chapter number, a range `N-M`, or nothing for everything refined.
-`$ARGUMENTS`
+Run `python3 scripts/resolve_book.py` and `python3 scripts/okf_gate.py` first.
+Structural failures block; unverified citations remain reported, not invented or
+silently upgraded.
 
-This is how feedback happens: the author sends a PDF to readers. Nothing else in
-the house matters to a reader.
+## One format
 
-## Step 0
+`scripts/chapter_pdf_local.py` is the single Chromium rendering implementation;
+`scripts/chapter_pdf.py` is a compatibility entry point, not an alternate style.
+`pdf_chapter_style.py` supplies chapter/subsection structure. Use the approved
+6-by-9-inch Georgia format: ordinary Chapter N label, bold separate title,
+subsection headings on their own lines, flush-left paragraphs with zero indent.
+Raster plates keep diagram labels out of audiobook narration. No running headers.
+Never copy CSS into a chapter-specific builder or restore the retired WeasyPrint
+layout. Set CHROME and NODE_PATH when automatic runtime discovery is insufficient.
 
-```
-python3 scripts/resolve_book.py
-python3 scripts/okf_gate.py
-```
+## Current outputs
 
-`resolve_book.py` is blocking. The citation gate reports and does not stop the
-compile (Rule 4, changed 2026-09-15): an unverified citation is unfinished work,
-and the statuses ride along in `scripts/citations.py`. A structural failure there
-still blocks.
+`python3 scripts/compile_current.py --chapters 11 12` refreshes those chapter
+packets and all three collections. A chapter packet includes prose, plate, and
+full distillation at the back. Collections are full available manuscript with
+plates/practices, distillations only, and plates with plain-language explanations.
 
-## One renderer where one can run, and a check on what comes out
-
-The book's `scripts/chapter_pdf.py` is the renderer. Use it wherever it runs:
-its predecessor was two copies of one stylesheet that shipped the same two defects
-and had only one fixed, and its `markup()` already carries three transforms, each
-fixing a defect the author found in a shipped PDF.
-
-Where it **cannot** run - this container has no weasyprint, pandoc or
-wkhtmltopdf, and pip cannot reach PyPI - `scripts/chapter_pdf_local.py` drives the
-headless Chromium already present. That is a registered gap (`GAPS.md`), not a
-licence to diverge: **read `markup()` before changing either renderer.** Writing a
-second one from scratch is how those three transforms were lost and re-found.
-
-Then check what a reader actually receives:
+Use `--include-run N` only when the author has requested an unlanded chapter.
+For the current author review through Chapter 13:
 
 ```
-python3 scripts/package_check.py "runs/chNN/pdf/<name>.html"   # quoted: the names have spaces
+python3 scripts/compile_current.py --chapters 11 12 13 --include-run 13
 ```
 
-**It must exit 0.** It asserts the package opens on the chapter and not on
-apparatus, that any distillation is at the back and labelled (the shipped
-manuscript contains none - it is working apparatus feeding the practice guide),
-and that no Draft Notes or Editor's Notes heading reached the page. It reads the
-emitted HTML, so it cannot see overlapping glyphs or a plate that renders blank.
-Render and inspect every page before delivery. Also extract the PDF text: the
-chapter label must read `Chapter N`, never spaced letters, followed by the title
-and opening in reading order. Both backends share `pdf_chapter_style.py`: bold,
-separate chapter title; ordinary untracked chapter label; flush-left opening
-paragraph. This book's reading PDFs feed an audiobook reader, so visual checks
-alone are insufficient. No running headers or decorative extractable labels.
-For a single chapter, run `tests/check_pdf_opening.py PDF --chapter N --title
-"Title"` with Python containing pdfplumber and pypdf; it checks the actual PDF.
+Landed chapter prose/distillations come from books/; explicit unlanded inputs
+come from runs/. `compile.py` assembles the manuscript, preserving precursor and
+Arc openings, chapter order, and practice fields. Compilation never constitutes
+a chapter verdict or permission to land prose.
 
-## Assembly is a script, not a checklist
+Keep one current PDF per chapter at `output/compiled/chapters/chNN.pdf`, and
+`book.pdf`, `distillations.pdf`, `plates.pdf` in `output/compiled/`. Stable names
+are replaced, not timestamped. `manifest.json` records coverage, source hashes,
+and unapproved chapters. Generated HTML and assets are supporting build files.
+Remove superseded exported PDFs only after replacements pass checks; preserve
+source manuscript, reviews, and design work. Git retains historical tracked exports.
 
-```
-python3 scripts/compile.py --to 11       # precursors through chapter 11
-python3 scripts/compile.py --from 1 --to 5
-```
+## Verify delivery
 
-It reads the Parts and their opening pages out of `03-outline.md` rather than
-being told, strips apparatus, appends each chapter's `**Practice:**` field, and
-writes a coverage header. Before reporting success it asserts every crossed Part
-opening is present, one Practice per in-range distillation, no apparatus, and
-chapters in order.
+Run `package_check.py` on chapter and manuscript HTML; standalone collections
+have their own intended structure and do not open on chapter prose. Run
+`tests/check_pdf_opening.py` for chapter PDFs. Extract text to check reading order,
+full distillation content, and absence of editorial notes. Render every page and
+inspect headings, paragraph alignment, plate edges, overflow, and blank pages.
+Report actual checks and scope, including any unavailable or unapproved material.
 
-**Do not assemble by hand.** The one time a model followed these rules as prose,
-on 2026-09-15, it dropped both Part openings and nothing noticed: the only check
-was a word-count delta, the pages are ~120 words, and there was no previous
-compile to compare against. A delta cannot see a defect already in the baseline,
-which is why the checks above are absolute.
-
-## Which text
-
-Compile from `{bookRoot}/chapters/chNN/refined.md` - the landed, verdict-passed
-text. A chapter still in `runs/chNN/` has no verdict yet; include it only when
-asked, and label the output so a reader-facing PDF never carries an unapproved
-draft.
-
-## Output
-
-The PDF path, the word count and its delta from the previous compile, and the
-gate result. Writes only under `runs/`, coverage in the filename (Rule 15).
-`{bookRoot}/manuscript.md` and `manuscript.pdf` are the old pipeline's last
-compile and are not refreshed by this command - see `GAPS.md`.
+For the plate review document, maintain `runs/design/plate-briefs.md` and run
+`python3 scripts/plate_packet.py`. It replaces `output/compiled/plates.pdf`,
+showing each image before its explanation. The general compile uses this same
+brief and renderer; it never regenerates brief prose from distillations.
