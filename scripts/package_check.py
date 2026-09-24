@@ -9,12 +9,11 @@ repo read a rendered artifact. Every gate stopped at markdown.
 `gw-compile/SKILL.md` states the stake - "Nothing else in the house matters to a
 reader" - and nothing executable stood behind the sentence.
 
-The distillation case is the one that named the rule. `compile.py` lifts only the
-Practice block out of a distillation and strips the rest, and the book's shipped
-manuscript contains the word "distillation" zero times: it is working apparatus
-that feeds the back-of-book practice guide. The renderer put it on page one. Two
-parts of this repo disagreed about what a reader receives and nothing compared
-them.
+The distillation case is the one that named the rule. The earlier book compile
+lifted only the Practice block and put a full distillation on page one of a
+chapter PDF. The chapter PDF now puts the full distillation after the prose and
+plate as a reader-facing close, following the author's 2026-09-24 clarification.
+The whole-book compile still needs to adopt that sequence.
 
 REWRITTEN 2026-09-18 (#025). The first version matched `<section\b[^>]*>` with a
 flat regex and read `class="..."` only - six escapes reached the author's own
@@ -157,7 +156,7 @@ def check(path):
     w.feed(html)
     top = w.root.children()
 
-    # 1. The package opens on the chapter, never on apparatus, and "chapter"
+    # 1. The package opens on the chapter, never on its closing distillation,
     #    is never assumed - it is verified by the container's own h1. A
     #    container that is neither classed 'dist' nor holds an h1 is
     #    unrecognised and fails closed, rather than defaulting to "chapter".
@@ -190,13 +189,15 @@ def check(path):
             fails.append("a distillation section is followed by more top-level "
                          "content; it must be last")
 
-    # 3. Any distillation container is labelled as apparatus, not silently
-    #    trailing.
+    # 3. The distillation is the reader-facing close and is introduced as such.
     if w.all_dist_nodes:
         if not any("distback" in n.classes for n in w.all_dist_nodes):
             fails.append("a distillation section is not marked distback")
-        if "Not part of the chapter" not in html:
-            fails.append("apparatus present but not labelled as apparatus")
+        if not any(kind == "text" and val.strip() == "Put it into practice"
+                   for node in w.all_dist_nodes for kind, val in node.events):
+            fails.append("reader-facing distillation lacks its practice introduction")
+        if "Not part of the chapter" in html:
+            fails.append("reader-facing distillation is mislabeled as working notes")
 
     # 4. No apparatus heading reached the reader, h1-h6, entities decoded and
     #    inner tags stripped by the parser rather than a regex.

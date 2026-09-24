@@ -68,36 +68,18 @@ Keep asking what she enjoys, then act on what you've learned. Give your full att
 
 Put the phone down, and give her the evening you came to share.
 
-## Editor's Notes
+# Chapter 13 Distillation — Pursue Her After You Have Her
 
-Revised 2026-09-24 after the author's feedback on the 2026-09-23 review draft. The preceding draft and notes are preserved in `refined-before-feedback.md`. The author asked for sustained effort, presence, service without prompting or resentment, gifts despite shared finances, small romance, remembering, and less emphasis on conversation.
+**Mechanism:** Keep choosing her in ways she can see
 
-The revised opening uses a show and a dinner to make divided attention concrete. The dating example remains, followed by time together, words, touch, service, gifts, and romance. The last-romantic-thing question and the Walgreens illustration are the author's requested examples. The passage about noticing another woman was removed; the close returns to the shared evening. The explicit claim about boredom is limited to lower later satisfaction in one longitudinal sample. No divorce or infidelity statistic appears because neither proposed causal claim is supported by the checked sources. The research and source limits are in `research-addendum-2026-09-24.md`.
+**Conversation sentence:** You can love your wife and still let the effort that once made her feel chosen disappear from ordinary days.
 
-The five love languages are described as a loose list of care behaviors, not a validated matching theory. The service passage distinguishes learning her preferences from making her coordinate every act. The gift passage states the author's shared-account objection as a practical observation; it does not claim that a purchase produces a guaranteed reaction. Seneca's Letter 58 remains a paraphrase through Heraclitus, with the marriage application marked as the author's. Musonius Rufus on mutual devotion and Epictetus on relational duties are researched alternatives for the author's consideration; they were not stacked into this version.
+Pursuit after marriage is attention you give her while you're together and thought you give her while you're apart. Put down the phone. Notice a task and carry it through without making her manage it. Say what you admire, offer the touch she welcomes, remember a preference, bring home a small gift, and plan time she would enjoy now. The five love languages are useful prompts for varying care, not fixed types or a scientific formula. Familiar routines can be lovely; a marriage still needs room for curiosity and gestures that show you meant them.
 
-Judgment calls: at 1,501 words, the chapter exceeds the older 1,000–1,300 target because the author specifically asked to expand it. The Walgreens example was previously excluded from Chapter 12, but the author proposed it here for Chapter 13. The wife in the opening and other examples is an illustrative second-person scenario, not a new autobiographical claim. No verbatim classical or modern-source quotation was added. The chapter's final line is one sentence; the divider before it separates that close from the preceding prose.
+**Lesson:** Winning her affection began a life of continuing to show care through presence, initiative, and romance.
+**Challenge:** Name the last romantic thing you did for her. If you have to reach back months, choose one thoughtful action and follow through without assigning her the planning.
 
-Counted voice check (verbatim):
-
-```text
-voice_check: refined.md
-  1501 words of prose, 124 sentences
-
-  HARD (literal counts - a FAIL here is a fact)
-    [ok  ] em-dash                  0 in prose (cap 0)
-    [ok  ] bold-as-crutch           1 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      9/124 sentences at 25+ words = 7.3% (cap 10%)
-             48w: You do need to notice if thoughtfulness has become rare everywhere else too. **Don't let knowing her become th...
-             33w: If you mostly talk about how much you love her, what else has she been missing? **Do the thing before she asks...
-             31w: In one long-term study, couples who described their marriage as boring were less satisfied nine years later, e...
-    [ok  ] you-density              122 direct-address words in 1501 = 81.3 per 1,000 (floor 40)
-    [ok  ] metaphor family          4 mentions in 1501 words = 2.7 per 1,000 (cap 5); {'river': 2, 'water': 1, 'flow': 1}
-
-  CAND (needs a read - a clear line here is not a pass)
-    [clear ] single ending            final sentence 13 words, shares 2 words with the previous one. Close: 'Put the phone down, and give her the evening you came to share.'
-    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
-    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
-
-  RESULT: all HARD checks passed
-```
+**Practice:**
+1. Once a week, choose one thing she would enjoy or benefit from based on something you noticed. Plan and carry it through yourself, whether it is an errand, a small gift, or time together.
+2. When she invites you to spend time together, put your phone away and give her your attention. If your mind wanders, come back to the moment you agreed to share.
+3. Before an anniversary or Valentine's Day, recall something she enjoys now and plan a gesture around it. Give yourself enough time to make it personal.

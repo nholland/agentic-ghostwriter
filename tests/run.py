@@ -56,6 +56,8 @@ def package_cases():
         ("unrecognised-first-section.html", True,
          "#025: a classless, headingless first section defaulted to \"chapter\" "
          "instead of failing closed as unrecognised"),
+        ("working-notes-label.html", True,
+         "a reader-facing distillation must not be called working notes"),
         ("good.html", False, "chapter first, distillation last and labelled"),
     ]
     out = []

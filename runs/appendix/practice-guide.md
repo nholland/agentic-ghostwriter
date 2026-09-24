@@ -21,6 +21,6 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 
 ## Chapter 13 — Pursue Her After You Have Her
 
-1. **Proactive.** Once a week, make time together around something she enjoys now. Ask rather than relying only on what she liked when you were dating, and follow through on the plan.
-2. **Reactive.** When she tells you about something she's enjoying, set aside what you're doing and ask what caught her interest. Let yourself be pleased for her, and return to it another day.
-3. **Reactive.** When you're spending time together, tell her about something you've begun to enjoy or reconsider. Give her a chance to know who you're becoming too.
+1. **Proactive.** Once a week, choose one thing she would enjoy or benefit from based on something you noticed. Plan and carry it through yourself, whether it is an errand, a small gift, or time together.
+2. **Reactive.** When she invites you to spend time together, put your phone away and give her your attention. If your mind wanders, come back to the moment you agreed to share.
+3. **Proactive.** Before an anniversary or Valentine's Day, recall something she enjoys now and plan a gesture around it. Give yourself enough time to make it personal.

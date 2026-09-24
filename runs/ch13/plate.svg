@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" style="color:#1a1a1a" role="img" aria-label="Keep learning what matters to her">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" style="color:#1a1a1a" role="img" aria-label="Keep choosing her in ways she can see">
 <style>
-.ttl{font:600 25px Georgia,serif;text-anchor:middle}
-.sub{font:italic 20px Georgia,serif;text-anchor:middle;opacity:.8}
-.lbl{font:600 19px Georgia,serif;text-anchor:middle}
-.txt{font:22px Georgia,serif;text-anchor:middle}
+.ttl{font:600 24px Georgia,serif;text-anchor:middle}
+.lbl{font:600 17px Georgia,serif;text-anchor:middle}
+.txt{font:19px Georgia,serif;text-anchor:middle}
 .cap{font:italic 21px Georgia,serif;text-anchor:middle}
 .ln{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .rule{fill:none;stroke:currentColor;stroke-width:.8;opacity:.28}
 </style>
 <rect width="640" height="480" fill="#fff"/>
-<text class="ttl" fill="currentColor" x="320" y="43">Keep learning what matters to her</text>
-<text class="sub" fill="currentColor" x="320" y="84">She's still becoming. You've changed too.</text>
-<text class="lbl" fill="currentColor" x="176" y="146">when you were dating</text>
-<text class="lbl" fill="currentColor" x="464" y="146">now</text>
+<text class="ttl" fill="currentColor" x="320" y="43">Keep choosing her in ways she can see</text>
+<text class="lbl" fill="currentColor" x="160" y="126">when you were dating</text>
+<text class="lbl" fill="currentColor" x="475" y="126">now</text>
+<text class="txt" fill="currentColor" x="160" y="171">time together</text>
+<text class="txt" fill="currentColor" x="160" y="210">words</text>
+<text class="txt" fill="currentColor" x="160" y="249">service</text>
+<text class="txt" fill="currentColor" x="160" y="288">gifts</text>
+<text class="txt" fill="currentColor" x="160" y="327">touch</text>
 <g class="ln" opacity=".64">
-<path fill="none" d="M64 182C160 144 252 220 350 182S505 157 576 176"/>
-<path fill="none" d="M567 166L576 176L563 180"/>
-<path fill="none" d="M64 206C160 168 252 244 350 206S505 181 576 200"/>
-<path fill="none" d="M567 190L576 200L563 204"/>
+<path d="M276 163H528M516 154L528 163L516 172"/>
+<path d="M276 202H528M516 193L528 202L516 211"/>
+<path d="M276 241H528M516 232L528 241L516 250"/>
+<path d="M276 280H528M516 271L528 280L516 289"/>
+<path d="M276 319H528M516 310L528 319L516 328"/>
 </g>
-<text class="txt" fill="currentColor" x="176" y="276">you wanted to hear</text>
-<text class="txt" fill="currentColor" x="176" y="306">what she thought</text>
-<text class="txt" fill="currentColor" x="464" y="276">Ask what</text>
-<text class="txt" fill="currentColor" x="464" y="306">happened next.</text>
-<path class="rule" fill="none" d="M64 351H576"/>
-<text class="cap" fill="currentColor" x="320" y="394">The effort that follows</text>
-<text class="cap" fill="currentColor" x="320" y="429">deserves just as much of you.</text>
+<path class="rule" d="M64 361H576"/>
+<text class="cap" fill="currentColor" x="320" y="405">The effort that follows</text>
+<text class="cap" fill="currentColor" x="320" y="440">deserves just as much of you.</text>
 </svg>

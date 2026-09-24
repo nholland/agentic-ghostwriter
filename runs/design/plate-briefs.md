@@ -144,13 +144,13 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 
 **Source:** runs/ch12/plate.svg; books/the-stoic-husband/chapters/ch12/distillation.md
 
-## ch13 | Keep Learning What Matters to Her
+## ch13 | Keep Choosing Her in Ways She Can See
 
-**Intent:** Keep the curiosity and effort that drew you toward her when dating. Both of you are changing, so knowing her past does not replace discovering what matters to her now.
+**Intent:** Keep showing care after marriage in more than one form. Time, words, service, gifts, and touch can all continue, with attention to what she welcomes now.
 
-**Visual explanation:** Two curving arrows move together from dating toward now, representing two people continuing to change. The left copy recalls wanting to hear what she thought; the right asks what happened next. The arrows connect early curiosity with continued attention. They do not mean that you already knew her answers when dating, or that marriage makes discovery unnecessary.
+**Visual explanation:** Five straight arrows carry the chapter's five named forms of care from dating to now. Each remains available after marriage. The identical arrows emphasize continued effort; they do not say every form matters equally to every couple or that the five love languages are a validated matching system.
 
-**Validation question:** What should continue from dating into marriage here, and what do the two arrows suggest about the people involved?
+**Validation question:** What are these five arrows asking a husband to keep doing after marriage?
 
 **Source:** runs/ch13/plate.svg; runs/ch13/distillation.md; runs/ch13/plate-brief.md
 

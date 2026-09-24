@@ -214,7 +214,7 @@ html { -webkit-print-color-adjust: exact; }
 body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
        margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
 
-/* ---- the distillation card, first page ---- */
+/* ---- the reader-facing distillation after the plate ---- */
 .dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
 .dist.distback { page-break-before: always; page-break-after: auto; }
 .dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
@@ -334,7 +334,7 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", b
     if distillation_md and dist_at == "back":
         body.append('<section class="dist distback">'
                     + distillation_html(distillation_md,
-                                        "Not part of the chapter &middot; working notes")
+                                        "Put it into practice")
                     + '</section>')
 
     return render_html(''.join(body), out_pdf, title)

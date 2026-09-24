@@ -14,8 +14,6 @@ Marriage lets you relax together. You can sit quietly without wondering whether 
 
 That's the mistake: you worked to win her, then treated being married as proof that the work was done. You haven't stopped loving her. You may have stopped showing her how much thought you're willing to give her.
 
-The effort that follows deserves just as much of you.
-
 Imagine asking your wife out after twelve years of marriage. You want to plan the afternoon, and the first place that comes to mind is somewhere she loved when you were dating. Would she choose it now? You remember what she liked then. You can't quite name what she'd be excited to do this Saturday.
 
 She's had twelve years you didn't live inside, even though you were there for much of them. You've changed too. The easy way to find out what she'd enjoy is to keep noticing her. Ask sometimes, of course. Then remember her answer, and do something with it.
@@ -50,7 +48,7 @@ Maybe she pointed out a book weeks ago. Maybe she loves a particular pastry and 
 
 Remembering helps. She mentioned that she'd like to try the new restaurant. Her favorite flowers aren't the ones you bought five years ago. She said this week would be hard at work. Hold on to those details. On Thursday, ask how it went. On Saturday, make the reservation. Remembering only matters to her when it changes what you do.
 
-Anniversaries and Valentine's Day can lose their meaning when you handle them from habit. You may have brought home the same card and chocolates for years. Ten minutes before you get home, you swing by Walgreens for a generic card and stale chocolate. You remembered the date. You gave little thought to the woman you were celebrating. You can use the same money and a little more attention to make the day feel chosen. Plan the dinner she would enjoy. Write down a memory that still makes you glad she's your wife. Give yourself enough time to mean it.
+Anniversaries and Valentine's Day can lose their meaning when you handle them from habit. You may have brought home the same card and chocolates for years. A rushed stop at Walgreens ten minutes before you get home for a generic card and stale chocolate won't say much about the woman you've spent your life with, even if you didn't forget the date. You can use the same money and a little more attention to make the day feel chosen. Plan the dinner she would enjoy. Write down a memory that still makes you glad she's your wife. Give yourself enough time to mean it.
 
 Some years are crowded and hard. You may both be tired, or laugh together because the anniversary passed before either of you noticed. You don't need to turn every date on the calendar into a performance. You do need to notice if thoughtfulness has become rare everywhere else too.
 
@@ -60,44 +58,10 @@ Some years are crowded and hard. You may both be tired, or laugh together becaus
 
 In Letter 58 of his *Moral Letters to Lucilius*, the Stoic philosopher Seneca draws on Heraclitus's image of a river. Its water changes even while you recognize the river. The two of you have changed during your marriage as well. Some of what she wanted when you first met is still dear to her. Some of it isn't. She may tell you about an interest she has now that you wouldn't have expected then. Stay long enough to hear why it matters.
 
-In one long-term study, couples who described their marriage as boring were less satisfied nine years later, even after the researchers accounted for how satisfied they were at the start. That's a reason to pay attention to the pattern, not a prediction about your marriage. The show you watch together can be familiar and lovely. It can wear on a couple to go through every shared hour as if there were nothing left to notice.
+In one long-term study, couples who described their marriage as boring were less satisfied nine years later, even after the researchers accounted for how satisfied they were at the start. That's a reason to pay attention to the pattern, not a prediction about your marriage. The show you watch together can be familiar and lovely. What wears on a couple is going through every shared hour as if there were nothing left to notice.
 
 Keep asking what she enjoys, then act on what you've learned. Give your full attention to an ordinary evening. Take some work off her hands without making her manage it. Tell her what you admire. Bring home the small thing you remembered. Plan a date with enough care that it feels like you still want to be there.
 
 ---
 
 Put the phone down, and give her the evening you came to share.
-
-## Editor's Notes
-
-Revised 2026-09-24 after the author's feedback on the 2026-09-23 review draft. The preceding draft and notes are preserved in `refined-before-feedback.md`. The author asked for sustained effort, presence, service without prompting or resentment, gifts despite shared finances, small romance, remembering, and less emphasis on conversation.
-
-The revised opening uses a show and a dinner to make divided attention concrete. The dating example remains, followed by time together, words, touch, service, gifts, and romance. The last-romantic-thing question and the Walgreens illustration are the author's requested examples. The passage about noticing another woman was removed; the close returns to the shared evening. The explicit claim about boredom is limited to lower later satisfaction in one longitudinal sample. No divorce or infidelity statistic appears because neither proposed causal claim is supported by the checked sources. The research and source limits are in `research-addendum-2026-09-24.md`.
-
-The five love languages are described as a loose list of care behaviors, not a validated matching theory. The service passage distinguishes learning her preferences from making her coordinate every act. The gift passage states the author's shared-account objection as a practical observation; it does not claim that a purchase produces a guaranteed reaction. Seneca's Letter 58 remains a paraphrase through Heraclitus, with the marriage application marked as the author's. Musonius Rufus on mutual devotion and Epictetus on relational duties are researched alternatives for the author's consideration; they were not stacked into this version.
-
-Judgment calls: at 1,501 words, the chapter exceeds the older 1,000–1,300 target because the author specifically asked to expand it. The Walgreens example was previously excluded from Chapter 12, but the author proposed it here for Chapter 13. The wife in the opening and other examples is an illustrative second-person scenario, not a new autobiographical claim. No verbatim classical or modern-source quotation was added. The chapter's final line is one sentence; the divider before it separates that close from the preceding prose.
-
-Counted voice check (verbatim):
-
-```text
-voice_check: refined.md
-  1501 words of prose, 124 sentences
-
-  HARD (literal counts - a FAIL here is a fact)
-    [ok  ] em-dash                  0 in prose (cap 0)
-    [ok  ] bold-as-crutch           1 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      9/124 sentences at 25+ words = 7.3% (cap 10%)
-             48w: You do need to notice if thoughtfulness has become rare everywhere else too. **Don't let knowing her become th...
-             33w: If you mostly talk about how much you love her, what else has she been missing? **Do the thing before she asks...
-             31w: In one long-term study, couples who described their marriage as boring were less satisfied nine years later, e...
-    [ok  ] you-density              122 direct-address words in 1501 = 81.3 per 1,000 (floor 40)
-    [ok  ] metaphor family          4 mentions in 1501 words = 2.7 per 1,000 (cap 5); {'river': 2, 'water': 1, 'flow': 1}
-
-  CAND (needs a read - a clear line here is not a pass)
-    [clear ] single ending            final sentence 13 words, shares 2 words with the previous one. Close: 'Put the phone down, and give her the evening you came to share.'
-    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
-    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
-
-  RESULT: all HARD checks passed
-```
