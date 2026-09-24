@@ -3130,3 +3130,40 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/notes.md`
 
 **Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
+
+## 2026-09-22 23:00 — `codex/ch11-plain-language` — 4 commit(s) this session
+- `.claude/agents/gw-lineeditor.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `agents/gw-lineeditor.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
+- `books/the-stoic-husband/chapters/ch11/distillation.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `output/pdf/Chapter-11-Speak-or-Endure-Review-Draft.pdf`
+- `runs/appendix/practice-guide.md`
+- `runs/ch11/distillation.md`
+- `runs/ch11/plain-language-brief.md`
+- `runs/ch11/plain-language-distillation.md`
+- `runs/ch11/plain-language-draft.md`
+- `runs/ch11/plain-language-practices.md`
+- `runs/ch11/plain-language-review.md`
+- `runs/ch11/plain-language-voice-proposal.md`
+- `runs/ch11/plain-language-voice-proposal.patch`
+- `runs/ch11/refined.md`
+- `runs/ch11/verdict.md`
+- `runs/notes.md`
+- `runs/retro/2026-09-22-ch11-plain-language.md`
+- `scripts/compile.py`
+- `skills/gw-compile/SKILL.md`
+- `tests/draft_package_cases.py`
+- `tests/fixtures/draft-package/chapter.md`
+- `tests/fixtures/draft-package/distillation.md`
+- `tests/fixtures/draft-package/missing-distillation.md`
+- `tests/run.py`
+
+**Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
+
+## 2026-09-23 04:05 — `claude/gateway-wjdjn1` — ? commit(s) this session
+- `scripts/next.py`
+
+**Next:** `/gw 13` — Chapter 13 has not started.

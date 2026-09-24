@@ -29,8 +29,11 @@ Remove every em-dash in prose.
 with the substance. Active where the author is active. No universal claims about
 all men. Never cast the wife's mood as a threat to defend against.
 
-**2 — Clarity.** One idea per paragraph. Replace indirect gestures with the
-plain noun: if a clause can be swapped for the plain word, swap it.
+**2 — Clarity.** One idea per paragraph. Name actions, fears, choices, and
+consequences. State distinctions explicitly; explain or remove metaphors. In
+Editor's Notes, show representative before/after repairs and flag meaning you
+cannot establish without invention. Apply 01-voice.md's plain-meaning rule
+separately from counted checks.
 
 **3 — Flow.** Read it whole. One close, exactly one sentence, nothing after it.
 

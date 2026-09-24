@@ -34,8 +34,8 @@ def chapter(book, n, include_runs=()):
     src = source(book, n, include_runs)
     out = OUT / 'chapters' / f'ch{n:02}.pdf'
     out.parent.mkdir(parents=True, exist_ok=True)
-    prose = assembly.strip_apparatus((src / 'refined.md').read_text())
-    dist = (src / 'distillation.md').read_text()
+    actual_n, prose, dist = assembly.draft_inputs(src / 'refined.md', src / 'distillation.md')
+    assert actual_n == n, 'Chapter source number mismatch'
     svg = ROOT / 'runs' / f'ch{n:02}' / 'plate.svg'
     plates = [plate(svg, out.parent / f'ch{n:02}-plate.png')]
     renderer.build(prose, dist, plates, str(out), prose.splitlines()[0].lstrip('# ') +

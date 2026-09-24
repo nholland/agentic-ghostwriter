@@ -62,3 +62,9 @@ For the plate review document, maintain `runs/design/plate-briefs.md` and run
 `python3 scripts/plate_packet.py`. It replaces `output/compiled/plates.pdf`,
 showing each image before its explanation. The general compile uses this same
 brief and renderer; it never regenerates brief prose from distillations.
+
+Explicit draft compatibility: `compile.py --draft SOURCE --distillation SOURCE`
+requires matching chapter headings and every full distillation field/practice,
+and checks content completeness before rendering. It uses the same approved
+renderer and replaces the canonical chapter PDF; generated draft Markdown is
+labelled review-draft under output/compiled/assets/chapters/.

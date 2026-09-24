@@ -30,6 +30,8 @@ USAGE
     python3 scripts/compile.py --from 1 --to 5
     python3 scripts/compile.py --no-pdf
     python3 scripts/compile.py --plates        # embed chapter and Part plates
+    python3 scripts/compile.py --draft runs/ch11/refined.md \
+        --distillation runs/ch11/distillation.md  # full review package
 
 PLATES
     --plates embeds each chapter's plate (runs/chNN/plate.svg, the Designer's
@@ -123,9 +125,101 @@ def practice(dist_path):
     return m.group(1).strip() if m and m.group(1).strip() else None
 
 
+DIST_FIELDS = ("Mechanism", "Conversation sentence", "Lesson", "Challenge", "Practice")
+
+
+def draft_inputs(draft_path, dist_path):
+    """Read explicit review inputs; never infer a different draft's distillation."""
+    with open(draft_path, encoding="utf-8") as f:
+        prose = strip_apparatus(f.read()).strip()
+    with open(dist_path, encoding="utf-8") as f:
+        dist = strip_apparatus(f.read()).strip()
+    chapter = re.match(r"# Chapter (\d+):[^\n]+", prose)
+    distilled = re.match(r"# Chapter (\d+) Distillation\b", dist)
+    if not chapter or not distilled or int(chapter.group(1)) != int(distilled.group(1)):
+        raise ValueError("draft and full distillation must have matching Chapter N headings")
+    if not prose.partition("\n")[2].strip():
+        raise ValueError("draft has no chapter prose")
+    for label in DIST_FIELDS:
+        field = re.search(r"^\*\*" + re.escape(label) +
+                          r":\*\*\s*(.*?)(?=^\*\*[A-Za-z][^\n]*?:\*\*|\Z)",
+                          dist, re.M | re.S)
+        if not field or not field.group(1).strip():
+            raise ValueError("full distillation is missing " + label)
+        if label == "Practice" and not re.search(r"^\d+\.\s+\S", field.group(1), re.M):
+            raise ValueError("full distillation has no numbered practices")
+    return int(chapter.group(1)), prose, dist
+
+
+def assemble_draft(prose, dist):
+    """Both H1 headings start fresh pages in the existing renderers."""
+    return prose + "\n\n" + dist + "\n"
+
+
+def draft_package_problems(md, prose, dist):
+    """Compare with both requested sources, not just the assembled input itself."""
+    problems = []
+    if not md.startswith(prose + "\n\n"):
+        problems.append("chapter prose missing, changed, or not first")
+    if md[len(prose) + 2:] != dist + "\n":
+        problems.append("requested full distillation missing, changed, or not last")
+    if re.search(APPARATUS, md, re.M | re.I):
+        problems.append("apparatus reached the draft package")
+    return problems
+
+
+def compile_draft(a):
+    try:
+        n, prose, dist = draft_inputs(a.draft, a.distillation)
+        md = assemble_draft(prose, dist)
+        problems = draft_package_problems(md, prose, dist)
+        if problems:
+            raise ValueError("; ".join(problems))
+    except (OSError, ValueError) as exc:
+        print("compile: draft package refused: %s" % exc, file=sys.stderr)
+        return 1
+
+    outdir = os.path.join(REPO, "output", "compiled", "assets", "chapters")
+    os.makedirs(outdir, exist_ok=True)
+    stem = "ch%02d-review-draft" % n
+    md_path = os.path.join(outdir, stem + ".md")
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write(md)
+    print("compile: %s" % os.path.relpath(md_path, REPO))
+    print("  chapter %d followed by complete distillation; no editorial notes" % n)
+    if a.no_pdf:
+        return 0
+    return render_package(REPO, md_path, os.path.join(REPO, "output", "compiled", "chapters", "ch%02d.pdf" % n),
+                          "Chapter %d (review draft with full distillation)" % n)
+
+
+def render_package(root, md_path, pdf_path, title):
+    """Use the approved renderer, including full distillation and any current plate."""
+    import chapter_pdf_local as renderer
+    os.makedirs(os.path.dirname(pdf_path), exist_ok=True)
+    text = io.open(md_path, encoding='utf-8').read()
+    match = re.search(r'^# Chapter (\d+) Distillation\b', text, re.M)
+    prose, dist = (text[:match.start()], text[match.start():]) if match else (text, None)
+    plates = []
+    if match:
+        n = int(match.group(1))
+        svg = os.path.join(root, 'runs', 'ch%02d' % n, 'plate.svg')
+        if os.path.isfile(svg):
+            png = os.path.join(os.path.dirname(pdf_path), 'ch%02d-plate.png' % n)
+            box = renderer.svg_to_png(svg, png)
+            plates.append(('END', png, '', box))
+    try:
+        renderer.build(prose, dist, plates, pdf_path, title, base_dir=os.path.dirname(md_path))
+    except (OSError, RuntimeError, subprocess.SubprocessError) as exc:
+        print('  renderer failed: %s' % exc)
+        return 1
+    print("  %s" % os.path.relpath(pdf_path, REPO))
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description="Assemble a reader-facing manuscript.")
-    ap.add_argument("--from", dest="lo", type=int, default=1)
+    ap.add_argument("--from", dest="lo", type=int)
     ap.add_argument("--to", dest="hi", type=int)
     ap.add_argument("--no-pdf", action="store_true")
     ap.add_argument("--plates", action="store_true",
@@ -133,7 +227,16 @@ def main():
     ap.add_argument("--include-run", type=int, action="append", default=[],
                     help="Explicitly include an unlanded chapter from runs/")
     ap.add_argument("--outdir", default=os.path.join(REPO, "output", "compiled", "assets"))
+    ap.add_argument("--draft", help="explicit chapter Markdown for a review package")
+    ap.add_argument("--distillation", help="full distillation Markdown, required with --draft")
     a = ap.parse_args()
+    if a.draft or a.distillation:
+        if not (a.draft and a.distillation):
+            ap.error("--draft and --distillation must be supplied together")
+        if a.lo is not None or a.hi is not None or a.plates or a.include_run:
+            ap.error("draft packages cannot combine --from/--to/--plates")
+        return compile_draft(a)
+    a.lo = 1 if a.lo is None else a.lo
 
     root, _, _ = resolve_book.resolve(resolve_book.load_config())
     if not root:
@@ -291,16 +394,8 @@ def main():
 
     if a.no_pdf:
         return 0
-    renderer = os.path.join(root, "scripts", "chapter_pdf.py")
-    if not os.path.isfile(renderer):
-        print("  no renderer in the book repo; markdown only.")
-        return 0
     pdf_path = os.path.join(os.path.dirname(outdir), "book.pdf")
-    r = subprocess.run([sys.executable, renderer, "--markdown", md_path, pdf_path])
-    if r.returncode:
-        return r.returncode
-    print("  %s" % os.path.relpath(pdf_path, REPO))
-    return 0
+    return render_package(root, md_path, pdf_path, "River, Oak, Sun: The Stoic Husband (%s)" % stem)
 
 
 if __name__ == "__main__":

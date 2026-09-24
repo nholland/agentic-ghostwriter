@@ -46,3 +46,17 @@ The Archivist read FINDINGS.md and .claude/LEARNINGS.md in full, the revision ar
 Voice: all HARD checks passed on canonical Chapter 11. Practice sync: all three practices match in both runs and book trees. OKF gate: PASS. Canonical PDF: eight pages, extracted words match the complete canonical prose plus distillation in order, both existing Marcus quotation strings preserved verbatim. The PDF layout was rendered and visually reviewed during delivery. Permanent rules and the staged plate were not changed.
 
 The whitespace checker reports blank context lines in the stored unified-diff proposal; these are patch syntax, not whitespace changes applied to the rules. The patch itself passes git apply --check and remains unapplied.
+
+## Applied on the author's instruction — 2026-09-22 23:00
+
+Authorization: "Let's apply so it's permanently resolved".
+
+Applied the exact 43-word Line Editor clarity paragraph above, replacing 26 words; regenerated its plugin mirror. The broader +446-word voice proposal is superseded, not applied. The existing constitution remains authoritative.
+
+Extended scripts/compile.py with --draft and --distillation for a full review package. The caller requires both inputs, validates chapter identity and required fields/practices, strips editorial notes, compares assembled content against both source files, and calls the existing renderer. The ordinary manuscript retains its practice-only assembly. Updated /gw-compile's input instructions and generated mirror to use this path and return a clickable download link.
+
+Validation: 16/16 new assembly cases pass through compile.main; three fail against the prior compiler. Deliberately bypassing the completeness check fails four cases, including the stored missing-distillation fixture. The new cases are called by tests/run.py, which is already invoked by the Stop hook. The real Chapter 11 assembled exactly to canonical prose plus full distillation. Existing manuscript output matched the pre-change assembly. All 120 non-font cases pass. The full test command is still blocked by the pre-existing Linux-only DejaVu path on this Mac; it is not reported as passing. No renderer implementation was changed, and no newly rendered PDF is claimed by these assembly tests.
+
+Plugin synchronization, manual synchronization, voice-rule synchronization, OKF validation, and diff whitespace checks pass. The generic skill validator could not run because its environment lacks PyYAML; the existing Claude skill frontmatter was preserved.
+
+Scope of closure: the clarity review instruction is installed, and omission of explicitly requested distillation during assembly has an executable check with a caller. Semantic clarity still requires reading, and PDF layout still requires visual review.

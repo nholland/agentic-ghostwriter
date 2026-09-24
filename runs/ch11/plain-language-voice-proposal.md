@@ -1,6 +1,6 @@
 # Plain-language voice proposal
 
-Status: proposed, not applied. The author requested a new Chapter 11 draft and asked how to make its plain-speaking standard permanent.
+Status: superseded. The author approved the Archivist's smaller Line Editor replacement on 2026-09-22. That replacement is applied; this larger three-file patch is retained only as historical proposal evidence and must not be applied. The voice constitution and audience file remain unchanged.
 
 The existing constitution already bans indirect gestures and targets sixth-grade prose. The failure is that the qualitative review currently accepts a general impression. Strengthen that existing rule and require evidence of the clarity pass; do not add another numeric readability threshold.
 
@@ -20,7 +20,7 @@ Name the action, fear, choice, or consequence. State the actual difference when 
 
 The Ghostwriter already reads 01-voice.md before drafting, and the Anti-Slop Reader already reads its Never Do and Verification sections. This gives both desks the same standard. The Line Editor must show representative repairs and flag meaning it cannot establish without inventing facts.
 
-If approved, apply the attached patch, regenerate the derived plugin layout with scripts/sync_plugin_layout.py, and run voice_rules_check.py, sync_plugin_layout.py --check, and okf_gate.py. Keep the constitution change in its own commit with the author's authorization. The draft itself remains a separate review decision.
+Historical implementation plan (superseded; do not execute): apply the attached patch, regenerate the derived plugin layout with scripts/sync_plugin_layout.py, and run voice_rules_check.py, sync_plugin_layout.py --check, and okf_gate.py. Keep the constitution change in its own commit with the author's authorization. The draft itself remains a separate review decision.
 
 ## Related limitation
 
