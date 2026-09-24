@@ -1,0 +1,206 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Plates: images, intended meanings, and feedback questions</title><style>
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+html { -webkit-print-color-adjust: exact; }
+body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
+       margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
+
+/* ---- the distillation card, first page ---- */
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
+.dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
+        text-align:center; line-height:1.25; margin:0 0 .08in;
+        page-break-before:avoid; }
+.dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
+        margin:.08in auto .10in; }
+.dist .mech { text-align:center; font: 600 11pt Georgia,serif;
+        letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
+.dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
+        margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
+.dist p { margin:0 0 .08in; }
+.dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
+        text-transform:uppercase; color:#5a5a5a;
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+.dist ol { margin:0 0 .1in; padding-left:.24in; }
+.dist li { margin:0 0 .07in; }
+
+/* ---- chapter ---- */
+/* Every h1 (Prologue, Introduction, a Part opening, a Chapter) starts a
+   fresh page in a whole-book compile, the same rule chapter_pdf.py already
+   uses. compile.py used to insert a literal "\pagebreak" marker for this
+   instead; neither renderer has ever understood that token, so it printed
+   as visible text - this is the actual mechanism, not a marker to remember
+   to strip. :first-of-type only avoids a break before the very first h1 in
+   the whole document (they are all true DOM siblings under one <section>),
+   so it does not create a blank leading page. */
+h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
+     margin:0 0 .06in; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h1 + hr.beat { display:none; }
+/* compile.py's marker for "start fresh page here", used before the Putting
+   It Into Practice section so a chapter's back matter never runs onto the
+   same page as its closing lines. Zero height: it does not itself print. */
+.pb { page-break-before:always; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
+p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
+p.runin { margin-top:.2in; }
+p.runin strong { font-weight:600; letter-spacing:.01em; }
+hr.beat { border:0; height:0; margin:.24in auto; width:1.1in;
+     border-top:.6pt solid #cfcfcf; }
+blockquote { margin:.22in .42in; padding-left:.2in; border-left:1.2pt solid #d4d4d4; }
+blockquote.pull { margin:.26in .3in; padding:0 0 0 .22in;
+     border-left:1.6pt solid #c9c9c9; page-break-inside:avoid; }
+blockquote.pull p { font: italic 11pt/1.56 Georgia,serif; }
+blockquote cite { display:block; font: normal 9pt Georgia,serif; font-style:normal;
+     color:#6a6a6a; margin-top:.09in; letter-spacing:.02em; }
+blockquote p { font: italic 10.5pt/1.55 Georgia,serif; color:#2f2f2f;
+     text-align:left; text-indent:0; margin:0; }
+em { font-style:italic; }
+strong { font-weight:600; }
+
+/* ---- plate ---- */
+/* A plate is a page a reader flips to, not a figure sitting in the running
+   text - full isolation, same treatment the Part closing plates already
+   get. Centred vertically as well as horizontally since it now owns the
+   whole page. */
+figure.plate { margin:0; text-align:center; page-break-before:always;
+     page-break-after:always; page-break-inside:avoid;
+     min-height:7.3in; display:flex; flex-direction:column;
+     align-items:center; justify-content:center; }
+figure.plate img { max-width:100%; max-height:6.8in; height:auto; }
+figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
+     margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
+.dropfirst::first-letter { font-size:1em; }
+
+
+h1.chapter-heading { font-family: Georgia, 'Times New Roman', serif;
+  font-size:20pt; font-weight:700; line-height:1.25; letter-spacing:normal;
+  margin:0 0 .30in; padding:0; border:0; text-indent:0;
+  break-after:avoid; page-break-after:avoid; }
+h1.chapter-heading .num { display:block; font-size:10pt; font-weight:400;
+  letter-spacing:normal; text-transform:none; color:#444; margin:0 0 .12in; }
+h1.chapter-heading .chapter-title { display:block; font-size:20pt;
+  font-weight:700; letter-spacing:normal; text-transform:none; }
+h1 + p, h1 + hr + p, h2 + p, h3 + p { text-indent:0; }
+/* Shared reading format: ordinary paragraphs are flush left, never indented. */
+p, p + p, p.runin, p.runin + p { text-indent:0; text-align:left; }
+h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
+  letter-spacing:normal; text-transform:none; color:inherit;
+  margin:.20in 0 .10in; padding:0; border:0;
+  break-after:avoid; page-break-after:avoid; }
+</style></head><body><figure class="plate"><img src="plate-ch01.png" alt="Chapter 1"><figcaption>Chapter 1. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 1</span>
+<strong class="chapter-title">The Three-Second Window</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>The moment between her words and your reply is a chance to choose your response instead of repeating an old habit.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Her words and your reply sit on either side of a dark interval. The words inside that interval, “chosen or inherited,” identify what can fill it: a deliberate response or a learned reaction. The dark block marks the place where your choice matters; its size is not a measured duration.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What is happening in the dark space between the two sets of words, and what choice does it give the husband?</p></section><figure class="plate"><img src="plate-ch02.png" alt="Chapter 2"><figcaption>Chapter 2. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 2</span>
+<strong class="chapter-title">The Mood Mirror</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Bring your own steadiness into the room while remaining caring and engaged, rather than letting her mood determine yours.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>The upper line grows heavier halfway through: her difficult mood has become a shared storm. In the lower line, a strong vertical mark represents the steadiness you bring. The line continues at its original weight. That mark is intended as self-command, not a wall shutting her out.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What changes between the two lines, and how would that difference show up in an evening together?</p></section><figure class="plate"><img src="plate-ch03.png" alt="Chapter 3"><figcaption>Chapter 3. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 3</span>
+<strong class="chapter-title">The Closed Door</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Repeated defensiveness teaches your wife that telling you the truth is not worth the cost. Keeping that conversation open starts with how you receive it.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>The same doorway appears four times. It begins open, then fills as you defend, she revises her expectations, and she stops bringing things to you. The disappearing white space stands for her willingness to speak honestly, not how much she has left to say.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What is being lost as the bars fill, and what is causing that loss?</p></section><figure class="plate"><img src="plate-ch04.png" alt="Chapter 4"><figcaption>Chapter 4. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 4</span>
+<strong class="chapter-title">The Hole Maker</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>An apology matters, but it does not make the hurt of an outburst disappear. Repeated anger leaves damage that must be taken seriously.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Nails enter a board during an outburst. After the apology, the nails are gone but their holes remain. Months later, more holes have accumulated. The board represents the relationship carrying the consequences. The caption includes cold anger as well as loud anger; the picture warns about repeated harm rather than providing a timetable for repair.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What changes after the apology, what remains, and what does the final row add?</p></section><figure class="plate"><img src="plate-ch05.png" alt="Chapter 5"><figcaption>Chapter 5. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 5</span>
+<strong class="chapter-title">The Courage to Come Back</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>A pause helps only if you return to the unresolved concern and speak plainly. The plate uses “The Courage to Come Back”; the distillation still names “The Remaining Nails.” That naming discrepancy remains unresolved.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>In the upper pair, the husband walks out smaller than he walked in. The missing height is labelled as the real thing he never said. In the lower pair, returning and saying it restores the missing piece. Equal height means retaining his voice and self-respect, not winning the argument or securing her agreement.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What does the missing piece represent, and what makes the lower conversation different?</p></section><figure class="plate"><img src="plate-part-I.png" alt="Part I"><figcaption>Part I. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1>Part I: The Steady River</h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Steadiness is repeated daily practice. Patiently holding your direction through difficulty can shape a marriage over time.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Rock layers flank a deep canyon, with water running through it. The large cut in the landscape represents the cumulative effect of something persistent. The river’s small scale beside the rock is meant to make patience visible: ordinary days of steady action can have a large effect.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What relationship do you see between the water and the canyon, and what might that suggest about a husband’s daily choices?</p></section><figure class="plate"><img src="plate-ch06.png" alt="Chapter 6"><figcaption>Chapter 6. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 6</span>
+<strong class="chapter-title">The Tally You Don’t Read Aloud</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>What your wife sees tonight may be only a small part of what you contributed this week. Expecting her to know the unseen total feeds resentment; notice each other’s work rather than defending a private score.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>One continuous bar represents the week. Most of it is faint; only the short section inside the dashed “tonight” frame is dark. The faint work still happened. The frame represents the limited view available in the moment, not the full measure of either spouse’s contribution.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What does the dark portion show compared with the rest of the bar, and why might that difference matter at home?</p></section><figure class="plate"><img src="plate-ch07.png" alt="Chapter 7"><figcaption>Chapter 7. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 7</span>
+<strong class="chapter-title">The Private Tally</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Your mental score cannot fairly measure who gives more because you know your own contributions best and miss much of hers. Give with care and appreciate what you cannot count.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Your page contains readable tasks; hers contains marks you cannot fully read. Her page is unavailable to you, not empty of effort. The scattered small marks beneath both pages represent contributions neither person records. Together, these elements show why a private tally is incomplete.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What information is available on each page, and what do the marks outside the pages suggest about keeping score?</p></section><figure class="plate"><img src="plate-ch08.png" alt="Chapter 8"><figcaption>Chapter 8. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 8</span>
+<strong class="chapter-title">The Tipping Scale</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>A grievance that feels sudden may carry weeks of small, unnoticed disappointments. Notice and address things as they happen instead of treating the last incident as the whole problem.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>On the tilted scale, faint weights stand for things that landed without being acknowledged; the dark final weight is the one noticed. The level scale represents naming things as they arrive. The intended contrast is acknowledged versus unacknowledged weight, not an instruction to keep both spouses’ scores equal. Naming something does not by itself guarantee resolution.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What explains the difference between the two scales, and what does the final weight mean?</p></section><figure class="plate"><img src="plate-ch09.png" alt="Chapter 9"><figcaption>Chapter 9. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 9</span>
+<strong class="chapter-title">The Bottomless Yes</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Giving while silently expecting a return can become resentment over a deal your wife never agreed to. Say what you need clearly before generosity becomes a private debt.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Solid arrows show things you gave. The faint dashed return arrow stands for respect, warmth, or attention you expected without asking. The small ledger below represents disappointments accumulating in a list only you keep. The picture describes an unspoken bargain, not proof that she owes repayment or gives nothing.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What is different about the outgoing and returning arrows, and how does the list below relate to them?</p></section><figure class="plate"><img src="plate-ch10.png" alt="Chapter 10"><figcaption>Chapter 10. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 10</span>
+<strong class="chapter-title">The Undecided Line</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Before defending a boundary, be able to say what it protects. A named purpose gives you something more solid than an unexplained preference to hold and discuss.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Identical downward arrows press on two lines. The upper line bends where its purpose has been left blank. The lower line rests on a solid block labelled “what it protects” and stays level. The support is a clear reason for the boundary, not force applied to your wife.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What supports the lower line, and how would you describe that support in an actual disagreement?</p></section><figure class="plate"><img src="plate-ch11.png" alt="Chapter 11"><figcaption>Chapter 11. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 11</span>
+<strong class="chapter-title">The Conversation She’s Never Heard</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Rehearsing an argument in your head does not tell your wife what is bothering you. When the problem needs a conversation, explain it kindly, ask clearly, and listen without demanding immediate agreement.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>The left box is full of repeated inner arguments. The right box, “with her,” is empty because you have not told her. A short dashed arrow stops in the gap: the conversation has not arrived. “Tell her what’s bothering you. Then listen.” supplies the next action; the empty box does not mean she has refused to listen.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What has happened in the left box that has not happened in the right, and what would close that gap?</p></section><figure class="plate"><img src="plate-part-II.png" alt="Part II"><figcaption>Part II. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1>Part II: The Sturdy Oak</h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Be dependable through difficulty. Strength includes continuing to offer support after hard seasons have left their mark.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>The tree’s cross-section contains successive rings, including crowded and uneven stretches. Those variations represent difficult years within a tree that continued growing. The rings remain part of one whole. The image is meant to show lived resilience and continuity, not a life without damage or strain.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What do the irregular rings suggest about this tree, and what kind of strength might it represent in a husband?</p></section><figure class="plate"><img src="plate-ch12.png" alt="Chapter 12"><figcaption>Chapter 12. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 12</span>
+<strong class="chapter-title">The Thing With No Deadline</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Romance is easy to neglect because nothing makes it urgent. Make room for care that is specifically for her before another week disappears.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>The upper timeline stays filled with duties that have dates attached. The lower timeline starts with acts for her, then goes quiet for a long stretch. The large open square at “tonight” marks an opportunity still available. The contrast is between what the schedule demands and what you must choose to make time for; the squares are illustrative, not measured data.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What accounts for the empty stretch on the lower line, and what does its final open square offer?</p></section><figure class="plate"><img src="plate-ch13.png" alt="Chapter 13"><figcaption>Chapter 13. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 13</span>
+<strong class="chapter-title">Keep Learning What Matters to Her</strong></h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Keep the curiosity and effort that drew you toward her when dating. Both of you are changing, so knowing her past does not replace discovering what matters to her now.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Two curving arrows move together from dating toward now, representing two people continuing to change. The left copy recalls wanting to hear what she thought; the right asks what happened next. The arrows connect early curiosity with continued attention. They do not mean that you already knew her answers when dating, or that marriage makes discovery unnecessary.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What should continue from dating into marriage here, and what do the two arrows suggest about the people involved?</p></section><figure class="plate"><img src="plate-part-III.png" alt="Part III"><figcaption>Part III. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1>Part III: The Warm Sun</h1>
+<h2 class="beat-heading">Intent.</h2>
+<p>Offer warmth consistently through attention, affection, and generosity. Warmth invites openness without demanding gratitude or a particular response.</p>
+<h2 class="beat-heading">Visual explanation.</h2>
+<p>Paired banks of lines sit close together near the bottom and spread apart higher up. That opening is intended to evoke life responding to warmth, as the caption says, “What it reaches, opens.” There is no hand forcing them apart. The abstract shape can resemble an opening book; whether it conveys warmth rather than only opening is a question for the reader.</p>
+<h2 class="beat-heading">Validation question.</h2>
+<p>What seems to be happening to these lines, and what feeling or action in a marriage does that bring to mind?</p></section></body></html>

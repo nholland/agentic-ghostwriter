@@ -50,7 +50,7 @@ verification_note: >
   No effect size, percentage or strength-of-association may be stated for this
   construct on the evidence held. Author confirmation required for `verified`.
 tags: [citation, responsiveness, reis, intimacy, romance, needs-page-confirmation]
-chapter_slugs: [romance-is-a-discipline]
+chapter_slugs: [romance-is-a-discipline, pursue-her-after-you-have-her]
 timestamp: 2026-09-16T11:25:45Z
 ---
 
@@ -88,3 +88,7 @@ chapter already does that ("it arrived in a form she doesn't read as love").
 2. Reis, H. T., Clark, M. S., & Holmes, J. G. (2004). Perceived partner
    responsiveness as an organizing construct in the study of intimacy and
    closeness.
+
+# Chapter 13 research cross-reference
+
+Added under the author's 2026-09-22 instruction to capture research in OKF. Relevant to attention when a spouse shares daily experiences. Existing evidence status unchanged; the separately retrieved 2010 paper is [here](/citations/reis-et-al-2010-responsive-good-news-listening.md).

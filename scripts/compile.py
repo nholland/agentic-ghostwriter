@@ -179,10 +179,9 @@ def compile_draft(a):
         print("compile: draft package refused: %s" % exc, file=sys.stderr)
         return 1
 
-    outdir = os.path.join(REPO, "runs", "ch%02d" % n, "pdf")
+    outdir = os.path.join(REPO, "output", "compiled", "assets", "chapters")
     os.makedirs(outdir, exist_ok=True)
-    stamp = datetime.datetime.now().strftime("%Y-%m-%d-%H%M%S-%f")
-    stem = "chapter-%02d-review-draft-full-distillation-%s" % (n, stamp)
+    stem = "ch%02d-review-draft" % n
     md_path = os.path.join(outdir, stem + ".md")
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(md)
@@ -190,35 +189,30 @@ def compile_draft(a):
     print("  chapter %d followed by complete distillation; no editorial notes" % n)
     if a.no_pdf:
         return 0
-    return render_package(REPO, md_path, os.path.join(outdir, stem + ".pdf"),
+    return render_package(REPO, md_path, os.path.join(REPO, "output", "compiled", "chapters", "ch%02d.pdf" % n),
                           "Chapter %d (review draft with full distillation)" % n)
 
 
 def render_package(root, md_path, pdf_path, title):
-    """Use the existing renderer and its existing Chromium fallback."""
-    renderer = os.path.join(root, "scripts", "chapter_pdf.py")
-    if not os.path.isfile(renderer):
-        print("  no renderer in the book repo; PDF not produced.")
+    """Use the approved renderer, including full distillation and any current plate."""
+    import chapter_pdf_local as renderer
+    os.makedirs(os.path.dirname(pdf_path), exist_ok=True)
+    text = io.open(md_path, encoding='utf-8').read()
+    match = re.search(r'^# Chapter (\d+) Distillation\b', text, re.M)
+    prose, dist = (text[:match.start()], text[match.start():]) if match else (text, None)
+    plates = []
+    if match:
+        n = int(match.group(1))
+        svg = os.path.join(root, 'runs', 'ch%02d' % n, 'plate.svg')
+        if os.path.isfile(svg):
+            png = os.path.join(os.path.dirname(pdf_path), 'ch%02d-plate.png' % n)
+            box = renderer.svg_to_png(svg, png)
+            plates.append(('END', png, '', box))
+    try:
+        renderer.build(prose, dist, plates, pdf_path, title, base_dir=os.path.dirname(md_path))
+    except (OSError, RuntimeError, subprocess.SubprocessError) as exc:
+        print('  renderer failed: %s' % exc)
         return 1
-    r = subprocess.run([sys.executable, renderer, "--markdown", md_path, pdf_path],
-                       capture_output=True, text=True)
-    if r.returncode != 0:
-        # The book's renderer needs weasyprint, which this container cannot
-        # install (GAPS.md). chapter_pdf_local.py stands in, driving headless
-        # Chromium; say so rather than failing silently on the same wall.
-        local = os.path.join(HERE, "chapter_pdf_local.py")
-        if not os.path.isfile(local):
-            print("  renderer failed:\n%s" % (r.stderr or r.stdout)[-400:])
-            return 1
-        print("  chapter_pdf.py could not run (%s); falling back to chapter_pdf_local.py"
-              % ((r.stderr or r.stdout).strip().splitlines() or ["?"])[-1][:80])
-        r = subprocess.run([sys.executable, local, "--chapter", md_path, "--out", pdf_path,
-                            "--title", title],
-                           capture_output=True, text=True)
-        if r.returncode != 0:
-            print("  fallback renderer failed:\n%s" % (r.stderr or r.stdout)[-400:])
-            return 1
-        print((r.stdout or "").rstrip())
     print("  %s" % os.path.relpath(pdf_path, REPO))
     return 0
 
@@ -230,13 +224,16 @@ def main():
     ap.add_argument("--no-pdf", action="store_true")
     ap.add_argument("--plates", action="store_true",
                     help="embed chapter plates and Part closing plates")
+    ap.add_argument("--include-run", type=int, action="append", default=[],
+                    help="Explicitly include an unlanded chapter from runs/")
+    ap.add_argument("--outdir", default=os.path.join(REPO, "output", "compiled", "assets"))
     ap.add_argument("--draft", help="explicit chapter Markdown for a review package")
     ap.add_argument("--distillation", help="full distillation Markdown, required with --draft")
     a = ap.parse_args()
     if a.draft or a.distillation:
         if not (a.draft and a.distillation):
             ap.error("--draft and --distillation must be supplied together")
-        if a.lo is not None or a.hi is not None or a.plates:
+        if a.lo is not None or a.hi is not None or a.plates or a.include_run:
             ap.error("draft packages cannot combine --from/--to/--plates")
         return compile_draft(a)
     a.lo = 1 if a.lo is None else a.lo
@@ -249,9 +246,12 @@ def main():
     B = os.path.join(root, rel)
     outline = io.open(os.path.join(B, "03-outline.md"), encoding="utf-8").read()
 
+    def chapter_dir(n):
+        return os.path.join(REPO, "runs", "ch%02d" % n) if n in a.include_run else os.path.join(B, "chapters", "ch%02d" % n)
+
     have = []
     for n in range(a.lo, (a.hi or 99) + 1):
-        if os.path.isfile(os.path.join(B, "chapters", "ch%02d" % n, "refined.md")):
+        if os.path.isfile(os.path.join(chapter_dir(n), "refined.md")):
             have.append(n)
     if not have:
         print("compile: no refined chapters in that range.", file=sys.stderr)
@@ -262,7 +262,7 @@ def main():
     pieces, sections, missing_part_files = [], [], []
     plates = []   # (label, svg, landed) in page order
     plate_missing = []
-    outdir = os.path.join(REPO, "runs", "manuscript")
+    outdir = os.path.abspath(a.outdir)
     os.makedirs(outdir, exist_ok=True)
 
     for key in PRECURSORS:
@@ -281,7 +281,7 @@ def main():
                 missing_part_files.append(opening)
         in_part = [c for c in have if first <= c <= last]
         for n in in_part:
-            d = os.path.join(B, "chapters", "ch%02d" % n)
+            d = chapter_dir(n)
             body = strip_apparatus(io.open(os.path.join(d, "refined.md"),
                                            encoding="utf-8").read())
             if a.plates:
@@ -333,7 +333,7 @@ def main():
                    % (", ".join("%s=%s" % (lab, "landed" if ok else "DRAFT")
                                 for lab, _, ok in plates) or "none",
                       ", ".join(plate_missing) or "none"))
-    header += "\n"
+    header += "<!-- Unapproved chapter runs: %s. -->\n\n" % a.include_run
 
     # No manual page-break marker between pieces: every piece (a precursor,
     # a Part opening, a chapter) starts with its own h1, and h1 already
@@ -345,7 +345,7 @@ def main():
     stem = "prologue-ch%02d" % hi if lo == 1 else "ch%02d-ch%02d" % (lo, hi)
     if a.plates:
         stem += "-plates" + ("" if all(ok for _, _, ok in plates) else "-draft")
-    md_path = os.path.join(outdir, "manuscript-%s-%s.md" % (stem, today))
+    md_path = os.path.join(outdir, "manuscript.md")
     io.open(md_path, "w", encoding="utf-8").write(md)
 
     # --- assertions, before anything is called a success -------------------
@@ -356,7 +356,7 @@ def main():
             if key.replace("-", " ").lower() not in md.lower():
                 problems.append("PART %s opening did not reach the manuscript" % numeral)
     want = sum(1 for n in have
-               if practice(os.path.join(B, "chapters", "ch%02d" % n, "distillation.md")))
+               if practice(os.path.join(chapter_dir(n), "distillation.md")))
     got = md.count("## Putting It Into Practice")
     if got != want:
         problems.append("%d Practice sections, but %d chapters have one" % (got, want))
@@ -394,10 +394,8 @@ def main():
 
     if a.no_pdf:
         return 0
-    pdf_path = md_path.replace("manuscript-", "the-stoic-husband-").replace(".md", ".pdf")
-    return render_package(root, md_path, pdf_path,
-                          "River, Oak, Sun: The Stoic Husband (%s)" % stem)
-
+    pdf_path = os.path.join(os.path.dirname(outdir), "book.pdf")
+    return render_package(root, md_path, pdf_path, "River, Oak, Sun: The Stoic Husband (%s)" % stem)
 
 
 if __name__ == "__main__":

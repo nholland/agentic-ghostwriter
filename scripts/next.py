@@ -24,6 +24,7 @@ USAGE
 
 import argparse
 import glob
+import hashlib
 import json
 import os
 import re
@@ -106,8 +107,42 @@ def chapter_state(n, d, shipped=False):
     for artifact, stage, cmd in STAGES:
         if artifact not in have:
             return stage, cmd, f"{artifact} missing"
+    review_issue = chapter_review_issue(d)
+    if review_issue:
+        return "review", "/gw-chapter", review_issue
     plate = "plate.svg" in have
     return "verdict", "/gw-compile", ("refined; plate present" if plate else "refined; no plate yet (optional)")
+
+
+def chapter_review_issue(d):
+    """Verify scoped editorial evidence, not the quality of its literary judgment."""
+    try:
+        with open(os.path.join(d, "review.json"), encoding="utf-8") as f:
+            record = json.load(f)
+        inputs = record["inputs"]
+        if not isinstance(inputs, dict) or "refined.md" not in inputs:
+            return "review inputs must include refined.md"
+
+        def current(path, expected):
+            if not isinstance(path, str) or not isinstance(expected, str):
+                return False
+            with open(os.path.join(d, path), "rb") as f:
+                data = f.read()
+            return bool(data.strip()) and hashlib.sha256(data).hexdigest() == expected
+
+        for path, digest in inputs.items():
+            if not current(path, digest):
+                return f"review input changed or empty: {path}"
+        for role in ("personas", "coherence"):
+            review = record["reviews"][role]
+            scope = review.get("scope")
+            if review["status"] != "pass" or not isinstance(scope, str) or not scope.strip():
+                return f"{role} review not passed with a declared scope"
+            if review["report"] in inputs or not current(review["report"], review["sha256"]):
+                return f"{role} review report missing, changed or invalid"
+    except (OSError, ValueError, KeyError, TypeError):
+        return "scoped chapter review evidence missing or invalid (review.json)"
+    return None
 
 
 def bakeoffs_waiting():

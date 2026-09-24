@@ -31,7 +31,7 @@ verification_note: >
   "active-constructive responding" coaching framework built on top of it is
   not this paper and must not be attributed to it.
 tags: [citation, capitalization, gable, reis, responsiveness, romance, needs-verification]
-chapter_slugs: [romance-is-a-discipline]
+chapter_slugs: [romance-is-a-discipline, pursue-her-after-you-have-her]
 timestamp: 2026-09-16T11:25:45Z
 ---
 
@@ -53,3 +53,7 @@ anchor story, a sharp idea, a Stoic turn and an admission in it.
    you do when things go right? The intrapersonal and interpersonal benefits
    of sharing positive events. *Journal of Personality and Social Psychology*,
    87(2), 228-245.
+
+# Chapter 13 research cross-reference
+
+Added under the author's 2026-09-22 instruction to capture research in OKF. Relevant to attention when a spouse shares daily experiences. Existing evidence status unchanged; the separately retrieved 2010 paper is [here](/citations/reis-et-al-2010-responsive-good-news-listening.md).

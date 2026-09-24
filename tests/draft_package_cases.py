@@ -51,7 +51,7 @@ def draft_package_cases(module=compiler):
                     rc = module.main()
                 except SystemExit as exc:
                     rc = exc.code
-            files = list(root.glob('runs/ch11/pdf/*.md'))
+            files = list(root.glob('output/compiled/assets/chapters/*.md'))
             text = files[0].read_text() if len(files) == 1 else ''
             if expected == 'complete':
                 clean = source.split("## Editor's Notes")[0].strip()

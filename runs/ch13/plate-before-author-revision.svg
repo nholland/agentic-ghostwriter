@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" style="color:#1a1a1a" role="img" aria-label="Keep learning what matters to her">
+<style>
+.ttl{font:600 25px Georgia,serif;text-anchor:middle}
+.sub{font:italic 21px Georgia,serif;text-anchor:middle}
+.lbl{font:600 23px Georgia,serif;text-anchor:middle}
+.txt{font:21px Georgia,serif;text-anchor:middle}
+.past{font:italic 20px Georgia,serif;text-anchor:middle;opacity:.7}
+.cap{font:italic 22px Georgia,serif;text-anchor:middle}
+.ln{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+</style>
+<rect width="640" height="560" fill="#fff"/>
+<text class="ttl" fill="currentColor" x="320" y="43">Keep learning what matters to her</text>
+<text class="sub" fill="currentColor" x="320" y="88">She's still becoming. You've changed too.</text>
+<text class="txt" style="font-size:19px" fill="currentColor" x="168" y="153">when you were dating</text>
+<text class="lbl" fill="currentColor" x="472" y="153">now</text>
+<g class="ln" opacity=".48">
+<path fill="none" d="M64 186C160 148 252 224 350 186S505 161 576 180"/>
+<path fill="none" d="M64 206C160 168 252 244 350 206S505 181 576 200"/>
+</g>
+<text class="past" fill="currentColor" x="168" y="292">the answers</text>
+<text class="past" fill="currentColor" x="168" y="320">you already had</text>
+<text class="lbl" fill="currentColor" x="472" y="280">Ask what</text>
+<text class="lbl" fill="currentColor" x="472" y="310">happened next.</text>
+<text class="txt" fill="currentColor" x="472" y="366">Be interested</text>
+<text class="txt" fill="currentColor" x="472" y="394">in her answer.</text>
+<text class="cap" fill="currentColor" x="472" y="450">Let yourself be</text>
+<text class="cap" fill="currentColor" x="472" y="480">pleased for her.</text>
+</svg>

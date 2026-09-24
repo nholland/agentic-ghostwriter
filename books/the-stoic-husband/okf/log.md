@@ -904,3 +904,17 @@ Also fixed in the same pass, both stale since the re-scope: the outline's
 Chapter Sequence Map row for Ch11 (still "active steadiness vs. passive
 endurance / amor fati") and Chapter 10's transition line (still promising
 "the discipline of years").
+
+
+## 2026-09-23T04:28:52+00:00 — Chapter 13 authorized research intake
+
+Authority: Author instructed: "Add those items to OKF." Research discussion and authorization, 2026-09-22. No chapter or outline revision approved.
+
+Added two author frameworks and six source/gap concepts; linked two existing citations to Chapter 13 without changing their evidence axes. Preserved author examples as illustrative, not autobiographical. Seneca Letter 58 supplies direct Stoic reception of Heraclitus. Ritual research is a candidate qualification, not a new author ruling. No manuscript or foundation changes.
+
+Deeper research intake 2026-09-23T04:30:26+00:00: added four candidate citations (marital disclosure, stress and support, stress and perception, preference accuracy); upgraded existing Aron 2000 access from search-synthesis to page-text after primary retrieval, preserving the former access note as history. No source set to verified.
+
+
+## 2026-09-22T23:42:02-05:00 — Chapter 13 Sun-arc direction
+
+Captured author instruction verbatim in an Author Note and indexed it. Earlier research items already exist in OKF; no duplicate sources created. Author requested moving to draft.

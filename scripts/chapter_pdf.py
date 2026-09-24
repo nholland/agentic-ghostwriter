@@ -1,51 +1,13 @@
 #!/usr/bin/env python3
-"""Render a chapter, or any book markdown, to PDF.
+"""Compatibility entry point for the single approved Chromium PDF format.
 
-This is the single renderer for the project. Styling, beat-label handling, and
-quotation formatting live here and nowhere else, so a fix improves the chapter
-PDFs and the compiled manuscript at the same time. `book-compile.md` used to
-carry its own inline weasyprint script with a second copy of the stylesheet;
-that copy was removed on 2026-08-17 after both copies shipped the same two
-formatting defects and only one was fixed.
-
-Usage:
-    python3 scripts/chapter_pdf.py <bookRoot> <chapter>
-    python3 scripts/chapter_pdf.py --markdown <source.md> <out.pdf>
-
-    <chapter> may be a zero-padded number (01, 10), a bare number (1, 10),
-    or a non-numeric chapter key (prologue, introduction).
-
-    --markdown renders an arbitrary file to an explicit destination and does
-    not strip apparatus, since a compiled manuscript has none to strip.
-
-Reads {bookRoot}/chapters/ch<NN>/refined.md, falling back to draft.md when no
-refined version exists yet. Writes the PDF beside it, named from the chapter's
-own H1 heading: "# Chapter 9: Silence Is Not Peace" becomes
-Chapter-9-Silence-Is-Not-Peace.pdf. That convention comes from the author's own
-hand-made Ch9 PDF, which is the only one in the repo and is git-tracked; the
-script matches it rather than introducing a second scheme. A retitled chapter
-therefore produces a differently-named PDF, and the stale one should be deleted.
-
-The PDF is deliberately reader-facing: Editor's Notes and Draft Notes are
-stripped, while the chapter and its Distillation are kept. The Distillation's
-Lesson, Challenge, and Practice items are what book-compile renders as the
-chapter's closing section, so a PDF without them would not be the chapter as a
-reader actually meets it. This format is meant to be shareable with outside
-readers for feedback, which is why nothing internal survives into it.
-
-`parking-lot.md` records that Chapter 9's largest structural failure survived
-two text-based check-ins and was caught only when the author read it as a PDF,
-and that Chapter 10's original failure was caught the same way. Text review and
-reading review catch different classes of problem.
-
-Styling matches book-compile.md's manuscript PDF so a chapter read in isolation
-looks like the same book.
+Usage: chapter_pdf.py BOOK_ROOT CHAPTER | --markdown SOURCE OUTPUT
+Rendering and typography live in chapter_pdf_local.py and pdf_chapter_style.py.
 """
-import json
 import os
 import re
 import sys
-
+from pathlib import Path
 
 def resolve_chapter_dir(book_root: str, chapter: str) -> str:
     """Accept 1, 01, ch01, or prologue; return the chapters/ subdirectory."""
@@ -89,41 +51,6 @@ def strip_apparatus(md: str) -> str:
 
     md = re.sub(r"\n{3,}", "\n\n", md)
     return re.sub(r"\n+---\s*$", "\n", md.rstrip()) + "\n"
-
-
-def ensure_toolchain():
-    """Import markdown and weasyprint, installing them once if absent.
-
-    Cloud containers are rebuilt per session, so a previous session's install is
-    never there. Rather than failing with instructions a human has to act on,
-    bootstrap it: the install is quick and this is the only dependency the
-    renderer has.
-    """
-    try:
-        import markdown
-        import weasyprint
-        return markdown, weasyprint
-    except ImportError:
-        pass
-
-    import subprocess
-    print("PDF toolchain missing, installing weasyprint and markdown...", file=sys.stderr)
-    r = subprocess.run(
-        [sys.executable, "-m", "pip", "install", "--quiet", "weasyprint", "markdown"],
-        capture_output=True, text=True,
-    )
-    if r.returncode != 0:
-        raise RuntimeError(
-            "could not install the PDF toolchain. Install it manually with:\n"
-            "    pip install weasyprint markdown\n"
-            f"pip said: {r.stderr.strip()[:400]}"
-        )
-    try:
-        import markdown
-        import weasyprint
-        return markdown, weasyprint
-    except ImportError as exc:  # pragma: no cover
-        raise RuntimeError(f"toolchain installed but import still failed: {exc}")
 
 
 def markup(md: str) -> str:
@@ -183,172 +110,20 @@ def pdf_name(md: str, chapter_dir: str) -> str:
     return "-".join(slug.split()) + ".pdf"
 
 
-def main() -> int:
-    # --markdown renders an arbitrary file to an explicit destination. This is
-    # how book-compile.md renders the manuscript, so the stylesheet, beat-label
-    # handling, and quotation formatting live in exactly one place. That step
-    # used to carry its own inline copy of all three.
-    if len(sys.argv) == 4 and sys.argv[1] == "--markdown":
-        source, out = sys.argv[2], sys.argv[3]
-        if not os.path.exists(source):
-            print(f"error: no such file: {source}", file=sys.stderr)
-            return 1
-        chapter_dir = None
+
+def main():
+    import chapter_pdf_local as renderer
+    if len(sys.argv) == 4 and sys.argv[1] == '--markdown':
+        source, out = map(Path, sys.argv[2:])
+        renderer.build(source.read_text(), None, [], str(out), source.stem,
+                       base_dir=str(source.resolve().parent))
     elif len(sys.argv) == 3:
-        book_root, chapter = sys.argv[1], sys.argv[2]
-        chapter_dir = resolve_chapter_dir(book_root, chapter)
-        source = None
-        for candidate in ("refined.md", "draft.md"):
-            path = os.path.join(chapter_dir, candidate)
-            if os.path.exists(path):
-                source = path
-                break
-        if source is None:
-            print(f"error: no refined.md or draft.md in {chapter_dir}", file=sys.stderr)
-            return 1
-        out = None
+        from compile_current import chapter
+        chapter(Path(sys.argv[1]).resolve(), int(sys.argv[2].removeprefix('ch')))
     else:
         print(__doc__)
         return 2
-
-    try:
-        markdown, weasyprint = ensure_toolchain()
-    except RuntimeError as exc:
-        print(f"error: {exc}", file=sys.stderr)
-        return 1
-
-    raw = open(source).read()
-    md_text = markup(strip_apparatus(raw) if chapter_dir else raw)
-
-    try:
-        with open("book-manifest.json") as f:
-            manifest = json.load(f)
-        title = manifest["books"][manifest["bookRoot"]].get("title", "Manuscript")
-    except Exception:
-        title = "Manuscript"
-
-    html_body = markdown.markdown(md_text, extensions=["extra", "smarty"])
-
-    html = f"""<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>{title}</title>
-<style>
-  @page {{ margin: 1in; }}
-  body {{
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 12pt;
-    line-height: 1.7;
-    color: #000;
-    orphans: 2;
-    widows: 2;
-  }}
-  h1 {{
-    page-break-before: always;
-    font-size: 22pt;
-    line-height: 1.25;
-    margin: 0 0 1.4em 0;
-    padding-bottom: 0.4em;
-    border-bottom: 2px solid #000;
-  }}
-  h1:first-of-type {{ page-break-before: avoid; }}
-  h2 {{
-    font-size: 15pt;
-    margin: 2.2em 0 0.8em 0;
-    padding-top: 0.6em;
-    border-top: 1px solid #999;
-    page-break-after: avoid;
-  }}
-  hr {{ border: none; border-top: 1px solid #ccc; margin: 2em 0; }}
-  blockquote {{
-    margin: 1.6em 1.5em;
-    padding-left: 1.1em;
-    border-left: 3px solid #999;
-    font-style: italic;
-    page-break-inside: avoid;
-  }}
-  blockquote p {{ margin: 0; }}
-  p {{ margin: 0.5em 0 1em 0; }}
-  strong {{ font-weight: bold; }}
-  em {{ font-style: italic; }}
-  /* Beat labels are the chapter's section headers. They were bold body text at
-     1.05em, which read as emphasis rather than structure. */
-  p.beat-label {{
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 11pt;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    margin: 2.4em 0 0.7em 0;
-    page-break-after: avoid;
-  }}
-  /* Distillation metadata: one labelled line each, not a run-on paragraph. */
-  p.meta {{
-    margin: 0 0 0.35em 0;
-    page-break-inside: avoid;
-  }}
-  /* Mechanism/Conversation/Lesson/Challenge are one logical block; a page break
-     between them split the Distillation across pages 7 and 8 of Ch10. */
-  p.meta + p.meta {{ page-break-before: avoid; }}
-  ol, ul {{ margin: 0.6em 0 1.2em 0; padding-left: 1.4em; }}
-  li {{ margin-bottom: 0.55em; }}
-  /* Part closing plates (book-compile Step 2.7): a full-page line drawing on
-     a page of its own. The SVG is 6x9 proportioned and carries its own
-     caption, so the page has nothing else on it. */
-  div.plate {{
-    page-break-before: always;
-    text-align: center;
-    margin: 0;
-  }}
-  /* Bounded by height, not width: a 6x9 image at full text width would run
-     9.75in tall against a 9in content box and spill its bottom onto the next
-     page. The following h1 (next Part's opening) already breaks before
-     itself, so no page-break-after here; one would strand the separator rule
-     on a blank page of its own. */
-  div.plate img {{ max-height: 8.6in; max-width: 100%; width: auto; height: auto; }}
-  /* Chapter plates (compile.py --plates): a page of their own, the same
-     treatment as a Part closing plate - a reader flips to it, it is not a
-     figure sitting in the running text. */
-  figure.plate {{
-    page-break-before: always;
-    page-break-after: always;
-    page-break-inside: avoid;
-    text-align: center;
-    margin: 0;
-  }}
-  figure.plate img {{ max-width: 100%; max-height: 8.6in; height: auto; }}
-  figure.plate figcaption {{ font-style: italic; font-size: 10pt; color: #444; margin-top: 0.3in; }}
-  /* compile.py's "start fresh page here" marker, used before the Putting It
-     Into Practice section so a chapter's back matter never runs onto the
-     same page as its closing lines. Zero height: it does not itself print. */
-  .pb {{ page-break-before: always; }}
-</style>
-</head>
-<body>
-{html_body}
-</body>
-</html>"""
-
-    if out is None:
-        out = os.path.join(chapter_dir, pdf_name(md_text, chapter_dir))
-    # pdf_tags is requested but does not currently produce a structure tree:
-    # weasyprint 69.0 accepts both this and pdf_variant="pdf/ua-1" and emits an
-    # untagged file either way (verified 2026-08-17). It costs nothing and will
-    # start working if that support lands. The consequence today is that a
-    # viewer which reflows text, a phone or an accessibility mode, has to infer
-    # paragraph boundaries from line positions and can break mid-sentence. The
-    # printed layout is unaffected.
-    # base_url lets relative image paths in the markdown (the Part closing
-    # plates, `parts/plate-N-<slug>.svg`) resolve from the source file's own
-    # directory. Without it weasyprint has no base and drops the image silently.
-    base_url = os.path.dirname(os.path.abspath(source))
-    weasyprint.HTML(string=html, base_url=base_url).write_pdf(out, options={"pdf_tags": True})
-
-    words = len(re.findall(r"[A-Za-z][A-Za-z'’-]*", md_text))
-    print(f"wrote {out} — from {os.path.basename(source)}, ~{words} words")
     return 0
 
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+if __name__ == '__main__':
+    sys.exit(main())

@@ -74,10 +74,11 @@ of rule text will fix this" was the old pipeline's own conclusion.
 
 ## Assess before suggesting
 
-For anything that surfaced: is it a one-off or a pattern? Did it cost the author
-time, the book quality, or nothing? Would the fix be noticed by someone who never
-read this session? Most things that surface do not survive this step, and that is
-correct.
+Distinguish repairing this instance from preventing recurrence. For each material
+recurring failure, recommend a proportionate preventive change, identify an
+existing remedy shown to prevent recurrence, or explain why the remaining risk
+is acceptable. Judge author effort and book quality, not recommendation count or
+rule-word savings. A clean session may warrant no changes.
 
 ## Suggest, typed and priced
 
@@ -129,4 +130,3 @@ accepts becomes an item that closes itself when the change lands, and `next.py`
 surfaces it until then. **This replaces the standalone ranked list as the system
 of record** - keep the ranking in your prose for reading, but the commands are
 what carries forward.
-

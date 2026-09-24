@@ -1,0 +1,170 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Chapter 11: Speak or Endure</title><style>
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+html { -webkit-print-color-adjust: exact; }
+body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
+       margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
+
+/* ---- the distillation card, first page ---- */
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
+.dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
+        text-align:center; line-height:1.25; margin:0 0 .08in;
+        page-break-before:avoid; }
+.dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
+        margin:.08in auto .10in; }
+.dist .mech { text-align:center; font: 600 11pt Georgia,serif;
+        letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
+.dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
+        margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
+.dist p { margin:0 0 .08in; }
+.dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
+        text-transform:uppercase; color:#5a5a5a;
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+.dist ol { margin:0 0 .1in; padding-left:.24in; }
+.dist li { margin:0 0 .07in; }
+
+/* ---- chapter ---- */
+/* Every h1 (Prologue, Introduction, a Part opening, a Chapter) starts a
+   fresh page in a whole-book compile, the same rule chapter_pdf.py already
+   uses. compile.py used to insert a literal "\pagebreak" marker for this
+   instead; neither renderer has ever understood that token, so it printed
+   as visible text - this is the actual mechanism, not a marker to remember
+   to strip. :first-of-type only avoids a break before the very first h1 in
+   the whole document (they are all true DOM siblings under one <section>),
+   so it does not create a blank leading page. */
+h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
+     margin:0 0 .06in; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h1 + hr.beat { display:none; }
+/* compile.py's marker for "start fresh page here", used before the Putting
+   It Into Practice section so a chapter's back matter never runs onto the
+   same page as its closing lines. Zero height: it does not itself print. */
+.pb { page-break-before:always; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
+p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
+p.runin { margin-top:.2in; }
+p.runin strong { font-weight:600; letter-spacing:.01em; }
+hr.beat { border:0; height:0; margin:.24in auto; width:1.1in;
+     border-top:.6pt solid #cfcfcf; }
+blockquote { margin:.22in .42in; padding-left:.2in; border-left:1.2pt solid #d4d4d4; }
+blockquote.pull { margin:.26in .3in; padding:0 0 0 .22in;
+     border-left:1.6pt solid #c9c9c9; page-break-inside:avoid; }
+blockquote.pull p { font: italic 11pt/1.56 Georgia,serif; }
+blockquote cite { display:block; font: normal 9pt Georgia,serif; font-style:normal;
+     color:#6a6a6a; margin-top:.09in; letter-spacing:.02em; }
+blockquote p { font: italic 10.5pt/1.55 Georgia,serif; color:#2f2f2f;
+     text-align:left; text-indent:0; margin:0; }
+em { font-style:italic; }
+strong { font-weight:600; }
+
+/* ---- plate ---- */
+/* A plate is a page a reader flips to, not a figure sitting in the running
+   text - full isolation, same treatment the Part closing plates already
+   get. Centred vertically as well as horizontally since it now owns the
+   whole page. */
+figure.plate { margin:0; text-align:center; page-break-before:always;
+     page-break-after:always; page-break-inside:avoid;
+     min-height:7.3in; display:flex; flex-direction:column;
+     align-items:center; justify-content:center; }
+figure.plate img { max-width:100%; max-height:6.8in; height:auto; }
+figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
+     margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
+.dropfirst::first-letter { font-size:1em; }
+
+
+h1.chapter-heading { font-family: Georgia, 'Times New Roman', serif;
+  font-size:20pt; font-weight:700; line-height:1.25; letter-spacing:normal;
+  margin:0 0 .30in; padding:0; border:0; text-indent:0;
+  break-after:avoid; page-break-after:avoid; }
+h1.chapter-heading .num { display:block; font-size:10pt; font-weight:400;
+  letter-spacing:normal; text-transform:none; color:#444; margin:0 0 .12in; }
+h1.chapter-heading .chapter-title { display:block; font-size:20pt;
+  font-weight:700; letter-spacing:normal; text-transform:none; }
+h1 + p, h1 + hr + p, h2 + p, h3 + p { text-indent:0; }
+/* Shared reading format: ordinary paragraphs are flush left, never indented. */
+p, p + p, p.runin, p.runin + p { text-indent:0; text-align:left; }
+h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
+  letter-spacing:normal; text-transform:none; color:inherit;
+  margin:.20in 0 .10in; padding:0; border:0;
+  break-after:avoid; page-break-after:avoid; }
+</style></head><body><section><h1 class="chapter-heading"><span class="num">Chapter 11</span>
+<strong class="chapter-title">Speak or Endure</strong></h1>
+<p>You’ve decided not to bring it up, but you’re still thinking about it. Maybe it’s a purchase you wish you’d discussed first. Maybe it’s a remark that embarrassed you in front of the kids. You let the evening go on. Now you’re in bed, explaining to yourself why you stayed quiet.</p>
+<p>You tell yourself you have to choose your hills to die on. Sometimes that’s good judgment. A small annoyance doesn’t need a long conversation. But sometimes you’re avoiding a conversation because you expect it to be uncomfortable. You want her to know you’re hurt without having to tell her.</p>
+<p>From her side, you haven’t said there’s a problem.</p>
+<hr class="beat">
+<h2 class="beat-heading">Decide what needs your attention.</h2>
+<p>Before you decide to speak, ask what you’re dealing with. Some problems need a conversation or a practical step. Some hardships can’t be ended by either of you. Some annoyances aren’t worth trying to change.</p>
+<p>A purchase you couldn’t afford may need a spending agreement. An illness may mean months of care, even when you’re doing everything you can. A hobby you don’t enjoy may simply be something your wife likes. Staying quiet about all three won’t serve your marriage. Neither will trying to fix all three.</p>
+<p>Start with the problem you can act on. Have you said what’s bothering you? Have you made a clear request? Have you tried the practical step that might help? You can’t know whether a conversation will help if you’ve only imagined having it.</p>
+<p>You might have tried already. Perhaps you’ve asked for counseling and she won’t go. That matters. An offer she’s refused is different from an offer you haven’t made. Be accurate about which position you’re in. Her answer limits what you can do together today; it doesn’t mean you have no choices left.</p>
+<p>Other hardships won’t end because you find better words. You can’t talk a dying parent back to health. You can’t make missing income appear by explaining how worried you are. You may still have bills to sort out, care to arrange, or help to ask for. But the illness or loss remains, and you have to live through it together.</p>
+<p>Then there are preferences you can leave alone. You don’t have to enjoy her hobby or choose all the same friends. If her brother’s opinions annoy you, you can disagree without spending the whole visit arguing. Ask whether there’s harm to address or just a difference you don’t like.</p>
+<p>Marcus Aurelius was a Roman emperor who wrote private reminders about how to live. One of them was about choosing what deserved his attention. <em>“It is in our power to have no opinion about a thing, and not to be disturbed in our soul; for things themselves have no natural power to form our judgments.”</em> (<em>Meditations</em> 6.52, Long trans.) You don’t have to decide what you think about every comment you hear, much less respond to it.</p>
+<p>Some of my wife’s friends aren’t helpful to the relationship. They’re not against it, but they say things that don’t help. I tolerate that because I want her to have real friends. Those friendships matter more to me than the comments. Politics used to wait for Thanksgiving. Now it doesn’t. I tolerate those conversations too.</p>
+<p>Tolerance makes sense when you can say why you’re choosing it. You want her to enjoy her friendships. You want to see your family even though you disagree about politics. You can dislike part of the visit and still want to go.</p>
+<p>That doesn’t make every problem a minor annoyance. If you’re hurt each time a particular remark comes up, say what the remark does to you. Calling it small won’t help if you spend the next two days resenting it. And if you can let a difference go, let it go without reminding her what you put up with. Arguing about a harmless preference can use up the evening while the problem you need to discuss goes unmentioned.</p>
+<hr class="beat">
+<h2 class="beat-heading">Get through hardship without shutting down.</h2>
+<p>For about ten years, we lived mostly on my wife’s income while I was building a company with no guaranteed paycheck. Three kids. Both of us working full time. We didn’t know when the money would get easier.</p>
+<p>When a hard period lasts that long, you get used to doing less for yourself. You cancel plans. You put off rest. Sometimes that’s necessary. But you can keep doing it after the need has passed, because you stopped asking what you could afford to resume.</p>
+<p>Notice what you’ve given up and whether it still needs to stay on hold. If you’re exhausted, say you’re exhausted. If you need an evening to rest, ask for it. Your wife can’t help you make a different plan if you keep telling her you’re fine.</p>
+<p>Marcus wrote about bearing hardship this way. <em>“Everything which happens either happens in such wise as thou art formed by nature to bear it, or as thou art not formed by nature to bear it. If, then, it happens to thee in such way as thou art formed by nature to bear it, do not complain, but bear it as thou art formed by nature to bear it.”</em> (<em>Meditations</em> 10.3, Long trans.)</p>
+<p>In plain English: when you have to live through something you can bear, meet it without repeatedly telling yourself how unfair it is. Complaining won’t end the hardship. That still leaves room to say you’re tired, ask for help, and tell your wife you’re worried.</p>
+<p>There are several ways to get this wrong. You can become so overwhelmed that you stop doing your share and leave her managing everything. You can shut down and barely speak, getting through each day without much interest in her or the kids. Or you can insist you’re fine until you lose your temper over a small mistake.</p>
+<p>Being quiet doesn’t tell you which of those you’re doing. Look at how you’re treating your family. Are you listening when she talks? Can the kids ask you a question without getting snapped at? Can you admit you’re having a bad day before everyone has to guess?</p>
+<p>Staying steady means you keep taking part in family life while admitting that it’s hard. You do the work you can do. You accept help with what you can’t manage. You tell her what’s worrying you without expecting her to remove every worry.</p>
+<p>You can have a difficult evening without making the whole family responsible for it. If you speak sharply, apologize for speaking sharply. The financial pressure may explain why you’re tired. It doesn’t settle what you owe the person you snapped at.</p>
+<p>The hardship may last. You can still have honest conversations, pay attention to your children, and make room for rest while it does.</p>
+<hr class="beat">
+<h2 class="beat-heading">Talk about the rule you disagree with.</h2>
+<p>Suppose your wife raises her voice at the kids. Later, when you raise yours, she tells you that you’re frightening them. You feel there’s one rule for her and another for you. But you’re reluctant to say so because it could sound like a request for permission to yell.</p>
+<p>There may be a real difference in how the children experience your voices. Your size and volume can frighten them in a way hers don’t. That deserves your attention. So does the question of how both of you should speak when you’re angry.</p>
+<p>You can agree to stop yelling and still ask for a shared standard. For example: “I heard you when you said I scared them. I need to change that. Can we also talk about how we both handle it when we’re angry with the kids?”</p>
+<p>That’s a conversation she can answer. The argument you’ve had with her in your head gives her no such chance.</p>
+<p>Chapter 7 asked you to stop keeping score over who did more chores or worked more hours. It didn’t ask you to stay quiet about hurtful behavior. You can give generously without agreeing that only one of you has to speak respectfully.</p>
+<p>Before you call a rule unfair, make sure you know what the difference is. Perhaps you shop rarely and spend more each time. She shops often and spends less each time. You both think the other spends too much. Compare what you’re actually spending before you argue about who gets special treatment.</p>
+<p>Sometimes a different expectation has a reason, as it may when your voice frightens the children. Ask about the reason and discuss what each of you will do. An explanation gives you something to consider besides whether you’ve been treated unfairly.</p>
+<p>Sometimes neither of you can explain the difference. Perhaps being tired excuses her sharp tone, while yours gets challenged. Name the behavior and ask for the same care from both of you: “I want us both to be able to say we’re tired without being short with each other.”</p>
+<p>These are examples of words you might use, not claims that she will agree. She may describe something you’ve missed. You may realize the two situations were different. You may still disagree. But now you’re discussing what happened together, instead of deciding alone what she meant.</p>
+<hr class="beat">
+<h2 class="beat-heading">Stop putting off the conversation.</h2>
+<p>You don’t have to choose years of silence for it to happen. You only have to keep deciding that today is a bad day.</p>
+<p>The first time, you’re tired and don’t want an argument. The second time, everyone’s enjoying the evening. A remark bothers you, but you don’t want to interrupt the laughter. The third time, she feels strongly about the subject and you expect a long discussion. Each delay has a reason you can explain.</p>
+<p>Then you begin worrying about the delay itself. If you bring it up now, she might ask why you said nothing before. You’ll have to explain that it bothered you then too. Staying quiet starts to seem easier than admitting you’ve been unhappy for a while. You may also worry that once you start, you’ll bring up every other complaint you’ve kept to yourself. Now one conversation feels like several arguments at once.</p>
+<p>I have an aversion to pain and an aversion to fighting. When a small problem needs discussing, I can usually think of a reason today isn’t the day. I also know what happens when I keep doing that. I hold back until I get angry over something that didn’t deserve it.</p>
+<p>You may recognize the argument that repeats in your head. You explain what hurt you. You imagine her disagreeing. You prepare your answer to that disagreement. By the time you see her, you’re already frustrated with a response she hasn’t given.</p>
+<p>Thinking it through once can help you speak clearly. Repeating it without deciding what to do can leave you angrier and no better prepared. You’ve spent another evening on the problem, and she still doesn’t know what it is. You can recognize where you’ve been avoiding the conversation: you’ve been having entire arguments in your head that you aren’t willing to have with her.</p>
+<p>In 2003, Wendy Treynor and her colleagues distinguished between two ways of dwelling on a problem. Reflection tries to understand it and work out what to do. Brooding keeps returning to how bad it feels. Ask which you’re doing. Have you decided what to say, or have you only repeated your complaint?</p>
+<p>The risk is that you eventually snap at the wrong moment. Amy Marcus-Newhall and her colleagues examined displaced aggression in 2000: anger directed at someone other than its original source. In your marriage, watch for a small annoyance getting a response that belongs to another problem you haven’t discussed.</p>
+<p>From your wife’s side, tonight’s remark may seem minor. She hasn’t heard the other conversations you’ve been having in your head. Your anger won’t explain them for you. You’ll still need to say what has been bothering you.</p>
+<p>If you criticize her, then walk away before she can answer, you give her no chance to explain her side. If you keep quiet until you lose your temper, she has to guess what has been bothering you. In either case, you still haven’t discussed the problem together.</p>
+<p>You need a way to raise a concern while it’s still specific enough to discuss. You also need to listen when she tells you how she sees it.</p>
+<hr class="beat">
+<h2 class="beat-heading">Say it clearly, then listen.</h2>
+<p>When a remark hurts you, say which remark and why. For example: “That joke about my spending embarrassed me in front of the kids. I’d rather we talk about money in private.” You haven’t accused her of ruining the evening. You’ve told her what happened for you and what you’re asking for.</p>
+<p>If you’re too angry to speak kindly, take time to settle down and say when you’ll return to the conversation. Postponing it until after dinner is different from deciding, again, that you’ll say nothing. Keep the time you agreed on.</p>
+<p>Once you’ve said what you mean, give her room to answer. You don’t have to repeat yourself until she agrees. You don’t have to get an apology before the evening can continue. You can be disappointed by her response and still be glad you spoke honestly.</p>
+<p>This doesn’t mean you have to settle a serious, repeated problem with one sentence. It means you stop treating immediate agreement as the condition for speaking at all. If you need another conversation, have one. If you need help having it, ask for help.</p>
+<p>Chapter 5 dealt with how to behave during a hard conversation. The question here comes earlier: will you tell her there’s a problem? You can know how to stay calm in an argument and still avoid starting a necessary discussion.</p>
+<p>If you’ve been silent for a long time, look back at what that silence has changed. Courage means having the conversation you’ve been avoiding. Kindness means continuing to treat her with care while you’re upset. If you’ve stopped asking about her day or caring how she feels, your silence has changed how you treat her. Patience means giving the conversation time and returning to a problem that still needs attention.</p>
+<p>Self-control means keeping your tone respectful when her answer disappoints you. It also means trying again after several frustrating attempts, instead of giving up on a problem that still needs attention. Wisdom means remembering what she actually knew. If you never told her, don’t blame her for failing to answer the arguments you kept to yourself.</p>
+<p>These qualities give you something to practice now. You don’t need to spend another night condemning yourself for waiting. You can say, “I should have brought this up sooner. It’s been bothering me, and I’d like us to talk.”</p>
+<p>Before you decide that nothing can change, try the conversations and help you’ve been putting off. Write down what you want to say if you struggle to explain it. Make time together without interruptions. Consider a communication class or therapy if you keep getting stuck. A weekend away may give you time to talk, but you still have to talk.</p>
+<p>An honest request may not get the answer you want. It gives both of you a chance to understand the problem. The next decision can then be based on a conversation you’ve actually had.</p>
+<hr class="beat">
+<p>Tell her what bothered you while you can still talk about that one moment, then listen to what she says.</p><figure class="plate"><img src="ch11-plate.png" width="640" height="376" alt=""></figure></section><section class="dist distback"><p class="kicker">Not part of the chapter &middot; working notes</p><h1>Chapter 11 Distillation: Speak or Endure</h1><div class="rule"></div>
+<p class="runin"><strong>Mechanism:</strong> The Conversation She’s Never Heard</p>
+<p class="runin"><strong>Conversation sentence:</strong> You keep arguing with her in your head, but you haven’t told her what’s bothering you.</p>
+<p>Some problems need a conversation or a practical step. Some hardships have to be lived through even when you’re doing what you can. Some annoyances can be left alone. Decide which you’re facing before you choose silence. If a problem needs discussing, tell her what it is while you can still speak kindly and listen.</p>
+<p class="runin"><strong>Lesson:</strong> Tell her what’s bothering you, ask clearly for what you need, and listen without demanding immediate agreement.</p>
+<p class="runin"><strong>Challenge:</strong> Each delay can seem reasonable until you’re afraid to bring up the problem because you’ve already waited so long.</p>
+<h2>Practice</h2>
+<ol><li><strong>Reactive.</strong> When a problem bothers you, ask whether there’s a conversation or practical step you haven’t tried. If there is, decide when you’ll do it. If the hardship can’t be ended, name the help you need to get through it. If it’s a harmless difference, let it go without keeping a complaint ready for later.</li><li><strong>Reactive.</strong> When a remark hurts you, name the remark, explain how it affected you, and ask for what you need. Then listen. If you’re too angry to speak kindly, agree on a time to return to the conversation and keep it.</li><li><strong>Reactive.</strong> When you catch yourself repeating an argument in your head, write down what you want her to understand. Ask for a time to talk instead of rehearsing her answer for her.</li></ol></section></body></html>

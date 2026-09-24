@@ -1,9 +1,4 @@
-<!-- Chapter 11 plate, round 4 (outside-reader round, 2026-09-21).
-     The reviewer asked for this one to be left almost alone. Objects, sizes
-     and positions are round 3's. Three glosses that only repeated the two
-     labels are gone, the arrow is dashed so it reads as setting out rather
-     than arriving, and the closing sentence is broken into a short
-     instruction and a two-word maxim so the words carry more weight. -->
+<!-- Chapter 11 plate: approved prose copy refresh, 2026-09-24. Geometry preserved. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 376" style="color:#1a1a1a" role="img" aria-label="The Conversation She’s Never Heard">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
@@ -19,12 +14,12 @@
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">THE CONVERSATION SHE’S NEVER HEARD</text>
-    <text class="sub" x="320" y="66">You have run it forty times. She has heard it zero.</text>
+    <text class="sub" x="320" y="66">You keep arguing with her in your head.</text>
   </g>
 
   <g fill="currentColor">
-    <text class="lbl" x="60" y="98">INSIDE YOUR HEAD</text>
-    <text class="lbl" x="366" y="98">IN THE ROOM</text>
+    <text class="lbl" x="60" y="98">IN YOUR HEAD</text>
+    <text class="lbl" x="366" y="98">WITH HER</text>
   </g>
 
   <!-- the rehearsals, stacked -->
@@ -51,13 +46,13 @@
   <g fill="currentColor" opacity=".45"><path d="M334 177l-10-4v8z"/></g>
 
   <g fill="currentColor">
-    <text class="capl" x="382" y="182">nothing said out loud</text>
+    <text class="capl" x="382" y="182">you haven’t told her</text>
   </g>
 
   <g class="rule" fill="none"><path d="M44 288h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="314">Say the true thing while it is still small.</text>
-    <text class="max" x="320" y="344">Kindly. Once.</text>
+    <text class="cap" x="320" y="314">Tell her what’s bothering you.</text>
+    <text class="max" x="320" y="344">Then listen.</text>
   </g>
 </svg>
