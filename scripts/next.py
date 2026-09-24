@@ -53,11 +53,34 @@ def chapter_dirs():
     return out
 
 
-def chapter_state(n, d):
-    """Return (stage, command, detail) for chapter n whose runs dir is d (or None)."""
-    if d is None or not os.path.isdir(d):
+def shipped_chapters(info):
+    """Chapter numbers already in the book, from resolve_book's refined list."""
+    out = set()
+    # resolve_book reports directory names: "ch01", "prologue", "introduction".
+    # The first version of this checked name.isdigit(), matched nothing, and
+    # reported 0 shipped and "start at chapter 1" for a book with 13 refined -
+    # a plausible wrong answer, caught only by running it against the real repo.
+    for name in info.get("refined_chapters", []):
+        m = re.fullmatch(r"ch(\d+)", name)
+        if m:
+            out.add(int(m.group(1)))
+    return out
+
+
+def chapter_state(n, d, shipped=False):
+    """Return (stage, command, detail) for chapter n whose runs dir is d (or None).
+
+    shipped: the chapter is already in the book. A runs dir is not a chapter in
+    progress: on 2026-09-21 the Round 5 plate edits created runs/ch01..ch10
+    holding only plates, and this answered "/gw 1 - stopped at interview" for a
+    chapter already in the book, for 54 log entries. A shipped chapter with no
+    pipeline artifact here is done; only one that has started a stage is not.
+    """
+    have = set(os.listdir(d)) if d is not None and os.path.isdir(d) else set()
+    if shipped and not have & {"interview.md", "proposed-concepts.md", "inbox.md"}:
+        return "shipped", None, "in the book; runs dir holds apparatus only"
+    if not have:
         return "interview", "/gw-interview", "not started"
-    have = set(os.listdir(d))
     # Terminal state, checked first. "verdict" had no exit: on 2026-09-18 Ch12
     # was landed into the book repo and this still answered "waiting on your
     # verdict", and would have gone on answering it with Ch13 fully refined
@@ -74,7 +97,9 @@ def chapter_state(n, d):
     # A proposal on disk with status: open is the chapter waiting on him.
     if "proposed-concepts.md" in have:
         txt = open(os.path.join(d, "proposed-concepts.md"), encoding="utf-8").read()
-        if re.search(r"^status:\s*open\s*$", txt, re.M):
+        # Anything but "answered" is waiting: a file written without a status
+        # line must not vanish, which is the failure this check exists to end.
+        if not re.search(r"^status:\s*answered\s*$", txt, re.M):
             k = len(re.findall(r"^## ", txt, re.M))
             return "concepts", "/gw-chapter", (f"{k} content concept(s) proposed, "
                                                "waiting on your yes (proposed-concepts.md)")
@@ -139,27 +164,12 @@ def prose_gate():
 def compute(book):
     info = book["info"]
     total = info.get("chapter_count") or 0
-    shipped = set()
-    # resolve_book reports directory names: "ch01", "prologue", "introduction".
-    # The first version of this checked name.isdigit(), matched nothing, and
-    # reported 0 shipped and "start at chapter 1" for a book with 13 refined -
-    # a plausible wrong answer, caught only by running it against the real repo.
-    for name in info.get("refined_chapters", []):
-        m = re.fullmatch(r"ch(\d+)", name)
-        if m:
-            shipped.add(int(m.group(1)))
+    shipped = shipped_chapters(info)
     runs = chapter_dirs()
 
     per_chapter = {}
     for n, d in runs.items():
-        stage, cmd, detail = chapter_state(n, d)
-        # A runs dir is not a chapter in progress. On 2026-09-21 the Round 5
-        # plate edits created runs/ch01..ch10 holding only plates, and this
-        # answered "/gw 1 - stopped at interview" for a chapter already in the
-        # book, for 54 log entries. A shipped chapter with no pipeline artifact
-        # here is done; only one that has actually started a stage is not.
-        if n in shipped and stage == "interview":
-            stage, cmd, detail = "shipped", None, "in the book; runs dir holds apparatus only"
+        stage, cmd, detail = chapter_state(n, d, shipped=n in shipped)
         per_chapter[n] = {"stage": stage, "command": cmd, "detail": detail,
                           "shipped_by_book_pipeline": n in shipped}
 
@@ -335,7 +345,8 @@ def main():
 
     if a.chapter:
         d = chapter_dirs().get(a.chapter)
-        stage, cmd, detail = chapter_state(a.chapter, d)
+        stage, cmd, detail = chapter_state(a.chapter, d,
+                                           shipped=a.chapter in shipped_chapters(book["info"]))
         out = {"chapter": a.chapter, "stage": stage, "command": cmd, "detail": detail}
         print(json.dumps(out) if a.json else f"ch{a.chapter:02d}: next stage is {stage} ({detail}) -> {cmd} {a.chapter}")
         return 0

@@ -574,6 +574,36 @@ def next_cases():
                     stage))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+
+    # 2026-09-23: a shipped chapter whose runs dir holds only a plate is done,
+    # not "stopped at interview" - the oracle said /gw 1 for 54 log entries.
+    tmp = tempfile.mkdtemp(prefix="gw-tests-chapter-")
+    try:
+        open(os.path.join(tmp, "plate.svg"), "w").close()
+        stage, cmd, detail = next_mod.chapter_state(1, tmp, shipped=True)
+        out.append((stage == "shipped", "next chapter_state, shipped with plate only",
+                    "a chapter already in the book whose runs dir holds only a plate "
+                    "must report shipped, not interview", stage))
+        stage, cmd, detail = next_mod.chapter_state(1, tmp, shipped=False)
+        out.append((stage == "interview", "next chapter_state, unshipped with plate only",
+                    "the same dir for a chapter not in the book still starts at interview",
+                    stage))
+
+        # A proposal file with no status line is still waiting on the author.
+        for name in ("interview.md", "research.md"):
+            open(os.path.join(tmp, name), "w").close()
+        open(os.path.join(tmp, "proposed-concepts.md"), "w").write("## A\n## B\n")
+        stage, cmd, detail = next_mod.chapter_state(13, tmp)
+        out.append((stage == "concepts", "next chapter_state, proposals with no status line",
+                    "proposed-concepts.md without status: answered must report concepts",
+                    stage))
+        open(os.path.join(tmp, "proposed-concepts.md"), "w").write(
+            "---\nstatus: answered\n---\n## A\n")
+        stage, cmd, detail = next_mod.chapter_state(13, tmp)
+        out.append((stage == "draft", "next chapter_state, proposals answered",
+                    "answered proposals let the chapter move on to draft", stage))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
     return out
 
 
