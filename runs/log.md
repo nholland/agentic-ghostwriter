@@ -3293,3 +3293,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 186 more
 
 **Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-24 07:46 — `claude/gateway-wjdjn1` — 17 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/retro-check.sh`
+- `.claude/skills/gw-chapter/SKILL.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `.claude/skills/gw-qa/SKILL.md`
+- `.claude/skills/gw/SKILL.md`
+- `FINDINGS.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/manuscript.md`
+- `books/the-stoic-husband/manuscript.pdf`
+- `books/the-stoic-husband/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
+- `books/the-stoic-husband/okf/citations/gable-et-al-2004-capitalization.md`
+- `books/the-stoic-husband/okf/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md`
+- `books/the-stoic-husband/okf/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md`
+- `books/the-stoic-husband/okf/citations/neff-buck-2023-stress-partner-perception.md`
+- `books/the-stoic-husband/okf/citations/neff-nguyen-williamson-2021-stress-noticing-support.md`
+- `books/the-stoic-husband/okf/citations/perceived-partner-responsiveness-reis.md`
+- `books/the-stoic-husband/okf/citations/perel-novelty-curiosity-and-familiarity.md`
+- `books/the-stoic-husband/okf/citations/perel-otherness-and-desire.md`
+- `books/the-stoic-husband/okf/citations/reis-et-al-2010-responsive-good-news-listening.md`
+- `books/the-stoic-husband/okf/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-58-heraclitus-river-and-change.md`
+- `books/the-stoic-husband/okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md`
+- `books/the-stoic-husband/okf/frameworks/affection-without-attention.md`
+- … and 187 more
+
+**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
