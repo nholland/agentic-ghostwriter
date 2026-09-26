@@ -27,7 +27,10 @@ WHAT THIS DOES
     actually about). Then overwrites --file with its content at --at, runs
     the worktree's own tests/run.py, confirms --case prints [FAIL]. Restores
     --file to the synced current version, runs again, confirms --case prints
-    [ ok ]. Removes the worktree either way.
+    [ ok ]. If the file did not exist at a valid --at commit, removes it for
+    the red pass. Fixtures must report an explicit named FAIL for a missing
+    file or function; an absent case or arbitrary crash is never proof.
+    Removes the worktree either way.
 
 USAGE
     python3 tests/prove.py --file <path changed by the fix> --at <commit before the fix> \
@@ -120,6 +123,8 @@ def run_case(worktree, case):
         return "ok"
     if re.search(rf"^\[FAIL\] {re.escape(case)}$", r.stdout, re.MULTILINE):
         return "fail"
+    if r.stderr.strip():
+        print(r.stderr.strip(), file=sys.stderr)
     return "missing"
 
 
@@ -136,13 +141,26 @@ def main():
         sh("git", "worktree", "add", "--detach", "--quiet", wt, "HEAD")
         sync_dirty(wt)
 
-        old_content = sh("git", "show", f"{a.at}:{a.file}").stdout
+        revision = sh("git", "rev-parse", "--verify", f"{a.at}^{{commit}}", check=False)
+        if revision.returncode:
+            print(f"prove: REFUSED - invalid commit {a.at}")
+            return 2
+        commit = revision.stdout.strip()
+        # ls-tree distinguishes an absent path from an invalid revision or a
+        # failed read. Absence alone is not red: the named fixture must fail.
+        listing = sh("git", "ls-tree", commit, "--", a.file).stdout
+        old_content = sh("git", "show", f"{commit}:{a.file}").stdout if listing else None
         target = os.path.join(wt, a.file)
         current_content = open(target, encoding="utf-8").read()
 
-        open(target, "w", encoding="utf-8").write(old_content)
-        status_red = run_case(wt, a.case)
-        open(target, "w", encoding="utf-8").write(current_content)
+        if old_content is None:
+            os.remove(target)
+        else:
+            open(target, "w", encoding="utf-8").write(old_content)
+        try:
+            status_red = run_case(wt, a.case)
+        finally:
+            open(target, "w", encoding="utf-8").write(current_content)
 
         if status_red == "missing":
             print(f"prove: REFUSED - case '{a.case}' not found in tests/run.py's output")

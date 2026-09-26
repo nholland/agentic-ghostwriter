@@ -287,6 +287,9 @@ def okf_index_cases():
     concept. The second half of this matters more: 249 rows in the real index
     carry hand-written annotation that exists nowhere else, so --fix preserving
     a gloss and a shortened title is the property that makes it safe to run."""
+    if not os.path.isfile(os.path.join(REPO, "scripts", "okf_index.py")):
+        return [(False, "okf_index: a row whose status contradicts the concept is caught",
+                 "the reconciler must exist to detect a contradictory row", "source file absent")]
     out = []
     book, root = _fake_bundle()
     try:
@@ -481,6 +484,9 @@ def freshness_cases():
     Both are pinned here: a behind count reported, and UNVERIFIED said out loud
     when there is nothing to compare against."""
     import resolve_book, subprocess as sp
+    if not hasattr(resolve_book, "freshness"):
+        return [(False, "freshness: a checkout behind origin/main says how far",
+                 "the freshness function must exist to report a behind count", "function absent")]
     out = []
     tmp = tempfile.mkdtemp(prefix="gw-tests-fresh-")
     try:
@@ -1282,8 +1288,8 @@ def sys_path_hardcode_cases():
                              capture_output=True, text=True, check=True).stdout.split()
     offenders = []
     for f in tracked:
-        if f.startswith("tests/"):
-            continue
+        if f.startswith("tests/") or not os.path.isfile(os.path.join(REPO, f)):
+            continue  # ls-files includes tracked paths deleted in the working tree
         text = open(os.path.join(REPO, f)).read()
         for m in HARDCODED_SYS_PATH.finditer(text):
             offenders.append(f"{f}: {m.group(0)}")
@@ -1541,7 +1547,8 @@ def main():
     from prove_inbox_duplicate import inbox_duplicate_cases
     from prove_land_unrelated_main import land_ancestry_cases
     from export_safety_cases import export_safety_cases
-    rows = (export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    from prove_new_code_cases import prove_new_code_cases
+    rows = (prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
