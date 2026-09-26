@@ -1,9 +1,10 @@
 ---
 id: 052
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 15:23
+resolved: 2026-09-26 07:47
 ---
 
 # Should inbox.py --add refuse an --applied-by that already exits 0 at filing time? #051 was filed with --applied-by 'true' - the only tautological proof among ~50 inbox items - and inbox.py's reconcile step runs the proof the moment an item is ruled, so a yes would have stamped it 'confirmed applied' with nothing landed. Already fixed in #051 itself by dropping the line; this asks whether to guard the general case.
@@ -27,3 +28,5 @@ above.
 ```
 
 **What unblocks this:** whether a ruling can ever again be auto-confirmed by a proof that was green before the work started
+
+**Resolution (2026-09-26 07:47):** Author: "Approved" to closing #051, #052 and #085 as "additional rule declined; existing evidence requirements remain." Decline the blanket rejection of completion checks that already pass when filed. Requests may legitimately ratify existing work; evidence must establish the particular change or decision, not merely a passing test.

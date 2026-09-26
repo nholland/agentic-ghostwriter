@@ -1,9 +1,10 @@
 ---
 id: 051
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 15:09
+resolved: 2026-09-26 07:47
 ---
 
 # Inbox #047's evidence was corrected twice now - the first correction (fixing fabricated evidence) itself carried forward a stale SHA and a wrong date, because it reused positional reflog references (@{N}) that shift on every fetch or push, and reused a number without re-running the command. Should inbox.py --add refuse an --evidence block that cites a positional git reference (@{N}, 'the Nth entry') instead of a dated SHA?
@@ -26,3 +27,5 @@ resolved correctly without a fabricated proof command attached to it.
 ```
 
 **What unblocks this:** whether inbox.py enforces dated-SHA evidence for future gw-retro items, or whether this specific recurrence is accepted as the residual cost of the 2026-09-19 07:11 decision
+
+**Resolution (2026-09-26 07:47):** Author: "Approved" to closing #051, #052 and #085 as "additional rule declined; existing evidence requirements remain." Decline the proposed automatic restriction on Git-reference wording. Such a restriction cannot establish whether the underlying evidence is correct; existing requirements for fresh, accurate evidence remain.
