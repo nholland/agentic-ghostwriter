@@ -48,7 +48,8 @@ PLATE_BLOCK = re.compile(r'^<(figure|div) class="plate">')
 PLATE_IMG = re.compile(r'(<(?:figure|div) class="plate"><img src=")([^"]+\.svg)(")')
 HTML_COMMENT = re.compile(r'^<!--.*-->$')
 PAGEBREAK_DIV = '<div class="pb"></div>'
-RAW_PASSTHROUGH = re.compile(r'^(<!--|<(figure|div) class="plate"|<div class="pb">)')
+RAW_PASSTHROUGH = re.compile(r'^(<!--|<(figure|div) class="plate"|<div class="pb">|<section class="dist distback")')
+DIST_BLOCK = re.compile(r'<section class="dist distback" data-chapter="\d+">.*?</section>', re.S)
 
 
 def rasterise_plates(md, base_dir, outdir):
@@ -71,6 +72,10 @@ def md_to_html(md):
         ln = lines[i]
         s = ln.strip()
         if not s:
+            i += 1
+            continue
+        if DIST_BLOCK.fullmatch(s):
+            out.append(s)
             i += 1
             continue
         if s in ("---", "***", "___"):
@@ -174,6 +179,7 @@ const { chromium } = require('playwright');
   const b = await chromium.launch({ executablePath: exe, args: ['--no-sandbox'] });
   const p = await b.newPage({ viewport: { width: +w, height: +h }, deviceScaleFactor: +scale });
   await p.goto('file://' + html);
+  await p.evaluate(() => document.fonts.ready);
   await p.screenshot({ path: png });
   await b.close();
 })().catch(e => { console.error(e.message); process.exit(1); });
@@ -217,6 +223,8 @@ body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
 /* ---- the reader-facing distillation after the plate ---- */
 .dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
 .dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
 .dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
         color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
 .dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
@@ -236,14 +244,8 @@ body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
 .dist li { margin:0 0 .07in; }
 
 /* ---- chapter ---- */
-/* Every h1 (Prologue, Introduction, a Part opening, a Chapter) starts a
-   fresh page in a whole-book compile, the same rule chapter_pdf.py already
-   uses. compile.py used to insert a literal "\pagebreak" marker for this
-   instead; neither renderer has ever understood that token, so it printed
-   as visible text - this is the actual mechanism, not a marker to remember
-   to strip. :first-of-type only avoids a break before the very first h1 in
-   the whole document (they are all true DOM siblings under one <section>),
-   so it does not create a blank leading page. */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
 h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
      margin:0 0 .06in; page-break-before:always; }
 h1:first-of-type { page-break-before:avoid; }
@@ -329,7 +331,15 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", b
             c += fig
         else:
             c = c.replace(marker, fig + marker, 1)
-    body.append(f"<section>{c}</section>")
+    if DIST_BLOCK.search(c):
+        start = 0
+        for match in DIST_BLOCK.finditer(c):
+            body.append('<section class="chapter-bundle">' + c[start:match.end()] + '</section>')
+            start = match.end()
+        if c[start:].strip():
+            body.append('<section>' + c[start:] + '</section>')
+    else:
+        body.append(f"<section>{c}</section>")
 
     if distillation_md and dist_at == "back":
         body.append('<section class="dist distback">'
@@ -378,9 +388,7 @@ def main():
     ap.add_argument("--chapter", required=True)
     ap.add_argument("--distillation")
     ap.add_argument("--distillation-at", choices=["back"], default="back",
-                    help="The shipped manuscript carries no distillation at all - it is "
-                         "working apparatus that feeds the back-of-book practice guide. "
-                         "Default back, and labelled, so a reader copy never opens on it.")
+                    help="The full reader-facing distillation follows the chapter and plate.")
     ap.add_argument("--plate", action="append", default=[],
                     help="SVG[::marker][::caption]; marker END appends at the end")
     ap.add_argument("--out", required=True)

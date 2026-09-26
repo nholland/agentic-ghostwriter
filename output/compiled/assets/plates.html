@@ -4,9 +4,11 @@ html { -webkit-print-color-adjust: exact; }
 body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
        margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
 
-/* ---- the distillation card, first page ---- */
+/* ---- the reader-facing distillation after the plate ---- */
 .dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
 .dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
 .dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
         color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
 .dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
@@ -26,14 +28,8 @@ body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
 .dist li { margin:0 0 .07in; }
 
 /* ---- chapter ---- */
-/* Every h1 (Prologue, Introduction, a Part opening, a Chapter) starts a
-   fresh page in a whole-book compile, the same rule chapter_pdf.py already
-   uses. compile.py used to insert a literal "\pagebreak" marker for this
-   instead; neither renderer has ever understood that token, so it printed
-   as visible text - this is the actual mechanism, not a marker to remember
-   to strip. :first-of-type only avoids a break before the very first h1 in
-   the whole document (they are all true DOM siblings under one <section>),
-   so it does not create a blank leading page. */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
 h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
      margin:0 0 .06in; page-break-before:always; }
 h1:first-of-type { page-break-before:avoid; }
@@ -191,13 +187,13 @@ h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
 <p>The upper timeline stays filled with duties that have dates attached. The lower timeline starts with acts for her, then goes quiet for a long stretch. The large open square at “tonight” marks an opportunity still available. The contrast is between what the schedule demands and what you must choose to make time for; the squares are illustrative, not measured data.</p>
 <h2 class="beat-heading">Validation question.</h2>
 <p>What accounts for the empty stretch on the lower line, and what does its final open square offer?</p></section><figure class="plate"><img src="plate-ch13.png" alt="Chapter 13"><figcaption>Chapter 13. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1 class="chapter-heading"><span class="num">Chapter 13</span>
-<strong class="chapter-title">Keep Learning What Matters to Her</strong></h1>
+<strong class="chapter-title">Keep Choosing Her in Ways She Can See</strong></h1>
 <h2 class="beat-heading">Intent.</h2>
-<p>Keep the curiosity and effort that drew you toward her when dating. Both of you are changing, so knowing her past does not replace discovering what matters to her now.</p>
+<p>Keep showing care after marriage in more than one form. Time, words, service, gifts, and touch can all continue, with attention to what she welcomes now.</p>
 <h2 class="beat-heading">Visual explanation.</h2>
-<p>Two curving arrows move together from dating toward now, representing two people continuing to change. The left copy recalls wanting to hear what she thought; the right asks what happened next. The arrows connect early curiosity with continued attention. They do not mean that you already knew her answers when dating, or that marriage makes discovery unnecessary.</p>
+<p>Five straight arrows carry the chapter’s five named forms of care from dating to now. Each remains available after marriage. The identical arrows emphasize continued effort; they do not say every form matters equally to every couple or that the five love languages are a validated matching system.</p>
 <h2 class="beat-heading">Validation question.</h2>
-<p>What should continue from dating into marriage here, and what do the two arrows suggest about the people involved?</p></section><figure class="plate"><img src="plate-part-III.png" alt="Part III"><figcaption>Part III. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1>Part III: The Warm Sun</h1>
+<p>What are these five arrows asking a husband to keep doing after marriage?</p></section><figure class="plate"><img src="plate-part-III.png" alt="Part III"><figcaption>Part III. Before turning the page: what do you think this image is saying about marriage?</figcaption></figure><section><h1>Part III: The Warm Sun</h1>
 <h2 class="beat-heading">Intent.</h2>
 <p>Offer warmth consistently through attention, affection, and generosity. Warmth invites openness without demanding gratitude or a particular response.</p>
 <h2 class="beat-heading">Visual explanation.</h2>

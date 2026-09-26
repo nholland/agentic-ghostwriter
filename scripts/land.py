@@ -162,7 +162,8 @@ def main():
         # every gate because nothing checked it at the moment it became
         # permanent. A FAIL row stops the land; --force overrides it.
         import plate_check
-        fails = [(name, det) for st, name, det in plate_check.rows(plate, chapter=n) if st == "FAIL"]
+        fails = [(name, det) for st, name, det in plate_check.rows(
+            plate, chapter=n, book_root=book_root, runs_root=os.path.join(REPO, 'runs')) if st == "FAIL"]
         if fails and not a.force:
             return refuse("plate_check.py fails on runs/%s/plate.svg (--force to land anyway): "
                           % tag + "; ".join("%s: %s" % f for f in fails))

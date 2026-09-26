@@ -1,18 +1,11 @@
 ---
 id: 088
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 13:05
-applied_by: python3 -c "
-import subprocess,re,sys,glob,os
-before=set(glob.glob(\"runs/manuscript/*\"))
-o=subprocess.run([\"python3\",\"scripts/compile.py\",\"--from\",\"1\",\"--to\",\"4\",\"--plates\",\"--no-pdf\"],capture_output=True,text=True).stdout
-for f in set(glob.glob(\"runs/manuscript/*\"))-before: os.remove(f)
-lines=[l for l in o.splitlines() if \".svg\" in l]
-ok=[l for l in lines if re.search(r\"\\b(ink|geometry|plate_check|checked)\\b\",l)]
-print(len(ok),\"of\",len(lines),\"embedded-plate lines carry a check verdict\")
-sys.exit(0 if lines and len(ok)==len(lines) else 1)"
+resolved: 2026-09-26 17:32
+applied_by: python3 tests/export_safety_cases.py
 ---
 
 # plate_check only ever runs on a source SVG a human names. Nothing runs it on the file compile.py actually selected, which is why a clipPath worry could be raised and reassured in the same paragraph without either being tested. Should compile.py --plates run plate_check on each plate it embeds and report the verdict on that plate's line?
@@ -28,3 +21,23 @@ python3 scripts/compile.py --from 1 --to 4 --plates --no-pdf prints the landed p
 ```
 
 **What unblocks this:** Whether a plate that fails plate_check can reach a reader PDF unnoticed, and whether #062 and this close together
+
+**Previous proof (retired; replaced by behavioral coverage):**
+
+```sh
+python3 -c "
+import subprocess,re,sys,glob,os
+before=set(glob.glob(\"runs/manuscript/*\"))
+o=subprocess.run([\"python3\",\"scripts/compile.py\",\"--from\",\"1\",\"--to\",\"4\",\"--plates\",\"--no-pdf\"],capture_output=True,text=True).stdout
+for f in set(glob.glob(\"runs/manuscript/*\"))-before: os.remove(f)
+lines=[l for l in o.splitlines() if \".svg\" in l]
+ok=[l for l in lines if re.search(r\"\\b(ink|geometry|plate_check|checked)\\b\",l)]
+print(len(ok),\"of\",len(lines),\"embedded-plate lines carry a check verdict\")
+sys.exit(0 if lines and len(ok)==len(lines) else 1)"
+```
+
+**Resolution (2026-09-26 17:32):** Approved. PDF exports report checks, including rendered ink, on the exact selected SVG; FAIL does not block export. No-PDF assembly explicitly labels ink unchecked. Chapter 3 margin finding is retained for design review. Evidence: runs/qa/2026-09-26-export-safety-ch01-ch13.md. No agent instructions changed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/export_safety_cases.py` exits 0.
+
+**Applied, confirmed 2026-09-26 17:33:** `python3 tests/export_safety_cases.py` now exits 0.

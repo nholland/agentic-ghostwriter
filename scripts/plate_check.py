@@ -28,6 +28,8 @@ import io
 import os
 import re
 import sys
+import tempfile
+from pathlib import Path
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
@@ -54,7 +56,16 @@ PART_CANVAS = (600, 900)
 def fonts():
     global FONTS
     if FONTS is None:
-        FONTS = {'reg': metrics(D % ''), 'ita': metrics(D % ''), 'bold': metrics(D % '-Bold')}
+        candidates = [os.environ.get('DEJAVU_FONT_DIR', ''), os.path.dirname(D)]
+        candidates += glob.glob(str(Path.home() / '.cache/codex-runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/*/*.app/Contents/Resources/fonts/truetype'))
+        directory = next((p for p in candidates if p and all(
+            os.path.isfile(os.path.join(p, 'DejaVuSerif' + suffix + '.ttf'))
+            for suffix in ('', '-Bold'))), None)
+        if directory is None:
+            raise FileNotFoundError('DejaVu Serif metrics unavailable; set DEJAVU_FONT_DIR to a directory containing DejaVuSerif.ttf and DejaVuSerif-Bold.ttf')
+        regular = metrics(os.path.join(directory, 'DejaVuSerif.ttf'))
+        FONTS = {'reg': regular, 'ita': regular,
+                 'bold': metrics(os.path.join(directory, 'DejaVuSerif-Bold.ttf'))}
     return FONTS
 
 
@@ -270,14 +281,23 @@ def corpus(chapter_dir_candidates, run_dir):
         for name in ('refined.md', 'distillation.md'):
             p = os.path.join(d, name)
             if os.path.isfile(p):
-                parts.append(io.open(p, encoding='utf-8').read())
+                text = io.open(p, encoding='utf-8').read()
+                text = re.split(r"^## (?:Editor's Notes|Editor’s Notes|Provenance)\b", text, maxsplit=1, flags=re.M)[0]
+                if name == 'distillation.md':
+                    text = '\n'.join(re.findall(
+                        r'^\*\*(?:Mechanism|Conversation sentence|Lesson|Challenge|Practice):\*\*\s*(.*?)(?=^\*\*[^\n]+:\*\*|\Z)', text, re.M | re.S))
+                parts.append(text)
     brief = os.path.join(run_dir, 'plate-brief.md')
     if os.path.isfile(brief):
-        parts.append(io.open(brief, encoding='utf-8').read())
+        text = io.open(brief, encoding='utf-8').read()
+        additions = re.search(r'^## Author additions\s*\n(.*?)(?=^## |\Z)', text, re.M | re.S)
+        if additions:
+            for line in re.findall(r'^- \d{4}-\d{2}-\d{2} \d{2}:\d{2}: (.+)$', additions.group(1), re.M):
+                parts.append(re.sub(r'\s*\[(?:reader feedback|source:|endorsed by)[^\]]*\]\s*$', '', line, flags=re.I))
     return normalise('\n'.join(parts))
 
 
-def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, render=False):
+def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, render=False, preview=None, check_preview=True):
     """[(status, name, detail)] where status is 'ok', 'WARN' or 'FAIL'.
     render=True adds the ink row, which rasterises the plate (a few seconds)."""
     out = []
@@ -291,7 +311,10 @@ def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, rend
         s = raw.decode('latin-1')
         out.append(('FAIL', 'charset', f'not UTF-8: {e}'))
     vb = viewbox(s)
-    bx = texts(s)
+    try:
+        bx = texts(s)
+    except (OSError, ValueError) as exc:
+        return out + [('FAIL', 'geometry', 'unchecked: ' + str(exc))]
 
     geo = geometry(bx, vb)
     out.append(('FAIL' if geo else 'ok', 'geometry', '; '.join(geo) if geo else 'no margin or collision rows'))
@@ -351,8 +374,8 @@ def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, rend
             if not hit:
                 loose.append(t[:40])
         out.append(('WARN' if loose else 'ok', 'grounded',
-                    'no three-word run of these appears in the chapter, its distillation or plate-brief.md: '
-                    + ', '.join(repr(t) for t in loose) if loose else 'every run of three or more words is the chapter\'s'))
+                    'no three-word run of these appears in chapter prose, distillation fields or attributed additions: '
+                    + ', '.join(repr(t) for t in loose) if loose else 'each text has a three-word match in permitted source copy'))
 
     labels = sum(1 for b in bx if b['bold'] and not b['italic'] and b['cls'] != 'ttl')
     italics = sum(1 for b in bx if b['italic'])
@@ -406,7 +429,32 @@ def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, rend
                         if hot else 'no rendered ink inside the %dpx margin bands (dark px %s)' % (margin, bands)))
         except Exception as e:
             out.append(('WARN', 'ink', 'render failed, unchecked: %s' % str(e)[:120]))
+    if preview is None and render and chapter is not None and check_preview:
+        preview = os.path.join(runs_root, 'ch%02d' % chapter, 'pdf', 'plate.png')
+    if preview is not None:
+        try:
+            current = raster_current(svg_path, preview)
+            out.append(('ok' if current else 'WARN', 'raster-current',
+                        'preview matches source pixels at its own scale' if current else 'preview missing or differs from source at its own scale'))
+        except Exception as exc:
+            out.append(('WARN', 'raster-current', 'unchecked: ' + str(exc)[:160]))
     return out
+
+
+def raster_current(svg_path, png_path):
+    """Compare decoded pixels after rendering at the cached PNG's own scale."""
+    if not os.path.isfile(png_path):
+        return False
+    from chapter_pdf_local import svg_to_png
+    cached = png_rows(png_path)
+    _, _, width, height = viewbox(Path(svg_path).read_text())
+    scale = cached[0] / int(width)
+    if scale <= 0 or abs(cached[1] - int(height) * scale) > 1:
+        return False
+    with tempfile.TemporaryDirectory(prefix='plate-current-') as tmp:
+        fresh = os.path.join(tmp, 'fresh.png')
+        svg_to_png(svg_path, fresh, scale=scale)
+        return cached == png_rows(fresh)
 
 
 def png_rows(path):
@@ -509,13 +557,14 @@ def main(argv=None):
     ap.add_argument('--part', type=int)
     ap.add_argument('--book-root')
     ap.add_argument('--runs-root')
+    ap.add_argument('--preview', help='PNG preview to compare with the selected SVG at its own scale')
     ap.add_argument('--no-render', action='store_true',
                     help='skip the ink row (the render takes a few seconds per plate)')
     a = ap.parse_args(argv)
     bad = 0
     for p in a.svg:
         print(p)
-        for status, name, detail in rows(p, a.chapter, a.part, a.book_root, a.runs_root, render=not a.no_render):
+        for status, name, detail in rows(p, a.chapter, a.part, a.book_root, a.runs_root, render=not a.no_render, preview=a.preview):
             tag = {'ok': '[ ok ]', 'WARN': '[WARN]', 'FAIL': '[FAIL]'}[status]
             print(f'  {tag} {name:<11} {detail}')
             if status == 'FAIL':

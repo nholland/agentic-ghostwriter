@@ -1,0 +1,134 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Chapter 8: When Your Marriage Feels Unfair</title><style>
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+html { -webkit-print-color-adjust: exact; }
+body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
+       margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
+
+/* ---- the reader-facing distillation after the plate ---- */
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
+.dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
+        text-align:center; line-height:1.25; margin:0 0 .08in;
+        page-break-before:avoid; }
+.dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
+        margin:.08in auto .10in; }
+.dist .mech { text-align:center; font: 600 11pt Georgia,serif;
+        letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
+.dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
+        margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
+.dist p { margin:0 0 .08in; }
+.dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
+        text-transform:uppercase; color:#5a5a5a;
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+.dist ol { margin:0 0 .1in; padding-left:.24in; }
+.dist li { margin:0 0 .07in; }
+
+/* ---- chapter ---- */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
+h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
+     margin:0 0 .06in; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h1 + hr.beat { display:none; }
+/* compile.py's marker for "start fresh page here", used before the Putting
+   It Into Practice section so a chapter's back matter never runs onto the
+   same page as its closing lines. Zero height: it does not itself print. */
+.pb { page-break-before:always; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
+p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
+p.runin { margin-top:.2in; }
+p.runin strong { font-weight:600; letter-spacing:.01em; }
+hr.beat { border:0; height:0; margin:.24in auto; width:1.1in;
+     border-top:.6pt solid #cfcfcf; }
+blockquote { margin:.22in .42in; padding-left:.2in; border-left:1.2pt solid #d4d4d4; }
+blockquote.pull { margin:.26in .3in; padding:0 0 0 .22in;
+     border-left:1.6pt solid #c9c9c9; page-break-inside:avoid; }
+blockquote.pull p { font: italic 11pt/1.56 Georgia,serif; }
+blockquote cite { display:block; font: normal 9pt Georgia,serif; font-style:normal;
+     color:#6a6a6a; margin-top:.09in; letter-spacing:.02em; }
+blockquote p { font: italic 10.5pt/1.55 Georgia,serif; color:#2f2f2f;
+     text-align:left; text-indent:0; margin:0; }
+em { font-style:italic; }
+strong { font-weight:600; }
+
+/* ---- plate ---- */
+/* A plate is a page a reader flips to, not a figure sitting in the running
+   text - full isolation, same treatment the Part closing plates already
+   get. Centred vertically as well as horizontally since it now owns the
+   whole page. */
+figure.plate { margin:0; text-align:center; page-break-before:always;
+     page-break-after:always; page-break-inside:avoid;
+     min-height:7.3in; display:flex; flex-direction:column;
+     align-items:center; justify-content:center; }
+figure.plate img { max-width:100%; max-height:6.8in; height:auto; }
+figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
+     margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
+.dropfirst::first-letter { font-size:1em; }
+
+
+h1.chapter-heading { font-family: Georgia, 'Times New Roman', serif;
+  font-size:20pt; font-weight:700; line-height:1.25; letter-spacing:normal;
+  margin:0 0 .30in; padding:0; border:0; text-indent:0;
+  break-after:avoid; page-break-after:avoid; }
+h1.chapter-heading .num { display:block; font-size:10pt; font-weight:400;
+  letter-spacing:normal; text-transform:none; color:#444; margin:0 0 .12in; }
+h1.chapter-heading .chapter-title { display:block; font-size:20pt;
+  font-weight:700; letter-spacing:normal; text-transform:none; }
+h1 + p, h1 + hr + p, h2 + p, h3 + p { text-indent:0; }
+/* Shared reading format: ordinary paragraphs are flush left, never indented. */
+p, p + p, p.runin, p.runin + p { text-indent:0; text-align:left; }
+h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
+  letter-spacing:normal; text-transform:none; color:inherit;
+  margin:.20in 0 .10in; padding:0; border:0;
+  break-after:avoid; page-break-after:avoid; }
+</style></head><body><section><h1 class="chapter-heading"><span class="num">Chapter 8</span>
+<strong class="chapter-title">When Your Marriage Feels Unfair</strong></h1>
+<hr class="beat">
+<p>The last chapter took the private tally apart. This one is about what the tally could never read, the part underneath it. And what to do once you feel it break the surface.</p>
+<hr class="beat">
+<h2 class="beat-heading">Not one moment.</h2>
+<p>What lands on you as “this is unfair” almost never arrives as one clean grievance. It’s built out of many smaller things you didn’t count at the time because each one was too small to name. A critique that stung a little more than she meant it to. A weekend of work she didn’t seem to notice. A morning where you swallowed something to keep the peace. Individually, each one is nothing. Together, over weeks, they add weight to an invisible scale. One day something small tips it, and the feeling that arrives seems to come from nowhere.</p>
+<p>That’s the first thing to see clearly. What feels sudden almost never is. You just notice it late. The small stuff underneath has been landing for a long time before it ever reaches the surface.</p>
+<hr class="beat">
+<h2 class="beat-heading">Different shapes.</h2>
+<p>The shape of what’s underneath varies from marriage to marriage, more than most books admit. You might be in the traditional configuration: not the earner, or earning less, doing more of the visible home tasks. That work goes uncredited because she’s measuring by a different standard than you are.</p>
+<p>Or it looks the opposite for you. You hold the primary income, or the harder job, and what you contribute goes invisible because it happens offstage. Its output, a mortgage payment, insurance, retirement money that doesn’t exist yet, doesn’t visually compete with a clean kitchen.</p>
+<p>Or you’re both working. You do more of the physical household work. She owns a whole different domain that’s just as demanding but unseen: the kids’ schooling, their activities, the medical appointments. You don’t carry that channel’s mental load. She does. That third shape isn’t clean at all for you. It’s task volume and recognition tangled together at once.</p>
+<p>You know which shape yours is. What matters is that the mechanism is the same in all three. Many small things you didn’t count at the time, and no one else counting them either.</p>
+<hr class="beat">
+<h2 class="beat-heading">When it lands on you.</h2>
+<p>Sooner or later she’ll name one. She’ll say the thing she’s been carrying. You’ll feel the shape of an accusation, and everything in you will want to defend or counter. Before you do either, run one question at the moment before you speak.</p>
+<p>Marcus Aurelius has a passage in <em>Meditations</em>, Book 5, section 28. Most men read it for a different reason, but it’s the right tool here. He’s writing to himself about how to think about a person whose fault is a small physical offense: “Art thou angry with him whose armpits stink? Art thou angry with him whose mouth smells foul? What good will this anger do thee? He has such a mouth, he has such armpits: it is necessary that such an emanation must come from such things.” The point isn’t the smell. The point is that anger is the wrong response to a fact. The honest thing to do is check whether the fact is actually real.</p>
+<p>So when she names an unfairness, the diagnostic is a question you speak to yourself first. Is what she’s saying true, or not true?</p>
+<p>Say it’s true, even partly, even in a shape you didn’t see until she said it out loud. If so, the work in front of you is not an apology performance. It’s a construction project: real change, in the thing you actually fix, over time she can watch you fix it. An apology by itself won’t answer what she’s actually named. Different behavior will.</p>
+<p>Or say it isn’t true. She might be missing something she hasn’t yet looked at, seeing only her side because that’s the side she can see. She’s very likely not being cruel. She’s being unreflective, the same way you have been unreflective about her side a hundred times over. That calls for a quieter response than counterattack, and a slower one than a competing list. A plain sentence, said without heat: this is what I don’t think you’re seeing. Marcus’s rule holds either way. Anger at what emanates from another person’s blind spot is a waste. The correction, if it comes, comes without heat.</p>
+<hr class="beat">
+<h2 class="beat-heading">When it’s yours.</h2>
+<p>The harder direction is when the felt unfairness is your own. You’ve done real work. It met real needs. Nobody in the house seems to have noticed. You feel the pull to say something, or worse, to say nothing while quietly running a count.</p>
+<p>Before either belief does its work, take the pause you already know how to take. The moment goes back to Chapter 1: three seconds, then the question. Am I being the best husband I can be right now, uncredited or not? The pause doesn’t make the feeling disappear. It just keeps it from turning into a pointed comment, a flat tone, a door closed a little harder than it needed to be, before you’ve had the chance to answer what’s actually underneath it.</p>
+<p>Once you’ve taken the pause, you already have the belief-level tool for what’s underneath. You had it last chapter. Marcus Aurelius, closing Chapter 7, told you not to reach for a third thing beyond the doing and the need it met. No credit, no return, no ledger entry. That was one Stoic naming the mechanism from one angle. What follows is another, making the same case from a different angle, so you carry the argument in stereo.</p>
+<p>Seneca spends Letter 81 of his Letters to Lucilius on this exact question, on benefits and what the giver is actually owed. His answer: “The reward for all the virtues lies in the virtues themselves… the wages of a good deed is to have done it.” That’s the whole transaction. You did the thing. It met a need. It landed. The payment already cleared, at the moment of the doing. Her active gratitude for it belongs to a separate transaction. Wanting her to see it is human. Requiring her to see it, so your own sense of yourself can settle, hands her a lever nobody should be holding on your behalf.</p>
+<p>Two philosophers, one point, coming at you from two directions on purpose: the finished good deed doesn’t need a receipt.</p>
+<hr class="beat">
+<h2 class="beat-heading">Gratitude, standing.</h2>
+<p>There’s an asymmetry inside a marriage worth naming here. Grievance is contagious. The moment one of you names a felt injustice, the other opens a competing ledger. Who’s more tired. Who’s given up more. Who’s been let down worse. Neither of you can hear the other, because you’re each defending a different account. Gratitude has never once done that. Nobody has ever answered a partner’s grievance with a competing round of thanks, racing to prove they’re more served, more fortunate. The one-way traffic tells you which of the two is safe to keep in the house.</p>
+<p>Which brings the last chapter’s closing arithmetic back around. Give sixty, expect forty. Not because the math is fair, but because expecting less means you aren’t the one keeping a quiet count in the first place. Genuinely grateful for what your wife carries, most of which you cannot see, you’re not the man who wakes up feeling shortchanged.</p>
+<p>One more kind of unfairness runs underneath all of this. It isn’t about labor or money or recognition. It’s about temperament, how much of the emotional room in the house one of you takes up at any given moment. The next chapter takes that one on.</p>
+<p>Keep gratitude standing in the doorway, and nothing quiet ever gets the chance to build a case against her.</p>
+<hr class="beat"><figure class="plate"><img src="ch08-plate.png" width="640" height="352" alt=""></figure></section><section class="dist distback"><p class="kicker">Put it into practice</p><h1>Chapter 8 Distillation — When Your Marriage Feels Unfair</h1><div class="rule"></div>
+<p class="runin"><strong>Mechanism:</strong> The Tipping Scale</p>
+<p class="runin"><strong>Conversation sentence:</strong> Unfairness rarely arrives as one moment. It’s small things you never counted, tipping quietly until you finally feel the weight.</p>
+<p>Felt unfairness is almost never one clean grievance. It’s dozens of small, uncounted things tipping an invisible scale until it breaks the surface, and once it does, the right response depends on direction: Marcus Aurelius’s true-or-not-true test when it’s her complaint landing on you, and Seneca’s teaching that a good deed pays itself the moment it’s done when the feeling is your own.</p>
+<p class="runin"><strong>Lesson:</strong> Two Stoic tools for two directions. When her complaint lands on you, Marcus Aurelius’s test: is what she’s naming true, or not? When the uncredited work is yours, Seneca’s: the deed already paid itself, the moment it was done. No third thing to wait for.</p>
+<p class="runin"><strong>Challenge:</strong> What feels sudden almost never is. The small stuff, an uncredited weekend, a comment that stung more than she meant, a morning you swallowed something, has usually been landing for weeks before the day it finally breaks the surface.</p>
+<h2>Practice</h2>
+<ol><li>When something stings, name it to yourself right then. An irritation you’ve named loses its power to quietly compound.</li><li>On a regular rhythm, monthly, or whenever a season changes, name explicitly whether the current imbalance is temporary (a hard stretch that will pass) or structural (the new normal). Don’t wait for resentment to force the question.</li><li>When you’ve done something real and nobody’s noticed, remind yourself the work already paid itself the moment it was finished. You don’t need her gratitude to know it counted.</li></ol></section></body></html>

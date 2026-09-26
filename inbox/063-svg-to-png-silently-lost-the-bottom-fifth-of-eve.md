@@ -1,10 +1,11 @@
 ---
 id: 063
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 17:38
-applied_by: grep -rq 'bottom band' tests/
+resolved: 2026-09-26 17:32
+applied_by: python3 tests/export_safety_cases.py --render
 ---
 
 # svg_to_png silently lost the bottom fifth of every plate capture while the PNG dimensions stayed correct. Should tests/run.py carry a raster fixture that counts ink in the bottom band?
@@ -20,3 +21,15 @@ old path (chrome --window-size): png 600x600, dark px in rows 570..600 = 0. new 
 ```
 
 **What unblocks this:** Whether the rasteriser's correctness is proven by a re-runnable case or by a 77-word docstring
+
+**Previous proof (retired; replaced by behavioral coverage):**
+
+```sh
+grep -rq 'bottom band' tests/
+```
+
+**Resolution (2026-09-26 17:32):** Approved. Bottom-edge raster coverage now counts ink at 2x and 3x, and capture waits for fonts. Chromium rendering cases pass. Evidence: runs/qa/2026-09-26-export-safety-ch01-ch13.md. No agent instructions changed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/export_safety_cases.py --render` exits 0.
+
+**Applied, confirmed 2026-09-26 17:32:** `python3 tests/export_safety_cases.py --render` now exits 0.

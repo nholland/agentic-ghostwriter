@@ -13,7 +13,7 @@ The distillation case is the one that named the rule. The earlier book compile
 lifted only the Practice block and put a full distillation on page one of a
 chapter PDF. The chapter PDF now puts the full distillation after the prose and
 plate as a reader-facing close, following the author's 2026-09-24 clarification.
-The whole-book compile still needs to adopt that sequence.
+The whole-book compile uses the same sequence within each chapter bundle.
 
 REWRITTEN 2026-09-18 (#025). The first version matched `<section\b[^>]*>` with a
 flat regex and read `class="..."` only - six escapes reached the author's own
@@ -47,6 +47,7 @@ EXIT
     2  bad usage / unreadable input
 """
 import sys
+import re
 from html.parser import HTMLParser
 
 # Headings that are working apparatus. A reader must never meet one.
@@ -114,8 +115,12 @@ class _Walker(HTMLParser):
         self.stack = [self.root]
         self._heading_stack = []   # [tag, buffer] while inside h1-h6
         self.all_dist_nodes = []
+        self.visible_text = []
+        self.hidden = 0
 
     def handle_starttag(self, tag, attrs):
+        if tag in ('head', 'script', 'style'):
+            self.hidden += 1
         d = dict(attrs)
         if tag in CONTAINER_TAGS:
             classes = set((d.get("class") or "").split())
@@ -131,6 +136,8 @@ class _Walker(HTMLParser):
         pass  # self-closing tags carry no text or nesting relevant here
 
     def handle_endtag(self, tag):
+        if tag in ('head', 'script', 'style'):
+            self.hidden = max(0, self.hidden - 1)
         if tag in HEADING_TAGS and self._heading_stack and self._heading_stack[-1][0] == tag:
             t, buf = self._heading_stack.pop()
             text = "".join(buf).strip()
@@ -139,6 +146,8 @@ class _Walker(HTMLParser):
             self.stack.pop()
 
     def handle_data(self, data):
+        if not self.hidden:
+            self.visible_text.append(data)
         if self._heading_stack:
             self._heading_stack[-1][1].append(data)
         elif self.stack[-1] is not self.root:
@@ -154,6 +163,9 @@ def check(path):
     fails = []
     w = _Walker()
     w.feed(html)
+    visible = ''.join(w.visible_text)
+    if re.search(r'\\(?:pagebreak|newpage)\b|<!--|-->|<(?:div|section|figure|img)\b', visible, re.I):
+        fails.append('leaked markup in visible reader text')
     top = w.root.children()
 
     # 1. The package opens on the chapter, never on its closing distillation,
@@ -182,19 +194,22 @@ def check(path):
     #    chapter section is "last" by index while more chapter prose follows
     #    it on the actual page.
     for node in w.all_dist_nodes:
-        if node.parent is not w.root:
+        bundle = 'chapter-bundle' in node.parent.classes
+        if node.parent is not w.root and not bundle:
             fails.append(f"a distillation section is nested inside <{node.parent.tag}>, "
                          "not a standalone top-level element")
         elif node.parent.text_after(node):
             fails.append("a distillation section is followed by more top-level "
                          "content; it must be last")
+        if bundle and not node.parent.has_h1:
+            fails.append('chapter bundle has no chapter heading before its distillation')
 
     # 3. The distillation is the reader-facing close and is introduced as such.
     if w.all_dist_nodes:
-        if not any("distback" in n.classes for n in w.all_dist_nodes):
+        if not all("distback" in n.classes for n in w.all_dist_nodes):
             fails.append("a distillation section is not marked distback")
-        if not any(kind == "text" and val.strip() == "Put it into practice"
-                   for node in w.all_dist_nodes for kind, val in node.events):
+        if not all(any(kind == "text" and val.strip() == "Put it into practice"
+                       for kind, val in node.events) for node in w.all_dist_nodes):
             fails.append("reader-facing distillation lacks its practice introduction")
         if "Not part of the chapter" in html:
             fails.append("reader-facing distillation is mislabeled as working notes")

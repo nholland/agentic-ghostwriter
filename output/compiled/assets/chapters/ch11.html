@@ -4,9 +4,11 @@ html { -webkit-print-color-adjust: exact; }
 body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
        margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
 
-/* ---- the distillation card, first page ---- */
+/* ---- the reader-facing distillation after the plate ---- */
 .dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
 .dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
 .dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
         color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
 .dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
@@ -26,14 +28,8 @@ body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
 .dist li { margin:0 0 .07in; }
 
 /* ---- chapter ---- */
-/* Every h1 (Prologue, Introduction, a Part opening, a Chapter) starts a
-   fresh page in a whole-book compile, the same rule chapter_pdf.py already
-   uses. compile.py used to insert a literal "\pagebreak" marker for this
-   instead; neither renderer has ever understood that token, so it printed
-   as visible text - this is the actual mechanism, not a marker to remember
-   to strip. :first-of-type only avoids a break before the very first h1 in
-   the whole document (they are all true DOM siblings under one <section>),
-   so it does not create a blank leading page. */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
 h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
      margin:0 0 .06in; page-break-before:always; }
 h1:first-of-type { page-break-before:avoid; }
@@ -160,7 +156,7 @@ h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
 <p>Before you decide that nothing can change, try the conversations and help you’ve been putting off. Write down what you want to say if you struggle to explain it. Make time together without interruptions. Consider a communication class or therapy if you keep getting stuck. A weekend away may give you time to talk, but you still have to talk.</p>
 <p>An honest request may not get the answer you want. It gives both of you a chance to understand the problem. The next decision can then be based on a conversation you’ve actually had.</p>
 <hr class="beat">
-<p>Tell her what bothered you while you can still talk about that one moment, then listen to what she says.</p><figure class="plate"><img src="ch11-plate.png" width="640" height="376" alt=""></figure></section><section class="dist distback"><p class="kicker">Not part of the chapter &middot; working notes</p><h1>Chapter 11 Distillation: Speak or Endure</h1><div class="rule"></div>
+<p>Tell her what bothered you while you can still talk about that one moment, then listen to what she says.</p><figure class="plate"><img src="ch11-plate.png" width="640" height="376" alt=""></figure></section><section class="dist distback"><p class="kicker">Put it into practice</p><h1>Chapter 11 Distillation: Speak or Endure</h1><div class="rule"></div>
 <p class="runin"><strong>Mechanism:</strong> The Conversation She’s Never Heard</p>
 <p class="runin"><strong>Conversation sentence:</strong> You keep arguing with her in your head, but you haven’t told her what’s bothering you.</p>
 <p>Some problems need a conversation or a practical step. Some hardships have to be lived through even when you’re doing what you can. Some annoyances can be left alone. Decide which you’re facing before you choose silence. If a problem needs discussing, tell her what it is while you can still speak kindly and listen.</p>

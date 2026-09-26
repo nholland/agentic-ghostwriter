@@ -1,9 +1,11 @@
 ---
 id: 103
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-09-24 17:34
+resolved: 2026-09-26 17:33
+applied_by: $HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/verify_reader_exports.py
 ---
 
 # Align all reader exports to the approved Chapter, Plate, full Distillation sequence?
@@ -23,3 +25,9 @@ $ rg -n 'pr = practice|Putting It Into Practice' scripts/compile.py
 ```
 
 **What unblocks this:** Consistent reader-facing chapter packets and final manuscript before delivery.
+
+**Resolution (2026-09-26 17:33):** Approved. All thirteen chapter packets and the whole book now use prose, plate, full reader-facing distillation, with fresh chapter starts and intact headings. Regenerated sixteen PDFs; verified complete source text and page order, and inspected rendered pages. Chapter 13 and draft plate approval states are unchanged. Evidence: runs/qa/2026-09-26-export-safety-ch01-ch13.md. No agent instructions changed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/verify_reader_exports.py` exits 0.
+
+**Applied, confirmed 2026-09-26 17:33:** `$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/verify_reader_exports.py` now exits 0.

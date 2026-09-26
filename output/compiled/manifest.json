@@ -1,5 +1,5 @@
 {
-  "built": "2026-09-24T01:45:15.021896-05:00",
+  "built": "2026-09-26T17:31:38.991052-05:00",
   "coverage": "Prologue, Introduction, Chapters 1-13, relevant Arc openings and plates",
   "unapproved_chapters": [
     13
@@ -41,12 +41,20 @@
     "books/the-stoic-husband/chapters/ch12/refined.md": "14a83227f3a2dc6d2b9377ed3293b22a8183acf00ed8a3bd61535f29d99fc893",
     "books/the-stoic-husband/chapters/ch12/distillation.md": "95e7814ae1e73c53d49558a8bae7bf0dc7dda4ad0fc3fdf694c9db6fe2edb3c5",
     "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
-    "runs/ch13/refined.md": "6a6d4d52e9bdd1db248b1417e467714c71f714712e70657ae7acc9fa7bf5de26",
-    "runs/ch13/distillation.md": "03e5e3b5e9b68aa9c939e8e50fac288b0e4bd07b22ecb8f167c9ea05b9a17769",
-    "runs/ch13/plate.svg": "651a9e7617515aa8f26b71e69c67ccadc9242f9a43440939389cea429432794b"
+    "runs/ch13/refined.md": "916cd18459a5f64812fa9a49d46e04589045cafe72e398afa6998de3216919b1",
+    "runs/ch13/distillation.md": "99b085ebe04217d5e0d5d61ed23f88e8022362fccf36c82a06dde9937508c4c7",
+    "runs/ch13/plate.svg": "043cb020be67481978e24c46c767ae6230729d6c71031882d83172df94518941"
   },
   "outputs": [
     "book.pdf",
+    "chapters/ch01.pdf",
+    "chapters/ch02.pdf",
+    "chapters/ch03.pdf",
+    "chapters/ch04.pdf",
+    "chapters/ch05.pdf",
+    "chapters/ch06.pdf",
+    "chapters/ch07.pdf",
+    "chapters/ch08.pdf",
     "chapters/ch09.pdf",
     "chapters/ch10.pdf",
     "chapters/ch11.pdf",
@@ -55,52 +63,8 @@
     "distillations.pdf",
     "plates.pdf"
   ],
-  "plates": {
-    "ch01": {
-      "approved_identical_copy": false
-    },
-    "ch02": {
-      "approved_identical_copy": false
-    },
-    "ch03": {
-      "approved_identical_copy": false
-    },
-    "ch04": {
-      "approved_identical_copy": false
-    },
-    "ch05": {
-      "approved_identical_copy": false
-    },
-    "ch06": {
-      "approved_identical_copy": false
-    },
-    "ch07": {
-      "approved_identical_copy": false
-    },
-    "ch08": {
-      "approved_identical_copy": false
-    },
-    "ch09": {
-      "approved_identical_copy": false
-    },
-    "ch10": {
-      "approved_identical_copy": false
-    },
-    "ch11": {
-      "approved_identical_copy": false
-    },
-    "ch12": {
-      "approved_identical_copy": false
-    },
-    "ch13": {
-      "approved_identical_copy": false
-    }
-  },
-  "retained_without_reformatting": [
-    "chapters/ch09.pdf",
-    "chapters/ch10.pdf"
-  ],
   "plate_packet": {
+    "built": "2026-09-26T17:31:38.990693-05:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -175,7 +139,7 @@
       },
       {
         "id": "ch13",
-        "title": "Keep Learning What Matters to Her",
+        "title": "Keep Choosing Her in Ways She Can See",
         "approved_identical_copy": false
       },
       {
@@ -200,10 +164,50 @@
       "runs/ch11/plate.svg": "d02f4fe6a929ff7e038710ec9f71e72d34a13a0680d4e398571a40ab3963f0c3",
       "books/the-stoic-husband/parts/plate-2-sturdy-oak.svg": "f516b87ea7ff924f0e7c026dc3234e9ab13908809d8ceaa21f4ab05e11f9082e",
       "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
-      "runs/ch13/plate.svg": "651a9e7617515aa8f26b71e69c67ccadc9242f9a43440939389cea429432794b",
+      "runs/ch13/plate.svg": "043cb020be67481978e24c46c767ae6230729d6c71031882d83172df94518941",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
-      "runs/design/plate-briefs.md": "193bfea71b5838b8b612f05324761a92003b28ec3bebddb019ea2abd7036df5d"
+      "runs/design/plate-briefs.md": "b0532820db3f02be053f8588c0a91ae876ae5f176c1ded4787bc803df714a5e7"
+    }
+  },
+  "plates": {
+    "ch01": {
+      "approved_identical_copy": false
     },
-    "built": "2026-09-24T01:56:51.854595-05:00"
+    "ch02": {
+      "approved_identical_copy": false
+    },
+    "ch03": {
+      "approved_identical_copy": false
+    },
+    "ch04": {
+      "approved_identical_copy": false
+    },
+    "ch05": {
+      "approved_identical_copy": false
+    },
+    "ch06": {
+      "approved_identical_copy": false
+    },
+    "ch07": {
+      "approved_identical_copy": false
+    },
+    "ch08": {
+      "approved_identical_copy": false
+    },
+    "ch09": {
+      "approved_identical_copy": false
+    },
+    "ch10": {
+      "approved_identical_copy": false
+    },
+    "ch11": {
+      "approved_identical_copy": false
+    },
+    "ch12": {
+      "approved_identical_copy": false
+    },
+    "ch13": {
+      "approved_identical_copy": false
+    }
   }
 }

@@ -1,10 +1,11 @@
 ---
 id: 082
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 12:43
-applied_by: PYTHONPATH=scripts python3 -c 'import plate_check as p; f=getattr(p,"raster_current",None); raise SystemExit(1 if f is None else (0 if f("runs/ch01/plate.svg","runs/ch01/pdf/plate.png") and not f("runs/ch01/plate.svg","runs/ch02/pdf/plate.png") else 1))'
+resolved: 2026-09-26 17:32
+applied_by: python3 tests/export_safety_cases.py --render
 ---
 
 # The Panel's stale-raster claim was confirmed by a hash test that compared a scale-3 re-render against a scale-2 cached file, so it could not have returned anything but 'stale'. The rasters were current then and are current now. Should plate_check.py gain raster_current(svg, png), deriving scale from the PNG's own dimensions, so freshness is answered by a check rather than an ad-hoc comparison?
@@ -20,3 +21,15 @@ ch01 cached=(1280,680) fresh-at-default=(1920,1020) -> mismatch. Re-rendered at 
 ```
 
 **What unblocks this:** Whether 'is the plate the author is looking at the current plate' is answerable mechanically
+
+**Previous proof (retired; replaced by behavioral coverage):**
+
+```sh
+PYTHONPATH=scripts python3 -c 'import plate_check as p; f=getattr(p,"raster_current",None); raise SystemExit(1 if f is None else (0 if f("runs/ch01/plate.svg","runs/ch01/pdf/plate.png") and not f("runs/ch01/plate.svg","runs/ch02/pdf/plate.png") else 1))'
+```
+
+**Resolution (2026-09-26 17:32):** Approved. Preview freshness derives scale from the PNG and compares decoded pixels. The checker calls it; current and changed previews are covered. Renderer errors remain unchecked warnings. Evidence: runs/qa/2026-09-26-export-safety-ch01-ch13.md. No agent instructions changed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/export_safety_cases.py --render` exits 0.
+
+**Applied, confirmed 2026-09-26 17:32:** `python3 tests/export_safety_cases.py --render` now exits 0.

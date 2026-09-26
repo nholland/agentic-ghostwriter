@@ -19,7 +19,7 @@ WHY THIS IS A SCRIPT
     which is the failure LEARNINGS.md closes everywhere else with a script.
 
 WHAT IT ASSERTS BEFORE IT CLAIMS SUCCESS
-    Every Part opening the range crosses is present; one Practice section per
+    Every Part opening the range crosses is present; one full distillation per
     in-range distillation; no apparatus; chapters in order. A delta is relative
     and cannot see a defect that is already in the baseline, so these are
     absolute checks against the outline and the files on disk.
@@ -107,6 +107,28 @@ def plate_block(kind, svg, md_dir, alt):
     rel = os.path.relpath(svg, md_dir).replace(os.sep, "/")
     tag = "figure" if kind == "chapter" else "div"
     return '<%s class="plate"><img src="%s" alt="%s"></%s>' % (tag, rel, alt, tag)
+
+
+def selected_plate_report(svg, chapter=None, part=None, book_root=None, render=False):
+    """Report the selected file's defects without silently substituting a draft."""
+    import plate_check
+    try:
+        checks = plate_check.rows(svg, chapter=chapter, part=part, book_root=book_root,
+                                  runs_root=os.path.join(REPO, 'runs'), render=render, check_preview=False)
+        issues = ['%s %s: %s' % row for row in checks if row[0] != 'ok']
+        if not render:
+            issues.append('UNCHECKED ink (no PDF requested)')
+        return 'plate_check: ' + ('; '.join(issues) if issues else 'ok (%d rows)' % len(checks))
+    except Exception as exc:
+        return 'plate_check: UNCHECKED: ' + str(exc)
+
+
+def full_distillation_block(prose_path, dist_path):
+    from chapter_pdf_local import distillation_html
+    n, _, dist = draft_inputs(prose_path, dist_path)
+    # A single raw block survives the Markdown renderer without being re-parsed.
+    return ('<section class="dist distback" data-chapter="%d">' % n
+            + distillation_html(dist, 'Put it into practice').replace('\n', '') + '</section>')
 
 
 def strip_apparatus(text):
@@ -262,7 +284,7 @@ def main():
     pieces, sections, missing_part_files = [], [], []
     plates = []   # (label, svg, landed) in page order
     plate_missing = []
-    outdir = os.path.abspath(a.outdir)
+    outdir = os.path.realpath(a.outdir)
     os.makedirs(outdir, exist_ok=True)
 
     for key in PRECURSORS:
@@ -292,14 +314,8 @@ def main():
                     plates.append(("ch%02d" % n, svg, landed))
                 else:
                     plate_missing.append("ch%02d" % n)
-            pr = practice(os.path.join(d, "distillation.md"))
-            if pr:
-                # The pb marker, not a "## Putting It Into Practice" heading
-                # alone: a heading has no page-break CSS of its own (other
-                # h2s appear inside chapter prose, e.g. the Introduction's
-                # sub-sections, and must NOT force a break), so the section
-                # needs its own explicit break point.
-                body += "\n\n<div class=\"pb\"></div>\n\n## Putting It Into Practice\n\n" + pr + "\n"
+            body += '\n\n' + full_distillation_block(
+                os.path.join(d, 'refined.md'), os.path.join(d, 'distillation.md')) + '\n'
             pieces.append(body)
             sections.append("ch%02d" % n)
         if a.plates and in_part:
@@ -335,12 +351,7 @@ def main():
                       ", ".join(plate_missing) or "none"))
     header += "<!-- Unapproved chapter runs: %s. -->\n\n" % a.include_run
 
-    # No manual page-break marker between pieces: every piece (a precursor,
-    # a Part opening, a chapter) starts with its own h1, and h1 already
-    # forces a fresh page in both renderers' CSS. The literal "\pagebreak"
-    # text this used to insert here was never interpreted by either
-    # renderer - neither has ever defined that token - so it printed
-    # verbatim as visible text on the page instead of breaking anything.
+    # The renderer's heading and bundle CSS supplies page breaks.
     md = header + "\n\n".join(pieces) + "\n"
     stem = "prologue-ch%02d" % hi if lo == 1 else "ch%02d-ch%02d" % (lo, hi)
     if a.plates:
@@ -355,11 +366,9 @@ def main():
             key = os.path.splitext(os.path.basename(opening))[0].split("-", 2)[-1]
             if key.replace("-", " ").lower() not in md.lower():
                 problems.append("PART %s opening did not reach the manuscript" % numeral)
-    want = sum(1 for n in have
-               if practice(os.path.join(chapter_dir(n), "distillation.md")))
-    got = md.count("## Putting It Into Practice")
-    if got != want:
-        problems.append("%d Practice sections, but %d chapters have one" % (got, want))
+    distilled = [int(n) for n in re.findall(r'<section class="dist distback" data-chapter="(\d+)">', md)]
+    if distilled != have:
+        problems.append('full distillations out of order or missing: %s; expected %s' % (distilled, have))
     if re.search(APPARATUS, md, re.M | re.I):
         problems.append("apparatus reached the manuscript")
     order = [int(x) for x in re.findall(r"^#\s*Chapter\s+(\d+)", md, re.M)]
@@ -390,7 +399,10 @@ def main():
               % (len(plates), sum(1 for p in plates if p[2]),
                  sum(1 for p in plates if not p[2]), ", ".join(plate_missing) or "none"))
         for lab, svg, ok in plates:
-            print("    %-8s %-6s %s" % (lab, "landed" if ok else "DRAFT", os.path.relpath(svg, REPO)))
+            chapter = int(lab[2:]) if lab.startswith('ch') else None
+            part = ROMAN[lab.split()[1]] if lab.startswith('PART ') else None
+            print("    %-8s %-6s %s | %s" % (lab, "landed" if ok else "DRAFT", os.path.relpath(svg, REPO),
+                  selected_plate_report(svg, chapter, part, B, render=not a.no_pdf)))
 
     if a.no_pdf:
         return 0

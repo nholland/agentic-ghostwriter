@@ -37,6 +37,7 @@ def chapter(book, n, include_runs=()):
     actual_n, prose, dist = assembly.draft_inputs(src / 'refined.md', src / 'distillation.md')
     assert actual_n == n, 'Chapter source number mismatch'
     svg = ROOT / 'runs' / f'ch{n:02}' / 'plate.svg'
+    print(f'  {svg}: {assembly.selected_plate_report(str(svg), chapter=n, book_root=str(book), render=True)}')
     plates = [plate(svg, out.parent / f'ch{n:02}-plate.png')]
     renderer.build(prose, dist, plates, str(out), prose.splitlines()[0].lstrip('# ') +
                    (' (author review)' if n in include_runs else ''), base_dir=str(src))
@@ -56,13 +57,10 @@ def main():
     chapters = sorted({int(p.parent.name[2:]) for p in (book/'chapters').glob('ch[0-9][0-9]/refined.md')} | set(args.include_run))
     assert chapters == list(range(1, max(chapters)+1)), 'Missing chapter in collection'
     outputs = [chapter(book, n, args.include_run) for n in (args.chapters or chapters)]
-    command = [sys.executable, str(ROOT/'scripts/compile.py'), '--plates', '--no-pdf', '--outdir', str(OUT/'assets')]
+    command = [sys.executable, str(ROOT/'scripts/compile.py'), '--plates', '--outdir', str(OUT/'assets')]
     for n in args.include_run:
         command += ['--include-run', str(n)]
     subprocess.run(command, check=True)
-    manuscript = OUT/'assets/manuscript.md'
-    renderer.build(manuscript.read_text(), None, [], str(OUT/'book.pdf'),
-                   f'The Stoic Husband: through Chapter {max(chapters)} (author review)', base_dir=str(manuscript.parent))
     subprocess.run([sys.executable, str(ROOT/'scripts/package_check.py'), str(OUT/'book.html')], check=True)
     dist_html, sources = [], {}
     for n in chapters:
@@ -91,7 +89,7 @@ def main():
         '# Current compiled copies\n\n'
         + f'Coverage: {manifest["coverage"]}. This is the available book, not all 29 planned chapters.\n\n'
         + f'Unapproved chapter inputs: {args.include_run or "none"}. Plate approval status is recorded in manifest.json.\n\n'
-        + '- [Book](book.pdf): prose, chapter/Arc plates, and chapter practices.\n'
+        + '- [Book](book.pdf): each chapter’s prose, plate, and full distillation, with Arc openings and closing plates.\n'
         + '- [Distillations](distillations.pdf): full chapter distillations in order.\n'
         + '- [Plates](plates.pdf): chapter and Arc plates, each followed by its maintained plain-language explanation.\n'
         + '\nChapter PDFs include plate and distillation when built by compile_current.py:\n\n'

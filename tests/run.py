@@ -1540,7 +1540,8 @@ def main():
     from manual_description_cases import manual_description_cases
     from prove_inbox_duplicate import inbox_duplicate_cases
     from prove_land_unrelated_main import land_ancestry_cases
-    rows = (inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    from export_safety_cases import export_safety_cases
+    rows = (export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
