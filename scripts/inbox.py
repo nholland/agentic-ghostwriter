@@ -113,12 +113,30 @@ def parse(path):
     }
 
 
+def require_unique_ids(items):
+    """Reject collisions before selecting a record or executing any proof."""
+    by_id = {}
+    for item in items:
+        number = item.get("id")
+        if number is None:
+            continue
+        key = str(int(number)) if number.isdigit() else number
+        by_id.setdefault(key, []).append(item["path"])
+    duplicates = {key: paths for key, paths in by_id.items() if len(paths) > 1}
+    if duplicates:
+        details = "; ".join("#%s: %s" % (key, ", ".join(paths))
+                            for key, paths in sorted(duplicates.items()))
+        raise ValueError("duplicate inbox IDs; assign unique IDs before proceeding: " + details)
+
+
 def load_all():
     items = [parse(p) for p in sorted(glob.glob(os.path.join(INBOX, "*.md")))]
+    require_unique_ids(items)
     return sorted(items, key=lambda i: (i.get("id") or "999"))
 
 
 def next_id(items):
+    require_unique_ids(items)
     nums = [int(i["id"]) for i in items if i.get("id") and i["id"].isdigit()]
     return f"{(max(nums) + 1) if nums else 1:03d}"
 
@@ -293,6 +311,7 @@ def reconcile(items):
 
 
 def do_close(a, items):
+    require_unique_ids(items)
     target = f"{int(a.close):03d}"
     for it in items:
         if it.get("id") == target:
@@ -423,7 +442,11 @@ def main():
                          "next reader learns only that something was decided.")
     a = ap.parse_args()
 
-    items = load_all()
+    try:
+        items = load_all()
+    except ValueError as exc:
+        print("inbox: refusing - " + str(exc), file=sys.stderr)
+        return 2
     if a.add:
         return do_add(a, items)
     if a.close:

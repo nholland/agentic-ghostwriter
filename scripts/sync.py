@@ -154,6 +154,15 @@ def land(s):
         return 1
     if not s["ahead_of_main"]:
         print(f"sync: nothing to land - '{s['branch']}' has no commits main lacks."); return 0
+    rc, _, err = run("merge-base", "--is-ancestor", "main", "origin/main")
+    if rc != 0:
+        print("sync: refusing to land - local main is not a confirmed ancestor of origin/main.")
+        if err:
+            print("  " + err)
+        print("  Inspect and preserve any local-only work first. If you intend local main to match "
+              "origin/main, explicitly authorize resetting that branch with "
+              "'git branch -f main origin/main'; this script does not reset it.")
+        return 1
     if s["unpushed"] is None or s["unpushed"] > 0:
         rc, _, err = run("push", "-u", "origin", s["branch"])
         if rc != 0:

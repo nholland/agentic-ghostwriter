@@ -1,5 +1,6 @@
 ---
-id: 053
+id: 104
+former_id: 053
 status: open
 raised_by: gw-retro
 chapter: 0
@@ -26,3 +27,6 @@ Filed without --applied-by naming tests/run.py because open item #048 blocks it:
 ```
 
 **What unblocks this:** Whether log_check gains a pure lost_entries(parent_entries, current_entries) -> sorted missing headings, whether the excuse additionally requires the same branch, and whether the one entry that narrowing then reports is restored rather than exempted as a third LEGACY_MALFORMED
+
+
+**Identity correction (2026-09-26 13:52):** Renumbered to #104 under the author-approved #046 duplicate-ID repair. Formerly the log-integrity #053, distinct from the proof-rule #053. The historical filename is retained so existing links and session-log references continue to open this record. Its proposal, evidence, completion condition and open status are unchanged. Refer to this item as #104 going forward.
