@@ -1,0 +1,637 @@
+{
+  "checked_at": "2026-09-25 22:14 CDT",
+  "commit": "521d9889f677735cb04104b9505ebc0116ba3bac",
+  "counts": {
+    "ruled": 1,
+    "open": 56
+  },
+  "records": [
+    {
+      "path": "inbox/006-84-citations-are-open-21-unverified-63-confirmed.md",
+      "id": "006",
+      "status": "ruled",
+      "sha256": "0a754070d3632f06b66f6a2e8b6b2e360fd51b18ebd510130620f5cd02dc6c39"
+    },
+    {
+      "path": "inbox/045-should-gw-signal-step-0-become-a-stop-condition-.md",
+      "id": "045",
+      "status": "open",
+      "sha256": "31fd3d5138d561a379b45000acda55b89952fd8723a9ba3f0fbc15fec3efcfeb"
+    },
+    {
+      "path": "inbox/046-two-branches-can-allocate-the-same-inbox-number-.md",
+      "id": "046",
+      "status": "open",
+      "sha256": "9a1381c0e4a85fdd76e07a4265969b33662d763724d9f404a0f81cecbd622499"
+    },
+    {
+      "path": "inbox/047-should-sync-py-land-refuse-when-local-main-is-no.md",
+      "id": "047",
+      "status": "open",
+      "sha256": "9c0d1b5681b8e93d7176199a08f0eb0d39bb1f2cc24ca28431878fc2ec6b1d71"
+    },
+    {
+      "path": "inbox/048-tests-prove-py-cannot-prove-a-fixture-for-a-new-.md",
+      "id": "048",
+      "status": "open",
+      "sha256": "c1826cdd4626246707fd92ca8227f092e051b8500ccb017d8eccb442e2c49080"
+    },
+    {
+      "path": "inbox/051-inbox-047-s-evidence-was-corrected-twice-now-the.md",
+      "id": "051",
+      "status": "open",
+      "sha256": "1c9d742c9d4ba66913b28e096dff4ae219989a79f1ea2a02542f08dac7f5cfba"
+    },
+    {
+      "path": "inbox/052-should-inbox-py-add-refuse-an-applied-by-that-al.md",
+      "id": "052",
+      "status": "open",
+      "sha256": "b319ed00bd4b68cdef8a9ddecd775d3f28c64ca9bdd9f36b17a4041a31601c26"
+    },
+    {
+      "path": "inbox/053-inbox-py-s-tests-run-py-proof-guard-was-widened-.md",
+      "id": "053",
+      "status": "open",
+      "sha256": "115d43f0b1bf2cd45bf90397bed022f1ac5f14935d2844cb9ba13d93ffa28f11"
+    },
+    {
+      "path": "inbox/053-log-check-s-union-invariant-the-one-its-own-docs.md",
+      "id": "053",
+      "status": "open",
+      "sha256": "b29c8c059d3c7436a8b0cec747054e332a9d87f7e4c189f5a780678d539d55ac"
+    },
+    {
+      "path": "inbox/054-ch8-s-landed-tipping-scale-plate-puts-the-one-th.md",
+      "id": "054",
+      "status": "open",
+      "sha256": "2a6f238492b3000c27e52731e49c5253b05aba3c41dbc85681ab99ee4003b8bf"
+    },
+    {
+      "path": "inbox/055-ch12-s-landed-plate-prints-its-gloss-no-deadline.md",
+      "id": "055",
+      "status": "open",
+      "sha256": "6a72fbf5ff7fe390b2bc24e71b4790f6097e9c57659d84eff473f558a877341d"
+    },
+    {
+      "path": "inbox/056-chapter-1-has-two-plates-that-both-draw-the-gap-.md",
+      "id": "056",
+      "status": "open",
+      "sha256": "58cafe40dc9338fe2a0da03c0e2b22d147d5fc092e6b28c7698b4e08cfb885cb"
+    },
+    {
+      "path": "inbox/057-ch7-reuses-small-rocks-big-rocks-which-draws-wha.md",
+      "id": "057",
+      "status": "open",
+      "sha256": "c6785561a1efed88824e9479826334db2415285b9d95034fc95e5314b51915b0"
+    },
+    {
+      "path": "inbox/058-are-four-ds-four-horsemen-and-virtue-question-pl.md",
+      "id": "058",
+      "status": "open",
+      "sha256": "bfdeaeab9bf3842296cf1a26b3fa0c46080a4bee6814c9bf242033a40a2a764b"
+    },
+    {
+      "path": "inbox/059-ratify-the-plate-style-spec-the-review-desk-deri.md",
+      "id": "059",
+      "status": "open",
+      "sha256": "b17b7ef5d6a2006c5d2916ec46cd0c72f50f497b3a4fa7f3149efdf412a5c96c"
+    },
+    {
+      "path": "inbox/060-part-closing-plates-iii-v-keep-single-line-capti.md",
+      "id": "060",
+      "status": "open",
+      "sha256": "8d14b1322734d7adcb8a6a043efe1ee7f293f2a748fa26e158e3c1c88d6564d5"
+    },
+    {
+      "path": "inbox/061-four-label-level-calls-on-the-new-chapter-plates.md",
+      "id": "061",
+      "status": "open",
+      "sha256": "a3866b2bbc18c510ebfbafa70d20762cafdacfca92b7efa1037cce9aa3ca646f"
+    },
+    {
+      "path": "inbox/062-land-py-copies-a-chapter-plate-into-books-with-n.md",
+      "id": "062",
+      "status": "open",
+      "sha256": "1ee1fc432d8cd1605a44a7473fd238ec6cf73a1a8888a558f85af788909cafe8"
+    },
+    {
+      "path": "inbox/063-svg-to-png-silently-lost-the-bottom-fifth-of-eve.md",
+      "id": "063",
+      "status": "open",
+      "sha256": "f84f152a0e155199ebce16aa96367ab9f957e9bcdbc743e4b673cf24ffde2e88"
+    },
+    {
+      "path": "inbox/064-retro-check-sh-overwrites-retro-window-on-every-.md",
+      "id": "064",
+      "status": "open",
+      "sha256": "8a04eb7798a8a482691a3a707280f4a1e256f676d6d97fcd73a6d07489c53c86"
+    },
+    {
+      "path": "inbox/065-is-a-chapter-plate-always-titled-by-the-distilla.md",
+      "id": "065",
+      "status": "open",
+      "sha256": "7eb35593f734058d45d7dd5f91e9a4943b109c051d8b9fd0880b078d0736cd81"
+    },
+    {
+      "path": "inbox/066-the-reader-panel-proposes-three-set-wide-rules-f.md",
+      "id": "066",
+      "status": "open",
+      "sha256": "a849e99d89ddde873fe4eb42b5030d2b50b0e522dd061aeda80b9ef6e7299046"
+    },
+    {
+      "path": "inbox/067-round-2-label-calls-on-the-redrawn-plates-ch9-lo.md",
+      "id": "067",
+      "status": "open",
+      "sha256": "24c89a8f450b5f39b77182bd701d08fdf747ab4e9db65184389aab80e37f42c3"
+    },
+    {
+      "path": "inbox/068-ch8-and-ch12-redrawn-through-gw-plate-four-small.md",
+      "id": "068",
+      "status": "open",
+      "sha256": "3c6387e4cb06b7b80ffab3adfde1a314228476586cd16d6d93f3d8d040e27d3c"
+    },
+    {
+      "path": "inbox/069-three-plates-fail-the-standalone-read-ch2-ch6-ed.md",
+      "id": "069",
+      "status": "open",
+      "sha256": "810c5cf1160f86d5baa0f5a2e8ee5db2ed3236282bcf17ac20794d07fbfcf6e3"
+    },
+    {
+      "path": "inbox/070-ch5-s-new-plate-is-titled-the-courage-to-come-ba.md",
+      "id": "070",
+      "status": "open",
+      "sha256": "015b63ca85af49bf6a8bd6a7dc111cfdedce16dfc3b7f99b43e19ab8853c226a"
+    },
+    {
+      "path": "inbox/071-retro-window-is-never-marked-consumed-so-a-revie.md",
+      "id": "071",
+      "status": "open",
+      "sha256": "289424d04b40f9f80921398b15b00cdcc21a1280a4acce589ba23116c28fa8e3"
+    },
+    {
+      "path": "inbox/072-package-check-py-printed-ok-on-all-four-manuscri.md",
+      "id": "072",
+      "status": "open",
+      "sha256": "c91fe4332b259fdc70de6f1fed802cec00a6a8815aeb8964507762b755e4ab8a"
+    },
+    {
+      "path": "inbox/073-chapter-pdf-py-cannot-be-executed-here-so-its-cs.md",
+      "id": "073",
+      "status": "open",
+      "sha256": "1970f4f6a3d1da92f331f4ca40443c1badef3fed861644b37be671a2dbc30f2d"
+    },
+    {
+      "path": "inbox/074-retro-check-sh-watches-inbox-and-the-archivist-s.md",
+      "id": "074",
+      "status": "open",
+      "sha256": "f8b4f44a919f988012c29de19f72a761ff2f3e634594b4ccceaea10032f63810"
+    },
+    {
+      "path": "inbox/075-plate-packet-py-pins-plate-titles-to-one-hard-co.md",
+      "id": "075",
+      "status": "open",
+      "sha256": "1b4694b373394ae1df36625e63aab128db6e67aa2511279f7e3cb983fd66e23f"
+    },
+    {
+      "path": "inbox/076-runs-manuscript-commits-29-regenerable-pngs-and-.md",
+      "id": "076",
+      "status": "open",
+      "sha256": "d234bced1fb2fe96f2a7e4a502bcd8ae9672ffe5bd1da1360b697a6e23a1a1c6"
+    },
+    {
+      "path": "inbox/077-docs-manual-html-s-derived-scripts-table-truncat.md",
+      "id": "077",
+      "status": "open",
+      "sha256": "a836f3829d5d31c89b20ad47fbe248392deb9f96110b25918559ee790b202041"
+    },
+    {
+      "path": "inbox/078-two-derived-pages-tell-the-author-to-republish-t.md",
+      "id": "078",
+      "status": "open",
+      "sha256": "8bcdea430d4ad34cf242864d0202a56ba03183c84c44d77fb6ff443ac30d703e"
+    },
+    {
+      "path": "inbox/079-074-s-fix-is-right-but-its-proof-cannot-tell-the.md",
+      "id": "079",
+      "status": "open",
+      "sha256": "917932ee9edf6c782e335ca5a3a288367ddf1c1d16f50f515e3fe84aeca425c7"
+    },
+    {
+      "path": "inbox/080-075-and-077-both-close-on-test-d-a-directory-tha.md",
+      "id": "080",
+      "status": "open",
+      "sha256": "683f0df93dc66c36bd761161cde7f4f6e00b67836c3f6912c75ff437d1534e91"
+    },
+    {
+      "path": "inbox/081-plate-check-py-appends-the-whole-plate-brief-md-.md",
+      "id": "081",
+      "status": "open",
+      "sha256": "48590ad9fc5ffed2d4e70982b2e73b2fe64a62fbdd7ff07b17108614eb519add"
+    },
+    {
+      "path": "inbox/082-the-panel-s-stale-raster-claim-was-confirmed-by-.md",
+      "id": "082",
+      "status": "open",
+      "sha256": "91de7e5da9e5d6b0f75e58219e59a9b7fcff26eb5c6d6a991bf7580b31652536"
+    },
+    {
+      "path": "inbox/083-plate-brief-py-generates-the-author-additions-se.md",
+      "id": "083",
+      "status": "open",
+      "sha256": "b2e775daba5ac7fa7c2e20c08ffeb5a5b2a5294e20e3b0ba1a25342febef0283"
+    },
+    {
+      "path": "inbox/084-ch4-row-three-s-caption-the-hole-remains-is-sing.md",
+      "id": "084",
+      "status": "open",
+      "sha256": "b0fe66b9ce25299db321a2dfd2b6b44a924568203359f26ef7d41b093c5fee86"
+    },
+    {
+      "path": "inbox/085-runs-ch04-plate-notes-md-round-7-asserts-ch05-st.md",
+      "id": "085",
+      "status": "open",
+      "sha256": "af6de14c6d0a6e827080aa3eee8ecc5bd897f9baa6c052dfd1490b9959f5929d"
+    },
+    {
+      "path": "inbox/086-runs-parts-plate-2-sturdy-oak-svg-is-the-only-pl.md",
+      "id": "086",
+      "status": "open",
+      "sha256": "7e4754cd255d0fd4ab8d3aea8acd50193e0b487507dff1fd29d025172c81a045"
+    },
+    {
+      "path": "inbox/087-the-part-i-redraw-was-meant-to-remove-the-empty-.md",
+      "id": "087",
+      "status": "open",
+      "sha256": "dc8035602a521e8353490ad992236fe35c785d6c76c475900433a7740f5a7d92"
+    },
+    {
+      "path": "inbox/088-plate-check-only-ever-runs-on-a-source-svg-a-hum.md",
+      "id": "088",
+      "status": "open",
+      "sha256": "4758621cfb73b5de7dd064e77a5ca8fd7660269cff6f6bd29b4d4bba968e0e21"
+    },
+    {
+      "path": "inbox/089-both-part-plate-drafts-now-carry-a-title-and-par.md",
+      "id": "089",
+      "status": "open",
+      "sha256": "30baf4aa17a67042ceda05b0246730a5a159b65f5d26893d64405d8f945d24bf"
+    },
+    {
+      "path": "inbox/090-087-s-corrected-proof-samples-void-and-taper-onl.md",
+      "id": "090",
+      "status": "open",
+      "sha256": "56983233ca343a994b31fb559c95ef706ac68a98271b9e7012747502cce1cfee"
+    },
+    {
+      "path": "inbox/091-090-s-own-proof-only-requires-the-canyon-row-to-.md",
+      "id": "091",
+      "status": "open",
+      "sha256": "f7d8ecd155178d4e1254c3003470f6c21e57d7e94f1663ae7b95760537c854ee"
+    },
+    {
+      "path": "inbox/094-align-the-author-marriage-timeline-across-the-pr.md",
+      "id": "094",
+      "status": "open",
+      "sha256": "66af99f1bbab26e293c52d5d0109fa3b285730e3a8c9fec16b6394759d6a1b8f"
+    },
+    {
+      "path": "inbox/095-keep-the-nail-metaphor-consistent-between-chapte.md",
+      "id": "095",
+      "status": "open",
+      "sha256": "2876bb3138f80683f0b76aba79a3694d0dd6b863d1da74ce4b6aea3b4a02c4de"
+    },
+    {
+      "path": "inbox/096-align-prohairesis-hegemonikon-and-the-gap-termin.md",
+      "id": "096",
+      "status": "open",
+      "sha256": "cb5eacd7f954691ee9686ea289a5b90e0d8e01d470cbed10f2954b5669b67b0f"
+    },
+    {
+      "path": "inbox/097-repair-the-chapter-4-repair-reference-and-chapte.md",
+      "id": "097",
+      "status": "open",
+      "sha256": "84bdfe64164fbba1deb31fa57554c2e53474594094e74e0934dfb91afd2143f7"
+    },
+    {
+      "path": "inbox/098-deliver-the-promised-practical-response-to-real-.md",
+      "id": "098",
+      "status": "open",
+      "sha256": "211806a162eec1a63115343a50ee07f651eac684f5cff1c5ec719602d810fe80"
+    },
+    {
+      "path": "inbox/099-clarify-chapter-10-boundary-duty-and-its-absolut.md",
+      "id": "099",
+      "status": "open",
+      "sha256": "d769bb456f0d2b326e397b380d267a8868cdd78b2e5b09459226ec81069c40fa"
+    },
+    {
+      "path": "inbox/100-remove-chapter-12-guaranteed-reciprocity-and-the.md",
+      "id": "100",
+      "status": "open",
+      "sha256": "c1b940d927bddc938c78a697cfbae225efd63c25c7094b32cee0c133c92e18dd"
+    },
+    {
+      "path": "inbox/101-schedule-the-earlier-book-repetition-and-qualita.md",
+      "id": "101",
+      "status": "open",
+      "sha256": "ca44d25ceaec3808a1cde7cb54aa2590c9788a315f5f69567fd9d2d43a91ed17"
+    },
+    {
+      "path": "inbox/102-reconcile-the-introduction-five-mode-framework-w.md",
+      "id": "102",
+      "status": "open",
+      "sha256": "f429ebb503e1d8c538b81adebfbee47ddde0f53d4153b53a08bdfd855d2727ef"
+    },
+    {
+      "path": "inbox/103-align-all-reader-exports-to-the-approved-chapter.md",
+      "id": "103",
+      "status": "open",
+      "sha256": "0da002f22a16db0f8399c0a3b39c7d6f884e193b75aecf43a9ce2bfe66e6a28f"
+    }
+  ],
+  "duplicate_ids": {
+    "053": 2
+  },
+  "manual_nonterminal": [
+    {
+      "name": "land.py",
+      "purpose": "move a chapter from runs/chNN/ (apparatus) into books/<slug>/ (the book),"
+    },
+    {
+      "name": "pdf_chapter_style.py",
+      "purpose": "Chapter opening shared by both PDF backends; ordinary words for speech readers.\"\"\""
+    },
+    {
+      "name": "toolcheck.py",
+      "purpose": "Report dependencies of the one approved Chromium renderer; never install.\"\"\""
+    },
+    {
+      "name": "ttfwidth.py",
+      "purpose": "text widths from a TrueType file's own tables, for plate_check.py; no font library is installable here.\"\"\""
+    }
+  ],
+  "chapter_plates": [
+    {
+      "chapter": 1,
+      "selected": "runs/ch01/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 340",
+      "text": [
+        "THE THREE-SECOND WINDOW",
+        "Between what she says and what you say next are three seconds.",
+        "WHAT SHE SAYS",
+        "WHAT YOU SAY NEXT",
+        "CHOSEN",
+        "OR INHERITED",
+        "Your marriage lives there."
+      ]
+    },
+    {
+      "chapter": 2,
+      "selected": "runs/ch02/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 368",
+      "text": [
+        "THE MOOD MIRROR",
+        "When her mood sets your mood, you've outsourced your peace.",
+        "HER WEATHER",
+        "THE STORM DOUBLES",
+        "HER WEATHER",
+        "YOUR OWN WEATHER",
+        "Not to go cold. To bring something real through the door."
+      ]
+    },
+    {
+      "chapter": 3,
+      "selected": "runs/ch03/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 360",
+      "text": [
+        "THE CLOSED DOOR",
+        "Defend yourself enough times, and she stops bringing you the truth.",
+        "SHE BRINGS SOMETHING",
+        "YOU DEFEND",
+        "SHE UPDATES",
+        "SHE STOPS",
+        "She's been keeping track longer than you know."
+      ]
+    },
+    {
+      "chapter": 4,
+      "selected": "runs/ch04/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 396",
+      "text": [
+        "THE HOLE MAKER",
+        "Anger isn\u2019t strength.",
+        "THE OUTBURST",
+        "THE APOLOGY",
+        "MONTHS ON",
+        "Every outburst drives a nail.",
+        "An apology can pull it out.",
+        "The hole remains.",
+        "Sometimes it\u2019s cold, and cold is often worse. Both make holes."
+      ]
+    },
+    {
+      "chapter": 5,
+      "selected": "runs/ch05/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 486",
+      "text": [
+        "THE COURAGE TO COME BACK",
+        "A pause is only healthy if you come back.",
+        "the real thing, never said",
+        "GOES QUIET",
+        "walks in",
+        "walks out",
+        "he becomes small without deciding to",
+        "the real thing, said",
+        "GOES BACK",
+        "walks in",
+        "walks out",
+        "he leaves the fight the same size",
+        "Say the real thing before silence says it for you."
+      ]
+    },
+    {
+      "chapter": 6,
+      "selected": "runs/ch06/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 338",
+      "text": [
+        "THE TALLY YOU DON\u2019T READ ALOUD",
+        "You are counting the week. She can only see tonight.",
+        "THE WEEK",
+        "TONIGHT",
+        "Resentment grows when you expect someone",
+        "to read a tally you never showed them."
+      ]
+    },
+    {
+      "chapter": 7,
+      "selected": "runs/ch07/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 424",
+      "text": [
+        "THE PRIVATE TALLY",
+        "The ledger can only count what it can see.",
+        "YOUR PAGE",
+        "HER PAGE",
+        "Fixing the router",
+        "The coaching weekend",
+        "Cleaning the kitchen",
+        "a ledger you can\u2019t fully read",
+        "the smaller things neither of you tracks",
+        "Half the data, and it always says you\u2019re ahead."
+      ]
+    },
+    {
+      "chapter": 8,
+      "selected": "runs/ch08/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 352",
+      "text": [
+        "THE TIPPING SCALE",
+        "Unfairness rarely arrives as one moment.",
+        "UNCOUNTED",
+        "NAMED WHEN IT LANDS",
+        "The last pebble is rarely the whole weight."
+      ]
+    },
+    {
+      "chapter": 9,
+      "selected": "runs/ch09/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 430",
+      "text": [
+        "THE BOTTOMLESS YES",
+        "You never named the deal, so she never agreed to it.",
+        "EVERY YES YOU GAVE",
+        "SOMETHING BACK",
+        "A night you did everything she wanted",
+        "A plan you went along with, not yours",
+        "Her story, heard all the way through",
+        "Respect",
+        "Warmth",
+        "Being heard",
+        "you never asked for it",
+        "a list only you are keeping",
+        "Say what you need before generosity becomes debt."
+      ]
+    },
+    {
+      "chapter": 10,
+      "selected": "runs/ch10/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 368",
+      "text": [
+        "THE UNDECIDED LINE",
+        "If you cannot name what it protects, it is probably a preference.",
+        "UNDECIDED",
+        "this protects ________",
+        "DECIDED",
+        "WHAT IT PROTECTS"
+      ]
+    },
+    {
+      "chapter": 11,
+      "selected": "runs/ch11/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 376",
+      "text": [
+        "THE CONVERSATION SHE\u2019S NEVER HEARD",
+        "You keep arguing with her in your head.",
+        "IN YOUR HEAD",
+        "WITH HER",
+        "you haven\u2019t told her",
+        "Tell her what\u2019s bothering you.",
+        "Then listen."
+      ]
+    },
+    {
+      "chapter": 12,
+      "selected": "runs/ch12/plate.svg",
+      "identical_landed_copy": false,
+      "viewBox": "0 0 640 430",
+      "text": [
+        "THE THING WITH NO DEADLINE",
+        "What has no deadline is easiest to neglect.",
+        "THE THINGS WITH A DAY ATTACHED",
+        "THE ONE THING FOR HER",
+        "THIS WEEK",
+        "TONIGHT",
+        "the stretch you never felt go by",
+        "you didn\u2019t stop loving her",
+        "Love rarely becomes urgent. That is why you have to make room for it."
+      ]
+    }
+  ],
+  "part_drafts": [
+    {
+      "path": "runs/parts/plate-1-steady-river.svg",
+      "clipPath_mentions": 0,
+      "sha256": "4a4df2adab6968609be24df6131d1897504537971d8ea22b27dd3d8811b9b6c6"
+    },
+    {
+      "path": "runs/parts/plate-2-sturdy-oak.svg",
+      "clipPath_mentions": 2,
+      "sha256": "8614aebd7ab66360b44a41c7e16687f05e09b404cc66e1d3288832dda04adca6"
+    },
+    {
+      "path": "runs/parts/plate-3-warm-sun.svg",
+      "clipPath_mentions": 0,
+      "sha256": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47"
+    },
+    {
+      "path": "runs/parts/plate-4-fall-to-winter.svg",
+      "clipPath_mentions": 0,
+      "sha256": "a89aa5a392fa40be8480b5e091eb00cf899dc7c038f79911d7571c984832e030"
+    },
+    {
+      "path": "runs/parts/plate-5-spring-to-summer.svg",
+      "clipPath_mentions": 0,
+      "sha256": "d54bd81adf82b36692a9ac7952a11314fe7a02253e41ce7643cd030e02cfd80b"
+    }
+  ],
+  "boilerplate_is_grounded": true,
+  "raster_current_exists": false,
+  "tracked_legacy_exports": [
+    "runs/manuscript/books-the-stoic-husband-parts-plate-1-steady-river.png",
+    "runs/manuscript/books-the-stoic-husband-parts-plate-2-sturdy-oak.png",
+    "runs/manuscript/ch01-plate.png",
+    "runs/manuscript/ch02-plate.png",
+    "runs/manuscript/ch03-plate.png",
+    "runs/manuscript/ch04-plate.png",
+    "runs/manuscript/ch05-plate.png",
+    "runs/manuscript/ch06-plate.png",
+    "runs/manuscript/ch07-plate.png",
+    "runs/manuscript/ch08-plate.png",
+    "runs/manuscript/ch09-plate.png",
+    "runs/manuscript/ch10-plate.png",
+    "runs/manuscript/ch11-plate.png",
+    "runs/manuscript/ch12-plate.png",
+    "runs/manuscript/packet-ch01.png",
+    "runs/manuscript/packet-ch02.png",
+    "runs/manuscript/packet-ch03.png",
+    "runs/manuscript/packet-ch04.png",
+    "runs/manuscript/packet-ch05.png",
+    "runs/manuscript/packet-ch06.png",
+    "runs/manuscript/packet-ch07.png",
+    "runs/manuscript/packet-ch08.png",
+    "runs/manuscript/packet-ch09.png",
+    "runs/manuscript/packet-ch10.png",
+    "runs/manuscript/packet-ch11.png",
+    "runs/manuscript/packet-ch12.png",
+    "runs/manuscript/packet-partI.png",
+    "runs/manuscript/packet-partII.png",
+    "runs/manuscript/parts-plate-3-warm-sun.png"
+  ],
+  "published_artifacts": null,
+  "citations": {
+    "open": 118,
+    "overclaim": 0,
+    "settled": 4
+  },
+  "plate_check_attempt": "UNCHECKED: FileNotFoundError: [Errno 2] No such file or directory: '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'"
+}
