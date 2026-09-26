@@ -1,10 +1,12 @@
 ---
 id: 077
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 01:14
-applied_by: test -d tests/fixtures/docstrings
+retired_applied_by: test -d tests/fixtures/docstrings
+applied_by: python3 tests/manual_description_cases.py && python3 scripts/manual.py --check
+resolved: 2026-09-26 13:18
 ---
 
 # docs/manual.html's derived scripts table truncates each cell at the first PHYSICAL line of the module docstring, not the first sentence, so three live rows publish mid-sentence and ttfwidth.py's row publishes a closing triple-quote as prose. Should manual.py extract the first sentence and refuse to publish a purpose that does not end in terminal punctuation, in the same block that already refuses to publish an invented gate?
@@ -20,3 +22,9 @@ python3 -c "import sys;sys.path.insert(0,'scripts');import manual;print([s['purp
 ```
 
 **What unblocks this:** Whether the manual's scripts table is checked for intactness or only for provenance, and whether the three live defects are repaired at the extractor or one docstring at a time forever
+
+**Resolution (2026-09-26 13:18):** Author: "Approved" to repairing and testing the manual descriptions. Implemented AST-based module-docstring extraction, whitespace normalization, first-sentence selection, and refusal of incomplete purposes before generation or freshness checks. Regenerated docs/manual.html. All nine focused regression cases fail on the pre-fix extractor and pass on the repaired code. The completion condition now executes those cases and checks the generated manual, replacing the empty-directory test. Validation limitation: python3 tests/run.py stops in the existing plate checker on missing /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf; no full-suite pass claimed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/manual_description_cases.py && python3 scripts/manual.py --check` exits 0.
+
+**Applied, confirmed 2026-09-26 13:18:** `python3 tests/manual_description_cases.py && python3 scripts/manual.py --check` now exits 0.

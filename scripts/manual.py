@@ -52,6 +52,7 @@ EXIT CODES
 """
 
 import argparse
+import ast
 import hashlib
 import json
 import os
@@ -313,7 +314,7 @@ def read_commands():
 
 
 def read_scripts():
-    """Production scripts, from the first line of each module docstring."""
+    """Production scripts, from the first sentence of each module docstring."""
     out = []
     for fn in sorted(os.listdir(SCRIPTS)):
         if not fn.endswith(".py") or fn.startswith("_"):
@@ -321,12 +322,13 @@ def read_scripts():
         purpose = ""
         try:
             with open(os.path.join(SCRIPTS, fn), encoding="utf-8") as fh:
-                body = fh.read(4000)
-            m = re.search(r'"""\s*(.+)', body)
-            if m:
-                purpose = m.group(1).strip()
-                purpose = re.sub(r"^" + re.escape(fn) + r"\s*-\s*", "", purpose)
-        except OSError:
+                doc = ast.get_docstring(ast.parse(fh.read(), filename=fn)) or ""
+            purpose = " ".join(doc.split())
+            purpose = re.sub(r"^" + re.escape(fn) + r"\s*-\s*", "", purpose)
+            sentence = re.match(r"(.+?[.!?])(?:\s|$)", purpose)
+            if sentence:
+                purpose = sentence.group(1)
+        except (OSError, SyntaxError, UnicodeError):
             pass
         out.append({"name": fn, "purpose": purpose})
     return out
@@ -1189,6 +1191,14 @@ def main():
     scripts = read_scripts()
     thresholds = read_thresholds()
     digest = inputs_digest(desks, commands, scripts, thresholds)
+
+    incomplete = [s["name"] for s in scripts
+                  if not s["purpose"].endswith((".", "!", "?"))]
+    if incomplete:
+        print("manual: incomplete module descriptions; nothing written:")
+        for name in incomplete:
+            print("  x " + name)
+        return 1
 
     gov = governing_doc_drift()
     if gov:
