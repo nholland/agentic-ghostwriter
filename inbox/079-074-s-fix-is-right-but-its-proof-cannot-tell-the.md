@@ -1,10 +1,11 @@
 ---
 id: 079
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 01:18
-applied_by: R=$(git rev-parse --show-toplevel); T=$(mktemp -d); git -C "$R" worktree add -q --detach "$T" 0074d6e3 >/dev/null 2>&1; mkdir -p "$T/.claude/state"; echo 84b79969b60fbad3f61147b68f4dbbc01b0deeff > "$T/.claude/state/retro-last-sha"; rc=0; CLAUDE_PROJECT_DIR="$T" bash "$R/.claude/hooks/retro-check.sh" >/dev/null 2>&1 || rc=$?; git -C "$R" worktree remove --force "$T" >/dev/null 2>&1; test "$rc" -ne 2
+applied_by: python3 tests/maintenance_batch_cases.py
+resolved: 2026-09-26 18:27
 ---
 
 # #074's fix is right but its proof cannot tell the fix from the non-fix: 'skip commits touching runs/retro/' as a pathspec exclusion still dispatches, because the retro's inbox filings are themselves watched. Should #074 close on a mixed-commit fixture in retro_window_cases() instead of a grep for its own sentence?
@@ -20,3 +21,9 @@ Window 84b79969..0074d6e3, sole work commit f194db48 touches inbox/075, inbox/07
 ```
 
 **What unblocks this:** Whether the retro loop's fix is verified by behaviour or by wording, and whether the eight-item grep-proof habit ends where a harness already exists
+
+**Resolution (2026-09-26 18:27):** Closed on behavioral fixtures for report plus inbox commits, repeated review-only commits, and mixed report/production commits, replacing the historical one-shot proof.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/maintenance_batch_cases.py` exits 0.
+
+**Applied, confirmed 2026-09-26 18:27:** `python3 tests/maintenance_batch_cases.py` now exits 0.

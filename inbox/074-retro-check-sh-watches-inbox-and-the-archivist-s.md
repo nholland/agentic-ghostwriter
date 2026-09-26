@@ -1,10 +1,11 @@
 ---
 id: 074
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 23:44
-applied_by: grep -rq 'retro dispatch skips a commit carrying runs/retro/' tests/
+applied_by: python3 tests/maintenance_batch_cases.py
+resolved: 2026-09-26 18:27
 ---
 
 # retro-check.sh watches inbox/, and the Archivist's only durable output is an inbox filing, so every substantive retrospective triggers one more whose entire subject is the previous retrospective. Two of the last four dispatches fired on nothing else. Should the count skip any commit carrying a runs/retro/ file?
@@ -20,3 +21,9 @@ Ran the proposed count against four real windows: 88cfa346..dec7dd99 old=1 new=0
 ```
 
 **What unblocks this:** Whether a retrospective can trigger the next retrospective, and whether the hook's 94-word loop comment drops to 90 with its false half removed
+
+**Resolution (2026-09-26 18:27):** Author-approved repair: report plus inbox/FINDINGS-only work does not count toward redispatch. A report committed alongside substantive watched production changes still counts. Three-commit batching retained.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/maintenance_batch_cases.py` exits 0.
+
+**Applied, confirmed 2026-09-26 18:27:** `python3 tests/maintenance_batch_cases.py` now exits 0.

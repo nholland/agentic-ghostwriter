@@ -1517,8 +1517,7 @@ def retro_window_cases():
                     "confirms retro-window, not retro-last-sha, is what must be read for the window",
                     naive_count))
 
-        # Three more watched-path commits should open a fresh window starting
-        # where the first one ended, not from session-start-sha again.
+        # Another dispatch must retain all work until review completion.
         _touch(4)
         _touch(5)
         _touch(6)
@@ -1527,9 +1526,9 @@ def retro_window_cases():
                             capture_output=True, text=True)
         window2 = (open(window_path).read().split()
                    if os.path.exists(window_path) else [])
-        out.append((r2.returncode == 2 and window2 == [head_sha, head2_sha],
-                    "second dispatch windows from the first dispatch's end",
-                    "a later session commit must open a fresh window starting at the prior HEAD, not session-start-sha",
+        out.append((r2.returncode == 2 and window2 == [start_sha, head2_sha],
+                    "second dispatch retains the unreviewed start",
+                    "a dispatch must not silently consume earlier work",
                     (r2.returncode, window2)))
 
         out.append((f"{start_sha}..{head_sha}" in r.stderr,
@@ -1548,7 +1547,8 @@ def main():
     from prove_land_unrelated_main import land_ancestry_cases
     from export_safety_cases import export_safety_cases
     from prove_new_code_cases import prove_new_code_cases
-    rows = (prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    from maintenance_batch_cases import maintenance_batch_cases
+    rows = (maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
