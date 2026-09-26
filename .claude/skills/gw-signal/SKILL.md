@@ -11,10 +11,13 @@ which desk it belongs to.** Routing is the Publisher's job.
 
 ## Step 0
 
-`python3 scripts/resolve_book.py`. Read the chapter as it was published
-(`{bookRoot}/chapters/chNN/refined.md`, and any Substack or social piece under
-`{bookRoot}/marketing/` or `runs/marketing/chNN/`) so every response can be
-matched to the sentence it is about.
+Run `python3 scripts/resolve_book.py`. Save the original feedback verbatim to
+`runs/signals/`, recording its source, date from the clock, chapter, and known
+version separately. Read the referenced chapter or published piece and match
+specific quotations and described passages; paraphrases need not match literally.
+If the version or passage is uncertain, preserve the feedback and pause only
+its affected edits while the Publisher establishes the source with the author.
+Route clearly matched feedback normally.
 
 ## Step 1 — log it before judging it
 

@@ -1,6 +1,8 @@
 ---
 id: 086
-status: open
+status: resolved
+disposition: declined
+resolved: 2026-09-26 18:50
 raised_by: gw-designer
 chapter: 0
 opened: 2026-09-21 13:00
@@ -20,3 +22,5 @@ grep -c 'clipPath|clip-path' runs/parts/plate-2-sturdy-oak.svg -> 2. Files among
 ```
 
 **What unblocks this:** Whether the Oak plate can be landed as-is or needs its clip resolved into geometry first
+
+**Resolution (2026-09-26 18:50):** Author approved declining #086. Keep the existing clipping implementation; revisit only if an actual delivery format demonstrates a rendering problem. Historical proof retained; no flattening performed or claimed.
