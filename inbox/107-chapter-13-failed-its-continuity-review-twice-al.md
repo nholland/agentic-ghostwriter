@@ -1,6 +1,6 @@
 ---
 id: 107
-status: ruled
+status: resolved
 raised_by: gw-slopreader
 chapter: 13
 opened: 2026-09-27 20:21
@@ -26,3 +26,5 @@ runs/ch13/coherence-refined.md (round 2) N1-N3, M2; runs/ch13/persona-refined.md
 **Resolution (2026-09-27 21:21):** Yes
 
 **Not applied yet.** This ruling lands outside this repo. It closes when `python3 scripts/next.py | grep -qE 'ch13 (verdict|shipped)'` exits 0.
+
+**Applied, confirmed 2026-09-27 21:56:** `python3 scripts/next.py | grep -qE 'ch13 (verdict|shipped)'` now exits 0.

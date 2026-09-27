@@ -176,3 +176,32 @@ turn-line question (inbox #106) or the outline's Ch14 transition and word target
 (inbox #105), both ruled out of scope; any continuity sweep over Chapters 1–11 —
 continuity here is Ch12↔Ch13 and Ch13↔outline only. Earlier-book findings remain
 deferred in inbox #094–#102.
+
+---
+
+## Round 3 confirmation (2026-09-27)
+
+**Round 3: PASS**
+
+The seven sentence-level edits introduce no new essential. O1 is now closed in
+prose ("Every couple in it was still married at year sixteen"), the river line no
+longer contradicts the Introduction's use of it, and the tension reader's reading
+of the arc is unchanged — the flattened sentences are cooler but not flatter, and
+the her-side section keeps its scene and its consequence chain.
+
+One downgrade, worth recording rather than acting on: O4 named two sentences as
+load-bearing against the defensive reader, and one of them is gone ("she doesn't
+usually decide you've stopped loving her" → "When the effort stops, she usually
+decides she's been accounted for"), which states the conclusion without first
+withdrawing the accusation he fears. What still holds him is "You still love her"
+two sections earlier, the election sentence, and "She can ask. She shouldn't have
+to ask for everything." Enough, with less margin than round 2; if the author wants
+the margin back, the cheapest restoration is one clause inside the her-side
+section, not the old negated pair.
+
+**Scope of this round:** prose above Editor's Notes in `runs/ch13/refined.md`,
+reread in full against the named changed lines, plus
+`books/the-stoic-husband/02-audience.md`. Not reread: Ch12 prose, the outline, the
+feedback and addendum files, the distillation, the plate reports. Not done: any
+audit of the round-3 counted block, any continuity sweep beyond Ch13's own text,
+inbox #106 and #107 rulings.

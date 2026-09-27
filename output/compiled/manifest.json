@@ -1,11 +1,11 @@
 {
-  "built": "2026-09-26T17:31:38.991052-05:00",
+  "built": "2026-09-27T21:56:17.470517+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-13, relevant Arc openings and plates",
   "unapproved_chapters": [
     13
   ],
   "source_sha256": {
-    "books/the-stoic-husband/chapters/ch01/refined.md": "a011aff0fcf0a29950f034776cf44bf909d82af2018fe211e9f2fc72fd5b97a1",
+    "books/the-stoic-husband/chapters/ch01/refined.md": "fbcf4706892948e428acfed091bd5bc12e7dfb4259fa2f23da4fda9c35ba7c7e",
     "books/the-stoic-husband/chapters/ch01/distillation.md": "c612b717fb7d42303d1161d6fcdb92b805622ba816beeb8f0cdbaf9fd99f0ae4",
     "runs/ch01/plate.svg": "0c8a723099d924152cb1490eb282913b59e001014d496db8a97cbf1eed9051d0",
     "books/the-stoic-husband/chapters/ch02/refined.md": "2e24ae6256bf12ef8f0951a0d4a93812ae938d7855bf8dc1e8aa35f87b34417a",
@@ -14,22 +14,22 @@
     "books/the-stoic-husband/chapters/ch03/refined.md": "2973a5f9ad23e0e9fa913844049a8c8b870070aec20ac52101dd0c6e23a77fb7",
     "books/the-stoic-husband/chapters/ch03/distillation.md": "10e04378576f07cd2dd4a0a5f007732a0ca44821e30b013638052313f910036b",
     "runs/ch03/plate.svg": "11eea65db17cbb1ab37d09341fe33b0854139bc23b7368ba37da34fbd8c52656",
-    "books/the-stoic-husband/chapters/ch04/refined.md": "e98de9094e7c95c2c405b01083390969d06aedb1c8f010a35b064fa91197f401",
+    "books/the-stoic-husband/chapters/ch04/refined.md": "76b59f701ef5fa1ab806c1d9bc74f534dd48baf41802f84cd091146defdc033a",
     "books/the-stoic-husband/chapters/ch04/distillation.md": "80a18ca19bcb940cd41582b587ae15d800cefeed0bf8dadb0f7bc289651b871a",
-    "runs/ch04/plate.svg": "4c0a493b8248edd9be0cd4ed947744c17cb7ab453370a73869495ae89659c272",
-    "books/the-stoic-husband/chapters/ch05/refined.md": "c940d5d47c7cdf096d2b95015baeacc0692d1b465be6031d5a6518b6da4b864b",
-    "books/the-stoic-husband/chapters/ch05/distillation.md": "556566f12903f008ff47a5d25563787675fd64f34716971ff221397a7f015709",
+    "runs/ch04/plate.svg": "0831aa20cfe07228cdbb3a872feabe6f1c8533e1e75ca619d62b686b6cf692c0",
+    "books/the-stoic-husband/chapters/ch05/refined.md": "9172ebb6fd91f7a9b6d74ffe47f00d8601f488cb0300a88ebede84c0aa99e0a1",
+    "books/the-stoic-husband/chapters/ch05/distillation.md": "41cb07428a714c10e42a9f5d0c0e63db65e8c49b0aaf2839f9496e6649706334",
     "runs/ch05/plate.svg": "bdded417a4ac1721700b9e4b6b418322ee8fe137b24ee1a32a16ee96b81b39a8",
-    "books/the-stoic-husband/chapters/ch06/refined.md": "c8c5fd9d269bb50fcc3de97484e357d04205f95e612d9c7bff4593bda00b67ad",
+    "books/the-stoic-husband/chapters/ch06/refined.md": "96a19fca9680cb238b41850ea468e7a2a5213f70ae9d352c580e70c67181d696",
     "books/the-stoic-husband/chapters/ch06/distillation.md": "24a6387e02f63cd48c0c664b506b22fdae540ea216d4a0846a8f326d6241a854",
     "runs/ch06/plate.svg": "939086ab6079729b13e2ae6f7b855981ec2aef90fcb34ad562cbc3f1b3947eb3",
     "books/the-stoic-husband/chapters/ch07/refined.md": "9555f8173b50c62404065a0f6d82238b13e09b48e8c438f5953a006dce498264",
     "books/the-stoic-husband/chapters/ch07/distillation.md": "ed6bedae6e93a2f9a86348ba096f3e0a401a20a11eae1d56ad783955417b2cd4",
     "runs/ch07/plate.svg": "a1b50c0d6fca7f63954dde9a0b96dea93592ff4643ede9fba0b212ac69a0e715",
-    "books/the-stoic-husband/chapters/ch08/refined.md": "13255fa00502df15602f1bc3af772d000957a90c72d9c0e3ec6c2eabe67fc369",
+    "books/the-stoic-husband/chapters/ch08/refined.md": "3825e9743ca0fe9294df5c2148c3211e0ab1e23c8fd9afd5127f37c6371b707e",
     "books/the-stoic-husband/chapters/ch08/distillation.md": "602d6efd9739f874e129065d1ee02bc0b26205efb27059e0f105958836f5147d",
     "runs/ch08/plate.svg": "34d60c46f0c1a41fe43cb8fbad3b8af1d29d1a928f848063dc7ecc67cf7bf30a",
-    "books/the-stoic-husband/chapters/ch09/refined.md": "f5f490bb522eb4bee5bcdf530d0f4f729270969b06c9e71738b80dc46d7c8d2d",
+    "books/the-stoic-husband/chapters/ch09/refined.md": "753ceb8bc3871c0c44b58ab69b6daf21ba12be0e3f2ebbba9bb3d62603934f79",
     "books/the-stoic-husband/chapters/ch09/distillation.md": "e34dfff18845c204bc34532ef3ca25d06e8be4177b9a65255f7c0f11b9cf5b93",
     "runs/ch09/plate.svg": "946e7d442de2b4b883b97922e391f20959963001b04fc850a78d5a4e25208777",
     "books/the-stoic-husband/chapters/ch10/refined.md": "65fe275fc2cd54ed31aa12352d3950f9f802aa4bdf02329bf0a20654f838d19b",
@@ -38,12 +38,12 @@
     "books/the-stoic-husband/chapters/ch11/refined.md": "a6ee778810cc2d664683184dcd242574a81f45bcddcd558d22b46c9c472a0879",
     "books/the-stoic-husband/chapters/ch11/distillation.md": "a634ac27c5e1f25f09c44f0808e6eaa2c3d01a6f59284455b960c62a804263d8",
     "runs/ch11/plate.svg": "d02f4fe6a929ff7e038710ec9f71e72d34a13a0680d4e398571a40ab3963f0c3",
-    "books/the-stoic-husband/chapters/ch12/refined.md": "14a83227f3a2dc6d2b9377ed3293b22a8183acf00ed8a3bd61535f29d99fc893",
+    "books/the-stoic-husband/chapters/ch12/refined.md": "9cd6ef58818338336ce938e69a63db13c4252a1b50a30c09fc2ff4ddf24d0588",
     "books/the-stoic-husband/chapters/ch12/distillation.md": "95e7814ae1e73c53d49558a8bae7bf0dc7dda4ad0fc3fdf694c9db6fe2edb3c5",
     "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
-    "runs/ch13/refined.md": "916cd18459a5f64812fa9a49d46e04589045cafe72e398afa6998de3216919b1",
-    "runs/ch13/distillation.md": "99b085ebe04217d5e0d5d61ed23f88e8022362fccf36c82a06dde9937508c4c7",
-    "runs/ch13/plate.svg": "043cb020be67481978e24c46c767ae6230729d6c71031882d83172df94518941"
+    "runs/ch13/refined.md": "54429708acd0e21cf4db19448e1f80a9deaf10f279622849ffd854629ae960ce",
+    "runs/ch13/distillation.md": "0e16fbbf79440ba9b200e7a963df7dc1df6abdd90f44862f65bbab70361b0818",
+    "runs/ch13/plate.svg": "adb4514fb7089ce8e5764ccee10268f98e7b8f8bf7f9a230a3bf216b0568d468"
   },
   "outputs": [
     "book.pdf",
@@ -64,7 +64,7 @@
     "plates.pdf"
   ],
   "plate_packet": {
-    "built": "2026-09-26T17:31:38.990693-05:00",
+    "built": "2026-09-27T21:56:17.469817+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -153,7 +153,7 @@
       "runs/ch01/plate.svg": "0c8a723099d924152cb1490eb282913b59e001014d496db8a97cbf1eed9051d0",
       "runs/ch02/plate.svg": "e7bcb508bf93a3bb5024701f17332c23cf583179ae28d5883c3f15e9ac54d026",
       "runs/ch03/plate.svg": "11eea65db17cbb1ab37d09341fe33b0854139bc23b7368ba37da34fbd8c52656",
-      "runs/ch04/plate.svg": "4c0a493b8248edd9be0cd4ed947744c17cb7ab453370a73869495ae89659c272",
+      "runs/ch04/plate.svg": "0831aa20cfe07228cdbb3a872feabe6f1c8533e1e75ca619d62b686b6cf692c0",
       "runs/ch05/plate.svg": "bdded417a4ac1721700b9e4b6b418322ee8fe137b24ee1a32a16ee96b81b39a8",
       "books/the-stoic-husband/parts/plate-1-steady-river.svg": "6be99ee863d39a24e3ae95ff33b1abe24df6ed548ba1e45517f0156b69097110",
       "runs/ch06/plate.svg": "939086ab6079729b13e2ae6f7b855981ec2aef90fcb34ad562cbc3f1b3947eb3",
@@ -164,7 +164,7 @@
       "runs/ch11/plate.svg": "d02f4fe6a929ff7e038710ec9f71e72d34a13a0680d4e398571a40ab3963f0c3",
       "books/the-stoic-husband/parts/plate-2-sturdy-oak.svg": "f516b87ea7ff924f0e7c026dc3234e9ab13908809d8ceaa21f4ab05e11f9082e",
       "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
-      "runs/ch13/plate.svg": "043cb020be67481978e24c46c767ae6230729d6c71031882d83172df94518941",
+      "runs/ch13/plate.svg": "adb4514fb7089ce8e5764ccee10268f98e7b8f8bf7f9a230a3bf216b0568d468",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
       "runs/design/plate-briefs.md": "b0532820db3f02be053f8588c0a91ae876ae5f176c1ded4787bc803df714a5e7"
     }
