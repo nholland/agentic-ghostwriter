@@ -16,7 +16,7 @@ Marriage lets you relax, and that's a good thing. You can sit quietly without wo
 
 So you worked to win her, then treated the wedding as proof the work was finished. You still love her. You may have quietly stopped spending any thought on her.
 
-The Stoics were Greek and Roman teachers who cared less about what a man believed than about what he did on an ordinary Tuesday. A choice isn't something you made once. It's something you either keep making or quietly stop making. Loving her on your wedding day cost you nothing the following spring. Choosing her this Saturday costs you an afternoon, and an afternoon is the version she can see.
+Epictetus was a Stoic teacher who had once been a slave, and he taught nineteen hundred years ago. His short book of rules for living is called the Handbook, or the *Enchiridion*. One of those rules: "Duties are universally measured by relations." What you owe comes from the relation you're standing in. He was writing about fathers and brothers. The shape of it still fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. A choice isn't something you made once. It's something you either keep making or quietly stop making. Loving her on your wedding day cost you nothing the following spring. Choosing her this Saturday costs you an afternoon, and an afternoon is the version she can see.
 
 ---
 
@@ -68,7 +68,7 @@ She pointed out a book weeks ago. She loves a particular pastry and never stops 
 
 **Keep romance off the schedule.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening; this is wider than that. If you have to count back through months to find one, you've found your starting place.
 
-Romance in your marriage might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. The bar isn't a grand surprise. It's knowing her well enough that an ordinary gesture is unmistakably hers.
+Romance in your marriage might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. The bar is knowing her well enough that an ordinary gesture is unmistakably hers. Nothing about it has to be grand.
 
 She told you Monday that the review was Wednesday. Asking how it went on Wednesday night is the part she'd notice. She mentioned a restaurant she wants to try, and her favorite flowers aren't the ones you bought five years ago. Remembering only reaches her when it changes what you do.
 
@@ -260,3 +260,70 @@ mention is "flowers" in the remembering paragraph, a false positive, and the cou
 is well inside the cap either way. The rhetorical-device line is clear by regex
 and by read: the short-imperative triad, which the coherence review counted five
 times in the prior version, now appears twice (touch, anniversary).
+
+**Round 4, 2026-09-27 (author-directed, the chapter's turn).** The turn paragraph
+now carries Epictetus, closing inbox #106's gap with a confirmed line.
+
+- **Retired** the generic sentence *"The Stoics were Greek and Roman teachers who
+  cared less about what a man believed than about what he did on an ordinary
+  Tuesday."* It was orientation standing where the turn belonged.
+- **Attribution boundary, the point of the whole edit.** The only words inside
+  quotation marks attributed to Epictetus are *"Duties are universally measured by
+  relations."* (Enchiridion 30, George Long 1877, per
+  `okf/citations/epictetus-enchiridion-30-relational-duties.md`, External
+  Verification). The husband/suitor material is the narrator's own gloss, in the
+  book's voice, outside quote marks: *"Husband is a role you keep playing, not a
+  title you won once. If you want to be her husband, keep being her husband. You
+  were her suitor before she said yes, and that job stayed open."* No other
+  Epictetus wording was quoted, paraphrased into quote marks, or transcribed.
+  His examples at 30 are fathers and brothers, and the chapter says so rather than
+  reading them as marriage instructions: *"He was writing about fathers and
+  brothers. The shape of it still fits a husband."*
+- **Introduction kept to two short clauses** (Stoic teacher, once a slave,
+  nineteen hundred years ago) plus the source named as the Handbook, the
+  *Enchiridion*. Ch12 already introduced him at length; this does not re-teach him.
+- **Negated reframe held at 2.** The gloss added one mini-instance (*"not a title
+  you won once"*), so the romance-bar instance was recast: *"The bar isn't a grand
+  surprise. It's knowing her well enough..."* → *"The bar is knowing her well
+  enough that an ordinary gesture is unmistakably hers. Nothing about it has to be
+  grand."* The choice sentence, the chapter's assigned principle, is untouched.
+- Nothing else changed. No new topic, no em-dash, Seneca river paragraph as it was,
+  practice items untouched.
+
+Judgement calls the author may reverse:
+
+- **Distillation left alone.** The Stoic line turns the chapter but the
+  distillation's mechanism (*"Keep choosing her in ways she can see"*) already
+  states the same idea in the book's own words, and adding a quotation there would
+  put a citation into a summary that carries none. Say the word and it goes in.
+- **"That job stayed open"** is my rendering of the author's *"you keep pursuing
+  her."* It avoids a third negated reframe. His literal phrasing can replace it if
+  he accepts recasting a different instance.
+- **Inbox #106 is now answerable** but not closed by this desk: the citation is
+  still `verifiable`, not `verified`, and only the author can move it against his
+  own copy.
+
+Counted voice check, as the script printed it (round 4):
+
+```text
+voice_check: refined.md
+  1873 words of prose, 148 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1189}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           1 inline bolded span(s) (cap 1); 6 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      13/148 sentences at 25+ words = 8.8% (cap 10%)
+             41w: Choosing her this Saturday costs you an afternoon, and an afternoon is the version she can see. **The date you...
+             33w: What's worth watching is whether thoughtfulness has gone rare everywhere else too. **Don't let knowing her end...
+             32w: What she wanted was your attention, and you had it somewhere else. **When the effort changed.** Think about ho...
+    [ok  ] you-density              131 direct-address words in 1873 = 69.9 per 1,000 (floor 40)
+    [ok  ] metaphor family          2 mentions in 1873 words = 1.1 per 1,000 (cap 5); {'river': 2}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 13 words, shares 1 words with the previous one. Close: 'Put the phone down, and give her the evening you came to share.'
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+```
