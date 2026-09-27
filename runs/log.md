@@ -3223,3 +3223,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 183 more
 
 **Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-27 19:57 — `claude/gateway-2hbp6i` — ? commit(s) this session
+- `inbox/062-land-py-copies-a-chapter-plate-into-books-with-n.md`
+- `inbox/063-svg-to-png-silently-lost-the-bottom-fifth-of-eve.md`
+- `inbox/072-package-check-py-printed-ok-on-all-four-manuscri.md`
+- `inbox/081-plate-check-py-appends-the-whole-plate-brief-md-.md`
+- `inbox/082-the-panel-s-stale-raster-claim-was-confirmed-by-.md`
+- `inbox/088-plate-check-only-ever-runs-on-a-source-svg-a-hum.md`
+- `inbox/103-align-all-reader-exports-to-the-approved-chapter.md`
+- `output/compiled/README.md`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-1-steady-river.png`
+- `output/compiled/assets/chapters/ch01-plate.png`
+- `output/compiled/assets/chapters/ch01.html`
+- `output/compiled/assets/chapters/ch02-plate.png`
+- `output/compiled/assets/chapters/ch02.html`
+- `output/compiled/assets/chapters/ch03-plate.png`
+- `output/compiled/assets/chapters/ch03.html`
+- `output/compiled/assets/chapters/ch04-plate.png`
+- `output/compiled/assets/chapters/ch04.html`
+- `output/compiled/assets/chapters/ch05-plate.png`
+- `output/compiled/assets/chapters/ch05.html`
+- `output/compiled/assets/chapters/ch06-plate.png`
+- `output/compiled/assets/chapters/ch06.html`
+- `output/compiled/assets/chapters/ch07-plate.png`
+- `output/compiled/assets/chapters/ch07.html`
+- `output/compiled/assets/chapters/ch08-plate.png`
+- `output/compiled/assets/chapters/ch08.html`
+- `output/compiled/assets/chapters/ch09-plate.png`
+- `output/compiled/assets/chapters/ch09.html`
+- `output/compiled/assets/chapters/ch10-plate.png`
+- `output/compiled/assets/chapters/ch10.html`
+- … and 41 more
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
