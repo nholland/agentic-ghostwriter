@@ -1,7 +1,7 @@
 ---
 name: gw-researcher
 description: The Researcher desk. Builds a chapter research brief from the author's interview record plus the book's own files, writes gap-marker citation concepts, and runs the cross-chapter reuse check. Runs cold and cannot ask the author anything. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Write, Bash, Grep, Glob, WebSearch, WebFetch
 ---
 

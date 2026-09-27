@@ -1,7 +1,7 @@
 ---
 name: gw-ghostwriter
 description: The Ghostwriter desk. Writes a complete chapter draft cold from a research brief, or in plan-only mode reviews whether a brief can be written from at all. Never pauses for check-in. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Write, Bash
 ---
 

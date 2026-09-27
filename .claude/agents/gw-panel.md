@@ -1,7 +1,7 @@
 ---
 name: gw-panel
 description: The Reader Panel desk. Runs the whole-book QA personas - skeptic, beta readers, tension reader, continuity editor - and returns one synthesized ranked list. Read-only; it reports, it never fixes. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Grep, Glob, Write
 ---
 
