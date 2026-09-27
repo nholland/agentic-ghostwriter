@@ -27,7 +27,8 @@ provenance: >
   framework backs the new Chapter 14, "The Discipline of Enough"
   (inserted into Part III between "Pursue Her After You Have Her" and
   "Sex, Rejection, and Self-Respect" — see 03-outline.md's 2026-07-28
-  revision note).
+  revision note). Expanded by direct author testimony in the Chapter 14
+  interview, 2026-09-27; see runs/ch14/interview.md. That interview is open.
 ip: author-synthesis
 tags: [framework, contentment, miswanting, hedonic-adaptation, comparison-trap, proactive-vs-reactive]
 chapter_slugs: [the-discipline-of-enough]
@@ -43,6 +44,24 @@ in someone else — and nobody told him the comparison was rigged in the
 first place.
 
 # Schema
+
+## Author's current direction, 2026-09-27
+
+In the Sun arc, this chapter concerns **how a man should love** a spouse who
+changes over time. The author distinguishes ordinary aging from neglect of
+one's own health: “This chapter should not be an excuse for that. You still
+need to maintain your health.” He wants the man to examine unreasonable
+expectations of beauty and of other partner traits (cooking, humor, income)
+while continuing to love the real, changing person. He names his wife as his
+example and says, “She is enough for me.” Her personal details are recorded
+as private source material in [the author story](/stories/the-wife-who-is-enough.md).
+
+The author's favored phrase is “The grass is really greener where you water
+it.” Its use as a chapter line is not yet settled. Research questions about
+infidelity, media-shaped expectations, and changes in attraction remain open;
+none is established by this interview. The earlier work-trip example is not
+an author memory. The interview must settle disclosure and how to discuss
+real unmet needs before research handoff.
 
 1. **The treadmill, applied to one specific marriage.** Courtship-era
    intensity was never purely "her" — it ran substantially on novelty and

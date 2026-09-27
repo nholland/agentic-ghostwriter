@@ -126,6 +126,7 @@ Real audience signals and author anecdotes, used as composite scenarios.
 - [The Cascade](/stories/the-cascade.md) — anger flows downhill: husband → wife → kids → dog; a composite illustration of contagion
 - [The Bathroom Light](/stories/the-bathroom-light.md) — a trivial trigger absorbs a disproportionate reaction and becomes permanently loaded
 - [Two Truths: Tired Husband, Overloaded Wife](/stories/two-truths-tired-husband-overloaded-wife.md) — two genuine grievances on different axes collide and compete for acknowledgment
+- [The Wife Who Is Enough](/stories/the-wife-who-is-enough.md) — private author testimony for Ch14; disclosure pending.
 
 ## Citations
 
@@ -255,6 +256,8 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Scheibehenne, Mata & Todd (2011) — Partner Preference Accuracy and Overconfidence](/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md) — status: verifiable
 - [Seneca, Letter 58.22-23 — Heraclitus, the river, and changing people](/citations/seneca-letter-58-heraclitus-river-and-change.md) — status: verifiable
 - [Thomas, Carnelley & Hart (2022) — Phone Distraction and Retaliation](/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md) — status: unverified
+- [Appearance Change, Attraction, and Long Marriage](/citations/ch14-appearance-change-and-attraction.md) — status: unverified; Ch14 research gap, no causal infidelity claim.
+- [Pornography, Romance Media, and Partner Expectations](/citations/ch14-pornography-romance-media-expectations.md) — status: unverified; Ch14 research gap.
 
 ## Signals
 

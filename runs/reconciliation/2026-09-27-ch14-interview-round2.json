@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-09-27T17:14:30.009787-05:00",
+  "subjects": [
+    "chapter:ch14"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md",
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md",
+    "books/the-stoic-husband/okf/citations/ch14-appearance-change-and-attraction.md",
+    "books/the-stoic-husband/okf/citations/ch14-pornography-romance-media-expectations.md"
+  ],
+  "authority": "Author testimony and direction in Chapter 14 interview, 2026-09-27.",
+  "reason": "Records changing-spouse account and direct chapter direction; registers unsupported research claims as gaps; holds private details pending disclosure decision.",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md": "4a96e9d47b486122e852ab26fb1354b5c8fd3e040c71ac400858be1b063ce16e",
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md": "99e81a2798c4b028cfbac375404d152bcfbfd238821fa0657644f23824bfbd99",
+    "books/the-stoic-husband/okf/citations/ch14-appearance-change-and-attraction.md": "53c353bc26d77207e3c9ccd429bc56ae8741708b5ce8b84ff7783d502ee899ab",
+    "books/the-stoic-husband/okf/citations/ch14-pornography-romance-media-expectations.md": "78001c373bc422ead70059ab2466182b47e466042e3a40f2f0c18385ab034bcf",
+    "books/the-stoic-husband/okf/index.md": "6b499c1c8a7de4a8fed441b08a21e54977d311349487ed2608f6fef57e38fa48",
+    "books/the-stoic-husband/okf/log.md": "746b393e33a91fb6815e9ae7e963b4bf3958ef052f9246a88971674ff24534b6",
+    "runs/ch14/interview.md": "e2975df686eadc3bcadf6d5f1da7558abee8742ad6fca12b9269c7bd067ee5f5"
+  }
+}
