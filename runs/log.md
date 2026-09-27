@@ -3400,3 +3400,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 114 more
 
 **Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-27 22:18 — `claude/gateway-2hbp6i` — 19 commit(s) this session
+- `.claude/OKF.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/retro-check.sh`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw-chapter/SKILL.md`
+- `.claude/skills/gw-edit/SKILL.md`
+- `.claude/skills/gw-inbox/SKILL.md`
+- `.claude/skills/gw-interview/SKILL.md`
+- `.claude/skills/gw-note/SKILL.md`
+- `.claude/skills/gw-research/SKILL.md`
+- `.claude/skills/gw-revise/SKILL.md`
+- `.claude/skills/gw-signal/SKILL.md`
+- `CLAUDE.md`
+- `agents/gw-retro.md`
+- `books/the-stoic-husband/00-premise.md`
+- `books/the-stoic-husband/01-voice.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/distillation.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/okf/frameworks/prohairesis-faculty-of-moral-choice.md`
+- `books/the-stoic-husband/okf/frameworks/romance-as-disciplined-attention.md`
+- `books/the-stoic-husband/okf/frameworks/temperament-asymmetry-who-cares-more-wins.md`
+- `books/the-stoic-husband/okf/frameworks/the-intertwined-life.md`
+- … and 117 more
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: ../../books/the-stoic-husband/03-outline.md).
