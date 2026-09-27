@@ -3231,3 +3231,10 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 183 more
 
 **Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-27 16:20 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
+- `runs/qa/2026-09-27-jev-applicability-233-fixtures-tests.txt`
+- `runs/qa/2026-09-27-jev-applicability-233-fixtures.md`
+- `runs/reconciliation/2026-09-27-jev-platform-research.json`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
