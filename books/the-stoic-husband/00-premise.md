@@ -32,7 +32,7 @@ We are living through a crisis of masculine identity that is emptying marriages.
 ---
 
 ## The Author's Claim to This Territory
-He is not a therapist, a pastor, or a philosopher — he is a common man who has lived 23 years inside the full arc of a real marriage, with every test that entails. When COVID hit and put his personal life under a kind of pressure that exposed what he didn't yet know about himself, he found Stoicism — at first in short videos, then in books, eventually in the original texts. He spent six years studying the philosophy in earnest and applying it to his own marriage in real time. Critically, he made the central mistake this book warns against: he first applied Stoicism as armor, becoming aloof and closed off, before his wife helped him find the correct path. He knows this trap from the inside.
+He is not a therapist, a pastor, or a philosopher — he is a common man who has been married since 2003, with every test that entails. When COVID hit and put his personal life under a kind of pressure that exposed what he didn't yet know about himself, he found Stoicism — at first in short videos, then in books, eventually in the original texts. He spent six years studying the philosophy in earnest and applying it to his own marriage in real time. Critically, he made the central mistake this book warns against: he first applied Stoicism as armor, becoming aloof and closed off, before his wife helped him find the correct path. He knows this trap from the inside.
 
 ---
 
