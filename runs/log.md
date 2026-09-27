@@ -3263,3 +3263,10 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch13/persona-refined.md`
 
 **Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-27 20:11 — `claude/gateway-2hbp6i` — ? commit(s) this session
+- `inbox/105-chapter-13-s-outline-entry-still-prescribes-the-.md`
+- `inbox/106-chapter-13-has-no-quotation-at-its-turn-which-st.md`
+- `runs/ch13/coherence-refined.md`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
