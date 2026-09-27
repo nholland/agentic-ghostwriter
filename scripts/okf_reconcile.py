@@ -84,17 +84,26 @@ def git(root, *args):
     return p.stdout
 
 
+def verify(root, ref):
+    try:
+        return git(root, 'rev-parse', '--verify', '--quiet', ref).strip()
+    except ValueError:
+        return None
+
+
 def changed(root, since=None):
+    main = None
     if not since:
-        for ref in ('@{upstream}', 'origin/main', 'main'):
-            try:
-                since = git(root, 'rev-parse', '--verify', ref).strip()
-                break
-            except ValueError:
-                continue
+        since = verify(root, '@{upstream}')
+        main = verify(root, 'origin/main') or verify(root, 'main')
+        since = since or main
         if not since:
             raise ValueError('no comparison branch; use --since SHA')
     names = set(git(root, 'diff', '--name-only', since, '--').splitlines())
+    if main and main != since:
+        # A file whose bytes match main's arrived by merging main, where it
+        # was already reconciled; only this branch's own changes need a receipt.
+        names &= set(git(root, 'diff', '--name-only', main, '--').splitlines())
     names.update(git(root, 'ls-files', '--others', '--exclude-standard').splitlines())
     return sorted(n for n in names if n.endswith('.md') and
                   (n.startswith('books/') or (n.startswith('runs/') and n.endswith('/interview.md'))))

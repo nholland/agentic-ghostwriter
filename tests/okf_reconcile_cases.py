@@ -71,6 +71,34 @@ def okf_reconcile_cases():
         target.write_text(original.replace('status: open','status: ruled\napplied_by: touch PROOF_RAN'))
         r=inbox('--json')
         rows.append(('status: ruled' in target.read_text() and not(root/'PROOF_RAN').exists(),'OKF automatic reconciliation requires receipt','proof cannot bypass missing knowledge record',r.stdout+r.stderr))
+    rows += merged_main_cases()
+    return rows
+
+
+def merged_main_cases():
+    """Files brought in by merging main were reconciled on main; the branch's own are not."""
+    rows = []
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        def git(*args):
+            return subprocess.check_output(['git', *args], cwd=root, stderr=subprocess.DEVNULL, text=True).strip()
+        def check():
+            with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                return kr.check(root)
+        git('init', '-q', '-b', 'main'); git('config', 'user.name', 'Fixture'); git('config', 'user.email', 'fixture@example.com')
+        name = 'books/example/chapters/ch01/refined.md'; p = root/name; p.parent.mkdir(parents=True); p.write_text('base')
+        git('add', '.'); git('commit', '-qm', 'base')
+        git('checkout', '-qb', 'session'); git('branch', '-q', 'pushed-session')
+        git('branch', '-q', '--set-upstream-to=pushed-session')
+        git('checkout', '-q', 'main'); p.write_text('approved on main'); git('commit', '-qam', 'main correction')
+        git('checkout', '-q', 'session'); git('merge', '-q', '--no-edit', 'main')
+        rows.append((check() == 0, 'OKF merged-in main changes need no branch receipt', 'main already reconciled them', ''))
+        own = root/'books/example/chapters/ch02/refined.md'; own.parent.mkdir(parents=True); own.write_text('branch knowledge')
+        git('add', '.'); git('commit', '-qm', 'branch change')
+        rows.append((check() == 2, 'OKF branch change still blocks after merging main', 'the filter only drops main-identical files', ''))
+        p.write_text('branch edit on top of main'); git('commit', '-qam', 'edit merged file')
+        receipt(root, ['chapter:ch02'], ['books/example/chapters/ch02/refined.md'])
+        rows.append((check() == 2, 'OKF branch edit to a merged file still blocks', 'differs from main, so it is the branch\'s work', ''))
     return rows
 
 if __name__ == '__main__':
