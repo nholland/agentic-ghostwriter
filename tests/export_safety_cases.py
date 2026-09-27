@@ -68,7 +68,9 @@ def export_safety_cases():
         (ch/'distillation.md').unlink()
         for x, force, expected in ((100, False, 0), (630, False, 1), (630, True, 0)):
             (run/'plate.svg').write_text(SVG % x)
-            args = ['land.py', '1', '--dry-run'] + (['--force'] if force else [])
+            from okf_reconcile_cases import receipt
+            rec = receipt(root, ['chapter:ch01'], ['runs/ch01/refined.md', 'runs/ch01/distillation.md'])
+            args = ['land.py', '1', '--dry-run', '--okf-receipt', rec] + (['--force'] if force else [])
             with patch.object(land, 'REPO', str(root)), patch.object(sys, 'argv', args), \
                  patch.object(land.resolve_book, 'resolve', return_value=(str(root), '', '')), \
                  patch.object(land.resolve_book, 'inspect', return_value={'info':{'bookRoot':str(root/'book'),'bookRootRelative':'book'},'problems':[]}), \
@@ -80,6 +82,18 @@ def export_safety_cases():
                 ok = ok and 'geometry' in output.getvalue()
             out.append((ok, f'landing plate x={x} force={force}',
                         'bad geometry refuses before writes; clean and explicit override still work', output.getvalue()))
+
+        # --force does not waive knowledge reconciliation, even with clean geometry.
+        (run/'plate.svg').write_text(SVG % 100)
+        with patch.object(land, 'REPO', str(root)), patch.object(sys, 'argv', ['land.py', '1', '--force']), \
+             patch.object(land.resolve_book, 'resolve', return_value=(str(root), '', '')), \
+             patch.object(land.resolve_book, 'inspect', return_value={'info':{'bookRoot':str(root/'book'),'bookRootRelative':'book'},'problems':[]}), \
+             contextlib.redirect_stdout(io.StringIO()) as output:
+            rc = land.main()
+        out.append((rc != 0 and 'receipt required' in output.getvalue() and not (ch/'refined.md').exists(),
+                    'landing force cannot bypass OKF receipt', 'refuse before any book writes', output.getvalue()))
+
+        (run/'plate.svg').write_text(SVG % 630)
 
         # Compiler uses the exact selected draft, even when a clean landed file exists.
         for name, text in [('refined.md', '# Chapter 1: Example\n\nProse end 1.\n'),

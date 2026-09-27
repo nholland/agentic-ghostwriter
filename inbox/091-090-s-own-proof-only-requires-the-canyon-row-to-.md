@@ -1,6 +1,8 @@
 ---
 id: 091
-status: open
+status: resolved
+disposition: declined
+resolved: 2026-09-26 18:27
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-22 22:53
@@ -43,3 +45,5 @@ Publisher independently verified the monotonicity blind spot: wall-vertex step w
 ```
 
 **What unblocks this:** Whether the canyon row is specified by the defect it exists to catch, or by the single easiest mutant anyone happened to construct
+
+**Resolution (2026-09-26 18:27):** Author: “Do the three that you approve. Decline and remove the rest.” Declined with #090. Do not expand the specialized canyon-checker fixtures. Keep #087 for direct visual review. Removed from the active inbox; historical proposal and proof retained, not implemented or claimed passing.

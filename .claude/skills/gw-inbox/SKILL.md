@@ -28,7 +28,7 @@ and closes itself when that passes; a ruling recorded is not a ruling applied.
 Only after he has actually ruled:
 
 ```
-python3 scripts/inbox.py --close N --resolution "what he decided, in his words"
+python3 scripts/inbox.py --close N --okf-receipt runs/reconciliation/BATCH.json --resolution "what he decided, in his words"
 # add --applied-by "<command>" when the change has not landed yet
 ```
 
@@ -42,3 +42,9 @@ was decided and why, not that something was.
   desk would not have raised it — and a desk that raises obvious items is a
   separate finding worth recording.
 - Invent an item's context from the conversation rather than the file.
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.

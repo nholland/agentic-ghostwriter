@@ -56,3 +56,9 @@ and set the file's `status: answered` — until then `next.py` reports the chapt
 as waiting on him. Then hand off:
 
 `/gw-draft NN`
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.

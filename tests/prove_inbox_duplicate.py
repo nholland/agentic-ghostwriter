@@ -36,10 +36,13 @@ def inbox_duplicate_cases():
         (root / "scripts").mkdir()
         (root / "inbox").mkdir()
         shutil.copy(ROOT / "scripts/inbox.py", root / "scripts/inbox.py")
+        from okf_reconcile_cases import receipt
+        shutil.copy(ROOT / 'scripts/okf_reconcile.py', root / 'scripts/okf_reconcile.py')
+        rec = receipt(root, ['inbox:053'])
         target = root / "inbox/a.md"
         target.write_text("---\nid: 053\nstatus: open\n---\n\n# Unique\n")
         result = subprocess.run([sys.executable, "scripts/inbox.py", "--close", "53",
-                                 "--resolution", "approved"], cwd=root, capture_output=True, text=True)
+                                 "--resolution", "approved", "--okf-receipt", rec], cwd=root, capture_output=True, text=True)
         rows.append((result.returncode == 0 and "status: resolved" in target.read_text(),
                      "inbox unique ID still closes", "do not reject an unambiguous record", result.stdout))
     return rows

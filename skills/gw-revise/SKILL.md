@@ -67,3 +67,9 @@ occurrences before editing, edit, then re-grep to confirm zero remain.**
 Show the diff. Get a response. On his yes, apply it as its own commit quoting his
 word, then run `python3 scripts/okf_gate.py` - a threshold the spec no longer
 states is a structural failure and blocks until `config/house.json` follows.
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.

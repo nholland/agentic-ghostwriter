@@ -132,7 +132,7 @@ The author's own first-person moments are evidence of a specific kind: he's been
 
 ## Relationship with Personal Narrative
 
-First-person appears as evidence, not performance. He's in the book because he lived it — 23 years, every test, made the central mistake himself. He doesn't narrate from the position of having figured it out. He puts the reader inside the version of himself that was about to get humbled.
+First-person appears as evidence, not performance. He's in the book because he lived it — married since 2003, every test, made the central mistake himself. He doesn't narrate from the position of having figured it out. He puts the reader inside the version of himself that was about to get humbled.
 
 The self-deprecating marker is a sentence, not a paragraph. *"I was defensive, which is a little embarrassing."* The self-awareness is a tic, not a performance. Never a confession.
 

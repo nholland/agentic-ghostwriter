@@ -8,7 +8,7 @@ Nobody handed you the blueprint for being a husband. Nobody hands it to anyone. 
 
 I was in the same boat. Same as you. And that was fine. Until it wasn't.
 
-My wife and I met in the fifth grade. We were best friends by sixth. We started dating late in tenth grade, and we got married the first year out of college. We're over thirty years in. I mention that as a data point, not a brag. It means whatever I say about marriage in this book, I've had it tested on me more than once.
+My wife and I met in the fifth grade. We were best friends by sixth, in 1991. We started dating in tenth grade, in 1995, and married in 2003. I mention that as a data point, not a brag. It means whatever I say about marriage in this book, I've had it tested on me more than once.
 
 We're different in a lot of ways. She's structured, methodical, organized. She thinks in outlines and files. I'm the other one. I see three moves ahead and skip the paperwork, which is a nicer way of saying I don't do the paperwork at all. But we're not opposites. We're both competitive. We both care, deeply, about the same thing: this family actually working. We just go after that from completely different directions, and we've been working at it together, some seasons well and some seasons badly, for a very long time.
 
@@ -50,6 +50,6 @@ You don't get to skip the hard part in anything that actually matters. Skip the 
 
 So this book is about the hard part I chose to build with.
 
-I was in the same boat you're probably in. I built the boat while I was in it, one ordinary day at a time, over thirty years, with no shortcuts and nothing dramatic to point to. If this book gives you a head start on some of that time, that's the whole point.
+I was in the same boat you're probably in. I've been building that boat since we started dating in 1995, one ordinary day at a time, with no shortcuts and nothing dramatic to point to. If this book gives you a head start on some of that time, that's the whole point.
 
 You can start building before it stops being fine.

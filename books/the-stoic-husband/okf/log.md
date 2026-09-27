@@ -918,3 +918,5 @@ Deeper research intake 2026-09-23T04:30:26+00:00: added four candidate citations
 ## 2026-09-22T23:42:02-05:00 — Chapter 13 Sun-arc direction
 
 Captured author instruction verbatim in an Author Note and indexed it. Earlier research items already exist in OKF; no duplicate sources created. Author requested moving to draft.
+
+- 2026-09-27T15:02:16.620265-05:00: Reconciled approved inbox 070, 084, 094–097 and 100; corrected chronology, nail mapping, terminology and romance limits. Added /notes/2026-09-27-approved-inbox-knowledge.md; retained pending 098/099 wording as pending. Author authorized backfill.

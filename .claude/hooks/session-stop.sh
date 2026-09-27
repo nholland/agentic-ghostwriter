@@ -10,6 +10,9 @@ ROOT="${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-topleve
 [ -z "$ROOT" ] && exit 0
 cd "$ROOT" || exit 0
 
+# Exit 2 prevents completion when knowledge-bearing edits lack a disposition.
+python3 scripts/okf_reconcile.py --check || exit 2
+
 # NOT .claude/state/: that is per-container scratch, now gitignored. Adding it
 # here is what turned every session start into an empty "auto:" commit.
 WORK="runs/ bakeoff/ inbox/ FINDINGS.md"

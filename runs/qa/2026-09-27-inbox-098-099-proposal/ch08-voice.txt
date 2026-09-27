@@ -1,0 +1,20 @@
+voice_check: ch08-refined.md
+  1169 words of prose, 91 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 728}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 5 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      7/91 sentences at 25+ words = 7.7% (cap 10%)
+             35w: It just keeps it from turning into a pointed comment, a flat tone, a door closed a little harder than it neede...
+             34w: The small stuff underneath has been landing for a long time before it ever reaches the surface. **Different sh...
+             29w: The honest thing to do is check whether the fact is actually real. So when she names an unfairness, the diagno...
+    [ok  ] you-density              59 direct-address words in 1169 = 50.5 per 1,000 (floor 40)
+    [ok  ] metaphor family          3 mentions in 1169 words = 2.6 per 1,000 (cap 5); {'scale': 1, 'weight': 1, 'tip': 1}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 19 words, shares 3 words with the previous one. Close: "You can thank her for what she carries and still ask for help with what you can't keep carrying."
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed

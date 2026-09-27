@@ -1,52 +1,6 @@
 #!/usr/bin/env bash
-# Stop hook, last step: once MIN_COMMITS commits touching the work have piled
-# up since the last review, ask the Publisher to dispatch the Archivist.
-#
-# Batched, not per checkpoint (#092, author's yes 2026-09-24). The Stop hook
-# fires after every turn, so "any commit" meant five reviews in 40 minutes on
-# 2026-09-22 and a review of a one-commit fix the last review had proposed on
-# 2026-09-24. Fewer than MIN_COMMITS still get one review when the author says
-# he is done - /gw's end-of-session row dispatches it.
+# Batch at three new work commits; dispatch never consumes pending coverage.
 ROOT="${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel 2>/dev/null)}}"
 [ -z "$ROOT" ] && exit 0
-cd "$ROOT" || exit 0
-
-STATE=".claude/state"; mkdir -p "$STATE"
-# The window starts where the last review ENDED, not where this container's
-# session started (#030): session-start-sha is rewritten by every SessionStart,
-# including a resumed thread, and on 2026-09-18 that moved the window four
-# commits into a session and hid six of its fourteen commits from the review -
-# both constitution writes and all four proposal fixes. retro-last-sha is
-# written only here, when a review is dispatched, so nothing is reviewed twice
-# and nothing is skipped. session-start-sha stays as the fallback and for the
-# branch-hygiene hook, which needs it.
-START=$(cat "$STATE/retro-last-sha" 2>/dev/null)
-[ -z "$START" ] && START=$(cat "$STATE/session-start-sha" 2>/dev/null)
-HEAD_SHA=$(git rev-parse HEAD 2>/dev/null)
-[ -z "$HEAD_SHA" ] && exit 0
-[ -z "$START" ] && START="$HEAD_SHA~1"
-git merge-base --is-ancestor "$START" "$HEAD_SHA" 2>/dev/null || START="$HEAD_SHA~1"
-
-# once per window
-DONE="$STATE/retro-done-$(echo "$START" | cut -c1-12)"
-[ -f "$DONE" ] && exit 0
-
-# The WORK, never the rules. .claude/, CLAUDE.md and the docs are excluded on purpose.
-# NOT runs/: session-stop.sh writes and commits runs/log.md itself, so watching
-# it made the hook dispatch a retrospective on its own bookkeeping.
-# books/ IS watched: a landing or a constitution edit is the work, since 2026-09-18.
-WATCHED="bakeoff/ inbox/ scripts/ config/ books/ FINDINGS.md"
-COUNT=$(git rev-list --count "$START..$HEAD_SHA" -- $WATCHED 2>/dev/null); COUNT=${COUNT:-0}
-MIN_COMMITS=3
-[ "$COUNT" -ge "$MIN_COMMITS" ] || exit 0
-
-touch "$DONE"
-# Write the window BEFORE the dedupe pointer, and from the START/HEAD_SHA this
-# run computed - not from retro-last-sha, which this same block is about to
-# overwrite. #030 recurrence: gw-retro.md's own first read step was
-# retro-last-sha, so by the time it ran, dedupe and window were the same
-# variable and the window it read was always already-current (empty).
-echo "$START $HEAD_SHA" > "$STATE/retro-window"
-echo "$HEAD_SHA" > "$STATE/retro-last-sha"
-echo "SESSION REVIEW: this session made $COUNT commit(s) touching the work ($START..$HEAD_SHA). Before closing, dispatch the Archivist (agent gw-retro) to review it cold - what broke, what was missing, what was too hard, what worked, what recurs - and show the author its suggestions. It proposes; you apply nothing without his yes. If it reports nothing substantive, pass that on in one line and move on. Then tell him where his work is: which branch, whether it is pushed, and whether it is on main." >&2
-exit 2
+SCRIPT_ROOT=$(cd "$(dirname "$0")/../.." && pwd)
+exec python3 "$SCRIPT_ROOT/scripts/retro_window.py" --repo "$ROOT" --dispatch

@@ -1,6 +1,8 @@
 ---
 id: 076
-status: open
+status: resolved
+disposition: declined
+resolved: 2026-09-26 18:27
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 01:10
@@ -31,3 +33,5 @@ as this item, one directory over.
 Not this shape, recorded so the distinction survives: the generators in
 `runs/parts/` each reproduce their committed SVG byte for byte, and the A/B
 variants committed mid-round were deleted in the same commit (-144 lines).
+
+**Resolution (2026-09-26 18:27):** Author: “Do the three that you approve. Decline and remove the rest.” Declined. Do not undertake generated-image cleanup or remove assets; its benefit does not justify this work now. Removed from the active inbox; historical proposal and proof retained, not implemented or claimed passing.

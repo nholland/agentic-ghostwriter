@@ -1,10 +1,11 @@
 ---
 id: 064
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 17:38
-applied_by: grep -rq 'second dispatch keeps the older window start' tests/
+applied_by: python3 tests/maintenance_batch_cases.py
+resolved: 2026-09-26 18:27
 ---
 
 # retro-check.sh overwrites retro-window on every dispatch, so when two dispatches fire before a review runs, the earlier window is discarded. This session's recorded window was 2 of 5 commits and excluded both tool fixes. Should the hook preserve the oldest un-consumed START?
@@ -20,3 +21,9 @@ Two dispatches against a temp repo with no review between: after dispatch 1 wind
 ```
 
 **What unblocks this:** Whether the Archivist's window is an oracle or a file the Publisher has to correct by hand, and whether gw-retro.md's 115-word warning paragraph can be cut to 52
+
+**Resolution (2026-09-26 18:27):** Author approved the three recommended repair groups. Pending review coverage now survives repeated dispatches; completion is explicit and records the reviewed range. Behavioral fixtures pass.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/maintenance_batch_cases.py` exits 0.
+
+**Applied, confirmed 2026-09-26 18:27:** `python3 tests/maintenance_batch_cases.py` now exits 0.

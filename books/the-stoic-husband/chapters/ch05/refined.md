@@ -24,7 +24,7 @@ Think about the word she uses that lands harder than its content warrants. The o
 
 You know this in your body before you know it in your head. Defense. Deny. Downplay. Deflect. Her original complaint gets prosecuted from the other direction. Now you're both defending. The thing that needed to be said is gone.
 
-An apology will end the fight. The nail will stay in.
+An apology may end the fight. The hurt that set it off still needs a conversation.
 
 The reaction out of proportion to the incident is always telling you where the wound is. Not what she did wrong. What's already tender in you. That's worth sitting with.
 
@@ -54,7 +54,7 @@ The couples who stay married for fifty years didn't avoid fighting. They learned
 
 That's one outcome. You let it go. The decision is genuine, not a suppression: it belongs in the category of things that don't require a ruling. Let it be small. It is small.
 
-But some things won't shrink from altitude. When you zoom out and the thing is still big, that's the signal. Four places a fight ends up: you let it go; you fight hard, both take damage, and then time passes and you call it resolved without the real conversation; you fight hard, both take damage, and someone has the courage to come back; or you communicate, either in the moment or after you've cooled. Most couples never return to it later. That's where the nails accumulate.
+But some things won't shrink from altitude. When you zoom out and the thing is still big, that's the signal. Four places a fight ends up: you let it go; you fight hard, both take damage, and then time passes and you call it resolved without the real conversation; you fight hard, both take damage, and someone has the courage to come back; or you communicate, either in the moment or after you've cooled. Most couples never return to it later. That's how the unresolved hurts accumulate.
 
 ---
 

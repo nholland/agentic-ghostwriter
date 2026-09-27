@@ -145,11 +145,16 @@ An inbox item he cannot answer without scrolling back is not finished.
    repo": the book lived in Playground-260420 and two pipelines ran on it at once.
    Inbox #007's migration made this repo the book repo, and the constitution
    exception that had been scaffolding for that arrangement went with it.*
-9. **Gap markers and source findings are written immediately; content concepts
-   are not.** A source finding says what a source says, at `unverified`; the
-   evidence axis carries the doubt. A concept capturing the author's own material
-   is a claim about what he thinks — propose it in `runs/chNN/proposed-concepts.md`,
-   get a response, then write.
+9. **The OKF is authoritative book knowledge.** Capture durable facts, stories,
+   claims, definitions, meanings, evidence, corrections and decisions from every
+   intake and edit. Source findings and gaps are written immediately, with their
+   uncertainty. Explicit author facts and approved meanings need no second approval;
+   propose new interpretations in `runs/chNN/proposed-concepts.md` before acceptance.
+   Before handoff or completion, reconcile existing concepts, provenance and
+   superseded claims; preserve pending and rejected decisions as such. Record
+   `updated`, `already-represented`, or `no-knowledge-change` with authority,
+   concept paths where applicable, and a reason. Follow `.claude/OKF.md`'s
+   completion procedure; a manuscript edit or chat acknowledgment is insufficient.
 10. **Record pushback in `provenance`.** How many rounds, and what each changed.
 11. **Bulk mechanical edits assert uniqueness before writing.** Count exact
     matches, abort if the count is wrong, replace in memory, verify, write once.

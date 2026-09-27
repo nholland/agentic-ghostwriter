@@ -19,12 +19,9 @@ WHY
 INVARIANTS
     1. STRUCTURE. Every '## <date> <time>' heading is followed by at least one
        file line and exactly one '**Next:**' before the next heading.
-    2. UNION. When HEAD is a merge, every heading present in either parent is
-       present in the result. A hand-resolved log may reorder and dedupe; it may
-       never lose a session.
-
-    Invariant 2 is the one that matters and the one no habit caught. It runs
-    only on a merge commit, so the ordinary Stop pays nothing for it.
+    2. UNION. Every historical merge parent's session survives in the current
+       log, allowing same-branch restatements with identical nonempty file sets.
+       A matching file set on another branch cannot excuse a missing session.
 
 USAGE
     python3 scripts/log_check.py            # both invariants, exit 1 on any breach
@@ -90,13 +87,20 @@ def structure_breaches(text):
     return bad
 
 
-def union_breaches():
-    """On a merge commit, every parent's headings must survive into the result.
+def lost_entries(parent_entries, current_entries):
+    """Missing headings, allowing only same-branch file-set restatements."""
+    def identity(heading, block):
+        branch = re.search(r"`([^`]+)`", heading)
+        files = frozenset(re.findall(r'^- `([^`]+)`', block, re.M))
+        return (branch.group(1), files) if branch and files else None
 
-    Returns (breaches, checked). checked is False when HEAD is not a merge -
-    reported as such rather than counted as a pass, because a check that did
-    not run is not a check that passed (Rule 12).
-    """
+    survivors = {identity(h, b) for h, b in current_entries.items()} - {None}
+    return sorted(h for h, b in parent_entries.items()
+                  if h not in current_entries and identity(h, b) not in survivors)
+
+
+def union_breaches():
+    """Compare historical merge parents with the current log; report coverage."""
     def git(*a):
         r = subprocess.run(["git", "-C", REPO, *a], capture_output=True, text=True)
         return r.stdout if r.returncode == 0 else None
@@ -113,13 +117,6 @@ def union_breaches():
     if not merges:
         return [], False
     cur = entries(open(LOG, encoding="utf-8").read())
-    # A heading may legitimately disappear: session_log.py drops a restatement
-    # whose file set repeats the previous entry's, and five were removed by hand
-    # on that rule. So the invariant is about CONTENT, not headings - a lost
-    # heading is a breach only when no surviving entry carries the same file
-    # set. Stated as headings alone it forbids the dedup the house performs on
-    # purpose, and a check that fails on correct behaviour gets switched off.
-    survives = {frozenset(re.findall(r'^- `([^`]+)`', b, re.M)) for b in cur.values()}
     missing = set()
     for m in merges:
         parents = (git("rev-list", "--parents", "-n", "1", m) or "").split()
@@ -127,13 +124,7 @@ def union_breaches():
             t = git("show", f"{p}:runs/log.md")
             if t is None:
                 continue
-            for head, block in entries(t).items():
-                if head in cur:
-                    continue
-                files = frozenset(re.findall(r'^- `([^`]+)`', block, re.M))
-                if files and files in survives:
-                    continue          # its content lives on under another heading
-                missing.add(head)
+            missing.update(lost_entries(entries(t), cur))
     return sorted(missing), True
 
 
