@@ -196,6 +196,10 @@ def main():
         print("sync: not on a branch, or not a git repo", file=sys.stderr); return 2
     if a.status:
         say_status(s); return 0
+    if a.push or a.land:
+        import okf_reconcile
+        if okf_reconcile.check():
+            return 2
     if a.push:
         return push(s)
     if a.merge_main:

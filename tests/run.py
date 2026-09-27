@@ -907,11 +907,13 @@ def inbox_cases():
                     "a gw-retro proposal's proof command must survive into the item, not require --close to repeat it",
                     (rc2, carried)))
 
+        from okf_reconcile_cases import receipt
+        from pathlib import Path
         # --close with no --applied-by must fall back to what --add already
         # wrote, rather than silently dropping it (the exact miss that left
         # #033/#034 with no proof command on their closed items).
         if new_id:
-            rc3, out3 = run_raw("--close", str(int(new_id)), "--resolution", "fixture close")
+            rc3, out3 = run_raw("--close", str(int(new_id)), "--resolution", "fixture close", "--okf-receipt", receipt(Path(tmp), ["inbox:" + str(int(new_id)).zfill(3)]))
             text = open(glob.glob(os.path.join(idir, f"{new_id}-*.md"))[0]).read()
             out.append((rc3 == 0 and "applied_by: true" in text and "status: resolved" in text,
                         "inbox --close carries forward an item's own --applied-by",
@@ -929,7 +931,7 @@ def inbox_cases():
         bs_id = out_bs.strip().split("-> ")[-1].split("/")[-1].split("-")[0] if "-> " in out_bs else None
         rc_bs2, out_bs2 = (None, None)
         if bs_id:
-            rc_bs2, out_bs2 = run_raw("--close", str(int(bs_id)), "--resolution", "fixture close")
+            rc_bs2, out_bs2 = run_raw("--close", str(int(bs_id)), "--resolution", "fixture close", "--okf-receipt", receipt(Path(tmp), ["inbox:" + str(int(bs_id)).zfill(3)]))
         out.append((bs_id is not None and rc_bs2 == 0,
                     "inbox --close survives a backreference-shaped --applied-by",
                     "re.sub's replacement must be a function, not an f-string, or a sed-capture-group proof command crashes do_close outright",
@@ -1548,7 +1550,8 @@ def main():
     from export_safety_cases import export_safety_cases
     from prove_new_code_cases import prove_new_code_cases
     from maintenance_batch_cases import maintenance_batch_cases
-    rows = (maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    from okf_reconcile_cases import okf_reconcile_cases
+    rows = (okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()

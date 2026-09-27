@@ -107,7 +107,7 @@ fails in exactly one hard-to-notice way, and that is it.
   even once a later chapter is fully refined beside it (inbox #028). Do not
   write it before he has given the verdict, and never on a re-run that only
   reproduces the package.
-- **Land it:** `python3 scripts/land.py NN`. It refuses without `verdict.md`,
+- **Land it:** `python3 scripts/land.py NN --okf-receipt runs/reconciliation/BATCH.json`. It refuses without `verdict.md`,
   refuses a staged citation link that would break on arrival, copies the prose
   above Editor's Notes, the distillation, the brief, the interview record, the
   plate and the citation concepts into `{bookRoot}`, appends the practice-guide
@@ -123,3 +123,9 @@ fails in exactly one hard-to-notice way, and that is it.
 
 Let a desk write inside `books/`. Skip a gate because the prose read clean. Resolve
 an inbox item on his behalf. Report a count from memory.
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.

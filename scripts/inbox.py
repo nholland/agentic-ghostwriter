@@ -50,6 +50,7 @@ import os
 import re
 import subprocess
 import sys
+from pathlib import Path
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
@@ -296,6 +297,13 @@ def reconcile(items):
     for it in items:
         if it["status"] != "ruled" or not it.get("applied_by"):
             continue
+        from okf_reconcile import read
+        try:
+            read(Path(REPO), it.get('frontmatter', {}).get('okf_receipt'),
+                 subject='inbox:' + it['id'], current=True)
+        except ValueError as exc:
+            it['okf_reconciliation_needed'] = str(exc)
+            continue  # A passing proof alone cannot settle book knowledge.
         if applied(it["applied_by"]):
             with open(it["path"], encoding="utf-8") as fh:
                 text = fh.read()
@@ -315,6 +323,13 @@ def do_close(a, items):
     target = f"{int(a.close):03d}"
     for it in items:
         if it.get("id") == target:
+            from okf_reconcile import read
+            receipt = getattr(a, 'okf_receipt', None)
+            try:
+                read(Path(REPO), receipt, subject='inbox:' + target, current=True)
+            except ValueError as exc:
+                print('inbox: refusing — ' + str(exc))
+                return 2
             # --close with no --applied-by falls back to whatever the item's own
             # frontmatter already carries (written by --add, per gw-retro's
             # convention) rather than silently dropping it - closing #033 and
@@ -345,6 +360,9 @@ def do_close(a, items):
                                   text, count=1, flags=re.MULTILINE)
                 else:
                     text = text.replace("---\n\n", f"applied_by: {applied_by}\n---\n\n", 1)
+            text = re.sub(r"^okf_receipt:.*\n", "", text, flags=re.MULTILINE)
+            text = text.replace("---\n\n", f"okf_receipt: {receipt}\n---\n\n", 1)
+            it.setdefault('frontmatter', {})['okf_receipt'] = receipt
             text = text.rstrip() + f"\n\n**Resolution ({now()}):** {a.resolution or '_not recorded_'}\n"
             if applied_by:
                 text += (f"\n**Not applied yet.** This ruling lands outside this repo. "
@@ -398,15 +416,17 @@ def render(items, show_all):
         L.append(f"        raised by {i['raised_by']} at {i['opened']}")
         if i["status"] == "ruled":
             L.append("        You ruled on this. The change has not landed yet.")
-            L.append(f"        Closes on its own when: {i.get('applied_by', '(no command recorded)')}")
+            if i.get('okf_reconciliation_needed'):
+                L.append("        Knowledge record needed: " + i['okf_reconciliation_needed'])
+            L.append(f"        With a current OKF receipt, closes when: {i.get('applied_by', '(no command recorded)')}")
         for line in i["body"].split("\n"):
             if line.strip().startswith("**What unblocks this:**"):
                 L.append(f"        {line.strip()}")
     L.append("")
-    L.append("  Full text: inbox/*.md   Close: scripts/inbox.py --close N --resolution '...'")
+    L.append("  Full text: inbox/*.md   Close: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'")
     if ruled:
         L.append("  A RULED item is your decision waiting on a change that has not landed")
-        L.append("  yet. It closes itself once its proof command passes.")
+        L.append("  yet. It closes once its proof passes and its OKF receipt is current.")
     return "\n".join(L)
 
 
@@ -431,6 +451,7 @@ def main():
     ap.add_argument("--prove-case", default="", metavar="NAME",
                     help="the exact fixture case name tests/prove.py must see go "
                          "[FAIL] at --prove-at and [ ok ] on the current tree.")
+    ap.add_argument("--okf-receipt", help="knowledge reconciliation JSON with inbox:NNN subject")
     ap.add_argument("--close", metavar="N")
     ap.add_argument("--applied-by", default="", metavar="COMMAND",
                     help="shell command that exits 0 only once this ruling has "

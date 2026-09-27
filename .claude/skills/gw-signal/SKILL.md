@@ -49,3 +49,9 @@ change what the chapter argues goes to the inbox, never straight to a desk.
 
 Change a published chapter on the strength of one reader. Treat a reaction as
 an argument. Write a signal concept the author has not seen.
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.

@@ -68,3 +68,9 @@ it as its own commit that quotes him. The outline is L4 and is never edited cold
 Show him the record. Ask what is missing. Only when he is satisfied:
 
 `/gw-research NN`
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.
