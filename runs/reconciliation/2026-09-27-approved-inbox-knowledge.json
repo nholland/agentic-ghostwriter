@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-09-27T15:02:16.620265-05:00",
+  "subjects": [
+    "inbox:070",
+    "inbox:084",
+    "inbox:094",
+    "inbox:095",
+    "inbox:096",
+    "inbox:097",
+    "inbox:100"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-27-approved-inbox-knowledge.md",
+    "books/the-stoic-husband/okf/frameworks/the-intertwined-life.md",
+    "books/the-stoic-husband/okf/frameworks/the-nail-parable.md",
+    "books/the-stoic-husband/okf/frameworks/romance-as-disciplined-attention.md",
+    "books/the-stoic-husband/okf/frameworks/prohairesis-faculty-of-moral-choice.md",
+    "books/the-stoic-husband/okf/frameworks/temperament-asymmetry-who-cares-more-wins.md"
+  ],
+  "authority": "Author approvals in inbox items and explicit chronology; current request: Okay, let's continue, please make the changes.",
+  "reason": "Backfill approved knowledge omitted from OKF; preserve pending 098/099 wording as pending.",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/prohairesis-faculty-of-moral-choice.md": "93e47f1930bd90fccc35be537fb6a7fd8977e09e9b4ec7225d2c735e70bfd370",
+    "books/the-stoic-husband/okf/frameworks/romance-as-disciplined-attention.md": "0e18eef70f0c237911cc54d9e3a647a0437d3dcaa46bc20774a78acc3dd18f92",
+    "books/the-stoic-husband/okf/frameworks/temperament-asymmetry-who-cares-more-wins.md": "7baef54a34514a241786454a0c4b368ea716a636bdd9e353dbfff78bfe3982c4",
+    "books/the-stoic-husband/okf/frameworks/the-intertwined-life.md": "2d008ac83f53870fff24abde678b15c3546a96865c130b164034e595a77bf49e",
+    "books/the-stoic-husband/okf/frameworks/the-nail-parable.md": "42838de12bb6bc1c80e9ca41701082eca19417dc15a0dd71085da867ea98202c",
+    "books/the-stoic-husband/okf/index.md": "7f1c4751485a220d03ed51bc6c4171dc0d40430893f02171c4640822ce572ae9",
+    "books/the-stoic-husband/okf/log.md": "54d6573fd53c46ebe24a5208824ba65c114bb7b2c714172adeb8efcc0d4bc725",
+    "books/the-stoic-husband/okf/notes/2026-09-27-approved-inbox-knowledge.md": "57039ff5e71c939bd2953b3c897ba98b46422f7aea3977d38aafe2bba6cc2d33"
+  }
+}

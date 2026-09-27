@@ -2,10 +2,10 @@
 type: Framework
 title: "The Intertwined Life (Author Personal Frame)"
 description: >
-  The author and his wife have been best friends since sixth grade and together
-  for 23 years; their emotional lives are genuinely intertwined. This frame
+  The author and his wife became best friends in sixth grade in 1991, began
+  dating in tenth grade in 1995, and married in 2003; their emotional lives are genuinely intertwined. This frame
   prevents the book from reading as cold advice to be less emotionally present.
-provenance: Author notes (Ch 2 tone feedback, 2026-06-02)
+provenance: Author notes (Ch 2 tone feedback, 2026-06-02); direct author chronology correction, 2026-09-27
 ip: author
 tags: [framework, conclusion, personal-frame, connection]
 chapter_slugs: [stop-outsourcing-your-peace, warmth-is-strength, conclusion]
@@ -14,8 +14,8 @@ timestamp: 2026-06-02T00:00:00Z
 
 # The Intertwined Life (Author Personal Frame)
 
-The author and his wife have been best friends since sixth grade, started dating
-in tenth grade, and have been together for 23 years. Their emotional lives are
+The author and his wife became best friends in sixth grade in 1991, started dating
+in tenth grade in 1995, and married in 2003. Their emotional lives are
 genuinely intertwined — shared context, shared history, mutual care that runs
 deep. When she is having a hard day, he feels it. Not because he is a weather
 vane, but because he loves her and they are genuinely connected.
@@ -29,7 +29,7 @@ can be real — felt, present, responsive — without becoming uncontrolled.
 
 | Frame | Implication |
 |---|---|
-| Deep connection (best friends since sixth grade, 23 years together) | He genuinely feels what she feels — not weakness, but love |
+| Deep connection (best friends since 1991, dating since 1995, married since 2003) | He genuinely feels what she feels — not weakness, but love |
 | The misread to prevent | "Stoicism means not caring" / be less emotionally present |
 | The antidote | Not less love — a more governed man at the center |
 
@@ -55,3 +55,9 @@ governed man at the center.
 # Citations
 
 None — author IP (personal testimony).
+
+# Reconciliation 2026-09-27
+
+The earlier “23 years together” wording is superseded. It conflated relationship
+duration with marriage duration. Use the explicit dates; do not compute a floating
+year count or infer the date of an anecdote from it. Authority and correction history: [approved inbox decisions](/notes/2026-09-27-approved-inbox-knowledge.md).

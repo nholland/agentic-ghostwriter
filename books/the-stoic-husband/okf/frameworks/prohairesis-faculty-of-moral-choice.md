@@ -4,7 +4,7 @@ title: Prohairesis — The Faculty of Moral Choice
 description: >
   The Epictetan faculty that decides what things mean, what we value, and how we
   act. Marriage is where this faculty is either strengthened or enslaved.
-provenance: Author notes (Epictetus framework)
+provenance: Author notes (Epictetus framework); author-approved inbox correction reconciled 2026-09-27 (see /notes/2026-09-27-approved-inbox-knowledge.md)
 ip: author-synthesis
 tags: [framework, epictetus]
 chapter_slugs: [the-three-second-window, anger-is-failed-leadership, speak-or-endure]
@@ -27,3 +27,9 @@ when your spouse's tone can make you cruel, you are not free.
 # Citations
 
 None — author IP.
+
+# Reconciliation 2026-09-27
+
+Approved Chapter 4 wording is “Your capacity to choose.” Do not label prohairesis
+“the governing faculty” in that passage; Chapter 2 uses ruling faculty for
+hegemonikon. This records the approved terminology distinction, not new source verification. Authority and correction history: [approved inbox decisions](/notes/2026-09-27-approved-inbox-knowledge.md).

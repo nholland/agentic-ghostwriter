@@ -5,7 +5,7 @@ description: >
   Romance reframed as disciplined attention rather than grand gestures or
   feelings — noticing, remembering what delights her, not taking her for
   granted, still choosing.
-provenance: Author notes (Stoic Romance framework)
+provenance: Author notes (Stoic Romance framework); author-approved inbox correction reconciled 2026-09-27 (see /notes/2026-09-27-approved-inbox-knowledge.md)
 ip: author-synthesis
 tags: [framework, stoic-romance]
 chapter_slugs: [romance-is-a-discipline, pursue-her-after-you-have-her, the-marriage-you-build-every-day]
@@ -35,3 +35,10 @@ action."*
 # Citations
 
 None — author IP.
+
+# Reconciliation 2026-09-27
+
+Approved Chapter 12 limit: restarting an effort may also require an apology.
+Stopping the effort may lower her expectations; the chapter does not promise a
+matching response when he resumes it. The author retained “trying to win favor”
+as the romance definition in context. Authority and correction history: [approved inbox decisions](/notes/2026-09-27-approved-inbox-knowledge.md).
