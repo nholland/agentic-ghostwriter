@@ -1,0 +1,468 @@
+[ ok ] OKF untracked book knowledge blocks completion
+        no receipt means no completion
+[ ok ] OKF recorded disposition permits completion
+        file bytes covered
+[ ok ] OKF committed edits invalidate stale receipts
+        clean worktree cannot hide new facts
+[ ok ] OKF refreshed receipt covers correction
+        freshness matters
+[ ok ] OKF deletion needs a disposition
+        deletion changes knowledge too
+[ ok ] OKF recorded deletion is covered
+        explicit removal is allowed
+[ ok ] OKF invalid disposition refuses
+        structural evidence required
+[ ok ] OKF invalid authority refuses
+        structural evidence required
+[ ok ] OKF invalid reason refuses
+        structural evidence required
+[ ok ] OKF invalid concepts refuses
+        structural evidence required
+[ ok ] OKF sync refuses unreconciled committed work
+        actual push entry point blocks before network write
+[ ok ] OKF Stop hook refuses unreconciled work
+        actual hook stops before automatic commits
+[ ok ] OKF inbox cannot close without receipt
+        refuses before mutation
+[ ok ] OKF unrelated receipt cannot close inbox
+        subject must match
+[ ok ] OKF receipt plus passing proof closes inbox
+        automatic path retains disposition
+[ ok ] OKF automatic reconciliation requires receipt
+        proof cannot bypass missing knowledge record
+[ ok ] log union: cross-branch coincidence cannot excuse missing session 2026-09-01 12:00 — `A` — 1 commit(s) this session
+        inbox maintenance regression
+[ ok ] log union: cross-branch coincidence cannot excuse missing session 2026-09-01 12:00 — `B` — 1 commit(s) this session
+        inbox maintenance regression
+[ ok ] log union: same-branch restatement survives
+        inbox maintenance regression
+[ ok ] log union: partial file set cannot excuse loss
+        inbox maintenance regression
+[ ok ] log union: empty entries do not excuse loss
+        inbox maintenance regression
+[ ok ] log union: exact heading survives
+        inbox maintenance regression
+[ ok ] review: below threshold does not dispatch
+        inbox maintenance regression
+[ ok ] review: three work commits dispatch
+        inbox maintenance regression
+[ ok ] review: same HEAD does not redispatch
+        inbox maintenance regression
+[ ok ] review: second dispatch keeps the older window start
+        inbox maintenance regression
+[ ok ] review: manual read retains unreviewed coverage
+        inbox maintenance regression
+[ ok ] review: report commit alone does not consume coverage
+        inbox maintenance regression
+[ ok ] review: report plus inbox does not trigger itself
+        inbox maintenance regression
+[ ok ] review: three report-and-inbox commits stay quiet
+        inbox maintenance regression
+[ ok ] review: substantive code alongside report still counts
+        inbox maintenance regression
+[ ok ] review: mismatched report range refuses completion
+        inbox maintenance regression
+[ ok ] review: completion consumes only reviewed range and preserves later work
+        inbox maintenance regression
+[ ok ] review: completed range is not returned again
+        inbox maintenance regression
+[ ok ] review: manual review after completion sees only new work
+        inbox maintenance regression
+[ ok ] review: invalid stale state falls back without dropping session work
+        inbox maintenance regression
+[ ok ] review: missing valid bounds reports error instead of claiming clean
+        inbox maintenance regression
+[ ok ] prove new code: absent historical source proves red then green
+        named failure and current success are required
+[ ok ] prove new code: absent historical function proves red then green
+        named failure and current success are required
+[ ok ] prove new code: invalid revision is refused
+        named failure and current success are required
+[ ok ] prove new code: missing case is refused
+        named failure and current success are required
+[ ok ] prove new code: unrelated crash is refused
+        named failure and current success are required
+[ ok ] prove new code: current failing implementation is refused
+        named failure and current success are required
+[ ok ] prove new code: all disposable worktrees removed
+        success and refusal both clean up
+[ ok ] prove new code: live source is untouched
+        only disposable worktrees may be reverted
+[ ok ] grounding: Your marriage lives there
+        only permitted source content enters the corpus
+[ ok ] grounding: Lesson 1
+        only permitted source content enters the corpus
+[ ok ] grounding: the drawing carries the argument
+        only permitted source content enters the corpus
+[ ok ] grounding: endorsed by the author
+        only permitted source content enters the corpus
+[ ok ] grounding: Forbidden stray claim
+        only permitted source content enters the corpus
+[ ok ] package markup: pagebreak
+        inspect decoded visible text, not markup syntax
+[ ok ] package markup: newpage outside container
+        inspect decoded visible text, not markup syntax
+[ ok ] package markup: escaped comment
+        inspect decoded visible text, not markup syntax
+[ ok ] package markup: fragmented marker
+        inspect decoded visible text, not markup syntax
+[ ok ] package markup: hidden CSS and real comment
+        inspect decoded visible text, not markup syntax
+[ ok ] landing plate x=100 force=False
+        bad geometry refuses before writes; clean and explicit override still work
+[ ok ] landing plate x=630 force=False
+        bad geometry refuses before writes; clean and explicit override still work
+[ ok ] landing plate x=630 force=True
+        bad geometry refuses before writes; clean and explicit override still work
+[ ok ] landing force cannot bypass OKF receipt
+        refuse before any book writes
+[ ok ] compiler checks selected SVG
+        report failure without blocking export or selecting a different file
+[ ok ] PDF export requests ink check
+        surface raster failures on the selected file
+[ ok ] complete chapter 1 sequence
+        prose then selected plate then every distillation field
+[ ok ] complete chapter 2 sequence
+        prose then selected plate then every distillation field
+[ ok ] collection distillations pass package structure
+        each complete distillation ends its own chapter bundle
+[ ok ] collection rejects prose after distillation
+        allowing collections must not permit late chapter content
+[ ok ] inbox duplicate IDs ('053', '053'): list
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox duplicate IDs ('053', '053'): ['--json']
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox duplicate IDs ('053', '053'): ['--close', '53', '--resolution', 'test']
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox duplicate IDs ('053', '053'): ['--add', 'Test', '--context', 'test', '--recommend', 'test', '--evidence', 'test', '--unblocks', 'test']
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox duplicate IDs ('053', '53'): list
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox duplicate IDs ('053', '53'): ['--json']
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox duplicate IDs ('053', '53'): ['--close', '53', '--resolution', 'test']
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox duplicate IDs ('053', '53'): ['--add', 'Test', '--context', 'test', '--recommend', 'test', '--evidence', 'test', '--unblocks', 'test']
+        refuse before mutation or reconciliation and name both files
+[ ok ] inbox unique ID still closes
+        do not reject an unambiguous record
+[ ok ] land local-main ancestry: unrelated
+        unsafe histories refuse before side effects; safe histories fast-forward
+[ ok ] land local-main ancestry: ahead
+        unsafe histories refuse before side effects; safe histories fast-forward
+[ ok ] land local-main ancestry: diverged
+        unsafe histories refuse before side effects; safe histories fast-forward
+[ ok ] land local-main ancestry: missing
+        unsafe histories refuse before side effects; safe histories fast-forward
+[ ok ] land local-main ancestry: equal
+        unsafe histories refuse before side effects; safe histories fast-forward
+[ ok ] land local-main ancestry: behind
+        unsafe histories refuse before side effects; safe histories fast-forward
+[ ok ] manual description: wrapped.py
+        extract a complete first sentence without Python delimiters
+[ ok ] manual description: inline.py
+        extract a complete first sentence without Python delimiters
+[ ok ] manual description: single.py
+        extract a complete first sentence without Python delimiters
+[ ok ] manual rejects invalid purpose: '"""unfinished purpose"""\n'[]
+        invalid source must not publish or pass freshness checking
+[ ok ] manual rejects invalid purpose: '"""unfinished purpose"""\n'['--check']
+        invalid source must not publish or pass freshness checking
+[ ok ] manual rejects invalid purpose: 'def helper():\n    """Not a module purpose."""\n    pass\n'[]
+        invalid source must not publish or pass freshness checking
+[ ok ] manual rejects invalid purpose: 'def helper():\n    """Not a module purpose."""\n    pass\n'['--check']
+        invalid source must not publish or pass freshness checking
+[ ok ] manual rejects invalid purpose: '"""Valid-looking purpose."""\ninvalid python !\n'[]
+        invalid source must not publish or pass freshness checking
+[ ok ] manual rejects invalid purpose: '"""Valid-looking purpose."""\ninvalid python !\n'['--check']
+        invalid source must not publish or pass freshness checking
+[ ok ] draft package: full distillation follows chapter; notes excluded
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: renderer receives all fields and every practice
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: missing explicit distillation argument is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: missing distillation file is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: empty distillation is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: wrong chapter distillation is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: title-only chapter is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: distillation without practices is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: empty practice field is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: empty lesson is refused
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: range arguments cannot silently change draft mode
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: omitted distillation never reaches renderer
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: practice-only substitution cannot satisfy full request
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: lost final practice never reaches renderer
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: reversed package never reaches renderer
+        requested content is checked in the real assembly caller before rendering
+[ ok ] draft package: renderer failure is not reported as success
+        requested content is checked in the real assembly caller before rendering
+[ ok ] package_check opens-on-distillation.html
+        the founding defect: the package opened on the distillation
+[ ok ] package_check distback-but-first.html
+        classed distback and placed FIRST - passed clean until 2026-09-18, because the check tested the class name and never the position
+[ ok ] package_check extra-attribute.html
+        an id on the section tag made it invisible to the regex, and the check then reported 'opens on: chapter'
+[ ok ] package_check apparatus-in-span.html
+        <h2><span>Draft Notes</span></h2> escaped the apparatus scan
+[ ok ] package_check single-quoted-class.html
+        #025: class='dist distback' (single-quoted) escaped the double-quote regex
+[ ok ] package_check div-container.html
+        #025: a <div class="dist"> container - only <section> was known
+[ ok ] package_check nested-distillation.html
+        #025: a distillation nested inside the chapter section was 'last' by flat index though more chapter prose followed it on the page
+[ ok ] package_check entity-in-heading.html
+        #025: <h2>Editor&#39;s Notes</h2> - the entity was never unescaped
+[ ok ] package_check h4-apparatus-heading.html
+        #025: <h4>Draft Notes</h4> - the old scan was h1-h3 only
+[ ok ] package_check unrecognised-first-section.html
+        #025: a classless, headingless first section defaulted to "chapter" instead of failing closed as unrecognised
+[ ok ] package_check working-notes-label.html
+        a reader-facing distillation must not be called working notes
+[ ok ] package_check good.html
+        chapter first, distillation last and labelled
+[ ok ] voice_rules baseline
+        the unmutated config must PASS with no MISMATCH or DRIFT
+[ ok ] voice_rules mutation em_dash_max
+        0 -> 7.0 must MISMATCH, named in the output
+[ ok ] voice_rules mutation bold_max_per_piece
+        1 -> 8.0 must MISMATCH, named in the output
+[ ok ] voice_rules mutation long_sentence_word_threshold
+        25 -> 32.0 must MISMATCH, named in the output
+[ ok ] voice_rules mutation long_sentence_max_share
+        0.1 -> 7.1 must MISMATCH, named in the output
+[ ok ] voice_rules mutation you_density_min_per_1000
+        40 -> 47.0 must MISMATCH, named in the output
+[ ok ] voice_rules mutation metaphor_family_max_per_1000
+        5 -> 12.0 must MISMATCH, named in the output
+[ ok ] voice_rules mutation rhetorical_device_max
+        2 -> 9.0 must MISMATCH, named in the output
+[ ok ] voice_rules mutation ending_sentences
+        1 -> 8.0 must MISMATCH, named in the output
+[ ok ] voice_rules spec_number null
+        an undeclared number must report UNCHECKED by name, never crash
+[ ok ] voice_rules DRIFT fixture
+        a probe phrase removed from 01-voice.md must DRIFT, named
+[ ok ] resolve: a stale $GW_BOOK_REPO must not outrank this repo
+        the book is here since the migration; an override pointing elsewhere must lose, or a desk drafts against a frozen spec
+[ ok ] resolve: the outranked book repo is named, not dropped
+        an override that loses must be printed, so 'which book did that desk read' is never a mystery
+[ ok ] resolve: no sibling discovery while the book is in this repo
+        with book-manifest.json at the root, a sibling scan can only find the wrong book
+[ ok ] resolve: $GW_BOOK_REPO still wins when the book is NOT here
+        an engine checkout with no book of its own must still resolve by override, not fail
+[ ok ] okf_index: a concept absent from the index is named
+        membership drift must be reported per concept, not as a count
+[ ok ] okf_index: a row whose status contradicts the concept is caught
+        count-parity is blind to this, and it is how the index came to overstate the evidence for six citations
+[ ok ] okf_index: drift exits 1
+        okf_gate reads the exit code to raise its warning
+[ ok ] okf_index --fix preserves a hand-written gloss
+        249 rows in the real index carry annotation found nowhere else; a generator would have deleted every one
+[ ok ] okf_index --fix rewrites the status and keeps the annotation after it
+        the status is derived and must be corrected; the note after it is editorial and must not be touched
+[ ok ] okf_index --fix appends the missing concept
+        the 23 Ch12 citations that landed with the migration were absent from the index for a day
+[ ok ] okf_index: a reconciled bundle exits 0
+        the gate must go quiet once the drift is actually gone
+[ ok ] tombstone guard: a live pointer to the retired file flags
+        the hole this guard exists for - a draft step routing the author's own IP into a dead file - must still be caught
+[ ok ] tombstone guard: a live pointer is not excused by 'hasbeen'
+        ordinary English in the clearing list silently cleared a pointer of the exact shape this guard exists for
+[ ok ] tombstone guard: a live pointer is not excused by 'nolonger'
+        ordinary English in the clearing list silently cleared a pointer of the exact shape this guard exists for
+[ ok ] tombstone guard: a live pointer is not excused by 'insteadof'
+        ordinary English in the clearing list silently cleared a pointer of the exact shape this guard exists for
+[ ok ] tombstone guard: a live pointer is not excused by 'usedto'
+        ordinary English in the clearing list silently cleared a pointer of the exact shape this guard exists for
+[ ok ] tombstone guard: a live pointer is not excused by 'drawnfrom'
+        ordinary English in the clearing list silently cleared a pointer of the exact shape this guard exists for
+[ ok ] tombstone guard: a live pointer is not excused by 'faithfully'
+        ordinary English in the clearing list silently cleared a pointer of the exact shape this guard exists for
+[ ok ] tombstone guard: a routing instruction flags regardless of 'retir'
+        the guard's teeth must not depend on which words happen to surround the pointer; every stem here cleared it before
+[ ok ] tombstone guard: a routing instruction flags regardless of 'migrat'
+        the guard's teeth must not depend on which words happen to surround the pointer; every stem here cleared it before
+[ ok ] tombstone guard: a routing instruction flags regardless of 'theold'
+        the guard's teeth must not depend on which words happen to surround the pointer; every stem here cleared it before
+[ ok ] tombstone guard: a routing instruction flags regardless of 'correct'
+        the guard's teeth must not depend on which words happen to surround the pointer; every stem here cleared it before
+[ ok ] tombstone guard: a routing instruction flags regardless of 'deriv'
+        the guard's teeth must not depend on which words happen to surround the pointer; every stem here cleared it before
+[ ok ] tombstone guard: a routing instruction flags regardless of 'replac'
+        the guard's teeth must not depend on which words happen to surround the pointer; every stem here cleared it before
+[ ok ] tombstone guard: a routing instruction flags regardless of 'supersed'
+        the guard's teeth must not depend on which words happen to surround the pointer; every stem here cleared it before
+[ ok ] tombstone guard: a paragraph that records the retirement does not flag
+        the mention and the word clearing it land on different lines once prose wraps; matching a single line reported six tombstones as live
+[ ok ] chapter slugs: a titled Introduction resolves
+        a real chapter was reported as an orphan slug
+[ ok ] chapter slugs: a titled Conclusion resolves
+        same hole, same shape, one heading further down
+[ ok ] chapter slugs: numbered chapters still resolve
+        the fix must not cost the behaviour that already worked
+[ ok ] freshness: a checkout behind origin/main says how far
+        a session nine commits behind reported the frozen archive's state to the author as live
+[ ok ] freshness: nothing to compare against reports UNVERIFIED with a reason
+        the hook printed nothing for up-to-date and for could-not-fetch alike; the two states must never look the same
+[ ok ] migrated deps: a missing required dependency is named and exits 1
+        this is the check that stops a desk writing prose with no citation validator; a silent no-op here is invisible to every other fixture
+[ ok ] next requires scoped reviews before verdict
+        refined prose alone is not an author-ready chapter
+[ ok ] current scoped reviews permit verdict
+        deferred older-book issues do not block current passing reviews
+[ ok ] failed persona review blocks handoff
+        a report existing does not make its verdict pass
+[ ok ] invalid scope rejected: None
+        scope must be meaningful text, not a coerced null or collection
+[ ok ] invalid scope rejected: []
+        scope must be meaningful text, not a coerced null or collection
+[ ok ] invalid scope rejected: ' '
+        scope must be meaningful text, not a coerced null or collection
+[ ok ] plate review cannot replace coherence
+        plate and chapter reads cover different artifacts
+[ ok ] stale review rejected: refined.md
+        changed prose, context or report needs review refresh
+[ ok ] stale review rejected: context.md
+        changed prose, context or report needs review refresh
+[ ok ] stale review rejected: personas.md
+        changed prose, context or report needs review refresh
+[ ok ] malformed review record fails closed
+        invalid evidence must not become ready
+[ ok ] next chapter_state, verdict.md present
+        a chapter with a recorded verdict must report shipped, not verdict, so a later chapter can surface as next
+[ ok ] next chapter_state, shipped with plate only
+        a chapter already in the book whose runs dir holds only a plate must report shipped, not interview
+[ ok ] next chapter_state, unshipped with plate only
+        the same dir for a chapter not in the book still starts at interview
+[ ok ] next chapter_state, proposals with no status line
+        proposed-concepts.md without status: answered must report concepts
+[ ok ] next chapter_state, proposals answered
+        answered proposals let the chapter move on to draft
+[ ok ] PDF chapter headings retain semantic structure
+        every chapter, not only the first, has a heading
+[ ok ] PDF chapter titles carry explicit emphasis
+        reflow readers receive emphasis in addition to CSS
+[ ok ] PDF heading text uses ordinary words in reading order
+        no inserted letter spaces or duplicated labels
+[ ok ] next: NEXT_ACTION streak counts consecutive log entries
+        two consecutive reviews counted this by hand before a script owned it
+[ ok ] next: a different Next line breaks the streak
+        the count must be consecutive-from-the-end, not a total, or it reports staleness that ended sessions ago
+[ ok ] next: a malformed log entry is skipped, not read as a direction change
+        e2 has no Next line, sits between two real /gw 13 entries on both sides, and must not break the streak - the true streak is e0+e1+e3+e4=4, with 1 entry unreadable
+[ ok ] log_check: an intact log reports no structure breach
+        the check must not cry wolf on a healthy log, or it teaches its reader to ignore it
+[ ok ] log_check: an entry with no file list is caught
+        a detached body is what merge bd3a334 produced and grep could not see
+[ ok ] log_check: an entry with two Next lines is caught
+        two bodies concatenated under one heading is the other half of the same merge damage
+[ ok ] log_check: two sessions in the same minute are distinct entries
+        keying on the timestamp collapses them, and a genuinely lost entry would hide behind a same-minute survivor
+[ ok ] log_check: a proven legacy entry stays exempt
+        it was malformed where it was written, in every commit that carries it; failing on it would teach its reader to ignore the check
+[ ok ] log_check: a bare timestamp must not exempt another session in the same minute
+        the exemption is keyed on the whole heading line; keyed on the timestamp it excuses any branch that finished in that minute
+[ ok ] inbox --chapter filters on read
+        --chapter 12 must return only the two chapter-12 fixtures
+[ ok ] inbox --all with no --chapter, unfiltered
+        omitting --chapter must still return every fixture
+[ ok ] inbox refuses a gw-retro item with no --applied-by
+        gw-retro's own brief requires ending every proposal this way
+[ ok ] inbox --add records --applied-by in frontmatter
+        a gw-retro proposal's proof command must survive into the item, not require --close to repeat it
+[ ok ] inbox --close carries forward an item's own --applied-by
+        closing without repeating --applied-by must not lose the proof command --add already recorded
+[ ok ] inbox --close survives a backreference-shaped --applied-by
+        re.sub's replacement must be a function, not an f-string, or a sed-capture-group proof command crashes do_close outright
+[ ok ] inbox refuses a gw-retro tests/run.py proof with no --prove-* flags
+        a claim of having run something red is not proof of it - tests/prove.py must be pointed at what to check
+[ ok ] inbox accepts a non-gw-retro tests/run.py proof with no --prove-* flags
+        the proof-freshness guard is scoped to gw-retro; a legitimate non-gw-retro filing must not be refused for citing tests/run.py incidentally
+[ ok ] okf_gate staged link, shadow prefix
+        a /okf/citations/ link must be caught
+[ ok ] okf_gate staged link, book convention
+        a /citations/ link (the book's own convention) must not be flagged
+[ ok ] toolcheck python detector
+        a stdlib module that is definitely importable must report present
+[ ok ] toolcheck binary detector
+        a binary name nothing provides must report absent
+[ ok ] retro-check holds below three watched-path commits
+        one commit touching scripts/ must not dispatch the Archivist (#092)
+[ ok ] retro-check dispatches at three watched-path commits
+        three commits touching scripts/ must trigger exit 2 (Stop hook signal)
+[ ok ] retro-window written as START HEAD
+        the window must span exactly the session-start commit to the triggering commit
+[ ok ] triggering commits fall inside their own window
+        the commit that caused the dispatch must be counted in the range gw-retro reads
+[ ok ] retro-last-sha dedupe pointer still advances
+        the unrelated dedupe pointer must still land on HEAD
+[ ok ] reading retro-last-sha as START reproduces #030
+        confirms retro-window, not retro-last-sha, is what must be read for the window
+[ ok ] second dispatch retains the unreviewed start
+        a dispatch must not silently consume earlier work
+[ ok ] dispatch message carries the window range inline
+        the range the Publisher actually reads must match the file gw-retro reads, not just agree with it by coincidence
+[ ok ] no tracked script hardcodes an absolute sys.path.insert literal
+        a literal path only works by accident in whichever container happens to hold a stray copy there
+[ ok ] the pattern catches the exact bug it was written for
+        reintroducing svgcheck.py's old hardcoded line must be flagged, or this check is decorative
+[ ok ] the pattern does not flag the fix itself
+        the HERE-based idiom every tracked script now uses must not be a false positive
+[ ok ] session_log writes an entry for real work
+        the first run, with a real commit since session start, must append one entry
+[ ok ] session_log skips a same-file-set second run
+        a Stop with no new commit since the last entry (the retro dispatch's forced second pass) must not append a duplicate
+[ ok ] session_log still logs genuinely new work
+        the dedup guard must not suppress an entry when the file set actually grew
+[ ok ] session_log dedups when the last entry itself lists runs/log.md
+        the #039 defect: last_entry_files() must strip runs/log.md from a logged entry's own file list, not just from the current diff, or the two sets can never match once a real entry has recorded the log file
+[ ok ] prove.py PROVES a case that genuinely fails at the given commit
+        reverting target.py to the buggy commit must show [FAIL], then [ ok ] on the current tree
+[ ok ] prove.py refuses a case name that never appears
+        a typo'd or nonexistent case name must not silently pass
+[ ok ] prove.py removes its worktree after running
+        a leaked worktree would accumulate across every gw-retro proposal that uses this
+[ ok ] inbox refuses when tests/prove.py refuses
+        a case that does not actually discriminate must not close a gw-retro item
+[ ok ] inbox accepts when tests/prove.py proves the case
+        a genuinely discriminating case must be accepted, not just any [FAIL]-shaped text
+[ ok ] prove.py proves a case whose check exists only in uncommitted tests/run.py
+        without copying the live tree's dirty paths into the worktree, this reports REFUSED - case not found, not PROVED
+[ ok ] inbox refuses a --prove-case that predates the review window
+        a case present before this session's window proves nothing about what this item proposes
+[ ok ] inbox accepts a --prove-case genuinely new within the window
+        the window-start guard must not block a case that is actually about this window's change
+[ ok ] inbox says the freshness check did not run when the window is unreadable
+        a check that cannot see must say so, not pass in silence - the prior behaviour accepted an unrelated item with no warning printed at all
+[ ok ] plate_check passes a clean plate on every row
+        a checker that flags a plate with nothing wrong is decorative in the other direction
+[ ok ] plate anchor: an attribute a class overrides fails anchor-attr and geometry
+        the landed Ch12 gloss: class says middle, attribute says start, browser centres it off the left edge; the old checker said clean
+[ ok ] plate anchor: the inline-style fix passes both rows
+        the same gloss anchored by inline style sits inside the frame
+[ ok ] charset: mojibake in a plate fails
+        the Ch11 title as the author saw it in the round-1 PDF
+[ ok ] title: a title that is not the Mechanism line is reported
+        Ch12 round 1 was titled by the chapter, not the distillation; the panel ranked it worst
+[ ok ] alignment: a lone drawing block off centre is reported
+        the Ch9 round-2 list block sat left of centre with nothing mirroring it
+[ ok ] alignment: centred text on no shared axis is reported
+        the Ch9 gloss at x=486 shared its axis with nothing
+[ ok ] grounded: a run of words the chapter never says is reported
+        the Ch8 subtitle appears in no chapter; a plate may use nothing the chapter does not say
+[ ok ] grounded: the author's recorded words count as the chapter's
+        Rule 9: his words in session are a source once plate-brief.md records them
+
+233/233 fixtures pass

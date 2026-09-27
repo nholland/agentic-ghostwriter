@@ -1,0 +1,21 @@
+voice_check: ch10-refined.md
+  2584 words of prose, 207 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1130}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 5 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      15/207 sentences at 25+ words = 7.2% (cap 10%)
+             61w: His handbook, the *Enchiridion*, is a short field guide to living, and its thirty-third section opens by telli...
+             51w: What this protects is the family you're actually trying to build: a holiday your kids remember as calm instead...
+             34w: That job doesn't get handed to anyone else in your house, and doing it on the night it costs something is the ...
+    [ok  ] you-density              174 direct-address words in 2584 = 67.3 per 1,000 (floor 40)
+    [skip] metaphor family          no family declared - pass --metaphor-family, or have the drafter declare the chapter's anchor image in Draft Notes. UNCHECKED, not passed.
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 22 words, shares 6 words with the previous one. Close: "You're not holding any of this to win, you're holding it because your marriage is what's on the other side of it."
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: {"you-don't pivot  'you don't X, you Y'": 2}. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+  UNCHECKED (not passed): metaphor family

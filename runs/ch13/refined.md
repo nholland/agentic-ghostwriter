@@ -1,121 +1,103 @@
 # Chapter 13: Pursue Her After You Have Her
 
-You can mean it when you say “love you” and still realize you haven't paid much attention to her today. You know she's there. You'd like a few minutes together, once everything else is done.
+She asks if you want to watch a show together. You sit down beside her, but your phone stays in your hand. Halfway through, she laughs at something and looks over. You missed it.
 
-You ask how her day was. She says “fine.” You nod, finish something on your phone, and start talking about dinner. Nothing harsh passed between you. You might have that same exchange tomorrow.
+Another night, you take her to dinner. You chose the place and made the reservation. Then you spend most of the meal thinking about a problem at work. You answer her, but you aren't quite there.
 
-Now think of a child bringing you a hand-drawn picture. You look up. You want to see it. You ask about the person beside the house, and you listen while the child explains. You're glad they wanted to show you.
-
-You already know how to give that kind of attention. With your wife, it can be as simple as setting the phone down when she starts talking. You know her well enough to recognize when something pleased her. Let yourself be pleased for her. Ask what happened next.
-
-There's pleasure in being the person she wants to tell.
+You made time for her both nights. That counts for something. She wanted the part of you that came with it.
 
 ---
 
-**When learning felt finished.** Imagine asking your wife out after twelve years of marriage. You've got some time free, and you want to spend it with her. You start thinking about what she'd enjoy.
+**When the effort changed.** Think about how you acted when you hoped she'd say yes to another date. You paid attention to what she enjoyed. You remembered the story about her friend, brought her something she mentioned liking, and found a place you thought she'd want to go. You did those things because you were interested in her, and because her happiness mattered to you.
 
-The place you remember is somewhere she loved when you were dating. Would she still choose it? You think about the music she liked then, the way she used to spend a free Saturday. You can describe those things. What she'd choose now takes more thought.
+Marriage lets you relax together. You can sit quietly without wondering whether she's lost interest. You know you'll see her tomorrow. That security is a good part of the life you built. It can also make effort feel less urgent, until you find yourself giving her less of it than you did when you weren't sure she'd stay.
 
-You live with her. How can you be unsure?
+That's the mistake: you worked to win her, then treated being married as proof that the work was done. You haven't stopped loving her. You may have stopped showing her how much thought you're willing to give her.
 
-She hasn't become a stranger. You still know how she takes her coffee and which jokes will make her laugh. But at some point, you stopped asking certain questions. You kept using the answers you already had.
+The effort that follows deserves just as much of you.
 
-That's the pre-commitment paradox: you can work hard to win a woman's affection, then ease off once you're sure of it. Before commitment, you wanted to hear what she thought. You remembered what excited her because you wanted another chance to enjoy it with her. Once you were married, learning about her could start to feel finished.
+Imagine asking your wife out after twelve years of marriage. You want to plan the afternoon, and the first place that comes to mind is somewhere she loved when you were dating. Would she choose it now? You remember what she liked then. You can't quite name what she'd be excited to do this Saturday.
 
-It makes sense that security changes things. You can relax together. You can be quiet without wondering whether she's lost interest. That's a good part of marriage. Taking her affection for granted is a costly mistake. You can lose the easy closeness of knowing what she's looking forward to, or being the person she wants to tell first.
-
-Winning her affection was the beginning of a life together. The effort that follows deserves just as much of you. You keep making time, asking, listening, and following through, even in the years when being married feels easy.
+She's had twelve years you didn't live inside, even though you were there for much of them. You've changed too. The easy way to find out what she'd enjoy is to keep noticing her. Ask sometimes, of course. Then remember her answer, and do something with it.
 
 ---
 
-**She's still becoming.** In Letter 58 of his *Moral Letters to Lucilius*, the Stoic philosopher Seneca reflects on how people keep changing. He turns to an earlier philosopher, Heraclitus, and his image of the river: what looks familiar doesn't stay fixed. Its water keeps changing, and so do we.
+**Be there for the time you share.** If she wants to watch a show with you, put your phone down. You don't have to love the show. You can enjoy sitting beside her, seeing what makes her laugh, and letting an hour belong to the two of you. If you asked her to dinner, listen to what she's saying across the table. Work can wait until the drive home.
 
-Bring that thought home. Your wife has had twelve years of experiences since you married her. Some things matter more to her now. Others matter less. She may have an interest you haven't asked about, or an old ambition she's begun to reconsider.
+Presence is more than a good conversation. Sometimes she wants to talk about her day. Sometimes she wants your company while neither of you says much. You can tell the difference if you're paying attention. If your mind wanders, come back. You won't give her every minute perfectly, but you can give her the evening you offered.
 
-You've changed too. You have things you could tell her that wouldn't have occurred to you when you first met. Growing together takes some willingness to share those things, and some interest in hearing hers.
+Words matter too. Tell her when you admire the way she handled something. Thank her for what she did today, especially the thing nobody else saw. Say she's beautiful when you think it. Familiar affection doesn't become less true because you've said it before.
 
-Pay attention to the people you're already becoming.
+Touch can say something too, when she wants it. Reach for her hand on a walk. Sit close enough on the couch to feel that you're together. Learn whether a hug helps her feel loved at the end of a hard day, rather than assuming it does.
 
-The date can begin with an honest question: “What sounds fun to you these days? I've been thinking about what we used to do.” Suppose she says she'd rather spend the afternoon at a pottery class. She tried it with a friend last month and wants to go again. You knew she was out that afternoon. You hadn't asked what she'd enjoyed about it. Now you're hearing about the bowl she wants to make, and you want to see what she means. You can plan an afternoon around something she's enjoying now.
-
----
-
-**Be interested in her answer.** Maybe you've started watching different shows. You listen to one podcast, she listens to another. Separate tastes can give you something to talk about. You don't need to enjoy her show to enjoy hearing why she likes it.
-
-Ask about the part that caught her attention. If she laughs while telling you, stay with the story long enough to understand what's funny. You may discover a side of her humor you haven't seen much lately. Tell her what's been making you laugh too. Let her hear more from you than a report of what got done.
-
-You can also try something neither of you knows much about. Choose a walk through a part of town you rarely visit. Stop when something interests her. Show her what catches your eye. Give yourselves a little time when neither person already knows what the other will say.
-
-Curiosity becomes warmth in how you receive the answer. If she tells you something went well, pause what you're doing. Let her finish. Say what you're glad about. When you talk later, remember enough to return to it. You give her a reason to believe you enjoyed hearing from her.
-
-The opposite can hurt without a single unkind word. You know where she'll be and what she'll handle, but little about what's been on her mind. She can feel unseen in a marriage where she's loved. If her stories keep meeting half your attention, she may tell you less. You can miss hearing from each other while sharing the same room.
-
-You can begin with the next conversation. Then keep making room for what you learn. Ask how the bowl turned out. Find another afternoon to go with her. Remember what she enjoyed when you're making plans a month from now. That takes effort long after the first interested question.
+The five love languages are a popular way to remember that care has more than one form: time together, words, service, gifts, and touch. They aren't a scientific rule that every person has one fixed language. They're useful here because they can show you what you've let fall away. If you mostly talk about how much you love her, what else has she been missing?
 
 ---
 
-**Choose her today.** Some days “fine” means fine. Some days she's tired and wants to sit beside you without talking. An invitation leaves room for either. You can ask whether she feels like telling you more, then accept her answer without making her reassure you.
+**Do the thing before she asks.** Suppose acts of service mean a great deal to your wife. You can ask what would help, and you should listen when she tells you. But if every kind act starts with her noticing the task, naming it, and reminding you, you've made her responsible for the thought behind it.
 
-Your own tired days count too. You won't greet every story with excitement. A quiet, attentive husband can be good company. Keep saying “love you.” Familiar words can carry years of meaning when your attention gives her reason to believe them.
+You know the ordinary work of your house. You can see the dishes, remember that her car needs gas, or take care of the errand she mentioned yesterday. Do it because it would make her day easier. Don't make a show of how much you gave up, and don't wait beside the finished task for applause. A favor done with resentment can leave her wishing she'd done it herself.
 
-After ten or twenty years, pursuit still asks for your time and energy. Keep learning what matters to her. Share what matters to you. You offer time together because you want her company, without requiring a particular response. Your choice to love her becomes visible again today.
+You won't guess every need. She may prefer to handle something you thought would help with. Let her tell you. Taking initiative means being willing to notice and learn, not deciding you know better than she does. When she does ask, answer generously. The point is that she doesn't have to ask for everything.
 
-The same desire to discover someone can draw your attention toward another woman, too. Pursuing your wife also calls for enjoying her without measuring her against someone else. The next chapter names how that comparison starts, and takes up the discipline of enough.
+Gifts ask for the same kind of attention. Once your money is shared, you might think a present from your joint account doesn't count. She could buy it herself. But you were never giving her a separate bank account in a box. You were giving her the pleasure of being remembered.
+
+Maybe she pointed out a book weeks ago. Maybe she loves a particular pastry and rarely stops to buy it. What matters is that you heard her, thought of her while she wasn't beside you, and brought something home because you wanted to see her enjoy it. A small gift can do that. So can a note left where she'll find it.
 
 ---
 
-For now, put the phone down and turn toward her while she's still telling you about her day.
+**Keep romance from becoming an appointment.** Can you name the last romantic thing you did for your wife? If you have to work back through months to find it, start there. Romance in your marriage might be breakfast made before she wakes, a letter, or a date you planned around something she enjoys now. The bar isn't a grand surprise. It's knowing her well enough to make an ordinary gesture feel like hers.
+
+Remembering helps. She mentioned that she'd like to try the new restaurant. Her favorite flowers aren't the ones you bought five years ago. She said this week would be hard at work. Hold on to those details. On Thursday, ask how it went. On Saturday, make the reservation. Remembering only matters to her when it changes what you do.
+
+Anniversaries and Valentine's Day can lose their meaning when you handle them from habit. You may have brought home the same card and chocolates for years. Ten minutes before you get home, you swing by Walgreens for a generic card and stale chocolate. You remembered the date. You gave little thought to the woman you were celebrating. You can use the same money and a little more attention to make the day feel chosen. Plan the dinner she would enjoy. Write down a memory that still makes you glad she's your wife. Give yourself enough time to mean it.
+
+Some years are crowded and hard. You may both be tired, or laugh together because the anniversary passed before either of you noticed. You don't need to turn every date on the calendar into a performance. You do need to notice if thoughtfulness has become rare everywhere else too.
+
+---
+
+**Don't let knowing her become the end of learning her.** Esther Perel writes about how familiarity can settle into routine, and how curiosity and new experiences can help keep desire alive in a long relationship. You don't have to manufacture excitement every week. You can leave room for the woman beside you to surprise you.
+
+In Letter 58 of his *Moral Letters to Lucilius*, the Stoic philosopher Seneca draws on Heraclitus's image of a river. Its water changes even while you recognize the river. The two of you have changed during your marriage as well. Some of what she wanted when you first met is still dear to her. Some of it isn't. She may tell you about an interest she has now that you wouldn't have expected then. Stay long enough to hear why it matters.
+
+In one long-term study, couples who described their marriage as boring were less satisfied nine years later, even after the researchers accounted for how satisfied they were at the start. That's a reason to pay attention to the pattern, not a prediction about your marriage. The show you watch together can be familiar and lovely. It can wear on a couple to go through every shared hour as if there were nothing left to notice.
+
+Keep asking what she enjoys, then act on what you've learned. Give your full attention to an ordinary evening. Take some work off her hands without making her manage it. Tell her what you admire. Bring home the small thing you remembered. Plan a date with enough care that it feels like you still want to be there.
+
+---
+
+Put the phone down, and give her the evening you came to share.
 
 ## Editor's Notes
 
-Refined 2026-09-23 06:52 CDT by gw-lineeditor. Metaphor family: river, rivers, water, waters, flow, flows, flowed, flowing, current, currents, stream, streams, streamed, streaming.
+Revised 2026-09-24 after the author's feedback on the 2026-09-23 review draft. The preceding draft and notes are preserved in `refined-before-feedback.md`. The author asked for sustained effort, presence, service without prompting or resentment, gifts despite shared finances, small romance, remembering, and less emphasis on conversation.
 
-### Changes and judgments
+The revised opening uses a show and a dinner to make divided attention concrete. The dating example remains, followed by time together, words, touch, service, gifts, and romance. The last-romantic-thing question and the Walgreens illustration are the author's requested examples. The passage about noticing another woman was removed; the close returns to the shared evening. The explicit claim about boredom is limited to lower later satisfaction in one longitudinal sample. No divorce or infidelity statistic appears because neither proposed causal claim is supported by the checked sources. The research and source limits are in `research-addendum-2026-09-24.md`.
 
-- Applied the author's ruling: retained “a costly mistake” and its concrete cost, with no unsupported most-common or comparative-cost ranking. Added “The effort that follows deserves just as much of you” and repeated follow-through over months and years to make sustained high effort explicit. The tired-day paragraph remains because sustained effort allows ordinary variations in energy; it does not make one small gesture the whole practice.
-- Removed the local invented foil about becoming different people on purpose. Replaced the abstract “ordinary shape” lead with a direct statement about time and energy.
-- Ch12 already teaches attention and learning preferences. Added an expressly hypothetical pottery-class answer and later return to it so Ch13 demonstrates discovering a changed interest and acting on it. This is an illustration, not author biography or attributed real dialogue. Changed the date setup from a free evening to free time so the afternoon answer fits. Author may prefer another specific interest.
-- Retained the child's drawing as a literal comparison that recognizes a capacity for warm attention. It does not identify the wife with a child. Retained the quiet-company passage, mutual sharing, and her freedom to decline. No moral scolding or guaranteed reciprocity added.
-- Mechanism: “Keep learning what matters to her,” supported directly by the finished prose. Retained the plate's grounded phrases naturally in prose and distillation. No plate changes made.
-- Kept the Seneca/Heraclitus river as the sole developed metaphor and the marriage application explicitly separate (“Bring that thought home”). Letter 58.22–23 remains a paraphrase with existing verifiable status; no exact classical quotation was invented or status promoted. Author-copy verification remains outstanding. No placeholders remain.
-- Kept the single final phone/turning image rather than forcing an extra river return. The Chapter 14 transition precedes the divider and the one-sentence close. Earlier-book findings are deferred and untouched.
-- Practices are standalone imperatives. The scheduled weekly plan is Proactive; receiving her story and sharing during time together are Reactive. All 1,731 existing bytes of runs/appendix/practice-guide.md were preserved exactly, with only the Chapter 13 section appended.
+The five love languages are described as a loose list of care behaviors, not a validated matching theory. The service passage distinguishes learning her preferences from making her coordinate every act. The gift passage states the author's shared-account objection as a practical observation; it does not claim that a purchase produces a guaranteed reaction. Seneca's Letter 58 remains a paraphrase through Heraclitus, with the marriage application marked as the author's. Musonius Rufus on mutual devotion and Epictetus on relational duties are researched alternatives for the author's consideration; they were not stacked into this version.
 
-### Candidate judgments
+Judgment calls: at 1,501 words, the chapter exceeds the older 1,000–1,300 target because the author specifically asked to expand it. The Walgreens example was previously excluded from Chapter 12, but the author proposed it here for Chapter 13. The wife in the opening and other examples is an illustrative second-person scenario, not a new autobiographical claim. No verbatim classical or modern-source quotation was added. The chapter's final line is one sentence; the divider before it separates that close from the preceding prose.
 
-- Single ending: manually read the transition, divider, and final sentence. One closing sentence; no explanation follows it in manuscript prose.
-- Rhetorical-device repetition: manually read all prose beyond the regex. Short parallel instructions support concrete actions, while the date, philosophical paragraph, and invitation vary the structure. No single reframe or label construction carries the chapter more than twice. The recurring attention instruction is developed into sustained follow-through rather than a second ending.
-- Stoic term gloss: Seneca is identified as a Stoic philosopher and Heraclitus as an earlier philosopher. The river comparison is explained immediately. “Pre-commitment paradox” receives its plain explanation in the same sentence and is an authorial descriptive handle, not a purported research construct. No untranslated technical Stoic term appears.
-- Accessibility: retained the occasional longer sentence where its connected thought warrants it; most sentences remain short and concrete. The script's 39-word candidate spans the section divider into the Seneca paragraph; its printed count is retained below without alteration.
-
-### Counted voice check (verbatim)
+Counted voice check (verbatim):
 
 ```text
 voice_check: refined.md
-  1176 words of prose, 111 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 538}
+  1501 words of prose, 124 sentences
 
   HARD (literal counts - a FAIL here is a fact)
     [ok  ] em-dash                  0 in prose (cap 0)
-    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      1/111 sentences at 25+ words = 0.9% (cap 10%)
-             39w: You keep making time, asking, listening, and following through, even in the years when being married feels eas...
-    [ok  ] you-density              101 direct-address words in 1176 = 85.9 per 1,000 (floor 40)
-    [ok  ] metaphor family          2 mentions in 1176 words = 1.7 per 1,000 (cap 5); {'river': 1, 'water': 1}
+    [ok  ] bold-as-crutch           1 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      9/124 sentences at 25+ words = 7.3% (cap 10%)
+             48w: You do need to notice if thoughtfulness has become rare everywhere else too. **Don't let knowing her become th...
+             33w: If you mostly talk about how much you love her, what else has she been missing? **Do the thing before she asks...
+             31w: In one long-term study, couples who described their marriage as boring were less satisfied nine years later, e...
+    [ok  ] you-density              122 direct-address words in 1501 = 81.3 per 1,000 (floor 40)
+    [ok  ] metaphor family          4 mentions in 1501 words = 2.7 per 1,000 (cap 5); {'river': 2, 'water': 1, 'flow': 1}
 
   CAND (needs a read - a clear line here is not a pass)
-    [clear ] single ending            final sentence 18 words, shares 2 words with the previous one. Close: "For now, put the phone down and turn toward her while she's still telling you about her day."
+    [clear ] single ending            final sentence 13 words, shares 2 words with the previous one. Close: 'Put the phone down, and give her the evening you came to share.'
     [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
     [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
 
   RESULT: all HARD checks passed
-```
-
-### Practice sync (verbatim)
-
-```text
-practice_sync: runs/appendix/practice-guide.md vs each chapter's distillation (runs/)
-  [PASS     ] Chapter 13  3 practice(s) identical
-
-  RESULT: PASS on 1 chapter(s)
 ```

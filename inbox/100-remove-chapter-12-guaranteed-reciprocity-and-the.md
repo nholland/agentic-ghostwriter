@@ -1,9 +1,10 @@
 ---
 id: 100
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 12
 opened: 2026-09-23 06:53
+resolved: 2026-09-26 21:41
 ---
 
 # Remove Chapter 12 guaranteed reciprocity and the assumption that restarting needs no acknowledgment?
@@ -33,3 +34,5 @@ Exact Ch12 line 61: “If you give her the bare minimum, the bare minimum is wha
 ```
 
 **What unblocks this:** Author approval of Ch12 sentence-level corrections for the already deferred reciprocity issue. Deferred; Chapter 13 can proceed.
+
+**Resolution (2026-09-26 21:41):** Author Approved the exact Chapter 12 replacements: restarting may also require an apology; stopping effort may cause her to stop expecting it. Removed the guaranteed matching return and its accompanying explanation; preserved the chosen trying-to-win-favor wording. Diff verified and counted voice checks pass. Evidence: runs/qa/2026-09-26-inbox-096-097-100-approved-edits.md.

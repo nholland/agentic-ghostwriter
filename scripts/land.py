@@ -93,6 +93,7 @@ def main():
     ap = argparse.ArgumentParser(description="Land a verdict-passed chapter into the book.")
     ap.add_argument("chapter", type=int)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--okf-receipt")
     ap.add_argument("--force", action="store_true",
                     help="overwrite a chapter already landed in the book")
     a = ap.parse_args()
@@ -118,6 +119,14 @@ def main():
             why = ("the author has not given the verdict (Rule 8: nothing lands without it)"
                    if need == "verdict.md" else "the chapter is not finished")
             return refuse(f"runs/{tag}/{need} is missing - {why}")
+
+    from pathlib import Path
+    import okf_reconcile
+    try:
+        okf_reconcile.read(Path(REPO), a.okf_receipt, subject='chapter:' + tag,
+                           files=[f'runs/{tag}/refined.md', f'runs/{tag}/distillation.md'])
+    except ValueError as exc:
+        return refuse(str(exc))
 
     # 3. Staged links that would break on arrival (#029), this chapter only.
     broken = [(f, l) for f, l in okf_gate.staged_link_defects(REPO)
@@ -162,7 +171,8 @@ def main():
         # every gate because nothing checked it at the moment it became
         # permanent. A FAIL row stops the land; --force overrides it.
         import plate_check
-        fails = [(name, det) for st, name, det in plate_check.rows(plate, chapter=n) if st == "FAIL"]
+        fails = [(name, det) for st, name, det in plate_check.rows(
+            plate, chapter=n, book_root=book_root, runs_root=os.path.join(REPO, 'runs')) if st == "FAIL"]
         if fails and not a.force:
             return refuse("plate_check.py fails on runs/%s/plate.svg (--force to land anyway): "
                           % tag + "; ".join("%s: %s" % f for f in fails))

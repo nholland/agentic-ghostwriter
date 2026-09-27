@@ -17,6 +17,46 @@ or broken links (a broken link may be knowledge not yet authored).
 The knowledge layer is for the material *behind* the book. It is NOT for the
 manuscript (`draft.md`, `refined.md`), voice, or foundational docs (`00`–`04`).
 
+## Reconciliation before handoff or completion
+
+The Publisher reviews each intake, interview, feedback batch, revision and inbox
+ruling for durable book knowledge, including corrections and editorial meanings.
+Reuse and update existing concepts first. Preserve provenance and superseded claims;
+append `log.md` and reconcile `index.md` without discarding its annotations.
+Author-supplied facts and approved decisions are authorized to record. New inferred
+interpretations still follow Rule 9's proposal gate. Record unapproved proposals
+and rejected ideas with explicit decision status, never as accepted truth.
+
+Every completed batch has a receipt under `runs/reconciliation/`:
+
+```sh
+python3 scripts/okf_reconcile.py --write runs/reconciliation/BATCH.json \
+  --subject inbox:NNN --disposition updated \
+  --concept books/SLUG/okf/notes/CONCEPT.md --file books/SLUG/chapters/chNN/refined.md \
+  --authority "Author's words or source record" --reason "What knowledge changed"
+```
+
+Repeat `--subject`, `--concept` and `--file` as needed. Dispositions are `updated`,
+`already-represented` (cite existing concepts), or `no-knowledge-change` (explain
+why, including technical changes or declined work that adds no book knowledge).
+Cover final file bytes, including changed OKF files. Use a fresh receipt after
+further edits. Inbox closure takes `--okf-receipt PATH` with subject `inbox:NNN`.
+Chapter landing takes it with subject `chapter:chNN` and hashes of the run's
+refined prose and distillation; after landing, record the resulting book files.
+Interviews require reconciliation before the research handoff, even without prose.
+
+`python3 scripts/okf_reconcile.py --check` checks changed book Markdown and run
+interview records against the branch's upstream (main for a new branch), including
+committed and uncommitted work. Stop and sync invoke it; `--since SHA` supports
+an explicit audit window. It checks recorded coverage, paths and file hashes,
+**not semantic completeness**. The Publisher must review contradictory concepts,
+unrecorded facts, and whether a no-change disposition is honest. Raw git pushes
+and changes before the comparison window are outside this check.
+
+Report the disposition and concept paths in the final reply. Do not call a batch
+complete while reconciliation is missing. If knowledge authority is unresolved,
+retain a pending record and pause only that decision.
+
 ## Bundle location and structure
 
 Each book's bundle lives at `{bookRoot}/okf/`:

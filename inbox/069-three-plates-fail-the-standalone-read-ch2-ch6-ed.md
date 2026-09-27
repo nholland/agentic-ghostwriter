@@ -1,9 +1,10 @@
 ---
 id: 069
-status: open
+status: resolved
 raised_by: gw-panel
 chapter: -
 opened: 2026-09-20 19:58
+resolved: 2026-09-25 23:30
 ---
 
 # Three plates fail the standalone read (Ch2, Ch6: edits only; Ch5: needs a new concept). Which batch runs, and when?
@@ -19,3 +20,5 @@ Panel sweep, read cold before the chapter: 7 PASS (Ch1, 3, 4, 7, 9, 10, 11), 3 F
 ```
 
 **What unblocks this:** Whether /gw-plate 2, 6 (stage 6 only) and /gw-plate 5 (from stage 1) run next session, and in what order.
+
+**Resolution (2026-09-25 23:30):** Author: "Approved" to the recommendation to close #073, #075, #057 and #069 as superseded. The requested Chapter 2 and 6 edits and Chapter 5 replacement have later PASS records in runs/ch02/plate-read.md, runs/ch05/plate-read.md and runs/ch06/plate-read.md. This closes the old scheduling request, not author approval of the current drawings or a new certification of subsequent edits. Evidence: runs/qa/2026-09-25-inbox-audit.md; source presence rechecked at closure.

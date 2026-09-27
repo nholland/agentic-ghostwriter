@@ -1,9 +1,10 @@
 ---
 id: 095
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 5
 opened: 2026-09-23 06:53
+resolved: 2026-09-26 18:50
 ---
 
 # Keep the nail metaphor consistent between Chapters 4 and 5?
@@ -22,3 +23,5 @@ Exact: Ch4 line 79, “An apology pulls the nail.” Ch5 line 27, “The nail wi
 ```
 
 **What unblocks this:** Author approval of the Ch5 plain-language treatment and later prose/distillation coordination. Deferred; Chapter 13 can proceed.
+
+**Resolution (2026-09-26 18:50):** Author approved the two exact Chapter 5 prose replacements: “An apology may end the fight. The hurt that set it off still needs a conversation.” and “That’s how the unresolved hurts accumulate.” Applied both, with the #070 mechanism label. Counted voice checks pass; metaphor family explicitly unchecked. No broader rewrite.

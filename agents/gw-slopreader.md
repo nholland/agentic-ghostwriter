@@ -1,7 +1,7 @@
 ---
 name: gw-slopreader
 description: The Anti-Slop Reader desk. Judges the qualitative slop categories that no script can count, and the cross-chapter patterns only a whole-book read reveals. Reports; never edits. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Grep, Glob
 ---
 

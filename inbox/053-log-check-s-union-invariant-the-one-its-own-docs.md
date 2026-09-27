@@ -1,10 +1,12 @@
 ---
-id: 053
-status: open
+id: 104
+former_id: 053
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 15:52
-applied_by: python3 -c 'import sys;sys.path.insert(0,"scripts");import log_check as L;q=chr(96);b=lambda h:"## "+h+"\n- "+q+"i/a.md"+q+"\n- "+q+"i/b.md"+q+"\n\n**Next:** x\n";g="2026-09-18 18:34 - "+q+"branch-A"+q+" - 2 commit(s) this session";t="2026-09-16 15:28 - "+q+"branch-B"+q+" - 2 commit(s) this session";sys.exit(1) if not hasattr(L,"lost_entries") else sys.exit(0 if g in L.lost_entries({g:b(g)},{t:b(t)}) else 1)'
+applied_by: python3 tests/maintenance_batch_cases.py
+resolved: 2026-09-26 18:27
 ---
 
 # log_check's union invariant - the one its own docstring calls 'the one that matters' - has never had a fixture, and the content-based excuse it gained in 6a95d23 already fires across branches on the live log. Should union_breaches be split into a pure lost_entries(parent_entries, current_entries) that fixtures can call, with the excuse narrowed to a same-branch restatement?
@@ -26,3 +28,12 @@ Filed without --applied-by naming tests/run.py because open item #048 blocks it:
 ```
 
 **What unblocks this:** Whether log_check gains a pure lost_entries(parent_entries, current_entries) -> sorted missing headings, whether the excuse additionally requires the same branch, and whether the one entry that narrowing then reports is restored rather than exempted as a third LEGACY_MALFORMED
+
+
+**Identity correction (2026-09-26 13:52):** Renumbered to #104 under the author-approved #046 duplicate-ID repair. Formerly the log-integrity #053, distinct from the proof-rule #053. The historical filename is retained so existing links and session-log references continue to open this record. Its proposal, evidence, completion condition and open status are unchanged. Refer to this item as #104 going forward.
+
+**Resolution (2026-09-26 18:27):** Added lost_entries and same-branch matching with regression cases in both directions. Restored the missing 2026-09-18 18:34 claude/gateway-tmjrgm entry verbatim from historical merge parent 273b374356d0cec4b7dc562e09b7f42f1417bf91. Live log check passes with 197 entries; no added exemptions.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/maintenance_batch_cases.py` exits 0.
+
+**Applied, confirmed 2026-09-26 18:27:** `python3 tests/maintenance_batch_cases.py` now exits 0.

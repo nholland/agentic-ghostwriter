@@ -1,6 +1,8 @@
 ---
 id: 090
-status: open
+status: resolved
+disposition: declined
+resolved: 2026-09-26 18:27
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-22 22:44
@@ -36,3 +38,5 @@ Publisher reproduced independently: current #087 proof against a half-fix that f
 ```
 
 **What unblocks this:** Whether the Part I redraw can be verified by anything except a hand measurement rewritten from scratch each time, and whether the sign of 'did the void grow or shrink' is a stated rule or an implicit choice
+
+**Resolution (2026-09-26 18:27):** Author: “Do the three that you approve. Decline and remove the rest.” Declined. Do not build the specialized canyon checker. The rendered Part I visual decision remains in #087. Removed from the active inbox; historical proposal and proof retained, not implemented or claimed passing.

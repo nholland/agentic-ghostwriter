@@ -1,7 +1,7 @@
 ---
 name: gw-designer
 description: The Designer desk. Produces one plate per chapter - a reader-facing diagram of the chapter's mechanism, drawn from its distillation and its declared anchor metaphor - in the book's established visual style. Draws SVG; never invents a second image or a second style. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Write, Glob, Bash
 ---
 

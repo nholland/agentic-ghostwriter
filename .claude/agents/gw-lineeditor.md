@@ -1,7 +1,7 @@
 ---
 name: gw-lineeditor
 description: The Line Editor desk. Applies the refinement passes to a draft and produces refined prose plus a distillation. Runs cold, writes directly, flags judgement calls rather than stopping. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Write, Edit, Bash
 ---
 

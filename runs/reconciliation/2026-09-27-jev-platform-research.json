@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-27T16:07:51.059469-05:00",
+  "subjects": [
+    "platform:jev-research"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author requested deep web research into Jev applicability to the agentic ghostwriter platform and its 233 tests.",
+  "reason": "Platform research and proposed advisory evaluation only; no manuscript facts, accepted meanings, concepts, rules or production behavior changed.",
+  "files": {
+    "runs/qa/2026-09-27-jev-applicability-233-fixtures.md": "2babb6cb2bae0f28244a6fe8e5cf66f141673f33d35c13984bda167820f07256"
+  }
+}

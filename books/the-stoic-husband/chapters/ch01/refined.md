@@ -34,7 +34,7 @@ Where did the meaning come from, the baggage that turns an ordinary comment into
 
 **What Got Installed**
 
-I've been married twenty-three years. I applied Stoic philosophy to my work, my training, how I showed up under pressure in every arena. Everywhere except the one that mattered most. I'm not writing this because I figured it out early. I'm writing this because I didn't.
+I've been married since 2003. I applied Stoic philosophy to my work, my training, how I showed up under pressure in every arena. Everywhere except the one that mattered most. I'm not writing this because I figured it out early. I'm writing this because I didn't.
 
 My grandfather was devoted to my grandmother. Fifty-plus years, and no one who knew them doubted it. He was also the head of that household, and nobody questioned it. That was the world they both lived inside. He also had a three-second window of approximately zero.
 

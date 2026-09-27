@@ -68,3 +68,9 @@ regenerate:
 
 Report what changed, the counts as the scripts printed them, which derived artifacts
 were refreshed, and whether this was an edit in place or a diff for him to apply.
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.

@@ -1,10 +1,11 @@
 ---
 id: 046
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-19 15:01
 applied_by: python3 tests/prove_inbox_duplicate.py
+resolved: 2026-09-26 13:53
 ---
 
 # Two branches can allocate the same inbox number and nothing catches it. Should inbox.py refuse to operate on a duplicate ID?
@@ -20,3 +21,9 @@ Verified reproduction, this session: copytree(scripts/) into a temp dir, write i
 ```
 
 **What unblocks this:** Whether load_all()/next_id gains a duplicate guard and --close refuses an ambiguous N, with a two-duplicates fixture
+
+**Resolution (2026-09-26 13:53):** Author: "Approved" to duplicate-ID protection and a unique identity for the duplicate. Inbox now refuses duplicate numeric IDs at load, allocation and closure before reconciliation or mutation, naming both paths (including 053 versus 53). The log-integrity record is now #104, with former_id: 053 and its historical filename retained so existing links still resolve; the proof-policy record remains #053. Eight collision cases failed against the pre-fix implementation and now pass; the unique-ID control and all eight existing Inbox cases pass. Completion condition: python3 tests/prove_inbox_duplicate.py. Full-suite limitation: tests/run.py still stops in the existing plate checker because /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf is absent on this Mac. No full-suite pass claimed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/prove_inbox_duplicate.py` exits 0.
+
+**Applied, confirmed 2026-09-26 13:53:** `python3 tests/prove_inbox_duplicate.py` now exits 0.

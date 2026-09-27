@@ -1,10 +1,11 @@
 ---
 id: 047
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 14:24
 applied_by: python3 tests/prove_land_unrelated_main.py
+resolved: 2026-09-26 13:53
 ---
 
 # Should sync.py --land refuse when local main is not an ancestor of origin/main?
@@ -41,3 +42,9 @@ is fixed, and this item does not depend on reproducing it to stay open.
 ```
 
 **What unblocks this:** Whether land() asserts 'git merge-base --is-ancestor main origin/main' before checkout, refusing with the remedy named in words, and whether say_status labels its comparison as being against origin/main
+
+**Resolution (2026-09-26 13:53):** Author: "Approved" to the landing safeguard, not to landing this branch. sync.land now confirms local main is an ancestor of origin/main before pushing, checking out or merging. It refuses missing, unrelated, ahead and diverged local main without altering refs and explains the manual recovery choice; it never resets the branch automatically. Four unsafe-history cases failed against the pre-fix implementation and now pass; equal and behind controls still land in disposable repositories using only a local bare remote. No live main was changed. Completion condition: python3 tests/prove_land_unrelated_main.py. Full-suite limitation: tests/run.py still stops in the existing plate checker because /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf is absent on this Mac. No full-suite pass claimed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/prove_land_unrelated_main.py` exits 0.
+
+**Applied, confirmed 2026-09-26 13:53:** `python3 tests/prove_land_unrelated_main.py` now exits 0.

@@ -1,0 +1,130 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Chapter 7: The End of Scorekeeping</title><style>
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+html { -webkit-print-color-adjust: exact; }
+body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
+       margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
+
+/* ---- the reader-facing distillation after the plate ---- */
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
+.dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
+        text-align:center; line-height:1.25; margin:0 0 .08in;
+        page-break-before:avoid; }
+.dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
+        margin:.08in auto .10in; }
+.dist .mech { text-align:center; font: 600 11pt Georgia,serif;
+        letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
+.dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
+        margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
+.dist p { margin:0 0 .08in; }
+.dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
+        text-transform:uppercase; color:#5a5a5a;
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+.dist ol { margin:0 0 .1in; padding-left:.24in; }
+.dist li { margin:0 0 .07in; }
+
+/* ---- chapter ---- */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
+h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
+     margin:0 0 .06in; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h1 + hr.beat { display:none; }
+/* compile.py's marker for "start fresh page here", used before the Putting
+   It Into Practice section so a chapter's back matter never runs onto the
+   same page as its closing lines. Zero height: it does not itself print. */
+.pb { page-break-before:always; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
+p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
+p.runin { margin-top:.2in; }
+p.runin strong { font-weight:600; letter-spacing:.01em; }
+hr.beat { border:0; height:0; margin:.24in auto; width:1.1in;
+     border-top:.6pt solid #cfcfcf; }
+blockquote { margin:.22in .42in; padding-left:.2in; border-left:1.2pt solid #d4d4d4; }
+blockquote.pull { margin:.26in .3in; padding:0 0 0 .22in;
+     border-left:1.6pt solid #c9c9c9; page-break-inside:avoid; }
+blockquote.pull p { font: italic 11pt/1.56 Georgia,serif; }
+blockquote cite { display:block; font: normal 9pt Georgia,serif; font-style:normal;
+     color:#6a6a6a; margin-top:.09in; letter-spacing:.02em; }
+blockquote p { font: italic 10.5pt/1.55 Georgia,serif; color:#2f2f2f;
+     text-align:left; text-indent:0; margin:0; }
+em { font-style:italic; }
+strong { font-weight:600; }
+
+/* ---- plate ---- */
+/* A plate is a page a reader flips to, not a figure sitting in the running
+   text - full isolation, same treatment the Part closing plates already
+   get. Centred vertically as well as horizontally since it now owns the
+   whole page. */
+figure.plate { margin:0; text-align:center; page-break-before:always;
+     page-break-after:always; page-break-inside:avoid;
+     min-height:7.3in; display:flex; flex-direction:column;
+     align-items:center; justify-content:center; }
+figure.plate img { max-width:100%; max-height:6.8in; height:auto; }
+figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
+     margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
+.dropfirst::first-letter { font-size:1em; }
+
+
+h1.chapter-heading { font-family: Georgia, 'Times New Roman', serif;
+  font-size:20pt; font-weight:700; line-height:1.25; letter-spacing:normal;
+  margin:0 0 .30in; padding:0; border:0; text-indent:0;
+  break-after:avoid; page-break-after:avoid; }
+h1.chapter-heading .num { display:block; font-size:10pt; font-weight:400;
+  letter-spacing:normal; text-transform:none; color:#444; margin:0 0 .12in; }
+h1.chapter-heading .chapter-title { display:block; font-size:20pt;
+  font-weight:700; letter-spacing:normal; text-transform:none; }
+h1 + p, h1 + hr + p, h2 + p, h3 + p { text-indent:0; }
+/* Shared reading format: ordinary paragraphs are flush left, never indented. */
+p, p + p, p.runin, p.runin + p { text-indent:0; text-align:left; }
+h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
+  letter-spacing:normal; text-transform:none; color:inherit;
+  margin:.20in 0 .10in; padding:0; border:0;
+  break-after:avoid; page-break-after:avoid; }
+</style></head><body><section><h1 class="chapter-heading"><span class="num">Chapter 7</span>
+<strong class="chapter-title">The End of Scorekeeping</strong></h1>
+<hr class="beat">
+<p>Somewhere inside you, there’s a running total. You didn’t sit down and decide to keep it. You just know where you stand.</p>
+<hr class="beat">
+<h2 class="beat-heading">The fix.</h2>
+<p>The internet goes down on a Tuesday night, mid-show, and you’re the one who gets up. You reset the router, check the cables, call the provider, wait on hold, get it working again. Nobody asks you to do this. It’s just yours, like the ceiling fan that started clicking last month. Like the TV that needed a new setting after the last software update. You know your way around the house’s machinery. So it falls to you, quietly, the way certain jobs always fall to the person who can do them. A few weeks before that, you spent an entire weekend at a tournament three hours away, coaching your kid’s team. Managing snacks and rides and a hotel room. She stayed home and ran the rest of life without you. Both of those are real. Both of those took something out of you. And if anyone ever asked you to make the case for how much you give this marriage, those are the two stories you’d tell. They’re the ones with a beginning, an end, and a name.</p>
+<p>The dozens of smaller things neither of you tracks, on either side, wouldn’t make your list. The question you didn’t ask because you already knew the answer would start something. The five minutes spent finding her keys. Noticing she hadn’t eaten and not saying anything about it, just handing her a plate. None of those would register if someone asked you to defend yourself. They’re too small, too constant, too easy to forget you even did them. And that’s exactly the problem this chapter is about.</p>
+<hr class="beat">
+<h2 class="beat-heading">More than chores.</h2>
+<p>Marriages keep score on more than who did the dishes. Some couples tally whose income or whose caretaking counts as the real contribution. Some tally who sacrificed more: a birth, a career, a move. Some tally who’s better at what, who’s been hurt worse, who tries harder in the relationship. Different currencies, same instinct: somewhere inside you, a running total exists, and you didn’t sit down and decide to keep it. You just know where you stand, the way you know your bank balance without checking it. This chapter goes deep on one version of that instinct, the oldest and most common one, the one about labor. Once you can see why it fails, you’ll recognize the same failure wherever else you’re running a private count.</p>
+<hr class="beat">
+<h2 class="beat-heading">Two honest ledgers.</h2>
+<p>Picture a jar filled with rocks. A few big ones go in first: the visible contributions with a clear edge and a story attached. Fixing the router. The coaching weekend. The day you took off work for the family. Those are real, and they matter. But they don’t fill the jar. What fills most of the space is sand: hundreds of small acts done without tracking them, poured in beneath and around and on top. They make up the majority of what’s actually there. The big contributions are countable, memorable, citable in an argument. The small ones are everything else, and there’s far more of them.</p>
+<p>This is why the math never works when either of you tries to do it. You can list the things you did. She can list hers. Neither of you can list the countless small ones. They’re made of things too small to register while you’re doing them, for either of you, including the person doing them. Any tally you keep is built entirely out of the visible things, the smallest fraction of what’s actually happening, and mistaken for the whole.</p>
+<p>My grandfather had a piece of marriage advice he gave me once, and I’ve never forgotten it: give 60 percent, expect 40 percent. Not 50-50. Sixty-forty. He wasn’t doing arithmetic. He was naming the only posture that survives a total neither of you can fully see. If you’re only willing to give what you expect back in equal measure, you’ll spend your marriage chasing a balance. That balance was never visible to begin with. You can only count what you remember, and what you remember was never the whole picture.</p>
+<p>There’s a researcher named Karl Pillemer who spent years interviewing people who’d been married more than four decades, asking what actually worked. Almost none of them talked about splitting things evenly. The phrase that kept coming up instead was some version of “give more than you get.” That’s not folklore. It’s the pattern that shows up when long marriages describe themselves looking backward. A separate, much larger study, thirteen years of data on more than 7,000 couples, found something that points in the same direction. People who kept close track of what they were owed, expecting their giving to be matched back, saw their satisfaction erode over time. Most couples loosen that expectation naturally as the relationship deepens. The ones who don’t tend to drift.</p>
+<p>To be fair, none of that means the imbalance you feel is imaginary. Sometimes one person really is carrying more, and that’s worth naming. What it does mean is that the running tally in your head isn’t a reliable way to find out whether that’s true. It can only show you the smallest, most visible slice of the work, and it will tell you that you’re ahead. Your own invisible contributions are just as invisible to you as hers are to her. Figuring out whether an imbalance is real takes a different kind of looking: an honest, deliberate accounting rather than a private one. That’s the next chapter’s work. This one is about why the private tally can’t do it.</p>
+<hr class="beat">
+<h2 class="beat-heading">Whose column is this.</h2>
+<p>The Stoics built their whole philosophy on one sorting question: is this mine to control, or isn’t it? Her effort isn’t yours to control. Her noticing isn’t yours to control. What you give, and how you give it: that’s the only column with your name on it.</p>
+<p>That’s not resignation. It doesn’t mean you can’t name an unfairness or ask for something different. It means the private tally was never the right tool for finding a real imbalance. A tally that can only read your own side, built from contributions you happened to notice and remember, will tell you you’re ahead every time. It’s not evidence. It’s arithmetic done on one page of a two-page ledger.</p>
+<p>You can ask for what you need. You can have the conversation about what’s unfair. But the private count of who’s ahead was never yours to settle alone, because it was never just your column to keep.</p>
+<p>Seneca wrote at length in <em>De Beneficiis</em>, his work on the philosophy of giving and receiving. Why does the recipient always underestimate what they’ve been given? His argument: you can never fully see everything that went into what someone gave you. Flip that around: when you receive what she gives, you’re seeing the finished thing and missing everything that produced it. Gratitude for more than you can see is the only honest response to a ledger you can’t fully read.</p>
+<p>Marcus Aurelius put it plainly: when you’ve done something good, why look for credit beyond the act, or wait to see what comes back? There’s the doing, and there’s the need it met. That’s the whole list. Don’t reach for the third thing.</p>
+<hr class="beat">
+<h2 class="beat-heading">The reconstruction.</h2>
+<p>Try this sometime when you’re turning over a feeling of unfairness, the kind that shows up quietly, days later, while you’re driving or half-listening to something else. Instead of running your own tally again, try running hers. Not the dramatic version. Go small. What did she carry today that you didn’t see her carry? What did she notice so you didn’t have to? What question did she not ask, the same way you didn’t ask yours?</p>
+<p>You’ll find you can’t finish the list. That’s not a failure of memory. It’s the same invisible weight, her side of it, just as hard to count as yours is. The point isn’t to win at reconstructing her side better than she could win at reconstructing yours. The point is to feel, for a minute, how much of what she gives was never going to make it onto anyone’s list, including her own.</p>
+<p>Give 60 percent, expect 40: not because the math is fair, but because no math was ever going to find the bottom of that jar.</p>
+<hr class="beat"><figure class="plate"><img src="ch07-plate.png" width="640" height="424" alt=""></figure></section><section class="dist distback"><p class="kicker">Put it into practice</p><h1>Chapter 7 Distillation — The End of Scorekeeping</h1><div class="rule"></div>
+<p class="runin"><strong>Mechanism:</strong> The Private Tally</p>
+<p class="runin"><strong>Conversation sentence:</strong> The ledger you keep in your head can only count the visible things, so it was always going to tell you that you’re ahead.</p>
+<p>Most husbands run a private tally of who’s given more, but the tally is built entirely from contributions big enough to remember: the smallest fraction of what’s actually there. The Stoic answer: stay in your own column, give more than you expect back, and practice gratitude for what you can’t count.</p>
+<p class="runin"><strong>Lesson:</strong> The Stoics built their ethics on one question: is this mine to control, or isn’t it? Applied here, the only column with your name on it is what you give and how you give it. Not what you’re owed back for it.</p>
+<p class="runin"><strong>Challenge:</strong> Believing you’re keeping an honest tally of who’s given more, when that tally only ever had access to half the data: your side, not hers.</p>
+<h2>Practice</h2>
+<ol><li>When a feeling of unfairness surfaces, try running her tally instead of yours: go small. What did she carry today that you didn’t see her carry?</li><li>Notice which currency you’re actually tallying: whose income or caretaking counts as the real contribution, who sacrificed more (a birth, a career, a move), or who tries harder. Then ask honestly whether your count has ever included what she’d list, not just what you would.</li><li>This week, aim to give at a level where you’re not tracking what comes back. Notice what changes when you loosen the expectation.</li></ol></section></body></html>

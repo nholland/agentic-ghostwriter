@@ -1,6 +1,8 @@
 ---
 id: 078
-status: open
+status: resolved
+disposition: declined
+resolved: 2026-09-26 18:27
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 01:14
@@ -20,3 +22,5 @@ grep -rn 'claude.ai/artifact' --include=*.py --include=*.md --include=*.sh --inc
 ```
 
 **What unblocks this:** Whether 'republish' names a specific link the next time either page goes stale, and whether a published-but-not-republished page is detectable at all
+
+**Resolution (2026-09-26 18:27):** Author: “Do the three that you approve. Decline and remove the rest.” Declined. Do not build the external publishing tracker. Removed from the active inbox; historical proposal and proof retained, not implemented or claimed passing.

@@ -10,7 +10,7 @@ description: >
   industrious partner absorbs more work simply because their bar for
   "enough" sits higher. Neither partner chose this consciously — the
   asymmetry is structural, not a series of individual decisions.
-provenance: Author notes (Ch8 research check-in, 2026-07-19)
+provenance: Author notes (Ch8 research check-in, 2026-07-19); author-approved inbox correction reconciled 2026-09-27 (see /notes/2026-09-27-approved-inbox-knowledge.md)
 ip: author-synthesis
 tags: [framework, fairness, unfairness, temperament, reactivity, industriousness]
 chapter_slugs: [when-your-marriage-feels-unfair, silence-is-not-peace]
@@ -18,6 +18,16 @@ timestamp: 2026-07-19T00:00:00Z
 ---
 
 # Temperament Asymmetry (Who Cares More Wins)
+
+# Current use — author-approved inbox 097
+
+This retained framework is not a claim that the current Chapter 8 teaches this
+mechanism. Its chapter tags indicate relevance, not completed coverage. The
+approved Chapter 9 wording says decisions **can** reflect only the concerns one
+partner has voiced when the other stays silent. Do not restore a universal
+louder-partner-wins claim or the removed temperament callback from this older
+formulation. No new temperament section was commissioned.
+See [approved decisions](/notes/2026-09-27-approved-inbox-knowledge.md).
 
 # Schema
 

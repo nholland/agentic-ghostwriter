@@ -1,10 +1,11 @@
 ---
 id: 085
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 4
 opened: 2026-09-21 12:52
-applied_by: python3 -c "import sys; n=open('runs/ch04/plate-notes.md',encoding='utf-8').read(); sys.exit(0 if 'Publisher correction' in n else 1)"
+retired_applied_by: python3 -c "import sys; n=open('runs/ch04/plate-notes.md',encoding='utf-8').read(); sys.exit(0 if 'Publisher correction' in n else 1)"
+resolved: 2026-09-26 07:47
 ---
 
 # runs/ch04/plate-notes.md Round 7 asserts 'Ch05 still draws the old filled dot' and escalates it as the round's one decision. Ch05 has zero circle elements, and the same file recorded 'Ch05 no longer draws nails at all' 195 lines earlier. Should a desk be required to open a file before asserting its current contents, or is the appended correction enough?
@@ -40,3 +41,5 @@ container and therefore untested.
 Third in the same file: *"Ch23's The Marriage You Build Every Day"* is Chapter 24
 (`03-outline.md:456`); Ch23 is "The Difference Between Endurance and Cowardice"
 (`:434`), and neither is written.
+
+**Resolution (2026-09-26 07:47):** Author: "Approved" to closing #051, #052 and #085 as "additional rule declined; existing evidence requirements remain." Keep the existing Publisher correction and decline an additional command-pasting rule for every cross-file claim. Existing source-reading and honest-check-reporting requirements remain. The correction was rechecked at closure. Its former applied_by command is preserved as retired_applied_by, because this closure records the author declining a new rule, not implementation of that rule.

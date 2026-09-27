@@ -13,9 +13,9 @@ The engine's session log is **derived** — clock, branch, files, next action �
 cannot carry a wrong date or a stale next. What it also cannot carry is the author's
 own words. This is that half.
 
-**Never call this on your own initiative.** It records *his* decision, in *his*
-words. A note you decided to write is your summary, and a summary of a ruling is not
-the ruling.
+**This command is author-invoked:** it keeps his words verbatim. Rule 9's automatic
+OKF reconciliation is separate and does not require invoking this command. Label
+summaries as summaries; never present them as his exact words.
 
 ## Two kinds, and they are different
 
@@ -41,3 +41,9 @@ reversed — that is the part a future reader cannot reconstruct.
 
 Read back what you wrote, in one line, so he can correct it while he is still here. A
 note he never saw is a note he cannot trust.
+
+## Knowledge completion
+
+Before handoff or completion, follow the reconciliation procedure in `.claude/OKF.md`.
+Reconcile durable knowledge, record the receipt and report its disposition.
+Author-approved facts need no repeated approval; unapproved interpretations remain proposals.

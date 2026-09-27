@@ -1,9 +1,10 @@
 ---
 id: 097
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 9
 opened: 2026-09-23 06:53
+resolved: 2026-09-26 21:41
 ---
 
 # Repair the Chapter 4 repair reference and Chapter 8–9 promise/callback mismatch?
@@ -37,3 +38,5 @@ Most other callbacks work: Chapter 2 restates the gap, Chapter 5 restates the Fo
 ```
 
 **What unblocks this:** Author approval of callback corrections and disposition of the temperament-asymmetry promise. Deferred; Chapter 13 can proceed.
+
+**Resolution (2026-09-26 21:41):** Author Approved three exact local replacements: Chapter 4 refers to the chapter on repair; Chapter 8 promises the delivered topic of silence and expecting repayment; Chapter 9 states the scoped point directly and retains the calm/silence sentence. No new temperament section commissioned under the approved scope. Diff verified and counted voice checks pass. Evidence: runs/qa/2026-09-26-inbox-096-097-100-approved-edits.md.

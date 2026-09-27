@@ -554,27 +554,29 @@ footer code{font-size:.8em}
 <tr><td><code>compile.py</code></td><td>assemble a reader-facing manuscript, and check what it produced.</td></tr>
 <tr><td><code>compile_current.py</code></td><td>Publish the current chapter and collection PDFs, replacing stable filenames.</td></tr>
 <tr><td><code>inbox.py</code></td><td>the exceptions inbox: everything waiting on the author, in one place.</td></tr>
-<tr><td><code>land.py</code></td><td>move a chapter from runs/chNN/ (apparatus) into books/&lt;slug&gt;/ (the book),</td></tr>
+<tr><td><code>land.py</code></td><td>move a chapter from runs/chNN/ (apparatus) into books/&lt;slug&gt;/ (the book), after the author's verdict.</td></tr>
 <tr><td><code>log_check.py</code></td><td>assert runs/log.md's two mechanical invariants.</td></tr>
 <tr><td><code>manual.py</code></td><td>derive the house manual (docs/manual.html) from the house itself.</td></tr>
 <tr><td><code>manual_content.py</code></td><td>the AUTHORED half of the house manual.</td></tr>
-<tr><td><code>next.py</code></td><td>the engine's state oracle. What is next, from artifacts, never from reasoning.</td></tr>
+<tr><td><code>next.py</code></td><td>the engine's state oracle.</td></tr>
 <tr><td><code>okf_gate.py</code></td><td>the citation gate, delegated to the book's own validator (scripts/okf_validate.py).</td></tr>
 <tr><td><code>okf_index.py</code></td><td>reconcile okf/index.md with the concepts on disk.</td></tr>
+<tr><td><code>okf_reconcile.py</code></td><td>Record knowledge dispositions; check file coverage, never semantic truth.</td></tr>
 <tr><td><code>okf_validate.py</code></td><td>Conformance + integrity checker for a book's OKF knowledge bundle.</td></tr>
 <tr><td><code>package_check.py</code></td><td>check the artifact a reader actually receives.</td></tr>
-<tr><td><code>pdf_chapter_style.py</code></td><td>Chapter opening shared by both PDF backends; ordinary words for speech readers."""</td></tr>
+<tr><td><code>pdf_chapter_style.py</code></td><td>Chapter opening shared by both PDF backends; ordinary words for speech readers.</td></tr>
 <tr><td><code>pipeline_state.py</code></td><td>Single source of truth for pipeline NEXT_ACTION and current phase.</td></tr>
 <tr><td><code>plate_brief.py</code></td><td>the plate brief, written from the chapter's own files.</td></tr>
 <tr><td><code>plate_check.py</code></td><td>the counted check for a plate SVG.</td></tr>
 <tr><td><code>plate_packet.py</code></td><td>Render the maintained plain-language plate brief into the current plates PDF.</td></tr>
 <tr><td><code>practice_sync.py</code></td><td>prove the practice guide still quotes the distillations.</td></tr>
 <tr><td><code>resolve_book.py</code></td><td>find the book repo at runtime, or fail loudly.</td></tr>
-<tr><td><code>session_log.py</code></td><td>mechanical session memory. Appended by the Stop hook.</td></tr>
+<tr><td><code>retro_window.py</code></td><td>Resolve pending review bounds; dispatch is not completion.</td></tr>
+<tr><td><code>session_log.py</code></td><td>mechanical session memory.</td></tr>
 <tr><td><code>sync.py</code></td><td>the git mechanics, done the same way every time, and named out loud.</td></tr>
 <tr><td><code>sync_plugin_layout.py</code></td><td>mirror .claude/ into the plugin-root layout.</td></tr>
-<tr><td><code>toolcheck.py</code></td><td>Report dependencies of the one approved Chromium renderer; never install."""</td></tr>
-<tr><td><code>ttfwidth.py</code></td><td>text widths from a TrueType file's own tables, for plate_check.py; no font library is installable here."""</td></tr>
+<tr><td><code>toolcheck.py</code></td><td>Report dependencies of the one approved Chromium renderer; never install.</td></tr>
+<tr><td><code>ttfwidth.py</code></td><td>text widths from a TrueType file's own tables, for plate_check.py; no font library is installable here.</td></tr>
 <tr><td><code>verification_ingest.py</code></td><td>Apply external verification results back into the OKF citation ledger.</td></tr>
 <tr><td><code>verification_packet.py</code></td><td>Generate external-verification request packets from the OKF citation ledger.</td></tr>
 <tr><td><code>verification_probe.py</code></td><td>Determine which citation-verification lane is available, by probing hosts.</td></tr>
@@ -728,4 +730,4 @@ footer code{font-size:.8em}
   paint();
 })();
 </script>
-<!-- inputs-digest: e784fa5a85391f27 -->
+<!-- inputs-digest: 8cdee3c609d257f6 -->

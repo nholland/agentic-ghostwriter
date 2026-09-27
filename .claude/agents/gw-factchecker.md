@@ -1,7 +1,7 @@
 ---
 name: gw-factchecker
 description: The Fact-Checker desk. Owns the citation ledger up to verifiable, the external verification packets and their ingest, and the defects register. Proposes fixes; never marks anything verified. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Write, Edit, Bash, Grep, Glob, WebSearch, WebFetch
 ---
 

@@ -1,9 +1,10 @@
 ---
 id: 070
-status: open
+status: resolved
 raised_by: gw-designer
 chapter: 5
 opened: 2026-09-20 22:01
+resolved: 2026-09-26 18:50
 ---
 
 # Ch5's new plate is titled 'The courage to come back' (the chapter's own beat heading, verbatim). The distillation's Mechanism line is still 'The Remaining Nails' - Ch04's image, absent from the new concept. Retitle the distillation's Mechanism to match, or keep it and retitle the plate?
@@ -19,3 +20,5 @@ python3 scripts/plate_check.py runs/ch05/plate.svg --chapter 5 -> [WARN] title '
 ```
 
 **What unblocks this:** Whether chapters/ch05/distillation.md's Mechanism line changes, and what design/plates/ the-courage-to-come-back.svg is titled when it lands.
+
+**Resolution (2026-09-26 18:50):** Author approved Mechanism: The courage to come back. Updated the Chapter 5 distillation to match the current illustration, together with #095.

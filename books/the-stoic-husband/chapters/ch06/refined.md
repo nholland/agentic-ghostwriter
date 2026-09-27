@@ -44,7 +44,7 @@ You can defend yourself: list everything you did this week, out loud, like a man
 
 The moment you produce a defense, you've handed her a reason to produce one back. Nobody loses an argument like that without reaching for their own evidence. So now there are two ledgers in the room instead of one shared project, and ledgers don't reconcile. They just get longer, week after week, until neither of you can remember what actually started the fight. That's how one comment about laundry turns into a referendum on a parent-teacher conference from three months ago. You didn't invent scorekeeping by accident. You invented it the moment you decided your tally was worth reciting out loud.
 
-The stronger play costs more in the moment and pays more later. Notice what she's actually doing. Say so. Then make the play instead of defending: "I see you're working. I appreciate it. You want to sit down, or should I help first?" That single sentence does what no defense ever could. It closes the gap instead of arguing about whose gap it is.
+The stronger play costs more in the moment and pays more later. Notice what she's actually doing. Say so. Then make the play instead of defending: "I see you're working. I appreciate it. You want to sit down, or should I help first?" That single sentence does what no defense ever could. It lets you help each other instead of arguing about who did more.
 
 ---
 

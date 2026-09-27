@@ -1,0 +1,140 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Chapter 5: How to Fight Without Becoming Small</title><style>
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+html { -webkit-print-color-adjust: exact; }
+body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
+       margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
+
+/* ---- the reader-facing distillation after the plate ---- */
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
+.dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
+        text-align:center; line-height:1.25; margin:0 0 .08in;
+        page-break-before:avoid; }
+.dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
+        margin:.08in auto .10in; }
+.dist .mech { text-align:center; font: 600 11pt Georgia,serif;
+        letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
+.dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
+        margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
+.dist p { margin:0 0 .08in; }
+.dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
+        text-transform:uppercase; color:#5a5a5a;
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+.dist ol { margin:0 0 .1in; padding-left:.24in; }
+.dist li { margin:0 0 .07in; }
+
+/* ---- chapter ---- */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
+h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
+     margin:0 0 .06in; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h1 + hr.beat { display:none; }
+/* compile.py's marker for "start fresh page here", used before the Putting
+   It Into Practice section so a chapter's back matter never runs onto the
+   same page as its closing lines. Zero height: it does not itself print. */
+.pb { page-break-before:always; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
+p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
+p.runin { margin-top:.2in; }
+p.runin strong { font-weight:600; letter-spacing:.01em; }
+hr.beat { border:0; height:0; margin:.24in auto; width:1.1in;
+     border-top:.6pt solid #cfcfcf; }
+blockquote { margin:.22in .42in; padding-left:.2in; border-left:1.2pt solid #d4d4d4; }
+blockquote.pull { margin:.26in .3in; padding:0 0 0 .22in;
+     border-left:1.6pt solid #c9c9c9; page-break-inside:avoid; }
+blockquote.pull p { font: italic 11pt/1.56 Georgia,serif; }
+blockquote cite { display:block; font: normal 9pt Georgia,serif; font-style:normal;
+     color:#6a6a6a; margin-top:.09in; letter-spacing:.02em; }
+blockquote p { font: italic 10.5pt/1.55 Georgia,serif; color:#2f2f2f;
+     text-align:left; text-indent:0; margin:0; }
+em { font-style:italic; }
+strong { font-weight:600; }
+
+/* ---- plate ---- */
+/* A plate is a page a reader flips to, not a figure sitting in the running
+   text - full isolation, same treatment the Part closing plates already
+   get. Centred vertically as well as horizontally since it now owns the
+   whole page. */
+figure.plate { margin:0; text-align:center; page-break-before:always;
+     page-break-after:always; page-break-inside:avoid;
+     min-height:7.3in; display:flex; flex-direction:column;
+     align-items:center; justify-content:center; }
+figure.plate img { max-width:100%; max-height:6.8in; height:auto; }
+figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
+     margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
+.dropfirst::first-letter { font-size:1em; }
+
+
+h1.chapter-heading { font-family: Georgia, 'Times New Roman', serif;
+  font-size:20pt; font-weight:700; line-height:1.25; letter-spacing:normal;
+  margin:0 0 .30in; padding:0; border:0; text-indent:0;
+  break-after:avoid; page-break-after:avoid; }
+h1.chapter-heading .num { display:block; font-size:10pt; font-weight:400;
+  letter-spacing:normal; text-transform:none; color:#444; margin:0 0 .12in; }
+h1.chapter-heading .chapter-title { display:block; font-size:20pt;
+  font-weight:700; letter-spacing:normal; text-transform:none; }
+h1 + p, h1 + hr + p, h2 + p, h3 + p { text-indent:0; }
+/* Shared reading format: ordinary paragraphs are flush left, never indented. */
+p, p + p, p.runin, p.runin + p { text-indent:0; text-align:left; }
+h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
+  letter-spacing:normal; text-transform:none; color:inherit;
+  margin:.20in 0 .10in; padding:0; border:0;
+  break-after:avoid; page-break-after:avoid; }
+</style></head><body><section><h1 class="chapter-heading"><span class="num">Chapter 5</span>
+<strong class="chapter-title">How to Fight Without Becoming Small</strong></h1>
+<p>Part I has been about the gap. The three seconds between what happens and what you do. This chapter is about what happens when you’re already inside a real fight, where everything you’ve built gets used at once and the only question left is what kind of man you are at the end of it.</p>
+<hr class="beat">
+<h2 class="beat-heading">The arc.</h2>
+<p>She’s low, or you are. The temperature in the room shifts before the first word gets said. You feel it the way you feel weather. Then something gets said. Maybe it’s small. Maybe it touches something already tender. The gap opens.</p>
+<p>If you’re not governing it, the Four D’s are already running before you’ve decided to run them. You go on the defense. You deny what she’s said. You downplay: <em>I did pretty well there, why are you making this bigger than it needs to be?</em> Then you deflect, pointing out something she hasn’t done. Her original concern gets buried under a counter-prosecution. Neither of you wins. Both of you are slightly smaller than when you started.</p>
+<p>That is the arc. You’ve run it before. So has she.</p>
+<p>This is the last chapter of Part I because it’s where all five chapters apply at once. The mood that infected your inner weather before anything happened. The gap that opened when the trigger hit. The Four D’s that fired automatically. The anger underneath all of it. Now: what you do with the rest.</p>
+<hr class="beat">
+<h2 class="beat-heading">The trigger with the nail in it.</h2>
+<p>The Four D’s don’t fire hardest for generic criticism. They fire hardest for the ones that hit something already there.</p>
+<p>Think about the word she uses that lands harder than its content warrants. The one that touches something you’ve been carrying quietly. You’re not objectively what she said. You know that. But the accusation lands on something specific: a place where you don’t feel seen for what you actually do, where the judgment feels like it’s missing the full picture. That’s why it hits.</p>
+<p>You know this in your body before you know it in your head. Defense. Deny. Downplay. Deflect. Her original complaint gets prosecuted from the other direction. Now you’re both defending. The thing that needed to be said is gone.</p>
+<p>An apology will end the fight. The nail will stay in.</p>
+<p>The reaction out of proportion to the incident is always telling you where the wound is. Not what she did wrong. What’s already tender in you. That’s worth sitting with.</p>
+<hr class="beat">
+<h2 class="beat-heading">Becoming small.</h2>
+<p>The Four D’s are one version. There are others.</p>
+<p>The withdrawal that punishes without naming itself. You go quiet in a specific way she can feel. Not because you’re cooling down, but because you want her to know. Two days of distance between you that neither of you names. The sulk has no stated charge. She has to navigate it alone.</p>
+<p>The winning of the argument while losing the relationship. You’re right. She’s wrong. The point is scored. The marriage is slightly colder.</p>
+<p>None of this was decided. It was absorbed, the same way the rest of the blueprint was. The question the chapter title asks: are you leaving the fight the same size you were when it started?</p>
+<hr class="beat">
+<h2 class="beat-heading">The view from above.</h2>
+<p>Most fights are small.</p>
+<p>Marcus put a name on the practice: the view from above. <em>“Look down from above on the countless herds of men and their countless solemnities, and the infinitely varied voyagings in storms and calms, and the differences among those who are born, who live together, and die.”</em> (<em>Meditations</em> 9.30, Long trans.)</p>
+<p>The same movement in a fight: zoom out until the thing is at its actual scale. You are fighting about what time to get up in the morning, not world peace. You are fighting about a messy room, a tone of voice, something that didn’t get done. From altitude, most of what feels urgent in the moment becomes almost nothing.</p>
+<p>The couples who stay married for fifty years didn’t avoid fighting. They learned, over thousands of small fights, that most of them didn’t need a verdict. The fight about the dishes. The cold drive home. The two-day silence after something someone said on a Thursday. You can’t remember most of it. It didn’t need to be resolved. It needed grace and a little time.</p>
+<p>That’s one outcome. You let it go. The decision is genuine, not a suppression: it belongs in the category of things that don’t require a ruling. Let it be small. It is small.</p>
+<p>But some things won’t shrink from altitude. When you zoom out and the thing is still big, that’s the signal. Four places a fight ends up: you let it go; you fight hard, both take damage, and then time passes and you call it resolved without the real conversation; you fight hard, both take damage, and someone has the courage to come back; or you communicate, either in the moment or after you’ve cooled. Most couples never return to it later. That’s where the nails accumulate.</p>
+<hr class="beat">
+<h2 class="beat-heading">The courage to come back.</h2>
+<p>The Stoics called it <em>parrhesia</em>: frank speech. Seneca’s version of it, from a letter to his friend Lucilius: <em>“I prefer that my letters should be just what my conversation would be if you and I were sitting in one another’s company or taking walks together,—spontaneous and easy; for my letters have nothing strained or artificial about them.”</em> (<em>Epistulae Morales</em>, Letter 75, Gummere trans.) He was writing about letters. The principle is the same in a fight. Not arranged for effect. The true thing, said directly, without managing what comes back.</p>
+<p>When the Stoic husband comes back to the unresolved conversation, he waits until things are calm. He asks if they can talk. He says what is true for him, not as a prosecution, but because he doesn’t want to be the man who stores things instead of saying them. Because the environment two people create when nothing ever gets addressed leaks into everything else in the house. The kids feel it too.</p>
+<p>He says the true thing. Then he lets it land however it lands.</p>
+<p>Her response is hers. Whether she hears it the way he meant it, whether it produces the conversation he hoped for: all of that is a preferred indifferent. He doesn’t govern her response. He governs his engagement.</p>
+<p>Not everything resolves logically. She may tell you this directly, and she’ll be right. The Stoic husband has a framework built on reason. Marriage doesn’t operate purely in reason. She lives in a register he doesn’t always have full access to. Some misalignments won’t resolve cleanly. Some conversations will need to be had more than once.</p>
+<p>The courage to communicate includes the courage to leave something unresolved and come back to it again. Not because you need the win. Because you’re committed to the conversation regardless of how long it takes.</p>
+<hr class="beat">
+<p>Part I asked whether you can keep flowing when the rocks hit. Part II asks whether you can carry the weight over time. Steadily, without resentment, without disappearing. Everything you’ve built here is what makes it possible.</p>
+<hr class="beat"><figure class="plate"><img src="ch05-plate.png" width="640" height="486" alt=""></figure></section><section class="dist distback"><p class="kicker">Put it into practice</p><h1>Chapter 5 Distillation — How to Fight Without Becoming Small</h1><div class="rule"></div>
+<p class="runin"><strong>Mechanism:</strong> The Remaining Nails</p>
+<p class="runin"><strong>Conversation sentence:</strong> The fight ends before the real thing gets said. That’s not resolution. That’s how a man becomes small without deciding to.</p>
+<p>The default is to call a fight over before the real conversation happens: the Four D’s fire, the original concern gets buried, time passes, and both people call it resolved. Parrhesia, frank speech, is the Stoic practice of coming back to the unresolved thing, saying what’s true without managing the outcome, and releasing her response as a preferred indifferent.</p>
+<p class="runin"><strong>Lesson:</strong> <em>Parrhesia</em>: the Stoic discipline of speaking plainly, without dressing it up or managing how it lands. Whether she receives it the way you hoped is a preferred indifferent: something to want, not something you get to control.</p>
+<p class="runin"><strong>Challenge:</strong> Calling a fight “over” once it goes quiet, without the real thing ever actually getting said, isn’t resolution. It’s deferred conflict, with interest.</p>
+<h2>Practice</h2>
+<ol><li>Set a standing weekly check-in: fifteen minutes, no agenda but “is there anything sitting between us,” so small tension gets a scheduled outlet instead of waiting to become a fight or a permanent silence.</li><li>Pick one unresolved issue and go back to it: say what’s true, plainly, without managing how she reacts.</li><li>After speaking honestly, practice releasing the outcome. Her response is information, not a verdict on whether you did the right thing.</li></ol></section></body></html>

@@ -1,10 +1,11 @@
 ---
 id: 053
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 15:33
-applied_by: python3 tests/run.py
+retired_applied_by: python3 tests/run.py
+resolved: 2026-09-26 13:18
 ---
 
 # inbox.py's tests/run.py proof guard was widened from gw-retro-only to every filer without a ruling, after FINDINGS 2026-09-19 07:11 decided to stop hardening this lineage - and while a smaller guard of the same class (#052) was correctly deferred to you in the same commit. Measured, the widening refused legitimate filings (a deletion proof, any not-yet-applied proposal, even a proposal to remove itself) and was evaded by trivial rewrites ('cd tests && python3 run.py'). Reverted to gw-retro scope. Ratify that reversion, or should it be widened again in words this time?
@@ -20,3 +21,6 @@ Widened guard refused a legitimate deletion proof: --applied-by 'python3 tests/r
 ```
 
 **What unblocks this:** whether inbox.py's tests/run.py proof requirement is scoped to gw-retro (as it stood before this session) or applies to every filer
+
+
+**Resolution (2026-09-26 13:18):** Author: "Approved" to keeping the current gw-retro-only proof requirement and closing this policy question. The existing scope is retained. The former whole-suite applied_by is preserved as retired_applied_by because a passing test suite cannot establish an author policy ruling. Selected by exact filename because #053 is duplicated; the separate log-integrity item remains open.

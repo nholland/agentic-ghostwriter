@@ -1,10 +1,11 @@
 ---
 id: 045
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-19 15:00
-applied_by: grep -q 'runs/signals/' .claude/skills/gw-signal/SKILL.md && grep -q 'dispatch no' .claude/skills/gw-signal/SKILL.md && grep -q 'runs/signals/' skills/gw-signal/SKILL.md && python3 scripts/sync_plugin_layout.py --check
+applied_by: python3 scripts/sync_plugin_layout.py --check
+resolved: 2026-09-26 18:50
 ---
 
 # Should /gw-signal Step 0 become a stop condition - save the paste verbatim to runs/signals/, then grep its landmarks against the published chapter and refuse to dispatch a desk if they are not there?
@@ -20,3 +21,9 @@ wc -w on the drafted replacement -> 104; wc -w on the existing Step 0 -> 35; cor
 ```
 
 **What unblocks this:** Whether gw-signal/SKILL.md Step 0 is replaced with gw-retro's drafted 104-word version (net +69 corpus words, replacing the existing 35)
+
+**Resolution (2026-09-26 18:50):** Author approved the scoped intake replacement. Step 0 now preserves original feedback and source/version metadata, checks quotations and described passages without requiring literal paraphrase matches, pauses only uncertain affected edits, and routes matched feedback normally. Reviewed instruction text directly; mirror check confirms synchronization, not semantic behavior. No automated matcher added.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 scripts/sync_plugin_layout.py --check` exits 0.
+
+**Applied, confirmed 2026-09-26 18:50:** `python3 scripts/sync_plugin_layout.py --check` now exits 0.

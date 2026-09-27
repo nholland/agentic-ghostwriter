@@ -1,10 +1,12 @@
 ---
 id: 080
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 01:22
-applied_by: for f in inbox/075-*.md inbox/077-*.md; do grep -qE "^applied_by: *test -[def] [^ ]*$" "$f" && exit 1; done; exit 0
+retired_applied_by: for f in inbox/075-*.md inbox/077-*.md; do grep -qE "^applied_by: *test -[def] [^ ]*$" "$f" && exit 1; done; exit 0
+applied_by: python3 tests/manual_description_cases.py && python3 scripts/manual.py --check
+resolved: 2026-09-26 13:18
 ---
 
 # #075 and #077 both close on 'test -d' a directory that does not exist, so 'mkdir -p tests/fixtures/docstrings' closes #077 green while three rows of the published scripts table are still truncated mid-sentence. Should both be reissued with a proof that executes - #077's is already pasted inside #077 - rather than one satisfied by creating an empty directory?
@@ -20,3 +22,9 @@ grep '^applied_by:' inbox/075-*.md inbox/077-*.md -> 'test -d tests/fixtures/pla
 ```
 
 **What unblocks this:** Whether a gw-retro close-condition must run something, and whether #077 can be marked applied while land.py, toolcheck.py and ttfwidth.py still publish mid-sentence to readers
+
+**Resolution (2026-09-26 13:18):** Author: "Approved" to repairing the actual descriptions and their completion evidence. #077 now closes on executable description cases and manual freshness, not directory existence. #075 was already retired as superseded on the author’s prior approval; its obsolete directory check remains historical only. This closes the weak-proof cleanup without recreating obsolete #075 code. No new global evidence rule added. Validation limitation: python3 tests/run.py stops in the existing plate checker on missing /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf; no full-suite pass claimed.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/manual_description_cases.py && python3 scripts/manual.py --check` exits 0.
+
+**Applied, confirmed 2026-09-26 13:18:** `python3 tests/manual_description_cases.py && python3 scripts/manual.py --check` now exits 0.

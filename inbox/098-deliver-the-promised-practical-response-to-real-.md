@@ -28,3 +28,7 @@ This matters more than ordinary repetition. Paul has been promised that relinqui
 ```
 
 **What unblocks this:** Author approval of a later Ch6/Ch8 revision that fulfills Ch7's promise. Deferred; Chapter 13 can proceed.
+
+## Approved revision scope; exact proposal ready — 2026-09-27
+
+The author said “Approved” after the recommendation to prepare focused revisions. Exact proposed wording is in [the review packet](../runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md), with full chapter previews, a patch, and counted-check outputs. This implements the promised review-before-application step; proposed prose is not yet in the book. No cold desk review was performed.

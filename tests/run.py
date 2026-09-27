@@ -56,6 +56,8 @@ def package_cases():
         ("unrecognised-first-section.html", True,
          "#025: a classless, headingless first section defaulted to \"chapter\" "
          "instead of failing closed as unrecognised"),
+        ("working-notes-label.html", True,
+         "a reader-facing distillation must not be called working notes"),
         ("good.html", False, "chapter first, distillation last and labelled"),
     ]
     out = []
@@ -285,6 +287,9 @@ def okf_index_cases():
     concept. The second half of this matters more: 249 rows in the real index
     carry hand-written annotation that exists nowhere else, so --fix preserving
     a gloss and a shortened title is the property that makes it safe to run."""
+    if not os.path.isfile(os.path.join(REPO, "scripts", "okf_index.py")):
+        return [(False, "okf_index: a row whose status contradicts the concept is caught",
+                 "the reconciler must exist to detect a contradictory row", "source file absent")]
     out = []
     book, root = _fake_bundle()
     try:
@@ -479,6 +484,9 @@ def freshness_cases():
     Both are pinned here: a behind count reported, and UNVERIFIED said out loud
     when there is nothing to compare against."""
     import resolve_book, subprocess as sp
+    if not hasattr(resolve_book, "freshness"):
+        return [(False, "freshness: a checkout behind origin/main says how far",
+                 "the freshness function must exist to report a behind count", "function absent")]
     out = []
     tmp = tempfile.mkdtemp(prefix="gw-tests-fresh-")
     try:
@@ -899,11 +907,13 @@ def inbox_cases():
                     "a gw-retro proposal's proof command must survive into the item, not require --close to repeat it",
                     (rc2, carried)))
 
+        from okf_reconcile_cases import receipt
+        from pathlib import Path
         # --close with no --applied-by must fall back to what --add already
         # wrote, rather than silently dropping it (the exact miss that left
         # #033/#034 with no proof command on their closed items).
         if new_id:
-            rc3, out3 = run_raw("--close", str(int(new_id)), "--resolution", "fixture close")
+            rc3, out3 = run_raw("--close", str(int(new_id)), "--resolution", "fixture close", "--okf-receipt", receipt(Path(tmp), ["inbox:" + str(int(new_id)).zfill(3)]))
             text = open(glob.glob(os.path.join(idir, f"{new_id}-*.md"))[0]).read()
             out.append((rc3 == 0 and "applied_by: true" in text and "status: resolved" in text,
                         "inbox --close carries forward an item's own --applied-by",
@@ -921,7 +931,7 @@ def inbox_cases():
         bs_id = out_bs.strip().split("-> ")[-1].split("/")[-1].split("-")[0] if "-> " in out_bs else None
         rc_bs2, out_bs2 = (None, None)
         if bs_id:
-            rc_bs2, out_bs2 = run_raw("--close", str(int(bs_id)), "--resolution", "fixture close")
+            rc_bs2, out_bs2 = run_raw("--close", str(int(bs_id)), "--resolution", "fixture close", "--okf-receipt", receipt(Path(tmp), ["inbox:" + str(int(bs_id)).zfill(3)]))
         out.append((bs_id is not None and rc_bs2 == 0,
                     "inbox --close survives a backreference-shaped --applied-by",
                     "re.sub's replacement must be a function, not an f-string, or a sed-capture-group proof command crashes do_close outright",
@@ -1280,8 +1290,8 @@ def sys_path_hardcode_cases():
                              capture_output=True, text=True, check=True).stdout.split()
     offenders = []
     for f in tracked:
-        if f.startswith("tests/"):
-            continue
+        if f.startswith("tests/") or not os.path.isfile(os.path.join(REPO, f)):
+            continue  # ls-files includes tracked paths deleted in the working tree
         text = open(os.path.join(REPO, f)).read()
         for m in HARDCODED_SYS_PATH.finditer(text):
             offenders.append(f"{f}: {m.group(0)}")
@@ -1509,8 +1519,7 @@ def retro_window_cases():
                     "confirms retro-window, not retro-last-sha, is what must be read for the window",
                     naive_count))
 
-        # Three more watched-path commits should open a fresh window starting
-        # where the first one ended, not from session-start-sha again.
+        # Another dispatch must retain all work until review completion.
         _touch(4)
         _touch(5)
         _touch(6)
@@ -1519,9 +1528,9 @@ def retro_window_cases():
                             capture_output=True, text=True)
         window2 = (open(window_path).read().split()
                    if os.path.exists(window_path) else [])
-        out.append((r2.returncode == 2 and window2 == [head_sha, head2_sha],
-                    "second dispatch windows from the first dispatch's end",
-                    "a later session commit must open a fresh window starting at the prior HEAD, not session-start-sha",
+        out.append((r2.returncode == 2 and window2 == [start_sha, head2_sha],
+                    "second dispatch retains the unreviewed start",
+                    "a dispatch must not silently consume earlier work",
                     (r2.returncode, window2)))
 
         out.append((f"{start_sha}..{head_sha}" in r.stderr,
@@ -1535,7 +1544,14 @@ def retro_window_cases():
 
 def main():
     from draft_package_cases import draft_package_cases
-    rows = (draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    from manual_description_cases import manual_description_cases
+    from prove_inbox_duplicate import inbox_duplicate_cases
+    from prove_land_unrelated_main import land_ancestry_cases
+    from export_safety_cases import export_safety_cases
+    from prove_new_code_cases import prove_new_code_cases
+    from maintenance_batch_cases import maintenance_batch_cases
+    from okf_reconcile_cases import okf_reconcile_cases
+    rows = (okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()

@@ -1,10 +1,11 @@
 ---
 id: 071
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-20 22:05
-applied_by: grep -q retro_window.py .claude/agents/gw-retro.md
+applied_by: python3 tests/maintenance_batch_cases.py
+resolved: 2026-09-26 18:27
 ---
 
 # retro-window is never marked consumed, so a review dispatched by the Publisher rather than the Stop hook reads a window that was already reviewed. Today it named 4ea3575..980e502 - a span containing f7736f3, the retrospective OF that span - while this session's twelve commits sat outside it. Should scripts/retro_window.py become the single oracle, deriving the bounds as end..HEAD whenever the recorded window's end is not HEAD?
@@ -20,3 +21,9 @@ cat .claude/state/retro-window -> '4ea3575994dd9d1ad1523b6f844451fcb91d9743 980e
 ```
 
 **What unblocks this:** Whether the Archivist's bounds are computed or hand-carried, and whether gw-retro.md lines 24-31 drop from 103 words to 62
+
+**Resolution (2026-09-26 18:27):** Implemented the shared retro_window.py oracle and an explicit report-backed completion command. Manual and automatic reviews use the same range. Later HEAD does not consume pending work. Author-approved desk instruction replacement is mirrored.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/maintenance_batch_cases.py` exits 0.
+
+**Applied, confirmed 2026-09-26 18:27:** `python3 tests/maintenance_batch_cases.py` now exits 0.

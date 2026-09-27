@@ -2,7 +2,7 @@
 
 The question that woke me up in my own marriage came in a normal conversation, from a woman who wasn't angry, and it had the answer sitting inside it.
 
-Last year my wife and I hit twenty-four years married. We were talking about nothing in particular, and she asked when the last time was that I took her on a date.
+My wife and I were talking about nothing in particular, and she asked when the last time was that I took her on a date.
 
 It hit me like a ton of bricks, because she was right. I counted back. Close to five months, and I hadn't felt one of them go by. You've heard the same advice I have, that a couple should get out once a week. Nobody established that number. Being there is the part that counts.
 
@@ -56,9 +56,9 @@ Twenty years ago I took my wife on a short sightseeing flight over Nashville, an
 
 **What's still there.** Couples followed over the years don't usually come apart because the fighting starts. They come apart because the warmth stops, and it stops first in the couples who've been at it longest. Partners who feel appreciated tend to be more appreciative back, and the research only says they travel together.
 
-That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing, and starting again asks nobody's forgiveness.
+That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing. You can start again, and you may also owe her an apology.
 
-If you give her the bare minimum, the bare minimum is what comes back. That isn't her being petty. That's anyone who's been getting the leftovers long enough to stop expecting better.
+When you stop making an effort, she may stop expecting it from you.
 
 Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and the notebook is *Meditations*. In 4.24 he picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
 
