@@ -205,3 +205,59 @@ reread in full against the named changed lines, plus
 feedback and addendum files, the distillation, the plate reports. Not done: any
 audit of the round-3 counted block, any continuity sweep beyond Ch13's own text,
 inbox #106 and #107 rulings.
+
+---
+
+## Round 4 confirmation (2026-09-27)
+
+**Round 4: PASS**
+
+The turn lands the chapter's point now: "Duties are universally measured by
+relations" plus the suitor gloss turns the title's imperative into something a
+reader can act on, and conceding that Epictetus wrote about fathers and brothers
+disarms Eric's standing objection (`02-audience.md`, objection 4) that ancient
+philosophy is being stretched to fit a modern marriage rather than earning the
+fit — it also keeps the quoted words and the narrator's gloss visibly separate,
+which is the part his bullshit detector checks. The romance-bar recast costs
+nothing: "Nothing about it has to be grand" still carries the no-grand-gesture
+instruction, and it reads slightly plainer than the negation it replaced. One
+non-essential watch item, recorded rather than acted on: "duties" is ledger
+vocabulary and a defensive or exhausted reader (Paul) can hear obligation where
+the chapter means pursuit, so "Husband is a role you keep playing" and "that job
+stayed open" are now load-bearing against that misreading and should not be
+trimmed for length in a later pass.
+
+**Scope of this round:** the turn paragraph (L19 of `runs/ch13/refined.md`)
+reread in the context of the full prose above Editor's Notes, plus the round-4
+Editor's Notes and `books/the-stoic-husband/02-audience.md`. Not reread: Ch12
+prose, the outline, the feedback and addendum files, the distillation, the plate
+reports. Not done: any verification of the Enchiridion 30 wording, translation or
+citation status against a text (the Fact-Checker's and the author's; #106 stays
+open at `verifiable`); any audit of the round-4 counted block; any continuity
+sweep beyond Ch13's own text.
+
+---
+
+## Round 5 confirmation (2026-09-27)
+
+**Round 5: PASS**
+
+Dropping the re-introduction is right — Ch12 gives Epictetus his biography, and L19
+still names the man and the book, so the days-apart reader is not stranded by a bare
+callback. The defensive reader survives both cuts: "Husband is a role you keep
+playing, not a title you won once," "keep being her husband" and "that job stayed
+open" now carry the ongoing-election idea alone, and losing "what you owe comes from
+the relation" actually reduces the ledger vocabulary round 4 flagged as Paul's
+misreading risk. Margin in the her-side section is now at its thinnest — "You still
+love her" (L17), the role sentences, and "She can ask. She shouldn't have to ask for
+everything" are the whole defence, and none of the three may be trimmed for length in
+a later pass.
+
+**Scope of this round:** L19 of `runs/ch13/refined.md` reread in the context of the
+full prose above Editor's Notes, plus
+`books/the-stoic-husband/chapters/ch12/refined.md` (for the Epictetus introduction)
+and `books/the-stoic-husband/02-audience.md`. Not reread: the outline, the feedback
+and addendum files, the distillation, the plate reports, the round-5 Editor's Notes.
+Not done: any verification of the Enchiridion 30 wording or citation status (#106
+stays open at `verifiable`); any audit of any counted block; any continuity sweep
+beyond Ch12↔Ch13.

@@ -16,7 +16,7 @@ Marriage lets you relax, and that's a good thing. You can sit quietly without wo
 
 So you worked to win her, then treated the wedding as proof the work was finished. You still love her. You may have quietly stopped spending any thought on her.
 
-Epictetus was a Stoic teacher who had once been a slave, and he taught nineteen hundred years ago. His short book of rules for living is called the Handbook, or the *Enchiridion*. One of those rules: "Duties are universally measured by relations." What you owe comes from the relation you're standing in. He was writing about fathers and brothers. The shape of it still fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. A choice isn't something you made once. It's something you either keep making or quietly stop making. Loving her on your wedding day cost you nothing the following spring. Choosing her this Saturday costs you an afternoon, and an afternoon is the version she can see.
+Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are universally measured by relations." (*Enchiridion* 30, Long trans.) He was writing about fathers and brothers, but the shape fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. Loving her on your wedding day cost you nothing the following spring. Choosing her this Saturday costs you an afternoon, and an afternoon is the version she can see.
 
 ---
 
@@ -89,6 +89,8 @@ Tsapelas, Aron and Orbuch published a 2009 analysis of couples followed for sixt
 Put the phone down, and give her the evening you came to share.
 
 ## Editor's Notes
+
+- **Round 5 (Publisher, 2026-09-27, author's word "I think Epictetus was already introduced earlier"):** turn paragraph no longer re-introduces Epictetus (Ch12 L29 already does); translator credited as in Ch12; cut "What you owe comes from the relation you're standing in" (near-verbatim of Ch10's gloss) and the choice sentence (the author's role/title line now carries the outline principle, and the two restated each other three sentences apart). Negated reframes: 1.
 
 Revised 2026-09-27 (round 1 of 2) against `author-feedback-2026-09-24.md`,
 `research-addendum-2026-09-24.md`, and the two FAIL reviews
