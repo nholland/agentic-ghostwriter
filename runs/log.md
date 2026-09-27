@@ -3238,3 +3238,11 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/reconciliation/2026-09-27-jev-platform-research.json`
 
 **Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-27 16:31 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
+- `books/the-stoic-husband/parking-lot.md`
+- `runs/qa/2026-09-27-jev-meaning-preservation-design.md`
+- `runs/qa/2026-09-27-jev-meaning-preservation-request.json`
+- `runs/reconciliation/2026-09-27-jev-exploration-design.json`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
