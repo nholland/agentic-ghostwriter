@@ -50,7 +50,7 @@ Two philosophers, one point, coming at you from two directions on purpose: the f
 
 Which brings the last chapter's closing arithmetic back around. Give sixty, expect forty. Not because the math is fair, but because expecting less means you aren't the one keeping a quiet count in the first place. Genuinely grateful for what your wife carries, most of which you cannot see, you're not the man who wakes up feeling shortchanged.
 
-One more kind of unfairness runs underneath all of this. It isn't about labor or money or recognition. It's about temperament, how much of the emotional room in the house one of you takes up at any given moment. The next chapter takes that one on.
+The next chapter looks at what happens when you stay quiet and expect something back.
 
 Keep gratitude standing in the doorway, and nothing quiet ever gets the chance to build a case against her.
 

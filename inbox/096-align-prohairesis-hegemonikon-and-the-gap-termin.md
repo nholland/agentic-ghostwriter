@@ -1,9 +1,10 @@
 ---
 id: 096
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 4
 opened: 2026-09-23 06:53
+resolved: 2026-09-26 21:41
 ---
 
 # Align prohairesis, hegemonikon, and the gap terminology in earlier chapters?
@@ -24,3 +25,5 @@ Exact additional drift: Ch6 line 47, “It closes the gap instead of arguing abo
 ```
 
 **What unblocks this:** Author approval of consistent labels and the local Ch4/Ch6 edits. Deferred; Chapter 13 can proceed.
+
+**Resolution (2026-09-26 21:41):** Author Approved the two exact replacements. Chapter 4 now uses Your capacity to choose; Chapter 6 uses It lets you help each other instead of arguing about who did more. Source diff verified; counted voice checks pass. Evidence: runs/qa/2026-09-26-inbox-096-097-100-approved-edits.md.

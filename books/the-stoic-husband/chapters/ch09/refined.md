@@ -48,7 +48,7 @@ So run the same four questions Chapter 1 already gave you. Is this actually wort
 
 The logical part is the check on whether it's real and now. The brave part is being willing to risk the stability to say it anyway. The self-controlled part is the discipline to name the small things before they pile up. It's also knowing when not to raise a fuss about nothing. The kind part is the delivery. That last one is what keeps this from turning into permission to complain. Restraint means choosing what's worth saying, and saying it well.
 
-Chapter 8 already showed you what happens when the calmer person in a marriage never says what they think. The louder, more reactive person wins by default, every time. Staying calm was never supposed to mean staying silent.
+If you keep your concerns to yourself, the decisions can end up reflecting only what she has said. Staying calm was never supposed to mean staying silent.
 
 ---
 

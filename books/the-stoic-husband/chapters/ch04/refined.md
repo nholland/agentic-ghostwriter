@@ -56,7 +56,7 @@ When you turn off your logic and lash out, the system aims at the nearest target
 
 Seneca's *De Ira*, his study of anger, described what happens at the moment of activation in three stages. The first is involuntary: "a preparation for passion, as it were, and a sort of menace." The flush, the narrowing, the physiological response that arrives before any choice. The second stage is a choice: whether you decide the response is justified. The third stage is when reason has already been overtaken. (*De Ira*, Book II, trans. Basore.)
 
-The gap between the first stage and the second is where everything lives. That's where your *prohairesis* lives. The governing faculty. The part of you that chooses before you react. Chapter 1 named that gap. Three seconds. This is what those three seconds are for.
+The gap between the first stage and the second is where everything lives. That's where your *prohairesis* lives. Your capacity to choose. The part of you that chooses before you react. Chapter 1 named that gap. Three seconds. This is what those three seconds are for.
 
 Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He wasn't describing an achievement. He was writing to himself, leading an army through a war he didn't choose, about what actual strength looks like.
 
@@ -94,7 +94,7 @@ You don't know which cigarette gave someone the diagnosis. Nobody does. The lear
 
 Stop making holes.
 
-What's already in the fence is Chapter 16's work. This chapter's job is simpler: name the gap. Know what it's for.
+What's already in the fence is the work of the chapter on repair. This chapter's job is simpler: name the gap. Know what it's for.
 
 You feel the activation. The spike, the narrowing, the pull. You're not pretending it isn't happening. Seneca knew the first motion can't be stopped. You're not trying to stop it.
 
