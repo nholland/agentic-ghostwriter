@@ -1,9 +1,12 @@
 ---
 id: 107
-status: open
+status: ruled
 raised_by: gw-slopreader
 chapter: 13
 opened: 2026-09-27 20:21
+resolved: 2026-09-27 21:21
+applied_by: python3 scripts/next.py | grep -qE 'ch13 (verdict|shipped)'
+okf_receipt: runs/reconciliation/2026-09-27-inbox-107.json
 ---
 
 # Chapter 13 failed its continuity review twice. Allow one more Line Editor round for three one-sentence fixes?
@@ -19,3 +22,7 @@ runs/ch13/coherence-refined.md (round 2) N1-N3, M2; runs/ch13/persona-refined.md
 ```
 
 **What unblocks this:** a third revision round on Ch13, or your own edit
+
+**Resolution (2026-09-27 21:21):** Yes
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 scripts/next.py | grep -qE 'ch13 (verdict|shipped)'` exits 0.
