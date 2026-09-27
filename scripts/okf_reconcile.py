@@ -3,8 +3,8 @@
 
 Use --write PATH --subject inbox:094 --disposition updated --concept PATH
 --file PATH --authority TEXT --reason TEXT. Repeat subjects, files and concepts.
---check checks book Markdown and interview records changed since the upstream
-(or main for a new branch), including committed, staged and untracked work.
+--check checks book Markdown and interview records changed since the merge-base
+with main, including committed, staged and untracked work.
 """
 import argparse
 import hashlib
@@ -86,9 +86,14 @@ def git(root, *args):
 
 def changed(root, since=None):
     if not since:
-        for ref in ('@{upstream}', 'origin/main', 'main'):
+        # What this branch would bring to main: diff from the merge-base with
+        # main. The branch's upstream was the first choice until 2026-09-27; a
+        # branch whose last push predated a merge of main then inherited every
+        # book edit main had made, and could neither push nor land.
+        for ref in ('origin/main', 'main', '@{upstream}'):
             try:
-                since = git(root, 'rev-parse', '--verify', ref).strip()
+                git(root, 'rev-parse', '--verify', ref)
+                since = git(root, 'merge-base', 'HEAD', ref).strip()
                 break
             except ValueError:
                 continue
