@@ -1,9 +1,12 @@
 ---
 id: 105
-status: open
+status: resolved
 raised_by: gw-slopreader
 chapter: 13
 opened: 2026-09-27 20:11
+resolved: 2026-09-27 22:18
+applied_by: grep -q 'Word count target:\*\* 1,500–1,800' books/the-stoic-husband/03-outline.md
+okf_receipt: runs/reconciliation/2026-09-27-inbox-105.json
 ---
 
 # Chapter 13's outline entry still prescribes the bridge you told me to cut, and a 1,000-1,300 word target you asked to exceed. Rewrite both?
@@ -19,3 +22,9 @@ python3 scripts/voice_check.py runs/ch13/refined.md -> '1501 words of prose, 124
 ```
 
 **What unblocks this:** 03-outline.md Ch13 transition and word target match your 9/24 ruling
+
+**Resolution (2026-09-27 22:18):** I'm good with the updates to the outline.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `grep -q 'Word count target:\*\* 1,500–1,800' books/the-stoic-husband/03-outline.md` exits 0.
+
+**Applied, confirmed 2026-09-27 22:18:** `grep -q 'Word count target:\*\* 1,500–1,800' books/the-stoic-husband/03-outline.md` now exits 0.

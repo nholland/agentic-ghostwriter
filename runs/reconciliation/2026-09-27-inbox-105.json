@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-27T22:18:00.187388+00:00",
+  "subjects": [
+    "inbox:105"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-09-27 session: \"I'm good with the updates to the outline\"",
+  "reason": "Outline Ch13 transition and word target only; no OKF concept records either.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "90081e3aea36256396188c59854a6bb39dcd95c79006dcd54094f2e63dc0387e"
+  }
+}
