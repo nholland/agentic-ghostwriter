@@ -1,9 +1,10 @@
 ---
 id: 094
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-09-23 06:53
+resolved: 2026-09-27 12:19
 ---
 
 # Align the author marriage timeline across the Prologue, Chapter 1, Chapter 12, and premise?
@@ -31,3 +32,13 @@ Prologue: “We're over thirty years in,” later “over thirty years.” Chapt
 ```
 
 **What unblocks this:** Author confirmation of chronology, followed by separately authorized corrections. Deferred; Chapter 13 can proceed.
+
+## Author confirmation — 2026-09-27 12:16
+
+> Best friends in 6th grade, 1991. Dating in 10th grade, 1995. Married in 2003.
+>
+> Approved
+
+Use fixed years; thirty-plus years refers to dating, not marriage. The date of the Chapter 12 conversation was not supplied; remove its unsupported anniversary framing rather than invent a replacement date.
+
+**Resolution (2026-09-27 12:19):** Author confirmed best friends in sixth grade in 1991, dating in tenth grade in 1995, and married in 2003, followed by Approved. Aligned Prologue, Ch1, Ch12, premise, and the voice biographical note using fixed years. Removed unsupported anniversary framing from the Ch12 scene rather than inventing its date. All exact replacements reviewed. Evidence and inherited voice-density failures: runs/qa/2026-09-27-inbox-094-chronology.md.

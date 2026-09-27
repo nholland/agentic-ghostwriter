@@ -2,7 +2,7 @@
 
 The question that woke me up in my own marriage came in a normal conversation, from a woman who wasn't angry, and it had the answer sitting inside it.
 
-Last year my wife and I hit twenty-four years married. We were talking about nothing in particular, and she asked when the last time was that I took her on a date.
+My wife and I were talking about nothing in particular, and she asked when the last time was that I took her on a date.
 
 It hit me like a ton of bricks, because she was right. I counted back. Close to five months, and I hadn't felt one of them go by. You've heard the same advice I have, that a couple should get out once a week. Nobody established that number. Being there is the part that counts.
 
