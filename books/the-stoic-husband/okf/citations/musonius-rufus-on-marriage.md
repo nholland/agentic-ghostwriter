@@ -9,14 +9,14 @@ description: >
 resource: https://sites.google.com/site/thestoiclife/the_teachers/musonius-rufus/lectures
 status: verifiable
 quote_form: paraphrase
-evidence_source: database-abstract
+evidence_source: page-text
 verification_note: >
-  Real primary source — Lectures III, IV, XIII, XIV. Researcher agents should
-  fetch and extract direct quotes (the most vivid quotes on marriage as
-  community of life and mutual devotion) for use as primary-source quotes,
-  not paraphrase.
+  Lecture XIIIA in Lutz translation read on the source page 2026-09-27.
+  Supports mutual companionship through health and sickness and reciprocal
+  devotion; paraphrase only because Lutz is not the house's public-domain
+  quotation standard. Author has not verified against a physical copy.
 tags: [citation, musonius-rufus, primary-source]
-chapter_slugs: [duty-without-resentment, the-end-of-scorekeeping, the-marriage-you-build-every-day, friendship-is-the-hidden-engine]
+chapter_slugs: [duty-without-resentment, the-end-of-scorekeeping, the-discipline-of-enough, the-marriage-you-build-every-day, friendship-is-the-hidden-engine]
 timestamp: 2026-06-02T00:00:00Z
 ---
 
@@ -29,9 +29,9 @@ He insists virtue and reason belong to women no less than men.
 
 # Status
 
-**Verifiable.** Real primary source — Lectures III, IV, XIII, XIV, available at
-the resource URL above. Researcher agents should fetch and extract direct
-quotes before use as primary-source material.
+**Verifiable.** Lecture XIIIA was read from the source page on 2026-09-27.
+Use its marriage teaching in paraphrase; Lutz's translation is not the
+house's public-domain quotation standard.
 
 # Used By
 

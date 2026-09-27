@@ -54,14 +54,20 @@ need to maintain your health.” He wants the man to examine unreasonable
 expectations of beauty and of other partner traits (cooking, humor, income)
 while continuing to love the real, changing person. He names his wife as his
 example and says, “She is enough for me.” Her personal details are recorded
-as private source material in [the author story](/stories/the-wife-who-is-enough.md).
+in [the author story](/stories/the-wife-who-is-enough.md), now authorized by
+him for use subject to his review.
 
 The author's favored phrase is “The grass is really greener where you water
-it.” Its use as a chapter line is not yet settled. Research questions about
-infidelity, media-shaped expectations, and changes in attraction remain open;
+it.” Its use as a chapter line is not yet settled. He says the boundary
+between contentment and a concern worth raising is a tension for the chapter,
+requiring wisdom rather than a fixed rule; he does not claim to know the clear
+line. His view that aging, weight gain, and loss of income are “preferred
+indifferents” is provisional, pending the Stoic research pass. Research
+questions about infidelity, media-shaped expectations, and changes in
+attraction remain open;
 none is established by this interview. The earlier work-trip example is not
-an author memory. The interview must settle disclosure and how to discuss
-real unmet needs before research handoff.
+an author memory. The interview must settle how to discuss real unmet needs
+before research handoff.
 
 1. **The treadmill, applied to one specific marriage.** Courtship-era
    intensity was never purely "her" — it ran substantially on novelty and

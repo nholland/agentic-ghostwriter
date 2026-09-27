@@ -924,3 +924,5 @@ Captured author instruction verbatim in an Author Note and indexed it. Earlier r
 - 2026-09-27 17:01: Extended /notes/2026-09-22-ch13-sun-arc-warmth.md to Chapter 14 on the author's direct instruction: the Sun arc concerns how a man should love. Recorded opening interview verbatim; interview remains incomplete, and the outline's work-trip story remains unconfirmed.
 
 - 2026-09-27 17:13: Captured Chapter 14 author's new direction in /frameworks/the-discipline-of-enough.md and private wife testimony in /stories/the-wife-who-is-enough.md. Registered two unverified research gaps on attraction/body change and media-shaped expectations. Interview and disclosure remain open.
+
+- 2026-09-27 17:20: Recorded Chapter 14 author ruling that the health/contentment line requires wisdom, not a simple formula; author approved use of his wife details subject to review. Added Seneca Letters 92 and 104 as page-text source findings; added Ch14 relevance to Musonius XIII and Epictetus Enchiridion 30. Research remains targeted and interview open.

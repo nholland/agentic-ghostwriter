@@ -4,7 +4,7 @@ title: The Wife Who Is Enough
 description: Author's concrete account of loving his wife as her body, work, and habits change.
 provenance: Direct author testimony in Chapter 14 interview, 2026-09-27 17:13; runs/ch14/interview.md. Disclosure not yet discussed.
 ip: author
-disclosure: private
+disclosure: identified
 tags: [contentment, aging, affection, changing-partners]
 chapter_slugs: [the-discipline-of-enough]
 timestamp: 2026-09-27T17:13:00-05:00
@@ -23,10 +23,11 @@ taken a sabbatical to be a full-time mother. She has a “wicked green thumb.”
 
 # Disclosure
 
-**Private source material.** The wife has not approved these details for
-publication in this interview. Ask what may be used, especially the gray hair
-preference, trash retrieval, and career change. Do not treat these details as
-a composite or invent dialogue.
+The author authorized use of all details recorded here in the Chapter 14
+interview on 2026-09-27, with the understanding that he may remove any that
+read oddly during review. This is the author's publication permission; it is
+not a claim of the wife's approval. Do not treat these details as a composite
+or invent dialogue.
 
 # Related
 

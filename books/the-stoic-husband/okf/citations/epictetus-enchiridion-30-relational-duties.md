@@ -32,7 +32,7 @@ verification_note: >
   Rule 11).
 ip: external
 tags: [citation, epictetus, boundaries, in-laws, family-of-origin, primary-source]
-chapter_slugs: [boundaries-are-strength]
+chapter_slugs: [boundaries-are-strength, the-discipline-of-enough]
 timestamp: 2026-08-17T00:00:00Z
 ---
 

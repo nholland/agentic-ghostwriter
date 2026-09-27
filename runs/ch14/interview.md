@@ -84,3 +84,23 @@ dearly. No friend's story or outcome was specified; do not invent one.
   fictional scenario; it is not an author memory.
 - One respectful pushback on the received “grass is greener” line and the
   possible leap from contentment to “love everything.”
+
+## Round 3: author ruling and research commission, 2026-09-27 17:20
+
+Author answered the tension question:
+
+> I think it's a good tension to call out in the chapter, and I don't know the clear line, it takes using the wisdom virtue to understand which one is Worth creating an issue.
+
+He asked for research on what the Stoics would say. His provisional view, not
+a confirmed Stoic teaching:
+
+> My guess is that it's not really a problem if your spouse gains weight, grows old, stops making money. Those are all preferred in differences.
+
+He authorized use of the details about his wife now and reserved the right to
+remove any that read oddly:
+
+> You can use any of those things about my wife right now, I will pull those out if they come across oddly.
+
+The health/contentment line remains a live chapter tension, not a formula the
+house may invent. The author assigned judgment to wisdom but has not supplied
+a specific test for which concern warrants conversation.
