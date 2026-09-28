@@ -260,6 +260,10 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Seneca Letter 104 — Caring for Health for Paulina's Sake](/citations/seneca-letter-104-health-for-paulina.md) — status: verifiable; Ch14 self-care as love.
 - [Appearance Change, Attraction, and Long Marriage](/citations/ch14-appearance-change-and-attraction.md) — status: unverified; Ch14 research gap, no causal infidelity claim.
 - [Pornography, Romance Media, and Partner Expectations](/citations/ch14-pornography-romance-media-expectations.md) — status: unverified; Ch14 research gap.
+- [Rodriguez, Hadden & Knee (2015) — Intrinsic and Extrinsic Partner Ideals](/citations/rodriguez-hadden-knee-2015-intrinsic-extrinsic-ideals.md) — status: verifiable; Ch14 standards evidence, abstract read.
+- [Buyukcan-Tetik et al. (2017) — Partner Ideals, Acceptance, and Satisfaction](/citations/buyukcan-tetik-2017-ideal-standards-acceptance.md) — status: verifiable; Ch14 ideals evidence, full paper read.
+- [Kubacka et al. (2011) — Gratitude and Relationship Maintenance](/citations/kubacka-et-al-2011-gratitude-maintenance.md) — status: verifiable; Ch14 maintenance evidence, abstract read.
+- [Rossman, Lerner & Córdova (2022) — Partner and Felt Acceptance](/citations/rossman-lerner-cordova-2022-partner-felt-acceptance.md) — status: verifiable; Ch14 acceptance evidence, abstract read.
 
 ## Signals
 
