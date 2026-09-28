@@ -15,3 +15,9 @@ bakeoff/**/.sealed.json
 .claude/state/retro-last-sha
 .claude/state/retro-window
 .claude/state/retro-done-*
+
+# Shared local writer ownership, not production artifacts.
+.claude/state/runtime.lock
+.claude/state/runtime-owner.json
+.claude/state/runtime-session.json
+.claude/state/runtime-hook.lock

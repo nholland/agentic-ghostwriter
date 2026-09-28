@@ -171,13 +171,13 @@ footer code{font-size:.8em}
 <div><b>20</b><span>commands, though you only need one</span></div>
 <div><b>1</b><span>door to remember: <code>/gw</code></span></div>
 </div>
-<p class="lede" style="margin-top:1.4rem">A book production house that runs on Claude Code. You are the expert the house recruited. You talk to the Publisher; the Publisher runs the desks. Every desk is either someone in the room with you, a cold sub-agent that never saw the conversation, or a script that cannot be talked past.</p>
+<p class="lede" style="margin-top:1.4rem">A book production house that runs on Claude Code or Codex, in the same project. You are the expert the house recruited. You talk to the Publisher; the Publisher runs the desks. Every desk is either someone in the room with you, a cold sub-agent that never saw the conversation, or a script that cannot be talked past.</p>
 <div class="legend"><span class="who author">You</span><span>in the room</span><span class="who cold">Cold desk</span><span>a sub-agent that never saw the conversation</span><span class="who script">Script</span><span>counts, checks, refuses; cannot be persuaded</span></div></header>
 <section id="start"><div class="eyebrow">Section 1</div><h2>Start here</h2>
 <ol class="start">
-<li><div><b>Open a session on the engine repo</b><p>Pick <b>agentic-ghostwriter</b> as the repository. The start hook prints the real clock, the book it resolved, and the board.</p></div></li>
+<li><div><b>Open a session on the engine repo</b><p>Pick <b>agentic-ghostwriter</b> as the repository. The start hook prints the real clock, the book it resolved, and the board. Both runtimes resume the shared handoff; stop active desks before switching.</p></div></li>
 <li><div><b>The book is already here</b><p>Since 2026-09-18 the book lives in this repository, under <code>books/</code>, with <code>book-manifest.json</code> as its registry. <code>resolve_book.py</code> verifies it every session start and stops everything if it is not intact.</p></div></li>
-<li><div><b>Say <code>/gw</code></b><p>One door. On its own it shows what is next and what is waiting on you. With words after it, the Publisher reads what you mean. Nothing here needs remembering: when a phrase matters, the menu says it at that moment.</p></div></li>
+<li><div><b>Say <code>/gw</code> in Claude or <code>$gw</code> in Codex</b><p>One door. On its own it shows what is next and what is waiting on you. With words after it, the Publisher reads what you mean. Nothing here needs remembering: when a phrase matters, the menu says it at that moment.</p></div></li>
 </ol>
 <p class="note">This page describes the system. It deliberately carries no inbox count and no chapter progress: those are stale the moment they are written, which is the defect this page is generated to avoid. Say <code>/gw</code> for live state.</p></section>
 <section id="flow"><div class="eyebrow">Section 2</div><h2>How a chapter moves</h2><p>Seven stages. Tap one to see who runs it and what stops it. You are needed at two of them; everything between runs cold.</p>
@@ -551,6 +551,8 @@ footer code{font-size:.8em}
 <tr><td><code>chapter_pdf_local.py</code></td><td>Render a chapter to PDF with headless Chromium.</td></tr>
 <tr><td><code>citation_queue.py</code></td><td>Regenerate the citation verification queue from the OKF citation ledger.</td></tr>
 <tr><td><code>citations.py</code></td><td>where every citation stands, and which chapters carry open ones.</td></tr>
+<tr><td><code>codex_layout.py</code></td><td>Generate Codex adapters from canonical .claude instructions.</td></tr>
+<tr><td><code>cold_review.py</code></td><td>Fresh conformance review with only two supplied text artifacts.</td></tr>
 <tr><td><code>compile.py</code></td><td>assemble a reader-facing manuscript, and check what it produced.</td></tr>
 <tr><td><code>compile_current.py</code></td><td>Publish the current chapter and collection PDFs, replacing stable filenames.</td></tr>
 <tr><td><code>inbox.py</code></td><td>the exceptions inbox: everything waiting on the author, in one place.</td></tr>
@@ -572,6 +574,8 @@ footer code{font-size:.8em}
 <tr><td><code>practice_sync.py</code></td><td>prove the practice guide still quotes the distillations.</td></tr>
 <tr><td><code>resolve_book.py</code></td><td>find the book repo at runtime, or fail loudly.</td></tr>
 <tr><td><code>retro_window.py</code></td><td>Resolve pending review bounds; dispatch is not completion.</td></tr>
+<tr><td><code>runtime_handoff.py</code></td><td>One durable checkpoint and one active writer for both house runtimes.</td></tr>
+<tr><td><code>runtime_hook.py</code></td><td>Translate runtime hook events into the same house lifecycle scripts.</td></tr>
 <tr><td><code>session_log.py</code></td><td>mechanical session memory.</td></tr>
 <tr><td><code>sync.py</code></td><td>the git mechanics, done the same way every time, and named out loud.</td></tr>
 <tr><td><code>sync_plugin_layout.py</code></td><td>mirror .claude/ into the plugin-root layout.</td></tr>
@@ -730,4 +734,4 @@ footer code{font-size:.8em}
   paint();
 })();
 </script>
-<!-- inputs-digest: 8cdee3c609d257f6 -->
+<!-- inputs-digest: aab89d8da9879e0c -->

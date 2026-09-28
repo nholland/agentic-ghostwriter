@@ -1,4 +1,5 @@
 ---
+name: gw-inbox
 description: Show what is waiting on the author and take his answers, closing each item with the ruling recorded. Use when he wants to clear decisions the cold desks could not make.
 ---
 

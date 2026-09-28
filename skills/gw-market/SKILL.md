@@ -1,4 +1,5 @@
 ---
+name: gw-market
 description: The Publicist desk identifies a refined chapter's publishable concepts and drafts Substack posts and social teasers from them. Drafts only - nothing is ever posted. Use after a chapter is refined.
 ---
 

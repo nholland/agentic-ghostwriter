@@ -1,4 +1,5 @@
 ---
+name: gw-interview
 description: The Developmental Editor desk interviews the author about a chapter and writes the interview record that the Researcher builds the brief from. Runs in session with the author, never as a sub-agent. Use before any drafting of a chapter.
 ---
 

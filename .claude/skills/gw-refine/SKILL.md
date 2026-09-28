@@ -1,4 +1,5 @@
 ---
+name: gw-refine
 description: The Line Editor desk refines a cold draft into finished prose plus a distillation, gated by the counted voice script and the clean-room conformance checker. Writes into this repo's runs/ tree only. Use after /gw-draft for the shadow run of a chapter.
 ---
 

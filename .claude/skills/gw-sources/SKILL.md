@@ -1,4 +1,5 @@
 ---
+name: gw-sources
 description: The Researcher ingests raw source material into typed OKF concepts - frameworks, stories, citations. Raw intake stays raw; curation is proposed, not written. Run before chapter work and whenever new material arrives.
 ---
 

@@ -1,0 +1,9 @@
+# House runtime defaults; desktop session overrides may take precedence.
+model = "gpt-6-astra"
+model_reasoning_effort = "low"
+
+[agents]
+enabled = true
+default_subagent_model = "gpt-6-astra"
+default_subagent_reasoning_effort = "low"
+max_concurrent_threads_per_session = 3

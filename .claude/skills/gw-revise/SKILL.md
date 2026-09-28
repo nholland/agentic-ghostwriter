@@ -1,4 +1,5 @@
 ---
+name: gw-revise
 description: Revisit a locked foundation artifact - premise, voice, audience, outline, archetype, framework, sources - with the author, in session. Shows the diff, applies it on his word as its own commit, and moves the engine's mirrored threshold in the same commit.
 ---
 
