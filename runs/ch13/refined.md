@@ -12,11 +12,11 @@ You made time for her both nights, and that counts for something. What she wante
 
 **When the effort changed.** Think about how you acted when you were still hoping she'd say yes to another date. You paid attention to what she enjoyed. You remembered the story about her friend. You brought her something she'd mentioned liking once, and you found places you thought she'd want to go.
 
-Marriage lets you relax, and that's a good thing. You can sit quietly without wondering whether she's losing interest. You know you'll see her tomorrow. That security is a good part of the life you built. It can also make effort feel optional, until you're giving her less than you gave a woman you weren't sure would stay.
+Marriage lets you relax, and that's a good thing. You can sit quietly without wondering whether she's losing interest. You know you'll see her tomorrow. That security is a good part of the life you built. It can also make effort feel optional, until you're giving her less than you gave her back when you weren't sure she'd stay.
 
 So you worked to win her, then treated the wedding as proof the work was finished. You still love her. You may have quietly stopped spending any thought on her.
 
-Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are universally measured by relations." (*Enchiridion* 30, Long trans.) He was writing about fathers and brothers, but the shape fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. Loving her on your wedding day cost you nothing the following spring. Choosing her this Saturday costs you an afternoon, and an afternoon is the version she can see.
+Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are universally measured by relations." (*Enchiridion* 30, Long trans.) He was writing about fathers and brothers, but the shape fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. Saying you loved her on your wedding day was easy. Showing it the following spring took something. Choosing her this Saturday costs you an afternoon, and that afternoon is what she actually sees of your choosing.
 
 ---
 
@@ -34,7 +34,7 @@ She's changed across the years you spent in the same house. You've changed too. 
 
 ---
 
-**What it looks like from her side.** When the effort stops, she usually decides she's been accounted for. She's the one who'll be there, so she isn't the one who gets planned around. The plain word for that is being taken for granted, and it feels less like a fight than like being furniture in her own marriage: known, needed, walked past.
+**What it looks like from her side.** When the effort stops, she can tell you've stopped planning for her. She's the one who'll always be there, so she's the one who gets left out of your thinking. The plain word for that is being taken for granted, and it feels less like a fight than like being furniture in her own marriage: known, needed, walked past.
 
 She stops mentioning what she wants, because bringing it up twice was already more than she wanted to do. She organizes her own birthday. She says "whatever you want" because choosing got her nowhere the last three times. She never announces any of it. You end up with a wife who has gotten used to asking for less.
 
@@ -60,13 +60,13 @@ You already know the ordinary work of your house. The dishes are visible. Her ca
 
 You won't guess right every time. She may want to handle something you thought you were rescuing her from. Let her tell you. Taking initiative means being willing to notice and learn. You don't know her business better than she does. When she does ask, say yes generously. She can ask. She shouldn't have to ask for everything.
 
-Gifts run on the same attention. Once the money is shared, a present from the joint account can feel pointless. She could have bought it herself. You were telling her she was on your mind while she wasn't in the room.
+Gifts run on the same attention. Once the money is shared, a present from the joint account can feel pointless. She could have bought it herself. What the gift tells her is that she was on your mind while she wasn't in the room.
 
 She pointed out a book weeks ago. She loves a particular pastry and never stops for one. You heard her, you thought of it on a Friday, and you brought it home. A note left where she'll find it does the same work and costs nothing.
 
 ---
 
-**Keep romance off the schedule.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening; this is wider than that. If you have to count back through months to find one, you've found your starting place.
+**Keep romance off the schedule.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening. Romance is bigger than that. If you have to count back through months to find one, you've found your starting place.
 
 Romance in your marriage might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. The bar is knowing her well enough that an ordinary gesture is unmistakably hers. Nothing about it has to be grand.
 
@@ -80,15 +80,17 @@ Some years are crowded and hard. You may both be too tired to plan anything, and
 
 **Don't let knowing her end your learning about her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. You don't have to manufacture excitement every week. You do have to leave room for the woman beside you to surprise you.
 
-In Letter 58 of his letters to his friend Lucilius, the Roman Stoic Seneca borrows an image from an older philosopher, Heraclitus. You recognize a river, and its water is never the same water. You've met that river in this book as the man who keeps his direction while the water changes around him. Seneca pointed it at the person next to you. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
+In Letter 58 of his letters to his friend Lucilius, the Roman Stoic Seneca borrows an image from an older philosopher, Heraclitus. You recognize a river, and its water is never the same water. You've met that river in this book as the man who keeps his direction while the water changes around him. Seneca used it to describe people: the person beside you keeps changing too. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
 
-Tsapelas, Aron and Orbuch published a 2009 analysis of couples followed for sixteen years. Spouses who called their marriage boring in year seven reported less satisfaction nine years later, even after the researchers accounted for how satisfied those spouses had been to start with. Every couple in it was still married at year sixteen. That's a pattern worth watching. It says nothing about your marriage in particular. The show you watch every week can be familiar and good. What wears on a marriage is going through every shared hour as though there were nothing left to find out.
+Boredom deserves attention because it shows up early. In a 2009 study, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even when the researchers compared spouses who had been equally satisfied in year seven. So the boredom was an early warning in its own right, beyond whatever unhappiness was already there. The study only included couples still married at year sixteen, so it tells you nothing about divorce. That's a pattern worth watching. It says nothing about your marriage in particular. The show you watch every week can be familiar and good. What wears on a marriage is going through every shared hour as though there were nothing left to find out.
 
 ---
 
 Put the phone down, and give her the evening you came to share.
 
 ## Editor's Notes
+
+- **Round 6 (Publisher, 2026-09-29, author-directed):** fixed seven sentences the author flagged as confusing ("She decides she's been accounted for? Doesn't it mean he decided?"): flipped-agency and compressed lines at L15, L19, L37, L63, L69, L83; research paragraph rewritten on his word ("put a finer point on it") to state why the study matters (boredom as an early warning beyond existing unhappiness), with the addendum's limits kept: predicted, baseline controlled, still-married sample only, no causal claim.
 
 - **Round 5 (Publisher, 2026-09-27, author's word "I think Epictetus was already introduced earlier"):** turn paragraph no longer re-introduces Epictetus (Ch12 L29 already does); translator credited as in Ch12; cut "What you owe comes from the relation you're standing in" (near-verbatim of Ch10's gloss) and the choice sentence (the author's role/title line now carries the outline principle, and the two restated each other three sentences apart). Negated reframes: 1.
 
