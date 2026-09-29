@@ -72,7 +72,7 @@ Romance in your marriage might be breakfast made before she's up, a letter, or a
 
 She told you Monday that her review at work was Wednesday. Asking how it went on Wednesday night is the part she'd notice. She mentioned a restaurant she wants to try, and her favorite flowers aren't the ones you bought five years ago. Remembering counts when you act on it.
 
-Anniversaries and Valentine's Day lose their meaning when you handle them by rote. Ten minutes from home you swing into Walgreens for whatever card is left and a box of chocolate that's been on the shelf since Christmas. You remembered the date. You gave almost no thought to the woman you were celebrating. The same money, spent a week earlier, buys an evening she'd actually want. Plan the dinner she'd enjoy. Write down one memory that still makes you glad you married her. Start early enough to mean it.
+Anniversaries and Valentine's Day lose their meaning when you handle them by rote. Ten minutes from home you swing into Walgreens for whatever card is left and a box of chocolate that's been on the shelf since Christmas. You remembered the date. You gave almost no thought to the woman you were celebrating. Spend the same few dollars with a week's notice and you can give her something she'd actually want. Plan the dinner she'd enjoy. Write down one memory that still makes you glad you married her. Start early enough to mean it.
 
 Some years are crowded and hard. You may both be too tired to plan anything, and a quiet evening at home is an honest way to mark it. You don't owe the calendar a performance. The thing to check is whether you've stopped being thoughtful the rest of the year too.
 
