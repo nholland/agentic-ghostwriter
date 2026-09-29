@@ -92,7 +92,17 @@ fails in exactly one hard-to-notice way, and that is it.
    pick, draft, the counted check run by you, the Panel's standalone read, one
    revision. Skip with `--no-plate`. A plate failure never blocks the
    chapter; it goes to the inbox.
-7. **Verdict package** — run `/gw-compile NN` to produce the PDF. Then hand him
+7. **Cold read** — before anything reaches him, dispatch `gw-slopreader` on the
+   final prose and distillation **as a first-time reader**: it reads only the text
+   above Editor's Notes and the distillation, never the notes, earlier versions or
+   reports, and checks every sentence for misread agency, a pronoun or vague word
+   standing in for a noun, or a sentence that needs a reread (01-voice.md's
+   compressed-line form), plus claims beyond the research record. Any edit after
+   it, including the Publisher's own, re-runs it. A scoped review passing is not a
+   cold read; "ready" means this passed on the exact text he will read. Added
+   2026-09-29 on the author's word ("Yes") after Ch13 reached him as ready with
+   fourteen sentences a first-time reader would misread.
+8. **Verdict package** — run `/gw-compile NN` to produce the PDF. Then hand him
    the package: the PDF, the plate, the counts as the scripts printed them, the
    conformance rows, and `python3 scripts/inbox.py --all --chapter NN` for every
    inbox item this chapter raised — run it, don't recall it (a hand-enumerated
