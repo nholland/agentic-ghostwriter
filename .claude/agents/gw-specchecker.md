@@ -1,7 +1,7 @@
 ---
 name: gw-specchecker
 description: Clean-room conformance checker. Compares finished prose against its outline spec and reports PASS/FAIL per required element plus an attribution audit. Read-only - it reports, it never fixes. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read
 ---
 

@@ -3,8 +3,8 @@
 
 Use --write PATH --subject inbox:094 --disposition updated --concept PATH
 --file PATH --authority TEXT --reason TEXT. Repeat subjects, files and concepts.
---check checks book Markdown and interview records changed since the upstream
-(or main for a new branch), including committed, staged and untracked work.
+--check checks book Markdown and interview records changed since the merge-base
+with main, including committed, staged and untracked work.
 """
 import argparse
 import hashlib
@@ -84,26 +84,22 @@ def git(root, *args):
     return p.stdout
 
 
-def verify(root, ref):
-    try:
-        return git(root, 'rev-parse', '--verify', '--quiet', ref).strip()
-    except ValueError:
-        return None
-
-
 def changed(root, since=None):
-    main = None
     if not since:
-        since = verify(root, '@{upstream}')
-        main = verify(root, 'origin/main') or verify(root, 'main')
-        since = since or main
+        # What this branch would bring to main: diff from the merge-base with
+        # main. The branch's upstream was the first choice until 2026-09-27; a
+        # branch whose last push predated a merge of main then inherited every
+        # book edit main had made, and could neither push nor land.
+        for ref in ('origin/main', 'main', '@{upstream}'):
+            try:
+                git(root, 'rev-parse', '--verify', ref)
+                since = git(root, 'merge-base', 'HEAD', ref).strip()
+                break
+            except ValueError:
+                continue
         if not since:
             raise ValueError('no comparison branch; use --since SHA')
     names = set(git(root, 'diff', '--name-only', since, '--').splitlines())
-    if main and main != since:
-        # A file whose bytes match main's arrived by merging main, where it
-        # was already reconciled; only this branch's own changes need a receipt.
-        names &= set(git(root, 'diff', '--name-only', main, '--').splitlines())
     names.update(git(root, 'ls-files', '--others', '--exclude-standard').splitlines())
     return sorted(n for n in names if n.endswith('.md') and
                   (n.startswith('books/') or (n.startswith('runs/') and n.endswith('/interview.md'))))

@@ -1,5 +1,29 @@
 # Parking Lot
 
+## Explore JEV
+
+Added 2026-09-27 16:27 America/Chicago on the author's explicit request to add these ideas under “Explore JEV.” Platform exploration only; these are hypotheses, not accepted manuscript content or adopted house rules. The author requested this addition to the existing parking lot; detailed platform research belongs under `runs/qa/`.
+
+**Status:** OPEN — research and design before live testing. No API key yet. Retain the existing 233 deterministic fixtures.
+
+| Idea | Possible quality benefit | Possible cost benefit |
+|---|---|---|
+| 1. Check meaning after every edit | Catch lost qualifications, changed claims, and drift from author intent during polishing | Prevent downstream repairs and repeated editorial passes |
+| 2. Check handoffs between desks | Detect missing inputs and incomplete assignments before work propagates | Avoid wasted desk runs |
+| 3. Give writers immediate feedback | Catch specific local voice problems during drafting | Shorten refinement cycles |
+| 4. Select better research context | Supply the most relevant concepts and source passages | Reduce larger-model context and unnecessary reading |
+| 5. Identify contradictions across the book | Compare related passages for unintended disagreement | Make targeted continuity checks more frequent |
+| 6. Track whether revisions solved the problem | Distinguish substantive repairs from cosmetic fixes and detect new defects | Reduce repeated review loops |
+| 7. Route work by difficulty | Reserve full editorial reasoning for difficult decisions | Use less expensive evaluation for bounded judgments |
+
+**Explore first:** meaning preservation after revision (idea 1). Research-context selection (idea 4) remains a separate possible cost experiment. Benefits are unmeasured.
+
+**Evaluation approach:** separate quality improvements from cost reductions. Write a concrete before/after example and a falsification criterion for each idea. Measure missed defects, false alarms, author-meaning fidelity, reviewer time, and total workflow cost. Watch for a checker that rewards generic prose and flattens the author's voice.
+
+**Next:** design the meaning-preservation inputs, atomic questions, evidence output, treatment of authorized changes, and offline examples before obtaining a key or making live calls. A later pilot remains advisory until measured results justify changing review responsibilities.
+
+**References:** [initial platform research](../../runs/qa/2026-09-27-jev-applicability-233-fixtures.md); [meaning-preservation design](../../runs/qa/2026-09-27-jev-meaning-preservation-design.md).
+
 ## Open Items
 
 ### [#38] — [2026-09-21 13:12]

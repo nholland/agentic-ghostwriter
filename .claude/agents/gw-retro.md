@@ -1,7 +1,7 @@
 ---
 name: gw-retro
 description: The Archivist desk. Reviews each session cold - what broke, what was missing, what was too hard, what worked, what recurs - and suggests only if necessary. Proposes new desks, skills, checks, deletions and simplifications as readily as rule edits. Never applies anything. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Grep, Glob, Bash
 ---
 

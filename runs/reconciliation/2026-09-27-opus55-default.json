@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-27T16:47:13.268411-05:00",
+  "subjects": [
+    "platform:opus55-default"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author: First order of business, let us switch to Opus 5.5 as our default model.",
+  "reason": "Model configuration only: project default and ten desk declarations updated, plugin mirrors regenerated; no manuscript or accepted book knowledge changed.",
+  "files": {
+    ".claude/settings.json": "0dc5ea7efaae56a4ab7547cfc0aa2204252fc13ba134b2a0eeb2fb98507c6e1f"
+  }
+}

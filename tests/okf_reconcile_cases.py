@@ -22,8 +22,31 @@ def receipt(root, subjects, files=(), disposition='no-knowledge-change', concept
     return str(path.relative_to(root))
 
 
+def merged_main_case():
+    """A branch that merges main must not inherit main's book edits as its own.
+    2026-09-27: a branch pushed before main moved on merged main and could not
+    push or land, because the check diffed from the stale upstream."""
+    with tempfile.TemporaryDirectory() as tmp:
+        remote, root = Path(tmp)/'remote.git', Path(tmp)/'work'
+        def git(*args, cwd=None):
+            return subprocess.check_output(['git', *args], cwd=cwd or root, stderr=subprocess.DEVNULL, text=True).strip()
+        git('init', '-q', '--bare', str(remote), cwd=tmp)
+        git('clone', '-q', str(remote), str(root), cwd=tmp)
+        git('config', 'user.name', 'Fixture'); git('config', 'user.email', 'fixture@example.com')
+        git('checkout', '-qb', 'main'); git('commit', '--allow-empty', '-qm', 'base'); git('push', '-q', 'origin', 'main')
+        git('checkout', '-qb', 'session'); git('push', '-qu', 'origin', 'session')
+        git('checkout', '-q', 'main')
+        p = root/'books/example/chapters/ch01/refined.md'; p.parent.mkdir(parents=True); p.write_text('main edit')
+        git('add', '.'); git('commit', '-qm', 'main edits the book'); git('push', '-q', 'origin', 'main')
+        git('checkout', '-q', 'session'); git('merge', '-q', '--no-edit', 'main')
+        with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            rc = kr.check(root)
+        return [(rc == 0, 'OKF merging main does not inherit main\'s book edits',
+                 'a stale upstream must not make main\'s changes this branch\'s', rc)]
+
+
 def okf_reconcile_cases():
-    rows = []
+    rows = merged_main_case()
     with tempfile.TemporaryDirectory() as tmp:
         root = Path(tmp)
         def git(*args):

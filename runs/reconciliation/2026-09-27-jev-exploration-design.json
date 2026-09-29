@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-27T16:30:51.945932-05:00",
+  "subjects": [
+    "platform:jev-meaning-design"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author: Let us add these to the parking lot under Explore JEV; use the internet and TypeSafe documentation to explore idea one before testing, without an API key.",
+  "reason": "Recorded requested platform exploration ideas and a proposed meaning-preservation design. No accepted manuscript fact, author meaning, citation status, or book concept changed.",
+  "files": {
+    "books/the-stoic-husband/parking-lot.md": "0ef3eda81b089b63bd29596dafa2109660731dad89900a50d8636cfa9ff75750",
+    "runs/qa/2026-09-27-jev-meaning-preservation-design.md": "e5dfc09e7fa473cd03579b78cea4a0837c04968ace71936664609b91d21b82e2",
+    "runs/qa/2026-09-27-jev-meaning-preservation-request.json": "5115955a0bbee390481cd9496082e61d6cea62684db2b7e1eecbf3aa780af5d6"
+  }
+}

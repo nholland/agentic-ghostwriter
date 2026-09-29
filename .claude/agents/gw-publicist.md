@@ -1,7 +1,7 @@
 ---
 name: gw-publicist
 description: The Publicist desk. Drafts Substack posts, social teasers, positioning, and pitch material from refined chapters. Drafts only - nothing is ever posted, and publishing decisions stay the author's. Prefixed gw- so it can never be shadowed by a same-named project agent.
-model: claude-opus-5
+model: claude-opus-5-5
 tools: Read, Write, Grep, Glob
 ---
 
