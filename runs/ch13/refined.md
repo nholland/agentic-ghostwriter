@@ -34,7 +34,7 @@ She's changed across the years you spent in the same house. You've changed too. 
 
 ---
 
-**What it looks like from her side.** When the effort stops, she can tell you've stopped planning for her. Because you assume she'll always be there, she's the one who gets left out of your thinking. The plain word for that is being taken for granted, and it feels less like a fight than like being furniture in her own marriage: known, needed, walked past.
+**What it looks like from her side.** When the effort stops, she can tell you've stopped planning for her. Because you assume she'll always be there, she's the one who gets left out of your thinking. The plain word for that is being taken for granted, and it feels like being furniture in her own marriage: known, needed, walked past.
 
 She stops mentioning what she wants, because bringing it up twice was already more than she wanted to do. She organizes her own birthday. She says "whatever you want" because choosing got her nowhere the last three times. She never announces any of it. You end up with a wife who has gotten used to asking for less.
 
@@ -82,7 +82,7 @@ Some years are crowded and hard. You may both be too tired to plan anything, and
 
 In Letter 58 of his letters to his friend Lucilius, the Roman Stoic Seneca borrows an image from an older philosopher, Heraclitus. You recognize a river, and its water is never the same water. Earlier in this book the river stood for you: a man who keeps his direction while the terrain around him changes. Seneca used it to describe people: the person beside you keeps changing too. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
 
-Boredom deserves attention because it shows up before the unhappiness does. In a 2009 study, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. So the boredom was an early warning in its own right, beyond whatever unhappiness was already there. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The boredom pattern is worth watching. It says nothing about your marriage in particular. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
+Boredom deserves attention because it can predict unhappiness years later. In a 2009 study, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. So the boredom was an early warning in its own right, beyond whatever unhappiness was already there. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The boredom pattern is worth watching. It says nothing about your marriage in particular. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
 
 ---
 
@@ -90,6 +90,7 @@ Put the phone down, and give her the evening you came to share.
 
 ## Editor's Notes
 
+- **Round 8 (Publisher, 2026-09-29):** research opener now matches the addendum ("can predict unhappiness years later"); L37 fight/furniture reframe cut; reframes now 2 (L19, L69).
 - **Round 7 (Publisher, 2026-09-29):** applied the Anti-Slop Reader's round-6 clarity sweep (13 compressed or flipped-viewpoint lines, e.g. "she's the one who'll always be there" read as the narrator's promise), fixed the research paragraph's unsupported "shows up early" and softened its closing causal line, and cut negated reframes to two (L19 author's role/title line, L69). Correction: the Round 5 note's "Negated reframes: 1" was a miscount by the Publisher; round 6 counted 4-6.
 
 - **Round 6 (Publisher, 2026-09-29, author-directed):** fixed seven sentences the author flagged as confusing ("She decides she's been accounted for? Doesn't it mean he decided?"): flipped-agency and compressed lines at L15, L19, L37, L63, L69, L83; research paragraph rewritten on his word ("put a finer point on it") to state why the study matters (boredom as an early warning beyond existing unhappiness), with the addendum's limits kept: predicted, baseline controlled, still-married sample only, no causal claim.

@@ -261,3 +261,26 @@ and addendum files, the distillation, the plate reports, the round-5 Editor's No
 Not done: any verification of the Enchiridion 30 wording or citation status (#106
 stays open at `verifiable`); any audit of any counted block; any continuity sweep
 beyond Ch12↔Ch13.
+
+---
+
+## Round 7 confirmation (2026-09-29)
+
+**Round 7: PASS**
+
+The her-side lines now put the agency on him ("she can tell you've stopped planning
+for her"; "Because you assume she'll always be there"), which the defensive reader
+can take as a description he recognises rather than a verdict she has reached. His
+three guards all survive: "You still love her" (L17), the role sentences (L19) and
+"She can ask" (L61). The tension reader finds the arc unchanged, and the skeptic
+finds the boredom paragraph honest: it says the study predicts, it notes the
+controlled baseline, and it names the still-married sample. One small non-essential
+remains: "it shows up before the unhappiness does" (L85) sits uneasily beside
+"beyond whatever unhappiness was already there" two sentences later, and "Boredom
+deserves attention because it can come early" would remove the tension.
+
+**Scope of this round:** prose above Editor's Notes in `runs/ch13/refined.md`,
+reread in full, plus its round-6 and round-7 Editor's Notes. Not reread:
+`02-audience.md`, Ch12, the addendum (the study wording is checked against round-2
+scope, not against the source), the distillation, the plate. Not done: any audit of
+any counted block; any negated-reframe count.
