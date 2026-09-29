@@ -56,7 +56,7 @@ You met the five love languages a chapter ago: time together, words, service, gi
 
 **Do the thing before she asks.** Maybe acts of service are what land best with her. You can ask what would help, and you should listen when she answers. But if every kind thing you do starts with her noticing a task, naming it, and reminding you about it, she's still carrying the part that wears her out: keeping track.
 
-You already know the ordinary work of your house. The dishes are visible. Her car is low on gas. There was an errand she mentioned yesterday. Do it because her day gets easier, then let it go without announcing it and without standing beside the finished task waiting for something. A favor handed over with resentment can leave her wishing she'd done it herself.
+You already know the ordinary work of your house. The dishes are visible. Her car is low on gas. There was an errand she mentioned yesterday. Do it so her day gets easier, then let it go without announcing it and without standing beside the finished task waiting for something. A favor handed over with resentment can leave her wishing she'd done it herself.
 
 You won't guess right every time. She may want to handle something you thought you were rescuing her from. Let her tell you. Taking initiative means being willing to notice and learn. You don't know her business better than she does. When she does ask, say yes generously. She can ask. She shouldn't have to ask for everything.
 
@@ -80,9 +80,9 @@ Some years are crowded and hard. You may both be too tired to plan anything, and
 
 **Don't let knowing her end your learning about her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. Leave room for the woman beside you to surprise you.
 
-In Letter 58 of his letters to his friend Lucilius, the Roman Stoic Seneca borrows an image from an older philosopher, Heraclitus. You recognize a river, and its water is never the same water. Earlier in this book the river stood for you: a man who keeps his direction while the terrain around him changes. Seneca used it to describe people: the person beside you keeps changing too. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
+In Letter 58 of his letters to his friend Lucilius, the Roman Stoic Seneca borrows an image from an older philosopher, Heraclitus. You recognize a river, and its water is never the same water. Seneca turned that image on people. The woman beside you keeps changing the way the river's water does. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
 
-One study shows why boredom deserves attention. In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
+In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
 
 ---
 
