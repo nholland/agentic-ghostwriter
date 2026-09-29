@@ -86,3 +86,10 @@ I ran no scripts and verified no counted rule. `voice_check.py` owns those; I di
 ## Round 5 confirmation (2026-09-27)
 
 **Round 5: PASS.** All three round-4 findings resolved after the Publisher's author-directed rewrite of L19 (no re-introduction, Ch10 echo cut, choice sentence cut). Only "Duties are universally measured by relations." (Enchiridion 30, Long trans.) is quoted for Epictetus. Negated reframes chapter-wide: 2 (L19 "not a title you won once", L69 "Not the last date you took her on"). The outline principle is still stated through "keep being her husband" and "Choosing her this Saturday costs you an afternoon". No new essential. Scope: Ch13 prose and Editor's Notes; Ch12 and Ch10 Epictetus passages only.
+
+## Rounds 6-9 (2026-09-29), after the author caught "she decides she's been accounted for"
+
+- **Round 6: FAIL.** Sentence-by-sentence first-reader sweep found 13 compressed or flipped-viewpoint lines, an unsupported research opener ("shows up early"), and 4-6 negated reframes against a cap of 2 (the Publisher's round-5 note had miscounted 1).
+- **Round 7: FAIL.** Research opener still overclaimed ("before the unhappiness does"); one reframe left at L37; distillation switched he/you mid-paragraph.
+- **Round 8 cold read: FAIL.** One ambiguous referent ("brought one home": book or pastry).
+- **Round 9 cold read: PASS.** Read as a first-time reader, without the Editor's Notes or earlier reports: no misreads or stalls; boredom claims inside addendum line 14; reframes 2 (L19, L69); river passage consistent with the Introduction. Counted rules not run by the reader (voice_check.py run separately by the Publisher: all HARD checks passed).
