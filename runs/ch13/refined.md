@@ -62,7 +62,7 @@ You won't guess right every time. She may want to handle something you thought y
 
 Gifts run on the same attention. Once the money is shared, a present bought from the joint account can seem pointless to you. She could have bought it herself. But what the gift tells her is that she was on your mind while she wasn't in the room.
 
-She pointed out a book weeks ago. She loves a particular pastry and never stops for one. You heard her, you remembered on a Friday, and you brought one home. A note left where she'll find it does the same work and costs nothing.
+She pointed out a book weeks ago. She loves a particular pastry and never stops for one. You heard her, and one Friday you came home with the book and the pastry. A note left where she'll find it does the same work and costs nothing.
 
 ---
 
