@@ -6,7 +6,7 @@
 
 Pursuit after marriage is attention you give her while you're together and thought you give her while you're apart. Twelve years in, planning a date, you can find you no longer know what she'd want, because you stopped learning about her somewhere along the way. When the effort stops, she can tell you've stopped planning for her. She feels taken for granted, needed and walked past, and she starts asking for less. Put down the phone. Notice a task and carry it through without making her manage it. Say what you admire, offer the touch she welcomes, remember a preference, bring home a small gift, and plan time she would enjoy now. Familiar routines can be lovely; a marriage still needs room for curiosity and gestures that could only have been meant for her.
 
-**Lesson:** Winning her affection began a life of continuing to show care through presence, initiative, and romance.
+**Lesson:** Winning her was the start. You keep showing care through presence, initiative, and romance.
 **Challenge:** Name the last romantic thing you did for her. If you have to reach back months, choose one thoughtful action and follow through without assigning her the planning.
 
 **Practice:**
