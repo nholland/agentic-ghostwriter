@@ -10,13 +10,13 @@ You made time for her both nights, and that counts for something. What she wante
 
 ---
 
-**When the effort changed.** Think about how you acted when you were still hoping she'd say yes to another date. You paid attention to what she enjoyed. You remembered the story about her friend. You brought her something she'd mentioned liking once, and you found places you thought she'd want to go.
+**When the attention changed.** Think about how you acted when you were still hoping she'd say yes to another date. You paid attention to what she enjoyed. You remembered the story about her friend. You noticed the thing she mentioned liking once, and you still remembered it a week later. You asked her questions because you wanted the answers.
 
-Marriage lets you relax, and that's a good thing. You can sit quietly without wondering whether she's losing interest. You know you'll see her tomorrow. That security is a good part of the life you built. It can also make effort feel optional, until you're giving her less than you gave her back when you weren't sure she'd stay.
+Marriage lets you relax, and that's a good thing. You can sit quietly without wondering whether she's losing interest. You know you'll see her tomorrow. That security is a good part of the life you built. It can also make attention feel optional, until you're noticing less about her than you did back when you weren't sure she'd stay.
 
-So you worked to win her, then treated the wedding as proof the work was finished. You still love her. You may have quietly stopped spending any thought on her.
+So you worked to learn her, then treated the wedding as proof you'd finished. You still love her, and you probably still do plenty for her. What stopped was your curiosity about who she is now.
 
-Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are universally measured by relations." (*Enchiridion* 30, Long trans.) He was writing about fathers and brothers, but the rule fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. Saying you loved her on your wedding day was easy. Showing it the following spring took effort. Choosing her this Saturday costs you an afternoon, and that afternoon is how she knows you chose her.
+Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are universally measured by relations." (*Enchiridion* 30, Long trans.) He was writing about fathers and brothers, but the rule fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. Saying you loved her on your wedding day was easy. Noticing her the following spring took effort. This Saturday it costs you an afternoon with the phone in the drawer, and that's how she knows you chose her.
 
 ---
 
@@ -34,11 +34,11 @@ She's changed across the years you spent in the same house. You've changed too. 
 
 ---
 
-**What it looks like from her side.** When the effort stops, she can tell you've stopped planning for her. Because you assume she'll always be there, she's the one who gets left out of your thinking. The plain word for that is being taken for granted, and it feels like being furniture in her own marriage: known, needed, walked past.
+**What it looks like from her side.** When your attention drifts, she can tell you've stopped noticing her. Because you assume she'll always be there, she's the one who gets left out of your thinking. The plain word for that is being taken for granted, and it feels like being furniture in her own marriage: known, needed, walked past.
 
 She stops mentioning what she wants, because bringing it up twice was already more than she wanted to do. She organizes her own birthday. She says "whatever you want" because choosing got her nowhere the last three times. She never announces any of it. You end up with a wife who has gotten used to asking for less.
 
-When you finally do plan something, she may not light up the way you pictured. Give it time. She's working out whether this is a change or just an evening.
+When you finally start asking again, she may not open up the way you pictured. Give it time. She's working out whether this is a change or just an evening.
 
 ---
 
@@ -48,39 +48,13 @@ Some nights she wants to tell you about her day. Some nights she wants your comp
 
 She handled something hard this week and you noticed. She won't know you noticed unless you say so. The same goes for the work nobody else saw, and for the moment you looked over and thought she was beautiful. Familiar affection doesn't get less true because you've said it before.
 
-When she wants it, touch says something words don't. Reach for her hand on a walk. Sit close enough on the couch that she can feel you're there. Find out whether a hug is what helps at the end of a hard day, rather than assuming it is.
-
-You met the five love languages a chapter ago: time together, words, service, gifts, touch. Use the list as an inventory of what you've let fall away. If words are most of what you give her, which of the other four hasn't she had from you in a year?
-
----
-
-**Do the thing before she asks.** Maybe acts of service are what land best with her. You can ask what would help, and you should listen when she answers. But if every kind thing you do starts with her noticing a task, naming it, and reminding you about it, she's still carrying the part that wears her out: keeping track.
-
-You already know the ordinary work of your house. The dishes are visible. Her car is low on gas. There was an errand she mentioned yesterday. Do it so her day gets easier, then let it go without announcing it and without standing beside the finished task waiting for something. A favor handed over with resentment can leave her wishing she'd done it herself.
-
-You won't guess right every time. She may want to handle something you thought you were rescuing her from. Let her tell you. Taking initiative means being willing to notice and learn. She knows her own day better than you do. When she does ask, say yes generously. She can ask. She shouldn't have to ask for everything.
-
-Gifts run on the same attention. Once the money is shared, a present bought from the joint account can seem pointless to you. She could have bought it herself. But what the gift tells her is that she was on your mind while she wasn't in the room.
-
-She pointed out a book weeks ago. She loves a particular pastry and never stops for one. You heard her, and one Friday you came home with the book and the pastry. A note left where she'll find it does the same work and costs nothing.
-
----
-
-**Keep romance off the schedule.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening. Romance is bigger than that. If you have to count back through months to find one, you've found your starting place.
-
-Romance in your marriage might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. What counts is knowing her well enough that an ordinary gesture could only have been meant for her. Nothing about it has to be grand.
-
-She told you Monday that her review at work was Wednesday. Asking how it went on Wednesday night is the part she'd notice. She mentioned a restaurant she wants to try, and her favorite flowers aren't the ones you bought five years ago. Remembering counts when you act on it.
-
-Anniversaries and Valentine's Day lose their meaning when you handle them by rote. Ten minutes from home you swing into Walgreens for whatever card is left and a box of chocolate that's been on the shelf since Christmas. You remembered the date. You gave almost no thought to the woman you were celebrating. Spend the same few dollars with a week's notice and you can give her something she'd actually want. Plan the dinner she'd enjoy. Write down one memory that still makes you glad you married her. Start early enough to mean it.
-
-Some years are crowded and hard. You may both be too tired to plan anything, and a quiet evening at home is an honest way to mark it. You don't owe the calendar a performance. The thing to check is whether you've stopped being thoughtful the rest of the year too.
+When you're paying attention, you see the errand she mentioned and the week that wore her down before she has to name either one. You can't do anything about what you never saw.
 
 ---
 
 **Don't let knowing her end your learning about her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. Leave room for the woman beside you to surprise you. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
 
-In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
+In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. It shows the two travel together; it doesn't show which caused the other. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
 
 ---
 

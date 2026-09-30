@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" style="color:#1a1a1a" role="img" aria-label="Keep learning her after you've won her">
+<style>
+.ttl{font:600 24px Georgia,serif;text-anchor:middle}
+.lbl{font:600 17px Georgia,serif;text-anchor:middle}
+.txt{font:19px Georgia,serif;text-anchor:middle}
+.cap{font:italic 21px Georgia,serif;text-anchor:middle}
+.ln{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rule{fill:none;stroke:currentColor;stroke-width:.8;opacity:.28}
+</style>
+<rect width="640" height="520" fill="#fff"/>
+<text class="ttl" fill="currentColor" x="320" y="43">Keep learning her after you've won her</text>
+<!-- carrier: two routes to one target. Planning from memory runs most of the way and stops short; asking arrives at the centre. The two routes mirror on x=320. -->
+<rect x="150" y="74" width="340" height="74" rx="4" fill="#fff" stroke="currentColor" stroke-width="1.4"/>
+<text class="txt" fill="currentColor" x="320" y="106">one thing she'd be excited</text>
+<text class="txt" fill="currentColor" x="320" y="133">about this Saturday</text>
+<!-- dashed route: 143px long (nine 8+7 periods and a final full dash), aimed at (320,152), ends about 40px short on a clean round cap -->
+<path class="ln" stroke-dasharray="8 7" opacity=".55" d="M176 266L288.1 177.2"/>
+<!-- solid route: lands at the centre of the box's bottom edge -->
+<path class="ln" d="M464 266L320 152M333.1 154.7L320 152L325.7 164.2"/>
+<text class="lbl" fill="currentColor" x="176" y="294">planning a date</text>
+<text class="txt" fill="currentColor" x="176" y="318">what she liked</text>
+<text class="txt" fill="currentColor" x="176" y="342">at twenty-six</text>
+<text class="lbl" fill="currentColor" x="464" y="294">ask her</text>
+<text class="txt" fill="currentColor" x="464" y="318">who she is now</text>
+<text class="txt" fill="currentColor" x="464" y="342">again later in the week</text>
+<path class="rule" d="M64 361H576"/>
+<text class="cap" fill="currentColor" x="320" y="405">You can love her and keep doing things</text>
+<text class="cap" fill="currentColor" x="320" y="437">for her, and still have stopped</text>
+<text class="cap" fill="currentColor" x="320" y="469">being curious about who she is now.</text>
+</svg>
