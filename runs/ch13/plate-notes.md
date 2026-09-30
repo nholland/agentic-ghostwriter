@@ -1,22 +1,51 @@
 # Chapter 13 plate notes (attention version, concept C)
 
 Designer desk, draft mode (gw-plate Stage 3). 2026-09-30 14:42 (clock read).
+Revised in gw-plate Stage 6 (the one revision), 2026-09-30 15:03 (clock read),
+against `plate-read.md` (Panel standalone read: NOT PASS, three edits). See
+"Stage 6 revision" below; the sections after it describe the current plate.
 Picked concept: C, "Two routes to Saturday" (`plate-pick.md`; runner-up B).
 Earlier notes for the effort/action plate are in `pre-split/plate-notes.md` and git.
+
+## Stage 6 revision (plate-read.md), applied
+
+1. **Caption (required).** Replaced "What stopped was your curiosity / about who
+   she is now." with the Conversation sentence, trimming only "your wife" to "her"
+   (grounding passes): *You can love her and keep doing things / for her, and still
+   have stopped / being curious about who she is now.* It would not fit on two
+   lines: line one alone measured 24..616 against the 40px margin at the house's
+   21px italic. So it runs to three lines, broken so the last line is the point
+   ("being curious about who she is now."). To make room, the canvas grew from
+   640x480 to 640x520. Nothing above the rule moved. House plates range from 360
+   to 540 tall, and the checker fixes only the width.
+2. **Left bold label (recommended).** "arrange the whole thing" is now **planning a
+   date**. The Panel's "plan it for her" is not the chapter's phrase. "planning a
+   date" is the distillation's own ("Twelve years in, planning a date, you can
+   find you no longer know what she'd want"), and it names ordinary effort, not
+   control. Grounding passes.
+3. **Right label (optional).** "and ask about it again" is now **again later in the
+   week**, which removes the repeated "ask". The Panel's "then ask again later in
+   the week" measured past the right margin at x=464 (the first try, "and again
+   later in the week", measured 310..618), so I dropped the connective. The column
+   now reads *ask her / who she is now / again later in the week*. Grounded in the
+   distillation **Challenge**, "ask about it again later in the week".
+
+The box, both lines and the title are unchanged.
 
 ## What the plate shows
 
 One target at the top, the chapter's own test: *one thing she'd be excited about
 this Saturday*. Two routes rise to it from two mirrored columns.
 
-- Left, grey and dashed: **arrange the whole thing** / what she liked / at
+- Left, grey and dashed: **planning a date** / what she liked / at
   twenty-six. It runs about three quarters of the way to the target and ends on a
   clean round cap, about 40px short. No stop bar.
-- Right, solid with an arrowhead: **ask her** / who she is now / and ask about it
-  again. It lands on the centre of the box's bottom edge (320,152).
+- Right, solid with an arrowhead: **ask her** / who she is now / again later in
+  the week. It lands on the centre of the box's bottom edge (320,152).
 
-Under the rule, the takeaway: *What stopped was your curiosity / about who she is
-now.*
+Under the rule, the takeaway, the Conversation sentence over three lines: *You can
+love her and keep doing things / for her, and still have stopped / being curious
+about who she is now.*
 
 **Carrier:** reach. Doing things for her from what you knew of her years ago falls
 short. Asking her who she is now gets there. Two routes aimed at one point, one
@@ -51,18 +80,18 @@ named ("it shows one question answered, not learning kept up").
    things for her" through the drawing, so the caption only has to say what stopped.
    It also takes "She's changed" out of the subject position, as the Panel asked.
 
-## Copy and sources (40 words, 11 text elements)
+## Copy and sources (55 words, 12 text elements; current after Stage 6)
 
 | Text | Words | Source |
 |---|---|---|
 | Keep learning her after you've won her | 7 | distillation **Mechanism**, verbatim |
 | one thing she'd be excited / about this Saturday | 8 | refined, "The date you can't plan": "You can't name one thing she'd be excited about this Saturday."; distillation **Challenge** |
-| arrange the whole thing | 4 | refined, same scene: "You want to arrange the whole thing yourself." |
+| planning a date | 3 | distillation body: "Twelve years in, planning a date, you can find you no longer know what she'd want" |
 | what she liked / at twenty-six | 5 | refined, same scene: "You know what she liked at twenty-six." |
 | ask her | 2 | refined: "So you ask her."; distillation **Challenge**: "If you can't, ask her" |
 | who she is now | 4 | refined: "What stopped was your curiosity about who she is now."; distillation **Conversation sentence** and **Lesson** |
-| and ask about it again | 5 | distillation **Challenge**: "ask her, and ask about it again later in the week"; refined: "and then asked about it again" |
-| What stopped was your curiosity / about who she is now. | 10 | refined, "When the attention changed", verbatim, one sentence over two lines |
+| again later in the week | 5 | distillation **Challenge**: "ask her, and ask about it again later in the week" |
+| You can love her and keep doing things / for her, and still have stopped / being curious about who she is now. | 21 | distillation **Conversation sentence**, verbatim except "your wife" to "her"; one sentence over three lines |
 
 Every phrase is the chapter's or the distillation's. No Author additions used. No
 numbers, no quotation, no Stoic term (so no gloss needed), no em-dash.
@@ -80,17 +109,17 @@ straight. There is no wavy or river-like line.
 
 ## Format checklist
 
-- [x] Every centred text sits on x=320 or a shared column (x=176 / x=464): 11 texts.
+- [x] Every centred text sits on x=320 or a shared column (x=176 / x=464): 12 texts.
 - [x] The drawing is centred or mirrored: the box is on x=320, and the two routes mirror on it and meet at (320,152).
-- [x] Canvas 640 wide (640x480).
-- [x] Caption count within the cap: 2 italic lines against a cap of 4.
+- [x] Canvas 640 wide (640x520 after Stage 6, to fit the three-line caption).
+- [x] Caption count within the cap: 3 italic lines against a cap of 4.
 - [x] No bare `text-anchor` attribute. All anchors are set in classes.
 - [x] Every shape has an explicit fill (the paths set `fill:none` in `.ln` and `.rule`).
-- [x] Rendered to `runs/ch13/pdf/plate.png` and looked at. Nothing clips or collides, the dashed end reads as short of the box, and the arrowhead sits under the box's centre.
+- [x] Rendered to `runs/ch13/pdf/plate.png` (1920x1560) and `plate-phone.png` (360 wide) after Stage 6, and looked at. Nothing clips or collides, the dashed end reads as short of the box, the arrowhead sits under the box's centre, and all three caption lines sit inside the margins.
 
 ## plate_check.py (Designer's run; the Publisher runs it again)
 
-`python3 scripts/plate_check.py runs/ch13/plate.svg --chapter 13`, run after the render:
+`python3 scripts/plate_check.py runs/ch13/plate.svg --chapter 13`, Stage 6 run after the re-render:
 
 ```text
 runs/ch13/plate.svg
@@ -99,11 +128,11 @@ runs/ch13/plate.svg
   [ ok ] anchor-attr anchors set in classes or inline styles only
   [ ok ] em-dash     none
   [ ok ] digits      none
-  [ ok ] canvas      640x480
+  [ ok ] canvas      640x520
   [ ok ] title       title "Keep learning her after you've won her" / aria-label "Keep learning her after you've won her" vs Mechanism "Keep learning her after you've won her"
   [ ok ] grounded    each text has a three-word match in permitted source copy
-  [ ok ] captions    2 italic lines against a cap of 4 (2 labels + subtitle + closing line)
-  [ ok ] alignment   11 centred texts on the axis or a shared column; 0 drawing blocks centred or mirrored
+  [ ok ] captions    3 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   12 centred texts on the axis or a shared column; 0 drawing blocks centred or mirrored
   [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
   [ ok ] raster-current preview matches source pixels at its own scale
 ```
@@ -114,10 +143,14 @@ make room for the third line in each column.
 
 ## For the author to rule on
 
-1. **"arrange the whole thing"** stands in for the Panel's "the plan you made",
-   which the chapter never says. The fallback is "you chose the place" ("You chose
-   the place and made the reservation."), but that comes from the dinner scene, not
-   the Saturday scene.
+1. **"planning a date"** (Stage 6) replaces "arrange the whole thing" and stands in
+   for the Panel's "plan it for her", which the chapter never says. It is the
+   distillation's phrase, not the refined chapter's. If he wants the chapter's own
+   words, the fallback is "arrange the whole thing", which the Panel read as
+   calling his effort the mistake.
+4. **Canvas height** went from 480 to 520 so the Conversation sentence fits at the
+   house caption size. The other option was a smaller caption face, which would
+   break the style.
 2. **"who she is now" appears twice**, once in the right column and once in the
    takeaway. I kept it on purpose so the takeaway points back at the route that
    arrives. If it reads as repetition, the right column can drop to "ask her / and

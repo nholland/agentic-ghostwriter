@@ -148,11 +148,11 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 
 **Intent:** You can love your wife and keep doing things for her, and still have stopped being curious about who she is now. Keep learning who she is now, and ask again.
 
-**Visual explanation:** One target, the chapter's own test: one thing she'd be excited about this Saturday. The grey dashed route, arranging the whole thing from what she liked at twenty-six, runs most of the way and stops short. The solid route, asking her who she is now and asking about it again, arrives at the centre. The takeaway under the rule says what stopped: curiosity. It does not say that remembering is useless. The chapter says remembering the answer is what she notices.
+**Visual explanation:** One target, the chapter's own test: one thing she'd be excited about this Saturday. The grey dashed route, planning a date from what she liked at twenty-six, runs most of the way and stops short. The solid route, asking her who she is now and again later in the week, arrives at the centre. The takeaway under the rule is the Conversation sentence: you can love her and keep doing things for her, and still have stopped being curious about who she is now. It concedes the love and the effort, so the dashed route reads as real effort on old information, not as the wrong move and not as an accusation. It does not say that remembering is useless. The chapter says remembering the answer is what she notices.
 
 **Validation question:** Why does one route reach the box and the other stop short, when both are aimed at it?
 
-**Source:** runs/ch13/plate.svg; runs/ch13/plate-notes.md; runs/ch13/distillation.md; runs/ch13/refined.md ("The date you can't plan"; "When the attention changed")
+**Source:** runs/ch13/plate.svg; runs/ch13/plate-notes.md; runs/ch13/distillation.md; runs/ch13/refined.md ("The date you can't plan"; "When the attention changed"); runs/ch13/plate-read.md (Panel standalone read, three edits applied 2026-09-30)
 
 ## part-III | The Warm Sun
 
