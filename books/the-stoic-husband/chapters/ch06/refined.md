@@ -85,17 +85,3 @@ Refined prose is approximately 1,310 words against the outline's 1,200-1,500 wor
 
 ### Structural Flag
 None. The chapter's mechanism is internally consistent end to end and sets up Chapter 7 cleanly.
-
----
-## Distillation
-
-**Mechanism:** The Tally You Don't Read Aloud
-
-**Conversation:** Resentment doesn't come from doing too much. It comes from being the only one who can see it.
-
-**Distillation:** Every marriage splits its duties, and every spouse mostly sees their own half of the work, not the other's. Resentment doesn't fire on the real workload, it fires on a visible moment, one person resting while the other is visibly working, and the response to that moment, defend or close the gap, decides whether scorekeeping is born.
-
-**Practice:**
-1. Name one duty you do without expecting thanks for it. Ask yourself why that one doesn't bother you, while another one does.
-2. The next time the difference is visible, one of you resting while the other works, say it before you defend: "I see you're working. I appreciate it. Want to sit down, or should I help first?"
-3. When criticism stings and the feeling lingers, run the self-check before you respond: am I actually being lazy right now, or are we just out of rhythm?

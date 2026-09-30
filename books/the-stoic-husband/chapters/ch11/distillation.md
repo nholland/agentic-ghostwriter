@@ -1,4 +1,4 @@
-# Chapter 11 Distillation: Speak or Endure
+# Chapter 11 Distillation — Speak or Endure
 
 **Mechanism:** The Conversation She's Never Heard
 

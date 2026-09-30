@@ -4,9 +4,9 @@
 
 ## Chapter 1 — The Three-Second Window
 
-1. **Reactive.** Before responding in a heated moment, ask yourself one question: "Am I being the best husband I can be right now?" Let the question do the work.
-2. **Reactive.** After a difficult exchange, replay it: when did the window open? What went into it? What would a different choice have looked like?
-3. **Proactive.** Name one trigger that reliably closes your window in under three seconds. Write it down. That's the pattern you're practicing against.
+1. **Reactive.** Before you respond, take one breath. While you do, ask yourself one question: *What's this actually about for me right now, and how do I want to respond?* That's the whole practice. The breath buys the time. The question loosens whatever just got loaded.
+2. **Reactive.** That night, or the next morning, walk back through what happened and ask, *Was I being the best husband I could be?* Go through the four: logical, kind, self-controlled, brave enough to stay engaged. Where did you fall short? What would a different choice have looked like?
+3. **Proactive.** Name one thing that reliably triggers you, and the automatic response you run when it fires (getting dismissed, feeling unappreciated, a comment that lands on something you're sensitive about). Write down both the trigger and the response. That's the pattern you're practicing against.
 
 ## Chapter 2 — Stop Outsourcing Your Peace
 
