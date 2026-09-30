@@ -3948,3 +3948,9 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch13/split-input.md`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 14:31 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/03-outline.md`
+- `runs/reconciliation/2026-09-30-ch12-spec-amended-to-chapter.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
