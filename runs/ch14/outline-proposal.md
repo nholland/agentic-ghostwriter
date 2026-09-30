@@ -1,6 +1,6 @@
 # Chapter 14 outline revision proposal
 
-Status: proposed; do not edit `03-outline.md` until author approves.
+Status: approved and applied 2026-09-30. Author ruling: “Yes, use the newer direction.”
 Authority: Chapter 14 interview, 2026-09-27 and 2026-09-29. This is a proposal for the
 constitution, not an accepted content concept.
 
@@ -34,3 +34,5 @@ then apply it carefully to marriage. The research pass must test, rather than as
 claims about aging, attraction, and media-shaped expectations. The exact
 wisdom test for whether a concern deserves a conversation remains unresolved
 by the interview and is not invented here.
+
+The actual approved section is in outline-section.md; the diff above is historical proposal wording. The work-trip example is retired, and mental subtraction remains optional.

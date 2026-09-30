@@ -2,16 +2,13 @@
 type: Framework
 title: The Discipline of Enough
 description: >
-  Contentment with a spouse is a chosen practice, not a feeling that
-  either shows up or doesn't. Applies the hedonic treadmill and
-  miswanting (see /frameworks/the-hedonic-treadmill.md) specifically to
-  marriage: courtship-era excitement was never really about her, and its
-  fade is universal, not a verdict; attraction to a striking trait in
-  someone else is a comparison between one spiking quality and a wife's
-  entire, known, real person — a comparison no one survives, including
-  her, if she ran it on him. Organizes the countermeasures explicitly by
-  proactive vs. reactive, since most marriage advice only offers the
-  reactive half.
+  A husband practices contentment through sustained attention, specific
+  appreciation, gratitude and care for the real person his wife becomes.
+  The grass grows greener where it is watered: love involves tending the
+  shared life on ordinary days, without requiring her response to validate
+  his care. Comparison and moving standards are supporting pressures.
+  Health deserves effort and genuine concerns deserve wisdom; no fixed
+  decision test is claimed.
 provenance: >
   Author synthesis, 2026-07-28, developed in conversation while deciding
   where miswanting and the hedonic treadmill (see
@@ -28,12 +25,16 @@ provenance: >
   (inserted into Part III between "Pursue Her After You Have Her" and
   "Sex, Rejection, and Self-Respect" — see 03-outline.md's 2026-07-28
   revision note). Expanded by direct author testimony in the Chapter 14
-  interview, 2026-09-27; see runs/ch14/interview.md. That interview is open.
+  interview, 2026-09-27; see runs/ch14/interview.md. The interview supplied his direction and testimony.
   On 2026-09-29 the author corrected the first research brief: Chapter 14
   must investigate the mindset and practice of contentment, especially
   attention, appreciation, and gratitude; complacency is a brief boundary.
   The author's phrase about grass growing greener where watered is central
-  to this direction. See interview round 4.
+  to this direction. See interview round 4. On 2026-09-30 the author
+  explicitly approved replacing the old comparison/work-trip outline:
+  "Yes, use the newer direction." This follows "Please commit to OKF.
+  Let's start drafting!" The current schema below records that approved
+  direction; draft exercises remain reviewable proposals, not his biography.
 ip: author-synthesis
 tags: [framework, contentment, miswanting, hedonic-adaptation, comparison-trap, proactive-vs-reactive]
 chapter_slugs: [the-discipline-of-enough]
@@ -42,15 +43,13 @@ timestamp: 2026-07-28T00:00:00Z
 
 # The Discipline of Enough
 
-A man doesn't usually lose interest in his wife because a better option
-appeared. He loses it because his own brain quietly runs a rigged
-comparison — her whole, known, real self against a single spiking trait
-in someone else — and nobody told him the comparison was rigged in the
-first place.
+Enough is practiced by noticing, appreciating and tending the actual shared
+life. A changing body, career or income need not become a condition on love.
+Appreciation can include qualities that belong to her and do nothing for him.
 
 # Schema
 
-## Author's current direction, 2026-09-27
+## Author's testimony, 2026-09-27
 
 In the Sun arc, this chapter concerns **how a man should love** a spouse who
 changes over time. The author distinguishes ordinary aging from neglect of
@@ -63,7 +62,7 @@ in [the author story](/stories/the-wife-who-is-enough.md), now authorized by
 him for use subject to his review.
 
 The author's favored phrase is “The grass is really greener where you water
-it.” Its use as a chapter line is not yet settled. He says the boundary
+it.” The author subsequently made this image central to the chapter. He says the boundary
 between contentment and a concern worth raising is a tension for the chapter,
 requiring wisdom rather than a fixed rule; he does not claim to know the clear
 line. His view that aging, weight gain, and loss of income are “preferred
@@ -71,8 +70,7 @@ indifferents” is provisional, pending the Stoic research pass. Research
 questions about infidelity, media-shaped expectations, and changes in
 attraction remain open;
 none is established by this interview. The earlier work-trip example is not
-an author memory. The interview must settle how to discuss real unmet needs
-before research handoff.
+an author memory. The approved chapter retains honest concerns and the unresolved wisdom boundary.
 
 ## Author's research priority correction, 2026-09-29
 
@@ -83,6 +81,34 @@ greener where you water it” is critical to his thinking: the chapter should
 explore what the watering consists of. In the Sun arc, spend only a brief
 amount of space on complacency. This is a research commission and emphasis
 decision, not approval of a new formulation of his beliefs.
+
+## Approved current direction, 2026-09-30
+
+Authority: “Yes, use the newer direction,” in reply to replacing the old
+work-trip/comparison outline with appreciation, gratitude, loving his changing
+wife, and “the grass is greener where you water it.”
+
+1. Give attention to the actual person and shared life before imagined
+   alternatives set the standard.
+2. Appreciate specific qualities, acts and history, including qualities that
+   do not serve him. Express thanks without requiring a response.
+3. Let appreciation become care on ordinary days, before dissatisfaction makes
+   the effort urgent. Gratitude research supports bounded components, not a
+   promise that his effort will create marital contentment.
+4. Notice comparison and standards that keep moving. Maintain personal health
+   and address genuine concerns using wisdom. No fixed decision test is adopted.
+
+The nightly appreciation exercise and other drafting practices are reviewable
+reader suggestions. Mental subtraction is optional source-informed material,
+not an author's routine. The earlier “enough without neglect” decision test
+remains unapproved and excluded.
+
+## Superseded emphasis, 2026-07-28
+
+The earlier comparison schema is retained below as history, not the current
+chapter commission. Its universal courtship-fading and brain-chemistry claims
+were not established by the Chapter 14 research pass and must not be imported
+as facts. The work-trip example was not supplied as an author memory.
 
 1. **The treadmill, applied to one specific marriage.** Courtship-era
    intensity was never purely "her" — it ran substantially on novelty and
@@ -129,9 +155,8 @@ decision, not approval of a new formulation of his beliefs.
 - **Not** [The Hedonic Treadmill (and Miswanting)](/frameworks/the-hedonic-treadmill.md)
   — that framework is the general mechanism (why achievement and
   circumstance fail to produce lasting joy; lives in Chapter 27). This
-  framework is the same mechanism aimed at a specific application:
-  contentment with a spouse, and the comparison trap that follows when
-  it's not managed. Chapter 14 should cite the mechanism briefly and
+  framework now centers appreciation of a spouse; comparison and adaptation
+  are optional supporting explanations. Chapter 14 should cite the mechanism briefly and
   spend its own word count on the marriage-specific argument, not
   re-derive the general science.
 - **Not** [The New Partner Is Not Better (The River Comparison)](/frameworks/the-new-partner-is-not-better-river-comparison.md)
@@ -150,10 +175,15 @@ decision, not approval of a new formulation of his beliefs.
 
 # Citations
 
-External mechanism support lives with [The Hedonic Treadmill](/frameworks/the-hedonic-treadmill.md)'s
+Earlier comparison-mechanism support lives with [The Hedonic Treadmill](/frameworks/the-hedonic-treadmill.md)'s
 citations (Brickman/Campbell, Gilbert & Wilson, Berridge & Robinson,
 Seligman et al.) — this framework is the marriage-specific synthesis, not
 a separate research claim. No new external citation needed unless
 Chapter 14's research pass surfaces marriage-specific evidence (e.g. on
 attraction-to-others/infidelity ideation in otherwise-stable marriages) —
 if so, file it as its own citation and link it here.
+
+Current positive anchors: [Marcus VI.48](/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md)
+and the bounded gratitude findings recorded in the Chapter 14 research brief.
+Consult citation bundles for exact locators and verification states; no source
+was upgraded to verified by the author's outline approval.

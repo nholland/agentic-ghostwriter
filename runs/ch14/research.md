@@ -261,3 +261,12 @@ pending outline and content decisions remain pending. Publisher must integrate
 these six staged records and reconcile the canonical index/log/receipt before
 calling knowledge completion; the prior integration entry covers the earlier
 batch only. The prior independent brief review predates this addendum.
+
+## Publisher authorization update, 2026-09-30
+
+The author approved replacing the comparison/work-trip commission with the
+newer appreciation direction: “Yes, use the newer direction.” The existing
+OKF framework and constitutional outline are now aligned. Earlier pending
+notes above are historical. No fixed wisdom test was accepted; reader
+exercises are reviewable draft suggestions. Source verification states are
+unchanged by this ruling.

@@ -1,5 +1,5 @@
 ---
-status: open
+status: answered
 chapter: 14
 date: 2026-09-29 20:43
 ---
@@ -67,3 +67,14 @@ synthesis proposal, not a tested causal sequence. It does not revive or
 approve the prior wisdom test.
 
 **Author response:** Pending.
+
+## Author disposition, 2026-09-30
+
+“Yes, use the newer direction.” This follows “Please commit to OKF. Let's
+start drafting!” The appreciation/gratitude direction is accepted and merged
+into the existing Discipline of Enough concept, rather than creating a duplicate.
+Comparison and moving standards remain supporting explanations. Particular
+reader exercises remain drafting suggestions for chapter review, not an
+attributed author routine. Mental subtraction is optional and unused here.
+The prior fixed wisdom test is unapproved and excluded; it is not a blocker
+because the author has commissioned the unresolved wisdom boundary instead.
