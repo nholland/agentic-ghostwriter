@@ -249,33 +249,39 @@
 ---
 
 ## Chapter 12: Romance Is a Discipline
-**Premise:** Romance is not a feeling that arrives when conditions are right — it is a practice, with the same internal logic as every other Stoic discipline.
-**The reader's takeaway:** He stops waiting to feel romantic and starts practicing romance as a deliberate act — understanding, from the Stoic framework he already has, that the feeling follows the practice.
+**Premise:** Romance is not a feeling that arrives when conditions are right — it is a practice, with the same internal logic as every other Stoic discipline. **Romance is action:** the outward effort, done before the feeling and in a form she can receive.
+**The reader's takeaway:** He stops waiting to feel romantic and starts practicing romance as a deliberate act — understanding, from the Stoic framework he already has, that the feeling follows the practice — and he knows what the practice looks like in ordinary weeks: care in her form, done unprompted, in small things, on occasions he doesn't hand to the calendar.
 **Key points:**
 1. The man who was relentlessly romantic when he was trying to win her — and stopped, not because he stopped loving her, but because the urgency was gone; the urgency was doing the work, and when it left, the romance left with it
 2. The Stoic discipline frame applied here: you don't wait to feel disciplined; you practice discipline until it's who you are — romance operates by the same mechanism, and this reframe is everything
-3. What romance actually looks like after ten years — not grand gestures but specific attention; the things that say "I still see you" rather than "I've planned something impressive"
+3. What romance actually looks like after ten years — not grand gestures but effort in a form she reads as care: her currency rather than his (the platinum rule; the five love languages as a loose, popular list, not a science); acts of service that are self-started, so she is not still carrying the noticing and assigning; a gift that says she was on his mind while she wasn't in the room, whatever the joint account says; a note, a breakfast, a planned date. The measure is one question: name the last romantic thing you did for her. If you have to count back through months, that is the starting place.
+4. Occasions handled by rote — the last-minute generic card and the shelf-worn chocolate on the way home — against the same few dollars spent with a week's notice and one specific memory written down. A crowded, exhausted year can honestly be marked with a quiet evening at home; the check is whether he stopped being thoughtful the rest of the year too.
 **Central story/example:** The anniversary dinner he almost didn't plan — and the one he finally did plan, not because he felt the romantic urgency but because he decided to — and what happened that night
 **Stoic lesson / principle:** *Askesis* — practice as the path to virtue and character
 **Reader ah-ha:** "I've been waiting to feel romantic. That's backwards."
 **Research burden:** Low — Stoic discipline and practice; this is primarily application and scenario
-**Word count target:** 1,000–1,300 words
-**Transition to Chapter 13:** Romance requires choosing to show up. But many men stop pursuing after commitment. Chapter 13 examines the pursuit that continues after "I do."
+**Word count target:** 1,700–2,000 words
+> *Word count set 2026-09-30, at the author's direction, replacing 1,000–1,300. Chapter re-scoped the same day: Ch12 is the action chapter and takes the effort material (service, gifts, small gestures, occasions, the last-romantic-thing test) that Ch13's 2026-09-24 feedback had placed in Ch13. That placement is superseded; do not restore it. Author, 2026-09-30: "Romance is action, Persuit is interest." Order stays 12 then 13.*
+**Boundary with Chapter 13:** Ch12 owns the doing and the five-love-languages list. It does not argue that a man has stopped learning his wife; that is Ch13. It may hand off in its last line: effort lands only when it is aimed at who she is now.
+**Transition to Chapter 13:** Romance is the effort, and effort lands only if it is aimed at who she is now. But many men stop learning their wives after commitment. Chapter 13 examines the interest that continues after "I do."
 
 ---
 
 ## Chapter 13: Pursue Her After You Have Her
-**Premise:** A man who worked relentlessly to win his wife and then stopped has made a costly mistake in a long marriage. Sustained effort keeps him from taking her for granted.
-**The reader's takeaway:** He understands the pre-commitment paradox and has a clear picture of what active pursuit looks like in the years after commitment — different from courtship, but just as deliberate.
+**Premise:** A man who worked relentlessly to win his wife and then stopped learning her has made a costly mistake in a long marriage. **Pursuit is interest:** the sustained attention and curiosity that keep him from taking her for granted, and that aim the effort Chapter 12 asks of him.
+**The reader's takeaway:** He understands the pre-commitment paradox and has a clear picture of what active pursuit looks like in the years after commitment — different from courtship, but just as deliberate: presence when they are together, curiosity about who she is becoming, and noticing what she carries. The doing belongs to Chapter 12.
 **Key points:**
 1. The pre-commitment paradox: men who would move mountains to win her — and then stop, because the goal was achieved; the fundamental misunderstanding that the relationship was the prize rather than the ongoing practice
 2. What she actually experiences when pursuit stops: not indifference, but invisibility — the specific feeling of being furniture in her own marriage, known but not seen
-3. What pursuit looks like at year ten or twenty — not courtship, but specific curiosity about who she's becoming; the small acts that say "I still choose you" rather than "I still have you"
+3. What pursuit looks like at year ten or twenty — not courtship, but specific curiosity about who she's becoming: asking, and remembering the answer; being fully in the hour he offered (the phone, the dinner, the show); noticing what she handled this week and saying so; noticing enough that she does not have to keep track for both of them. "I still choose you" rather than "I still have you."
+4. Familiarity and boredom as the risk of pursuit going to routine (Esther Perel on desire and curiosity; the 2009 longitudinal boredom finding, as an association and not a cause) — leave room for her to surprise him.
 **Central story/example:** The man who asks his wife on a date — after twelve years — and realizes he doesn't know what she'd want to do anymore; not because she changed dramatically, but because he stopped learning her at some point, and he only just noticed
 **Stoic lesson / principle:** Sustained deliberate choice — love as ongoing election, not past event
 **Reader ah-ha:** "I won her. Then I stopped. I didn't realize winning was the beginning."
 **Research burden:** Low — this is primarily scenario and application; Stoic on sustained attention and choice
-**Word count target:** 1,500–1,800 words
+**Word count target:** 1,100–1,400 words
+> *Word count set 2026-09-30, at the author's direction, replacing 1,500–1,800. Re-scoped the same day to attention; the gifts, acts-of-service, romance-gesture and anniversary material moves to Chapter 12 (see that chapter's note). Supersedes the 2026-09-24 author feedback's placement of that material in Ch13; its other instructions stand (phone away, the mental-load point, Perel used accurately, no passage on noticing other women). The five love languages are not re-explained here.*
+**Boundary with Chapter 12:** Ch13 owns the looking, not the doing. It may say that a man notices so she does not have to keep track, and it may recall the love-language list in half a sentence, but it does not inventory gifts, service, gestures or occasions.
 **Transition to Chapter 14:** Pursuit keeps a man reaching for his wife. What it can't settle is what happens when the reaching stops feeling urgent. Chapter 14 takes on contentment as something practiced rather than waited for.
 
 ---
