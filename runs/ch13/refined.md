@@ -16,7 +16,7 @@ Marriage lets you relax, and that's a good thing. You can sit quietly without wo
 
 So you worked to learn her, then treated the wedding as proof you'd finished. You still love her, and you probably still do plenty for her. What stopped was your curiosity about who she is now.
 
-Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are universally measured by relations." (*Enchiridion* 30, Long trans.) He was writing about fathers and brothers, but the rule fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. Saying you loved her on your wedding day was easy. Paying attention to her the following spring took effort. Paying attention this Saturday costs you an afternoon, and that afternoon is how she knows you chose her.
+Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are universally measured by relations." (*Enchiridion* 30, Long trans.) He was writing about fathers and brothers, but the rule fits a husband. Husband is a role you keep playing, not a title you won once. If you want to be her husband, keep being her husband. You were her suitor before she said yes, and that job stayed open. Saying you loved her on your wedding day was easy. Noticing her the following spring took effort. This Saturday it costs you an afternoon with the phone in the drawer, and that's how she knows you chose her.
 
 ---
 
@@ -48,13 +48,13 @@ Some nights she wants to tell you about her day. Some nights she wants your comp
 
 She handled something hard this week and you noticed. She won't know you noticed unless you say so. The same goes for the work nobody else saw, and for the moment you looked over and thought she was beautiful. Familiar affection doesn't get less true because you've said it before.
 
-Noticing is also what lets her stop keeping track for both of you. When you're paying attention, you see the errand she mentioned and the week that wore her down before she has to name either one. What you do about it, in whichever of the five love languages fits her, belongs to the last chapter. Seeing it comes first.
+When you're paying attention, you see the errand she mentioned and the week that wore her down before she has to name either one. You can't do anything about what you never saw.
 
 ---
 
 **Don't let knowing her end your learning about her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. Leave room for the woman beside you to surprise you. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
 
-In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
+In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. It shows the two travel together; it doesn't show which caused the other. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
 
 ---
 

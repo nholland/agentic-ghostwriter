@@ -62,15 +62,15 @@ Gifts run on the same effort. Once the money is shared, a present bought from th
 
 ---
 
-**The last one you did.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening, and romance is bigger than that. My wife's question about a date was the small version of this one. If you have to count back through months to find an answer, you've found your starting place.
+**The last one you did.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening, and romance is bigger than that. If you have to count back through months to find an answer, you've found your starting place.
 
-Romance looks different in every marriage, and none of it has to be grand. In yours it might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. What counts is that the gesture could only have been meant for her.
+In your marriage it might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. What counts is that the gesture could only have been meant for her.
 
 Anniversaries and Valentine's Day lose their meaning when you handle them by rote. Ten minutes from home you swing into Walgreens for whatever card is left and a box of chocolate that's been on the shelf since Christmas. You remembered the date. You gave almost no thought to the woman you were celebrating.
 
 Spend the same few dollars with a week's notice and you can give her something she'd actually want. Plan the dinner she'd enjoy. Write down one memory that still makes you glad you married her. Start early enough to mean it.
 
-Some years are crowded and hard. You may both be too tired to plan anything, and a quiet evening at home is an honest way to mark it. You don't owe the calendar a performance. Check whether you've stopped being thoughtful the rest of the year too.
+You don't owe the calendar a performance, and a quiet evening at home is an honest way to mark a crowded year. The date matters less than whether you've been thoughtful the rest of the year.
 
 ---
 
@@ -84,7 +84,7 @@ Marcus Aurelius ran the Roman empire and kept a notebook where he argued with hi
 
 ---
 
-She's been waiting to be one of the necessary things, and the effort that puts her there lands only when it's aimed at the woman she is now.
+She's been waiting to be one of the necessary things, and that muscle is one you can start using tonight.
 
 ---
 
