@@ -64,7 +64,7 @@ def main():
         packet = pages(out / 'chapters' / f'ch{n:02}.pdf')
         ptext = ''.join(t for t, _ in packet)
         p = expected(renderer.format_headings(renderer.md_to_html(prose)))
-        d = expected(renderer.distillation_html(dist, 'Put it into practice'))
+        d = expected(renderer.distillation_html(dist, renderer.PRACTICE_KICKER))
         assert p in ptext and d in ptext, f'ch{n}: incomplete packet'
         assert p in joined and d in joined, f'ch{n}: incomplete book'
         pos = joined.index(p)
@@ -76,7 +76,7 @@ def main():
             assert len(starts) == 1, f'ch{n} {label}: split or missing heading'
             start = starts[0]
             assert content[start][0].startswith(heading), f'ch{n} {label}: chapter does not start fresh'
-            end = next(i for i in range(start, len(content)) if content[i][0].startswith(normal('Put it into practice')))
+            end = next(i for i in range(start, len(content)) if content[i][0].startswith(normal(renderer.PRACTICE_KICKER)))
             assert end > start and content[end-1][1], f'ch{n} {label}: plate not before distillation'
             assert sum(image for _, image in content[start:end]) == 1, f'ch{n} {label}: wrong plate count'
         assert all(t or image for t, image in packet), f'ch{n}: blank page'

@@ -208,7 +208,7 @@ def check(path):
     if w.all_dist_nodes:
         if not all("distback" in n.classes for n in w.all_dist_nodes):
             fails.append("a distillation section is not marked distback")
-        if not all(any(kind == "text" and val.strip() == "Put it into practice"
+        if not all(any(kind == "text" and val.strip() == "Putting into Practice"
                        for kind, val in node.events) for node in w.all_dist_nodes):
             fails.append("reader-facing distillation lacks its practice introduction")
         if "Not part of the chapter" in html:
