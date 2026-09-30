@@ -34,7 +34,7 @@ What you keep doing, you keep. Then he turns it around. Go thirty days without r
 
 ---
 
-**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, with a little mystery and surprise. It runs on study, and you can't win favor with someone you stopped learning about.
+**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, with a little mystery and surprise. It runs on effort, and effort only counts in a form she can read.
 
 Your default here is the golden rule: treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that in 1979. The golden rule quietly assumes she's built like you. People call his version the platinum rule. Treat her the way she wants to be treated, which means finding out what that is.
 
@@ -50,7 +50,7 @@ So your effort can be real and still land flat. You put your back into something
 
 When love arrives in a form that doesn't land for you, the reflex is to overlook it. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't trading for it, either.
 
-Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is the detail you kept and the question you came back to. It's the small thing that says I still see you rather than I planned something impressive.
+Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is smaller: something done in her language on an ordinary day. It's the small thing that says I still see you rather than I planned something impressive.
 
 ---
 
