@@ -48,7 +48,7 @@ Some nights she wants to tell you about her day. Some nights she wants your comp
 
 She handled something hard this week and you noticed. She won't know you noticed unless you say so. The same goes for the work nobody else saw, and for the moment you looked over and thought she was beautiful. Familiar affection doesn't get less true because you've said it before.
 
-Touch carries its own message, when she wants it. Reach for her hand on a walk. Sit close enough on the couch that she can feel you're there. Find out whether a hug is what helps at the end of a hard day, rather than assuming it is.
+When she wants it, touch says something words don't. Reach for her hand on a walk. Sit close enough on the couch that she can feel you're there. Find out whether a hug is what helps at the end of a hard day, rather than assuming it is.
 
 You met the five love languages a chapter ago: time together, words, service, gifts, touch. Use the list as an inventory of what you've let fall away. If words are most of what you give her, which of the other four hasn't she had from you in a year?
 
@@ -58,7 +58,7 @@ You met the five love languages a chapter ago: time together, words, service, gi
 
 You already know the ordinary work of your house. The dishes are visible. Her car is low on gas. There was an errand she mentioned yesterday. Do it so her day gets easier, then let it go without announcing it and without standing beside the finished task waiting for something. A favor handed over with resentment can leave her wishing she'd done it herself.
 
-You won't guess right every time. She may want to handle something you thought you were rescuing her from. Let her tell you. Taking initiative means being willing to notice and learn. You don't know her business better than she does. When she does ask, say yes generously. She can ask. She shouldn't have to ask for everything.
+You won't guess right every time. She may want to handle something you thought you were rescuing her from. Let her tell you. Taking initiative means being willing to notice and learn. She knows her own day better than you do. When she does ask, say yes generously. She can ask. She shouldn't have to ask for everything.
 
 Gifts run on the same attention. Once the money is shared, a present bought from the joint account can seem pointless to you. She could have bought it herself. But what the gift tells her is that she was on your mind while she wasn't in the room.
 
