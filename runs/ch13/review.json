@@ -1,31 +1,31 @@
 {
   "inputs": {
-    "refined.md": "268056377968824858741364559f673fd638ccda7648664408da25f5dafeccb9",
+    "refined.md": "27da6cac394418366e2e26eef08fd49745eee955fb48baa9447627f361032476",
     "../../books/the-stoic-husband/chapters/ch12/refined.md": "9cd6ef58818338336ce938e69a63db13c4252a1b50a30c09fc2ff4ddf24d0588",
     "../../books/the-stoic-husband/chapters/introduction/refined.md": "e5ba4ac5e14f11f63c397752f7a29c287d69707b9b0d84e95ed714b797948ced",
     "../../books/the-stoic-husband/03-outline.md": "90081e3aea36256396188c59854a6bb39dcd95c79006dcd54094f2e63dc0387e",
     "../../books/the-stoic-husband/02-audience.md": "d761633095a8811c0329045ad99a6b311ce801a8b85520342d49f92389d96fc7",
-    "../../books/the-stoic-husband/01-voice.md": "7b697423d5ad7c5309dbc3ed000886342f3c10a6b770dd0f8120e31a0489d532",
+    "../../books/the-stoic-husband/01-voice.md": "a3e680e7c08521f5247667a38e2331fde78fd914e891860fa1e2623c015b4b89",
     "author-feedback-2026-09-24.md": "efa8e61197393d36a2b4fc78cfc6d6c84f39a623f94c902aab892c24c5911542",
     "research-addendum-2026-09-24.md": "dd7eba4e1139bff46f64da7ed862418feb2c3c7ddaf4b4efedd9ba03583287cf",
     "persona-coherence-ch01-ch13.md": "de3d1de5a320f202e0550977b5d2f745ef9ba0657cf9da8270b0ab9bdf7d233b",
     "slop-coherence-ch01-ch13.md": "8d71927bb1a8ef3f15ca6d351b3f0e761927120c10e76bdefb8be0cc39f457aa",
     "../../books/the-stoic-husband/chapters/ch10/refined.md": "65fe275fc2cd54ed31aa12352d3950f9f802aa4bdf02329bf0a20654f838d19b",
     "../../books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md": "fb050e06adbee8f2a5a272bbf741891b408eee422e98a6f90ce68af987b3c01e",
-    "distillation.md": "e593c99eccad728a21c2efe12f6b05b9b4acec721c0f5f4a4b1a63b20cae204c"
+    "distillation.md": "4577dbdb3e8cc82839d8c9b40533624096a187ae2630baf2e3af1773aa6ba005"
   },
   "reviews": {
     "personas": {
       "status": "pass",
       "report": "persona-refined.md",
       "sha256": "a8fac75d576d7619a64a5af54f6fa31678590957ce671b3a64de0872ee40c4ac",
-      "scope": "Reader Panel on the 2026-09-27 revision: round 1 FAIL, round 2 PASS on full prose, round 3 confirmation PASS on the seven sentence edits. Read Ch13 prose, author feedback 9/24, 02-audience, Ch13-14 outline, landed Ch12. Earlier chapters not reread. Round 4 and 5 confirmations of the author-directed Epictetus turn paragraph: PASS. Round 7 confirmation PASS after the author-directed clarity edits; the two later one-line fixes (research opener, gift sentence) were covered by the round 9 cold read, not a new panel read."
+      "scope": "Reader Panel on the 2026-09-27 revision: round 1 FAIL, round 2 PASS on full prose, round 3 confirmation PASS on the seven sentence edits. Read Ch13 prose, author feedback 9/24, 02-audience, Ch13-14 outline, landed Ch12. Earlier chapters not reread. Round 4 and 5 confirmations of the author-directed Epictetus turn paragraph: PASS. Round 7 confirmation PASS after the author-directed clarity edits; the two later one-line fixes (research opener, gift sentence) were covered by the round 9 cold read, not a new panel read. Edits after round 7 (clarity fixes, Seneca river paragraph cut on the author's word) are covered by cold reads, not a new panel read."
     },
     "coherence": {
       "status": "pass",
       "report": "coherence-refined.md",
-      "sha256": "4734566fc31ff76fe1193b82d4d844629f2d12b7b5122d068ba2803cca678e42",
-      "scope": "Anti-Slop Reader rounds 1-3 (round 3 author-authorized, inbox #107): Ch13 prose vs landed Ch12 as on main 2026-09-27, Introduction river passages, 01-voice, research addendum. Other chapters carried from prior whole-book reports, not reread. Turn quotation (#106) and outline transition/word target (#105) deferred to the author. Round 4 FAIL and round 5 PASS on the Epictetus turn paragraph, checked against Ch10 and Ch12 Epictetus passages. Rounds 6-9 on 2026-09-29: full first-reader clarity sweep; round 9 cold read PASS on the final text and distillation."
+      "sha256": "9302221276667d7a723278cfad642ff9ec9ca39ed43695f94d31874b204fea69",
+      "scope": "Anti-Slop Reader rounds 1-3 (round 3 author-authorized, inbox #107): Ch13 prose vs landed Ch12 as on main 2026-09-27, Introduction river passages, 01-voice, research addendum. Other chapters carried from prior whole-book reports, not reread. Turn quotation (#106) and outline transition/word target (#105) deferred to the author. Round 4 FAIL and round 5 PASS on the Epictetus turn paragraph, checked against Ch10 and Ch12 Epictetus passages. Rounds 6-9 on 2026-09-29: full first-reader clarity sweep; round 9 cold read PASS on the final text and distillation. Cold reads rounds 10-14; round 14 PASS on the exact final prose and distillation."
     }
   },
   "deferred": [

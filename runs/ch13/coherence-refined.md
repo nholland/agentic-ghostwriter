@@ -93,3 +93,8 @@ I ran no scripts and verified no counted rule. `voice_check.py` owns those; I di
 - **Round 7: FAIL.** Research opener still overclaimed ("before the unhappiness does"); one reframe left at L37; distillation switched he/you mid-paragraph.
 - **Round 8 cold read: FAIL.** One ambiguous referent ("brought one home": book or pastry).
 - **Round 9 cold read: PASS.** Read as a first-time reader, without the Editor's Notes or earlier reports: no misreads or stalls; boredom claims inside addendum line 14; reframes 2 (L19, L69); river passage consistent with the Introduction. Counted rules not run by the reader (voice_check.py run separately by the Publisher: all HARD checks passed).
+
+## Rounds 10-14 cold reads (2026-09-29 to 2026-09-30), under gw-chapter step 7
+
+- Round 10 FAIL (6 hits: two filler lines incl. "worth watching", study wording, two compressed lines, distillation lesson). Round 11 FAIL (3: "shows why", shifting river image, "because her day gets easier"). Round 12 FAIL (Walgreens money sentence; river read as the wife against the Introduction, taken to the author, who said "Cut it"). Round 13 FAIL (1: "her business").
+- **Round 14: PASS.** First-time-reader read of prose and distillation only: no misreads or stalls, study inside addendum line 14, reframes 2 (L19, L69). Six close calls listed and deliberately left unedited, since any edit re-runs the cold read.
