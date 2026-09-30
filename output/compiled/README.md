@@ -2,7 +2,7 @@
 
 Coverage: Prologue, Introduction, Chapters 1-13, relevant Arc openings and plates. This is the available book, not all 29 planned chapters.
 
-Unapproved chapter inputs: [13]. Plate approval status is recorded in manifest.json.
+Unapproved chapter inputs: none. Plate approval status is recorded in manifest.json.
 
 - [Book](book.pdf): each chapter’s prose, plate, and full distillation, with Arc openings and closing plates.
 - [Distillations](distillations.pdf): full chapter distillations in order.
