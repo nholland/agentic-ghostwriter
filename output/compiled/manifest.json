@@ -1,9 +1,7 @@
 {
-  "built": "2026-09-30T02:00:10.243480+00:00",
+  "built": "2026-09-30T11:35:55.591394+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-13, relevant Arc openings and plates",
-  "unapproved_chapters": [
-    13
-  ],
+  "unapproved_chapters": [],
   "source_sha256": {
     "books/the-stoic-husband/chapters/ch01/refined.md": "fbcf4706892948e428acfed091bd5bc12e7dfb4259fa2f23da4fda9c35ba7c7e",
     "books/the-stoic-husband/chapters/ch01/distillation.md": "c612b717fb7d42303d1161d6fcdb92b805622ba816beeb8f0cdbaf9fd99f0ae4",
@@ -20,7 +18,7 @@
     "books/the-stoic-husband/chapters/ch05/refined.md": "9172ebb6fd91f7a9b6d74ffe47f00d8601f488cb0300a88ebede84c0aa99e0a1",
     "books/the-stoic-husband/chapters/ch05/distillation.md": "41cb07428a714c10e42a9f5d0c0e63db65e8c49b0aaf2839f9496e6649706334",
     "runs/ch05/plate.svg": "bdded417a4ac1721700b9e4b6b418322ee8fe137b24ee1a32a16ee96b81b39a8",
-    "books/the-stoic-husband/chapters/ch06/refined.md": "96a19fca9680cb238b41850ea468e7a2a5213f70ae9d352c580e70c67181d696",
+    "books/the-stoic-husband/chapters/ch06/refined.md": "297d5ae691049136d23e62228d7097cb2e5e3abc93c678de9e9b79b50f871940",
     "books/the-stoic-husband/chapters/ch06/distillation.md": "24a6387e02f63cd48c0c664b506b22fdae540ea216d4a0846a8f326d6241a854",
     "runs/ch06/plate.svg": "939086ab6079729b13e2ae6f7b855981ec2aef90fcb34ad562cbc3f1b3947eb3",
     "books/the-stoic-husband/chapters/ch07/refined.md": "9555f8173b50c62404065a0f6d82238b13e09b48e8c438f5953a006dce498264",
@@ -29,20 +27,20 @@
     "books/the-stoic-husband/chapters/ch08/refined.md": "3825e9743ca0fe9294df5c2148c3211e0ab1e23c8fd9afd5127f37c6371b707e",
     "books/the-stoic-husband/chapters/ch08/distillation.md": "602d6efd9739f874e129065d1ee02bc0b26205efb27059e0f105958836f5147d",
     "runs/ch08/plate.svg": "34d60c46f0c1a41fe43cb8fbad3b8af1d29d1a928f848063dc7ecc67cf7bf30a",
-    "books/the-stoic-husband/chapters/ch09/refined.md": "753ceb8bc3871c0c44b58ab69b6daf21ba12be0e3f2ebbba9bb3d62603934f79",
+    "books/the-stoic-husband/chapters/ch09/refined.md": "c936270a3e2f97ea399c54d250aa105d3b05ded406d802c52d3536992730b3d1",
     "books/the-stoic-husband/chapters/ch09/distillation.md": "e34dfff18845c204bc34532ef3ca25d06e8be4177b9a65255f7c0f11b9cf5b93",
     "runs/ch09/plate.svg": "946e7d442de2b4b883b97922e391f20959963001b04fc850a78d5a4e25208777",
-    "books/the-stoic-husband/chapters/ch10/refined.md": "65fe275fc2cd54ed31aa12352d3950f9f802aa4bdf02329bf0a20654f838d19b",
+    "books/the-stoic-husband/chapters/ch10/refined.md": "0075bac111f21020f78fcbe27fadf7ad46a910835698e21b53dd4df66d53766c",
     "books/the-stoic-husband/chapters/ch10/distillation.md": "dfc326c40125b086454b0e11657c2dbcd840207140cd37d791faae4377e17dfd",
     "runs/ch10/plate.svg": "50e00fa15d5b634662982182526d705fa35c2be9b4dd7690930eccf52d9f99fd",
     "books/the-stoic-husband/chapters/ch11/refined.md": "a6ee778810cc2d664683184dcd242574a81f45bcddcd558d22b46c9c472a0879",
-    "books/the-stoic-husband/chapters/ch11/distillation.md": "a634ac27c5e1f25f09c44f0808e6eaa2c3d01a6f59284455b960c62a804263d8",
+    "books/the-stoic-husband/chapters/ch11/distillation.md": "160f6d77e9865560615b0333f6dd6ab19e7f8adf154c2dd670810715e353b8a7",
     "runs/ch11/plate.svg": "d02f4fe6a929ff7e038710ec9f71e72d34a13a0680d4e398571a40ab3963f0c3",
     "books/the-stoic-husband/chapters/ch12/refined.md": "9cd6ef58818338336ce938e69a63db13c4252a1b50a30c09fc2ff4ddf24d0588",
     "books/the-stoic-husband/chapters/ch12/distillation.md": "95e7814ae1e73c53d49558a8bae7bf0dc7dda4ad0fc3fdf694c9db6fe2edb3c5",
     "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
-    "runs/ch13/refined.md": "27da6cac394418366e2e26eef08fd49745eee955fb48baa9447627f361032476",
-    "runs/ch13/distillation.md": "4577dbdb3e8cc82839d8c9b40533624096a187ae2630baf2e3af1773aa6ba005",
+    "books/the-stoic-husband/chapters/ch13/refined.md": "df6d1ac0629bc2bdf8723fae7e26469c8040f59fa3bdce93f283a3165f483c2c",
+    "books/the-stoic-husband/chapters/ch13/distillation.md": "4577dbdb3e8cc82839d8c9b40533624096a187ae2630baf2e3af1773aa6ba005",
     "runs/ch13/plate.svg": "775f5917c0e75c36b12c092569ad8aefe592025a8d19f42af9ba6881d64bd0eb"
   },
   "outputs": [
@@ -61,10 +59,11 @@
     "chapters/ch12.pdf",
     "chapters/ch13.pdf",
     "distillations.pdf",
-    "plates.pdf"
+    "plates.pdf",
+    "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-09-30T02:00:10.242618+00:00",
+    "built": "2026-09-30T11:35:55.590712+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -140,7 +139,7 @@
       {
         "id": "ch13",
         "title": "Keep Choosing Her in Ways She Can See",
-        "approved_identical_copy": false
+        "approved_identical_copy": true
       },
       {
         "id": "part-III",
@@ -207,7 +206,7 @@
       "approved_identical_copy": false
     },
     "ch13": {
-      "approved_identical_copy": false
+      "approved_identical_copy": true
     }
   }
 }
