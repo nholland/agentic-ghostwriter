@@ -3978,3 +3978,12 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/design/plate-briefs.md`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 16:01 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/chapters/ch13/distillation.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/design/plates/keep-choosing-her-in-ways-she-can-see.svg`
+- `books/the-stoic-husband/design/plates/keep-learning-her-after-you-ve-won-her.svg`
+- `runs/ch13/verdict.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
