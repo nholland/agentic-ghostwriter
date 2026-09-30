@@ -54,6 +54,14 @@ Twenty years ago I took my wife on a short sightseeing flight over Nashville, an
 
 ---
 
+**Before she asks.** Acts of service are the one I'm worst at, so I know how easy it is to wait until she names the task. You can ask what would help, and you should listen when she answers. But if every kind thing you do starts with her noticing a task, naming it, and reminding you about it, she's still carrying the part that wears her out: keeping track.
+
+You already know the ordinary work of your house. The dishes are visible. Her car is low on gas. There was an errand she mentioned yesterday. Do it so her day gets easier, then let it go without announcing it and without standing beside the finished task waiting for something. A favor handed over with resentment can leave her wishing she'd done it herself. She can ask. She shouldn't have to ask for everything.
+
+Gifts run on the same effort. Once the money is shared, a present bought from the joint account can seem pointless to you. She could have bought it herself. What the gift tells her is that she was on your mind while she wasn't in the room. She pointed out a book weeks ago. She loves a particular pastry and never stops for one. One Friday you come home with both. A note left where she'll find it does the same work and costs nothing.
+
+---
+
 **What's still there.** Couples followed over the years don't usually come apart because the fighting starts. They come apart because the warmth stops, and it stops first in the couples who've been at it longest. Partners who feel appreciated tend to be more appreciative back, and the research only says they travel together.
 
 That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing. You can start again, and you may also owe her an apology.
