@@ -3830,3 +3830,19 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch13/refined.md`
 
 **Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-30 02:00 — `claude/gateway-2hbp6i` — 4 commit(s) this session
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/chapters/ch13.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch13.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+- `runs/ch13/coherence-refined.md`
+- `runs/ch13/refined.md`
+- `runs/ch13/review.json`
+
+**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
