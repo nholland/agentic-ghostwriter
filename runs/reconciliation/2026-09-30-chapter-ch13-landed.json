@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-30T04:18:45.224031+00:00",
+  "subjects": [
+    "chapter:ch13"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md",
+    "books/the-stoic-husband/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md"
+  ],
+  "authority": "Author, 2026-09-30: 'Approved, put it on main'",
+  "reason": "Landed Ch13 book files; their knowledge is recorded in the chapter:ch13 receipt's concept updates.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch13/distillation.md": "4577dbdb3e8cc82839d8c9b40533624096a187ae2630baf2e3af1773aa6ba005",
+    "books/the-stoic-husband/chapters/ch13/interview.md": "e4c4f37066c70d1d0e53bd8c111ed5509c2e125f423cb6cf56f007958a267350",
+    "books/the-stoic-husband/chapters/ch13/refined.md": "df6d1ac0629bc2bdf8723fae7e26469c8040f59fa3bdce93f283a3165f483c2c",
+    "books/the-stoic-husband/chapters/ch13/research.md": "4511e36cf5bbe5048ece1347b290aff2e42f3e7a9965a19ba0b52780c47cb206",
+    "books/the-stoic-husband/design/plates/keep-choosing-her-in-ways-she-can-see.svg": "775f5917c0e75c36b12c092569ad8aefe592025a8d19f42af9ba6881d64bd0eb",
+    "books/the-stoic-husband/appendix/practice-guide.md": "3caefacdc917f906bd5b4433c5115d29527d34eb69a5ca0d98820913f84c2e1b",
+    "books/the-stoic-husband/citation-queue.md": "7944c49b43fd3029b70841b68027bef41ebba4e0783b098e8f115cf28882eb86"
+  }
+}

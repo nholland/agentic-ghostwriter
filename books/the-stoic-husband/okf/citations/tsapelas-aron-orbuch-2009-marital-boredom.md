@@ -33,7 +33,7 @@ verification_note: >
   secondary summaries and should not be stated as established without reading
   the paper.
 tags: [citation, boredom, longitudinal, aron, romance, needs-verification]
-chapter_slugs: [romance-is-a-discipline]
+chapter_slugs: [romance-is-a-discipline, pursue-her-after-you-have-her]
 timestamp: 2026-09-16T11:25:45Z
 ---
 
@@ -50,6 +50,14 @@ the chapter its stake without reaching for divorce statistics, which
 
 - /okf/citations/aron-et-al-2000-novel-arousing-activities.md
 - /okf/citations/huston-et-al-2001-connubial-crucible.md
+
+# Limits recorded for Chapter 13 (2026-09-24 addendum)
+
+From a direct reading recorded in `runs/ch13/research-addendum-2026-09-24.md`:
+123 still-married couples; year-seven boredom predicted lower year-sixteen
+satisfaction after baseline satisfaction was controlled. Couples who divorced before
+year sixteen are excluded, so the study says nothing about divorce. Write "predicted
+lower satisfaction," never "caused." Chapter 13 states it within these limits.
 
 # Citations
 

@@ -73,3 +73,9 @@
 1. **Proactive.** Once a week, on a set day, ask what actually counted that week and whether anything you did was for her alone. If nothing was, the week made that call for you.
 2. **Reactive.** When she tells you about something she's dreading, write down the day it lands, and ask her about it again on that day. Coming back to it is what says you were listening.
 3. **Proactive.** Name your own lowest language out loud, and check it against hers. The one you'd never think of is usually the one she reads best.
+
+## Chapter 13 — Pursue Her After You Have Her
+
+1. **Proactive.** Once a week, choose one thing she would enjoy or benefit from based on something you noticed. Plan and carry it through yourself, whether it is an errand, a small gift, or time together.
+2. **Reactive.** When she invites you to spend time together, put your phone away and give her your attention. If your mind wanders, come back to the moment you agreed to share.
+3. **Proactive.** Before an anniversary or Valentine's Day, recall something she enjoys now and plan a gesture around it. Give yourself enough time to make it personal.

@@ -920,3 +920,5 @@ Deeper research intake 2026-09-23T04:30:26+00:00: added four candidate citations
 Captured author instruction verbatim in an Author Note and indexed it. Earlier research items already exist in OKF; no duplicate sources created. Author requested moving to draft.
 
 - 2026-09-27T15:02:16.620265-05:00: Reconciled approved inbox 070, 084, 094–097 and 100; corrected chronology, nail mapping, terminology and romance limits. Added /notes/2026-09-27-approved-inbox-knowledge.md; retained pending 098/099 wording as pending. Author authorized backfill.
+
+- 2026-09-30 04:17 (Publisher): Chapter 13 approved ("Approved, put it on main"). Updated /citations/epictetus-enchiridion-30-relational-duties.md: Ch13 slug and the author's role/title application with its attribution boundary. Added the Ch13 slug to /citations/tsapelas-aron-orbuch-2009-marital-boredom.md (Perel already carried it); the chapter states the study within the limits in runs/ch13/research-addendum-2026-09-24.md (predicted, baseline-adjusted, still-married sample). Seneca Letter 58 river paraphrase was cut from Ch13 on the author's word ("Cut it"); no concept change.
