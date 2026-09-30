@@ -3438,3 +3438,38 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/reconciliation/2026-09-29-ch14-mindset-final.json`
 
 **Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-30 08:36 — `codex/shared-runtimes` — 2 commit(s) this session
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/okf/citations/bertolotti-having-enough-source-audit.md`
+- `books/the-stoic-husband/okf/citations/david-rebt-flexible-preferences.md`
+- `books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `books/the-stoic-husband/okf/citations/epictetus-wealth-few-wants-attribution-gap.md`
+- `books/the-stoic-husband/okf/citations/epicurus-via-seneca-letter-21-7-desires.md`
+- `books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-16-7-9-limits-of-desire.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-2-6-enough.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
+- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
+- `runs/ch14/brief-gaps.md`
+- `runs/ch14/handoff-note.md`
+- `runs/ch14/interview.md`
+- `runs/ch14/new-source-intake.md`
+- `runs/ch14/okf/citations/bertolotti-having-enough-source-audit.md`
+- `runs/ch14/okf/citations/david-rebt-flexible-preferences.md`
+- `runs/ch14/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `runs/ch14/okf/citations/epictetus-wealth-few-wants-attribution-gap.md`
+- `runs/ch14/okf/citations/epicurus-via-seneca-letter-21-7-desires.md`
+- `runs/ch14/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch14/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- … and 9 more
+
+**Next:** `/gw inbox` — Chapter 14 is parked on a question only you can answer.
