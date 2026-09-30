@@ -3918,3 +3918,11 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/reconciliation/2026-09-30-chapter-closing-cleanup.json`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 12:33 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md`
+- `runs/reconciliation/2026-09-30-ch12-ch13-outline-split.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
