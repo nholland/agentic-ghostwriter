@@ -163,3 +163,13 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 **Validation question:** What seems to be happening to these lines, and what feeling or action in a marriage does that bring to mind?
 
 **Source:** runs/parts/plate-3-warm-sun.svg; books/the-stoic-husband/parts/part-3-warm-sun.md
+
+## ch14 | Appreciation becomes care
+
+**Intent:** Notice what you value in your wife and let that appreciation shape ordinary acts of care, without requiring a particular response from her.
+
+**Visual explanation:** A watering can stands below the things he notices and appreciates. Three streams become a kinder answer, a sincere compliment, and time enjoying her company. The streams are explicitly named “the care you give her.” Grass represents “the life you share” and extends beyond the reach of this one act. The phrase “without requiring a particular response” sits directly beneath the three acts and above the shared ground, so its scope is those acts rather than the entire marriage. The drawing shows his contribution to shared life, without a before/after growth comparison, a promised return, or a claim that he alone sustains the marriage.
+
+**Validation question:** What connects noticing what you value in your wife with the three acts below, and does this picture suggest that she owes a response or that the marriage is his alone to sustain?
+
+**Source:** runs/ch14/plate.svg; runs/ch14/distillation.md; runs/ch14/refined.md, “Let appreciation become care”; runs/ch14/plate-brief.md; runs/ch14/plate-pick.md

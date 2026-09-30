@@ -1,0 +1,136 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Chapter 14: The Discipline of Enough (author review)</title><style>
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+html { -webkit-print-color-adjust: exact; }
+body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
+       margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
+
+/* ---- the reader-facing distillation after the plate ---- */
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
+.dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
+        text-align:center; line-height:1.25; margin:0 0 .08in;
+        page-break-before:avoid; }
+.dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
+        margin:.08in auto .10in; }
+.dist .mech { text-align:center; font: 600 11pt Georgia,serif;
+        letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
+.dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
+        margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
+.dist p { margin:0 0 .08in; }
+.dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
+        text-transform:uppercase; color:#5a5a5a;
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+.dist ol { margin:0 0 .1in; padding-left:.24in; }
+.dist li { margin:0 0 .07in; }
+
+/* ---- chapter ---- */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
+h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
+     margin:0 0 .06in; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h1 + hr.beat { display:none; }
+/* compile.py's marker for "start fresh page here", used before the Putting
+   It Into Practice section so a chapter's back matter never runs onto the
+   same page as its closing lines. Zero height: it does not itself print. */
+.pb { page-break-before:always; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
+p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
+p.runin { margin-top:.2in; }
+p.runin strong { font-weight:600; letter-spacing:.01em; }
+hr.beat { border:0; height:0; margin:.24in auto; width:1.1in;
+     border-top:.6pt solid #cfcfcf; }
+blockquote { margin:.22in .42in; padding-left:.2in; border-left:1.2pt solid #d4d4d4; }
+blockquote.pull { margin:.26in .3in; padding:0 0 0 .22in;
+     border-left:1.6pt solid #c9c9c9; page-break-inside:avoid; }
+blockquote.pull p { font: italic 11pt/1.56 Georgia,serif; }
+blockquote cite { display:block; font: normal 9pt Georgia,serif; font-style:normal;
+     color:#6a6a6a; margin-top:.09in; letter-spacing:.02em; }
+blockquote p { font: italic 10.5pt/1.55 Georgia,serif; color:#2f2f2f;
+     text-align:left; text-indent:0; margin:0; }
+em { font-style:italic; }
+strong { font-weight:600; }
+
+/* ---- plate ---- */
+/* A plate is a page a reader flips to, not a figure sitting in the running
+   text - full isolation, same treatment the Part closing plates already
+   get. Centred vertically as well as horizontally since it now owns the
+   whole page. */
+figure.plate { margin:0; text-align:center; page-break-before:always;
+     page-break-after:always; page-break-inside:avoid;
+     min-height:7.3in; display:flex; flex-direction:column;
+     align-items:center; justify-content:center; }
+figure.plate img { max-width:100%; max-height:6.8in; height:auto; }
+figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
+     margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
+.dropfirst::first-letter { font-size:1em; }
+
+
+h1.chapter-heading { font-family: Georgia, 'Times New Roman', serif;
+  font-size:20pt; font-weight:700; line-height:1.25; letter-spacing:normal;
+  margin:0 0 .30in; padding:0; border:0; text-indent:0;
+  break-after:avoid; page-break-after:avoid; }
+h1.chapter-heading .num { display:block; font-size:10pt; font-weight:400;
+  letter-spacing:normal; text-transform:none; color:#444; margin:0 0 .12in; }
+h1.chapter-heading .chapter-title { display:block; font-size:20pt;
+  font-weight:700; letter-spacing:normal; text-transform:none; }
+h1 + p, h1 + hr + p, h2 + p, h3 + p { text-indent:0; }
+/* Shared reading format: ordinary paragraphs are flush left, never indented. */
+p, p + p, p.runin, p.runin + p { text-indent:0; text-align:left; }
+h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
+  letter-spacing:normal; text-transform:none; color:inherit;
+  margin:.20in 0 .10in; padding:0; border:0;
+  break-after:avoid; page-break-after:avoid; }
+</style></head><body><section><h1 class="chapter-heading"><span class="num">Chapter 14</span>
+<strong class="chapter-title">The Discipline of Enough</strong></h1>
+<p>You can love your wife and struggle to remember the last thing about her you stopped to enjoy. You know what needs doing. Ask what you appreciate about her today, and you might need a minute.</p>
+<p>That pause doesn’t mean you don’t care. When you share a life, there’s a lot to keep track of. You notice the appointment nobody made, the expense you weren’t expecting, the habit that still annoys you. The things going well don’t ask for your attention quite so loudly. Your wife can become so familiar that you recognize her complaints faster than her kindness.</p>
+<hr class="beat">
+<h2 class="beat-heading">The woman you love now.</h2>
+<p>My wife is a light sleeper. She hears something at night and wakes me to check it. She’s also a morning person who gets the household up. She saves small things I’d throw away, sometimes retrieving them from the trash. We bicker about those things. I love her frugality, and we still disagree about what needs keeping.</p>
+<p>She’s getting gray hairs. She doesn’t want other people to see them. I love them. She was a highly paid executive. Now she’s taken a sabbatical, a break from her career, to be a full-time mother. Her income has changed. Her body has changed. Mine has too. She is enough for me.</p>
+<p>Enough doesn’t mean I enjoy being woken up. It means I see more of her than the interruption to my sleep.</p>
+<p>You have your own details. Maybe your wife remembers what matters to someone who’s having a hard time. Maybe she can make you laugh when you’ve been taking yourself too seriously. Name something true about her. Remember, too, something you value about the history you’ve built together. Stay with that particular thing long enough to remember why you value it. You don’t need to improve her in your imagination before you can appreciate her in your life.</p>
+<hr class="beat">
+<h2 class="beat-heading">When enough keeps changing.</h2>
+<p>Comparison makes this harder. You meet someone who’s funny, and suddenly your wife’s humor is under review. Someone else earns more. Another woman looks different. You know very little about any of them. But the one thing you’ve noticed becomes a new condition your wife needs to meet. You could keep adding conditions for years.</p>
+<p>She could do the same to you. Somewhere there’s a man who earns more, another who’s more patient, another who makes her laugh. You’d want her to remember the whole of you. That same fairness belongs in the way you see her.</p>
+<p>In Letter 16, the Stoic philosopher Seneca credits Epicurus for distinguishing natural needs from wants shaped by opinion. Seneca then asks whether a desire has a stopping point. Their subject isn’t marriage, but you can apply Seneca’s question here. Would getting what you want satisfy you, or would you immediately want something else? If your wife met today’s condition, would you let yourself enjoy her? Or would you find the next thing she lacks?</p>
+<p>You can notice beauty or wit without making either a complaint about your marriage. A passing attraction doesn’t require a long argument with yourself. You can acknowledge what caught your attention and choose what deserves more of it. Your wife doesn’t need to win another comparison before you treat her with affection.</p>
+<hr class="beat">
+<h2 class="beat-heading">Notice what you value.</h2>
+<p>What are you going to give your attention to?</p>
+<p>The Stoic philosopher Marcus Aurelius offers a practice in <em>Meditations</em> VI.48: “When thou wishest to delight thyself, think of the virtues of those who live with thee”.</p>
+<p>Think about the good qualities of the people already near you. That gives your mind an actual task. You aren’t ordering yourself to feel satisfied. You’re recalling something worth being glad about, something familiarity may have made easy to overlook.</p>
+<p>This is the discipline of enough: practicing appreciation for the real person you’ve chosen. Your attention, your gratitude, and the care you give her are things you can work on. You don’t have to wait until you’re restless to begin.</p>
+<hr class="beat">
+<h2 class="beat-heading">Practice before you need it.</h2>
+<p>The research gives some support to practicing gratitude rather than waiting for it. Robert Emmons and Michael McCullough explored this in a 2003 paper. Its title is “Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life.” They asked people to record things they were grateful for. People reported improvements in some aspects of how they felt, compared with certain groups given different tasks. The results varied. These weren’t experiments proving that gratitude creates a contented marriage. They give us a reason to take deliberate attention seriously.</p>
+<p>You can try it with something small enough to be honest. Before you go to bed, write down one thing you valued about your wife that day. Her patience with a child. Her excitement about something she’s learning. The way she told you the truth when it would’ve been easier to agree. Choose what you actually noticed, rather than filling the page with qualities a good wife is supposed to have.</p>
+<p>If nothing comes to mind, give yourself a chance to notice tomorrow. You haven’t failed an exercise. Tomorrow, pay attention to something you value about her. And if you’re upset with her, you don’t have to pretend the hurt disappeared. There may still be something you appreciate alongside it.</p>
+<p>Then let some of that appreciation reach her. Tell her what you saw and why it mattered to you. Be specific enough that she knows you paid attention. If you enjoy hearing about something she’s learning, tell her what you like about her curiosity. You can thank her for what she does. You can also enjoy things about her that do nothing for you. Her curiosity belongs to her. So does the pleasure she takes in getting good at something. You get to love a person whose life includes more than meeting your needs.</p>
+<hr class="beat">
+<h2 class="beat-heading">Let appreciation become care.</h2>
+<p>“The grass is greener where you water it” is a saying I keep coming back to. I don’t know who first said it. The attention matters because it gives you something real to appreciate. The appreciation matters because it can become a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.</p>
+<p>You may have been saying you want to feel closer. How much thought have you given to what you already enjoy together? Let yourself enjoy it when it happens. Stay in the conversation because you like talking to her. Laugh without immediately returning to what needs doing. There’s room in a responsible life to be glad she’s part of it.</p>
+<p>Enough also asks you to keep caring for yourself. Your health still deserves effort. So does the marriage. Contentment doesn’t settle a concern that needs an honest conversation, and gratitude doesn’t make recurring hurt harmless. I don’t have a fixed rule for when appreciation is enough and when you need to speak. That takes judgment, and sometimes a difficult conversation. You can love who she is while taking a problem seriously.</p>
+<p>Nor does any of this require her to answer your affection on your schedule. If you tell her what you appreciate, let it be true even when she’s tired or distracted. You valued something about her before you spoke. Her response doesn’t have to justify having noticed it.</p>
+<p>That’s harder when your affection includes desire. You can be glad she’s your wife and still feel hurt when you reach for her and hear no. Contentment won’t spare you that feeling. Her answer doesn’t have to decide your self-respect. You’ll have to decide how to treat her while you feel it.</p>
+<hr class="beat">
+<p>Keep tending the life you share, including on the days it gives you nothing new to admire.</p><figure class="plate"><img src="ch14-plate.png" width="640" height="500" alt=""></figure></section><section class="dist distback"><p class="kicker">Put it into practice</p><h1>Chapter 14 Distillation — The Discipline of Enough</h1><div class="rule"></div>
+<p class="runin"><strong>Mechanism:</strong> Appreciation becomes care</p>
+<p class="runin"><strong>Conversation sentence:</strong> You practice enough by noticing what you value in your wife and letting that appreciation change how you care for her.</p>
+<p>Familiarity can make complaints easier to notice than good qualities. Comparison adds new conditions a real person cannot keep meeting. Give your attention a different task: name something you value about the woman your wife is now. Let yourself enjoy it, tell her, and let that appreciation become care on ordinary days. Her changing body, work, and habits belong to the person you love. Gratitude leaves room for honest concerns and care for your own health. It asks for no particular response from her.</p>
+<p class="runin"><strong>Lesson:</strong> Contentment grows through practiced attention and appreciation for the real person you chose.</p>
+<p class="runin"><strong>Challenge:</strong> Name one thing you appreciate about your wife today and tell her why it matters to you, without adding a request.</p>
+<h2>Practice</h2>
+<ol><li>Before bed each night, write down one thing you valued about your wife that day. Name something you actually noticed. If nothing comes to mind, pay attention tomorrow instead of inventing praise.</li><li>When you notice something you appreciate about her, tell her what you saw and why it mattered to you. Let your thanks stand without requiring a particular response.</li><li>When a passing comparison becomes a complaint about your wife, ask whether meeting this new condition would satisfy you. Recall something you value about the whole person she is.</li></ol></section></body></html>

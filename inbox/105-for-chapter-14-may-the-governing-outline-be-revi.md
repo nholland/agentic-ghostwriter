@@ -1,9 +1,12 @@
 ---
 id: 105
-status: open
+status: resolved
 raised_by: gw-ghostwriter plan-only gate, second failed attempt
 chapter: 14
 opened: 2026-09-29 23:20
+resolved: 2026-09-30 17:32
+applied_by: grep -Fq "Author: Yes, use the newer direction" runs/reconciliation/2026-09-30-ch14-direction.json
+okf_receipt: runs/reconciliation/2026-09-30-ch14-direction.json
 ---
 
 # For Chapter 14, may the governing outline be revised to center practicing enough through appreciation and gratitude, replacing the work-trip highlight-reel story and unsupported universal courtship claim?
@@ -21,3 +24,13 @@ Cold gw-ghostwriter plan-only gate (2026-09-29): FAIL — current outline requir
 ```
 
 **What unblocks this:** Chapter 14 outline/specification and cold-draft gate
+
+**Resolution (2026-09-30 17:32):** Yes, use the newer direction.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `Updated books/the-stoic-husband/03-outline.md, 05-framework.md and runs/ch14/outline-section.md` exits 0.
+
+**Resolution (2026-09-30 17:33):** Yes, use the newer direction.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `grep -Fq "Author: Yes, use the newer direction" runs/reconciliation/2026-09-30-ch14-direction.json` exits 0.
+
+**Applied, confirmed 2026-09-30 17:33:** `grep -Fq "Author: Yes, use the newer direction" runs/reconciliation/2026-09-30-ch14-direction.json` now exits 0.

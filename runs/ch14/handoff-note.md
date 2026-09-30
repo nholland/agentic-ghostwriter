@@ -53,3 +53,67 @@ and 106 (pending appreciation synthesis and optional extension). Neither is
 an approval. `proposed-concepts.md` remains open; do not change the outline,
 write accepted concepts, or draft until the author answers. This research
 addition is complete; Chapter 14 production remains at the concept stage.
+
+## Drafting, 2026-09-30
+
+The author replied: “Please commit to OKF. Let's start drafting!” The
+Publisher treated this as authority for a shadow draft following his direct
+appreciation/gratitude direction, not as an amendment to the constitutional
+outline. The cold Ghostwriter wrote `draft.md` (1,244 prose words), followed
+by two source-attribution revision passes. The counted voice gate passes. The
+isolated conformance report is against the unchanged official outline and
+therefore has 4/12 rows passing, with failures concentrated on its older
+comparison, novelty and work-trip commission. It retains one finding about
+the grass-and-watering saying's unknown origin; the draft acknowledges that
+unknown origin. Do not run refinement or landing until the author reviews
+this draft and rules on outline alignment and the pending concept.
+
+## Files found after the 08:36 checkpoint, 2026-09-30
+
+Newer Chapter 14 working files are present: `distillation.md`,
+`outline-before-approval.md`, `plate-brief.md`, `plate-concepts.md`,
+`concepts/A.svg` through `concepts/C.svg`, `refined.md`,
+`persona-refined.md`, `conformance-refined.md`, and `coherence-refined.md`.
+Inspect them and their provenance before continuing; the prior checkpoint did
+not describe these later files. `plate-concepts.md` says no concept was
+selected, no finished plate was produced, and rendering failed, so the SVGs
+were not visually inspected. Do not treat the new files as approvals or land
+them without the author's ruling. The pending inbox items and current oracle
+remain authoritative.
+
+
+## Author ruling and current state, 2026-09-30
+
+The author approved the newer appreciation direction: “Yes, use the newer
+direction.” The Publisher revised the constitutional outline and existing
+OKF framework in separate commit `655c3d5` and closed inbox items 105 and
+106. The chapter now has a 1,295-word refined prose file with five
+subsections, a matching distillation and practice-guide entry, conformance
+PASS, scoped reader/coherence PASS, and a drafted standalone plate. The cold
+plate pick selected concept A; its standalone read passed. The rendered plate
+was visually inspected; the one allowed Designer revision and final format
+check remain. No chapter verdict has been given and nothing is landed.
+
+The available research supports the bounded claims in the prose; the physical
+house-edition wording for Marcus VI.48 remains author-checkable, and the
+watering saying's origin remains unknown and is stated as such.
+
+## Final review package status, 2026-09-30 17:51 CDT
+
+The author's outline ruling is recorded; the approved outline now centers enough,
+appreciation and gratitude. This supersedes the pending-decision and next-action
+paragraphs above. The final refined prose is 1,287 words in five bold run-in
+sections. Its matching distillation and synchronized practice-guide entry are
+present. The counted voice check and practice sync pass. The isolated refined
+conformance report passes 12/12; the grass/watering saying's origin remains
+unknown and is acknowledged. Fresh scoped persona and coherence reports found
+no essential repair; the coherence reviewer disclosed accidental exposure to
+adjacent editorial apparatus during extraction.
+
+The Panel selected plate A. The final SVG includes the caveat that appreciation
+and care do not require a particular response. A cold standalone read and the
+Publisher's final 11-row rendered-plate check pass; the one-sided-care reading
+remains a disclosed secondary risk. The seven-page Chapter 14 PDF and reader
+package checks pass. The current oracle is verdict. No chapter verdict has been
+given; do not land this chapter. Resume by presenting the review materials to
+the author and recording his verdict. Branch: `codex/shared-runtimes`.

@@ -3473,3 +3473,20 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 9 more
 
 **Next:** `/gw inbox` — Chapter 14 is parked on a question only you can answer.
+
+
+## 2026-09-30 — Chapter 14 appreciation direction approved
+
+The author ruled, “Yes, use the newer direction.” The Publisher revised the
+constitutional outline and OKF framework in commit `655c3d5` (message quotes
+the ruling), recorded reconciliation in
+`runs/reconciliation/2026-09-30-ch14-direction.json`, and closed inbox 105
+and 106. A cold Line Editor refined the shadow draft into five sections, a
+distillation and synchronized practice-guide entry. Independent counted
+voice check and practice sync pass. The isolated refined conformance review
+passes 12/12, with the saying's unknown attribution left explicit. Cold
+scoped persona and qualitative adjacent-chapter reviews found no essential
+repairs. The Panel selected plate concept A; the rendered plate passed visual
+inspection and its standalone Panel read passed. One final designer format
+pass remains. Chapter 14 awaits only final packet assembly and the author's
+verdict; no prose or plate is landed.

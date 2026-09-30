@@ -24,3 +24,9 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 1. **Proactive.** Once a week, choose one thing she would enjoy or benefit from based on something you noticed. Plan and carry it through yourself, whether it is an errand, a small gift, or time together.
 2. **Reactive.** When she invites you to spend time together, put your phone away and give her your attention. If your mind wanders, come back to the moment you agreed to share.
 3. **Proactive.** Before an anniversary or Valentine's Day, recall something she enjoys now and plan a gesture around it. Give yourself enough time to make it personal.
+
+## Chapter 14 — The Discipline of Enough
+
+1. **Proactive.** Before bed each night, write down one thing you valued about your wife that day. Name something you actually noticed. If nothing comes to mind, pay attention tomorrow instead of inventing praise.
+2. **Reactive.** When you notice something you appreciate about her, tell her what you saw and why it mattered to you. Let your thanks stand without requiring a particular response.
+3. **Reactive.** When a passing comparison becomes a complaint about your wife, ask whether meeting this new condition would satisfy you. Recall something you value about the whole person she is.
