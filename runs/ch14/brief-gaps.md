@@ -33,3 +33,12 @@ candidate and locator, and the second pass reported **no missing brief
 details**. A cold writer could draft from the brief once items 1–2 receive
 author rulings. The wisdom and causal-source gaps remain intentionally
 unresolved; no researcher should invent answers for them.
+
+## Screenshot follow-up, 2026-09-29T23:16:33-05:00
+
+- Six source/audit records are staged under `runs/ch14/okf/citations/` and integrated into the canonical OKF by the Publisher. Knowledge reconciliation for this batch is pending. Earlier item 5 applies only to the earlier batch.
+- The screenshot’s initially suspected loving/having defect is withdrawn: the full article reads having. The article’s Seneca and Epicurus lines are abbreviated paraphrases, not exact house quotations.
+- The popular Epictetus wealth sentence remains an attribution gap. Enchiridion 39 is related, not its authenticated locator. Omit the sentence; no author answer is needed to omit it.
+- Seneca 16 and REBT strengthen optional explanations of moving standards and flexible preferences. The application to marriage is still proposed, and no source supplies the author’s missing wisdom formula.
+- Reject the article’s unqualified income/happiness plateau statement from this chapter. It is unnecessary to the marriage case and conflicts with the caution already recorded in the hedonic-treadmill concept.
+- Existing author decisions remain unchanged. A fresh cold Ghostwriter plan-only review found no new screenshot-source gap. It failed the overall gate because the approved outline still prescribes the highlight-reel comparison, an Epictetus lesson, a universal courtship-fading mechanism and a work-trip story, while the current brief follows the author's later appreciation/gratitude direction. A cold writer cannot resolve the conflict. The gate failure was recorded as the second durable `gw-ghostwriter` attempt; move the author-only outline and proposed-content decisions to the inbox. Do not draft before the author rules.

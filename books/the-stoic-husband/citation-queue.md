@@ -4,18 +4,18 @@
 > Every field is read from `okf/citations/*.md` frontmatter, which is canonical per CLAUDE.md Rule 11.
 > Edit the concept file, then re-run this script. Replaces the retired `sources/citation-manifest.md`.
 
-*Last generated: 2026-09-29 — 134 citations.*
+*Last generated: 2026-09-29 — 140 citations.*
 
 ## Where things stand
 
 | Status | Count | Meaning |
 |---|---|---|
-| `unverified` | 30 | Not yet confirmed against any source. |
+| `unverified` | 36 | Not yet confirmed against any source. |
 | `verifiable` | 100 | Confirmed, but not by you. Still needs your physical-copy check before print. |
 | `verified` | 1 | You confirmed it against your own copy. |
 | `superseded` | 3 | Replaced by a better source; no action. |
 
-**130 citations still need your attention** before publication.
+**136 citations still need your attention** before publication.
 
 ## Needs your physical copy
 
@@ -92,15 +92,19 @@ Sorted verbatim-quotes-first: those need exact wording *and* punctuation checked
 | [Treynor, Gonzalez & Nolen-Hoeksema (2003) — Brooding vs. Reflective Pondering](okf/citations/treynor-2003-brooding-vs-reflection.md) | `verifiable` | speak-or-endure | Full text not retrieved this session (egress proxy). The two-factor split and the direction of each factor's association with depression are consistent across every secondary source found. Confirm the exact factor definitions and any figures before prose states them. No verbatim quote is needed —… |
 | [Elie Wiesel — The Opposite of Love Is Indifference](okf/citations/wiesel-opposite-of-love-is-indifference.md) | `verifiable` | silence-is-not-peace | Attribution and approximate date corroborated across independent secondary sources (Quote Investigator's own investigation is specifically reliable for tracing quote origins). Exact original magazine wording not independently read this session. Confirm final wording against the original US News &… |
 
-### Cited, never quoted — check the finding, not a quote (72)
+### Cited, never quoted — check the finding, not a quote (78)
 
 | Citation | Status | Chapters | What's needed |
 |---|---|---|---|
+| [Bertolotti Having Enough — Source Audit](okf/citations/bertolotti-having-enough-source-audit.md) | `unverified` | the-discipline-of-enough | Direct web page inspected; source findings remain unverified under Researcher rules. No physical house edition inspected. See body for attribution limits. |
 | [Appearance Change, Attraction, and Long Marriage](okf/citations/ch14-appearance-change-and-attraction.md) | `unverified` | the-discipline-of-enough | No source reviewed. Author's observations and hypothesis are not empirical findings. |
 | [Pornography, Romance Media, and Partner Expectations](okf/citations/ch14-pornography-romance-media-expectations.md) | `unverified` | the-discipline-of-enough | No source reviewed. Direction and causation cannot be claimed yet. |
 | [Chapman (1992) — The Five Love Languages](okf/citations/chapman-1992-five-love-languages.md) | `unverified` | romance-is-a-discipline | The BOOK is real and trivially locatable; what is unverified is any claim that it carries empirical weight. It does not. Chapman is a pastoral counsellor, the typology came out of his counselling notes rather than a study, and independent tests of its assumptions do not support it (see Impett, Pa… |
 | [McDermott, Fowler & Christakis (2013) — Divorce Clustering Through Social Networks](okf/citations/christakis-fowler-divorce-clustering.md) | `unverified` | — | Real, locatable peer-reviewed source (Social Forces, 2013) — this is not a listicle-grade claim. Follow-up performed 2026-08-17 during /book-chapter-research 10, with partial results: secondary coverage (Pew Research Center, Yale Daily News, Globe and Mail) consistently reports **75% higher odds … |
+| [Daniel David — REBT Flexible Preferences and Demands](okf/citations/david-rebt-flexible-preferences.md) | `unverified` | the-discipline-of-enough | Direct web page inspected; source findings remain unverified under Researcher rules. No physical house edition inspected. See body for attribution limits. |
 | [Emmons and McCullough (2003) — Practicing Gratitude](okf/citations/emmons-mccullough-2003-counting-blessings.md) | `unverified` | the-discipline-of-enough | Primary text inspected at the resource URL; unverified source finding under Researcher rules. No physical-copy check and no verbatim manuscript quotation authorized by this record. |
+| [Epictetus Few Wants — Unlocated Attribution](okf/citations/epictetus-wealth-few-wants-attribution-gap.md) | `unverified` | the-discipline-of-enough | Direct web page inspected; source findings remain unverified under Researcher rules. No physical house edition inspected. See body for attribution limits. |
+| [Epicurus via Seneca Letter 21.7–8 — Pythocles and Desire](okf/citations/epicurus-via-seneca-letter-21-7-desires.md) | `unverified` | the-discipline-of-enough | Direct web page inspected; source findings remain unverified under Researcher rules. No physical house edition inspected. See body for attribution limits. |
 | [Fatherly — "23 Damn Good Pieces of Marriage Advice](okf/citations/fatherly-23-pieces-of-marriage-advice.md) | `unverified` | how-to-fight-without-becoming-small | The article was analyzed extensively in source material but has not yet been fetched directly. A researcher agent should fetch the article and extract any direct, attributable therapist quotes usable in Ch 5 and the general conflict chapters. Do not invent quotes or attribute statements to named … |
 | [Hanson — "Taking In the Good" / HEAL Method (Hardwiring Happiness)](okf/citations/hanson-taking-in-the-good.md) | `unverified` | the-discipline-of-joy | The HEAL method and its negativity-bias rationale are confirmed real and accurately described via Hanson's own site, publisher materials, and independent reviews, 2026-07-28. The specific "12 seconds" duration in the source material could NOT be confirmed against any primary source found during t… |
 | [Household Labor Distribution and Caretaker Burden Research](okf/citations/household-labor-and-caretaker-burden.md) | `unverified` | the-end-of-scorekeeping, when-your-marriage-feels-unfair | Author asked directly whether research exists on the feeling that a home-managing spouse's work never has a stopping point. Look for division-of-household-labor / cognitive-load research (e.g., Hochschild's "second shift" framing, or more recent studies on perceived fairness in household labor di… |
@@ -111,6 +115,8 @@ Sorted verbatim-quotes-first: those need exact wording *and* punctuation checked
 | [Marcus Aurelius — Impermanence and Gratitude in Meditations](okf/citations/marcus-aurelius-impermanence-and-gratitude.md) | `unverified` | the-discipline-of-joy, growing-old-without-growing-apart | Specific passages have not yet been identified — the source material notes "the memento mori passages that are relevant to marriage rather than death broadly" still need to be located. Anchors Ch 25 and Ch 26. Do not invent passages (CLAUDE.md Rule 3). |
 | [Marcus Aurelius, Meditations VII.27 — Valuing Present Goods](okf/citations/marcus-aurelius-meditations-7-27-present-goods.md) | `unverified` | the-discipline-of-enough | Primary text inspected at the resource URL; unverified source finding under Researcher rules. No physical-copy check and no verbatim manuscript quotation authorized by this record. |
 | [Prosoche (Daily Self-Attention)](okf/citations/prosoche-daily-self-attention.md) | `unverified` | the-marriage-you-build-every-day | Primary source material and a usable definition/examples have not yet been identified. Usable for Ch 22 (the marriage you build every day). Do not invent a definition or examples (CLAUDE.md Rule 3) — ground in Epictetus or Marcus directly. |
+| [Seneca Letter 16.7–9 — Desires Without a Stopping Point](okf/citations/seneca-letter-16-7-9-limits-of-desire.md) | `unverified` | the-discipline-of-enough | Direct web page inspected; source findings remain unverified under Researcher rules. No physical house edition inspected. See body for attribution limits. |
+| [Seneca Letter 2.6 — Necessary and Enough](okf/citations/seneca-letter-2-6-enough.md) | `unverified` | the-discipline-of-enough | Direct web page inspected; source findings remain unverified under Researcher rules. No physical house edition inspected. See body for attribution limits. |
 | [Sisyphean Labor and the Loss of Meaning (Repetitive Undone Work)](okf/citations/sisyphean-labor-and-meaning.md) | `unverified` | duty-without-resentment, the-end-of-scorekeeping, when-your-marriage-feels-unfair | The author recalled a study (or set of studies) where participants were paid well — reportedly escalating amounts — to perform repetitive manual work (e.g., stacking blocks), and a researcher periodically destroyed the completed work in front of them and asked them to redo it. As recalled, even h… |
 | [Skowron 2000 — Differentiation of Self and Marital Satisfaction](okf/citations/skowron-2000-differentiation-and-marital-satisfaction.md) | `unverified` | sex-rejection-and-self-respect, friendship-is-the-hidden-engine | The Skowron (2000) study was cited in the ChatGPT Perel analysis (an AI-assisted conversation, not a direct source check). Must be verified before use — confirm the study exists, its findings, and that it supports the claimed link between differentiation and marital adjustment. Anchors Ch 13 and … |
 | [Thomas, Carnelley & Hart (2022) — Phone Distraction and Retaliation](okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md) | `unverified` | pursue-her-after-you-have-her | Publisher and repository full-text retrieval failed. Research lead retained honestly as an open gap, not a demonstrated causal effect. |

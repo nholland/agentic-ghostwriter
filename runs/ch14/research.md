@@ -210,3 +210,54 @@ The brief is **research-delegable for a plan-only review**, but **not yet an
 authorized drafting commission** under the unchanged outline. An independent
 Ghostwriter must judge delegability. This Researcher does not grade prose or
 approve its own brief gate.
+
+## Screenshot follow-up: enough, desire and preferences
+
+Cold Researcher follow-up, 2026-09-29T23:16:33-05:00. Intake: `new-source-intake.md` and
+`source-having-enough-screenshot.jpg`. Exact source: J.W. Bertolotti,
+[A Stoic Guide to Happiness: The Art of Having Enough](https://perennial.substack.com/p/a-stoic-guide-to-happiness-the-art),
+November 11, 2025, Day 129. The full article resolves the initial narrow-image
+misreading: it says **having**, not **loving**. No such misquotation should be
+reported. It is a secondary lead; the findings below come from direct primary
+text or an authoritative theory exposition. All six new staged records remain
+`unverified / none / page-text`; none is manuscript quote-ready by status.
+
+| Finding and exact locator | Use and limit | Staged citation under `runs/ch14/okf/citations/` |
+|---|---|---|
+| [Seneca 2.6, Gummere](https://thestoiclibrary.com/letters/2) | Defines the limit of wealth through necessity and sufficiency. The article abbreviates the wording. Supports enough; supplies no appreciation exercise. | `seneca-letter-2-6-enough.md` |
+| [Seneca 16.7–9, Gummere](https://thestoiclibrary.com/letters/16) | Credits Epicurus for nature/opinion; examines whether desire has a stopping point. Strongest new ancient contribution: a way to examine endlessly moving standards. | `seneca-letter-16-7-9-limits-of-desire.md` |
+| [Epicurus via Seneca 21.7–8, Gummere](https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_21) | Epicurus addresses Idomeneus about Pythocles; note 5 identifies fragment 135 Usener. The article generalizes and abbreviates it. Use correct mediated attribution, if selected at all. | `epicurus-via-seneca-letter-21-7-desires.md` |
+| [Epictetus Enchiridion 39.1, Greek and Watanabe commentary](https://dcc.dickinson.edu/epictetus-encheiridion/chapter-39) | Authentic related counsel about limiting possessions, but does not authenticate the article’s popular wealth sentence. Reject that sentence for quotation pending an ancient locator; do not declare proven fabrication. House Long English was not checked here. | `epictetus-wealth-few-wants-attribution-gap.md` |
+| [Daniel David, REBT Theory and Practice sections](https://albertellis.org/rebt-therapy-in-the-context-of-modern-psychological-research/) | Flexible preferences retain motivation; rigid demands insist on outcomes. Theory exposition hosted by Ellis’s institute, not Ellis verbatim or a marriage experiment. | `david-rebt-flexible-preferences.md` |
+| Bertolotti article audit | Tracks full-page correction, mediated attributions and exclusions. Do not import its flat income/happiness plateau claim; existing hedonic-treadmill knowledge already cautions against that claim. | `bertolotti-having-enough-source-audit.md` |
+
+**Selection recommendation, not author doctrine.** Keep Marcus VI.48 and the
+existing gratitude evidence as the positive center. Seneca 16 adds an account
+of why contentment escapes a continually revised standard; REBT adds the
+possibility of keeping a preference without making it a condition for valuing
+a whole person. Together they could explain what frees attention for the
+watering already commissioned by the author. They do not prove that dropping
+demands causes gratitude, that gratitude fixes attraction, or that a spouse
+must accept every condition. Choosing this application remains proposed.
+The ancient examples concern possessions; do not make a wife one of them.
+Do not add a second central metaphor from shoes, cliffs, travel or Epicurus’s
+garden. In 1,200–1,500 words, use at most one new ancient idea and a brief REBT
+clarification if needed, rather than a four-author survey.
+
+**Reuse check, this pass.** `rg` across canonical OKF and all refined chapters,
+plus `runs/ch13/refined.md`, found no exact use of Letters 2.6, 16.7–9, 21.7,
+Pythocles, Enchiridion 39, or the popular wealth sentence. Ellis already appears
+as a sourcing lead in `okf/frameworks/metacognition-and-the-internal-dialogue.md`;
+this is not a second empirical confirmation. Ch8 already separates wanting
+appreciation from requiring it; Ch10 distinguishes boundaries and preferences;
+Ch11 addresses harmless differences and speaking about recurring hurt. Keep
+REBT brief and avoid re-teaching those chapters. Ch6–8 gratitude, Ch12’s Gordon
+study, Ch13’s active appreciation and the later Ch27 hedonic material remain
+the reuse constraints described above. Grass/watering remains the Ch14 image.
+
+**Still unanswered.** No precise ancient source authenticates the popular
+Epictetus sentence. No new source proves the entire marriage synthesis. The
+pending outline and content decisions remain pending. Publisher must integrate
+these six staged records and reconcile the canonical index/log/receipt before
+calling knowledge completion; the prior integration entry covers the earlier
+batch only. The prior independent brief review predates this addendum.

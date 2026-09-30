@@ -55,3 +55,15 @@ boundary and acknowledgment of wisdom's unresolved judgment in the chapter.
 No new doctrine should be inferred from the old pending wording.
 
 **Author response to earlier formulation:** Pending.
+
+## Optional extension from screenshot research
+
+Pending source-informed addition to Proposal 1, not an accepted practice:
+examine whether an imagined standard keeps moving; retain wishes as flexible
+preferences without making the real partner’s worth depend on meeting every
+one. Seneca Letter 16 and REBT offer distinct source support for parts of
+this thinking. Connecting it to appreciation and outward care is an author
+synthesis proposal, not a tested causal sequence. It does not revive or
+approve the prior wisdom test.
+
+**Author response:** Pending.

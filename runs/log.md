@@ -3412,3 +3412,29 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 55 more
 
 **Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-30 07:46 — `codex/shared-runtimes` — 1 commit(s) this session
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `runs/ch14/brief-gaps.md`
+- `runs/ch14/handoff-note.md`
+- `runs/ch14/interview.md`
+- `runs/ch14/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `runs/ch14/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch14/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- `runs/ch14/outline-proposal.md`
+- `runs/ch14/proposed-concepts.md`
+- `runs/ch14/research.md`
+- `runs/handoff.json`
+- `runs/reconciliation/2026-09-29-ch14-mindset-final.json`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).

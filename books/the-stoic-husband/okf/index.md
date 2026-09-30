@@ -269,6 +269,12 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Marcus Aurelius, Meditations VI.48 — Notice the Virtues of Those Near You](/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md) — status: verifiable; short candidate quotation transcribed from online Long text
 - [Emmons and McCullough (2003) — Practicing Gratitude](/citations/emmons-mccullough-2003-counting-blessings.md) — status: unverified; randomized gratitude exercises, mixed outcomes
 - [Koo et al. (2008) — Mentally Subtracting Positive Events](/citations/koo-et-al-2008-mental-subtraction.md) — status: unverified; immediate effect in selected relationship sample
+- [Seneca, Letter 2.6 — necessary and enough](/citations/seneca-letter-2-6-enough.md) — status: unverified; online Gummere text, with Epicurus attribution boundary in 2.5
+- [Seneca, Letter 16.7–9 — desires without a stopping point](/citations/seneca-letter-16-7-9-limits-of-desire.md) — status: unverified; the nature/opinion maxim in 16.7 is credited to Epicurus
+- [Epicurus via Seneca, Letter 21.7–8 — reducing desires](/citations/epicurus-via-seneca-letter-21-7-desires.md) — status: unverified; mediated ancient attribution, not a surviving letter to Pythocles
+- [Epictetus “few wants” — attribution gap](/citations/epictetus-wealth-few-wants-attribution-gap.md) — status: unverified; popular wording lacks an ancient locator
+- [Daniel David — flexible preferences and rigid demands in REBT](/citations/david-rebt-flexible-preferences.md) — status: unverified; theoretical distinction, not a marriage study or Ellis quotation
+- [Bertolotti, “The Art of Having Enough” — source audit](/citations/bertolotti-having-enough-source-audit.md) — status: unverified; secondary lead checked against primary texts
 
 ## Signals
 
