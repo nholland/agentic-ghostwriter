@@ -62,6 +62,18 @@ Gifts run on the same effort. Once the money is shared, a present bought from th
 
 ---
 
+**The last one you did.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening, and romance is bigger than that. If you have to count back through months to find an answer, you've found your starting place.
+
+In your marriage it might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. What counts is that the gesture could only have been meant for her.
+
+Anniversaries and Valentine's Day lose their meaning when you handle them by rote. Ten minutes from home you swing into Walgreens for whatever card is left and a box of chocolate that's been on the shelf since Christmas. You remembered the date. You gave almost no thought to the woman you were celebrating.
+
+Spend the same few dollars with a week's notice and you can give her something she'd actually want. Plan the dinner she'd enjoy. Write down one memory that still makes you glad you married her. Start early enough to mean it.
+
+You don't owe the calendar a performance, and a quiet evening at home is an honest way to mark a crowded year. The date matters less than whether you've been thoughtful the rest of the year.
+
+---
+
 **What's still there.** Couples followed over the years don't usually come apart because the fighting starts. They come apart because the warmth stops, and it stops first in the couples who've been at it longest. Partners who feel appreciated tend to be more appreciative back, and the research only says they travel together.
 
 That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing. You can start again, and you may also owe her an apology.
@@ -72,4 +84,6 @@ Marcus Aurelius ran the Roman empire and kept a notebook where he argued with hi
 
 ---
 
-She's been waiting to be one of the necessary things, and the muscle that puts her there is one you can start using tonight.
+She's been waiting to be one of the necessary things, and that muscle is one you can start using tonight.
+
+---

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-30T16:00:07.221610+00:00",
+  "subjects": [
+    "chapter:ch12"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md"
+  ],
+  "authority": "Author, 2026-09-30: \"Romance is action, Persuit is interest\"; verdict \"Land both on the branch (Recommended)\"",
+  "reason": "Ch12 re-landed after the action/attention split. The split decision is recorded in the Author Note; the text moves existing approved material between chapters and adds no new fact, claim or citation. Concept slugs reviewed: research-pool tags left in place.",
+  "files": {
+    "runs/ch12/refined.md": "bf07eb109e7755587e0ee31478d619f90b9383de9f0ac165ec0eb3973b1c4c59",
+    "runs/ch12/distillation.md": "9877cd7c5ecf620ac7a4ebade06f4cd38eedb346c0517e670ff352e16d921c80"
+  }
+}
