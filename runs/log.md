@@ -3490,3 +3490,38 @@ repairs. The Panel selected plate concept A; the rendered plate passed visual
 inspection and its standalone Panel read passed. One final designer format
 pass remains. Chapter 14 awaits only final packet assembly and the author's
 verdict; no prose or plate is landed.
+
+## 2026-09-30 17:53 — `codex/shared-runtimes` — 2 commit(s) this session
+- `FINDINGS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/05-framework.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
+- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
+- `output/compiled/README.md`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
+- `output/compiled/assets/chapters/ch14-plate.png`
+- `output/compiled/assets/chapters/ch14.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch04.png`
+- `output/compiled/assets/plate-ch12.png`
+- `output/compiled/assets/plate-ch14.png`
+- `output/compiled/assets/plates.html`
+- `output/compiled/assets/runs-ch04-plate.png`
+- `output/compiled/assets/runs-ch08-plate.png`
+- `output/compiled/assets/runs-ch13-plate.png`
+- `output/compiled/assets/runs-ch14-plate.png`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch14.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+- `runs/appendix/practice-guide.md`
+- `runs/ch14/brief-gaps.md`
+- … and 33 more
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
