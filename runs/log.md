@@ -3846,3 +3846,21 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch13/review.json`
 
 **Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-30 04:39 — `ccr-ce7674ff-9bzh6j` — ? commit(s) this session
+- `FINDINGS.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch13/distillation.md`
+- `books/the-stoic-husband/chapters/ch13/interview.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch13/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/keep-choosing-her-in-ways-she-can-see.svg`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md`
+- `books/the-stoic-husband/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md`
+- `books/the-stoic-husband/okf/log.md`
+- `runs/ch13/verdict.md`
+- `runs/reconciliation/2026-09-30-chapter-ch13-landed.json`
+- `runs/reconciliation/2026-09-30-chapter-ch13.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
