@@ -3864,3 +3864,8 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/reconciliation/2026-09-30-chapter-ch13.json`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 04:53 — `ccr-ce7674ff-9bzh6j` — ? commit(s) this session
+- `runs/reconciliation/2026-09-30-chapter-closing-cleanup.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
