@@ -3968,3 +3968,13 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/design/plate-briefs.md`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 15:12 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `runs/ch13/pdf/plate-phone.png`
+- `runs/ch13/pdf/plate.png`
+- `runs/ch13/plate-notes.md`
+- `runs/ch13/plate-read.md`
+- `runs/ch13/plate.svg`
+- `runs/design/plate-briefs.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
