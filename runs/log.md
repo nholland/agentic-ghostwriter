@@ -3938,3 +3938,13 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/reconciliation/2026-09-30-ch12-edit-before-she-asks.json`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 13:34 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `runs/ch12/distillation-split.md`
+- `runs/ch12/refined-split.md`
+- `runs/ch12/split-input.md`
+- `runs/ch13/distillation-split.md`
+- `runs/ch13/refined-split.md`
+- `runs/ch13/split-input.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
