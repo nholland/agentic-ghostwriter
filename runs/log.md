@@ -3987,3 +3987,22 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch13/verdict.md`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 17:28 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/chapters/ch12.html`
+- `output/compiled/assets/chapters/ch13-plate.png`
+- `output/compiled/assets/chapters/ch13.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch13.png`
+- `output/compiled/assets/plates.html`
+- `output/compiled/assets/runs-ch13-plate.png`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch12.pdf`
+- `output/compiled/chapters/ch13.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
