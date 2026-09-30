@@ -1,126 +1,21 @@
 {
   "schema": 1,
-  "chapter": null,
+  "chapter": 14,
   "runtime": "codex",
   "branch": "codex/shared-runtimes",
   "oracle": {
-    "book": "River, Oak, Sun: The Stoic Husband",
-    "chapters_total": 29,
-    "prose_gate_blocked": null,
-    "shipped_by_book_pipeline": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "engine_chapters": {
-      "1": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "2": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "3": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "4": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "5": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "6": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "7": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "8": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "9": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "10": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "11": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "in the book; runs dir holds apparatus only",
-        "shipped_by_book_pipeline": true
-      },
-      "12": {
-        "stage": "shipped",
-        "command": null,
-        "detail": "verdict recorded; chapter is done here",
-        "shipped_by_book_pipeline": true
-      },
-      "13": {
-        "stage": "review",
-        "command": "/gw-chapter",
-        "detail": "review input changed or empty: refined.md",
-        "shipped_by_book_pipeline": false
-      },
-      "14": {
-        "stage": "concepts",
-        "command": "/gw-chapter",
-        "detail": "1 content concept(s) proposed, waiting on your yes (proposed-concepts.md)",
-        "shipped_by_book_pipeline": false
-      }
-    },
-    "inbox_open": 17,
-    "inbox_ruled": 1,
-    "bakeoffs_awaiting_verdict": [],
-    "next": {
-      "action": "continue",
-      "command": "/gw 13",
-      "chapter": 13,
-      "why": "Chapter 13 stopped at review (review input changed or empty: refined.md)."
-    }
+    "chapter": 14,
+    "stage": "concepts",
+    "command": "/gw-chapter",
+    "detail": "2 content concept(s) proposed, waiting on your yes (proposed-concepts.md)"
   },
   "notes": {
-    "house": "Shared Claude/Codex runtime adapters installed. No manuscript edits were made. Fixture handoffs and the synthetic GPT-6 Astra conformance test passed. Review and trust the Codex hooks on first use. A complete author-supervised chapter handoff has not yet been exercised. Resume from the current state oracle and existing chapter records; existing content approvals are unchanged."
+    "house": "Shared Claude/Codex runtime adapters installed. No manuscript edits were made. Fixture handoffs and the synthetic GPT-6 Astra conformance test passed. Review and trust the Codex hooks on first use. A complete author-supervised chapter handoff has not yet been exercised. Resume from the current state oracle and existing chapter records; existing content approvals are unchanged.",
+    "14": "# Chapter 14 handoff, 2026-09-29\n\nAuthor's latest direction (verbatim, also in `interview.md` round 4):\n\n> I think we're missing the mindset piece. We need research on how one finds contentment with enough. Even if it doesn't apply to marriage, for sure there is research and deep thinking around how one finds contentment. Again the phrase \"the grass is greener where you water it\" is a critical part of this thinking. Since we're in the sun arc I don't know that we need to spend an enormous amount of time on the concept of complacency. It's more about how you spend time appreciating what you have. Gratitude is a key part of that\n\nCold Researcher rebuilt `research.md` and `proposed-concepts.md` around this\ndirection, with `brief-gaps.md` recording limits. Publisher integrated four\nnew citation findings and an updated Gordon citation into the canonical OKF,\nupdated index/log/queue, and recorded a reconciliation receipt at\n`runs/reconciliation/2026-09-29-ch14-mindset-final.json`. One cold\nGhostwriter plan-only pass found a missing quote-ready Marcus anchor; the\nPublisher prepared it; the second pass found no missing brief detail. The\nfirst gate gap is recorded as one failed attempt in runtime handoff state.\n\nOutstanding author decisions: `proposed-concepts.md` remains `status: open`;\nneither the current appreciation synthesis nor the earlier contentment versus\nneglect formulation has an author answer. `outline-proposal.md` remains\nunapproved; the constitutional outline still centers a constructed work-trip\ncomparison story. Do not draft as if these proposals have been approved.\nComplacency remains a brief boundary. The author's wisdom line has no fixed\ntest; no desk should invent one. Chapter 13's separate review remains open.\n\nNext Chapter 14 action: show the author the revised brief, gaps and pending\nproposals; record his ruling before changing the outline or drafting. Do not\nland on main without explicit author instruction. Current branch:\n`codex/shared-runtimes`.\n"
   },
-  "failed_attempts": {},
+  "failed_attempts": {
+    "14:gw-ghostwriter": 1
+  },
   "author_records": [],
   "artifacts": {
     "inbox/001-are-bolded-run-in-section-headers-legal.md": "e78386c291d3cb3dc5b505076253b3c3df588ed41334113ade6f69b704297a15",
@@ -226,7 +121,14 @@
     "inbox/100-remove-chapter-12-guaranteed-reciprocity-and-the.md": "41fd8dc11fbc6095d1afe270eef146cb5db38c917d60d7c7d121f51a68ef3602",
     "inbox/101-schedule-the-earlier-book-repetition-and-qualita.md": "ca44d25ceaec3808a1cde7cb54aa2590c9788a315f5f69567fd9d2d43a91ed17",
     "inbox/102-reconcile-the-introduction-five-mode-framework-w.md": "f429ebb503e1d8c538b81adebfbee47ddde0f53d4153b53a08bdfd855d2727ef",
-    "inbox/103-align-all-reader-exports-to-the-approved-chapter.md": "dbc77ec907db7a0fa3bbbdab5708a4ce99c6189330c4d57bffb57d9ec680b07b"
+    "inbox/103-align-all-reader-exports-to-the-approved-chapter.md": "dbc77ec907db7a0fa3bbbdab5708a4ce99c6189330c4d57bffb57d9ec680b07b",
+    "runs/ch14/brief-gaps.md": "6a37ede1074ec513dac99e5a4d47e6f01c343f32fb0ff293d9b8dd693a09922c",
+    "runs/ch14/handoff-note.md": "efc40b5043832a26bc519c2f7e2b7fc12e8aba11b89dd2f032c5a1c341b3d0be",
+    "runs/ch14/interview.md": "12548c2e923f4cffe5b5ab2f6295950bb38674a123fbd4c1dd37daf1aa33288b",
+    "runs/ch14/outline-proposal.md": "c0383dadbf877cde5ea71e59505004c5901e7435d2dc3380d0ceae20baf192cd",
+    "runs/ch14/proposed-concepts.md": "5af4fbe38e5db5519a7e424b7222f1acc7d6ceb2fc1c0f722772293509bb6ae9",
+    "runs/ch14/research.md": "2dd5c964c0e5fd94853abb827a18cb1cac5e761d4ab68a847db0fffe51d645aa",
+    "runs/ch14/stoic-research.md": "ce5f1a4aa23aad7cb6133e66e84dbba4a55c0a49342b132304cc63d6eaa9db0b"
   },
-  "updated": "2026-09-27T23:37:45.151067-05:00"
+  "updated": "2026-09-29T20:53:37.529309-05:00"
 }

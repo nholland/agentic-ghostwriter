@@ -29,6 +29,11 @@ provenance: >
   "Sex, Rejection, and Self-Respect" — see 03-outline.md's 2026-07-28
   revision note). Expanded by direct author testimony in the Chapter 14
   interview, 2026-09-27; see runs/ch14/interview.md. That interview is open.
+  On 2026-09-29 the author corrected the first research brief: Chapter 14
+  must investigate the mindset and practice of contentment, especially
+  attention, appreciation, and gratitude; complacency is a brief boundary.
+  The author's phrase about grass growing greener where watered is central
+  to this direction. See interview round 4.
 ip: author-synthesis
 tags: [framework, contentment, miswanting, hedonic-adaptation, comparison-trap, proactive-vs-reactive]
 chapter_slugs: [the-discipline-of-enough]
@@ -68,6 +73,16 @@ attraction remain open;
 none is established by this interview. The earlier work-trip example is not
 an author memory. The interview must settle how to discuss real unmet needs
 before research handoff.
+
+## Author's research priority correction, 2026-09-29
+
+The author says the initial brief is missing the mindset piece. Research how
+one finds contentment with enough, even outside marriage, and investigate
+gratitude and the deliberate appreciation of what one has. “The grass is
+greener where you water it” is critical to his thinking: the chapter should
+explore what the watering consists of. In the Sun arc, spend only a brief
+amount of space on complacency. This is a research commission and emphasis
+decision, not approval of a new formulation of his beliefs.
 
 1. **The treadmill, applied to one specific marriage.** Courtship-era
    intensity was never purely "her" — it ran substantially on novelty and

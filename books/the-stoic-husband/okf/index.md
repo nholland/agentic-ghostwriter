@@ -233,7 +233,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Evidence on men and physical touch — scoping the 'every man loves touch' claim](/citations/touch-preference-gender-evidence.md) — status: unverified
 - [Gable, Reis, Impett & Asher (2004) — Capitalization: how you answer her good news](/citations/gable-et-al-2004-capitalization.md) — status: verifiable
 - [Girme, Overall & Faingataa (2014) — 'Date nights take two': shared activity works only when both are engaged](/citations/girme-overall-faingataa-2014-date-nights-take-two.md) — status: verifiable
-- [Gordon, Impett, Kogan, Oveis & Keltner (2012) — Feeling Appreciated and Relationship Maintenance](/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md) — status: verifiable
+- [Gordon, Impett, Kogan, Oveis & Keltner (2012) — Feeling Appreciated and Relationship Maintenance](/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md) — status: verifiable; original paper inspected, Ch14 application limited to associations
 - [Harasymchuk, Walker, Muise & Impett (2021) — Planning date nights that promote closeness](/citations/harasymchuk-et-al-2021-planning-date-nights.md) — status: verifiable
 - [Huston et al. (2001) — 'The Connubial Crucible': the decline of affection, not the arrival of conflict, predicts divorce](/citations/huston-et-al-2001-connubial-crucible.md) — status: verifiable
 - [Impett, Park & Muise (2024) — Love Languages Evaluated From a Relationship Science Perspective](/citations/impett-park-muise-2024-love-languages-evaluated.md) — status: verifiable
@@ -264,6 +264,11 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Buyukcan-Tetik et al. (2017) — Partner Ideals, Acceptance, and Satisfaction](/citations/buyukcan-tetik-2017-ideal-standards-acceptance.md) — status: verifiable; Ch14 ideals evidence, full paper read.
 - [Kubacka et al. (2011) — Gratitude and Relationship Maintenance](/citations/kubacka-et-al-2011-gratitude-maintenance.md) — status: verifiable; Ch14 maintenance evidence, abstract read.
 - [Rossman, Lerner & Córdova (2022) — Partner and Felt Acceptance](/citations/rossman-lerner-cordova-2022-partner-felt-acceptance.md) — status: verifiable; Ch14 acceptance evidence, abstract read.
+
+- [Marcus Aurelius, Meditations VII.27 — Valuing Present Goods](/citations/marcus-aurelius-meditations-7-27-present-goods.md) — status: unverified; Long text read online, including caution against attachment
+- [Marcus Aurelius, Meditations VI.48 — Notice the Virtues of Those Near You](/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md) — status: verifiable; short candidate quotation transcribed from online Long text
+- [Emmons and McCullough (2003) — Practicing Gratitude](/citations/emmons-mccullough-2003-counting-blessings.md) — status: unverified; randomized gratitude exercises, mixed outcomes
+- [Koo et al. (2008) — Mentally Subtracting Positive Events](/citations/koo-et-al-2008-mental-subtraction.md) — status: unverified; immediate effect in selected relationship sample
 
 ## Signals
 

@@ -104,3 +104,15 @@ remove any that read oddly:
 The health/contentment line remains a live chapter tension, not a formula the
 house may invent. The author assigned judgment to wisdom but has not supplied
 a specific test for which concern warrants conversation.
+
+## Round 4: research priority correction, 2026-09-29 20:40 CDT
+
+The author redirected the research emphasis after seeing the initial brief:
+
+> I think we're missing the mindset piece. We need research on how one finds contentment with enough. Even if it doesn't apply to marriage, for sure there is research and deep thinking around how one finds contentment. Again the phrase "the grass is greener where you water it" is a critical part of this thinking. Since we're in the sun arc I don't know that we need to spend an enormous amount of time on the concept of complacency. It's more about how you spend time appreciating what you have. Gratitude is a key part of that
+
+This supersedes the initial brief's emphasis on the contentment/complacency
+boundary. Research should investigate the general practice of contentment,
+including attention, appreciation, gratitude, and the author's watering
+metaphor, then translate carefully to marriage. Complacency remains a brief
+boundary, not the chapter's center. No new moral formula is authorized.
