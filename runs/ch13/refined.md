@@ -78,9 +78,7 @@ Some years are crowded and hard. You may both be too tired to plan anything, and
 
 ---
 
-**Don't let knowing her end your learning about her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. Leave room for the woman beside you to surprise you.
-
-In Letter 58 of his letters to his friend Lucilius, the Roman Stoic Seneca borrows an image from an older philosopher, Heraclitus. You recognize a river, and its water is never the same water. Seneca turned that image on people. The woman beside you keeps changing the way the river's water does. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
+**Don't let knowing her end your learning about her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. Leave room for the woman beside you to surprise you. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
 
 In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
 
@@ -90,6 +88,7 @@ Put the phone down, and give her the evening you came to share.
 
 ## Editor's Notes
 
+- **Round 9 (Publisher, 2026-09-30, author's word "Cut it"):** Seneca/Heraclitus river paragraph cut; the river stays the husband's image from the Introduction. Its closing two sentences moved into the Perel paragraph. Rounds 10-12 cold-read fixes applied before this.
 - **Round 8 (Publisher, 2026-09-29):** research opener now matches the addendum ("can predict unhappiness years later"); L37 fight/furniture reframe cut; reframes now 2 (L19, L69).
 - **Round 7 (Publisher, 2026-09-29):** applied the Anti-Slop Reader's round-6 clarity sweep (13 compressed or flipped-viewpoint lines, e.g. "she's the one who'll always be there" read as the narrator's promise), fixed the research paragraph's unsupported "shows up early" and softened its closing causal line, and cut negated reframes to two (L19 author's role/title line, L69). Correction: the Round 5 note's "Negated reframes: 1" was a miscount by the Publisher; round 6 counted 4-6.
 
