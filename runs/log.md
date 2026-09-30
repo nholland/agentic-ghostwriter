@@ -3864,3 +3864,34 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/reconciliation/2026-09-30-chapter-ch13.json`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 04:32 — `claude/gateway-2hbp6i` — 3 commit(s) this session
+- `FINDINGS.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch13/distillation.md`
+- `books/the-stoic-husband/chapters/ch13/interview.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch13/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/keep-choosing-her-in-ways-she-can-see.svg`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md`
+- `books/the-stoic-husband/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md`
+- `books/the-stoic-husband/okf/log.md`
+- `output/compiled/README.md`
+- `output/compiled/assets/chapters/ch12-plate.png`
+- `output/compiled/assets/chapters/ch12.html`
+- `output/compiled/assets/chapters/ch13.html`
+- `output/compiled/assets/chapters/reader-ch12-ch13.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch12.pdf`
+- `output/compiled/chapters/ch13.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+- `output/compiled/reader-ch12-ch13.pdf`
+- `runs/ch13/verdict.md`
+- `runs/reconciliation/2026-09-30-chapter-ch13-landed.json`
+- `runs/reconciliation/2026-09-30-chapter-ch13.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
