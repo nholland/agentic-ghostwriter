@@ -16,6 +16,7 @@ import glob
 import hashlib
 import json
 import os
+from pathlib import Path
 import re
 import shutil
 import subprocess
@@ -1271,6 +1272,13 @@ def state_ignore_cases():
         out.append((rc == 0, f"hook state file {probe} is gitignored",
                     "an unignored state file dirties the tree every session and makes empty auto-commits",
                     probe))
+    for name in ('runtime-recovery.json', 'runtime-hook-failure-Stop.json',
+                 'runtime-hook-failure-SessionEnd.json'):
+        probe = '.claude/state/' + name
+        rc = subprocess.run(['git', '-C', REPO, 'check-ignore', '-q', probe],
+                            capture_output=True).returncode
+        out.append((rc == 0, f'Python hook diagnostic {probe} is gitignored',
+                    'Runtime diagnostics must not block pushes or landings', probe))
     return out
 
 
@@ -1542,7 +1550,37 @@ def retro_window_cases():
     return out
 
 
+def hook_environment_cases():
+    """Run the real test entry point as a production hook would invoke it."""
+    with tempfile.TemporaryDirectory(prefix='gw-hook-environment-') as directory:
+        root = Path(directory)
+        (root / 'scripts').mkdir()
+        (root / 'scripts/okf_reconcile.py').write_text(
+            'from pathlib import Path\nPath("FIXTURE_ESCAPED").touch()\n'
+            'raise SystemExit("WRONG_PRODUCTION_ROOT")\n')
+        env = dict(os.environ, GW_PROJECT_ROOT=directory,
+                   CLAUDE_PROJECT_DIR=directory, CLAUDE_PLUGIN_ROOT=directory,
+                   GW_RUNTIME='codex', CLAUDE_CODE_REMOTE='true')
+        r = subprocess.run([sys.executable, __file__, '--hook-environment-probe'],
+                           env=env, capture_output=True, text=True, timeout=30)
+        return [(r.returncode == 0 and not (root / 'FIXTURE_ESCAPED').exists(),
+                 'hook-invoked test suite isolates the real checkout environment',
+                 'A fixture must never call the production Stop hook or recursively run tests',
+                 r.stdout + r.stderr)]
+
+
 def main():
+    # Hooks export their real checkout as GW_PROJECT_ROOT. Fixture hooks must
+    # resolve their own temporary checkout; inheriting the live root invokes
+    # its Stop hook, which starts this suite again and recursively commits work.
+    for key in ('GW_PROJECT_ROOT', 'GW_RUNTIME', 'GW_KEEP_BRANCH', 'GW_PRESERVE_START',
+                'CLAUDE_PLUGIN_ROOT', 'CLAUDE_PROJECT_DIR', 'CLAUDE_CODE_REMOTE'):
+        os.environ.pop(key, None)
+    if '--hook-environment-probe' in sys.argv:
+        from okf_reconcile_cases import okf_reconcile_cases
+        cases = [row for row in okf_reconcile_cases()
+                 if row[1] == 'OKF Stop hook refuses unreconciled work']
+        return 0 if len(cases) == 1 and cases[0][0] else 1
     from runtime_cases import runtime_cases
     from ownership_lifecycle_cases import ownership_lifecycle_cases
     from draft_package_cases import draft_package_cases
@@ -1553,7 +1591,7 @@ def main():
     from prove_new_code_cases import prove_new_code_cases
     from maintenance_batch_cases import maintenance_batch_cases
     from okf_reconcile_cases import okf_reconcile_cases
-    rows = (runtime_cases() + ownership_lifecycle_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    rows = (hook_environment_cases() + runtime_cases() + ownership_lifecycle_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
