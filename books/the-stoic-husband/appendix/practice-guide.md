@@ -14,7 +14,7 @@
 2. **Reactive.** When you notice your mood shifting to match hers, ask: "Is this mine, or did I just pick it up?"
 3. **Proactive.** Practice bringing one steady thing into the room each day, a question, a small act, a calm tone, regardless of what mood is already there.
 
-## Chapter 3 — The Discipline of Not Reacting
+## Chapter 3 — Stop Defending Yourself
 
 1. **Proactive.** Before a conversation you're dreading, spend five minutes pre-living it: what will she say, what's your instinct, what's the alternative response.
 2. **Reactive.** Catch yourself mid-Defend, Deny, Downplay, or Deflect. Name which one it was, out loud or in your head, the moment it happens.

@@ -1,4 +1,4 @@
-# Chapter 3: The Discipline of Not Reacting
+# Chapter 3: Stop Defending Yourself
 
 There's a move you make when someone criticizes you. You didn't choose it. You learned it.
 

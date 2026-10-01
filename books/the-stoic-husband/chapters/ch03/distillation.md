@@ -1,4 +1,4 @@
-# Chapter 3 Distillation — The Discipline of Not Reacting
+# Chapter 3 Distillation — Stop Defending Yourself
 
 **Mechanism:** The Closed Door
 **Conversation sentence:** Every time you defended yourself, you taught her the conversation wasn't worth having.
