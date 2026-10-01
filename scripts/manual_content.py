@@ -85,7 +85,7 @@ DESK_NOTES = {
     },
     'gw-designer': {
         'title': 'The Designer',
-        'owns': "Concept plates and Part closing plates, drawn from the book's design layer and never invented to fill a layout.",
+        'owns': "Chapter and Part plates, plus author-commissioned inline visuals; reuses the book’s flourishes and glyphs.",
         'body': "<p><b>Mandate.</b> Design elements are derived from approved content, never invented to complete a design. Reuses the four house marks; matches the concept-plate idiom for a chapter and the Part idiom (6x9, black line, captioned with the opening page's last sentence) for a Part's close; draws only concepts the generated candidate register lists as reader-facing. Renders before returning, because two rejected marks and two rejected plates were invisible in the markup.</p><p><b>Why concept first.</b> Drawing the Incomplete Husband plate exposed a sixth failure mode the framework did not name. It was proposed, approved, and written into the concept before it was drawn. A gap the drawing exposes goes to the inbox; the Designer never fills it.</p><p><b>Never.</b> Redraws a mark. Mixes the two idioms. Puts a cardinal-virtue name, an unsourced number, or an unverifiable quotation on a plate. Blocks a chapter.</p>",
     },
     'gw-retro': {
@@ -200,3 +200,51 @@ ARTIFACTS = [
      "The chapters that ship. Landed by the Publisher after the verdict, via land.py; "
      "never written by a desk."),
 ]
+
+
+# Author-requested visual vocabulary and process (2026-10-01).
+VISUALS = """
+<p>The Designer turns approved ideas into graphics in the book’s established visual style.
+A chapter plate is part of the chapter pipeline. Inline visuals are commissioned separately
+when a passage benefits from a graphic; the Four Ds, Four Horsemen, and Virtue Question
+are queued for this kind of exploration.</p>
+<h3>How Claude draws an SVG</h3>
+<p>Claude writes the graphic as SVG source code. SVG means <b>Scalable Vector Graphics</b>:
+a text description of shapes, paths, lines, fills, and labels. The Designer places these
+objects with coordinates, sets their size and appearance, and draws relationships between
+them. A script can also generate repeated shapes or calculate their positions. The result
+is an editable <code>.svg</code> file that stays sharp when resized.</p>
+<p>A browser or renderer reads that code and displays the image. The Designer renders the
+file and inspects the picture, then revises its code: readable markup alone cannot reveal
+every clipped label, ambiguous shape, or confusing relationship. The same SVG workflow is
+available when the House runs in Codex.</p>
+<h3>Our visual vocabulary</h3>
+<div class="tbl"><table><thead><tr><th>Element</th><th>Purpose and placement</th><th>Designer’s work</th></tr></thead><tbody>
+<tr><td><b>Chapter plate</b></td><td>The chapter’s main standalone diagram. It makes the
+mechanism visible and can be read on its own.</td><td>One per chapter, developed from its
+distillation and anchor metaphor. Its title matches the Mechanism line.</td></tr>
+<tr><td><b>Part plate</b></td><td>A visual closing page for a Part of the book.</td><td>Follows
+the book’s Part-page style and approved caption convention.</td></tr>
+<tr><td><b>Inline visual</b></td><td>A smaller graphic placed among the chapter’s paragraphs,
+near the idea it explains. It can show a framework, a sequence, or a useful comparison.</td>
+<td>Works from an explicit commission and approved content. Graphic proposals and placement
+are reviewed with the author. Inline visuals supplement the chapter plate.</td></tr>
+<tr><td><b>Flourish / ornament</b></td><td>A decorative accent, such as a section divider or a
+small motif that gives the page rhythm.</td><td>Reuses the approved design vocabulary;
+it does not introduce a new claim or mechanism.</td></tr>
+<tr><td><b>Glyph / mark</b></td><td>A small reusable symbol. A glyph is an individual visual
+character; the book’s custom marks can represent recurring ideas.</td><td>Uses the existing
+approved marks consistently. A glyph may be meaningful, while a flourish is decorative.</td></tr>
+</tbody></table></div>
+<h3>From idea to reader-facing graphic</h3>
+<p>The Publisher commissions the Designer with the source concept, relevant prose, intended
+placement, and existing style. The Designer develops and renders SVG proposals. The
+Publisher checks the output, and the Reader Panel can test what someone understands from
+the picture. The author chooses the finished treatment. Working graphics stay under
+<code>runs/</code> until approved for the book.</p>
+<p>The established plate workflow uses <code>/gw-plate</code> and
+<code>scripts/plate_check.py</code>. Inline visuals and decorative elements are separate
+commissions; their layout is judged at the size and position intended for the chapter.
+They are not additional chapter plates, and a plate check does not establish that an inline
+visual works in its surrounding text.</p>
+"""

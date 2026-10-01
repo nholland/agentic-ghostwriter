@@ -295,6 +295,8 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 
 ## Notes
 
+- [Inline chapter visuals](/notes/2026-10-01-inline-chapter-visuals.md) — three graphics commissioned as inline visuals; Designer exploration queued in inbox 110.
+
 - [Chapter plate title rule](/notes/2026-10-01-chapter-plate-titles.md) — approved Mechanism titles; separate redesigns remain pending.
 
 - [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; 098/099 wording remains pending.

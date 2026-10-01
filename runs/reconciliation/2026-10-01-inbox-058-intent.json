@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-01T16:34:30.864735-05:00",
+  "subjects": [
+    "inbox:058"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-inline-chapter-visuals.md"
+  ],
+  "authority": "Author clarification: visuals within a chapter, similar to a plate but inline.",
+  "reason": "Captured explicit placement intent and preserved naming as pending; no sidebar approval inferred.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-inline-chapter-visuals.md": "e384c229637e9681560eb99f48bb3f01b16b214e33396e424c83e00819a831b0",
+    "books/the-stoic-husband/okf/index.md": "ab0dadf230ae074d31c0b04eec636cd3a95052dc6612881b40be7402dbad2546",
+    "books/the-stoic-husband/okf/log.md": "498897a22437a0de37f9346289a3234a8f6e1bdabdb41e04f3f3b9e5ddcf3267"
+  }
+}

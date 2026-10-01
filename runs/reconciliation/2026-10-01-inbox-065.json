@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-01T16:23:13.071244-05:00",
+  "timestamp": "2026-10-01T16:23:58.241738-05:00",
   "subjects": [
     "inbox:065"
   ],
@@ -14,6 +14,7 @@
     "books/the-stoic-husband/okf/log.md": "d9bb33170c9df50ad1691466ec042a4be81f1352685a93ea524a449b7dc69edd",
     "books/the-stoic-husband/design/plates/README.md": "5e174ea61772b83d0b91e8f41c7810e993a1597457d5445c0dfdc9ce6fbbb977",
     "books/the-stoic-husband/design/plates/small-rocks-big-rocks.svg": "2d924871f121328048bd72d09d549026544c131c0a09b614493802260aa81bad",
-    "books/the-stoic-husband/design/plates/the-muscle-you-stopped-using.svg": "b7f93d94aa2d80b889cbb5c2f05f777ba1877b89e2eb3b0b6ab961c5f3544f2d"
+    "books/the-stoic-husband/design/plates/the-muscle-you-stopped-using.svg": "b7f93d94aa2d80b889cbb5c2f05f777ba1877b89e2eb3b0b6ab961c5f3544f2d",
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-titles.md": "4bc397475867d48ee211e6fd4baf28c6f86f8c94c169ca7f305df8ef92f1edc6"
   }
 }

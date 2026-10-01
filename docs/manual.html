@@ -132,6 +132,17 @@ header.mast{padding-bottom:2rem}
 .fig svg{display:block;width:100%;height:auto;min-width:560px}
 .fig figcaption{margin-top:.7rem;font-size:.9rem;color:var(--ink-3);max-width:64ch}
 .tbl{overflow-x:auto;margin:1rem 0 1.4rem}
+@media (max-width:600px){
+  #visuals .tbl{overflow:visible}
+  #visuals table{min-width:0}
+  #visuals thead{display:none}
+  #visuals table,#visuals tbody,#visuals tr,#visuals td{display:block;width:auto}
+  #visuals tr{padding:.8rem 0;border-bottom:1px solid var(--rule)}
+  #visuals td{border:0;padding:.25rem 0}
+  #visuals td:first-child{font-size:1rem}
+  #visuals td:nth-child(2)::before{content:"Purpose and placement. ";font-weight:600}
+  #visuals td:nth-child(3)::before{content:"Designer’s work. ";font-weight:600}
+}
 table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:420px}
 th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
 th{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
@@ -157,6 +168,7 @@ footer code{font-size:.8em}
 <li><a href="#commands">What to say</a></li>
 <li><a href="#gates">The gates</a></li>
 <li><a href="#knowledge">Knowledge and artifacts</a></li>
+<li><a href="#visuals">Visuals</a></li>
 <li><a href="#production">Scripts and hooks</a></li>
 <li><a href="#where">Where things live</a></li>
 <li><a href="#never">What it never does</a></li>
@@ -261,7 +273,7 @@ footer code{font-size:.8em}
 <div class="cards" id="desks-list">
 <details class="card"><summary><span class="nm">you talk to it; it is CLAUDE.md</span><span class="ti">The Publisher — State, routing, the inbox, the gates, relaying to desks.</span></summary><div class="bd"><p><b>Mandate.</b> The front door. Never writes prose, never argues a chapter's merits. Routes, relays, and keeps the board honest. Names every desk it dispatches so you always know who is working.</p><p><b>Reads.</b> The oracle and the inbox before anything else, every session. Never determines what is next by reading files and reasoning.</p><p><b>Never.</b> Lands on main unprompted. Makes you remember a phrase. Computes next on its own. Resolves an inbox item on your behalf.</p></div></details>
 <details class="card"><summary><span class="nm">/gw-interview · /gw-found · /gw-revise · /gw-edit</span><span class="ti">The Developmental Editor — The foundation of a new book, the chapter interview, revisions to locked artifacts, the interactive re-edit.</span></summary><div class="bd"><p><b>Mandate.</b> The dialogue is the work. Every artifact here is a claim about what you think, so it runs as the session, never as a sub-agent. Ends an interview by writing the substance of what you said into the record the Researcher works from.</p><p><b>Reviewed by.</b> You, at the check-in, before the hand-off.</p><p><b>Never.</b> Regenerates a locked artifact (the voice spec pairs most rules with the incident that produced them; regeneration deletes that history). Regenerates a locked artifact; it revises in place, on your word, as its own commit.</p></div></details>
-<details class="card"><summary><span class="nm">gw-designer</span><span class="ti">The Designer — Concept plates and Part closing plates, drawn from the book's design layer and never invented to fill a layout.</span></summary><div class="bd"><p><b>Mandate.</b> Design elements are derived from approved content, never invented to complete a design. Reuses the four house marks; matches the concept-plate idiom for a chapter and the Part idiom (6x9, black line, captioned with the opening page's last sentence) for a Part's close; draws only concepts the generated candidate register lists as reader-facing. Renders before returning, because two rejected marks and two rejected plates were invisible in the markup.</p><p><b>Why concept first.</b> Drawing the Incomplete Husband plate exposed a sixth failure mode the framework did not name. It was proposed, approved, and written into the concept before it was drawn. A gap the drawing exposes goes to the inbox; the Designer never fills it.</p><p><b>Never.</b> Redraws a mark. Mixes the two idioms. Puts a cardinal-virtue name, an unsourced number, or an unverifiable quotation on a plate. Blocks a chapter.</p><div class="tools"><i>Read</i><i>Write</i><i>Glob</i><i>Bash</i></div></div></details>
+<details class="card"><summary><span class="nm">gw-designer</span><span class="ti">The Designer — Chapter and Part plates, plus author-commissioned inline visuals; reuses the book’s flourishes and glyphs.</span></summary><div class="bd"><p><b>Mandate.</b> Design elements are derived from approved content, never invented to complete a design. Reuses the four house marks; matches the concept-plate idiom for a chapter and the Part idiom (6x9, black line, captioned with the opening page's last sentence) for a Part's close; draws only concepts the generated candidate register lists as reader-facing. Renders before returning, because two rejected marks and two rejected plates were invisible in the markup.</p><p><b>Why concept first.</b> Drawing the Incomplete Husband plate exposed a sixth failure mode the framework did not name. It was proposed, approved, and written into the concept before it was drawn. A gap the drawing exposes goes to the inbox; the Designer never fills it.</p><p><b>Never.</b> Redraws a mark. Mixes the two idioms. Puts a cardinal-virtue name, an unsourced number, or an unverifiable quotation on a plate. Blocks a chapter.</p><div class="tools"><i>Read</i><i>Write</i><i>Glob</i><i>Bash</i></div></div></details>
 <details class="card"><summary><span class="nm">gw-factchecker</span><span class="ti">The Fact-Checker — The citation ledger from unverified up to verifiable, the external verification packets, the defects register.</span></summary><div class="bd"><p><b>Mandate.</b> Search may locate a source or flag a defect; it may never transcribe a quotation. Probes what this machine can reach rather than reasoning about it, because reachability differs between the cloud and your laptop. Routes each citation by tier and reachability; packages the rest for a session with real access.</p><p><b>Never.</b> Sets verified; only you can, against your copy. Invents a house translation. Rewrites printed prose silently; it proposes.</p><div class="tools"><i>Read</i><i>Write</i><i>Edit</i><i>Bash</i><i>Grep</i><i>Glob</i><i>WebSearch</i><i>WebFetch</i></div></div></details>
 <details class="card"><summary><span class="nm">gw-ghostwriter</span><span class="ti">The Ghostwriter — The draft. In plan-only mode, the brief's reviewer.</span></summary><div class="bd"><p><b>Mandate.</b> Writes real prose in your voice from the brief. Where something is missing, writes around it and says so in Draft Notes; never invents the missing thing, least of all your own story.</p><p><b>Reviewed by.</b> voice_check.py on every counted rule; the Conformance Checker on every commissioned element.</p><p><b>Never.</b> Em-dashes. A source that reads well and does not exist. A number that is yours. A chapter that fits the word budget by dropping a required element.</p><div class="tools"><i>Read</i><i>Write</i><i>Bash</i></div></div></details>
 <details class="card"><summary><span class="nm">gw-lineeditor</span><span class="ti">The Line Editor — Public placeholders to the ledger's ceiling, the refinement passes, the distillation, the practice-guide section.</span></summary><div class="bd"><p><b>Mandate.</b> Sharpens; does not rewrite. Five passes: approachability, voice, clarity, flow, anti-slop. Runs the counted script itself and pastes the result, and the Publisher runs it again anyway.</p><p><b>Reviewed by.</b> voice_check.py independently, the Anti-Slop Reader, the Conformance Checker.</p><p><b>Never.</b> Resolves a placeholder with invented content. Confirms a verbatim quotation from a search result. Sets verified. Skips the script because the prose reads clean.</p><div class="tools"><i>Read</i><i>Write</i><i>Edit</i><i>Bash</i></div></div></details>
@@ -466,7 +478,54 @@ footer code{font-size:.8em}
 <tr><td><code>chapters/chNN/</code></td><td><b>book</b></td><td>The chapters that ship. Landed by the Publisher after the verdict, via land.py; never written by a desk.</td></tr>
 </tbody></table></div>
 </section>
-<section id="production"><div class="eyebrow">Section 7</div><h2>Scripts and hooks</h2>
+<section id="visuals"><div class="eyebrow">Section 7</div><h2>Visuals</h2>
+
+<p>The Designer turns approved ideas into graphics in the book’s established visual style.
+A chapter plate is part of the chapter pipeline. Inline visuals are commissioned separately
+when a passage benefits from a graphic; the Four Ds, Four Horsemen, and Virtue Question
+are queued for this kind of exploration.</p>
+<h3>How Claude draws an SVG</h3>
+<p>Claude writes the graphic as SVG source code. SVG means <b>Scalable Vector Graphics</b>:
+a text description of shapes, paths, lines, fills, and labels. The Designer places these
+objects with coordinates, sets their size and appearance, and draws relationships between
+them. A script can also generate repeated shapes or calculate their positions. The result
+is an editable <code>.svg</code> file that stays sharp when resized.</p>
+<p>A browser or renderer reads that code and displays the image. The Designer renders the
+file and inspects the picture, then revises its code: readable markup alone cannot reveal
+every clipped label, ambiguous shape, or confusing relationship. The same SVG workflow is
+available when the House runs in Codex.</p>
+<h3>Our visual vocabulary</h3>
+<div class="tbl"><table><thead><tr><th>Element</th><th>Purpose and placement</th><th>Designer’s work</th></tr></thead><tbody>
+<tr><td><b>Chapter plate</b></td><td>The chapter’s main standalone diagram. It makes the
+mechanism visible and can be read on its own.</td><td>One per chapter, developed from its
+distillation and anchor metaphor. Its title matches the Mechanism line.</td></tr>
+<tr><td><b>Part plate</b></td><td>A visual closing page for a Part of the book.</td><td>Follows
+the book’s Part-page style and approved caption convention.</td></tr>
+<tr><td><b>Inline visual</b></td><td>A smaller graphic placed among the chapter’s paragraphs,
+near the idea it explains. It can show a framework, a sequence, or a useful comparison.</td>
+<td>Works from an explicit commission and approved content. Graphic proposals and placement
+are reviewed with the author. Inline visuals supplement the chapter plate.</td></tr>
+<tr><td><b>Flourish / ornament</b></td><td>A decorative accent, such as a section divider or a
+small motif that gives the page rhythm.</td><td>Reuses the approved design vocabulary;
+it does not introduce a new claim or mechanism.</td></tr>
+<tr><td><b>Glyph / mark</b></td><td>A small reusable symbol. A glyph is an individual visual
+character; the book’s custom marks can represent recurring ideas.</td><td>Uses the existing
+approved marks consistently. A glyph may be meaningful, while a flourish is decorative.</td></tr>
+</tbody></table></div>
+<h3>From idea to reader-facing graphic</h3>
+<p>The Publisher commissions the Designer with the source concept, relevant prose, intended
+placement, and existing style. The Designer develops and renders SVG proposals. The
+Publisher checks the output, and the Reader Panel can test what someone understands from
+the picture. The author chooses the finished treatment. Working graphics stay under
+<code>runs/</code> until approved for the book.</p>
+<p>The established plate workflow uses <code>/gw-plate</code> and
+<code>scripts/plate_check.py</code>. Inline visuals and decorative elements are separate
+commissions; their layout is judged at the size and position intended for the chapter.
+They are not additional chapter plates, and a plate check does not establish that an inline
+visual works in its surrounding text.</p>
+
+</section>
+<section id="production"><div class="eyebrow">Section 8</div><h2>Scripts and hooks</h2>
 <p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's incident archive was a model following rule text, and every fix was a check that ran on its own. A session agent would be that failure mode with a title.</p>
 <figure class="fig"><div class="plate"><svg viewBox="0 0 880 380" role="img" aria-label="On the left, four files each state how many desks the system has and three of them disagree: the agents directory holds ten, CLAUDE.md says nine, the README said ten in total, the manual said twelve. Each was written by hand and was correct on the day it was typed. On the right, one directory is the source, a script reads it and writes the page, and a check run by the session's stop hook fails when the source has changed since the page was generated.">
   <defs>
@@ -587,14 +646,14 @@ footer code{font-size:.8em}
 <tr><td><code>voice_check.py</code></td><td>the counted half of the voice spec, by literal count.</td></tr>
 <tr><td><code>voice_rules_check.py</code></td><td>prove config/house.json still agrees with 01-voice.md.</td></tr>
 </tbody></table></div></section>
-<section id="where"><div class="eyebrow">Section 8</div><h2>Where things live</h2>
+<section id="where"><div class="eyebrow">Section 9</div><h2>Where things live</h2>
 <p>One repository. Book two is a new folder under <code>books/</code>, never a second repository. When you are editing by hand the question is one line: is this about this book, or about how books get made?</p>
 <div class="repos">
 <div class="repo"><h3>The book</h3><div class="path">books/&lt;slug&gt;/</div><p>The premise, voice, audience and outline every desk reads. The knowledge ledger. The chapters that have landed. Written only by a landing after the verdict, or a constitution edit on the author's word, each its own commit.</p></div>
 <div class="repo"><h3>The engine</h3><div class="path">everything else in agentic-ghostwriter</div><p>The desks, the commands, the gates, the oracle, the inbox, and everything the house produces under <code>runs/chNN/</code>. Change how books get made here.</p></div>
 <div class="repo"><h3>The archive</h3><div class="path">Playground-260420, on GitHub only</div><p>The old pipeline's run, frozen on 2026-09-18 when the book moved here. It is not cloned into a session and nothing in the house reads it: every chapter it shipped came over with the book. Open it on GitHub for history; never written.</p></div>
 </div></section>
-<section id="never"><div class="eyebrow">Section 9</div><h2>What it never does</h2><ul>
+<section id="never"><div class="eyebrow">Section 10</div><h2>What it never does</h2><ul>
 <li>Invent a citation, a statistic, or a story.</li>
 <li>Mark a citation <code>verified</code>. That is yours, against your physical copy.</li>
 <li>Let a search transcribe a quotation. Search may locate a source or flag a defect, never quote it.</li>
@@ -604,7 +663,7 @@ footer code{font-size:.8em}
 <li>Move <code>main</code>. Only <code>sync.py --land</code> does that, and only when you say so in words.</li>
 <li>Claim a check passed that did not run. SKIP is not PASS, and unchecked is the honest word.</li>
 </ul></section>
-<section id="glossary"><div class="eyebrow">Section 10</div><h2>Glossary</h2><dl class="gloss">
+<section id="glossary"><div class="eyebrow">Section 11</div><h2>Glossary</h2><dl class="gloss">
 <dt>Cold</dt><dd>Running as a sub-agent with clean context. It never saw the conversation, so it cannot be persuaded by the reasons behind a choice, and it cannot ask you anything, which is why anything only you can decide goes to the inbox.</dd>
 <dt>The board</dt><dd>What the state oracle prints. Computed from files, never reasoned about, so it cannot be stale. Say <code>/gw</code>.</dd>
 <dt>The brief</dt><dd>The research brief. The automation boundary: everything upstream needs you, everything downstream runs cold.</dd>
@@ -734,4 +793,4 @@ footer code{font-size:.8em}
   paint();
 })();
 </script>
-<!-- inputs-digest: aab89d8da9879e0c -->
+<!-- inputs-digest: fc9607c97427b97f -->

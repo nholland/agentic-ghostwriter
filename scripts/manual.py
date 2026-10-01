@@ -70,7 +70,7 @@ DIAGRAMS = os.path.join(REPO, "docs", "diagrams")
 
 sys.path.insert(0, HERE)
 from manual_content import (IN_SESSION, DESK_NOTES, GATES, PHRASES,  # noqa: E402
-                            FOUNDATION_ROLES, ARTIFACTS)
+                            FOUNDATION_ROLES, ARTIFACTS, VISUALS)
 
 
 # ---------------------------------------------------------------------------
@@ -617,6 +617,17 @@ header.mast{padding-bottom:2rem}
 .fig svg{display:block;width:100%;height:auto;min-width:560px}
 .fig figcaption{margin-top:.7rem;font-size:.9rem;color:var(--ink-3);max-width:64ch}
 .tbl{overflow-x:auto;margin:1rem 0 1.4rem}
+@media (max-width:600px){
+  #visuals .tbl{overflow:visible}
+  #visuals table{min-width:0}
+  #visuals thead{display:none}
+  #visuals table,#visuals tbody,#visuals tr,#visuals td{display:block;width:auto}
+  #visuals tr{padding:.8rem 0;border-bottom:1px solid var(--rule)}
+  #visuals td{border:0;padding:.25rem 0}
+  #visuals td:first-child{font-size:1rem}
+  #visuals td:nth-child(2)::before{content:"Purpose and placement. ";font-weight:600}
+  #visuals td:nth-child(3)::before{content:"Designer’s work. ";font-weight:600}
+}
 table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:420px}
 th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
 th{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
@@ -805,7 +816,7 @@ def render(desks, commands, scripts, thresholds, digest):
 
     secs = [("start", "Start here"), ("flow", "How a chapter moves"), ("desks", "Who works here"),
             ("commands", "What to say"), ("gates", "The gates"),
-            ("knowledge", "Knowledge and artifacts"),
+            ("knowledge", "Knowledge and artifacts"), ("visuals", "Visuals"),
             ("production", "Scripts and hooks"), ("where", "Where things live"),
             ("never", "What it never does"), ("glossary", "Glossary")]
 
@@ -1022,6 +1033,11 @@ def render(desks, commands, scripts, thresholds, digest):
         a('<p class="note author"><b>Drift:</b> %s. Fix in '
           "<code>scripts/manual_content.py</code>.</p>" % "; ".join(bits))
     a("</section>")
+    # visuals: authored explanation and house vocabulary
+    a('<section id="visuals"><div class="eyebrow">{{SEC}}</div><h2>Visuals</h2>')
+    a(VISUALS)
+    a("</section>")
+
     # production
     a('<section id="production"><div class="eyebrow">{{SEC}}</div><h2>Scripts and hooks</h2>')
     a("<p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's "
