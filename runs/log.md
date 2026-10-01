@@ -4117,3 +4117,38 @@ Chapter 14 still awaits author verdict and is not landed.
 - `runs/reconciliation/2026-09-30-chapter-closing-cleanup.json`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-10-01 00:52 — `codex/shared-runtimes` — 67 commit(s) this session
+- `.claude/skills/gw-chapter/SKILL.md`
+- `FINDINGS.md`
+- `books/the-stoic-husband/01-voice.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/05-framework.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/distillation.md`
+- `books/the-stoic-husband/chapters/ch13/distillation.md`
+- `books/the-stoic-husband/chapters/ch13/interview.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch13/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/keep-choosing-her-in-ways-she-can-see.svg`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md`
+- `books/the-stoic-husband/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `inbox/105-chapter-13-s-outline-entry-still-prescribes-the-.md`
+- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
+- `inbox/106-chapter-13-has-no-quotation-at-its-turn-which-st.md`
+- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
+- `inbox/107-chapter-13-failed-its-continuity-review-twice-al.md`
+- `output/compiled/README.md`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-1-steady-river.png`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
+- … and 130 more
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
