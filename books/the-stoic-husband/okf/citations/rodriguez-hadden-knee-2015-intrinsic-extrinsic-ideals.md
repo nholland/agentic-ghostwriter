@@ -5,7 +5,7 @@ description: In a cross-sectional sample, matching ideals about warmth and intim
 provenance: Researcher desk, in session, 2026-09-27; publisher abstract and full-text search extract inspected for Chapter 14.
 ip: external
 tags: [ideal-standards, partner-preferences, warmth, attractiveness, resources]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: https://onlinelibrary.wiley.com/doi/10.1111/pere.12068
 status: verifiable
 quote_form: none

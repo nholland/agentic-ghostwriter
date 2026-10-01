@@ -22,7 +22,7 @@ Five sequential parts, each building a layer of who the reader is becoming, from
 **The five parts:**
 
 - **Part I — The Steady River** *(self-command)*
-  The Three-Second Window / Stop Outsourcing Your Peace / The Discipline of Not Reacting / Anger Is Failed Leadership / How to Fight Without Becoming Small
+  The Three-Second Window / Stop Outsourcing Your Peace / Stop Defending Yourself / Anger Is Failed Leadership / How to Fight Without Becoming Small
   *Problems: fighting, criticism, defensiveness, emotional shutdown, contempt, resentment, moodiness, escalation*
 
 - **Part II — The Sturdy Oak** *(dependability)*

@@ -5,7 +5,7 @@ description: Research gap on whether and when pornography or romance media shape
 provenance: Author's question in Chapter 14 interview, 2026-09-27; no source reviewed.
 ip: external
 tags: [pornography, romance-media, expectations, marriage]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: ''
 status: unverified
 quote_form: none

@@ -7,7 +7,7 @@ description: >
 provenance: Author framework (confirmed 2026-06-04, Chapter 3 research check-in)
 ip: author
 tags: [framework, courage, dichotomy-of-control]
-chapter_slugs: [the-discipline-of-not-reacting, how-to-fight-without-becoming-small, silence-is-not-peace]
+chapter_slugs: [stop-defending-yourself, how-to-fight-without-becoming-small, silence-is-not-peace]
 timestamp: 2026-06-04T00:00:00Z
 ---
 

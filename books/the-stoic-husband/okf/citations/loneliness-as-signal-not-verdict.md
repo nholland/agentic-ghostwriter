@@ -24,7 +24,7 @@ verification_note: >
   This stub is kept as a historical record of the original gap, not for
   further use.
 tags: [citation, loneliness, superseded]
-chapter_slugs: [living-separate-lives, the-discipline-of-not-reacting]
+chapter_slugs: [living-separate-lives, stop-defending-yourself]
 timestamp: 2026-07-06T15:45:00Z
 ---
 

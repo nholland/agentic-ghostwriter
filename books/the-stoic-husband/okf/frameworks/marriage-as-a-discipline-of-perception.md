@@ -7,7 +7,7 @@ description: >
 provenance: Author notes (Marcus Aurelius framework)
 ip: author-synthesis
 tags: [framework, marcus-aurelius, perception]
-chapter_slugs: [the-discipline-of-not-reacting, how-to-fight-without-becoming-small, living-separate-lives]
+chapter_slugs: [stop-defending-yourself, how-to-fight-without-becoming-small, living-separate-lives]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

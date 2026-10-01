@@ -203,7 +203,7 @@ marriage holds. This cell carries more weight than its short chapter list
 might suggest.)*
 **Failure mode: The Closed Door.** Defensiveness — treating her complaint as a
 prosecution rather than data. She learns the conversation isn't worth having.
-**Chapters:** Ch3 (The Discipline of Not Reacting — establishes the skill),
+**Chapters:** Ch3 (Stop Defending Yourself — establishes the skill),
 Ch22 (Betrayal, Secrets, and the Work of Repair — the same skill at its
 highest stakes: receiving her account of the harm without retreating behind
 defensiveness)
@@ -261,7 +261,7 @@ silently measured against an imagined composite of other people's best single
 traits. The condition on the affection is that she keep winning a contest no
 real person can win. Same cell, same missing virtue; the transaction is with a
 fantasy rather than with her.
-**Chapters:** Ch14 (The Discipline of Enough — contentment through appreciation; comparison is a supporting pressure), Ch15
+**Chapters:** Ch14 (She Is Enough — contentment through appreciation; comparison is a supporting pressure), Ch15
 (Sex, Rejection, and Self-Respect — the transactional route), Ch18 (The
 Sexless Marriage — conditional warmth under prolonged-absence pressure)
 
@@ -292,7 +292,7 @@ by hand.
 |---|---|---|
 | 1 | The Three-Second Window | River × Wisdom |
 | 2 | Stop Outsourcing Your Peace | River × Temperance |
-| 3 | The Discipline of Not Reacting | River × Justice |
+| 3 | Stop Defending Yourself | River × Justice |
 | 4 | Anger Is Failed Leadership | River × Courage |
 | 5 | How to Fight Without Becoming Small | River × Courage |
 | 6 | Duty Without Resentment | Oak × Justice |
@@ -303,7 +303,7 @@ by hand.
 | 11 | Speak or Endure | Oak × Courage |
 | 12 | Romance Is a Discipline | Sun × Wisdom |
 | 13 | Pursue Her After You Have Her | Sun × Wisdom |
-| 14 | The Discipline of Enough | Sun × Temperance |
+| 14 | She Is Enough | Sun × Temperance |
 | 15 | Sex, Rejection, and Self-Respect | Sun × Temperance |
 | 16 | Warmth Is Strength | Sun × Justice |
 | 17 | Repair Quickly, Love Deliberately | Sun × Courage |

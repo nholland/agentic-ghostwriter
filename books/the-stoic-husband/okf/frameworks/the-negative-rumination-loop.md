@@ -8,7 +8,7 @@ description: >
 provenance: Author framework (confirmed 2026-06-08, free-thinking session)
 ip: author-synthesis
 tags: [framework, rumination, contempt]
-chapter_slugs: [the-discipline-of-not-reacting, anger-is-failed-leadership, how-to-fight-without-becoming-small, living-separate-lives]
+chapter_slugs: [stop-defending-yourself, anger-is-failed-leadership, how-to-fight-without-becoming-small, living-separate-lives]
 timestamp: 2026-06-08T00:00:00Z
 ---
 

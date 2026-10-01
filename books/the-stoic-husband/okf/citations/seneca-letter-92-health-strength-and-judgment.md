@@ -5,7 +5,7 @@ description: Seneca prefers health and strength while locating moral good in sou
 provenance: Primary text read on source page during Chapter 14 targeted research, 2026-09-27; Gummere translation.
 ip: external
 tags: [stoicism, health, preferred-externals, judgment]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: https://senecaletters.com/en/letters/92
 status: verifiable
 quote_form: paraphrase

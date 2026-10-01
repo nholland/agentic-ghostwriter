@@ -5,7 +5,7 @@ description: Three-year newlywed data suggest that satisfaction and acceptance r
 provenance: Researcher desk, in session, 2026-09-27; full publisher PDF read for Chapter 14.
 ip: external
 tags: [ideal-standards, partner-acceptance, satisfaction, newlyweds]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.01691/pdf
 status: verifiable
 quote_form: none

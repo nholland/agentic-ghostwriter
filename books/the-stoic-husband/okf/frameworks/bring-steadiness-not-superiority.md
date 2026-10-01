@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Musonius/marriage-under-strain framework)
 ip: author-synthesis
 tags: [framework, musonius-rufus, mixed-marriage]
-chapter_slugs: [stop-outsourcing-your-peace, the-discipline-of-not-reacting, warmth-is-strength]
+chapter_slugs: [stop-outsourcing-your-peace, stop-defending-yourself, warmth-is-strength]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

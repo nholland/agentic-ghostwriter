@@ -16,7 +16,7 @@ verification_note: >
   devotion; paraphrase only because Lutz is not the house's public-domain
   quotation standard. Author has not verified against a physical copy.
 tags: [citation, musonius-rufus, primary-source]
-chapter_slugs: [duty-without-resentment, the-end-of-scorekeeping, the-discipline-of-enough, the-marriage-you-build-every-day, friendship-is-the-hidden-engine]
+chapter_slugs: [duty-without-resentment, the-end-of-scorekeeping, she-is-enough, the-marriage-you-build-every-day, friendship-is-the-hidden-engine]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

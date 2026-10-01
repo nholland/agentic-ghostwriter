@@ -6,7 +6,7 @@ provenance: Direct author testimony in Chapter 14 interview, 2026-09-27 17:13; r
 ip: author
 disclosure: identified
 tags: [contentment, aging, affection, changing-partners]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 timestamp: 2026-09-27T17:13:00-05:00
 ---
 

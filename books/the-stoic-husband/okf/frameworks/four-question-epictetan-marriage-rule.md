@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Epictetus framework)
 ip: author-synthesis
 tags: [framework, epictetus]
-chapter_slugs: [the-three-second-window, the-discipline-of-not-reacting, how-to-fight-without-becoming-small, repair-quickly-love-deliberately]
+chapter_slugs: [the-three-second-window, stop-defending-yourself, how-to-fight-without-becoming-small, repair-quickly-love-deliberately]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

@@ -14,7 +14,7 @@ provenance: >
   itself is built on confirmed academic sources, not the listicle.
 ip: author-synthesis
 tags: [framework, loneliness]
-chapter_slugs: [the-discipline-of-not-reacting, living-separate-lives]
+chapter_slugs: [stop-defending-yourself, living-separate-lives]
 timestamp: 2026-07-06T16:30:00Z
 ---
 

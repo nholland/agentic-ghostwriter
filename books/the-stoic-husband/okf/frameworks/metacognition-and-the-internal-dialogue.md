@@ -9,7 +9,7 @@ description: >
 provenance: Author framework (confirmed 2026-06-08, free-thinking session)
 ip: author-synthesis
 tags: [framework, metacognition, internal-dialogue, autopilot]
-chapter_slugs: [the-three-second-window, the-discipline-of-not-reacting, the-marriage-you-build-every-day]
+chapter_slugs: [the-three-second-window, stop-defending-yourself, the-marriage-you-build-every-day]
 timestamp: 2026-06-08T00:00:00Z
 ---
 

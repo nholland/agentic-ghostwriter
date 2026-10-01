@@ -37,7 +37,7 @@ provenance: >
   direction; draft exercises remain reviewable proposals, not his biography.
 ip: author-synthesis
 tags: [framework, contentment, miswanting, hedonic-adaptation, comparison-trap, proactive-vs-reactive]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

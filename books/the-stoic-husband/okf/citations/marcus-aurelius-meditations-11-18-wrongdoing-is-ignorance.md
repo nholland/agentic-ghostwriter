@@ -24,7 +24,7 @@ verification_note: >
   Ch3 now quotes Long, transcribed verbatim from the Gutenberg text, instead of Farquharson (1944, rights ambiguous, and the printed wording was inexact; defect #6). The em-dash clearance recorded below for Farquharson no longer applies to anything in the manuscript; Ch3 prose carries no em-dash. Author to confirm Long's wording against a printed copy per Rule 11.
 ip: external
 tags: [citation, migrated-from-manifest, needs-author-verification]
-chapter_slugs: [the-discipline-of-not-reacting]
+chapter_slugs: [stop-defending-yourself]
 timestamp: 2026-08-14T11:00:00Z
 ---
 

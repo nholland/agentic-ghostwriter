@@ -5,7 +5,7 @@ description: In 209 married couples, self-reported partner acceptance and feelin
 provenance: Researcher desk, in session, 2026-09-27; authors' abstract inspected via indexed primary manuscript listing for Chapter 14.
 ip: external
 tags: [partner-acceptance, felt-acceptance, marriage, satisfaction]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: https://pmc.ncbi.nlm.nih.gov/articles/PMC8720111/
 status: verifiable
 quote_form: none

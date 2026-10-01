@@ -5,7 +5,7 @@ description: Longitudinal married-couple data link partner maintenance behavior,
 provenance: Researcher desk, in session, 2026-09-27; PubMed record and authors' abstract read for Chapter 14.
 ip: external
 tags: [gratitude, relationship-maintenance, responsiveness, marriage]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: https://pubmed.ncbi.nlm.nih.gov/21670220/
 status: verifiable
 quote_form: none

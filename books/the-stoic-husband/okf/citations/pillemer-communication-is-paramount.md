@@ -27,7 +27,7 @@ verification_note: >
   (CLAUDE.md Rule 3).
 ip: external
 tags: [citation, pillemer, verifiable]
-chapter_slugs: [the-discipline-of-not-reacting, how-to-fight-without-becoming-small]
+chapter_slugs: [stop-defending-yourself, how-to-fight-without-becoming-small]
 timestamp: 2026-06-14T00:00:00Z
 ---
 

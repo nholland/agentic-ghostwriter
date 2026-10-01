@@ -8,7 +8,7 @@ description: >
 provenance: Author framework (confirmed 2026-06-08, free-thinking session)
 ip: author-synthesis
 tags: [framework, arete]
-chapter_slugs: [introduction, the-three-second-window, stop-outsourcing-your-peace, the-discipline-of-not-reacting]
+chapter_slugs: [introduction, the-three-second-window, stop-outsourcing-your-peace, stop-defending-yourself]
 timestamp: 2026-06-08T00:00:00Z
 ---
 

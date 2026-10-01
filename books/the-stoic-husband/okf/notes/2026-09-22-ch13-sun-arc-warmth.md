@@ -13,7 +13,7 @@ tags:
 - curiosity
 chapter_slugs:
 - pursue-her-after-you-have-her
-- the-discipline-of-enough
+- she-is-enough
 timestamp: '2026-09-22T23:42:02-05:00'
 ---
 

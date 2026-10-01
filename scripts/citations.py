@@ -137,7 +137,7 @@ def chapter_slug_map(book_root, book_rel):
     except OSError:
         return out
     # The outline carries no slug field: headings read "## Chapter 3: The
-    # Discipline of Not Reacting" and the concepts carry the slugified title.
+    # Stop Defending Yourself" and the concepts carry the slugified title.
     # Derive it the same way rather than asking the author to maintain a map.
     for m in re.finditer(r"^#+\s*Chapter\s+(\d+)\s*[:\-\u2014]\s*([^\n]+)", text, re.M):
         out[int(m.group(1))] = slugify(m.group(2))

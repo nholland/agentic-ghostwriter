@@ -8,7 +8,7 @@ description: >
 provenance: "Author framework (developed 2026-06-13, feedback session with Chris Moore re: Ch1)"
 ip: author
 tags: [framework, impressions, prohairesis, autopilot]
-chapter_slugs: [the-three-second-window, the-discipline-of-not-reacting, anger-is-failed-leadership]
+chapter_slugs: [the-three-second-window, stop-defending-yourself, anger-is-failed-leadership]
 timestamp: 2026-06-13T00:00:00Z
 ---
 

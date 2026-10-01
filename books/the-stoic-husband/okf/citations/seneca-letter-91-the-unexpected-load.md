@@ -22,7 +22,7 @@ verification_note: >
   Ch3 now presents the two fragments as two quotations (Gummere XCI.3 and XCI.4) with prose between them, and keeps the lowercase "it" the source has (defect #4 fixed in prose). The first fragment and the opening of the second were transcribed by the 2026-09-03 external check; the second fragment's tail ("and we should consider, not what is wont to happen, but what can happen") has not been transcribed from a Gummere page, so status stays unverified. Author confirmation per Rule 11.
 ip: external
 tags: [citation, migrated-from-manifest, needs-author-verification]
-chapter_slugs: [the-discipline-of-not-reacting]
+chapter_slugs: [stop-defending-yourself]
 timestamp: 2026-08-14T11:00:00Z
 ---
 

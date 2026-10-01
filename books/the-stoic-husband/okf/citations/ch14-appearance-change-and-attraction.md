@@ -5,7 +5,7 @@ description: Research gap on how aging and health-related body change relate to 
 provenance: Question raised by author in Chapter 14 interview, 2026-09-27; no source reviewed.
 ip: external
 tags: [attraction, aging, body-change, marriage]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: ''
 status: unverified
 quote_form: none

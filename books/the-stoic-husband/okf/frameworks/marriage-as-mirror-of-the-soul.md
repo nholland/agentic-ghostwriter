@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Marcus Aurelius framework)
 ip: author-synthesis
 tags: [framework, marcus-aurelius]
-chapter_slugs: [the-three-second-window, the-discipline-of-not-reacting, become-easier-to-love]
+chapter_slugs: [the-three-second-window, stop-defending-yourself, become-easier-to-love]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

@@ -16,7 +16,7 @@ verification_note: >
   VI.48 checked; physical house edition not inspected. Verifiable only; the
   author alone can set verified. If manuscript wording changes, recheck it.
 tags: [contentment, gratitude, attention]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 timestamp: 2026-09-29T20:44:31-05:00
 ---
 

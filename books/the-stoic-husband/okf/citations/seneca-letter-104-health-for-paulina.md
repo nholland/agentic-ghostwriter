@@ -5,7 +5,7 @@ description: Seneca describes taking greater care of his own health and old age 
 provenance: Primary text read on source page during Chapter 14 targeted research, 2026-09-27; Gummere translation.
 ip: external
 tags: [stoicism, marriage, health, aging, care]
-chapter_slugs: [the-discipline-of-enough]
+chapter_slugs: [she-is-enough]
 resource: https://monadnock.net/seneca/104.html
 status: verifiable
 quote_form: paraphrase

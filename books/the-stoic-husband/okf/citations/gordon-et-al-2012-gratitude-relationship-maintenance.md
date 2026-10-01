@@ -38,7 +38,7 @@ verification_note: >
   experimental. The chapter should say what travels with what, not what causes
   what. Author confirmation still required per CLAUDE.md Rule 11.
 tags: [citation, gratitude, appreciation, responsiveness, gordon, impett, needs-verification, updated-round2]
-chapter_slugs: [romance-is-a-discipline, the-discipline-of-enough]
+chapter_slugs: [romance-is-a-discipline, she-is-enough]
 timestamp: 2026-09-15T16:54:07Z
 ---
 

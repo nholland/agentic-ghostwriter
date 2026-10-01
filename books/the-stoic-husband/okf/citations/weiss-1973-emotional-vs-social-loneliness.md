@@ -25,7 +25,7 @@ verification_note: >
   Confirm exact wording and page number against a copy before using as a
   direct quote.
 tags: [citation, weiss, loneliness, unverified-wording]
-chapter_slugs: [the-discipline-of-not-reacting, living-separate-lives]
+chapter_slugs: [stop-defending-yourself, living-separate-lives]
 timestamp: 2026-07-06T00:00:00Z
 ---
 

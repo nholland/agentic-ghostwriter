@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Epictetus framework)
 ip: author-synthesis
 tags: [framework, epictetus, dichotomy-of-control]
-chapter_slugs: [the-three-second-window, stop-outsourcing-your-peace, the-discipline-of-not-reacting, the-end-of-scorekeeping, when-your-marriage-feels-unfair, when-faith-values-or-ambition-diverge]
+chapter_slugs: [the-three-second-window, stop-outsourcing-your-peace, stop-defending-yourself, the-end-of-scorekeeping, when-your-marriage-feels-unfair, when-faith-values-or-ambition-diverge]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

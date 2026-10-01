@@ -24,7 +24,7 @@ verification_note: >
   exact item wording and any quotable definitions of the three factors
   against the primary text before direct quotation.
 tags: [citation, rokach, loneliness]
-chapter_slugs: [the-discipline-of-not-reacting, living-separate-lives]
+chapter_slugs: [stop-defending-yourself, living-separate-lives]
 timestamp: 2026-07-06T00:00:00Z
 ---
 
