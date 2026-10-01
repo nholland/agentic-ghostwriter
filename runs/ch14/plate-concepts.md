@@ -1,62 +1,76 @@
 # Chapter 14 plate concepts
 
-Mode: concepts. Three roughs for the Reader Panel; no concept selected and no finished plate produced.
+Designer, concepts mode. 2026-09-30 23:16. Three rough thumbnails, one drawing pass each. No concept is approved. The existing plate.svg is unchanged.
 
-## A: Appreciation poured into care
+## Recognition diagnosis
 
-**A stranger sees this and takes away:** Noticing what you value in your wife becomes small acts that tend the life you share.
+The brief records the author's words: “current version is awful. It's unrecognizable.” The current vessel is a small upright rectangle with a handle and narrow spout. At phone width its shape is closer to a cup than a watering can. Three uninterrupted curves look like diagram connectors, not falling water. They end above the care labels; a further text band separates them from the grass. The grass therefore reads as a decorative footer. The actual relationship, appreciation becoming care for a shared life, lives mainly in the words.
 
-**Carrier:** One watering can distributes its contents into three streams, each landing above the same continuous grass. The can holds appreciation; its streams name the concrete forms of care. This is a transformation with several expressions, not three kinds of wife or three alternative marriages.
+The alternatives make the anchor image structural: contact between water and grass (A), a visible root-to-shoot dependency (B), or care recurring across ordinary days (C). They are different carriers, not three layouts of the old fan of labels.
 
-**Chapter image:** “The grass is greener where you water it” and “Keep tending the life you share”. These are source references in these notes only; neither quotation appears on the plate.
+## A. Water reaches the grass
 
-**Copy:** Title: “Appreciation becomes care”. Labels: “what you value in your wife”; “appreciation”; “a kinder answer”; “a sincere compliment”; “enjoying her company”; “the life you share”. Mechanically counted from SVG text: 23 words including the three-word title, 9 text elements, 1 italic caption line. The first phrase comes from the distillation's Conversation sentence; the others appear in the refined chapter. The two longer action labels wrap across two text elements each.
+**A stranger sees this and takes away:** Noticing what you value in your wife gives you appreciation to turn into everyday care for your shared life.
 
-**Skeptic's misreading:** Pouring in care guarantees an improved relationship. The drawing deliberately has no before/after grass or guaranteed return, but the watering metaphor still carries that risk.
+**Carrier:** A large, recognizable watering can pours discrete falling drops directly onto a single patch of grass. Appreciation is inside the vessel; the kinder answer is the act of tending. The water visibly reaches the grass instead of terminating at a caption.
+
+**Chapter image:** “The grass is greener where you water it” and “Keep tending the life you share”. These source excerpts identify the image here; neither quotation is printed on the thumbnail.
+
+**Copy, counted:** 18 words total, 15 excluding the three-word title. Title: “Appreciation becomes care”. Other text: “Notice what you value in your wife”; “appreciation”; “a kinder answer”; “the life you share”. Two italic lines.
+
+**Skeptic's misreading:** Kindness is a technique for making the wife grow into a more pleasing person. The grass must remain the shared life, not an illustration of her improvement.
+
+**Validation question:** Can a stranger identify a watering can, falling water, and grass without reading, and then locate the husband’s action from the labels?
 
 Thumbnail: `concepts/A.svg`.
 
-## B: Appreciation supports concrete care
+## B. Appreciation feeds the care
 
-**A stranger sees this and takes away:** Appreciating your wife gives the ordinary care of your shared life something to grow from.
+**A stranger sees this and takes away:** Appreciation for your wife supports the kinder answers and sincere compliments you give her.
 
-**Carrier:** A grass cross-section connects three visible groups of blades, named with concrete caring acts, to a joined root system named appreciation. Unlike A's act of pouring, this is a structural relationship between the often unseen appreciation and the visible conduct it supports.
+**Carrier:** One continuous grass plant extends from roots below the ground to visible shoots above it. Appreciation sits by the roots, care by the shoots. The physical continuity makes their dependency visible without a generic flowchart or vessel.
 
-**Chapter image:** “The grass is greener where you water it” and “The appreciation matters because it can become a kinder answer, a sincere compliment, or time spent enjoying her company.” The roots are a drawn part of the declared grass image, not a second metaphor. The prose does not itself mention roots; the Panel should weigh whether that extension makes the mechanism clearer or merely more abstract.
+**Chapter image:** “The grass is greener where you water it”. Roots are the proposed visual extension of that grass image, not a second metaphor. The chapter itself does not name roots; that interpretation needs the Panel’s judgment and the author’s verdict.
 
-**Copy:** Title: “Appreciation becomes care”. Labels: “the life you share”; “a kinder answer”; “a sincere compliment”; “enjoying her company”; “appreciation”; “what you value in your wife”. Mechanically counted: 23 words including title, 9 text elements, 0 italic caption lines. Sources as for A.
+**Copy, counted:** 26 words total, 23 excluding the title. Title: “Appreciation becomes care”. Other text: “Notice what you value in your wife”; “the care you give her”; “a kinder answer”; “a sincere compliment”; “appreciation”; “the life you share”. Three italic lines.
 
-**Skeptic's misreading:** The wife is the grass and the husband grows or manages her. The grass is explicitly named “the life you share”; no human figure is depicted as gardener, owner or plant. That label must survive any draft.
+**Skeptic's misreading:** Good intentions automatically produce kind behavior. The chapter requires practicing care; this carrier could understate that choice.
+
+**Validation question:** Does the reader see appreciation supporting actual care, or only a generic plant with labels?
 
 Thumbnail: `concepts/B.svg`.
 
-## C: Tending is repeated
+## C. Tending on ordinary days
 
-**A stranger sees this and takes away:** Keep noticing, enjoying and expressing what you value in your wife, and let it shape your answers on ordinary days.
+**A stranger sees this and takes away:** Put appreciation for your wife into small acts of care repeatedly, in the ordinary life you share.
 
-**Carrier:** Four directional arcs surround one patch of grass, making repeated attention and caring conduct an ongoing practice around the same shared life. It is recurrence, unlike A's distribution or B's supporting structure. The arrows connect his own practices; her response is not a node and there is no promised reciprocal arrow from her.
+**Carrier:** Three acts of watering recur above three equal grass patches, read across a time arrow. Different care labels name the acts, while equal grass height avoids inventing a growth rate or guaranteed improvement. Repetition, rather than a single transfer or hidden dependency, carries the argument.
 
-**Chapter image:** “Keep doing that on ordinary days, before dissatisfaction makes it feel urgent” and “Keep tending the life you share, including on the days it gives you nothing new to admire.”
+**Chapter image:** “Keep doing that on ordinary days” and “Keep tending the life you share”. The recurring watering action is the chapter's practice made visible.
 
-**Copy:** Title: “Appreciation becomes care”. Labels: “Notice what you value”; “in your wife”; “tell her”; “enjoy it”; “the life you share”; “a kinder answer”; “on ordinary days”. Mechanically counted: 24 words including title, 9 text elements, 1 italic caption line. All copy comes from the refined chapter or distillation. Wife and shared-life phrases wrap across two lines.
+**Copy, counted:** 29 words total, 26 excluding the title. Title: “Appreciation becomes care”. Other text: “Notice what you value in your wife”; “a kinder answer”; “a sincere compliment”; “enjoying her company”; “Keep doing that on ordinary days”; “the life you share”. Two italic lines. The three care labels wrap across two lines each.
 
-**Skeptic's misreading:** This is a compulsory sequence or a self-reinforcing emotional loop. The chapter offers practices, not a validated protocol. The Panel must judge whether arrows overstate the sequence.
+**Skeptic's misreading:** These three acts are a prescribed sequence, or three different relationships. The Panel should test whether repetition across time is legible.
+
+**Validation question:** Do the repeated acts read as ordinary sustained care, without implying a wife must repay it?
 
 Thumbnail: `concepts/C.svg`.
 
-## Style and boundaries
+## Style and copy sources
 
-Read the existing plates before the brief. Matched the 640-wide chapter canvas, Georgia with serif fallback, dark `currentColor` stroke work, white background, lightly spaced 17px title, 1.8px rounded drawing strokes, centered labels and spare italic captions. Specific models were `tipping-scale.svg` for the drawn relationship and `the-muscle-you-stopped-using.svg` for explicit dark ink on white. Body labels use 16px for phone reading. The existing `design/plates/README.md` supplies written conventions; no new style file is proposed.
+All three use a 640 × 500 white canvas; currentColor at #1a1a1a; Georgia with serif fallback; a centred 17px semibold, letterspaced title; quiet italic captions; explicit fills; thin rounded linework. These match the family in `design/plates/small-rocks-big-rocks.svg`, `tipping-scale.svg`, and `the-muscle-you-stopped-using.svg`. Body labels are enlarged to 18px for phone reading. Existing conventions are in `design/plates/README.md`; no new style file is proposed.
 
-All titles exactly match the Mechanism line. Every shape specifies fill; all text anchoring is in CSS. No quotation, statistic, external claim or Stoic technical term appears on the thumbnails. Grass refers to shared life throughout. No book files were changed. These are first-pass roughs with no polishing pass.
+Title and opening label: distillation mechanism and refined “Notice what you value” section / opening paragraph. Care labels: refined “Let appreciation become care” paragraph. Shared-life label and tending: refined final sentence. Ordinary-days line: same care paragraph. No Stoic terminology, statistics, or quotations appear in the thumbnails.
 
-## Mechanical notes
+Literal word counts were computed from SVG text nodes with Python, splitting on whitespace: A 18, B 26, C 29.
 
-The checks below were run on the three roughs, not on a nonexistent `plate.svg`. Isolated labels produce alignment WARNs: A/B use mirrored columns at x=160 and x=480; C uses mirrored x=130 and x=510. Geometry reports no collisions. These are review inputs, not a declaration of standalone success.
+## Rough-thumbnail check
 
-Rendering through `chapter_pdf_local.svg_to_png` failed with Playwright SIGABRT and kill EPERM. The attempted PNG destination was temporary storage. No visual inspection or successful ink/raster check is claimed. The Publisher needs a working renderer for the cold visual pick.
+Command: `python3 scripts/plate_check.py runs/ch14/concepts/A.svg runs/ch14/concepts/B.svg runs/ch14/concepts/C.svg --chapter 14`.
 
-Command: `python3 scripts/plate_check.py runs/ch14/concepts/A.svg runs/ch14/concepts/B.svg runs/ch14/concepts/C.svg --chapter 14`
+The check returned no FAIL rows. Rendering was blocked by the local Playwright process launch/termination permission failure; ink and raster are unchecked. Do not treat these as visually verified. No second drawing pass was made in concepts mode. The final plate check belongs to draft mode; running it against the unchanged, rejected plate would not validate these concepts.
+
+Verbatim checker rows (terminal colour escape codes omitted):
 
 ```text
 runs/ch14/concepts/A.svg
@@ -65,40 +79,48 @@ runs/ch14/concepts/A.svg
   [ ok ] anchor-attr anchors set in classes or inline styles only
   [ ok ] em-dash     none
   [ ok ] digits      none
-  [ ok ] canvas      640x460
+  [ ok ] canvas      640x500
   [ ok ] title       title 'Appreciation becomes care' / aria-label 'Appreciation becomes care' vs Mechanism 'Appreciation becomes care'
   [ ok ] grounded    each text has a three-word match in permitted source copy
-  [ ok ] captions    1 italic lines against a cap of 3 (1 labels + subtitle + closing line)
-  [WARN] alignment   centred text on no shared axis: 'a kinder answer' x=160
-  [WARN] ink         render failed, unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM[22m
-[2m  - [pid=26489] <process di
-  [WARN] raster-current preview missing or differs from source at its own scale
+  [ ok ] captions    2 italic lines against a cap of 3 (1 labels + subtitle + closing line)
+  [WARN] alignment   centred text on no shared axis: 'appreciation' x=205, 'a kinder answer' x=172; drawing off centre with no mirror and no text on its axis: block -112..126 centred at 7
+  [WARN] ink         render failed, unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM
+  - [pid=94058] <process di
+  [WARN] raster-current unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM
+  - [pid=94060] <process did exit: exitCode=null, signal=SIGABRT>
+[
 runs/ch14/concepts/B.svg
   [ ok ] charset     valid UTF-8, no mojibake
   [ ok ] geometry    no margin or collision rows
   [ ok ] anchor-attr anchors set in classes or inline styles only
   [ ok ] em-dash     none
   [ ok ] digits      none
-  [ ok ] canvas      640x460
+  [ ok ] canvas      640x500
   [ ok ] title       title 'Appreciation becomes care' / aria-label 'Appreciation becomes care' vs Mechanism 'Appreciation becomes care'
   [ ok ] grounded    each text has a three-word match in permitted source copy
-  [ ok ] captions    0 italic lines against a cap of 4 (2 labels + subtitle + closing line)
-  [WARN] alignment   centred text on no shared axis: 'a kinder answer' x=160
-  [WARN] ink         render failed, unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM[22m
-[2m  - [pid=26491] <process di
-  [WARN] raster-current preview missing or differs from source at its own scale
+  [ ok ] captions    3 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [WARN] alignment   centred text on no shared axis: 'a kinder answer' x=160, 'a sincere compliment' x=440
+  [WARN] ink         render failed, unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM
+  - [pid=94062] <process di
+  [WARN] raster-current unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM
+  - [pid=94064] <process did exit: exitCode=null, signal=SIGABRT>
+[
 runs/ch14/concepts/C.svg
   [ ok ] charset     valid UTF-8, no mojibake
   [ ok ] geometry    no margin or collision rows
   [ ok ] anchor-attr anchors set in classes or inline styles only
   [ ok ] em-dash     none
   [ ok ] digits      none
-  [ ok ] canvas      640x460
+  [ ok ] canvas      640x500
   [ ok ] title       title 'Appreciation becomes care' / aria-label 'Appreciation becomes care' vs Mechanism 'Appreciation becomes care'
   [ ok ] grounded    each text has a three-word match in permitted source copy
-  [ ok ] captions    1 italic lines against a cap of 4 (2 labels + subtitle + closing line)
-  [WARN] alignment   centred text on no shared axis: 'tell her' x=510, 'enjoy it' x=130
-  [WARN] ink         render failed, unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM[22m
-[2m  - [pid=26493] <process di
-  [WARN] raster-current preview missing or differs from source at its own scale
+  [ ok ] captions    2 italic lines against a cap of 2 (0 labels + subtitle + closing line)
+  [WARN] alignment   drawing off centre with no mirror and no text on its axis: block -112..126 centred at 7, block -112..126 centred at 7, block -112..126 centred at 7
+  [WARN] ink         render failed, unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM
+  - [pid=94066] <process di
+  [WARN] raster-current unchecked: svg_to_png: playwright capture failed: le trying to kill process: Error: kill EPERM
+  - [pid=94068] <process did exit: exitCode=null, signal=SIGABRT>
+[
 ```
+
+The roots interpretation in B is the one metaphor judgment requiring explicit attention. Alignment warnings remain for the selected concept's draft pass. The Publisher owns the maintained finished-plate brief; this commission changed only this concepts document and the three thumbnails.

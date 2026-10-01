@@ -166,10 +166,10 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 
 ## ch14 | Appreciation becomes care
 
-**Intent:** Notice what you value in your wife and let that appreciation shape ordinary acts of care, without requiring a particular response from her.
+**Intent:** Notice what you value in your wife and let appreciation become an ordinary act of care for the life you share.
 
-**Visual explanation:** A watering can stands below the things he notices and appreciates. Three streams become a kinder answer, a sincere compliment, and time enjoying her company. The streams are explicitly named “the care you give her.” Grass represents “the life you share” and extends beyond the reach of this one act. The phrase “without requiring a particular response” sits directly beneath the three acts and above the shared ground, so its scope is those acts rather than the entire marriage. The drawing shows his contribution to shared life, without a before/after growth comparison, a promised return, or a claim that he alone sustains the marriage.
+**Visual explanation:** A large tilted watering can holds “appreciation.” Its loop handle, curved body, long spout and sprinkler head make the object recognizable. Discrete drops descend from the spout into one grass patch. “A kinder answer” sits beside the falling drops, naming the act of care while it happens. The grass is labeled “the life you share.” The image draws appreciation becoming care through contact between water and grass. There is no before/after growth comparison or returning arrow; the shared-life label names the recipient without depicting the wife as a plant to improve.
 
-**Validation question:** What connects noticing what you value in your wife with the three acts below, and does this picture suggest that she owes a response or that the marriage is his alone to sustain?
+**Validation question:** Within ten seconds, can a stranger recognize a watering can watering grass, identify the kinder answer as the water, and understand appreciation for his wife becoming care for their shared life? Does the image imply she owes a response?
 
-**Source:** runs/ch14/plate.svg; runs/ch14/distillation.md; runs/ch14/refined.md, “Let appreciation become care”; runs/ch14/plate-brief.md; runs/ch14/plate-pick.md
+**Source:** runs/ch14/plate.svg; runs/ch14/distillation.md; runs/ch14/plate-brief.md; runs/ch14/plate-concepts.md, concept A and its recorded source excerpts; runs/ch14/plate-pick.md; runs/ch14/draft.md, metaphor_family only.

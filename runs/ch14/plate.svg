@@ -1,54 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" style="color:#1a1a1a" role="img" aria-label="Appreciation becomes care">
 <style>
 .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
-.lbl{font:600 16px Georgia,serif;text-anchor:middle}
-.txt{font:16px Georgia,serif;text-anchor:middle}
-.cap{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+.txt{font:18px Georgia,serif;text-anchor:middle}
+.lbl{font:600 18px Georgia,serif;text-anchor:start}
+.cap{font:italic 16px Georgia,serif;text-anchor:middle;opacity:.8}
+.inside{font:italic 16px Georgia,serif;text-anchor:start;opacity:.8}
 </style>
 <rect x="0" y="0" width="640" height="500" fill="#ffffff"/>
 <text class="ttl" x="320" y="40" fill="currentColor">Appreciation becomes care</text>
-<text class="txt" x="320" y="79" fill="currentColor">Notice what you value</text>
-<text class="txt" x="320" y="101" fill="currentColor">in your wife</text>
-<text class="lbl" x="320" y="137" fill="currentColor">appreciation</text>
-<!-- A single act of giving care, not a model of all contributions to marriage. -->
-<g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-<path d="M280 155H350V207H280Z" fill="none"/>
-<path d="M280 166C232 137 232 217 280 195" fill="none"/>
-<path d="M350 182L385 157L396 164L350 203" fill="none"/>
+<text class="txt" x="320" y="86" fill="currentColor">Notice what you value in your wife</text>
+<!-- One connected watering action. The can, drops and grass form a single centred drawing. -->
+<g stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<!-- Open loop handle, broad curved body, long rising spout and sprinkler head. -->
+<path d="M146 154 C80 113 80 231 143 222" fill="none"/>
+<path d="M148 137 L291 168 L267 262 Q205 267 141 231 Z" fill="none"/>
+<path d="M279 222 L350 166 L367 185 L271 252" fill="none"/>
+<path d="M344 159 L377 187 L384 179 L352 151 Z" fill="currentColor"/>
+<!-- Discrete drops descend from the rose all the way into the grass. -->
+<path d="M381 196l5 10 M397 222l5 11 M410 250l4 12 M421 281l3 12 M429 312l2 12 M434 342l1 12" fill="none"/>
+<path d="M371 201l2 10 M382 230l2 11 M390 260l1 12 M397 291l1 12 M402 322l1 12 M405 351l1 12" fill="none"/>
+<path d="M300 382H560" fill="none" stroke-width="1.2"/>
+<path d="M314 382q-2 -30 -13 -43 M314 382q0 -37 6 -52 M314 382q5 -23 15 -30" fill="none"/>
+<path d="M340 382q-2 -30 -13 -43 M340 382q0 -37 6 -52 M340 382q5 -23 15 -30" fill="none"/>
+<path d="M366 382q-2 -30 -13 -43 M366 382q0 -37 6 -52 M366 382q5 -23 15 -30" fill="none"/>
+<path d="M392 382q-2 -30 -13 -43 M392 382q0 -37 6 -52 M392 382q5 -23 15 -30" fill="none"/>
+<path d="M418 382q-2 -30 -13 -43 M418 382q0 -37 6 -52 M418 382q5 -23 15 -30" fill="none"/>
+<path d="M444 382q-2 -30 -13 -43 M444 382q0 -37 6 -52 M444 382q5 -23 15 -30" fill="none"/>
+<path d="M470 382q-2 -30 -13 -43 M470 382q0 -37 6 -52 M470 382q5 -23 15 -30" fill="none"/>
+<path d="M496 382q-2 -30 -13 -43 M496 382q0 -37 6 -52 M496 382q5 -23 15 -30" fill="none"/>
+<path d="M522 382q-2 -30 -13 -43 M522 382q0 -37 6 -52 M522 382q5 -23 15 -30" fill="none"/>
+<path d="M548 382q-2 -30 -13 -43 M548 382q0 -37 6 -52 M548 382q5 -23 15 -30" fill="none"/>
 </g>
-<g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" opacity=".65">
-<path d="M390 177Q469 206 480 264" fill="none"/>
-<path d="M383 181Q385 229 320 264" fill="none"/>
-<path d="M376 185Q279 239 160 264" fill="none"/>
-</g>
-<text class="lbl" x="320" y="297" fill="currentColor">the care you give her</text>
-<text class="txt" x="160" y="330" fill="currentColor">a kinder</text>
-<text class="txt" x="160" y="352" fill="currentColor">answer</text>
-<text class="txt" x="320" y="330" fill="currentColor">a sincere</text>
-<text class="txt" x="320" y="352" fill="currentColor">compliment</text>
-<text class="txt" x="480" y="330" fill="currentColor">enjoying</text>
-<text class="txt" x="480" y="352" fill="currentColor">her company</text>
-<text class="cap" x="320" y="380" fill="currentColor">without requiring a particular response</text>
-<!-- The ground continues beyond this small act. No before/after growth claim. -->
-<g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
-<path d="M44 442H596" fill="none" opacity=".35"/>
-<path d="M64 442Q62 425 54 416M64 442Q64 417 69 409M64 442Q71 427 74 426" fill="none"/>
-<path d="M96 442Q94 425 86 416M96 442Q96 417 101 409M96 442Q103 427 106 426" fill="none"/>
-<path d="M128 442Q126 425 118 416M128 442Q128 417 133 409M128 442Q135 427 138 426" fill="none"/>
-<path d="M160 442Q158 425 150 416M160 442Q160 417 165 409M160 442Q167 427 170 426" fill="none"/>
-<path d="M192 442Q190 425 182 416M192 442Q192 417 197 409M192 442Q199 427 202 426" fill="none"/>
-<path d="M224 442Q222 425 214 416M224 442Q224 417 229 409M224 442Q231 427 234 426" fill="none"/>
-<path d="M256 442Q254 425 246 416M256 442Q256 417 261 409M256 442Q263 427 266 426" fill="none"/>
-<path d="M288 442Q286 425 278 416M288 442Q288 417 293 409M288 442Q295 427 298 426" fill="none"/>
-<path d="M320 442Q318 425 310 416M320 442Q320 417 325 409M320 442Q327 427 330 426" fill="none"/>
-<path d="M352 442Q350 425 342 416M352 442Q352 417 357 409M352 442Q359 427 362 426" fill="none"/>
-<path d="M384 442Q382 425 374 416M384 442Q384 417 389 409M384 442Q391 427 394 426" fill="none"/>
-<path d="M416 442Q414 425 406 416M416 442Q416 417 421 409M416 442Q423 427 426 426" fill="none"/>
-<path d="M448 442Q446 425 438 416M448 442Q448 417 453 409M448 442Q455 427 458 426" fill="none"/>
-<path d="M480 442Q478 425 470 416M480 442Q480 417 485 409M480 442Q487 427 490 426" fill="none"/>
-<path d="M512 442Q510 425 502 416M512 442Q512 417 517 409M512 442Q519 427 522 426" fill="none"/>
-<path d="M544 442Q542 425 534 416M544 442Q544 417 549 409M544 442Q551 427 554 426" fill="none"/>
-<path d="M576 442Q574 425 566 416M576 442Q576 417 581 409M576 442Q583 427 586 426" fill="none"/>
-</g>
-<text class="cap" x="320" y="473" fill="currentColor">the life you share</text>
+<text class="inside" x="156" y="213" fill="currentColor">appreciation</text>
+<text class="lbl" x="433" y="263" fill="currentColor">a kinder answer</text>
+<text class="cap" x="320" y="429" fill="currentColor">the life you share</text>
 </svg>

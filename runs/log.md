@@ -3525,3 +3525,19 @@ verdict; no prose or plate is landed.
 - … and 33 more
 
 **Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-30 23:30 — Chapter 14 plate recognition redraw
+
+The author called the existing plate unrecognizable. The Designer proposed
+three distinct carriers; the cold Reader Panel picked A and asked for “a kinder
+answer” beside the water so behavior and image connect. The Designer replaced
+the ambiguous boxlike vessel and disconnected streams with a visibly tilted
+watering can, drops landing on grass and the behavior label. One initial margin
+failure was fixed and recorded in runtime handoff state. A fresh rendered PNG
+was visually inspected; the final 11-row Publisher check passes. The cold
+standalone read passes, while retaining a possible transactional interpretation
+as a secondary risk. The Designer's final checklist is complete. The updated
+seven-page Chapter 14 PDF was rendered and inspected; its chapter/book HTML
+package checks pass. The all-book review collections were regenerated, with
+existing check warnings/failures on other draft plates outside this chapter.
+Chapter 14 still awaits author verdict and is not landed.

@@ -1,27 +1,21 @@
-# Chapter 14 — Final standalone plate read
+# Chapter 14 — Standalone plate read
 
-## Image-alone read
+## Plate alone: ten-second takeaway
 
-“When I notice what I value in my wife, I treat her more kindly and enjoy being with her, caring for our shared life without making her response the price.”
+“Noticing what I value in my wife helps me answer her more kindly and care for the life we share.”
 
-Reader: a married man who has never read the chapter, taking a ten-second phone read.
+Recorded from the PNG before reading the distillation, as a married man who has not read the chapter.
 
-## Distillation comparison — PASS
+## Comparison with the distillation
 
-The image-alone sentence adequately matches the Conversation sentence: “You practice enough by noticing what you value in your wife and letting that appreciation change how you care for her.” The plate gives him the same causal sequence: notice value, feel appreciation, express it through ordinary care. The examples make care concrete without requiring chapter context. No drawable edit is required for that match.
+**PASS.** The Conversation sentence is: “You practice enough by noticing what you value in your wife and letting that appreciation change how you care for her.” The standalone takeaway conveys that movement from noticing value to changed care. “A kinder answer” makes the change concrete; “the life you share” gives that care a visible recipient. The plate does not name “enough,” but its mechanism survives without the chapter's terminology.
 
-## Skeptic finding
+## Ranked findings
 
-The strongest defensive misreading is: “I’m responsible for watering the marriage even if she gives nothing back.” The single watering can feeding the shared lawn can make his contribution look like sole responsibility. This is a residual invitation in the metaphor, not the primary takeaway.
+1. **The watering relationship is immediately recognizable; no corrective edit required.** The cold reader sees a watering can, water falling from its spout, and grass receiving it. The handle, body, spout, and separated falling marks establish the action without interpretation from the distillation. The last water marks overlap grass blades slightly, but this does not interrupt the read. Persona: standalone reader. Cost: none.
 
-In the current drawing, placing “without requiring a particular response” below the three acts attaches it to his answer, compliment, and enjoyment of her company. That placement supports the narrower reading that these acts are freely given. It does not remove the one-way-responsibility reading of the watering image. The heading and the instruction to notice what he values supply the counterweight: appreciation motivates this care. The distillation likewise addresses his practice and asks for no particular response; it does not establish that he alone must sustain the marriage. PASS therefore records a successful takeaway match with this skeptic finding retained.
+2. **A defensive reader could turn care into a promised return, but the drawing does not require that reading.** “If I give her kinder answers, our marriage will grow” is an available transactional interpretation of watering grass. The plate's instruction to notice what he values and its depiction of his own changed answer keep the emphasis on his conduct; there is no pictured reward or required response from her. Persona: skeptic. This is a residual metaphor risk, not a failed takeaway or a required redraw. Cost of explicitly foreclosing it: another qualifier would add reading load to a currently immediate plate.
 
-The Publisher identified the one-time revision as moving the disclaimer below the acts. I inspected only the revised image, so the placement assessment above is not a firsthand comparison with its predecessor.
+## Scope
 
-## Read sequence and scope
-
-1. Read `.claude/agents/gw-panel.md` and viewed `runs/ch14/pdf/plate.png` alone.
-2. Recorded the image-alone sentence and skeptic misreading before receiving the distillation.
-3. Read `runs/ch14/distillation.md` and compared its Conversation sentence with the recorded takeaway.
-
-Did not read the chapter, plate brief, plate notes, other reviews, prior plate render, foundation files, or session files. Wrote only this report.
+Read, in order: `runs/ch14/pdf/plate.png`, then `runs/ch14/distillation.md`. Did not read chapter prose, SVG source, mechanical brief, concepts, previous plate reports, foundation files, or author conversation. This is a standalone plate review, not manuscript QA.

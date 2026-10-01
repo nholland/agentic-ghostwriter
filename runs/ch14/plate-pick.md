@@ -1,25 +1,25 @@
-# Chapter 14 — Plate pick
+# Chapter 14 — Cold plate concept pick
 
-## Plate-only first impressions
+## First impressions, before reading the distillation
 
-Recorded before reading the distillation, as a married man seeing each thumbnail on his phone for ten seconds without having read the chapter.
+- **A:** Noticing what I value in my wife can become a kinder answer that nourishes our shared life.
+- **B:** Appreciation is the root from which kindness and sincere compliments grow.
+- **C:** Keep expressing appreciation through kindness, compliments, and enjoying her company on ordinary days.
 
-| Image | Immediate takeaway | Skeptic's invited misreading |
-|---|---|---|
-| A | “Appreciating what I value in my wife comes out in kinder answers, sincere compliments, and enjoying her company, which helps our life together grow.” | “So I’m responsible for keeping the whole marriage alive by watering it with compliments.” |
-| B | “Appreciation for my wife is the root of the kindness, compliments, and enjoyment that sustain our life together.” | “If I don’t feel appreciative, I can’t be expected to treat her kindly.” |
-| C | “Notice something I value in my wife, tell her, answer more kindly, enjoy our life, and keep repeating that circle.” | “Follow this compliment routine and I’ll get a more enjoyable marriage.” |
+## Pick after reading the distillation
 
-## Comparison after reading the distillation
+**Pick A:** It most directly joins noticing what I value in my wife to appreciation changing how I care for her—the Conversation sentence in ordinary words.
 
-Conversation sentence: “You practice enough by noticing what you value in your wife and letting that appreciation change how you care for her.”
+## Ranked findings
 
-- **A:** Closest match: the first impression carries what he values through appreciation into concrete care.
-- **B:** Captures appreciation supporting care, but the root arrangement makes appreciation seem like a prerequisite he must possess rather than attention he can practice.
-- **C:** Captures deliberate noticing and ordinary action, but the loop adds a prescribed sequence and suggests enjoyment will feed back as a reward.
+1. **A leaves its behavioral link floating.** The ten-second reader recognizes the watering can and grass immediately, but “a kinder answer” sits away from the falling water and planted bed; its role as appreciation becoming care is supplied by the headline more than the drawing. Cost: move that label alongside the falling water, with clear separation from the grass label.
+2. **The skeptic can read all three as a technique for producing a better wife or marriage.** Watering implies an expected growth result. “The life you share” helps A and C identify the recipient as the shared life, but none depicts the distillation's absence of a required response from her. B invites this reading most strongly because “the care you give her” labels the visible growth. This is a vulnerability, not an inevitable interpretation. Cost: a short qualification if the finished plate must foreclose transactional reading; avoid adding a second explanatory paragraph.
+3. **B and C trade away the initial act of attention.** B communicates the appreciation-to-care relationship clearly, but never tells the reader to notice what he values in his wife. C gives useful ordinary-day examples, yet its repeated identical beds and long arrow can read as a prescribed sequence of three tasks. Neither first impression contains the complete Conversation sentence as closely as A. Cost: revise their text or structure; choosing A avoids those repairs.
 
-**Pick: A.** Its immediate takeaway translates the Conversation sentence into appreciation becoming everyday care, with the clearest visible movement between the two.
+## Legibility and recognition
 
-**Surviving risk:** The single watering can above the entire shared garden can imply that his appreciation alone must sustain the marriage; none of the visible elements explicitly counters that defensive reading. The distillation's “It asks for no particular response from her” should not be replaced by a promise of marital growth in the finished drawing.
+The watering cans in A and C and the rooted plant in B are recognizable. No visible collisions, clipping, or illegible lettering at the supplied render size. On a phone, A's gray italic can label and bottom caption are less prominent than its main instruction; C asks the reader to scan three columns, two-line labels, and a bottom instruction within ten seconds. Phone readability is a judgment from the supplied thumbnails, not a device test.
 
-Read, in order: `.claude/agents/gw-panel.md`; `runs/ch14/concepts/A.png`, `B.png`, and `C.png`; then `runs/ch14/distillation.md` after the first impressions were returned. Did not read the chapter, brief, foundation, reviews, author conversation, or session records. Wrote only this report.
+## Coverage
+
+Read A.png, B.png, and C.png first, then runs/ch14/distillation.md. Read the shared house/runtime instructions and ran the book resolver. Did not read chapter prose, interview, research, design brief, previous plate, foundation artifacts, or prior author conversation. This is a concept-selection read, not a finished-plate verdict.

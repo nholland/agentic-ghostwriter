@@ -844,3 +844,38 @@ inbox: 0 open, 2 resolved
 
   Full text: inbox/*.md   Close: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'
 ```
+
+## 2026-09-30 23:30 CDT — Chapter 14 redraw makes the action legible
+
+The author said the plate was “awful” and “unrecognizable.” The Designer
+identified a boxlike vessel, ambiguous connector-like streams and disconnected
+grass. Three genuinely different concepts were prepared; the cold Reader Panel
+picked A and requested the behavioral label beside the falling water. The
+redraw shows a tilted watering can, discrete drops reaching grass and “a kinder
+answer” beside the water. A first margin error was corrected and counted as one
+durable Designer attempt. The final Publisher plate check passes all 11 rows,
+including a matching fresh raster. The cold standalone read passes and confirms
+the watering action is recognizable. A possible transactional reading remains
+documented as secondary risk, with no redraw required. The final Designer
+format checklist is complete.
+
+The seven-page Chapter 14 PDF was rebuilt with the new plate and all pages were
+visually inspected. Chapter/book HTML checks and practice synchronization pass.
+The refreshed full-book review collections also report existing issues on
+other draft plates (including Chapter 3's ink-margin failure); those are outside
+this Chapter 14 redraw. No Chapter 14 verdict has been given; nothing is landed.
+
+Current Chapter 14 inbox state, verbatim:
+
+```text
+inbox: 0 open, 2 resolved
+
+  #105 [done] ch14  For Chapter 14, may the governing outline be revised to center practicing enough through appreciation and gratitude, replacing the work-trip highlight-reel story and unsupported universal courtship claim?
+        raised by gw-ghostwriter plan-only gate, second failed attempt at 2026-09-29 23:20
+        **What unblocks this:** Chapter 14 outline/specification and cold-draft gate
+  #106 [done] ch14  For Chapter 14, do you accept the proposed appreciation practice and optional moving-standards/flexible-preferences extension in runs/ch14/proposed-concepts.md?
+        raised by gw-ghostwriter plan-only gate, second failed attempt at 2026-09-29 23:20
+        **What unblocks this:** Chapter 14 content concept approval and cold-draft gate
+
+  Full text: inbox/*.md   Close: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'
+```
