@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-01T20:53:56.880727+00:00",
+  "subjects": [
+    "retitle:ch03-heading"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-10-01: \"I like the alternatives you suggested for 3 and 14. Approved to change\"",
+  "reason": "Heading line only, following the Ch3 retitle (receipt 2026-10-01-retitle-ch03-ch14.json). No facts, claims or meanings changed.",
+  "files": {
+    "books/the-stoic-husband/appendix/practice-guide.md": "e6e00a32abd02691093e71309a5fe6fb5484812bca4741e7736982f336dfda21",
+    "books/the-stoic-husband/chapters/ch03/distillation.md": "88ef837cf1091747e4f90e9631a93875f939a5de7af96a6869cb024bdea8bfab",
+    "books/the-stoic-husband/chapters/ch03/refined.md": "b1f1c5da24ef1c9452bb998a0610c0b2c453c42f7003631ee4f123171c61b2f4"
+  }
+}
