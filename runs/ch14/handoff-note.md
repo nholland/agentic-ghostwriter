@@ -117,3 +117,32 @@ remains a disclosed secondary risk. The seven-page Chapter 14 PDF and reader
 package checks pass. The current oracle is verdict. No chapter verdict has been
 given; do not land this chapter. Resume by presenting the review materials to
 the author and recording his verdict. Branch: `codex/shared-runtimes`.
+
+## Recognition redraw and final plate verdict package, 2026-09-30 23:30 CDT
+
+The author said the current plate was “awful” and “unrecognizable.” The
+Publisher recorded that note in the plate brief. The Designer diagnosed the
+boxlike vessel, connector-like streams and disconnected grass, then produced
+three distinct concepts. The cold Reader Panel picked A and requested that “a
+kinder answer” sit visibly beside the falling water. The Designer redrew the
+plate as a tilted watering can with separated drops landing on grass and the
+behavior label beside them.
+
+The first mechanical check caught a five-pixel margin excess; the Designer
+shifted the label, and the follow-up check had no FAIL rows. The failed layout
+attempt is recorded in runtime handoff state. The sandboxed browser renderer
+failed with kill EPERM. A fresh SVG-to-PNG render succeeded with renderer
+permissions. The Publisher visually inspected it and reran the complete
+checker: all 11 rows pass, including raster-current. The cold standalone Panel
+read passes and says the watering can, falling water and grass are immediately
+recognizable. It records a possible transactional interpretation as residual
+risk, not a redraw request. The Designer completed the final visual/format
+checklist; no SVG edit was needed in that pass.
+
+The Chapter 14 PDF was rebuilt with the new plate; all seven pages were
+rendered and visually inspected, including the plate and complete distillation.
+Chapter and book HTML package checks pass, and the practice sync passes. Some
+other draft plates in the refreshed all-book review collection retain their
+pre-existing check warnings or failures; Chapter 14's final plate itself passes.
+Chapter 14 remains unlanded and awaits the author's verdict. Resume at verdict;
+do not land without that verdict. Branch: `codex/shared-runtimes`.
