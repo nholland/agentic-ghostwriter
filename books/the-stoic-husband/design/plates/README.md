@@ -83,3 +83,11 @@ the markup.
 
 **Draft, pending author review.** No command reads these. Not referenced by
 `design-language.md`, which does not exist yet.
+
+## Chapter title rule — approved 2026-10-01
+
+A chapter plate uses its distillation’s Mechanism line word for word as its
+visible title and accessible label; display capitalization may differ.
+The author answered “yes” to inbox #065 and approved Chapter 7’s
+“The Private Tally” and Chapter 12’s “The Thing With No Deadline.”
+This title approval does not approve separate diagram redesigns.

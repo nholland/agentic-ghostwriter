@@ -14,8 +14,8 @@ WHY THIS IS A SCRIPT
 WHAT IT REPORTS
     One row per check, [ ok ] / [WARN] / [FAIL]. A FAIL is a defect no plate
     ships with. A WARN is reported for the author or the Publisher to judge;
-    it never blocks. Two rows (title, captions) are WARN until the author
-    ratifies inbox #065 and #066, after which they become FAIL: see LEVELS.
+    it never blocks. Title mismatches FAIL under ratified inbox #065. Captions remain WARN
+    pending inbox #066: see LEVELS.
 
 USAGE
     python3 scripts/plate_check.py runs/ch08/plate.svg --chapter 8
@@ -45,9 +45,9 @@ FONTS = None
 CLEARANCE = 10.0   # px; touching is a defect, not a pass
 LEFT = 44
 
-# WARN until the author ratifies the rule, FAIL after. Inbox #065 (title is
-# the distillation's Mechanism line) and #066 (the caption cap).
-LEVELS = {"title": "WARN", "captions": "WARN"}
+# Inbox #065 ratified 2026-10-01: title is the Mechanism line.
+# Caption cap remains provisional pending #066.
+LEVELS = {"title": "FAIL", "captions": "WARN"}
 
 CHAPTER_WIDTH = 640
 PART_CANVAS = (600, 900)

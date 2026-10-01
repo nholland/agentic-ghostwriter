@@ -1,9 +1,11 @@
 ---
 id: 055
-status: open
+status: resolved
 raised_by: gw-designer
 chapter: 12
 opened: 2026-09-20 16:33
+resolved: 2026-10-01 15:56
+okf_receipt: runs/reconciliation/2026-10-01-inbox-055.json
 ---
 
 # Ch12's landed plate prints its gloss 'no deadline, nobody watching' a quarter off the left edge. Land the one-line fix in runs/ch12/plate.svg?
@@ -19,3 +21,5 @@ python3 runs/design/svgcheck.py books/the-stoic-husband/design/plates/the-muscle
 ```
 
 **What unblocks this:** Replacing design/plates/the-muscle-you-stopped-using.svg with runs/ch12/plate.svg.
+
+**Resolution (2026-10-01 15:56):** yes

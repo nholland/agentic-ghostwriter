@@ -3780,6 +3780,15 @@ package checks pass. The all-book review collections were regenerated, with
 existing check warnings/failures on other draft plates outside this chapter.
 Chapter 14 still awaits author verdict and is not landed.
 
+- `runs/ch14/plate.svg`
+- `runs/ch14/plate-notes.md`
+- `runs/ch14/plate-read.md`
+- `output/compiled/chapters/ch14.pdf`
+
+**Next:** Present the Chapter 14 review package for the author’s verdict; do not land without it.
+
+Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines. These were reconstructed from that commit’s changed files and the entry’s stated pending verdict; no historical entry was lost.
+
 ## 2026-09-30 23:34 — `codex/shared-runtimes` — 5 commit(s) this session
 - `FINDINGS.md`
 - `books/the-stoic-husband/03-outline.md`
@@ -4157,5 +4166,25 @@ Chapter 14 still awaits author verdict and is not landed.
 - `books/the-stoic-husband/chapters/introduction/refined.md`
 - `inbox/102-reconcile-the-introduction-five-mode-framework-w.md`
 - `runs/reconciliation/2026-10-01-inbox-102.json`
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
+
+## 2026-10-01 16:24 — `codex/shared-runtimes` — 2 commit(s) this session
+- `.claude/skills/gw-plate/SKILL.md`
+- `books/the-stoic-husband/chapters/introduction/refined.md`
+- `books/the-stoic-husband/design/plates/README.md`
+- `books/the-stoic-husband/design/plates/small-rocks-big-rocks.svg`
+- `books/the-stoic-husband/design/plates/the-muscle-you-stopped-using.svg`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-titles.md`
+- `inbox/055-ch12-s-landed-plate-prints-its-gloss-no-deadline.md`
+- `inbox/065-is-a-chapter-plate-always-titled-by-the-distilla.md`
+- `inbox/102-reconcile-the-introduction-five-mode-framework-w.md`
+- `runs/reconciliation/2026-10-01-inbox-055.json`
+- `runs/reconciliation/2026-10-01-inbox-065.json`
+- `runs/reconciliation/2026-10-01-inbox-102.json`
+- `scripts/plate_check.py`
+- `skills/gw-plate/SKILL.md`
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).

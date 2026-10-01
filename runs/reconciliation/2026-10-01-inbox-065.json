@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-01T16:23:13.071244-05:00",
+  "subjects": [
+    "inbox:065"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-titles.md"
+  ],
+  "authority": "Author: yes, approving the title rule and the two named titles.",
+  "reason": "Recorded approved editorial rule; implemented mandatory title mismatch failures and exact title changes. Rendered titles inspected; mutation proof confirms mismatches FAIL. Existing Chapter 7 caption-margin defect remains outside title approval.",
+  "files": {
+    "books/the-stoic-husband/okf/index.md": "935b118d652113e6a38300305447653577a3e65c529380df0f0bae21aeaa8636",
+    "books/the-stoic-husband/okf/log.md": "d9bb33170c9df50ad1691466ec042a4be81f1352685a93ea524a449b7dc69edd",
+    "books/the-stoic-husband/design/plates/README.md": "5e174ea61772b83d0b91e8f41c7810e993a1597457d5445c0dfdc9ce6fbbb977",
+    "books/the-stoic-husband/design/plates/small-rocks-big-rocks.svg": "2d924871f121328048bd72d09d549026544c131c0a09b614493802260aa81bad",
+    "books/the-stoic-husband/design/plates/the-muscle-you-stopped-using.svg": "b7f93d94aa2d80b889cbb5c2f05f777ba1877b89e2eb3b0b6ab961c5f3544f2d"
+  }
+}

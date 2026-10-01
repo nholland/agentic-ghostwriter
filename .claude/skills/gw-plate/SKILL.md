@@ -77,7 +77,7 @@ python3 scripts/plate_check.py runs/chNN/plate.svg --chapter N
 Any `[FAIL]` row goes back to the Designer with the row quoted. `[WARN]` rows
 are for judgement: `grounded` names copy the chapter does not say (the author's
 words, recorded in the brief, are grounded); `alignment` names what sits on no
-axis; `captions` and `title` are WARN until #065/#066 are ratified. Then render
+axis; `title` mismatches FAIL (#065 ratified 2026-10-01); `captions` remain WARN pending #066. Then render
 and look:
 
 ```

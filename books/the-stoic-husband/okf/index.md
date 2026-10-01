@@ -295,6 +295,8 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 
 ## Notes
 
+- [Chapter plate title rule](/notes/2026-10-01-chapter-plate-titles.md) — approved Mechanism titles; separate redesigns remain pending.
+
 - [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; 098/099 wording remains pending.
 - [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage. Extended to Chapter 14 in its opening interview: how a man should love.
 
