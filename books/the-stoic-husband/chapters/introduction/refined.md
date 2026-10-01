@@ -74,6 +74,8 @@ The sun without the oak becomes unreliable. His affection is bright when life is
 
 The sun without the river becomes volatile. His passion may be powerful, but his emotions govern the home.
 
+The river without the sun becomes detached. His calm comes from no longer being invested. The peace is real, and so is the absence underneath it.
+
 A great husband must embody all three:
 
 Calm enough to adapt.

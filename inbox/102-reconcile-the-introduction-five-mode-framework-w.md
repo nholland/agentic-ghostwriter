@@ -1,9 +1,11 @@
 ---
 id: 102
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-09-23 06:53
+resolved: 2026-10-01 16:15
+okf_receipt: runs/reconciliation/2026-10-01-inbox-102.json
 ---
 
 # Reconcile the Introduction five-mode framework with the canonical sixth pairing?
@@ -22,3 +24,5 @@ $ sed -n '79,81p' runs/ch13/slop-coherence-ch01-ch13.md
 ```
 
 **What unblocks this:** Author ruling on framework completeness and later Introduction wording. Deferred; Chapter 13 can proceed.
+
+**Resolution (2026-10-01 16:15):** approved

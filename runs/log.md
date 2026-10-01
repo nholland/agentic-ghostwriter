@@ -4152,3 +4152,10 @@ Chapter 14 still awaits author verdict and is not landed.
 - … and 130 more
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
+
+## 2026-10-01 16:16 — `codex/shared-runtimes` — 1 commit(s) this session
+- `books/the-stoic-husband/chapters/introduction/refined.md`
+- `inbox/102-reconcile-the-introduction-five-mode-framework-w.md`
+- `runs/reconciliation/2026-10-01-inbox-102.json`
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).

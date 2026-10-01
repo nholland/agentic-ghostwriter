@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-01T16:15:32.175333-05:00",
+  "subjects": [
+    "inbox:102"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-river-the-oak-and-the-sun.md"
+  ],
+  "authority": "Author: approved, in response to the exact proposed River without Sun paragraph.",
+  "reason": "Introduction now states the sixth pairing already established in the canonical framework; no new interpretation.",
+  "files": {
+    "books/the-stoic-husband/chapters/introduction/refined.md": "1d8974d16c21195dd8a0e1f74a2aeb6dc0379c6bb50cd1f5fdde3b6861405d0a"
+  }
+}
