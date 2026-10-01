@@ -1544,6 +1544,7 @@ def retro_window_cases():
 
 def main():
     from runtime_cases import runtime_cases
+    from ownership_lifecycle_cases import ownership_lifecycle_cases
     from draft_package_cases import draft_package_cases
     from manual_description_cases import manual_description_cases
     from prove_inbox_duplicate import inbox_duplicate_cases
@@ -1552,7 +1553,7 @@ def main():
     from prove_new_code_cases import prove_new_code_cases
     from maintenance_batch_cases import maintenance_batch_cases
     from okf_reconcile_cases import okf_reconcile_cases
-    rows = (runtime_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    rows = (runtime_cases() + ownership_lifecycle_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()

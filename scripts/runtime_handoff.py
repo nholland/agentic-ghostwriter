@@ -15,6 +15,8 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
+import socket
 import subprocess
 import sys
 import tempfile
@@ -64,10 +66,60 @@ def matches(a, b):
     return a.get('runtime') == b['runtime'] and a.get('session') == b['session']
 
 
+def machine_boot():
+    """Positive reboot evidence only; unavailable evidence never expires a lease."""
+    try:
+        if sys.platform == 'linux':
+            boot = Path('/proc/sys/kernel/random/boot_id').read_text().strip()
+        elif sys.platform == 'darwin':
+            p = subprocess.run(['/usr/sbin/sysctl', '-n', 'kern.boottime'],
+                               capture_output=True, text=True, timeout=1)
+            match = re.search(r'sec\s*=\s*(\d+),\s*usec\s*=\s*(\d+)', p.stdout)
+            if p.returncode or not match:
+                return None
+            boot = ':'.join(match.groups())
+        else:
+            return None
+        return {'host': socket.gethostname(), 'boot': boot} if boot else None
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+
+
+def stale_reason(owner, machine):
+    recorded = owner.get('machine')
+    if not machine or not recorded or recorded.get('host') != machine['host']:
+        return None
+    if recorded.get('boot') and recorded['boot'] != machine['boot']:
+        return 'machine restarted'
+    return None
+
+
+def retire(root, owner, reason):
+    """Retain the old ownership evidence, never alter the production handoff."""
+    atomic(root / '.claude/state/runtime-recovery.json',
+           {'owner': owner, 'reason': reason,
+            'recorded': datetime.now().astimezone().isoformat()})
+    owner_path(root).unlink()
+
+
+def prune_stale(root):
+    with locked(root):
+        owner = read(owner_path(root), {})
+        reason = stale_reason(owner, machine_boot()) if owner else None
+        if reason:
+            retire(root, owner, reason)
+        return reason
+
+
 def claim(root, runtime, session):
     wanted = identity(runtime, session)
     with locked(root):
         owner = read(owner_path(root), {})
+        machine = machine_boot()
+        reason = stale_reason(owner, machine) if owner else None
+        if reason:
+            retire(root, owner, reason)
+            owner = {}
         if owner and not matches(owner, wanted):
             raise ValueError(f"{owner['runtime']} session {owner['session']} owns this project. "
                              'Stop its desks and save its handoff before switching. '
@@ -78,7 +130,15 @@ def claim(root, runtime, session):
             if read(state / 'runtime-session.json', {}) != wanted:
                 (state / 'session-start-sha').write_text(git(root, 'rev-parse', 'HEAD') + '\n')
                 atomic(state / 'runtime-session.json', wanted)
-            atomic(owner_path(root), dict(wanted, desks={}, started=datetime.now().astimezone().isoformat()))
+            atomic(owner_path(root), dict(wanted, desks={}, machine=machine,
+                                         started=datetime.now().astimezone().isoformat()))
+        elif owner.get('ended') or (not owner.get('machine') and machine):
+            # A matching live session can upgrade a legacy lease. A different
+            # session cannot assert where an unmarked lease originated.
+            owner.pop('ended', None)
+            if not owner.get('machine') and machine:
+                owner['machine'] = machine
+            atomic(owner_path(root), owner)
 
 
 def release(root, runtime, session):
@@ -95,16 +155,22 @@ def release(root, runtime, session):
 def desk_event(root, runtime, session, agent_id, started):
     if not isinstance(agent_id, str) or not agent_id:
         raise ValueError('subagent event requires an agent_id')
-    claim(root, runtime, session)
+    if started:
+        claim(root, runtime, session)
     with locked(root):
         owner = read(owner_path(root), {})
         if not matches(owner, identity(runtime, session)):
+            if not started:
+                return  # A late desk-stop must never recreate or steal ownership.
             raise ValueError('subagent does not belong to the active writer')
         desks = owner.setdefault('desks', {})
         if started:
             desks[agent_id] = 'active'
         else:
             desks.pop(agent_id, None)
+            if not desks and owner.get('ended'):
+                retire(root, owner, 'last desk stopped after session end; unfinished work retained')
+                return
         atomic(owner_path(root), owner)
 
 
@@ -113,7 +179,7 @@ def recover(root, stopped_session):
         owner = read(owner_path(root), {})
         if not owner or owner['session'] != stopped_session:
             raise ValueError('stopped-session must exactly match the recorded owner')
-        owner_path(root).unlink()
+        retire(root, owner, 'explicit stopped-session recovery')
 
 
 def git(root, *args):

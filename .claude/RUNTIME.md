@@ -35,9 +35,26 @@ needed. Never leave one runtime writing while the other resumes.
 
 The hooks reject a second active session. After an interruption the lease stays
 held because desks may still run. The Publisher must stop the old desks first;
-for a crashed session run `python3 scripts/runtime_handoff.py recover
+for a crashed session on the same boot run `python3 scripts/runtime_handoff.py recover
 --stopped-session SESSION` with the exact id reported by the hook. This releases
 ownership, preserves all files, and does not declare partial work complete.
+
+Writer leases record the local host and operating-system boot identity. After
+a confirmed reboot on that host, startup and writer claims automatically retire
+the old lease, including desks that could not survive the reboot, and preserve
+the old ownership evidence in `.claude/state/runtime-recovery.json`. Unknown
+boot identity, a different host, and legacy unmarked leases never permit automatic
+takeover. A matching live session upgrades its legacy lease on its next claim.
+
+`SessionEnd` releases its own writer only when no desks remain recorded active
+(otherwise the last desk's Stop releases it, unless the main session resumes);
+it preserves the last checkpoint and unfinished files without declaring completion
+checks passed. `Interrupt` retains ownership because a tool or desk may still run.
+Repeated or late Stop/SubagentStop events never acquire ownership or release a
+new writer. Failed completion checks retain ownership until safe session end or
+explicit recovery; switching chats alone does not end a session immediately.
+Stop and SessionEnd errors retain their cause in ignored
+`.claude/state/runtime-hook-failure-<event>.json` diagnostic records.
 
 ## Codex desks
 

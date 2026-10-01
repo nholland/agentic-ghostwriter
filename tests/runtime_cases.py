@@ -174,8 +174,8 @@ def runtime_cases():
         for process in processes:
             process.wait(timeout=10)
         result(all(p.returncode == 0 for p in processes)
-               and (root / 'hook-order').read_text().splitlines() == ['start','end','start','end'],
-               'duplicate hook sources serialize completion mechanics')
+               and (root / 'hook-order').read_text().splitlines() == ['start','end'],
+               'duplicate hook sources serialize one completion without reacquiring writer')
 
         codex_layout.sync(root)
         result(not codex_layout.check(root), 'fresh generation is in sync')

@@ -15,6 +15,7 @@ def dispatch(root, runtime, event, payload):
     if not isinstance(session, str) or not session:
         raise ValueError('hook payload needs a session_id; writer ownership cannot be guessed')
     if event == 'SessionStart':
+        handoff.prune_stale(root)
         owner = handoff.read(handoff.owner_path(root), {})
         if owner and not handoff.matches(owner, handoff.identity(runtime, session)):
             return f"Project currently owned by {owner['runtime']} session {owner['session']}. " + handoff.resume(root)
@@ -47,8 +48,10 @@ def dispatch(root, runtime, event, payload):
         handoff.desk_event(root, runtime, session, payload.get('agent_id'), event == 'SubagentStart')
         return ''
     if event == 'Stop':
-        handoff.claim(root, runtime, session)
-        if handoff.read(handoff.owner_path(root), {}).get('desks'):
+        owner = handoff.read(handoff.owner_path(root), {})
+        if not owner or not handoff.matches(owner, handoff.identity(runtime, session)):
+            return ''  # Repeated/late Stop and blocked prompts do not acquire a writer.
+        if owner.get('desks'):
             raise ValueError('active desks must finish or be stopped before the house can hand off')
         handoff.checkpoint(root, runtime, session)
         env = dict(os.environ, GW_PROJECT_ROOT=str(root), GW_RUNTIME=runtime)
@@ -58,7 +61,23 @@ def dispatch(root, runtime, event, payload):
             raise ValueError(p.stderr or p.stdout or 'house completion checks failed')
         handoff.release(root, runtime, session)
         return (p.stdout + p.stderr).strip()
-    if event in ('Interrupt', 'SessionEnd'):
+    if event == 'SessionEnd':
+        owner = handoff.read(handoff.owner_path(root), {})
+        if owner and handoff.matches(owner, handoff.identity(runtime, session)):
+            # Ending a session is not production approval. The checkpoint is
+            # already durable; resume reports any changed inputs. No long
+            # completion mechanics can fit the native three-second timeout.
+            with handoff.locked(root):
+                owner = handoff.read(handoff.owner_path(root), {})
+                if owner and handoff.matches(owner, handoff.identity(runtime, session)):
+                    if owner.get('desks'):
+                        owner['ended'] = handoff.datetime.now().astimezone().isoformat()
+                        handoff.atomic(handoff.owner_path(root), owner)
+                        return 'Session ended with active desks; writer releases when the last desk stops.'
+                    handoff.retire(root, owner, 'session ended; unfinished work retained')
+            return 'Session ended; writer released. Saved handoff and unfinished files retained; completion checks remain required.'
+        return ''
+    if event == 'Interrupt':
         owner = handoff.read(handoff.owner_path(root), {})
         if owner and handoff.matches(owner, handoff.identity(runtime, session)):
             # Do not release on interruption: pending desks may still be running.
@@ -69,6 +88,7 @@ def dispatch(root, runtime, event, payload):
 
 
 def main():
+    root, runtime, event, payload = None, None, None, {}
     try:
         runtime, event = sys.argv[1:3]
         payload = json.load(sys.stdin)
@@ -93,6 +113,16 @@ def main():
             print(json.dumps({'systemMessage': message} if message else {}))
         return 0
     except (ValueError, OSError, KeyError, subprocess.SubprocessError) as exc:
+        # Keep the actual failing event after the UI has collapsed its output.
+        # A later ownership rejection is a symptom, not the original failure.
+        if root is not None and event in ('Stop', 'SessionEnd'):
+            try:
+                handoff.atomic(root / '.claude/state' / ('runtime-hook-failure-' + event + '.json'),
+                               dict(runtime=runtime, session=payload.get('session_id'),
+                                    event=event, error=str(exc),
+                                    recorded=handoff.datetime.now().astimezone().isoformat()))
+            except OSError:
+                pass
         print('House runtime: ' + str(exc), file=sys.stderr)
         return 2
 
