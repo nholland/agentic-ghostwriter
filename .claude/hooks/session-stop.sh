@@ -6,7 +6,7 @@
 # .claude/agents, CLAUDE.md, the docs) are not - editing the rules is a
 # deliberate act the author should see as its own commit, and auto-committing
 # them is how a rule change slips in unreviewed.
-ROOT="${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel 2>/dev/null)}}"
+ROOT="${GW_PROJECT_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel 2>/dev/null)}}}"
 [ -z "$ROOT" ] && exit 0
 cd "$ROOT" || exit 0
 

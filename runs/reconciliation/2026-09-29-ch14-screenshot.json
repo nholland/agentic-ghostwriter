@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-29T23:20:14.885657-05:00",
+  "subjects": [
+    "chapter:ch14"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-letter-2-6-enough.md",
+    "books/the-stoic-husband/okf/citations/seneca-letter-16-7-9-limits-of-desire.md",
+    "books/the-stoic-husband/okf/citations/epicurus-via-seneca-letter-21-7-desires.md",
+    "books/the-stoic-husband/okf/citations/epictetus-wealth-few-wants-attribution-gap.md",
+    "books/the-stoic-husband/okf/citations/david-rebt-flexible-preferences.md",
+    "books/the-stoic-husband/okf/citations/bertolotti-having-enough-source-audit.md"
+  ],
+  "authority": "Author supplied article screenshot as research lead; cold Researcher checked underlying sources; Publisher integrated findings without treating pending content proposals as approved.",
+  "reason": "Six source/audit concepts added, including ancient attribution limits and REBT theory; citation index and queue refreshed; Chapter 14 brief and pending proposals updated.",
+  "files": {
+    "books/the-stoic-husband/okf/citations/seneca-letter-2-6-enough.md": "8e2f413ae1e017c3684e70a6b955a9f19d11cf4e9d334c284c5b1825e1139db7",
+    "books/the-stoic-husband/okf/citations/seneca-letter-16-7-9-limits-of-desire.md": "e4511423c96cca380a6c273ab41fde6a24ef4b6ce3d6a15e2478a24e9a141ba3",
+    "books/the-stoic-husband/okf/citations/epicurus-via-seneca-letter-21-7-desires.md": "1fb310b49e5dd679c0dc207983506c904f54016c86b73e348274b83b4bb5b3df",
+    "books/the-stoic-husband/okf/citations/epictetus-wealth-few-wants-attribution-gap.md": "2326db61791729724f99b65650ae0cc389731f896d986553810c1d2117d8c649",
+    "books/the-stoic-husband/okf/citations/david-rebt-flexible-preferences.md": "6b425a36cb0c13820cca3be53c7f9e5a0832e326994a87ef3c719511fa451717",
+    "books/the-stoic-husband/okf/citations/bertolotti-having-enough-source-audit.md": "4e807634bb6f5d05ee243138dba3416ed5dba7aef03c7cf31fddb8e656b934e8",
+    "books/the-stoic-husband/okf/index.md": "b4ec7014114bf103b296bf532fb7edeacc70b336e5f3c89c4197e14e5b19dd67",
+    "books/the-stoic-husband/okf/log.md": "0aa6e340ccc74eaa79517f3c24cf3173403a3103ca5defd5b4a3cdd7023b0c02",
+    "books/the-stoic-husband/citation-queue.md": "13990b7c22b8c93ec388594a36e9a7ff05c750428c7bcf68198aa97d90a713f9",
+    "runs/ch14/new-source-intake.md": "999220c5069ca38712bcd020a3cf24cd2ab77b2cb6ce850ba2db3e87538dcae0",
+    "runs/ch14/research.md": "a72bfd595808dd431413a5e6082da14b57854acca43d8ad81289737e49af1116",
+    "runs/ch14/brief-gaps.md": "228bfcd24540c43a59d9e5d31ecdd4506864036da511a91af5cafceefe981015",
+    "runs/ch14/proposed-concepts.md": "31eac72c8414b17cd8f07a5194d1bb5ff692c3cf26751dbbe35ec1dbf9b88765"
+  }
+}

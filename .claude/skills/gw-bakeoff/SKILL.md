@@ -1,4 +1,5 @@
 ---
+name: gw-bakeoff
 description: Run or resume the parallel bake-off between the old book pipeline and this one for a given chapter - build the blind comparison packet, walk the author through the blind read, then unseal. Use when comparing the two systems on the same chapter.
 ---
 

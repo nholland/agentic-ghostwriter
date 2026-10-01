@@ -1,4 +1,5 @@
 ---
+name: gw-verify
 description: The Fact-Checker desk works the citation queue down - probes what is reachable, transcribes real pages where it can, confirms claims by search where that is enough, and packages the rest. Never marks anything verified. Runs anytime after the first refined chapter.
 ---
 

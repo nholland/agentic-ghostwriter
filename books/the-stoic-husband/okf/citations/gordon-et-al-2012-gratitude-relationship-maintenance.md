@@ -4,11 +4,11 @@ title: "Gordon, Impett, Kogan, Oveis & Keltner (2012) — Feeling Appreciated an
 description: >
   Multi-method paper (cross-sectional, daily-experience, observational and
   longitudinal) on gratitude in intimate bonds. The finding Ch12 needs: people
-  who feel more appreciated BY their partner are in turn more appreciative OF
-  their partner, and people more appreciative of their partner are more
-  responsive to that partner's needs, more committed, and more likely to still
-  be in the relationship later. This is the real empirical support for the
-  first link in the author's consequence chain.
+  who feel more appreciated BY their partner also tend to be more appreciative
+  OF their partner; appreciation is associated with responsiveness and
+  commitment. The longitudinal persistence association weakens when baseline
+  satisfaction is controlled. This supports a bounded link in the author's
+  consequence chain, not its entire causal sequence.
 provenance: >
   Located 2026-09-15 during the Chapter 12 research pass, specifically to test
   the author's asserted chain (not wanted/valued/loved/cherished -> cracks ->
@@ -16,16 +16,13 @@ provenance: >
   Bibliographic details corroborated across the PubMed record, the APA/JPSP
   listing, Semantic Scholar and two hosted copies of the PDF; the PDF hosts
   (greatergood.berkeley.edu, sites.lsa.umich.edu) and PubMed's article body
-  are both proxy-blocked in this environment.
+  were proxy-blocked in that research environment. On 2026-09-29 the cold
+  Researcher accessed the original PDF for Chapter 14 and narrowed the claims.
 ip: external
-resource: >
-  Gordon, A. M., Impett, E. A., Kogan, A., Oveis, C., & Keltner, D. (2012).
-  To have and to hold: Gratitude promotes relationship maintenance in intimate
-  bonds. Journal of Personality and Social Psychology, 103(2), 257-274.
-  PMID: 22642482
+resource: https://greatergood.berkeley.edu/images/uploads/To_Have_and_to_Hold-_Gratitude_Promotes_Relationship_Maintenance_in_Intimate_Bonds.pdf
 status: verifiable
 quote_form: none
-evidence_source: search-synthesis
+evidence_source: page-text
 gap_type: research
 verification_note: >
   Real, well-cited paper; authors, title, journal, year, volume, issue and page
@@ -33,46 +30,39 @@ verification_note: >
   search level as 10.1037/a0028723, corroborated across the PubMed record
   (PMID 22642482), Semantic Scholar and two independent reference-list
   entries; doi.org and api.crossref.org are both refused by the egress proxy
-  so the DOI was not resolved, only cross-read. Primary
-  text NOT read; every host carrying it is proxy-blocked here. What still needs
-  checking before the chapter states anything as this paper's finding: the
-  sample sizes and the length of the longitudinal follow-up, and whether the
-  "more likely to remain in the relationship" result is from the longitudinal
-  study or is a summary gloss. No verbatim quotation permitted on this
-  evidence. CAUSAL LANGUAGE WARNING: the paper's own title uses "promotes,"
+  so the DOI was not resolved, only cross-read. The original article was
+  subsequently read at the PDF URL in the source-access update below. No
+  verbatim quotation is permitted on this evidence. CAUSAL LANGUAGE WARNING:
+  the paper's own title uses "promotes,"
   but the designs are largely correlational and longitudinal rather than
   experimental. The chapter should say what travels with what, not what causes
   what. Author confirmation still required per CLAUDE.md Rule 11.
 tags: [citation, gratitude, appreciation, responsiveness, gordon, impett, needs-verification, updated-round2]
-chapter_slugs: [romance-is-a-discipline]
+chapter_slugs: [romance-is-a-discipline, the-discipline-of-enough]
 timestamp: 2026-09-15T16:54:07Z
 ---
 
 # Gordon et al. (2012) — Feeling Appreciated
 
-The loop the paper describes: feeling appreciated by your partner makes you
-more appreciative of them; being more appreciative makes you more responsive
-to what they need; being more responsive is associated with more commitment
-and with still being together later. It runs the other way too, which is what
-makes it a loop rather than a one-directional finding: your appreciation
-feeds her sense of being appreciated.
+The paper proposes a reciprocal appreciation loop. Felt appreciation and
+appreciation of a partner were associated in its measures; appreciation also
+traveled with responsiveness and commitment. The designs do not prove that
+one partner's gratitude causes the other's or that the relationship will last.
 
 # Status
 
-**Verifiable, not verified.** Abstract- and summary-level evidence. Primary
-unread. DOI corroborated at search level 2026-09-16 (10.1037/a0028723); not
-resolved, because doi.org is proxy-blocked here.
+**Verifiable, not verified.** Original article read online 2026-09-29; the
+author has not checked his own copy. DOI corroborated at search level
+2026-09-16 (10.1037/a0028723), not resolved through doi.org.
 
 # Why It Matters for Ch12
 
 It is the evidence under the author's first link. "If a partner doesn't feel
 wanted, valued, loved, and cherished, then this is where cracks begin" is a
 strong claim, and this is the paper that lets a version of it be made honestly:
-felt appreciation is not a nice extra, it is bound up with responsiveness,
-commitment and whether the relationship lasts. It also supplies the loop the
-author gestured at from the receiving side — that downplaying a partner's
-effort is corrosive, because being appreciated is what makes a person
-appreciative.
+felt appreciation is bound up with responsiveness and commitment. The
+observational study does not establish the chapter's full proposed sequence
+or show that downplaying effort causes infidelity.
 
 # Related
 
@@ -90,3 +80,7 @@ appreciative.
    To have and to hold: Gratitude promotes relationship maintenance in
    intimate bonds. *Journal of Personality and Social Psychology*, 103(2),
    257-274.
+
+# Source access update — 2026-09-29T20:44:31-05:00
+
+Original article now retrieved and read at https://greatergood.berkeley.edu/images/uploads/To_Have_and_to_Hold-_Gratitude_Promotes_Relationship_Maintenance_in_Intimate_Bonds.pdf . Earlier access restrictions above are historical, not the current evidence ceiling. Abstract and Study 2 methods/results inspected. Study 2 began with 99 undergraduates, only 4% married; daily measures covered seven nights and the follow-up was nine months. Appreciation predicted later commitment and relationship persistence, but the persistence association became marginal after controlling baseline satisfaction. Felt appreciation did not predict change in own appreciation across nine months. These are observational associations, not a randomized gratitude intervention. Do not turn the paper's causal-sounding model into demonstrated causality or guaranteed reciprocity. This update responds to Ch14 interview round 4; Ch12's existing use remains relevant. No status advancement or verbatim quotation.

@@ -1,0 +1,21 @@
+{
+  "name": "agentic-ghostwriter",
+  "version": "0.1.0",
+  "description": "The shared Agentic Ghostwriter house skills for Claude and Codex.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agentic Ghostwriter",
+    "shortDescription": "Use Agentic Ghostwriter in Codex.",
+    "longDescription": "One book production house with shared instructions, artifacts, and runtime handoff.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Show the house board and resume the shared checkpoint."
+  }
+}

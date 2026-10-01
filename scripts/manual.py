@@ -80,19 +80,19 @@ from manual_content import (IN_SESSION, DESK_NOTES, GATES, PHRASES,  # noqa: E40
 NARRATIVE = {
     "thesis": "You say what the chapter is, and whether it landed. "
               "The house does everything in between, and asks you only what only you can answer.",
-    "lede": "A book production house that runs on Claude Code. You are the expert the house "
+    "lede": "A book production house that runs on Claude Code or Codex, in the same project. You are the expert the house "
             "recruited. You talk to the Publisher; the Publisher runs the desks. Every desk is "
             "either someone in the room with you, a cold sub-agent that never saw the "
             "conversation, or a script that cannot be talked past.",
     "start": [
         ("Open a session on the engine repo",
          "Pick <b>agentic-ghostwriter</b> as the repository. The start hook prints the real "
-         "clock, the book it resolved, and the board."),
+         "clock, the book it resolved, and the board. Both runtimes resume the shared handoff; stop active desks before switching."),
         ("The book is already here",
          "Since 2026-09-18 the book lives in this repository, under <code>books/</code>, with "
          "<code>book-manifest.json</code> as its registry. <code>resolve_book.py</code> verifies "
          "it every session start and stops everything if it is not intact."),
-        ("Say <code>/gw</code>",
+        ("Say <code>/gw</code> in Claude or <code>$gw</code> in Codex",
          "One door. On its own it shows what is next and what is waiting on you. With words "
          "after it, the Publisher reads what you mean. Nothing here needs remembering: when a "
          "phrase matters, the menu says it at that moment."),

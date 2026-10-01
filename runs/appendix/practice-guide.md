@@ -24,3 +24,9 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 1. **Proactive.** Once a week, ask her one question about her life that you can't already answer. Remember what she tells you, and bring it up again later.
 2. **Reactive.** When she invites you to spend time together, put your phone away and give her your attention. If your mind wanders, come back to the moment you agreed to share.
 3. **Proactive.** At the end of each week, name one thing she handled that you noticed, and tell her you saw it.
+
+## Chapter 14 — The Discipline of Enough
+
+1. **Proactive.** Before bed each night, write down one thing you valued about your wife that day. Name something you actually noticed. If nothing comes to mind, pay attention tomorrow instead of inventing praise.
+2. **Reactive.** When you notice something you appreciate about her, tell her what you saw and why it mattered to you. Let your thanks stand without requiring a particular response.
+3. **Reactive.** When a passing comparison becomes a complaint about your wife, ask whether meeting this new condition would satisfy you. Recall something you value about the whole person she is.

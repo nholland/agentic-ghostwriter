@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-01T00:47:35.962007-05:00",
+  "subjects": [
+    "merge:origin-main"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md"
+  ],
+  "authority": "Author approved the Chapter 14 direction on 2026-09-30; Chapter 13 landing and OKF updates are already recorded in origin/main; author now says \u2018Commit to main\u2019 for this branch.",
+  "reason": "Combined the approved Chapter 14 outline with origin/main's Chapter 13 update, preserved both chapters' Epictetus uses, kept both independent OKF history entries, and regenerated the citation queue from the merged canonical ledger.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "ada42ee2a90339869c06878dfa0ed65d0058f92677cdccbdcee54c755d704661",
+    "books/the-stoic-husband/citation-queue.md": "9ac5274370e68f2f35c98736dbee37e49ed670b530600fb6a0bc10508288bc4b",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md": "d9aab05bf29b77c525f53060a95a32ac4031583c90ae62751cbab40511861b79",
+    "books/the-stoic-husband/okf/log.md": "9cdba1c2588392d9f44f6a6943f652c36aae7b9877dc6686c0f2e69182a823de"
+  }
+}

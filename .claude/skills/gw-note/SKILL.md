@@ -1,4 +1,5 @@
 ---
+name: gw-note
 description: Record something the author said that should outlive the session - a decision, a ruling, or a question he wants to defer rather than answer now. His words, kept verbatim. Use when he says something worth keeping but there is no artifact to put it in.
 ---
 

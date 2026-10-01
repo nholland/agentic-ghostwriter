@@ -12,6 +12,9 @@ its own named commit (Rule 8).
 
 ## Before anything else, every session
 
+Read `.claude/RUNTIME.md` for shared Claude/Codex handoff and desk dispatch.
+Both runtimes operate this same house and its existing artifacts.
+
 ```
 python3 scripts/resolve_book.py      # where the book is, and is it intact
 python3 scripts/inbox.py             # what is waiting on the author

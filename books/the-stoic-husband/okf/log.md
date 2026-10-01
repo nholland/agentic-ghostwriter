@@ -921,6 +921,31 @@ Captured author instruction verbatim in an Author Note and indexed it. Earlier r
 
 - 2026-09-27T15:02:16.620265-05:00: Reconciled approved inbox 070, 084, 094–097 and 100; corrected chronology, nail mapping, terminology and romance limits. Added /notes/2026-09-27-approved-inbox-knowledge.md; retained pending 098/099 wording as pending. Author authorized backfill.
 
+- 2026-09-27 17:01: Extended /notes/2026-09-22-ch13-sun-arc-warmth.md to Chapter 14 on the author's direct instruction: the Sun arc concerns how a man should love. Recorded opening interview verbatim; interview remains incomplete, and the outline's work-trip story remains unconfirmed.
+
+- 2026-09-27 17:13: Captured Chapter 14 author's new direction in /frameworks/the-discipline-of-enough.md and private wife testimony in /stories/the-wife-who-is-enough.md. Registered two unverified research gaps on attraction/body change and media-shaped expectations. Interview and disclosure remain open.
+
+- 2026-09-27 17:20: Recorded Chapter 14 author ruling that the health/contentment line requires wisdom, not a simple formula; author approved use of his wife details subject to review. Added Seneca Letters 92 and 104 as page-text source findings; added Ch14 relevance to Musonius XIII and Epictetus Enchiridion 30. Research remains targeted and interview open.
+
+- 2026-09-27 17:34: Chapter 14 Researcher pass registered four source findings on ideals, acceptance and maintenance (Rodriguez 2015; Buyukcan-Tetik 2017; Kubacka 2011; Rossman 2022). The proposed contentment/complacency synthesis remains open in runs/ch14/proposed-concepts.md; no inferred author belief was accepted.
+
+- 2026-09-29 20:40: Author redirected Chapter 14 toward the mindset and practice of contentment: attention, appreciation, gratitude, and the grass-watered metaphor. Updated /frameworks/the-discipline-of-enough.md from direct words; did not accept the new Researcher synthesis.
+
+- 2026-09-29 20:45: Cold Chapter 14 Researcher staged source findings for Marcus Meditations VI.48 and VII.27, Emmons and McCullough 2003, and Koo et al. 2008; Publisher integrated them as unverified/page-text. Updated /citations/gordon-et-al-2012-gratitude-relationship-maintenance.md after primary-paper access, retaining verifiable status and narrowing its Ch14 claims. The proposed mindset practice remains open in runs/ch14/proposed-concepts.md.
+
+- 2026-09-29 20:51: Ghostwriter plan-only review found a missing quote-ready anchor. Publisher transcribed a short candidate from Marcus VI.48 in the George Long online text, advanced that one citation to verifiable/page-text/verbatim, and gave the brief its locator. Physical house-edition verification remains with the author.
+
+- 2026-09-29 23:18: Author supplied a screenshot of J.W. Bertolotti’s “The Art of Having Enough” as a new Chapter 14 research lead. The Researcher inspected the full article and primary-source routes, adding six unverified citation/source-audit concepts. Seneca Letters 2, 16 and 21 supply bounded-desire language, with Epicurus credited where Seneca credits him; the popular Epictetus “few wants” line remains unlocated. Daniel David’s REBT exposition supports flexible preferences versus rigid demands as theory. The article’s flat income-happiness claim and unsupported gratitude quantification were not imported. The optional marriage application remains an open proposal under runs/ch14/proposed-concepts.md; no author approval or manuscript change inferred.
+
+## 2026-09-30 — Chapter 14 direction approved
+
+Author ruling: “Yes, use the newer direction.” Updated the existing Discipline
+of Enough framework and its index annotation to appreciation, gratitude and
+care for a changing wife, with comparison secondary. Preserved the superseded
+comparison schema as history and marked its universal empirical claims
+unestablished. No fixed wisdom test adopted; no citation status upgraded.
+The constitutional outline and framework map now use the same direction.
+
 - 2026-09-30 04:17 (Publisher): Chapter 13 approved ("Approved, put it on main"). Updated /citations/epictetus-enchiridion-30-relational-duties.md: Ch13 slug and the author's role/title application with its attribution boundary. Added the Ch13 slug to /citations/tsapelas-aron-orbuch-2009-marital-boredom.md (Perel already carried it); the chapter states the study within the limits in runs/ch13/research-addendum-2026-09-24.md (predicted, baseline-adjusted, still-married sample). Seneca Letter 58 river paraphrase was cut from Ch13 on the author's word ("Cut it"); no concept change.
 
 - 2026-09-30 12:50 (Publisher): Author split Ch12 (romance is action) and Ch13 (pursuit is interest); action material moves to Ch12. Added /notes/2026-09-30-ch12-action-ch13-attention.md. Prose, distillations and plates pending; concept slugs to be re-pointed after re-edit.

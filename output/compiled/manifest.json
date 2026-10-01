@@ -1,7 +1,9 @@
 {
-  "built": "2026-09-30T17:28:10.287702+00:00",
-  "coverage": "Prologue, Introduction, Chapters 1-13, relevant Arc openings and plates",
-  "unapproved_chapters": [],
+  "built": "2026-10-01T12:33:33.115257+00:00",
+  "coverage": "Prologue, Introduction, Chapters 1-14, relevant Arc openings and plates",
+  "unapproved_chapters": [
+    14
+  ],
   "source_sha256": {
     "books/the-stoic-husband/chapters/ch01/refined.md": "fbcf4706892948e428acfed091bd5bc12e7dfb4259fa2f23da4fda9c35ba7c7e",
     "books/the-stoic-husband/chapters/ch01/distillation.md": "c612b717fb7d42303d1161d6fcdb92b805622ba816beeb8f0cdbaf9fd99f0ae4",
@@ -41,7 +43,10 @@
     "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
     "books/the-stoic-husband/chapters/ch13/refined.md": "b2237292251dd69d6bdd26c359486b958134596b30c065e4fc233f5e090f6a91",
     "books/the-stoic-husband/chapters/ch13/distillation.md": "2bc3b6f0df576dba505d415be1f722a7be6855388b7f6f2cb273d9568cd84e63",
-    "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4"
+    "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
+    "runs/ch14/refined.md": "8fb33f746d3fcad79d6001a14cbd5ceb691d7c37f1262d9fc043a1af4fe1072f",
+    "runs/ch14/distillation.md": "81db8374124390737a3c47ac0195784c6764b32d4839353885038b1a3dbe6f67",
+    "runs/ch14/plate.svg": "8c6083720996a7922e6e95a0e0345081583848269725aeafc39a2e418dfa0497"
   },
   "outputs": [
     "book.pdf",
@@ -58,12 +63,13 @@
     "chapters/ch11.pdf",
     "chapters/ch12.pdf",
     "chapters/ch13.pdf",
+    "chapters/ch14.pdf",
     "distillations.pdf",
     "plates.pdf",
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-09-30T17:28:10.286619+00:00",
+    "built": "2026-10-01T12:33:33.114401+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -142,12 +148,17 @@
         "approved_identical_copy": true
       },
       {
+        "id": "ch14",
+        "title": "Appreciation becomes care",
+        "approved_identical_copy": false
+      },
+      {
         "id": "part-III",
         "title": "The Warm Sun",
         "approved_identical_copy": false
       }
     ],
-    "pages_expected": 32,
+    "pages_expected": 34,
     "source_sha256": {
       "runs/ch01/plate.svg": "0c8a723099d924152cb1490eb282913b59e001014d496db8a97cbf1eed9051d0",
       "runs/ch02/plate.svg": "e7bcb508bf93a3bb5024701f17332c23cf583179ae28d5883c3f15e9ac54d026",
@@ -164,8 +175,9 @@
       "books/the-stoic-husband/parts/plate-2-sturdy-oak.svg": "f516b87ea7ff924f0e7c026dc3234e9ab13908809d8ceaa21f4ab05e11f9082e",
       "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
       "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
+      "runs/ch14/plate.svg": "8c6083720996a7922e6e95a0e0345081583848269725aeafc39a2e418dfa0497",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
-      "runs/design/plate-briefs.md": "85406ac79e83813781893763d85339994b1a3943b527d786755154a76a592ba0"
+      "runs/design/plate-briefs.md": "7eb4e997c35c94349ef04a09c4cd7a37cedef4de08058dbfe3c3d044392f913c"
     }
   },
   "plates": {
@@ -207,6 +219,9 @@
     },
     "ch13": {
       "approved_identical_copy": true
+    },
+    "ch14": {
+      "approved_identical_copy": false
     }
   }
 }

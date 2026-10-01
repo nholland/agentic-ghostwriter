@@ -163,3 +163,13 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 **Validation question:** What seems to be happening to these lines, and what feeling or action in a marriage does that bring to mind?
 
 **Source:** runs/parts/plate-3-warm-sun.svg; books/the-stoic-husband/parts/part-3-warm-sun.md
+
+## ch14 | Appreciation becomes care
+
+**Intent:** Notice what you value in your wife and let appreciation become an ordinary act of care for the life you share.
+
+**Visual explanation:** A large tilted watering can holds “appreciation.” Its loop handle, curved body, long spout and sprinkler head make the object recognizable. Discrete drops descend from the spout into one grass patch. “A kinder answer” sits beside the falling drops, naming the act of care while it happens. The grass is labeled “the life you share.” The image draws appreciation becoming care through contact between water and grass. There is no before/after growth comparison or returning arrow; the shared-life label names the recipient without depicting the wife as a plant to improve.
+
+**Validation question:** Within ten seconds, can a stranger recognize a watering can watering grass, identify the kinder answer as the water, and understand appreciation for his wife becoming care for their shared life? Does the image imply she owes a response?
+
+**Source:** runs/ch14/plate.svg; runs/ch14/distillation.md; runs/ch14/plate-brief.md; runs/ch14/plate-concepts.md, concept A and its recorded source excerpts; runs/ch14/plate-pick.md; runs/ch14/draft.md, metaphor_family only.

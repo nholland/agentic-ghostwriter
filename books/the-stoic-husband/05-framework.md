@@ -261,7 +261,7 @@ silently measured against an imagined composite of other people's best single
 traits. The condition on the affection is that she keep winning a contest no
 real person can win. Same cell, same missing virtue; the transaction is with a
 fantasy rather than with her.
-**Chapters:** Ch14 (The Discipline of Enough — the comparison route), Ch15
+**Chapters:** Ch14 (The Discipline of Enough — contentment through appreciation; comparison is a supporting pressure), Ch15
 (Sex, Rejection, and Self-Respect — the transactional route), Ch18 (The
 Sexless Marriage — conditional warmth under prolonged-absence pressure)
 

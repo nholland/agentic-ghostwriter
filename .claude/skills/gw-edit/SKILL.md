@@ -1,4 +1,5 @@
 ---
+name: gw-edit
 description: Interactive re-edit of a refined chapter with the author, section by section, then refresh its distillation and practice-guide entry. Runs in session. Use after he has read a chapter and wants to change something.
 ---
 

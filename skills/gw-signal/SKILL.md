@@ -1,4 +1,5 @@
 ---
+name: gw-signal
 description: Take reader feedback in - paste what readers said - and route it to the right desk. The Publisher receives it; the Publicist logs it as a signal concept; the Developmental Editor, Line Editor or Fact-Checker act on it depending on what kind of feedback it is.
 ---
 

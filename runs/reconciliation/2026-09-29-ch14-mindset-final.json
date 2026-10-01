@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-29T20:52:44.716219-05:00",
+  "subjects": [
+    "chapter:ch14"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md",
+    "books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md",
+    "books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md",
+    "books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md"
+  ],
+  "authority": "Direct author interview round 4 and cold Researcher primary-source findings",
+  "reason": "Final Ch14 mindset research, citation preparation and quote-ready Marcus source; practice proposal remains open",
+  "files": {
+    "runs/ch14/interview.md": "12548c2e923f4cffe5b5ab2f6295950bb38674a123fbd4c1dd37daf1aa33288b",
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md": "7bc34f8e498d9a3f6cccd3226f8074a462fde155b0dbd22741be75bddd44bdfa",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md": "7aaf3dbe93dbfd61fd3a16f4a2e2b54cd89d5f96ca2f58b6df2477b5357c0017",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md": "94e1d6bc9db325c94e3b4e7a1605d26e58ca1883cacc72f725c2e691765e3f28",
+    "books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md": "54ae5b826c54f0079868c9f5e91dd5f5b1d5fee715608f88b2b2332fbd7b9d58",
+    "books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md": "2b1f19e88d570b7785bfb61dd75099a9437c2ebbfca3be449ab99d1282d25e0e",
+    "books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md": "45f247fba7e65f1604a4c502a7c5fc041acfe8ec208f7ef1ce13151784b330ca",
+    "books/the-stoic-husband/okf/index.md": "4a70cb8837804090dcb8b622ed68c9e81bb440b72e02c0d9180dcec23e76a8c2",
+    "books/the-stoic-husband/okf/log.md": "c31ac00e736cb41b3e40eb3e3bde6bc30fda855fd3fcd072fdf9cd56fa2b2e17",
+    "books/the-stoic-husband/citation-queue.md": "37ced7d19fba53e307b77c7888d7a6fad37c7437efeb7d6b8bc703975df12332"
+  }
+}

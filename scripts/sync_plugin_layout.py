@@ -36,6 +36,8 @@ import os
 import shutil
 import sys
 
+import codex_layout
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 PAIRS = [(".claude/skills", "skills"), (".claude/agents", "agents")]
@@ -79,7 +81,7 @@ def walk(root):
 
 
 def check():
-    drift = list(check_hooks())
+    drift = list(check_hooks()) + codex_layout.check(REPO)
     for src_rel, dst_rel in PAIRS:
         src, dst = os.path.join(REPO, src_rel), os.path.join(REPO, dst_rel)
         s, d = walk(src), walk(dst)
@@ -134,7 +136,7 @@ def check_hooks():
 
 
 def sync():
-    n = sync_hooks()
+    n = sync_hooks() + codex_layout.sync(REPO)
     for src_rel, dst_rel in PAIRS:
         src, dst = os.path.join(REPO, src_rel), os.path.join(REPO, dst_rel)
         if not os.path.isdir(src):
@@ -169,7 +171,7 @@ def main():
         return 0
 
     n = sync()
-    print(f"sync_plugin_layout: derived {n} file(s) into skills/ and agents/")
+    print(f"sync_plugin_layout: derived {n} file(s) into Claude plugin and Codex runtime layouts")
     print("  .claude/ is canonical. Never edit the root copies.")
     return 0
 

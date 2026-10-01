@@ -1,4 +1,5 @@
 ---
+name: gw-research
 description: The Researcher desk builds a chapter research brief cold from the interview record, gated by the Ghostwriter's plan-only review of whether the brief can be written from at all. Use after /gw-interview.
 ---
 

@@ -99,7 +99,7 @@ research unless explicitly noted under `# Citations`.
 - [The Bucket (Unscheduled Labor)](/frameworks/the-bucket-unscheduled-labor.md) — Ch6's mechanism for why non-recurring tasks (the rattling ceiling fan, the one-off errand) go structurally uncounted, and why that blindness worsens the longer a marriage runs
 - [The Tipping Scale](/frameworks/the-tipping-scale.md) — Ch8's mechanism for how dozens of individually-too-small-to-name things accumulate into a felt sense of unfairness that surfaces all at once, feeling sudden when it never was
 - [The Hedonic Treadmill (and Miswanting)](/frameworks/the-hedonic-treadmill.md) — Ch27's ("The Discipline of Joy") evidence base for why achievement alone doesn't produce lasting gladness, and why savoring and specific gratitude do — corrected from a social-media source that got several claims wrong or outdated
-- [The Discipline of Enough](/frameworks/the-discipline-of-enough.md) — Ch14's mechanism for the in-marriage comparison trap and wandering eye — the hedonic treadmill and miswanting applied specifically to contentment with a spouse, organized around proactive vs. reactive countermeasures
+- [The Discipline of Enough](/frameworks/the-discipline-of-enough.md) — Ch14's approved practice of attention, appreciation, gratitude and care for a changing wife; comparison and moving standards are supporting pressures.
 - [Align on What You're Protecting, Not on the Rule](/frameworks/align-on-what-youre-protecting.md) — Ch10; two people who disagree about a rule argue about the rule and get nowhere; naming what it protects relocates the disagreement to ground where agreement is possible
 - [Peace Versus the Thing You Were Protecting](/frameworks/peace-versus-the-thing-you-were-protecting.md) — Ch10; the tired-parent trade: give in for an hour of quiet, call it picking your battles, and end up arguing with each other instead of the kids
 - [The Cup — A Two-Way Boundary With Friends](/frameworks/the-cup-two-way-friend-boundary.md) — Ch10, doesn't fill friends' opinion of his wife with complaints, doesn't let friends fill his with contempt for her either
@@ -126,6 +126,7 @@ Real audience signals and author anecdotes, used as composite scenarios.
 - [The Cascade](/stories/the-cascade.md) — anger flows downhill: husband → wife → kids → dog; a composite illustration of contagion
 - [The Bathroom Light](/stories/the-bathroom-light.md) — a trivial trigger absorbs a disproportionate reaction and becomes permanently loaded
 - [Two Truths: Tired Husband, Overloaded Wife](/stories/two-truths-tired-husband-overloaded-wife.md) — two genuine grievances on different axes collide and compete for acknowledgment
+- [The Wife Who Is Enough](/stories/the-wife-who-is-enough.md) — author testimony for Ch14; author approved use, subject to review.
 
 ## Citations
 
@@ -232,7 +233,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Evidence on men and physical touch — scoping the 'every man loves touch' claim](/citations/touch-preference-gender-evidence.md) — status: unverified
 - [Gable, Reis, Impett & Asher (2004) — Capitalization: how you answer her good news](/citations/gable-et-al-2004-capitalization.md) — status: verifiable
 - [Girme, Overall & Faingataa (2014) — 'Date nights take two': shared activity works only when both are engaged](/citations/girme-overall-faingataa-2014-date-nights-take-two.md) — status: verifiable
-- [Gordon, Impett, Kogan, Oveis & Keltner (2012) — Feeling Appreciated and Relationship Maintenance](/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md) — status: verifiable
+- [Gordon, Impett, Kogan, Oveis & Keltner (2012) — Feeling Appreciated and Relationship Maintenance](/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md) — status: verifiable; original paper inspected, Ch14 application limited to associations
 - [Harasymchuk, Walker, Muise & Impett (2021) — Planning date nights that promote closeness](/citations/harasymchuk-et-al-2021-planning-date-nights.md) — status: verifiable
 - [Huston et al. (2001) — 'The Connubial Crucible': the decline of affection, not the arrival of conflict, predicts divorce](/citations/huston-et-al-2001-connubial-crucible.md) — status: verifiable
 - [Impett, Park & Muise (2024) — Love Languages Evaluated From a Relationship Science Perspective](/citations/impett-park-muise-2024-love-languages-evaluated.md) — status: verifiable
@@ -255,6 +256,25 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Scheibehenne, Mata & Todd (2011) — Partner Preference Accuracy and Overconfidence](/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md) — status: verifiable
 - [Seneca, Letter 58.22-23 — Heraclitus, the river, and changing people](/citations/seneca-letter-58-heraclitus-river-and-change.md) — status: verifiable
 - [Thomas, Carnelley & Hart (2022) — Phone Distraction and Retaliation](/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md) — status: unverified
+- [Seneca Letter 92 — Health, Strength, and the Quality of Judgment](/citations/seneca-letter-92-health-strength-and-judgment.md) — status: verifiable; Ch14 preferred-external distinction.
+- [Seneca Letter 104 — Caring for Health for Paulina's Sake](/citations/seneca-letter-104-health-for-paulina.md) — status: verifiable; Ch14 self-care as love.
+- [Appearance Change, Attraction, and Long Marriage](/citations/ch14-appearance-change-and-attraction.md) — status: unverified; Ch14 research gap, no causal infidelity claim.
+- [Pornography, Romance Media, and Partner Expectations](/citations/ch14-pornography-romance-media-expectations.md) — status: unverified; Ch14 research gap.
+- [Rodriguez, Hadden & Knee (2015) — Intrinsic and Extrinsic Partner Ideals](/citations/rodriguez-hadden-knee-2015-intrinsic-extrinsic-ideals.md) — status: verifiable; Ch14 standards evidence, abstract read.
+- [Buyukcan-Tetik et al. (2017) — Partner Ideals, Acceptance, and Satisfaction](/citations/buyukcan-tetik-2017-ideal-standards-acceptance.md) — status: verifiable; Ch14 ideals evidence, full paper read.
+- [Kubacka et al. (2011) — Gratitude and Relationship Maintenance](/citations/kubacka-et-al-2011-gratitude-maintenance.md) — status: verifiable; Ch14 maintenance evidence, abstract read.
+- [Rossman, Lerner & Córdova (2022) — Partner and Felt Acceptance](/citations/rossman-lerner-cordova-2022-partner-felt-acceptance.md) — status: verifiable; Ch14 acceptance evidence, abstract read.
+
+- [Marcus Aurelius, Meditations VII.27 — Valuing Present Goods](/citations/marcus-aurelius-meditations-7-27-present-goods.md) — status: unverified; Long text read online, including caution against attachment
+- [Marcus Aurelius, Meditations VI.48 — Notice the Virtues of Those Near You](/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md) — status: verifiable; short candidate quotation transcribed from online Long text
+- [Emmons and McCullough (2003) — Practicing Gratitude](/citations/emmons-mccullough-2003-counting-blessings.md) — status: unverified; randomized gratitude exercises, mixed outcomes
+- [Koo et al. (2008) — Mentally Subtracting Positive Events](/citations/koo-et-al-2008-mental-subtraction.md) — status: unverified; immediate effect in selected relationship sample
+- [Seneca, Letter 2.6 — necessary and enough](/citations/seneca-letter-2-6-enough.md) — status: unverified; online Gummere text, with Epicurus attribution boundary in 2.5
+- [Seneca, Letter 16.7–9 — desires without a stopping point](/citations/seneca-letter-16-7-9-limits-of-desire.md) — status: unverified; the nature/opinion maxim in 16.7 is credited to Epicurus
+- [Epicurus via Seneca, Letter 21.7–8 — reducing desires](/citations/epicurus-via-seneca-letter-21-7-desires.md) — status: unverified; mediated ancient attribution, not a surviving letter to Pythocles
+- [Epictetus “few wants” — attribution gap](/citations/epictetus-wealth-few-wants-attribution-gap.md) — status: unverified; popular wording lacks an ancient locator
+- [Daniel David — flexible preferences and rigid demands in REBT](/citations/david-rebt-flexible-preferences.md) — status: unverified; theoretical distinction, not a marriage study or Ellis quotation
+- [Bertolotti, “The Art of Having Enough” — source audit](/citations/bertolotti-having-enough-source-audit.md) — status: unverified; secondary lead checked against primary texts
 
 ## Signals
 
@@ -277,7 +297,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 
 - [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; 098/099 wording remains pending.
 - [Ch12 action, Ch13 attention](/notes/2026-09-30-ch12-action-ch13-attention.md) — author's split of Part III's opening pair; prose re-edit pending.
-- [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage.
+- [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage. Extended to Chapter 14 in its opening interview: how a man should love.
 
 ## Logs
 

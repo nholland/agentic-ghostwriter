@@ -806,6 +806,80 @@ Author authority: “Let's make the changes.” Chapter handoff now calls existi
 
 The author reported spaced chapter letters and an undifferentiated title in his audio reader. Both PDF backends now share ordinary chapter labels, explicit bold titles and flush-left openings. Actual PDF integration checks reject the old export and pass the new one; seven pages inspected and extracted content preserved. Chromium rendering now closes explicitly through the existing Playwright dependency. No claim of testing the author's particular reader. Regression suite: 123/123 with local font-path override, followed by 15/15 focused tests including three new scope cases. Instruction word changes are recorded in runs/ch13/workflow-word-costs.txt; generated plugin copies synced.
 
+## 2026-09-30 — Chapter 14 appreciation and enough review package
+
+The author explicitly approved the revised appreciation/gratitude direction.
+The Publisher updated the locked outline and OKF framework in the separate
+foundation commit `655c3d5 Revise Chapter 14 toward appreciation`; reconciliation
+receipt and inbox rulings are recorded. The old work-trip comparison framing
+is superseded. No new citation was marked verified.
+
+The refined chapter is 1,287 words with five bold run-in subsections. Its
+distillation and three synchronized practices are in the practice guide. The
+final counted voice check and practice sync pass. The clean-room conformance
+report passes all 12 rows; it retains the source-origin caveat for the grass /
+watering saying. Marcus VI.48 remains subject to checking the house edition.
+Cold scoped persona and coherence reports found no essential repair; the
+coherence report discloses incidental exposure to adjacent editorial apparatus.
+
+The Reader Panel selected plate concept A. Following its one-sided-care
+observation, the final plate says care does not require a particular response.
+The standalone Panel read and the final rendered plate check (11/11) pass; the
+secondary risk of implying one-sided responsibility remains documented. The
+compiled chapter PDF is seven pages. Chapter/package checks pass, and the PDF
+opening was visually checked. The chapter and plate remain unlanded and await
+the author's verdict.
+
+Required inbox evidence, verbatim:
+
+```text
+inbox: 0 open, 2 resolved
+
+  #105 [done] ch14  For Chapter 14, may the governing outline be revised to center practicing enough through appreciation and gratitude, replacing the work-trip highlight-reel story and unsupported universal courtship claim?
+        raised by gw-ghostwriter plan-only gate, second failed attempt at 2026-09-29 23:20
+        **What unblocks this:** Chapter 14 outline/specification and cold-draft gate
+  #106 [done] ch14  For Chapter 14, do you accept the proposed appreciation practice and optional moving-standards/flexible-preferences extension in runs/ch14/proposed-concepts.md?
+        raised by gw-ghostwriter plan-only gate, second failed attempt at 2026-09-29 23:20
+        **What unblocks this:** Chapter 14 content concept approval and cold-draft gate
+
+  Full text: inbox/*.md   Close: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'
+```
+
+## 2026-09-30 23:30 CDT — Chapter 14 redraw makes the action legible
+
+The author said the plate was “awful” and “unrecognizable.” The Designer
+identified a boxlike vessel, ambiguous connector-like streams and disconnected
+grass. Three genuinely different concepts were prepared; the cold Reader Panel
+picked A and requested the behavioral label beside the falling water. The
+redraw shows a tilted watering can, discrete drops reaching grass and “a kinder
+answer” beside the water. A first margin error was corrected and counted as one
+durable Designer attempt. The final Publisher plate check passes all 11 rows,
+including a matching fresh raster. The cold standalone read passes and confirms
+the watering action is recognizable. A possible transactional reading remains
+documented as secondary risk, with no redraw required. The final Designer
+format checklist is complete.
+
+The seven-page Chapter 14 PDF was rebuilt with the new plate and all pages were
+visually inspected. Chapter/book HTML checks and practice synchronization pass.
+The refreshed full-book review collections also report existing issues on
+other draft plates (including Chapter 3's ink-margin failure); those are outside
+this Chapter 14 redraw. No Chapter 14 verdict has been given; nothing is landed.
+
+Current Chapter 14 inbox state, verbatim:
+
+```text
+inbox: 0 open, 2 resolved
+
+  #105 [done] ch14  For Chapter 14, may the governing outline be revised to center practicing enough through appreciation and gratitude, replacing the work-trip highlight-reel story and unsupported universal courtship claim?
+        raised by gw-ghostwriter plan-only gate, second failed attempt at 2026-09-29 23:20
+        **What unblocks this:** Chapter 14 outline/specification and cold-draft gate
+  #106 [done] ch14  For Chapter 14, do you accept the proposed appreciation practice and optional moving-standards/flexible-preferences extension in runs/ch14/proposed-concepts.md?
+        raised by gw-ghostwriter plan-only gate, second failed attempt at 2026-09-29 23:20
+        **What unblocks this:** Chapter 14 content concept approval and cold-draft gate
+
+  Full text: inbox/*.md   Close: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'
+```
+
 ## 2026-09-30 04:17 — Chapter 13 lands, and "ready" was wrong once
 
 Verdict: "Approved, put it on main." Pauses: the author's 9/24 feedback, the verdict, and four rulings in session (outline #105, Epictetus #106, a third revision round #107, "Cut it" for the Seneca river). Scoped review: Reader Panel failed round 1, passed rounds 2-7; Anti-Slop Reader failed rounds 1-2, passed round 3; two-round stop reached once and taken to the inbox (#107).

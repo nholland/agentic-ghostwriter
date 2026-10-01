@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-30T09:49:17.089608-05:00",
+  "subjects": [
+    "inbox:105",
+    "inbox:106"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md"
+  ],
+  "authority": "Author: Yes, use the newer direction. Earlier: Please commit to OKF. Let\u2019s start drafting!",
+  "reason": "Approved appreciation direction replaces comparison/work-trip commission. Existing concept updated with history preserved; no fixed wisdom test adopted; research status unchanged.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "ec7764c0c56bd8fd823af8366e901354a0e903eb7c4cf9ea41cdc33249a4ea26",
+    "books/the-stoic-husband/05-framework.md": "fafa0c50f502ca7722e7d29a1fab4c447411ea4afb61b99c323e119d7711af7f",
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md": "201a75f57d55ee76b1feb237ac9feb2b0e03aeb21bcba8240a3ec3ae72305fa4",
+    "books/the-stoic-husband/okf/index.md": "93700af8aa3522d7ae8709674d3a62481295d5f8b08acea54a408925525fa2e9",
+    "books/the-stoic-husband/okf/log.md": "0892897db8b1be91505677b02d432e400ae5a26b99786ca349cc1f85348b4517"
+  }
+}
