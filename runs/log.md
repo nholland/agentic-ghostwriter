@@ -4205,3 +4205,38 @@ Chapter 14 still awaits author verdict and is not landed.
 - `output/compiled/plates.pdf`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-10-01 12:34 — `ccr-01ea6933-n9cd72` — 20 commit(s) this session
+- `.agents/skills/gw`
+- `.agents/skills/gw-bakeoff`
+- `.agents/skills/gw-board`
+- `.agents/skills/gw-chapter`
+- `.agents/skills/gw-compile`
+- `.agents/skills/gw-draft`
+- `.agents/skills/gw-edit`
+- `.agents/skills/gw-found`
+- `.agents/skills/gw-inbox`
+- `.agents/skills/gw-interview`
+- `.agents/skills/gw-market`
+- `.agents/skills/gw-note`
+- `.agents/skills/gw-plate`
+- `.agents/skills/gw-qa`
+- `.agents/skills/gw-refine`
+- `.agents/skills/gw-research`
+- `.agents/skills/gw-revise`
+- `.agents/skills/gw-signal`
+- `.agents/skills/gw-sources`
+- `.agents/skills/gw-verify`
+- `.claude/RUNTIME.md`
+- `.claude/hooks/session-start.sh`
+- `.claude/hooks/session-stop.sh`
+- `.claude/settings.json`
+- `.claude/skills/gw-bakeoff/SKILL.md`
+- `.claude/skills/gw-board/SKILL.md`
+- `.claude/skills/gw-draft/SKILL.md`
+- `.claude/skills/gw-edit/SKILL.md`
+- `.claude/skills/gw-found/SKILL.md`
+- `.claude/skills/gw-inbox/SKILL.md`
+- … and 160 more
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
