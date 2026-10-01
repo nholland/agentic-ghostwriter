@@ -25,7 +25,7 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 2. **Reactive.** When she invites you to spend time together, put your phone away and give her your attention. If your mind wanders, come back to the moment you agreed to share.
 3. **Proactive.** At the end of each week, name one thing she handled that you noticed, and tell her you saw it.
 
-## Chapter 14 — The Discipline of Enough
+## Chapter 14 — She Is Enough
 
 1. **Proactive.** Before bed each night, write down one thing you valued about your wife that day. Name something you actually noticed. If nothing comes to mind, pay attention tomorrow instead of inventing praise.
 2. **Reactive.** When you notice something you appreciate about her, tell her what you saw and why it mattered to you. Let your thanks stand without requiring a particular response.

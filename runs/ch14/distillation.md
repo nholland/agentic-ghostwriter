@@ -1,4 +1,4 @@
-# Chapter 14 Distillation — The Discipline of Enough
+# Chapter 14 Distillation — She Is Enough
 
 **Mechanism:** Appreciation becomes care
 
