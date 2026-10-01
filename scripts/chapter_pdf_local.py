@@ -49,6 +49,10 @@ PLATE_IMG = re.compile(r'(<(?:figure|div) class="plate"><img src=")([^"]+\.svg)(
 HTML_COMMENT = re.compile(r'^<!--.*-->$')
 PAGEBREAK_DIV = '<div class="pb"></div>'
 RAW_PASSTHROUGH = re.compile(r'^(<!--|<(figure|div) class="plate"|<div class="pb">|<section class="dist distback")')
+# The reader-facing name of the page that closes each chapter (author, 2026-09-30).
+# Its source file stays distillation.md; the reader never sees that word.
+PRACTICE_KICKER = "Putting into Practice"
+
 DIST_BLOCK = re.compile(r'<section class="dist distback" data-chapter="\d+">.*?</section>', re.S)
 
 
@@ -297,8 +301,10 @@ def distillation_html(md, kicker):
     paths were 7 lines each and 5 identical, which is the two-copies-of-one-
     stylesheet shape that caused the defects this renderer exists to avoid."""
     d = md_to_html(md)
+    # "Chapter N Distillation — Title" prints as "Chapter N — Title".
+    heading = lambda h: re.sub(r"^(Chapter \d+) Distillation\b", r"\1", h)
     d = re.sub(r"<h1>(.*?)</h1>",
-               lambda m: f'<p class="kicker">{kicker}</p><h1>{m.group(1)}</h1>'
+               lambda m: f'<p class="kicker">{kicker}</p><h1>{heading(m.group(1))}</h1>'
                          f'<div class="rule"></div>', d, count=1)
     d = re.sub(r"<p><strong>Mechanism:</strong>\s*(.*?)</p>",
                r'<p class="mech">\1</p>', d, count=1)
@@ -344,7 +350,7 @@ def build(chapter_md, distillation_md, plates, out_pdf, title, dist_at="back", b
     if distillation_md and dist_at == "back":
         body.append('<section class="dist distback">'
                     + distillation_html(distillation_md,
-                                        "Put it into practice")
+                                        PRACTICE_KICKER)
                     + '</section>')
 
     return render_html(''.join(body), out_pdf, title)

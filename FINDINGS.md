@@ -879,3 +879,11 @@ inbox: 0 open, 2 resolved
 
   Full text: inbox/*.md   Close: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'
 ```
+
+## 2026-09-30 04:17 — Chapter 13 lands, and "ready" was wrong once
+
+Verdict: "Approved, put it on main." Pauses: the author's 9/24 feedback, the verdict, and four rulings in session (outline #105, Epictetus #106, a third revision round #107, "Cut it" for the Seneca river). Scoped review: Reader Panel failed round 1, passed rounds 2-7; Anti-Slop Reader failed rounds 1-2, passed round 3; two-round stop reached once and taken to the inbox (#107).
+
+The finding: the chapter was handed to the author as ready on 2026-09-27 with every scoped review passing, and he caught "she decides she's been accounted for" himself: a flipped-agency sentence none of the reviews was asked to look for. A sentence-by-sentence sweep then found 13 more; the Publisher's own fixes introduced new ones ("shows up early" overstated the study); the Publisher's note counted 1 negated reframe where there were 4-6. Five further first-time-reader cold reads (rounds 10-14) found 6, 3, 2, 1, 0 hits. Two changes on the author's word: 01-voice.md names the compressed line as the fourth form of making the reader infer; gw-chapter step 7 requires a cold read on the exact text before the verdict package, re-run after any edit including the Publisher's.
+
+`python3 scripts/inbox.py --all --chapter 13`: "inbox: 0 open, 4 resolved". Voice check on the landed text: all HARD checks passed (1,774 prose words).

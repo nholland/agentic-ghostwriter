@@ -945,3 +945,5 @@ care for a changing wife, with comparison secondary. Preserved the superseded
 comparison schema as history and marked its universal empirical claims
 unestablished. No fixed wisdom test adopted; no citation status upgraded.
 The constitutional outline and framework map now use the same direction.
+
+- 2026-09-30 04:17 (Publisher): Chapter 13 approved ("Approved, put it on main"). Updated /citations/epictetus-enchiridion-30-relational-duties.md: Ch13 slug and the author's role/title application with its attribution boundary. Added the Ch13 slug to /citations/tsapelas-aron-orbuch-2009-marital-boredom.md (Perel already carried it); the chapter states the study within the limits in runs/ch13/research-addendum-2026-09-24.md (predicted, baseline-adjusted, still-married sample). Seneca Letter 58 river paraphrase was cut from Ch13 on the author's word ("Cut it"); no concept change.

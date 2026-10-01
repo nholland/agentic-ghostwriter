@@ -32,7 +32,7 @@ verification_note: >
   Rule 11).
 ip: external
 tags: [citation, epictetus, boundaries, in-laws, family-of-origin, primary-source]
-chapter_slugs: [boundaries-are-strength, the-discipline-of-enough]
+chapter_slugs: [boundaries-are-strength, pursue-her-after-you-have-her, the-discipline-of-enough]
 timestamp: 2026-08-17T00:00:00Z
 ---
 
@@ -62,6 +62,18 @@ overstepping. He still gets courtesy, patience, and a direct conversation. He
 does not get a vote in how the couple runs their family. Epictetus lets the
 chapter hold both at once, which is what keeps the tier from reading as
 permission to go to war with relatives.
+
+# Why this fits Chapter 13
+
+The author chose this passage for Chapter 13's turn on 2026-09-27 ("I really like
+the Epictetus quote... You keep pursuing her"). The chapter quotes only Long's
+confirmed line, "Duties are universally measured by relations," and follows it with
+the author's own gloss in the narrator's voice: husband is a role you keep playing,
+not a title you won once; you were her suitor before she said yes, and that job
+stayed open. **Attribution boundary:** the role/title wording is the author's
+application, never Epictetus's words, and must not be quoted as his. Chapter 10
+uses the father passage; Chapter 13 uses the one-line maxim, so the two chapters
+draw on different lines.
 
 # Related
 

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-27T22:49:58.939799+00:00",
+  "subjects": [
+    "inbox:106"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-09-27 session: 'I really like the Epictetus quote... Let's weave these in and update the chapter'",
+  "reason": "Ch13 prose in runs/ now uses Enchiridion 30 (existing citation concept, Long wording). The concept's chapter_slugs gain Ch13 when the chapter lands; nothing in books/ changes now.",
+  "files": {}
+}

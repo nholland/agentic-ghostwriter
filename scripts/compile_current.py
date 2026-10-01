@@ -68,10 +68,10 @@ def main():
         for name in ['refined.md', 'distillation.md']:
             p = src/name
             sources[str(p.relative_to(ROOT))] = hashlib.sha256(p.read_bytes()).hexdigest()
-        dist_html.append('<section class="dist">' + renderer.distillation_html((src/'distillation.md').read_text(), 'Chapter distillation') + '</section>')
+        dist_html.append('<section class="dist">' + renderer.distillation_html((src/'distillation.md').read_text(), renderer.PRACTICE_KICKER) + '</section>')
         svg = ROOT/'runs'/f'ch{n:02}'/'plate.svg'
         sources[str(svg.relative_to(ROOT))] = hashlib.sha256(svg.read_bytes()).hexdigest()
-    renderer.render_html(''.join(dist_html), str(OUT/'distillations.pdf'), 'Chapter distillations (author review)')
+    renderer.render_html(''.join(dist_html), str(OUT/'distillations.pdf'), 'Putting into Practice, every chapter (author review)')
     from plate_packet import build_packet
     plate_packet = build_packet(book, max(chapters))
     manifest = {'built': datetime.now().astimezone().isoformat(), 'coverage': f'Prologue, Introduction, Chapters 1-{max(chapters)}, relevant Arc openings and plates',
@@ -89,8 +89,8 @@ def main():
         '# Current compiled copies\n\n'
         + f'Coverage: {manifest["coverage"]}. This is the available book, not all 29 planned chapters.\n\n'
         + f'Unapproved chapter inputs: {args.include_run or "none"}. Plate approval status is recorded in manifest.json.\n\n'
-        + '- [Book](book.pdf): each chapter’s prose, plate, and full distillation, with Arc openings and closing plates.\n'
-        + '- [Distillations](distillations.pdf): full chapter distillations in order.\n'
+        + '- [Book](book.pdf): each chapter’s prose, plate, and Putting into Practice page, with Arc openings and closing plates.\n'
+        + '- [Putting into Practice](distillations.pdf): every chapter’s Putting into Practice page, in order.\n'
         + '- [Plates](plates.pdf): chapter and Arc plates, each followed by its maintained plain-language explanation.\n'
         + '\nChapter PDFs include plate and distillation when built by compile_current.py:\n\n'
         + ''.join(f'- [{p.stem}](chapters/{p.name})\n' for p in sorted((OUT/'chapters').glob('*.pdf')))

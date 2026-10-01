@@ -95,16 +95,3 @@ None.
 House translation standard (`06-sources.md`, established 2026-09-07 and applied here 2026-09-09): George Long for Marcus Aurelius and Epictetus, Richard Gummere for Seneca, all public domain. Long's text was transcribed from Project Gutenberg through its GitHub mirror (raw.githubusercontent.com/GITenberg/...), the one route to a primary text this container can reach; every Long quotation here is verbatim against that text. Remaining retrofit items are tracked in parking-lot #35.
 
 - *Meditations* 12.4: the printed wording was Gregory Hays's (Modern Library, 2002, in copyright), corroborated only from secondary sources. Replaced with George Long's wording of the same passage, transcribed from Project Gutenberg #15877 via its GitHub mirror, with the section and translator now credited inline. The paragraph that follows ("Read that as a diagnosis...") still fits: Long's first sentence carries the point Hays's closing sentence made.
-
----
-## Distillation
-
-**Mechanism:** The Bottomless Yes
-**Conversation:** He kept saying yes expecting something back for it, and when it didn't come, the disappointment piled up quietly instead of turning into one big blowup.
-
-He treated "happy wife, happy life" as an unspoken trade: comply and stay quiet, and the reward (respect, warmth, being heard) would follow on its own. When it didn't, because the deal was never named, specific disappointments piled up quietly and curdled toward contempt, while the avoidance itself produced the real cost: apathy, not peace. The fix isn't becoming combative, it's the same four-part check from Chapter 1 (logical, brave, self-controlled, kind) applied to the decision of whether to speak, which is exactly what Epictetus's own teaching on selective, disciplined speech actually recommends.
-
-**Practice:**
-1. When something disappoints you and you decide not to say it, name it to yourself anyway, so it doesn't just disappear into the pile.
-2. Notice when you're staying quiet to protect the peace. Ask yourself honestly: is this protecting the marriage, or am I just avoiding the risk?
-3. Before raising something, run the four-question check: is this worth saying now, am I willing to say it despite what it risks, is this actually worth raising versus letting go, and can I deliver it kindly?

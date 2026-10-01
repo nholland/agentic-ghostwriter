@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-30T04:18:35.836112+00:00",
+  "subjects": [
+    "chapter:ch13"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md",
+    "books/the-stoic-husband/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md"
+  ],
+  "authority": "Author, 2026-09-30: 'Approved, put it on main'; Epictetus choice 2026-09-27; 'Cut it' (Seneca) 2026-09-30",
+  "reason": "Ench 30 gains Ch13 use and the author's role/title application with attribution boundary; Tsapelas gains Ch13 slug and recorded limits.",
+  "files": {
+    "runs/ch13/refined.md": "27da6cac394418366e2e26eef08fd49745eee955fb48baa9447627f361032476",
+    "runs/ch13/distillation.md": "4577dbdb3e8cc82839d8c9b40533624096a187ae2630baf2e3af1773aa6ba005",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md": "888fb8b92a0a2e301cee1baf3d534e3ab5adf74843ad9e5075e1852765d91f34",
+    "books/the-stoic-husband/okf/citations/tsapelas-aron-orbuch-2009-marital-boredom.md": "d725d9b38bd4e77d07544e1bb6c55f5ea0ddb58aa2ad852652e2a2adda8922ea",
+    "books/the-stoic-husband/okf/log.md": "8596e49cda66e3cd341fbbfc937bfafdaa632d12b571a348cf79778c151452e1"
+  }
+}

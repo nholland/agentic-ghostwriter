@@ -124,11 +124,11 @@ def selected_plate_report(svg, chapter=None, part=None, book_root=None, render=F
 
 
 def full_distillation_block(prose_path, dist_path):
-    from chapter_pdf_local import distillation_html
+    from chapter_pdf_local import distillation_html, PRACTICE_KICKER
     n, _, dist = draft_inputs(prose_path, dist_path)
     # A single raw block survives the Markdown renderer without being re-parsed.
     return ('<section class="dist distback" data-chapter="%d">' % n
-            + distillation_html(dist, 'Put it into practice').replace('\n', '') + '</section>')
+            + distillation_html(dist, PRACTICE_KICKER).replace('\n', '') + '</section>')
 
 
 def strip_apparatus(text):

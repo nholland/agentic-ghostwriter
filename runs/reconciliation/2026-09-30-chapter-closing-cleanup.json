@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-09-30T04:53:27.328665+00:00",
+  "subjects": [
+    "session:2026-09-30-closing-cleanup"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-09-30 session: \"Clean up all three\"",
+  "reason": "Mechanical cleanup only: Ch1 guide practices re-synced verbatim to the existing Ch1 distillation; stale never-printed distillation copies removed below Editor's Notes in Ch6/9/10; Ch11 heading punctuation. No fact, claim, story, citation or meaning added or changed.",
+  "files": {
+    "books/the-stoic-husband/appendix/practice-guide.md": "cdfe3f508c676896471e07a1945aabf91dcb6c58749403d06a22754f69a63e18",
+    "books/the-stoic-husband/chapters/ch06/refined.md": "297d5ae691049136d23e62228d7097cb2e5e3abc93c678de9e9b79b50f871940",
+    "books/the-stoic-husband/chapters/ch09/refined.md": "c936270a3e2f97ea399c54d250aa105d3b05ded406d802c52d3536992730b3d1",
+    "books/the-stoic-husband/chapters/ch10/refined.md": "0075bac111f21020f78fcbe27fadf7ad46a910835698e21b53dd4df66d53766c",
+    "books/the-stoic-husband/chapters/ch11/distillation.md": "160f6d77e9865560615b0333f6dd6ab19e7f8adf154c2dd670810715e353b8a7"
+  }
+}

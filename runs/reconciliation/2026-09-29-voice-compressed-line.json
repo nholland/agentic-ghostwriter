@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-29T12:58:37.423330+00:00",
+  "subjects": [
+    "voice:compressed-line"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-09-29 session: 'I want to name that mistake so that we don't make it again or that the line editor knows to catch it' / 'Yes'",
+  "reason": "Voice-spec craft rule only; no OKF concept records book facts it changes.",
+  "files": {
+    "books/the-stoic-husband/01-voice.md": "a3e680e7c08521f5247667a38e2331fde78fd914e891860fa1e2623c015b4b89"
+  }
+}
