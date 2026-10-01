@@ -3918,3 +3918,27 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/reconciliation/2026-09-30-chapter-closing-cleanup.json`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-10-01 05:45 — `ccr-1277c85e-enf5a0` — ? commit(s) this session
+- `output/compiled/assets/chapters/reader-ch12-ch13.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch01.pdf`
+- `output/compiled/chapters/ch02.pdf`
+- `output/compiled/chapters/ch03.pdf`
+- `output/compiled/chapters/ch04.pdf`
+- `output/compiled/chapters/ch05.pdf`
+- `output/compiled/chapters/ch06.pdf`
+- `output/compiled/chapters/ch07.pdf`
+- `output/compiled/chapters/ch08.pdf`
+- `output/compiled/chapters/ch09.pdf`
+- `output/compiled/chapters/ch10.pdf`
+- `output/compiled/chapters/ch11.pdf`
+- `output/compiled/chapters/ch12.pdf`
+- `output/compiled/chapters/ch13.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+- `output/compiled/reader-ch12-ch13.pdf`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
