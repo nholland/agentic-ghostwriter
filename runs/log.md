@@ -3541,3 +3541,38 @@ seven-page Chapter 14 PDF was rendered and inspected; its chapter/book HTML
 package checks pass. The all-book review collections were regenerated, with
 existing check warnings/failures on other draft plates outside this chapter.
 Chapter 14 still awaits author verdict and is not landed.
+
+## 2026-09-30 23:34 — `codex/shared-runtimes` — 5 commit(s) this session
+- `FINDINGS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/05-framework.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
+- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
+- `output/compiled/README.md`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-1-steady-river.png`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
+- `output/compiled/assets/chapters/ch14-plate.png`
+- `output/compiled/assets/chapters/ch14.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch01.png`
+- `output/compiled/assets/plate-ch02.png`
+- `output/compiled/assets/plate-ch04.png`
+- `output/compiled/assets/plate-ch05.png`
+- `output/compiled/assets/plate-ch07.png`
+- `output/compiled/assets/plate-ch08.png`
+- `output/compiled/assets/plate-ch13.png`
+- `output/compiled/assets/plate-ch14.png`
+- `output/compiled/assets/plates.html`
+- `output/compiled/assets/runs-ch01-plate.png`
+- `output/compiled/assets/runs-ch04-plate.png`
+- `output/compiled/assets/runs-ch10-plate.png`
+- `output/compiled/assets/runs-ch14-plate.png`
+- `output/compiled/book.pdf`
+- … and 39 more
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
