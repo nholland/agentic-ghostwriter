@@ -1,4 +1,5 @@
 ---
+name: gw-found
 description: The Developmental Editor runs the Foundation phase with the author - premise, archetype, voice, audience, outline - for a NEW book, or reports what a book already has. Runs in session, never as a sub-agent. Resumable mid-sequence.
 ---
 

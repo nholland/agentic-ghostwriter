@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-09-27T17:23:30.207816-05:00",
+  "subjects": [
+    "chapter:ch14"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md",
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md",
+    "books/the-stoic-husband/okf/citations/seneca-letter-92-health-strength-and-judgment.md",
+    "books/the-stoic-husband/okf/citations/seneca-letter-104-health-for-paulina.md",
+    "books/the-stoic-husband/okf/citations/musonius-rufus-on-marriage.md",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md"
+  ],
+  "authority": "Author direction and publication permission in Chapter 14 interview; Seneca, Musonius and Epictetus primary texts read on source pages.",
+  "reason": "Records author ruling, allows use of wife examples, and adds verified-at-source but not author-verified Stoic paraphrase findings.",
+  "files": {
+    "runs/ch14/interview.md": "825a133d3755e75b92927bb0f5b34c7a74bce4dd69b3f2692c426e6505adcd43",
+    "books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md": "dab5163c939a69583e45a5ad32c73c05170274f5d4c293637589e26deb914c63",
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md": "301202181e1f25634c68a752d5fa3cb52255fbc02fde5c3125f5946861027425",
+    "books/the-stoic-husband/okf/citations/seneca-letter-92-health-strength-and-judgment.md": "2760eb7c247339f161989ed2b07110d820bdcdadd4199569e3b59b6096ad6015",
+    "books/the-stoic-husband/okf/citations/seneca-letter-104-health-for-paulina.md": "ccc9af68fd7b1f02f8dfa022b3cd06a0f52860eeb85524c2cefe604de955909f",
+    "books/the-stoic-husband/okf/citations/musonius-rufus-on-marriage.md": "1cd4851ac6e72f1b7c5b1fa4778873c32de438e417203dfe3cb733da5bb59704",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md": "3fa71e7d3ce155a2a4a4338768df64c94dd17186e802746109cf9bd9ba0d3b5e",
+    "books/the-stoic-husband/okf/index.md": "ac6cdd4e5da591eb9f8a2d68f6f76921dffe76c7779437ebea07896230a7d826",
+    "books/the-stoic-husband/okf/log.md": "403cdf99214ee1e6913fd5d7b1b768a49249866fdd9d16a3c10aef224adad8c4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "inputs": {
+    "refined.md": "8fb33f746d3fcad79d6001a14cbd5ceb691d7c37f1262d9fc043a1af4fe1072f",
+    "review-input-refined.md": "bf60f0ac2bd234926f1ae1aa16b9be93bfb334075e7677dca433dacbfe25bbe3",
+    "outline-section.md": "860b91b1df9a34bd77299b38dc11316134fc6d9df10acb6bc01eed20710bbe26",
+    "distillation.md": "81db8374124390737a3c47ac0195784c6764b32d4839353885038b1a3dbe6f67",
+    "research.md": "c1d14b9489b37f8947b83d14321e8e1d72123530125f3d41c483ae712265da00",
+    "../../books/the-stoic-husband/00-premise.md": "adb098e5c4b97006b1f0a16a6c7b99e513eab6c47356908b4d80d8263855678a",
+    "../../books/the-stoic-husband/02-audience.md": "d761633095a8811c0329045ad99a6b311ce801a8b85520342d49f92389d96fc7",
+    "../../books/the-stoic-husband/01-voice.md": "7b697423d5ad7c5309dbc3ed000886342f3c10a6b770dd0f8120e31a0489d532",
+    "../../runs/ch11/refined.md": "8beecd0888bc0df41e5a6211af54cccd886eb7130ea6d699bc696b7ed74dcfb4",
+    "../../runs/ch12/refined.md": "b1cf8efac04ce61229ae893e37ee819648c6e414200875b274d0b136fa83c8ec",
+    "../../runs/ch13/refined.md": "916cd18459a5f64812fa9a49d46e04589045cafe72e398afa6998de3216919b1",
+    "../../.claude/agents/gw-panel.md": "0ba2160c2abdc49b769eff8606da9f86d737d86b90b36918ca74db0703417615",
+    "../../.claude/agents/gw-slopreader.md": "4492d144a1f2fd395ab733cffaa1724293661c1241863c35169f409755b28620"
+  },
+  "reviews": {
+    "personas": {
+      "status": "pass",
+      "report": "persona-refined.md",
+      "sha256": "a67b48647f2362906d0e8db571e994a2eb05cb61aea252bdaf3860084e624f2e",
+      "scope": "Cold single-chapter reader panel on final Chapter14 prose, approved outline section and distillation; audience reactions, skeptic objection and within-chapter tension. No whole-book or cross-chapter review, source verification or factual audit."
+    },
+    "coherence": {
+      "status": "pass",
+      "report": "coherence-refined.md",
+      "sha256": "24740ae6a4607d3e25c151091b42f3f41451e7448a6e7de19fc74a36ee2f4a14",
+      "scope": "Qualitative Chapter14 plus adjacent Chapters11\u201313 for slop, continuity, repeated examples and mechanisms. The reviewer disclosed incidental exposure to neighboring editorial apparatus during extraction; no author transcript or Chapter14 apparatus was read. No whole-book scope, Chapter15 review, source verification or counted-rule checks."
+    }
+  },
+  "deferred": []
+}

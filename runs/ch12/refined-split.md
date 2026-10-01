@@ -1,0 +1,140 @@
+# Chapter 12: Romance Is a Discipline
+
+The question that woke me up in my own marriage came in a normal conversation, from a woman who wasn't angry, and it had the answer sitting inside it.
+
+My wife and I were talking about nothing in particular, and she asked when the last time was that I took her on a date.
+
+It hit me like a ton of bricks, because she was right. I counted back. Close to five months, and I hadn't felt one of them go by. You've heard the same advice I have, that a couple should get out once a week. Nobody established that number. Being there is the part that counts.
+
+She wasn't accusing me of anything. She was asking. If there's a stretch like that in your house, you probably don't know how long it is either. You didn't stop loving her. Nothing in a week tells you how long it's been.
+
+---
+
+**The second piece of advice.** My grandfather gave me two things worth keeping about marriage. You've already had the one about giving sixty and expecting forty. The other came when I first got married, and it was harder to take: "Put your wife first. Focus on her because your kids will leave you."
+
+That came off as harsh. It still does. You're supposed to say your family is everything, not rank the people inside it. Here was an old man ranking them out loud to me. He's also the man whose temper I inherited. He got plenty wrong. He got this right.
+
+I think he meant something gentler than it sounded. You pick a partner, and you keep putting her first after the house fills up with people who need you more loudly. The kids grow and go. They're supposed to. She's the one still across from you when they do, and the one who notices first when you drift.
+
+---
+
+**The thing with no deadline.** It makes sense that it faded, and I'd rather say why than let you think you got lazy.
+
+Romance takes real effort, and you only have so much in a day. The more life takes out of you, the less is left over for her. So when a week gets heavy, something goes, and it's never the mortgage or the kid's game at eight on a Saturday. Those shout. They have a day attached and other people watching. Nobody calls you at work because you haven't surprised your wife since March. So romance goes, quietly, and you never catch it.
+
+It isn't only me. My wife has gotten every bit as busy, and we've both forgotten our anniversary in a hard year. Get far enough in and you can laugh about it. We do.
+
+You run the rest of your life on purpose. If you've read any Stoicism, you aimed it at your temper and it held. This is the one corner you never aimed at.
+
+Epictetus was born a slave in the Roman empire, was freed, and became a teacher whose students wrote down what he said. He put it this way nineteen hundred years ago, and he wasn't talking about marriage.
+
+*"Every habit and faculty is maintained and increased by the corresponding actions: the habit of walking by walking, the habit of running by running. If you would be a good reader, read; if a writer, write."* (*Discourses* 2.18, Long trans.)
+
+What you keep doing, you keep. Then he turns it around. Go thirty days without reading, he says, and you'll know the consequence. Romance works like any muscle: the more you use it, the better you get at it. Leave it a while and the first honest attempt feels ridiculous. That's only what thirty days does.
+
+---
+
+**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, with a little mystery and surprise. It runs on effort, and effort only counts in a form she can read.
+
+Your default here is the golden rule: treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that in 1979. The golden rule quietly assumes she's built like you. People call his version the platinum rule. Treat her the way she wants to be treated, which means finding out what that is.
+
+You've probably met the five love languages. It's a popular list rather than a science, and nobody has shown that matching hers changes anything. As a tactic rather than a philosophy it does one thing well: it makes you look at all five instead of the one you'd reach for. Touch. Saying it out loud. Doing things for her without being asked.
+
+Mine is touch. My favorite part of a week is laying my head in my wife's lap while we watch TV and having her rub my head. That's when I feel closest to her.
+
+Hers is acts of service. Her favorite evening is the two of us grilling together, me helping cook, a little wine, laughing and talking while the work gets done. An ordinary night with both people in it.
+
+And acts of service is my lowest. Bringing somebody a coffee, seeing what needs doing before anyone asks. None of it occurs to me on its own. The language I'm worst at is the one she reads best. I didn't choose that, and if it's true in your house you didn't either. It still has to be done.
+
+So your effort can be real and still land flat. You put your back into something in your own language, she thanks you and means it, and it's flat. You carry that for three days deciding she's ungrateful. She isn't. It arrived in a form she doesn't read as love. To her, love is you asking about the meeting she's been dreading, then asking again on Thursday, because you remembered there was a Thursday.
+
+When love arrives in a form that doesn't land for you, the reflex is to overlook it. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't trading for it, either.
+
+Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is smaller: something done in her language on an ordinary day. It's the small thing that says I still see you rather than I planned something impressive.
+
+---
+
+**Before she asks.** Acts of service are the one I'm worst at, so I know how easy it is to wait until she names the task. You can ask what would help, and you should listen when she answers. But if every kind thing you do starts with her noticing a task, naming it, and reminding you about it, she's still carrying the part that wears her out: keeping track.
+
+You already know the ordinary work of your house. The dishes are visible. Her car is low on gas. There was an errand she mentioned yesterday. Do it so her day gets easier, then let it go without announcing it and without standing beside the finished task waiting for something. A favor handed over with resentment can leave her wishing she'd done it herself. She can ask. She shouldn't have to ask for everything.
+
+Gifts run on the same effort. Once the money is shared, a present bought from the joint account can seem pointless to you. She could have bought it herself. What the gift tells her is that she was on your mind while she wasn't in the room. She pointed out a book weeks ago. She loves a particular pastry and never stops for one. One Friday you come home with both. A note left where she'll find it does the same work and costs nothing.
+
+---
+
+**The last one you did.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening, and romance is bigger than that. My wife's question about a date was the small version of this one. If you have to count back through months to find an answer, you've found your starting place.
+
+Romance looks different in every marriage, and none of it has to be grand. In yours it might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. What counts is that the gesture could only have been meant for her.
+
+Anniversaries and Valentine's Day lose their meaning when you handle them by rote. Ten minutes from home you swing into Walgreens for whatever card is left and a box of chocolate that's been on the shelf since Christmas. You remembered the date. You gave almost no thought to the woman you were celebrating.
+
+Spend the same few dollars with a week's notice and you can give her something she'd actually want. Plan the dinner she'd enjoy. Write down one memory that still makes you glad you married her. Start early enough to mean it.
+
+Some years are crowded and hard. You may both be too tired to plan anything, and a quiet evening at home is an honest way to mark it. You don't owe the calendar a performance. Check whether you've stopped being thoughtful the rest of the year too.
+
+---
+
+**What's still there.** Couples followed over the years don't usually come apart because the fighting starts. They come apart because the warmth stops, and it stops first in the couples who've been at it longest. Partners who feel appreciated tend to be more appreciative back, and the research only says they travel together.
+
+That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing. You can start again, and you may also owe her an apology.
+
+When you stop making an effort, she may stop expecting it from you.
+
+Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and the notebook is *Meditations*. In 4.24 he picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
+
+---
+
+She's been waiting to be one of the necessary things, and the effort that puts her there lands only when it's aimed at the woman she is now.
+
+---
+
+## Editor's Notes (Line Editor, split pass)
+
+**Scope.** Input was `runs/ch12/split-input.md` (landed chapter plus the two author-approved edits). Everything above is the author's text byte-for-byte except two changes:
+
+1. **Added "The last one you did."** (5 paragraphs, about 260 words), placed after "Before she asks" and before "What's still there." Moved and trimmed from Chapter 13's "Keep romance off the schedule" section and its anniversary paragraph, per outline key points 3 (tail) and 4. Carries: the last-romantic-thing test; romance differs by marriage and needs no grand gesture (breakfast, a letter, an afternoon around something she likes now); the Walgreens scene against the same few dollars with a week's notice and one memory written down; the crowded-year caveat.
+2. **Rewrote the close** to hand off to Chapter 13 in one sentence.
+   - Before: "She's been waiting to be one of the necessary things, and the muscle that puts her there is one you can start using tonight."
+   - After: "She's been waiting to be one of the necessary things, and the effort that puts her there lands only when it's aimed at the woman she is now."
+
+**Trims from the Ch13 source, and why.**
+- Dropped Ch13's review-on-Wednesday paragraph and the restaurant/flowers lines: Ch12 already has the Thursday-meeting beat, and "remembering" is Ch13's attention material under the boundary note.
+- Dropped "What counts is knowing her well enough that...": knowing her is Ch13's ground. Kept "could only have been meant for her."
+- Added one bridging line of my own: "My wife's question about a date was the small version of this one." It ties the test back to the opening scene. No new fact; flag it if it reads as mine rather than his.
+- Ch13's "The thing to check is whether..." became "Check whether...": the original was a windup.
+- Split the Walgreens paragraph in two (rote occasion / the same money with notice): one idea per paragraph.
+
+**Script output, final, verbatim (prose only; notes excluded by the script):**
+
+```
+voice_check: refined-split.md
+  1764 words of prose, 141 sentences
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 6 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      12/141 sentences at 25+ words = 8.5% (cap 10%)
+             42w: She's the one still across from you when they do, and the one who notices first when you drift. **The thing wi...
+             42w: It's the small thing that says I still see you rather than I planned something impressive. **Before she asks.*...
+             39w: He put it this way nineteen hundred years ago, and he wasn't talking about marriage. *"Every habit and faculty...
+    [ok  ] you-density              87 direct-address words in 1764 = 49.3 per 1,000 (floor 40)
+    [ok  ] metaphor family          1 mentions in 1764 words = 0.6 per 1,000 (cap 5); {'muscl': 1}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 28 words, shares 3 words with the previous one. Close: "She's been waiting to be one of the necessary things, and the effort that puts her there lands only when it's aimed at t"
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+```
+
+CAND reads: single ending confirmed by direct read (one sentence after the final `---`, nothing after it). Rhetorical devices: the new section adds one negation ("Not the last date you took her on") and no "rather than" contrast; the chapter's existing "rather than" constructions are the author's and untouched. No Stoic term introduced in the new section.
+
+**Judgement calls the author may reverse.**
+- **The close drops the muscle image.** The anchor metaphor now appears once (Epictetus section) instead of twice. Keeping "muscle" in the close and adding the hand-off made a 35-word, two-idea sentence. If he wants the image back at the end, that is a trade against length.
+- **The close is 28 words**, over the 25-word line. Counted within the 10% cap, but it is the chapter's last sentence.
+- **New section runs about 260 words, under the 300-400 asked.** The chapter lands at 1,764 prose words, inside 1,700-2,000. I did not pad to reach 300.
+- **Chapter 13 still carries this material.** Its "Keep romance off the schedule" section and "Do the thing before she asks" section duplicate what Ch12 now holds. Ch13 needs its own cut before either lands.
+- **Practice guide not touched.** The dispatch limited writes to `runs/ch12/`. `runs/appendix/practice-guide.md` already has a Chapter 12 section with the old practices, so `practice_sync.py 12` will diverge once `distillation-split.md` replaces the distillation. The guide section needs replacing at landing. That is a rewrite of an existing section, not an append, so it needs the Publisher's call. Ch13's guide practice 3 (anniversary planning) also now belongs to Ch12's material.
+
+**Placeholders standing:** none. No citations or statistics added. Existing citations (Epictetus *Discourses* 2.18, Marcus 4.24, Bennett 1979) untouched and not marked verified.

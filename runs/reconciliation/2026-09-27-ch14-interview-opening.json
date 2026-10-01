@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-27T17:02:07.570300-05:00",
+  "subjects": [
+    "chapter:ch14"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-22-ch13-sun-arc-warmth.md"
+  ],
+  "authority": "Direct author instruction in the Chapter 14 interview, 2026-09-27.",
+  "reason": "Extends existing Sun arc direction to Chapter 14; preserves incomplete interview and unconfirmed story status.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-09-22-ch13-sun-arc-warmth.md": "4a57fb5be28174e15bd964f55f042f4753c6b9e666e4194505aac81cadd4e3fb",
+    "books/the-stoic-husband/okf/index.md": "39d92b89503ab6cc096e0fba5e9bc655b8173b1747d1ea074bf73c1810af3d24",
+    "books/the-stoic-husband/okf/log.md": "3fea7391f7732f388c2e9b92c779911c54c3a93559be0924fab1e405cb9e0435",
+    "runs/ch14/interview.md": "643d59470305d4f89b660f624d4daffcf914c80fb5453e0e026f8bfdc138eb94"
+  }
+}

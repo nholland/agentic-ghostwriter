@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-30T13:23:32.116975+00:00",
+  "subjects": [
+    "chapter-edit:ch12-before-she-asks"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md"
+  ],
+  "authority": "Author, 2026-09-30: \"Apply it with opening.\"",
+  "reason": "New Ch12 section (acts of service unprompted; gifts) moved from Ch13 text the author already approved; opening line rewritten from existing Ch12 material. Placement decision is in the Author Note; no new fact, claim or citation. Interim receipt.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch12/refined.md": "ce670843c6d31ba2a4702190b1cf2861c5d9eb78b6e46c32eeafd4a0e7831942"
+  }
+}

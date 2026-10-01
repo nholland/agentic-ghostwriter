@@ -1,4 +1,5 @@
 ---
+name: gw-draft
 description: The Ghostwriter desk drafts a chapter cold from its research brief, gated by the brief review, the counted voice script, and the clean-room checker. Writes into runs/chNN/ and never inside books/. Use after /gw-research.
 ---
 

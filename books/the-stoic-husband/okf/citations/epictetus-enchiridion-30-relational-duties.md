@@ -32,7 +32,7 @@ verification_note: >
   Rule 11).
 ip: external
 tags: [citation, epictetus, boundaries, in-laws, family-of-origin, primary-source]
-chapter_slugs: [boundaries-are-strength, pursue-her-after-you-have-her]
+chapter_slugs: [boundaries-are-strength, pursue-her-after-you-have-her, the-discipline-of-enough]
 timestamp: 2026-08-17T00:00:00Z
 ---
 

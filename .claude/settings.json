@@ -7,7 +7,32 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT:-$CLAUDE_PROJECT_DIR}/.claude/hooks/session-start.sh\""
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}}/scripts/runtime_hook.py\" auto SessionStart",
+            "timeout": 120
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}}/scripts/runtime_hook.py\" auto UserPromptSubmit",
+            "timeout": 120
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}}/scripts/runtime_hook.py\" auto PreToolUse",
+            "timeout": 120
           }
         ]
       }
@@ -18,7 +43,44 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"${CLAUDE_PLUGIN_ROOT:-$CLAUDE_PROJECT_DIR}/.claude/hooks/session-stop.sh\""
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}}/scripts/runtime_hook.py\" auto Stop",
+            "timeout": 180
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}}/scripts/runtime_hook.py\" auto SessionEnd",
+            "timeout": 120
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}}/scripts/runtime_hook.py\" auto SubagentStart",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel)}}/scripts/runtime_hook.py\" auto SubagentStop",
+            "timeout": 30
           }
         ]
       }

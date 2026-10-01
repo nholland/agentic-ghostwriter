@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-27T17:36:52.428466-05:00",
+  "subjects": [
+    "chapter:ch14"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/rodriguez-hadden-knee-2015-intrinsic-extrinsic-ideals.md",
+    "books/the-stoic-husband/okf/citations/buyukcan-tetik-2017-ideal-standards-acceptance.md",
+    "books/the-stoic-husband/okf/citations/kubacka-et-al-2011-gratitude-maintenance.md",
+    "books/the-stoic-husband/okf/citations/rossman-lerner-cordova-2022-partner-felt-acceptance.md"
+  ],
+  "authority": "Primary published articles and author abstracts read during Chapter 14 research, 2026-09-27.",
+  "reason": "Registers evidence and limits for author-requested research on contentment, maintenance, and enough; author synthesis remains pending.",
+  "files": {
+    "books/the-stoic-husband/okf/citations/rodriguez-hadden-knee-2015-intrinsic-extrinsic-ideals.md": "a489d1aa94c929fae28590b2bd454a139a7c9b938ee67c8c51072a29c64d2e30",
+    "books/the-stoic-husband/okf/citations/buyukcan-tetik-2017-ideal-standards-acceptance.md": "b2845f319d1760400d321fc6052e740ec9a7d20aa857c73eb658de6852fbf34c",
+    "books/the-stoic-husband/okf/citations/kubacka-et-al-2011-gratitude-maintenance.md": "06dfa8022d330d9553d271b3f973664f2aebd016734a66ae464355ca99ac7382",
+    "books/the-stoic-husband/okf/citations/rossman-lerner-cordova-2022-partner-felt-acceptance.md": "87666c973430169e7a7e537bbf2605f23e8d68fd3150dee073bf8d1129a1a425",
+    "books/the-stoic-husband/okf/index.md": "bdd031c334162308f4963188bcd3be27262c563ed3d675cc8051cbb87ed8542c",
+    "books/the-stoic-husband/okf/log.md": "2df09491eac29c8a4127d406973a6ce33dc098d012ca5ee425373fd576bde6be"
+  }
+}

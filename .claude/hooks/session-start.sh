@@ -11,7 +11,7 @@
 #   - a branch scan that reasoned about commit counts misreported four branches
 #     until it diffed actual trees.
 # So this is a hook, not a desk. It runs whether or not anyone remembers it.
-ROOT="${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel 2>/dev/null)}}"
+ROOT="${GW_PROJECT_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CLAUDE_PROJECT_DIR:-$(git rev-parse --show-toplevel 2>/dev/null)}}}"
 [ -z "$ROOT" ] && exit 0
 cd "$ROOT" || exit 0
 
@@ -21,7 +21,7 @@ branch_msg=""
 # refspec if it is missing before fetching. (Found when sync.py reported
 # "0 ahead, 0 behind" against a ref that did not exist.)
 git config --get remote.origin.fetch >/dev/null 2>&1 || git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
-if [ "${CLAUDE_CODE_REMOTE:-}" = "true" ] && git fetch origin --quiet 2>/dev/null; then
+if [ "${GW_KEEP_BRANCH:-}" != "1" ] && [ "${CLAUDE_CODE_REMOTE:-}" = "true" ] && git fetch origin --quiet 2>/dev/null; then
   cur=$(git symbolic-ref --short HEAD 2>/dev/null || echo "")
   if [ -n "$cur" ] && git diff --quiet && git diff --cached --quiet; then
     if [ "$cur" = "main" ]; then
@@ -40,7 +40,10 @@ if [ "${CLAUDE_CODE_REMOTE:-}" = "true" ] && git fetch origin --quiet 2>/dev/nul
     fi
   fi
 fi
-git rev-parse HEAD > .claude/state/session-start-sha 2>/dev/null || true
+mkdir -p .claude/state
+if [ "${GW_PRESERVE_START:-}" != "1" ]; then
+  git rev-parse HEAD > .claude/state/session-start-sha 2>/dev/null || true
+fi
 
 {
   echo "=== The House ==="

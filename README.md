@@ -1,11 +1,11 @@
 # The Agentic Ghostwriter
 
-A book production house that runs on Claude Code. Desks, gated by scripts and by
+A book production house that runs on Claude Code or Codex in the same checkout. Desks, gated by scripts and by
 each other, so the author's time goes to the two things only he can do: **say what
 the chapter is, and say whether it landed.**
 
-This repo is the **engine**. The book lives in a separate repo and is **read-only
-input**. Nothing here ever writes inside it.
+This repo holds the **engine and the book** under `books/<slug>/`.
+Both runtimes share the same branch, instructions, apparatus, and handoff state.
 
 ### → [The house manual](docs/manual.html)
 
@@ -27,7 +27,7 @@ browser, or read the published version, which is the same page.
 One repository: the engine, and the book under `books/<slug>/`. So:
 
 1. Start a session on **`agentic-ghostwriter`**.
-2. Say **`/gw`**.
+2. Say **`/gw`** in Claude or **`$gw`** in Codex.
 3. `resolve_book.py` verifies the book is intact every session start and stops
    everything if it is not.
 
@@ -36,6 +36,16 @@ waiting on you; with words after it, the Publisher reads what you mean. Never
 compute "next" by reading files — `scripts/next.py` is the oracle.
 
 ---
+
+## Switching runtimes
+
+Stop active desks in the current runtime, let its completion hook save the
+handoff, then open this same checkout in the other runtime and use its
+house entry point. The Publisher reads the shared checkpoint and current
+state oracle. See `.claude/RUNTIME.md` for recovery after an interruption.
+Codex discovers the existing skills through `.agents/skills` links; no
+separate plugin installation or global skill copies are needed. Trust the
+project and review its lifecycle hooks when the client requests it.
 
 ## Loading it
 

@@ -144,15 +144,15 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 
 **Source:** runs/ch12/plate.svg; books/the-stoic-husband/chapters/ch12/distillation.md
 
-## ch13 | Keep Choosing Her in Ways She Can See
+## ch13 | Keep learning her after you've won her
 
-**Intent:** Keep showing care after marriage in more than one form. Time, words, service, gifts, and touch can all continue, with attention to what she welcomes now.
+**Intent:** You can love your wife and keep doing things for her, and still have stopped being curious about who she is now. Keep learning who she is now, and ask again.
 
-**Visual explanation:** Five straight arrows carry the chapter's five named forms of care from dating to now. Each remains available after marriage. The identical arrows emphasize continued effort; they do not say every form matters equally to every couple or that the five love languages are a validated matching system.
+**Visual explanation:** One target, the chapter's own test: one thing she'd be excited about this Saturday. The grey dashed route, planning a date from what she liked at twenty-six, runs most of the way and stops short. The solid route, asking her who she is now and again later in the week, arrives at the centre. The takeaway under the rule is the Conversation sentence: you can love her and keep doing things for her, and still have stopped being curious about who she is now. It concedes the love and the effort, so the dashed route reads as real effort on old information, not as the wrong move and not as an accusation. It does not say that remembering is useless. The chapter says remembering the answer is what she notices.
 
-**Validation question:** What are these five arrows asking a husband to keep doing after marriage?
+**Validation question:** Why does one route reach the box and the other stop short, when both are aimed at it?
 
-**Source:** runs/ch13/plate.svg; runs/ch13/distillation.md; runs/ch13/plate-brief.md
+**Source:** runs/ch13/plate.svg; runs/ch13/plate-notes.md; runs/ch13/distillation.md; runs/ch13/refined.md ("The date you can't plan"; "When the attention changed"); runs/ch13/plate-read.md (Panel standalone read, three edits applied 2026-09-30)
 
 ## part-III | The Warm Sun
 
@@ -163,3 +163,13 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 **Validation question:** What seems to be happening to these lines, and what feeling or action in a marriage does that bring to mind?
 
 **Source:** runs/parts/plate-3-warm-sun.svg; books/the-stoic-husband/parts/part-3-warm-sun.md
+
+## ch14 | Appreciation becomes care
+
+**Intent:** Notice what you value in your wife and let appreciation become an ordinary act of care for the life you share.
+
+**Visual explanation:** A large tilted watering can holds “appreciation.” Its loop handle, curved body, long spout and sprinkler head make the object recognizable. Discrete drops descend from the spout into one grass patch. “A kinder answer” sits beside the falling drops, naming the act of care while it happens. The grass is labeled “the life you share.” The image draws appreciation becoming care through contact between water and grass. There is no before/after growth comparison or returning arrow; the shared-life label names the recipient without depicting the wife as a plant to improve.
+
+**Validation question:** Within ten seconds, can a stranger recognize a watering can watering grass, identify the kinder answer as the water, and understand appreciation for his wife becoming care for their shared life? Does the image imply she owes a response?
+
+**Source:** runs/ch14/plate.svg; runs/ch14/distillation.md; runs/ch14/plate-brief.md; runs/ch14/plate-concepts.md, concept A and its recorded source excerpts; runs/ch14/plate-pick.md; runs/ch14/draft.md, metaphor_family only.

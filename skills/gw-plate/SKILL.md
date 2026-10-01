@@ -1,4 +1,5 @@
 ---
+name: gw-plate
 description: The Publisher runs one chapter's plate through the house - a mechanical brief, three concepts from the Designer, the Reader Panel's cold pick, the draft, the counted check, the Panel's standalone read, one revision - and packages it for the author's verdict. Writes only under runs/chNN/. Stage 5 of /gw-chapter, and the way an existing plate is redone.
 ---
 

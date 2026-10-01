@@ -1,0 +1,110 @@
+# Chapter 14: The Discipline of Enough
+
+You can love your wife and struggle to remember the last thing about her you stopped to enjoy. You know what needs doing. Ask what you appreciate about her today, and you might need a minute.
+
+That pause doesn't mean you don't care. When you share a life, there's a lot to keep track of. You notice the appointment nobody made, the expense you weren't expecting, the habit that still annoys you. The things going well don't ask for your attention quite so loudly. Your wife can become so familiar that you recognize her complaints faster than her kindness.
+
+---
+
+**The woman you love now.** My wife is a light sleeper. She hears something at night and wakes me to check it. She's also a morning person who gets the household up. She saves small things I'd throw away, sometimes retrieving them from the trash. We bicker about those things. I love her frugality, and we still disagree about what needs keeping.
+
+She's getting gray hairs. She doesn't want other people to see them. I love them. She was a highly paid executive. Now she's taken a sabbatical, a break from her career, to be a full-time mother. Her income has changed. Her body has changed. Mine has too. She is enough for me.
+
+Enough doesn't mean I enjoy being woken up. It means I see more of her than the interruption to my sleep.
+
+You have your own details. Maybe your wife remembers what matters to someone who's having a hard time. Maybe she can make you laugh when you've been taking yourself too seriously. Name something true about her. Remember, too, something you value about the history you've built together. Stay with that particular thing long enough to remember why you value it. You don't need to improve her in your imagination before you can appreciate her in your life.
+
+---
+
+**When enough keeps changing.** Comparison makes this harder. You meet someone who's funny, and suddenly your wife's humor is under review. Someone else earns more. Another woman looks different. You know very little about any of them. But the one thing you've noticed becomes a new condition your wife needs to meet. You could keep adding conditions for years.
+
+She could do the same to you. Somewhere there's a man who earns more, another who's more patient, another who makes her laugh. You'd want her to remember the whole of you. That same fairness belongs in the way you see her.
+
+In Letter 16, the Stoic philosopher Seneca credits Epicurus for distinguishing natural needs from wants shaped by opinion. Seneca then asks whether a desire has a stopping point. Their subject isn't marriage, but you can apply Seneca's question here. Would getting what you want satisfy you, or would you immediately want something else? If your wife met today's condition, would you let yourself enjoy her? Or would you find the next thing she lacks?
+
+You can notice beauty or wit without making either a complaint about your marriage. A passing attraction doesn't require a long argument with yourself. You can acknowledge what caught your attention and choose what deserves more of it. Your wife doesn't need to win another comparison before you treat her with affection.
+
+---
+
+**Notice what you value.** What are you going to give your attention to?
+
+The Stoic philosopher Marcus Aurelius offers a practice in *Meditations* VI.48: “When thou wishest to delight thyself, think of the virtues of those who live with thee”.
+
+Think about the good qualities of the people already near you. That gives your mind an actual task. You aren't ordering yourself to feel satisfied. You're recalling something worth being glad about, something familiarity may have made easy to overlook.
+
+This is the discipline of enough: practicing appreciation for the real person you've chosen. Your attention, your gratitude, and the care you give her are things you can work on. You don't have to wait until you're restless to begin.
+
+---
+
+**Practice before you need it.** The research gives some support to practicing gratitude rather than waiting for it. Robert Emmons and Michael McCullough explored this in a 2003 paper. Its title is “Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life.” They asked people to record things they were grateful for. People reported improvements in some aspects of how they felt, compared with certain groups given different tasks. The results varied. These weren't experiments proving that gratitude creates a contented marriage. They give us a reason to take deliberate attention seriously.
+
+You can try it with something small enough to be honest. Before you go to bed, write down one thing you valued about your wife that day. Her patience with a child. Her excitement about something she's learning. The way she told you the truth when it would've been easier to agree. Choose what you actually noticed, rather than filling the page with qualities a good wife is supposed to have.
+
+If nothing comes to mind, give yourself a chance to notice tomorrow. You haven't failed an exercise. Tomorrow, pay attention to something you value about her. And if you're upset with her, you don't have to pretend the hurt disappeared. There may still be something you appreciate alongside it.
+
+Then let some of that appreciation reach her. Tell her what you saw and why it mattered to you. Be specific enough that she knows you paid attention. If you enjoy hearing about something she's learning, tell her what you like about her curiosity. You can thank her for what she does. You can also enjoy things about her that do nothing for you. Her curiosity belongs to her. So does the pleasure she takes in getting good at something. You get to love a person whose life includes more than meeting your needs.
+
+---
+
+**Let appreciation become care.** “The grass is greener where you water it” is a saying I keep coming back to. I don’t know who first said it. The attention matters because it gives you something real to appreciate. The appreciation matters because it can become a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.
+
+You may have been saying you want to feel closer. How much thought have you given to what you already enjoy together? Let yourself enjoy it when it happens. Stay in the conversation because you like talking to her. Laugh without immediately returning to what needs doing. There's room in a responsible life to be glad she's part of it.
+
+Enough also asks you to keep caring for yourself. Your health still deserves effort. So does the marriage. Contentment doesn't settle a concern that needs an honest conversation, and gratitude doesn't make recurring hurt harmless. I don't have a fixed rule for when appreciation is enough and when you need to speak. That takes judgment, and sometimes a difficult conversation. You can love who she is while taking a problem seriously.
+
+Nor does any of this require her to answer your affection on your schedule. If you tell her what you appreciate, let it be true even when she's tired or distracted. You valued something about her before you spoke. Her response doesn't have to justify having noticed it.
+
+That's harder when your affection includes desire. You can be glad she's your wife and still feel hurt when you reach for her and hear no. Contentment won't spare you that feeling. Her answer doesn't have to decide your self-respect. You'll have to decide how to treat her while you feel it.
+
+---
+
+Keep tending the life you share, including on the days it gives you nothing new to admire.
+
+## Editor's Notes
+
+- metaphor_family: grass, greener, water, waters, watered, watering, tend, tends, tending, tended
+- Status: refined apparatus for author review under the refreshed Chapter 14 specification. The Publisher relayed the author’s explicit ruling, “Yes, use the newer direction,” and supplied the updated runs/ch14/outline-section.md. The Line Editor read that specification before finalizing these notes. No book files were edited by this desk; no citations were marked verified.
+- Structure: added five short bold run-in labels with horizontal separators, following Chapter 13's formatting only. Preserved the single final sentence and the supplied personal testimony. The watering image carries the chapter's mechanism, not decoration; its declared allowance is five family mentions per 1,000 words.
+- Approachability and plain meaning were read separately from the counted gate. Split the comparison sentence and the executive/career-break sentence; glossed sabbatical immediately. Named Seneca and Marcus as Stoic philosophers without adding irrelevant biography. Retained the exact paper title and supplied Marcus clause despite their length. The clause's immediate explanation translates virtues into good qualities. No new technical Stoic term is introduced.
+- Representative repairs: “Some measures of well-being improved compared with particular comparison groups” became “People reported improvements in some aspects of how they felt, compared with certain groups given different tasks.” This states who experienced the measured change while keeping the limited outcome and comparison. “You may discover that you've been saying you want to feel closer while giving little thought to what you already enjoy together” became “You may have been saying you want to feel closer. How much thought have you given to what you already enjoy together?” This separates the wish from the attention it invites. Removed “It asks something of you” after the watering saying because the following sentences name the action.
+- Attribution and judgement calls: retained Marcus VI.48 in the supplied George Long wording, with online page-text evidence and verifiable status only; the physical house edition remains unconfirmed. Seneca Letter 16 remains paraphrase with an explicitly identified marriage application. Emmons and McCullough (2003) remains a bounded general well-being finding, not marriage efficacy. The anonymous watering saying remains verbatim and is explicitly favored by the author, whose wording says he does not know its origin. It is not credited to him as its author.
+- Personal testimony remains the light sleeping, nighttime checks, early mornings, frugality, small disagreements, gray hairs, executive role, sabbatical, motherhood, and changing bodies supplied in the draft and brief. The account describes ongoing life, not a reconstructed scene. No author mistake, conversion, wife reply, garden scene, or established author gratitude routine was invented. The voice constitution's request to stage the author's own mistake remains unmet because no such scene was supplied. Wife details remain subject to removal at verdict; separate wife approval is not established in the supplied material.
+- Practices are proposed applications of the draft: a nightly specific appreciation, expressing a noticed quality, and redirecting a passing comparison. They are not a tested protocol or an author-reported routine. The distillation and guide use the same practice wording; the guide adds Proactive/Reactive labels. The wisdom boundary stays brief, without inventing a test for which concerns require discussion. Care for health, real concerns, and affection without a required return remain explicit.
+- Specification alignment: the refreshed Chapter 14 specification replaces the old comparison-centered commission with appreciation, gratitude, freely offered care, and the real changing wife. The retired work-trip story and universal courtship claims remain omitted. Optional mental subtraction, gardening detail, and other research avenues were not added. The independent checker, rather than this desk, assesses conformance. The unresolved general voice requirement for a staged author mistake is recorded above; the refreshed chapter specification expressly forbids inventing one.
+- CAND decisions after reading: the final paragraph is one sentence, followed only by apparatus. The two detected you-don't pivots distinguish imagined improvement from actual appreciation and forced feeling from recalled qualities; retained as two distinct applications. No repeated rhetorical shape over the house limit was identified on the qualitative read. The term-gloss candidate is supported by the immediate plain-language explanation of the Marcus clause. Header markup makes the script combine some adjacent sentences; the exact script counts below are retained without manual correction.
+- Remaining placeholders: none. Missing testimony remains a limitation, not an invented replacement. Outline direction is now approved; the concrete practice wording remains subject to author review.
+
+- Scoped review repair: replaced “You've found something your attention has been missing” with “Tomorrow, pay attention to something you value about her.” A blank gratitude note cannot establish why nothing came to mind. Replaced the difficult-situation admiration example with “If you enjoy hearing about something she's learning, tell her what you like about her curiosity.” This develops the existing curiosity example and reduces repetition of Chapter 13. Practice wording is unchanged. Re-read CAND findings after these edits; the single close, two detected pivots, and immediate term explanation remain unchanged.
+
+- Final conformance repair: added “Her answer doesn't have to decide your self-respect” to the desire/rejection transition. This states the approved Chapter 15 connection without adding history or changing the one-sentence close. Re-read CAND candidates after this addition; the clause names a specific boundary rather than adding another contrasting reframe.
+
+- Shared-history conformance repair: added “Remember, too, something you value about the history you've built together” beside the specific-appreciation examples. This names shared history without inventing an event or an author memory. The mechanism, conversation sentence, and practices remain unchanged, so the distillation and guide required no revision. Re-read the CAND candidates; the one-sentence close, two detected pivots, and immediate gloss remain intact.
+
+- Packet layout repair: shortened the paragraph following the wife testimony to “Enough doesn't mean I enjoy being woken up. It means I see more of her than the interruption to my sleep.” This preserves the distinction between appreciating her and enjoying an interruption while removing a repeated description of her changing life. Distillation and practices are unchanged. CAND review retains the single close, two detected pivots, and immediate gloss.
+
+- Attribution refinement: reread the supplied Seneca Letter 16.7–9 citation record. The paragraph now credits Epicurus for the distinction between natural needs and wants shaped by opinion, then identifies the stopping-point question as Seneca's. Both remain paraphrase; the marriage application remains explicitly separate. The citation stays unverified. No distillation or practice change was needed. CAND review after this edit retains the same single close, two detected pivots, and immediate plain explanation of the Marcus clause.
+
+### Final counted output
+
+```text
+voice_check: refined.md
+  1287 words of prose, 113 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1077}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 5 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      6/113 sentences at 25+ words = 5.3% (cap 10%)
+             34w: You get to love a person whose life includes more than meeting your needs. **Let appreciation become care.** “...
+             28w: You don't have to wait until you're restless to begin. **Practice before you need it.** The research gives som...
+             27w: Your wife doesn't need to win another comparison before you treat her with affection. **Notice what you value....
+    [ok  ] you-density              114 direct-address words in 1287 = 88.6 per 1,000 (floor 40)
+    [ok  ] metaphor family          5 mentions in 1287 words = 3.9 per 1,000 (cap 5); {'grass': 1, 'greener': 1, 'water': 1, 'tend': 1, 'tending': 1}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 17 words, shares 3 words with the previous one. Close: 'Keep tending the life you share, including on the days it gives you nothing new to admire.'
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: {"you-don't pivot  'you don't X, you Y'": 2}. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+```

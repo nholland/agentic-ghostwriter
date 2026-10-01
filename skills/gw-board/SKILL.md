@@ -1,4 +1,5 @@
 ---
+name: gw-board
 description: The Publisher's dashboard - where every chapter stands, what each desk has produced, and what is waiting on the author. Run at the start of a session to re-enter.
 ---
 
