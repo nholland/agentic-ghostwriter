@@ -31,8 +31,10 @@ deliverable; he chooses from it. Do not draft all of them unprompted.
 
 ## Step 2 — draft what he picked
 
-Funnel: social (3–4 sentences) → Substack (400–600 words) → the book. Single
-posts, not threads.
+Social (3–4 sentences) and Substack (400–600 words), each standing alone: no piece
+points the reader at another piece or at the book. Register, subject lines and
+platform formats are in `{bookRoot}/marketing/substack-voice.md`. Single posts, not
+threads.
 
 Short-form rules are **stricter** than chapter rules, not looser: the same count
 of metaphor repetitions reads far denser in 500 words than 2,500, and the bold and
