@@ -9,7 +9,7 @@ description: >
 provenance: Author notes (Psyche article analysis)
 ip: author-synthesis
 tags: [framework, virtue, happiness]
-chapter_slugs: [introduction, the-marriage-you-build-every-day, become-easier-to-love, the-discipline-of-joy]
+chapter_slugs: [introduction, the-marriage-you-build-every-day, become-easier-to-love]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

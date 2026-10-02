@@ -30,7 +30,7 @@ verification_note: >
   Hanson interview/talk. Use "several extra seconds" or "long enough to
   actually register" instead.
 tags: [citation, savoring, rick-hanson, neuroplasticity]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

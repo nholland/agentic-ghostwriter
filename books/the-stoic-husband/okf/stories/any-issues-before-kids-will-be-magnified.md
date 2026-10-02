@@ -9,7 +9,7 @@ disclosure: composite — no identifying detail
 provenance: r/Marriage thread (sources/audience-signals.md)
 ip: audience-signal
 tags: [story, audience-signal]
-chapter_slugs: [children-exhaustion-and-the-marriage-underneath]
+chapter_slugs: [the-marriage-underneath]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

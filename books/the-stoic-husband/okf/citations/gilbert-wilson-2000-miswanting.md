@@ -32,7 +32,7 @@ verification_note: >
   describe the same mechanism — safe to attribute to her as the concept
   she teaches, not as its originator.
 tags: [citation, miswanting, affective-forecasting, gilbert-wilson]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

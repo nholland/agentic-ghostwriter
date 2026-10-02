@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Marcus Aurelius framework)
 ip: author-synthesis
 tags: [framework, marcus-aurelius, contempt]
-chapter_slugs: [how-to-fight-without-becoming-small, betrayal-secrets-and-the-work-of-repair, the-difference-between-endurance-and-cowardice]
+chapter_slugs: [how-to-fight-without-becoming-small, trust-after-betrayal, fear-is-not-commitment]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

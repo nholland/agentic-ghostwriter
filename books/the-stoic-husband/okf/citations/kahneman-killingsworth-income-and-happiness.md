@@ -33,7 +33,7 @@ verification_note: >
   with income for most people; only the least happy fifth show a
   plateau, around $100,000, not $75,000.
 tags: [citation, money-happiness, kahneman, killingsworth, contested]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

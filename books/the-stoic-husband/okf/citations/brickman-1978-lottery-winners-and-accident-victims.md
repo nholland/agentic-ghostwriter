@@ -41,7 +41,7 @@ verification_note: >
   happiness higher than the other groups did. Full primary text not
   fetched; confirm exact wording before quoting directly.
 tags: [citation, hedonic-adaptation, hedonic-treadmill, brickman]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

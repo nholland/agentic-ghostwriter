@@ -14,7 +14,7 @@ verification_note: >
   broadly" still need to be located. Anchors Ch 25 and Ch 26. Do not invent
   passages (CLAUDE.md Rule 3).
 tags: [citation, marcus-aurelius, needs-verification]
-chapter_slugs: [the-discipline-of-joy, growing-old-without-growing-apart]
+chapter_slugs: [become-easier-to-love, growing-old-without-growing-apart]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

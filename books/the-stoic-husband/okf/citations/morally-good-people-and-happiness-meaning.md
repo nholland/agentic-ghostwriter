@@ -19,7 +19,7 @@ verification_note: >
   meaning? Additional sources would strengthen the book's counter-intuitive
   thesis but are not required to use this citation.
 tags: [citation, psyche, needs-verification]
-chapter_slugs: [introduction, the-marriage-you-build-every-day, become-easier-to-love, the-discipline-of-joy]
+chapter_slugs: [introduction, the-marriage-you-build-every-day, become-easier-to-love]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

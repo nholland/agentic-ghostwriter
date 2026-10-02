@@ -36,7 +36,7 @@ verification_note: >
   most lasting; if durability is the point, name Three Good Things
   instead or alongside it.
 tags: [citation, gratitude, seligman, positive-psychology]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

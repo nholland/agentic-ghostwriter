@@ -8,7 +8,7 @@ description: >
 provenance: Author framework (confirmed 2026-06-05, Chapter 4 research check-in)
 ip: author-synthesis
 tags: [framework, divorce, endurance]
-chapter_slugs: [living-separate-lives, the-difference-between-endurance-and-cowardice]
+chapter_slugs: [living-separate-lives, fear-is-not-commitment]
 timestamp: 2026-06-05T00:00:00Z
 ---
 

@@ -26,7 +26,7 @@ provenance: >
   the most durable one.
 ip: external
 tags: [framework, hedonic-adaptation, miswanting, gratitude, joy, wellbeing-research]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

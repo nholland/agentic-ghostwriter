@@ -15,7 +15,7 @@ Every candidate below is content that already exists and has already been approv
 | The Dichotomy of Control in Marriage | `okf/frameworks/dichotomy-of-control-in-marriage.md` | `the-three-second-window`, `stop-outsourcing-your-peace`, `stop-defending-yourself`, `the-end-of-scorekeeping`, `when-your-marriage-feels-unfair`, `when-faith-values-or-ambition-diverge` |
 | Emotional Contagion (The Human Mirror) | `okf/frameworks/emotional-contagion-the-human-mirror.md` | `stop-outsourcing-your-peace`, `warmth-is-strength`, `friendship-is-the-hidden-engine` |
 | The Four Virtues Applied to Speaking | `okf/frameworks/four-virtues-applied-to-speaking.md` | `silence-is-not-peace` |
-| Humor and Lightness as Stoic Practice | `okf/frameworks/humor-and-lightness-as-stoic-practice.md` | `stop-outsourcing-your-peace`, `the-discipline-of-joy` |
+| Humor and Lightness as Stoic Practice | `okf/frameworks/humor-and-lightness-as-stoic-practice.md` | `stop-outsourcing-your-peace`, `become-easier-to-love` |
 | Metacognition and the Internal Dialogue | `okf/frameworks/metacognition-and-the-internal-dialogue.md` | `the-three-second-window`, `stop-defending-yourself`, `the-marriage-you-build-every-day` |
 | Scorekeeping Varies by Marriage | `okf/frameworks/scorekeeping-varies-by-marriage.md` | `the-end-of-scorekeeping` |
 | The 4Ds (Defensive Response Taxonomy) | `okf/frameworks/the-four-ds-defensive-response-taxonomy.md` | `stop-defending-yourself`, `how-to-fight-without-becoming-small` |
@@ -49,7 +49,7 @@ Every candidate below is content that already exists and has already been approv
 | Four Types of Unfairness | `okf/frameworks/four-types-of-unfairness.md` | `when-your-marriage-feels-unfair` |
 | The Bucket (Unscheduled Labor) | `okf/frameworks/the-bucket-unscheduled-labor.md` | `duty-without-resentment` |
 | The Discipline of Enough | `okf/frameworks/the-discipline-of-enough.md` | `she-is-enough` |
-| The Hedonic Treadmill (and Miswanting) | `okf/frameworks/the-hedonic-treadmill.md` | `the-discipline-of-joy` |
+| The Hedonic Treadmill (and Miswanting) | `okf/frameworks/the-hedonic-treadmill.md` | `become-easier-to-love` |
 | The Village Problem | `okf/frameworks/the-village-problem.md` | `stop-outsourcing-your-peace`, `the-sexless-marriage`, `friendship-is-the-hidden-engine` |
 
 ## Spectrum

@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Ch 2 check-in, 2026-06-02)
 ip: author
 tags: [framework, eudaimonia, humor, warmth, governance]
-chapter_slugs: [stop-outsourcing-your-peace, the-discipline-of-joy]
+chapter_slugs: [stop-outsourcing-your-peace, become-easier-to-love]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

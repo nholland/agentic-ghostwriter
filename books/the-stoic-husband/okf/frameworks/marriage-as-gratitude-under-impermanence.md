@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Marcus Aurelius framework)
 ip: author-synthesis
 tags: [framework, marcus-aurelius, memento-mori]
-chapter_slugs: [the-discipline-of-joy, growing-old-without-growing-apart, the-legacy-of-a-stoic-husband]
+chapter_slugs: [become-easier-to-love, growing-old-without-growing-apart, what-they-inherit]
 timestamp: 2026-06-01T00:00:00Z
 ---
 
