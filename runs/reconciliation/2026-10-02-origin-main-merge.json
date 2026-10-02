@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-02T07:24:31.564692+00:00",
+  "subjects": [
+    "merge:origin-main-2026-10-02"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-02-desert-orchard-restructure.md",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md"
+  ],
+  "authority": "Both sides' changes were already authorized: main's by its own receipts, this branch's by the 2026-10-02 receipts; the author said \"let's commit to main\".",
+  "reason": "Merged origin/main into the session branch; text combined without changing meaning, and no conflicts in these files.",
+  "files": {
+    "books/the-stoic-husband/appendix/practice-guide.md": "77e10405504904ce7ae9e85f6187626beedbb0d9bd694030fee82e0bf33653d9",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md": "b647c09baa5f73c773dbad56183959489ef059929201bbd4c276d82bc5dedc6f",
+    "books/the-stoic-husband/parts/README.md": "e9eb79b676eb29427ba25fc02053663e5a2e75080f25f467702a8d3873657ad2"
+  }
+}
