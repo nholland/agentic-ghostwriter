@@ -4395,3 +4395,38 @@ verdict; no prose or plate is landed.
 - … and 85 more
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
+
+## 2026-10-02 01:00 — `codex/shared-runtimes` — ? commit(s) this session
+- `.claude/RUNTIME.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw/SKILL.md`
+- `.codex/agents/gw-retro.toml`
+- `.gitignore`
+- `AGENTS.md`
+- `CLAUDE.md`
+- `README.md`
+- `agents/gw-retro.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch12/distillation.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/distillation.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/design/plates/keep-learning-her-after-you-ve-won-her.svg`
+- `books/the-stoic-husband/design/plates/the-muscle-you-stopped-using.svg`
+- `books/the-stoic-husband/design/plates/the-thing-with-no-deadline.svg`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md`
+- `docs/manual.html`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-1-steady-river.png`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
+- `output/compiled/assets/chapters/ch12.html`
+- `output/compiled/assets/chapters/ch13-plate.png`
+- `output/compiled/assets/chapters/ch13.html`
+- `output/compiled/assets/chapters/ch14-plate.png`
+- … and 103 more
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
