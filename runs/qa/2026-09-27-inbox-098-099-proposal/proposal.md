@@ -1,6 +1,6 @@
 # Workload and boundaries — proposed local revisions
 
-Status: proposed; not applied to the book. Prepared 2026-09-27 after author approval of the revision scope. Line Editor in session, not cold. The prior review promised exact wording before application. No new citation or biographical claim is introduced.
+Status: All listed passages applied on 2026-10-02 under the author’s separate approvals of inbox 099 (Chapter 10) and inbox 098 (Chapters 6 and 8). Prepared 2026-09-27 after author approval of the revision scope. Line Editor in session, not cold. The prior review promised exact wording before application. No new citation or biographical claim is introduced.
 
 ## ch06
 

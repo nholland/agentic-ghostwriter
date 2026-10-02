@@ -83,3 +83,14 @@ category either partner tracks.
 # Citations
 
 None — author IP, from the Ch6 refine session (2026-06-24).
+
+
+# Scope clarification — inbox 098, approved 2026-10-02
+
+The bucket is one source of unseen work, not an exhaustive explanation of
+resentment. The author approved Chapter 6's qualification: scorekeeping can
+feed resentment, and resentment can also grow when the workload has become
+too much. Giving freely does not mean carrying an arrangement a person cannot
+sustain. Do not infer from the invisibility model that naming or appreciating
+work alone resolves actual overload. The practical joint examination appears
+in the approved Chapter 8 revision; see [Four Types of Unfairness](/frameworks/four-types-of-unfairness.md).

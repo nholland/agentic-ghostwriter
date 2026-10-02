@@ -8,7 +8,7 @@ description: >
   looking historical debt. Naming which type is actually firing changes
   what response fits; treating one type as another is why the same
   argument keeps not resolving.
-provenance: Author notes (Ch8 research check-in, 2026-07-19)
+provenance: Author notes (Ch8 research check-in, 2026-07-19); author replied “approved” to the practical workload revision in inbox 098, 2026-10-02.
 ip: author-synthesis
 tags: [framework, fairness, unfairness, taxonomy]
 chapter_slugs: [when-your-marriage-feels-unfair]
@@ -91,3 +91,28 @@ don't respond to the same fix:
 # Citations
 
 None — author IP, from the Ch8 research check-in (2026-07-19).
+
+
+# Practical response to actual overload — approved 2026-10-02
+
+Inbox 098's author-approved Chapter 8 revision supplies the response for real
+input/output imbalance. After pausing, look at paid work, housework and the
+things each person has to remember together. Check each person's current
+capacity and rest; equal task counts alone do not establish a sustainable week.
+Name what the work costs each person and listen to both sides.
+
+Distinguish a chosen temporary stretch from ordinary life that needs a different
+arrangement. Agree on when to review the stretch. Make one concrete request,
+hear what the other person can take on, and try dropping, sharing or finding help
+with work. Agree on when to check whether the change works. If repeated requests
+produce no change, name that the current arrangement is not working.
+
+Gratitude and a legitimate request for help belong in the same conversation.
+“Give sixty, expect forty” loosens repayment expectations; it does not settle how
+to divide a week neither person can manage. The approved revision preserves
+Chapter 7's rejection of a private repayment ledger while making room for an
+honest joint examination of real work. No research statistic or new citation
+is introduced.
+
+Authority: author reply “approved” to the prepared Chapter 6 and Chapter 8
+passages in runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md.

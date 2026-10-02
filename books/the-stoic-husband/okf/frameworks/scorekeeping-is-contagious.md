@@ -2,12 +2,12 @@
 type: Framework
 title: Scorekeeping Is Contagious
 description: >
-  Once one spouse starts keeping score, the other starts keeping score too —
+  One spouse's private tally can prompt the other to keep score too —
   often on a completely different axis. The response to a felt injustice is
   rarely "let it go"; it's "open my own ledger." Two genuine grievances can
   both be true at once, and the marriage ends up running two scoreboards in
   parallel instead of resolving either.
-provenance: Author notes (Ch6 research check-in, 2026-06-15)
+provenance: Author notes (Ch6 research check-in, 2026-06-15); author approved inbox 098’s qualification and joint workload response, 2026-10-02.
 ip: author-synthesis
 tags: [framework, scorekeeping, contagion, gratitude]
 chapter_slugs: [the-end-of-scorekeeping, when-your-marriage-feels-unfair]
@@ -44,7 +44,13 @@ on two different scoreboards at once.
 5. The conversation is now two parallel audits, neither of which can resolve,
    because neither person is auditing the other's actual book.
 
-# The Missing Competition
+# The Missing Competition — historical formulation, qualified 2026-10-02
+
+**Historical claim, not the current practical ruling.** The paragraph below
+preserves the earlier formulation. Inbox 098's approved revision removes the
+absolute contrast from Chapter 8 and replaces it with appreciation alongside
+an honest account of actual overload. Gratitude is not evidence that no real
+imbalance exists and does not settle an unsustainable division of work.
 
 *(Added from the Ch8 research check-in, 2026-07-19.)* Grievance is
 contagious in exactly the way gratitude never is. The moment one spouse
@@ -71,3 +77,14 @@ credits held in someone else's favor on purpose.
 # Citations
 
 None — author IP.
+
+
+# Current application — approved 2026-10-02
+
+Two grievances can be true without needing to become competing ledgers. The
+author-approved response in Chapter 8 discusses workload, capacity, duration,
+a specific request and a review. Appreciation and asking for help can coexist;
+neither person's overload is dismissed. This qualifies the earlier claim that
+naming a grievance inevitably produces a rival tally. The rivalry described
+in the Schema is a possible pattern, not a prohibition on an honest workload
+conversation. See [Four Types of Unfairness](/frameworks/four-types-of-unfairness.md).
