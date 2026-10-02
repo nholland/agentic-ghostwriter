@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-02T06:19:29.510388+00:00",
+  "subjects": [
+    "research:ch14-hunger-sauce"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md"
+  ],
+  "authority": "Researcher source finding, 2026-10-02 (runs/ch14/hunger-best-sauce-research.md); commissioned by the author's ruling in interview Round 6",
+  "reason": "Recorded the researched origin of hunger-is-the-best-sauce (Socratic, not Stoic; Seneca Letter 123.2 echoes it). Source finding is unverified and is not an author ruling.",
+  "files": {
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md": "8547ad53af64640b001b5992b64cbe8fd4f46c78fe49f110e42719495daafc42"
+  }
+}

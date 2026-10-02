@@ -64,7 +64,10 @@ specific items is **pending**; Round 3's release covered only the details above.
 - **Sayings about enough:** his wife says "the best meals are the ones you don't
   have to cook." "Hunger is the best sauce" is the author's own addition (she did
   not say it); he believes it is a Stoic phrase and wants it tied back to
-  Stoicism. Attribution unchecked (Researcher commissioned 2026-10-02).
+  Stoicism. Researched 2026-10-02 (runs/ch14/hunger-best-sauce-research.md):
+  not a Stoic phrase; a proverb credited to Socrates (Xenophon, Memorabilia
+  1.3.5; Cicero), which Seneca echoes (Letter 123.2). Source finding unverified;
+  do not print "the Stoics say".
 - **What is enough for him:** anything she makes; a few stolen minutes a day to
   watch a show or walk; her asking how his day went. He says she rarely checks in
   with him, and she is still enough. When she works in the garden in shorts and a
