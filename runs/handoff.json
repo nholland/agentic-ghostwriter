@@ -137,9 +137,10 @@
     "runs/ch14/conformance-refined.md": "88a2665b0bad8f8ad1e02a5c08f1cbe705a033c5eb0a0fa5911dfa6bd4349279",
     "runs/ch14/distillation.md": "b2fca1bfeb14b7417888d3c9e256795739df275e2e27858b461ffc601b97f827",
     "runs/ch14/draft.md": "195ef57190ee6d17daa5e6b6c61340c92be1c8ae0c2c5034b26e1f17beb8f4d0",
+    "runs/ch14/factcheck-2026-10-02.md": "9d1484f10ce2c4b3982b804dd573e20c1b924626ebada6672577a516e664ae27",
     "runs/ch14/handoff-note.md": "4c55405ba00be2f266e98ff33624204a57afbeaba0f063bf4e10b15742133671",
     "runs/ch14/inbox-resolved.md": "e978e42f34fd3d1a4e7a9aaceeda5fe5fcab8096902f62b16ebd6663b8796058",
-    "runs/ch14/interview.md": "12548c2e923f4cffe5b5ab2f6295950bb38674a123fbd4c1dd37daf1aa33288b",
+    "runs/ch14/interview.md": "252b2c8798252737fc6a9230f4634ec20c0e8abb513ca0936944c68d1064aa9c",
     "runs/ch14/new-source-intake.md": "999220c5069ca38712bcd020a3cf24cd2ab77b2cb6ce850ba2db3e87538dcae0",
     "runs/ch14/outline-before-approval.md": "c88a495dfc2d23b04876a5dadbc7a038a56cf12464d857fb96617625fdf27015",
     "runs/ch14/outline-proposal.md": "8cf5ef2ae32e8313c57d1bc8576f4c4c5f6709cb91b8b02e2b295d071ad19825",
@@ -152,12 +153,12 @@
     "runs/ch14/plate-read.md": "1bae421c8956a87237b4a095c7c66f625b70c04e88d732bb42115acbd680ef96",
     "runs/ch14/plate.svg": "8c6083720996a7922e6e95a0e0345081583848269725aeafc39a2e418dfa0497",
     "runs/ch14/proposed-concepts.md": "258dc369d08a5da047a8764ce4217036f1940fd2a75d04c1f2fba50d51380abb",
-    "runs/ch14/refined.md": "3525cda8ede18ad6ff50c1a4b9aab539114cc959b12542f0edca037bc1f70e29",
+    "runs/ch14/refined.md": "6f1c090c436b20136535a92d1ee1ad4baf87fde038b96735164d39897e6ba051",
     "runs/ch14/research.md": "c1d14b9489b37f8947b83d14321e8e1d72123530125f3d41c483ae712265da00",
     "runs/ch14/review-input-refined.md": "bf60f0ac2bd234926f1ae1aa16b9be93bfb334075e7677dca433dacbfe25bbe3",
     "runs/ch14/review.json": "9e828ccc9a43c1edb1d628c6a4ae63e27aaf03ba0c7aac21c1d7a965f321f398",
     "runs/ch14/source-having-enough-screenshot.jpg": "b596b9314a7bb72a2f562b45ef26f7d0aff74f097264ae7374bf5409b4875d55",
     "runs/ch14/stoic-research.md": "ce5f1a4aa23aad7cb6133e66e84dbba4a55c0a49342b132304cc63d6eaa9db0b"
   },
-  "updated": "2026-10-01T20:53:52.080687+00:00"
+  "updated": "2026-10-02T06:03:15.017504+00:00"
 }
