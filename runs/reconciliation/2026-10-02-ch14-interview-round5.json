@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-02T06:02:41.232391+00:00",
+  "subjects": [
+    "interview:ch14-round5"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md"
+  ],
+  "authority": "Author's own answers, 2026-10-02 (verbatim in runs/ch14/interview.md Round 5)",
+  "reason": "Recorded explicit author facts in the wife story concept; publication of the new items marked pending, career wording (executive vs attorney) and the hunger-is-the-best-sauce attribution left unresolved.",
+  "files": {
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md": "acb0c3e9617af3e744c858f422871dfa7ff1ab1c3438db1fd5ee612d95f48bf9",
+    "runs/ch14/interview.md": "252b2c8798252737fc6a9230f4634ec20c0e8abb513ca0936944c68d1064aa9c"
+  }
+}

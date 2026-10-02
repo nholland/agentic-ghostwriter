@@ -116,3 +116,46 @@ boundary. Research should investigate the general practice of contentment,
 including attention, appreciation, gratitude, and the author's watering
 metaphor, then translate carefully to marriage. Complacency remains a brief
 boundary, not the chapter's center. No new moral formula is authorized.
+
+## Round 5: answers to the moment questions, 2026-10-02 06:00 UTC
+
+The Publisher asked six questions to find a real moment (noticing the bother
+before the value; a complaint and her reaction; seeing her clearly again;
+comparison; her feeling unseen; a specific thanks). The author answered in
+his own words, verbatim:
+
+> As for the questions to find the real moment, for number one, I think that when long periods go by where it's nothing but work and toil to get through family responsibilities, that's when you notice yourself bothered by small things. Things that, in the grand scheme of things, shouldn't really matter, but every little idiosyncrasy is like nails on a chalkboard. Examples: my wife is very anxious when we are late or when things are behind schedule, and that's just who she is, but it really bugs me whenever I'm also stressed.
+>
+> As for when I've complained, one of the things I do is complain a lot about her saving things. I think sometimes when I complain about it being junky in the house or that we live like hoarders, it hurts her feelings. Obviously, there's a balance where we do need to clean up things, but other times, her desire to save things has really been handy because we are able to find things that we otherwise would have had to have purchased again. She has saved a ton of money by effectively reusing things and keeping things around for when we need them.
+>
+> As for number three, I see her clearly again whenever I'm well rested and I have time to just hang out with her as my friend. When we get a chance to break away and go spend time having breakfast together or a walk, or we're able to just enjoy each other's company, that's where I spend a bunch of my time marveling about how much of my best friend she is and how much I love her. The other day, we just went to breakfast, and it was so nice to just sit down and talk about life and each other and cool things that we were thinking about. It was nice to just enjoy each other's company without the hustle and bustle of kids and always having a deadline that we have to race towards.
+>
+> I don't really compare us much. My wife has often compared us to others, which I don't really like. She has compared us in terms of how much money we make versus certain couples or friends that we are friends with. She has compared us in terms of how well we travel versus others. She has compared us to how we parent our kids versus others. There's a lot of comparison that I often hear when she's on Facebook or Instagram and talking about us.
+>
+> On one hand, it's interesting to hear what others are doing, but on the other hand, it does feel like sometimes what we are doing isn't enough. I have mentioned these things to her, and I think she receives it well, but it is an easy trap to fall into: only seeing what people do on social media and then piecemeal comparing it to your own life.
+>
+> As for not feeling seen, I think these last three years she has been on a sabbatical. She went from being a high-powered attorney where everybody hung on her every word to now being focused solely on the family and the well-being of the kids. I have heard her mention more than once that she doesn't feel appreciated or that the extent of her day is just staying home and cleaning, which doesn't make her feel very valued. Also, she cooks many of the meals, and often the kids complain about it, and I think she feels unappreciated there.
+>
+> In her own words, what she has said is that she misses being seen as important, she misses being part of a team, and she misses being valued by peers.
+>
+> As for thanking her for something specific, I try to do it often. We do a gesture. There's a famous movie called Avatar, and the characters will touch their forehead with one finger and then extend their hand out, and they'll say, "I see you." We do that often in the family. I'll often say, "I see you." I make sure that every meal we thank the kids, and I thank her. I think that sometimes it's well received, but a lot of times I think it can be received as hollow, just like the multitudes of times you say "I love you" where there isn't a lot of depth behind it. I think that we are very quick to say thank you for a lot of things, but I don't think that translates to the level of appreciation that she's looking for.
+>
+> For me, I think that a phrase that she says often perfectly encapsulates the concept of enough, which is "I like 'hunger is the best sauce,' which is a Stoic phrase." I also like a modified version that she says, which is "The best meals are the ones you don't have to cook," and I think that that often encapsulates the concept of enough.
+>
+> At least for me, as her husband, anything she makes, I'm appreciative of, and it's enough. I don't need a fancy meal or something that takes a lot of effort. The same thing goes: even just a few moments a day where we can steal some time away to watch a TV show or to go walking, that's enough.
+>
+> I feel like her asking how my day went is often enough. Something that I don't feel like I get enough of: it's very rare that she ever checks in with me, but I think that she's enough. Pretty much anything she does, any way she is dressed, she's enough for me. In fact, one last thing I think is hilarious is that when she's dressed up in shorts and a T-shirt, just working in the garden, I think that she's incredibly attractive, and again, that's enough for me.
+
+Open after this round (not decided by any desk):
+
+- Whether he consents to printing, specifically: her feeling unappreciated and
+  her three-part quote, her social-media comparisons, and his own wish that she
+  checked in with him more. His earlier release (Round 3) covered the changing-
+  wife details, not these.
+- Her prior career: earlier testimony says "executive", this round says
+  "attorney". Which is true for print?
+- Attribution of "hunger is the best sauce": she calls it a Stoic phrase; the
+  Researcher has not confirmed that. Unsourced; do not present as a Stoic
+  quotation until checked.
+- Her wording of "The best meals are the ones you don't have to cook" is the
+  wife's; confirm he wants her words in print.
