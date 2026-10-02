@@ -16,5 +16,11 @@
     "turn_id": null,
     "prompt": "Lets do A first, then we'll do B / C",
     "recorded": "2026-10-02T11:26:34.765506+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "We're still working on chapter 2 for marketing",
+    "recorded": "2026-10-02T11:34:15.978606+00:00"
   }
 ]
