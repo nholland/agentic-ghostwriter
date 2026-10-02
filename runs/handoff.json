@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "chapter": 14,
-  "runtime": "codex",
-  "branch": "codex/shared-runtimes",
+  "runtime": "claude",
+  "branch": "ccr-1277c85e-enf5a0",
   "oracle": {
     "chapter": 14,
-    "stage": "verdict",
-    "command": "/gw-compile",
-    "detail": "refined; plate present"
+    "stage": "review",
+    "command": "/gw-chapter",
+    "detail": "review input changed or empty: refined.md"
   },
   "notes": {
     "house": "Shared Claude/Codex runtime adapters installed. No manuscript edits were made. Fixture handoffs and the synthetic GPT-6 Astra conformance test passed. Review and trust the Codex hooks on first use. A complete author-supervised chapter handoff has not yet been exercised. Resume from the current state oracle and existing chapter records; existing content approvals are unchanged.",
@@ -18,7 +18,8 @@
     "14:gw-designer": 1
   },
   "author_records": [
-    "runs/handoff/intake-ab78d623cdf92643.json"
+    "runs/handoff/intake-ab78d623cdf92643.json",
+    "runs/handoff/intake-6899be36017f9f36.json"
   ],
   "artifacts": {
     "inbox/001-are-bolded-run-in-section-headers-legal.md": "e78386c291d3cb3dc5b505076253b3c3df588ed41334113ade6f69b704297a15",
@@ -125,13 +126,16 @@
     "inbox/101-schedule-the-earlier-book-repetition-and-qualita.md": "ca44d25ceaec3808a1cde7cb54aa2590c9788a315f5f69567fd9d2d43a91ed17",
     "inbox/102-reconcile-the-introduction-five-mode-framework-w.md": "f429ebb503e1d8c538b81adebfbee47ddde0f53d4153b53a08bdfd855d2727ef",
     "inbox/103-align-all-reader-exports-to-the-approved-chapter.md": "dbc77ec907db7a0fa3bbbdab5708a4ce99c6189330c4d57bffb57d9ec680b07b",
+    "inbox/105-chapter-13-s-outline-entry-still-prescribes-the-.md": "3c0e6916d09980dac9c5d99f68eb9339f32d859b0c61f651309e812b0f306222",
     "inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md": "188d00a67101cef5178d4c4d5f03b5c2bf6a3a5084a48e69f1f797a839c1a9cc",
+    "inbox/106-chapter-13-has-no-quotation-at-its-turn-which-st.md": "df528342608ba1dd4f8e42ef5bea63534ef8273c5871ae17b59ffce8e358fc9b",
     "inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md": "b505d5abef28b5973965e9bdc8701bbb131e9e64575365c465cde1bfa52f18ba",
+    "inbox/107-chapter-13-failed-its-continuity-review-twice-al.md": "3974841042e3660d9dbbd5fcea1c8c9d185996c5cff05361e870f3dcc6bec2a7",
     "runs/ch14/brief-gaps.md": "48a02b409c73ab2165f7564606f53af0053f7d6547a1d91e4ac2cd290fbf67b2",
     "runs/ch14/coherence-refined.md": "24740ae6a4607d3e25c151091b42f3f41451e7448a6e7de19fc74a36ee2f4a14",
     "runs/ch14/conformance-preapproval.md": "e7cb7cd811e937445e5d6ccc1145585820bc3882e3ce3625f0882db7345bbbea",
     "runs/ch14/conformance-refined.md": "88a2665b0bad8f8ad1e02a5c08f1cbe705a033c5eb0a0fa5911dfa6bd4349279",
-    "runs/ch14/distillation.md": "81db8374124390737a3c47ac0195784c6764b32d4839353885038b1a3dbe6f67",
+    "runs/ch14/distillation.md": "b2fca1bfeb14b7417888d3c9e256795739df275e2e27858b461ffc601b97f827",
     "runs/ch14/draft.md": "195ef57190ee6d17daa5e6b6c61340c92be1c8ae0c2c5034b26e1f17beb8f4d0",
     "runs/ch14/handoff-note.md": "4c55405ba00be2f266e98ff33624204a57afbeaba0f063bf4e10b15742133671",
     "runs/ch14/inbox-resolved.md": "e978e42f34fd3d1a4e7a9aaceeda5fe5fcab8096902f62b16ebd6663b8796058",
@@ -148,12 +152,12 @@
     "runs/ch14/plate-read.md": "1bae421c8956a87237b4a095c7c66f625b70c04e88d732bb42115acbd680ef96",
     "runs/ch14/plate.svg": "8c6083720996a7922e6e95a0e0345081583848269725aeafc39a2e418dfa0497",
     "runs/ch14/proposed-concepts.md": "258dc369d08a5da047a8764ce4217036f1940fd2a75d04c1f2fba50d51380abb",
-    "runs/ch14/refined.md": "8fb33f746d3fcad79d6001a14cbd5ceb691d7c37f1262d9fc043a1af4fe1072f",
+    "runs/ch14/refined.md": "3525cda8ede18ad6ff50c1a4b9aab539114cc959b12542f0edca037bc1f70e29",
     "runs/ch14/research.md": "c1d14b9489b37f8947b83d14321e8e1d72123530125f3d41c483ae712265da00",
     "runs/ch14/review-input-refined.md": "bf60f0ac2bd234926f1ae1aa16b9be93bfb334075e7677dca433dacbfe25bbe3",
     "runs/ch14/review.json": "9e828ccc9a43c1edb1d628c6a4ae63e27aaf03ba0c7aac21c1d7a965f321f398",
     "runs/ch14/source-having-enough-screenshot.jpg": "b596b9314a7bb72a2f562b45ef26f7d0aff74f097264ae7374bf5409b4875d55",
     "runs/ch14/stoic-research.md": "ce5f1a4aa23aad7cb6133e66e84dbba4a55c0a49342b132304cc63d6eaa9db0b"
   },
-  "updated": "2026-09-30T23:32:05.422872-05:00"
+  "updated": "2026-10-01T20:53:52.080687+00:00"
 }
