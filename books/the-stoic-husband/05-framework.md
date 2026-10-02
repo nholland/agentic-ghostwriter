@@ -84,9 +84,9 @@ from drifting without turning the book into a diagram.
 |---|---|---|---|
 | I | **The Steady River** | River — introduced | Ch1–5 |
 | II | **The Sturdy Oak** | Oak — introduced | Ch6–11 |
-| III | **The Warm Sun** | Sun — introduced | Ch12–17 |
-| IV | **Fall to Winter** | All three, stress-tested together | Ch18–23 |
-| V | **Spring to Summer** | All three, integrated and sustained | Ch24–29 |
+| III | **The Warm Sun** | Sun — introduced | Ch12–16 |
+| IV | **The Desert** | All three, stress-tested together | Ch17–23 |
+| V | **The Orchard** | All three, integrated and sustained | Ch24–29 |
 
 Parts I–III each introduce one element, and their titles in `03-outline.md`
 carry these names. Parts IV–V don't introduce new elements — they're where all
@@ -148,8 +148,7 @@ Letting a thing go and keeping it are not two degrees of the same act; the
 second is the failure wearing the first one's name. Same cell, same missing
 virtue — the ledger is of her debts rather than his deposits.
 **Chapters:** Ch6 (Duty Without Resentment), Ch7 (The End of Scorekeeping),
-Ch8 (When Your Marriage Feels Unfair), Ch22 (Betrayal, Secrets, and the Work
-of Repair — honest accounting of what's owed)
+Ch8 (When Your Marriage Feels Unfair), Ch21 (Betrayal, Secrets, and the Work of Repair — honest accounting of what's owed)
 
 *Second route added 2026-09-19 on the author's word ("Approved"), following the
 same convention Sun × Temperance already uses for a second way into one failure
@@ -160,7 +159,7 @@ no home for — endurance was already Oak × Courage, and the return-to-course h
 was already split between River × Courage and Sun × Courage. The distinction
 this records is that The Scoreboard was written as a ledger of credit he has
 banked, while a grievance kept as ammunition is a ledger of what she owes. Same
-missing virtue, opposite direction. Whether Ch7 and Ch17 carry this route in
+missing virtue, opposite direction. Whether Ch7 and Ch23 carry this route in
 prose is a chapter question, not settled here.*
 
 ### Oak × Temperance — Sustainable Strength
@@ -168,8 +167,7 @@ prose is a chapter question, not settled here.*
 a boundary is the temperance of strength, not its absence.
 **Failure mode: The Bottomless Yes.** The man with no "no" — says yes until
 he's hollowed out, then resentful. Compliance mistaken for capacity.
-**Chapters:** Ch9 (Silence Is Not Peace), Ch21 (Children, Exhaustion,
-and the Marriage Underneath — pacing through a depleting season)
+**Chapters:** Ch9 (Silence Is Not Peace), Ch20 (Children, Exhaustion, and the Marriage Underneath — pacing through a depleting season)
 
 ### Oak × Courage — Active Steadiness
 **Positive:** Strength that keeps showing up when showing up costs something —
@@ -177,8 +175,7 @@ active steadiness through the hard, slow seasons.
 **Failure mode: The Ghost.** Physically present, emotionally checked out —
 technically "enduring," actually disappearing. He's in the room, but he's not
 there.
-**Chapters:** Ch11 (Speak or Endure), Ch23 (The Difference
-Between Endurance and Cowardice — direct callback to Ch11's distinction)
+**Chapters:** Ch11 (Speak or Endure), Ch22 (The Difference Between Endurance and Cowardice — direct callback to Ch11's distinction)
 
 ### River × Wisdom — Clear-Sightedness in the Gap
 **Positive:** Seeing the moment as it actually is, before the inherited script
@@ -204,7 +201,7 @@ might suggest.)*
 **Failure mode: The Closed Door.** Defensiveness — treating her complaint as a
 prosecution rather than data. She learns the conversation isn't worth having.
 **Chapters:** Ch3 (Stop Defending Yourself — establishes the skill),
-Ch22 (Betrayal, Secrets, and the Work of Repair — the same skill at its
+Ch21 (Betrayal, Secrets, and the Work of Repair — the same skill at its
 highest stakes: receiving her account of the harm without retreating behind
 defensiveness)
 
@@ -224,8 +221,7 @@ disappearing in.
 missing either way: explode out (anger) or shut down/sulk inward
 (stonewalling). Both are exits from the room.
 **Chapters:** Ch4 (Anger Is Failed Leadership), Ch5 (How to Fight Without
-Becoming Small), Ch18 (The Sexless Marriage — the avoided conversation), Ch18
-(Living Separate Lives — collapse without the explosion)
+Becoming Small), Ch17 (The Sexless Marriage — the avoided conversation), Ch18 (Living Separate Lives — collapse without the explosion)
 
 ### Sun × Wisdom — Love as Ongoing Practice
 **Positive:** Understanding love as an ongoing practice — warmth sustained
@@ -245,8 +241,7 @@ it's what's due to the person who shares your life.
 **Failure mode: Armor.** Equanimity misapplied as distance — "I'm not
 disturbed" becomes "I'm not reachable." **This is the book's central mistake,
 and the matrix locates it precisely here.**
-**Chapters:** Ch16 (Warmth Is Strength), Ch24 ("I don't know how to enjoy you"
-echoes Ch15), Ch27 (The Discipline of Joy — joyless "excellence" is
+**Chapters:** Ch15 (Be Patient, Be Kind — presence as what's owed in ordinary friction), Ch16 (Warmth Is Strength), Ch25 ("I don't know how to enjoy you" echoes Ch16), Ch27 (The Discipline of Joy — joyless "excellence" is
 unreachability by another name)
 
 ### Sun × Temperance — Desire Without Need
@@ -261,9 +256,7 @@ silently measured against an imagined composite of other people's best single
 traits. The condition on the affection is that she keep winning a contest no
 real person can win. Same cell, same missing virtue; the transaction is with a
 fantasy rather than with her.
-**Chapters:** Ch14 (She Is Enough — contentment through appreciation; comparison is a supporting pressure), Ch15
-(Sex, Rejection, and Self-Respect — the transactional route), Ch18 (The
-Sexless Marriage — conditional warmth under prolonged-absence pressure)
+**Chapters:** Ch14 (She Is Enough — contentment through appreciation; comparison is a supporting pressure), Ch17 (The Sexless Marriage — absorbs the former Ch15, Sex, Rejection, and Self-Respect: the transactional route, and conditional warmth under prolonged-absence pressure)
 
 ### Sun × Courage — Honest, Swift Repair
 **Positive:** The courage to repair quickly and honestly — naming your part
@@ -271,7 +264,7 @@ without theater, choosing love deliberately rather than coasting on momentum.
 **Failure mode: Apology Theater.** Performed accountability that avoids the
 real reckoning — or love running on autopilot instead of daily deliberate
 choice.
-**Chapters:** Ch17 (Repair Quickly, Love Deliberately), Ch22 (Betrayal,
+**Chapters:** Ch23 (Repair Quickly, Love Deliberately), Ch21 (Betrayal,
 Secrets, and the Work of Repair — highest-stakes case)
 
 ---
@@ -304,15 +297,15 @@ by hand.
 | 12 | Romance Is a Discipline | Sun × Wisdom |
 | 13 | Pursue Her After You Have Her | Sun × Wisdom |
 | 14 | She Is Enough | Sun × Temperance |
-| 15 | Sex, Rejection, and Self-Respect | Sun × Temperance |
+| 15 | Be Patient, Be Kind | Sun × Justice |
 | 16 | Warmth Is Strength | Sun × Justice |
-| 17 | Repair Quickly, Love Deliberately | Sun × Courage |
-| 18 | The Sexless Marriage | Sun × Temperance, River × Courage |
-| 19 | Living Separate Lives | River × Courage, Sun × Wisdom |
-| 20 | When Faith, Values, or Ambition Diverge | River × Wisdom, Oak × Wisdom |
-| 21 | Children, Exhaustion, and the Marriage Underneath | Sun × Wisdom, Oak × Temperance |
-| 22 | Betrayal, Secrets, and the Work of Repair | Sun × Courage, Oak × Justice, River × Justice |
-| 23 | The Difference Between Endurance and Cowardice | Oak × Courage, River × Wisdom |
+| 17 | The Sexless Marriage | Sun × Temperance (absorbs the former Ch15), River × Courage |
+| 18 | Living Separate Lives | River × Courage, Sun × Wisdom |
+| 19 | When Faith, Values, or Ambition Diverge | River × Wisdom, Oak × Wisdom |
+| 20 | Children, Exhaustion, and the Marriage Underneath | Sun × Wisdom, Oak × Temperance |
+| 21 | Betrayal, Secrets, and the Work of Repair | Sun × Courage, Oak × Justice, River × Justice |
+| 22 | The Difference Between Endurance and Cowardice | Oak × Courage, River × Wisdom |
+| 23 | Repair Quickly, Love Deliberately | Sun × Courage |
 | 24 | The Marriage You Build Every Day | Sun × Wisdom (integration) |
 | 25 | Become Easier to Love | Sun × Justice, River × Temperance |
 | 26 | Friendship Is the Hidden Engine | River × Temperance, Sun × Wisdom |

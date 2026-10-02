@@ -28,7 +28,7 @@ Every candidate below is content that already exists and has already been approv
 
 | Concept | Source | Serves chapters |
 |---|---|---|
-| Attachment vs. Devotion | `okf/frameworks/attachment-vs-devotion.md` | `stop-outsourcing-your-peace`, `sex-rejection-and-self-respect`, `warmth-is-strength` |
+| Attachment vs. Devotion | `okf/frameworks/attachment-vs-devotion.md` | `stop-outsourcing-your-peace`, `the-sexless-marriage`, `warmth-is-strength` |
 | Biological Mate-Seeking → Marriage Complacency | `okf/frameworks/biological-mate-seeking-vs-marriage-complacency.md` | `introduction`, `the-marriage-you-build-every-day` |
 | Compassion vs. Empathy (The Stoic Distinction) | `okf/frameworks/compassion-vs-empathy.md` | `stop-outsourcing-your-peace`, `warmth-is-strength` |
 | Preferred Externals (Terminology Handling) | `okf/frameworks/preferred-externals-terminology.md` | `stop-outsourcing-your-peace` |
@@ -50,7 +50,7 @@ Every candidate below is content that already exists and has already been approv
 | The Bucket (Unscheduled Labor) | `okf/frameworks/the-bucket-unscheduled-labor.md` | `duty-without-resentment` |
 | The Discipline of Enough | `okf/frameworks/the-discipline-of-enough.md` | `she-is-enough` |
 | The Hedonic Treadmill (and Miswanting) | `okf/frameworks/the-hedonic-treadmill.md` | `the-discipline-of-joy` |
-| The Village Problem | `okf/frameworks/the-village-problem.md` | `stop-outsourcing-your-peace`, `sex-rejection-and-self-respect`, `the-sexless-marriage`, `friendship-is-the-hidden-engine` |
+| The Village Problem | `okf/frameworks/the-village-problem.md` | `stop-outsourcing-your-peace`, `the-sexless-marriage`, `friendship-is-the-hidden-engine` |
 
 ## Spectrum
 
@@ -68,7 +68,7 @@ Every candidate below is content that already exists and has already been approv
 
 | Concept | Source | Serves chapters |
 |---|---|---|
-| Bounded Generosity, Not Obligation | `okf/frameworks/bounded-generosity-not-obligation.md` | `sex-rejection-and-self-respect`, `the-sexless-marriage` |
+| Bounded Generosity, Not Obligation | `okf/frameworks/bounded-generosity-not-obligation.md` | `the-sexless-marriage` |
 | The Four-Question Epictetan Marriage Rule | `okf/frameworks/four-question-epictetan-marriage-rule.md` | `the-three-second-window`, `stop-defending-yourself`, `how-to-fight-without-becoming-small`, `repair-quickly-love-deliberately` |
 | Respect as a Resource | `okf/frameworks/respect-as-a-resource.md` | `anger-is-failed-leadership` |
 | The Behavioral Loop (Anger Persists Because It Works) | `okf/frameworks/the-behavioral-loop-anger-persists-because-it-works.md` | `anger-is-failed-leadership` |

@@ -9,7 +9,7 @@ description: >
 provenance: Author notes (Stoicism/Perel synthesis)
 ip: author-synthesis
 tags: [framework, perel]
-chapter_slugs: [stop-outsourcing-your-peace, sex-rejection-and-self-respect, the-sexless-marriage, friendship-is-the-hidden-engine]
+chapter_slugs: [stop-outsourcing-your-peace, the-sexless-marriage, friendship-is-the-hidden-engine]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

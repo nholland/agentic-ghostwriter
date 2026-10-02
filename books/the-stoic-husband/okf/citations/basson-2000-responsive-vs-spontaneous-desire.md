@@ -28,7 +28,7 @@ verification_note: >
   session. Full primary text not fetched — confirm exact terminology and
   any direct quotes against the original article before quoting verbatim.
 tags: [citation, basson, desire, intimacy]
-chapter_slugs: [sex-rejection-and-self-respect, the-sexless-marriage]
+chapter_slugs: [the-sexless-marriage]
 timestamp: 2026-07-06T22:28:53Z
 ---
 

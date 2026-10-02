@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-10-02T07:23:43.108136+00:00",
+  "subjects": [
+    "structure:desert-orchard"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-02-desert-orchard-restructure.md"
+  ],
+  "authority": "Author, 2026-10-02: \"15 folded into 18 is fine\" / \"Yes - let's rename Part IV 'The Desert', Part V 'The Orchard'\" / asked where Repair belongs",
+  "reason": "Outline, framework, archetype and Part pages restructured; sex-rejection-and-self-respect slug migrated to the-sexless-marriage in 15 OKF concepts; no facts changed.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "17022f0d99550316607a0eb797aff7173290367a0dc4413ca0e6bff7fff5087b",
+    "books/the-stoic-husband/04-archetype.md": "ecfe576947d6868cfbcdea9734718d3f2e986a077da3eaf124cc5d6956d23c0d",
+    "books/the-stoic-husband/05-framework.md": "5b2d4b0ceee25159397267c60dc59c1b7889a1dd9facae6540fc8699b2e31b80",
+    "books/the-stoic-husband/citation-queue.md": "a2702ccec10e6443d0294ff7c3db9c27a35b85c54c347f7c0421c1130c75d102",
+    "books/the-stoic-husband/design/element-candidates.md": "a0a3000c1008044eae4ce353349fe6bf2231f209ca5aa5d35435858c9bac7263",
+    "books/the-stoic-husband/okf/citations/basson-2000-responsive-vs-spontaneous-desire.md": "9893ed01ad2f0b2699d6e987729b9df5af0b72b06d54bfbf227bd543a6392058",
+    "books/the-stoic-husband/okf/citations/herbenick-2014-desire-discrepancy-feature-not-bug.md": "ec5089f9be686ff52c2141eff43692edca7728eec6f4e3b241ba08d3d5418ff6",
+    "books/the-stoic-husband/okf/citations/impett-peplau-2005-approach-avoidance-sexual-motives.md": "4438766295d2da51e61ce9ca4edced321fd6f5761cd815c737f8ba10703aad8e",
+    "books/the-stoic-husband/okf/citations/infidelity-motivation-gendered-split.md": "73621420f874239c577a5dbe43296f2de2e07e38b2ccc7d9a44c8a13b26fc099",
+    "books/the-stoic-husband/okf/citations/muise-2013-sexual-communal-strength.md": "fcd4f226babfbe5dbc25da4c277e1f7c843b4c5e5a8fee0b8c8390218fcc576e",
+    "books/the-stoic-husband/okf/citations/muise-2016-sexual-frequency-well-being.md": "a115925167c5abd184700a9154f26ac29cde3790e441fc4f7fb0e3e3cb0bfb0a",
+    "books/the-stoic-husband/okf/citations/perel-mating-in-captivity.md": "941de72463ec1b06d719f6d79d9b2fa3d3c952bb52936d1d98d6d40acaef90da",
+    "books/the-stoic-husband/okf/citations/sex-as-ritual-choosing-each-other.md": "c5f3c8c9f9fa446d6aeb2e09451a30a79202937c78cbef6eb547db3457b4740b",
+    "books/the-stoic-husband/okf/citations/skowron-2000-differentiation-and-marital-satisfaction.md": "a6a3c4690f581ed6d1fda8991ca118c60597b7d06cf9fa4a5263d4957bfd3169",
+    "books/the-stoic-husband/okf/citations/vowels-mark-2020-mitigating-desire-discrepancy.md": "8d49e1e15c8a401d6f0f150b1e5fa9d33f12dfb096761335855c4af1541788d9",
+    "books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md": "6d54ffc99cb504b6bc826a940d061021d343174a95e556ad6bb5cd53e740824e",
+    "books/the-stoic-husband/okf/frameworks/bounded-generosity-not-obligation.md": "14f7fc968d345ebf76d272f256c385f90e47615efea3908c84467d2e264a67eb",
+    "books/the-stoic-husband/okf/frameworks/love-vs-desire-perel.md": "688d99a7a293256c413b0f6ef655b0a4da51a71237ff7bb39bbea4348600c8c1",
+    "books/the-stoic-husband/okf/frameworks/pursue-fully-release-the-outcome.md": "c31593aa5dd1419fd6713e6fedc6f0142077c89293b90fcd4a0eff85909ce628",
+    "books/the-stoic-husband/okf/frameworks/the-village-problem.md": "df6c85257be39bb829934ce1b96595009ba43ce2f1e49ffee84be15dc01418fd",
+    "books/the-stoic-husband/parts/README.md": "91cbdb7308bf80268505c4a3f5a9fe58da1689194373c20cb0d33daa0daca491",
+    "books/the-stoic-husband/parts/part-4-the-desert.md": "43a1e176b15b2351ea278c907fb6a350c86bd9cd1cde8fa00004e49e9b85ec7c",
+    "books/the-stoic-husband/parts/part-5-the-orchard.md": "da0599a2dc0bf0eb6017e3492ee93769ac4671b87e9824337cacadc991f2c70a",
+    "books/the-stoic-husband/okf/notes/2026-10-02-desert-orchard-restructure.md": "c146ba930ba868a41cf83001774a08fc76c463e0f4d906d82ad2e3f3e9ef5ddd",
+    "books/the-stoic-husband/parts/part-4-fall-to-winter.md": "deleted",
+    "books/the-stoic-husband/parts/part-5-spring-to-summer.md": "deleted"
+  }
+}

@@ -26,7 +26,7 @@ verification_note: >
   primary text not fetched — confirm exact statistics and named strategies
   before direct quotation.
 tags: [citation, mark, desire-discrepancy]
-chapter_slugs: [sex-rejection-and-self-respect, the-sexless-marriage]
+chapter_slugs: [the-sexless-marriage]
 timestamp: 2026-07-06T22:28:53Z
 ---
 

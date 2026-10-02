@@ -27,7 +27,7 @@ verification_note: >
   This stub is kept as a historical record of the original gap, not for
   further use.
 tags: [citation, intimacy, superseded]
-chapter_slugs: [sex-rejection-and-self-respect, the-sexless-marriage]
+chapter_slugs: [the-sexless-marriage]
 timestamp: 2026-07-06T15:45:00Z
 ---
 

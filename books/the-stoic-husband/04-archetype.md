@@ -30,14 +30,14 @@ Five sequential parts, each building a layer of who the reader is becoming, from
   *Problems: imbalance, unequal effort, emotional labor, financial stress, martyrdom, passive endurance, lack of boundaries, corrosive outside influence*
 
 - **Part III — The Warm Sun** *(active love)*
-  Romance Is a Discipline / Pursue Her After You Have Her / Sex, Rejection, and Self-Respect / Warmth Is Strength / Repair Quickly, Love Deliberately
+  Romance Is a Discipline / Pursue Her After You Have Her / She Is Enough / Be Patient, Be Kind / Warmth Is Strength
   *Problems: loss of romance, sexlessness, rejection, boredom, disconnection, roommate marriage, lack of affection*
 
-- **Part IV — Fall to Winter** *(honest trouble)*
-  The Sexless Marriage / Living Separate Lives / When Faith, Values, or Ambition Diverge / Children, Exhaustion, and the Marriage Underneath / Betrayal, Secrets, and the Work of Repair / The Difference Between Endurance and Cowardice
+- **Part IV — The Desert** *(honest trouble)*
+  The Sexless Marriage / Living Separate Lives / When Faith, Values, or Ambition Diverge / Children, Exhaustion, and the Marriage Underneath / Betrayal, Secrets, and the Work of Repair / The Difference Between Endurance and Cowardice / Repair Quickly, Love Deliberately
   *The arena where the principles prove themselves — not a failure section but the test*
 
-- **Part V — Spring to Summer** *(legacy and vision)*
+- **Part V — The Orchard** *(legacy and vision)*
   The Marriage You Build Every Day / Become Easier to Love / Friendship Is the Hidden Engine / The Discipline of Joy / Growing Old Without Growing Apart / The Legacy of a Stoic Husband
 
 ---

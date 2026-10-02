@@ -68,24 +68,28 @@ tracked in the manifest as `stages.parts.<N-slug>.closing`, and emitted by
 The opening page describes the element before the reader has lived the
 chapters; the plate shows the same element after. That gap is the point.
 
-## Why IV and V are seasons, not elements
+## Why IV and V are places, not elements
 
-Parts I–III are things the husband *is*. Parts IV and V are what happens
-to him and what he's aiming at, so they can't take an element name without
-diluting River/Oak/Sun into a set of five.
+Parts I–III are things the husband *is*. Parts IV and V are where he goes and
+what he's building, so they can't take an element name without diluting
+River/Oak/Sun into a set of five.
 
-Naming them as *movements* ("Fall to Winter," not "The Winter") puts the
-direction of travel in the title, where a reader gets it on a flip-through.
-On a contents page the reader sees three nouns and two movements and
-perceives two different kinds of thing immediately.
+*Revised 2026-10-02: Parts IV and V were "Fall to Winter" and "Spring to
+Summer" until the author renamed them The Desert and The Orchard (parking-lot
+#31, "Yes - let's rename Part IV 'The Desert', Part V 'The Orchard'"). The
+season frame promised that every winter ends, which is a false comfort for a
+man in the Desert's territory, so both pages were rewritten rather than
+re-labelled. The two new pages are drafts for the author's review.*
 
-Both season pages name the river, the oak, and the sun explicitly. That is
-the payoff of the set, and it means the three elements reach the reader on
-all five pages.
+A desert does not pass on its own; an orchard is planted and tended. Neither
+is a cycle, which also answers the author's earlier objection to naming a Part
+after one quarter of a cycle of four.
+
+Both pages name the river, the oak, and the sun explicitly. That is the payoff
+of the set, and it means the three elements reach the reader on all five pages.
 
 ## Cross-page references
 
-Part V's "No summer is the last one" deliberately answers Part IV's "No
-winter is the last one." Part pages are a set and should talk to each
-other. This is not the cross-chapter reference pattern that parking-lot
+Part V's "keep tending it" deliberately answers Part IV's "Keep walking."
+Part pages are a set and should talk to each other. This is not the cross-chapter reference pattern that parking-lot
 item #25 concerns.

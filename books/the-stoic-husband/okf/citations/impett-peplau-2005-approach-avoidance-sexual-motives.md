@@ -30,7 +30,7 @@ verification_note: >
   secondary sources this session. Full primary text not fetched — confirm
   exact statistics before quoting.
 tags: [citation, impett, peplau, sexual-motives, compliance]
-chapter_slugs: [sex-rejection-and-self-respect, the-sexless-marriage]
+chapter_slugs: [the-sexless-marriage]
 timestamp: 2026-07-06T22:28:53Z
 ---
 

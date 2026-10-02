@@ -9,7 +9,7 @@ description: >
 provenance: Author notes (Stoicism/Perel synthesis)
 ip: author-synthesis
 tags: [framework, perel, desire]
-chapter_slugs: [pursue-her-after-you-have-her, sex-rejection-and-self-respect, growing-old-without-growing-apart]
+chapter_slugs: [pursue-her-after-you-have-her, the-sexless-marriage, growing-old-without-growing-apart]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

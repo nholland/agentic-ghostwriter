@@ -13,7 +13,7 @@ verification_note: >
   The "village" paraphrase needs its exact wording and page located before
   direct quoting.
 tags: [citation, perel]
-chapter_slugs: [romance-is-a-discipline, pursue-her-after-you-have-her, sex-rejection-and-self-respect, the-sexless-marriage, friendship-is-the-hidden-engine, growing-old-without-growing-apart]
+chapter_slugs: [romance-is-a-discipline, pursue-her-after-you-have-her, the-sexless-marriage, friendship-is-the-hidden-engine, growing-old-without-growing-apart]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

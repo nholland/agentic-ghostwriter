@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Stoic Romance framework)
 ip: author-synthesis
 tags: [framework, stoic-romance, conclusion]
-chapter_slugs: [pursue-her-after-you-have-her, sex-rejection-and-self-respect, conclusion]
+chapter_slugs: [pursue-her-after-you-have-her, the-sexless-marriage, conclusion]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

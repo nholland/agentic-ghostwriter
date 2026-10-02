@@ -7,7 +7,7 @@ description: >
 provenance: Author notes (Stoic Romance framework)
 ip: author
 tags: [framework, stoic-romance]
-chapter_slugs: [stop-outsourcing-your-peace, sex-rejection-and-self-respect, warmth-is-strength]
+chapter_slugs: [stop-outsourcing-your-peace, the-sexless-marriage, warmth-is-strength]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

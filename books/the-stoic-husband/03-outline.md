@@ -239,7 +239,7 @@
 **Word count target:** 2,400–2,800 words
 > *Set 2026-08-28, at the author's direction, replacing the 1,700–2,000 set the previous day, which had itself replaced the original 1,200–1,500. The chapter was re-scoped between those two figures and is now carrying materially more: a three-way diagnostic, two stories on opposite rows of it, a four-virtue audit, and a failure mode with two forms and a delivery mechanism. Ch1 runs ~2,670 and Ch10 ~2,562, so this is the book's upper range rather than an outlier. Per `01-voice.md`'s word-count bias: err longer when the chapter can go deeper on its core mechanism without padding.*
 > *Chapter re-scoped 2026-08-28, at the author's direction, across three exchanges during `/book-chapter-research 11`. The spec previously read: "The long hard stretch — financial pressure, illness, grief, the grinding years — requires a different Stoic practice than the sharp-edged moments. This is the slow one," with three key points built on passive endurance vs. active steadiness. That chapter was about depletion under circumstantial load. This one is about a man who cannot tell three different kinds of hard apart. The hard stretch is retained in full, but as **one row of the taxonomy** (the no-door case) rather than as the whole subject, which is what lets the partner-behavior material live in the same chapter instead of a different one. The unifying insight is the author's: "the man doesn't go inward, either avoiding or over rumination such that he self poisons, eventually letting that poison out on his wife." That single failure mode is what makes these one chapter and not two. Recorded per the Ch9/Ch10 precedent rather than applied silently — and note that the spec-conformance gate reads this entry, so an unrevised spec would have failed the finished chapter for elements it no longer contains.*
-**Boundary with Chapter 23:** Ch11 stops at *speak up*. The question of whether a marriage that cannot find common ground is over belongs to Ch23, which the outline designates as the only chapter where leaving is a legitimate Stoic outcome. Ch11 may name the remedies a man owes the marriage before he concludes anything — the sit-down, the weekend away, journaling, letters, a communication class, therapy — but it does not walk through the door on the other side of them.
+**Boundary with Chapter 22:** Ch11 stops at *speak up*. The question of whether a marriage that cannot find common ground is over belongs to Ch22, which the outline designates as the only chapter where leaving is a legitimate Stoic outcome. Ch11 may name the remedies a man owes the marriage before he concludes anything — the sit-down, the weekend away, journaling, letters, a communication class, therapy — but it does not walk through the door on the other side of them.
 **Transition to Part III:** Part II ends — he's dependable, steady, reliable under pressure. Part III asks: is he also loving?
 
 ## PART III — THE WARM SUN
@@ -299,25 +299,27 @@
 **Reader ah-ha:** "I can choose to notice, appreciate and tend the life I already share with her, and love who she is becoming."
 **Research burden:** Medium. The chapter framework is okf/frameworks/the-discipline-of-enough.md. Marcus VI.48 supplies the principal philosophical practice; a bounded account of Emmons and McCullough's gratitude experiments may support deliberate attention. Seneca Letter 16, mental-subtraction research, relationship appreciation research and the REBT preferences/demands distinction are optional supporting sources, not a mandatory survey. Do not import universal courtship-fading, aging-causes-infidelity or media-causes-unreasonable-expectations claims without evidence.
 **Word count target:** 1,200–1,500 words
-**Transition to Chapter 15:** Contentment with the real marriage does not remove the vulnerability of wanting her and hearing no. Chapter 15 examines how to offer desire without making her response govern his self-respect.
+**Transition to Chapter 15:** Contentment gives him the eyes to see what is good in the marriage he has. Chapter 15 turns to what he does with that in ordinary friction: patience and kindness.
 
 > *Revised 2026-09-30, on the author's explicit ruling: "Yes, use the newer direction." The author had redirected Chapter 14 toward appreciation, gratitude, loving a changing wife and the grass-watered image, then requested the normal subsections, distillation and plate. This replaces the 2026-07-28 comparison-centered commission, retires the unconfirmed work-trip story and unsupported universal courtship-chemistry claim, and makes comparison a supporting pressure. The prior spec is retained in runs/ch14/outline-before-approval.md. The Sun × Temperance pairing and word target are unchanged.*
 
 ---
 
-## Chapter 15: Sex, Rejection, and Self-Respect
-**Premise:** A man whose sense of himself is hostage to his wife's physical availability has lost jurisdiction over the most important territory in his life — himself.
-**The reader's takeaway:** He can separate his desire (real and valid) from his need for her validation through it, and navigate physical intimacy with both honesty and self-possession.
+## Chapter 15: Be Patient, Be Kind
+> *Added 2026-10-02 on the author's word. He asked whether the Sun arc needs "a chapter on being patient & kind" and agreed to the restructure that makes room for it. The specification below was drafted by the Publisher from his words and is a proposal for his review before the interview; the premise, central story and ah-ha are not yet his.*
+
+**Premise:** Patience and kindness are what a husband owes his wife in ordinary friction: tone, pace, the second chance, the benefit of the doubt. They are the daily proof that his warmth is reliable and not a mood, and they are strength, not softness.
+**The reader's takeaway:** He can stay patient and kind when she is tired, slow, wrong or hard to reach, without keeping score, and he can recognize the moments when he has been saving his kindness for when she earns it.
 **Key points:**
-1. The Stoic frame on desire: wanting without needing; the difference between pursuing his wife physically because he loves and desires her, and needing her to say yes to feel okay about himself — the second version is a loss of jurisdiction
-2. Physical rejection as the test case for Stoic self-command — there is nowhere the unexamined emotional response surfaces faster or costs more; the man who can't handle no without withdrawing is telling her something
-3. What the man with self-respect does with a long dry stretch: stays present, stays engaged, asks the honest question, doesn't punish, doesn't pretend it doesn't matter — and doesn't make his emotional state her problem to manage
-**Central story/example:** The man who had been rejected a hundred times and had started disappearing as a result — small daily withdrawals, not dramatic exits — and the conversation where his wife finally named what she'd been watching happen to him
-**Stoic lesson / principle:** Desire without need — preferring without depending (Epictetus on desire)
-**Reader ah-ha:** "I've been letting her yes or no determine my sense of myself. That's dependency, not desire."
-**Research burden:** Medium — Epictetus on desire and jurisdiction; Stoic on the internal vs. external locus of worth
+1. Kindness is not softness and patience is not silence: the Stoic frame (Marcus on gentleness, Seneca on slowness to anger) treats both as strength and as what is owed to the person who shares his life
+2. Where patience breaks: long stretches of work and duty when every small thing grates, her pace and her anxieties, repeated friction; replace the verdict ("she always...") with the benefit of the doubt, and notice how stress turns small differences into offenses
+3. Patience with her seasons: she is changing, tired, or grieving something; patience here means giving her time without a deadline, and kindness means treating her as a person and not as a problem to be fixed
+**Central story/example:** To be supplied by the author. Candidate material in his own words (Chapter 14 interview, Round 5): long stretches of nothing but work and family duty make every small thing "nails on a chalkboard"; his wife's anxiety when they are late or behind schedule is simply who she is, and it bothers him when he is also stressed. No scene is to be invented.
+**Stoic lesson / principle:** Gentleness as strength: Marcus Aurelius, *Meditations* 11.18 (in the OKF; unverified), and patience under provocation, Seneca, *De Ira* (to be researched)
+**Reader ah-ha:** "I've been saving my kindness for when she earns it." (proposed; the author to confirm)
+**Research burden:** Low to medium: Marcus on gentleness and Seneca on anger are already partly in the OKF; the Chapter 14 interview material supplies the author's own examples
 **Word count target:** 1,200–1,500 words
-**Transition to Chapter 16:** Self-respect grounds a man in the hard moments. But the Stoic Husband is not just grounded — he's warm. Chapter 16 addresses the most common misapplication of everything built so far.
+**Transition to Chapter 16:** Kindness is what warmth looks like in ordinary friction. Chapter 16 names the thing that most often kills it: Stoicism worn as armor.
 
 ---
 
@@ -333,33 +335,17 @@
 **Reader ah-ha:** "I thought I was getting better at Stoicism. I was just getting better at disappearing."
 **Research burden:** Low — primarily first-person testimony and philosophical grounding; this chapter earns its truth from the author's own experience
 **Word count target:** 1,200–1,500 words
-**Transition to Chapter 17:** Warmth makes the marriage livable. But when damage happens — and it does — warmth alone isn't enough. Chapter 17 closes Part III with the discipline of repair.
+**Transition to Part IV:** Warmth makes the marriage livable, and Part III ends on it. Part IV opens where the principles meet real conditions.
 
 ---
 
-## Chapter 17: Repair Quickly, Love Deliberately
-**Premise:** The strength of a marriage is not measured by how rarely it breaks — it's measured by how quickly and honestly it repairs, and by whether love is a choice made daily rather than a feeling monitored occasionally.
-**The reader's takeaway:** He understands what genuine repair actually requires (not apology theater, but real accountability) and has a practice for loving deliberately rather than by default.
-**Key points:**
-1. The Gottman finding, cited conversationally: repair attempts matter more than conflict avoidance; the marriages that last aren't the ones without rupture, they're the ones that repair cleanly
-2. What genuine repair looks like vs. apology theater — "I'm sorry you felt that way" vs. actually reckoning with what happened and what it cost; the difference is whether the accountability is real or performed
-3. Deliberate love as a daily practice — choosing it consciously rather than letting the relationship coast on momentum and goodwill that isn't being replenished
-**Central story/example:** A repair conversation that wasn't dramatic or cathartic — just a man saying the honest thing about his part, without minimizing or explaining it away, and the shift in temperature it produced
-**Stoic lesson / principle:** Return to right action — swift correction without self-flagellation
-**Reader ah-ha:** "Strong marriages don't avoid rupture. They repair it fast and honestly."
-**Research burden:** Low — Gottman conversational citation; Stoic on accountability and the return to right action
-**Word count target:** 1,000–1,300 words
-**Transition to Part IV:** Part III ends. He is now not just steady and dependable — he is actively loving. Part IV opens where the principles meet real conditions.
-
----
-
-## PART IV — FALL TO WINTER
-*Reader-facing opening: `parts/part-4-fall-to-winter.md`*
+## PART IV — THE DESERT
+*Reader-facing opening: `parts/part-4-the-desert.md`*
 *The arena. Everything built in Parts I–III proves itself here, against real problems that don't resolve cleanly.*
 
 ---
 
-## Chapter 18: The Sexless Marriage
+## Chapter 17: The Sexless Marriage
 **Premise:** The sexless stretch is one of the most common and least honestly discussed challenges in marriage — and it requires clearer thinking than most men bring to it.
 **The reader's takeaway:** He has a framework for what a sexless period might actually mean (it's rarely just one thing) and what a man who has done the work of Parts I–III does with it.
 **Key points:**
@@ -370,12 +356,23 @@
 **Stoic lesson / principle:** Honest engagement over strategic management
 **Reader ah-ha:** "I've been trying to fix it. I haven't tried to understand it."
 **Research burden:** Medium — this requires nuanced handling of a topic most books avoid; the Stoic frame on desire, presence, and honest engagement provides the structure
-**Word count target:** 1,200–1,500 words
-**Transition to Chapter 19:** The sexless stretch is one form of distance. Chapter 19 examines the quieter version — two people physically present who have stopped arriving.
+**Word count target:** 1,500–1,800 words (absorbs the former Chapter 15; to be confirmed at its interview)
+**Folded in from the former Chapter 15, "Sex, Rejection, and Self-Respect" (2026-10-02).** The author's word: "15 folded into 18 is fine." His intent for the material, in his words: "Be patient, be loving, but also be direct/firm in sharing your needs." The former chapter's specification is kept here, not discarded:
+- Former premise: A man whose sense of himself is hostage to his wife's physical availability has lost jurisdiction over the most important territory in his life — himself.
+- Former takeaway: He can separate his desire (real and valid) from his need for her validation through it, and navigate physical intimacy with both honesty and self-possession.
+- Former key points:
+   1. The Stoic frame on desire: wanting without needing; the difference between pursuing his wife physically because he loves and desires her, and needing her to say yes to feel okay about himself — the second version is a loss of jurisdiction
+   2. Physical rejection as the test case for Stoic self-command — there is nowhere the unexamined emotional response surfaces faster or costs more; the man who can't handle no without withdrawing is telling her something
+   3. What the man with self-respect does with a long dry stretch: stays present, stays engaged, asks the honest question, doesn't punish, doesn't pretend it doesn't matter — and doesn't make his emotional state her problem to manage
+- Former central story/example: The man who had been rejected a hundred times and had started disappearing as a result — small daily withdrawals, not dramatic exits — and the conversation where his wife finally named what she'd been watching happen to him
+- Former Stoic lesson: Desire without need — preferring without depending (Epictetus on desire)
+- Former reader ah-ha: "I've been letting her yes or no determine my sense of myself. That's dependency, not desire."
+- Former research burden: Medium — Epictetus on desire and jurisdiction; Stoic on the internal vs. external locus of worth
+**Transition to Chapter 18:** The sexless stretch is one form of distance. Chapter 18 examines the quieter version — two people physically present who have stopped arriving.
 
 ---
 
-## Chapter 19: Living Separate Lives
+## Chapter 18: Living Separate Lives
 **Premise:** The roommate marriage — functional, civil, quietly hollow — is the most common form of marital failure, and the most invisible precisely because nothing dramatic has happened.
 **The reader's takeaway:** He can diagnose the roommate pattern in his own marriage and understands that what's required is not a dramatic intervention but a deliberate return — small daily choices to re-enter rather than a single grand gesture.
 **Key points:**
@@ -387,11 +384,11 @@
 **Reader ah-ha:** "Nothing terrible happened. We just stopped arriving. And I let that happen."
 **Research burden:** Low
 **Word count target:** 1,000–1,300 words
-**Transition to Chapter 20:** Distance by drift is recoverable. What about distance by divergence — when the two people have genuinely become different?
+**Transition to Chapter 19:** Distance by drift is recoverable. What about distance by divergence — when the two people have genuinely become different?
 
 ---
 
-## Chapter 20: When Faith, Values, or Ambition Diverge
+## Chapter 19: When Faith, Values, or Ambition Diverge
 **Premise:** The marriage that started aligned and drifted — in faith, in values, in what a good life looks like — requires the Stoic's clearest and most honest thinking, not his most optimistic.
 **The reader's takeaway:** He has a framework for engaging fundamental difference without either denying it or catastrophizing it — and understands when divergence can coexist and when it requires a real reckoning.
 **Key points:**
@@ -403,11 +400,11 @@
 **Reader ah-ha:** "I can't make her want what I want. I can only be honest about what I need."
 **Research burden:** Medium — Stoic on what we control and cannot; Musonius on shared values in marriage; the specific challenge of secular vs. religious divergence is relevant to this audience
 **Word count target:** 1,200–1,500 words
-**Transition to Chapter 21:** Divergence is often abstract. Chapter 21 examines the most concrete and exhausting form of marital pressure.
+**Transition to Chapter 20:** Divergence is often abstract. Chapter 20 examines the most concrete and exhausting form of marital pressure.
 
 ---
 
-## Chapter 21: Children, Exhaustion, and the Marriage Underneath
+## Chapter 20: Children, Exhaustion, and the Marriage Underneath
 **Premise:** Becoming parents changes everything — and a Stoic husband doesn't pretend otherwise; he stays present for the marriage underneath the family, because that marriage is what the family is built on.
 **The reader's takeaway:** He understands the specific ways parenthood strains a marriage and has concrete practices for protecting the partnership without ignoring the children — because the two are not actually in conflict.
 **Key points:**
@@ -419,11 +416,11 @@
 **Reader ah-ha:** "We've been great parents and barely married. I didn't notice until now."
 **Research burden:** Low
 **Word count target:** 1,000–1,300 words
-**Transition to Chapter 22:** Exhaustion is recoverable. The next chapter addresses something harder.
+**Transition to Chapter 21:** Exhaustion is recoverable. The next chapter addresses something harder.
 
 ---
 
-## Chapter 22: Betrayal, Secrets, and the Work of Repair
+## Chapter 21: Betrayal, Secrets, and the Work of Repair
 **Premise:** Betrayal — in all its forms — is the hardest test of everything this book has built, and the Stoic response to it is not what most people expect.
 **The reader's takeaway:** He understands what genuine repair requires of the man who betrayed and the man who was betrayed, and has an honest framework — not a hopeful one — for what repair actually looks like and what it costs.
 **Key points:**
@@ -435,11 +432,11 @@
 **Reader ah-ha:** "Trust isn't rebuilt in a conversation. It's rebuilt in days."
 **Research burden:** Medium — Stoic on accountability and the return to right action; the mechanics of trust repair; this chapter must be written with full seriousness
 **Word count target:** 1,200–1,500 words
-**Transition to Chapter 23:** Betrayal is the most extreme form of the question Chapter 23 asks directly.
+**Transition to Chapter 22:** Betrayal is the most extreme form of the question Chapter 22 asks directly.
 
 ---
 
-## Chapter 23: The Difference Between Endurance and Cowardice
+## Chapter 22: The Difference Between Endurance and Cowardice
 **Premise:** There is a form of staying in a marriage that is not virtue — it is fear wearing a virtue costume — and a Stoic husband knows the difference.
 **The reader's takeaway:** He has an honest framework for asking whether his staying is an act of genuine commitment, or an act of avoidance — and what to do with whichever answer he finds.
 **Key points:**
@@ -451,12 +448,30 @@
 **Reader ah-ha:** "I've been calling it commitment. I need to know if it's actually fear."
 **Research burden:** Low — Stoic on virtue, honest self-examination, and the distinction between duty and self-deception; Marcus Aurelius on honesty with oneself
 **Word count target:** 1,000–1,300 words
-**Transition to Part V:** Part IV ends. The principles have been tested. Part V opens with what a man who has passed those tests now builds.
+**Transition to Chapter 23:** Whether to stay is answered honestly. Chapter 23 closes Part IV with the practice that makes the answer worth living: repair, done quickly and honestly.
 
 ---
 
-## PART V — SPRING TO SUMMER
-*Reader-facing opening: `parts/part-5-spring-to-summer.md`*
+## Chapter 23: Repair Quickly, Love Deliberately
+> *Moved 2026-10-02 from Chapter 17 (Part III) to close Part IV, the Desert, on the author's word: "Repair, as a topic, seems like the final chapter of the desert or the first chapter of the Orchard?" The Publisher placed it last in the Desert so the part ends on a way forward, with Chapter 24 opening the Orchard.*
+
+**Premise:** The strength of a marriage is not measured by how rarely it breaks — it's measured by how quickly and honestly it repairs, and by whether love is a choice made daily rather than a feeling monitored occasionally.
+**The reader's takeaway:** He understands what genuine repair actually requires (not apology theater, but real accountability) and has a practice for loving deliberately rather than by default.
+**Key points:**
+1. The Gottman finding, cited conversationally: repair attempts matter more than conflict avoidance; the marriages that last aren't the ones without rupture, they're the ones that repair cleanly
+2. What genuine repair looks like vs. apology theater — "I'm sorry you felt that way" vs. actually reckoning with what happened and what it cost; the difference is whether the accountability is real or performed
+3. Deliberate love as a daily practice — choosing it consciously rather than letting the relationship coast on momentum and goodwill that isn't being replenished
+**Central story/example:** A repair conversation that wasn't dramatic or cathartic — just a man saying the honest thing about his part, without minimizing or explaining it away, and the shift in temperature it produced
+**Stoic lesson / principle:** Return to right action — swift correction without self-flagellation
+**Reader ah-ha:** "Strong marriages don't avoid rupture. They repair it fast and honestly."
+**Research burden:** Low — Gottman conversational citation; Stoic on accountability and the return to right action
+**Word count target:** 1,000–1,300 words
+**Transition to Part V:** Part IV ends here, on the practice that carries a man out of the arena: repair quickly and honestly, and choose love on purpose. Part V opens with what a man who has passed those tests now builds.
+
+---
+
+## PART V — THE ORCHARD
+*Reader-facing opening: `parts/part-5-the-orchard.md`*
 *The domain of legacy and vision. The compound work of a lifetime.*
 
 ---
@@ -590,17 +605,17 @@
 | 12 | Romance Is a Discipline | The feeling follows the practice | *Askesis* — practice as the path to character | "I've been waiting to feel romantic. That's backwards." | "I've applied Stoicism already — why marriage-specific?" | Low |
 | 13 | Pursue Her After You Have Her | Commitment is not the end of pursuit | Sustained deliberate choice — love as ongoing election | "I won her. Then I stopped. I didn't realize winning was the beginning." | — | Low |
 | 14 | She Is Enough | Contentment practiced through specific appreciation, gratitude and care | Attention to nearby virtues (Marcus VI.48); bounded desire (Seneca 16, optional) | "I can choose to notice, appreciate and tend the life I already share with her." | — | Medium |
-| 15 | Sex, Rejection, and Self-Respect | Desire without needing her validation through it | Desire without need (Epictetus) | "I've been letting her yes or no determine my sense of myself. That's dependency." | — | Medium |
+| 15 | Be Patient, Be Kind | Patience and kindness are what he owes her in ordinary friction, and they are strength | Gentleness as strength (Marcus *Meditations* 11.18, unverified); patience under provocation (Seneca) | "I've been saving my kindness for when she earns it." (proposed) | — | Low–Medium |
 | 16 | Warmth Is Strength | Stoicism as armor is the central mistake | Engaged presence — the Stoic life is fully in it | "I thought I was getting better at Stoicism. I was just getting better at disappearing." | "Stoicism is cold" (deeper) | Low |
-| 17 | Repair Quickly, Love Deliberately | Repair attempts matter more than conflict avoidance | Return to right action — swift correction | "Strong marriages don't avoid rupture. They repair it fast and honestly." | — | Low |
-| **Part IV — Fall to Winter** | | | | | | |
-| 18 | The Sexless Marriage | Name what's happening; have the honest conversation | Honest engagement over strategic management | "I've been trying to fix it. I haven't tried to understand it." | — | Medium |
-| 19 | Living Separate Lives | The roommate marriage requires deliberate return | Deliberate choice over passive drift; Arête | "Nothing terrible happened. We just stopped arriving. And I let that happen." | — | Low |
-| 20 | When Faith, Values, or Ambition Diverge | Honest engagement with genuine difference | Dichotomy of control applied to another person's convictions | "I can't make her want what I want. I can only be honest about what I need." | "Ancient philosophy can't speak to modern life" | Medium |
-| 21 | Children, Exhaustion, and the Marriage Underneath | The family and the marriage are not the same thing | Sustained attention — the marriage is the foundation | "We've been great parents and barely married. I didn't notice until now." | — | Low |
-| 22 | Betrayal, Secrets, and the Work of Repair | Real accountability; sustained rebuilding of trust | Full accountability without self-flagellation | "Trust isn't rebuilt in a conversation. It's rebuilt in days." | — | Medium |
-| 23 | The Difference Between Endurance and Cowardice | Staying from fear is not a virtue | Virtue requires honest self-examination | "I've been calling it commitment. I need to know if it's actually fear." | — | Low |
-| **Part V — Spring to Summer** | | | | | | |
+| **Part IV — The Desert** | | | | | | |
+| 17 | The Sexless Marriage | Name what's happening; have the honest conversation (absorbs the former Ch15: desire without need, rejection, direct and patient) | Honest engagement over strategic management; desire without need — preferring without depending (Epictetus) | "I've been trying to fix it. I haven't tried to understand it." | — | Medium |
+| 18 | Living Separate Lives | The roommate marriage requires deliberate return | Deliberate choice over passive drift; Arête | "Nothing terrible happened. We just stopped arriving. And I let that happen." | — | Low |
+| 19 | When Faith, Values, or Ambition Diverge | Honest engagement with genuine difference | Dichotomy of control applied to another person's convictions | "I can't make her want what I want. I can only be honest about what I need." | "Ancient philosophy can't speak to modern life" | Medium |
+| 20 | Children, Exhaustion, and the Marriage Underneath | The family and the marriage are not the same thing | Sustained attention — the marriage is the foundation | "We've been great parents and barely married. I didn't notice until now." | — | Low |
+| 21 | Betrayal, Secrets, and the Work of Repair | Real accountability; sustained rebuilding of trust | Full accountability without self-flagellation | "Trust isn't rebuilt in a conversation. It's rebuilt in days." | — | Medium |
+| 22 | The Difference Between Endurance and Cowardice | Staying from fear is not a virtue | Virtue requires honest self-examination | "I've been calling it commitment. I need to know if it's actually fear." | — | Low |
+| 23 | Repair Quickly, Love Deliberately | Repair attempts matter more than conflict avoidance | Return to right action — swift correction | "Strong marriages don't avoid rupture. They repair it fast and honestly." | — | Low |
+| **Part V — The Orchard** | | | | | | |
 | 24 | The Marriage You Build Every Day | Small consistent acts compound into the marriage you have | *Prosoche* — daily self-attention and practice | "The big gestures don't build a marriage. The daily ones do." | — | Low |
 | 25 | Become Easier to Love | Who is the man his wife genuinely wants to be around? | Arête as a standard for who he IS, not just what he does | "I've been asking what my marriage needs. I haven't asked if I'm good to be around." | — | Low |
 | 26 | Friendship Is the Hidden Engine | Genuine liking is the structural foundation | Stoic friendship (*philia*); Seneca on lasting bonds | "I've been her husband. I'm not sure I've been her friend." | — | Low |
@@ -611,4 +626,4 @@
 
 ---
 
-*Status: Approved by author 2026-06-01. Revised 2026-07-06 — Chapter 10 ("Not Everyone Gets a Vote") inserted into Part II; chapters renumbered accordingly. Revised 2026-07-26 — split the Introduction into a Prologue (author's personal story) and a separate Introduction (the "River, the Oak, and the Sun" manifesto); the Prologue no longer opens on the bed-scene image, which belongs to Chapter 1 only. Both are stored as `chapters/prologue/refined.md` and `chapters/introduction/refined.md`, tracked in `book-manifest.json` alongside numbered chapters. Revised 2026-07-28 — inserted Chapter 14 ("The Discipline of Enough") into Part III, between "Pursue Her After You Have Her" and "Sex, Rejection, and Self-Respect," to close a contentment/"enough" gap the author identified while reviewing the newly-added Hedonic Treadmill framework; chapters formerly 14–28 renumbered to 15–29. See `okf/frameworks/the-discipline-of-enough.md`. Revised 2026-08-01 — Chapter 9 retitled from "Boundaries Are Not Betrayal" to "Silence Is Not Peace" during `/book-chapter-research 9`, then structurally rebuilt again 2026-08-03 after author feedback: the mechanism is now an unspoken trade (comply and stay quiet, expect respect/warmth/intimacy back) whose real cost is accumulating specific disappointments curdling toward contempt (Gottman's Four Horsemen), not a single blowup, with silence explained by exhaustion/risk-aversion rather than fear of her reaction, and apathy (Elie Wiesel) named as what the avoidance actually produces instead of peace. All cross-references (`04-archetype.md`, `05-framework.md`, and affected `okf/` concept files) updated to match — Oak × Temperance cell in `05-framework.md` unchanged, the new framing still fits it directly. Chapter 9's own number is unaffected by the Chapter 14 insertion above, since it precedes the insertion point. Revised 2026-08-17 — Chapter 10 retitled from "Not Everyone Gets a Vote" to "Boundaries Are Strength" and structurally rebuilt during `/book-chapter-research 10`, at the author's direction, after the original draft was discarded: the chapter now argues that boundaries are the Oak's load-bearing strength, organized as a discernment test plus three concentric tiers (how you treat each other, how you act, how you run your family) with a one-line refrain closing each tier, rather than a four-virtue outward defense of the marriage's perimeter. Full rationale in the chapter's own revision note above. Slug migrated `not-everyone-gets-a-vote` → `boundaries-are-strength` across all `okf/` concepts per CLAUDE.md Rule 6's retitle playbook; `04-archetype.md`, `05-framework.md` (Oak × Wisdom cell and traceability index), `okf/index.md`, and `sources/synthesis.md` updated to match. Oak × Wisdom cell unchanged — the rebuilt chapter fits it more directly than the original did, since the boundary-vs-preference test is discernment in strength by definition. Revised 2026-09-27 22:17 — Chapter 13's transition to Chapter 14 rewritten to run through routine and contentment instead of the removed comparison-to-other-women bridge, and its word target raised from 1,000–1,300 to 1,500–1,800, on the author's word ("I'm good with the updates to the outline") following his 2026-09-24 feedback (inbox #105). Revised 2026-10-01 — Chapter 3 retitled from "The Discipline of Not Reacting" to "Stop Defending Yourself" and Chapter 14 from "The Discipline of Enough" to "She Is Enough", on the author's word: "I like the alternatives you suggested for 3 and 14. Approved to change". Reason: "Discipline of" had become a repeated title shape (Ch3, Ch12, Ch14, Ch27); Ch12 "Romance Is a Discipline" keeps the word where it carries the thesis. Chapter slugs migrated `the-discipline-of-not-reacting` → `stop-defending-yourself` and, in `chapter_slugs` only, `the-discipline-of-enough` → `she-is-enough`. The framework concept `okf/frameworks/the-discipline-of-enough.md` keeps its name and path.*
+*Status: Approved by author 2026-06-01. Revised 2026-07-06 — Chapter 10 ("Not Everyone Gets a Vote") inserted into Part II; chapters renumbered accordingly. Revised 2026-07-26 — split the Introduction into a Prologue (author's personal story) and a separate Introduction (the "River, the Oak, and the Sun" manifesto); the Prologue no longer opens on the bed-scene image, which belongs to Chapter 1 only. Both are stored as `chapters/prologue/refined.md` and `chapters/introduction/refined.md`, tracked in `book-manifest.json` alongside numbered chapters. Revised 2026-07-28 — inserted Chapter 14 ("The Discipline of Enough") into Part III, between "Pursue Her After You Have Her" and "Sex, Rejection, and Self-Respect," to close a contentment/"enough" gap the author identified while reviewing the newly-added Hedonic Treadmill framework; chapters formerly 14–28 renumbered to 15–29. See `okf/frameworks/the-discipline-of-enough.md`. Revised 2026-08-01 — Chapter 9 retitled from "Boundaries Are Not Betrayal" to "Silence Is Not Peace" during `/book-chapter-research 9`, then structurally rebuilt again 2026-08-03 after author feedback: the mechanism is now an unspoken trade (comply and stay quiet, expect respect/warmth/intimacy back) whose real cost is accumulating specific disappointments curdling toward contempt (Gottman's Four Horsemen), not a single blowup, with silence explained by exhaustion/risk-aversion rather than fear of her reaction, and apathy (Elie Wiesel) named as what the avoidance actually produces instead of peace. All cross-references (`04-archetype.md`, `05-framework.md`, and affected `okf/` concept files) updated to match — Oak × Temperance cell in `05-framework.md` unchanged, the new framing still fits it directly. Chapter 9's own number is unaffected by the Chapter 14 insertion above, since it precedes the insertion point. Revised 2026-08-17 — Chapter 10 retitled from "Not Everyone Gets a Vote" to "Boundaries Are Strength" and structurally rebuilt during `/book-chapter-research 10`, at the author's direction, after the original draft was discarded: the chapter now argues that boundaries are the Oak's load-bearing strength, organized as a discernment test plus three concentric tiers (how you treat each other, how you act, how you run your family) with a one-line refrain closing each tier, rather than a four-virtue outward defense of the marriage's perimeter. Full rationale in the chapter's own revision note above. Slug migrated `not-everyone-gets-a-vote` → `boundaries-are-strength` across all `okf/` concepts per CLAUDE.md Rule 6's retitle playbook; `04-archetype.md`, `05-framework.md` (Oak × Wisdom cell and traceability index), `okf/index.md`, and `sources/synthesis.md` updated to match. Oak × Wisdom cell unchanged — the rebuilt chapter fits it more directly than the original did, since the boundary-vs-preference test is discernment in strength by definition. Revised 2026-09-27 22:17 — Chapter 13's transition to Chapter 14 rewritten to run through routine and contentment instead of the removed comparison-to-other-women bridge, and its word target raised from 1,000–1,300 to 1,500–1,800, on the author's word ("I'm good with the updates to the outline") following his 2026-09-24 feedback (inbox #105). Revised 2026-10-01 — Chapter 3 retitled from "The Discipline of Not Reacting" to "Stop Defending Yourself" and Chapter 14 from "The Discipline of Enough" to "She Is Enough", on the author's word: "I like the alternatives you suggested for 3 and 14. Approved to change". Reason: "Discipline of" had become a repeated title shape (Ch3, Ch12, Ch14, Ch27); Ch12 "Romance Is a Discipline" keeps the word where it carries the thesis. Chapter slugs migrated `the-discipline-of-not-reacting` → `stop-defending-yourself` and, in `chapter_slugs` only, `the-discipline-of-enough` → `she-is-enough`. The framework concept `okf/frameworks/the-discipline-of-enough.md` keeps its name and path. Revised 2026-10-02 — restructure on the author's word that session: "15 folded into 18 is fine." / "Yes - let's rename Part IV 'The Desert', Part V 'The Orchard'" / and, asked where Repair belongs, "the final chapter of the desert or the first chapter of the Orchard?" (the Publisher placed it last in the Desert). Former Chapter 15 ("Sex, Rejection, and Self-Respect") is folded into the sexless-marriage chapter, now Chapter 17, with its full specification kept there. A new Chapter 15, "Be Patient, Be Kind", is added to the Sun arc (specification drafted by the Publisher for his review). Part III is now Chapters 12–16; Part IV, The Desert, is Chapters 17–23; Part V, The Orchard, is Chapters 24–29. Former Chapters 18–23 are now 17–22 and former Chapter 17 ("Repair Quickly, Love Deliberately") is Chapter 23. Chapter slugs: `sex-rejection-and-self-respect` is migrated to `the-sexless-marriage`; no other slug changes (slugs follow titles, not numbers). Resolves parking-lot item #31 (rename Parts IV and V); the two Part pages' season imagery is rewritten with it. Chapter count stays 29.*

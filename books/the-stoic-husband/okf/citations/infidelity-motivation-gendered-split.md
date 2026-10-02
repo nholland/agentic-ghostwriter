@@ -33,7 +33,7 @@ verification_note: >
   "sexless marriage causes infidelity" claim even once sourced — the
   complicating finding argues explicitly against that framing.
 tags: [citation, infidelity, unverified, gendered]
-chapter_slugs: [sex-rejection-and-self-respect, the-sexless-marriage]
+chapter_slugs: [the-sexless-marriage]
 timestamp: 2026-07-06T22:28:53Z
 ---
 

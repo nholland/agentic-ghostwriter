@@ -16,7 +16,7 @@ verification_note: >
   Ch 13 and potentially Ch 24. Do not cite as fact until verified (CLAUDE.md
   Rule 3).
 tags: [citation, differentiation, needs-verification]
-chapter_slugs: [sex-rejection-and-self-respect, friendship-is-the-hidden-engine]
+chapter_slugs: [the-sexless-marriage, friendship-is-the-hidden-engine]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

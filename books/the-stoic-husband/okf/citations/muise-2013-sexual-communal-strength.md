@@ -34,7 +34,7 @@ verification_note: >
   of sexual interdependence dilemmas). Full primary text not fetched —
   confirm exact statistics and item wording before direct quotation.
 tags: [citation, muise, impett, sexual-communal-strength, desire-discrepancy]
-chapter_slugs: [sex-rejection-and-self-respect, the-sexless-marriage]
+chapter_slugs: [the-sexless-marriage]
 timestamp: 2026-07-06T22:28:53Z
 ---
 
