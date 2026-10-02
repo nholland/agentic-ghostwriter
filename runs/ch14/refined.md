@@ -6,55 +6,59 @@ That pause doesn't mean you don't care. When you share a life, there's a lot to 
 
 ---
 
-**The woman you love now.** My wife is a light sleeper. She hears something at night and wakes me to check it. She's also a morning person who gets the household up. She saves small things I'd throw away. Sometimes she fishes them out of the trash. We bicker about those things. I love that she doesn't waste anything, and we still disagree about what needs keeping.
+**The woman you love now.** My wife saves things I'd throw away. When the house feels junky, I've told her we live like hoarders. I think that sometimes hurts her feelings. There's a balance, and some things do need clearing out. Other times, what she kept is exactly what we need, and we don't have to buy it again. She has saved us a lot of money by reusing things and keeping them around.
 
-She's getting gray hairs. She doesn't want other people to see them. I love them. She was a highly paid executive. Now she's taken a sabbatical, a break from her career, to be a full-time mother. Her income has changed. Her body has changed. Mine has too. She is enough for me.
+"Hoarder" is the harsh word. The word I much prefer is thrifty. It's the same trait either way, and what I'm paying attention to picks the word. After a long stretch of nothing but work and family duty, every small thing is like nails on a chalkboard. She gets anxious when we're late or behind schedule, and when I'm stressed, that bugs me too. In those stretches, I forget what her keeping is worth.
 
-Enough doesn't mean I enjoy being woken up. It means I see more of her than the interruption to my sleep.
+She's getting gray hairs. She doesn't want other people to see them. I love them. She was a powerful attorney and a vice president at a public company. For about three years she's been on sabbatical, a break from her career, to be a full-time mother. Her income has changed. Her body has changed. Mine has too. When she's working in the garden in shorts and a T-shirt, I find her incredibly attractive, and that's enough. She is enough for me.
 
-You have your own details. Maybe your wife remembers what matters to someone who's having a hard time. Maybe she can make you laugh when you've been taking yourself too seriously. Maybe it's something from the years you've built together. Name something true about her. Stay with that one thing long enough to remember why you value it. You don't need to improve her in your imagination before you can appreciate her in your life.
+I see her most clearly when I'm rested and have time with her as my friend. The other day we went to breakfast. We talked about life, about each other, and about things we'd been thinking about, with no kids and no deadline to race toward. My wife says the best meals are the ones you don't have to cook.
+
+You have your own details. Maybe your wife remembers what matters to someone who's having a hard time. Name something true about her, and stay with it long enough to remember why you value it. You don't need to improve her in your imagination before you can appreciate her in your life.
 
 ---
 
-**When enough keeps changing.** Comparing her with other people makes appreciation harder. From where you stand, life on the other side of the fence can look better. You meet someone who's funny, and suddenly your wife's humor is under review. Someone else earns more. Another woman looks different. You know very little about any of them. But the one thing you've noticed becomes a new condition your wife needs to meet. You could keep adding conditions for years.
+**When enough keeps changing.** Spouses compare, husbands and wives both, often without noticing. Your wife may do it too. A lot of it happens on social media. You see only what other people post, and you compare it piece by piece with your whole life. Life on the other side of the fence can look better. You meet someone who's funny, and suddenly your wife's humor is under review. Someone else catches your eye. You know very little about any of them. But the one thing you've noticed becomes a new condition your wife needs to meet, and what you have starts to feel like it isn't enough.
 
-She could do the same to you. Somewhere there's a man who earns more, another who's more patient, another who makes her laugh. You'd want her to remember the whole of you. That same fairness belongs in the way you see her.
+It runs both ways. Somewhere there's a man who earns more, another who's more patient, another who makes her laugh. You'd want her to remember the whole of you, and she'd want the same from you. When either of you notices a comparison, you can say so, and it can be heard well.
 
 In Letter 16, Seneca, a Roman Stoic philosopher writing to his friend Lucilius, passes along a saying of another philosopher, Epicurus, that sets living by nature against living by opinion. Then he puts the point his own way: “Natural desires are limited; but those which spring from false opinion can have no stopping-point.” In plain words, some wants come from real needs, and they end when the need is met. Others come from what you've been told you should have, and they never end. Seneca's test is to ask whether the thing you want can stop at any definite point. Neither man was writing about marriage, but you can put that test to what you want from her. Would getting it satisfy you, or would you immediately want something else? If your wife met today's condition, would you let yourself enjoy her? Or would you find the next thing she lacks?
 
-You can notice beauty or wit without making either a complaint about your marriage. A passing attraction doesn't require a long argument with yourself. You can acknowledge what caught your attention and choose what deserves more of it. Your wife doesn't need to win another comparison before you treat her with affection.
+You can notice beauty or wit without turning it into a complaint about your marriage. Your wife doesn't need to win another comparison before you treat her with affection.
 
 ---
 
 **Notice what you value.** The Stoic philosopher Marcus Aurelius offers a practice in *Meditations* VI.48: “When thou wishest to delight thyself, think of the virtues of those who live with thee.”
 
-Think about the good qualities of the people already near you. That gives your mind an actual task. Instead of ordering yourself to feel satisfied, you recall something worth being glad about, something familiarity may have made easy to overlook.
+Think about the good qualities of the people already near you. Instead of ordering yourself to feel satisfied, you give your mind an actual task: recall something worth being glad about.
 
-This is the discipline of enough: practicing appreciation for the real person you've chosen. Your attention, your gratitude, and the care you give her are things you can work on. You don't have to wait until you're restless to begin.
+This is the discipline of enough: practicing appreciation for the real person you've chosen. You don't have to wait until you're restless to begin.
 
 ---
 
-**Practice before you need it.** In a 2003 study, psychologists Robert Emmons and Michael McCullough asked people to write down things they were grateful for. [PLACEHOLDER: one concrete finding from Emmons and McCullough (2003), in plain words, confirmed by the author against the paper.] It wasn't a study of marriages. It's still a reason to practice on purpose.
+**Practice before you need it.** In a 2003 study, psychologists Robert Emmons and Michael McCullough had people write down what they were grateful for. [PLACEHOLDER: one concrete finding from Emmons and McCullough (2003), in plain words, confirmed by the author against the paper.] It wasn't a study of marriages, but it's a reason to practice on purpose.
 
-Start small enough that what you write is true. Before you go to bed, write down one thing you valued about your wife that day. Her patience with a child. Her excitement about something she's learning. The way she told you the truth when it would've been easier to agree. Choose what you actually noticed, rather than filling the page with qualities a good wife is supposed to have.
+Start small enough that what you write is true. Before you go to bed, write down one thing you valued about your wife that day. Her patience with a child. Her excitement about something she's learning. Choose what you actually noticed, rather than qualities a good wife is supposed to have.
 
 If nothing comes to mind, you haven't failed. Pay attention tomorrow. And if you're upset with her, you don't have to pretend the hurt disappeared. There may still be something you appreciate alongside it.
 
-Then let some of that appreciation reach her. Tell her what you saw and why it mattered to you. Be specific enough that she knows you paid attention. If you enjoy hearing about something she's learning, tell her what you like about her curiosity. You can thank her for what she does.
+My family borrowed a gesture from the movie *Avatar*: a fingertip to the forehead and the words "I see you." I say it often. At every meal, I thank the kids and I thank her. I think a lot of it can land as hollow, like an "I love you" said with nothing behind it. A quick thanks isn't the same as appreciation.
 
-You can also enjoy things about her that do nothing for you. Her curiosity belongs to her. So does the pleasure she takes in getting good at something. You get to love a person whose life includes more than meeting your needs.
+Then let some of that appreciation reach her. Tell her what you saw and why it mattered to you. Be specific enough that she knows you paid attention. A wife who has stepped back from a career may miss feeling important, part of a team, or valued by peers, and hearing what you see in her can help.
+
+You can also enjoy things about her that do nothing for you. Her curiosity belongs to her. You get to love a person whose life includes more than meeting your needs.
 
 ---
 
-**Let appreciation become care.** “The grass is greener where you water it” is a saying I keep coming back to. I don’t know who first said it. It turns the old line about the other side of the fence around. Your attention and care are the water. What grows is more of her you can actually enjoy. That appreciation can become a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.
+**Let appreciation become care.** “The grass is greener where you water it” is a saying I keep coming back to. I don’t know who first said it. It turns the old line about the other side of the fence around. Your attention and care are the water. What grows is more of her you can actually enjoy. That can look like a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.
 
-You may have been saying you want to feel closer. How much thought have you given to what you already enjoy together? Let yourself enjoy it when it happens. Stay in the conversation because you like talking to her. Laugh without immediately returning to what needs doing. There's room in a responsible life to be glad she's part of it.
+Let yourself enjoy her when it happens. Stay in the conversation because you like talking to her. There's room in a responsible life to be glad she's part of it.
 
 Being content with her doesn't mean you stop taking care of yourself. Your health still deserves effort.
 
-Contentment doesn't settle a concern that needs an honest conversation, and gratitude doesn't make recurring hurt harmless. I don't have a fixed rule for when appreciation is enough and when you need to speak. That takes judgment, and sometimes a difficult conversation. You can love who she is while taking a problem seriously.
+Contentment doesn't settle a concern that needs an honest conversation, and gratitude doesn't make recurring hurt harmless. You may wish she asked about your day more, which is worth saying out loud and doesn't stop her from being enough. I don't have a fixed rule for when appreciation is enough and when you need to speak. That takes judgment, and sometimes a difficult conversation. You can love who she is while taking a problem seriously.
 
-Nor does any of this require her to answer your affection on your schedule. If she's tired or distracted when you tell her, what you said is still true. You valued something about her before you spoke. You don't need her reaction to make it worth saying.
+Nor does any of this require her to answer your affection on your schedule. If she's tired or distracted when you tell her, what you said is still true. You don't need her reaction to make it worth saying.
 
 That's harder when your affection includes desire. You can be glad she's your wife and still feel hurt when you reach for her and hear no. Contentment won't spare you that feeling. Your self-respect doesn't depend on her answer. What you decide is how to treat her while you feel it.
 
@@ -89,22 +93,24 @@ Keep tending the life you share, including on the days it gives you nothing new 
 - 2026-10-01 20:49, cold-read fixes (problems 1-12): cut the paper title and hedges, with one placeholder for a concrete Emmons/McCullough finding; set up the fence before the watering saying and mapped it in plain words (one added "water"); glossed the Seneca/Epicurus idea before the label, "credits ... with", and removed "Seneca then asks"; fixed four compressed lines; reworded "her complaints", the opening's second sentence, "frugality", the history line, the comparison opener, the doubled "tomorrow", and the health line; varied the later "You aren't... You're..." pivot; split two paragraphs; cut the label-echo question; moved the Marcus period inside the quote. "Another woman looks different", the testimony, and the close are unchanged pending the author. The counted output below predates this pass. Practice 1 in the distillation already reads "pay attention tomorrow"; no sync change made.
 
 - 2026-10-02 01:40, fact-check follow-up (runs/ch14/factcheck-2026-10-02.md): Seneca paragraph now credits Epicurus only with the nature-versus-opinion saying and gives the stopping-point idea as Seneca's own; added the Gummere quotation (Letter 16, section 9) as printed on Wikisource, page-text, unverified against the author's print copy, with a plain-words explanation after it. Marcus VI.48 wording matches George Long; the closing period inside the quote marks is house style (Long continues the sentence after a semicolon). Emmons and McCullough placeholder stays open: the paper could not be opened from the container.
+
+- 2026-10-02 06:17, Round 5-6 rework (author's words only, runs/ch14/interview.md Rounds 5-6): (1) testimony now leads with his own mistake, calling the house hoarding when it feels junky, and the hinge that "hoarder" and "thrifty" name the same trait while attention picks the word; nails-on-a-chalkboard stretch and her lateness anxiety as the second small bother. Light-sleeper, morning-person, trash-fishing lines and the "Enough doesn't mean I enjoy being woken up" paragraph cut for budget; gray hairs kept. (2) Career now "a powerful attorney and a vice president at a public company", sabbatical "about three years". (3) Garden line placed before "She is enough for me."; "Another woman looks different." became "Someone else catches your eye." (4) Breakfast beat added (3 sentences plus her line). (5) Comparison section reworked to spouses on both sides, social media piece-by-piece, two-sided fairness, and "it can be heard well"; nothing attributed to his wife. Fence setup kept before the watering image. (6) "I see you" paragraph added before "Then let some of that appreciation reach her." (7) Two generic sentences: career-step-back sentence in the practice section; "you may wish she asked about your day more" in the honest-conversation paragraph. (8) "My wife says the best meals are the ones you don't have to cook" placed after breakfast. Cuts for budget: research paragraph tightened (placeholder verbatim), comparison trimmed, the "beauty or wit" paragraph reduced to two sentences, three redundant sentences dropped. Untouched: Seneca paragraph, Marcus VI.48, close, rejection/desire paragraph position. Pending: "hunger is the best sauce" left out (Researcher). Judgement calls the author may reverse: "I've told her we live like hoarders" (Round 5 says he complains about it; "told her" assumes it was said to her); "thrifty" chosen over "frugal"; "I think a lot of it can land as hollow" covers the gesture and the mealtime thanks together; her line follows breakfast without explanation. Distillation mechanism paragraph revised for the hinge and the quick-thanks distinction (84 to 80 words); practices unchanged, practice_sync PASS. Placeholder still standing: Emmons and McCullough finding. Counted output below replaces the earlier block and is from this pass.
 ### Final counted output
 
 ```text
 voice_check: refined.md
-  1287 words of prose, 113 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1077}
+  1488 words of prose, 111 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1648}
 
   HARD (literal counts - a FAIL here is a fact)
     [ok  ] em-dash                  0 in prose (cap 0)
     [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 5 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      6/113 sentences at 25+ words = 5.3% (cap 10%)
+    [ok  ] long-sentence share      8/111 sentences at 25+ words = 7.2% (cap 10%)
+             51w: You don't have to wait until you're restless to begin. **Practice before you need it.** In a 2003 study, psych...
+             45w: Your wife doesn't need to win another comparison before you treat her with affection. **Notice what you value....
              34w: You get to love a person whose life includes more than meeting your needs. **Let appreciation become care.** “...
-             28w: You don't have to wait until you're restless to begin. **Practice before you need it.** The research gives som...
-             27w: Your wife doesn't need to win another comparison before you treat her with affection. **Notice what you value....
-    [ok  ] you-density              114 direct-address words in 1287 = 88.6 per 1,000 (floor 40)
-    [ok  ] metaphor family          5 mentions in 1287 words = 3.9 per 1,000 (cap 5); {'grass': 1, 'greener': 1, 'water': 1, 'tend': 1, 'tending': 1}
+    [ok  ] you-density              107 direct-address words in 1488 = 71.9 per 1,000 (floor 40)
+    [ok  ] metaphor family          6 mentions in 1488 words = 4.0 per 1,000 (cap 5); {'grass': 1, 'greener': 1, 'water': 2, 'tend': 1, 'tending': 1}
 
   CAND (needs a read - a clear line here is not a pass)
     [clear ] single ending            final sentence 17 words, shares 3 words with the previous one. Close: 'Keep tending the life you share, including on the days it gives you nothing new to admire.'
