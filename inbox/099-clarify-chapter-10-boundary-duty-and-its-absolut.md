@@ -1,9 +1,20 @@
 ---
 id: 099
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 10
 opened: 2026-09-23 06:53
+resolved: 2026-10-02 00:29
+applied_by: python3 -c 'from pathlib import Path
+import re
+packet=Path('"'"'runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md'"'"').read_text()
+section=packet.split('"'"'## ch10\n'"'"',1)[1].split('"'"'## Scope and review notes'"'"',1)[0]
+pairs=re.findall(r'"'"'\*\*Before\*\*\n\n(.*?)\n\n\*\*Proposed\*\*\n\n(.*?)(?=\n\nReplace|\Z)'"'"',section,re.S)
+s=Path('"'"'books/the-stoic-husband/chapters/ch10/refined.md'"'"').read_text().split("## Editor'"'"'s Notes",1)[0]
+assert len(pairs)==2
+assert all(old.strip() not in s and s.count(new.strip())==1 for old,new in pairs)
+'
+okf_receipt: runs/reconciliation/2026-10-02-inbox-099.json
 ---
 
 # Clarify Chapter 10 boundary duty and its absolute claim that damage cannot repair?
@@ -37,3 +48,25 @@ Exact Ch10 lines 98–99: “What the list protects is the part of a marriage th
 ## Approved revision scope; exact proposal ready — 2026-09-27
 
 The author said “Approved” after the recommendation to prepare focused revisions. Exact proposed wording is in [the review packet](../runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md), with full chapter previews, a patch, and counted-check outputs. This implements the promised review-before-application step; proposed prose is not yet in the book. No cold desk review was performed.
+
+**Resolution (2026-10-02 00:29):** Approved
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 -c 'from pathlib import Path
+import re
+packet=Path('"'"'runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md'"'"').read_text()
+section=packet.split('"'"'## ch10\n'"'"',1)[1].split('"'"'## Scope and review notes'"'"',1)[0]
+pairs=re.findall(r'"'"'\*\*Before\*\*\n\n(.*?)\n\n\*\*Proposed\*\*\n\n(.*?)(?=\n\nReplace|\Z)'"'"',section,re.S)
+s=Path('"'"'books/the-stoic-husband/chapters/ch10/refined.md'"'"').read_text().split("## Editor'"'"'s Notes",1)[0]
+assert len(pairs)==2
+assert all(old.strip() not in s and s.count(new.strip())==1 for old,new in pairs)
+'` exits 0.
+
+**Applied, confirmed 2026-10-02 00:29:** `python3 -c 'from pathlib import Path
+import re
+packet=Path('"'"'runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md'"'"').read_text()
+section=packet.split('"'"'## ch10\n'"'"',1)[1].split('"'"'## Scope and review notes'"'"',1)[0]
+pairs=re.findall(r'"'"'\*\*Before\*\*\n\n(.*?)\n\n\*\*Proposed\*\*\n\n(.*?)(?=\n\nReplace|\Z)'"'"',section,re.S)
+s=Path('"'"'books/the-stoic-husband/chapters/ch10/refined.md'"'"').read_text().split("## Editor'"'"'s Notes",1)[0]
+assert len(pairs)==2
+assert all(old.strip() not in s and s.count(new.strip())==1 for old,new in pairs)
+'` now exits 0.

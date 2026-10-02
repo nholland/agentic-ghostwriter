@@ -56,6 +56,15 @@ down is yours to keep, and its force does not run through her conduct. This
 is the difference between a boundary and a bargain — a bargain is void when
 the other side defaults; a boundary isn't, because it was never a transaction.
 
+**Application boundary, approved 2026-10-02 (inbox 099).** The author limited
+Chapter 10's application to responsibility for his own conduct. Her crossing
+a line does not authorize his retaliation; keeping his standard does not require
+accepting insults, repeated violations, or staying in harm's way. Ending a
+conversation with a stated safe return, seeking help, and getting to safety
+are the author's approved practical response, not words or advice attributed
+to Epictetus. The chapter's ancient quotation and this citation's evidence and
+verification status are unchanged. See [Boundary vs. Preference](/frameworks/boundary-vs-preference.md).
+
 **Tier 3's in-laws.** What a husband owes his father-in-law is set by the
 relation, which is real and does not disappear because the man is
 overstepping. He still gets courtesy, patience, and a direct conversation. He

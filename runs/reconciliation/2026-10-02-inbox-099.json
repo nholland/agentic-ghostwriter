@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-10-02T00:29:42.289534-05:00",
+  "subjects": [
+    "inbox:099",
+    "inbox:101",
+    "chapter:ch10"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/boundary-vs-preference.md",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md",
+    "books/the-stoic-husband/okf/findings/sweep-ch10-inbox-099-conformance.md"
+  ],
+  "authority": "Author: Approved, to the two prepared Chapter 10 passages in inbox 099. Conformance findings are provisional source findings, not author-approved rewrite scope.",
+  "reason": "Applied exact approved conduct/trust corrections, refreshed derived summaries, preserved practices and source statuses, and recorded existing conformance concerns for later scope review.",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/boundary-vs-preference.md": "20ace963a35b375b45a400f325dda4ea2e411bfb575e584a745842600fb98f03",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md": "26a0ed88a23c26825db0eced89449cac4f48dce1c0629c6d05c386276c36a494",
+    "books/the-stoic-husband/okf/findings/sweep-ch10-inbox-099-conformance.md": "da1d7a3537b37b6c2bbafee4aedfff72edf6d4b9564c50d27b03938abf376376",
+    "books/the-stoic-husband/okf/index.md": "33ab131cdc1f0822a005cdffe21052d4816e144ba5bfa2abf9e57ba538599659",
+    "books/the-stoic-husband/okf/log.md": "9ae83728c0f655605606a5300f36d6a3cf4d41312779eba90cb4cfa720b55f1c",
+    "books/the-stoic-husband/chapters/ch10/refined.md": "d326615ddcab9b29d7dbc8cd32d7f3791b88cb5f42c4830ae2b0e1fd6302200f",
+    "books/the-stoic-husband/chapters/ch10/distillation.md": "29672826ca2a280cd5900cfb419209b9a3208df44533649e383a08245ac1c2cf",
+    "books/the-stoic-husband/appendix/practice-guide.md": "cdfe3f508c676896471e07a1945aabf91dcb6c58749403d06a22754f69a63e18",
+    "runs/ch10/distillation.md": "29672826ca2a280cd5900cfb419209b9a3208df44533649e383a08245ac1c2cf",
+    "runs/ch10/practice-guide-ch10.md": "916dd06c570429b85538672be33d00f7b179795c94b9ce9bdb9b2674386aee30",
+    "runs/appendix/practice-guide.md": "8deffae01f43ead2136a243437d23e41186ac304580de007879aef11bd3ecb87",
+    "runs/ch10/edit-inbox-099.md": "f44961ae2868776efa9a7686acd63dcd44b5eebd35a1dee4e8abe214061b4cc1",
+    "inbox/101-schedule-the-earlier-book-repetition-and-qualita.md": "7255fb558165fd52b8218b72bbf2fd09d9c856105ffa414885c59e1b03256ee1",
+    "runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md": "eb6b7d35d05a2501fa20974d55f728bb0714c2c2f7f890329527812951d56a80"
+  }
+}
