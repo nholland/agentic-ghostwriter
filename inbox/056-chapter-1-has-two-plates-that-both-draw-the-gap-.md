@@ -1,9 +1,12 @@
 ---
 id: 056
-status: open
+status: resolved
 raised_by: gw-designer
 chapter: 1
 opened: 2026-09-20 16:33
+resolved: 2026-10-01 22:59
+applied_by: python3 -c "from pathlib import Path; paths=['books/the-stoic-husband/design/plates/three-second-window.svg','runs/ch01/plate.svg']; assert all('aria-label=\"The Gap\"' in Path(p).read_text() and '>THE GAP</text>' in Path(p).read_text() for p in paths); s=Path('books/the-stoic-husband/design/plates/README.md').read_text(); assert '**The Operating System** is an inline visual.' in s"
+okf_receipt: runs/reconciliation/2026-10-01-inbox-056.json
 ---
 
 # Chapter 1 has two plates that both draw The Gap (three-second-window, the-operating-system). Which is Ch1's plate, and what becomes of the other?
@@ -19,3 +22,9 @@ runs/design/2026-09-20-plate-review.md R1; runs/ch01/plate-notes.md. python3 run
 ```
 
 **What unblocks this:** Which file lands as Ch1's plate; whether the-operating-system is retired, redrawn, or reclassified as a framework explainer.
+
+**Resolution (2026-10-01 22:59):** Approved
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 -c "from pathlib import Path; paths=['books/the-stoic-husband/design/plates/three-second-window.svg','runs/ch01/plate.svg']; assert all('aria-label=\"The Gap\"' in Path(p).read_text() and '>THE GAP</text>' in Path(p).read_text() for p in paths); s=Path('books/the-stoic-husband/design/plates/README.md').read_text(); assert '**The Operating System** is an inline visual.' in s"` exits 0.
+
+**Applied, confirmed 2026-10-01 22:59:** `python3 -c "from pathlib import Path; paths=['books/the-stoic-husband/design/plates/three-second-window.svg','runs/ch01/plate.svg']; assert all('aria-label=\"The Gap\"' in Path(p).read_text() and '>THE GAP</text>' in Path(p).read_text() for p in paths); s=Path('books/the-stoic-husband/design/plates/README.md').read_text(); assert '**The Operating System** is an inline visual.' in s"` now exits 0.

@@ -1,5 +1,6 @@
 ---
-id: 105
+id: 108
+legacy_id: 105
 status: resolved
 raised_by: gw-ghostwriter plan-only gate, second failed attempt
 chapter: 14
@@ -34,3 +35,5 @@ Cold gw-ghostwriter plan-only gate (2026-09-29): FAIL — current outline requir
 **Not applied yet.** This ruling lands outside this repo. It closes when `grep -Fq "Author: Yes, use the newer direction" runs/reconciliation/2026-09-30-ch14-direction.json` exits 0.
 
 **Applied, confirmed 2026-09-30 17:33:** `grep -Fq "Author: Yes, use the newer direction" runs/reconciliation/2026-09-30-ch14-direction.json` now exits 0.
+
+**Administrative ID repair (2026-10-01):** Renumbered from #105 to #108 to resolve a collision with Chapter 13. Historical references and receipts retain the original ID; the recorded ruling is unchanged.

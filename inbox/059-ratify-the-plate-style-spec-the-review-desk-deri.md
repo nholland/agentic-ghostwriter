@@ -1,9 +1,12 @@
 ---
 id: 059
-status: open
+status: resolved
 raised_by: gw-designer
 chapter: -
 opened: 2026-09-20 16:33
+resolved: 2026-10-01 23:49
+applied_by: python3 -c "from pathlib import Path; s=Path('books/the-stoic-husband/design/plates/README.md').read_text(); assert '## Chapter plate style — approved 2026-10-01' in s and 'At most three line weights' in s and 'Standard width, fitted height' in s"
+okf_receipt: runs/reconciliation/2026-10-01-inbox-059.json
 ---
 
 # Ratify the plate style spec the review desk derived (canvas, palette, type, stroke, label classes, Part-plate captions), plus one rule: set text-anchor in a class, never as an attribute?
@@ -19,3 +22,9 @@ python3 runs/design/svgcheck.py on the 13 existing plates under the corrected ch
 ```
 
 **What unblocks this:** A written style the Designer reads first, instead of inferring it from the SVGs each time.
+
+**Resolution (2026-10-01 23:49):** Yes
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 -c "from pathlib import Path; s=Path('books/the-stoic-husband/design/plates/README.md').read_text(); assert '## Chapter plate style — approved 2026-10-01' in s and 'At most three line weights' in s and 'Standard width, fitted height' in s"` exits 0.
+
+**Applied, confirmed 2026-10-01 23:49:** `python3 -c "from pathlib import Path; s=Path('books/the-stoic-husband/design/plates/README.md').read_text(); assert '## Chapter plate style — approved 2026-10-01' in s and 'At most three line weights' in s and 'Standard width, fitted height' in s"` now exits 0.

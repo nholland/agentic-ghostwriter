@@ -1,9 +1,11 @@
 ---
 id: 068
-status: open
+status: resolved
 raised_by: gw-designer
 chapter: -
 opened: 2026-09-20 19:53
+resolved: 2026-10-01 23:14
+okf_receipt: runs/reconciliation/2026-10-01-inbox-068.json
 ---
 
 # Ch8 and Ch12 redrawn through /gw-plate: four small calls from the desks. Ch8: the right-hand pans hold only the named weights (three each) by design; the subtitle is now the Conversation sentence's first line instead of 'The tip feels sudden' (which no chapter says); the left caption sits under its column, not under the loaded pan (Panel edit 5, cosmetic). Ch12: TONIGHT in bold caps may nag; the three early marks are a drawing choice, not a count. Keep as drawn?
@@ -19,3 +21,5 @@ python3 scripts/plate_check.py runs/ch08/plate.svg --chapter 8 -> 11 rows ok; sa
 ```
 
 **What unblocks this:** Whether Ch8 or Ch12 is touched before landing.
+
+**Resolution (2026-10-01 23:14):** Approved

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-02T00:53:19.394023-05:00",
+  "subjects": [
+    "inbox:098",
+    "inbox:099",
+    "inbox:054"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md"
+  ],
+  "authority": "Existing author approvals of Chapter 8 SVG and Inbox 098/099 prose; no new meanings.",
+  "reason": "Correct knowledge quotation to actual approved plate wording and qualify an obsolete index pending annotation after recorded approvals.",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md": "c3c585e4e680b6cb14339cac17fcc2d674aa697b8c0660ea4a0aef66923c1cf7",
+    "books/the-stoic-husband/okf/index.md": "c888d6e5a048afc5940e2550671c033363af45ace286c3ef3b917d39cf3a0c00"
+  }
+}

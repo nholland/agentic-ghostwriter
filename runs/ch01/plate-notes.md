@@ -289,3 +289,17 @@ in it, then the two names either side, then "Your marriage lives there."
 2. **Whether CHOSEN / OR INHERITED should instead read as a fork.** It cannot be
    drawn as one inside this round's constraint without a new object. As set, the
    two words read as one condition with two values, which is the claim.
+
+
+## Title and role ruling — 2026-10-01
+
+The author replied “Approved” to keeping the window as Chapter 1’s main plate,
+titled **The Gap**, and preserving **The Operating System** as an inline visual
+for later layout repair and placement (inbox #056). The visible title and
+accessible label now match the distillation; earlier pending title notes above
+are superseded. This edit changes the title only, preserving each source drawing.
+
+The current working plate was rendered and visually inspected after retitling.
+Its twelve reported rows pass, including raster-current. The older book SVG’s
+pre-existing endpoint-caption margin warnings remain; this title-only ruling
+does not substitute the different working drawing or certify that older layout.

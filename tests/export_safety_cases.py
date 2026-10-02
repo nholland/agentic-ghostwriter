@@ -90,6 +90,20 @@ def export_safety_cases():
             out.append((ok, f'landing plate x={x} force={force}',
                         'bad geometry refuses before writes; clean and explicit override still work', output.getvalue()))
 
+        # The ratified chapter cap passes at the boundary and fails above it.
+        # Arc copy rules remain parked, so their existing warning stays a warning.
+        for count, chapter, expected in ((2, 1, 'ok'), (3, 1, 'FAIL'), (3, None, 'WARN')):
+            copy = '<style>.cap{font:italic 12px Georgia,serif;text-anchor:middle}</style>'
+            copy += ''.join(f'<text class="cap" x="320" y="{100+30*i}">Prose end 1.</text>'
+                            for i in range(count))
+            (run/'plate.svg').write_text(plate_svg(100).replace('</svg>', copy+'</svg>'))
+            result = plate_check.rows(str(run/'plate.svg'), chapter=chapter,
+                                      part=None if chapter else 1,
+                                      book_root=str(root/'book'), runs_root=str(root/'runs'), render=False)
+            status = next(st for st, name, detail in result if name == 'captions')
+            out.append((status == expected, f'caption cap count={count} chapter={chapter}',
+                        'chapter excess fails; at-cap passes; parked Arc rule remains advisory', status))
+
         # A matching title passes; either visible or accessible mismatch must FAIL.
         for label, svg in [
             ('visible', plate_svg(100).replace('>Mechanism 1</text>', '>Other title</text>')),

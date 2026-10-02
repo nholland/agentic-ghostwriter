@@ -14,8 +14,8 @@ WHY THIS IS A SCRIPT
 WHAT IT REPORTS
     One row per check, [ ok ] / [WARN] / [FAIL]. A FAIL is a defect no plate
     ships with. A WARN is reported for the author or the Publisher to judge;
-    it never blocks. Title mismatches FAIL under ratified inbox #065. Captions remain WARN
-    pending inbox #066: see LEVELS.
+    it never blocks. Chapter title mismatches and excess caption copy FAIL
+    under ratified inboxes #065 and #066: see LEVELS. Arc rules remain parked.
 
 USAGE
     python3 scripts/plate_check.py runs/ch08/plate.svg --chapter 8
@@ -46,8 +46,8 @@ CLEARANCE = 10.0   # px; touching is a defect, not a pass
 LEFT = 44
 
 # Inbox #065 ratified 2026-10-01: title is the Mechanism line.
-# Caption cap remains provisional pending #066.
-LEVELS = {"title": "FAIL", "captions": "WARN"}
+# Inbox #066 ratified 2026-10-01: chapter copy cap is required.
+LEVELS = {"title": "FAIL", "captions": "FAIL"}
 
 CHAPTER_WIDTH = 640
 PART_CANVAS = (600, 900)
@@ -381,7 +381,7 @@ def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, rend
     italics = sum(1 for b in bx if b['italic'])
     cap = labels + 2   # a subtitle, one gloss per labelled element, one closing line
     over = italics > cap
-    out.append(('ok' if not over else LEVELS['captions'], 'captions',
+    out.append(('ok' if not over else (LEVELS['captions'] if chapter else 'WARN'), 'captions',
                 f'{italics} italic lines against a cap of {cap} ({labels} labels + subtitle + closing line)'
                 + ('' if not over else ' (over; inbox #066)')))
 

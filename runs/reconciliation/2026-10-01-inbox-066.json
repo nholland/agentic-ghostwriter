@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-01T23:56:23.930709-05:00",
+  "subjects": [
+    "inbox:066"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-style.md"
+  ],
+  "authority": "Author: approved, to the copy cap and drawn Lesson rules and declining a fixed symbol dictionary.",
+  "reason": "Recorded accepted chapter rules and the declined dictionary; enforced the counted chapter cap while preserving parked Arc behavior.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-style.md": "4f622590b14429d08112f6f332f2b953abfd7737a83f487226a65295d2293af4",
+    "books/the-stoic-husband/design/plates/README.md": "70e7a7b869842dfd79ccfc3ef031a2f1a5bc5bcc84cca52b23f355336e6964dc",
+    "books/the-stoic-husband/okf/index.md": "8e25ccaa5d0f3f9a468619053c55cf80ea5d8eae25968521254bb8d25694d071",
+    "books/the-stoic-husband/okf/log.md": "d7627f91c8b35369bef57f602d49f28995d58f182f6a3d08cfedb06e4c2292c4",
+    "scripts/plate_check.py": "f896cd28d664326bcb42870e1b4245c2f763d9ba3eeaada3b043fb1c06d00fc7",
+    "tests/export_safety_cases.py": "a687b1f5a72954b04bed453654168a2984fc32200cb336edacefec32cb73aab6",
+    ".claude/skills/gw-plate/SKILL.md": "72b2f116b6bebe1c369f0930649b2d03e6d13af29c0b7f6f93da1d5b3b268da0",
+    "skills/gw-plate/SKILL.md": "421d202dd5f3908975aefdddfb3ef8336b6a097336f6626bdf1f5f787628633f"
+  }
+}

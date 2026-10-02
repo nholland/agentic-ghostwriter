@@ -953,3 +953,27 @@ The constitutional outline and framework map now use the same direction.
 - 2026-10-01: Recorded the author’s inline-visual intent for inbox 058; sidebar classification unapproved, terminology pending.
 
 - 2026-10-01: Author requested inline-visual Designer exploration for the three graphics; queued in inbox 110 and documented visual vocabulary in the manual. Inbox 058 classification resolved; finished designs remain pending.
+
+- 2026-10-01: Author approved inbox 056: Chapter 1 window is the main plate, titled The Gap; The Operating System is preserved as an inline visual awaiting layout repair and placement. Updated notes/2026-10-01-inline-chapter-visuals.md.
+
+- 2026-10-01: Author approved inbox 054 replacement Tipping Scale plate. Applied exact approved SVG; recorded diagram authority in frameworks/the-tipping-scale.md.
+
+- 2026-10-01 23:07 CDT — Inbox 061: author replied “approved” to retiring four superseded plate label/size questions. Recorded notes/2026-10-01-superseded-plate-label-questions.md and indexed it; newer drawings are not approved by this closure.
+
+- 2026-10-01 23:13 CDT — Inbox 068: author replied “Approved” to keeping bold TONIGHT and three illustrative early squares in Chapter 12’s proposed redraw. Updated notes/2026-10-01-chapter-plate-titles.md and its index description. Chapter 8 questions are covered by inbox 054; Chapter 12’s whole redesign is not landed by this detail ruling.
+
+- 2026-10-01 23:17 CDT — Author deferred arc closing plates after viewing Part III–V drafts. Recorded exact direction in notes/2026-10-01-arc-plates-deferred.md, runs/parked.md P-005 and book parking-lot #39; moved inbox 060/087/089 and the Part III portion of 067 to the completion-triggered revisit. No design approved or commissioned.
+
+- 2026-10-01 23:22 CDT — Inbox 067: author answered “yes” to retiring its obsolete chapter questions. Updated notes/2026-10-01-superseded-plate-label-questions.md, the arc-deferral note and parked record; Part III remains deferred and newer chapter redraws remain subject to their existing review status.
+
+- 2026-10-01 23:47 CDT — Inbox 059: author replied “Yes” to the five presented chapter-style principles. Added notes/2026-10-01-chapter-plate-style.md and the approved reference in design/plates/README.md. Arc style stays parked; inbox 066’s three proposals remain pending.
+
+- 2026-10-01 23:54 CDT — Inbox 066: author replied “approved” to the chapter copy cap and drawn Lesson/helpful response requirement, and declining a fixed symbol dictionary. Updated chapter-plate-style note, index and design reference; excess chapter captions now FAIL while Arc rules remain advisory and parked.
+
+- 2026-10-02 00:20 CDT — Inbox 099: author replied “Approved” to both prepared Chapter 10 passages. Applied exact prose replacements; updated boundary-vs-preference.md and the Chapter 10 application of epictetus-enchiridion-30-relational-duties.md. No ancient quote or citation status changed. Distillation/practice refresh and conformance verification are being recorded with this batch.
+
+- 2026-10-02 00:28 CDT — Inbox 099 completion: exact two prose edits applied; distillation refreshed; practices remain identical and pass sync. Chapter voice HARD checks pass. Recorded open pre-existing conformance questions in findings/sweep-ch10-inbox-099-conformance.md and inbox 101; resolved its word-count uncertainty by script. Overall conformance is not reported PASS.
+
+- 2026-10-02 00:33 CDT — Inbox 098: author replied “approved” to the prepared Chapter 6 and Chapter 8 passages. Applied exactly four replacements. Reconciled actual overload, joint workload/capacity/duration examination, request/review and gratitude’s limits across four existing framework concepts; retained the earlier absolute gratitude formulation as historical and qualified. Derived refresh and conformance findings follow in this batch.
+
+- 2026-10-02 00:40 CDT — Inbox 098 completion: Chapters 6/8 distillations, Chapter 8’s practical workload practice, both guide copies and plate briefs refreshed. Practice correspondence and all HARD prose voice rows pass; both existing plate previews and all 12 plate rows pass. Preserved open conformance/outline questions in findings/sweep-ch06-ch08-inbox-098-conformance.md and inbox 101; corrected the model’s Chapter 8 count estimate with 1,169 counted prose words.

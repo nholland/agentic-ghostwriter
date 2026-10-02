@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-01T23:08:26.257597-05:00",
+  "subjects": [
+    "inbox:061"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-superseded-plate-label-questions.md"
+  ],
+  "authority": "Author: approved, in response to closing inbox 061 as superseded.",
+  "reason": "Retired obsolete questions only; preserved the newer drawings\u2019 review status.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-superseded-plate-label-questions.md": "94eccf53102213838022ba27f385c8f9c5767637ecbc459bb95401b13567648b",
+    "books/the-stoic-husband/okf/index.md": "e5358e8ad407cacd3371856acd052532e7039863580974e8dc7b92713818522b",
+    "books/the-stoic-husband/okf/log.md": "b2a7ed88fb98ed04a580e51891c9a26d17d7888d187f9de4e1bd3446859e5a68"
+  }
+}

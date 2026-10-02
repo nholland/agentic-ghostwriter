@@ -1,10 +1,10 @@
 ---
 id: 089
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 13:05
-applied_by: python3 -c "
+applied_by: python3 -c "from pathlib import Path; s=Path('runs/parked.md').read_text(); assert '## P-005' in s and 'arcs are complete' in s and all(x in s for x in ('060','087','089')); assert '### [#39]' in Path('books/the-stoic-husband/parking-lot.md').read_text()"
 import re,subprocess,sys,tempfile,os
 base=open('books/the-stoic-husband/parts/plate-1-steady-river.svg',encoding='utf-8').read()
 def make(title):
@@ -20,6 +20,8 @@ def status(out):
 sg,sb=status(run(make('THE STEADY RIVER'))),status(run(make('SOME OTHER TITLE')))
 print('matching:',sg,'mismatched:',sb)
 sys.exit(0 if (sg=='ok' and sb not in (None,'ok')) else 1)"
+resolved: 2026-10-01 23:18
+okf_receipt: runs/reconciliation/2026-10-01-arc-plates-parked.json
 ---
 
 # Both Part plate drafts now carry a title, and parts/README.md's Form rules have no line permitting one - its caption rule says the plate reprints the book's own words and adds none. Add the title line to README.md and extend plate_check's title row to --part, so a Part plate whose title does not match its Part page heading fails?
@@ -37,3 +39,9 @@ parts/README.md Form rules list black line on white, one abstract image, caption
 ```
 
 **What unblocks this:** Whether either draft can land, and whether Parts III-V inherit the title rule mechanically rather than by memory
+
+**Resolution (2026-10-01 23:18):** Those aren't great. I also don't know where those are supposed to go? If we are creating Plates for the Arcs, let's move that to the parking lot as we'd likely want to revisit once we're done with the arcs vs trying to do them now
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 -c "from pathlib import Path; s=Path('runs/parked.md').read_text(); assert '## P-005' in s and 'arcs are complete' in s and all(x in s for x in ('060','087','089')); assert '### [#39]' in Path('books/the-stoic-husband/parking-lot.md').read_text()"` exits 0.
+
+**Applied, confirmed 2026-10-01 23:18:** `python3 -c "from pathlib import Path; s=Path('runs/parked.md').read_text(); assert '## P-005' in s and 'arcs are complete' in s and all(x in s for x in ('060','087','089')); assert '### [#39]' in Path('books/the-stoic-husband/parking-lot.md').read_text()"` now exits 0.

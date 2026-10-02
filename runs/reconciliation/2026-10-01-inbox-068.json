@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-01T23:14:36.772106-05:00",
+  "subjects": [
+    "inbox:068"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-titles.md",
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md"
+  ],
+  "authority": "Author: Approved, after viewing Chapter 12\u2019s redraw and being asked about the two details.",
+  "reason": "Accepted the two Chapter 12 detail choices; Chapter 8 questions are already covered by inbox 054. Whole Chapter 12 redesign verdict remains separate.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-titles.md": "2d118a65b9ea319deb1c369d76af45bb7c05607a1678ac4f8178204ae2190cd7",
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md": "f3505624cca7ff3628f345737cbb41eee1863a8b976f9350a5c04983aea42b98",
+    "books/the-stoic-husband/okf/index.md": "c62b179ea4d4d26e8e4e18615783c29d74e35b493f86df3e9539c518ebf1305c",
+    "books/the-stoic-husband/okf/log.md": "5b2d2b371b56d91fdb4ecd31a1a172288e2ad6c2f5a27d6691f7cf062c5b83ca",
+    "runs/ch12/plate-notes.md": "9e9f41c5b9c6e0865ea649dc9f981e50733beec536109d313b6984a8f971965a"
+  }
+}

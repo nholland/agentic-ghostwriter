@@ -21,3 +21,14 @@ The Four Ds, Four Horsemen, and Virtue Question graphics are intended as visuals
 > Add an item in the inbox to pass those three the design desk so they can try to make some graphics with them.  In our manual.html, let's add a section for visuals and explain how claude creates code generated SVG graphics, and then define what we have in the system... design desk that makes plates, inline visuals, flourishes / glyphs
 
 The author uses “inline visuals” in this direction. Inbox 110 queues the Designer’s graphic exploration of the Four Ds, Four Horsemen, and Virtue Question. This supersedes the earlier pending naming question and the proposed sidebar classification. Finished designs and exact placement still await review. The manual describes chapter and Part plates, inline visuals, decorative flourishes, and reusable glyphs/marks.
+
+
+# Chapter 1 arrangement — inbox 056, approved 2026-10-01
+
+The Publisher proposed: “keeping the window as Chapter 1’s main plate, titled
+The Gap under your approved title rule, and preserving The Operating System
+as an inline visual for later layout repair and placement.”
+
+The author replied: “Approved”. The main plate title is applied. The Operating
+System source is preserved; its finished layout and exact placement remain
+future design work. This adds it to the book’s inline-visual inventory.
