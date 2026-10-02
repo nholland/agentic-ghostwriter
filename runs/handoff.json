@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "chapter": 8,
-  "runtime": "codex",
-  "branch": "codex/shared-runtimes",
+  "runtime": "claude",
+  "branch": "claude/fervent-maxwell-eafl0j",
   "oracle": {
     "chapter": 8,
     "stage": "shipped",
@@ -22,7 +22,8 @@
   },
   "author_records": [
     "runs/handoff/intake-ab78d623cdf92643.json",
-    "runs/handoff/intake-6cf35a122f4702cf.json"
+    "runs/handoff/intake-6cf35a122f4702cf.json",
+    "runs/handoff/intake-7609509e8ab06c8d.json"
   ],
   "artifacts": {
     "inbox/001-are-bolded-run-in-section-headers-legal.md": "e78386c291d3cb3dc5b505076253b3c3df588ed41334113ade6f69b704297a15",
@@ -150,5 +151,5 @@
     "runs/ch08/practice-guide-ch08.md": "2e3b8435f2245604d6e361ce94c0760b36a596bfde7a1a0777c47d11857fc724",
     "runs/ch08/refined-before-inbox-098.md": "3825e9743ca0fe9294df5c2148c3211e0ab1e23c8fd9afd5127f37c6371b707e"
   },
-  "updated": "2026-10-02T00:44:27.858971-05:00"
+  "updated": "2026-10-02T11:22:54.409725+00:00"
 }
