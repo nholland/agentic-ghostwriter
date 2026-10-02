@@ -54,13 +54,8 @@ def dispatch(root, runtime, event, payload):
         if owner.get('desks'):
             raise ValueError('active desks must finish or be stopped before the house can hand off')
         handoff.checkpoint(root, runtime, session)
-        env = dict(os.environ, GW_PROJECT_ROOT=str(root), GW_RUNTIME=runtime)
-        p = subprocess.run(['bash', str(root / '.claude/hooks/session-stop.sh')], cwd=root,
-                           env=env, capture_output=True, text=True, timeout=180)
-        if p.returncode:
-            raise ValueError(p.stderr or p.stdout or 'house completion checks failed')
         handoff.release(root, runtime, session)
-        return (p.stdout + p.stderr).strip()
+        return ''
     if event == 'SessionEnd':
         owner = handoff.read(handoff.owner_path(root), {})
         if owner and handoff.matches(owner, handoff.identity(runtime, session)):

@@ -3780,6 +3780,15 @@ package checks pass. The all-book review collections were regenerated, with
 existing check warnings/failures on other draft plates outside this chapter.
 Chapter 14 still awaits author verdict and is not landed.
 
+- `runs/ch14/plate.svg`
+- `runs/ch14/plate-notes.md`
+- `runs/ch14/plate-read.md`
+- `output/compiled/chapters/ch14.pdf`
+
+**Next:** Present the Chapter 14 review package for the author’s verdict; do not land without it.
+
+Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines. These were reconstructed from that commit’s changed files and the entry’s stated pending verdict; no historical entry was lost.
+
 ## 2026-09-30 23:34 — `codex/shared-runtimes` — 5 commit(s) this session
 - `FINDINGS.md`
 - `books/the-stoic-husband/03-outline.md`

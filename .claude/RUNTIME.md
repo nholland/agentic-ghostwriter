@@ -27,8 +27,12 @@ inbox. The checkpoint is a continuation aid, never a new source of approvals or
 evidence. Changed input hashes require fresh checks. Pending concepts and
 verdicts remain pending, and existing review.json validation still applies.
 
-Stop all desks before switching. The Stop hook checkpoints, runs the existing
-completion mechanics, and releases writer ownership only after they succeed.
+Stop all desks before switching. The Stop hook only saves the checkpoint and
+releases writer ownership. It does not run checks, tests, commits, logging,
+pushes, generated-file checks or retrospective dispatch. Run relevant checks
+during the work. Before committing, call the Archivist with
+`scripts/archivist_check.py`; session records use its explicit `--record` tool
+after the work commit. Commit and push explicitly when asked.
 Open this same checkout in the other runtime and say `/gw` (Claude) or `$gw`
 (Codex); both accept the same intent after the command. No branch switch is
 needed. Never leave one runtime writing while the other resumes.
@@ -51,7 +55,7 @@ takeover. A matching live session upgrades its legacy lease on its next claim.
 it preserves the last checkpoint and unfinished files without declaring completion
 checks passed. `Interrupt` retains ownership because a tool or desk may still run.
 Repeated or late Stop/SubagentStop events never acquire ownership or release a
-new writer. Failed completion checks retain ownership until safe session end or
+new writer. A failed checkpoint retains ownership until safe session end or
 explicit recovery; switching chats alone does not end a session immediately.
 Stop and SessionEnd errors retain their cause in ignored
 `.claude/state/runtime-hook-failure-<event>.json` diagnostic records.

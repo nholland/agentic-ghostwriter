@@ -5,7 +5,7 @@ WHY. Two checks written on 2026-09-17 both contained the defect they were writte
 to fix, and both had been "proved" by a one-off run that was never stored. The
 Archivist had to reconstruct the failing input to test the claim, and
 reconstructing it is what found the escapes. A proof that cannot be re-run is a
-comment. So the inputs live here and the Stop hook runs them.
+comment. So the inputs live here and the Archivist pre-commit tool runs them.
 
 Add a fixture whenever a check gains a case. A check whose escape is not in this
 directory has not been proved; it has been asserted.
@@ -1579,8 +1579,9 @@ def main():
     if '--hook-environment-probe' in sys.argv:
         from okf_reconcile_cases import okf_reconcile_cases
         cases = [row for row in okf_reconcile_cases()
-                 if row[1] == 'OKF Stop hook refuses unreconciled work']
+                 if row[1] == 'Stop does not run knowledge checks or commit work']
         return 0 if len(cases) == 1 and cases[0][0] else 1
+    from archivist_cases import archivist_cases
     from runtime_cases import runtime_cases
     from ownership_lifecycle_cases import ownership_lifecycle_cases
     from draft_package_cases import draft_package_cases
@@ -1591,7 +1592,7 @@ def main():
     from prove_new_code_cases import prove_new_code_cases
     from maintenance_batch_cases import maintenance_batch_cases
     from okf_reconcile_cases import okf_reconcile_cases
-    rows = (hook_environment_cases() + runtime_cases() + ownership_lifecycle_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    rows = (archivist_cases() + hook_environment_cases() + runtime_cases() + ownership_lifecycle_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()

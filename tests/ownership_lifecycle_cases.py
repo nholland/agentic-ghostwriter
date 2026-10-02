@@ -37,10 +37,11 @@ def ownership_lifecycle_cases():
         partial.write_text('Unfinished manuscript stays here.\n')
 
         h.claim(root, 'codex', 'old')
-        try:
-            runtime_hook.dispatch(root, 'codex', 'Stop', {'session_id': 'old'})
-        except ValueError:
-            pass
+        with patch.object(h, 'oracle', side_effect=ValueError('checkpoint unavailable')):
+            try:
+                runtime_hook.dispatch(root, 'codex', 'Stop', {'session_id': 'old'})
+            except ValueError:
+                pass
         retained = saved.read_bytes()
         result(h.owner_path(root).exists(), 'failed completion still protects active session')
         runtime_hook.dispatch(root, 'codex', 'SessionEnd', {'session_id': 'old'})
@@ -56,8 +57,8 @@ def ownership_lifecycle_cases():
         h.claim(root, 'codex', 'one')
         runtime_hook.dispatch(root, 'codex', 'Stop', {'session_id': 'one'})
         runtime_hook.dispatch(root, 'codex', 'Stop', {'session_id': 'one'})
-        result((root / 'completion-count').read_text().splitlines() == ['completion'],
-               'duplicate Stop runs completion once and never reacquires ownership')
+        result(not (root / 'completion-count').exists() and not h.owner_path(root).exists(),
+               'Stop only saves handoff and releases ownership; legacy completion never runs')
         h.desk_event(root, 'codex', 'one', 'late-desk', False)
         result(not h.owner_path(root).exists(), 'late desk stop does not resurrect released writer')
         if h.owner_path(root).exists():
@@ -148,6 +149,7 @@ def ownership_lifecycle_cases():
         (hooks / 'session-stop.sh').write_text('exit 2\n')
         h.claim(root, 'codex', 'native')
         payload = json.dumps(dict(cwd=str(root), session_id='native'))
+        (scripts / 'next.py').write_text('raise SystemExit("checkpoint unavailable")\n')
         stopped = subprocess.run(['python3', hook_script, 'codex', 'Stop'],
                                  input=payload, text=True, capture_output=True)
         retained = saved.read_bytes()
@@ -159,7 +161,7 @@ def ownership_lifecycle_cases():
                'native SessionEnd releases after failed Stop within three-second deadline', ended.stderr)
         failure = h.read(root / '.claude/state/runtime-hook-failure-Stop.json', {})
         result(failure.get('session') == 'native' and failure.get('event') == 'Stop'
-               and failure.get('error') == 'house completion checks failed',
+               and 'checkpoint unavailable' in failure.get('error', ''),
                'completion failure records original cause for later diagnosis')
     return rows
 
