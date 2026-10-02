@@ -4214,3 +4214,28 @@ Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines
 - `output/compiled/plates.pdf`
 
 **Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-10-01 22:56 — `codex/fix-writer-ownership` — ? commit(s) this session
+- `.claude/RUNTIME.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw/SKILL.md`
+- `.codex/agents/gw-retro.toml`
+- `AGENTS.md`
+- `CLAUDE.md`
+- `README.md`
+- `agents/gw-retro.md`
+- `docs/manual.html`
+- `scripts/archivist_check.py`
+- `scripts/manual.py`
+- `scripts/runtime_hook.py`
+- `scripts/session_log.py`
+- `scripts/sync.py`
+- `skills/gw/SKILL.md`
+- `tests/archivist_cases.py`
+- `tests/okf_reconcile_cases.py`
+- `tests/ownership_lifecycle_cases.py`
+- `tests/run.py`
+- `tests/runtime_cases.py`
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
