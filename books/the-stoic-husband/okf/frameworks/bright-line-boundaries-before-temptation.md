@@ -19,7 +19,7 @@ provenance: >
   captured and flagged rather than used or lost.
 ip: author
 tags: [framework, boundaries, temptation, infidelity]
-chapter_slugs: [betrayal-secrets-and-the-work-of-repair]
+chapter_slugs: [trust-after-betrayal]
 timestamp: 2026-08-08T00:00:00Z
 ---
 

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-10-02T11:27:33.617850+00:00",
+  "subjects": [
+    "revision:outline-2026-10-02"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-02-outline-revision-merge-titles-as-written.md"
+  ],
+  "authority": "Author, 2026-10-02 session: \"1. Yes / 2. Ch28 / 3. Yes, approved title changes / 4. Ch21 for now\"; \"Let's clean up the Drift Exceptions and fix the specs per chapter. Stick with the prose that's been accepted.\"",
+  "reason": "Outline merged Ch25/27, mortality added to Ch27, four retitles with chapter_slugs migrated in 26 concept files, temptation added to Ch21, Ch1-14 specs corrected to accepted prose. Caps and overlaps remain pending as inbox 111 and 112, not accepted.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "13baae93b3be99882967d9e5ba9870afece07c9287e9dbfcf49868e1bcf93176",
+    "books/the-stoic-husband/05-framework.md": "f9c5bb07ca4decf6a0aaaf20a33b476041034fefb589447768c23b65a86e026f",
+    "books/the-stoic-husband/citation-queue.md": "386a6f478af8907e862d60cc70b7ebaeec6bfbf1b0685556fda7ab7f4b34d4ba",
+    "books/the-stoic-husband/design/element-candidates.md": "389bbed76eaf1fa666732ba67156e00678d2f19cd585050f7b114275268934d8",
+    "books/the-stoic-husband/okf/citations/berridge-robinson-wanting-vs-liking.md": "4fa7e9e990e323a1f44bc88c3c79cfaf61959d84ebd54d399c71417a5db11846",
+    "books/the-stoic-husband/okf/citations/brickman-1978-lottery-winners-and-accident-victims.md": "5ab3db1c9b34234d2002912d2759a8615499beda84d9370d902f06a723d528be",
+    "books/the-stoic-husband/okf/citations/epictetus-smoke-in-the-room.md": "4637275386c4793b40e2f4e8f2c38a355fc9a7c065b586a61dead2db94e0360d",
+    "books/the-stoic-husband/okf/citations/gilbert-wilson-2000-miswanting.md": "bdae3c9f03e2366c07f0ccb8c1ef0fc2edbaa77cdcebcaeb50c4fca6f8177475",
+    "books/the-stoic-husband/okf/citations/hanson-taking-in-the-good.md": "55b581056f795164cd44efaef4b45d68ed981ea7711f69f9dbe80d828722fdaf",
+    "books/the-stoic-husband/okf/citations/kahneman-killingsworth-income-and-happiness.md": "9480a5e2e8a161d9594ec2768a1068fb3222c206880763862495493c3c51672b",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-impermanence-and-gratitude.md": "dbaa6468ed0e4d8c72a5c513b51168a60e26d28f1bf8a3294a6bec7ad4c9030a",
+    "books/the-stoic-husband/okf/citations/morally-good-people-and-happiness-meaning.md": "06f2083a741dc0de8b46d3b6a134b5429fb4869398cd852202921c81a1455c38",
+    "books/the-stoic-husband/okf/citations/santos-2018-psychology-and-the-good-life.md": "81f9265f05e4ed29e6810477fac237ac78e8fde583abc6da3ae183b39f177fd5",
+    "books/the-stoic-husband/okf/citations/seligman-2005-gratitude-visit-vs-three-good-things.md": "0918f28312dd0d1368a565d1941edea220a859f9f5796c20fb311db668c68f97",
+    "books/the-stoic-husband/okf/citations/seneca-weep-but-not-wail.md": "bfe8764769b0eb8c45f68497e7a4516980a0dfd90ed6dce91e67a60a579920c5",
+    "books/the-stoic-husband/okf/frameworks/bright-line-boundaries-before-temptation.md": "a1f35444e5a1f12ca7c2dcaf625a6c6ad45cda9f8ab3da746a8b6fb7c950e70d",
+    "books/the-stoic-husband/okf/frameworks/defending-moms-standing-in-the-house.md": "8d40c944960ad3dfa015002f309b5201cfe1321968f4ccd6730db591cc3c9c1d",
+    "books/the-stoic-husband/okf/frameworks/disdain-as-angers-endpoint.md": "a8cd337dc9ae34f2aef54bf24683d212deb83f1938a3257846dfcfff1e401d03",
+    "books/the-stoic-husband/okf/frameworks/endurance-is-not-the-highest-virtue.md": "a95359e7a9438f34a74edc42bc60889b5b088ddd2ff833cf41626e12d0c03c0f",
+    "books/the-stoic-husband/okf/frameworks/humor-and-lightness-as-stoic-practice.md": "79ac8b12a6190702f324071fc81ec964db452b381c1a60633de1f3025fe04a81",
+    "books/the-stoic-husband/okf/frameworks/marriage-as-contest-against-contempt.md": "560fb558e57b98d112bf4207389db6e1c0280bcba9e34f49c78cf0ef95d89afa",
+    "books/the-stoic-husband/okf/frameworks/marriage-as-gratitude-under-impermanence.md": "a3b3f83370df8085ee7345f9d0c2eb0299732060d0e54eb99cc38a92284713c6",
+    "books/the-stoic-husband/okf/frameworks/the-five-qualities-of-stoic-love.md": "b785fd023fccc38a16b05b6ae10ef4e425d7c95f70f6e09bdba95a0af10f263c",
+    "books/the-stoic-husband/okf/frameworks/the-hedonic-treadmill.md": "27ac670aaa1c2e97b670778625d4f88dcafe028eb1055496e4a9911231c7c01e",
+    "books/the-stoic-husband/okf/frameworks/the-new-partner-is-not-better-river-comparison.md": "83b89b65a235b4aede778f903cbd270cf9b9eab0cbb56fd590e9eb831ebbdad2",
+    "books/the-stoic-husband/okf/frameworks/the-stoic-divorce-test-12-questions.md": "df4c1c8b7818b0bfce19da527733ad2371d721b63b820a41b3a4d57b113e466d",
+    "books/the-stoic-husband/okf/frameworks/three-question-decision-frame.md": "f8a81a6288d093d98a6705ff24841449ba4ee1d333a1ba94852636662437a1cb",
+    "books/the-stoic-husband/okf/frameworks/virtue-and-happiness-are-not-enemies.md": "c382f0e4126eb91d6c2f1b410eba8602a6c5dd30b6405f5ec89e9a55e4b45861",
+    "books/the-stoic-husband/okf/index.md": "e176086682fbd60cf40026ee313c6abc60270701c7494b4396f1d49b5c7196f2",
+    "books/the-stoic-husband/okf/log.md": "3e889222aeb8c70ba355a5773e1a3785941d79b4cdda7fcbba6b68f64a4acbfd",
+    "books/the-stoic-husband/okf/stories/any-issues-before-kids-will-be-magnified.md": "906013bbe5acfeb812807f64ab643f71977c04ba3284274dfb553b496508a338",
+    "books/the-stoic-husband/okf/stories/touched-out-and-the-dead-bedroom.md": "128f2b3b14ebc32bca7da66180b5477d0c6d090aee27294ed248ec063c315ccb",
+    "books/the-stoic-husband/okf/notes/2026-10-02-outline-revision-merge-titles-as-written.md": "1995e6eb4402e12ed5ca79bd35f9ef452a4e8165246a84628ea7b4d3f6ae4a25"
+  }
+}

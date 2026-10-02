@@ -33,7 +33,7 @@ verification_note: >
   material's claim, even though the source itself didn't name the actual
   mechanism.
 tags: [citation, dopamine, wanting-liking, berridge]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

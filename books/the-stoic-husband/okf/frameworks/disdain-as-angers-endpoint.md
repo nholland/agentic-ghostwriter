@@ -7,7 +7,7 @@ description: >
 provenance: Author framework (confirmed 2026-06-05, Chapter 4 research check-in)
 ip: author
 tags: [framework, anger, contempt]
-chapter_slugs: [anger-is-failed-leadership, repair-quickly-love-deliberately, betrayal-secrets-and-the-work-of-repair, silence-is-not-peace]
+chapter_slugs: [anger-is-failed-leadership, repair-quickly-love-deliberately, trust-after-betrayal, silence-is-not-peace]
 timestamp: 2026-06-05T00:00:00Z
 ---
 

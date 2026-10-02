@@ -23,7 +23,7 @@ verification_note: >
   Santos is and why her course carries weight — it isn't load-bearing
   evidence for any specific claim about wellbeing itself.
 tags: [citation, laurie-santos, yale]
-chapter_slugs: [the-discipline-of-joy]
+chapter_slugs: [become-easier-to-love]
 timestamp: 2026-07-28T00:00:00Z
 ---
 

@@ -13,7 +13,7 @@ verification_note: >
   Needed as context for Ch 21 (endurance vs. cowardice). Do not invent the
   passage or its wording (CLAUDE.md Rule 3) — locate the exact source first.
 tags: [citation, epictetus, needs-verification]
-chapter_slugs: [the-difference-between-endurance-and-cowardice]
+chapter_slugs: [fear-is-not-commitment]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

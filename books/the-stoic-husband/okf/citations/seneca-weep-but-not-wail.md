@@ -14,7 +14,7 @@ verification_note: >
   before direct quoting. No URL fabricated — locate the specific passage
   before use.
 tags: [citation, seneca, primary-source]
-chapter_slugs: [warmth-is-strength, betrayal-secrets-and-the-work-of-repair]
+chapter_slugs: [warmth-is-strength, trust-after-betrayal]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

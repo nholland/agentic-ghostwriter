@@ -86,7 +86,7 @@ from drifting without turning the book into a diagram.
 | II | **The Sturdy Oak** | Oak — introduced | Ch6–11 |
 | III | **The Warm Sun** | Sun — introduced | Ch12–16 |
 | IV | **The Desert** | All three, stress-tested together | Ch17–23 |
-| V | **The Orchard** | All three, integrated and sustained | Ch24–29 |
+| V | **The Orchard** | All three, integrated and sustained | Ch24–28 |
 
 Parts I–III each introduce one element, and their titles in `03-outline.md`
 carry these names. Parts IV–V don't introduce new elements — they're where all
@@ -94,7 +94,7 @@ three get tested simultaneously (IV) and sustained across decades (V).
 
 **The Introduction and Conclusion are framing chapters**, not tied to specific
 cells. The Introduction plants the Arête question; the Conclusion answers it.
-The matrix is the machinery that operationalizes that question across all 29
+The matrix is the machinery that operationalizes that question across all 28
 chapters.
 
 ---
@@ -148,7 +148,7 @@ Letting a thing go and keeping it are not two degrees of the same act; the
 second is the failure wearing the first one's name. Same cell, same missing
 virtue — the ledger is of her debts rather than his deposits.
 **Chapters:** Ch6 (Duty Without Resentment), Ch7 (The End of Scorekeeping),
-Ch8 (When Your Marriage Feels Unfair), Ch21 (Betrayal, Secrets, and the Work of Repair — honest accounting of what's owed)
+Ch8 (When Your Marriage Feels Unfair), Ch21 (Trust After Betrayal — honest accounting of what's owed)
 
 *Second route added 2026-09-19 on the author's word ("Approved"), following the
 same convention Sun × Temperance already uses for a second way into one failure
@@ -167,7 +167,7 @@ prose is a chapter question, not settled here.*
 a boundary is the temperance of strength, not its absence.
 **Failure mode: The Bottomless Yes.** The man with no "no" — says yes until
 he's hollowed out, then resentful. Compliance mistaken for capacity.
-**Chapters:** Ch9 (Silence Is Not Peace), Ch20 (Children, Exhaustion, and the Marriage Underneath — pacing through a depleting season)
+**Chapters:** Ch9 (Silence Is Not Peace), Ch20 (The Marriage Underneath — pacing through a depleting season)
 
 ### Oak × Courage — Active Steadiness
 **Positive:** Strength that keeps showing up when showing up costs something —
@@ -175,7 +175,7 @@ active steadiness through the hard, slow seasons.
 **Failure mode: The Ghost.** Physically present, emotionally checked out —
 technically "enduring," actually disappearing. He's in the room, but he's not
 there.
-**Chapters:** Ch11 (Speak or Endure), Ch22 (The Difference Between Endurance and Cowardice — direct callback to Ch11's distinction)
+**Chapters:** Ch11 (Speak or Endure), Ch22 (Fear Is Not Commitment — direct callback to Ch11's distinction)
 
 ### River × Wisdom — Clear-Sightedness in the Gap
 **Positive:** Seeing the moment as it actually is, before the inherited script
@@ -188,9 +188,8 @@ The Script can't adapt to what's actually in front of him, because he was
 never looking at it.
 **Chapters:** Ch1 (The Three-Second Window), Ch19 (seeing real divergence
 clearly enough to adapt, rather than catastrophizing or digging in), Ch22
-(seeing the true motive for staying), Ch28 (Growing Old Without Growing Apart
-— seeing who she's becoming, not who she was), Ch29 (The Legacy of a Stoic
-Husband — full-circle callback to Ch1)
+(seeing the true motive for staying), Ch27 (Growing Old Without Growing Apart
+— seeing who she's becoming, not who she was), Ch28 (What They Inherit — full-circle callback to Ch1)
 
 ### River × Justice — Receiving Her Account
 **Positive:** Receiving her account as legitimate information, not a verdict
@@ -201,7 +200,7 @@ might suggest.)*
 **Failure mode: The Closed Door.** Defensiveness — treating her complaint as a
 prosecution rather than data. She learns the conversation isn't worth having.
 **Chapters:** Ch3 (Stop Defending Yourself — establishes the skill),
-Ch21 (Betrayal, Secrets, and the Work of Repair — the same skill at its
+Ch21 (Trust After Betrayal — the same skill at its
 highest stakes: receiving her account of the harm without retreating behind
 defensiveness)
 
@@ -241,7 +240,7 @@ it's what's due to the person who shares your life.
 **Failure mode: Armor.** Equanimity misapplied as distance — "I'm not
 disturbed" becomes "I'm not reachable." **This is the book's central mistake,
 and the matrix locates it precisely here.**
-**Chapters:** Ch15 (Be Patient, Be Kind — presence as what's owed in ordinary friction), Ch16 (Warmth Is Strength), Ch25 ("I don't know how to enjoy you" echoes Ch16), Ch27 (The Discipline of Joy — joyless "excellence" is
+**Chapters:** Ch15 (Be Patient, Be Kind — presence as what's owed in ordinary friction), Ch16 (Warmth Is Strength), Ch25 ("I don't know how to enjoy you" echoes Ch16; absorbs the former Ch27, The Discipline of Joy: joyless "excellence" is
 unreachability by another name)
 
 ### Sun × Temperance — Desire Without Need
@@ -264,8 +263,7 @@ without theater, choosing love deliberately rather than coasting on momentum.
 **Failure mode: Apology Theater.** Performed accountability that avoids the
 real reckoning — or love running on autopilot instead of daily deliberate
 choice.
-**Chapters:** Ch23 (Repair Quickly, Love Deliberately), Ch21 (Betrayal,
-Secrets, and the Work of Repair — highest-stakes case)
+**Chapters:** Ch23 (Repair Quickly, Love Deliberately), Ch21 (Trust After Betrayal — highest-stakes case)
 
 ---
 
@@ -302,13 +300,12 @@ by hand.
 | 17 | The Sexless Marriage | Sun × Temperance (absorbs the former Ch15), River × Courage |
 | 18 | Living Separate Lives | River × Courage, Sun × Wisdom |
 | 19 | When Faith, Values, or Ambition Diverge | River × Wisdom, Oak × Wisdom |
-| 20 | Children, Exhaustion, and the Marriage Underneath | Sun × Wisdom, Oak × Temperance |
-| 21 | Betrayal, Secrets, and the Work of Repair | Sun × Courage, Oak × Justice, River × Justice |
-| 22 | The Difference Between Endurance and Cowardice | Oak × Courage, River × Wisdom |
+| 20 | The Marriage Underneath | Sun × Wisdom, Oak × Temperance |
+| 21 | Trust After Betrayal | Sun × Courage, Oak × Justice, River × Justice |
+| 22 | Fear Is Not Commitment | Oak × Courage, River × Wisdom |
 | 23 | Repair Quickly, Love Deliberately | Sun × Courage |
 | 24 | The Marriage You Build Every Day | Sun × Wisdom (integration) |
-| 25 | Become Easier to Love | Sun × Justice, River × Temperance |
+| 25 | Become Easier to Love (absorbs the former Ch27) | Sun × Justice, River × Temperance |
 | 26 | Friendship Is the Hidden Engine | River × Temperance, Sun × Wisdom |
-| 27 | The Discipline of Joy | Sun × Justice |
-| 28 | Growing Old Without Growing Apart | Sun × Wisdom, River × Wisdom |
-| 29 | The Legacy of a Stoic Husband | River × Wisdom |
+| 27 | Growing Old Without Growing Apart | Sun × Wisdom, River × Wisdom |
+| 28 | What They Inherit | River × Wisdom |

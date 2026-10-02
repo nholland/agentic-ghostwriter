@@ -305,6 +305,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 - [Superseded plate label questions](/notes/2026-10-01-superseded-plate-label-questions.md) — author retired inbox 061 and 067’s obsolete chapter questions; newer drawings’ review status is unchanged.
 - [Arc plates deferred](/notes/2026-10-01-arc-plates-deferred.md) — arc/Part plate designs and placement parked until the arcs are complete; shown drafts not approved.
 - [Chapter plate style](/notes/2026-10-01-chapter-plate-style.md) — approved chapter style, copy cap and drawn Lesson; universal symbol dictionary declined.
+- [Outline revision: joy merged into Ch25, mortality in Ch27, four retitles, specs follow the prose](/notes/2026-10-02-outline-revision-merge-titles-as-written.md) — the author's 2026-10-02 rulings on the whole-outline read; caps and overlaps are open inbox 111 and 112.
 
 - [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; its original 098/099 wording proposals were subsequently approved and applied on 2026-10-02.
 - [Ch12 action, Ch13 attention](/notes/2026-09-30-ch12-action-ch13-attention.md) — author's split of Part III's opening pair; prose re-edit pending.

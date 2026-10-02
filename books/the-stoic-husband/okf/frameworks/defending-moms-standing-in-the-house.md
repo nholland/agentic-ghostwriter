@@ -17,7 +17,7 @@ provenance: >
   rather than developed further this session.
 ip: author
 tags: [framework, parenting, boundaries]
-chapter_slugs: [children-exhaustion-and-the-marriage-underneath]
+chapter_slugs: [the-marriage-underneath]
 timestamp: 2026-08-08T00:00:00Z
 ---
 

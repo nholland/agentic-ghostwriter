@@ -7,7 +7,7 @@ description: >
 provenance: Author notes (endurance/divorce framework)
 ip: author-synthesis
 tags: [framework, endurance, divorce, core]
-chapter_slugs: [the-difference-between-endurance-and-cowardice, the-sexless-marriage, betrayal-secrets-and-the-work-of-repair]
+chapter_slugs: [fear-is-not-commitment, the-sexless-marriage, trust-after-betrayal]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

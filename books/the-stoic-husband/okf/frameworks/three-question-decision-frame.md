@@ -7,7 +7,7 @@ description: >
 provenance: Author notes (endurance/divorce framework)
 ip: author-synthesis
 tags: [framework, endurance, divorce]
-chapter_slugs: [the-sexless-marriage, when-faith-values-or-ambition-diverge, the-difference-between-endurance-and-cowardice]
+chapter_slugs: [the-sexless-marriage, when-faith-values-or-ambition-diverge, fear-is-not-commitment]
 timestamp: 2026-06-01T00:00:00Z
 ---
 
