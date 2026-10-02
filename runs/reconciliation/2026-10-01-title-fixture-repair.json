@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-01T22:53:40.865608-05:00",
+  "subjects": [
+    "maintenance:title-fixture"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author approved mandatory title matching in inbox 065; automated completion check identified an invalid geometry fixture.",
+  "reason": "Updated synthetic SVG fixtures to include matching titles and explicitly proved visible and accessible mismatches FAIL; all 292 fixtures pass. No book knowledge changed.",
+  "files": {
+    "tests/export_safety_cases.py": "576b2d890f13c89fe1d950d146e743916f247dc6f689d91917fc2e21442714a7"
+  }
+}
