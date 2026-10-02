@@ -191,3 +191,18 @@ Effects, as the Publisher reads them:
 - **Still undecided by the author:** where the close points; whether the body
   ends on the rejection paragraph. (Length and attraction: see Round 5; attraction
   is answered by the garden line.)
+
+## Round 7: ending, placeholder, Sun-arc direction, 2026-10-02 (author's words)
+
+> 1. I don't know what to do with the placeholder. Let's go with your suggestion.
+> 2. I think we need to end on something stronger. In fact, I think one thing I'd like to do is review everything in the Sun Arc. It should all end on a positive note. The whole point here is to control your appetite and to be thankful. This needs to be a chapter about practicing more gratitude, really relishing the mundane because it matters.
+> 3. See number two.
+>
+> Let's review 11, 12, 13, and 14 again and make sure they seem positive. We will want to kick off sub-agents on this so that we don't overload the context window. I trust you to create a prompt that judges whether or not this is providing men with the guidance they need to be warm and loving.
+
+Effects: Emmons and McCullough placeholder replaced by the Researcher's safest
+candidate (unchecked paraphrase); desire/rejection paragraphs moved above the
+honest-conversation paragraph; body ends on a gratitude paragraph and the
+close "Relish the ordinary days with her, because that is where the marriage
+is lived." Cold reviews of Chapters 11-14 commissioned against warmth and
+positive endings.

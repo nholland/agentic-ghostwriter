@@ -14,7 +14,7 @@ She's getting gray hairs. She doesn't want other people to see them. I love them
 
 I see her most clearly when I'm rested and have time with her as my friend. The other day we went to breakfast. We talked about life, about each other, and about things we'd been thinking about, with no kids and no deadline to race toward. My wife says the best meals are the ones you don't have to cook. An older proverb says hunger is the best sauce. Xenophon puts it in Socrates' mouth, and Seneca lived it: with only poor bread on hand, he waited until hunger made it taste good (*Letters* 123). Anything she makes is enough for me.
 
-You have your own details. Maybe your wife remembers what matters to someone who's having a hard time. Name something true about her, and stay with it long enough to remember why you value it. You don't need to improve her in your imagination before you can appreciate her in your life.
+You have your own details. Name something true about her, and stay with it long enough to remember why you value it. You don't need to improve her in your imagination before you can appreciate her in your life.
 
 ---
 
@@ -36,17 +36,17 @@ This is the discipline of enough: practicing appreciation for the real person yo
 
 ---
 
-**Practice before you need it.** In a 2003 study, psychologists Robert Emmons and Michael McCullough had people write down what they were grateful for. [PLACEHOLDER: one concrete finding from Emmons and McCullough (2003), in plain words, confirmed by the author against the paper.] It wasn't a study of marriages, but it's a reason to practice on purpose.
+**Practice before you need it.** In a 2003 study, psychologists Robert Emmons and Michael McCullough had people write down what they were grateful for. Across three studies, people who listed things they were grateful for reported better well-being on several, though not all, measures than comparison groups, most clearly a better mood. It wasn't a study of marriages, but it's a reason to practice on purpose.
 
 Start small enough that what you write is true. Before you go to bed, write down one thing you valued about your wife that day. Her patience with a child. Her excitement about something she's learning. Choose what you actually noticed, rather than qualities a good wife is supposed to have.
 
 If nothing comes to mind, you haven't failed. Pay attention tomorrow. And if you're upset with her, you don't have to pretend the hurt disappeared. There may still be something you appreciate alongside it.
 
-My family borrowed a gesture from the movie *Avatar*: a fingertip to the forehead and the words "I see you." I say it often. At every meal, I thank the kids and I thank her. I think a lot of it can land as hollow, like an "I love you" said with nothing behind it. A quick thanks isn't the same as appreciation.
+My family borrowed a gesture from the movie *Avatar*: a fingertip to the forehead and the words "I see you." At every meal, I thank the kids and I thank her. I think a lot of it can land as hollow, like an "I love you" said with nothing behind it. A quick thanks isn't the same as appreciation.
 
 Then let some of that appreciation reach her. Tell her what you saw and why it mattered to you. Be specific enough that she knows you paid attention. A wife who has stepped back from a career may miss feeling important, part of a team, or valued by peers, and hearing what you see in her can help.
 
-You can also enjoy things about her that do nothing for you. Her curiosity belongs to her. You get to love a person whose life includes more than meeting your needs.
+You can also enjoy things about her that do nothing for you. You get to love a person whose life includes more than meeting your needs.
 
 ---
 
@@ -54,18 +54,17 @@ You can also enjoy things about her that do nothing for you. Her curiosity belon
 
 Stay in the conversation because you like talking to her. There's room in a responsible life to be glad she's part of it.
 
-Being content with her doesn't mean you stop taking care of yourself. Your health still deserves effort.
+Nor does any of this require her to answer your affection on your schedule. If she's tired or distracted when you tell her, what you said is still true.
 
-Contentment doesn't settle a concern that needs an honest conversation, and gratitude doesn't make recurring hurt harmless. You may wish she asked about your day more, which is worth saying out loud and doesn't stop her from being enough. I don't have a fixed rule for when appreciation is enough and when you need to speak. That takes judgment, and sometimes a difficult conversation. You can love who she is while taking a problem seriously.
+That's harder when your affection includes desire. You can be glad she's your wife and still feel hurt when you reach for her and hear no. Your self-respect doesn't depend on her answer. What you decide is how to treat her while you feel it.
 
-Nor does any of this require her to answer your affection on your schedule. If she's tired or distracted when you tell her, what you said is still true. You don't need her reaction to make it worth saying.
-
-That's harder when your affection includes desire. You can be glad she's your wife and still feel hurt when you reach for her and hear no. Contentment won't spare you that feeling. Your self-respect doesn't depend on her answer. What you decide is how to treat her while you feel it.
+Contentment doesn't settle a concern that needs an honest conversation, and gratitude doesn't make recurring hurt harmless. You may wish she asked about your day more, which is worth saying out loud and doesn't stop her from being enough. I don't have a fixed rule for when appreciation is enough and when you need to speak. You can love who she is while taking a problem seriously.
 
 ---
 
-Keep tending the life you share, including on the days it gives you nothing new to admire.
+Most of your marriage happens in ordinary hours: a meal, a walk, a question about your day. They don't feel like much while you're in them. They are the life you chose. Slow down enough to taste them, because thankfulness is how you keep wanting what you already have.
 
+Relish the ordinary days with her, because that is where the marriage is lived.
 ## Editor's Notes
 
 - metaphor_family: grass, greener, water, waters, watered, watering, tend, tends, tending, tended
@@ -96,6 +95,7 @@ Keep tending the life you share, including on the days it gives you nothing new 
 
 - 2026-10-02 06:17, Round 5-6 rework (author's words only, runs/ch14/interview.md Rounds 5-6): (1) testimony now leads with his own mistake, calling the house hoarding when it feels junky, and the hinge that "hoarder" and "thrifty" name the same trait while attention picks the word; nails-on-a-chalkboard stretch and her lateness anxiety as the second small bother. Light-sleeper, morning-person, trash-fishing lines and the "Enough doesn't mean I enjoy being woken up" paragraph cut for budget; gray hairs kept. (2) Career now "a powerful attorney and a vice president at a public company", sabbatical "about three years". (3) Garden line placed before "She is enough for me."; "Another woman looks different." became "Someone else catches your eye." (4) Breakfast beat added (3 sentences plus her line). (5) Comparison section reworked to spouses on both sides, social media piece-by-piece, two-sided fairness, and "it can be heard well"; nothing attributed to his wife. Fence setup kept before the watering image. (6) "I see you" paragraph added before "Then let some of that appreciation reach her." (7) Two generic sentences: career-step-back sentence in the practice section; "you may wish she asked about your day more" in the honest-conversation paragraph. (8) "My wife says the best meals are the ones you don't have to cook" placed after breakfast. Cuts for budget: research paragraph tightened (placeholder verbatim), comparison trimmed, the "beauty or wit" paragraph reduced to two sentences, three redundant sentences dropped. Untouched: Seneca paragraph, Marcus VI.48, close, rejection/desire paragraph position. Pending: "hunger is the best sauce" left out (Researcher). Judgement calls the author may reverse: "I've told her we live like hoarders" (Round 5 says he complains about it; "told her" assumes it was said to her); "thrifty" chosen over "frugal"; "I think a lot of it can land as hollow" covers the gesture and the mealtime thanks together; her line follows breakfast without explanation. Distillation mechanism paragraph revised for the hinge and the quick-thanks distinction (84 to 80 words); practices unchanged, practice_sync PASS. Placeholder still standing: Emmons and McCullough finding. Counted output below replaces the earlier block and is from this pass.
 - 2026-10-02 06:22, sauce proverb added on the author's word ("Add it"): wife's meals line, then "hunger is the best sauce" as a proverb older than the Stoics (Xenophon, Socrates) that Seneca lived (Letters 123), then the author's own "Anything she makes is enough for me." Source: runs/ch14/hunger-best-sauce-research.md. Not printed as a Stoic saying and not put in quotation marks as anyone's words. The Seneca detail (poor bread, waiting for hunger) is page-text from the Wikisource Gummere, unverified until the author checks his copy. Trimmed four sentences elsewhere (the near-neighbours line after Marcus, "You know very little about any of them", one Seneca question, "Let yourself enjoy her when it happens") to stay within 1,500 words.
+- 2026-10-02 06:46, author's rulings ("I don't know what to do with the placeholder. Let's go with your suggestion."; "we need to end on something stronger ... a chapter about practicing more gratitude, really relishing the mundane because it matters"): the Emmons and McCullough placeholder is replaced by the Researcher's safest candidate, a paraphrase NOT yet checked against the paper (the 'most clearly a better mood' clause is search-level only); the desire/rejection paragraphs moved above the honest-conversation paragraph; the orphan health sentence cut; the body now ends on a gratitude paragraph and a new one-sentence close, 'Relish the ordinary days with her, because that is where the marriage is lived.' Trimmed six sentences to stay within 1,500 words.
 ### Final counted output
 
 ```text

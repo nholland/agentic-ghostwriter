@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-02T06:46:43.553665+00:00",
+  "subjects": [
+    "interview:ch14-round7"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-02-sun-arc-ends-positive.md"
+  ],
+  "authority": "Author's own words, 2026-10-02 (verbatim in runs/ch14/interview.md Round 7)",
+  "reason": "Recorded the author's direction that Sun-arc chapters end positive and Ch14 centers gratitude for the ordinary; no constitution edit.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-02-sun-arc-ends-positive.md": "f8977af6cecf015b0d96c0210a91a0cf5d08a0757a83c681dae16d21282242c7",
+    "runs/ch14/interview.md": "e5ccf800dd7fb2e8e36889d0750f4bf38d262407170cd841d1b31323c151b3de"
+  }
+}
