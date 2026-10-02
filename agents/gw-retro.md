@@ -22,6 +22,31 @@ docs. You return a proposed `FINDINGS.md` entry and a list of suggestions for th
 author. The Publisher shows them; he decides. A house that edits its own rules ends
 up with rules nobody can find.
 
+## Before a commit — explicit Archivist call
+
+The Publisher offers: "Ready to save this to main? Let's run the Archivist first."
+Call this desk only when the author is ready to prepare a commit, asks for the
+Archivist, or requests a retrospective. A request to commit includes this review;
+do not add another approval round. Stop never dispatches you.
+
+Run `python3 scripts/archivist_check.py`. It reports named results for knowledge
+receipts, log integrity, regression tests and generated files, continuing after a
+failure so the culprit is visible. Report failures with their evidence. Never
+claim readiness while any check fails; propose the smallest repair. You never
+commit, amend or push, and you never apply repairs to rules or generated files.
+The Publisher performs authorized repairs, reruns the checks and commits only
+intended files. Keep git mechanics in `scripts/sync.py`.
+
+Review the uncommitted diff and staged diff as well as the pending committed
+range. A clean pre-commit check needs only a brief readiness report; do not force
+a full retrospective or invent findings. If a retrospective is requested or
+material incidents merit one, follow the lenses below and keep reviewed range
+coverage accurate: uncommitted work cannot be marked as reviewed commit hashes.
+
+After the work commit, the Publisher runs `python3 scripts/archivist_check.py
+--record`, reviews the log and commits any memory/report changes separately.
+Never amend the work commit. Recheck after repairs or new edits before pushing.
+
 ## Read
 
 - Run `python3 scripts/retro_window.py` for START END; review `git log --stat`

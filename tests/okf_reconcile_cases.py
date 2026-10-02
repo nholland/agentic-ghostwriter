@@ -81,7 +81,7 @@ def okf_reconcile_cases():
         r = subprocess.run([sys.executable, 'scripts/sync.py', '--push'], cwd=root, capture_output=True, text=True)
         rows.append((r.returncode == 2 and 'unreconciled' in r.stderr, 'OKF sync refuses unreconciled committed work', 'actual push entry point blocks before network write', r.stdout+r.stderr))
         r = subprocess.run(['bash', str(kr.ROOT/'.claude/hooks/session-stop.sh')], cwd=root, capture_output=True, text=True)
-        rows.append((r.returncode == 2 and 'unreconciled' in r.stderr, 'OKF Stop hook refuses unreconciled work', 'actual hook stops before automatic commits', r.stdout+r.stderr))
+        rows.append((r.returncode == 0, 'Stop does not run knowledge checks or commit work', 'knowledge checks remain explicit and still protect sync', r.stdout+r.stderr))
         target=root/'inbox/001-test.md' ;original='---\nid: 001\nstatus: open\n---\n\n# Test\n';target.write_text(original)
         def inbox(*args):
             return subprocess.run([sys.executable,'scripts/inbox.py',*args],cwd=root,capture_output=True,text=True)

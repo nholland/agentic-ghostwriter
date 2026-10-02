@@ -21,7 +21,7 @@ RULES IT ENFORCES
 
 USAGE
     python3 scripts/sync.py --status        # branch, ahead/behind main, uncommitted, unpushed
-    python3 scripts/sync.py --push          # push the current branch (after the Stop hook committed)
+    python3 scripts/sync.py --push          # push the current branch (after explicit checks and commit)
     python3 scripts/sync.py --merge-main    # bring origin/main into this branch (reports conflicts)
     python3 scripts/sync.py --land          # ff-only merge this branch into main, push main
 
@@ -114,7 +114,7 @@ def say_status(s):
 def push(s):
     if s["uncommitted"]:
         print(f"sync: refusing to push with {s['uncommitted']} uncommitted file(s). "
-              f"The Stop hook commits work paths; rule files you commit deliberately.")
+              f"Run the Archivist review, then commit the intended changes explicitly.")
         return 1
     rc, out, err = run("push", "-u", "origin", s["branch"])
     if rc != 0:

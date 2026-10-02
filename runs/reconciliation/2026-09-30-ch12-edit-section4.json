@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-30T12:58:41.528188+00:00",
+  "subjects": [
+    "chapter-edit:ch12-her-currency"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md"
+  ],
+  "authority": "Author, 2026-09-30: \"Yes, apply it as proposed\"",
+  "reason": "Two sentences in the Her currency section reworded so Ch12 reads as effort, not study; the decision is already recorded in the Author Note. No new fact, claim or citation. Interim receipt: a fresh one follows the remaining Ch12 edits.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch12/refined.md": "71570b63ba5ccaa64959d0ca9af58d7643a82312f47d959214f4d7e2ea704b04"
+  }
+}

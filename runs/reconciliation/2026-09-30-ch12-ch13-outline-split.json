@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-30T12:33:41.967608+00:00",
+  "subjects": [
+    "session:2026-09-30-ch12-ch13-split"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md"
+  ],
+  "authority": "Author, 2026-09-30: \"Romance is action, Persuit is interest\"; \"Go and revise the outline.\"",
+  "reason": "Author decision splitting Ch12 (action) and Ch13 (attention) recorded as an Author Note; outline revised. Concept slugs, distillations and plates deliberately untouched until the prose is re-edited.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "a385303e705fee7229fc5aef078e724f3befaaec5d958092525fe773e4c398ff",
+    "books/the-stoic-husband/okf/log.md": "492b3057914b74f194f01580cedb4faf32743b968d04e4d14f6706f6d65b7bc7",
+    "books/the-stoic-husband/okf/index.md": "dadb4d12c2cadfb86245a09f8843989dacd3db4900c9f79273e348eebf3d97aa",
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md": "edeca84bbd442efc916d385c18390268f764e38405fabb73e34423491fc8fba6"
+  }
+}

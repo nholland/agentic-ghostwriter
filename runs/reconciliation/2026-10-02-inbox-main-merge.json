@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-02T00:58:52.304016-05:00",
+  "subjects": [
+    "inbox:098",
+    "inbox:099",
+    "chapter:ch12",
+    "chapter:ch13"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md"
+  ],
+  "authority": "Existing author Inbox approvals and main commit 1edb025/b0885e0 approving the Chapter 12 action / Chapter 13 attention split; author requested commit to main.",
+  "reason": "Merged both approved histories and all knowledge index annotations; retained main replacement Chapter 12 plate and combined distinct guide sections, without new prose or outline decisions.",
+  "files": {
+    "books/the-stoic-husband/okf/index.md": "1fd84bd5952a70c97da2b1f5a94378ec5362c9b69f9963a5161a584f580eb4e6",
+    "books/the-stoic-husband/okf/log.md": "2abec89fe91029979b17837042fd5af30a9cedac5b7cc82ddd9554e108aad0bd",
+    "books/the-stoic-husband/appendix/practice-guide.md": "a2b88771e4b03efe2705164e9d9d15380c945b7c58516f5227f3dce1f244b39e"
+  }
+}

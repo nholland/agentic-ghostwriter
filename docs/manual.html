@@ -604,6 +604,7 @@ visual works in its surrounding text.</p>
   <text x="474" y="348" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7b7884">the source changed and the page did not.</text>
 </svg></div><figcaption>Why this page is generated. Four files once answered one question and three were wrong, each correct on the day it was typed.</figcaption></figure>
 <div class="tbl"><table><thead><tr><th>Script</th><th>Does</th></tr></thead><tbody>
+<tr><td><code>archivist_check.py</code></td><td>Explicit Archivist tools.</td></tr>
 <tr><td><code>bakeoff.py</code></td><td>compare two versions of the same chapter, blind.</td></tr>
 <tr><td><code>build_diagrams_page.py</code></td><td>assemble docs/diagrams.html from docs/diagrams/*.svg.</td></tr>
 <tr><td><code>chapter_pdf.py</code></td><td>Compatibility entry point for the single approved Chromium PDF format.</td></tr>
@@ -673,7 +674,7 @@ visual works in its surrounding text.</p>
 <dt>Shadow run</dt><dd>The house running a chapter's cold stages from a brief the book pipeline produced, in parallel, without touching the book.</dd>
 <dt>The two touches</dt><dd>The interview and the verdict. The design's whole claim.</dd>
 </dl></section>
-<footer><p>This page is <b>derived</b>. The roster, the commands, the thresholds and the scripts are read from the house itself by <code>scripts/manual.py</code>; only the narrative is written by hand. Regenerate with <code>python3 scripts/manual.py</code>. The Stop hook runs <code>--check</code> and says so when the house has changed.</p><p>Source of record: <code>CLAUDE.md</code>, <code>ARCHITECTURE.md</code>, <code>FLOW.md</code>, <code>GAPS.md</code> and <code>FINDINGS.md</code>. Where this page and those disagree, they win.</p></footer>
+<footer><p>This page is <b>derived</b>. The roster, the commands, the thresholds and the scripts are read from the house itself by <code>scripts/manual.py</code>; only the narrative is written by hand. Regenerate with <code>python3 scripts/manual.py</code>. Run <code>--check</code> explicitly after the house has changed; Stop only saves the handoff and releases ownership.</p><p>Source of record: <code>CLAUDE.md</code>, <code>ARCHITECTURE.md</code>, <code>FLOW.md</code>, <code>GAPS.md</code> and <code>FINDINGS.md</code>. Where this page and those disagree, they win.</p></footer>
 </main></div>
 <script>
 (function(){
@@ -793,4 +794,4 @@ visual works in its surrounding text.</p>
   paint();
 })();
 </script>
-<!-- inputs-digest: fc9607c97427b97f -->
+<!-- inputs-digest: 9907a301a594cbc9 -->

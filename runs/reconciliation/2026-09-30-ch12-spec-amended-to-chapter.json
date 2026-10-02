@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-30T14:30:16.324599+00:00",
+  "subjects": [
+    "session:2026-09-30-ch12-spec-amend"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md"
+  ],
+  "authority": "Author, 2026-09-30: chose \"Amend the spec to match the chapter\"",
+  "reason": "Ch12 outline entry (premise, takeaway, key point 1, central story, ah-ha) rewritten to the chapter the author approved 2026-09-18; the wife-question story and the chapter lines are already in the landed Ch12 and its interview record. No new fact or claim.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "10101d678ac75b2a0fab70f721046c9311116b8ebb5e88f062fef655330869ce"
+  }
+}

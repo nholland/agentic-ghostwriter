@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-01T12:33:51.062063+00:00",
+  "subjects": [
+    "session:2026-10-01-merge-main"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-10-01: \"put it on Main\"",
+  "reason": "Merge of origin/main (Chapter 14 work, shared runtimes) into the Ch12/Ch13 branch. Both sides were already reconciled under their own receipts. Only the outline (Ch13 keeps the 2026-09-30 word target, note and boundary; its Transition to Chapter 14 is main's Chapter 14 wording), the OKF index (both notes listed) and the append-only log were combined; no fact, claim or citation added or changed.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "7e433baa8c6d12fff141106878e305726a181f123a27be9a7ea4eb61a24c8ad1",
+    "books/the-stoic-husband/okf/index.md": "8293edd02137e98b502816c2438d2a35539add22a07954fec943e592cd5b676e",
+    "books/the-stoic-husband/okf/log.md": "a15dfbb4e717077ea0ae92526f104c9097ababede4fe3385029470ffc5dd1e24"
+  }
+}

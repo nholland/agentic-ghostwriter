@@ -34,7 +34,7 @@ What you keep doing, you keep. Then he turns it around. Go thirty days without r
 
 ---
 
-**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, with a little mystery and surprise. It runs on study, and you can't win favor with someone you stopped learning about.
+**Her currency, not yours.** Romance is trying to win favor with your wife. It isn't about you, it's about her, with a little mystery and surprise. It runs on effort, and effort only counts in a form she can read.
 
 Your default here is the golden rule: treat her the way you'd want to be treated. A communication researcher, Milton Bennett, named the problem with that in 1979. The golden rule quietly assumes she's built like you. People call his version the platinum rule. Treat her the way she wants to be treated, which means finding out what that is.
 
@@ -50,7 +50,27 @@ So your effort can be real and still land flat. You put your back into something
 
 When love arrives in a form that doesn't land for you, the reflex is to overlook it. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't trading for it, either.
 
-Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is the detail you kept and the question you came back to. It's the small thing that says I still see you rather than I planned something impressive.
+Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is smaller: something done in her language on an ordinary day. It's the small thing that says I still see you rather than I planned something impressive.
+
+---
+
+**Before she asks.** Acts of service are the one I'm worst at, so I know how easy it is to wait until she names the task. You can ask what would help, and you should listen when she answers. But if every kind thing you do starts with her noticing a task, naming it, and reminding you about it, she's still carrying the part that wears her out: keeping track.
+
+You already know the ordinary work of your house. The dishes are visible. Her car is low on gas. There was an errand she mentioned yesterday. Do it so her day gets easier, then let it go without announcing it and without standing beside the finished task waiting for something. A favor handed over with resentment can leave her wishing she'd done it herself. She can ask. She shouldn't have to ask for everything.
+
+Gifts run on the same effort. Once the money is shared, a present bought from the joint account can seem pointless to you. She could have bought it herself. What the gift tells her is that she was on your mind while she wasn't in the room. She pointed out a book weeks ago. She loves a particular pastry and never stops for one. One Friday you come home with both. A note left where she'll find it does the same work and costs nothing.
+
+---
+
+**The last one you did.** Can you name the last romantic thing you did for her? Not the last date you took her on. A date is one evening, and romance is bigger than that. If you have to count back through months to find an answer, you've found your starting place.
+
+In your marriage it might be breakfast made before she's up, a letter, or an afternoon planned around something she likes now. What counts is that the gesture could only have been meant for her.
+
+Anniversaries and Valentine's Day lose their meaning when you handle them by rote. Ten minutes from home you swing into Walgreens for whatever card is left and a box of chocolate that's been on the shelf since Christmas. You remembered the date. You gave almost no thought to the woman you were celebrating.
+
+Spend the same few dollars with a week's notice and you can give her something she'd actually want. Plan the dinner she'd enjoy. Write down one memory that still makes you glad you married her. Start early enough to mean it.
+
+You don't owe the calendar a performance, and a quiet evening at home is an honest way to mark a crowded year. The date matters less than whether you've been thoughtful the rest of the year.
 
 ---
 
@@ -64,4 +84,6 @@ Marcus Aurelius ran the Roman empire and kept a notebook where he argued with hi
 
 ---
 
-She's been waiting to be one of the necessary things, and the muscle that puts her there is one you can start using tonight.
+She's been waiting to be one of the necessary things, and that muscle is one you can start using tonight.
+
+---

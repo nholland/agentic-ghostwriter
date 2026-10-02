@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-09-30T16:00:51.852900+00:00",
+  "subjects": [
+    "chapter:ch12",
+    "chapter:ch13"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md"
+  ],
+  "authority": "Author, 2026-09-30: \"Romance is action, Persuit is interest\"; verdict \"Land both on the branch (Recommended)\"",
+  "reason": "Ch12 and Ch13 re-landed on the branch after the action/attention split; book files recorded post-land. Existing approved material moved between chapters; no new fact, claim or citation. Citation concepts left as landed: land.py staged Ch12 copies were older than the landed Ch13-updated versions and were reverted.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch12/refined.md": "6718344636b08525a9459a95cffcbc2acb6a7e09cf6661dc8113f7235a1aa51c",
+    "books/the-stoic-husband/chapters/ch12/distillation.md": "9877cd7c5ecf620ac7a4ebade06f4cd38eedb346c0517e670ff352e16d921c80",
+    "books/the-stoic-husband/chapters/ch13/refined.md": "b2237292251dd69d6bdd26c359486b958134596b30c065e4fc233f5e090f6a91",
+    "books/the-stoic-husband/chapters/ch13/distillation.md": "2bc3b6f0df576dba505d415be1f722a7be6855388b7f6f2cb273d9568cd84e63",
+    "books/the-stoic-husband/appendix/practice-guide.md": "c8813834d6343f16adb7bfc81976fa80156e67ad6d933863a53f222f7010fa48"
+  }
+}

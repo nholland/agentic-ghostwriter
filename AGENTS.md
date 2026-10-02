@@ -17,7 +17,9 @@ Explicit author instructions take precedence over skill guidelines.
 4. Save unfinished work and failed gate attempts through `runtime_handoff.py`.
    Pending concepts and verdicts, knowledge receipts, and retry limits survive
    runtime changes. Do not let chat acknowledgments substitute for files.
-5. Stop desks and let the shared Stop hook checkpoint and complete the session
-   before switching. If hooks are unavailable, run the equivalent mechanics
+5. Stop desks and let the shared Stop hook save the handoff and release ownership
+   before switching. Suggest the Archivist when work is ready to commit; a commit
+   request includes his pre-commit review. Commits and pushes are explicit.
+   If hooks are unavailable, run the equivalent mechanics
    explicitly and report that limitation. `scripts/sync.py --push` saves this
    branch; name it. Never `--land` without the author's explicit instruction.

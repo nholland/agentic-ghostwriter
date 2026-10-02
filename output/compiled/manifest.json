@@ -1,5 +1,5 @@
 {
-  "built": "2026-10-01T00:49:17.507607-05:00",
+  "built": "2026-10-01T12:33:33.115257+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-14, relevant Arc openings and plates",
   "unapproved_chapters": [
     14
@@ -38,12 +38,12 @@
     "books/the-stoic-husband/chapters/ch11/refined.md": "a6ee778810cc2d664683184dcd242574a81f45bcddcd558d22b46c9c472a0879",
     "books/the-stoic-husband/chapters/ch11/distillation.md": "160f6d77e9865560615b0333f6dd6ab19e7f8adf154c2dd670810715e353b8a7",
     "runs/ch11/plate.svg": "d02f4fe6a929ff7e038710ec9f71e72d34a13a0680d4e398571a40ab3963f0c3",
-    "books/the-stoic-husband/chapters/ch12/refined.md": "9cd6ef58818338336ce938e69a63db13c4252a1b50a30c09fc2ff4ddf24d0588",
-    "books/the-stoic-husband/chapters/ch12/distillation.md": "95e7814ae1e73c53d49558a8bae7bf0dc7dda4ad0fc3fdf694c9db6fe2edb3c5",
+    "books/the-stoic-husband/chapters/ch12/refined.md": "6718344636b08525a9459a95cffcbc2acb6a7e09cf6661dc8113f7235a1aa51c",
+    "books/the-stoic-husband/chapters/ch12/distillation.md": "9877cd7c5ecf620ac7a4ebade06f4cd38eedb346c0517e670ff352e16d921c80",
     "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
-    "books/the-stoic-husband/chapters/ch13/refined.md": "df6d1ac0629bc2bdf8723fae7e26469c8040f59fa3bdce93f283a3165f483c2c",
-    "books/the-stoic-husband/chapters/ch13/distillation.md": "4577dbdb3e8cc82839d8c9b40533624096a187ae2630baf2e3af1773aa6ba005",
-    "runs/ch13/plate.svg": "775f5917c0e75c36b12c092569ad8aefe592025a8d19f42af9ba6881d64bd0eb",
+    "books/the-stoic-husband/chapters/ch13/refined.md": "b2237292251dd69d6bdd26c359486b958134596b30c065e4fc233f5e090f6a91",
+    "books/the-stoic-husband/chapters/ch13/distillation.md": "2bc3b6f0df576dba505d415be1f722a7be6855388b7f6f2cb273d9568cd84e63",
+    "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
     "runs/ch14/refined.md": "8fb33f746d3fcad79d6001a14cbd5ceb691d7c37f1262d9fc043a1af4fe1072f",
     "runs/ch14/distillation.md": "81db8374124390737a3c47ac0195784c6764b32d4839353885038b1a3dbe6f67",
     "runs/ch14/plate.svg": "8c6083720996a7922e6e95a0e0345081583848269725aeafc39a2e418dfa0497"
@@ -69,7 +69,7 @@
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-10-01T00:49:17.507238-05:00",
+    "built": "2026-10-01T12:33:33.114401+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -140,11 +140,11 @@
       {
         "id": "ch12",
         "title": "The Thing With No Deadline",
-        "approved_identical_copy": false
+        "approved_identical_copy": true
       },
       {
         "id": "ch13",
-        "title": "Keep Choosing Her in Ways She Can See",
+        "title": "Keep learning her after you've won her",
         "approved_identical_copy": true
       },
       {
@@ -174,10 +174,10 @@
       "runs/ch11/plate.svg": "d02f4fe6a929ff7e038710ec9f71e72d34a13a0680d4e398571a40ab3963f0c3",
       "books/the-stoic-husband/parts/plate-2-sturdy-oak.svg": "f516b87ea7ff924f0e7c026dc3234e9ab13908809d8ceaa21f4ab05e11f9082e",
       "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
-      "runs/ch13/plate.svg": "775f5917c0e75c36b12c092569ad8aefe592025a8d19f42af9ba6881d64bd0eb",
+      "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
       "runs/ch14/plate.svg": "8c6083720996a7922e6e95a0e0345081583848269725aeafc39a2e418dfa0497",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
-      "runs/design/plate-briefs.md": "f936c0529e59ce3644ffe09d819da6bb50ce2a7ec8bdb29d264e6cfeeb291101"
+      "runs/design/plate-briefs.md": "7eb4e997c35c94349ef04a09c4cd7a37cedef4de08058dbfe3c3d044392f913c"
     }
   },
   "plates": {
@@ -215,7 +215,7 @@
       "approved_identical_copy": false
     },
     "ch12": {
-      "approved_identical_copy": false
+      "approved_identical_copy": true
     },
     "ch13": {
       "approved_identical_copy": true

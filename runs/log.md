@@ -241,14 +241,14 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
-## 2026-09-14 14:11 — `claude/gateway-sgjaao` @ `f064e6a` — 1 commit(s) this session
-- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
-
-**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
-
 ## 2026-09-14 14:11 — `claude/dreamy-gates-52bn4v` @ `d9758ff` — 1 commit(s) this session
 - `docs/manual.html`
 - `scripts/manual.py`
+
+**Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
+
+## 2026-09-14 14:11 — `claude/gateway-sgjaao` @ `f064e6a` — 1 commit(s) this session
+- `inbox/005-gottman-four-horsemen-md-is-status-verified-with.md`
 
 **Next:** `/gw 12` — Chapter 12 has not started in either pipeline.
 
@@ -413,7 +413,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `scripts/next.py`
 - `skills/gw-inbox/SKILL.md`
 
-**Next:** `?` — 
+**Next:** `?` —
 
 ## 2026-09-15 10:12 — `claude/dreamy-gates-52bn4v` — 7 commit(s) this session
 - `.claude/hooks/session-stop.sh`
@@ -564,7 +564,7 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `.claude/agents/gw-retro.md`
 - `agents/gw-retro.md`
 
-**Next:** `?` — 
+**Next:** `?` —
 
 ## 2026-09-15 16:02 — `claude/gateway-iqyyso` — 1 commit(s) this session
 - `runs/ch12/interview.md`
@@ -577,6 +577,13 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 stopped at research (research.md missing).
 
+## 2026-09-15 17:03 — `claude/gateway-iqyyso` — 2 commit(s) this session
+- `runs/ch12/interview.md`
+- `runs/log.md`
+- `runs/parked.md`
+
+**Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
+
 ## 2026-09-15 17:03 — `claude/gateway-iqyyso` — 4 commit(s) this session
 - `runs/ch12/interview.md`
 - `runs/ch12/okf/citations/bennett-1979-platinum-rule.md`
@@ -588,13 +595,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/ch12/okf/citations/perceived-partner-responsiveness-reis.md`
 - `runs/ch12/okf/citations/selterman-2019-infidelity-motivations.md`
 - `runs/ch12/research.md`
-- `runs/log.md`
-- `runs/parked.md`
-
-**Next:** `/gw 12` — Chapter 12 stopped at draft (draft.md missing).
-
-## 2026-09-15 17:03 — `claude/gateway-iqyyso` — 2 commit(s) this session
-- `runs/ch12/interview.md`
 - `runs/log.md`
 - `runs/parked.md`
 
@@ -805,14 +805,11 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
-## 2026-09-15 17:58 — `claude/gateway-iqyyso` — 24 commit(s) this session
+## 2026-09-15 17:58 — `claude/gateway-iqyyso` — 22 commit(s) this session
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
 - `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
-- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
-- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
-- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
 - `runs/appendix/practice-guide.md`
 - `runs/ch12/brief-gaps.md`
 - `runs/ch12/conformance-refined.md`
@@ -836,11 +833,14 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
-## 2026-09-15 17:58 — `claude/gateway-iqyyso` — 22 commit(s) this session
+## 2026-09-15 17:58 — `claude/gateway-iqyyso` — 24 commit(s) this session
 - `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
 - `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
 - `inbox/010-the-platinum-rule-is-a-registered-trademark-deci.md`
 - `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
+- `inbox/012-chapter-11-already-runs-chapter-12-s-central-mec.md`
+- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
+- `inbox/014-your-date-admission-is-cushioned-in-front-of-its.md`
 - `runs/appendix/practice-guide.md`
 - `runs/ch12/brief-gaps.md`
 - `runs/ch12/conformance-refined.md`
@@ -1342,14 +1342,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
 
-## 2026-09-18 18:34 — `claude/gateway-tmjrgm` — ? commit(s) this session
-- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
-- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
-- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
-- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
-
-**Next:** `?` —
-
 ## 2026-09-18 18:34 — `claude/gateway-iqyyso` — 2 commit(s) this session
 - `.claude/agents/gw-retro.md`
 - `.claude/hooks/session-stop.sh`
@@ -1370,6 +1362,14 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `tests/run.py`
 
 **Next:** `/gw 12` — Chapter 12 is refined and waiting on your verdict.
+
+## 2026-09-18 18:34 — `claude/gateway-tmjrgm` — ? commit(s) this session
+- `inbox/008-chapter-12-has-no-scene-may-the-ghostwriter-buil.md`
+- `inbox/009-the-platinum-paragraph-needs-one-concrete-instan.md`
+- `inbox/011-a-desk-overrode-a-ruling-key-point-1-was-kept-in.md`
+- `inbox/013-chapter-12-defines-resentment-against-chapter-6-.md`
+
+**Next:** `?` —
 
 ## 2026-09-18 18:35 — `claude/gateway-iqyyso` — 3 commit(s) this session
 - `.claude/agents/gw-retro.md`
@@ -3093,6 +3093,27 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 
 **Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
 
+## 2026-09-22 22:48 — `codex/ch11-plain-language` — 1 commit(s) this session
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
+- `books/the-stoic-husband/chapters/ch11/distillation.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `output/pdf/Chapter-11-Speak-or-Endure-Review-Draft.pdf`
+- `runs/appendix/practice-guide.md`
+- `runs/ch11/distillation.md`
+- `runs/ch11/plain-language-brief.md`
+- `runs/ch11/plain-language-distillation.md`
+- `runs/ch11/plain-language-draft.md`
+- `runs/ch11/plain-language-practices.md`
+- `runs/ch11/plain-language-review.md`
+- `runs/ch11/plain-language-voice-proposal.md`
+- `runs/ch11/plain-language-voice-proposal.patch`
+- `runs/ch11/refined.md`
+- `runs/ch11/verdict.md`
+- `runs/notes.md`
+
+**Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
+
 ## 2026-09-22 22:54 — `claude/gateway-45bnh4` — 7 commit(s) this session
 - `inbox/087-the-part-i-redraw-was-meant-to-remove-the-empty-.md`
 - `inbox/089-both-part-plate-drafts-now-carry-a-title-and-par.md`
@@ -3115,27 +3136,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `runs/retro/2026-09-22-canyon-chain-close.md`
 - `runs/retro/2026-09-22-canyon-void.md`
 - `runs/retro/2026-09-22-double-correction.md`
-
-**Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
-
-## 2026-09-22 22:48 — `codex/ch11-plain-language` — 1 commit(s) this session
-- `books/the-stoic-husband/appendix/practice-guide.md`
-- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
-- `books/the-stoic-husband/chapters/ch11/distillation.md`
-- `books/the-stoic-husband/chapters/ch11/refined.md`
-- `output/pdf/Chapter-11-Speak-or-Endure-Review-Draft.pdf`
-- `runs/appendix/practice-guide.md`
-- `runs/ch11/distillation.md`
-- `runs/ch11/plain-language-brief.md`
-- `runs/ch11/plain-language-distillation.md`
-- `runs/ch11/plain-language-draft.md`
-- `runs/ch11/plain-language-practices.md`
-- `runs/ch11/plain-language-review.md`
-- `runs/ch11/plain-language-voice-proposal.md`
-- `runs/ch11/plain-language-voice-proposal.patch`
-- `runs/ch11/refined.md`
-- `runs/ch11/verdict.md`
-- `runs/notes.md`
 
 **Next:** `/gw 1` — Chapter 1 stopped at interview (interview.md missing).
 
@@ -3231,6 +3231,153 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 183 more
 
 **Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-24 07:43 — `claude/gateway-wjdjn1` — 13 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/retro-check.sh`
+- `.claude/skills/gw-chapter/SKILL.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `.claude/skills/gw-qa/SKILL.md`
+- `.claude/skills/gw/SKILL.md`
+- `FINDINGS.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/manuscript.md`
+- `books/the-stoic-husband/manuscript.pdf`
+- `books/the-stoic-husband/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
+- `books/the-stoic-husband/okf/citations/gable-et-al-2004-capitalization.md`
+- `books/the-stoic-husband/okf/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md`
+- `books/the-stoic-husband/okf/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md`
+- `books/the-stoic-husband/okf/citations/neff-buck-2023-stress-partner-perception.md`
+- `books/the-stoic-husband/okf/citations/neff-nguyen-williamson-2021-stress-noticing-support.md`
+- `books/the-stoic-husband/okf/citations/perceived-partner-responsiveness-reis.md`
+- `books/the-stoic-husband/okf/citations/perel-novelty-curiosity-and-familiarity.md`
+- `books/the-stoic-husband/okf/citations/perel-otherness-and-desire.md`
+- `books/the-stoic-husband/okf/citations/reis-et-al-2010-responsive-good-news-listening.md`
+- `books/the-stoic-husband/okf/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-58-heraclitus-river-and-change.md`
+- `books/the-stoic-husband/okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md`
+- `books/the-stoic-husband/okf/frameworks/affection-without-attention.md`
+- … and 185 more
+
+**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-24 07:45 — `claude/gateway-wjdjn1` — 15 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/retro-check.sh`
+- `.claude/skills/gw-chapter/SKILL.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `.claude/skills/gw-qa/SKILL.md`
+- `.claude/skills/gw/SKILL.md`
+- `FINDINGS.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/manuscript.md`
+- `books/the-stoic-husband/manuscript.pdf`
+- `books/the-stoic-husband/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
+- `books/the-stoic-husband/okf/citations/gable-et-al-2004-capitalization.md`
+- `books/the-stoic-husband/okf/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md`
+- `books/the-stoic-husband/okf/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md`
+- `books/the-stoic-husband/okf/citations/neff-buck-2023-stress-partner-perception.md`
+- `books/the-stoic-husband/okf/citations/neff-nguyen-williamson-2021-stress-noticing-support.md`
+- `books/the-stoic-husband/okf/citations/perceived-partner-responsiveness-reis.md`
+- `books/the-stoic-husband/okf/citations/perel-novelty-curiosity-and-familiarity.md`
+- `books/the-stoic-husband/okf/citations/perel-otherness-and-desire.md`
+- `books/the-stoic-husband/okf/citations/reis-et-al-2010-responsive-good-news-listening.md`
+- `books/the-stoic-husband/okf/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-58-heraclitus-river-and-change.md`
+- `books/the-stoic-husband/okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md`
+- `books/the-stoic-husband/okf/frameworks/affection-without-attention.md`
+- … and 186 more
+
+**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-24 07:46 — `claude/gateway-wjdjn1` — 17 commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/retro-check.sh`
+- `.claude/skills/gw-chapter/SKILL.md`
+- `.claude/skills/gw-compile/SKILL.md`
+- `.claude/skills/gw-qa/SKILL.md`
+- `.claude/skills/gw/SKILL.md`
+- `FINDINGS.md`
+- `GAPS.md`
+- `agents/gw-designer.md`
+- `agents/gw-retro.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/manuscript.md`
+- `books/the-stoic-husband/manuscript.pdf`
+- `books/the-stoic-husband/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
+- `books/the-stoic-husband/okf/citations/gable-et-al-2004-capitalization.md`
+- `books/the-stoic-husband/okf/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md`
+- `books/the-stoic-husband/okf/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md`
+- `books/the-stoic-husband/okf/citations/neff-buck-2023-stress-partner-perception.md`
+- `books/the-stoic-husband/okf/citations/neff-nguyen-williamson-2021-stress-noticing-support.md`
+- `books/the-stoic-husband/okf/citations/perceived-partner-responsiveness-reis.md`
+- `books/the-stoic-husband/okf/citations/perel-novelty-curiosity-and-familiarity.md`
+- `books/the-stoic-husband/okf/citations/perel-otherness-and-desire.md`
+- `books/the-stoic-husband/okf/citations/reis-et-al-2010-responsive-good-news-listening.md`
+- `books/the-stoic-husband/okf/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-58-heraclitus-river-and-change.md`
+- `books/the-stoic-husband/okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md`
+- `books/the-stoic-husband/okf/frameworks/affection-without-attention.md`
+- … and 187 more
+
+**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
+
+## 2026-09-27 16:20 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
+- `runs/qa/2026-09-27-jev-applicability-233-fixtures-tests.txt`
+- `runs/qa/2026-09-27-jev-applicability-233-fixtures.md`
+- `runs/reconciliation/2026-09-27-jev-platform-research.json`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-27 16:31 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
+- `books/the-stoic-husband/parking-lot.md`
+- `runs/qa/2026-09-27-jev-meaning-preservation-design.md`
+- `runs/qa/2026-09-27-jev-meaning-preservation-request.json`
+- `runs/reconciliation/2026-09-27-jev-exploration-design.json`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-27 16:48 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
+- `.claude/agents/gw-designer.md`
+- `.claude/agents/gw-factchecker.md`
+- `.claude/agents/gw-ghostwriter.md`
+- `.claude/agents/gw-lineeditor.md`
+- `.claude/agents/gw-panel.md`
+- `.claude/agents/gw-publicist.md`
+- `.claude/agents/gw-researcher.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/agents/gw-slopreader.md`
+- `.claude/agents/gw-specchecker.md`
+- `.claude/settings.json`
+- `agents/gw-designer.md`
+- `agents/gw-factchecker.md`
+- `agents/gw-ghostwriter.md`
+- `agents/gw-lineeditor.md`
+- `agents/gw-panel.md`
+- `agents/gw-publicist.md`
+- `agents/gw-researcher.md`
+- `agents/gw-retro.md`
+- `agents/gw-slopreader.md`
+- `agents/gw-specchecker.md`
+- `runs/qa/2026-09-27-opus55-default-10-desks.md`
+- `runs/reconciliation/2026-09-27-opus55-default.json`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
 
 ## 2026-09-27 19:57 — `claude/gateway-2hbp6i` — ? commit(s) this session
 - `inbox/062-land-py-copies-a-chapter-plate-into-books-with-n.md`
@@ -3470,151 +3617,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - … and 119 more
 
 **Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
-## 2026-09-24 07:43 — `claude/gateway-wjdjn1` — 13 commit(s) this session
-- `.claude/agents/gw-designer.md`
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/retro-check.sh`
-- `.claude/skills/gw-chapter/SKILL.md`
-- `.claude/skills/gw-compile/SKILL.md`
-- `.claude/skills/gw-qa/SKILL.md`
-- `.claude/skills/gw/SKILL.md`
-- `FINDINGS.md`
-- `GAPS.md`
-- `agents/gw-designer.md`
-- `agents/gw-retro.md`
-- `books/the-stoic-husband/03-outline.md`
-- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
-- `books/the-stoic-husband/citation-queue.md`
-- `books/the-stoic-husband/manuscript.md`
-- `books/the-stoic-husband/manuscript.pdf`
-- `books/the-stoic-husband/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
-- `books/the-stoic-husband/okf/citations/gable-et-al-2004-capitalization.md`
-- `books/the-stoic-husband/okf/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md`
-- `books/the-stoic-husband/okf/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md`
-- `books/the-stoic-husband/okf/citations/neff-buck-2023-stress-partner-perception.md`
-- `books/the-stoic-husband/okf/citations/neff-nguyen-williamson-2021-stress-noticing-support.md`
-- `books/the-stoic-husband/okf/citations/perceived-partner-responsiveness-reis.md`
-- `books/the-stoic-husband/okf/citations/perel-novelty-curiosity-and-familiarity.md`
-- `books/the-stoic-husband/okf/citations/perel-otherness-and-desire.md`
-- `books/the-stoic-husband/okf/citations/reis-et-al-2010-responsive-good-news-listening.md`
-- `books/the-stoic-husband/okf/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md`
-- `books/the-stoic-husband/okf/citations/seneca-letter-58-heraclitus-river-and-change.md`
-- `books/the-stoic-husband/okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md`
-- `books/the-stoic-husband/okf/frameworks/affection-without-attention.md`
-- … and 185 more
-
-**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
-
-## 2026-09-24 07:45 — `claude/gateway-wjdjn1` — 15 commit(s) this session
-- `.claude/agents/gw-designer.md`
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/retro-check.sh`
-- `.claude/skills/gw-chapter/SKILL.md`
-- `.claude/skills/gw-compile/SKILL.md`
-- `.claude/skills/gw-qa/SKILL.md`
-- `.claude/skills/gw/SKILL.md`
-- `FINDINGS.md`
-- `GAPS.md`
-- `agents/gw-designer.md`
-- `agents/gw-retro.md`
-- `books/the-stoic-husband/03-outline.md`
-- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
-- `books/the-stoic-husband/citation-queue.md`
-- `books/the-stoic-husband/manuscript.md`
-- `books/the-stoic-husband/manuscript.pdf`
-- `books/the-stoic-husband/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
-- `books/the-stoic-husband/okf/citations/gable-et-al-2004-capitalization.md`
-- `books/the-stoic-husband/okf/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md`
-- `books/the-stoic-husband/okf/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md`
-- `books/the-stoic-husband/okf/citations/neff-buck-2023-stress-partner-perception.md`
-- `books/the-stoic-husband/okf/citations/neff-nguyen-williamson-2021-stress-noticing-support.md`
-- `books/the-stoic-husband/okf/citations/perceived-partner-responsiveness-reis.md`
-- `books/the-stoic-husband/okf/citations/perel-novelty-curiosity-and-familiarity.md`
-- `books/the-stoic-husband/okf/citations/perel-otherness-and-desire.md`
-- `books/the-stoic-husband/okf/citations/reis-et-al-2010-responsive-good-news-listening.md`
-- `books/the-stoic-husband/okf/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md`
-- `books/the-stoic-husband/okf/citations/seneca-letter-58-heraclitus-river-and-change.md`
-- `books/the-stoic-husband/okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md`
-- `books/the-stoic-husband/okf/frameworks/affection-without-attention.md`
-- … and 186 more
-
-**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
-
-## 2026-09-24 07:46 — `claude/gateway-wjdjn1` — 17 commit(s) this session
-- `.claude/agents/gw-designer.md`
-- `.claude/agents/gw-retro.md`
-- `.claude/hooks/retro-check.sh`
-- `.claude/skills/gw-chapter/SKILL.md`
-- `.claude/skills/gw-compile/SKILL.md`
-- `.claude/skills/gw-qa/SKILL.md`
-- `.claude/skills/gw/SKILL.md`
-- `FINDINGS.md`
-- `GAPS.md`
-- `agents/gw-designer.md`
-- `agents/gw-retro.md`
-- `books/the-stoic-husband/03-outline.md`
-- `books/the-stoic-husband/chapters/ch11/Chapter-11-Speak-or-Endure.pdf`
-- `books/the-stoic-husband/citation-queue.md`
-- `books/the-stoic-husband/manuscript.md`
-- `books/the-stoic-husband/manuscript.pdf`
-- `books/the-stoic-husband/okf/citations/aron-et-al-2000-novel-arousing-activities.md`
-- `books/the-stoic-husband/okf/citations/gable-et-al-2004-capitalization.md`
-- `books/the-stoic-husband/okf/citations/garcia-rada-sezer-norton-2019-relationship-rituals.md`
-- `books/the-stoic-husband/okf/citations/laurenceau-barrett-rovine-2005-marital-intimacy.md`
-- `books/the-stoic-husband/okf/citations/neff-buck-2023-stress-partner-perception.md`
-- `books/the-stoic-husband/okf/citations/neff-nguyen-williamson-2021-stress-noticing-support.md`
-- `books/the-stoic-husband/okf/citations/perceived-partner-responsiveness-reis.md`
-- `books/the-stoic-husband/okf/citations/perel-novelty-curiosity-and-familiarity.md`
-- `books/the-stoic-husband/okf/citations/perel-otherness-and-desire.md`
-- `books/the-stoic-husband/okf/citations/reis-et-al-2010-responsive-good-news-listening.md`
-- `books/the-stoic-husband/okf/citations/scheibehenne-mata-todd-2011-partner-preference-accuracy.md`
-- `books/the-stoic-husband/okf/citations/seneca-letter-58-heraclitus-river-and-change.md`
-- `books/the-stoic-husband/okf/citations/thomas-carnelley-hart-2022-phubbing-retaliation.md`
-- `books/the-stoic-husband/okf/frameworks/affection-without-attention.md`
-- … and 187 more
-
-**Next:** `/gw 13` — Chapter 13 is refined and waiting on your verdict.
-## 2026-09-27 16:20 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
-- `runs/qa/2026-09-27-jev-applicability-233-fixtures-tests.txt`
-- `runs/qa/2026-09-27-jev-applicability-233-fixtures.md`
-- `runs/reconciliation/2026-09-27-jev-platform-research.json`
-
-**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
-
-## 2026-09-27 16:31 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
-- `books/the-stoic-husband/parking-lot.md`
-- `runs/qa/2026-09-27-jev-meaning-preservation-design.md`
-- `runs/qa/2026-09-27-jev-meaning-preservation-request.json`
-- `runs/reconciliation/2026-09-27-jev-exploration-design.json`
-
-**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
-
-## 2026-09-27 16:48 — `session/inbox-audit-2026-09-25` — ? commit(s) this session
-- `.claude/agents/gw-designer.md`
-- `.claude/agents/gw-factchecker.md`
-- `.claude/agents/gw-ghostwriter.md`
-- `.claude/agents/gw-lineeditor.md`
-- `.claude/agents/gw-panel.md`
-- `.claude/agents/gw-publicist.md`
-- `.claude/agents/gw-researcher.md`
-- `.claude/agents/gw-retro.md`
-- `.claude/agents/gw-slopreader.md`
-- `.claude/agents/gw-specchecker.md`
-- `.claude/settings.json`
-- `agents/gw-designer.md`
-- `agents/gw-factchecker.md`
-- `agents/gw-ghostwriter.md`
-- `agents/gw-lineeditor.md`
-- `agents/gw-panel.md`
-- `agents/gw-publicist.md`
-- `agents/gw-researcher.md`
-- `agents/gw-retro.md`
-- `agents/gw-slopreader.md`
-- `agents/gw-specchecker.md`
-- `runs/qa/2026-09-27-opus55-default-10-desks.md`
-- `runs/reconciliation/2026-09-27-opus55-default.json`
-
-**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
 
 ## 2026-09-27 23:38 — `codex/shared-runtimes` — 1 commit(s) this session
 - `.agents/skills/gw`
@@ -3648,179 +3650,6 @@ Appended by the Stop hook. Every line is read from git or the oracle; nothing he
 - `.claude/skills/gw-found/SKILL.md`
 - `.claude/skills/gw-inbox/SKILL.md`
 - … and 55 more
-
-**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
-
-## 2026-09-30 07:46 — `codex/shared-runtimes` — 1 commit(s) this session
-- `books/the-stoic-husband/citation-queue.md`
-- `books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md`
-- `books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md`
-- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
-- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
-- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
-- `books/the-stoic-husband/okf/index.md`
-- `books/the-stoic-husband/okf/log.md`
-- `runs/ch14/brief-gaps.md`
-- `runs/ch14/handoff-note.md`
-- `runs/ch14/interview.md`
-- `runs/ch14/okf/citations/emmons-mccullough-2003-counting-blessings.md`
-- `runs/ch14/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch14/okf/citations/koo-et-al-2008-mental-subtraction.md`
-- `runs/ch14/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
-- `runs/ch14/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
-- `runs/ch14/outline-proposal.md`
-- `runs/ch14/proposed-concepts.md`
-- `runs/ch14/research.md`
-- `runs/handoff.json`
-- `runs/reconciliation/2026-09-29-ch14-mindset-final.json`
-
-**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
-
-## 2026-09-30 08:36 — `codex/shared-runtimes` — 2 commit(s) this session
-- `books/the-stoic-husband/citation-queue.md`
-- `books/the-stoic-husband/okf/citations/bertolotti-having-enough-source-audit.md`
-- `books/the-stoic-husband/okf/citations/david-rebt-flexible-preferences.md`
-- `books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md`
-- `books/the-stoic-husband/okf/citations/epictetus-wealth-few-wants-attribution-gap.md`
-- `books/the-stoic-husband/okf/citations/epicurus-via-seneca-letter-21-7-desires.md`
-- `books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md`
-- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
-- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
-- `books/the-stoic-husband/okf/citations/seneca-letter-16-7-9-limits-of-desire.md`
-- `books/the-stoic-husband/okf/citations/seneca-letter-2-6-enough.md`
-- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
-- `books/the-stoic-husband/okf/index.md`
-- `books/the-stoic-husband/okf/log.md`
-- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
-- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
-- `runs/ch14/brief-gaps.md`
-- `runs/ch14/handoff-note.md`
-- `runs/ch14/interview.md`
-- `runs/ch14/new-source-intake.md`
-- `runs/ch14/okf/citations/bertolotti-having-enough-source-audit.md`
-- `runs/ch14/okf/citations/david-rebt-flexible-preferences.md`
-- `runs/ch14/okf/citations/emmons-mccullough-2003-counting-blessings.md`
-- `runs/ch14/okf/citations/epictetus-wealth-few-wants-attribution-gap.md`
-- `runs/ch14/okf/citations/epicurus-via-seneca-letter-21-7-desires.md`
-- `runs/ch14/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
-- `runs/ch14/okf/citations/koo-et-al-2008-mental-subtraction.md`
-- `runs/ch14/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
-- `runs/ch14/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
-- … and 9 more
-
-**Next:** `/gw inbox` — Chapter 14 is parked on a question only you can answer.
-
-
-## 2026-09-30 — Chapter 14 appreciation direction approved
-
-The author ruled, “Yes, use the newer direction.” The Publisher revised the
-constitutional outline and OKF framework in commit `655c3d5` (message quotes
-the ruling), recorded reconciliation in
-`runs/reconciliation/2026-09-30-ch14-direction.json`, and closed inbox 105
-and 106. A cold Line Editor refined the shadow draft into five sections, a
-distillation and synchronized practice-guide entry. Independent counted
-voice check and practice sync pass. The isolated refined conformance review
-passes 12/12, with the saying's unknown attribution left explicit. Cold
-scoped persona and qualitative adjacent-chapter reviews found no essential
-repairs. The Panel selected plate concept A; the rendered plate passed visual
-inspection and its standalone Panel read passed. One final designer format
-pass remains. Chapter 14 awaits only final packet assembly and the author's
-verdict; no prose or plate is landed.
-
-## 2026-09-30 17:53 — `codex/shared-runtimes` — 2 commit(s) this session
-- `FINDINGS.md`
-- `books/the-stoic-husband/03-outline.md`
-- `books/the-stoic-husband/05-framework.md`
-- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
-- `books/the-stoic-husband/okf/index.md`
-- `books/the-stoic-husband/okf/log.md`
-- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
-- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
-- `output/compiled/README.md`
-- `output/compiled/assets/book.html`
-- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
-- `output/compiled/assets/chapters/ch14-plate.png`
-- `output/compiled/assets/chapters/ch14.html`
-- `output/compiled/assets/distillations.html`
-- `output/compiled/assets/manuscript.md`
-- `output/compiled/assets/plate-ch04.png`
-- `output/compiled/assets/plate-ch12.png`
-- `output/compiled/assets/plate-ch14.png`
-- `output/compiled/assets/plates.html`
-- `output/compiled/assets/runs-ch04-plate.png`
-- `output/compiled/assets/runs-ch08-plate.png`
-- `output/compiled/assets/runs-ch13-plate.png`
-- `output/compiled/assets/runs-ch14-plate.png`
-- `output/compiled/book.pdf`
-- `output/compiled/chapters/ch14.pdf`
-- `output/compiled/distillations.pdf`
-- `output/compiled/manifest.json`
-- `output/compiled/plates.pdf`
-- `runs/appendix/practice-guide.md`
-- `runs/ch14/brief-gaps.md`
-- … and 33 more
-
-**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
-
-## 2026-09-30 23:30 — Chapter 14 plate recognition redraw
-
-The author called the existing plate unrecognizable. The Designer proposed
-three distinct carriers; the cold Reader Panel picked A and asked for “a kinder
-answer” beside the water so behavior and image connect. The Designer replaced
-the ambiguous boxlike vessel and disconnected streams with a visibly tilted
-watering can, drops landing on grass and the behavior label. One initial margin
-failure was fixed and recorded in runtime handoff state. A fresh rendered PNG
-was visually inspected; the final 11-row Publisher check passes. The cold
-standalone read passes, while retaining a possible transactional interpretation
-as a secondary risk. The Designer's final checklist is complete. The updated
-seven-page Chapter 14 PDF was rendered and inspected; its chapter/book HTML
-package checks pass. The all-book review collections were regenerated, with
-existing check warnings/failures on other draft plates outside this chapter.
-Chapter 14 still awaits author verdict and is not landed.
-
-- `runs/ch14/plate.svg`
-- `runs/ch14/plate-notes.md`
-- `runs/ch14/plate-read.md`
-- `output/compiled/chapters/ch14.pdf`
-
-**Next:** Present the Chapter 14 review package for the author’s verdict; do not land without it.
-
-Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines. These were reconstructed from that commit’s changed files and the entry’s stated pending verdict; no historical entry was lost.
-
-## 2026-09-30 23:34 — `codex/shared-runtimes` — 5 commit(s) this session
-- `FINDINGS.md`
-- `books/the-stoic-husband/03-outline.md`
-- `books/the-stoic-husband/05-framework.md`
-- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
-- `books/the-stoic-husband/okf/index.md`
-- `books/the-stoic-husband/okf/log.md`
-- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
-- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
-- `output/compiled/README.md`
-- `output/compiled/assets/book.html`
-- `output/compiled/assets/books-the-stoic-husband-parts-plate-1-steady-river.png`
-- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
-- `output/compiled/assets/chapters/ch14-plate.png`
-- `output/compiled/assets/chapters/ch14.html`
-- `output/compiled/assets/distillations.html`
-- `output/compiled/assets/manuscript.md`
-- `output/compiled/assets/plate-ch01.png`
-- `output/compiled/assets/plate-ch02.png`
-- `output/compiled/assets/plate-ch04.png`
-- `output/compiled/assets/plate-ch05.png`
-- `output/compiled/assets/plate-ch07.png`
-- `output/compiled/assets/plate-ch08.png`
-- `output/compiled/assets/plate-ch13.png`
-- `output/compiled/assets/plate-ch14.png`
-- `output/compiled/assets/plates.html`
-- `output/compiled/assets/runs-ch01-plate.png`
-- `output/compiled/assets/runs-ch04-plate.png`
-- `output/compiled/assets/runs-ch10-plate.png`
-- `output/compiled/assets/runs-ch14-plate.png`
-- `output/compiled/book.pdf`
-- … and 39 more
 
 **Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
 
@@ -4127,6 +3956,266 @@ Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines
 
 **Next:** `/gw 14` — Chapter 14 has not started.
 
+## 2026-09-30 07:46 — `codex/shared-runtimes` — 1 commit(s) this session
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `runs/ch14/brief-gaps.md`
+- `runs/ch14/handoff-note.md`
+- `runs/ch14/interview.md`
+- `runs/ch14/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `runs/ch14/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch14/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- `runs/ch14/outline-proposal.md`
+- `runs/ch14/proposed-concepts.md`
+- `runs/ch14/research.md`
+- `runs/handoff.json`
+- `runs/reconciliation/2026-09-29-ch14-mindset-final.json`
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-30 08:36 — `codex/shared-runtimes` — 2 commit(s) this session
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/okf/citations/bertolotti-having-enough-source-audit.md`
+- `books/the-stoic-husband/okf/citations/david-rebt-flexible-preferences.md`
+- `books/the-stoic-husband/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `books/the-stoic-husband/okf/citations/epictetus-wealth-few-wants-attribution-gap.md`
+- `books/the-stoic-husband/okf/citations/epicurus-via-seneca-letter-21-7-desires.md`
+- `books/the-stoic-husband/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `books/the-stoic-husband/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-16-7-9-limits-of-desire.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-2-6-enough.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
+- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
+- `runs/ch14/brief-gaps.md`
+- `runs/ch14/handoff-note.md`
+- `runs/ch14/interview.md`
+- `runs/ch14/new-source-intake.md`
+- `runs/ch14/okf/citations/bertolotti-having-enough-source-audit.md`
+- `runs/ch14/okf/citations/david-rebt-flexible-preferences.md`
+- `runs/ch14/okf/citations/emmons-mccullough-2003-counting-blessings.md`
+- `runs/ch14/okf/citations/epictetus-wealth-few-wants-attribution-gap.md`
+- `runs/ch14/okf/citations/epicurus-via-seneca-letter-21-7-desires.md`
+- `runs/ch14/okf/citations/gordon-et-al-2012-gratitude-relationship-maintenance.md`
+- `runs/ch14/okf/citations/koo-et-al-2008-mental-subtraction.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-6-48-neighbors-virtues.md`
+- `runs/ch14/okf/citations/marcus-aurelius-meditations-7-27-present-goods.md`
+- … and 9 more
+
+**Next:** `/gw inbox` — Chapter 14 is parked on a question only you can answer.
+
+## 2026-09-30 12:33 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `books/the-stoic-husband/okf/notes/2026-09-30-ch12-action-ch13-attention.md`
+- `runs/reconciliation/2026-09-30-ch12-ch13-outline-split.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 12:58 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `runs/reconciliation/2026-09-30-ch12-edit-section4.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 13:23 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `runs/reconciliation/2026-09-30-ch12-edit-before-she-asks.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 13:34 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `runs/ch12/distillation-split.md`
+- `runs/ch12/refined-split.md`
+- `runs/ch12/split-input.md`
+- `runs/ch13/distillation-split.md`
+- `runs/ch13/refined-split.md`
+- `runs/ch13/split-input.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 14:31 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/03-outline.md`
+- `runs/reconciliation/2026-09-30-ch12-spec-amended-to-chapter.json`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 14:41 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `runs/ch13/distillation.md`
+- `runs/ch13/plate-pick.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 14:51 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `runs/ch13/pdf/plate.png`
+- `runs/ch13/plate-notes.md`
+- `runs/ch13/plate.svg`
+- `runs/design/plate-briefs.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 15:12 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `runs/ch13/pdf/plate-phone.png`
+- `runs/ch13/pdf/plate.png`
+- `runs/ch13/plate-notes.md`
+- `runs/ch13/plate-read.md`
+- `runs/ch13/plate.svg`
+- `runs/design/plate-briefs.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 16:01 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `books/the-stoic-husband/chapters/ch13/distillation.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/design/plates/keep-choosing-her-in-ways-she-can-see.svg`
+- `books/the-stoic-husband/design/plates/keep-learning-her-after-you-ve-won-her.svg`
+- `runs/ch13/verdict.md`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 17:28 — `ccr-01ea6933-n9cd72` — ? commit(s) this session
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/chapters/ch12.html`
+- `output/compiled/assets/chapters/ch13-plate.png`
+- `output/compiled/assets/chapters/ch13.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch13.png`
+- `output/compiled/assets/plates.html`
+- `output/compiled/assets/runs-ch13-plate.png`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch12.pdf`
+- `output/compiled/chapters/ch13.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+
+**Next:** `/gw 14` — Chapter 14 has not started.
+
+## 2026-09-30 17:53 — `codex/shared-runtimes` — 2 commit(s) this session
+- `FINDINGS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/05-framework.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
+- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
+- `output/compiled/README.md`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
+- `output/compiled/assets/chapters/ch14-plate.png`
+- `output/compiled/assets/chapters/ch14.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch04.png`
+- `output/compiled/assets/plate-ch12.png`
+- `output/compiled/assets/plate-ch14.png`
+- `output/compiled/assets/plates.html`
+- `output/compiled/assets/runs-ch04-plate.png`
+- `output/compiled/assets/runs-ch08-plate.png`
+- `output/compiled/assets/runs-ch13-plate.png`
+- `output/compiled/assets/runs-ch14-plate.png`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch14.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+- `runs/appendix/practice-guide.md`
+- `runs/ch14/brief-gaps.md`
+- … and 33 more
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-30 23:30 — Chapter 14 plate recognition redraw
+
+The author called the existing plate unrecognizable. The Designer proposed
+three distinct carriers; the cold Reader Panel picked A and asked for “a kinder
+answer” beside the water so behavior and image connect. The Designer replaced
+the ambiguous boxlike vessel and disconnected streams with a visibly tilted
+watering can, drops landing on grass and the behavior label. One initial margin
+failure was fixed and recorded in runtime handoff state. A fresh rendered PNG
+was visually inspected; the final 11-row Publisher check passes. The cold
+standalone read passes, while retaining a possible transactional interpretation
+as a secondary risk. The Designer's final checklist is complete. The updated
+seven-page Chapter 14 PDF was rendered and inspected; its chapter/book HTML
+package checks pass. The all-book review collections were regenerated, with
+existing check warnings/failures on other draft plates outside this chapter.
+Chapter 14 still awaits author verdict and is not landed.
+
+- `runs/ch14/plate.svg`
+- `runs/ch14/plate-notes.md`
+- `runs/ch14/plate-read.md`
+- `output/compiled/chapters/ch14.pdf`
+
+**Next:** Present the Chapter 14 review package for the author’s verdict; do not land without it.
+
+Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines. These were reconstructed from that commit’s changed files and the entry’s stated pending verdict; no historical entry was lost.
+
+## 2026-09-30 23:34 — `codex/shared-runtimes` — 5 commit(s) this session
+- `FINDINGS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/05-framework.md`
+- `books/the-stoic-husband/okf/frameworks/the-discipline-of-enough.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `inbox/105-for-chapter-14-may-the-governing-outline-be-revi.md`
+- `inbox/106-for-chapter-14-do-you-accept-the-proposed-apprec.md`
+- `output/compiled/README.md`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-1-steady-river.png`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
+- `output/compiled/assets/chapters/ch14-plate.png`
+- `output/compiled/assets/chapters/ch14.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch01.png`
+- `output/compiled/assets/plate-ch02.png`
+- `output/compiled/assets/plate-ch04.png`
+- `output/compiled/assets/plate-ch05.png`
+- `output/compiled/assets/plate-ch07.png`
+- `output/compiled/assets/plate-ch08.png`
+- `output/compiled/assets/plate-ch13.png`
+- `output/compiled/assets/plate-ch14.png`
+- `output/compiled/assets/plates.html`
+- `output/compiled/assets/runs-ch01-plate.png`
+- `output/compiled/assets/runs-ch04-plate.png`
+- `output/compiled/assets/runs-ch10-plate.png`
+- `output/compiled/assets/runs-ch14-plate.png`
+- `output/compiled/book.pdf`
+- … and 39 more
+
+**Next:** `/gw 13` — Chapter 13 stopped at review (review input changed or empty: refined.md).
+
+## 2026-09-30 — Chapter 14 appreciation direction approved
+
+The author ruled, “Yes, use the newer direction.” The Publisher revised the
+constitutional outline and OKF framework in commit `655c3d5` (message quotes
+the ruling), recorded reconciliation in
+`runs/reconciliation/2026-09-30-ch14-direction.json`, and closed inbox 105
+and 106. A cold Line Editor refined the shadow draft into five sections, a
+distillation and synchronized practice-guide entry. Independent counted
+voice check and practice sync pass. The isolated refined conformance review
+passes 12/12, with the saying's unknown attribution left explicit. Cold
+scoped persona and qualitative adjacent-chapter reviews found no essential
+repairs. The Panel selected plate concept A; the rendered plate passed visual
+inspection and its standalone Panel read passed. One final designer format
+pass remains. Chapter 14 awaits only final packet assembly and the author's
+verdict; no prose or plate is landed.
+
 ## 2026-10-01 00:52 — `codex/shared-runtimes` — 67 commit(s) this session
 - `.claude/skills/gw-chapter/SKILL.md`
 - `FINDINGS.md`
@@ -4244,6 +4333,31 @@ Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines
 - `scripts/plate_check.py`
 - `skills/gw-plate/SKILL.md`
 - `tests/export_safety_cases.py`
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
+
+## 2026-10-01 22:56 — `codex/fix-writer-ownership` — ? commit(s) this session
+- `.claude/RUNTIME.md`
+- `.claude/agents/gw-retro.md`
+- `.claude/hooks/session-stop.sh`
+- `.claude/skills/gw/SKILL.md`
+- `.codex/agents/gw-retro.toml`
+- `AGENTS.md`
+- `CLAUDE.md`
+- `README.md`
+- `agents/gw-retro.md`
+- `docs/manual.html`
+- `scripts/archivist_check.py`
+- `scripts/manual.py`
+- `scripts/runtime_hook.py`
+- `scripts/session_log.py`
+- `scripts/sync.py`
+- `skills/gw/SKILL.md`
+- `tests/archivist_cases.py`
+- `tests/okf_reconcile_cases.py`
+- `tests/ownership_lifecycle_cases.py`
+- `tests/run.py`
+- `tests/runtime_cases.py`
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
 

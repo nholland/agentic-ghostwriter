@@ -8,9 +8,9 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 
 ## Chapter 12 — Romance Is a Discipline
 
-1. **Proactive.** Once a week, on a set day, ask what actually counted that week and whether anything you did was for her alone. If nothing was, the week made that call for you.
-2. **Reactive.** When she tells you about something she's dreading, write down the day it lands, and ask her about it again on that day. Coming back to it is what says you were listening.
-3. **Reactive.** Name your own lowest language out loud, and check it against hers. The one you'd never think of is usually the one she reads best.
+1. **Proactive.** Once a week, on a set day, name the last romantic thing you did for her. Not the last date. If you have to count back through months to find one, that's where you start this week.
+2. **Reactive.** When you see a task she'd otherwise have to notice and name, like the dishes, her gas tank, or the errand she mentioned yesterday, do it before she asks. Then let it go without announcing it.
+3. **Proactive.** Name your own lowest language out loud, and check it against hers. The one you'd never think of is usually the one she reads best.
 
 ## Chapter 11 — Speak or Endure
 
@@ -21,9 +21,9 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 
 ## Chapter 13 — Pursue Her After You Have Her
 
-1. **Proactive.** Once a week, choose one thing she would enjoy or benefit from based on something you noticed. Plan and carry it through yourself, whether it is an errand, a small gift, or time together.
+1. **Proactive.** Once a week, ask her one question about her life that you can't already answer. Remember what she tells you, and bring it up again later.
 2. **Reactive.** When she invites you to spend time together, put your phone away and give her your attention. If your mind wanders, come back to the moment you agreed to share.
-3. **Proactive.** Before an anniversary or Valentine's Day, recall something she enjoys now and plan a gesture around it. Give yourself enough time to make it personal.
+3. **Proactive.** At the end of each week, name one thing she handled that you noticed, and tell her you saw it.
 
 ## Chapter 14 — The Discipline of Enough
 

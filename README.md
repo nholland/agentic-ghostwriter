@@ -67,7 +67,7 @@ comparison would test the old desks while reporting on the new ones.
 
 ## Derived files
 
-These files are generated, and each is checked by the Stop hook rather than by
+These files are generated. Check them explicitly after relevant edits rather than by
 anyone remembering:
 
 | Run | Derives | Check |

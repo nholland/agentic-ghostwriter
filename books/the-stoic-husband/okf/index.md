@@ -307,6 +307,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 - [Chapter plate style](/notes/2026-10-01-chapter-plate-style.md) — approved chapter style, copy cap and drawn Lesson; universal symbol dictionary declined.
 
 - [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; its original 098/099 wording proposals were subsequently approved and applied on 2026-10-02.
+- [Ch12 action, Ch13 attention](/notes/2026-09-30-ch12-action-ch13-attention.md) — author's split of Part III's opening pair; prose re-edit pending.
 - [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage. Extended to Chapter 14 in its opening interview: how a man should love.
 
 ## Logs
