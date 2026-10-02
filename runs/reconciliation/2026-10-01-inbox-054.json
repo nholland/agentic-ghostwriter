@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-01T23:03:08.330348-05:00",
+  "subjects": [
+    "inbox:054"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md"
+  ],
+  "authority": "Author: Approved, after viewing the replacement Tipping Scale SVG.",
+  "reason": "Replaced contradictory older diagram with the exact reviewed two-scale SVG; recorded visual approval against the existing framework.",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md": "f3505624cca7ff3628f345737cbb41eee1863a8b976f9350a5c04983aea42b98",
+    "books/the-stoic-husband/okf/log.md": "c9269f0aa8a6eecc2ce0acbbe569738b5196daad7dc8eaeb4e48ee655e794fb1",
+    "books/the-stoic-husband/design/plates/README.md": "16e20b3a0859e6fc3a433ef909bcbfb1cf2fee493c47486030db276c62a89851",
+    "books/the-stoic-husband/design/plates/tipping-scale.svg": "34d60c46f0c1a41fe43cb8fbad3b8af1d29d1a928f848063dc7ecc67cf7bf30a",
+    "runs/ch08/plate-notes.md": "224ad447c78f2add2c7885fddadbd27bf7713b0a0c78cd6025a48128a57507cf"
+  }
+}

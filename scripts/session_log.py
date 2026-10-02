@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-session_log.py - mechanical session memory. Appended by the Stop hook.
+session_log.py - mechanical session memory. Updated explicitly by the Archivist after the work commit.
 
 WHY MECHANICAL
     The book repo's progress.md is hand-written by each command: a timestamp, what
@@ -119,7 +119,7 @@ def main():
     new = not os.path.isfile(LOG)
     with open(LOG, "a", encoding="utf-8") as fh:
         if new:
-            fh.write("# Session log\n\nAppended by the Stop hook. Every line is read from git or the oracle; "
+            fh.write("# Session log\n\nUpdated explicitly by the Archivist after the work commit. Every line is read from git or the oracle; "
                      "nothing here is typed by hand, so nothing here can carry a wrong date or a stale next.\n")
         # No SHA. It was the only field here that could stop resolving: 13 of 23
         # recorded SHAs were already dead by 2026-09-14, orphaned by the amends

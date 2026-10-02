@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-01T23:49:10.093682-05:00",
+  "subjects": [
+    "inbox:059"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-style.md"
+  ],
+  "authority": "Author: Yes, to the five presented chapter-only style principles.",
+  "reason": "Applied the approved chapter-style reference; original broader proposal and arc-specific rules were not ratified.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-style.md": "d4adb3acf170b4d7a064192e1a468e453fb117a7a2f3b51082a1642fcbef1254",
+    "books/the-stoic-husband/design/plates/README.md": "058f1f4b2bdf786201fc98c98afeb82bdc375333f91d8dbbd9e16d30c654d1e4",
+    "books/the-stoic-husband/okf/index.md": "b0643536e4cb81ecd275e25b0f6811b879977d6237a826f0b2cdff2c845955e4",
+    "books/the-stoic-husband/okf/log.md": "f1c6ce4532780e3eca53c72e7b2a66189944ed6f7750fb999f5f2f42555d267e"
+  }
+}

@@ -4,7 +4,7 @@ Maintained editorial briefs for Chapters 1–13 and Parts I–III. Show the imag
 
 The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-summaries.md`. It described an earlier set of images; this file follows the current SVGs and chapter sources. Chapter 13 and the Part III plate remain working material.
 
-## ch01 | The Three-Second Window
+## ch01 | The Gap
 
 **Intent:** The moment between her words and your reply is a chance to choose your response instead of repeating an old habit.
 

@@ -95,13 +95,10 @@ The specific rules matter less than you'd think. Another couple's list would
 look different and work fine. What matters is that the list holds, and holds
 is a word that only means something under pressure.
 
-What the list protects is the part of a marriage that doesn't repair. People
-keep things. If you call your wife something ugly at eleven at night, she will
-still have that sentence five years from now, long after you've both forgotten
-what the fight was even about. If it ever gets physical, she keeps that for
-good, and so does the marriage. Some things don't wash out. The list is there
-so the worst night the two of you ever have still leaves a marriage standing
-in the morning.
+The list protects trust that can take years to rebuild. An ugly sentence can
+stay with her long after you've both forgotten what the fight was about.
+An apology matters, and so does what you do after it. The list is there to
+keep you from making a hard night into harm you both have to live with.
 
 Three things will lean on it.
 
@@ -133,14 +130,19 @@ submitting to him in all things, patiently receiving his reproaches, his
 correction. But he is a bad father. Is your natural tie, then, to a good
 father? No, but to a father."*
 
-He's talking about a son and a hard parent, and the reasoning carries straight
-over. What you owe comes from the relationship, not from the other person's
-scorecard. You're not her husband on the condition that she has a good week.
-That was never the deal, and if it were, it wouldn't be a boundary. It'd be a
-trade.
+He's talking about a son and a hard parent. The part that belongs here is
+your responsibility for your own conduct. Her crossing a line doesn't give
+you permission to cross it too.
 
-A trade is void the moment the other side stops paying. A boundary isn't,
-because it was never a payment. It's who you said you'd be.
+You can refuse to call her names and also end a conversation in which she's
+calling you names. Say what you're doing: "I want to talk about this, but I
+won't keep going while we're insulting each other. Let's come back to it
+after dinner." Then come back when you said you would, if it's safe.
+
+If it keeps happening, name the pattern and seek help rather than treating
+each incident as another test of your patience. If you're afraid or someone
+gets physical, getting to safety comes first. Holding your own standard
+doesn't require staying in harm's way.
 
 You hold it anyway.
 
@@ -323,3 +325,16 @@ Verified by literal script count of the chapter body, run after the final edit, 
 ### Structural Flag
 
 **This chapter depends on a Part II preamble that doesn't exist yet.** The mechanism runs in plain language on the assumption that the elements reach the reader once per Part. Parked as #27. If that preamble is never written, this is the chapter that quietly loses its grounding.
+
+
+### Local revision — inbox 099, 2026-10-02
+
+Author verdict: “Approved” to the two prepared Chapter 10 passages in
+runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md. Applied only those two
+prose replacements: trust can take years to rebuild, and keeping his conduct
+standard does not require accepting mistreatment. The ancient quotations and
+reader-facing closing are unchanged. All HARD prose voice checks pass. The
+Line Editor refreshed the distillation; the three practices remain supported
+and identical. The isolated conformance check reports unrelated questions
+in unchanged material, recorded in the OKF finding and inbox 101 rather than
+silently treated as a whole-chapter PASS.

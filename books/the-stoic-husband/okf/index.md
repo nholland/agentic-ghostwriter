@@ -86,24 +86,24 @@ research unless explicitly noted under `# Citations`.
 - [The Negative Rumination Loop](/frameworks/the-negative-rumination-loop.md) — reflection can curdle into rumination unless governed toward what is yours to correct
 - [Small Rocks, Big Rocks (Incompatible Scoreboards)](/frameworks/small-rocks-big-rocks.md) — each spouse's ledger weighs different categories of contribution, so neither can be "settled" against the other
 - [The Six Ledgers of Scorekeeping](/frameworks/six-ledgers-of-scorekeeping.md) — the categories a marriage ledger actually gets kept in
-- [Scorekeeping Is Contagious](/frameworks/scorekeeping-is-contagious.md) — one spouse's felt injustice triggers the other's own ledger, turning one grievance into two parallel audits
+- [Scorekeeping Is Contagious](/frameworks/scorekeeping-is-contagious.md) — competing ledgers can obstruct hearing two real burdens; historical gratitude contrast qualified by inbox 098’s joint workload response
 - [Scorekeeping Varies by Marriage](/frameworks/scorekeeping-varies-by-marriage.md) — scorekeeping is a dial, not a universal; some marriages run an active ledger, others barely register the concept
 - [Emotional Weather — Shared Categories, Not "Her Mood"](/frameworks/emotional-weather-shared-categories.md) — negative-affect examples should draw from anxiety/fear/dread/grief/exhaustion, categories that hit both partners, not default to "her mood"
 - [Married but Lonely (The Signal, Not the Verdict)](/frameworks/married-but-lonely-signal-not-verdict.md) — feeling lonely inside a marriage is data about the intimate bond, not a verdict on the relationship — includes the guilt of feeling lonely despite having a partner
 - [Bounded Generosity, Not Obligation](/frameworks/bounded-generosity-not-obligation.md) — initiation can precede desire, ~weekly is a reference point not a quota, and the answer to asymmetric desire is care-motivated engagement bounded on both sides — not obligation, not total refusal
 - [The River, the Oak, and the Sun](/frameworks/the-river-the-oak-and-the-sun.md) — the book's core organizing metaphor: calm adaptability, dependable strength, deliberate warmth — plus the five-part failure-mode taxonomy and closing formula
-- [Four Types of Unfairness](/frameworks/four-types-of-unfairness.md) — input/output imbalance, the double standard, sideways comparison, and backward historical debt — four different mechanisms behind "this isn't fair," each needing a different response
+- [Four Types of Unfairness](/frameworks/four-types-of-unfairness.md) — four unfairness mechanisms; approved practical response to real workload/capacity/duration imbalance with a request and review (inbox 098)
 - [Temperament Asymmetry (Who Cares More Wins)](/frameworks/temperament-asymmetry-who-cares-more-wins.md) — a fifth, trait-level mechanism: reactivity and industriousness spectrums where natural disposition, not any single decision, silently allocates outcomes and workload
 - [The Four Virtues Applied to Speaking](/frameworks/four-virtues-applied-to-speaking.md) — the Virtue Question's four practical virtues, reapplied specifically to the decision of whether, when, and how to voice a want; Ch9's anchor, reusable throughout the book's communication throughline
 - [Avoiding Unhappiness Breeds Apathy, Not Peace](/frameworks/avoiding-unhappiness-breeds-apathy.md) — many men stay silent from exhaustion and risk-aversion, not fear of disappointing her specifically; the trade doesn't produce peace, it produces apathy
-- [The Bucket (Unscheduled Labor)](/frameworks/the-bucket-unscheduled-labor.md) — Ch6's mechanism for why non-recurring tasks (the rattling ceiling fan, the one-off errand) go structurally uncounted, and why that blindness worsens the longer a marriage runs
-- [The Tipping Scale](/frameworks/the-tipping-scale.md) — Ch8's mechanism for how dozens of individually-too-small-to-name things accumulate into a felt sense of unfairness that surfaces all at once, feeling sudden when it never was
+- [The Bucket (Unscheduled Labor)](/frameworks/the-bucket-unscheduled-labor.md) — Ch6's unseen unscheduled-work model; qualified to preserve actual overload as another source of resentment (inbox 098)
+- [The Tipping Scale](/frameworks/the-tipping-scale.md) — Ch8's mechanism for how dozens of individually-too-small-to-name things accumulate into a felt sense of unfairness that surfaces all at once, feeling sudden when it never was; naming alone does not resolve actual overload, which needs the approved joint workload response (inbox 098).
 - [The Hedonic Treadmill (and Miswanting)](/frameworks/the-hedonic-treadmill.md) — Ch27's ("The Discipline of Joy") evidence base for why achievement alone doesn't produce lasting gladness, and why savoring and specific gratitude do — corrected from a social-media source that got several claims wrong or outdated
 - [The Discipline of Enough](/frameworks/the-discipline-of-enough.md) — Ch14's approved practice of attention, appreciation, gratitude and care for a changing wife; comparison and moving standards are supporting pressures.
 - [Align on What You're Protecting, Not on the Rule](/frameworks/align-on-what-youre-protecting.md) — Ch10; two people who disagree about a rule argue about the rule and get nowhere; naming what it protects relocates the disagreement to ground where agreement is possible
 - [Peace Versus the Thing You Were Protecting](/frameworks/peace-versus-the-thing-you-were-protecting.md) — Ch10; the tired-parent trade: give in for an hour of quiet, call it picking your battles, and end up arguing with each other instead of the kids
 - [The Cup — A Two-Way Boundary With Friends](/frameworks/the-cup-two-way-friend-boundary.md) — Ch10, doesn't fill friends' opinion of his wife with complaints, doesn't let friends fill his with contempt for her either
-- [Boundary vs. Preference — Protecting a Purpose, Not a Want](/frameworks/boundary-vs-preference.md) — Ch10's sharpened discernment test: can he name what the boundary actually protects?
+- [Boundary vs. Preference — Protecting a Purpose, Not a Want](/frameworks/boundary-vs-preference.md) — Ch10's discernment test, conduct without retaliation, safe response to violations and trust that may take years to rebuild (inbox 099).
 - [The Slide Starts Before the Line — Bright-Line Boundaries Set in Advance](/frameworks/bright-line-boundaries-before-temptation.md) — Ch22's preventive-boundary mechanism against the infidelity slow-slide, moved out of Ch10 at the author's request
 - [Defending Mom's Standing in the House](/frameworks/defending-moms-standing-in-the-house.md) — parked for Ch21, moved out of Ch10 at the author's request
 - [The Oak's Boundary — Strength That Makes Growth Possible](/frameworks/the-oaks-boundary.md) — Ch10's corrected central mechanism: boundary strength is what makes growth possible, not the opposite of it; direct, non-stacked use of the book's own core Oak metaphor
@@ -209,7 +209,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Cloud & Townsend — Boundaries (Property-Line Metaphor)](/citations/cloud-townsend-boundaries.md) — status: verifiable — Ch10 Tier 2, secular anchor for "distance isn't cruelty" and the Law of Sowing and Reaping behind the one-time loan
 - [Tawwab — Set Boundaries, Find Peace (Boundary as What You Will Do)](/citations/tawwab-set-boundaries-find-peace.md) — status: verifiable — Ch10 Tier 3, paraphrased script language for the direct in-law conversation
 - [Epictetus, Enchiridion 33 — Lay Down Your Character in Advance](/citations/epictetus-enchiridion-33-character-in-advance.md) — status: verifiable / verbatim — **Ch10's spine**: a boundary is decided before the pressure arrives and held in every room; the sentence immediately preceding the silence material Ch9 used
-- [Epictetus, Enchiridion 30 — Duties Are Measured by Relations](/citations/epictetus-enchiridion-30-relational-duties.md) — status: verifiable / verbatim — Ch10's second anchor; your side of the relation holds regardless of the other person's conduct (Tier 1's hardest beat, and Tier 3's in-laws)
+- [Epictetus, Enchiridion 30 — Duties Are Measured by Relations](/citations/epictetus-enchiridion-30-relational-duties.md) — status: verifiable / verbatim — Ch10's conduct anchor, limited by the approved distinction between nonretaliation and accepting mistreatment; also Tier 3's in-laws.
 - [Epictetus, Discourses III.16 — The Soot and the Charcoal](/citations/epictetus-discourses-3-16-social-contagion.md) — status: verifiable / verbatim — Ch10 Tier 1, optional single use for the gossip pressure; replaces the contested Christakis & Fowler statistics
 - [Pillemer — The Five Major Stressors in Long Marriages](/citations/pillemer-five-major-stressors.md) — status: verifiable / none — Ch10 corroboration in one line: three of Pillemer's five stressors are this chapter's three tiers
 - [Brené Brown — Clear Is Kind, Unclear Is Unkind](/citations/brown-clear-is-kind.md) — status: verifiable / verbatim — Ch10's "clarity is kindness" frame; added after the conformance gate flagged the phrasing unattributed twice across two rebuilds. One appearance only, not a recurring source
@@ -289,13 +289,24 @@ Reader responses, logged as `type: Reader Signal` concepts by `/gw-signal`.
 
 ## Findings
 
-None yet. Actionable findings from `/gw-qa` — the Reader Panel's four personas
+- [Chapter 6 and 8 conformance follow-up](/findings/sweep-ch06-ch08-inbox-098-conformance.md) — open outline/older-content questions after approved workload correction; Chapter 8’s estimated count corrected by script.
+
+- [Chapter 10 conformance follow-up](/findings/sweep-ch10-inbox-099-conformance.md) — open provisional questions in unchanged material; word-count concern resolved; review scope remains in inbox 101.
+
+Actionable findings from `/gw-qa` — the Reader Panel's four personas
 and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 `type: QA Finding` concepts.
 
 ## Notes
 
-- [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; 098/099 wording remains pending.
+- [Inline chapter visuals](/notes/2026-10-01-inline-chapter-visuals.md) — inline-visual commissions and approved Chapter 1 plate/inline arrangement; Designer exploration queued in inbox 110.
+
+- [Chapter plate title rule and detail choices](/notes/2026-10-01-chapter-plate-titles.md) — approved Mechanism titles and Chapter 12’s TONIGHT/early-square choices; separate redesign verdicts remain pending.
+- [Superseded plate label questions](/notes/2026-10-01-superseded-plate-label-questions.md) — author retired inbox 061 and 067’s obsolete chapter questions; newer drawings’ review status is unchanged.
+- [Arc plates deferred](/notes/2026-10-01-arc-plates-deferred.md) — arc/Part plate designs and placement parked until the arcs are complete; shown drafts not approved.
+- [Chapter plate style](/notes/2026-10-01-chapter-plate-style.md) — approved chapter style, copy cap and drawn Lesson; universal symbol dictionary declined.
+
+- [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; its original 098/099 wording proposals were subsequently approved and applied on 2026-10-02.
 - [Ch12 action, Ch13 attention](/notes/2026-09-30-ch12-action-ch13-attention.md) — author's split of Part III's opening pair; prose re-edit pending.
 - [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage. Extended to Chapter 14 in its opening interview: how a man should love.
 

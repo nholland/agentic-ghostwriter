@@ -287,3 +287,12 @@ loving her". Neither was in this round's brief. The first is worth a ruling: the
 Conversation sentence has the number in it and the plate has none, but the
 `digits` row warns on numerals, so it would have to be the word *five*, which the
 checker treats as prose and passes.
+
+
+## Detail approval — inbox 068, 2026-10-01
+
+The author viewed the current redraw and replied “Approved” to keeping bold
+TONIGHT and the three early squares as illustrative earlier efforts, without
+claiming an exact count. Both choices already appear in runs/ch12/plate.svg.
+This approval covers these two details; it does not replace the book plate
+with the whole redraw. The OKF record is notes/2026-10-01-chapter-plate-titles.md.

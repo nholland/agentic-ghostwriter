@@ -52,7 +52,7 @@ dispatched** in your reply so the author knows who is working.
 | The Reader Panel | `gw-panel` | Skeptic, beta readers, tension, continuity |
 | The Publicist | `gw-publicist` | Substack, social, positioning, pitch |
 | The Designer | `gw-designer` | One plate per chapter, in the book's established visual style |
-| The Archivist | `gw-retro` | Reviews each session cold through five lenses - broke, missing, too hard, worked, recurs - and suggests only if necessary. Proposes desks, checks, deletions as readily as rules. Never applies. |
+| The Archivist | `gw-retro` | Pre-commit checks and session records; cold retrospectives when called. Reports readiness or failures and proposes repairs. Never commits, pushes or applies rule changes. |
 
 Every agent is prefixed `gw-` for a mechanical reason: project `.claude/agents/`
 definitions **override same-named plugin agents**, so a desk called `editor` here
@@ -65,9 +65,13 @@ Production is scripts and hooks, not a desk: `resolve_book.py`, `next.py`,
 
 **Git and sessions are production, never a desk.** Every git failure in the old
 pipeline's incident archive was a model following rule text; every fix was a check
-that ran on its own. So: the SessionStart hook handles branches, the Stop hook
-commits work paths and writes `runs/log.md`, and `sync.py` does the rest and names
-the branch every time. A "session agent" would be the failure mode with a title.
+that ran on its own. The SessionStart hook handles branches. The Stop hook
+only saves the handoff and releases ownership. Run relevant checks during work
+and before publishing; commits, session logging and pushes are explicit.
+When work is ready to save, suggest running the Archivist first. On a commit or
+main request, call `gw-retro` for pre-commit review, then commit explicitly and
+use `sync.py` for the authorized push or land. The Archivist owns the checks;
+the Publisher owns git mechanics. `sync.py` names the branch every time.
 
 ---
 

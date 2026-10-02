@@ -21,7 +21,7 @@ WHY NO "DOCUMENTARIAN" DESK
     a desk whose mandate is remembering is the same mechanism that failed. This
     follows the rule CLAUDE.md states for git: every failure there was a model
     following rule text, and every fix was a check that ran on its own. So the
-    manual is derived by this script and a --check runs from the Stop hook.
+    manual is derived by this script and run --check explicitly after relevant edits.
     sync_plugin_layout.py's docstring says it plainly: any file that calls itself
     derived must have a script deriving it, and any check that calls itself
     enforcement must have a caller.
@@ -70,7 +70,7 @@ DIAGRAMS = os.path.join(REPO, "docs", "diagrams")
 
 sys.path.insert(0, HERE)
 from manual_content import (IN_SESSION, DESK_NOTES, GATES, PHRASES,  # noqa: E402
-                            FOUNDATION_ROLES, ARTIFACTS)
+                            FOUNDATION_ROLES, ARTIFACTS, VISUALS)
 
 
 # ---------------------------------------------------------------------------
@@ -617,6 +617,17 @@ header.mast{padding-bottom:2rem}
 .fig svg{display:block;width:100%;height:auto;min-width:560px}
 .fig figcaption{margin-top:.7rem;font-size:.9rem;color:var(--ink-3);max-width:64ch}
 .tbl{overflow-x:auto;margin:1rem 0 1.4rem}
+@media (max-width:600px){
+  #visuals .tbl{overflow:visible}
+  #visuals table{min-width:0}
+  #visuals thead{display:none}
+  #visuals table,#visuals tbody,#visuals tr,#visuals td{display:block;width:auto}
+  #visuals tr{padding:.8rem 0;border-bottom:1px solid var(--rule)}
+  #visuals td{border:0;padding:.25rem 0}
+  #visuals td:first-child{font-size:1rem}
+  #visuals td:nth-child(2)::before{content:"Purpose and placement. ";font-weight:600}
+  #visuals td:nth-child(3)::before{content:"Designer’s work. ";font-weight:600}
+}
 table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:420px}
 th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
 th{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
@@ -805,7 +816,7 @@ def render(desks, commands, scripts, thresholds, digest):
 
     secs = [("start", "Start here"), ("flow", "How a chapter moves"), ("desks", "Who works here"),
             ("commands", "What to say"), ("gates", "The gates"),
-            ("knowledge", "Knowledge and artifacts"),
+            ("knowledge", "Knowledge and artifacts"), ("visuals", "Visuals"),
             ("production", "Scripts and hooks"), ("where", "Where things live"),
             ("never", "What it never does"), ("glossary", "Glossary")]
 
@@ -1022,6 +1033,11 @@ def render(desks, commands, scripts, thresholds, digest):
         a('<p class="note author"><b>Drift:</b> %s. Fix in '
           "<code>scripts/manual_content.py</code>.</p>" % "; ".join(bits))
     a("</section>")
+    # visuals: authored explanation and house vocabulary
+    a('<section id="visuals"><div class="eyebrow">{{SEC}}</div><h2>Visuals</h2>')
+    a(VISUALS)
+    a("</section>")
+
     # production
     a('<section id="production"><div class="eyebrow">{{SEC}}</div><h2>Scripts and hooks</h2>')
     a("<p>Production is scripts and hooks, never a desk. Every git failure in the old pipeline's "
@@ -1058,7 +1074,7 @@ def render(desks, commands, scripts, thresholds, digest):
     a("<footer><p>This page is <b>derived</b>. The roster, the commands, the thresholds and the "
       "scripts are read from the house itself by <code>scripts/manual.py</code>; only the "
       "narrative is written by hand. Regenerate with <code>python3 scripts/manual.py</code>. "
-      "The Stop hook runs <code>--check</code> and says so when the house has changed.</p>"
+      "Run <code>--check</code> explicitly after the house has changed; Stop only saves the handoff and releases ownership.</p>"
       "<p>Source of record: <code>CLAUDE.md</code>, <code>ARCHITECTURE.md</code>, "
       "<code>FLOW.md</code>, <code>GAPS.md</code> and <code>FINDINGS.md</code>. Where this page "
       "and those disagree, they win.</p></footer>")
@@ -1084,7 +1100,7 @@ def governing_doc_drift():
             claude = fh.read()
         with open(os.path.join(REPO, "README.md"), encoding="utf-8") as fh:
             readme = fh.read()
-        with open(os.path.join(REPO, ".claude", "hooks", "session-stop.sh"),
+        with open(os.path.join(REPO, "scripts", "archivist_check.py"),
                   encoding="utf-8") as fh:
             hook = fh.read()
     except OSError:
@@ -1104,17 +1120,17 @@ def governing_doc_drift():
     for d in sorted(in_table - on_disk):
         out.append("CLAUDE.md's roster lists `%s`, which has no agent file" % d)
 
-    # README's derived-files table against the Stop hook's own DERIVED list.
+    # README's derived-files table against the Archivist tool's DERIVED list.
     hook_scripts = set(re.findall(r"^(scripts/[a-z_]+\.py)\|", hook, re.M))
     # Same anchoring, plus [^|] could cross newlines, so any earlier mention of a
     # script in prose or a code block satisfied the derived-files table.
     readme_scripts = set(re.findall(
         r"^\|\s*`python3 (scripts/[a-z_0-9]+\.py)`\s*\|", readme, re.M))
     for x in sorted(hook_scripts - readme_scripts):
-        out.append("the Stop hook checks %s but README's derived-files table "
+        out.append("the Archivist tool checks %s but README's derived-files table "
                    "does not list it" % x)
     for x in sorted(readme_scripts - hook_scripts):
-        out.append("README lists %s as derived but the Stop hook does not check it" % x)
+        out.append("README lists %s as derived but the Archivist tool does not check it" % x)
     return out
 
 

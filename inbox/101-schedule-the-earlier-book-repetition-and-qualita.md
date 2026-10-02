@@ -61,3 +61,26 @@ The earlier autobiographical scenes and the expressly attributed fence parable a
 ```
 
 **What unblocks this:** Author scheduling and scope approval for the listed earlier-book passages; no automatic rewrite. Deferred; Chapter 13 can proceed.
+
+
+## Chapter 10 conformance follow-up — 2026-10-02
+
+The isolated check after inbox 099's two local edits surfaced provisional
+questions in unchanged material: a personal-list/story distinction, the missing
+Cornell project name, the existing chapter transition and five attribution
+questions. Its unverified word-count concern is resolved by the counted 2,584
+prose words. Source: runs/ch10/conformance-inbox-099.md; triage:
+okf/findings/sweep-ch10-inbox-099-conformance.md. These are additional scope
+questions for this later-review item, not authority to rewrite the chapter.
+
+
+## Workload-revision conformance follow-up — 2026-10-02
+
+The author-approved inbox 098 revision qualifies actual overload as a source
+of resentment, while Chapter 6's older outline remains categorical. That
+outline-alignment question and other existing Chapter 6/8 conformance findings
+are preserved in okf/findings/sweep-ch06-ch08-inbox-098-conformance.md. The
+Chapter 8 cold report's over-length estimate is resolved: 1,169 counted prose
+words are within the range. The Line Editor also flags the inherited stronger
+claim in Chapter 8 Practice 1. These are later author-scope questions, not
+permission to undo the approved correction or perform a wider rewrite.

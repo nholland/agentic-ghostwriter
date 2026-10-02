@@ -1,9 +1,12 @@
 ---
 id: 066
-status: open
+status: resolved
 raised_by: gw-panel
 chapter: -
 opened: 2026-09-20 17:46
+resolved: 2026-10-01 23:56
+applied_by: python3 tests/export_safety_cases.py
+okf_receipt: runs/reconciliation/2026-10-01-inbox-066.json
 ---
 
 # The Reader Panel proposes three set-wide rules for plates: cap copy at a subtitle, one gloss per element and one closing line; fix what the four primitives mean book-wide (filled bar, filled dot, dashed outline, the nail) in a design-language.md; require the Lesson to appear as a drawn mark, not a caption. Ratify any of the three?
@@ -19,3 +22,9 @@ Panel counts: keep 2, edit 8, replace 2 of 12 chapter plates; caption lines per 
 ```
 
 **What unblocks this:** Whether design/plates/README.md (or a new design-language.md) carries these three rules for every plate from here on.
+
+**Resolution (2026-10-01 23:56):** approved
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/export_safety_cases.py` exits 0.
+
+**Applied, confirmed 2026-10-01 23:56:** `python3 tests/export_safety_cases.py` now exits 0.

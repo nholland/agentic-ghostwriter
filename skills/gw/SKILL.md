@@ -76,10 +76,10 @@ dispatch.
 | `park that`, `not now`, `come back to this`, `let's decide later` | `/gw-note park` — with a revisit trigger, not a date |
 | `what's missing`, `what can't you do yet`, `gaps` | read `GAPS.md` and answer from it; say which trigger each gap waits on |
 | `interview`, `research`, `draft`, `refine` + N | the stage command — advanced, for deliberate re-runs |
-| `put it on main`, `land`, `merge`, `ship it`, `make it official`, `commit to main`, `yes` right after you offered to land | `python3 scripts/sync.py --land` — **only on his explicit word**; report which branch, by name |
-| `done`, `that's it`, `bye`, `wrapping up`, `I'm out`, `see you tomorrow` | **end of session:** dispatch `gw-retro` if the Stop hook has not already; then tell him in two lines where his work is — branch, pushed or not, on main or not — and *offer* to put it on main. Do not land unless he says so. |
+| `put it on main`, `land`, `merge`, `ship it`, `make it official`, `commit to main`, `yes` right after you offered to land | call `gw-retro` for pre-commit review, commit intended changes, update session records, then `python3 scripts/sync.py --land` — **only on his explicit word**; report which branch, by name |
+| `done`, `that's it`, `bye`, `wrapping up`, `I'm out`, `see you tomorrow` | **end of session:** offer the Archivist pre-commit review if there is work to save; then tell him in two lines where his work is — branch, pushed or not, on main or not — and *offer* to put it on main. Do not land unless he says so. |
 | `is my work safe`, `did I lose anything`, `where's my stuff` | `sync.py --status`, answered in plain words, never just the table |
-| `push`, `save`, `back this up` | `python3 scripts/sync.py --push` — say the branch name in the reply |
+| `push`, `save`, `back this up` | call `gw-retro` for pre-commit review, commit intended changes, update session records, then `python3 scripts/sync.py --push` — say the branch name in the reply |
 | `where's my work`, `what branch`, `did that land` | `python3 scripts/sync.py --status` |
 | `retro`, `what did we learn`, `retrospective`, `what went wrong` | dispatch `gw-retro` with evidence and the improvement objective, without steering toward more or fewer recommendations; show its proposals; apply nothing without his yes |
 | `help`, `commands`, `what can you do` | the full table above, one line each, then the menu |
@@ -99,8 +99,12 @@ chapter run.
 ## On git, specifically
 
 **Always name the branch when reporting a push or a land.** "Pushed" alone is the
-ambiguity the author actually reported. The Stop hook commits work paths on its
-own; `sync.py` does everything else and prints the branch every time. Nothing
+ambiguity the author actually reported. When work is ready to commit, suggest: "Let’s run the Archivist first." A commit
+request includes that review, so proceed without another permission question.
+The Archivist runs `scripts/archivist_check.py`; the Publisher commits intended
+changes and runs its `--record` tool after the work commit, reviewing and
+committing memory separately. Stop only saves the handoff and releases ownership.
+`sync.py` handles pushing and landing and prints the branch every time. Nothing
 moves `main` except `--land`, and only when he said so in words.
 
 ## What this command never does

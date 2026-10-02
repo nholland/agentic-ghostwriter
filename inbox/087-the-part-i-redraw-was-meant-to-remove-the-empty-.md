@@ -1,10 +1,10 @@
 ---
 id: 087
-status: open
+status: resolved
 raised_by: gw-retro
 chapter: 0
 opened: 2026-09-21 13:04
-applied_by: python3 -c "
+applied_by: python3 -c "from pathlib import Path; s=Path('runs/parked.md').read_text(); assert '## P-005' in s and 'arcs are complete' in s and all(x in s for x in ('060','087','089')); assert '### [#39]' in Path('books/the-stoic-husband/parking-lot.md').read_text()"
 import re,sys
 def wp(p,i):
  t=open(p,encoding='utf-8').read()
@@ -29,6 +29,8 @@ ratio=s300/s400
 print('void: draft=%.1f landed=%.1f not_grown=%s'%(vd,vl,vd<=vl))
 print('taper: span300=%.1f span400=%.1f ratio=%.2f converges=%s'%(s300,s400,ratio,ratio>=1.5))
 sys.exit(0 if (vd<=vl and ratio>=1.5) else 1)"
+resolved: 2026-10-01 23:18
+okf_receipt: runs/reconciliation/2026-10-01-arc-plates-parked.json
 ---
 
 # The Part I redraw's taper collapsed from an 11:1 converging cut to a 2:1 near-parallel slot, so below y~290 the draft canyon is wider than the landed one at every height even though the total void did not grow. Redraw keeping the landed taper?
@@ -60,3 +62,9 @@ Alternative sign check: weighting the draft's lower canyon by ink density instea
 ```
 
 **What unblocks this:** Whether runs/parts/plate-1-steady-river.svg lands as drawn or goes back for another profile. Now also gated on #090 (a canyon check that can see below the waterline) or a human rendering and looking at the file directly - the applied_by above cannot certify a fix on its own.
+
+**Resolution (2026-10-01 23:18):** Those aren't great. I also don't know where those are supposed to go? If we are creating Plates for the Arcs, let's move that to the parking lot as we'd likely want to revisit once we're done with the arcs vs trying to do them now
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 -c "from pathlib import Path; s=Path('runs/parked.md').read_text(); assert '## P-005' in s and 'arcs are complete' in s and all(x in s for x in ('060','087','089')); assert '### [#39]' in Path('books/the-stoic-husband/parking-lot.md').read_text()"` exits 0.
+
+**Applied, confirmed 2026-10-01 23:18:** `python3 -c "from pathlib import Path; s=Path('runs/parked.md').read_text(); assert '## P-005' in s and 'arcs are complete' in s and all(x in s for x in ('060','087','089')); assert '### [#39]' in Path('books/the-stoic-husband/parking-lot.md').read_text()"` now exits 0.

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-01T15:56:19.186531-05:00",
+  "subjects": [
+    "inbox:055"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author: yes, approving the existing Chapter 12 label alignment fix only.",
+  "reason": "Presentation-only text alignment; words and book knowledge unchanged. Duplicate resolved Chapter 14 inbox IDs administratively remapped from 105/106 to 108/109 with legacy IDs preserved.",
+  "files": {
+    "books/the-stoic-husband/design/plates/the-muscle-you-stopped-using.svg": "ecde8cc8cb2526ad637eb3892f93d4411418547e9bc5c8ccdf05542ca58bf536"
+  }
+}

@@ -141,11 +141,11 @@ def runtime_cases():
         submitted = run_hook('codex', 'UserPromptSubmit', 'native-x', turn_id='native-turn', prompt='Exact native intake.')
         result(submitted.returncode == 0 and h.read(h.owner_path(root), {})['runtime'] == 'codex',
                'native prompt hook acquires shared ownership', submitted.stderr)
-        (root / 'completion-fails').touch()
+        (scripts / 'next.py').write_text('raise SystemExit("checkpoint unavailable")\n')
         stopped = run_hook('codex', 'Stop', 'native-x')
         result(stopped.returncode == 2 and h.owner_path(root).exists(),
-               'failed completion retains writer and blocks handoff', stopped.stderr)
-        (root / 'completion-fails').unlink()
+               'failed checkpoint retains writer and blocks handoff', stopped.stderr)
+        (scripts / 'next.py').write_text('import json; print(json.dumps({"chapter":14,"stage":"concepts","command":"/gw-chapter","detail":"pending author"}))\n')
         stopped = run_hook('codex', 'Stop', 'native-x')
         result(stopped.returncode == 0 and isinstance(json.loads(stopped.stdout), dict)
                and not h.owner_path(root).exists(), 'successful completion releases writer with valid Stop JSON')
@@ -174,8 +174,8 @@ def runtime_cases():
         for process in processes:
             process.wait(timeout=10)
         result(all(p.returncode == 0 for p in processes)
-               and (root / 'hook-order').read_text().splitlines() == ['start','end','start','end'],
-               'duplicate hook sources serialize completion mechanics')
+               and not (root / 'hook-order').exists() and not h.owner_path(root).exists(),
+               'duplicate Stop handlers release once without running completion automation')
 
         codex_layout.sync(root)
         result(not codex_layout.check(root), 'fresh generation is in sync')

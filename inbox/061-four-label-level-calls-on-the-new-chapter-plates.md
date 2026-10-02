@@ -1,9 +1,11 @@
 ---
 id: 061
-status: open
+status: resolved
 raised_by: gw-designer
 chapter: -
 opened: 2026-09-20 16:33
+resolved: 2026-10-01 23:08
+okf_receipt: runs/reconciliation/2026-10-01-inbox-061.json
 ---
 
 # Four label-level calls on the new chapter plates: Ch5 keeps the word PARRHESIA (glossed); Ch6's subtitle carries half the conversation sentence; Ch11's title reads SHE HAS NEVER HEARD (no apostrophe, because land.py names the file from it) and prints 'forty times'; Ch1's reused plate is 660x380 against 640x430 for the rest. Keep as drawn?
@@ -19,3 +21,5 @@ runs/ch05/plate-notes.md, runs/ch06/plate-notes.md, runs/ch11/plate-notes.md, ru
 ```
 
 **What unblocks this:** Whether any of the four plates is touched before landing.
+
+**Resolution (2026-10-01 23:08):** approved

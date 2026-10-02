@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-01T16:41:27.036409-05:00",
+  "subjects": [
+    "inbox:058",
+    "inbox:110"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-inline-chapter-visuals.md"
+  ],
+  "authority": "Author explicitly requested a Designer inbox item and a manual section defining plates, inline visuals, flourishes / glyphs.",
+  "reason": "Recorded inline-visual classification and queued design exploration; manual now explains SVG code generation and the visual vocabulary. Finished graphics and placements remain for later review.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-inline-chapter-visuals.md": "31e17fc3cfb4bd5c1c0000c263b1e9f6d2e23705f2135035db72ca1273b73b88",
+    "books/the-stoic-husband/okf/index.md": "77e8a3c6b4a8480f06f6fb13928591aedc11576906d07ceaaede2632745b85d5",
+    "books/the-stoic-husband/okf/log.md": "ecad08e0ec0f6f7cd98b65406cc1844e36f8c478a3b2a2bc475255a054925845",
+    "scripts/manual_content.py": "3c5737b572d8e3a68c66f44004127e6de606673ad9cea4c24c655f97e8bf3db6",
+    "scripts/manual.py": "65c7c8aaceded0300f11380de0248e8c5b4d384a61e26665178e552447393c97",
+    "docs/manual.html": "7dbe342b73a005ada874ad0bd9df98b7711816267a088aed60977678628ac77e"
+  }
+}

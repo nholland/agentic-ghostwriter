@@ -56,7 +56,7 @@ Marcus Aurelius asked himself a version of this every morning he didn't want to 
 
 If the honest answer is yes, you were avoiding your own job. That's not an attack to defend against. That's a gift, and you take it. If the answer is no, you weren't lazy. You were just out of step for one evening. Give her the same grace you'd want on a night when you're the one folding towels and she's the one with her feet up. Either way, the tally never gets read out loud.
 
-That's the whole difference between a man who carries his half of the house and a man who's quietly billing for it. One of them is steady enough to be counted on without needing to be counted. Resentment comes from scorekeeping. Chapter 7 examines the ledger directly.
+That's the whole difference between a man who carries his half of the house and a man who's quietly billing for it. One of them is steady enough to be counted on without needing to be counted. Scorekeeping can feed resentment. Resentment can also grow when the work you're carrying has become too much. Giving freely doesn't mean carrying an arrangement you can't sustain. Chapter 7 examines the ledger directly.
 
 ---
 ## Editor's Notes
@@ -85,3 +85,13 @@ Refined prose is approximately 1,310 words against the outline's 1,200-1,500 wor
 
 ### Structural Flag
 None. The chapter's mechanism is internally consistent end to end and sets up Chapter 7 cleanly.
+
+
+### Local workload revision — inbox 098, 2026-10-02
+
+Author verdict: “approved” to the prepared Chapter 6 and Chapter 8 passages.
+Applied only the exact local replacements in the 2026-09-27 proposal packet.
+The Line Editor refreshed derived meaning/practices to match actual overload
+and the practical response. All HARD chapter-prose voice checks pass.
+Conformance questions are recorded separately in the OKF and inbox 101;
+no overall conformance PASS or wider rewrite is claimed.

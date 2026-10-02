@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-01T23:23:11.531530-05:00",
+  "subjects": [
+    "inbox:067"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-superseded-plate-label-questions.md",
+    "books/the-stoic-husband/okf/notes/2026-10-01-arc-plates-deferred.md"
+  ],
+  "authority": "Author: yes, to retiring obsolete chapter questions without changing newer drawing approval status.",
+  "reason": "Closed remaining old-version questions; preserved the Part III arc-completion deferral.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-superseded-plate-label-questions.md": "6f93203f3236c83253d444a0a36234d5dc57728bb41c42f2ad5564bede720686",
+    "books/the-stoic-husband/okf/notes/2026-10-01-arc-plates-deferred.md": "31ed427214a2f65c0c024756cf2113425c8b8f784d4561753c8c625e1a4c34cd",
+    "books/the-stoic-husband/okf/index.md": "cabff3787712a6b3a4d142caccf8869b5de00ac9f422065ea577dd1a1ba73fe8",
+    "books/the-stoic-husband/okf/log.md": "8d5a4738ff24fd8ab9883e305f8098befc3fe67231b990198823664667d2567b",
+    "runs/parked.md": "ab281975745d5404bd1180b864ace3a9cc270676112f5803cc8700e05a35d4ae"
+  }
+}

@@ -30,3 +30,21 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 1. **Proactive.** Before bed each night, write down one thing you valued about your wife that day. Name something you actually noticed. If nothing comes to mind, pay attention tomorrow instead of inventing praise.
 2. **Reactive.** When you notice something you appreciate about her, tell her what you saw and why it mattered to you. Let your thanks stand without requiring a particular response.
 3. **Reactive.** When a passing comparison becomes a complaint about your wife, ask whether meeting this new condition would satisfy you. Recall something you value about the whole person she is.
+
+## Chapter 10 — Boundaries Are Strength
+
+1. **Proactive.** Write down the three or four lines you and your wife actually hold, and next to each one finish this sentence in plain words: this protects ___. Any rule you can't finish is a preference, and it will fold under pressure.
+2. **Reactive.** When the two of you disagree about a rule, stop arguing about the rule. Ask what each of you thinks it's protecting, and have that argument instead.
+3. **Reactive.** The next time holding a line would make you the bad guy, notice the trade you're being offered: the thing you were protecting, in exchange for an hour of quiet.
+
+## Chapter 6 — Duty Without Resentment
+
+1. **Proactive.** Once a week, name one thing from her "bucket," the unscheduled stuff nobody put on a calendar, that you noticed but didn't have to do anything about. Say it out loud to her, or just to yourself.
+2. **Reactive.** The next time the difference is visible, one of you resting while the other works, say it before you defend: "I see you're working. I appreciate it. Want to sit down, or should I help first?"
+3. **Reactive.** When criticism stings and the feeling lingers, run the self-check before you respond: am I actually being lazy right now, or are we just out of rhythm?
+
+## Chapter 8 — When Your Marriage Feels Unfair
+
+1. **Reactive.** When something stings, name it to yourself right then. An irritation you've named loses its power to quietly compound.
+2. **Proactive.** On a regular rhythm, monthly, or whenever a season changes, name explicitly whether the current imbalance is temporary (a hard stretch that will pass) or structural (the new normal). Don't wait for resentment to force the question.
+3. **Reactive.** When the work feels like too much, pause before you speak. Look together at paid work, housework, and what each of you has to remember. Ask what each of you can manage this week. Make one concrete request, hear what she can take on, and agree on when to check whether the change is working.

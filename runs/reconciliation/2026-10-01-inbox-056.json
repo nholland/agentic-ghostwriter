@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-01T22:59:48.812791-05:00",
+  "subjects": [
+    "inbox:056"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-inline-chapter-visuals.md"
+  ],
+  "authority": "Author: Approved, to Chapter 1 window main plate titled The Gap and Operating System inline visual for later layout repair and placement.",
+  "reason": "Applied visible and accessible titles to both existing variants without substituting drawings. Recorded roles and deferred inline repair/placement. Rendered working plate passes all twelve rows; older book SVG has existing margin warnings.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-inline-chapter-visuals.md": "18eafff4a8bb40ffeff61c9eaf2c144a3a488f732760c66804e85544552d642b",
+    "books/the-stoic-husband/okf/index.md": "2c42fb36e425fcc0be6452c56936314bfb669bcfe6bf579d4caf200733732885",
+    "books/the-stoic-husband/okf/log.md": "9e69fa350a87295d655dc7fa49ae8edf73294e8d797c12d8e2c081ad4d20b4b9",
+    "books/the-stoic-husband/design/plates/README.md": "705526b3cbceb582ad8abcb03fca2c134fd9fe1ffa1a46fb777b65087df7ceb7",
+    "books/the-stoic-husband/design/plates/three-second-window.svg": "23f14f07ccda92dbc1ff371f53a3e0fafeb0a1d8e4d631137d95f580f7dd4928",
+    "runs/ch01/plate.svg": "0c8c9604e63de6c63e1cd0c0a2a34512a5304be9735adb9a36570756cc06a651",
+    "runs/ch01/plate-notes.md": "ab8b244063229583ba644da2e0bd5eac737baee893207ad157f2227f268e9f90",
+    "runs/design/plate-briefs.md": "6082efa932fad28489ece998bf4a0f66bc48de604683b27777b412a17a7edf9c"
+  }
+}

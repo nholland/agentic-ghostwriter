@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-01T23:18:39.058435-05:00",
+  "subjects": [
+    "inbox:060",
+    "inbox:087",
+    "inbox:089",
+    "inbox:067"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-01-arc-plates-deferred.md"
+  ],
+  "authority": "Author explicitly asked to move Arc plate work to the parking lot until the arcs are done; exact words in the concept.",
+  "reason": "Parked Arc/Part design and placement decisions, preserving unapproved drafts and leaving chapter-specific decisions active.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-01-arc-plates-deferred.md": "2d77e1401d4c692997e6ceff8ecde480b8b91149800a7f09e9bed65d20d08360",
+    "books/the-stoic-husband/okf/index.md": "5ad7e78051001f618e63af2480396e54d488cf4cc9d4801bdee1dfb3d57622fe",
+    "books/the-stoic-husband/okf/log.md": "bd2bc64587c66e3efe515eaf13373e9a5efb4e7001d8fef13dfb267083cfb135",
+    "books/the-stoic-husband/parking-lot.md": "54fe6fc72a49d21de2a3602e5a002cff4ac5aa98a6f98c8827fe16954b85c0cf",
+    "books/the-stoic-husband/parts/README.md": "58ca7e33ffe5aabd880328bbd0eb6a5f1620f6c65bc9b1f61746d169d3b27a36",
+    "runs/parked.md": "3137aeae81bda9ad0d1af46bcff9b7982e65587a6b45cd116068ea7dcab826b8",
+    "inbox/067-round-2-label-calls-on-the-redrawn-plates-ch9-lo.md": "a390e7ff6a8229be77a986d6b2726344e20722bee8c8e939b096c81bf5636e5a"
+  }
+}

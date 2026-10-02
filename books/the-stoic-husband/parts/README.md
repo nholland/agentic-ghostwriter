@@ -93,3 +93,14 @@ of the set, and it means the three elements reach the reader on all five pages.
 Part V's "keep tending it" deliberately answers Part IV's "Keep walking."
 Part pages are a set and should talk to each other. This is not the cross-chapter reference pattern that parking-lot
 item #25 concerns.
+
+
+## Arc plate work parked — author ruling, 2026-10-01
+
+Arc/Part closing-plate designs and placement are deferred until the arcs are
+complete. The Part III–V drafts shown on this date were not approved. Revisit
+purpose, placement and the set against the completed arcs before further
+arc-plate design or landing. The earlier placement and form above are historical
+context for that review, not authorization to commission more plates now.
+See book parking-lot #39, runs/parked.md P-005 and the OKF note
+notes/2026-10-01-arc-plates-deferred.md. Preserve existing source files and findings.

@@ -459,3 +459,11 @@ have the tighter picture, that is a two-line change.
 (pebbles distributed across both pans reading as *naming it makes her carry half*).
 It was not in this round's brief and it is copy, not a cut. Worth the author's
 attention: it is the cheapest fix to a real misreading anywhere in the set.
+
+
+## Replacement approval — 2026-10-01
+
+The author replied “Approved” after viewing the current two-scale replacement
+in inbox #054. The exact runs/ch08/plate.svg now replaces the older book SVG
+at books/the-stoic-husband/design/plates/tipping-scale.svg. The earlier diagram
+whose final-trigger label sat on the raised pan is superseded.

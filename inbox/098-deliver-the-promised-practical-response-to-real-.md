@@ -1,9 +1,21 @@
 ---
 id: 098
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 8
 opened: 2026-09-23 06:53
+resolved: 2026-10-02 00:42
+applied_by: python3 -c 'from pathlib import Path
+import re
+packet=Path('"'"'runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md'"'"').read_text()
+for n,next_n,count in [('"'"'06'"'"','"'"'08'"'"',1),('"'"'08'"'"','"'"'10'"'"',3)]:
+ section=packet.split(f'"'"'## ch{n}\n'"'"',1)[1].split(f'"'"'## ch{next_n}\n'"'"',1)[0].strip()
+ pairs=re.findall(r'"'"'\*\*Before\*\*\n\n(.*?)\n\n\*\*Proposed\*\*\n\n(.*?)(?=\n\nReplace|\Z)'"'"',section,re.S)
+ s=Path(f'"'"'books/the-stoic-husband/chapters/ch{n}/refined.md'"'"').read_text().split("## Editor'"'"'s Notes",1)[0]
+ assert len(pairs)==count
+ assert all(old.strip() not in s and s.count(new.strip())==1 for old,new in pairs)
+'
+okf_receipt: runs/reconciliation/2026-10-02-inbox-098.json
 ---
 
 # Deliver the promised practical response to real workload imbalance in Chapters 6–8?
@@ -32,3 +44,27 @@ This matters more than ordinary repetition. Paul has been promised that relinqui
 ## Approved revision scope; exact proposal ready — 2026-09-27
 
 The author said “Approved” after the recommendation to prepare focused revisions. Exact proposed wording is in [the review packet](../runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md), with full chapter previews, a patch, and counted-check outputs. This implements the promised review-before-application step; proposed prose is not yet in the book. No cold desk review was performed.
+
+**Resolution (2026-10-02 00:42):** approved
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 -c 'from pathlib import Path
+import re
+packet=Path('"'"'runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md'"'"').read_text()
+for n,next_n,count in [('"'"'06'"'"','"'"'08'"'"',1),('"'"'08'"'"','"'"'10'"'"',3)]:
+ section=packet.split(f'"'"'## ch{n}\n'"'"',1)[1].split(f'"'"'## ch{next_n}\n'"'"',1)[0].strip()
+ pairs=re.findall(r'"'"'\*\*Before\*\*\n\n(.*?)\n\n\*\*Proposed\*\*\n\n(.*?)(?=\n\nReplace|\Z)'"'"',section,re.S)
+ s=Path(f'"'"'books/the-stoic-husband/chapters/ch{n}/refined.md'"'"').read_text().split("## Editor'"'"'s Notes",1)[0]
+ assert len(pairs)==count
+ assert all(old.strip() not in s and s.count(new.strip())==1 for old,new in pairs)
+'` exits 0.
+
+**Applied, confirmed 2026-10-02 00:42:** `python3 -c 'from pathlib import Path
+import re
+packet=Path('"'"'runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md'"'"').read_text()
+for n,next_n,count in [('"'"'06'"'"','"'"'08'"'"',1),('"'"'08'"'"','"'"'10'"'"',3)]:
+ section=packet.split(f'"'"'## ch{n}\n'"'"',1)[1].split(f'"'"'## ch{next_n}\n'"'"',1)[0].strip()
+ pairs=re.findall(r'"'"'\*\*Before\*\*\n\n(.*?)\n\n\*\*Proposed\*\*\n\n(.*?)(?=\n\nReplace|\Z)'"'"',section,re.S)
+ s=Path(f'"'"'books/the-stoic-husband/chapters/ch{n}/refined.md'"'"').read_text().split("## Editor'"'"'s Notes",1)[0]
+ assert len(pairs)==count
+ assert all(old.strip() not in s and s.count(new.strip())==1 for old,new in pairs)
+'` now exits 0.

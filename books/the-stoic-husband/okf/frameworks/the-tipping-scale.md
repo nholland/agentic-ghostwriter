@@ -13,6 +13,8 @@ provenance: >
   gap-check, 2026-07-27 — the mechanism and its prose were already finished
   and stable in refined.md, so this is a pure knowledge-bundle capture, not
   new material)
+  Author approved the replacement two-scale plate in inbox 054 on 2026-10-01;
+  exact reply: “Approved”.
 ip: author-synthesis
 tags: [framework, unfairness, accumulation]
 chapter_slugs: [when-your-marriage-feels-unfair]
@@ -98,3 +100,29 @@ chapters that touch accumulation.
 # Citations
 
 None — author IP, from the Ch8 refine session (2026-07-24).
+
+
+# Approved visual — 2026-10-01
+
+The author approved replacing the earlier scale whose final-trigger label sat
+on the raised pan. The replacement contrasts uncounted accumulation on a tipped
+scale with weights named as they arrive on a level scale. Its subtitle is
+“Unfairness rarely arrives as one moment.” Its closing line is “The last pebble
+is rarely the whole weight.” This visualizes the existing Schema above.
+
+Authority: inbox 054, author reply “Approved” after seeing the replacement.
+Source: books/the-stoic-husband/design/plates/tipping-scale.svg, copied from
+runs/ch08/plate.svg. The maintained brief in runs/design/plate-briefs.md explains
+the intended acknowledged/unacknowledged contrast and its limits.
+
+
+# Naming the weights and addressing the work — approved 2026-10-02
+
+Inbox 098's revision preserves the accumulation mechanism and adds a concrete
+response to genuine overload. Naming small stings can interrupt silent
+accumulation; it does not itself redistribute work or guarantee that the
+arrangement is sustainable. The approved Chapter 8 prose calls for a joint
+look at workload, capacity and duration, a specific request, and an agreed
+review. Gratitude does not replace this response. See [Four Types of Unfairness](/frameworks/four-types-of-unfairness.md).
+The two-scale plate's approved naming contrast remains; it is not a promise
+that naming alone eliminates actual imbalance.

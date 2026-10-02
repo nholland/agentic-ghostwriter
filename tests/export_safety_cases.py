@@ -13,7 +13,14 @@ import land
 import package_check
 import plate_check
 
-SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430"><text x="%d" y="180">A clean label</text></svg>'
+SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" '
+       'aria-label="Mechanism %d"><text class="ttl" x="320" y="40">Mechanism %d</text>'
+       '<text x="%d" y="180">A clean label</text></svg>')
+
+
+def plate_svg(x, n=1):
+    """A titled fixture valid under the author-ratified chapter title rule."""
+    return SVG % (n, n, x)
 
 
 def sources(root, n):
@@ -26,7 +33,7 @@ def sources(root, n):
         f'**Challenge:** Challenge {n}.\n**Practice:**\n1. Practice {n}.\n')
     run = root / 'runs' / f'ch{n:02}'
     run.mkdir(parents=True)
-    (run/'plate.svg').write_text(SVG % 100)
+    (run/'plate.svg').write_text(plate_svg(100, n))
     return chapter, run
 
 
@@ -67,7 +74,7 @@ def export_safety_cases():
         (ch/'refined.md').unlink()
         (ch/'distillation.md').unlink()
         for x, force, expected in ((100, False, 0), (630, False, 1), (630, True, 0)):
-            (run/'plate.svg').write_text(SVG % x)
+            (run/'plate.svg').write_text(plate_svg(x))
             from okf_reconcile_cases import receipt
             rec = receipt(root, ['chapter:ch01'], ['runs/ch01/refined.md', 'runs/ch01/distillation.md'])
             args = ['land.py', '1', '--dry-run', '--okf-receipt', rec] + (['--force'] if force else [])
@@ -83,8 +90,33 @@ def export_safety_cases():
             out.append((ok, f'landing plate x={x} force={force}',
                         'bad geometry refuses before writes; clean and explicit override still work', output.getvalue()))
 
+        # The ratified chapter cap passes at the boundary and fails above it.
+        # Arc copy rules remain parked, so their existing warning stays a warning.
+        for count, chapter, expected in ((2, 1, 'ok'), (3, 1, 'FAIL'), (3, None, 'WARN')):
+            copy = '<style>.cap{font:italic 12px Georgia,serif;text-anchor:middle}</style>'
+            copy += ''.join(f'<text class="cap" x="320" y="{100+30*i}">Prose end 1.</text>'
+                            for i in range(count))
+            (run/'plate.svg').write_text(plate_svg(100).replace('</svg>', copy+'</svg>'))
+            result = plate_check.rows(str(run/'plate.svg'), chapter=chapter,
+                                      part=None if chapter else 1,
+                                      book_root=str(root/'book'), runs_root=str(root/'runs'), render=False)
+            status = next(st for st, name, detail in result if name == 'captions')
+            out.append((status == expected, f'caption cap count={count} chapter={chapter}',
+                        'chapter excess fails; at-cap passes; parked Arc rule remains advisory', status))
+
+        # A matching title passes; either visible or accessible mismatch must FAIL.
+        for label, svg in [
+            ('visible', plate_svg(100).replace('>Mechanism 1</text>', '>Other title</text>')),
+            ('accessible', plate_svg(100).replace('aria-label="Mechanism 1"', 'aria-label="Other title"'))]:
+            (run/'plate.svg').write_text(svg)
+            rows = plate_check.rows(str(run/'plate.svg'), chapter=1,
+                                    book_root=str(root/'book'), runs_root=str(root/'runs'), render=False)
+            title_status = next(status for status, name, detail in rows if name == 'title')
+            out.append((title_status == 'FAIL', 'ratified title rejects '+label+' mismatch',
+                        'author-approved title rule must fail, not merely warn', title_status))
+
         # --force does not waive knowledge reconciliation, even with clean geometry.
-        (run/'plate.svg').write_text(SVG % 100)
+        (run/'plate.svg').write_text(plate_svg(100))
         with patch.object(land, 'REPO', str(root)), patch.object(sys, 'argv', ['land.py', '1', '--force']), \
              patch.object(land.resolve_book, 'resolve', return_value=(str(root), '', '')), \
              patch.object(land.resolve_book, 'inspect', return_value={'info':{'bookRoot':str(root/'book'),'bookRootRelative':'book'},'problems':[]}), \
@@ -93,7 +125,7 @@ def export_safety_cases():
         out.append((rc != 0 and 'receipt required' in output.getvalue() and not (ch/'refined.md').exists(),
                     'landing force cannot bypass OKF receipt', 'refuse before any book writes', output.getvalue()))
 
-        (run/'plate.svg').write_text(SVG % 630)
+        (run/'plate.svg').write_text(plate_svg(630))
 
         # Compiler uses the exact selected draft, even when a clean landed file exists.
         for name, text in [('refined.md', '# Chapter 1: Example\n\nProse end 1.\n'),
@@ -102,7 +134,7 @@ def export_safety_cases():
         sources(root, 2)
         (root/'book/03-outline.md').write_text('## PART I — Example\n\n## Chapter 1\n\n## Chapter 2\n')
         landed = root/'book/design/plates'; landed.mkdir(parents=True)
-        (landed/'clean.svg').write_text(SVG % 100)
+        (landed/'clean.svg').write_text(plate_svg(100))
         with patch.object(assembly, 'REPO', str(root)), \
              patch.object(sys, 'argv', ['compile.py','--plates','--no-pdf','--outdir',str(root/'out')]), \
              patch.object(assembly.resolve_book, 'resolve', return_value=(str(root), '', '')), \

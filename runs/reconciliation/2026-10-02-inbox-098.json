@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-10-02T00:42:10.596912-05:00",
+  "subjects": [
+    "inbox:098",
+    "inbox:101",
+    "chapter:ch06",
+    "chapter:ch08"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/four-types-of-unfairness.md",
+    "books/the-stoic-husband/okf/frameworks/the-bucket-unscheduled-labor.md",
+    "books/the-stoic-husband/okf/frameworks/scorekeeping-is-contagious.md",
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md",
+    "books/the-stoic-husband/okf/findings/sweep-ch06-ch08-inbox-098-conformance.md"
+  ],
+  "authority": "Author: approved, to the prepared Chapter 6 and Chapter 8 passages. Derived summaries reflect approved prose. Conformance findings remain provisional, without wider rewrite authority.",
+  "reason": "Applied exact workload corrections and faithful derived refresh, reconciled actual overload and gratitude limits, preserved historical claims and pending outline/QA questions.",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/four-types-of-unfairness.md": "28e223a1e509cdb4535c1ad48b732d026238be4ea20a87e7474943c8fe80528a",
+    "books/the-stoic-husband/okf/frameworks/the-bucket-unscheduled-labor.md": "90493444e5f5800220bc2562915e47b7e2629ca45cb0769a7ac278296159c5d2",
+    "books/the-stoic-husband/okf/frameworks/scorekeeping-is-contagious.md": "f4f0fbbc8279842aefbd58fd9dc2b42ddc6d7438aee88f4e9f7cbe11f0301ad4",
+    "books/the-stoic-husband/okf/frameworks/the-tipping-scale.md": "6feb26b4b7c72e3b6835104968cac51dc189add0af9f0c0596bc664479010168",
+    "books/the-stoic-husband/okf/findings/sweep-ch06-ch08-inbox-098-conformance.md": "bfa3d6d5647607e22a74b427217a6a216340c5b92f860bcfe716672748452b8f",
+    "books/the-stoic-husband/okf/index.md": "889a544e20efb51fdb0ba7ce65afde9b5bf1fcb6b29ffe080c727de4113497f8",
+    "books/the-stoic-husband/okf/log.md": "a7ff477c874ab5edc3e8afa4e9092da444cb43523e6d336b141fa16d7e143c68",
+    "books/the-stoic-husband/chapters/ch06/refined.md": "49c919e62ce7c03679e60bf325f5898f8a78c2c7e51952d976f69c76bd2e9f34",
+    "books/the-stoic-husband/chapters/ch08/refined.md": "d9cac6f0b48c12fb133b62489646489659070615c40b35372056354ddfb85f2c",
+    "books/the-stoic-husband/chapters/ch06/distillation.md": "76802a9e6f2de7e976e66b3ba6f99c9a40fb4c7337538434792f5906ca6cac03",
+    "books/the-stoic-husband/chapters/ch08/distillation.md": "8f7fbdd70f230a8c8aa6328c7925e993dfaa44ced68eaeb7065ca3a851a6302e",
+    "books/the-stoic-husband/appendix/practice-guide.md": "7ac2f87f05be28c761602527638877f5260cdebbdd3006f98b2bc14cfc16ddca",
+    "runs/appendix/practice-guide.md": "48724b37556c4aa29a68ee5efc7eb7896ed6c1cc70274ecd63a73cdc16775ee3",
+    "runs/ch06/distillation.md": "76802a9e6f2de7e976e66b3ba6f99c9a40fb4c7337538434792f5906ca6cac03",
+    "runs/ch08/distillation.md": "8f7fbdd70f230a8c8aa6328c7925e993dfaa44ced68eaeb7065ca3a851a6302e",
+    "runs/ch06/practice-guide-ch06.md": "b8ba5b577ba54c398118b1dd4118bf84deb5e0a739354ed087cd02bc8806e28c",
+    "runs/ch08/practice-guide-ch08.md": "2e3b8435f2245604d6e361ce94c0760b36a596bfde7a1a0777c47d11857fc724",
+    "runs/ch06/plate-brief.md": "11a879d0c2fd130f43c688f75281e8989fc3c5141f20b1684ed3adbf2a98c051",
+    "runs/ch08/plate-brief.md": "ffc4c05d8dd13d005471f94d2937ee1131805eaa988e1ac4d220b0ae7283a4c8",
+    "runs/ch08/edit-inbox-098.md": "a599974a66aa5574ecf87a8c1eff71764a7058313963b9dcbf3699bf965d54f4",
+    "runs/qa/2026-09-27-inbox-098-099-proposal/proposal.md": "c3312031bbc5479fd5237c4333a5e626fa11d78be2dafb46084c186b6027763d",
+    "inbox/101-schedule-the-earlier-book-repetition-and-qualita.md": "3c63712618e30c4a1a694dbe471ce84addafddd2c4ef487ba6cd9f037aeea042"
+  }
+}

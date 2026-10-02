@@ -1,9 +1,11 @@
 ---
 id: 065
-status: open
+status: resolved
 raised_by: gw-panel
 chapter: -
 opened: 2026-09-20 17:46
+resolved: 2026-10-01 16:23
+okf_receipt: runs/reconciliation/2026-10-01-inbox-065.json
 ---
 
 # Is a chapter plate always titled by the distillation's Mechanism? Ten of twelve are; Ch7 (Small Rocks, Big Rocks) and Ch12 (The Muscle You Stopped Using) were not.
@@ -19,3 +21,5 @@ grep -h '^\*\*Mechanism:' books/the-stoic-husband/chapters/ch*/distillation.md a
 ```
 
 **What unblocks this:** Whether the Designer's brief says 'title = the distillation's Mechanism line' and whether Ch7 and Ch12 land under their new titles.
+
+**Resolution (2026-10-01 16:23):** yes

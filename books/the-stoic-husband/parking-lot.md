@@ -26,6 +26,14 @@ Added 2026-09-27 16:27 America/Chicago on the author's explicit request to add t
 
 ## Open Items
 
+### [#39] — [2026-10-01 23:17 CDT]
+**Question:** Revisit arc closing plates, their purpose and placement, once the arcs are complete.
+**Author direction:** Recorded verbatim in [P-005](../../runs/parked.md#p-005--revisit-arc-closing-plates-after-the-arcs-are-complete) and the [OKF note](/notes/2026-10-01-arc-plates-deferred.md).
+**Context:** The Part III–V drafts shown in inbox 060 were not approved. Arc/Part plate design work is parked, including inbox 060's caption/mirror choices, 087's River taper question, 089's title/check proposal, and 067's Part III resemblance question. Existing drafts and findings remain available for review.
+**When to revisit:** Once the book's arcs are complete. This trigger governs earlier Part-plate questions #36 and #37 instead of their earlier before-landing triggers. Review purpose, placement, and the whole set against the completed arcs before further design work.
+**Status:** PARKED, non-blocking.
+
+
 ### [#38] — [2026-09-21 13:12]
 **Question:** Two whole-set findings from the Reader Panel's cold read that cannot be fixed under the current "no rethinks" ruling. Do they get a round when that ruling lifts?
 **Context:** Both come from `runs/design/2026-09-21-plate-standalone-read.md`, the Panel's cold read of all twelve chapter plates, and both are only visible having looked at the whole set rather than any one plate. Recorded here because they were reported to the author in conversation and nowhere durable, which is the failure he corrected on 2026-09-21.

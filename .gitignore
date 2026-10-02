@@ -21,3 +21,5 @@ bakeoff/**/.sealed.json
 .claude/state/runtime-owner.json
 .claude/state/runtime-session.json
 .claude/state/runtime-hook.lock
+.claude/state/runtime-recovery.json
+.claude/state/runtime-hook-failure-*.json

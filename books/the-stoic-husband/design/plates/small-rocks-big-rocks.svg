@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Small Rocks, Big Rocks">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="The Private Tally">
   <style>
     .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
@@ -9,7 +9,7 @@
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">SMALL ROCKS, BIG ROCKS</text>
+    <text class="ttl" x="320" y="40">THE PRIVATE TALLY</text>
     <text class="sub" x="320" y="66">The ledger can only count what it can see.</text>
   </g>
   <g stroke="currentColor" fill="none" stroke-width="1.6">

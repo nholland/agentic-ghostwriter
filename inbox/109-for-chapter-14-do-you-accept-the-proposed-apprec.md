@@ -1,5 +1,6 @@
 ---
-id: 106
+id: 109
+legacy_id: 106
 status: resolved
 raised_by: gw-ghostwriter plan-only gate, second failed attempt
 chapter: 14
@@ -30,3 +31,5 @@ Cold gw-ghostwriter plan-only gate (2026-09-29): FAIL — current outline requir
 **Not applied yet.** This ruling lands outside this repo. It closes when `grep -Fq "Author disposition, 2026-09-30" runs/ch14/proposed-concepts.md` exits 0.
 
 **Applied, confirmed 2026-09-30 17:34:** `grep -Fq "Author disposition, 2026-09-30" runs/ch14/proposed-concepts.md` now exits 0.
+
+**Administrative ID repair (2026-10-01):** Renumbered from #106 to #109 to resolve a collision with Chapter 13. Historical references and receipts retain the original ID; the recorded ruling is unchanged.
