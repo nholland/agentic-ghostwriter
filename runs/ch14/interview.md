@@ -159,3 +159,35 @@ Open after this round (not decided by any desk):
   quotation until checked.
 - Her wording of "The best meals are the ones you don't have to cook" is the
   wife's; confirm he wants her words in print.
+
+## Round 6: rulings on Round 5, 2026-10-02 (author's words)
+
+The author answered the Publisher's five calls. Verbatim:
+
+> 1. approved.  hoarder is was the harsh  phrase when the loving/enough phrase is thrifty/frugal (which I much prefer over someone who spends a lot and is wasteful)
+> 2. Soften them, can also make them generic for 'men' and their 'wives'
+> 3. She was a powerful attorney and a VP at a public company, so both
+> 4. Research it, pretty sure its a stoic phrase (she didn't use it, she has the modified version I shared... I thought it would be good to translate back to stoicism)
+> 5. rework so that 'spouses' often compare (so its applicable to both sides)
+
+Effects, as the Publisher reads them:
+
+- **Lead moment (approved):** his complaint about her saving things. His harsh
+  word is "hoarder"; the loving word is "thrifty" or "frugal", which he much
+  prefers to someone who spends a lot and wastes.
+- **Softening (approved):** her feeling unappreciated and her three-part quote,
+  the social-media comparison, and his wish that she checked in with him more
+  are to be printed generically, as what men and their wives often feel, not
+  attributed to his wife or quoted.
+- **Career (settled):** she was a powerful attorney and a vice president at a
+  public company.
+- **Correction to Round 5:** "hunger is the best sauce" was the author's own
+  addition, not something his wife said. She says only the modified version, "the
+  best meals are the ones you don't have to cook." The author believes the first
+  is a Stoic phrase and wants it translated back to Stoicism. Unconfirmed;
+  commissioned to the Researcher.
+- **Comparison section (approved):** rework around spouses, both sides, often
+  comparing.
+- **Still undecided by the author:** where the close points; whether the body
+  ends on the rejection paragraph. (Length and attraction: see Round 5; attraction
+  is answered by the garden line.)

@@ -50,7 +50,8 @@ specific items is **pending**; Round 3's release covered only the details above.
   He finds it interesting but it sometimes makes him feel what they do is not
   enough. He has told her; he thinks she receives it well.
 - **Her feeling unseen:** for three years she has been on sabbatical, having
-  been a "high-powered attorney" (earlier testimony says "executive"; unresolved).
+  been a powerful attorney and a vice president at a public company (settled
+  2026-10-02: both apply).
   She has said more than once she does not feel appreciated; that the extent of
   her day is staying home and cleaning; that the kids often complain about the
   meals she cooks. In her own words, per him: she misses being seen as important,
@@ -60,13 +61,25 @@ specific items is **pending**; Round 3's release covered only the details above.
   meal. He thinks it is sometimes received as hollow, like "I love you" said too
   often, and that quick thanks does not reach the level of appreciation she is
   looking for.
-- **Her sayings about enough (her words, per him):** "hunger is the best sauce,"
-  which she calls a Stoic phrase (attribution unchecked), and her variant, "the
-  best meals are the ones you don't have to cook."
+- **Sayings about enough:** his wife says "the best meals are the ones you don't
+  have to cook." "Hunger is the best sauce" is the author's own addition (she did
+  not say it); he believes it is a Stoic phrase and wants it tied back to
+  Stoicism. Attribution unchecked (Researcher commissioned 2026-10-02).
 - **What is enough for him:** anything she makes; a few stolen minutes a day to
   watch a show or walk; her asking how his day went. He says she rarely checks in
   with him, and she is still enough. When she works in the garden in shorts and a
   T-shirt he finds her "incredibly attractive," and that is enough.
+
+# Round 6 rulings (author, 2026-10-02)
+
+- Lead moment: his complaint about her saving things. "Hoarder" is his harsh
+  word; "thrifty"/"frugal" is the loving one, and he much prefers someone thrifty
+  to someone who spends a lot and wastes.
+- The Round 5 items about her feeling unappreciated, her quote, social-media
+  comparison and his wish for check-ins may be printed only in softened, generic
+  form (men and their wives), not attributed to her or quoted.
+- Comparison runs both ways: spouses often compare. He does not much himself;
+  she does, and he has told her.
 
 # Related
 

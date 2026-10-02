@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-02T06:14:36.231071+00:00",
+  "subjects": [
+    "interview:ch14-round6"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md"
+  ],
+  "authority": "Author's own rulings, 2026-10-02 (verbatim in runs/ch14/interview.md Round 6)",
+  "reason": "Recorded author rulings; corrected the Round 5 record (hunger-is-the-best-sauce is the author's addition, not his wife's); settled the wife's prior career.",
+  "files": {
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md": "dc9a2d37f6e3e74615a1570b522107a7075161a2a61700593a605da7d156e8d9",
+    "runs/ch14/interview.md": "d0ec12528cfc3c862bbd4a3a358ae6776b761c5b902fd570357a7d8b0fe2ba7b"
+  }
+}
