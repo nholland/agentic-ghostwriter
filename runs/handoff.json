@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "chapter": 8,
-  "runtime": "codex",
-  "branch": "codex/shared-runtimes",
+  "runtime": "claude",
+  "branch": "ccr-1277c85e-enf5a0",
   "oracle": {
     "chapter": 8,
     "stage": "shipped",
@@ -22,7 +22,8 @@
   },
   "author_records": [
     "runs/handoff/intake-ab78d623cdf92643.json",
-    "runs/handoff/intake-6cf35a122f4702cf.json"
+    "runs/handoff/intake-6cf35a122f4702cf.json",
+    "runs/handoff/intake-6899be36017f9f36.json"
   ],
   "artifacts": {
     "inbox/001-are-bolded-run-in-section-headers-legal.md": "e78386c291d3cb3dc5b505076253b3c3df588ed41334113ade6f69b704297a15",
@@ -135,6 +136,15 @@
     "inbox/108-for-chapter-14-may-the-governing-outline-be-revi.md": "2a71274c652726fd12f952f53a80ebff63c5e74bb90a3136a24b5696f39a2986",
     "inbox/109-for-chapter-14-do-you-accept-the-proposed-apprec.md": "81588f2b38fc0fea3cd0a87b8d9bff6892287c5b7b5a2cbd09a5603a03004428",
     "inbox/110-commission-the-designer-to-develop-inline-visual.md": "651228d0f6e972b202aa2cc5cf3aa20c440446f2c3ffd07b6074cef2a84f64f7",
+    "inbox/111-apply-five-warmth-edits-to-chapter-13.md": "c7efc2d9867940fd8cd51c2e8799f1e3c55a7995cb78a0197ba22d5d98da156e",
+    "inbox/112-apply-the-chapter-12-warmth-fixes-including-rewo.md": "c58d48df05966ac6e9355c2c66af297ce28456e3cc784d681326ec9b34b1892a",
+    "inbox/113-what-do-you-want-to-say-in-thanks-for-the-ten-ye.md": "5de3c0d5717e878bc2196196e079303ef6c0ff529381ff28e170af4d76f2fbde",
+    "inbox/114-check-chapter-14-s-unverified-details-then-give-.md": "806cdca975b9a9a9662fc1a1cce6f8e0c459307a075c614323ef61ba9d90fe59",
+    "inbox/115-approve-edit-or-replace-the-new-chapter-15-speci.md": "23d448cacc7956c2e3e78bf447658587d1a7d268f0bb6af048b7d22ea16a0190",
+    "inbox/116-confirm-the-chapter-17-word-target-now-that-it-a.md": "b9d0e77acb5764cf1e4d55cc16e7985b882ed5b79d3bc96724527791db6a0987",
+    "inbox/117-review-the-rewritten-part-pages-for-the-desert-a.md": "14ced58464f013a95405b123ce761ed30b11be8f4e0192eb515ad90ba4be8701",
+    "inbox/118-regenerate-the-compiled-pdfs-with-the-new-chapte.md": "ca5d572b016d9ebc763e264719907ff4b5b9b235fd60701e8f03945c3ebbefed",
+    "inbox/119-sweep-the-stale-chapter-number-references-in-okf.md": "c3f1313c3afef53d82a122bd1e1c875e7c824fb179b7eac284d85efc6282ec11",
     "runs/ch08/conformance-inbox-098.md": "408252611fda8169869902d5f48b60671bb9b2c916b00b6e0a09749f3de7c1ea",
     "runs/ch08/derived-refresh-inbox-098.md": "6a877955ab0c79bc1c900bb024bd0cca9b75026d36e285f12be5cc74e6b5cc4d",
     "runs/ch08/distillation.md": "8f7fbdd70f230a8c8aa6328c7925e993dfaa44ced68eaeb7065ca3a851a6302e",
@@ -150,5 +160,5 @@
     "runs/ch08/practice-guide-ch08.md": "2e3b8435f2245604d6e361ce94c0760b36a596bfde7a1a0777c47d11857fc724",
     "runs/ch08/refined-before-inbox-098.md": "3825e9743ca0fe9294df5c2148c3211e0ab1e23c8fd9afd5127f37c6371b707e"
   },
-  "updated": "2026-10-02T00:44:27.858971-05:00"
+  "updated": "2026-10-02T08:40:21.232053+00:00"
 }
