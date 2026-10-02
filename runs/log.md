@@ -4246,3 +4246,38 @@ Record repair: the original entry in commit `bb6d9e2` lacked file and Next lines
 - `tests/export_safety_cases.py`
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
+
+## 2026-10-02 00:56 — `codex/shared-runtimes` — 7 commit(s) this session
+- `.claude/skills/gw-plate/SKILL.md`
+- `.claude/state/retro-reviewed-sha`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch06/distillation.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch08/distillation.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch10/distillation.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/introduction/refined.md`
+- `books/the-stoic-husband/design/plates/README.md`
+- `books/the-stoic-husband/design/plates/small-rocks-big-rocks.svg`
+- `books/the-stoic-husband/design/plates/the-muscle-you-stopped-using.svg`
+- `books/the-stoic-husband/design/plates/three-second-window.svg`
+- `books/the-stoic-husband/design/plates/tipping-scale.svg`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-30-relational-duties.md`
+- `books/the-stoic-husband/okf/findings/sweep-ch06-ch08-inbox-098-conformance.md`
+- `books/the-stoic-husband/okf/findings/sweep-ch10-inbox-099-conformance.md`
+- `books/the-stoic-husband/okf/frameworks/boundary-vs-preference.md`
+- `books/the-stoic-husband/okf/frameworks/four-types-of-unfairness.md`
+- `books/the-stoic-husband/okf/frameworks/scorekeeping-is-contagious.md`
+- `books/the-stoic-husband/okf/frameworks/the-bucket-unscheduled-labor.md`
+- `books/the-stoic-husband/okf/frameworks/the-tipping-scale.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `books/the-stoic-husband/okf/notes/2026-10-01-arc-plates-deferred.md`
+- `books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-style.md`
+- `books/the-stoic-husband/okf/notes/2026-10-01-chapter-plate-titles.md`
+- `books/the-stoic-husband/okf/notes/2026-10-01-inline-chapter-visuals.md`
+- `books/the-stoic-husband/okf/notes/2026-10-01-superseded-plate-label-questions.md`
+- … and 85 more
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
