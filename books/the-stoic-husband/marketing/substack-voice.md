@@ -9,12 +9,35 @@ ban), it governs and is not repeated here. The Publicist reads both.*
 
 ## The register
 
-The book is scene-first and builds to the insight. A Substack post is the opposite:
-**punchline-first, conversational.** The concept is stated plainly and completely in
-sentence one or two. Not a question, not a scene-tease. The reader is on a phone, in
-a kitchen, with about 20 seconds to decide. Two men talking over coffee: same
-intelligence and specificity as the book, shorter runway. Contractions always. Short
-paragraphs. No sentence that makes the reader hold three clauses before the verb.
+**Write it the way he'd tell it to a friend on a Saturday morning.** The book is
+contemplative and can afford to be. A Substack post has to be more fun than the
+book: looser, funnier, a little irreverent, and worth forwarding. If the book is
+the sermon, this is the story he tells afterwards that people actually repeat.
+
+- **Start with the thing.** State the idea in sentence one or two, plainly, then
+  hang a story, a joke or a surprising detail on it. Not a scene-setting runway.
+- **Talk, don't compose.** Contractions, fragments, asides, a tangent that earns its
+  keep. Say "kids" and "dishwasher", not "household" and "the evening". If a sentence
+  sounds like something written, say it out loud and rewrite it until it sounds said.
+- **Be specific to the point of being funny.** The weird real detail beats the
+  tidy general one: the exact thing she said about the dishwasher, the third time
+  you checked your phone. Humour comes from precision and from being honest about
+  how men actually behave, aimed at "most of us", never at her.
+- **Have an opinion.** State it flat. Don't wrap every claim in a soft landing.
+- **At least one moment a reader would screenshot or text to a friend.**
+- **End by stopping.** The last sentence is a concrete image, a joke or a plain
+  fact. Not a moral, not an aphorism, not a callback that explains the point.
+- **No invented "I".** The author's real stories exist only where his interview
+  record or the OKF holds them. Otherwise stay in "you" and "most of us". Never
+  fabricate a personal anecdote, and never turn a composite scene into "my wife".
+
+**What reads as AI slop here, and is out:** "Picture it:", "Break that down:",
+"Translation:", "Here's the thing:", "That's the difference", a colon-then-label
+sentence, a tidy three-beat list, "Not X. It's Y." used as a drumbeat, a closing
+line that sounds like a poster, a moral spelled out after the story already made it,
+and any paragraph where every sentence is the same length. A post can pass every
+count and still read like a brochure. The counts are a floor; the test is whether he
+would be happy to have said it out loud.
 
 Test: if sentence one could open the chapter's scene without stating the concept,
 rewrite it until it is the concept statement.
@@ -29,17 +52,13 @@ referenced. Marcus, Seneca and Epictetus each get one sentence of grounding at f
 use. Test: could someone arriving from a search follow every sentence without
 wondering what it refers to?
 
-## Structure (400–600 words, five paragraphs at most)
+## Shape (400–600 words, five paragraphs at most)
 
-1. **Hook, 1–2 sentences.** Appears in the email preview. The concept, a confident
-   counterintuitive claim, or a one-sentence scene the reader recognises. No "In
-   today's post".
-2. **The concept at depth, 2–3 paragraphs.** Prose only, no bullets, no subheadings.
-   Specific mechanisms and language from the chapter. `[PLACEHOLDER: ...]` stays.
-3. **One application, 1 paragraph.** One specific thing he can begin tonight, folded
-   into a continuing thought in the observational voice. Not a workbook prompt ("Tonight,
-   pick one thing. Ask yourself...").
-4. **One closing sentence.** Lands the concept and stops. Nothing after it.
+A hook that states the idea, the story or case that makes it land, the Stoic point
+in plain talk, one thing he can do tonight, and one closing sentence. No bullets, no
+subheadings. `[PLACEHOLDER: ...]` stays. The application is observational ("the next
+time she says something sharp, there's a half second..."), never a workbook prompt
+("Tonight, pick one thing. Ask yourself...").
 
 ## Required in every post
 
@@ -84,23 +103,37 @@ line reads as a trivia headline. Miss: "The most useful word from a 2,000-year-o
 slave". Hit: "What to do in the three seconds after she says something sharp". Miss:
 "Trace one default back to its source". Hit: "Who taught you how to fight with her?"
 
-## Social teasers (per concept)
+## The file: one post, with the X and Facebook posts appended
 
-Single posts, never threads. 3–4 sentences each, a provocative fragment, not a
-summary. Standard tags `#Stoicism #HusbandLife #MarriedMan` on X and Facebook only.
+Each concept is ONE file, `runs/marketing/chNN/NN-slug.md`, laid out so the Substack
+post can be pushed or pasted whole and the two social posts cut and pasted straight
+from the bottom:
 
-- **LinkedIn:** the most arresting claim first, then 2–3 specific sentences. No tags.
-  Note in the file: Substack link goes in the first comment, not the body.
-- **Facebook:** same shape, warmer register allowed. Ends `Full piece: [link]` then tags.
-- **X:** two or three options with genuinely different angles (counterintuitive,
-  scene-led, practical). Premium assumed. Each ends with the link, then tags.
-- **Reddit:** one text post, title under 200 characters, body 150–200 words. Lowercase
-  `i`, fragments fine, `...` as a beat, 2–3 questions, short paragraphs, no windup, starts
-  mid-thought, does not pitch, no tags. The post gives the real insight on its own.
-  Closes `*wrote more on this here if it's useful: [link]*`. Suggest 2–3 of r/Stoicism,
-  r/Marriage, r/AskMen; post to one at a time; link goes in the first comment where the
-  sub restricts links. Reddit readers punish marketing copy. Reader signal from the
-  Ch2 post (r/AskMen) is the reason the wife-as-threat ban exists.
+```
+# Title
+**Chapter source:** ...   **Subject lines:** 1. ... 2. ... 3. ...
+**Status:** Draft, awaiting author approval. Not posted.
+---
+<the Substack post, and nothing else>
+<!-- END OF POST -->
+## X
+<the post, ready to paste; the link line is the literal text [Substack link]>
+## Facebook
+<the post, ready to paste, ends with the link line then the tags>
+```
+
+Everything between the first `---` and `<!-- END OF POST -->` is the post and is the
+only part ever pushed to Substack. Nothing in the post body may refer to the X or
+Facebook posts. Run the counted check on the post body only.
+
+**X and Facebook** (`#Stoicism #HusbandLife #MarriedMan` on both): single posts,
+never threads, 3–4 sentences, a provocative fragment and not a summary, in the same
+casual voice as the post. X gets two or three options with genuinely different
+angles (counterintuitive, story-led, practical); Facebook gets one, warmer. Each ends
+with the link line, then the tags. **LinkedIn and Reddit are written only when he asks
+for them**, in the formats the frozen pipeline used (LinkedIn: no tags, link in the
+first comment; Reddit: lowercase `i`, fragments, `...` as a beat, 2–3 questions, no
+pitch, 150–200 words, link as an afterthought in the first comment).
 
 ## Before showing him anything
 
@@ -109,7 +142,9 @@ directions shown. No one-sided casting. Banned verbs, em-dashes and windups clea
 Conversational throughout. 400–600 words. Then `voice_check.py --short-form` pasted
 verbatim. Do not show a draft that still needs a fix.
 
-## What he does by hand after approval (nothing here is posted by the house)
+## What he does by hand after approval (the house never posts)
 
-Strip any tag from the title, publish in Substack, pick the auto-generated preview
-image, then post the teasers with the link. Image selection has no tool and stays his.
+Today: copy the post into Substack, strip any tag from the title, publish, pick the
+auto-generated preview image, then paste the X and Facebook posts from the bottom of
+the file, swapping `[Substack link]` for the live URL. Pushing the post to Substack as
+a draft is a registered gap (`GAPS.md`), not a capability this house has yet.

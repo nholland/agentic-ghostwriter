@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-02T22:34:38.457869+00:00",
+  "subjects": [
+    "marketing:substack-register-casual"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-10-02: Substack should be \"more informal, casual tone - as if talking to a friend\", \"more entertaining than the book\"; X/FB posts appended to each post.",
+  "reason": "Marketing register and file-layout spec rewritten; no book fact, claim, story or meaning added or changed.",
+  "files": {
+    "books/the-stoic-husband/marketing/substack-voice.md": "d9120125b43a88e8526871793498e5a0ce9b2f027e95e8d9cf79378ad032c5fa"
+  }
+}

@@ -33,8 +33,9 @@ deliverable; he chooses from it. Do not draft all of them unprompted.
 
 Social (3–4 sentences) and Substack (400–600 words), each standing alone: no piece
 points the reader at another piece or at the book. Register, subject lines and
-platform formats are in `{bookRoot}/marketing/substack-voice.md`. Single posts, not
-threads.
+platform formats are in `{bookRoot}/marketing/substack-voice.md`. One file per
+concept: the Substack post, then the X and Facebook posts appended below an
+`<!-- END OF POST -->` marker. Single posts, not threads.
 
 Short-form rules are **stricter** than chapter rules, not looser: the same count
 of metaphor repetitions reads far denser in 500 words than 2,500, and the bold and
