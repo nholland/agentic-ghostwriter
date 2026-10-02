@@ -355,3 +355,20 @@ row below has `evidence_source: page-text`; none is `verified` (Rule 11).
 
 Still open from this ledger: #11 (Letter 81 splice, Lane C), #12's stressor
 count, and the Ch10 Enchiridion 30 translator question recorded in parking-lot #35.
+
+---
+
+## Opened and resolved 2026-10-02 - Ch2's Seneca quotation is not in De Ira
+
+| # | Chapter | Defect | Resolution |
+|---|---|---|---|
+| 1 | Ch2 | "Reason wishes to give calm to our emotions, not to root them out", credited to *De Ira* II.3. Not in the Latin (Basore, Perseus) or Stewart's English; *De Ira* I.7 and III.42 argue the opposite. Sole origin: Kruse 2025, Psychology Today. | Quotation and attribution dropped from Ch2 on the author's ruling (inbox #116, "C"); the point stands in his own words. Concept `seneca-calm-not-root-out-emotions` marked defect, do-not-quote. |
+
+Still open from this finding, by name: `okf/frameworks/compassion-vs-empathy.md` (line 66) and
+`okf/frameworks/humor-and-lightness-as-stoic-practice.md` (line 52) cite the line as Stoic
+support; `chapters/ch02/research.md`, `chapters/ch04/research.md`, `quality/beta-report.md`,
+`sources/articles/psychology-today-stoic-compassion.md` and
+`okf/citations/kruse-stoic-compassion-psychology-today.md` call it confirmed; Ch2 Substack
+and social draft 04 quote it (blocked, not posted). Separately,
+`seneca-de-ira-3-6-democritus-tranquillity.md` dates Stewart to 1900; the Gutenberg title
+page reads 1889.

@@ -1,9 +1,12 @@
 ---
-id: 111
-status: open
+id: 116
+status: resolved
 raised_by: gw-factchecker
 chapter: 2
 opened: 2026-10-02 11:46
+resolved: 2026-10-02 22:28
+applied_by: ! grep -q "wishes to give calm" books/the-stoic-husband/chapters/ch02/refined.md
+okf_receipt: runs/reconciliation/2026-10-02-ch02-seneca-quote-removed.json
 ---
 
 # Chapter 2 prints a Seneca quotation that is not in De Ira. How do you want the line handled in the chapter?
@@ -19,3 +22,9 @@ runs/ch02/seneca-calm-not-root-out-factcheck.md
 ```
 
 **What unblocks this:** A ruling on the Ch2 line (a /gw-edit 2 change), then Substack post 04 can be rebuilt and the citation concept and two frameworks repointed.
+
+**Resolution (2026-10-02 22:28):** Author: "C" (drop the quotation and the Seneca attribution; keep the line as his own words). Applied to chapters/ch02/refined.md; concept marked defect/do-not-quote; downstream notes listed in quality/citation-defects.md as still open.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `! grep -q "wishes to give calm" books/the-stoic-husband/chapters/ch02/refined.md` exits 0.
+
+**Applied, confirmed 2026-10-02 22:28:** `! grep -q "wishes to give calm" books/the-stoic-husband/chapters/ch02/refined.md` now exits 0.

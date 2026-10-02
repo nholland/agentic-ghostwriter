@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-02T22:28:39.216813+00:00",
+  "subjects": [
+    "inbox:116"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-calm-not-root-out-emotions.md"
+  ],
+  "authority": "Author, 2026-10-02, ruling on inbox #116: \"C\"",
+  "reason": "Seneca quotation shown absent from De Ira by the Fact-Checker; chapter drops quotation and attribution per ruling, concept recorded as defect/do-not-quote, defect logged; downstream notes listed as still open.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch02/refined.md": "d79c376fc1890ddbae19ecf0db595776054633c00894e9e78e7346c93b5f3c4e",
+    "books/the-stoic-husband/okf/citations/seneca-calm-not-root-out-emotions.md": "cd0ff98361e476e67070105ce358ed1a4eb645c7adc43ef5529afa7e3ee6fed6",
+    "books/the-stoic-husband/quality/citation-defects.md": "e02edaec242375562e511a419f4970de7327639c8a4a703259227af87ffb6e62",
+    "books/the-stoic-husband/citation-queue.md": "6472eade0b530b272ea966ab7ca28a7ef33b237fdc6cc9d0029d4992a58975a4"
+  }
+}

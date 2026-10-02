@@ -12,18 +12,24 @@ resource: >
   https://www.psychologytoday.com/us/blog/the-stoic-heart-the-human-whole/202510/the-stoics-guide-to-caring-deeply-without-losing
 status: unverified
 quote_form: verbatim
-evidence_source: search-synthesis
+evidence_source: page-text
 verification_note: >
-  Real primary source confirmed with book and section number (De Ira, Book II,
-  §3) via the Psychology Today article (Kruse, 2025), which gives both the Latin
-  ("Ratio affectibus tranquillitatem dare vult, non tollere") and the English
-  ("Reason wishes to give calm to our emotions, not to root them out"). The quote
-  is reproduced here from the secondary source; a researcher should still fetch
-  *De Ira* II.3 directly to confirm the exact Latin and choose the preferred
-  English translation before manuscript use. Do not alter the quote or invent a
-  source location (CLAUDE.md Rule 3).
+  DEFECT 2026-10-02 (gw-factchecker; landed by the Publisher). The quotation does
+  not exist in De Ira. Read on the page: Basore's Latin De Ira, all 100 chapters,
+  on Perseus (Perseus:text:2007.01.0014); "Ratio affectibus tranquillitatem dare
+  vult, non tollere" is absent, and "tranquillitatem" does not occur in the work.
+  Also read: Stewart's English (Bell 1889, Gutenberg #64576, translator confirmed
+  from the file header) and L'Estrange's abstract (Gutenberg #56075); the English
+  line is absent from both. "non tollere" occurs only at I.7.1, as the view of
+  opponents ("quidam putant temperare iram, non tollere"), which Seneca rejects;
+  III.42.1 concludes "exstirpemus radicitus ... iram non temperemus, sed ex toto
+  removeamus". The sole origin is Kruse 2025 (Psychology Today). evidence_source
+  is page-text because the primary pages were read; status stays unverified
+  because what they establish is absence. No translator, no locator: do not
+  print or post as a quotation. Chapter 2 dropped it on the author's ruling,
+  inbox #116. Full report: runs/ch02/seneca-calm-not-root-out-factcheck.md.
 ip: external
-tags: [citation, seneca, verifiable]
+tags: [citation, seneca, de-ira, misattribution, defect, do-not-quote]
 chapter_slugs: [stop-outsourcing-your-peace, anger-is-failed-leadership, warmth-is-strength]
 timestamp: 2026-06-14T00:00:00Z
 ---
@@ -44,12 +50,10 @@ feeling, not the absence of feeling. The best single sentence for that purpose.
 
 # Status
 
-**Verifiable.** A real primary source is identified and confirmed with book and
-section number (*De Ira*, Book II, §3) via Kruse (2025), *Psychology Today*. The
-Latin and English are both supplied by the secondary source and reproduced
-verbatim above. To reach full verification, a researcher should fetch *De Ira*
-II.3 directly to confirm the Latin and select the preferred published English
-translation before the quote appears in the manuscript.
+**Defect: do not quote.** The sentence is not in *De Ira* (see `verification_note`).
+It came from a secondary source that supplied a Latin line and a locator no primary
+text carries. It stays in this ledger as a record of what the house was wrong about;
+it is not available as a quotation, in any translation.
 
 # Related
 
