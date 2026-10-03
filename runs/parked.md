@@ -272,7 +272,18 @@ spec), #9 (before a second book), #12 (Ch26 research; the audiobook scene to Ch2
 *Repair*, was Ch17), #23 (his call, after `/gw-qa`), #29, #32 (recount: 136 of
 140 citations open), #33, #35, #39 (P-005).
 
-**Held:** #24 and #26, now P-006. **Pending his answer:** #38.
+**Held:** #24 and #26, now P-006.
+
+**#38 folded into P-005, 2026-10-03.** The author approved the Publisher's
+recommendation: *"Yes, do 1 and 3."* Both whole-set plate findings (Ch7 and Ch11
+converged on one composition; no plate in the set draws warmth) now share P-005's
+trigger, **once the book's arcs are complete**, instead of "the first Part III
+chapter plate," which had already fired. Evidence read 2026-10-03: the Ch12 plate
+draws neglect (an empty box) and the Ch13 plate is a two-path decision diagram,
+so neither broke the damage-avoided register; the Ch14 watering can is the first
+plate in the set that draws something given. Ch12 and Ch13 stay as landed. The one
+near-term action, a label move on the Ch14 plate and a brief note that it should
+show something received, is recorded in `runs/ch14/plate-brief.md`.
 
 **Correction to P-004, 2026-10-03.** Its trigger reads "the Chapter 23
 interview." The 2026-10-02 renumber made Chapter 23 *Repair Quickly, Love

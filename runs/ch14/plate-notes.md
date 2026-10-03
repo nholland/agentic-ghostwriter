@@ -254,3 +254,29 @@ runs/ch14/plate.svg
 ```
 
 All Publisher check rows pass for the current redraw, including rendered ink margins and current raster identity. Together with the completed Designer format inspection and cold Panel PASS, the plate is ready for the author's verdict. No remaining rendering or independent-read blocker is recorded.
+
+
+## Label placement revision, 2026-10-03 02:13
+
+One change, made on the author's approval recorded in `plate-brief.md` (2026-10-03 addition): "a kinder answer" should sit where the water lands. Moved that one `<text class="lbl">` from **x=433, y=263** (beside the middle of the stream) to **x=438, y=302** (beside the last drops on the right, just before they enter the grass). Copy, title, drawing, canvas (640x500), class and text count are unchanged; the SVG diff is one line.
+
+Why this position and not the suggested x~452, y~318. The checker's Georgia metrics give the label a width of 162. At x=452 it would run to 614, inside the right margin band (the original redraw hit the same MARGIN failure at x=443). The furthest right it can start is x=438, ending at 600. At that x, the drop at x 429-431, y 312-324 is only 7px to the left, so the baseline cannot go below y=302 and still keep 12px clear of it. At y=302 the label is about 12px from the nearest drops (424,293 to the left; 429,312 below) and 28px above the grass tips at y=330. A left-of-stream position (x=223, y=318, directly above the grass) was also rendered and rejected: it sat under the can and read as a label for the can or the empty left, not for the water.
+
+Rendered `pdf/plate.png` and looked at it. The label reads as naming the lower stream where it reaches the grass. Limitation: the local renderer substitutes a narrower serif for Georgia (rendered label about 124 wide, not 162). On a device with Georgia, the right edge lands on x=600, the edge of the margin band and not inside it.
+
+Format checklist for this revision:
+
+- [x] Centred texts unchanged on x=320; the moved label stays left-anchored through the `lbl` class.
+- [x] Drawing block unchanged and still centred.
+- [x] Canvas 640 wide, 500 high.
+- [x] Caption count unchanged: two italic lines.
+- [x] No bare text-anchor attribute.
+- [x] Explicit fills unchanged.
+- [x] Title is still the Mechanism, word for word; copy unchanged.
+- [x] Rendered and inspected (fallback-font caveat above).
+
+The counted check was not run as authority here. The Publisher runs `plate_check.py` independently. `runs/design/plate-briefs.md` was not edited, because this commission limits writes to `runs/ch14/`. Its Chapter 14 visual explanation may still say the label sits beside the falling water; if it needs to say "where the water lands", the Publisher should update it.
+
+### 2026-10-03 02:15 Publisher nudge
+
+The independent plate_check run failed geometry MARGIN for "a kinder answer" at x=438 (right edge 600; the house limit is 596). Moved x 438 -> 434, y unchanged at 302. All rows then pass; nothing else changed.

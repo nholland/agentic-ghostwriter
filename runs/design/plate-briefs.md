@@ -168,7 +168,7 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 
 **Intent:** Notice what you value in your wife and let appreciation become an ordinary act of care for the life you share.
 
-**Visual explanation:** A large tilted watering can holds “appreciation.” Its loop handle, curved body, long spout and sprinkler head make the object recognizable. Discrete drops descend from the spout into one grass patch. “A kinder answer” sits beside the falling drops, naming the act of care while it happens. The grass is labeled “the life you share.” The image draws appreciation becoming care through contact between water and grass. There is no before/after growth comparison or returning arrow; the shared-life label names the recipient without depicting the wife as a plant to improve.
+**Visual explanation:** A large tilted watering can holds “appreciation.” Its loop handle, curved body, long spout and sprinkler head make the object recognizable. Discrete drops descend from the spout into one grass patch. “A kinder answer” sits at the foot of the stream, just above the grass where the water lands, naming what the water becomes. The grass is labeled “the life you share.” The image draws appreciation becoming care through contact between water and grass. There is no before/after growth comparison or returning arrow; the shared-life label names the recipient without depicting the wife as a plant to improve.
 
 **Validation question:** Within ten seconds, can a stranger recognize a watering can watering grass, identify the kinder answer as the water, and understand appreciation for his wife becoming care for their shared life? Does the image imply she owes a response?
 
