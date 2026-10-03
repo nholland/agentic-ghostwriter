@@ -2,8 +2,10 @@
 
 *What the old pipeline does that this house does not, recorded so it is deferred
 rather than lost. Audited 2026-09-13 against all 40 `book-*` commands: **27
-covered, 13 not.** The covered ones are mapped in `FLOW.md` and the roster table
-in `CLAUDE.md`.*
+covered, 13 not.** Re-counted 2026-10-03 after closing five of the 13: **32
+covered, 1 not needed until a second book (`intro`), 7 open** (the publication
+stack below). 27 + 3 + 2 + 1 + 7 = 40. The covered ones are mapped in `FLOW.md`
+and the roster table in `CLAUDE.md`.*
 
 A gap is listed with the **trigger** that should close it — the condition under
 which building it becomes the right use of a session. Building any of these before
@@ -12,13 +14,15 @@ current work.
 
 ---
 
-## Now: built this pass
+## Built since the audit
 
 | Was missing | Now |
 |---|---|
 | `edit` — interactive chapter re-edit | `/gw-edit` — section by section, in session, then refreshes distillation, practice guide and plate |
 | `note` — the author's own words into memory | `/gw-note` — notes and parked questions, his wording, real clock |
 | `park` — a deferred question | `/gw-note park` — a revisit **trigger**, not a date; distinct from the inbox, which is what blocks a desk |
+| `switch` — change the active book | `scripts/switch_book.py` (2026-10-03) — lists the registry, validates the target, writes `bookRoot` once. It does not move `config/house.json`'s mirrored voice thresholds, so `voice_rules_check.py` fails until they match the new book's spec; that is the intended loud failure |
+| `distill --refresh` — fleet-wide distillation refresh | `scripts/distill_status.py` finds the chapters to re-read (missing, malformed, or `refined.md` committed after its distillation); the "Fleet refresh" section of `/gw-edit` re-runs the Line Editor on only those. A flag is "re-read", not "wrong" |
 
 ---
 
@@ -58,7 +62,7 @@ shared environment's startup script should be trying to configure for him.
 
 **Trigger: the author approves the whole-book QA pass (`/gw-qa`) and says the book
 is close.** Every one of these needs the finished arc, the QA findings, and the
-callouts to be accurate. With 17 of 29 chapters unwritten, each would be built on
+callouts to be accurate. With 15 of 28 chapters not yet landed (as of 2026-10-03), each would be built on
 a book that does not exist yet — and `/book-marketing`'s own note says as much:
 *"It requires the full arc, QA results, and callouts before it can be accurate."*
 
@@ -82,7 +86,7 @@ it as `substack-mcp`, a locally-installed npm package on the author's own machin
 cookie-authenticated, configured in a `.mcp.json` the book repo's own `.gitignore`
 explicitly excludes ("contains live credentials, never commit"). So nothing was
 lost migrating it — it was never in either repo to lose. `book-manifest.json`'s
-`integrations.substack.status: "connected"` does **not** mean this system can post:
+`integrations.substack.status: "connected"` (as it read then) does **not** mean this system can post:
 read closely, it is the author's own publication existing at that URL, a business
 fact, not a technical credential live in this session.
 
@@ -93,9 +97,9 @@ was actually loaded in this (cloud) session."* The old pipeline's fix was a live
 tool-availability check at the point of use, in `/book-substack` Step 3.5. This
 house doesn't need that specific fix — `gw-publicist` never attempts a live push,
 so there's no point of use to check at — but the stale manifest field itself rode
-along unflagged until asked about directly here. Fixing the manifest field is not
-listed as its own gap: it is stale data, not missing capability, and correcting it
-belongs to whoever next touches `book-manifest.json`'s `integrations` block.
+along unflagged until asked about directly here. The manifest field was corrected
+2026-10-03: `integrations.substack.status` now reads `"author-hosted"`, which
+states the business fact without implying a live credential.
 
 **Buffer was never audited in, because it was never a command.** The 2026-09-13
 audit covered the 40 `book-*` commands; Buffer (`parking-lot.md` #8, 2026-06-17)
@@ -127,20 +131,18 @@ anything; that does not change.
 
 ---
 
-## Deferred: smaller, with their own triggers
+## Deferred: not needed for this book
 
 | Gap | Old command | Trigger |
 |---|---|---|
-| The Introduction as "chapter zero" | `intro` | **Starting a new book.** It is not a numbered chapter: it is the author's own credibility and the misconception to defuse before Chapter 1, and it must not plant questions later chapters owe an answer to. The Stoic Husband's already exists. |
-| Distillation refresh as a standalone | `distill --refresh` | **A bulk editing pass across many chapters.** `/gw-edit` already refreshes the chapter it touched; a fleet-wide refresh is a different job. |
-| Switch active book | `switch` | **A second book exists.** The book repo's manifest already holds a registry keyed by path; the engine reads `bookRoot` from it, so this is a one-line change to `resolve_book.py` when it is needed, not a desk. |
+| The Introduction as "chapter zero" | `intro` | **Starting a new book.** It is not a numbered chapter: it is the author's own credibility and the misconception to defuse before Chapter 1, and it must not plant questions later chapters owe an answer to. The Stoic Husband's already exists, so nothing here is open until book two. |
 
 ---
 
 ## How this file stays honest
 
 It is a point-in-time audit, so per standing rule 15 it states its basis: **40
-`book-*` commands, audited 2026-09-13, 27 covered.** Re-run the audit when desks
+`book-*` commands, audited 2026-09-13, 27 covered; re-counted 2026-10-03, 32 covered.** Re-run the audit when desks
 are added or the old pipeline changes; an uncounted gap register is the
 `citation-manifest.md` failure wearing a new name.
 

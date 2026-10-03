@@ -65,6 +65,23 @@ regenerate:
 - the plate, via `gw-designer`, if the mechanism changed. A plate drawing a mechanism
   the chapter no longer argues is worse than no plate.
 
+## Fleet refresh (distillations only, no prose edit)
+
+For a bulk pass, or when asked whether the distillations are current. Not an
+edit: the prose is not touched, so he is not walked through sections.
+
+```
+python3 scripts/distill_status.py
+```
+
+Paste it. STALE means "re-read", not "wrong": a typo fix leaves a distillation
+right. For each flagged chapter, dispatch `gw-lineeditor` cold (name it) to
+regenerate `runs/chNN/distillation.md` from the landed `refined.md`, nothing else.
+Then run `python3 scripts/practice_sync.py` yourself, independent of what the desk
+reported (Rule 7). Show him the diff per chapter; a distillation that did not
+change is reported as unchanged, not re-landed. Anything he accepts lands as its
+own commit naming his word. Two failed rounds on a chapter go to the inbox.
+
 ## Close
 
 Report what changed, the counts as the scripts printed them, which derived artifacts

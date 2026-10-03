@@ -1591,8 +1591,9 @@ def main():
     from export_safety_cases import export_safety_cases
     from prove_new_code_cases import prove_new_code_cases
     from maintenance_batch_cases import maintenance_batch_cases
+    from book_tools_cases import book_tools_cases
     from okf_reconcile_cases import okf_reconcile_cases
-    rows = (archivist_cases() + hook_environment_cases() + runtime_cases() + ownership_lifecycle_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
+    rows = (book_tools_cases() + archivist_cases() + hook_environment_cases() + runtime_cases() + ownership_lifecycle_cases() + okf_reconcile_cases() + maintenance_batch_cases() + prove_new_code_cases() + export_safety_cases() + inbox_duplicate_cases() + land_ancestry_cases() + manual_description_cases() + draft_package_cases() + package_cases() + voice_rules_cases() + resolve_cases()
            + okf_index_cases() + tombstone_cases() + chapter_slug_cases()
            + freshness_cases() + migrated_dep_cases()
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()

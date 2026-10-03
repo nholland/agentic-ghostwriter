@@ -149,7 +149,7 @@
       "currentPhase": "writing",
       "integrations": {
         "substack": {
-          "status": "connected",
+          "status": "author-hosted",
           "publication_url": "https://stoichusband.substack.com",
           "parking_lot_item": null
         }
