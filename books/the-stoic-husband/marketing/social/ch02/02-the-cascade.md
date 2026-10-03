@@ -1,6 +1,6 @@
 # Social: The Cascade
 **Chapter source:** Ch2 — Stop Outsourcing Your Peace
-**Status:** Draft — review before publishing
+**Status:** RETIRED 2026-10-02 — DO NOT POST. Cascade: counted-check failures, banned vocabulary, and reads as AI slop. Superseded by fresh Chapter 2 posts under `runs/marketing/ch02/`.
 
 ---
 

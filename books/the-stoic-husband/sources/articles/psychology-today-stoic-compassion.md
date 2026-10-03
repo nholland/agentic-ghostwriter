@@ -8,6 +8,7 @@
 **Updated:** November 14, 2025
 **Reviewed by:** Margaret Foley
 **Status:** FULL TEXT — confirmed by author 2026-06-02
+**Note 2026-10-02:** this file is the article as received and is kept raw. Its attribution of a Latin and an English sentence to Seneca, *De Ira* II.3, is not borne out by *De Ira* (Latin or English). Do not rely on this article for any Seneca attribution. See `okf/citations/kruse-stoic-compassion-psychology-today.md`.
 
 ---
 

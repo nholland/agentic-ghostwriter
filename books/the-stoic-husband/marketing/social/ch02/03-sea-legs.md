@@ -1,6 +1,6 @@
 # Social: Sea Legs
 **Chapter source:** Ch2 — Stop Outsourcing Your Peace
-**Status:** Draft — review before publishing
+**Status:** RETIRED 2026-10-02 — DO NOT POST. its boxer/wrestler image is not in the landed chapter, it fails the counted check, and it reads as AI slop. Superseded by fresh Chapter 2 posts under `runs/marketing/ch02/`.
 
 ---
 

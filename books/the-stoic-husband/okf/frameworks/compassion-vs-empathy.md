@@ -32,7 +32,7 @@ the patient.
 | Inner state | Anchored in own reason, purpose, peace | Swept into the other's state |
 | Effectiveness | More predictive of helping | Can tip into empathic distress, which is aversive and less predictive of helping |
 
-**Apatheia clarification (Seneca via Kruse):** *Apatheia* — the Stoic ideal of
+**Apatheia clarification (Kruse's gloss; she presents it as Seneca's, but see the attribution defect in [Kruse (2025)](/citations/kruse-stoic-compassion-psychology-today.md)):** *Apatheia* — the Stoic ideal of
 freedom from destructive passion — was never meant as the absence of feeling,
 but as tranquility within feeling. Emotions are natural; what matters is their
 governance by reason.
@@ -62,13 +62,14 @@ not only more Stoic — it is more effective.
 - Builds on the governance distinction in [Attachment vs. Devotion](/frameworks/attachment-vs-devotion.md).
 - Pairs with [Emotional Contagion (The Human Mirror)](/frameworks/emotional-contagion-the-human-mirror.md)
   — the science of why mirroring happens, and the governed alternative.
-- The apatheia point connects to [Seneca's *De Ira* on anger](/citations/seneca-de-ira-on-anger.md)
-  ("reason wishes to give calm to our emotions, not to root them out").
+- The apatheia point connects to [Seneca's *De Ira* on anger](/citations/seneca-de-ira-on-anger.md);
+  the line once printed as Seneca's, "reason wishes to give calm to our emotions, not to root them out," is not in *De Ira* (Fact-Checker, 2026-10-02; see [the defect record](/citations/seneca-calm-not-root-out-emotions.md)); the real doctrine here is the first-movement passage, *De Ira* II.2 to II.4.
 
 # Citations
 
 1. Kruse (2025), Psychology Today — confirmed source for the compassion/empathy
-   distinction, the apatheia clarification, the neuroscience grounding, and the
+   distinction, the apatheia clarification (as Kruse's own gloss; her Seneca
+   attribution is defective, see Related), the neuroscience grounding, and the
    "presence without panic" framing. See
    [/citations/kruse-stoic-compassion-psychology-today.md](/citations/kruse-stoic-compassion-psychology-today.md).
    - "Presence without panic — showing up fully while remaining anchored in your

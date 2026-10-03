@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-03T01:14:19.043140+00:00",
+  "subjects": [
+    "inbox:116",
+    "okf:seneca-quotation-cleanup"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-calm-not-root-out-emotions.md",
+    "books/the-stoic-husband/okf/citations/kruse-stoic-compassion-psychology-today.md",
+    "books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md",
+    "books/the-stoic-husband/okf/frameworks/humor-and-lightness-as-stoic-practice.md",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-3-6-democritus-tranquillity.md"
+  ],
+  "authority": "Author, 2026-10-03: \"Let's clean up the OKF items first. Want to fully address those.\" (after ruling \"C\" on inbox #116)",
+  "reason": "Fact-Checker showed the Seneca quotation is not in De Ira; every OKF concept, research note and record that relied on it is annotated or corrected, history preserved, Stewart edition year corrected to 1889 against the Gutenberg title page; old Ch2 drafts retired.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch02/research.md": "69a4a38bf354da550b1a5b1c494d0efb6fe40c8248834e209f4b222318b29661",
+    "books/the-stoic-husband/chapters/ch04/research.md": "c5b9fe28a7a9f5c6d037b71428284215d9fda7b42be071245415a34cd85b610a",
+    "books/the-stoic-husband/citation-queue.md": "24263600d1725521a43a587147ffb10f17f0912c31c14e7fc9df0351f2315594",
+    "books/the-stoic-husband/marketing/social/ch02/02-the-cascade.md": "152d0fb42d9dad5d0b34aaf9cc5897dc352db7b2a5c5b2c4d0a0f87df883cc7d",
+    "books/the-stoic-husband/marketing/social/ch02/03-sea-legs.md": "c2141e19c9410c6472d637156676ba22fa5dba5d27f65f1b45470582ef42e9b6",
+    "books/the-stoic-husband/marketing/social/ch02/04-care-without-contagion.md": "f8b61f76268422bf4bee2b7d162a81edf02f1a76f0e6650e3ebd63b9207f7926",
+    "books/the-stoic-husband/marketing/substack/ch02/02-the-cascade.md": "db56e5618c6117e0bd5d781cf872b7c2008cb34d8c24393615cebcb9aeba3bff",
+    "books/the-stoic-husband/marketing/substack/ch02/03-sea-legs.md": "69a135a4e0006a568c944540c3eeb07f58f46af26e0677fb24732d31a5d491ee",
+    "books/the-stoic-husband/marketing/substack/ch02/04-care-without-contagion.md": "729d034b5b1c9a24f6803e80a4fbb1d6e0ab84af2c6cdcc6732adc7c78bc4d98",
+    "books/the-stoic-husband/marketing/substack/ch02/concepts.md": "d0122d66059d5cf8096376a079de2fc346df388ba0cc96533341167f217d48b1",
+    "books/the-stoic-husband/okf/citations/kruse-stoic-compassion-psychology-today.md": "2d23ed50c372379461a14a0adabdc883d5f42c2dae7b8040a2918b2514d5f6d6",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-3-6-democritus-tranquillity.md": "fc4497a455125d08620b1c7de7af34aa3f8768d23c2ad066bca092db2c7d46bb",
+    "books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md": "65146ff35852634aede9cae178d710ea27f2cd613df2dd45999f7f4a4fa96206",
+    "books/the-stoic-husband/okf/frameworks/humor-and-lightness-as-stoic-practice.md": "8373ce1a1494069f11c2b6bfae5e359c66313677a5e97ee7815e68b144d28d01",
+    "books/the-stoic-husband/okf/index.md": "90360f7b8e9806afb60b7a32ecf5e4cb21e6815ab50e3f39d7c8e3e5e9615211",
+    "books/the-stoic-husband/okf/log.md": "a12d7a5c4b31dc3518af562a5244cea23fb8761eee2ea66326c3b25bdf853ef1",
+    "books/the-stoic-husband/quality/beta-report.md": "110f66c47a73b72ac343dc4b4bb5c19df895ca740ddb7a557cc4267758f0063f",
+    "books/the-stoic-husband/quality/citation-defects.md": "48fa47f1c0a3039a2495e51f733045ec6461df419b5da7d5b36312ab225fa8e6",
+    "books/the-stoic-husband/sources/articles/psychology-today-stoic-compassion.md": "d8cdd5351b3a6b70b29c86667cc14f08ae67a40bb4d391beba26274747b3790c",
+    "books/the-stoic-husband/sources/verification/packet-04.md": "17308db9e3ebfeeea120a238fcf14abcb4357064cd1540f4f4cd995aa3cde3b8"
+  }
+}

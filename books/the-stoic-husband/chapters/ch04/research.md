@@ -201,6 +201,6 @@ The chapter also sets up Chapter 15 (Repair Quickly, Love Deliberately) without 
 - **PROHAIRESIS** — anger as the governing faculty overtaken; philosophical backbone
 - **MARRIAGE AS THE DEATH OF THE IMAGINED SELF** — "I am a patient man" + the anger moment; light use
 - **THE FIVE HIDDEN JUDGMENTS** — ego threat (Judgment 2) as the hidden driver beneath many anger triggers
-- **SENECA De Ira II.3** — "Reason wishes to give calm to our emotions, not to root them out" — confirmed, exact translation to be fetched
+- **SENECA De Ira II.3** — "Reason wishes to give calm to our emotions, not to root them out" — ~~confirmed, exact translation to be fetched~~ [SUPERSEDED 2026-10-02: not in *De Ira*; do not use; see `quality/citation-defects.md`]
 - **RESPECT AS A RESOURCE** — author framework confirmed in check-in
 - **THE BEHAVIORAL LOOP** — author framework confirmed in check-in

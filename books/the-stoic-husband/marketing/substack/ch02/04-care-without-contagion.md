@@ -7,7 +7,7 @@
 3. Your equanimity isn't the distance between you. It's what you're bringing her.
 **Word count:** ~330
 **Substack draft:** — (pushed when 📄 appears in concepts.md)
-**Status:** Draft — review before publishing
+**Status:** RETIRED 2026-10-02 — DO NOT POST. Built on a Seneca line that is not in *De Ira*. Superseded by fresh Chapter 2 posts under `runs/marketing/ch02/`.
 
 ---
 
