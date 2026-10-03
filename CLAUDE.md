@@ -61,7 +61,8 @@ the old desks while reporting on the new ones.
 
 Production is scripts and hooks, not a desk: `resolve_book.py`, `next.py`,
 `voice_check.py`, `voice_rules_check.py`, `okf_gate.py`, `inbox.py`, `bakeoff.py`,
-`sync.py`, `session_log.py`, `sync_plugin_layout.py`, and the two hooks.
+`sync.py`, `session_log.py`, `sync_plugin_layout.py`, `switch_book.py`,
+`distill_status.py`, and the two hooks.
 
 **Git and sessions are production, never a desk.** Every git failure in the old
 pipeline's incident archive was a model following rule text; every fix was a check
@@ -184,7 +185,7 @@ An inbox item he cannot answer without scrolling back is not finished.
     never rewrites.
 16. **A deferred capability is registered, not forgotten.** `GAPS.md` lists what the
     old pipeline does that this house does not, each with the trigger that should
-    close it. 13 of 40 commands, audited 2026-09-13. Say "not yet, and here is what
+    close it. 7 of 40 commands open, re-counted 2026-10-03. Say "not yet, and here is what
     it waits on" rather than discovering the gap when he needs it.
 17. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without

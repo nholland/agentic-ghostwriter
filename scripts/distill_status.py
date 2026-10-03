@@ -14,9 +14,15 @@ WHAT IT REPORTS, per chNN chapter under {bookRoot}/chapters/
     MISSING    no distillation.md next to refined.md
     MALFORMED  distillation.md lacks a required label (Mechanism, Conversation
                sentence, Lesson, Challenge, Practice) or has no numbered practice
-    STALE      refined.md was last committed AFTER distillation.md. A prompt to
-               re-read, not proof of error: a typo fix leaves the distillation
-               right. Equal commit times (one landing commit) count as fresh.
+    STALE      the PROSE of refined.md (everything above its first "Editor's
+               Notes" heading, or the whole file when it has none) differs from
+               the prose as it stood when distillation.md was last committed.
+               A change confined to the Editor's Notes is not stale: the
+               distillation is derived from the prose only. Even so, STALE is a
+               prompt to re-read, not proof of error: a typo fix leaves the
+               distillation right. (First version compared commit times alone
+               and flagged Ch9 for a commit that only deleted a stale copy of
+               the distillation from below its Editor's Notes.)
     UNCHECKED  git history unavailable for the file; it is not guessed
     ok         none of the above
 
@@ -45,6 +51,25 @@ LABELS = ["**Mechanism:**", "**Conversation sentence:**", "**Lesson:**",
           "**Challenge:**", "**Practice:**"]
 CHAPTER_DIR = re.compile(r"^ch\d+$")
 PRACTICE_ITEM = re.compile(r"^\s*\d+\.\s+\S", re.M)
+NOTES_HEADING = re.compile(r"^#{2,3}\s+Editor's Notes", re.M | re.I)
+
+
+def prose_of(text):
+    """The chapter's prose: everything above the first Editor's Notes heading."""
+    m = NOTES_HEADING.search(text)
+    return (text[:m.start()] if m else text).strip()
+
+
+def show_at(repo, commit, path):
+    r = subprocess.run(["git", "-C", repo, "show", f"{commit}:{path}"],
+                       capture_output=True, text=True)
+    return r.stdout if r.returncode == 0 else None
+
+
+def last_commit(repo, path):
+    r = subprocess.run(["git", "-C", repo, "log", "-1", "--format=%H", "--", path],
+                       capture_output=True, text=True)
+    return r.stdout.strip() if r.returncode == 0 else ""
 
 
 def commit_time(repo, path):
@@ -71,7 +96,13 @@ def classify(repo, chdir):
     if rt is None or dt is None:
         return "UNCHECKED", "no git history for one of the two files"
     if rt > dt:
-        return "STALE", f"refined.md committed {(rt - dt) // 3600}h after distillation.md"
+        then = show_at(repo, last_commit(repo, dist), os.path.relpath(refined, repo))
+        if then is not None:
+            with open(refined, encoding="utf-8") as fh:
+                now = fh.read()
+            if prose_of(then) == prose_of(now):
+                return "ok", "refined.md changed after, but only its Editor's Notes"
+        return "STALE", f"prose changed in refined.md since distillation.md was committed"
     return "ok", ""
 
 

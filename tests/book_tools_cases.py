@@ -111,11 +111,15 @@ def distill_cases():
         put("ch03", dist=GOOD_DIST.replace("**Challenge:** x\n", ""))
         put("ch04", dist=GOOD_DIST.replace("1. do it", "no list"))
         put("ch05", dist=GOOD_DIST)
+        put("ch07", dist=GOOD_DIST)
+        open(os.path.join(ch, "ch07", "refined.md"), "w").write("prose\n\n## Editor's Notes\nold notes\n")
         put("prologue")
         git("add", "-A")
         git("commit", "-q", "-m", "land", "--date=2026-01-01T00:00:00")
         # ch05: refined.md edited in a LATER commit than its distillation.
         open(os.path.join(ch, "ch05", "refined.md"), "w").write("prose, edited\n")
+        # ch07: only the Editor's Notes change in the later commit - the ch09 case.
+        open(os.path.join(ch, "ch07", "refined.md"), "w").write("prose\n\n## Editor's Notes\nnew notes\n")
         git("add", "-A")
         subprocess.run(["git", "-C", tmp, "commit", "-q", "-m", "edit"], capture_output=True,
                        env=dict(os.environ, GIT_AUTHOR_NAME="t", GIT_AUTHOR_EMAIL="t@t",
@@ -124,8 +128,8 @@ def distill_cases():
 
         rc, o = _run("distill_status.py", "--book-root", tmp, "--repo", tmp)
         lines = {l.split()[0]: l.split()[1] for l in o.splitlines() if l.startswith("  ch")}
-        want = {"ch01": "ok", "ch02": "MISSING", "ch03": "MALFORMED", "ch04": "MALFORMED", "ch05": "STALE"}
-        out.append((lines == want and rc == 0, "each defect class is named, and report mode exits 0",
+        want = {"ch01": "ok", "ch02": "MISSING", "ch03": "MALFORMED", "ch04": "MALFORMED", "ch05": "STALE", "ch07": "ok"}
+        out.append((lines == want and rc == 0, "each defect class is named, a notes-only change is not stale, and report mode exits 0",
                     "the report must tell missing, malformed and stale apart; it informs, it does not block",
                     (lines, rc)))
         out.append(("prologue" in o, "a non-chNN folder is named as not read, not silently dropped",
