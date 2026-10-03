@@ -46,8 +46,8 @@ On the cross-chapter findings: "Add them to inbox" and "Add the overlap findings
 
 # Not decided (pending, not accepted)
 
-- The caps on repeated devices (Gottman, Marcus 11.18, the four-virtue check, the Four D's) for Chapters 15-28: inbox 111, open.
-- Whether any overlap in the accepted Chapters 1-14 is revised: inbox 112, open; nothing is changed meanwhile.
+- The caps on repeated devices (Gottman, Marcus 11.18, the four-virtue check, the Four D's) for Chapters 15-28: inbox 111, ruled 2026-10-03 (see notes/2026-10-03-device-caps-ch14-spec-overlaps.md).
+- Whether any overlap in the accepted Chapters 1-14 is revised: inbox 112, ruled 2026-10-03: all stand; two pairs join the inbox 101 QA backlog.
 
 # Stale pointers left as they were
 

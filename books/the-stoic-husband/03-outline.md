@@ -12,6 +12,7 @@
 | III, The Warm Sun (Ch12–16) | Sun | He gives warmth on purpose and does not wait until it is earned: effort, attention, appreciation, patience, presence. |
 | IV, The Desert (Ch17–23) | All three, under trouble | The three together survive real trouble: distance, divergence, load, betrayal, the question of leaving, and repair. |
 | V, The Orchard (Ch24–28) | All three, over decades | What a man who has crossed the Desert builds and keeps: daily upkeep, becoming good company, friendship, the long years and their end, and what his children inherit. It is not arrival. It is tending. |
+**Repeated devices, Chapters 15-28** (author's word, 2026-10-03, inbox 111). Four devices are already spent in the accepted chapters, so for Chapters 15-28: **Gottman** gets at most one more headline use, Chapter 26 (friendship); every other chapter may recall him in a clause. **Marcus *Meditations* 11.18** is not quoted a third time: Chapter 15 uses a different Marcus gentleness passage or a deliberate callback to Chapters 3 and 4. **The four-virtue check** and **the Four D's** (Defend, Deny, Downplay, Deflect) get no new section; a clause of callback is allowed. A callback is always allowed. A new full section or headline citation of any of the four needs the author's word, asked at that chapter's interview.
 **Target total word count:** 43,200–51,500 words (tight field-manual format — chapters run lean by design; practice guide appendix can extend this later if expanded; range bumped 2026-07-28 to account for the new Chapter 14)
 
 ---
@@ -347,7 +348,7 @@
 ---
 
 ## Chapter 14: She Is Enough
-> *PROVISIONAL, pending the author's verdict. Chapter 14 is at review and not landed (`runs/ch14/refined.md`); if the prose changes at review, this block changes with it. Items marked FOR THE AUTHOR are choices he may want to make differently at review; if he does, the prose changes, not just the spec.*
+> *PROVISIONAL, pending the author's verdict. Chapter 14 is at review and not landed (`runs/ch14/refined.md`); if the prose changes at review, this block changes with it. Items marked FOR THE AUTHOR are choices he may want to make differently at review; if he does, the prose changes, not just the spec. Settled 2026-10-03 (author, inbox 113, "Approved the following: 115, 112, 111, 113"): Marcus VI.48 stays a short anchor, Seneca 16 and 123 stay the supporting argument, and comparison stays a full section. The chapter is still at review and not landed.*
 
 **Premise:** A husband practices contentment by giving sustained attention and gratitude to the real person his wife becomes across years of change. He tends the marriage he has, so beauty, income, talent and passing comparisons do not become conditions on his love.
 **The reader's takeaway:** He can practice enough through attention, specific appreciation, gratitude and care for the marriage he has. He can notice when an imagined alternative or an endlessly changing standard prevents him from valuing the woman beside him.
@@ -361,7 +362,7 @@
 **Reader ah-ha:** "Thankfulness is how you keep wanting what you already have." (The chapter's closing line, which states the realization. The 2026-09-30 line, "I can choose to notice, appreciate and tend the life I already share with her, and love who she is becoming," is a fair paraphrase of the whole chapter but is not stated in it.)
 **Research burden:** Medium. The chapter framework is okf/frameworks/the-discipline-of-enough.md. Marcus VI.48 supplies the practice the prose names; Emmons and McCullough (2003), a bounded general well-being finding whose wording is not yet checked against the paper (the "most clearly a better mood" clause is search-level only); Seneca Letter 16; and the hunger-as-sauce proverb (Xenophon; Seneca *Letters* 123), sourced in `runs/ch14/hunger-best-sauce-research.md`. Mental-subtraction research, relationship appreciation research and the REBT preferences/demands distinction are not used in the prose. Do not import universal courtship-fading, aging-causes-infidelity or media-causes-unreasonable-expectations claims without evidence.
 **Word count target:** 1,200–1,500 words (prose 1,445 as of 2026-10-02, near the top of the range; if review adds prose, the range will need to move.)
-**Comparison's place:** FOR THE AUTHOR. The 2026-09-30 revision made comparison "a supporting pressure." In the prose it has its own bold-headed section, "When enough keeps changing," about 315 of roughly 1,445 words (about 22%), which also holds the Seneca 16 paragraph. The leading section ("The woman you love now") is about 371 words, and the Marcus section about 76. Keep as written, or trim the comparison section at review.
+**Comparison's place:** The 2026-09-30 revision made comparison "a supporting pressure." In the prose it has its own bold-headed section, "When enough keeps changing," about 315 of roughly 1,445 words (about 22%), which also holds the Seneca 16 paragraph. The leading section ("The woman you love now") is about 371 words, and the Marcus section about 76. SETTLED 2026-10-03 (author, inbox 113): keep as written.
 **Transition to Chapter 15:** Contentment gives him the eyes to see what is good in the marriage he has. Chapter 15 turns to what he does with that in ordinary friction: patience and kindness.
 
 > *Revised 2026-09-30, on the author's explicit ruling: "Yes, use the newer direction." The author had redirected Chapter 14 toward appreciation, gratitude, loving a changing wife and the grass-watered image, then requested the normal subsections, distillation and plate. This replaces the 2026-07-28 comparison-centered commission, retires the unconfirmed work-trip story and unsupported universal courtship-chemistry claim, and makes comparison a supporting pressure. The prior spec is retained in runs/ch14/outline-before-approval.md. The Sun × Temperance pairing and word target are unchanged.*
@@ -371,6 +372,7 @@
 ---
 
 ## Chapter 15: Be Patient, Be Kind
+> *Device cap, 2026-10-03 (inbox 111, author's word): Marcus 11.18 is already quoted in Chapters 3 and 4, so this chapter does not quote it a third time. Use a different Marcus gentleness passage or a deliberate callback; the Stoic-lesson line below that names 11.18 is superseded.*
 > *Added 2026-10-02 on the author's word. He asked whether the Sun arc needs "a chapter on being patient & kind" and agreed to the restructure that makes room for it. The specification below was drafted by the Publisher from his words and is a proposal for his review before the interview; the premise, central story and ah-ha are not yet his.*
 
 **Premise:** Patience and kindness are what a husband owes his wife in ordinary friction: tone, pace, the second chance, the benefit of the doubt. They are the daily proof that his warmth is reliable and not a mood, and they are strength, not softness.
@@ -526,6 +528,7 @@
 ---
 
 ## Chapter 23: Repair Quickly, Love Deliberately
+> *Device cap, 2026-10-03 (inbox 111, author's word): Gottman has headline uses in Chapters 3, 4 and 9 and gets one more, in Chapter 26. Key point 1's Gottman repair finding is therefore a callback of a clause here, not a headline; what carries the chapter's mechanism instead is for the Chapter 23 interview.*
 > *Moved 2026-10-02 from Chapter 17 (Part III) to close Part IV, the Desert, on the author's word: "Repair, as a topic, seems like the final chapter of the desert or the first chapter of the Orchard?" The Publisher placed it last in the Desert so the part ends on a way forward, with Chapter 24 opening the Orchard.*
 
 **Premise:** The strength of a marriage is not measured by how rarely it breaks — it's measured by how quickly and honestly it repairs, and by whether love is a choice made daily rather than a feeling monitored occasionally.
@@ -595,6 +598,7 @@
 ---
 
 ## Chapter 26: Friendship Is the Hidden Engine
+> *Device cap, 2026-10-03 (inbox 111, author's word): this is the one remaining headline Gottman use in Chapters 15-28.*
 > *Scope note, 2026-10-02: the chapter owns liking, companionship and the husband's outside friendships. "Who she is becoming" appeared in four chapter specifications (13, 14, 26, 28); Chapter 13 owns it and the others recall it only.*
 
 **Premise:** The marriages that outlast everything else are built on genuine liking — and the friendship at the center of a marriage is the most underprotected thing in it.

@@ -1,9 +1,11 @@
 ---
 id: 115
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 15
 opened: 2026-10-02 11:39
+resolved: 2026-10-03 04:42
+okf_receipt: runs/reconciliation/2026-10-03-inbox-111-112-113-115.json
 ---
 
 # Confirm two proposals the Publisher wrote for you: the Chapter 15 specification and Chapter 27's second ah-ha
@@ -19,3 +21,5 @@ Both are the Publisher's drafts, not your words. Chapter 15, 'Be Patient, Be Kin
 ```
 
 **What unblocks this:** Ch15 and Ch27 interviews: whether to interview from these specs, rewrite them, or drop the proposed lines.
+
+**Resolution (2026-10-03 04:42):** Approved: "Approved the following: 115, 112, 111, 113". The Chapter 15 specification and Chapter 27's second ah-ha stay the Publisher's proposals, starting points for those interviews; no action now.

@@ -84,3 +84,8 @@ Chapter 8 cold report's over-length estimate is resolved: 1,169 counted prose
 words are within the range. The Line Editor also flags the inherited stronger
 claim in Chapter 8 Practice 1. These are later author-scope questions, not
 permission to undo the approved correction or perform a wider rewrite.
+
+
+## Added 2026-10-03 (author, inbox 112: "Approved the following: 115, 112, 111, 113")
+
+Two cross-chapter overlaps from the 2026-10-02 outline review join this backlog for the whole-book QA pass. No chapter is changed now: (1) Epictetus *Enchiridion* 33 appears in consecutive Chapters 9 and 10; (2) Chapters 12 and 13 both centre on "the date." The other overlaps in inbox 112 (Enchiridion 30 in Ch10 and Ch13; *Discourses* II.18 in Ch1 and Ch12; her garden in Ch13 and Ch14; the grandfather in Ch1, Ch7 and Ch12; the decade on her income in the Prologue and Ch11) stand as accepted.

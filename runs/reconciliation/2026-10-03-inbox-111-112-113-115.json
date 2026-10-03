@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-03T04:42:05.527229+00:00",
+  "subjects": [
+    "inbox:111",
+    "inbox:112",
+    "inbox:113",
+    "inbox:115"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-03-device-caps-ch14-spec-overlaps.md"
+  ],
+  "authority": "Author, 2026-10-03: \"Approved the following: 115, 112, 111, 113\"",
+  "reason": "Caps for Ch15-28 written into the outline and the Ch15/23/26 specs; Ch14 spec settled to match accepted prose (chapter unlanded); two overlaps added to the inbox 101 QA backlog; Ch15 and Ch27 stay proposals. Inbox 114 is open with the Fact-Checker and not covered.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "6879ce353d331e91fb52eaa1f0f9f14a18667a7c3d69519820f27cf8e7a45756",
+    "books/the-stoic-husband/okf/notes/2026-10-03-device-caps-ch14-spec-overlaps.md": "0b0d3aead43e4011143c079669dcff0ae46aea23b7d2c94e671abb4982fdc941",
+    "books/the-stoic-husband/okf/notes/2026-10-02-outline-revision-merge-titles-as-written.md": "eccd34b049378bb6ee476ec85769a89e810b8abdf2265cb1b1cfa6a474f5f7cc",
+    "books/the-stoic-husband/okf/index.md": "b089a28fb708b1d555bba91e33d461aef07b67d18eaec6fe4c5d9f9bd53cbaf0",
+    "books/the-stoic-husband/okf/log.md": "f168c0708d2ff1143b81c3918380469363ab39e8c037310f12f0c19b9d843de4",
+    "inbox/101-schedule-the-earlier-book-repetition-and-qualita.md": "e87f63e4e5705e7b38fe91bc2574e5d4d543eff5bf7336c5424b6a1bc6109224"
+  }
+}

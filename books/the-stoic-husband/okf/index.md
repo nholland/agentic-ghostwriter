@@ -305,8 +305,9 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 - [Superseded plate label questions](/notes/2026-10-01-superseded-plate-label-questions.md) — author retired inbox 061 and 067’s obsolete chapter questions; newer drawings’ review status is unchanged.
 - [Arc plates deferred](/notes/2026-10-01-arc-plates-deferred.md) — arc/Part plate designs and placement parked until the arcs are complete; shown drafts not approved.
 - [Chapter plate style](/notes/2026-10-01-chapter-plate-style.md) — approved chapter style, copy cap and drawn Lesson; universal symbol dictionary declined.
-- [Outline revision: joy merged into Ch25, mortality in Ch27, four retitles, specs follow the prose](/notes/2026-10-02-outline-revision-merge-titles-as-written.md) — the author's 2026-10-02 rulings on the whole-outline read; caps and overlaps are open inbox 111 and 112.
+- [Outline revision: joy merged into Ch25, mortality in Ch27, four retitles, specs follow the prose](/notes/2026-10-02-outline-revision-merge-titles-as-written.md) — the author's 2026-10-02 rulings on the whole-outline read; caps and overlaps were ruled 2026-10-03, see the note below.
 
+- [Device caps for Ch15-28, Ch14 spec settled, overlaps stand](/notes/2026-10-03-device-caps-ch14-spec-overlaps.md) — the author's 2026-10-03 rulings on inbox 111, 112, 113 and 115.
 - [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; its original 098/099 wording proposals were subsequently approved and applied on 2026-10-02.
 - [Ch12 action, Ch13 attention](/notes/2026-09-30-ch12-action-ch13-attention.md) — author's split of Part III's opening pair; prose re-edit pending.
 - [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage. Extended to Chapter 14 in its opening interview: how a man should love.

@@ -1,9 +1,11 @@
 ---
 id: 112
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-10-02 11:22
+resolved: 2026-10-03 04:42
+okf_receipt: runs/reconciliation/2026-10-03-inbox-111-112-113-115.json
 ---
 
 # Do any of the cross-chapter overlaps in the accepted Chapters 1-14 need a revision, or do they stand?
@@ -19,3 +21,5 @@ Agent digest of Prologue, Introduction and Ch1-14, 2026-10-02 (cross-chapter ove
 ```
 
 **What unblocks this:** Whether to add these to the #101 backlog or leave them. No chapter is changed by this item.
+
+**Resolution (2026-10-03 04:42):** Approved: "Approved the following: 115, 112, 111, 113". All overlaps stand as accepted; the Ch9/Ch10 Enchiridion 33 pair and the Ch12/Ch13 date framing added to the inbox 101 QA backlog.

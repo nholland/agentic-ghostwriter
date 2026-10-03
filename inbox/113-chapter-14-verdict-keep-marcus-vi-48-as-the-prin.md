@@ -1,9 +1,11 @@
 ---
 id: 113
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 14
 opened: 2026-10-02 11:39
+resolved: 2026-10-03 04:42
+okf_receipt: runs/reconciliation/2026-10-03-inbox-111-112-113-115.json
 ---
 
 # Chapter 14 verdict: keep Marcus VI.48 as the principal anchor at three lines, and keep comparison as a full section?
@@ -19,3 +21,5 @@ Agent digest and as-written pass, 2026-10-02: runs/ch14/refined.md (1,445 words)
 ```
 
 **What unblocks this:** Ch14's verdict: whether the spec or the prose moves on these three points, and then the plate and landing.
+
+**Resolution (2026-10-03 04:42):** Approved: "Approved the following: 115, 112, 111, 113". Keep the prose, correct the spec: Marcus VI.48 a short anchor, Seneca 16 and 123 the supporting argument, comparison a full section. Spec settled in 03-outline.md; the chapter itself is still at review.

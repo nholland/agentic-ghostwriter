@@ -1,9 +1,11 @@
 ---
 id: 111
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-10-02 11:22
+resolved: 2026-10-03 04:42
+okf_receipt: runs/reconciliation/2026-10-03-inbox-111-112-113-115.json
 ---
 
 # Cap the repeated devices in Chapters 15-28 (Gottman, Marcus 11.18, the four-virtue check, the Four D's)?
@@ -19,3 +21,5 @@ Agent digest of Prologue, Introduction and Ch1-14 against 03-outline.md, 2026-10
 ```
 
 **What unblocks this:** A rule the Researcher and Ghostwriter can hold to when the Ch15-28 briefs are written, so repeated devices are decided once and not discovered in review.
+
+**Resolution (2026-10-03 04:42):** Approved: "Approved the following: 115, 112, 111, 113". Caps adopted for Chapters 15-28 and written into 03-outline.md (head of file; Ch15, Ch23, Ch26 specs).
