@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-03T01:54:55.338071+00:00",
+  "subjects": [
+    "topic:evening-review",
+    "chapter:ch24"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-evening-review-stoic-night-practice.md"
+  ],
+  "authority": "Author, 2026-10-03: \"Good on adding evening review\"; also \"Already how I work\" (old #20), \"Drop it\" (Explore JEV), \"Let's hold off on this\" (old #24/#26).",
+  "reason": "Pointer added to the Ch24 spec; concept's placement corrected from Ch23 to Ch24 after the renumber; parking-lot triage outcomes recorded in parked.md. Open: the concept's three questions differ in wording from the 2026-08-04 decision; left for the author.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "920b6dffe07764d4805382b251aa71c67f3d78af9e62759704033df97bf094b1",
+    "books/the-stoic-husband/okf/frameworks/the-evening-review-stoic-night-practice.md": "a4c24ea7d88737adf0a06ff0035939fa757cd0e8263c508f42ccece587a5caf9",
+    "books/the-stoic-husband/okf/log.md": "c79d9e00c6d3e70b3ec6760454bd06a93c383e785c3288b7cda5a10d60462c42",
+    "runs/parked.md": "d1003ca99788c7e849aa4bd501f7f3711132c5599995a89738954003f4ada1f5"
+  }
+}

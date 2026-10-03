@@ -28,5 +28,11 @@
     "turn_id": null,
     "prompt": "Yes, start the parking-lot triage",
     "recorded": "2026-10-03T01:45:16.037057+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "1. Let's hold off on this.  I will need some deeper guidance. \n2. Already how I work\n3. Drop it \n4. What do you recommend?\n\nGood on adding evening review ",
+    "recorded": "2026-10-03T01:53:30.679006+00:00"
   }
 ]

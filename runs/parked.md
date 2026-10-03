@@ -228,3 +228,55 @@ books/the-stoic-husband/okf/notes/2026-10-01-arc-plates-deferred.md.
 067's obsolete chapter questions. Inbox 067 is closed; its Part III question
 remains in P-005 for the arc-completion revisit. Newer chapter redraws are not
 approved by that closure.
+
+---
+
+## P-006 — Chapter 10's refrain and its two composite moments
+
+**Parked:** 2026-10-03 01:54
+**Raised at:** the P-003 triage (`runs/qa/2026-10-03-parking-lot-triage.md`), old
+parking-lot #26 and #24.
+**Revisit trigger:** the author asks for the guidance he says he needs, or the
+next `/gw-edit 10`, whichever comes first.
+
+**His words:**
+
+> Let's hold off on this. I will need some deeper guidance.
+
+**What is open, so the guidance can start cold:** "You hold it anyway" appears
+three times in landed Ch10 as the per-tier refrain, and the chapter's own notes
+still call it a placeholder for the author's "The oak holds firm" (old #26). Old
+#24 adds two composite moments (Tier 1's anger pressure, Tier 3's Christmas
+morning) that real material would strengthen. Inbox 099 changed Ch10 on
+2026-10-02 without ruling on either. Nothing blocks.
+
+---
+
+## P-003 outcome — 2026-10-03
+
+The triage read all 21 open items in the old `parking-lot.md` against this house
+(`runs/qa/2026-10-03-parking-lot-triage.md`). The old file is history and was not
+edited; this is where the outcomes live.
+
+**Closed, with what superseded each:** #34 (this house is the Publishing House);
+#31 (Parts IV and V renamed by the 2026-10-02 outline revision); #8 (carried in
+`GAPS.md`); #30 (all five Part pages exist; `/book-status` is gone); #21 (Rule 7
+and `voice_check.py` `check_devices`); #22 (`gw-revise`, "If the change is a
+chapter retitle"); #36 and #37 (governed by P-005 / #39).
+
+**Closed on his word, 2026-10-03:** #20, read-aloud step: *"Already how I work."*
+Explore JEV: *"Drop it."* The supporting research stays in `runs/qa/` as apparatus.
+
+**Still live, trigger unchanged:** #5 (Ch24 research; pointer now in the Ch24
+spec), #9 (before a second book), #12 (Ch26 research; the audiobook scene to Ch23,
+*Repair*, was Ch17), #23 (his call, after `/gw-qa`), #29, #32 (recount: 136 of
+140 citations open), #33, #35, #39 (P-005).
+
+**Held:** #24 and #26, now P-006. **Pending his answer:** #38.
+
+**Correction to P-004, 2026-10-03.** Its trigger reads "the Chapter 23
+interview." The 2026-10-02 renumber made Chapter 23 *Repair Quickly, Love
+Deliberately*. The endurance-versus-cowardice commission belongs to **Chapter 22,
+*Fear Is Not Commitment*** (retitled from "The Difference Between Endurance and
+Cowardice"), so its trigger is the **Chapter 22 interview**. The original text is
+left as written.

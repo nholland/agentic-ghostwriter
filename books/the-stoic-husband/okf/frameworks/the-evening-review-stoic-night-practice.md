@@ -36,7 +36,7 @@ Works as a nighttime routine anchor — not meditation, not journaling, not a
 
 # Placement
 
-- **Chapter 23** (marriage you build every day) — PRACTICAL ANCHOR.
+- **Chapter 24** (marriage you build every day) — PRACTICAL ANCHOR. *(Was Chapter 23 before the 2026-10-02 renumber.)*
 - **Chapter 1** sidebar.
 - **Introduction** — as a preview of the daily practice framework.
 
