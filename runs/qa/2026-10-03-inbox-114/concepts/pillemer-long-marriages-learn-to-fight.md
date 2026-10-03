@@ -39,6 +39,13 @@ chapter_slugs: [how-to-fight-without-becoming-small]
 timestamp: 2026-06-14T00:00:00Z
 ---
 
+<!-- PROPOSED REVISION, not landed. Draft by gw-factchecker, 2026-10-03 04:50,
+inbox #114. Changes against books/the-stoic-husband/okf/citations/pillemer-long-marriages-learn-to-fight.md:
+(1) evidence_source search-synthesis -> database-abstract, with the reason
+prepended to verification_note; (2) a "Not usable framing" paragraph and the
+catalogue table of contents added under the usable framing. status and
+quote_form unchanged. Remove this comment when landing. -->
+
 # Pillemer — Long Marriages Don't Avoid Fighting, They Learn to Fight
 
 The Cornell Marriage Advice Project — described as the largest in-depth interview

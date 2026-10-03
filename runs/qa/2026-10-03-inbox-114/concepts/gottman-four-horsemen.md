@@ -29,6 +29,12 @@ chapter_slugs: [stop-defending-yourself, how-to-fight-without-becoming-small, re
 timestamp: 2026-06-02T00:00:00Z
 ---
 
+<!-- PROPOSED REVISION, not landed. Draft by gw-factchecker, 2026-10-03 04:50,
+inbox #114. Changes against books/the-stoic-husband/okf/citations/gottman-four-horsemen.md:
+(1) chapter_slugs gains stop-defending-yourself; (2) verification_note gains the
+2026-10-03 paragraph; (3) new section "Printed against the bar: Chapter 3".
+All three axes unchanged. Remove this comment when landing. -->
+
 # Gottman — The Four Horsemen
 
 Gottman research identifies four behaviors most predictive of divorce:

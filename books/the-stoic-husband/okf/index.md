@@ -135,6 +135,7 @@ External sources backing factual claims. Each carries a verification
 no-fabrication ledger for CLAUDE.md Rule 3.
 
 - [Gottman — The Four Horsemen](/citations/gottman-four-horsemen.md) — status: verifiable
+- [Carrère & Gottman (1999), the first three minutes](/citations/carrere-gottman-1999-first-three-minutes.md) — status: verifiable; supports the three-minute design only, not any accuracy figure
 - [Gottman — Repair Attempts](/citations/gottman-repair-attempts.md) — status: verifiable
 - [Morally Good People and Happiness/Meaning](/citations/morally-good-people-and-happiness-meaning.md) — status: unverified (Psyche article)
 - [Perel — Mating in Captivity](/citations/perel-mating-in-captivity.md) — status: verifiable

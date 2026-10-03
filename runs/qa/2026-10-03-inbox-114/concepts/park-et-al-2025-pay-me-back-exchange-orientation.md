@@ -40,6 +40,12 @@ chapter_slugs: [the-end-of-scorekeeping]
 timestamp: 2026-06-28T00:00:00Z
 ---
 
+<!-- PROPOSED REVISION, not landed. Draft by gw-factchecker, 2026-10-03 04:50,
+inbox #114. Changes against books/the-stoic-husband/okf/citations/park-et-al-2025-pay-me-back-exchange-orientation.md:
+(1) verification_note gains the 2026-10-03 paragraph; (2) "Used By" gains the
+Ch7 line 25 entry; (3) Citations gains the PMID. All three axes unchanged.
+Remove this comment when landing. -->
+
 # Park, Johnson, Gordon & Impett (2025) — "Pay Me Back"
 
 A 13-year longitudinal study tracking exchange orientation — the tendency to

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-03T04:52:57.211489+00:00",
+  "subjects": [
+    "inbox:114"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/carrere-gottman-1999-first-three-minutes.md",
+    "books/the-stoic-husband/okf/citations/gottman-four-horsemen.md",
+    "books/the-stoic-husband/okf/citations/pillemer-long-marriages-learn-to-fight.md",
+    "books/the-stoic-husband/okf/citations/park-et-al-2025-pay-me-back-exchange-orientation.md"
+  ],
+  "authority": "Author, 2026-10-03: \"Send fact checker on 114\" (dispatch); source findings written immediately per Rule 9, no wording or prose approved.",
+  "reason": "Fact-Checker found Ch3's 90 percent figure barred and two sentences not supportable as printed (Ch3, Ch5); Ch7 holds. Source findings landed with their uncertainty; nothing marked verified; chapters unchanged. Wording choices for Ch3 and Ch5 remain with the author, so inbox 114 stays open.",
+  "files": {
+    "books/the-stoic-husband/okf/citations/carrere-gottman-1999-first-three-minutes.md": "f608c43fe4fcf0fe8da959d3bd45fb231b9869fcf564c010840d9e5a6671f11d",
+    "books/the-stoic-husband/okf/citations/gottman-four-horsemen.md": "819b4618532cc23140d5b1cddacc500db1a923b01158a483b8ec304fa7cb6bb0",
+    "books/the-stoic-husband/okf/citations/pillemer-long-marriages-learn-to-fight.md": "13b7556a647552b45e402ad02e1cdc586cc3d6247df9ac173db7af6b195c08e2",
+    "books/the-stoic-husband/okf/citations/park-et-al-2025-pay-me-back-exchange-orientation.md": "c63b4a53602f53b7a32753e5a61efdecbf00e29f74b60781bc1e490f5a040742",
+    "books/the-stoic-husband/quality/citation-defects.md": "6d2d862b81db2a452a2a47f8e51f8130c340bf2740fcb4536a69b72adae667da",
+    "books/the-stoic-husband/citation-queue.md": "5741178b8f268c10b80e6034b0ed02ecde9daa33b1f320c682cb111a41e2eeb5",
+    "books/the-stoic-husband/okf/index.md": "fc8a18cce7eb5b192679d5f88472dbffa915664faf89fcf155636e8a385dffe0",
+    "books/the-stoic-husband/okf/log.md": "8d8f5ce6d05dafbdd1cc57be0a50b07b57f2344bb369b40dedbeb5ef55bbc4ba"
+  }
+}
