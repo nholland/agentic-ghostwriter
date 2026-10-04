@@ -136,5 +136,11 @@
     "turn_id": null,
     "prompt": "Every time you tell me something is ready for me to read, you need to provide it as a PDF. I have to keep asking every time. \n\nWe are in a cloud code session, so there's no way for me to read it when you just tell me",
     "recorded": "2026-10-04T21:52:43.844653+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "<task-notification>\n<task-type>artifact-watch-lifecycle</task-type>\n<summary>Not watching Artifact: \"The Agentic Ghostwriter\" (wake subscription not registered)</summary>\n<event>The durable wake subscription for https://claude.ai/artifact/Lev8Za2Uw2kNW1BUZQSZT7 was not registered (mint_failed) — Could not register a durable wake subscription; publishing and reading still work. This session will NOT be woken when it is republished or a comment on it is sent to Claude; pass action \"watch\" with its url if you still need that — do not claim to be subscribed to it meanwhile.</event>\n</task-notification>",
+    "recorded": "2026-10-04T22:05:34.588032+00:00"
   }
 ]
