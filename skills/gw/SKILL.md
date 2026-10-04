@@ -33,11 +33,12 @@ The House · {book} · {shipped} of {total} shipped
 
   Next      /gw next        {next.why}
   Waiting   /gw inbox       {inbox_open} question(s) need your ruling   ← omit line if 0
+  Inbox     /gw inbox       also {parked} parked, {gaps} gap(s); nothing blocked   ← omit if both 0
 
   Or just say what you want. Common things:
     /gw 12            run Chapter 12 end to end
     /gw status        where everything stands
-    /gw inbox         what's waiting on you
+    /gw inbox         everything: decisions, parked, gaps
     /gw feedback 12   paste what readers said
     /gw compile       a PDF to send to readers
     /gw help          everything else
@@ -60,7 +61,7 @@ dispatch.
 | a bare number, `chapter 12`, `do 12`, `write twelve`, `let's do the next chapter` | `/gw-chapter N` (for "next chapter", N from `next.py`) |
 | `next`, `go`, `continue`, `keep going`, `what now` | run `next.py`'s `NEXT_ACTION` |
 | `status`, `where are we`, `board`, `how's it going` | `/gw-board` |
-| `inbox`, `questions`, `what do you need from me`, `waiting on me` | `/gw-inbox` |
+| `inbox`, `show me the inbox`, `what's in the inbox`, `work the inbox`, `questions`, `what do you need from me`, `waiting on me`, `what do I need to do`, `parked`, `what did we defer`, `gaps`, `what's missing`, `what can't you do yet` | `/gw-inbox`: all three kinds shown together; "work the inbox" walks it |
 | `feedback`, `readers said`, `signal`, `someone told me`, pasted quotes | `/gw-signal N` — ask for N only if you truly cannot tell |
 | `compile`, `pdf`, `send to readers`, `manuscript`, `print it` | `/gw-compile` |
 | `compare`, `bake-off`, `which is better`, `old vs new` | `/gw-bakeoff N` |
@@ -73,8 +74,7 @@ dispatch.
 | `I have material`, `sources`, `read these`, `ingest` | `/gw-sources` |
 | `change this`, `edit chapter 12`, `that line is wrong`, `fix the opening` | `/gw-edit N` — in session, section by section |
 | `remember that`, `note this`, `write that down`, `for the record` | `/gw-note` — his words, verbatim |
-| `park that`, `not now`, `come back to this`, `let's decide later` | `/gw-note park` — with a revisit trigger, not a date |
-| `what's missing`, `what can't you do yet`, `gaps` | read `GAPS.md` and answer from it; say which trigger each gap waits on |
+| `park that`, `not now`, `come back to this`, `let's decide later` | `/gw-note park`: an inbox item of kind parked, with a revisit trigger, not a date |
 | `interview`, `research`, `draft`, `refine` + N | the stage command — advanced, for deliberate re-runs |
 | `put it on main`, `land`, `merge`, `ship it`, `make it official`, `commit to main`, `yes` right after you offered to land | call `gw-retro` for pre-commit review, commit intended changes, update session records, then `python3 scripts/sync.py --land` — **only on his explicit word**; report which branch, by name |
 | `done`, `that's it`, `bye`, `wrapping up`, `I'm out`, `see you tomorrow` | **end of session:** offer the Archivist pre-commit review if there is work to save; then tell him in two lines where his work is — branch, pushed or not, on main or not — and *offer* to put it on main. Do not land unless he says so. |

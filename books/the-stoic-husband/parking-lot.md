@@ -1,5 +1,7 @@
 # Parking Lot
 
+> *Frozen 2026-10-04. Items still live after the 2026-10-03 triage moved to the inbox (kind `parked`, `aka: old-#N`; say "work the inbox"). Read this file as history; nothing is added here.*
+
 ## Explore JEV
 
 Added 2026-09-27 16:27 America/Chicago on the author's explicit request to add these ideas under “Explore JEV.” Platform exploration only; these are hypotheses, not accepted manuscript content or adopted house rules. The author requested this addition to the existing parking lot; detailed platform research belongs under `runs/qa/`.

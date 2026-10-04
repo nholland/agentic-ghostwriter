@@ -103,7 +103,7 @@ GATES = [
     ['<code>voice_check.py</code>', '<span class="who script">Script</span>', "Em-dashes, bold as a crutch, the long-sentence share, direct-address density, the anchor metaphor's family count. Literal counts against the thresholds in your voice spec.", 'Draft, refine, every short-form piece', 'Two cold rounds, then the inbox'],
     ['Conformance Checker', '<span class="who cold">Cold desk</span>', 'An outline row the prose did not deliver; a source used but not named where the reader can see it. Two verdicts, PASS and FAIL, a quote behind every PASS.', 'Draft, refine', 'Two cold rounds, then the inbox'],
     ['Anti-Slop Reader', '<span class="who cold">Cold desk</span>', 'The half no script can count: invented foils, indirection, scenes watched from outside, the wife cast as a threat, a term relabelled between chapters', 'Refine (findings routed, never auto-applied)', 'Plain fixes to the Line Editor; anything that changes the argument to you'],
-    ['The inbox', '<span class="who author">Author</span>', 'Everything a cold desk could not decide', 'Nothing; it collects', 'You rule, in your words, and the desk resumes'],
+    ['The inbox', '<span class="who author">Author</span>', 'Everything a cold desk could not decide, plus what you parked and what the house cannot do yet', 'Nothing; it collects. Only decisions block work', 'You rule, in your words, and the desk resumes; parked and gap items return when their trigger fires'],
 ]
 
 # The vocabulary: what the author says, what happens, who does it.
@@ -113,8 +113,8 @@ PHRASES = [
     ['shadow 12 · draft 12 from their brief · run 12 in parallel', "Drafts Chapter 12 cold from the book pipeline's brief, into runs/, with every gate from the draft onward. The board offers this on its own when the brief exists.", 'cold'],
     ["run the floor · work while I'm gone · do all the cold stuff", 'Every chapter whose next stage needs no author, dispatched at once. A chapter that fails a gate twice is parked; the others continue.', 'cold'],
     ['next · go · continue · what now', "Runs the oracle's next action. Never a guess.", 'script'],
-    ["status · where are we · how's it going", 'The board: every chapter, the inbox, parked questions, the floor.', 'script'],
-    ['inbox · what do you need from me · waiting on me', 'The questions cold desks could not decide, each with the context to answer cold. Your ruling is recorded in your words and the desk resumes.', 'author'],
+    ["status · where are we · how's it going", 'The board: every chapter, the inbox, the floor.', 'script'],
+    ["show me the inbox · work the inbox · what's waiting on me · parked · what's missing", "The one place to look. Three kinds, shown together: decisions a cold desk could not make (each with context to answer cold; the only kind that blocks work), questions you parked (each with its trigger), and capabilities the house cannot do yet (each with its trigger; GAPS.md is generated from them). Say \"not yet, and here is what it waits on\" rather than discovering a gap when you need it. \"Work the inbox\" walks it, decisions first.", 'author'],
     ['readers said… · feedback · someone told me', 'Each response is logged as a signal (proposed first, written after you confirm), then routed by what it is: lost reader, argued objection, factual challenge, gift, new scope.', 'cold'],
     ['compile · pdf · send to readers · print it', "A clean PDF through the book's one renderer, citation gate first, word count compared with the previous compile.", 'script'],
     ['compare · bake-off · which is better · old vs new', 'The blind packet for a chapter the old pipeline also refined (Ch1-11, control in the frozen archive). You read two neutral variants; the mapping stays sealed until your verdict is written.', 'author'],
@@ -127,9 +127,7 @@ PHRASES = [
     ['I have material · read these · ingest', 'Raw sources into typed knowledge: gap markers and source findings written, content concepts proposed for your yes.', 'cold'],
     ['edit 12 · that line is wrong · fix the opening · edit the introduction', 'Section by section, in the room, your wording kept, counts re-run afterwards. Also the prologue, the introduction, and the part pages.', 'author'],
     ['remember that · write that down · for the record', "Your words, verbatim, clock-stamped. Never on a desk's initiative.", 'author'],
-    ["park that · not now · let's decide later", 'A deferred question with a revisit trigger (an event, not a date). Raised again when the trigger arrives.', 'author'],
-    ['parked · what did we defer · come back to', "The parked list, with each question's trigger.", 'script'],
-    ["what's missing · what can't you do yet", 'Answered from GAPS.md, which registers each deferred capability with the trigger that closes it. Say "not yet, and here is what it waits on" rather than discovering the gap when you need it.', 'script'],
+    ["park that · not now · let's decide later", 'A deferred question, filed in the inbox as parked, with a revisit trigger (an event, not a date). Raised again when the trigger arrives.', 'author'],
     ['interview 12 · research 12 · draft 12 · refine 12', 'One stage, for a deliberate re-run. Not the normal path.', 'cold'],
     ['put it on main · land · ship it · make it official', 'Fast-forward only, on your word alone. The branch is named in the reply.', 'script'],
     ['push · save · back this up', 'Pushes the session branch and says its name. Not main.', 'script'],

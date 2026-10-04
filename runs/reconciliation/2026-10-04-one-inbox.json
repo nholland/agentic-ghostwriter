@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-04T22:49:01.755501+00:00",
+  "subjects": [
+    "topic:one-inbox"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-10-04: \"Yes, let's clean it up. The goal is that I only have to go to the inbox to see everything that I need to do... 'show me what's in the inbox, or let's work the inbox'\"",
+  "reason": "Process consolidation, no book knowledge changed: parked questions, gaps and the live old-parking-lot items now live as inbox items with their original text and triggers; the old parking-lot.md got one frozen-banner line.",
+  "files": {
+    "books/the-stoic-husband/parking-lot.md": "2077ca9c1ed6344237558180463a8c45a7a11849e1c04e34f61e2489db4d2f94"
+  }
+}

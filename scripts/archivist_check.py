@@ -15,6 +15,7 @@ DERIVED = """
 scripts/sync_plugin_layout.py|plugin adapters|python3 scripts/sync_plugin_layout.py
 scripts/manual.py|house manual|python3 scripts/manual.py
 scripts/build_diagrams_page.py|diagram page|python3 scripts/build_diagrams_page.py
+scripts/gaps_md.py|gaps list|python3 scripts/gaps_md.py
 """
 CHECKS = [
     ("Knowledge receipts", ["scripts/okf_reconcile.py", "--check"]),

@@ -143,5 +143,95 @@ def distill_cases():
     return out
 
 
+def _inbox_sandbox(tmp, items):
+    """A copy of scripts/ beside a throwaway inbox/, never the tracked one."""
+    import shutil
+    shutil.copytree(os.path.join(REPO, "scripts"), os.path.join(tmp, "scripts"),
+                    ignore=shutil.ignore_patterns("__pycache__"))
+    idir = os.path.join(tmp, "inbox")
+    os.makedirs(idir)
+    for iid, kind, status in items:
+        extra = "" if kind == "decision" else f"kind: {kind}\ntrigger: when it fires\n"
+        open(os.path.join(idir, f"{iid}-fixture.md"), "w").write(
+            f"---\nid: {iid}\nstatus: {status}\n{extra}raised_by: fixture\nchapter: 0\n"
+            f"opened: 2026-01-01 00:00\n---\n\n# fixture {iid} {kind}\n\nbody\n")
+    return idir
+
+
+def _inbox(tmp, *args):
+    r = subprocess.run([sys.executable, os.path.join(tmp, "scripts", "inbox.py"), *args],
+                       capture_output=True, text=True)
+    return r.returncode, r.stdout + r.stderr
+
+
+def inbox_kind_cases():
+    import importlib.util
+    out = []
+    with tempfile.TemporaryDirectory() as tmp:
+        idir = _inbox_sandbox(tmp, [("001", "decision", "open"), ("002", "parked", "open"),
+                                    ("003", "gap", "open"), ("004", "parked", "resolved"),
+                                    ("005", "decision", "resolved")])
+        rc, o = _inbox(tmp)
+        out.append((rc == 0 and "NEEDS YOUR DECISION" in o and "PARKED" in o and "CAPABILITY GAPS" in o
+                    and "1 need your decision, 1 parked, 1 gap(s)" in o and "fixture 004" not in o,
+                    "the default inbox view shows all three categories with counts, resolved ones hidden",
+                    "he asked for one place to look; a category he must ask for by name is a second place",
+                    o))
+        rc, o = _inbox(tmp, "--kind", "parked")
+        out.append((rc == 0 and "fixture 002" in o and "fixture 001" not in o and "fixture 003" not in o,
+                    "--kind narrows the view to one category", "the filter must not leak the others", o))
+        rc, o = _inbox(tmp, "--kind", "gap", "--json")
+        import json
+        got = sorted(i["id"] for k in ("open", "ruled", "resolved") for i in json.loads(o).get(k, []))
+        out.append((rc == 0 and got == ["003"], "--kind filters the JSON too", "callers read the JSON", got))
+
+        # next.py: only decisions are 'waiting on you'
+        spec = importlib.util.spec_from_file_location("gw_next_under_test", os.path.join(REPO, "scripts", "next.py"))
+        nx = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(nx)
+        nx.REPO = tmp
+        op, ru = nx.inbox_counts()
+        pk, gp = nx.inbox_other_counts()
+        out.append(((op, ru, pk, gp) == (1, 0, 1, 1),
+                    "the session banner counts decisions only; parked and gaps are counted apart",
+                    "counting a parked item as 'waiting on you' would cry wolf every session",
+                    (op, ru, pk, gp)))
+
+        rc, o = _inbox(tmp, "--add", "no trigger", "--kind", "parked", "--context", "c")
+        out.append((rc == 2, "a parked item without a trigger is refused",
+                    "a deferred thing with no condition for its return is just lost", (rc, o)))
+        rc, o = _inbox(tmp, "--add", "with trigger", "--kind", "parked", "--trigger", "at the Ch22 interview",
+                       "--context", "c", "--aka", "P-009")
+        text = open([os.path.join(idir, f) for f in sorted(os.listdir(idir)) if "with-trigger" in f][0]).read() if rc == 0 else ""
+        out.append((rc == 0 and "kind: parked" in text and "trigger: at the Ch22 interview" in text and "aka: P-009" in text,
+                    "a parked item needs only a trigger and context, and records its alias",
+                    "parking must cost less than deciding", (rc, text)))
+
+        rc, o = _inbox(tmp, "--close", "2", "--resolution", "done")
+        t2 = open(os.path.join(idir, "002-fixture.md")).read()
+        out.append((rc == 0 and "status: resolved" in t2 and "Resolution" in t2,
+                    "a parked item closes on a resolution alone, no OKF receipt",
+                    "a receipt on a parked item would make parking cost more than deciding", (rc, o)))
+        rc, o = _inbox(tmp, "--close", "1", "--resolution", "done")
+        t1 = open(os.path.join(idir, "001-fixture.md")).read()
+        out.append((rc == 2 and "status: open" in t1, "a decision still cannot close without its OKF receipt",
+                    "the new kinds must not loosen the one that blocks work", (rc, o)))
+
+        # GAPS.md is derived from the gap items and --check says when it is not
+        gp_py = os.path.join(tmp, "scripts", "gaps_md.py")
+        r1 = subprocess.run([sys.executable, gp_py, "--check"], capture_output=True, text=True)
+        subprocess.run([sys.executable, gp_py], capture_output=True, text=True)
+        r2 = subprocess.run([sys.executable, gp_py, "--check"], capture_output=True, text=True)
+        gaps_text = open(os.path.join(tmp, "GAPS.md")).read()
+        out.append((r1.returncode == 1 and r2.returncode == 0 and "fixture 003 gap" in gaps_text,
+                    "GAPS.md is generated from gap items; --check fails when stale and passes after regenerating",
+                    "a file that calls itself a view needs a script deriving it, or it drifts",
+                    (r1.returncode, r2.returncode)))
+        _inbox(tmp, "--add", "second gap", "--kind", "gap", "--trigger", "t", "--context", "c")
+        r3 = subprocess.run([sys.executable, gp_py, "--check"], capture_output=True, text=True)
+        out.append((r3.returncode == 1, "adding a gap item makes GAPS.md stale", "the check must see a new item", r3.returncode))
+    return out
+
+
 def book_tools_cases():
-    return switch_cases() + distill_cases()
+    return switch_cases() + distill_cases() + inbox_kind_cases()

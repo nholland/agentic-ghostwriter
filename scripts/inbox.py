@@ -13,12 +13,34 @@ WHY THIS EXISTS
     decisions that were his to make, and the design fails in the one way that is
     hard to notice.
 
+ONE INBOX, THREE KINDS (2026-10-04)
+    The author asked for one place to look: "show me what's in the inbox, or
+    let's work the inbox". Everything he might need to act on lives here, in
+    categories, and the default view shows all of them:
+
+        decision   a question a desk could not answer. The only kind that
+                   BLOCKS work, the only kind counted as "waiting on you" in the
+                   session banner, and the only kind whose close needs an OKF
+                   receipt. A file with no `kind:` line is a decision, which is
+                   what every item written before this change is.
+        parked     something he chose to defer. Nothing is blocked. It carries
+                   a `trigger:` (the event that brings it back, never a date).
+        gap        a capability the house does not have yet, with the trigger
+                   that should close it. GAPS.md is generated from these
+                   (scripts/gaps_md.py); never hand-edit it.
+
+    A parked or gap item closes with a resolution and nothing else: no receipt,
+    no proof command, because parking something must cost less than deciding it.
+
 FORMAT
     Items live as markdown files under inbox/, one per item:
 
         ---
         id: 004
         status: open            # open | ruled | resolved
+        kind: decision          # decision | parked | gap   (default decision)
+        trigger: ...            # parked and gap only: the event that revives it
+        aka: P-005              # optional: the id an item carried before
         raised_by: gw-lineeditor
         chapter: 12
         opened: 2026-09-12 21:04
@@ -32,12 +54,15 @@ FORMAT
     A desk that cannot write one of these has not finished its job.
 
 USAGE
-    python3 scripts/inbox.py                      # list open items
+    python3 scripts/inbox.py                      # everything, by category
+    python3 scripts/inbox.py --kind parked        # one category only
     python3 scripts/inbox.py --all
     python3 scripts/inbox.py --add "question" --raised-by gw-researcher --chapter 12
     python3 scripts/inbox.py --close 4 --resolution "text"
     python3 scripts/inbox.py --add "question" --recommend "..." --evidence "..." \
                              --context "..." --unblocks "..."   # all four required
+    python3 scripts/inbox.py --add "title" --kind parked --trigger "at the Ch22 interview" \
+                             --context "what it is and his words"
     python3 scripts/inbox.py --json
 """
 
@@ -91,8 +116,8 @@ def parse(path):
         text = fh.read()
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.DOTALL)
     if not m:
-        return {"path": path, "malformed": True, "status": "open",
-                "id": None, "title": os.path.basename(path), "body": text}
+        return {"path": path, "malformed": True, "status": "open", "kind": "decision",
+                "trigger": "", "aka": "", "id": None, "title": os.path.basename(path), "body": text}
     fm = {}
     for line in m.group(1).split("\n"):
         if ":" in line:
@@ -104,6 +129,8 @@ def parse(path):
     return {
         "path": path, "malformed": False,
         "id": fm.get("id"), "status": fm.get("status", "open").lower(),
+        "kind": fm.get("kind", "decision").lower(),
+        "trigger": fm.get("trigger", ""), "aka": fm.get("aka", ""),
         "raised_by": fm.get("raised_by", "?"), "chapter": fm.get("chapter", "-"),
         "opened": fm.get("opened", "?"), "resolved": fm.get("resolved"),
         # The proof command for a ruling whose action lives outside this repo.
@@ -157,6 +184,33 @@ def do_add(a, items):
     of this rule was already written down and was skipped five times out of
     five.
     """
+    kind = (a.kind or "decision").lower()
+    if kind not in ("decision", "parked", "gap"):
+        print("inbox: --kind must be decision, parked or gap.")
+        return 2
+    if kind != "decision":
+        # Parked and gap items are not questions a desk needs ruled, so the
+        # recommendation/evidence/unblocks gate does not apply. What does: the
+        # trigger, because a deferred thing with no condition for its return
+        # is just lost, and a date is a guess where a trigger can be checked.
+        missing_pg = [n for n, v in (("--trigger", a.trigger), ("--context", a.context)) if not v]
+        if missing_pg:
+            print(f"inbox: refusing to open a {kind} item without {', '.join(missing_pg)}.")
+            print("  --trigger  the event that brings it back (\"at the Ch22 interview\"), never a date.")
+            print("  --context  what it is, with his words if he said them.")
+            return 2
+        os.makedirs(INBOX, exist_ok=True)
+        nid = next_id(items)
+        slug = re.sub(r"[^a-z0-9]+", "-", a.add.lower()).strip("-")[:48] or "item"
+        path = os.path.join(INBOX, f"{nid}-{slug}.md")
+        aka_line = f"aka: {a.aka}\n" if a.aka else ""
+        trig = " ".join(a.trigger.split())
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(f"---\nid: {nid}\nstatus: open\nkind: {kind}\ntrigger: {trig}\n{aka_line}"
+                     f"raised_by: {a.raised_by or '?'}\nchapter: {a.chapter or '-'}\n"
+                     f"opened: {now()}\n---\n\n# {a.add}\n\n{a.context}\n")
+        print(f"inbox: opened #{nid} ({kind}) -> {os.path.relpath(path, REPO)}")
+        return 0
     missing = [n for n, v in (("--recommend", a.recommend), ("--evidence", a.evidence),
                               ("--context", a.context), ("--unblocks", a.unblocks)) if not v]
     if missing:
@@ -322,6 +376,22 @@ def do_close(a, items):
     require_unique_ids(items)
     target = f"{int(a.close):03d}"
     for it in items:
+        if it.get("id") == target and it.get("kind", "decision") != "decision":
+            # Parked and gap items close on a resolution alone. Rule 9's
+            # knowledge reconciliation still applies to any book knowledge the
+            # closing changes; it is just not what stops a parked thing closing.
+            with open(it["path"], encoding="utf-8") as fh:
+                text = fh.read()
+            text = re.sub(r"^status:\s*open\s*$", "status: resolved", text, count=1, flags=re.MULTILINE)
+            if "resolved:" not in text.split("\n---\n", 1)[0]:
+                text = text.replace("---\n\n", f"resolved: {now()}\n---\n\n", 1)
+            text = text.rstrip() + f"\n\n**Resolution ({now()}):** {a.resolution or '_not recorded_'}\n"
+            with open(it["path"], "w", encoding="utf-8") as fh:
+                fh.write(text)
+            print(f"inbox: closed #{target} ({it['kind']}) - {it['title']}")
+            if not a.resolution:
+                print("  warning: no resolution text recorded.")
+            return 0
         if it.get("id") == target:
             from okf_reconcile import read
             receipt = getattr(a, 'okf_receipt', None)
@@ -393,37 +463,78 @@ def do_close(a, items):
     return 1
 
 
-def render(items, show_all):
-    open_items = [i for i in items if i["status"] == "open"]
-    ruled = [i for i in items if i["status"] == "ruled"]
-    shown = items if show_all else (open_items + ruled)
+KIND_HEADS = {
+    "decision": "NEEDS YOUR DECISION",
+    "parked": "PARKED (you deferred these; nothing is blocked)",
+    "gap": "CAPABILITY GAPS (not built yet; each waits on a trigger)",
+}
+
+
+def counts(items):
+    """Counts by kind. Only decisions are 'waiting on you'; the other two are
+    shown so he never has to remember a second place to look."""
+    c = {"decision": 0, "ruled": 0, "parked": 0, "gap": 0}
+    for i in items:
+        if i["status"] == "open":
+            c[i.get("kind", "decision")] = c.get(i.get("kind", "decision"), 0) + 1
+        elif i["status"] == "ruled":
+            c["ruled"] += 1
+    return c
+
+
+def render(items, show_all, kind=None):
+    if kind:
+        items = [i for i in items if i.get("kind", "decision") == kind]
+    c = counts(items)
+    live = [i for i in items if i["status"] in ("open", "ruled")]
+    shown = items if show_all else live
     if not shown:
-        return ("inbox: nothing waiting on the author."
-                if not show_all else "inbox: empty.")
-    head = f"inbox: {len(open_items)} open"
-    if ruled:
-        head += f", {len(ruled)} ruled but not yet applied"
+        return ("inbox: nothing waiting on the author." if not show_all else "inbox: empty.")
+    bits = []
+    if c["decision"] or not (c["parked"] or c["gap"]):
+        bits.append(f"{c['decision']} need your decision")
+    if c["ruled"]:
+        bits.append(f"{c['ruled']} ruled but not yet applied")
+    if c["parked"]:
+        bits.append(f"{c['parked']} parked")
+    if c["gap"]:
+        bits.append(f"{c['gap']} gap(s)")
+    head = "inbox: " + ", ".join(bits)
     if show_all:
         head += f", {len([i for i in items if i['status'] == 'resolved'])} resolved"
-    L = [head]
-    L.append("")
-    for i in shown:
-        if i["malformed"]:
-            L.append(f"  [!] {os.path.basename(i['path'])} - malformed frontmatter")
+    L = [head, ""]
+    ruled = [i for i in items if i["status"] == "ruled"]
+    for k in ("decision", "parked", "gap"):
+        group = [i for i in shown if i.get("kind", "decision") == k]
+        if not group:
             continue
-        flag = {"open": "open", "ruled": "RULED"}.get(i["status"], "done")
-        L.append(f"  #{i['id']} [{flag}] ch{i['chapter']}  {i['title']}")
-        L.append(f"        raised by {i['raised_by']} at {i['opened']}")
-        if i["status"] == "ruled":
-            L.append("        You ruled on this. The change has not landed yet.")
-            if i.get('okf_reconciliation_needed'):
-                L.append("        Knowledge record needed: " + i['okf_reconciliation_needed'])
-            L.append(f"        With a current OKF receipt, closes when: {i.get('applied_by', '(no command recorded)')}")
-        for line in i["body"].split("\n"):
-            if line.strip().startswith("**What unblocks this:**"):
-                L.append(f"        {line.strip()}")
-    L.append("")
-    L.append("  Full text: inbox/*.md   Close: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'")
+        if not kind:
+            L.append(KIND_HEADS[k])
+        for i in group:
+            if i["malformed"]:
+                L.append(f"  [!] {os.path.basename(i['path'])} - malformed frontmatter")
+                continue
+            if k == "decision":
+                flag = {"open": "open", "ruled": "RULED"}.get(i["status"], "done")
+                L.append(f"  #{i['id']} [{flag}] ch{i['chapter']}  {i['title']}")
+                L.append(f"        raised by {i['raised_by']} at {i['opened']}")
+                if i["status"] == "ruled":
+                    L.append("        You ruled on this. The change has not landed yet.")
+                    if i.get('okf_reconciliation_needed'):
+                        L.append("        Knowledge record needed: " + i['okf_reconciliation_needed'])
+                    L.append(f"        With a current OKF receipt, closes when: {i.get('applied_by', '(no command recorded)')}")
+                for line in i["body"].split("\n"):
+                    if line.strip().startswith("**What unblocks this:**"):
+                        L.append(f"        {line.strip()}")
+            else:
+                flag = "done" if i["status"] == "resolved" else k
+                aka = f" ({i['aka']})" if i.get("aka") else ""
+                L.append(f"  #{i['id']} [{flag}]{aka}  {i['title']}")
+                if i.get("trigger"):
+                    L.append(f"        revisit when: {i['trigger']}")
+        L.append("")
+    L.append("  Full text: inbox/*.md   Close a decision: scripts/inbox.py --close N --okf-receipt PATH --resolution '...'")
+    L.append("  Close a parked or gap item: scripts/inbox.py --close N --resolution '...'   (no receipt)")
     if ruled:
         L.append("  A RULED item is your decision waiting on a change that has not landed")
         L.append("  yet. It closes once its proof passes and its OKF receipt is current.")
@@ -434,6 +545,10 @@ def main():
     ap = argparse.ArgumentParser(description="The exceptions inbox.")
     ap.add_argument("--all", action="store_true", help="include resolved items")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--kind", default="", help="with --add: decision (default), parked or gap. "
+                    "On a read call: show only that category.")
+    ap.add_argument("--trigger", default="", help="parked and gap items: the event that revives it, never a date.")
+    ap.add_argument("--aka", default="", help="the id an item carried before it came here (e.g. P-005).")
     ap.add_argument("--add", metavar="QUESTION")
     ap.add_argument("--context", default="")
     ap.add_argument("--unblocks", default="")
@@ -489,12 +604,14 @@ def main():
         items = [i for i in items if i["chapter"] == a.chapter]
 
     if a.json:
+        if a.kind:
+            items = [i for i in items if i.get("kind", "decision") == a.kind.lower()]
         print(json.dumps({"open": [i for i in items if i["status"] == "open"],
                           "ruled": [i for i in items if i["status"] == "ruled"],
                           "resolved": [i for i in items if i["status"] == "resolved"]},
                          indent=2, default=str))
         return 0
-    print(render(items, a.all))
+    print(render(items, a.all, a.kind.lower() or None))
     return 0
 
 

@@ -165,11 +165,31 @@ def inbox_counts():
     o = r = 0
     for p in glob.glob(os.path.join(REPO, "inbox", "*.md")):
         txt = open(p, encoding="utf-8").read()
+        # Only decisions are "waiting on you". A parked or gap item is in the
+        # same inbox so he has one place to look, but nothing is blocked on it,
+        # and counting it here would cry wolf every session.
+        k = re.search(r"^kind:\s*(\w+)\s*$", txt, re.M)
+        if k and k.group(1).lower() != "decision":
+            continue
         if re.search(r"^status:\s*open\s*$", txt, re.M):
             o += 1
         elif re.search(r"^status:\s*ruled\s*$", txt, re.M):
             r += 1
     return o, r
+
+
+def inbox_other_counts():
+    """(parked, gaps) still open: the rest of the one inbox."""
+    parked = gaps = 0
+    for p in glob.glob(os.path.join(REPO, "inbox", "*.md")):
+        txt = open(p, encoding="utf-8").read()
+        if not re.search(r"^status:\s*open\s*$", txt, re.M):
+            continue
+        k = re.search(r"^kind:\s*(\w+)\s*$", txt, re.M)
+        kind = k.group(1).lower() if k else "decision"
+        parked += kind == "parked"
+        gaps += kind == "gap"
+    return parked, gaps
 
 
 def prose_gate():
@@ -214,6 +234,7 @@ def compute(book):
     awaiting_verdict = sorted(n for n, s in per_chapter.items() if s["stage"] == "verdict")
     packets = bakeoffs_waiting()
     open_items, ruled_items = inbox_counts()
+    parked_items, gap_items = inbox_other_counts()
 
     candidates = [n for n in range(1, total + 1) if n not in shipped and n not in runs]
     next_new = candidates[0] if candidates else None
@@ -256,6 +277,7 @@ def compute(book):
         "shipped_by_book_pipeline": sorted(shipped),
         "engine_chapters": per_chapter,
         "inbox_open": open_items, "inbox_ruled": ruled_items,
+        "inbox_parked": parked_items, "inbox_gaps": gap_items,
         "bakeoffs_awaiting_verdict": packets,
         "next": nxt,
     }
@@ -345,6 +367,9 @@ def render(state):
         L.append("this house: no chapter started yet")
     if state["inbox_open"]:
         L.append(f"inbox: {state['inbox_open']} question(s) waiting on you")
+    if state.get("inbox_parked") or state.get("inbox_gaps"):
+        L.append(f"inbox: also {state['inbox_parked']} parked and {state['inbox_gaps']} gap(s), "
+                 f"nothing blocked - say \"work the inbox\" to see everything")
     if state.get("inbox_ruled"):
         L.append(f"inbox: {state['inbox_ruled']} ruling(s) you made that have not "
                  f"landed yet - say /gw inbox")

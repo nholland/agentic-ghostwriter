@@ -75,6 +75,7 @@ anyone remembering:
 | `python3 scripts/sync_plugin_layout.py` | root `agents/`, `skills/`, `hooks/` from `.claude/` | `--check` exits 1 on drift |
 | `python3 scripts/manual.py` | `docs/manual.html` from the roster, commands, scripts and thresholds | `--check` exits 1 when the house has changed |
 | `python3 scripts/build_diagrams_page.py` | `docs/diagrams.html` from `docs/diagrams/*.svg` | `--check` exits 1 when a drawing changed |
+| `python3 scripts/gaps_md.py` | `GAPS.md` from the inbox's gap items | `--check` exits 1 when an item changed |
 
 Any file that calls itself derived must have a script deriving it, and any check
 that calls itself enforcement must have a caller. That rule exists because

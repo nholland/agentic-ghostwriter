@@ -5,7 +5,7 @@ description: Record something the author said that should outlive the session - 
 
 # /gw-note — keep what he said
 
-Argument: what he said, optionally `park` for a deferred question. `$ARGUMENTS`
+Argument: what he said, optionally `park` for a deferred question (which goes to the inbox). `$ARGUMENTS`
 
 The engine's session log is **derived** — clock, branch, files, next action — so it
 cannot carry a wrong date or a stale next. What it also cannot carry is the author's
@@ -22,12 +22,15 @@ question, a reason for a choice that a future reader would otherwise have to inf
 Append to `runs/notes.md` with the real clock from `date '+%Y-%m-%d %H:%M'`.
 
 **A parked question** — something he does *not* want to decide now and does not want
-to lose. This is **not** an inbox item: the inbox is what a cold desk needs ruled
-*to keep working*; a parked question is one he has chosen to defer, and nothing is
-blocked on it. Append to `runs/parked.md` with a **revisit trigger** — the event that
-should bring it back ("at the Ch13 interview", "before the first compile of Part II"),
-not a date. A date on a deferred question is a guess; a trigger is a condition the
-board can actually check.
+to lose. It goes in the inbox as an item of kind `parked`, so he has one place to
+look; nothing is blocked on it and it does not count as "waiting on you":
+
+    python3 scripts/inbox.py --add "title" --kind parked --raised-by author \
+        --trigger "the event that should bring it back" --context "what it is, with his words"
+
+The **revisit trigger** is the event that should bring it back ("at the Ch13
+interview", "before the first compile of Part II"), not a date. A date on a deferred
+question is a guess; a trigger is a condition the board can actually check.
 
 ## Write it in his words
 

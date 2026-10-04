@@ -62,7 +62,7 @@ the old desks while reporting on the new ones.
 Production is scripts and hooks, not a desk: `resolve_book.py`, `next.py`,
 `voice_check.py`, `voice_rules_check.py`, `okf_gate.py`, `inbox.py`, `bakeoff.py`,
 `sync.py`, `session_log.py`, `sync_plugin_layout.py`, `switch_book.py`,
-`distill_status.py`, and the two hooks.
+`distill_status.py`, `gaps_md.py`, and the two hooks.
 
 **Git and sessions are production, never a desk.** Every git failure in the old
 pipeline's incident archive was a model following rule text; every fix was a check
@@ -96,6 +96,12 @@ piece of work belongs to — that includes reader feedback, which arrives throug
 He is in the room for **the interview** and **the verdict**. Everything between
 runs cold. Anything a cold desk cannot decide goes to the inbox — never resolved
 silently, and never left to block the pipeline.
+
+**The inbox is the one place he looks.** It holds three kinds, shown together:
+decisions (what blocks a desk), parked questions he chose to defer, and capability
+gaps, each parked or gap item with the trigger that brings it back. "Show me the
+inbox" and "let's work the inbox" both mean `/gw-inbox`, all three kinds. Only
+decisions count as "waiting on you" in the banner.
 
 ```
 python3 scripts/inbox.py --add "question" --raised-by gw-X --chapter N \
@@ -183,10 +189,10 @@ An inbox item he cannot answer without scrolling back is not finished.
     `runs/marketing/callouts-ch01-chNN.md` — a name that states its range cannot
     claim to be current. A file that accumulates (the practice guide) appends and
     never rewrites.
-16. **A deferred capability is registered, not forgotten.** `GAPS.md` lists what the
-    old pipeline does that this house does not, each with the trigger that should
-    close it. 7 of 40 commands open, re-counted 2026-10-03. Say "not yet, and here is what
-    it waits on" rather than discovering the gap when he needs it.
+16. **A deferred capability is registered, not forgotten.** Gap items in the inbox
+    (`GAPS.md` is generated from them) list what the old pipeline does that this
+    house does not, each with the trigger that should close it. Say "not yet, and
+    here is what it waits on" rather than discovering the gap when he needs it.
 17. **The house does not edit its own rules.** The Archivist proposes; the author
     applies. Every proposed addition names a deletion. A learning loop without
     that gate grew the old ledger from 739 to 6,026 words in 27 days.
