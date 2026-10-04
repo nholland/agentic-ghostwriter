@@ -61,7 +61,7 @@ because the audience is social. Run `python3 scripts/okf_gate.py`.
 
 ## Step 5 — check in
 
-Per concept, show him the draft and get a response before saving. Then state
+Per concept, send him the draft as a PDF (`scripts/post_pdf.py`, sent with SendUserFile) and get a response before saving. Then state
 plainly what he must approve before anything is posted, and that nothing has been.
 
 Write to `runs/marketing/chNN/`. Never into `books/`.

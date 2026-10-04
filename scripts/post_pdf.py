@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""post_pdf.py - phone-sized reading copy of marketing drafts (Substack post + X + Facebook).
+"""post_pdf.py - phone-sized reading copy of anything the author must read: marketing drafts
+(Substack post + X + Facebook) and plain markdown (proposals, reports).
 
 Reuses chapter_pdf_local's markdown parser, stylesheet, Chromium and Playwright
 discovery, so there is still one rendering implementation. Only the page differs:
@@ -9,8 +10,9 @@ is never an export of record.
 
     python3 scripts/post_pdf.py OUT.pdf runs/marketing/ch02/05-*.md runs/marketing/ch02/06-*.md ...
 
-Each input is a marketing file laid out per marketing/substack-voice.md:
+A marketing input is laid out per marketing/substack-voice.md:
 header, a line of ---, the post, <!-- END OF POST -->, then ## X and ## Facebook.
+Any other markdown file (one starting with a '# Title' line) renders as plain text.
 """
 import html as _html
 import os
@@ -67,7 +69,13 @@ def header_html(head):
 def build(paths, out_pdf):
     body = []
     for p in paths:
-        head, post, social = split(open(p, encoding="utf-8").read())
+        raw = open(p, encoding="utf-8").read()
+        if "<!-- END OF POST -->" not in raw:  # plain document: a proposal, a report, anything to read
+            m = re.match(r"\s*# (.+)\n", raw)
+            title, rest = (m.group(1).strip(), raw[m.end():]) if m else (os.path.basename(p), raw)
+            body.append(f'<h1 class="title">{_html.escape(title)}</h1>' + C.md_to_html(rest))
+            continue
+        head, post, social = split(raw)
         body.append(header_html(head))
         body.append(C.md_to_html(post))
         body.append('<div class="endmark">&#8226; &#8226; &#8226;</div>')
