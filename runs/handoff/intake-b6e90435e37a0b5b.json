@@ -82,5 +82,11 @@
     "turn_id": null,
     "prompt": "What else do we have in the inbox",
     "recorded": "2026-10-04T20:19:58.610863+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Gaps, parking lot, and inbox. It feels messy to have all three. Could we collapse all of them into one inbox with categories?",
+    "recorded": "2026-10-04T22:07:04.510188+00:00"
   }
 ]
