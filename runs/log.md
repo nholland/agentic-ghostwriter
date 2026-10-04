@@ -4430,3 +4430,9 @@ verdict; no prose or plate is landed.
 - … and 103 more
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
+
+## 2026-10-04 22:08 — `ccr-b317daf2-el5dk8` — 1 commit(s) this session
+- `runs/handoff.json`
+- `runs/handoff/intake-83c71996b5003cb5.json`
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: refined.md).
