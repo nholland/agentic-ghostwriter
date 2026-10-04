@@ -51,6 +51,8 @@ Her mood. Her stress. What she's carrying when you walk through the door. None o
 
 Any man can hold steady when the current's easy. Maybe you've called that steadiness: being okay when conditions cooperate, level when the house is quiet. But an easy current doesn't test anything. Some men have peaceful houses and call it character. It might just be timing.
 
+Seneca was a Roman statesman who wrote letters to a friend named Lucilius about how to live. In one of them he says that *"no prizefighter can go with high spirits into the strife if he has never been beaten black and blue."* *(Letters* 13, Gummere trans.) The fighter who walks in sure of himself is the one who has felt his teeth rattle and got back up. Nobody gets that from a quiet gym. A quiet house is the same. You don't know what your steadiness is until something has hit it.
+
 The Stoic question is different: can you keep flowing when the terrain changes? Can you stay governed when the externals stop cooperating? When she comes in carrying something heavy. When the day left a mark on you. When the house is loud and everyone needs something at once. That's when the *hegemonikon* either holds or it doesn't.
 
 ---
@@ -140,3 +142,4 @@ House translation standard (`06-sources.md`, established 2026-09-07 and applied 
 
 - *Enchiridion* 1: the printed wording was the modernized MIT Classics text, not Elizabeth Carter's 1759 translation it was credited to (external verification, 2026-09-01). Replaced with George Long's 1877 wording, transcribed from Project Gutenberg #10661 via its GitHub mirror, and re-credited. Long's parenthetical Greek terms were omitted; his gloss "(magisterial power)" was kept.
 - *De Ira* quotation, removed (2026-10-02, inbox #116): the sentence printed here under Seneca's name, with a Book II, §3 locator, is not in *De Ira* in Latin or in Stewart's English (Fact-Checker, `runs/ch02/seneca-calm-not-root-out-factcheck.md`). Its only source was a 2025 *Psychology Today* article. On the author's ruling ("C") the quotation and the attribution are dropped and the point stands in the author's own words.
+- Seneca, *Letters* 13, added (2026-10-04, inbox #118, author: "The paragraph lands"): the prizefighter passage, Gummere's translation (the house edition for Seneca's Letters), one unbroken clause of Letters 13.2, read on the page text by the Fact-Checker (`runs/ch02/boxer-image-source-search.md`), status verifiable, not verified.

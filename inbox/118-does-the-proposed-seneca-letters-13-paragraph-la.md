@@ -1,9 +1,12 @@
 ---
 id: 118
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 2
 opened: 2026-10-04 22:12
+resolved: 2026-10-04 22:45
+applied_by: grep -q "beaten black and blue" books/the-stoic-husband/chapters/ch02/refined.md
+okf_receipt: runs/reconciliation/2026-10-04-ch02-seneca-letters-13.json
 ---
 
 # Does the proposed Seneca Letters 13 paragraph land in Chapter 2, and may the calm-house post (06) keep its image-word count?
@@ -19,3 +22,9 @@ voice_check on the Ch2 prose before and after the paragraph (weather family): em
 ```
 
 **What unblocks this:** Landing the Ch2 Seneca paragraph; finishing post 06 for inbox #117; the outline's Seneca lines.
+
+**Resolution (2026-10-04 22:45):** Author: "The paragraph lands." Landed in chapters/ch02/refined.md with the Letters 13 citation. The second question (whether to waive the image-word cap on post 06) was not ruled; the author is publishing Substack one chapter at a time and asked for no further action, so post 06 stays as drafted, unwaived, noted in inbox #117. The outline lines 85 and 87 still name the removed De Ira quotation; not changed, they need his explicit word.
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `grep -q "beaten black and blue" books/the-stoic-husband/chapters/ch02/refined.md` exits 0.
+
+**Applied, confirmed 2026-10-04 22:45:** `grep -q "beaten black and blue" books/the-stoic-husband/chapters/ch02/refined.md` now exits 0.

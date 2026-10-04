@@ -19,3 +19,5 @@ python3 scripts/voice_check.py <body> --short-form --metaphor-family <image word
 ```
 
 **What unblocks this:** Publishing Chapter 2 on Substack and social; then the same casual-register process can run for Ch3 onward.
+
+Note 2026-10-04: the Seneca paragraph for Chapter 2 has landed (inbox #118), so post 06 now cites a real chapter passage. The author did not rule on the image-word count of 06 (3 fight-image words in 485 words = 6.2 per 1,000, cap 5); the draft stays as written, unwaived. He is publishing Substack one chapter at a time and only Chapter 2 for now.

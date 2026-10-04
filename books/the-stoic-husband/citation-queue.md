@@ -4,24 +4,24 @@
 > Every field is read from `okf/citations/*.md` frontmatter, which is canonical per CLAUDE.md Rule 11.
 > Edit the concept file, then re-run this script. Replaces the retired `sources/citation-manifest.md`.
 
-*Last generated: 2026-10-03 — 140 citations.*
+*Last generated: 2026-10-04 — 141 citations.*
 
 ## Where things stand
 
 | Status | Count | Meaning |
 |---|---|---|
 | `unverified` | 36 | Not yet confirmed against any source. |
-| `verifiable` | 100 | Confirmed, but not by you. Still needs your physical-copy check before print. |
+| `verifiable` | 101 | Confirmed, but not by you. Still needs your physical-copy check before print. |
 | `verified` | 1 | You confirmed it against your own copy. |
 | `superseded` | 3 | Replaced by a better source; no action. |
 
-**136 citations still need your attention** before publication.
+**137 citations still need your attention** before publication.
 
 ## Needs your physical copy
 
 Sorted verbatim-quotes-first: those need exact wording *and* punctuation checked against the edition. Paraphrases need only the underlying idea confirmed.
 
-### Verbatim quotes — check wording and punctuation (26)
+### Verbatim quotes — check wording and punctuation (27)
 
 | Citation | Status | Chapters | What's needed |
 |---|---|---|---|
@@ -54,6 +54,7 @@ Sorted verbatim-quotes-first: those need exact wording *and* punctuation checked
 ](okf/citations/marcus-aurelius-meditations-9-28-view-from-above.md) | `verifiable` | how-to-fight-without-becoming-small | Ch5 now quotes Long IX.30 verbatim as transcribed from the Gutenberg text, credited inline (defect #2). The former wording was Hammond 2006 (in copyright) under the wrong number, with an em-dash never confirmed as the translator's. No em-dash remains; the em-dash clearance this concept used to ca… |
 | [Seneca, On Anger III.6 (Stewart) — Democritus's maxim on peace of mind](okf/citations/seneca-de-ira-3-6-democritus-tranquillity.md) | `verifiable` | romance-is-a-discipline | WORDING RETRIEVED AND READ from the full plain-text file named above, not from a search summary. Stewart's sentence, verbatim: "We shall find much profit in that sound maxim of Democritus which defines peace of mind to consist in not labouring much, or too much for our strength, either in public … |
 | [Seneca — Letter 75: Letters Should Be Just What Conversation Would Be](okf/citations/seneca-letter-75-letters-as-conversation.md) | `verifiable` | how-to-fight-without-becoming-small | Ch5 now prints "together,—spontaneous and easy" exactly as Gummere 1920 does (comma, then dash, no spaces), per the 2026-09-03 external transcription with surrounding context (defect #7). This is the only em-dash in Ch5 prose and it is the translator's own punctuation, so the voice spec's excepti… |
+| [Seneca — Letters 13.2: the prizefighter who has never been beaten](okf/citations/seneca-letters-13-prizefighter.md) | `verifiable` | stop-outsourcing-your-peace | Read 2026-10-04 by gw-factchecker from the proofread Wikisource text of the Loeb volume (proofread level 3; the scan images were blocked and not seen). The wording was copied by script, not retyped. Chapter 2 quotes one unbroken clause of the sentence at 13.2: "no prizefighter can go with high sp… |
 
 ### Paraphrases — check the idea, not the wording (32)
 

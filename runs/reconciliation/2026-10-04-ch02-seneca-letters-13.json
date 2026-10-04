@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-04T22:45:58.886969+00:00",
+  "subjects": [
+    "inbox:118"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-letters-13-prizefighter.md",
+    "books/the-stoic-husband/okf/index.md"
+  ],
+  "authority": "Author, 2026-10-04: \"The paragraph lands.\"",
+  "reason": "Ch2 gains the Seneca Letters 13 prizefighter paragraph (Gummere, one unbroken clause, verifiable not verified); new citation concept and index row added; citation queue regenerated; Chapter 2 counted check unchanged except length (only the pre-existing epigraph em-dash fails).",
+  "files": {
+    "books/the-stoic-husband/chapters/ch02/refined.md": "56f0e3385f8e9fb6f2d90f720f73001e0082bccab13df3e0f93408a300d78c7b",
+    "books/the-stoic-husband/citation-queue.md": "7069a2c69946163e439922a323f15d149bb6794eb683cccf99b060e511b24c4f",
+    "books/the-stoic-husband/okf/index.md": "5a56b152bbca846f753d1b77869981972cf19f0b63c7c8a990c9907099f86a34",
+    "books/the-stoic-husband/okf/citations/seneca-letters-13-prizefighter.md": "f5769ebb2c6b515ead26de1dbaeaa165503d4da610d606f8217eb5b604d92589"
+  }
+}
