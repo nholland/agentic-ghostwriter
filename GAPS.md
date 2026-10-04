@@ -84,7 +84,7 @@ explicitly excludes ("contains live credentials, never commit"). So nothing was
 lost migrating it — it was never in either repo to lose. `book-manifest.json`'s
 `integrations.substack.status: "connected"` does **not** mean this system can post:
 read closely, it is the author's own publication existing at that URL, a business
-fact, not a technical credential live in this session.
+fact, not a technical credential live in this session. Rechecked 2026-10-02 from this cloud session: substack.com is unreachable (HTTP 000) and the npm registry returns 403, so a push cannot run here at all; it waits on a session on the author's own machine, where the cookie and the MCP already work.
 
 **This exact failure already happened once and is on record.** `.claude/LEARNINGS.md`
 item 7 (migrated with the book): *"Manifest state can lie about live session
