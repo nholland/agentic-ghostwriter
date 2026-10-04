@@ -4430,3 +4430,38 @@ verdict; no prose or plate is landed.
 - … and 103 more
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: ../../books/the-stoic-husband/01-voice.md).
+
+## 2026-10-04 22:13 — `claude/fervent-maxwell-eafl0j` — 23 commit(s) this session
+- `.claude/agents/gw-publicist.md`
+- `.claude/skills/gw-edit/SKILL.md`
+- `.claude/skills/gw-market/SKILL.md`
+- `.codex/agents/gw-publicist.toml`
+- `CLAUDE.md`
+- `GAPS.md`
+- `README.md`
+- `agents/gw-publicist.md`
+- `book-manifest.json`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/05-framework.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch02/research.md`
+- `books/the-stoic-husband/chapters/ch04/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/element-candidates.md`
+- `books/the-stoic-husband/marketing/social/ch02/02-the-cascade.md`
+- `books/the-stoic-husband/marketing/social/ch02/03-sea-legs.md`
+- `books/the-stoic-husband/marketing/social/ch02/04-care-without-contagion.md`
+- `books/the-stoic-husband/marketing/substack-voice.md`
+- `books/the-stoic-husband/marketing/substack/ch02/02-the-cascade.md`
+- `books/the-stoic-husband/marketing/substack/ch02/03-sea-legs.md`
+- `books/the-stoic-husband/marketing/substack/ch02/04-care-without-contagion.md`
+- `books/the-stoic-husband/marketing/substack/ch02/concepts.md`
+- `books/the-stoic-husband/okf/citations/berridge-robinson-wanting-vs-liking.md`
+- `books/the-stoic-husband/okf/citations/brickman-1978-lottery-winners-and-accident-victims.md`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-1-what-is-in-our-control.md`
+- `books/the-stoic-husband/okf/citations/epictetus-smoke-in-the-room.md`
+- `books/the-stoic-husband/okf/citations/gilbert-wilson-2000-miswanting.md`
+- `books/the-stoic-husband/okf/citations/hanson-taking-in-the-good.md`
+- … and 63 more
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: refined.md).
