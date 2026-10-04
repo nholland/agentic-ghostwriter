@@ -100,5 +100,11 @@
     "turn_id": null,
     "prompt": "Who knows. Just update the single one, I can reshare it later. Most important is that we keep the README and Manual up to date ",
     "recorded": "2026-10-04T01:05:52.831466+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "<task-notification>\n<task-type>artifact-watch-lifecycle</task-type>\n<summary>Not watching Artifact: \"The Agentic Ghostwriter\" (wake subscription not registered)</summary>\n<event>The durable wake subscription for https://claude.ai/artifact/Lev8Za2Uw2kNW1BUZQSZT7 was not registered (mint_failed) — Could not register a durable wake subscription; publishing and reading still work. This session will NOT be woken when it is republished or a comment on it is sent to Claude; pass action \"watch\" with its url if you still need that — do not claim to be subscribed to it meanwhile.</event>\n</task-notification>",
+    "recorded": "2026-10-04T01:09:18.975269+00:00"
   }
 ]
