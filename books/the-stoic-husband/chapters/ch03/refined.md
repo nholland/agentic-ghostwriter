@@ -40,7 +40,7 @@ Not the easy things. The easy things still come. What stops is the harder stuff.
 
 You notice she seems a little distant. Nothing happened. She's fine. Just quieter than she used to be.
 
-John Gottman spent decades in a research lab watching couples argue. His team could predict which marriages would survive, just from watching how two people fight. They did it with above 90 percent accuracy, from samples as short as three minutes. His work puts defensiveness alongside contempt, stonewalling, and criticism as the behaviors most likely to end a marriage. Not because any one episode is catastrophic. Because the pattern, repeated over years, teaches a partner that this isn't a safe place to be honest. It doesn't end with a fight. It ends with her stopping.
+John Gottman spent decades in a research lab watching couples argue. His team could predict which marriages would survive, just from watching how two people fight. In one study, the first three minutes of a fight told them a lot. His work puts defensiveness alongside contempt, stonewalling, and criticism as the behaviors most likely to end a marriage. Not because any one episode is catastrophic. Because the pattern, repeated over years, teaches a partner that this isn't a safe place to be honest. It doesn't end with a fight. It ends with her stopping.
 
 ---
 

@@ -72,6 +72,8 @@ claim.
 
 # Printed against the bar: Chapter 3
 
+*Resolved 2026-10-04: the author chose the softened wording, and `chapters/ch03/refined.md` line 43 now reads "In one study, the first three minutes of a fight told them a lot." The accuracy figure is gone from the prose; the finding below is kept as the record of why.*
+
 *Found 2026-10-03 (inbox #114).* `chapters/ch03/refined.md` line 43 reads:
 "They did it with above 90 percent accuracy, from samples as short as three
 minutes." That sentence joins two different findings. The three-minute

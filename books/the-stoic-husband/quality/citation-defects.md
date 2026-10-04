@@ -305,7 +305,9 @@ are not supportable as printed. The digest that raised #114 thought none had an
 OKF concept. In fact all three did, and one of those concepts had already
 barred the number the chapter prints.
 
-### 14. Ch3: a barred statistic, printed, joining two different findings
+### 14. Ch3: a barred statistic, printed, joining two different findings — RESOLVED 2026-10-04
+
+*The author chose "In one study, the first three minutes of a fight told them a lot." The sentence before it still says his team "could predict which marriages would survive"; the Fact-Checker offered a softer version of that too, and the author did not take it.*
 
 *"They did it with above 90 percent accuracy, from samples as short as three
 minutes."* (`chapters/ch03/refined.md` line 43)
@@ -328,7 +330,9 @@ minutes."* (`chapters/ch03/refined.md` line 43)
 - **Evidence.** PubMed record match and search-synthesis. No page opened: Wiley,
   PMC, gottman.com and the author-hosted PDF were refused by the proxy.
 
-### 15. Ch5: the author's reading, printed as what long-married couples learned
+### 15. Ch5: the author's reading, printed as what long-married couples learned — RESOLVED 2026-10-04
+
+*The author chose "Most small fights don't need a verdict. Long marriages seem to learn that."*
 
 *"They learned, over thousands of small fights, that most of them didn't need a
 verdict."* (`chapters/ch05/refined.md` line 53)

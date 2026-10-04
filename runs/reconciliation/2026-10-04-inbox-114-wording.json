@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-04T18:38:00.029405+00:00",
+  "subjects": [
+    "inbox:114",
+    "chapter:ch03",
+    "chapter:ch05"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/gottman-four-horsemen.md",
+    "books/the-stoic-husband/okf/citations/pillemer-long-marriages-learn-to-fight.md"
+  ],
+  "authority": "Author, 2026-10-04: \"Ch 3 - let's go with #2 / Ch 5 - go with #2\"",
+  "reason": "Two sentences replaced with the author's chosen wording; the unsupported 90 percent figure is out of the prose; outline Ch3 spec, two concepts, defects 14/15 and the regenerated citation queue updated to match; distillations, practice guide and plates do not use either claim; Ch7 unchanged.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch03/refined.md": "f11499df1162bc40b71e5c9a0b41d9efa8af347b9c94abaea2b756835f1f08b1",
+    "books/the-stoic-husband/chapters/ch05/refined.md": "b04358859a67e07d134ba2ca29bcfd82e5306383caf3815d74e81ba51d2b68cc",
+    "books/the-stoic-husband/03-outline.md": "32a985828d11f5d12b0b4a4f6c06aa4554c4a96f56b878071e1a4ee6164feeb3",
+    "books/the-stoic-husband/okf/citations/gottman-four-horsemen.md": "f1a91d42de88a2053e7b241d5225469435e038a87efe00d9c6e2187068832c93",
+    "books/the-stoic-husband/okf/citations/pillemer-long-marriages-learn-to-fight.md": "6ac1de1310f79d4c175a99eec5f2b69d690bd8cd537a3a833b0005b971b660a3",
+    "books/the-stoic-husband/quality/citation-defects.md": "c97e755d21809165b34ae44a04e0723106a5e3af5427b82b336eae83e4da1ad3",
+    "books/the-stoic-husband/okf/log.md": "ad08489c53648902d68705ff90d7ddb92ac892caf224ec8591b98c60e4f4073a",
+    "books/the-stoic-husband/citation-queue.md": "0c6d7f09d39c5e83e95c7b1503deed210b28e32c9f50e1711f66cadb7a2b8cbf"
+  }
+}

@@ -50,7 +50,7 @@ lessons; "not going to bed angry" appears as specific advice.
 fighting." This is the book's claim — and 700 long-married elders are its
 confirmation.
 
-**Not usable framing (found 2026-10-03, inbox #114):** the sentence Chapter 5
+**Not usable framing (found 2026-10-03, inbox #114; resolved 2026-10-04: Chapter 5 line 53 now reads "Most small fights don't need a verdict. Long marriages seem to learn that.", the author's choice):** the sentence Chapter 5
 prints next, that these couples "learned, over thousands of small fights, that
 most of them didn't need a verdict", is not located in Pillemer. Search
 summaries say the elders advise letting some things go and asking whether a

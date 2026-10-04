@@ -1,9 +1,11 @@
 ---
 id: 114
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-10-02 11:39
+resolved: 2026-10-04 18:37
+okf_receipt: runs/reconciliation/2026-10-04-inbox-114-wording.json
 ---
 
 # Have the Fact-Checker source or soften three unsourced claims in accepted prose (Ch3, Ch5, Ch7)?
@@ -19,3 +21,5 @@ grep of chapters/ch03/refined.md line 43, ch05/refined.md line 53, ch07/refined.
 ```
 
 **What unblocks this:** A sourced citation concept for each claim, or the author's word to soften or cut it at the next edit of that chapter.
+
+**Resolution (2026-10-04 18:37):** Ch3: "let's go with #2" ("In one study, the first three minutes of a fight told them a lot."). Ch5: "go with #2" ("Most small fights don't need a verdict. Long marriages seem to learn that."). Ch7's claim held; no change.

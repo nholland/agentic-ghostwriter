@@ -4,7 +4,7 @@
 > Every field is read from `okf/citations/*.md` frontmatter, which is canonical per CLAUDE.md Rule 11.
 > Edit the concept file, then re-run this script. Replaces the retired `sources/citation-manifest.md`.
 
-*Last generated: 2026-10-03 — 141 citations.*
+*Last generated: 2026-10-04 — 141 citations.*
 
 ## Where things stand
 

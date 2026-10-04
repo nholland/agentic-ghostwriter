@@ -50,7 +50,7 @@ Marcus put a name on the practice: the view from above. *"Look down from above o
 
 The same movement in a fight: zoom out until the thing is at its actual scale. You are fighting about what time to get up in the morning, not world peace. You are fighting about a messy room, a tone of voice, something that didn't get done. From altitude, most of what feels urgent in the moment becomes almost nothing.
 
-The couples who stay married for fifty years didn't avoid fighting. They learned, over thousands of small fights, that most of them didn't need a verdict. The fight about the dishes. The cold drive home. The two-day silence after something someone said on a Thursday. You can't remember most of it. It didn't need to be resolved. It needed grace and a little time.
+The couples who stay married for fifty years didn't avoid fighting. Most small fights don't need a verdict. Long marriages seem to learn that. The fight about the dishes. The cold drive home. The two-day silence after something someone said on a Thursday. You can't remember most of it. It didn't need to be resolved. It needed grace and a little time.
 
 That's one outcome. You let it go. The decision is genuine, not a suppression: it belongs in the category of things that don't require a ruling. Let it be small. It is small.
 
