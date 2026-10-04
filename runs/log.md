@@ -4436,3 +4436,22 @@ verdict; no prose or plate is landed.
 - `runs/handoff/intake-83c71996b5003cb5.json`
 
 **Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: refined.md).
+
+## 2026-10-04 22:12 — `ccr-b317daf2-el5dk8` — 3 commit(s) this session
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/chapters/ch14.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch01.png`
+- `output/compiled/assets/plates.html`
+- `output/compiled/assets/runs-ch01-plate.png`
+- `output/compiled/book.pdf`
+- `output/compiled/chapters/ch13.pdf`
+- `output/compiled/chapters/ch14.pdf`
+- `output/compiled/distillations.pdf`
+- `output/compiled/manifest.json`
+- `output/compiled/plates.pdf`
+- `runs/handoff.json`
+- `runs/handoff/intake-83c71996b5003cb5.json`
+
+**Next:** `/gw 14` — Chapter 14 stopped at review (review input changed or empty: refined.md).
