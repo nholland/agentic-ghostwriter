@@ -19,6 +19,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import chapter_pdf_local as C  # noqa: E402
@@ -88,16 +89,17 @@ def build(paths, out_pdf):
         body.append('<div class="social">' + social_html + "</div>")
     doc = (f"<!doctype html><html><head><meta charset='utf-8'><title>Draft reading copy</title>"
            f"<style>{C.CSS}\n{C.CHAPTER_CSS}\n{PHONE_CSS}</style></head><body>{''.join(body)}</body></html>")
-    html_path = os.path.splitext(out_pdf)[0] + ".html"
-    open(html_path, "w", encoding="utf-8").write(doc)
-    subprocess.run(["node", "-e", C.PDF_JS, os.path.abspath(html_path), os.path.abspath(out_pdf), C.CHROME],
-                   env=dict(os.environ, NODE_PATH=C.node_modules()),
-                   check=True, capture_output=True, timeout=120)
-    return html_path
+    with tempfile.TemporaryDirectory() as tmp:  # nothing is left beside the PDF
+        html_path = os.path.join(tmp, "reading-copy.html")
+        open(html_path, "w", encoding="utf-8").write(doc)
+        subprocess.run(["node", "-e", C.PDF_JS, html_path, os.path.abspath(out_pdf), C.CHROME],
+                       env=dict(os.environ, NODE_PATH=C.node_modules()),
+                       check=True, capture_output=True, timeout=120)
+    return out_pdf
 
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         sys.exit(__doc__)
-    h = build(sys.argv[2:], sys.argv[1])
-    print(f"post_pdf: wrote {sys.argv[1]} (supporting file {h})")
+    build(sys.argv[2:], sys.argv[1])
+    print(f"post_pdf: wrote {sys.argv[1]}")
