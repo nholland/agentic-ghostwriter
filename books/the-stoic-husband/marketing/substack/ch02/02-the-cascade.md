@@ -7,7 +7,7 @@
 3. One ungoverned arrival. An entire household in distress.
 **Word count:** ~340
 **Substack draft:** — (pushed when 📄 appears in concepts.md)
-**Status:** Draft — review before publishing
+**Status:** RETIRED 2026-10-02 — DO NOT POST. Cascade: counted-check failures, banned vocabulary, and reads as AI slop. Superseded by fresh Chapter 2 posts under `runs/marketing/ch02/`.
 
 ---
 

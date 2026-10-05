@@ -196,8 +196,10 @@ An inbox item he cannot answer without scrolling back is not finished.
     The count is the recommendation. Without it there is only its shape.
 18. **Answer short.** The author reads these replies on a phone. Lead with what
     happened or what he must decide; put the reasoning underneath, only if it
-    changes what he would do. No recap of what he just asked, no narration of
-    steps that worked, no summary of a summary. A finding, a correction, or a
+    changes what he would do. Anything he must read arrives as a PDF in the
+    same reply, sent with SendUserFile (`scripts/post_pdf.py` builds a
+    phone-sized one): he works in a cloud session and cannot open a path, so
+    "it's ready" without the file is not delivery. A finding, a correction, or a
     decision earns space; everything else is one line. Scripts still paste their
     output verbatim (Rule 5) — brevity is about prose, never about evidence.
 

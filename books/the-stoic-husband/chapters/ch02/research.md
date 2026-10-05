@@ -44,12 +44,12 @@
 ### Claim 3: Self-governance is not suppression — the critical difference between the man who has gone cold and the man who governs himself — and why his wife needs the latter.
 **Best evidence type:** Author voice (brief) + Stoic text on natural emotion vs. armor + confirmed evidence library frameworks
 **What to look for:**
-- **Seneca, *De Ira* (On Anger), Book II, §3 — NOW CONFIRMED:** "Ratio affectibus tranquillitatem dare vult, non tollere." / "Reason wishes to give calm to our emotions, not to root them out." This is the single best sentence in all of Stoic writing for refuting the suppression misread. Use it. Source file has the full context.
+- **[SUPERSEDED 2026-10-02: this quotation is NOT in *De Ira*; see `quality/citation-defects.md`. Chapter 2 dropped it, inbox #116. Do not use.] ~~Seneca, *De Ira* (On Anger), Book II, §3 — NOW CONFIRMED:~~** "Ratio affectibus tranquillitatem dare vult, non tollere." / "Reason wishes to give calm to our emotions, not to root them out." This is the single best sentence in all of Stoic writing for refuting the suppression misread. Use it. Source file has the full context.
 - **Seneca, *Moral Letters*, Letter 63** — already in the evidence library: "we may weep, but we must not wail"; "the wise person feels his troubles, but overcomes them." Researcher should fetch the full passage — secondary option alongside *De Ira* II.3.
 - Evidence library entries available without sourcing: BRING STEADINESS, NOT SUPERIORITY (author confirmed); ATTACHMENT VS. DEVOTION (author confirmed — devotion is felt differently from armor)
 - **Humor note:** The governed man can be funny, warm, interesting, romantic. Governance is not the death of personality — it is the foundation that makes genuine lightness possible. The Stoics were funny. Plant this early: the Stoic husband is not Spock.
 **Strongest counterargument:** "My wife says she wants me to be more emotionally open, but this chapter is telling me to govern my feelings — which is it?" The answer: governed doesn't mean closed. The Stoic husband *feels* — he has not suppressed the feeling, he has retained the right to decide what the feeling means and what he does with it. Seneca said it plainly: reason calms emotions, it does not root them out. Chapter 14 (Warmth Is Strength) fully unpacks this; this chapter plants the seed.
-**Status:** CONFIRMED — Seneca *De Ira* II.3 quote is ready to use; confirmed frameworks from evidence library cover the rest
+**Status:** (superseded 2026-10-02: the Seneca *De Ira* II.3 quote is NOT in *De Ira* and is not ready to use) ~~CONFIRMED — Seneca *De Ira* II.3 quote is ready to use;~~ confirmed frameworks from evidence library cover the rest
 
 ---
 

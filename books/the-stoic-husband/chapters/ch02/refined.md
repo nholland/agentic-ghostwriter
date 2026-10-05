@@ -61,7 +61,7 @@ Reading this so far, some of you are building something cold in your head. The g
 
 That's not this.
 
-Seneca was a Stoic philosopher who spent years advising a Roman emperor. He wrote some of the most practical philosophy the tradition produced. In *De Ira*, his writing on anger and emotion, he put it directly: *"Reason wishes to give calm to our emotions, not to root them out."* Not suppress. Not eliminate. *Calm.* The goal is not to stop feeling. The goal is to stop being run by feelings that are downstream of things you don't control.
+Not suppress. Not eliminate. *Calm.* The goal is not to stop feeling. The goal is to stop being run by feelings that are downstream of things you don't control.
 
 She's sick, really sick, the miserable kind. You walk in with soup. You're warm. You make a small, quiet joke that lightens the room without dismissing what she's going through. You're not swept into her illness. You're not performing Stoic-cool from somewhere she can't reach. You're yourself: steady, warm, genuinely there. Your equanimity is not the distance between you. It is what you're bringing her.
 
@@ -139,3 +139,4 @@ against consecutive identical opening types.
 House translation standard (`06-sources.md`, established 2026-09-07 and applied here 2026-09-09): George Long for Marcus Aurelius and Epictetus, Richard Gummere for Seneca, all public domain. Long's text was transcribed from Project Gutenberg through its GitHub mirror (raw.githubusercontent.com/GITenberg/...), the one route to a primary text this container can reach; every Long quotation here is verbatim against that text. Remaining retrofit items are tracked in parking-lot #35.
 
 - *Enchiridion* 1: the printed wording was the modernized MIT Classics text, not Elizabeth Carter's 1759 translation it was credited to (external verification, 2026-09-01). Replaced with George Long's 1877 wording, transcribed from Project Gutenberg #10661 via its GitHub mirror, and re-credited. Long's parenthetical Greek terms were omitted; his gloss "(magisterial power)" was kept.
+- *De Ira* quotation, removed (2026-10-02, inbox #116): the sentence printed here under Seneca's name, with a Book II, §3 locator, is not in *De Ira* in Latin or in Stewart's English (Fact-Checker, `runs/ch02/seneca-calm-not-root-out-factcheck.md`). Its only source was a 2025 *Psychology Today* article. On the author's ruling ("C") the quotation and the attribution are dropped and the point stands in the author's own words.

@@ -11,3 +11,5 @@
 chapter's concepts were originally written — corrected now against the
 author's actual state: all 4 pushed as Substack drafts, only Concept 01
 ("Emotional Contagion") published live so far.
+
+**Note (2026-10-02):** Concepts 02, 03 and 04 are retired and marked DO NOT POST in their files (04 quotes a Seneca line that is not in *De Ira*; 02 and 03 are being replaced by fresh posts written in the new casual register). Earlier pushes of these three left drafts in the Substack dashboard; delete them there by hand, since the house cannot reach Substack. Concept 01 is published and untouched.

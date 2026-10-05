@@ -89,7 +89,7 @@
 ### The Domain Expert
 **Almost put it down at:** "Preferred indifferent" as a term. The Stoics used *adiaphora* (indifferents) and *proegmena* (preferred indifferents) — both technically accurate. But the explanation here slightly conflates the external object with its evaluation. The object isn't indifferent; *you* are (or should be). Small distinction, but philosophically careful readers will notice.
 
-**Would underline:** The Seneca passage from *De Ira* — *"Reason wishes to give calm to our emotions, not to root them out."* — Correctly cited, well-deployed, does genuine work in the chapter. The application to equanimity-vs.-armor is exactly right.
+**Would underline:** The Seneca passage from *De Ira* — *"Reason wishes to give calm to our emotions, not to root them out."* — ~~Correctly cited,~~ [reader's judgment; the line was later shown not to be in *De Ira*, 2026-10-02, and was removed from Chapter 2] well-deployed, does genuine work in the chapter. The application to equanimity-vs.-armor is exactly right.
 
 **Felt like filler:** The "calm sea" vs. "sea legs" metaphor is good but appears three times. "Any man can stand upright when the water is flat" does the work; the next two sentences restate it. Once is enough.
 

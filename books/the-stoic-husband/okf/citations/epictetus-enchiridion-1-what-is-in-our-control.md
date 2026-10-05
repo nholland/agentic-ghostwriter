@@ -2,8 +2,8 @@
 type: Citation
 title: "Epictetus — Enchiridion 1: What Is and Isn't in Our Control"
 description: >
-  Enchiridion, Ch. 1, Carter trans. as used in the manuscript. Migrated from the retired
-  citation manifest; see provenance.
+  Enchiridion, Ch. 1, George Long's translation (1877), as printed in Chapter 2 since 2026-09-09. Migrated from the
+  retired citation manifest; see provenance. (Corrected 2026-10-03: this line said "Carter trans."; the printed wording is Long's, recorded in the Long section below.)
 resource: >
   Epictetus, Enchiridion 1, trans. George Long (1877). George Long, A Selection from the Discourses of Epictetus with the Encheiridion (1877; Project Gutenberg #10661, read via its GitHub mirror, GITenberg/A-Selection-from-the-Discourses-of-Epictetus-with-the-Encheiridion_10661)
 status: >
@@ -32,6 +32,8 @@ timestamp: 2026-08-14T11:00:00Z
 
 > "Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our own actions."
 > — *Enchiridion*, Ch. 1, Carter trans.
+>
+> **[SUPERSEDED 2026-09-09 / noted 2026-10-03: the quotation above is the modernized MIT Classics text, not Carter's 1759 wording and not what Chapter 2 prints. Ch2 prints George Long's wording; use the Long text recorded below. Kept for history.]**
 
 # Why This Is Used
 
