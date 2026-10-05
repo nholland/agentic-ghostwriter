@@ -47,7 +47,7 @@ On the distinction (citable as Kruse, 2025):
 > "Emotional control isn't cold. It's how we stay kind, clear, and grounded under
 > pressure."
 
-On *apatheia* (Seneca via Kruse):
+On *apatheia* (Kruse's gloss; she presents it as Seneca's, and see Attribution caution):
 
 > "Apatheia — the Stoic ideal of freedom from destructive passion — was never
 > meant as the absence of feeling, but as tranquility within feeling. Emotions are
@@ -61,12 +61,21 @@ predictive of helping than compassion-based responses."
 
 **Verified.** Full article text obtained and confirmed by the author 2026-06-02;
 canonical URL in `resource`; quotes reproduced verbatim. The article also
-supplies the Seneca *De Ira* II.3 quote (broken out into its own citation,
-[Seneca — calm not root out emotions](/citations/seneca-calm-not-root-out-emotions.md)).
+supplied a Seneca *De Ira* II.3 quote (broken out into its own citation,
+[Seneca — calm not root out emotions](/citations/seneca-calm-not-root-out-emotions.md)),
+which the Fact-Checker found is **not in *De Ira*** (2026-10-02). This citation stays
+`verified` for what it is: the author confirmed that this is what the article says.
+It is not evidence that Seneca said it.
 
 # Attribution caution
 
-Two quotes appear in this article without a source location and are NOT yet
+**Seneca *De Ira* II.3 (added 2026-10-02).** The article prints a Latin sentence and an English
+sentence under Seneca's name with the locator "Book II, §3." Neither is in *De Ira* in
+Latin (Basore) or English (Stewart, L'Estrange); *De Ira* I.7 and III.42 argue the
+opposite. Do not rely on this article for any Seneca attribution, and do not quote its
+apatheia paragraph as Seneca's. Its own wording stays citable as Kruse, 2025.
+
+Two further quotes appear in this article without a source location and are NOT yet
 verified to a primary text:
 - Marcus Aurelius: "If it is not right, do not do it. If it is not true, do not
   say it." (*Meditations* location not given — verify book/chapter.)
@@ -76,8 +85,8 @@ verified to a primary text:
 # Related
 
 - Backs [Compassion vs. Empathy](/frameworks/compassion-vs-empathy.md).
-- Source of [Seneca — "Reason wishes to give calm to our emotions, not to root
-  them out"](/citations/seneca-calm-not-root-out-emotions.md).
+- The only source of the defective line recorded in [Seneca — calm not root out
+  emotions](/citations/seneca-calm-not-root-out-emotions.md) (not in *De Ira*; do not quote).
 
 # Citations
 

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-02T11:27:50.284423+00:00",
+  "subjects": [
+    "marketing:substack-voice-port"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author said \"Lets do A first\" (2026-10-02) to port the old pipeline's Substack register into the house.",
+  "reason": "Marketing register spec ported verbatim in substance from Playground-260420 /book-substack; no book fact, claim, story or meaning added or changed.",
+  "files": {
+    "books/the-stoic-husband/marketing/substack-voice.md": "e60a0e491a01944618417bdbfb26478a0d6ed3ef2ef63a64dd9bcbc39f49f7ce"
+  }
+}

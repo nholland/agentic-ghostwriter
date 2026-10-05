@@ -13,7 +13,9 @@ The full guide: every desk and what it owns, every command, the counted rules an
 their thresholds, how a chapter moves, and what the house will never do. It is
 **derived** — the roster, commands, thresholds and scripts are read from the repo
 by `scripts/manual.py`, so it cannot drift the way this file used to. Open it in a
-browser, or read the published version, which is the same page.
+browser, or read the published version
+(<https://claude.ai/artifact/Lev8Za2Uw2kNW1BUZQSZT7>), which is the same page. After
+regenerating the manual, republish that same artifact so the link is not stale.
 
 > **Status: the house ships the book.** Chapter 12 was the first chapter through it
 > end to end (verdict 2026-09-18), and the same day's migration made this the book

@@ -124,6 +124,8 @@ Field notes:
 
 ### `seneca-calm-not-root-out-emotions`
 
+> **SUPERSEDED 2026-10-02:** the Fact-Checker read *De Ira* in Latin and English; this quotation is not in it. See `runs/ch02/seneca-calm-not-root-out-factcheck.md`. Do not package it for the author's physical copy.
+
 **Tier 2** — a claim asserted in the compiled manuscript
 
 **What we think it is:** Seneca — "Reason wishes to give calm to our emotions, not to root them out"

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-03T01:22:22.499918+00:00",
+  "subjects": [
+    "marketing:ch02-fresh-posts"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-10-03: \"Let's draft them and add publishing them to Inbox\"; citation note records what Ch2 already prints (Long, since 2026-09-09).",
+  "reason": "Annotated a stale Carter header on the Epictetus Enchiridion 1 concept; the Long wording it now points to was already recorded in the concept and printed in Ch2. Drafts live under runs/ as apparatus.",
+  "files": {
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-1-what-is-in-our-control.md": "670e11dc6cd961243cddacb56f22791a8807eacb65fec72300b084c9c419b1c8"
+  }
+}

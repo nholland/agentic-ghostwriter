@@ -30,7 +30,7 @@ before it lands (the gates below re-run).
 ## How to run it
 
 Walk the chapter **section by section**, not line by line and not whole-file. For
-each section: show it, ask what is wrong, propose the change, get a yes. Then move on.
+each section: show it as a PDF (`scripts/post_pdf.py`, sent with SendUserFile, never just pasted or left as a path), ask what is wrong, propose the change, get a yes. Then move on.
 
 - Keep his wording. When he says how a line should go, that phrasing is the answer;
   do not improve it into something smoother.

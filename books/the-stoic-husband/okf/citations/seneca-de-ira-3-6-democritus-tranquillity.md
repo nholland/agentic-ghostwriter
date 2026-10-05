@@ -17,7 +17,8 @@ ip: external
 resource: >
   Seneca, "Of Anger," Book III, ch. VI, in Minor Dialogues Together With the
   Dialogue on Clemency, trans. Aubrey Stewart (George Bell & Sons, Bohn's
-  Classical Library, 1900). Read at Project Gutenberg ebook #64576, plain-text
+  Classical Library, 1889; the title page and the preface signature at
+  Project Gutenberg #64576 both read 1889). Read at Project Gutenberg ebook #64576, plain-text
   file https://www.gutenberg.org/cache/epub/64576/pg64576.txt (retrieved
   2026-09-16). Stewart is the public-domain Seneca standard 06-sources.md
   already points to for De Beneficiis.
@@ -72,5 +73,5 @@ only if the author asks for it.
 # Citations
 
 1. Seneca, "Of Anger," III.6, trans. Aubrey Stewart, in *Minor Dialogues*
-   (George Bell & Sons, 1900).
+   (George Bell & Sons, 1889).
 2. Seneca, "Of Peace of Mind," II, same volume and translator.

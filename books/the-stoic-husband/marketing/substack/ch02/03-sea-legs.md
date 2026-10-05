@@ -7,7 +7,7 @@
 3. Sea legs aren't built in calm water.
 **Word count:** ~330
 **Substack draft:** — (pushed when 📄 appears in concepts.md)
-**Status:** Draft — review before publishing
+**Status:** RETIRED 2026-10-02 — DO NOT POST. its boxer/wrestler image is not in the landed chapter, it fails the counted check, and it reads as AI slop. Superseded by fresh Chapter 2 posts under `runs/marketing/ch02/`.
 
 ---
 

@@ -31,8 +31,11 @@ deliverable; he chooses from it. Do not draft all of them unprompted.
 
 ## Step 2 — draft what he picked
 
-Funnel: social (3–4 sentences) → Substack (400–600 words) → the book. Single
-posts, not threads.
+Social (3–4 sentences) and Substack (400–600 words), each standing alone: no piece
+points the reader at another piece or at the book. Register, subject lines and
+platform formats are in `{bookRoot}/marketing/substack-voice.md`. One file per
+concept: the Substack post, then the X and Facebook posts appended below an
+`<!-- END OF POST -->` marker. Single posts, not threads.
 
 Short-form rules are **stricter** than chapter rules, not looser: the same count
 of metaphor repetitions reads far denser in 500 words than 2,500, and the bold and
@@ -55,7 +58,7 @@ because the audience is social. Run `python3 scripts/okf_gate.py`.
 
 ## Step 5 — check in
 
-Per concept, show him the draft and get a response before saving. Then state
+Per concept, send him the draft as a PDF (`scripts/post_pdf.py`, sent with SendUserFile) and get a response before saving. Then state
 plainly what he must approve before anything is posted, and that nothing has been.
 
 Write to `runs/marketing/chNN/`. Never into `books/`.

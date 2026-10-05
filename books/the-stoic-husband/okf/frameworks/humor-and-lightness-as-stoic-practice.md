@@ -48,8 +48,8 @@ operating from a stable center.
 # Related
 
 - Counters the same "cold Stoic" misread addressed by [Compassion vs. Empathy](/frameworks/compassion-vs-empathy.md)
-  and [Seneca's *De Ira* on anger](/citations/seneca-de-ira-on-anger.md)
-  ("reason wishes to give calm to our emotions, not to root them out").
+  and [Seneca's *De Ira* on anger](/citations/seneca-de-ira-on-anger.md);
+  the line once printed as Seneca's, "reason wishes to give calm to our emotions, not to root them out," is not in *De Ira* (Fact-Checker, 2026-10-02; see [the defect record](/citations/seneca-calm-not-root-out-emotions.md)); the real doctrine here is the first-movement passage, *De Ira* II.2 to II.4.
 - The stable center is the governed self of [Attachment vs. Devotion](/frameworks/attachment-vs-devotion.md).
 
 # Citations

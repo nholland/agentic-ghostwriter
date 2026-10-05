@@ -1,6 +1,6 @@
 # Social: Care Without Contagion
 **Chapter source:** Ch2 — Stop Outsourcing Your Peace
-**Status:** Draft — review before publishing
+**Status:** RETIRED 2026-10-02 — DO NOT POST. Built on a Seneca line that is not in *De Ira*. Superseded by fresh Chapter 2 posts under `runs/marketing/ch02/`.
 
 ---
 

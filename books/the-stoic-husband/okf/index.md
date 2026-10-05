@@ -165,7 +165,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Pillemer — Don't Keep Score](/citations/pillemer-dont-keep-score.md) — status: unverified — Cornell Marriage Advice Project
 - [Pillemer — Friendship as Important as Love](/citations/pillemer-friendship-as-important-as-love.md) — status: verifiable — Cornell Marriage Advice Project
 - [Pillemer — Long Marriages Don't Avoid Fighting, They Learn to Fight](/citations/pillemer-long-marriages-learn-to-fight.md) — status: verifiable — Cornell Marriage Advice Project
-- [Seneca — "Reason wishes to give calm to our emotions, not to root them out"](/citations/seneca-calm-not-root-out-emotions.md) — status: unverified — De Ira II.3
+- [Seneca — "Reason wishes to give calm to our emotions, not to root them out"](/citations/seneca-calm-not-root-out-emotions.md) — status: unverified — DEFECT: not in De Ira, do not quote (2026-10-02)
 - [Household Labor Distribution and Caretaker Burden Research](/citations/household-labor-and-caretaker-burden.md) — status: unverified — gap: research on the "job never ends" feeling, without "emotional labor"/"mental load" framing
 - [Sisyphean Labor and the Loss of Meaning (Repetitive Undone Work)](/citations/sisyphean-labor-and-meaning.md) — status: unverified — gap: research on repetitive "undone and redone" work sapping motivation regardless of pay (possible Ariely)
 - [Marcus Aurelius — Bad Breath, Tolerance, and the Virtue of Being Wrong (Meditations 5.28)](/citations/marcus-aurelius-on-correction-and-tolerance.md) — status: unverified — receiving criticism gracefully; not used in Ch6's redraft, earmarked for Ch8's double-standard beat

@@ -20,11 +20,21 @@ not looser: the same absolute count of metaphor repetitions reads far denser in
 short-form too. `02-audience.md` for the social reader (three sentences, on a
 phone). The chapter's `refined.md` and `distillation.md`.
 
-## The funnel
+**Then `{bookRoot}/marketing/substack-voice.md`** — the Substack register,
+subject-line and per-platform rules. A post written from `01-voice.md` alone comes
+out in the book's scene-first voice, which is wrong for an inbox. If the file is
+missing, stop and say so; do not draft generic copy.
 
-Social (3–4 sentences) → Substack (400–600 words) → the book. A chapter holds
-4–6 publishable concepts. Identify them first, as a list, before drafting
-anything — the concept list is its own deliverable and the author chooses from it.
+## The pieces
+
+Social (3–4 sentences) and Substack (400–600 words). Each closes cleanly and
+points at nothing else; no piece refers the reader onward to another piece or to
+the book (`01-voice.md`, Channel and Artifact Rules). A chapter holds 4–6
+publishable concepts. Identify them first, as a list, before drafting anything —
+the concept list is its own deliverable and the author chooses from it. Before
+drafting a concept, read the posts already saved for that chapter under
+`{bookRoot}/marketing/substack/chNN/` so two concepts never share a mechanism,
+tool or closing line.
 
 Social posts are single posts, not threads. X/Twitter Premium is assumed.
 
