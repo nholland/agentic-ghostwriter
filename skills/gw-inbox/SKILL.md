@@ -15,6 +15,16 @@ python3 scripts/inbox.py          # everything, by category; --all adds resolved
 python3 scripts/inbox.py --kind parked    # one category
 ```
 
+**"Show me" means write it in the reply.** Terminal output from a script is not
+reliably visible to him, and he reads these replies on a phone. After running the
+script, post the inbox **in the reply text itself**, formatted to read on a phone:
+a short heading per category, one line per item with its number, what it is, and
+what he would do about it (decisions) or what brings it back (parked, gaps). End
+with **Your next move**: `next.py`'s `NEXT_ACTION` in plain words (for example,
+"Chapter 14 is at review, waiting on your verdict"), because the inbox must be
+everything he has to do and a chapter verdict is not an inbox item. A reply that
+says "here is the inbox" and shows nothing has not shown it.
+
 **One inbox, three kinds.** He asked for one place to look, so this shows all of
 them, decisions first:
 

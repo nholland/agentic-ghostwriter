@@ -100,5 +100,11 @@
     "turn_id": null,
     "prompt": "let's test... show me the inbox",
     "recorded": "2026-10-05T23:19:35.707601+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "You're not understanding, when I say show me, I mean post it here so I can read it. Either as a PDF, or as a plan that I can click into, or in line",
+    "recorded": "2026-10-05T23:26:06.592570+00:00"
   }
 ]
