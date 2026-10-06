@@ -4,5 +4,11 @@
     "turn_id": null,
     "prompt": "/gw edit 14\n\nI want to make some edits",
     "recorded": "2026-10-06T11:08:25.020280+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "I don't like the way this section is worded \"She gets anxious when we’re late or behind schedule, and when I’m stressed, that bugs me too. In those stretches, I forget what her keeping is worth\". I don't get anxious when I'm late. The last phrase sounds like AI slop.",
+    "recorded": "2026-10-06T11:10:11.553113+00:00"
   }
 ]
