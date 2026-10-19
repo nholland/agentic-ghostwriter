@@ -12,9 +12,15 @@ That pause doesn't mean you don't care. When you share a life, there's a lot to 
 
 She's getting gray hairs. She doesn't want other people to see them. I love them. She was a powerful attorney and a vice president at a public company. For about three years she's been on sabbatical, a break from her career, to be a full-time mother. Her income has changed. Her body has changed. Mine has too. When she's working in the garden in shorts and a T-shirt, I find her incredibly attractive, and that's enough. She is enough for me.
 
-I see her most clearly when I'm rested and have time with her as my friend. The other day we went to breakfast. We talked about life, about each other, and about things we'd been thinking about, with no kids and no deadline to race toward. My wife says the best meals are the ones you don't have to cook. An older proverb says hunger is the best sauce. Xenophon puts it in Socrates' mouth, and Seneca lived it: with only poor bread on hand, he waited until hunger made it taste good (*Letters* 123). Anything she makes is enough for me.
+I see her most clearly when I'm rested and have time with her as my friend. The other day we went to breakfast. We talked about life, about each other, and about things we'd been thinking about, with no kids and no deadline to race toward.
 
 You have your own details. Name something true about her, and stay with it long enough to remember why you value it. You don't need to improve her in your imagination before you can appreciate her in your life.
+
+---
+
+**The plate in front of you.** My kids complain a lot about dinner. Then they have to cook, and they find out it's far worse. They didn't appreciate what they had until they saw what it cost. My wife cooks all the time, so she already knows. That's why she says the best meals are the ones you don't have to cook.
+
+A meal someone made for you should be enough on its own. We overlook what went into it and look only at what we wanted, without taking in the whole situation. Anything she makes is enough for me.
 
 ---
 
@@ -96,6 +102,7 @@ Thankfulness is how you keep wanting what you already have.
 - 2026-10-02 06:46, author's rulings ("I don't know what to do with the placeholder. Let's go with your suggestion."; "we need to end on something stronger ... a chapter about practicing more gratitude, really relishing the mundane because it matters"): the Emmons and McCullough placeholder is replaced by the Researcher's safest candidate, a paraphrase NOT yet checked against the paper (the 'most clearly a better mood' clause is search-level only); the desire/rejection paragraphs moved above the honest-conversation paragraph; the orphan health sentence cut; the body now ends on a gratitude paragraph and a new one-sentence close, 'Relish the ordinary days with her, because that is where the marriage is lived.' Trimmed six sentences to stay within 1,500 words.
 - 2026-10-02 06:55, warmth review applied on the author's word ("Yes"; runs/qa/2026-10-02-warmth-ch14.md): three caution paragraphs reduced to two (kept "what you said is still true", "hear no", "I don't have a fixed rule", "You can love who she is while taking a problem seriously"); cut "You may wish she asked about your day more", "gratitude doesn't make recurring hurt harmless" and the self-respect sentence (that material belongs to Chapter 15); comparison line made plain; ordinary-hours paragraph now includes the thing she saved that turns out to be needed; close is now "Thankfulness is how you keep wanting what you already have." as its own final paragraph.
 - 2026-10-06, author edit (/gw-edit, section 1): replaced the "anxious when we're late" sentences and cut "In those stretches, I forget what her keeping is worth." His words: "I don't get anxious when I'm late"; "it's something that I've learned to accept. It can be annoying, but so can being late in her eyes." The last phrase was his call as AI-sounding. Two rounds; counted gates re-run and pass; distillation untouched (it does not mention these lines).
+- 2026-10-19, author edit (/gw-edit, sections 1-2): breakfast paragraph cut to the breakfast itself; the meals line, the hunger-is-the-best-sauce proverb (Xenophon, Seneca Letters 123) and its attribution removed from the chapter on his word ("either use hers or let's use the stoic one"; he chose hers). New run-in section "The plate in front of you." (title approved by him) from his account: children complain about dinner until they cook; his wife cooks all the time and says the best meals are the ones you don't have to cook; meals made for you should be enough, and we overlook what went into them. Ends on his line "Anything she makes is enough for me." 'Selfishly' left out as an accusation; his phrase 'the entire situation' kept as 'the whole situation'. No closing tie-back added, by his choice. Sauce citation concepts stay in the OKF, unused here.
 ### Final counted output
 
 ```text
