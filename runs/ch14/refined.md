@@ -1,8 +1,8 @@
 # Chapter 14: She Is Enough
 
-You can love your wife and struggle to name the last time you stopped to enjoy something about her. You could list what needs doing around the house without stopping to think. Ask what you appreciate about her today, and you might need a minute.
+You can love your wife and struggle to name the last time you stopped to enjoy something about her. You could list what needs doing around the house without stopping to think. Ask yourself what you appreciate about her today, and you might need a minute.
 
-That pause doesn't mean you don't care. When you share a life, there's a lot to keep track of. You notice the appointment nobody made, the expense you weren't expecting, the habit that still annoys you. The things going well don't ask for your attention quite so loudly. Your wife can become so familiar that you notice what bothers you about her faster than her kindness.
+That pause doesn't mean you don't care. When you share a life, there's a lot to keep track of. You notice the appointment nobody made, the expense you weren't expecting, the habit that still annoys you. The things going well don't ask for your attention quite so loudly. Your wife can become so familiar that you notice what bothers you about her faster than you notice her kindness.
 
 ---
 
@@ -18,15 +18,15 @@ You have your own details. Name something true about her, and stay with it long 
 
 ---
 
-**The plate in front of you.** My kids complain a lot about dinner. Then they have to cook, and they find out it's far worse. They didn't appreciate what they had until they saw what it cost. My wife cooks all the time, so she already knows. That's why she says the best meals are the ones you don't have to cook.
+**The plate in front of you.** My kids complain a lot about dinner. Then it's their turn to cook, and they find out how much work it is. They didn't appreciate what they had until they saw what it cost. My wife cooks all the time, so she already knows what a meal costs. That's why she says the best meals are the ones you don't have to cook.
 
-A meal someone made for you should be enough on its own. We overlook what went into it and look only at what we wanted, without taking in the whole situation. Anything she makes is enough for me.
+A meal someone made for you can be enough on its own. We see what we wanted and miss what went into it. I don't complain about dinner, because I've learned firsthand how hard her job is. That gave me perspective. Anything she makes is enough for me.
 
 ---
 
-**When enough keeps changing.** Spouses compare, husbands and wives both, often without noticing. Your wife may do it too. A lot of it happens on social media. You see only what other people post, and you compare it piece by piece with your whole life. Life on the other side of the fence can look better. You meet someone who's funny, and suddenly your wife's humor is under review. Someone else catches your eye. But the one thing you've noticed becomes a new condition your wife needs to meet. What you have starts to feel like it isn't enough.
+**When enough keeps changing.** Spouses compare, husbands and wives both, often without noticing. Your wife may do it too. A lot of it happens on social media. You see only what other people post, and you compare it piece by piece with your whole life. Life on the other side of the fence can look better. You meet someone who's funny, and suddenly your wife's humor is under review. Someone else catches your eye, and that one quality becomes a new condition your wife has to meet. What you have starts to feel like it isn't enough.
 
-It runs both ways. Somewhere there's a man who earns more, another who's more patient, another who makes her laugh. You'd want her to remember the whole of you, and she'd want the same from you. When either of you notices it, you can say so kindly.
+It runs both ways. Somewhere there's a man who earns more, another who's more patient, another who makes her laugh. You'd want her to remember the whole of you, and she'd want the same from you. When either of you catches yourself comparing, you can say so kindly.
 
 In Letter 16, Seneca, a Roman Stoic philosopher writing to his friend Lucilius, passes along a saying of another philosopher, Epicurus, that sets living by nature against living by opinion. Then he puts the point his own way: “Natural desires are limited; but those which spring from false opinion can have no stopping-point.” In plain words, some wants come from real needs, and they end when the need is met. Others come from what you've been told you should have, and they never end. Seneca's test is to ask whether the thing you want can stop at any definite point. Neither man was writing about marriage, but you can put that test to what you want from her. If your wife met today's condition, would you let yourself enjoy her? Or would you find the next thing she lacks?
 
@@ -42,27 +42,27 @@ This is the discipline of enough: practicing appreciation for the real person yo
 
 ---
 
-**Practice before you need it.** In a 2003 study, psychologists Robert Emmons and Michael McCullough had people write down what they were grateful for. Across three studies, people who listed things they were grateful for reported better well-being on several, though not all, measures than comparison groups, most clearly a better mood. It wasn't a study of marriages, but it's a reason to practice on purpose.
+**Practice before you need it.** In a 2003 paper reporting three studies, psychologists Robert Emmons and Michael McCullough had people write down what they were grateful for. In those studies, people who listed things they were grateful for reported better well-being on several, though not all, measures than comparison groups, most clearly a better mood. It wasn't a study of marriages, but it's a reason to practice on purpose.
 
 Start small enough that what you write is true. Before you go to bed, write down one thing you valued about your wife that day. Her patience with a child. Her excitement about something she's learning. Choose what you actually noticed, rather than qualities a good wife is supposed to have.
 
 If nothing comes to mind, you haven't failed. Pay attention tomorrow. And if you're upset with her, you don't have to pretend the hurt disappeared. There may still be something you appreciate alongside it.
 
-My family borrowed a gesture from the movie *Avatar*: a fingertip to the forehead and the words "I see you." At every meal, I thank the kids and I thank her. I think a lot of it can land as hollow, like an "I love you" said with nothing behind it. A quick thanks isn't the same as appreciation.
+My family borrowed a gesture from the movie *Avatar*: a fingertip to the forehead and the words "I see you." At every meal, I thank the kids and I thank her. I think the thanks can land as hollow, like an "I love you" said with nothing behind it. A quick thanks isn't the same as appreciation.
 
-Then let some of that appreciation reach her. Tell her what you saw and why it mattered to you. Be specific enough that she knows you paid attention. A wife who has stepped back from a career may miss feeling important, part of a team, or valued by peers, and hearing what you see in her can help.
+Then let some of what you wrote down reach her. Tell her what you saw and why it mattered to you. Be specific enough that she knows you paid attention. A wife who has stepped back from a career may miss feeling important, part of a team, or valued by peers, and hearing what you see in her can help.
 
 You can also enjoy things about her that do nothing for you. You get to love a person whose life includes more than meeting your needs.
 
 ---
 
-**Let appreciation become care.** “The grass is greener where you water it” is a saying I keep coming back to. I don’t know who first said it. It turns the old line about the other side of the fence around. Your attention and care are the water. What grows is more of her you can actually enjoy. That can look like a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.
+**Let appreciation become care.** “The grass is greener where you water it” is a saying I keep coming back to. I don’t know who first said it. It turns the old line about the other side of the fence around. Your attention and care are the water. What grows is your enjoyment of the woman already there. That can look like a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.
 
-Stay in the conversation because you like talking to her. There's room in a responsible life to be glad she's part of it.
+Talk with her because you like talking to her. There's room in a responsible life to be glad she's part of it.
 
-Nor does any of this require her to answer your affection on your schedule. If she's tired or distracted when you tell her, what you said is still true. You can be glad she's your wife and still feel hurt when you reach for her and hear no. What you decide is how to treat her while you feel it.
+None of this requires her to answer your affection on your schedule. If she's tired or distracted when you tell her, what you said is still true. You can be glad she's your wife and still feel hurt when you reach for her and hear no. What you decide is how to treat her while you feel it.
 
-Contentment doesn't replace a conversation that needs to happen. I don't have a fixed rule for when appreciation is enough and when you need to speak. That takes judgment. You can love who she is while taking a problem seriously.
+Contentment doesn't replace a conversation that needs to happen. If you'd still resent it two days later, Chapter 11 is where it goes. You can love who she is while taking a problem seriously.
 
 ---
 
@@ -103,6 +103,7 @@ Thankfulness is how you keep wanting what you already have.
 - 2026-10-02 06:55, warmth review applied on the author's word ("Yes"; runs/qa/2026-10-02-warmth-ch14.md): three caution paragraphs reduced to two (kept "what you said is still true", "hear no", "I don't have a fixed rule", "You can love who she is while taking a problem seriously"); cut "You may wish she asked about your day more", "gratitude doesn't make recurring hurt harmless" and the self-respect sentence (that material belongs to Chapter 15); comparison line made plain; ordinary-hours paragraph now includes the thing she saved that turns out to be needed; close is now "Thankfulness is how you keep wanting what you already have." as its own final paragraph.
 - 2026-10-06, author edit (/gw-edit, section 1): replaced the "anxious when we're late" sentences and cut "In those stretches, I forget what her keeping is worth." His words: "I don't get anxious when I'm late"; "it's something that I've learned to accept. It can be annoying, but so can being late in her eyes." The last phrase was his call as AI-sounding. Two rounds; counted gates re-run and pass; distillation untouched (it does not mention these lines).
 - 2026-10-19, author edit (/gw-edit, sections 1-2): breakfast paragraph cut to the breakfast itself; the meals line, the hunger-is-the-best-sauce proverb (Xenophon, Seneca Letters 123) and its attribution removed from the chapter on his word ("either use hers or let's use the stoic one"; he chose hers). New run-in section "The plate in front of you." (title approved by him) from his account: children complain about dinner until they cook; his wife cooks all the time and says the best meals are the ones you don't have to cook; meals made for you should be enough, and we overlook what went into them. Ends on his line "Anything she makes is enough for me." 'Selfishly' left out as an accusation; his phrase 'the entire situation' kept as 'the whole situation'. No closing tie-back added, by his choice. Sauce citation concepts stay in the OKF, unused here.
+- 2026-10-19, author rulings ("I'm aligned with your suggestions."): applied ten clarity fixes from the cold read and panel (Ask yourself; you notice her kindness; paper reporting three studies; the eye-catching sentence; catches yourself comparing; the thanks can land as hollow; what you wrote down; your enjoyment of the woman already there; Talk with her; None of this requires), the Chapter 11 pointer in place of "I don't have a fixed rule", and the plate-section rewrite with his sentence: "I never complain about dinner, because I have now learned firsthand how hard it is to do the job that she does. Basically I have developed perspective." Breakfast detail still unanswered, left as is. Outline update approved by him, held until the research he asked for lands.
 ### Final counted output
 
 ```text

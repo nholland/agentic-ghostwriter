@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-10-19T14:49:07.564249+00:00",
+  "subjects": [
+    "chapter:ch14-perspective-research"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/ch14-pornography-romance-media-expectations.md",
+    "books/the-stoic-husband/okf/citations/algoe-kurtz-hilaire-2016-other-praising.md",
+    "books/the-stoic-husband/okf/citations/arriaga-rusbult-1998-partner-perspective-taking.md",
+    "books/the-stoic-husband/okf/citations/bao-lyubomirsky-2013-hedonic-adaptation-romance.md",
+    "books/the-stoic-husband/okf/citations/ch14-firsthand-experience-and-gratitude.md",
+    "books/the-stoic-husband/okf/citations/ch14-grass-is-greener-outcomes.md",
+    "books/the-stoic-husband/okf/citations/davis-et-al-2016-gratitude-intervention-meta-analysis.md",
+    "books/the-stoic-husband/okf/citations/epictetus-discourses-3-24-given-for-the-present.md",
+    "books/the-stoic-husband/okf/citations/epictetus-enchiridion-3-kissing-a-human-being.md",
+    "books/the-stoic-husband/okf/citations/froh-et-al-2014-teaching-grateful-thinking.md",
+    "books/the-stoic-husband/okf/citations/gilbert-ebert-2002-reversible-choices.md",
+    "books/the-stoic-husband/okf/citations/gilbert-et-al-2009-neighborly-advice-surrogation.md",
+    "books/the-stoic-husband/okf/citations/gordon-arnette-smith-2011-married-gratitude.md",
+    "books/the-stoic-husband/okf/citations/hunger-best-sauce-socratic-not-stoic.md",
+    "books/the-stoic-husband/okf/citations/joel-et-al-2013-perceived-partner-investments.md",
+    "books/the-stoic-husband/okf/citations/johnson-rusbult-1989-devaluation-of-alternatives.md",
+    "books/the-stoic-husband/okf/citations/kenrick-1989-erotica-and-mates-failed-replication.md",
+    "books/the-stoic-husband/okf/citations/kurtz-2008-temporal-scarcity.md",
+    "books/the-stoic-husband/okf/citations/lucas-et-al-2003-adaptation-to-marriage.md",
+    "books/the-stoic-husband/okf/citations/nordgren-ruttan-empathy-gaps-and-been-there.md",
+    "books/the-stoic-husband/okf/citations/norton-frost-ariely-2007-familiarity-contested.md",
+    "books/the-stoic-husband/okf/citations/ross-sicoly-1979-egocentric-responsibility.md",
+    "books/the-stoic-husband/okf/citations/schkade-kahneman-1998-focusing-illusion.md",
+    "books/the-stoic-husband/okf/citations/schwartz-et-al-2002-maximizing-satisficing.md",
+    "books/the-stoic-husband/okf/citations/seneca-letter-18-5-8-rehearsed-poverty.md",
+    "books/the-stoic-husband/okf/citations/sheldon-lyubomirsky-2012-hedonic-adaptation-prevention.md",
+    "books/the-stoic-husband/okf/citations/simpson-gangestad-lerma-1990-attractiveness-perception.md",
+    "books/the-stoic-husband/okf/citations/tesser-gatewood-driver-1968-determinants-of-gratitude.md",
+    "books/the-stoic-husband/okf/citations/visserman-et-al-2019-seeing-partner-sacrifices.md",
+    "books/the-stoic-husband/okf/citations/waite-et-al-2002-unhappy-marriages-report.md",
+    "books/the-stoic-husband/okf/citations/wood-et-al-2008-benefit-appraisals-gratitude.md",
+    "books/the-stoic-husband/okf/notes/2026-10-19-perspective-is-the-point.md"
+  ],
+  "authority": "Author's research request, interview Round 8, 2026-10-19; cold Researcher findings with their uncertainty",
+  "reason": "Landed 29 unverified source findings and 2 gap markers, updated one existing gap; nothing verified; proposals remain pending in proposed-concepts.md",
+  "files": {
+    "books/the-stoic-husband/okf/index.md": "05fa9595f1cc2d9f476fe9a202074ceb9440d04b22e2ca3b170800a1129a44a6",
+    "books/the-stoic-husband/okf/log.md": "90f91a6a0cc40b90dde029046dddab627eb6482166bec108bb4a6380ee645a2a",
+    "books/the-stoic-husband/citation-queue.md": "ae521183b1231aa39af8878a8796202484c6802d1c8a3d27e92b7bb42574bfa9",
+    "runs/ch14/research-perspective.md": "cd8c7bd5a8e3914a953163114bea93107dbad1e70706537ae303cda2c81e3bd7",
+    "runs/ch14/proposed-concepts.md": "1b60c0dcfd3087dc3c71c68bb0b5f80682717a170784ac9137adc3ed5caf391e"
+  }
+}
