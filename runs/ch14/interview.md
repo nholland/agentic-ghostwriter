@@ -227,3 +227,13 @@ Reply to the Publisher's decisions sheet (apply ten clarity fixes, plate rewrite
 
 Effects: ten clarity fixes, the Chapter 11 pointer and the plate rewrite (with his dinner sentence) applied to runs/ch14/refined.md; the Researcher is commissioned to find real studies on how gratitude for what one has is developed (perspective, cost-awareness). The outline update he approved is held until that research lands so it states the final direction. He did not answer the breakfast-detail question. Not yet decided: how much of the chapter's weight moves to perspective, and where the research sits.
 
+## Round 9: plan approved, breakfast detail, 2026-10-19 15:49 UTC (author's words)
+
+Reply to the Publisher's research plan (runs/ch14/research-perspective.md; PDF "what the research says and a plan"). His words, verbatim:
+
+> 1. Yep
+> 2. Yes
+> 3. We talked about a new house we were building, we talked about some of the upcoming College that were due for my oldest son Brayden, And we talked about different chores we had for the week. I noticed how nice it was to just be with each other and talk through shared goals
+
+Rulings: (1) the plan is approved: one bounded research sentence beside the kids and dinner (Froh et al. 2014), one beside the grass-is-greener passage (Schkade and Kahneman 1998), one in the practice section (Visserman et al. 2019), cuts to fit the 1,500-word target, and the outline update he approved in Round 8; (2) the Chapter 7 overlap is accepted, with Ch14's perspective aimed at imagined alternatives and contentment; (3) the breakfast detail is supplied and is printed in his words, with his oldest son's name left out of the prose (he may add it). Proposal 2 in proposed-concepts.md is answered by these rulings.
+

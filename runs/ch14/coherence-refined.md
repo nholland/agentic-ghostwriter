@@ -1,14 +1,11 @@
-# Chapter 14 coherence review against Chapters 11-13, 2026-10-19
+# Chapter 14 coherence review against Chapters 11-13, 2026-10-19 (after the perspective and research edits)
 
-Desk: gw-slopreader (Anti-Slop Reader). Report only; nothing edited. Publisher's condensed record of the returned report.
-Read in full: prose-only copies of Ch11, Ch12, Ch13 and Ch14. Not read: 01-voice.md, the OKF, the outline, Chapters 1-10, notes, counted rules, citation accuracy.
+Desk: gw-slopreader. Report only. Publisher's condensed record. Read in full: prose-only copies of Ch11-14. Not read: 01-voice.md, Chapter 7, the OKF, the outline.
 
-Essential:
-- E1 plate section repeats Ch12's lesson ("the reflex is to overlook it") and sits oddly with Ch12's acts-of-service setup; "Anything she makes is enough for me" can read as "adequate". Keep the cost idea; whether he cooks for her is a question for the author.
-- E2 "notice, then tell her" is Ch13's practice; Ch14 l.13 repeats Ch13's "looked over and thought she was beautiful" moment.
-- E3 opening reassures, then "loud things crowd out quiet ones", as Ch12 and Ch13 open.
-- E4 "wasn't writing about marriage" formula in Ch12, Ch13 and twice in Ch14.
-- E5 "I don't have a fixed rule for when appreciation is enough and when you need to speak" contradicts Ch11, which is a whole chapter on that decision; suggested pointer to Chapter 11.
-- E6 "In a 2003 study ... Across three studies" self-contradiction.
+Verdict: the plate section is not a repeat within Ch11-14 (next to Ch12's "overlook it", different mechanism).
 
-Optional: O1 "old saying turned around" device thrice; O2 Ch13's imagined garden vs the author's real one; O3 "I see you" used two ways; O4 the "But" non sequitur; O5 universal "spouses compare" claim made twice; O6 "she may not respond" beat in three chapters; O7 Ch14 repeats its own instruction; O8 chalkboard cliche; O9-O10 indirect lines; O11 "the discipline of enough" untraced; O12 Stoic reference and citation format drift; O13 timeline hinge with Ch11's income line; O14 Ch12/Ch13 overlaps for information.
+Essential: E1 the "this wasn't about marriage, but" hedge appeared five times across Ch12-14 (three in Ch14); E2 "tell her what you saw" repeats Ch13, and Visserman and Froh make one point twice in Ch14; E3 Ch12-14 open with the same shape (name the last time, "you didn't stop loving her", loud things crowd out quiet ones); E4 the dream-wife passage makes a claim about all men and its "for some, maybe that's true" sits oddly in a chapter called She Is Enough; E5 Ch12 and Ch13 repeat the "ask again on a named weekday" and "errand she mentioned" examples (outside Ch14); E6 the Avatar paragraph's point is unclear.
+
+Acted on: dropped the Seneca hedge; cut "The things going well don't ask for your attention quite so loudly"; reframed the weather study as "we fix on the one thing someone else has". Left: E2 and E6 and the dream-wife wording (author's call); E5 belongs to Chapters 12-13.
+
+Optional: "enough for me" twice in ten lines; "start before you need it" three times; garden and fence imagery carried over from Ch13; Ch11 ten-years-on-her-income versus Ch14 sabbatical needs a clause; "the discipline of enough" and the closing line should be cleared as original.

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-19T16:02:00.908120+00:00",
+  "subjects": [
+    "chapter:ch14-round9"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-19-perspective-is-the-point.md"
+  ],
+  "authority": "Author's words, interview Round 9 (2026-10-19): '1. Yep  2. Yes' to the research plan, the breakfast detail, and earlier 'I'm aligned with your suggestions' to the outline update",
+  "reason": "Recorded the breakfast facts and plan approval; updated the Chapter 14 outline section and revision note to match the chapter; closed Proposal 2; applied only his approved edits and meaning-preserving fixes; open items for his verdict listed in the questions sheet",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-19-perspective-is-the-point.md": "3b9ba6487850db3cb3e1ac913d549c8a477c5a41df7c84f08e87356ba0e306e0",
+    "books/the-stoic-husband/03-outline.md": "9fb62d58d407ab69ea141f86ade09e6b72e4ff4b5fedc37aebf1a9705fddd9c0",
+    "runs/ch14/interview.md": "3d1f91e9641fe22c8f9b7583205cae9bd9e8245b012b3bf5097063ff11af8f96",
+    "runs/ch14/refined.md": "04c8cbea3f2e70f4815009c546102979573676fddee07b6328a4a28a913d5dd6",
+    "runs/ch14/distillation.md": "cec0f15c271be4d3a3c73c22a465f2bd90b38102357aca0435dd57cad76d53bf",
+    "runs/ch14/proposed-concepts.md": "7380cc2f8ad17111c68203ee70cdbe2d4a83b842ebc7907f6ade91bbf55c67f6",
+    "runs/ch14/outline-section.md": "cb57c0d565e15e7e785d8dd6b387fc099257d4e513b2a3117516cc22cc7bf113"
+  }
+}

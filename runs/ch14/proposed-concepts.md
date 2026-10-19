@@ -1,5 +1,5 @@
 ---
-status: open
+status: answered
 chapter: 14
 date: 2026-09-29 20:43
 reopened: 2026-10-19 14:44 UTC (Proposal 2, Round 8 perspective addendum)
@@ -140,3 +140,8 @@ pretending every alternative is worse.
 4. **How much of the chapter moves.** Round 8 left this open.
 
 **Author response:** Pending.
+
+## Author disposition of Proposal 2, 2026-10-19 15:49 UTC
+
+Round 9, his words: "1. Yep  2. Yes" in reply to the research plan (cost-noticing translation, firsthand experience kept as his own account not a finding, one bounded research sentence in three places, Chapter 7 overlap accepted with the imagined-alternatives distinction). Proposal 2 is accepted as the plan framed it. Proposal 1, the prior enough-without-neglect formulation and the screenshot extension keep their earlier dispositions (2026-09-30). Studies stay unverified; nothing in the chapter claims more than the Tier A wording in research-perspective.md.
+
