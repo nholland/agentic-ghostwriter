@@ -27,3 +27,4 @@ failed. The drawing carries the argument; captions name what is drawn.
 - 2026-09-30 23:15: current version is awful. It's unrecognizable.
 - 2026-10-03 02:11: 2026-10-03, approving the Publisher's recommendation ("Yes, do 1 and 3"): the Chapter 14 plate should show something received, not damage avoided, and its label 'a kinder answer' should sit where the water lands.
 - 2026-10-03 04:37: Keep Chapter 14 as it is ("Let's keep 14 as it is."): the Panel's 'your kinder answer' edit is declined; the plate stays as drawn.
+- 2026-10-20 11:20: "Yes, use your recommendation. Then put it on main" (in answer to why 'a kinder answer' had anything to do with the concept of enough): the drops are labelled 'attention and care' and the grass 'the woman already there', both the chapter's own words; the drawing and title are unchanged.
