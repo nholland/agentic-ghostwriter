@@ -22,5 +22,11 @@
     "turn_id": null,
     "prompt": "Why can't you view that URL? What would fix that in this environment",
     "recorded": "2026-10-20T10:29:26.282958+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Is there a way to make it so that my environment can go to any website, versus making it go one by one",
+    "recorded": "2026-10-20T12:19:37.393352+00:00"
   }
 ]
