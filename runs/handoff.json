@@ -2,7 +2,7 @@
   "schema": 1,
   "chapter": 8,
   "runtime": "claude",
-  "branch": "ccr-fb6ac5b1-mhinv6",
+  "branch": "ccr-485e4605-6mn02e",
   "oracle": {
     "chapter": 8,
     "stage": "shipped",
@@ -183,5 +183,5 @@
     "runs/ch08/practice-guide-ch08.md": "2e3b8435f2245604d6e361ce94c0760b36a596bfde7a1a0777c47d11857fc724",
     "runs/ch08/refined-before-inbox-098.md": "3825e9743ca0fe9294df5c2148c3211e0ab1e23c8fd9afd5127f37c6371b707e"
   },
-  "updated": "2026-10-06T11:08:25.089987+00:00"
+  "updated": "2026-10-20T19:03:55.867399+00:00"
 }
