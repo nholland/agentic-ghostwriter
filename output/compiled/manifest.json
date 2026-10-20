@@ -1,5 +1,5 @@
 {
-  "built": "2026-10-20T10:33:43.785230+00:00",
+  "built": "2026-10-20T10:51:06.960165+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-14, relevant Arc openings and plates",
   "unapproved_chapters": [],
   "source_sha256": {
@@ -43,7 +43,7 @@
     "books/the-stoic-husband/chapters/ch13/distillation.md": "2bc3b6f0df576dba505d415be1f722a7be6855388b7f6f2cb273d9568cd84e63",
     "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
     "books/the-stoic-husband/chapters/ch14/refined.md": "68c5c710403ee3260a660f623ba4029225537c67723177c6022da136bcab7eff",
-    "books/the-stoic-husband/chapters/ch14/distillation.md": "cec0f15c271be4d3a3c73c22a465f2bd90b38102357aca0435dd57cad76d53bf",
+    "books/the-stoic-husband/chapters/ch14/distillation.md": "7145414fff75084e285463ac425db651682aac270cb508332fb71f1408ef38d2",
     "runs/ch14/plate.svg": "3d5cda02f8f78fb30f9874550f10aba8ef73607a78de0dedc1a44eb00823cfc8"
   },
   "outputs": [
@@ -67,7 +67,7 @@
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-10-20T10:33:43.784456+00:00",
+    "built": "2026-10-20T10:51:06.959413+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {

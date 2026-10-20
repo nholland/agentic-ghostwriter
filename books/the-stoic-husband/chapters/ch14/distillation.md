@@ -2,7 +2,7 @@
 
 **Mechanism:** Appreciation becomes care
 
-**Conversation sentence:** You practice enough by noticing what you value in your wife and letting that appreciation change how you care for her.
+**Conversation sentence:** You practice the concept of enough by noticing what you value in your wife and letting that appreciation change how you care for her.
 
 Familiarity makes complaints easy to notice. The same trait can get a harsh word or a loving one, and your attention picks the word. Complaints come easily when you overlook what went into something, like a meal someone made for you. The author stopped complaining about dinner once he learned firsthand how hard her job is; what you can borrow is noticing what a meal cost. Comparison adds conditions a real person cannot keep meeting. A life beyond your wife can look better, but many men have never been with the woman of their dreams, so it's just a dream. Name something you value about the woman your wife is now. Tell her specifically, since quick thanks isn't appreciation, and let it become care on ordinary days. Gratitude leaves room for honest concerns. It asks for no particular response from her.
 

@@ -142,5 +142,11 @@
     "turn_id": null,
     "prompt": "When I looked at the final Chapter, I don't see the plate. Did we not make one? I don't see the distillation either. \n\nI see the audiobook version which would skip those, but I thought the final chapter would have everything there",
     "recorded": "2026-10-20T10:30:50.046647+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "In the distillation, it starts off with \" conversation sentence\" - what does that even mean?\n\nAlso in the distillation, it should be \" the concept of enough\" Not just a simple phrase like \" practice enough\"",
+    "recorded": "2026-10-20T10:48:17.676710+00:00"
   }
 ]
