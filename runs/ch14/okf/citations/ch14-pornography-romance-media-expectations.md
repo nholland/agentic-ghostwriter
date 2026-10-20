@@ -2,7 +2,7 @@
 type: Citation
 title: Pornography, Romance Media, and Partner Expectations
 description: Research gap on whether and when pornography or romance media shape unrealistic expectations of a spouse or sex.
-provenance: "Author's question in Chapter 14 interview, 2026-09-27; no source reviewed. Updated (staged, not yet canonical) by the cold Researcher 2026-10-19 14:44 UTC during the Round 8 perspective addendum: one partial finding added (the classic centerfold experiment failed replication). The gap remains open."
+provenance: "Author's question in Chapter 14 interview, 2026-09-27; no source reviewed. Updated by the cold Researcher 2026-10-19 14:44 UTC during the Round 8 perspective addendum: one partial finding added (the classic centerfold experiment failed replication). The gap remains open."
 ip: external
 tags: [pornography, romance-media, expectations, marriage]
 chapter_slugs: [she-is-enough]
