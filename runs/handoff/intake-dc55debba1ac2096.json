@@ -148,5 +148,11 @@
     "turn_id": null,
     "prompt": "In the distillation, it starts off with \" conversation sentence\" - what does that even mean?\n\nAlso in the distillation, it should be \" the concept of enough\" Not just a simple phrase like \" practice enough\"",
     "recorded": "2026-10-20T10:48:17.676710+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "I want the distillation to look like it's going to look like in the actual book. Isn't that what we do at the end of every chapter? I'm still not understanding",
+    "recorded": "2026-10-20T10:58:15.199217+00:00"
   }
 ]
