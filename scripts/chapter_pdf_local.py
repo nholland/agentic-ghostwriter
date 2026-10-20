@@ -300,6 +300,9 @@ def distillation_html(md, kicker):
     """One transform, two call sites. Extracted 2026-09-18: the front and back
     paths were 7 lines each and 5 identical, which is the two-copies-of-one-
     stylesheet shape that caused the defects this renderer exists to avoid."""
+    # Reader-facing label (author, 2026-10-20: "Conversation sentence" means nothing
+    # to a reader). The source field name is unchanged; only the printed label moves.
+    md = md.replace("**Conversation sentence:**", "**The idea in one sentence:**")
     d = md_to_html(md)
     # "Chapter N Distillation — Title" prints as "Chapter N — Title".
     heading = lambda h: re.sub(r"^(Chapter \d+) Distillation\b", r"\1", h)
@@ -308,7 +311,7 @@ def distillation_html(md, kicker):
                          f'<div class="rule"></div>', d, count=1)
     d = re.sub(r"<p><strong>Mechanism:</strong>\s*(.*?)</p>",
                r'<p class="mech">\1</p>', d, count=1)
-    d = re.sub(r"<p><strong>Conversation sentence:</strong>\s*(.*?)</p>",
+    d = re.sub(r"<p><strong>The idea in one sentence:</strong>\s*(.*?)</p>",
                r'<p class="convo">\1</p>', d, count=1)
     for lab in ("Lesson", "Challenge", "Practice"):
         d = re.sub(rf"<p><strong>{lab}:</strong>\s*(.*?)</p>", rf'<h2>{lab}</h2><p>\1</p>', d)

@@ -1,5 +1,5 @@
 {
-  "built": "2026-10-20T10:51:06.960165+00:00",
+  "built": "2026-10-20T11:06:18.768876+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-14, relevant Arc openings and plates",
   "unapproved_chapters": [],
   "source_sha256": {
@@ -67,7 +67,7 @@
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-10-20T10:51:06.959413+00:00",
+    "built": "2026-10-20T11:06:58.739666+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -175,7 +175,7 @@
       "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
       "runs/ch14/plate.svg": "3d5cda02f8f78fb30f9874550f10aba8ef73607a78de0dedc1a44eb00823cfc8",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
-      "runs/design/plate-briefs.md": "4b301e3df5b4f1072c193467b62f8de54337cb942ba940dadcbaf7860b978613"
+      "runs/design/plate-briefs.md": "30367b14f30b96b465ac2b0b04567f381ec93e08e0771b3b0525ebc543aff30b"
     }
   },
   "plates": {
