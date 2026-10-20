@@ -276,6 +276,36 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Epictetus “few wants” — attribution gap](/citations/epictetus-wealth-few-wants-attribution-gap.md) — status: unverified; popular wording lacks an ancient locator
 - [Daniel David — flexible preferences and rigid demands in REBT](/citations/david-rebt-flexible-preferences.md) — status: unverified; theoretical distinction, not a marriage study or Ellis quotation
 - [Bertolotti, “The Art of Having Enough” — source audit](/citations/bertolotti-having-enough-source-audit.md) — status: unverified; secondary lead checked against primary texts
+- ["Hunger Is the Best Sauce" — Socratic Proverb, Not a Stoic Phrase](/citations/hunger-best-sauce-socratic-not-stoic.md) — status: unverified
+- [Algoe, Kurtz & Hilaire (2016) — Putting the 'You' in 'Thank You': Other-Praising Gratitude](/citations/algoe-kurtz-hilaire-2016-other-praising.md) — status: unverified
+- [Arriaga & Rusbult (1998) — Standing in My Partner's Shoes](/citations/arriaga-rusbult-1998-partner-perspective-taking.md) — status: unverified
+- [Bao & Lyubomirsky (2013) — Making It Last: Combating Hedonic Adaptation in Romantic Relationships](/citations/bao-lyubomirsky-2013-hedonic-adaptation-romance.md) — status: unverified
+- [Davis et al. (2016) — Thankful for the Little Things: Meta-Analysis of Gratitude Interventions](/citations/davis-et-al-2016-gratitude-intervention-meta-analysis.md) — status: unverified
+- [Epictetus, Discourses III.24 (Long) — What You Love Is Given for the Present](/citations/epictetus-discourses-3-24-given-for-the-present.md) — status: unverified
+- [Epictetus, Enchiridion 3 (Long) — Kissing a Human Being (Do Not Use in Ch14)](/citations/epictetus-enchiridion-3-kissing-a-human-being.md) — status: unverified
+- [Froh et al. (2014) — Nice Thinking! Teaching Children to Think Gratefully](/citations/froh-et-al-2014-teaching-grateful-thinking.md) — status: unverified
+- [GAP: Do People Who Leave for an Idealized Alternative End Up Better Off?](/citations/ch14-grass-is-greener-outcomes.md) — status: unverified
+- [GAP: Does Doing a Partner's Work Firsthand Increase Gratitude Toward Them?](/citations/ch14-firsthand-experience-and-gratitude.md) — status: unverified
+- [Gilbert & Ebert (2002) — Decisions and Revisions: Reversible Choices Satisfy Less](/citations/gilbert-ebert-2002-reversible-choices.md) — status: unverified
+- [Gilbert, Killingsworth, Eyre & Wilson (2009) — The Surprising Power of Neighborly Advice](/citations/gilbert-et-al-2009-neighborly-advice-surrogation.md) — status: unverified
+- [Gordon, Arnette & Smith (2011) — Have You Thanked Your Spouse Today? Felt and Expressed Gratitude in Marriage](/citations/gordon-arnette-smith-2011-married-gratitude.md) — status: unverified
+- [Joel et al. (2013) — The Things You Do for Me: Perceived Partner Investments, Gratitude and Commitment](/citations/joel-et-al-2013-perceived-partner-investments.md) — status: unverified
+- [Johnson & Rusbult (1989) — Devaluation of Alternative Partners](/citations/johnson-rusbult-1989-devaluation-of-alternatives.md) — status: unverified
+- [Kenrick, Gutierres & Goldberg (1989) and Failed Replications (Balzarini et al.) — Erotica and Ratings of One's Partner](/citations/kenrick-1989-erotica-and-mates-failed-replication.md) — status: unverified
+- [Kurtz (2008) — Looking to the Future to Appreciate the Present: Perceived Temporal Scarcity](/citations/kurtz-2008-temporal-scarcity.md) — status: unverified
+- [Lucas, Clark, Georgellis & Diener (2003) — Adaptation to Changes in Marital Status](/citations/lucas-et-al-2003-adaptation-to-marriage.md) — status: unverified
+- [Nordgren, Banas & MacDonald (2011); Ruttan, McDonnell & Nordgren (2015) — Experience, Empathy Gaps, and Its Limits](/citations/nordgren-ruttan-empathy-gaps-and-been-there.md) — status: unverified
+- [Norton, Frost & Ariely (2007) vs. Reis et al. (2011) — Does Knowing More Make Us Like Less? (Contested)](/citations/norton-frost-ariely-2007-familiarity-contested.md) — status: unverified
+- [Ross & Sicoly (1979) — Egocentric Biases in Availability and Attribution](/citations/ross-sicoly-1979-egocentric-responsibility.md) — status: unverified
+- [Schkade & Kahneman (1998) — The Focusing Illusion (Does Living in California Make People Happy?)](/citations/schkade-kahneman-1998-focusing-illusion.md) — status: unverified
+- [Schwartz et al. (2002) — Maximizing Versus Satisficing](/citations/schwartz-et-al-2002-maximizing-satisficing.md) — status: unverified
+- [Seneca, Letter 18.5-8 (Gummere) — Rehearsing Poverty to Learn What Is Enough](/citations/seneca-letter-18-5-8-rehearsed-poverty.md) — status: unverified
+- [Sheldon & Lyubomirsky (2012) — The Hedonic Adaptation Prevention Model](/citations/sheldon-lyubomirsky-2012-hedonic-adaptation-prevention.md) — status: unverified
+- [Simpson, Gangestad & Lerma (1990) — Perceived Attractiveness and Relationship Maintenance](/citations/simpson-gangestad-lerma-1990-attractiveness-perception.md) — status: unverified
+- [Tesser, Gatewood & Driver (1968) — Some Determinants of Gratitude](/citations/tesser-gatewood-driver-1968-determinants-of-gratitude.md) — status: unverified
+- [Visserman et al. (2019) — To 'See' Is to Feel Grateful: Noticing a Partner's Sacrifices](/citations/visserman-et-al-2019-seeing-partner-sacrifices.md) — status: unverified
+- [Waite et al. (2002) — Does Divorce Make People Happy? (Institute for American Values report)](/citations/waite-et-al-2002-unhappy-marriages-report.md) — status: unverified
+- [Wood, Maltby, Stewart, Linley & Joseph (2008) — Benefit Appraisals and Gratitude](/citations/wood-et-al-2008-benefit-appraisals-gratitude.md) — status: unverified
 
 ## Signals
 
@@ -312,6 +342,8 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 - [Approved inbox knowledge and chronology corrections](/notes/2026-09-27-approved-inbox-knowledge.md) — accepted corrections; its original 098/099 wording proposals were subsequently approved and applied on 2026-10-02.
 - [Ch12 action, Ch13 attention](/notes/2026-09-30-ch12-action-ch13-attention.md) — author's split of Part III's opening pair; prose re-edit pending.
 - [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage. Extended to Chapter 14 in its opening interview: how a man should love.
+
+- [Perspective is the point](/notes/2026-10-19-perspective-is-the-point.md) — author: learning the cost of what you have (dinner, her job) is the chapter's gist, not complacency; research on how gratitude develops commissioned; outline update held for it.
 
 ## Logs
 

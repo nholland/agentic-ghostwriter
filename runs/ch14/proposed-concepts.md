@@ -2,6 +2,7 @@
 status: answered
 chapter: 14
 date: 2026-09-29 20:43
+reopened: 2026-10-19 14:44 UTC (Proposal 2, Round 8 perspective addendum)
 ---
 
 ## Proposal 1: Practicing enough through appreciation
@@ -78,3 +79,69 @@ reader exercises remain drafting suggestions for chapter review, not an
 attributed author routine. Mental subtraction is optional and unused here.
 The prior fixed wisdom test is unapproved and excluded; it is not a blocker
 because the author has commissioned the unresolved wisdom boundary instead.
+
+## Proposal 2: Perspective, learning what it cost (Round 8), 2026-10-19 14:44 UTC
+
+Decision: accept, correct, or decline. The author's Round 8 words are recorded
+as fact in `okf/notes/2026-10-19-perspective-is-the-point.md`. What follows is
+the Researcher's **translation of those words into the research**, and that
+translation is what needs his ruling. It is not his statement, and no study
+tests the whole of it.
+
+```yaml
+type: Framework
+title: Perspective - Gratitude Follows Seeing What It Cost
+status: open
+ip: author-synthesis
+chapter_slugs: [she-is-enough]
+provenance: >
+  Proposed from Chapter 14 interview Round 8 (2026-10-19), building on
+  Round 4's redirection toward appreciation and gratitude. Two rounds of
+  author redirection shaped it: Round 4 moved the center from the
+  complacency boundary to practiced appreciation; Round 8 named the center
+  "perspective, not complacency" and supplied the dinner account. The
+  mapping onto research is Researcher synthesis
+  (runs/ch14/research-perspective.md), not author wording.
+```
+
+### Proposed body
+
+People take for granted what they have not seen the cost of. Grateful
+feeling follows from noticing three things about what is given: what it
+cost the giver, that it was meant for you, and what it is worth to you
+(benefit-appraisal research; Froh et al. 2014 showed children can be taught
+to notice them). The author's route was firsthand: he stopped complaining
+about dinner once he had done her job and learned how hard it is. A husband
+can also get there by deliberately noticing what she spends on the shared
+life (Visserman et al. 2019; Joel et al. 2013).
+
+The same limit in perspective drives the "grass is greener" pull. An
+imagined alternative is judged by its most visible feature (focusing
+illusion), and imagination is a weak guide to a life one has not lived. In
+the author's words, for many men the woman of their dreams is "just that, a
+dream"; for some, he grants, a different life may truly be better. Gaining
+perspective means valuing the real cost and real worth of what he has, not
+pretending every alternative is worse.
+
+### Points the author must rule on
+
+1. **Is "noticing the cost" a fair translation of "perspective"?** Or does he
+   mean something broader, such as humility about what one cannot know
+   (horizon limitations)?
+2. **Must it be firsthand?** No located study tests doing her work as the
+   route (`ch14-firsthand-experience-and-gratitude.md`). Ruttan et al. (2015)
+   found firsthand experience can also make people harsher toward someone who
+   struggles.
+3. **Chapter 7 overlap.** Ch7, already landed, says that when you receive what
+   she gives, you see the finished thing and miss everything that produced it,
+   and it offers the "run her tally" exercise. Should Ch14 aim its perspective
+   point at imagined alternatives and contentment, to stay distinct from Ch7's
+   scorekeeping, or does he accept the echo?
+4. **How much of the chapter moves.** Round 8 left this open.
+
+**Author response:** Pending.
+
+## Author disposition of Proposal 2, 2026-10-19 15:49 UTC
+
+Round 9, his words: "1. Yep  2. Yes" in reply to the research plan (cost-noticing translation, firsthand experience kept as his own account not a finding, one bounded research sentence in three places, Chapter 7 overlap accepted with the imagined-alternatives distinction). Proposal 2 is accepted as the plan framed it. Proposal 1, the prior enough-without-neglect formulation and the screenshot extension keep their earlier dispositions (2026-09-30). Studies stay unverified; nothing in the chapter claims more than the Tier A wording in research-perspective.md.
+

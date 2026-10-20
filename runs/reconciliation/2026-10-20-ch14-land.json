@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-20T09:44:43.061817+00:00",
+  "subjects": [
+    "chapter:ch14"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-19-perspective-is-the-point.md"
+  ],
+  "authority": "Author's verdict 2026-10-20 09:43 UTC: 'Ship it, put it on Main'",
+  "reason": "The chapter's knowledge was reconciled during Rounds 8 and 9 (receipts 2026-10-19-ch14-perspective.json, -perspective-research.json, -round9.json); the verdict adds no new durable fact beyond recording that the open reader findings were accepted",
+  "files": {
+    "runs/ch14/refined.md": "04c8cbea3f2e70f4815009c546102979573676fddee07b6328a4a28a913d5dd6",
+    "runs/ch14/distillation.md": "cec0f15c271be4d3a3c73c22a465f2bd90b38102357aca0435dd57cad76d53bf",
+    "runs/ch14/verdict.md": "d6b578c7ddceef1c734eb5a9cd1859d5b9b19be03b6ad5d3c2e00a0a30ba837f"
+  }
+}

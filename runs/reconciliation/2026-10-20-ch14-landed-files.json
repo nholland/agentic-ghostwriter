@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-20T09:45:12.423405+00:00",
+  "subjects": [
+    "chapter:ch14-landed"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-19-perspective-is-the-point.md"
+  ],
+  "authority": "Author's verdict 2026-10-20 09:43 UTC: 'Ship it, put it on Main'",
+  "reason": "Landing copies already-reconciled chapter files into the book; knowledge was reconciled in the Round 8, Round 9 and research receipts",
+  "files": {
+    "books/the-stoic-husband/chapters/ch14/refined.md": "68c5c710403ee3260a660f623ba4029225537c67723177c6022da136bcab7eff",
+    "books/the-stoic-husband/chapters/ch14/distillation.md": "cec0f15c271be4d3a3c73c22a465f2bd90b38102357aca0435dd57cad76d53bf",
+    "books/the-stoic-husband/chapters/ch14/interview.md": "3d1f91e9641fe22c8f9b7583205cae9bd9e8245b012b3bf5097063ff11af8f96",
+    "books/the-stoic-husband/chapters/ch14/research.md": "c1d14b9489b37f8947b83d14321e8e1d72123530125f3d41c483ae712265da00",
+    "books/the-stoic-husband/appendix/practice-guide.md": "b97b02fb6f7265278a2a227a9da32bf29342ce0fa455601c2b415794c00dfcc0",
+    "books/the-stoic-husband/citation-queue.md": "156fa66fd59e684a8601096cdd652b098537c2a1e83bcae24861ee90a26a8184"
+  }
+}

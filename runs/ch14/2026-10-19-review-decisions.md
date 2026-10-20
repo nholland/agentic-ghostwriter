@@ -1,5 +1,7 @@
 # Chapter 14: review found problems, nothing landed yet
 
+> **Superseded 2026-10-20.** The Chapter 14 edit thread reworked the prose, re-ran the review and landed the chapter on the author's verdict (commit d60fcc7). This note describes the pre-merge text and is kept as a record only. See `runs/ch14/verdict.md` and `runs/ch14/persona-refined.md` for the current review.
+
 Date: 2026-10-19. Three cold desks read the current Chapter 14 text (the old review covered an earlier draft). All three said HOLD. Nothing is landed. Your "Yes" is recorded, and the chapter lands as soon as the items below are settled.
 
 Counted rules pass on the current text: no em dashes, long sentences 9.4% (cap 10), you-density 67.6 per 1,000 (floor 40), anchor image 4 mentions (cap 5). Word count 1,445.

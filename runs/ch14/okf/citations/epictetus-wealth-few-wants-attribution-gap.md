@@ -11,7 +11,7 @@ evidence_source: "page-text"
 gap_type: "research"
 verification_note: "Direct web page inspected; source findings remain unverified under Researcher rules. No physical house edition inspected. See body for attribution limits."
 tags: ["contentment", "desire", "source-audit"]
-chapter_slugs: ["the-discipline-of-enough"]
+chapter_slugs: ["she-is-enough"]
 timestamp: "2026-09-29T23:16:33-05:00"
 ---
 

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-20T10:51:16.347590+00:00",
+  "subjects": [
+    "chapter:ch14-distillation-wording"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-19-perspective-is-the-point.md"
+  ],
+  "authority": "Author, 2026-10-20: 'in the distillation, it should be the concept of enough, not just a simple phrase like practice enough'",
+  "reason": "Wording of one sentence in the landed distillation changed to the author's phrase; no fact, claim or practice changed",
+  "files": {
+    "books/the-stoic-husband/chapters/ch14/distillation.md": "7145414fff75084e285463ac425db651682aac270cb508332fb71f1408ef38d2",
+    "runs/ch14/distillation.md": "7145414fff75084e285463ac425db651682aac270cb508332fb71f1408ef38d2"
+  }
+}

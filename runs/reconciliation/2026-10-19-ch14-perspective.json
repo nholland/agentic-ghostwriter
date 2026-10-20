@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-19T14:34:37.933340+00:00",
+  "subjects": [
+    "chapter:ch14-round8"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-19-perspective-is-the-point.md"
+  ],
+  "authority": "Author's words in session 2026-10-19, interview Round 8",
+  "reason": "Recorded his dinner/perspective facts and research direction; applied his approved edits; outline update held pending research",
+  "files": {
+    "books/the-stoic-husband/okf/index.md": "e09e6e3ee62d1254b0159700bc2b6d71f46d936d08d0ceaf5c48270fb3398a03",
+    "books/the-stoic-husband/okf/log.md": "54fb15d3f679b69decb2ea969651514a68a15e428ec6d61ec93939489009d2a4",
+    "runs/ch14/interview.md": "8de9bd98ab58da689bc9a17a76451090e897a6591c99b8d039319628b7aad87f",
+    "runs/ch14/refined.md": "4fd008304a63ab56c78bb6b66f1c87aa3f1240380aafefa764de5948a637e34f"
+  }
+}
