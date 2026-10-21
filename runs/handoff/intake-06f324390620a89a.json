@@ -28,5 +28,11 @@
     "turn_id": null,
     "prompt": "Is there a way to make it so that my environment can go to any website, versus making it go one by one",
     "recorded": "2026-10-20T12:19:37.393352+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "How is it not verified If we know it comes from John gottman? What is the best path to verify something like this if the environment is blocked?",
+    "recorded": "2026-10-21T22:33:00.319611+00:00"
   }
 ]
