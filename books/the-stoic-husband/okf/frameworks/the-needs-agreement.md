@@ -14,9 +14,12 @@ provenance: >
   he describes as one he has "seen some couples agree to"; it is not
   recorded as his own marriage, and no outside origin is claimed. He did not
   say which chapter it belongs in ("I don't know which chapter this would go
-  into"); the Publisher's placement in Chapter 17 is a proposal, not his
-  ruling. His statements about men's and women's differing need profiles are
-  his generalisation, not a researched finding. No pushback rounds yet.
+  into"); the Publisher proposed Chapter 17 and he answered "17 sounds
+  right" (open to other chapters harkening back); the outline is unchanged. His statements about men's and women's differing need profiles are
+  his generalisation, not a researched finding. Pushback, round 1 (his answers, 2026-10-22) changed: the frequency is
+  a commitment, not a quota; medical issues are outside it; the partner who is not into it owes a range; Chapter
+  17 stands; the bee (Marcus) is the Stoic anchor; the rule is not their own
+  marriage's, which may be implied only as far as true.
 ip: author-synthesis
 tags: [framework, intimacy, needs, initiation, rejection, frequency]
 chapter_slugs: [the-sexless-marriage]
@@ -72,33 +75,69 @@ generalisations, recorded as his; they are not established by research here.
 - It is the mechanism that keeps a stretch of nos from curdling into
   resentment on one side and shame on the other.
 
-## Open questions for the interview (raised by the Publisher, not the author)
+## Author's answers, 2026-10-22 (second message, same session)
 
-These are for him to rule on, at the Chapter 17 interview or sooner. None is
-decided.
+Authority: the author's reply to the Publisher's five open questions. His
+words are quoted; the rest is summary.
 
-1. **Where it goes.** Chapter 17, "The Sexless Marriage," is the best fit: it
-   already holds the honest conversation, rejection, and "direct and patient"
-   (the folded-in former Chapter 15). Whether this is the chapter's practice,
-   its central conversation, or a section is his call.
-2. **Obligation versus willingness.** The agreement lets either partner say
-   no at any time, and also sets a frequency ceiling and a 24-hour
-   re-initiation. A reader may hear a quota. The author's own wording keeps
-   the no ("their body, their right") and moves the obligation to *showing
-   love*, not to *saying yes*. Whether the prose must say that explicitly,
-   and how, is open.
-3. **Medical and health reasons.** He names them as one reason desire is
-   lower. Whether the agreement flexes, pauses or is renegotiated when the
-   cause is medical (pain, illness, medication, postpartum) is not addressed
-   in what he said.
-4. **The second chair.** Rule 3 asks the initiator to raise the bar. What the
-   person who is "not into it" owes besides being honest is covered by 2a
-   only. Whether rule 3 needs a mirror sentence is open.
-5. **His own use.** He describes it as something he has seen couples agree
-   to. Whether it is part of his own marriage, and whether it may be told as
-   such, is not stated. Do not write it as his story.
+1. **A commitment, not a quota.** "It's not a quota, but it is a commitment."
+   He grants the objection and answers it: "people sometimes feel like having
+   a minimum standard takes away some of the romanticism and while that may be
+   true I don't think it is actually as bad as they think." He frames a quota
+   as the negative reading of what is really "this is just what we do in this
+   marriage." His supporting belief, held loosely: "There are some studies, I
+   believe, that say the more you have sex the more you want to have sex and
+   that rapport and familiarity make it easier to continue the cycle." That
+   is a research lead, not a finding; see the candidate research below.
+2. **Medical issues.** "No this does not apply when there are medical issues.
+   Use common sense." The agreement does not bind when the cause is medical.
+   He gives no further rule and wants none ("common sense").
+3. **The partner who is not into it.** "I think there's a range. They don't
+   have to be very enthusiastic but they also shouldn't go so far as to make
+   it awkward." This is the mirror of rule 3: the raised bar is the
+   initiator's; the other person owes a range, from not very enthusiastic up
+   to the limit of not making it awkward.
+4. **Placement.** "17 sounds right but I also do believe sex is a big part of
+   every marriage." He is open to the material appearing in other chapters
+   with the later ones harkening back to it, and Chapter 17 stands "if we
+   don't have another suggestion." No outline change has been made.
+5. **The Stoic anchor.** The bee. In his words: "I think Marcus Aurelius
+   talks about doing your job, like the bee gets up and does his job every
+   single day. His nature is to be a bee and I think that applies here, which
+   is husband and wife. The nature of that relationship is to be intimate with
+   each other." The passage is probably *Meditations* 5.1, already held as
+   [Marcus Aurelius, Meditations 5.1](/citations/marcus-aurelius-born-to-act.md)
+   (status as recorded there; not yet checked for the bee wording). He added
+   that "that's how we'll effectively get to that in Chapter After 5." The
+   Publisher does not know what "Chapter After 5" refers to (a dictation
+   artefact for a chapter number is possible); it is recorded as he said it
+   and is an open question.
+6. **His own marriage.** "We don't follow this in our own marriage. I do think
+   we can insinuate that we have a similar set of arrangements in our own
+   marriage but with different timelines involved. We'll have to play that one
+   by ear." Recorded as his direction: the agreement is not his marriage's
+   rule, and a similar arrangement on different timelines may be implied. The
+   Publisher's constraint, for the interview: prose may imply only what is
+   actually true of their arrangement (Rule 2 applies to the author's own
+   stories too), and anything about his wife is subject to his review, as
+   with the other wife stories.
 
-## Stoic fit (proposal, not accepted)
+## Still open (Publisher's list, after his answers)
+
+1. **"Chapter After 5."** What chapter or point does he mean?
+2. **The true shape of their own arrangement.** What the "similar set of
+   arrangements, different timelines" actually is, in his words, before any
+   sentence implies it. To be gathered at the Chapter 17 interview.
+3. **Outline pointer.** Whether Chapter 17's spec in `03-outline.md` should
+   carry a one-line pointer to this framework now (done for the Evening
+   Review at his word), or wait for the interview. Not done without his word.
+4. **Other chapters.** Which later chapters, if any, harken back to it.
+
+## Stoic fit
+
+- **Doing your job, nature of the role (author's choice, 2026-10-22).** The bee:
+  intimacy is part of what a husband and wife are for, done daily like the
+  rest of the job. See answer 5 above.
 
 - **Desire without need.** The Chapter 17 frame already separates wanting
   from needing the yes to feel okay. This agreement is a structure for the
@@ -120,6 +159,12 @@ decided.
   to say no.
 
 # Candidate research (proposed links, none accepted, none checked for fit)
+
+For the author's belief that more sex makes you want more sex (answer 1): no
+concept here tests it. [Muise 2016](/citations/muise-2016-sexual-frequency-well-being.md)
+is about frequency and well-being, with a plateau around once a week as the
+concept records it, not about desire. It is a neighbour, not support. A
+Researcher pass would need to find work on frequency and later desire.
 
 Existing unverified citation concepts that may bear on the rules. They are
 listed so the Researcher finds them, not as support for any claim:
