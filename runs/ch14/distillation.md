@@ -2,12 +2,12 @@
 
 **Mechanism:** Appreciation becomes care
 
-**Conversation sentence:** You practice enough by noticing what you value in your wife and letting that appreciation change how you care for her.
+**Conversation sentence:** You practice the concept of enough by noticing what you value in your wife and letting that appreciation change how you care for her.
 
-Familiarity makes complaints easy to notice. The same trait can get a harsh word or a loving one, and your attention picks the word. Comparison adds conditions a real person cannot keep meeting. Name something you value about the woman your wife is now. Tell her specifically, since quick thanks isn't appreciation, and let it become care on ordinary days. Gratitude leaves room for honest concerns and care for your own health. It asks for no particular response from her.
+Familiarity makes complaints easy to notice. The same trait can get a harsh word or a loving one, and your attention picks the word. Complaints come easily when you overlook what went into something, like a meal someone made for you. The author stopped complaining about dinner once he learned firsthand how hard her job is; what you can borrow is noticing what a meal cost. Comparison adds conditions a real person cannot keep meeting. A life beyond your wife can look better, but many men have never been with the woman of their dreams, so it's just a dream. Name something you value about the woman your wife is now. Tell her specifically, since quick thanks isn't appreciation, and let it become care on ordinary days. Gratitude leaves room for honest concerns. It asks for no particular response from her.
 
 **Lesson:** Contentment grows through practiced attention and appreciation for the real person you chose.
-**Challenge:** Name one thing you appreciate about your wife today and tell her why it matters to you, without adding a request.
+**Challenge:** Name one thing you appreciate about your wife today and tell her why it matters to you.
 
 **Practice:**
 1. Before bed each night, write down one thing you valued about your wife that day. Name something you actually noticed. If nothing comes to mind, pay attention tomorrow instead of inventing praise.
