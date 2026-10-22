@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-22T15:47:15.111484+00:00",
+  "subjects": [
+    "intake:needs-agreement-2026-10-22"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-needs-agreement.md"
+  ],
+  "authority": "Author, in session 2026-10-22: 'this is my own, but it is something that I want to be part of the frameworks'",
+  "reason": "New author-supplied intimacy framework recorded verbatim with open questions; chapter placement left as a proposal; 20-to-1 ratio research not yet filed (awaiting source text)",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-needs-agreement.md": "1f5f6866acfd1056f148e2f97ccbc8e65bc274bf80988f87427c0850c3a4753c",
+    "books/the-stoic-husband/okf/index.md": "e09a0de713ec4354bdb708732b480fe97041bb9a7524b2f52c61a2fafcb2ed43",
+    "books/the-stoic-husband/okf/log.md": "120ccd24b0e1afc4c14cd64d752a14c3f0a15d104e6a35fde74d34b662423ba4"
+  }
+}
