@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-22T18:03:42.033986+00:00",
+  "subjects": [
+    "intake:needs-agreement-retractions-2026-10-22"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-needs-agreement.md"
+  ],
+  "authority": "Author, 2026-10-22: 'Ignore what I said about chapter 5. I don't want to share my own arrangement right now.'",
+  "reason": "Withdrew the Chapter After 5 remark; put the own-arrangement implication on hold; outline pointer text aligned",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-needs-agreement.md": "46fece169164c4a4e0bdc0480da50412aae1a9f0199a897232e48da98d6dd4fc",
+    "books/the-stoic-husband/okf/log.md": "d20592073871c1d9576d55b9ffba8f9393756d9137ddc740687748931bb53767",
+    "books/the-stoic-husband/03-outline.md": "c004ca0799cb64c84443d8e73c83047d42cf3b3e81a5c7556c953e30465fb66d"
+  }
+}

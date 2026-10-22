@@ -107,11 +107,9 @@ words are quoted; the rest is summary.
    is husband and wife. The nature of that relationship is to be intimate with
    each other." The passage is probably *Meditations* 5.1, already held as
    [Marcus Aurelius, Meditations 5.1](/citations/marcus-aurelius-born-to-act.md)
-   (status as recorded there; not yet checked for the bee wording). He added
-   that "that's how we'll effectively get to that in Chapter After 5." The
-   Publisher does not know what "Chapter After 5" refers to (a dictation
-   artefact for a chapter number is possible); it is recorded as he said it
-   and is an open question.
+   (status as recorded there; not yet checked for the bee wording). He had
+   added a remark about "Chapter After 5"; **withdrawn by him the same day:
+   "Ignore what I said about chapter 5."** Disregard it.
 6. **His own marriage.** "We don't follow this in our own marriage. I do think
    we can insinuate that we have a similar set of arrangements in our own
    marriage but with different timelines involved. We'll have to play that one
@@ -121,17 +119,15 @@ words are quoted; the rest is summary.
    actually true of their arrangement (Rule 2 applies to the author's own
    stories too), and anything about his wife is subject to his review, as
    with the other wife stories.
+   **Superseded 2026-10-22 (later the same day): "I don't want to share my own
+   arrangement right now."** Until he raises it himself, do not imply that he
+   and his wife have a similar arrangement, and do not ask about it. The
+   "insinuate" direction above is on hold, not withdrawn.
 
 ## Still open (Publisher's list, after his answers)
 
-1. **"Chapter After 5."** What chapter or point does he mean?
-2. **The true shape of their own arrangement.** What the "similar set of
-   arrangements, different timelines" actually is, in his words, before any
-   sentence implies it. To be gathered at the Chapter 17 interview.
-3. **Outline pointer.** Whether Chapter 17's spec in `03-outline.md` should
-   carry a one-line pointer to this framework now (done for the Evening
-   Review at his word), or wait for the interview. Not done without his word.
-4. **Other chapters.** Which later chapters, if any, harken back to it.
+1. **Outline pointer.** Done 2026-10-22 at his word ("Add a pointer").
+2. **Other chapters.** Which later chapters, if any, harken back to it.
 
 ## Stoic fit
 
