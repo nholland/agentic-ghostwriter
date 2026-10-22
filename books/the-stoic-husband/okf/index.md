@@ -59,6 +59,7 @@ research unless explicitly noted under `# Citations`.
 - [The Village Problem](/frameworks/the-village-problem.md) — why a cold marriage becomes catastrophic when one person is the whole village
 - [Love vs. Desire (Perel)](/frameworks/love-vs-desire-perel.md) — love wants familiarity, desire needs mystery
 - [The Needs Agreement](/frameworks/the-needs-agreement.md) — we have needs and serve each other: set a frequency, say honestly when you are not into it, the initiator raises the bar; the one who says no owes the next initiation
+- [The Body's Request and the Mind's Verdict](/frameworks/the-bodys-request-and-the-minds-verdict.md) — wanting her has two layers, the drive and the verdict; attachment is the verdict, aversion its mirror
 - [Marriage as Community of Life (Musonius Rufus)](/frameworks/marriage-as-community-of-life.md) — perfect companionship, mutual love, shared everything
 - [Bring Steadiness, Not Superiority](/frameworks/bring-steadiness-not-superiority.md) — the governing principle for a Stoic in a mixed marriage
 - [Virtue and Happiness Are Not Enemies](/frameworks/virtue-and-happiness-are-not-enemies.md) — moral acts build the conditions for durable happiness
