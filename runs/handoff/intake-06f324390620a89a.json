@@ -64,5 +64,11 @@
     "turn_id": null,
     "prompt": "Approved",
     "recorded": "2026-10-22T20:14:55.665172+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "File 20-1 as unverified. Add to inbox to research it.  We will research frustration in 17.  Commit to main. ",
+    "recorded": "2026-10-23T11:23:09.354592+00:00"
   }
 ]
