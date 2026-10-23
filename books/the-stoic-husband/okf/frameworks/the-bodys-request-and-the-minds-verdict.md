@@ -82,7 +82,9 @@ the request seriously and refuse to sign the verdict.
    Bowlby, adult attachment). The prose will need to say which it means.
 2. **What the evidence says about sexual frustration** (hormones, mood,
    irritability) is unresearched here. The book should not assert a mechanism
-   without a source; the Researcher would look.
+   without a source. **Decided 2026-10-23, the author: "We will research
+   frustration in 17."** Parked in the inbox for the Chapter 17 research
+   pass.
 3. **The hard text.** Epictetus, *Enchiridion* 3 (kiss your wife "as a human
    being" so her death will not disturb you) is the famous attachment passage
    about a spouse. A Chapter 14 researcher marked it "do not use": out of

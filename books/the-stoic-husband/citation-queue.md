@@ -4,18 +4,18 @@
 > Every field is read from `okf/citations/*.md` frontmatter, which is canonical per CLAUDE.md Rule 11.
 > Edit the concept file, then re-run this script. Replaces the retired `sources/citation-manifest.md`.
 
-*Last generated: 2026-10-20 — 171 citations.*
+*Last generated: 2026-10-23 — 172 citations.*
 
 ## Where things stand
 
 | Status | Count | Meaning |
 |---|---|---|
-| `unverified` | 66 | Not yet confirmed against any source. |
+| `unverified` | 67 | Not yet confirmed against any source. |
 | `verifiable` | 101 | Confirmed, but not by you. Still needs your physical-copy check before print. |
 | `verified` | 1 | You confirmed it against your own copy. |
 | `superseded` | 3 | Replaced by a better source; no action. |
 
-**167 citations still need your attention** before publication.
+**168 citations still need your attention** before publication.
 
 ## Needs your physical copy
 
@@ -93,7 +93,7 @@ Sorted verbatim-quotes-first: those need exact wording *and* punctuation checked
 | [Treynor, Gonzalez & Nolen-Hoeksema (2003) — Brooding vs. Reflective Pondering](okf/citations/treynor-2003-brooding-vs-reflection.md) | `verifiable` | speak-or-endure | Full text not retrieved this session (egress proxy). The two-factor split and the direction of each factor's association with depression are consistent across every secondary source found. Confirm the exact factor definitions and any figures before prose states them. No verbatim quote is needed —… |
 | [Elie Wiesel — The Opposite of Love Is Indifference](okf/citations/wiesel-opposite-of-love-is-indifference.md) | `verifiable` | silence-is-not-peace | Attribution and approximate date corroborated across independent secondary sources (Quote Investigator's own investigation is specifically reliable for tracing quote origins). Exact original magazine wording not independently read this session. Confirm final wording against the original US News &… |
 
-### Cited, never quoted — check the finding, not a quote (108)
+### Cited, never quoted — check the finding, not a quote (109)
 
 | Citation | Status | Chapters | What's needed |
 |---|---|---|---|
@@ -119,6 +119,7 @@ Sorted verbatim-quotes-first: those need exact wording *and* punctuation checked
 | [Gilbert & Ebert (2002) — Decisions and Revisions: Reversible Choices Satisfy Less](okf/citations/gilbert-ebert-2002-reversible-choices.md) | `unverified` | she-is-enough | Citation and core findings corroborated in search; secondary accounts disagree on design details (which photographs, timing). Primary NOT read. No quotation transcribed. |
 | [Gilbert, Killingsworth, Eyre & Wilson (2009) — The Surprising Power of Neighborly Advice](okf/citations/gilbert-et-al-2009-neighborly-advice-surrogation.md) | `unverified` | she-is-enough | Academic hosts (publisher, PubMed, PsycNET, repositories) were unreachable this session; findings come from search results quoting or paraphrasing the abstract and secondary coverage. Primary text NOT read. No quotation transcribed. Confirm sample, design and any figure against the primary before… |
 | [Gordon, Arnette & Smith (2011) — Have You Thanked Your Spouse Today? Felt and Expressed Gratitude in Marriage](okf/citations/gordon-arnette-smith-2011-married-gratitude.md) | `unverified` | she-is-enough | Title, journal, year, sample and core findings corroborated in secondary coverage; author initials, volume, issue and pages are from memory, CONFIRM. Primary NOT read. Lead author cautioned the design cannot show causation. No quotation transcribed. |
+| [Gottman — 20-to-1 Positive-to-Negative Ratio in Everyday Interaction (and 5-to-1 in Conflict)](okf/citations/gottman-20-to-1-everyday-positive-negative-ratio.md) | `unverified` | the-marriage-you-build-every-day | Search summaries attribute the 20-to-1 figure to Gottman's own blog post "The Magic Ratio," and a Good Men Project piece repeats it. They attribute the 5-to-1 figure to conflict conversations only. The CNBC link the author pasted (2024-03-09, "the no. 1 thing all successful couples do") is report… |
 | [Hanson — "Taking In the Good" / HEAL Method (Hardwiring Happiness)](okf/citations/hanson-taking-in-the-good.md) | `unverified` | become-easier-to-love | The HEAL method and its negativity-bias rationale are confirmed real and accurately described via Hanson's own site, publisher materials, and independent reviews, 2026-07-28. The specific "12 seconds" duration in the source material could NOT be confirmed against any primary source found during t… |
 | [Household Labor Distribution and Caretaker Burden Research](okf/citations/household-labor-and-caretaker-burden.md) | `unverified` | the-end-of-scorekeeping, when-your-marriage-feels-unfair | Author asked directly whether research exists on the feeling that a home-managing spouse's work never has a stopping point. Look for division-of-household-labor / cognitive-load research (e.g., Hochschild's "second shift" framing, or more recent studies on perceived fairness in household labor di… |
 | [Hunger Is the Best Sauce" — Socratic Proverb, Not a Stoic Phrase](okf/citations/hunger-best-sauce-socratic-not-stoic.md) | `unverified` | the-discipline-of-enough | Primary texts read on open pages: Xenophon Mem. 1.3.5 Greek (Perseus) and Dakyns English (Gutenberg #1177); Cicero Tusc. 5.97 Latin (Perseus) and Yonge English (Gutenberg #14988); Cicero Fin. 2.90 Latin (Perseus 2007.01.0036); Seneca Ep. 123.2 and 119.3-4, 119.14 Gummere (en.wikisource); Cervante… |
