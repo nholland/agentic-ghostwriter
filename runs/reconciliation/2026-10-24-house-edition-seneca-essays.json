@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-24T00:27:13.827685+00:00",
+  "subjects": [
+    "sources:06-seneca-essays"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-34-quarrel-on-one-side.md"
+  ],
+  "authority": "Author, 2026-10-24, 'A' to inbox #149 options: Basore (1928, Moral Essays I) as the house edition for Seneca's essays",
+  "reason": "06-sources.md gains one house-edition row and a clarifying clause; the rights finding and Basore's wording are already recorded in the staged De Ira II.34 concept",
+  "files": {
+    "books/the-stoic-husband/06-sources.md": "a76fb7988acab33bee5941733f696be8aee6463ce815b8f45330a1c511f6697c",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-34-quarrel-on-one-side.md": "e1deb748efff7f5df9b6097c365c1c8bb22ac2350dff7139fe677f5ed4aac01a"
+  }
+}

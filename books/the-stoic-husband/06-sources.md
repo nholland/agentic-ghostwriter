@@ -17,6 +17,7 @@ six were printed. Extended 2026-09-08 with two rights findings. Read by
 | Marcus Aurelius | **George Long** (Little, Brown, 1889) | Public domain |
 | Epictetus | **George Long** (George Bell & Sons, 1877) | Public domain |
 | Seneca, *Letters* | **Richard Gummere** (Loeb, 1917–25) | Public domain (US) |
+| Seneca, essays (*De Providentia*, *De Constantia*, *De Ira*, *De Clementia*) | **John Basore** (Loeb, *Moral Essays* I, 1928) | Public domain (US) since 1 January 2024; non-US status unconfirmed |
 
 **Decided on evidence, not inheritance.** Three verified-clean samples were
 compared directly. Haines was expected to win on readability and did not — his
@@ -51,7 +52,8 @@ Not because they are bad, but because they do not fit the public-domain posture:
   any verbatim quotation.
 - **John Basore** (Loeb, 1935) — Seneca's *De Beneficiis*. In copyright. The
   public-domain alternative is **Aubrey Stewart (1887)**, which is what this
-  standard points to.
+  standard points to. Basore's 1928 volume I (the essays above) is a different book and is house
+  standard.
 
 ## Evidence bar
 
