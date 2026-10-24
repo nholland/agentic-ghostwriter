@@ -1,20 +1,20 @@
 {
   "inputs": {
-    "refined.md": "cb194d4577e2d7cee090a026880b6548eca4f5bab66d88ac6ecfb7a5c5336835",
-    "distillation.md": "b396f14f2c257ace241272b9640855659390e74b7f0d6e57797276a8c0c6568f"
+    "refined.md": "e0d51c2c51bb1dd099f6a8a6865deeaac9a88afd2a8418d96a9184031b1dfd09",
+    "distillation.md": "86cbc271870fa14ac3fde4d95a49d425939acf701668ee241ed3d3cdf8ea60f7"
   },
   "reviews": {
     "personas": {
       "status": "pass",
       "report": "persona-refined.md",
       "sha256": "54224800008cb97e435ef827511e063fa3d0ea85972920ff433eb2b2d7f3c7d8",
-      "scope": "gw-panel, one chapter, no whole-book reread, no plate. Read refined.md (as of 05:36, 1,384 words), distillation, premise, voice, audience. Its three essential findings (limit sentence 'constant', ah-ha 'better question', label 'Usually hers.') were fixed in the Line Editor's fix round and re-read by the Conformance Checker and the cold reader on the final 1,389-word text; the panel itself did not re-read the final text. Six author's calls carried to the verdict."
+      "scope": "gw-panel, one chapter, no whole-book reread, no plate. Read refined.md as of 05:36 on 2026-10-24 (1,384 words), distillation, premise, voice, audience. Its three essential findings were fixed in the Line Editor's fix round. The panel did not re-read the final text; the fixes since (five cold-read edits at the author's word) were re-read by a fresh cold reader and a fresh Conformance Checker. Author's calls carried to the verdict."
     },
     "coherence": {
       "status": "pass",
       "report": "coherence-refined.md",
-      "sha256": "49ddf731f6a675bbd2a4813accc18ed2fa17f88746eb725f6124e84c41656495",
-      "scope": "gw-slopreader, scoped: Ch15 prose against Ch6 (L1-60), grep of Ch2, 4, 5, 12, 14; claims against research.md; outline. Not read: OKF concepts, Ch2 homecoming scene, interview in full. Its two plain fixes were applied; later cold-read fixes were not re-reviewed for coherence. Author's calls carried to the verdict."
+      "sha256": "abeb0cbe00e029ef2b91fc49b6423239867e7ba8e832763bd60d8c94e58457b9",
+      "scope": "gw-slopreader, scoped: Ch15 prose against Ch6 (L1-60), grep of Ch2, 4, 5, 12, 14; claims against research.md; outline. Not read: OKF concepts, Ch2 homecoming scene, interview in full. Its two plain fixes were applied; later edits were not re-reviewed for coherence, only cold-read and conformance-checked (inbox #157 carries what the third cold read still found). Author's calls carried to the verdict."
     }
   },
   "deferred": []

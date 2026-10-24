@@ -8,9 +8,9 @@ Your kindness usually slips first over something small. She says something with 
 
 I didn't handle them well. Every little critique from her was met with an equal or escalated response. I had no patience, I didn't let things go, I wasn't kind.
 
-The habit made sense, the way most habits do: you use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy.
+Answering back made sense, the way most habits do: you use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy.
 
-You know that pull. You're worn out, the comment stings, and answering it feels like the natural thing to do. What changed for me came slowly, from living it. I started asking who has the strength to de-escalate.
+You know that pull. You're worn out, the comment stings, and answering it feels like the natural thing to do. What changed for me came slowly, through experience. I started asking who has the strength to de-escalate.
 
 We have a saying in our house: "Never be the worst part of somebody's day." It's a spot check, a way to make sure we're not unkind. It's also the reason not to send a zing back. A sharper answer is the quickest way to be the worst part of her day.
 
@@ -20,7 +20,7 @@ We have a saying in our house: "Never be the worst part of somebody's day." It's
 
 I used to take those lines personally. Over time I realized a line like that is more a verdict on how stressed and overworked she is.
 
-When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If you have been, fix it. If you haven't, let the remark go.
+When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
 The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something.
 
@@ -32,7 +32,7 @@ One question sends you looking at yourself. The other lets you see a person who 
 
 **The long game.** Answering every zing is checkers. Chess means keeping your eye on the long game.
 
-In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Animosity" means bad feeling between people, and "forthwith" means at once. Seneca's angry man could be anyone in your life, and his advice is to answer anger with kindness. His point is about the reply, and the reply is yours. A zing only turns into an exchange if you send one back.
+In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Animosity" means bad feeling between people, and "forthwith" means at once. Seneca's angry man could be anyone in your life, and Seneca's advice is to answer anger with kindness. Seneca's point is about the reply, and the reply is yours. A zing only turns into an exchange if you send one back.
 
 So instead of giving in or zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
 
@@ -148,12 +148,21 @@ Line Editor desk (gw-lineeditor), cold. Clock read 2026-10-24 04:59. Read: `01-v
 40. **Distillation.** "When you're tired, answering it with a sharper one feels natural, and for the author the habit made sense." became "When you're tired, answering it with a sharper one can feel natural, even reasonable." This is the reader-facing voice, with no third-person "the author" and nothing new. The practice guide doesn't quote it. practice_sync 15: PASS, 3 practice(s) identical.
 41. **Counts.** Direct address rose to 41.8 per 1,000 (fix 34 added "you" twice), so nothing was restored. Sentence count is unchanged at 114: item 35 joined two sentences and item 34 split one. Script device counts: none matched.
 
+**Inbox #153 round, 2026-10-24 15:26.** The Publisher relayed the author's words "go with your previous recommendations" (2026-10-24), which cover all five cold-read fixes in inbox #153. Five edits, made exactly as specified, and nothing else. The ah-ha, the limit sentence, "you use what rewards", the *philostorgia* sentence and his lines are untouched.
+
+42. "The habit made sense, the way most habits do: you use what rewards." became "Answering back made sense, the way most habits do: you use what rewards." This names the habit. His phrase after the colon is untouched, and the earlier compressed-line flag on "you use what rewards" stands.
+43. "What changed for me came slowly, from living it." became "What changed for me came slowly, through experience." This matches his own "learned through experience".
+44. **Laziness check outcomes (supersedes item 34).** "If you have been, fix it. If you haven't, let the remark go." became "If it is, fix it. If it isn't, let the remark go." "It" now refers back to the quoted question, "Is that truly the case?", which is unchanged.
+45. **Seneca referents.** "and his advice is" became "and Seneca's advice is", and "His point is about the reply" became "Seneca's point is about the reply". Before, "his" could be read as the angry man. The rest of the paragraph is unchanged.
+46. **Practice 3, in the distillation and in this chapter's practice-guide section (identical).** "When the answer is no, take over one chore ..." became "Take over one chore that's usually hers, and do it gladly." The **Proactive.** tag is kept. This was an in-place edit of the Chapter 15 section only, on the author's word; I checked by diff that no other chapter's section changed. practice_sync 15: PASS, 3 practice(s) identical.
+47. **Counts.** Direct address is 40.4 per 1,000 after item 44 removed "you have/you haven't". That is still above the floor of 40, so nothing was restored. The margin is thin: any later cut of a "you" should be counted first.
+
 ### Pass 4, counted (script output, verbatim, run on this file)
 
 ```
 voice_check: refined.md
-  1389 words of prose, 114 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 3368}
+  1387 words of prose, 114 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 3686}
 
   HARD (literal counts - a FAIL here is a fact)
     [ok  ] em-dash                  0 in prose (cap 0)
@@ -162,8 +171,8 @@ voice_check: refined.md
              37w: If the remarks turn cruel, from either of you, letting them go isn't the answer, and that's a bigger problem t...
              29w: A sharper answer is the quickest way to be the worst part of her day. **What she's carrying.** One kind of zin...
              27w: When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and th...
-    [ok  ] you-density              58 direct-address words in 1389 = 41.8 per 1,000 (floor 40)
-    [ok  ] metaphor family          4 mentions in 1389 words = 2.9 per 1,000 (cap 5); {'chess': 1, 'checkers': 1, 'game': 2}
+    [ok  ] you-density              56 direct-address words in 1387 = 40.4 per 1,000 (floor 40)
+    [ok  ] metaphor family          4 mentions in 1387 words = 2.9 per 1,000 (cap 5); {'chess': 1, 'checkers': 1, 'game': 2}
 
   CAND (needs a read - a clear line here is not a pass)
     [clear ] single ending            final sentence 14 words, shares 1 words with the previous one. Close: 'When the next zing lands, roll up your sleeves before you open your mouth.'

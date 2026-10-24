@@ -1,21 +1,34 @@
 # Chapter 15 plate notes
 
-Designer (gw-designer). Draft 2026-10-24 05:57; **revision 1 (gw-plate Stage 6, the one revision) 2026-10-24 06:03**, against the Reader Panel's standalone read `runs/ch15/plate-read.md` and the Publisher's six edits. Concept A ("It takes two"), picked in `runs/ch15/plate-pick.md`. Sources: `runs/ch15/plate-concepts.md` (A), `runs/ch15/plate-brief.md`, `runs/ch15/distillation.md`, `runs/ch15/refined.md` (prose above Editor's Notes), `books/the-stoic-husband/design/plates/README.md` (approved chapter style, copy cap, drawn Lesson), and `the-thing-with-no-deadline.svg` as the reference plate.
+Designer (gw-designer). Draft 2026-10-24 05:57; revision 1 (gw-plate Stage 6) 2026-10-24 06:03; **revision 2 2026-10-24 15:28**, the extra round the author authorised ("go with your previous recommendations", inbox #154), on four drawing problems from the round-2 standalone read. Revision 1 was made against the Reader Panel's standalone read `runs/ch15/plate-read.md` and the Publisher's six edits. Concept A ("It takes two"), picked in `runs/ch15/plate-pick.md`. Sources: `runs/ch15/plate-concepts.md` (A), `runs/ch15/plate-brief.md`, `runs/ch15/distillation.md`, `runs/ch15/refined.md` (prose above Editor's Notes), `books/the-stoic-husband/design/plates/README.md` (approved chapter style, copy cap, drawn Lesson), and `the-thing-with-no-deadline.svg` as the reference plate.
 
 Files: `runs/ch15/plate.svg` (640x566), render `runs/ch15/pdf/plate.png`.
 
-## What the plate shows (revision 1)
+## What the plate shows (revision 2)
 
-Two quiet posts, HER (x=190) and YOU (x=450), mirrored on the 320 axis.
+Two quiet posts, HER (x=205) and YOU (x=435), mirrored on the 320 axis.
 
-- **Above the rule, quiet:** the exchange the chapter confesses. Her first zing carries the chapter's definition, "a little slight, a cutting remark", set right above it. Her two zings (HER to YOU) stay small and faint. His two replies (YOU to HER) are darker, and the second is bigger: the escalation is his. "an equal or / escalated response" sits outside YOU's post, beside the point where his largest reply leaves him.
+- **Above the rule, quiet:** the exchange the chapter confesses. Her first zing carries the chapter's definition, "a little slight, a cutting remark", set right above it. Her two zings (HER to YOU) stay small and faint. His two replies (YOU to HER) are darker, and the second is bigger: the escalation is his. "an equal or / escalated response" sits outside YOU's post at 14px and near-full ink, beside the point where his largest reply leaves him.
 - **The rule** is labelled INSTEAD OF ZINGING HER BACK, and the posts stop at it, so the lower half reads as the replacement for the upper.
-- **Below the rule:** her same small zing, faint, with "how she's feeling on the inside" set small and light on her post where the zing leaves her. Nothing jagged goes back. One heavy smooth arc rises from a dashed empty place at her side, carries a box marked OFF HER PLATE across, and lands at the foot of his post. Beneath that sit START HELPING and the chapter's question, "Was I the best part of her day?"
+- **Below the rule:** her same small zing, drawn in its own ink (2px, near-full) so it is visibly not one of the faint slights above, with "how she's feeling on the inside" centred over it and bracketed to it end to end. Nothing jagged goes back. One heavy smooth arc rises from a dashed box at her side marked "a chore that's usually hers" (where the chore was), carries a box marked OFF HER PLATE across, and lands at the foot of his post. Beneath that sit START HELPING and the chapter's question, "Was I the best part of her day?"
 - **Closing:** "Roll up your sleeves before you open your mouth."
 
 ## The carrier
 
 The reply, drawn twice. Above, it is jagged and growing, going back at her. Below, nothing goes back at her: the one heavy line lifts a chore off her side and carries it to his. Help is the whole answer, and the closing line says it comes first. The question sits under START HELPING in his column, because it is his question, asked after the help, as in the Challenge ("start helping before you say a word, and later that day ask yourself whether you were the best part of her day").
+
+## What changed in revision 2, and why
+
+Only the four drawing problems the Publisher named from the round-2 read (`runs/ch15/plate-read.md`, items 1, 2, 3 and 6). Items 4 and 5 (the skeptic's readings) were not touched: they are the author's call.
+
+| Problem | Change |
+|---|---|
+| 1. Empty, unlabelled dashed box on her side | Labelled inside with the chapter's "a chore that's usually hers" (refined.md, "Off her plate": "It's taking over a chore that's usually hers."), quiet ink, the box widened to 180 to hold it. Now it reads as the chore's place on her side, and the arc visibly lifts it from there to OFF HER PLATE. No plate drawn. This label also gives HER a shared column (x=205). |
+| 2. "how she's feeling on the inside" floats loose | Centred on 320 directly over her lower zing, and joined to it by a thin bracket spanning the zing end to end, so it names that arrow. Raised from 12.5px at .6 to 13px at .85. |
+| 3. Lower zing looks the same as the top slights | Same small shape (amplitude 5), but drawn at the standard weight 2 and .85 ink against the top slights' 1.4 at .38. The picture is now the same small zing, with two different replies. The arc (3.2, full ink) still dominates. |
+| 4. Escalation gloss too small in the margin | 12.5px at .66 became 14px at .85, still beside his largest reply. Posts moved in from 190/450 to 205/435 (zigzag segments 26 to 23) so the larger second line clears the 40px margin. |
+
+Copy is unchanged except the restored "a chore that's usually hers" on the dashed box, which is verbatim chapter copy and was on the draft. Count: 7 italic lines against a cap of 7 (5 labels + subtitle + closing line), so the cap is now full.
 
 ## What changed in revision 1, and why
 
@@ -45,27 +58,30 @@ Every phrase is verbatim from the chapter or the distillation, with no author ad
 | INSTEAD OF ZINGING HER BACK | "The long game": "So instead of giving in or zinging her back, I do two things." (elided: "giving in or" is dropped from the middle, as the Publisher's edit 3 proposed; the only place the plate shortens a chapter sentence internally) |
 | how she's feeling on the inside | "What she's carrying": "It's an outward manifestation of how she's feeling on the inside." |
 | OFF HER PLATE | "Off her plate." (section label); "taking chores and work off of her plate" |
+| a chore that's usually hers (dashed box, revision 2) | "Off her plate": "It's taking over a chore that's usually hers." |
 | START HELPING | "The long game": "I roll up my sleeves and start helping." |
 | Was I the best part of her day? | "The best part": "So ask yourself, each day: 'Was I the best part of her day?'" |
 | Roll up your sleeves before you open your mouth. | the chapter's last line: "When the next zing lands, roll up your sleeves before you open your mouth." |
 
-Count: 5 bold labels (HER, YOU, INSTEAD OF ZINGING HER BACK, OFF HER PLATE, START HELPING), 6 italic lines (definition, two-line escalation gloss, feeling gloss, question, closing) against a cap of 7. The caption count includes two lines for one gloss. The plate stays within the Publisher's six-line budget for italic copy.
+Count (revision 2): 5 bold labels (HER, YOU, INSTEAD OF ZINGING HER BACK, OFF HER PLATE, START HELPING), 7 italic lines (definition, two-line escalation gloss, feeling gloss, dashed-box label, question, closing) against a cap of 7. The caption count includes two lines for one gloss. The plate stays within the Publisher's six-line budget for italic copy.
 
 ## Style matched
 
 640 wide; height fitted (566). White ground rect; one ink, `#1a1a1a` via `currentColor`, opacity for quiet tones. Georgia with serif fallback. Title 17px semibold, letterspaced .20em, as in `the-thing-with-no-deadline.svg`; bold letterspaced labels (15px for HER/YOU, 13px for box and START HELPING, 12.5px at .7 for the rule label); italic glosses at 12.5 to 14px. Three line weights: 1.4 quiet (posts, rule, all zings, the dashed slot), 2 standard (the box), 3.2 carrier (the arc). `text-anchor` set in classes only. Explicit fill on every shape. No second image family: no chess, no drawn plate, no stack, no sun.
 
-## Format checklist (re-ticked for revision 1)
+## Format checklist (re-ticked for revision 2)
 
-- [x] Every centred text on the axis or a shared column: title, definition, rule label, box label and closing on x=320; HER and the feeling gloss on x=190; YOU, START HELPING and the question on x=450. The escalation gloss is start-anchored beside YOU's post.
-- [x] Drawing blocks centred or mirrored: zings, rule, arc and box span 190..450 or centre on 320; the dashed slot is centred on HER's column (x=190).
+- [x] Every centred text on the axis or a shared column: title, definition, rule label, feeling gloss, box label and closing on x=320; HER and the dashed-box label on x=205; YOU, START HELPING and the question on x=435. The escalation gloss is start-anchored beside YOU's post.
+- [x] Drawing blocks centred or mirrored: zings, bracket, rule, arc and box span 205..435 or centre on 320; the dashed box is centred on HER's column (x=205).
 - [x] Canvas 640 wide (640x566).
-- [x] Caption count within the cap: 6 italic lines against 7.
+- [x] Caption count within the cap: 7 italic lines against 7.
 - [x] No bare `text-anchor` attribute.
 
 ## Rendered and read
 
-Rendered with `chapter_pdf_local.svg_to_png` to `runs/ch15/pdf/plate.png` and read after each pass. Caught and fixed this round:
+Revision 2: rendered and read once; all four changes show, with no clipping or collisions. The bracket sits between the gloss and the zing without touching either; the dashed-box label sits inside its box; the larger escalation gloss clears the right margin.
+
+Revision 1: Rendered with `chapter_pdf_local.svg_to_png` to `runs/ch15/pdf/plate.png` and read after each pass. Caught and fixed this round:
 
 - The escalation gloss spilled the right margin, so it became 12.5px at x=458.
 - HER shared no column (alignment WARN). Centring the feeling gloss on her post fixed this and tied the gloss to her.
@@ -73,7 +89,7 @@ Rendered with `chapter_pdf_local.svg_to_png` to `runs/ch15/pdf/plate.png` and re
 
 The final render shows no clipping and no collisions.
 
-## plate_check, verbatim (revision 1)
+## plate_check, verbatim (revision 2)
 
 `python3 scripts/plate_check.py runs/ch15/plate.svg --chapter 15`
 
@@ -87,8 +103,8 @@ runs/ch15/plate.svg
   [ ok ] canvas      640x566
   [ ok ] title       title 'KINDNESS ANSWERS THE ZING' / aria-label 'Kindness answers the zing' vs Mechanism 'Kindness answers the zing'
   [ ok ] grounded    each text has a three-word match in permitted source copy
-  [ ok ] captions    6 italic lines against a cap of 7 (5 labels + subtitle + closing line)
-  [ ok ] alignment   10 centred texts on the axis or a shared column; 8 drawing blocks centred or mirrored
+  [ ok ] captions    7 italic lines against a cap of 7 (5 labels + subtitle + closing line)
+  [ ok ] alignment   11 centred texts on the axis or a shared column; 9 drawing blocks centred or mirrored
   [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
   [WARN] raster-current preview missing or differs from source at its own scale
 ```
@@ -97,6 +113,7 @@ runs/ch15/plate.svg
 
 ## For the author
 
+- **The skeptic's two readings in the round-2 read (items 4 and 5)** were left alone, as instructed. The first is "she's mild, you're the aggressor". The second is "she insults me and my answer is to do her dishes". Revision 2 restores "a chore that's usually hers", the phrase the round-1 read said could sound like approving whose chores they are. The Publisher proposed it, and it is the chapter's own sentence.
 - **Arc direction.** The help arc now runs from her side to his, carrying a chore off her plate. A skeptic could still read it as "she snipes, then hands me a chore." START HELPING, OFF HER PLATE and the dashed empty place at her side argue against that, but only the second standalone read can say whether they win.
 - **No chess image.** The chapter's declared `metaphor_family` is chess/checkers; this plate draws the chapter's plain-words exchange instead and introduces no other image. His call at the verdict.
 - **"INSTEAD OF ZINGING HER BACK"** elides "giving in or" from the middle of the chapter's "instead of giving in or zinging her back". No new word is added, but it is not a contiguous run of his sentence. The full phrase does not fit on the rule at this size. The elision also loses the chapter's point that the alternative to zinging back is not giving in; OFF HER PLATE and START HELPING carry that in the drawing.

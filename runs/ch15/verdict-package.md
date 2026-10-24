@@ -1,32 +1,32 @@
 # Chapter 15 verdict package: Be Patient, Be Kind
 
-2026-10-24 06:08. Read the chapter first (from page 3). Your calls are on page 2.
+2026-10-24 15:30. Read the chapter first (from page 3). Your calls are on page 2. This replaces the earlier package.
 
 ## Where it stands
-- Words: 1,389. voice_check: all HARD checks pass (you-density 41.8, floor 40).
-- Conformance (final text): 10 of 16 rows. Every fail is a declared deviation, a checker blind spot, or your ruling.
-- Scoped review (panel + coherence): pass with calls, below.
-- **Cold read: NOT READY twice.** Six fixes are waiting on you (#153). I did not loop.
-- Plate: a stranger gets 2 of its 3 parts (#154). Plate is sent with this.
-- Inbox: 3 need your decision, 1 parked, 3 resolved (scripts/inbox.py --all --chapter 15).
+- Words: 1,387. voice_check: all HARD checks pass (you-density 40.4, floor 40, a thin margin).
+- Done since the last package, at your word: the five cold-read fixes (#153) are applied; the outline's Gordon wording (#152) is changed and resolved.
+- Conformance (final text): 12 of 18 rows. Every fail is a declared deviation, a checker blind spot, or your ruling.
+- **Cold read: NOT READY, 2 findings left** (13, then 6, then 2). Both are in sentences I wrote (#157).
+- Plate: a stranger gets 2 of its 3 parts; the Designer's extra round made her lower zing too dark (#154).
+- inbox: 3 need your decision, 1 parked, 4 resolved (scripts/inbox.py --all --chapter 15).
+- The earlier work-in-progress is on main (e3d9ced). Newer commits are on the branch only.
 
 ## Your calls, in order of weight
-1. **#153, five plain fixes.** "The habit made sense" -> "Answering back made sense". "came slowly, from living it" -> "through experience". "If you have been, fix it. If you haven't, let the remark go." -> "If it is, fix it. If it isn't, let the remark go." "his advice... His point" -> "Seneca's advice... Seneca's point". Practice 3: drop "When the answer is no". Recommend: apply all.
+1. **#157, my two small fixes and one label.** "that's a bigger problem" -> "Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer." "Compassion is part of it" -> "Compassion is part of kindness". The section label "Off her plate." clashes with Chapter 14's "The plate in front of you." Recommend "Taken off her." Recommend: apply all three.
 2. **The ah-ha is my wording, not yours.** "For a long time I answered every zing. I should have been asking whether I was the best part of her day." Confirm, or give me yours.
-3. **The limit sentence is my wording, in your voice.** "If the remarks turn cruel, from either of you, letting them go isn't the answer, and that's a bigger problem than a zing." Keep, change, or cut.
-4. **Opening changed at your word.** The Chapter 14 recap is gone; it opens on "Your kindness usually slips first over something small." Deviation (o).
-5. **#152, Gordon.** The outline says "relief plus appreciation". The study says an unfair split goes with lower satisfaction unless she feels appreciated. Recommend: change the outline wording.
-6. **#154, plate.** One more Designer round on four drawing problems, or take it as is.
-7. **Your lines the readers stumbled on** (no edits proposed): "you use what rewards" (reward never named); "a verdict on how stressed and overworked she is" (reads as her verdict on you); "these are normally things that she does" (fits the chore, not the foot rub or the listening); "my own advice to myself" ("and other me" was your phrase); the tantrum line.
-8. **Tension.** The turn ("who has the strength to de-escalate") comes early, and your own zing back is told, never shown.
-9. **The close.** "before you open your mouth" can read as "stay quiet" to a man who withdraws.
-10. **Overlap with Chapter 6.** Her remark as overload and the laziness self-check appear there too. The outline requires it here.
+3. **The limit sentence is my wording, in your voice** (reworded by #157). Keep, change, or cut.
+4. **#154, plate.** One more pass: lighten her lower zing and give "Was I the best part of her day?" an owner. Or take it as drawn.
+5. **Opening changed at your word.** The Chapter 14 recap is gone; it opens on "Your kindness usually slips first over something small." Deviation (o).
+6. **Your lines the readers stumbled on** (no edits proposed): "you use what rewards" (reward never named); "a verdict on how stressed and overworked she is" (reads as her verdict on you); "these are normally things that she does" (fits the chore, not the foot rub or the listening); "my own advice to myself" ("and other me" was your phrase); the tantrum line.
+7. **Tension.** The turn ("who has the strength to de-escalate") comes early, and your own zing back is told, never shown.
+8. **The close.** "before you open your mouth" can read as "stay quiet" to a man who withdraws.
+9. **Overlap with Chapter 6.** Her remark as overload and the laziness self-check appear there too. The outline requires it here.
 
 ## Deviations from the outline (all declared)
 (a) "absorb" written as "stay steady yourself". (b) "moves" written as "responses"; "I see you" kept as "tell her I see her". (c) the sun does not appear. (d) only De Beneficiis II.1, not II.2. (e) philostorgia glossed "family love", "anchor word" not printed. (f) your own words for the Saturday scene. (g) "Most husbands have only checked the floor" not printed. (h) floor and ceiling are structure, not printed. (i) the long-game sentence is carried in meaning. (j) "pour" written plainly. (k) "answer each exchange", not "win". (l) "right or married" is a first printing, "I tell people" (inbox 155). (m) the chore stays unnamed. (n) no Chapter 16 transition. (o) opening. (p) ah-ha.
 
 ## Not yet done
-Fact-Checker queue (#150). Nothing is marked verified. Nothing is committed, pushed or landed.
+Fact-Checker queue (#150). Nothing is marked verified. The chapter is not landed in books/; that needs your verdict.
 
 ---
 
@@ -40,9 +40,9 @@ Your kindness usually slips first over something small. She says something with 
 
 I didn't handle them well. Every little critique from her was met with an equal or escalated response. I had no patience, I didn't let things go, I wasn't kind.
 
-The habit made sense, the way most habits do: you use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy.
+Answering back made sense, the way most habits do: you use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy.
 
-You know that pull. You're worn out, the comment stings, and answering it feels like the natural thing to do. What changed for me came slowly, from living it. I started asking who has the strength to de-escalate.
+You know that pull. You're worn out, the comment stings, and answering it feels like the natural thing to do. What changed for me came slowly, through experience. I started asking who has the strength to de-escalate.
 
 We have a saying in our house: "Never be the worst part of somebody's day." It's a spot check, a way to make sure we're not unkind. It's also the reason not to send a zing back. A sharper answer is the quickest way to be the worst part of her day.
 
@@ -52,7 +52,7 @@ We have a saying in our house: "Never be the worst part of somebody's day." It's
 
 I used to take those lines personally. Over time I realized a line like that is more a verdict on how stressed and overworked she is.
 
-When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If you have been, fix it. If you haven't, let the remark go.
+When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
 The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something.
 
@@ -64,7 +64,7 @@ One question sends you looking at yourself. The other lets you see a person who 
 
 **The long game.** Answering every zing is checkers. Chess means keeping your eye on the long game.
 
-In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Animosity" means bad feeling between people, and "forthwith" means at once. Seneca's angry man could be anyone in your life, and his advice is to answer anger with kindness. His point is about the reply, and the reply is yours. A zing only turns into an exchange if you send one back.
+In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Animosity" means bad feeling between people, and "forthwith" means at once. Seneca's angry man could be anyone in your life, and Seneca's advice is to answer anger with kindness. Seneca's point is about the reply, and the reply is yours. A zing only turns into an exchange if you send one back.
 
 So instead of giving in or zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
 

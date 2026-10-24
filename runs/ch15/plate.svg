@@ -1,14 +1,15 @@
-<!-- Chapter 15 plate, revision 1 (concept A, "It takes two"), after the
-     Reader Panel's standalone read, runs/ch15/plate-read.md.
+<!-- Chapter 15 plate, revision 2 (concept A, "It takes two"), the
+     author-authorised extra round (inbox #154) on four drawing problems from
+     the round-2 standalone read, runs/ch15/plate-read.md.
      Carrier: the shape of his reply. Above, quietly, the exchange the chapter
      confesses: her little zings stay small, and each one he sends back is
      bigger than the last, glossed beside his own replies. The rule between
      the halves is labelled "instead of zinging her back". Below, the same
-     small zing, glossed as how she is feeling, and nothing jagged goes back:
-     one heavy smooth arc lifts a chore off her side (a dashed empty place
-     where it was) across to him, ending at START HELPING and the chapter's
-     own question, "Was I the best part of her day?".
-     Mirrored on the 320 axis: her post at 190, his at 450. Line weights:
+     small zing, drawn in its own ink and bracketed to "how she's feeling on
+     the inside", and nothing jagged goes back: one heavy smooth arc lifts a
+     chore that's usually hers (dashed, where it was) off her side and across
+     to him, ending at START HELPING and the chapter's own question.
+     Mirrored on the 320 axis: her post at 205, his at 435. Line weights:
      1.4 quiet, 2 standard, 3.2 carrier. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 566" style="color:#1a1a1a" role="img" aria-label="Kindness answers the zing">
   <style>
@@ -18,8 +19,9 @@
     .lblr{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle;opacity:.7}
     .cap{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
     .caps{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.74}
-    .capl{font:italic 12.5px Georgia,serif;text-anchor:start;opacity:.66}
-    .capf{font:italic 12.5px Georgia,serif;text-anchor:middle;opacity:.6}
+    .capl{font:italic 14px Georgia,serif;text-anchor:start;opacity:.85}
+    .capf{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.85}
+    .capd{font:italic 12.5px Georgia,serif;text-anchor:middle;opacity:.62}
     .capq{font:italic 13px Georgia,serif;text-anchor:middle}
   </style>
 
@@ -27,14 +29,14 @@
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="40">KINDNESS ANSWERS THE ZING</text>
-    <text class="lbl" x="190" y="84">HER</text>
-    <text class="lbl" x="450" y="84">YOU</text>
+    <text class="lbl" x="205" y="84">HER</text>
+    <text class="lbl" x="435" y="84">YOU</text>
   </g>
 
   <!-- the two people, as quiet posts running down the page -->
   <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".2">
-    <path d="M190 98V276M190 332V454"/>
-    <path d="M450 98V276M450 308V456"/>
+    <path d="M205 98V276M205 312V456"/>
+    <path d="M435 98V276M435 312V456"/>
   </g>
 
   <!-- what a zing is, set on her first one -->
@@ -44,23 +46,23 @@
 
   <!-- the exchange, quiet: her little zings stay small -->
   <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".38">
-    <path d="M190 136l26 -5l26 10l26 -10l26 10l26 -10l26 10l26 -10l26 10l26 -10l26 5"/>
-    <path d="M440 130l10 6l-10 6"/>
-    <path d="M190 204l26 -5l26 10l26 -10l26 10l26 -10l26 10l26 -10l26 10l26 -10l26 5"/>
-    <path d="M440 198l10 6l-10 6"/>
+    <path d="M205 136l23 -5l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 5"/>
+    <path d="M425 130l10 6l-10 6"/>
+    <path d="M205 204l23 -5l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 5"/>
+    <path d="M425 198l10 6l-10 6"/>
   </g>
 
   <!-- the exchange, quiet: what he sends back grows every time -->
   <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".62">
-    <path d="M450 170l-26 -11l-26 22l-26 -22l-26 22l-26 -22l-26 22l-26 -22l-26 22l-26 -22l-26 11"/>
-    <path d="M200 164l-10 6l10 6"/>
-    <path d="M450 246l-26 -20l-26 40l-26 -40l-26 40l-26 -40l-26 40l-26 -40l-26 40l-26 -40l-26 20"/>
-    <path d="M200 240l-10 6l10 6"/>
+    <path d="M435 170l-23 -11l-23 22l-23 -22l-23 22l-23 -22l-23 22l-23 -22l-23 22l-23 -22l-23 11"/>
+    <path d="M215 164l-10 6l10 6"/>
+    <path d="M435 246l-23 -20l-23 40l-23 -40l-23 40l-23 -40l-23 40l-23 -40l-23 40l-23 -40l-23 20"/>
+    <path d="M215 240l-10 6l10 6"/>
   </g>
   <!-- glossed beside his own replies, where they leave him -->
   <g fill="currentColor">
-    <text class="capl" x="458" y="242">an equal or</text>
-    <text class="capl" x="458" y="258">escalated response</text>
+    <text class="capl" x="445" y="242">an equal or</text>
+    <text class="capl" x="445" y="260">escalated response</text>
   </g>
 
   <!-- the rule between the halves, and what it means -->
@@ -69,32 +71,38 @@
     <text class="lblr" x="320" y="296.5">INSTEAD OF ZINGING HER BACK</text>
   </g>
 
-  <!-- the same small zing, glossed at her post where it leaves her -->
+  <!-- the same small zing, in its own ink, bracketed to what it tells you -->
   <g fill="currentColor">
-    <text class="capf" x="190" y="325">how she's feeling on the inside</text>
+    <text class="capf" x="320" y="322">how she's feeling on the inside</text>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".6">
-    <path d="M190 340l26 -5l26 10l26 -10l26 10l26 -10l26 10l26 -10l26 10l26 -10l26 5"/>
-    <path d="M440 334l10 6l-10 6"/>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" opacity=".55">
+    <path d="M215 335V329H425V335"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity=".85">
+    <path d="M205 344l23 -5l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 5"/>
+    <path d="M423 338l12 6l-12 6"/>
   </g>
 
   <!-- where the chore was, on her side -->
   <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="4 4" opacity=".5">
-    <rect x="115" y="456" width="150" height="32"/>
-  </g>
-
-  <!-- the reply with no edge on it: a chore lifted off her side, carried to him -->
-  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M190 456C200 366 440 366 450 456"/>
-    <path d="M450 456l6 -13M450 456l-8 -11"/>
-  </g>
-  <g fill="#ffffff" stroke="currentColor" stroke-width="2">
-    <rect x="245" y="373" width="150" height="32"/>
+    <rect x="115" y="456" width="180" height="32"/>
   </g>
   <g fill="currentColor">
-    <text class="lbls" x="320" y="394">OFF HER PLATE</text>
-    <text class="lbls" x="450" y="482">START HELPING</text>
-    <text class="capq" x="450" y="502">Was I the best part of her day?</text>
+    <text class="capd" x="205" y="477">a chore that's usually hers</text>
+  </g>
+
+  <!-- the reply with no edge on it: the chore lifted off her side, carried to him -->
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M205 456C215 366 425 366 435 456"/>
+    <path d="M435 456l6 -13M435 456l-8 -11"/>
+  </g>
+  <g fill="#ffffff" stroke="currentColor" stroke-width="2">
+    <rect x="250" y="375" width="140" height="32"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbls" x="320" y="396">OFF HER PLATE</text>
+    <text class="lbls" x="435" y="482">START HELPING</text>
+    <text class="capq" x="435" y="502">Was I the best part of her day?</text>
     <text class="cap" x="320" y="542">Roll up your sleeves before you open your mouth.</text>
   </g>
 </svg>

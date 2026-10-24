@@ -1,12 +1,16 @@
-When she takes a little shot at you, don't fire back bigger; treat it as a sign of how she's feeling and take something off her plate instead.
+When she takes a little shot at you, don't fire back harder; read it as how she's feeling inside, and take a chore off her plate instead.
 
-**How I read the thick arc:** it goes from her to me. It starts at the empty dashed box on her side, passes through OFF HER PLATE, and the arrowhead lands on my line at START HELPING. So a load moves off her and onto me. That reading is clear.
+**Thick arc:** clear. It runs from "a chore that's usually hers" (her side) over OFF HER PLATE and lands, arrowhead down, on START HELPING (your side). A chore moves from her to you. No ambiguity.
 
-**What confuses me or reads wrong**
+**Blame:** neither outright, but it leans toward "she starts it." Both opening zigzags come from HER. The bigger ones are yours, so the escalation is on you; the first shot is hers.
 
-1. **The empty dashed box, lower left.** It looks like a label someone forgot to fill in. If it is meant to be "her plate, now emptied," nothing tells me that. Either label it or cut it and start the arc at her line.
-2. **"how she's feeling on the inside" floats loose.** It sits left of her line, off-centre and above the arrow, so I can't tell whether it labels the zigzag or is a separate instruction. Centre it directly over the arrow, the way "a little slight, a cutting remark" sits in the top half.
-3. **The bottom zigzag looks just like the top slights.** It has the same shape and the same grey, so the drawing shows her still zinging me, with nothing on my side to meet it except chores. If it is meant to be a different thing (her feelings, not an attack), draw it differently.
-4. **Skeptic's misreading, top half:** her arrows stay small and pale while mine grow big and dark. A defensive man sees "she's mild, you're the aggressor," and that lands as blame on him.
-5. **Skeptic's misreading, whole plate:** "she insults me, and my answer is to do her dishes." Read cold, the plate rewards the slight. Nothing on it says the help is strength and not giving in.
-6. **"an equal or escalated response" hangs in the right margin** and is small grey italic. On a phone I'd skip it. Move it between the lines, like the top label.
+**What confuses or reads wrong (6):**
+
+1. The bottom zigzag ("how she's feeling on the inside") is the darkest, thickest zigzag on the plate. It reads as a harder hit than the top ones. Draw it lighter or dashed, not heavier.
+2. That same zigzag points her-to-you like the slights do. I can't tell at a glance whether it's the same slight seen differently or a new thing she sends. The bracket helps a little. Put it level with the first slight, or draw it in the same light grey as the top-row slight, so it reads as the same arrow reinterpreted.
+3. "Was I the best part of her day?" floats under START HELPING with no owner. Is it his question or hers? On a phone it could read as sarcasm. Mark it as his question, or cut it.
+4. "a chore that's usually hers" invites the defensive reading "it's her job, so I'm doing her a favor." The word "usually" carries that.
+5. Skeptic's misreading: she snipes first, and the answer is that he does her chores. The plate shows nothing coming back to him. That's a finding for the text, not necessarily for the drawing.
+6. The title says KINDNESS, but kindness isn't drawn anywhere; what's drawn is a chore. Minor, and the footer line covers it.
+
+I'd skip nothing. The top four zigzags read instantly as escalation.
