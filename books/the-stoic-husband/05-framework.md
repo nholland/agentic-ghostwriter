@@ -240,7 +240,7 @@ it's what's due to the person who shares your life.
 **Failure mode: Armor.** Equanimity misapplied as distance — "I'm not
 disturbed" becomes "I'm not reachable." **This is the book's central mistake,
 and the matrix locates it precisely here.**
-**Chapters:** Ch15 (Be Patient, Be Kind — presence as what's owed in ordinary friction), Ch16 (Warmth Is Strength), Ch25 ("I don't know how to enjoy you" echoes Ch16; absorbs the former Ch27, The Discipline of Joy: joyless "excellence" is
+**Chapters:** Ch15 (Be Patient, Be Kind — kindness as what's owed in ordinary friction), Ch16 (Warmth Is Strength), Ch25 ("I don't know how to enjoy you" echoes Ch16; absorbs the former Ch27, The Discipline of Joy: joyless "excellence" is
 unreachability by another name)
 
 ### Sun × Temperance — Desire Without Need

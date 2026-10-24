@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-24T00:14:36.266733+00:00",
+  "subjects": [
+    "framework:05-ch15-cell"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md"
+  ],
+  "authority": "Author, 2026-10-24, 'A' to the Oak/Sun anchor options (inbox #148): keep the discipline of action with the Oak, anchor Chapter 15 on philostorgia, and change the map's Chapter 15 descriptor to 'kindness as what's owed in ordinary friction'",
+  "reason": "05-framework.md Chapter 15 descriptor changed from presence to kindness; the underlying author knowledge (kindness is not presence) is already recorded in kindness-takes-the-load-off-her-plate.md; no OKF concept changed",
+  "files": {
+    "books/the-stoic-husband/05-framework.md": "72ba09be181c1f9571a0f1d25288f00f1c5dee760fd6125fd33257f050376226",
+    "books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md": "e18aae014b5bb1370599574e221e5221c0b6b22af3c8445be5881c5722c5c2e0"
+  }
+}
