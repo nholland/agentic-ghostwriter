@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-10-24T01:12:42.417861+00:00",
+  "subjects": [
+    "outline:ch15"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-10-24-ch15-spec-rulings.md"
+  ],
+  "authority": "Author, 2026-10-24 01:12: 'Yes, apply it' to the Chapter 15 spec (runs/ch15/outline-proposal.md)",
+  "reason": "Chapter 15 outline spec revised per the author's six rulings; rulings recorded in a note; proposals marked answered; prior spec preserved",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-10-24-ch15-spec-rulings.md": "15c153192a8638ab439442bc78955d34df118a52d22e927e8cfae70f9c7332ea",
+    "books/the-stoic-husband/03-outline.md": "0f95f059dd15625f551a4a148b3995cb79be71d24a6e63bec6c4c3209f6347a5",
+    "books/the-stoic-husband/okf/index.md": "20c2cc5d5dde7002c0021c89a1e4c47f8a1f7f9dded91a3b457601177039a873",
+    "books/the-stoic-husband/okf/log.md": "736031fc919b0f63be2d460b0e1d27f6d4164447ffae15a0494cfadb01a415e8",
+    "runs/ch15/proposed-concepts.md": "e463e732c598f874e1468cd64522f7f82b2ef945c9c9c18d84bbc15348285425",
+    "runs/ch15/outline-before-approval.md": "34d7ccce510047676d1f3b7cab13c04a079b40c2544f87fb7023d3d3834c731a",
+    "runs/ch15/outline-proposal.md": "72952f7d3716acc0cf4acc0de6257dcff63a8b6e07c60097384d4667b7cef216",
+    "runs/ch15/interview.md": "64d2da22b128e92113a55770162a0cc53a5728f7d2685a9ca44a739362ce9ca5"
+  }
+}
