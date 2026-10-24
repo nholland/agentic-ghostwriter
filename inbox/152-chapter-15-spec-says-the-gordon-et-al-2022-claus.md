@@ -1,11 +1,10 @@
 ---
 id: 152
-status: ruled
+status: resolved
 raised_by: gw-specchecker
 chapter: 15
 opened: 2026-10-24 03:57
 resolved: 2026-10-24 15:26
-applied_by: /gw-revise outline
 okf_receipt: runs/reconciliation/2026-10-24-inbox-152.json
 ---
 
@@ -25,4 +24,4 @@ grep -n 'relief' runs/ch15/draft.md -> no match; outline line 392: 'At most two 
 
 **Resolution (2026-10-24 15:26):** Author said 'go with your previous recommendations' (2026-10-24). 03-outline.md Chapter 15 research burden now states the Gordon finding as researched.
 
-**Not applied yet.** This ruling lands outside this repo. It closes when `/gw-revise outline` exits 0.
+**Applied:** the change is in commit 6344210 (03-outline.md Chapter 15 research burden); no outside command is needed.
