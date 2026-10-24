@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-24T15:26:21.257141+00:00",
+  "subjects": [
+    "inbox:152"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "The author, 2026-10-24: 'go with your previous recommendations' (recommendation: change the outline's Gordon wording to the researched finding)",
+  "reason": "Chapter 15 research-burden line now states the Gordon et al. 2022 finding as researched (okf/citations/gordon-et-al-2022-*.md already records it); the spec phrase 'relief plus appreciation' was a gloss the study does not make. No concept changed; the OKF already holds the researched finding.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "5ddea877ee9ad25b62e3c0cb9f1adf0657b086ebe222a4c2a99236042058072c"
+  }
+}
