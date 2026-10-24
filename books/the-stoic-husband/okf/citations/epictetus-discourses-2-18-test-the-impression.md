@@ -24,7 +24,7 @@ verification_note: >
   Ch1 now quotes Long verbatim as transcribed from the Gutenberg text: "Appearances, wait for me a little; let me see who you are, and what you are about; let me put you to the test." The 2026-09-06 external check transcribed the same words from Wikisource with colons where Gutenberg has semicolons; the two transcriptions of Long differ only in that punctuation. Author to settle colon vs. semicolon against a printed Long and confirm per Rule 11. No em-dash. quote_form is now verbatim because the prose now quotes exact wording.
 ip: external
 tags: [citation, migrated-from-manifest, needs-author-verification]
-chapter_slugs: [the-three-second-window]
+chapter_slugs: [the-three-second-window, romance-is-a-discipline]
 timestamp: 2026-08-14T11:00:00Z
 ---
 
@@ -66,3 +66,27 @@ Ch1 prose replaced 2026-09-10. Old: a paraphrase in quotation marks ("Hold on a 
 > Appearances, wait for me a little; let me see who you are, and what you are about; let me put you to the test.
 
 House translation standard (`06-sources.md`, established 2026-09-07 and applied here 2026-09-09): George Long for Marcus Aurelius and Epictetus, Richard Gummere for Seneca, all public domain. Long's text was transcribed from Project Gutenberg through its GitHub mirror (raw.githubusercontent.com/GITenberg/...), the one route to a primary text this container can reach; every Long quotation here is verbatim against that text. Remaining retrofit items are tracked in parking-lot #35.
+
+# Second Excerpt: the habit and sensitization passage (staged 2026-10-23, unverified)
+
+Read at page-text in Long (Gutenberg #10661) by the Ch15 research pass
+(runs/ch15/research-premise.md, sections 2 and 3). Same discourse as the Ch1 excerpt;
+a second excerpt, not a new source. This section is unverified; the concept-level
+`status: verifiable` describes the Ch1 excerpt only.
+
+- "being again excited by the corresponding appearance, it is inflamed to desire
+  quicker than before: and when this takes place continually, it is henceforth hardened."
+- "when he is again lashed on the same places, the lash will produce not blisters
+  (weals) but sores."
+- "you have also increased the habit, and in a manner thrown fuel upon fire"
+- "If then you wish not to be of an angry temper, do not feed the habit … count the
+  days on which you have not been angry"
+
+Context: Epictetus is writing about desire and anger together. The first quotation's
+example is the love of money; the remedy he gives is for anger. The ellipsis is the
+research file's omission. Proposed for Ch15 (be-patient-be-kind) on "fed up = faster
+and hotter" and "you use what rewards". Reuse: Ch1 and Ch12 already print this
+discourse; a Ch15 use is a third outing (research-kindness B5: callback only).
+Ch12 prints a different II.18 excerpt ("Every habit and faculty is maintained and
+increased by the corresponding actions…", chapters/ch12/refined.md line 31); its slug
+was added to chapter_slugs on 2026-10-23.

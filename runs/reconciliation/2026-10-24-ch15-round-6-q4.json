@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-24T00:35:23.398443+00:00",
+  "subjects": [
+    "interview:ch15-round-6-q4"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-10-24, 'A' (cut her seasons and park it), runs/ch15/interview.md Round 6 Q4",
+  "reason": "A scope decision; the author supplied no material on her seasons, so there is no durable knowledge to record beyond the decision and the parked inbox item",
+  "files": {
+    "runs/ch15/interview.md": "f373c8a9b61382ee39602a1d34e32d6a77c4d01eea95d3c2e1c2bab4fb328f3c",
+    "runs/ch15/outline-proposal.md": "3a4c4480821e673a6d8edbf60e5322b1fd0a4344057646ed8c581566e384f206",
+    "books/the-stoic-husband/okf/log.md": "48cc8c6cb666aff90735c6fab2099b1a2e838a0cac8bdb14684fc85f6a871598"
+  }
+}

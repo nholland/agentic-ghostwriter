@@ -1,0 +1,63 @@
+<!-- Chapter 15, concept A, rough thumbnail (concepts mode, one pass, no polish).
+     Carrier: a fight needs two. Above, quietly, the volley the chapter
+     describes: her zing, a sharper one back, a sharper one again, each
+     jagged line bigger than the last. Below, heavily, the same small zing
+     arrives and the reply that goes back is not jagged at all: one smooth
+     return labelled start helping. The exchange has nothing to bounce on.
+     Mirrored on the 320 axis: her at 150, you at 490. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" style="color:#1a1a1a" role="img" aria-label="Kindness answers the zing">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 15px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
+    .cap{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+    .capd{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.45}
+  </style>
+
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">KINDNESS ANSWERS THE ZING</text>
+    <text class="sub" x="320" y="68">A zing only turns into an exchange if you send one back.</text>
+    <text class="lbl" x="150" y="108">HER</text>
+    <text class="lbl" x="490" y="108">YOU</text>
+  </g>
+
+  <!-- the two people, as quiet posts -->
+  <g fill="none" stroke="currentColor" stroke-width=".8" opacity=".28">
+    <path d="M150 122V388"/>
+    <path d="M490 122V388"/>
+  </g>
+
+  <!-- the volley: each zing answered with a bigger one (quiet, not the argument) -->
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".45">
+    <path d="M150 148l34 -5l34 10l34 -10l34 10l34 -10l34 10l34 -10l34 10l34 -10l34 5"/>
+    <path d="M480 142l10 6l-10 6"/>
+    <path d="M490 182l-34 -11l-34 22l-34 -22l-34 22l-34 -22l-34 22l-34 -22l-34 22l-34 -22l-34 11"/>
+    <path d="M160 176l-10 6l10 6"/>
+    <path d="M150 226l34 -17l34 34l34 -34l34 34l34 -34l34 34l34 -34l34 34l34 -34l34 17"/>
+    <path d="M480 220l10 6l-10 6"/>
+  </g>
+  <g fill="currentColor">
+    <text class="capd" x="320" y="270">an equal or escalated response</text>
+  </g>
+
+  <g fill="none" stroke="currentColor" stroke-width=".8" opacity=".28"><path d="M96 288H544"/></g>
+
+  <!-- the same small zing, and a reply with no edge on it -->
+  <g fill="currentColor">
+    <text class="cap" x="320" y="312">how she's feeling on the inside</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 330l34 -5l34 10l34 -10l34 10l34 -10l34 10l34 -10l34 10l34 -10l34 5"/>
+    <path d="M480 324l10 6l-10 6"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M490 346C440 400 200 400 150 346"/>
+    <path d="M150 346l3 13M150 346l13 3"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="320" y="412">START HELPING</text>
+    <text class="cap" x="320" y="450">Roll up your sleeves before you open your mouth.</text>
+  </g>
+</svg>

@@ -109,6 +109,13 @@ research unless explicitly noted under `# Citations`.
 - [The Oak's Boundary — Strength That Makes Growth Possible](/frameworks/the-oaks-boundary.md) — Ch10's corrected central mechanism: boundary strength is what makes growth possible, not the opposite of it; direct, non-stacked use of the book's own core Oak metaphor
 - [Affection Without Attention](/frameworks/affection-without-attention.md)
 - [Continuing Curiosity as Partners Change](/frameworks/continuing-curiosity-as-partners-change.md)
+- [Chess, Not Checkers](/frameworks/chess-not-checkers.md) — the author's name for answering every exchange in kind (checkers) versus asking only whether he is being the best husband and playing the long game (chess); two definitions kept; unattributed
+- [Would You Rather Be Right or Be Married?](/frameworks/would-you-rather-be-right-or-married.md) — the author's saying, origin unattributed; home proposed in Ch5 with a Ch15 callback
+- [The Zing](/frameworks/the-zing-a-verdict-on-her-state.md) — a small critique; the offense is the lever; often a verdict on her stress, not on him; two moves instead of retaliation
+- [Never Be the Worst Part of Her Day](/frameworks/never-be-the-worst-part-of-her-day.md) — the household rule (floor) and its corollary, be the best part (ceiling)
+- [Kindness Takes the Load Off Her Plate](/frameworks/kindness-takes-the-load-off-her-plate.md) — the author's working definition of kindness and why it is not the same as presence; his four examples
+- [Listening Is a Kindness](/frameworks/listening-is-a-kindness.md) — letting her speak about her day, even when it seems mundane
+- [The Home Is the Haven](/frameworks/the-home-is-the-haven.md) — his wife's remark that the world will be harsh enough, extended to the home; Ch28 candidate
 
 ## Stories
 
@@ -127,6 +134,7 @@ Real audience signals and author anecdotes, used as composite scenarios.
 - [The Bathroom Light](/stories/the-bathroom-light.md) — a trivial trigger absorbs a disproportionate reaction and becomes permanently loaded
 - [Two Truths: Tired Husband, Overloaded Wife](/stories/two-truths-tired-husband-overloaded-wife.md) — two genuine grievances on different axes collide and compete for acknowledgment
 - [The Wife Who Is Enough](/stories/the-wife-who-is-enough.md) — author testimony for Ch14; author approved use, subject to review.
+- [Her Full Agenda Meets His Rest (Coming Home, Busy Weekends)](/stories/coming-home-into-the-tension.md) — he walks in tired, or she wakes to a packed weekend, and she is stretched and asking; he used to hear 'lazy'; he came to hear her load, then help and hug (the author's own account; widened Round 5)
 
 ## Citations
 
@@ -307,6 +315,86 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Waite et al. (2002) — Does Divorce Make People Happy? (Institute for American Values report)](/citations/waite-et-al-2002-unhappy-marriages-report.md) — status: unverified
 - [Wood, Maltby, Stewart, Linley & Joseph (2008) — Benefit Appraisals and Gratitude](/citations/wood-et-al-2008-benefit-appraisals-gratitude.md) — status: unverified
 
+<!-- Ch15 research, staged 2026-10-23 (73 concepts, all unverified) -->
+- [Algoe (2012): find, remind and bind](/citations/algoe-2012-find-remind-bind.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Bodenmann's dyadic coping (systemic-transactional model)](/citations/bodenmann-dyadic-coping-model.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Bodenmann, Pihet & Kayser (2006): dyadic coping and marital quality over time](/citations/bodenmann-pihet-kayser-2006.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Bradbury & Fincham (1990): attributions in marriage](/citations/bradbury-fincham-1990-attributions.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [GAP: kindness as a top-ranked mate preference (Buss)](/citations/buss-kindness-mate-preference.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [Campos, Graesch, Repetti, Bradbury & Ochs (2009): reunions after work and school](/citations/campos-et-al-2009-reunions-after-work.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [GAP: Cunningham and colleagues on 'social allergens'](/citations/cunningham-social-allergens.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [Dew & Wilcox (2013): generosity and marital quality](/citations/dew-wilcox-2013-generosity.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Epictetus, Discourses I.11 (Long): leaving a sick child is not affection](/citations/epictetus-discourses-1-11-natural-affection-sick-daughter.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Epictetus, Discourses III.2 (Long): not free from affects like a statue](/citations/epictetus-discourses-3-2-not-like-a-statue.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Epictetus, Discourses IV.5 (Long): Socrates and the quarrelsome](/citations/epictetus-discourses-4-5-socrates-quarrelsome.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Epictetus, Enchiridion 16 (Long): sympathy in words, not inward lament](/citations/epictetus-enchiridion-16-sympathy-not-inward-lament.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Epictetus, Enchiridion 20 (Long): it is your opinion that insults you; gain time](/citations/epictetus-enchiridion-20-delay.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Epictetus, Enchiridion 42 (Long): 'It seemed so to him'](/citations/epictetus-enchiridion-42-it-seemed-so-to-him.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Epictetus, Enchiridion 43 (Long): everything has two handles](/citations/epictetus-enchiridion-43-two-handles.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Fincham, Beach & Davila (2004): forgiveness, retaliation and conflict resolution](/citations/fincham-beach-davila-2004-retaliation.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Gordon & Chen (2016): perceived understanding buffers conflict](/citations/gordon-chen-2016-perceived-understanding.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Gordon et al. (2022): feeling appreciated buffers unequal household labor](/citations/gordon-et-al-2022-appreciation-buffers-housework.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Gottman, Coan, Carrère & Swanson (1998): accepting influence and de-escalation (contested)](/citations/gottman-et-al-1998-accepting-influence.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [GAP: Gottman's positive-to-negative ratio during conflict (contested; no primary
+  read)](/citations/gottman-five-to-one-ratio.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [GAP: the flooding break (timed pause until heart rate falls)](/citations/gottman-flooding-break.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [GAP: a Gottman primary study on kindness and generosity](/citations/gottman-kindness-generosity-primary.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [GAP: Hadot's mapping of the discipline of action, chapter and page](/citations/hadot-discipline-of-action-locator.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [Hawkins, Carrère & Gottman (2002): marital sentiment override](/citations/hawkins-carrere-gottman-2002.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [GAP: Hierocles' circles of concern, locator and public-domain wording](/citations/hierocles-circles-public-domain-wording.md) — status: unverified / none / none / gap:structural — Ch15 research, staged 2026-10-23
+- [Impett, Gable & Peplau (2005): daily sacrifice for approach versus avoidance motives](/citations/impett-gable-peplau-2005-daily-sacrifice-motives.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Kayser (1993): When Love Dies, the process of marital disaffection](/citations/kayser-1993-marital-disaffection.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Kim, Capaldi & Crosby: generalizability of Gottman's affective process models](/citations/kim-capaldi-crosby-gottman-generalizability.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Klimecki et al. (2014): empathy training versus compassion training](/citations/klimecki-et-al-2014.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Lavner, Karney & Bradbury (2016): does communication predict satisfaction?](/citations/lavner-karney-bradbury-2016-communication-satisfaction.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations I.9 (Long): Sextus, free from passion and most affectionate](/citations/marcus-aurelius-meditations-1-9-free-from-passion-most-affectionate.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations X.4 (Long): instruct him kindly](/citations/marcus-aurelius-meditations-10-4-instruct-kindly.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations XI.9 (Long): to be vexed at them is weakness](/citations/marcus-aurelius-meditations-11-9-vexation-is-weakness.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations V.6 (Long): the vine that goes on to bear again](/citations/marcus-aurelius-meditations-5-6-the-vine.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations VI.30 (Long): Antoninus bore blame without blaming in
+  return](/citations/marcus-aurelius-meditations-6-30-bore-blame-without-blaming.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations VI.39 (Long): love them, but do it truly](/citations/marcus-aurelius-meditations-6-39-love-them-truly.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations VII.13 (Long): beneficence for its own sake](/citations/marcus-aurelius-meditations-7-13-beneficence-from-the-heart.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations VII.54 and IX.6 (Long): the three disciplines in his
+  own words](/citations/marcus-aurelius-meditations-7-54-and-9-6-three-disciplines.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Marcus Aurelius, Meditations VII.74 (Long): do not be tired of receiving what is useful](/citations/marcus-aurelius-meditations-7-74-not-tired-of-doing-good.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [McNulty (2011): the 'dark side of forgiveness' (bibliography not recorded)](/citations/mcnulty-2011-dark-side-of-forgiveness.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [McNulty & Russell (2010): when negative behaviors help](/citations/mcnulty-russell-2010-negative-behaviors.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [GAP: Musonius Rufus Lecture XIV wording](/citations/musonius-lecture-14-wording.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [Overall & McNulty (2017): what conflict communication is beneficial?](/citations/overall-mcnulty-2017-conflict-communication.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Patterson (1982): coercion theory](/citations/patterson-1982-coercion.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Pew Research Center (2007): 'Modern Marriage'](/citations/pew-2007-modern-marriage.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Reis, Maniaci & Rogge (2014): everyday compassionate acts (reference only)](/citations/reis-maniaci-rogge-2014-compassionate-acts.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Reis, Maniaci & Rogge (2017): compassionate acts and daily well-being among newlyweds](/citations/reis-maniaci-rogge-2017-compassionate-acts-newlyweds.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Repetti (1989): daily workload, withdrawal and spouse support](/citations/repetti-1989-workload-withdrawal.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [GAP: 'Would you rather be right, or would you rather be married?' has no established
+  origin](/citations/right-or-married-unattributed.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [GAP: Saxbe & Repetti (2010), 'No place like home'](/citations/saxbe-repetti-2010-home-as-haven.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [Saxbe, Repetti & Graesch (2011): housework, leisure and recovery from work](/citations/saxbe-repetti-graesch-2011-housework-leisure-recovery.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Saxbe, Repetti & Nishina (2008): marital satisfaction and cortisol recovery](/citations/saxbe-repetti-nishina-2008-marital-satisfaction-cortisol.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Schulz, Cowan, Cowan & Brennan (2004): 'Coming home upset'](/citations/schulz-et-al-2004-coming-home-upset.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Seneca, De Beneficiis I.1 (Stewart): a benefit given out of weariness](/citations/seneca-de-beneficiis-1-1-given-out-of-weariness.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, De Beneficiis I.6 (Stewart): the spirit, not the thing given](/citations/seneca-de-beneficiis-1-6-the-spirit-not-the-thing.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, De Beneficiis II.1-2 (Stewart): give willingly, quickly; anticipate](/citations/seneca-de-beneficiis-2-1-2-give-quickly-anticipate.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, De Beneficiis II.6 (Stewart): no reproach while doing a service](/citations/seneca-de-beneficiis-2-6-no-reproach-while-helping.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, On Clemency II.4-6 (Stewart): help, not pity](/citations/seneca-de-clementia-2-5-6-help-not-pity.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, De Ira II.29 and III.12 (Stewart): delay is the best remedy for anger](/citations/seneca-de-ira-2-29-and-3-12-delay.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, De Ira II.31 (Stewart): irritated at the smallest trifles at home](/citations/seneca-de-ira-2-31-domestic-trifles.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, De Ira II.34 (Stewart): a quarrel taken up on one side falls to the ground](/citations/seneca-de-ira-2-34-quarrel-on-one-side.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, De Ira III.43 (Stewart): the bull and bear, and 'let us practise humanity'](/citations/seneca-de-ira-3-43-practise-humanity.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, On the Happy Life XXIV (Stewart): an opportunity for a benefit (money context)](/citations/seneca-de-vita-beata-24-opportunity-for-a-benefit.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, Letter 48.2 (Gummere): live for your neighbour](/citations/seneca-letter-48-2-live-for-your-neighbour.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, Letter 9.6 (Gummere): Hecato's 'If you would be loved, love'](/citations/seneca-letter-9-6-hecato-if-you-would-be-loved.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Seneca, Letter 95.51-53 (Gummere): mutual affection and the stone arch](/citations/seneca-letter-95-51-53-stone-arch.md) — status: unverified / verbatim / page-text — Ch15 research, staged 2026-10-23
+- [Singer & Klimecki (2014): empathy and compassion (short review)](/citations/singer-klimecki-2014-empathy-compassion.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Stanley, Bradbury & Markman (2000): structural flaws in the bridge from research to
+  intervention](/citations/stanley-bradbury-markman-2000-structural-flaws.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [GAP: no Stoic text on returning home from work](/citations/stoic-text-on-returning-home.md) — status: unverified / none / none / gap:research — Ch15 research, staged 2026-10-23
+- [Story & Repetti (2006): daily occupational stressors and marital behavior](/citations/story-repetti-2006-occupational-stressors.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Weiss (1980): sentiment override](/citations/weiss-1980-sentiment-override.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Westman (2001): stress and strain crossover](/citations/westman-2001-crossover.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+- [Westman & Vinokur (1998): crossover of depression in couples](/citations/westman-vinokur-1998.md) — status: unverified / none / search-synthesis — Ch15 research, staged 2026-10-23
+
 ## Signals
 
 Reader responses, logged as `type: Reader Signal` concepts by `/gw-signal`.
@@ -344,6 +432,8 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 - [Chapter 13: Sun Arc Means Giving Warmth](/notes/2026-09-22-ch13-sun-arc-warmth.md) — author direction: give warmth; guide men toward a great marriage. Extended to Chapter 14 in its opening interview: how a man should love.
 
 - [Perspective is the point](/notes/2026-10-19-perspective-is-the-point.md) — author: learning the cost of what you have (dinner, her job) is the chapter's gist, not complacency; research on how gratitude develops commissioned; outline update held for it.
+- [Chapter 15: kindness as floor and ceiling, and where each contribution lands](/notes/2026-10-23-ch15-kindness-and-placement.md) — standing instruction that every contribution lands somewhere; the placement map (proposal).
+- [Chapter 15 spec rulings, 2026-10-24](/notes/2026-10-24-ch15-spec-rulings.md) — the author's six rulings and his 'Yes, apply it'; applied to 03-outline.md.
 
 ## Logs
 

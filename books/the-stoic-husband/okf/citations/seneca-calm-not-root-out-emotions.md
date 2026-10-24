@@ -79,3 +79,8 @@ established. `verifiable` claimed more than the evidence supports.
 Nothing about the prose changed. What changed is the ledger's honesty about it:
 this is a quotation awaiting a real check, not a settled one. Route to Lane C —
 `/book-verify` will package it for a session that can open the source.
+
+# Related (added 2026-10-23)
+
+For what Seneca actually said about pity and help, read at page-text in Stewart:
+[On Clemency II.4-6](/citations/seneca-de-clementia-2-5-6-help-not-pity.md) (unverified).

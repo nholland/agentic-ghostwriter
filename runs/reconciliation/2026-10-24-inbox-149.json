@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-24T00:27:54.688026+00:00",
+  "subjects": [
+    "inbox:149"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-29-and-3-12-delay.md",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-31-domestic-trifles.md",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-3-43-practise-humanity.md",
+    "books/the-stoic-husband/okf/citations/seneca-de-clementia-2-5-6-help-not-pity.md"
+  ],
+  "authority": "Author, 2026-10-24, 'A' to inbox #149 (runs/ch15/interview.md Round 6 Q3)",
+  "reason": "Basore ruled the house edition for Seneca's essays; Basore wording added to II.29 and II.31; remaining passages flagged for re-reading in Basore",
+  "files": {
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-29-and-3-12-delay.md": "8eef730d815181d15aa4827c77b24baf5ff5efd2996461e250e16d0924eb940f",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-31-domestic-trifles.md": "aafc7ac88544a43bf5ffb3ef6df4d90835a2aa81c45333bb16cc62cb27ebf037",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-3-43-practise-humanity.md": "38afbf9482f48cd8d54615fb82d9fdfd8e344c348ef760224d07cc3ec59e773a",
+    "books/the-stoic-husband/okf/citations/seneca-de-clementia-2-5-6-help-not-pity.md": "91eb0994bc596625d67aec9dcfff7874d7fdf5dee2455ba3982552986a23916c",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-34-quarrel-on-one-side.md": "e1deb748efff7f5df9b6097c365c1c8bb22ac2350dff7139fe677f5ed4aac01a",
+    "books/the-stoic-husband/okf/log.md": "2e5b4b3ba0e32f63fe3705b7927c555118a71c6b5fa7f51c830cbe1864b3b01b",
+    "books/the-stoic-husband/06-sources.md": "a76fb7988acab33bee5941733f696be8aee6463ce815b8f45330a1c511f6697c",
+    "runs/ch15/interview.md": "895a89a75fcde1eaee1c8d1b84cb0feab13edc0c93e48b17ab72890e0e0befe2"
+  }
+}

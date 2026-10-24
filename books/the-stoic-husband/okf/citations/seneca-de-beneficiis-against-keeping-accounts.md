@@ -90,3 +90,11 @@ Checked 2026-09-08 in an external session with web access, because this environm
 **Surrounding context:** Basore's Loeb translation is the standard scholarly edition. The work examines the nature and role of gratitude within Stoic ethics.
 **Notes:** The work and its subject are confirmed; the specific against-keeping-accounts passage was NOT located at a section number and should not be cited to one until it is. RIGHTS NOTE: Basore 1935 is in copyright. The public-domain option is Aubrey Stewart (1887), which is what the house standard would point to — worth recording in 06-sources.md alongside the Long/Gummere picks.
 **Still not `verified`.** External evidence does not close CLAUDE.md Rule 11; only the author does, against his own copy.
+
+# Related (added 2026-10-23)
+
+Other De Beneficiis passages read at page-text in Stewart (1887, Gutenberg #3794) for
+Ch15, each unverified: I.1 (given out of weariness), I.6 (the spirit, not the thing),
+II.1-3 (give quickly; anticipate), II.6 (no reproach while helping). See the
+seneca-de-beneficiis-* concepts. The Ch15 pass did not locate this concept's
+"out at interest" passage.

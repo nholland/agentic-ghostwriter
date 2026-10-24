@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-24T00:22:35.113079+00:00",
+  "subjects": [
+    "inbox:149-check"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-34-quarrel-on-one-side.md"
+  ],
+  "authority": "Author, 2026-10-24: 'Can we check Basore?'",
+  "reason": "Basore wording for De Ira II.34 read at page-text, rights status for the 1928 volume recorded, Ch4 translator label confirmed; edition ruling still pending",
+  "files": {
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-34-quarrel-on-one-side.md": "e1deb748efff7f5df9b6097c365c1c8bb22ac2350dff7139fe677f5ed4aac01a",
+    "books/the-stoic-husband/okf/log.md": "4ee923bf0521703cd04d9646d7a75e0b790850efd99698a3adf8f13843853c20"
+  }
+}

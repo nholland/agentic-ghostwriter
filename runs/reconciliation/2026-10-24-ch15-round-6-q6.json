@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-24T01:06:01.932802+00:00",
+  "subjects": [
+    "interview:ch15-round-6-q6"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/coming-home-into-the-tension.md"
+  ],
+  "authority": "Author, 2026-10-24: 'Can't pin one down...' (runs/ch15/interview.md Round 6 Q6)",
+  "reason": "Recorded that the central story is a recurring pattern with no single dated instance, to be told as a pattern",
+  "files": {
+    "books/the-stoic-husband/okf/stories/coming-home-into-the-tension.md": "0cdccef2a08f60deda006967418a5981350edb5597eb0e1ec7f2132196d07245",
+    "books/the-stoic-husband/okf/log.md": "b38773273944d3b4eb1b3d4ab294a8377b5e7c5bb4698b47534a3c3c97e22ace",
+    "runs/ch15/interview.md": "64d2da22b128e92113a55770162a0cc53a5728f7d2685a9ca44a739362ce9ca5"
+  }
+}

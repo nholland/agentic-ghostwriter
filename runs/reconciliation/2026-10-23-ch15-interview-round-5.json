@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-23T15:16:35.411267+00:00",
+  "subjects": [
+    "interview:ch15-round-5"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/coming-home-into-the-tension.md",
+    "books/the-stoic-husband/okf/frameworks/the-zing-a-verdict-on-her-state.md",
+    "books/the-stoic-husband/okf/frameworks/chess-not-checkers.md",
+    "books/the-stoic-husband/okf/frameworks/the-home-is-the-haven.md"
+  ],
+  "authority": "Author's words, Chapter 15 interview Round 5, 2026-10-23 15:14 (runs/ch15/interview.md)",
+  "reason": "Wife-credit permission, widened homecoming scene to busy weekends, lazy question resolved as two scenarios, chess as the long game recorded; superseded text kept; unclear sentence left uninterpreted; placement items opened in the inbox as #141-#150",
+  "files": {
+    "books/the-stoic-husband/okf/stories/coming-home-into-the-tension.md": "876dc2b8ec89170dd4374cbf7b7b7f8ed303d0efd5477a7843aa684a77c493ec",
+    "books/the-stoic-husband/okf/frameworks/the-zing-a-verdict-on-her-state.md": "09c7afc827732b5b95c348244919c61bbc96fa39a5c1b1575d3058983e11e036",
+    "books/the-stoic-husband/okf/frameworks/chess-not-checkers.md": "20a0ecebfc688b718cc2ddd0fd2d2760bed515c4c28aa33a293f1d86ad6e8606",
+    "books/the-stoic-husband/okf/frameworks/the-home-is-the-haven.md": "195986ec1008b5d330dcaa78da044d28082d3f21f28c654102e852d8014a1570",
+    "books/the-stoic-husband/okf/index.md": "d632e3f11ba717cd967e5141f811168bda7bef7248d821d1956eb4d474d77369",
+    "books/the-stoic-husband/okf/log.md": "0a69a23d1af6722f7bd4135ece21c7e54eb28679e985755fbba110c64830f7eb",
+    "runs/ch15/interview.md": "b0afb6be29108f8fc1ab3ad29d0e84097023a61fd2ba3e5fbbc0794dcccbaff0"
+  }
+}

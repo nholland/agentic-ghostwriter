@@ -29,6 +29,10 @@ verification_note: >
   frequent avoidance-motivated compliers) confirmed across independent
   secondary sources this session. Full primary text not fetched — confirm
   exact statistics before quoting.
+  POSSIBLE AUTHOR-LIST DEFECT (flagged 2026-10-23, runs/ch15/research-kindness.md A2;
+  search only): the UCLA lab PDF surfaced in search is named Impett_Peplau_Gable_2005.pdf,
+  and a summary calls the paper "Impett, Peplau & Gable." The author list in `resource`
+  may be missing Gable. Do not change `resource` until the paper's byline is read.
 tags: [citation, impett, peplau, sexual-motives, compliance]
 chapter_slugs: [the-sexless-marriage]
 timestamp: 2026-07-06T22:28:53Z

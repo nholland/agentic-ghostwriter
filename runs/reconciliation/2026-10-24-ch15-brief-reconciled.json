@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-24T01:24:54.391014+00:00",
+  "subjects": [
+    "brief:ch15"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-zing-a-verdict-on-her-state.md",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-1-9-free-from-passion-most-affectionate.md"
+  ],
+  "authority": "Author's rulings recorded in runs/ch15/interview.md Rounds 4-6; Researcher brief runs/ch15/research.md 2026-10-24",
+  "reason": "Stale lines fixed (pushback answered, zing framework no longer says do-not-merge-until-answered); Sextus grounding added to the Marcus I.9 concept; brief and author-only gaps recorded; no author facts changed",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-zing-a-verdict-on-her-state.md": "c1a310a13c204cf9c1e35baec7f685411ca82e4bc916d307e948b9f8e627b78d",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-1-9-free-from-passion-most-affectionate.md": "211290b8b002664d35ea25dba3cc7b3273480c92651241eb9768cef68bb4a254",
+    "runs/ch15/interview.md": "cd0e94250f504691b70ec0e1868b8a5179179cd3ea70e0d67ab65a4a02e0ad51",
+    "runs/ch15/research.md": "9425c793c8a78a6dcc022c73cabdbbfd121af5ac77bd21a6c7295149048adee4",
+    "runs/ch15/brief-gaps.md": "1cae6aa45b06329602f0b3865f3a9f90d32456b27754afba6b4f1e7fb3dc0480"
+  }
+}

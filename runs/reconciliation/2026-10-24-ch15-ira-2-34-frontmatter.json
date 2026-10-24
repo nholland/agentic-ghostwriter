@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-24T01:43:49.396675+00:00",
+  "subjects": [
+    "concept:seneca-de-ira-2-34"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-34-quarrel-on-one-side.md"
+  ],
+  "authority": "Author, 2026-10-24, 'A' to inbox #149: Basore is the house edition for Seneca's essays",
+  "reason": "Frontmatter title, resource and verification note now name Basore as the house edition; Stewart kept as the earlier reading; status unchanged",
+  "files": {
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-2-34-quarrel-on-one-side.md": "361116d1326bc8633b7988fd66f670d9d236bc6102caba663660e1afc3faddc8"
+  }
+}

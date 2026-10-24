@@ -1,0 +1,71 @@
+<!-- Chapter 15, concept C, rough thumbnail (concepts mode, one pass, no polish).
+     Carrier: the chapter's own pair, checkers against chess. Left board:
+     short hops back and forth along one row, answering every zing, going
+     nowhere. Right board: one piece, one long move up the board to a square
+     drawn heavy, labelled the best part of her day. The long game has a
+     destination; the hops do not. Mirrored: boards centred at 180 and 460. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" style="color:#1a1a1a" role="img" aria-label="Kindness answers the zing">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 15px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
+    .lbls{font:600 13px Georgia,serif;letter-spacing:.06em;text-anchor:middle}
+    .cap{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+  </style>
+
+  <rect x="0" y="0" width="640" height="440" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">KINDNESS ANSWERS THE ZING</text>
+    <text class="sub" x="320" y="68">Kindness is what you choose to do anyway.</text>
+  </g>
+
+  <!-- checkers: five by five, dark squares -->
+  <g fill="currentColor" opacity=".10">
+    <rect x="132" y="130" width="32" height="32"/><rect x="196" y="130" width="32" height="32"/>
+    <rect x="100" y="162" width="32" height="32"/><rect x="164" y="162" width="32" height="32"/><rect x="228" y="162" width="32" height="32"/>
+    <rect x="132" y="194" width="32" height="32"/><rect x="196" y="194" width="32" height="32"/>
+    <rect x="100" y="226" width="32" height="32"/><rect x="164" y="226" width="32" height="32"/><rect x="228" y="226" width="32" height="32"/>
+    <rect x="132" y="258" width="32" height="32"/><rect x="196" y="258" width="32" height="32"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1" opacity=".5">
+    <rect x="100" y="130" width="160" height="160"/>
+  </g>
+  <!-- the hops: back and forth along one row, answering every zing -->
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".6">
+    <path d="M116 206q16 -20 32 0q16 -20 32 0q16 -20 32 0q16 -20 32 0"/>
+    <path d="M244 214q-16 20 -32 0q-16 20 -32 0q-16 20 -32 0q-16 20 -32 0"/>
+  </g>
+
+  <!-- chess: same board, one long move to the square that matters -->
+  <g fill="currentColor" opacity=".10">
+    <rect x="412" y="130" width="32" height="32"/><rect x="476" y="130" width="32" height="32"/>
+    <rect x="380" y="162" width="32" height="32"/><rect x="444" y="162" width="32" height="32"/><rect x="508" y="162" width="32" height="32"/>
+    <rect x="412" y="194" width="32" height="32"/><rect x="476" y="194" width="32" height="32"/>
+    <rect x="380" y="226" width="32" height="32"/><rect x="444" y="226" width="32" height="32"/><rect x="508" y="226" width="32" height="32"/>
+    <rect x="412" y="258" width="32" height="32"/><rect x="476" y="258" width="32" height="32"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1" opacity=".5">
+    <rect x="380" y="130" width="160" height="160"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="2.8">
+    <rect x="444" y="130" width="32" height="32"/>
+  </g>
+  <g fill="currentColor">
+    <circle cx="460" cy="268" r="5"/>
+    <path d="M454 286h12l-3 -12h-6z"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M460 258V156"/>
+    <path d="M460 152l-7 12M460 152l7 12"/>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbls" x="460" y="116">THE BEST PART OF HER DAY</text>
+    <text class="lbl" x="180" y="318">CHECKERS</text>
+    <text class="cap" x="180" y="340">answering every zing</text>
+    <text class="lbl" x="460" y="318">CHESS</text>
+    <text class="cap" x="460" y="340">the long game</text>
+    <text class="cap" x="320" y="392">You get to decide which of those you're after.</text>
+  </g>
+</svg>

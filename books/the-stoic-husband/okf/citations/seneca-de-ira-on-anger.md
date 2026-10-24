@@ -33,3 +33,12 @@ passages from Book III usable for Ch 4 (anger is failed leadership). Use
 # Citations
 
 1. Seneca, *De Ira* (On Anger), Book III — passage to be located.
+
+# Related (added 2026-10-23)
+
+Specific De Ira passages read at page-text in Stewart (1889) for Ch15, each unverified:
+- [De Ira II.34: a quarrel taken up on one side](/citations/seneca-de-ira-2-34-quarrel-on-one-side.md)
+- [De Ira II.29 and III.12: delay](/citations/seneca-de-ira-2-29-and-3-12-delay.md)
+- [De Ira II.31: domestic trifles](/citations/seneca-de-ira-2-31-domestic-trifles.md)
+- [De Ira III.43: practise humanity](/citations/seneca-de-ira-3-43-practise-humanity.md)
+Ch4 printed De Ira as Basore; the house edition for Seneca's dialogues is unruled.

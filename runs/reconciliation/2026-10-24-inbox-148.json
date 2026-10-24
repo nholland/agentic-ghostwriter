@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-24T00:15:09.395407+00:00",
+  "subjects": [
+    "inbox:148"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md"
+  ],
+  "authority": "Author, 2026-10-24, 'A' to inbox #148 options (runs/ch15/interview.md Round 6 Q2)",
+  "reason": "Ruling applied in commit 75cde05; the knowledge (kindness is not presence; Marcus I.9 as the Sun anchor) is already in the kindness concept and the staged I.9 citation",
+  "files": {
+    "books/the-stoic-husband/05-framework.md": "72ba09be181c1f9571a0f1d25288f00f1c5dee760fd6125fd33257f050376226",
+    "books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md": "e18aae014b5bb1370599574e221e5221c0b6b22af3c8445be5881c5722c5c2e0",
+    "runs/ch15/interview.md": "07bbc7135864ba58f7212f08da7ce6c6f57fe0779c18d2472da0910f8ee1fc96"
+  }
+}

@@ -15,9 +15,10 @@ resource: >
   ("On Benefits"). Commonly rendered: "The reward for all the virtues lies
   in the virtues themselves... the wages of a good deed is to have done
   it."
+  Read on Wikisource in Gummere's translation, Letter 81, section 19 (section number is the researcher's reading of Wikisource's markers; Ch15 research pass, 2026-10-23).
 status: unverified
 quote_form: verbatim
-evidence_source: search-synthesis
+evidence_source: page-text
 verification_note: >
   Real Senecan letter on the theme of benefits and gratitude, with
   reasonable secondary corroboration (Modern Stoicism, Donald Robertson's
@@ -102,3 +103,18 @@ established. `verifiable` claimed more than the evidence supports.
 Nothing about the prose changed. What changed is the ledger's honesty about it:
 this is a quotation awaiting a real check, not a settled one. Route to Lane C —
 `/book-verify` will package it for a session that can open the source.
+
+# Splice Check, 2026-10-23 (research, page-text)
+
+Resolved at page-text by the Ch15 research pass (runs/ch15/research-kindness.md, B4):
+Gummere on Wikisource, Letter 81.19, reads: "There is not a man who, when he has
+benefited his neighbour, has not benefited himself … but that the reward for all the
+virtues lies in the virtues themselves. For they are not practised with a view to
+recompense; the wages of a good deed is to have done it."
+
+The two printed fragments appear in this order, in one section, with only the sentence
+"For they are not practised with a view to recompense;" between them. The section marker
+"20." follows. The section number is the researcher's reading of Wikisource's markers.
+The printed quotation capitalizes "The reward", which is lowercase mid-sentence in
+Gummere; confirm the house treatment. Status stays unverified: only the author can
+verify, against his copy.

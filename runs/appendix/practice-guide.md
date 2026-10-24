@@ -48,3 +48,9 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 1. **Reactive.** When something stings, name it to yourself right then. An irritation you've named loses its power to quietly compound.
 2. **Proactive.** On a regular rhythm, monthly, or whenever a season changes, name explicitly whether the current imbalance is temporary (a hard stretch that will pass) or structural (the new normal). Don't wait for resentment to force the question.
 3. **Reactive.** When the work feels like too much, pause before you speak. Look together at paid work, housework, and what each of you has to remember. Ask what each of you can manage this week. Make one concrete request, hear what she can take on, and agree on when to check whether the change is working.
+
+## Chapter 15 — Be Patient, Be Kind
+
+1. **Reactive.** When she makes a small, cutting remark, don't send a sharper one back. Before you answer, ask yourself what the remark tells you about how she's feeling.
+2. **Reactive.** When a sharp comment comes about the things that need doing, start helping before you say anything. Then give her a hug, tell her you see her, and ask what would make her day lighter.
+3. **Proactive.** Every day, ask yourself whether you were the best part of her day. When the answer is no, take over one chore that's usually hers, and do it gladly.

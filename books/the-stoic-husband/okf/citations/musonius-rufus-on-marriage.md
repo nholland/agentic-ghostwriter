@@ -15,8 +15,12 @@ verification_note: >
   Supports mutual companionship through health and sickness and reciprocal
   devotion; paraphrase only because Lutz is not the house's public-domain
   quotation standard. Author has not verified against a physical copy.
+  "Each striving to outdo the other in devotion" is located by search (2026-10-23,
+  runs/ch15/research-kindness.md B2) in Lutz Lecture XIIIA, reprinted by Plough. A Thomas
+  R. Martin rendering in a textbook gives "each works to outdo the other." Search only;
+  paraphrase only.
 tags: [citation, musonius-rufus, primary-source]
-chapter_slugs: [duty-without-resentment, the-end-of-scorekeeping, she-is-enough, the-marriage-you-build-every-day, friendship-is-the-hidden-engine]
+chapter_slugs: [duty-without-resentment, the-end-of-scorekeeping, she-is-enough, the-marriage-you-build-every-day, friendship-is-the-hidden-engine, be-patient-be-kind]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

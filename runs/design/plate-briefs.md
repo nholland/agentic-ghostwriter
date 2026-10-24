@@ -173,3 +173,13 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 **Validation question:** Within ten seconds, can a stranger recognize a watering can watering grass, identify attention and care as the water, and understand appreciation for the woman already there becoming care? Does the image imply she owes a response?
 
 **Source:** runs/ch14/plate.svg; runs/ch14/distillation.md; runs/ch14/plate-brief.md; runs/ch14/plate-concepts.md, concept A and its recorded source excerpts; runs/ch14/plate-pick.md; runs/ch14/draft.md, metaphor_family only.
+
+## ch15 | Kindness answers the zing
+
+**Intent:** When your wife says something sharp, hear it as a sign of how she feels, help before you answer, and ask yourself whether you were the best part of her day.
+
+**Visual explanation:** Two quiet posts, HER and YOU. Above, faintly, the exchange the chapter confesses: her first zing defined as "a little slight, a cutting remark"; her zings stay small, and his replies grow, glossed "an equal or escalated response" beside his post where they leave him. The rule between the halves reads INSTEAD OF ZINGING HER BACK. Below, her same small zing, faint, glossed at her post as "how she's feeling on the inside". Nothing jagged goes back: one heavy smooth arc lifts a box marked OFF HER PLATE from a dashed empty place at her side across to his, ending at START HELPING and the chapter's question, "Was I the best part of her day?". The closing line, "Roll up your sleeves before you open your mouth.", keeps help before the answer. The question is his, asked after the help; it is not a promise. No chess or checkers image and no drawn plate.
+
+**Validation question:** Without the chapter, whose replies grow in the upper exchange, and does the lower arc read as him taking something off her plate, or as her handing him a chore?
+
+**Source:** runs/ch15/plate.svg; runs/ch15/plate-notes.md; runs/ch15/distillation.md; runs/ch15/plate-brief.md; runs/ch15/refined.md ("The zing"; "What she's carrying"; "The long game"; "Off her plate"; "The best part", including the closing line); runs/ch15/plate-concepts.md, concept A; runs/ch15/plate-pick.md (four fixes, draft 2026-10-24); runs/ch15/plate-read.md (six edits, revision 1 2026-10-24).

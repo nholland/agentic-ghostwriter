@@ -87,3 +87,8 @@ you do with the time.
 
 1. Wilcox, W. B., & Dew, J. (2012). *The Date Night Opportunity*. The National
    Marriage Project, University of Virginia.
+
+# Related (added 2026-10-23)
+
+Same survey: [Dew & Wilcox (2013), generosity](/citations/dew-wilcox-2013-generosity.md)
+(search only, unverified).

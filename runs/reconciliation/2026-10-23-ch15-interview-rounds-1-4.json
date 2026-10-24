@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-23T14:45:50.654763+00:00",
+  "subjects": [
+    "interview:ch15-rounds-1-4"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/chess-not-checkers.md",
+    "books/the-stoic-husband/okf/frameworks/would-you-rather-be-right-or-married.md",
+    "books/the-stoic-husband/okf/frameworks/the-zing-a-verdict-on-her-state.md",
+    "books/the-stoic-husband/okf/frameworks/never-be-the-worst-part-of-her-day.md",
+    "books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md",
+    "books/the-stoic-husband/okf/frameworks/listening-is-a-kindness.md",
+    "books/the-stoic-husband/okf/frameworks/the-home-is-the-haven.md",
+    "books/the-stoic-husband/okf/stories/coming-home-into-the-tension.md",
+    "books/the-stoic-husband/okf/notes/2026-10-23-ch15-kindness-and-placement.md"
+  ],
+  "authority": "Author's words, Chapter 15 interview Rounds 1-4, 2026-10-23 (runs/ch15/interview.md); Round 4: 'I want to make sure we capture all of this somewhere in the open knowledge format'",
+  "reason": "Seven frameworks, one story and one author note added from the author's explicit words; placement map is a proposal; interpretations held in proposed-concepts.md as open; two possible tensions with raw intake recorded, not resolved; interview not complete, research round 2 pending",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/chess-not-checkers.md": "59aca0ed2d2fbab50ca85b216b7f94426f428e52d59667769b99a1a0b07b8a15",
+    "books/the-stoic-husband/okf/frameworks/would-you-rather-be-right-or-married.md": "12b1f088f3f79df6fbf4017dddef522213c653f52a07f84b7c9f73100f1b9e63",
+    "books/the-stoic-husband/okf/frameworks/the-zing-a-verdict-on-her-state.md": "4dec0e73fcc0ce3b868d34511770b2bb91072c500edecd88800b3be8ee2d0b33",
+    "books/the-stoic-husband/okf/frameworks/never-be-the-worst-part-of-her-day.md": "689e175bb28f13e97c13c513cd04186eef6eab15a576376810b0814eb12d7d3f",
+    "books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md": "e8a623a7ee8e62ced930449593046ea7e555bca01aab68b80b74b8c2cbfac8ba",
+    "books/the-stoic-husband/okf/frameworks/listening-is-a-kindness.md": "9f63e677bc7650e4169d9c09a05966b8ff58349080e80f5aac85624182a1510b",
+    "books/the-stoic-husband/okf/frameworks/the-home-is-the-haven.md": "975032c0606d3644fa91f5dc9d9483110c52c85fb8f822460b479892c8452fcf",
+    "books/the-stoic-husband/okf/stories/coming-home-into-the-tension.md": "4d073a93fe569ca858e750100074440277c1e86858cf650cbc1fac34de636065",
+    "books/the-stoic-husband/okf/notes/2026-10-23-ch15-kindness-and-placement.md": "892285c14c77d1542bb83c55f7e3d613a89d1f36311d2c7962205c324af5ee2b",
+    "books/the-stoic-husband/okf/index.md": "747ced579115b463692d4f6826df684667018ef4c2cafd00a51ca8e7444b5ad9",
+    "books/the-stoic-husband/okf/log.md": "10bbca0f237d12a201e12c7b35e427571e6838e6193cff911550bf4808db34c9",
+    "runs/ch15/interview.md": "356b6a3084632af6d3983cca33823a3375c26523531204caea1da9882f54d968",
+    "runs/ch15/proposed-concepts.md": "fa4dfc52d9f8bedcc4dc42fd2b13950e153cf1791b09c4177ff7d2d91c308ee5"
+  }
+}

@@ -52,3 +52,11 @@ plain-language register.
 # Citations
 
 None yet — this is the gap.
+
+# Candidates (added 2026-10-23)
+
+Candidates located 2026-10-23 (Ch15 research, search only, not read):
+/citations/gordon-et-al-2022-appreciation-buffers-housework.md and
+/citations/saxbe-repetti-graesch-2011-housework-leisure-recovery.md. Neither fills this
+gap until read. Ch7/Ch8 own fairness; Ch15 would use them only for what appreciation
+does to a heavy load and for the evening after work.

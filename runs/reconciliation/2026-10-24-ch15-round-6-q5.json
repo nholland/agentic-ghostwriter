@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-24T00:38:59.738045+00:00",
+  "subjects": [
+    "interview:ch15-round-6-q5"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/chess-not-checkers.md"
+  ],
+  "authority": "Author, 2026-10-24: 'It's #1 and it's my own advice to myself and other me, learned through experience.'",
+  "reason": "Resolved the unclear Round 5 sentence in the chess-not-checkers concept: not surrender; lived-experience advice",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/chess-not-checkers.md": "28a5ee15ebcf9ae296b3cfcf983ca17c3f8f513e811becb7d38dcb25b3a1d6ee",
+    "books/the-stoic-husband/okf/log.md": "5d38b2a74d74f8188ef9c85269726cd245b37a7ce5fa81b59bf4096086b63191",
+    "runs/ch15/interview.md": "6e4a119c53cc35225de037aa977ffb0658aa8b502f84631995bedc880a5a1e39"
+  }
+}

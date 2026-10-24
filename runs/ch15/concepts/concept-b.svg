@@ -1,0 +1,64 @@
+<!-- Chapter 15, concept B, rough thumbnail (concepts mode, one pass, no polish).
+     Carrier: the zing comes off the top of her load, and the answer is a
+     hand that lifts something off it. Left: a stack of the things that need
+     doing, with the jagged zing rising from its top, so the remark visibly
+     belongs to the load, not to you. Right: one block, lifted along a
+     heavy arrow from the top of her stack, now on your side; her stack
+     keeps a dashed empty slot where it was. No words go back; only the
+     block does. Mirrored: her stack centred at 200, yours at 440. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 490" style="color:#1a1a1a" role="img" aria-label="Kindness answers the zing">
+  <style>
+    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 15px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
+    .lble{font:600 15px Georgia,serif;letter-spacing:.12em;text-anchor:end}
+    .cap{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+  </style>
+
+  <rect x="0" y="0" width="640" height="490" fill="#ffffff"/>
+
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">KINDNESS ANSWERS THE ZING</text>
+    <text class="sub" x="320" y="68">What does the remark tell you about how she feels?</text>
+  </g>
+
+  <!-- ground -->
+  <g fill="none" stroke="currentColor" stroke-width=".8" opacity=".28"><path d="M96 380H544"/></g>
+
+  <!-- her load: five blocks, and the empty slot at the top -->
+  <g fill="#ffffff" stroke="currentColor" stroke-width="1.6">
+    <rect x="140" y="352" width="120" height="28"/>
+    <rect x="140" y="324" width="120" height="28"/>
+    <rect x="140" y="296" width="120" height="28"/>
+    <rect x="140" y="268" width="120" height="28"/>
+    <rect x="140" y="240" width="120" height="28"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4" opacity=".5">
+    <rect x="140" y="212" width="120" height="28"/>
+  </g>
+
+  <!-- the zing, rising off the top of the load -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M200 206l-10 -14l18 -12l-18 -12l18 -12l-18 -12l10 -12"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lble" x="178" y="156">THE ZING</text>
+  </g>
+
+  <!-- the answer: one block lifted off her load, carried to your side -->
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M266 220C330 150 430 150 440 336"/>
+    <path d="M440 340l-8 -13M440 340l7 -13"/>
+  </g>
+  <g fill="currentColor" stroke="currentColor" stroke-width="1.6" fill-opacity=".14">
+    <rect x="380" y="352" width="120" height="28"/>
+  </g>
+
+  <g fill="currentColor">
+    <text class="lbl" x="200" y="408">WHAT SHE'S CARRYING</text>
+    <text class="cap" x="200" y="430">the things that need doing</text>
+    <text class="lbl" x="440" y="408">YOU</text>
+    <text class="cap" x="440" y="430">a chore that's usually hers</text>
+    <text class="cap" x="320" y="470">If you're going to take something off her plate, take it gladly.</text>
+  </g>
+</svg>

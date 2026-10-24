@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-24T00:09:44.782219+00:00",
+  "subjects": [
+    "interview:ch15-round-6-q1"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/never-be-the-worst-part-of-her-day.md"
+  ],
+  "authority": "Author, 2026-10-24 00:06, answer 'A' to the spine options (runs/ch15/interview.md Round 6)",
+  "reason": "Floor and ceiling chosen as Chapter 15's spine; recorded in the concept and proposals file",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/never-be-the-worst-part-of-her-day.md": "e7d22440c08cea542664c245bcc6ebfa45c31c14f5ed5842733341903f46ee3b",
+    "books/the-stoic-husband/okf/log.md": "87544b3e22af52ebac2bb5134217748bd07c70e054f2d726537b812101511192",
+    "runs/ch15/interview.md": "9b38ced4684755d7ee23a7273560d8040c0a49127e0cec041037d18464cd1c59",
+    "runs/ch15/proposed-concepts.md": "4f9576d837a2a43958b0dcb2dfa058250746ad18576aca49b4b3f90446f5b682"
+  }
+}

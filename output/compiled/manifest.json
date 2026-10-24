@@ -1,7 +1,9 @@
 {
-  "built": "2026-10-20T11:14:37.442435+00:00",
-  "coverage": "Prologue, Introduction, Chapters 1-14, relevant Arc openings and plates",
-  "unapproved_chapters": [],
+  "built": "2026-10-24T06:08:02.549473+00:00",
+  "coverage": "Prologue, Introduction, Chapters 1-15, relevant Arc openings and plates",
+  "unapproved_chapters": [
+    15
+  ],
   "source_sha256": {
     "books/the-stoic-husband/chapters/ch01/refined.md": "fbcf4706892948e428acfed091bd5bc12e7dfb4259fa2f23da4fda9c35ba7c7e",
     "books/the-stoic-husband/chapters/ch01/distillation.md": "c612b717fb7d42303d1161d6fcdb92b805622ba816beeb8f0cdbaf9fd99f0ae4",
@@ -44,7 +46,10 @@
     "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
     "books/the-stoic-husband/chapters/ch14/refined.md": "68c5c710403ee3260a660f623ba4029225537c67723177c6022da136bcab7eff",
     "books/the-stoic-husband/chapters/ch14/distillation.md": "7145414fff75084e285463ac425db651682aac270cb508332fb71f1408ef38d2",
-    "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac"
+    "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac",
+    "runs/ch15/refined.md": "cb194d4577e2d7cee090a026880b6548eca4f5bab66d88ac6ecfb7a5c5336835",
+    "runs/ch15/distillation.md": "b396f14f2c257ace241272b9640855659390e74b7f0d6e57797276a8c0c6568f",
+    "runs/ch15/plate.svg": "178797cf196490fb4d0ae049eac8d392a087776ebc3075486e1c6d3fa9cc70b0"
   },
   "outputs": [
     "book.pdf",
@@ -62,12 +67,13 @@
     "chapters/ch12.pdf",
     "chapters/ch13.pdf",
     "chapters/ch14.pdf",
+    "chapters/ch15.pdf",
     "distillations.pdf",
     "plates.pdf",
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-10-20T11:15:01.584619+00:00",
+    "built": "2026-10-24T06:08:02.548950+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -151,12 +157,17 @@
         "approved_identical_copy": true
       },
       {
+        "id": "ch15",
+        "title": "Kindness answers the zing",
+        "approved_identical_copy": false
+      },
+      {
         "id": "part-III",
         "title": "The Warm Sun",
         "approved_identical_copy": false
       }
     ],
-    "pages_expected": 34,
+    "pages_expected": 36,
     "source_sha256": {
       "runs/ch01/plate.svg": "0c8c9604e63de6c63e1cd0c0a2a34512a5304be9735adb9a36570756cc06a651",
       "runs/ch02/plate.svg": "e7bcb508bf93a3bb5024701f17332c23cf583179ae28d5883c3f15e9ac54d026",
@@ -174,8 +185,9 @@
       "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
       "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
       "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac",
+      "runs/ch15/plate.svg": "178797cf196490fb4d0ae049eac8d392a087776ebc3075486e1c6d3fa9cc70b0",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
-      "runs/design/plate-briefs.md": "3448b5f10175dcf93a8c3b89fb2fcbdd60ae631bf319251b128e4d766bdb01e2"
+      "runs/design/plate-briefs.md": "daa9a3c00713ad3a6a9434ab5d45fc6a35ac911cdc9398e4b06e4e0ec6ece789"
     }
   },
   "plates": {
@@ -220,6 +232,9 @@
     },
     "ch14": {
       "approved_identical_copy": true
+    },
+    "ch15": {
+      "approved_identical_copy": false
     }
   }
 }
