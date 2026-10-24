@@ -22,7 +22,7 @@ He can hear a cutting remark as a sign of how someone feels inside, answer it wi
 ## Key points (four)
 
 1. **The zing, the floor.** He confesses the pattern first: every small critique met with an equal or bigger reply. Then two different questions. If she says "lazy," he asks "Is that truly the case?" If it is, he fixes it; if not, he lets it go. Far more often the remark is an outward sign of how a person feels inside: a wife facing a packed weekend, a child melting down because they're hungry or tired. It isn't a verdict on him, or on the child's love or the parenting. He doesn't have to be offended. This is the whole household.
-2. **The long game.** Checkers is answering every exchange. Chess is the long game: ignore the zing and pour in kindness, and the tone of the whole house changes. He'd rather have a good night than win each exchange. Not surrender; his own advice, learned through experience. "Right or married" is a one-line callback only (it lands in Chapter 5, inbox #141).
+2. **The long game.** Checkers is answering every exchange. Chess is the long game: ignore the zing and pour in kindness, and the tone of the whole house changes. He'd rather have a good night than win each exchange. Not surrender; his own advice, learned through experience. "Right or married" is a one-line callback only (it lands in Chapter 5, inbox #155).
 3. **Kindness is not presence.** Patience, understanding, and taking a load off her plate. A foot rub, a chore taken, letting her talk about her day. Not because they're acts of service but because they're usually hers and he's taking them off her.
 4. **The best part of her day.** The ceiling, the sun. The audit question: "Was I the best part of her day?" Most husbands have only checked the floor.
 
@@ -55,7 +55,7 @@ Stays 1,200 to 1,500.
 
 ## What moves out (all in the inbox)
 
-Chapter 5 (#141), Chapter 17 (#142), Chapter 28 (#143), Chapter 26 (#144), Chapter 24 (#145), Chapter 16 compassion (#146), Chapter 20 after-work research (#147), Chapter 27 her seasons (#151).
+Chapter 5 (#155), Chapter 17 (#156), Chapter 28 (#143), Chapter 26 (#144), Chapter 24 (#145), Chapter 16 compassion (#146), Chapter 20 after-work research (#147), Chapter 27 her seasons (#151).
 
 ## Voice guards
 

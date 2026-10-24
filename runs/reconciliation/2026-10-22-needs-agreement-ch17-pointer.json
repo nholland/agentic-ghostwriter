@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-22T17:53:25.993535+00:00",
+  "subjects": [
+    "outline:ch17-needs-agreement-pointer-2026-10-22"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-needs-agreement.md"
+  ],
+  "authority": "Author, 2026-10-22: 'Add a pointer.'",
+  "reason": "One-line pointer to The Needs Agreement added to Chapter 17's spec; no key point, takeaway or target changed",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "d89dc78759bd6ffd3bc1577963c6afcac87160b80427eb47c09b5272f662d0cd"
+  }
+}

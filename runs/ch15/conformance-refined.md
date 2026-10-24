@@ -17,4 +17,4 @@ Inputs: the outline section and refined.md above Editor's Notes, 1,389 words (th
 2. "She deserves kindness every day, always, even when she's at her lowest. You don't wait for her to earn it." His words (interview), kept from the draft.
 
 ## Attribution: no findings
-The checker noted the philostorgia claim rests on the Meditations I.9 citation (the Fact-Checker still verifies the Greek) and that "right or married" reads as his own habit ("I tell people", inbox 141).
+The checker noted the philostorgia claim rests on the Meditations I.9 citation (the Fact-Checker still verifies the Greek) and that "right or married" reads as his own habit ("I tell people", inbox 155).

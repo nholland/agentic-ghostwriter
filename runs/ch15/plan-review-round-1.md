@@ -118,16 +118,16 @@ any concept.
   the author's anchor ruling.
 
 ### 5. "Right or married" is called a callback to a line no chapter prints
-- **What is missing.** B and D31 call it a "one-line callback only (it lands in Ch5, inbox 141)." But G's
+- **What is missing.** B and D31 call it a "one-line callback only (it lands in Ch5, inbox 155)." But G's
   own Ch5 row says Ch5 prints only "winning the argument while losing the relationship," and
   `frameworks/would-you-rather-be-right-or-married.md` says a Ch5 line "would need `/gw-edit 5`." The brief
-  does not give inbox 141's status. Unless that edit has landed, Ch15 is the saying's first printing in the
+  does not give inbox 155's status. Unless that edit has landed, Ch15 is the saying's first printing in the
   book, and a callback has nothing to call back to. Nor does the brief say how to introduce it as his. The
   concept has "I also tell people," which D31 leaves out.
 - **Where it belonged.** `research.md` D31 and G (Ch5 row).
 - **What I would be tempted to invent.** "As I said in Chapter 5," "you've heard me ask," or "the old line."
   The last is barred by I, but the first two are not.
-- **Who can close it.** A cold desk: check inbox 141, then give the framing, for example introduced as his
+- **Who can close it.** A cold desk: check inbox 155, then give the framing, for example introduced as his
   own question with "I tell people," and no back-reference unless Ch5 has been edited.
 
 ### 6. The recommended opening puts fight and anger in the chapter's first line

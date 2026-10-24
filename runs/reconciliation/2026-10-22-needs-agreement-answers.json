@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-22T17:11:13.636961+00:00",
+  "subjects": [
+    "intake:needs-agreement-answers-2026-10-22"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-needs-agreement.md"
+  ],
+  "authority": "Author's answers to the Publisher's five open questions, session 2026-10-22",
+  "reason": "Recorded his rulings on quota vs commitment, medical exemption, partner's range, placement, Stoic anchor and own-marriage framing; open questions narrowed",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-needs-agreement.md": "c7c044b835b5aabf13118b7ec596b5b986ca7daaa1b363c6d5e42078cdefc21b",
+    "books/the-stoic-husband/okf/log.md": "73e8de0694b8ed65866acb068e51e99b600c55acb9f5d89490cfc6d82b509dc0"
+  }
+}

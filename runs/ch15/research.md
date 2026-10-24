@@ -5,7 +5,7 @@ Researcher desk (gw-researcher), cold run. Written 2026-10-24 01:20 (clock read 
 gaps and folding in the observations in `runs/ch15/plan-review.md`, on the Publisher's rulings.
 Changed sections carry "(revised 2026-10-24 round 2)". Also read this round: `runs/ch15/plan-review.md`;
 landed `refined.md` for Ch14 (in full), Ch12, Ch1 and Ch5 (passages checked by grep and read); Ch8's
-opening; `inbox.py --all` for #141; the right-or-married framework concept.
+opening; `inbox.py --all` for #155; the right-or-married framework concept.
 Writes only under `runs/ch15/`. Nothing in `books/` or the OKF was edited.
 
 **Inputs read:** `runs/ch15/interview.md` (Rounds 1-6, the source of truth); `03-outline.md`
@@ -106,7 +106,7 @@ Provenance" (K-i-5).
   Ignore the zing, pour in kindness, and the tone of the whole house changes. He would rather have a
   good night than win each exchange. Not surrender; his own advice, learned through experience.
   "Would you rather be right or be married?" is **one line, and its first printing in the book**
-  (round 2): inbox 141, which would add it to Ch5, is still parked, and no landed chapter prints it.
+  (round 2): inbox 155, which would add it to Ch5, is still parked, and no landed chapter prints it.
   Introduce it as his own question with "I tell people." It is not a callback (D31; deviation (l)).
 - **Key point 3, kindness is not presence.** Patience, understanding, taking a load off her plate:
   a foot rub, a chore taken (left unnamed, deviation (m)), letting her talk about her day. Kind not because they are acts of
@@ -129,8 +129,8 @@ Provenance" (K-i-5).
 - **Research burden:** at most two research clauses (Gordon et al. 2022; Impett et al. 2005); Gottman
   at most a clause; no numbers.
 - **Word budget:** 1,200-1,500 words.
-- **Moved out (do not write these here):** Ch5 "right or married" in full (141); Ch17 his warmth
-  tracking hers in intimacy (142); Ch28 the home is the haven, credited to his wife (143); Ch26
+- **Moved out (do not write these here):** Ch5 "right or married" in full (155); Ch17 his warmth
+  tracking hers in intimacy (156); Ch28 the home is the haven, credited to his wife (143); Ch26
   listening in full (144); Ch24 evening-review question (145); Ch16 compassion in full (146); Ch20
   after-work research (147); Ch27 her seasons (151).
 - **Transition to Ch16:** kindness is what warmth looks like in ordinary friction; Ch16 names what
@@ -164,7 +164,7 @@ whole list to the author at the verdict; he may restore any spec wording.
 | i | KP2: "Checkers is answering every exchange; chess is the long game." | The meaning, in fewer image words: his name "chess, not checkers" printed once, and "the long game" once | "Deviation (i), key point 2: the spec's sentence is carried in meaning, not word for word, so the game family stays inside its declared cap of five (count in Draft Notes). Researcher's round 2 ruling; for the author at the verdict." |
 | j | KP2: "Ignore the zing and pour in kindness" | Plain wording, no "pour" | "Deviation (j), key point 2: 'pour in kindness' (and the author's 'pour kindness into my wife') is written plainly, because a liquid image would sit beside Ch14's grass-and-water and would be a second image. Researcher's round 2 ruling; for the author at the verdict." |
 | k | KP2: "rather have a good night than win each exchange" | His words: "than try to answer each exchange" | "Deviation (k), key point 2: the author said 'answer each exchange', not 'win'; 'win' is game vocabulary and Ch5's ground. Researcher's round 2 ruling; for the author at the verdict." |
-| l | KP2: "a one-line callback only (it lands in Chapter 5; inbox 141)" | One line, its first printing, introduced "I tell people," no back-reference | "Deviation (l), key point 2: inbox 141 is parked and Ch5 does not print the saying, so this is its first printing, not a callback. It is introduced as the author's own question ('I tell people'). Researcher's round 2 ruling on the Publisher's direction; for the author at the verdict." |
+| l | KP2: "a one-line callback only (it lands in Chapter 5; inbox 155)" | One line, its first printing, introduced "I tell people," no back-reference | "Deviation (l), key point 2: inbox 155 is parked and Ch5 does not print the saying, so this is its first printing, not a callback. It is introduced as the author's own question ('I tell people'). Researcher's round 2 ruling on the Publisher's direction; for the author at the verdict." |
 | m | KP3: "a chore taken" | Unnamed: "one of the chores that's usually hers" | "Deviation (m), key point 3: the chore is left unnamed, because every chore the author named is printed elsewhere (coffee, wine, breakfast and the grill in Ch12; folding clothes in Ch6). The author may name one at the verdict (`brief-gaps.md`, question 3). Researcher's round 2 ruling on the Publisher's direction; for the author at the verdict." |
 
 ---
@@ -340,7 +340,7 @@ Lines marked (render) carry his meaning and are better put in the book's voice t
     inbox 143). If `/gw-edit 5` adds the saying before Ch15 lands, Ch5 becomes the first printing in
     reading order; Ch15's line still carries no back-reference, and any cross-reference belongs to the
     Ch5 edit, pointing forward, not to Ch15 pointing back. The same holds for chess-not-checkers, which
-    inbox 141 may also add to Ch5.
+    inbox 155 may also add to Ch5.
 
 **Usually hers (section 4; renamed round 2)**
 32. R4: "When I think about kindness it's a foot rub when someone's had a long day and I do that for my wife."

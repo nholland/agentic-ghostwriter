@@ -21,7 +21,7 @@ PASS rows 1-20, 22, 24-28, 30-32, 34-38, 41-50 are the checker's, with its quote
 1-3 (Seneca De Ira, De Beneficiis, Marcus I.9): the quotations run past the spec's excerpt because the Researcher read the passages primary; the checker has only the spec. Fact-Checker queue (inbox #150) already carries them; the author checks his copy.
 4 (glosses on philostorgia and "free from passion"): Fact-Checker.
 5-6 (Gordon, Impett): finding wording is the brief's may-say; Fact-Checker. Impett's dating-to-marriage jump is real; the prose already names the Gordon scope gap and could name this one at refine.
-7 ("right or married" origin): by design, first printing, "I tell people"; inbox 141.
+7 ("right or married" origin): by design, first printing, "I tell people"; inbox 155.
 8 ("you use what rewards"): the author's own, D4.
 9 (Ch14 claim): checked by grep, `runs/ch14/refined.md` line 17: "Name something true about her, and stay with it long enough to remember why you value it." The Ch15 line is a fair paraphrase; the Line Editor should keep it close to that wording.
 

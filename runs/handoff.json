@@ -29,7 +29,8 @@
     "runs/handoff/intake-01eb4c86b594b34c.json",
     "runs/handoff/intake-b6e90435e37a0b5b.json",
     "runs/handoff/intake-dc55debba1ac2096.json",
-    "runs/handoff/intake-23ea0bea5bb51886.json"
+    "runs/handoff/intake-23ea0bea5bb51886.json",
+    "runs/handoff/intake-06f324390620a89a.json"
   ],
   "artifacts": {
     "inbox/001-are-bolded-run-in-section-headers-legal.md": "e78386c291d3cb3dc5b505076253b3c3df588ed41334113ade6f69b704297a15",
@@ -173,6 +174,8 @@
     "inbox/139-reach-parity-or-beyond-with-the-old-pipeline-bef.md": "d54f1687f729eb2ff2713f8073975d41f7ecfc277fb2549dffe853e1a25cd877",
     "inbox/140-triage-the-old-pipeline-s-open-parking-lot-items.md": "89885703bc5dc8d81be75cdf6ab00c4c2716d8ea5f6380ab7df1a1a48d188481",
     "inbox/141-add-the-author-s-would-you-rather-be-right-or-be.md": "5ce56a624cec37a468ae7c07470a3e483ad97ecf5d17d40898d3d70bcd4a434e",
+    "inbox/141-research-the-gottman-20-to-1-everyday-ratio-find.md": "4d9fdc1877edadb91b43d8ffeeda05f2961787e9588d6c9a8c87ed1ced748922",
+    "inbox/142-research-sexual-frustration-hormones-mood-irrita.md": "4d7cbe74d30f5812cd34e0ae9ad977e6fa5c7a5f544d6b74f23ececbc2f3c1eb",
     "inbox/142-use-the-author-s-observation-that-his-warmth-tra.md": "20405758842272349eed97eeb735b586b073d33edf1e12ef40843b665d43f36a",
     "inbox/143-place-the-home-is-the-haven-his-wife-s-remark-th.md": "2cafc8d3d793a042dfcc9a93110d089d8e2ae7b2aee1e4fb6d3404c7970ccba3",
     "inbox/144-place-listening-is-a-kindness-letting-her-talk-a.md": "bed78e496da657d95bcde9874ea6f2234f555d4aaa43bc29907d34a3bfddf29c",
@@ -223,5 +226,5 @@
     "runs/ch15/slop-read.md": "351b73b3a4d53119b3133b1cb9d95199084400de5aa5fe118ef58e5462a2926e",
     "runs/ch15/verdict-package.md": "9499eb7736ee1ba0099fc669537279e52db4363b4baa0ad2b5a19b464d388e87"
   },
-  "updated": "2026-10-24T06:08:45.273230+00:00"
+  "updated": "2026-10-24T15:23:48.581048+00:00"
 }

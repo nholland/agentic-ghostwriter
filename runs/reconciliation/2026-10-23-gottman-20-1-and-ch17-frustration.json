@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-23T11:25:09.049806+00:00",
+  "subjects": [
+    "intake:gottman-20-1-2026-10-23"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/gottman-20-to-1-everyday-positive-negative-ratio.md",
+    "books/the-stoic-husband/okf/frameworks/the-bodys-request-and-the-minds-verdict.md"
+  ],
+  "authority": "Author, 2026-10-23: 'File 20-1 as unverified. Add to inbox to research it. We will research frustration in 17.'",
+  "reason": "Filed the 20-to-1 ratio as an unverified citation (search-synthesis only); recorded the Chapter 17 frustration-research decision; inbox #141 and #142; citation queue regenerated",
+  "files": {
+    "books/the-stoic-husband/okf/citations/gottman-20-to-1-everyday-positive-negative-ratio.md": "ad282508e8bd1276b63b87ec4ac6a23e2a614efde6577c5423fc4633d924e67d",
+    "books/the-stoic-husband/okf/frameworks/the-bodys-request-and-the-minds-verdict.md": "34d92716ac216256b9c3dcf16ecf20bf297fcc6e3182bce09af4a35e6ed835c0",
+    "books/the-stoic-husband/okf/index.md": "607fa19deaee7247244dd4a84362bc1c8bcf75272941179f15832894dd43fee7",
+    "books/the-stoic-husband/okf/log.md": "c8e7106fcc98854a7631aaaf7f57638916b2604d7032a6cba5de9d2174e169cc",
+    "books/the-stoic-husband/citation-queue.md": "e5e4fafe3c3d6bf7aa435a6130da5f977e14439ff0df18ca67bc198f3ab35614"
+  }
+}

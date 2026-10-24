@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-22T20:15:40.173989+00:00",
+  "subjects": [
+    "intake:attachment-aversion-2026-10-22"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-bodys-request-and-the-minds-verdict.md"
+  ],
+  "authority": "Author, 2026-10-22: his account of the friend conversation, his request for Stoic connections, and 'Approved' to filing",
+  "reason": "New framework from the author's attachment/aversion discussion; Stoic sources are unchecked leads; friend unnamed",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-bodys-request-and-the-minds-verdict.md": "676094db95d8dc28dc4b9f332273b78893285d3132c0bd165d021074a24a07b6",
+    "books/the-stoic-husband/okf/index.md": "48c16aec257c37f13779d7fe14b41b7c421ee2002f05a09926fbab981049a186",
+    "books/the-stoic-husband/okf/log.md": "bd8524b890f2546033de1c0b0d224ee36df45474a85c913b942e824863e20a39"
+  }
+}

@@ -12,7 +12,7 @@ Verdict: **pass with essential findings** (two plainly-correct line fixes, resol
 5. KP1 near-repeats Ch6 (her remark as overload; a yes/no laziness self-check). Keep, nod to Ch6, or trim: his call. The outline requires KP1.
 6. Ch12 L45-57 argues help that starts with her naming the task leaves her keeping track; Ch15's moves come after the zing, and her line is "I shouldn't have to tell you what to do". A reader of both may notice the close sends him to help only after she asks. "They are acts of service, but that isn't why they're kind" does not contradict Ch12.
 7. "verdict": Ch6 uses it for her judgement of him; Ch15 for her state. Matches the OKF framework title, so likely his.
-8. "Would you rather be right?..." is not in Ch5 yet; reads as a first mention. If inbox 141 adds it to Ch5 this becomes the callback; recheck then.
+8. "Would you rather be right?..." is not in Ch5 yet; reads as a first mention. If inbox 155 adds it to Ch5 this becomes the callback; recheck then.
 
 ## Clean
 "Zing", "worst/best part of somebody's day" and "chess/checkers" appear in no other chapter; each is introduced as new. "Tell her I see her" fits Ch14. Gordon (the association "disappeared" for those who felt appreciated, so "The exception" is accurate), Impett with the dating-couple caveat, Meditations I.9 and the philostorgia gloss match the research record. "In his study of anger" matches Ch4's gloss. No invented foils, windups or jargon; no wife-as-threat wording.

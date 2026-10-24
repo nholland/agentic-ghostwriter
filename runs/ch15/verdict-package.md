@@ -23,7 +23,7 @@
 10. **Overlap with Chapter 6.** Her remark as overload and the laziness self-check appear there too. The outline requires it here.
 
 ## Deviations from the outline (all declared)
-(a) "absorb" written as "stay steady yourself". (b) "moves" written as "responses"; "I see you" kept as "tell her I see her". (c) the sun does not appear. (d) only De Beneficiis II.1, not II.2. (e) philostorgia glossed "family love", "anchor word" not printed. (f) your own words for the Saturday scene. (g) "Most husbands have only checked the floor" not printed. (h) floor and ceiling are structure, not printed. (i) the long-game sentence is carried in meaning. (j) "pour" written plainly. (k) "answer each exchange", not "win". (l) "right or married" is a first printing, "I tell people" (inbox 141). (m) the chore stays unnamed. (n) no Chapter 16 transition. (o) opening. (p) ah-ha.
+(a) "absorb" written as "stay steady yourself". (b) "moves" written as "responses"; "I see you" kept as "tell her I see her". (c) the sun does not appear. (d) only De Beneficiis II.1, not II.2. (e) philostorgia glossed "family love", "anchor word" not printed. (f) your own words for the Saturday scene. (g) "Most husbands have only checked the floor" not printed. (h) floor and ceiling are structure, not printed. (i) the long-game sentence is carried in meaning. (j) "pour" written plainly. (k) "answer each exchange", not "win". (l) "right or married" is a first printing, "I tell people" (inbox 155). (m) the chore stays unnamed. (n) no Chapter 16 transition. (o) opening. (p) ah-ha.
 
 ## Not yet done
 Fact-Checker queue (#150). Nothing is marked verified. Nothing is committed, pushed or landed.

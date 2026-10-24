@@ -31,7 +31,7 @@ The outline wording I applied had a few phrases the voice rules bar. The brief d
 - The quoted "I see you" becomes your own indirect "tell her I see her." Chapters 12 and 14 already use the phrase.
 - The sun image is dropped. The game (chess, checkers, the long game) is the one image, capped at five mentions.
 - Seneca II.1 only; II.2 repeats Chapter 12's "She shouldn't have to ask for everything."
-- "Right or married" is a first printing, not a callback, because the Chapter 5 edit (#141) hasn't happened. It's introduced as "I tell people."
+- "Right or married" is a first printing, not a callback, because the Chapter 5 edit (#155) hasn't happened. It's introduced as "I tell people."
 - "Floor" and "ceiling" are structure only and are never printed.
 
 ## Next

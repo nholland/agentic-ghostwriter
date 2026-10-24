@@ -58,6 +58,8 @@ research unless explicitly noted under `# Citations`.
 - [Marriage as Gratitude Under Impermanence](/frameworks/marriage-as-gratitude-under-impermanence.md) — memento mori applied to an ordinary Tuesday
 - [The Village Problem](/frameworks/the-village-problem.md) — why a cold marriage becomes catastrophic when one person is the whole village
 - [Love vs. Desire (Perel)](/frameworks/love-vs-desire-perel.md) — love wants familiarity, desire needs mystery
+- [The Needs Agreement](/frameworks/the-needs-agreement.md) — we have needs and serve each other: set a frequency, say honestly when you are not into it, the initiator raises the bar; the one who says no owes the next initiation
+- [The Body's Request and the Mind's Verdict](/frameworks/the-bodys-request-and-the-minds-verdict.md) — wanting her has two layers, the drive and the verdict; attachment is the verdict, aversion its mirror
 - [Marriage as Community of Life (Musonius Rufus)](/frameworks/marriage-as-community-of-life.md) — perfect companionship, mutual love, shared everything
 - [Bring Steadiness, Not Superiority](/frameworks/bring-steadiness-not-superiority.md) — the governing principle for a Stoic in a mixed marriage
 - [Virtue and Happiness Are Not Enemies](/frameworks/virtue-and-happiness-are-not-enemies.md) — moral acts build the conditions for durable happiness
@@ -163,6 +165,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 - [Randall & Bodenmann (2009) — How Chronic External Stress Erodes a Relationship](/citations/randall-bodenmann-2009-stress-erodes-relationships.md) — status: verifiable — Ch11's mechanism in academic language: chronic minor stress erodes a marriage slowly and outside conscious awareness
 - [Falconier et al. (2015) — Dyadic Coping and Relationship Satisfaction Meta-Analysis](/citations/falconier-2015-dyadic-coping-meta-analysis.md) — status: verifiable — r = .45 across 72 samples, 17,856 participants
 - [Gottman — Bids for Connection and the Turning-Toward Rate (86% vs. 33%)](/citations/gottman-turning-toward-bids.md) — status: verifiable — gap: framework safe to use, figures not pinned to a primary; the "94% accuracy" claim is a known overclaim and is barred
+- [Gottman — 20-to-1 Positive-to-Negative Ratio in Everyday Interaction (and 5-to-1 in Conflict)](/citations/gottman-20-to-1-everyday-positive-negative-ratio.md) — status: unverified — gap: located by search summary only, never opened; source study unknown; keep the number out of prose
 - [Marcus Aurelius — "It Is Fortunate That This Has Happened" (Meditations 4.49)](/citations/marcus-aurelius-meditations-4-49-fortunate-not-shattered.md) — status: unverified — Ch11's Claim 2 anchor; quote the reframe, leave the headland image behind
 - [Marcus Aurelius — "Love Only That Which Happens to Thee" (Meditations 7.57)](/citations/marcus-aurelius-meditations-7-57-love-what-happens.md) — status: verifiable — real Stoic source for the idea labelled amor fati
 - [Epictetus — "Wish the Things Which Happen to Be as They Are" (Enchiridion 8)](/citations/epictetus-enchiridion-8-wish-things-as-they-are.md) — status: verifiable — the shorter, more usable of the two amor-fati anchors
