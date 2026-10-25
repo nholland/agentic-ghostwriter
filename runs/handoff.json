@@ -198,6 +198,7 @@
     "runs/ch15/brief-checkin.md": "52c89b38503a89c176a061187c0f9885c5604790f2437d66419a3fa209e0d7ba",
     "runs/ch15/brief-checkin.pdf": "b5fbd505804b740b7ea5a0f4c9928b7702734da80f86e17b8118e5505bb2d90a",
     "runs/ch15/brief-gaps.md": "c1515bc3ecf3e4205395a7c9c6bad8eda71119d639a60f43e648dc9e3c1bb863",
+    "runs/ch15/coherence-rebuild.md": "d1696e10181905da1614d316aa59aadf3c6441c320da8861587ae8ffcb78d09e",
     "runs/ch15/coherence-refined.md": "abeb0cbe00e029ef2b91fc49b6423239867e7ba8e832763bd60d8c94e58457b9",
     "runs/ch15/coldread-refined.md": "43ec7a772908554639373c999c89e886d2e0451594297b4652b5565c7cc93e05",
     "runs/ch15/conformance-refined.md": "12056e144f5631e5ddb7e3157105236a3e7d27ba471ade212cde2bedf306efd2",
@@ -214,6 +215,7 @@
     "runs/ch15/outline-proposal.md": "b36ac454ed0a8eea5e0ae2f6f422f59f3f6efacb059470c4f33aa7f39bff2e30",
     "runs/ch15/outline-proposal.pdf": "776fc3de935d07788a8db0d1eee16264c54f41ed2b76281ecf55b1ea881b70d6",
     "runs/ch15/persona-final-and-distinctness.md": "0ae96a4cb0fdab5b5a096211048e625a050d8fac5885b770cc34313e64bbfa93",
+    "runs/ch15/persona-rebuild.md": "f8ccd37dd719d6fd1da415f759d3dc85e8fb47b47789f9a10e9b2bf08dbd9402",
     "runs/ch15/persona-refined.md": "54224800008cb97e435ef827511e063fa3d0ea85972920ff433eb2b2d7f3c7d8",
     "runs/ch15/plan-review-round-1.md": "a4ed9d8a76e617a88b4f63244cdce168e1e8c60b218f6d795d52ff05514ca4d1",
     "runs/ch15/plan-review.md": "87bebe87dc28db0faac859d974270a7cf6f97d7db8e580ebc1e3e9cf2d9aba50",
@@ -241,5 +243,5 @@
     "runs/ch15/slop-read.md": "351b73b3a4d53119b3133b1cb9d95199084400de5aa5fe118ef58e5462a2926e",
     "runs/ch15/verdict-package.md": "7c590aec5ca5b9d1ba04169d41541a9d447eb7dc3fc739bc069f0c257c8737b1"
   },
-  "updated": "2026-10-25T15:09:11.610060+00:00"
+  "updated": "2026-10-25T15:10:33.650910+00:00"
 }

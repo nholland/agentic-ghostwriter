@@ -6,7 +6,7 @@ In an ordinary day, your warmth gets tested three ways. Meet hostility with kind
 
 ---
 
-**Meet hostility with kindness.** My family has a word for that kind of comment. We call it a zing, and there are so many in a day it's hard to keep count. A zing is a little slight, a cutting remark. It's a critique, only small.
+**Meet hostility with kindness.** My family has a word for a comment with an edge. We call it a zing, and there are so many in a day it's hard to keep count. A zing is a little slight, a cutting remark. It's a critique, only small.
 
 I didn't handle them well. Every little critique from her was met with an equal or escalated response. I had no patience, I didn't let things go, I wasn't kind. Frankly, neither was she.
 
@@ -18,11 +18,11 @@ I used to take those lines personally. Over time I realized a line like that is 
 
 When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
-The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
+The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. That reading is for you to keep, not something to say to her. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
 
 What changed for me came slowly, through experience. I started asking: who has the strength to de-escalate? Somebody has to be calm. Somebody has to be patient. Somebody has to be the one that's romantic and kind. Someone has to be the one that brings the warmth into the relationship.
 
-In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Forthwith" means at once. A zing only turns into a fight if you send one back.
+In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Forthwith" means at once. A zing rarely turns into a fight unless you send one back.
 
 So instead of zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
 
@@ -34,11 +34,11 @@ We have a saying in our house: "Never be the worst part of somebody's day." It's
 
 She gets fed up too, and on a weekend with a mountain of work ahead, so do you. When she's tired, you may be tired too. That's two people who are equally tired. Patience is your choice to be kind anyway.
 
-Patience lives in the gap between her remark and your reply. Seneca put it in one line: "The greatest remedy for anger is delay." (*De Ira* II.29, Stewart trans.) You don't have to answer in the first second. You can roll up your sleeves first.
+Patience lives in the gap Chapter 1 named, between her remark and your reply. Seneca put it in one line: "The best corrective of anger lies in delay." (*De Ira* II.29, Basore trans.) You don't have to answer in the first second. You can roll up your sleeves first.
 
 Answering every zing is checkers. Chess means keeping your eye on the long game. When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and the mood of the entire house. I would rather have a good night of happiness with my wife than try to answer each exchange. You get to decide which of those you're after. I tell people, "Would you rather be right? Or would you rather be married?"
 
-None of this is surrender. It's my own advice to myself, learned through experience. In the moment, it comes down to one question: Are you being the best husband possible right now, at this moment, irrespective of what she is doing? That's chess.
+None of this is surrender. It's my own advice to myself, learned through experience. It comes down to Chapter 1's question, asked in the moment: Are you being the best husband possible right now, at this moment, irrespective of what she is doing?
 
 ---
 
