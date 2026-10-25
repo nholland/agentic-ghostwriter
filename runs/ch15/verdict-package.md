@@ -1,29 +1,27 @@
 # Chapter 15 verdict package: Be Patient, Be Kind
 
-2026-10-24 15:30. Read the chapter first (from page 3). Your calls are on page 2. This replaces the earlier package.
+2026-10-25 01:14. Read the chapter first (from page 3). Your calls are on page 2. This replaces the earlier packages.
 
 ## Where it stands
-- Words: 1,387. voice_check: all HARD checks pass (you-density 40.4, floor 40, a thin margin).
-- Done since the last package, at your word: the five cold-read fixes (#153) are applied; the outline's Gordon wording (#152) is changed and resolved.
-- Conformance (final text): 12 of 18 rows. Every fail is a declared deviation, a checker blind spot, or your ruling.
-- **Cold read: NOT READY, 2 findings left** (13, then 6, then 2). Both are in sentences I wrote (#157).
-- Plate: a stranger gets 2 of its 3 parts; the Designer's extra round made her lower zing too dark (#154).
-- inbox: 3 need your decision, 1 parked, 4 resolved (scripts/inbox.py --all --chapter 15).
-- The earlier work-in-progress is on main (e3d9ced). Newer commits are on the branch only.
+- Words: 1,384. voice_check: all HARD checks pass (you-density 40.5, floor 40, a thin margin).
+- Done at your word ("Fix all"): the three #157 fixes are applied (the cruelty sentence, "Compassion is part of kindness", the label); the ah-ha, the limit sentence and the opening are confirmed; the plate had its extra round.
+- Conformance (final text): 11 of 17 rows. Every fail is a declared deviation, a checker blind spot, or your ruling.
+- **Cold read: NOT READY, three findings** (13, 6, 2, 3). Two came from my own last edits; I stopped looping (#158).
+- Plate: a stranger gets 2 of its 3 parts; its biggest confusion is the arc's direction (#154).
+- inbox: 4 need your decision, 1 parked, 4 resolved (scripts/inbox.py --all --chapter 15).
+- On main: e3d9ced (the Chapter 15 working state). On the branch only: the outline change, the cold-read fixes, plate rounds, these files.
 
-## Your calls, in order of weight
-1. **#157, my two small fixes and one label.** "that's a bigger problem" -> "Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer." "Compassion is part of it" -> "Compassion is part of kindness". The section label "Off her plate." clashes with Chapter 14's "The plate in front of you." Recommend "Taken off her." Recommend: apply all three.
-2. **The ah-ha is my wording, not yours.** "For a long time I answered every zing. I should have been asking whether I was the best part of her day." Confirm, or give me yours.
-3. **The limit sentence is my wording, in your voice** (reworded by #157). Keep, change, or cut.
-4. **#154, plate.** One more pass: lighten her lower zing and give "Was I the best part of her day?" an owner. Or take it as drawn.
-5. **Opening changed at your word.** The Chapter 14 recap is gone; it opens on "Your kindness usually slips first over something small." Deviation (o).
-6. **Your lines the readers stumbled on** (no edits proposed): "you use what rewards" (reward never named); "a verdict on how stressed and overworked she is" (reads as her verdict on you); "these are normally things that she does" (fits the chore, not the foot rub or the listening); "my own advice to myself" ("and other me" was your phrase); the tantrum line.
-7. **Tension.** The turn ("who has the strength to de-escalate") comes early, and your own zing back is told, never shown.
-8. **The close.** "before you open your mouth" can read as "stay quiet" to a man who withdraws.
-9. **Overlap with Chapter 6.** Her remark as overload and the laziness self-check appear there too. The outline requires it here.
+## Your calls
+1. **#158, the section label.** Three readers flagged three labels. My pick: "Taken off her plate." Also: "Letting a zing go doesn't mean doing whatever she says" -> "Letting a zing go isn't giving in. The help is something you choose." (it touches your not-surrender point, so check it against what you meant). Leave the cruelty sentence as it is.
+2. **#154, plate arc.** The thick arc runs her to you, the same way as her zings; a defensive man reads "she hands me her chores too". Start it from YOU, or keep it so "off her plate" is literally true.
+3. **Your wording, still unanswered:** what was the reward in "you use what rewards"? Being right, winning the exchange, something else? I will not guess.
+4. **Your lines the readers stumbled on** (no edits proposed): "a verdict on how stressed and overworked she is"; "these are normally things that she does" (fits the chore, not the foot rub or the listening); "my own advice to myself"; the tantrum line.
+5. **Tension.** Your own zing back is told, never shown. A short example would have to be yours.
+6. **The close** can read as "stay quiet" to a man who withdraws. Leave it.
+7. **Overlap with Chapter 6** is required by the outline. Leave it.
 
 ## Deviations from the outline (all declared)
-(a) "absorb" written as "stay steady yourself". (b) "moves" written as "responses"; "I see you" kept as "tell her I see her". (c) the sun does not appear. (d) only De Beneficiis II.1, not II.2. (e) philostorgia glossed "family love", "anchor word" not printed. (f) your own words for the Saturday scene. (g) "Most husbands have only checked the floor" not printed. (h) floor and ceiling are structure, not printed. (i) the long-game sentence is carried in meaning. (j) "pour" written plainly. (k) "answer each exchange", not "win". (l) "right or married" is a first printing, "I tell people" (inbox 155). (m) the chore stays unnamed. (n) no Chapter 16 transition. (o) opening. (p) ah-ha.
+(a) "absorb" written as "stay steady yourself". (b) "moves" written as "responses"; "I see you" kept as "tell her I see her". (c) the sun does not appear. (d) only De Beneficiis II.1, not II.2. (e) philostorgia glossed "family love". (f) your own words for the Saturday scene. (g) "Most husbands have only checked the floor" not printed. (h) floor and ceiling are structure, not printed. (i) the long-game sentence is carried in meaning. (j) "pour" written plainly. (k) "answer each exchange", not "win". (l) "right or married" is a first printing (inbox 155). (m) the chore stays unnamed. (n) no Chapter 16 transition. (o) opening. (p) ah-ha.
 
 ## Not yet done
 Fact-Checker queue (#150). Nothing is marked verified. The chapter is not landed in books/; that needs your verdict.
@@ -74,11 +72,11 @@ When I let the zings go and give her kindness instead, it has an incredible impa
 
 None of this is surrender. Letting a zing go doesn't mean doing whatever she says. I learned that difference through experience, and it's my own advice to myself.
 
-If the remarks turn cruel, from either of you, letting them go isn't the answer, and that's a bigger problem than a zing.
+Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer.
 
 ---
 
-**Off her plate.** You can be home all weekend and still not be kind. As I see it, being kind is different than just being there. Being kind is when you need to show patience. You need to show understanding. It's trying your best to make someone's day better.
+**Taken off her.** You can be home all weekend and still not be kind. As I see it, being kind is different than just being there. Being kind is when you need to show patience. You need to show understanding. It's trying your best to make someone's day better.
 
 When she's tired, you may be tired too. That's two people who are equally tired. Kindness is what you choose to do anyway.
 
@@ -100,7 +98,7 @@ In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he lear
 
 That pairing of calm and warm is what kindness looks like in your home. It shows up in the small friction of an ordinary day.
 
-Compassion is part of it: you see her load, you act on it, and you stay steady yourself.
+Compassion is part of kindness: you see her load, you act on it, and you stay steady yourself.
 
 So ask yourself, each day: "Was I the best part of her day?"
 

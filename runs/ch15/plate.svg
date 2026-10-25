@@ -1,14 +1,15 @@
-<!-- Chapter 15 plate, revision 2 (concept A, "It takes two"), the
+<!-- Chapter 15 plate, revision 3 (round-3 read, inbox #154, "Fix all"); was revision 2 (concept A, "It takes two"), the
      author-authorised extra round (inbox #154) on four drawing problems from
      the round-2 standalone read, runs/ch15/plate-read.md.
      Carrier: the shape of his reply. Above, quietly, the exchange the chapter
      confesses: her little zings stay small, and each one he sends back is
      bigger than the last, glossed beside his own replies. The rule between
      the halves is labelled "instead of zinging her back". Below, the same
-     small zing, drawn in its own ink and bracketed to "how she's feeling on
-     the inside", and nothing jagged goes back: one heavy smooth arc lifts a
+     small zing, in the same faint ink as her first, bracketed to "how she's
+     feeling on the inside", and nothing jagged goes back: one heavy smooth arc lifts a
      chore that's usually hers (dashed, where it was) off her side and across
-     to him, ending at START HELPING and the chapter's own question.
+     to him, ending at START HELPING and, under it in his ink, his own
+     question from the chapter.
      Mirrored on the 320 axis: her post at 205, his at 435. Line weights:
      1.4 quiet, 2 standard, 3.2 carrier. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 566" style="color:#1a1a1a" role="img" aria-label="Kindness answers the zing">
@@ -22,7 +23,7 @@
     .capl{font:italic 14px Georgia,serif;text-anchor:start;opacity:.85}
     .capf{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.85}
     .capd{font:italic 12.5px Georgia,serif;text-anchor:middle;opacity:.62}
-    .capq{font:italic 13px Georgia,serif;text-anchor:middle}
+    .capq{font:italic 600 13.5px Georgia,serif;text-anchor:middle}
   </style>
 
   <rect x="0" y="0" width="640" height="566" fill="#ffffff"/>
@@ -71,16 +72,16 @@
     <text class="lblr" x="320" y="296.5">INSTEAD OF ZINGING HER BACK</text>
   </g>
 
-  <!-- the same small zing, in its own ink, bracketed to what it tells you -->
+  <!-- the same small zing, in the same faint ink as her first, bracketed to what it tells you -->
   <g fill="currentColor">
     <text class="capf" x="320" y="322">how she's feeling on the inside</text>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" opacity=".55">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" opacity=".38">
     <path d="M215 335V329H425V335"/>
   </g>
-  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity=".85">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".38">
     <path d="M205 344l23 -5l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 5"/>
-    <path d="M423 338l12 6l-12 6"/>
+    <path d="M425 338l10 6l-10 6"/>
   </g>
 
   <!-- where the chore was, on her side -->
@@ -102,7 +103,7 @@
   <g fill="currentColor">
     <text class="lbls" x="320" y="396">OFF HER PLATE</text>
     <text class="lbls" x="435" y="482">START HELPING</text>
-    <text class="capq" x="435" y="502">Was I the best part of her day?</text>
+    <text class="capq" x="435" y="500">“Was I the best part of her day?”</text>
     <text class="cap" x="320" y="542">Roll up your sleeves before you open your mouth.</text>
   </g>
 </svg>

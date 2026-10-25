@@ -42,11 +42,11 @@ When I let the zings go and give her kindness instead, it has an incredible impa
 
 None of this is surrender. Letting a zing go doesn't mean doing whatever she says. I learned that difference through experience, and it's my own advice to myself.
 
-If the remarks turn cruel, from either of you, letting them go isn't the answer, and that's a bigger problem than a zing.
+Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer.
 
 ---
 
-**Off her plate.** You can be home all weekend and still not be kind. As I see it, being kind is different than just being there. Being kind is when you need to show patience. You need to show understanding. It's trying your best to make someone's day better.
+**Taken off her.** You can be home all weekend and still not be kind. As I see it, being kind is different than just being there. Being kind is when you need to show patience. You need to show understanding. It's trying your best to make someone's day better.
 
 When she's tired, you may be tired too. That's two people who are equally tired. Kindness is what you choose to do anyway.
 
@@ -68,7 +68,7 @@ In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he lear
 
 That pairing of calm and warm is what kindness looks like in your home. It shows up in the small friction of an ordinary day.
 
-Compassion is part of it: you see her load, you act on it, and you stay steady yourself.
+Compassion is part of kindness: you see her load, you act on it, and you stay steady yourself.
 
 So ask yourself, each day: "Was I the best part of her day?"
 
@@ -157,22 +157,30 @@ Line Editor desk (gw-lineeditor), cold. Clock read 2026-10-24 04:59. Read: `01-v
 46. **Practice 3, in the distillation and in this chapter's practice-guide section (identical).** "When the answer is no, take over one chore ..." became "Take over one chore that's usually hers, and do it gladly." The **Proactive.** tag is kept. This was an in-place edit of the Chapter 15 section only, on the author's word; I checked by diff that no other chapter's section changed. practice_sync 15: PASS, 3 practice(s) identical.
 47. **Counts.** Direct address is 40.4 per 1,000 after item 44 removed "you have/you haven't". That is still above the floor of 40, so nothing was restored. The margin is thin: any later cut of a "you" should be counted first.
 
+**Inbox #157 round, 2026-10-25 01:10.** The Publisher relayed the author's "Fix all" (2026-10-25). Three edits, made exactly as specified, and nothing else.
+
+48. **Limit sentence (supersedes item 27's wording).** "If the remarks turn cruel, from either of you, letting them go isn't the answer, and that's a bigger problem than a zing." became "Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer." It is still a standalone one-sentence paragraph in the same place, 19 words. The script's "34w" joins it, across the divider, to the next section's label and first sentence.
+49. **Compassion line.** "Compassion is part of it:" became "Compassion is part of kindness:", which names what "it" was. Still one sentence, and still the chapter's one line on compassion.
+50. **Section label (supersedes item 29).** "**Off her plate.**" became "**Taken off her.**", in the same position and still a bolded run-in header. The prose's "off her plate" phrases are unchanged. The distillation's mechanism sentence uses "off her plate" as general wording, not as a quotation of the label, so it is unchanged.
+51. **Author's confirmation, 2026-10-25 (relayed by the Publisher).** The author confirmed the ah-ha ("For a long time I answered every zing. I should have been asking whether I was the best part of her day."), the limit sentence as reworded in item 48, and the opening ("Your kindness usually slips first over something small. ..."). This closes the "author has not confirmed" flags in items 22, 24, 27 and 28 for those three passages. Deviation (o) stands as recorded in item 21.
+52. **Counts and sync.** Direct address is 40.5 per 1,000, above the floor of 40, so nothing was restored. Neither the distillation nor the Chapter 15 practice-guide section quotes a changed sentence, so neither changed. practice_sync 15 was re-run as a check and passed.
+
 ### Pass 4, counted (script output, verbatim, run on this file)
 
 ```
 voice_check: refined.md
-  1387 words of prose, 114 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 3686}
+  1384 words of prose, 114 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 3979}
 
   HARD (literal counts - a FAIL here is a fact)
     [ok  ] em-dash                  0 in prose (cap 0)
     [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 5 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
     [ok  ] long-sentence share      6/114 sentences at 25+ words = 5.3% (cap 10%)
-             37w: If the remarks turn cruel, from either of you, letting them go isn't the answer, and that's a bigger problem t...
+             34w: Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer. **T...
              29w: A sharper answer is the quickest way to be the worst part of her day. **What she's carrying.** One kind of zin...
              27w: When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and th...
-    [ok  ] you-density              56 direct-address words in 1387 = 40.4 per 1,000 (floor 40)
-    [ok  ] metaphor family          4 mentions in 1387 words = 2.9 per 1,000 (cap 5); {'chess': 1, 'checkers': 1, 'game': 2}
+    [ok  ] you-density              56 direct-address words in 1384 = 40.5 per 1,000 (floor 40)
+    [ok  ] metaphor family          4 mentions in 1384 words = 2.9 per 1,000 (cap 5); {'chess': 1, 'checkers': 1, 'game': 2}
 
   CAND (needs a read - a clear line here is not a pass)
     [clear ] single ending            final sentence 14 words, shares 1 words with the previous one. Close: 'When the next zing lands, roll up your sleeves before you open your mouth.'

@@ -1,16 +1,13 @@
-When she takes a little shot at you, don't fire back harder; read it as how she's feeling inside, and take a chore off her plate instead.
+When she takes a small dig at you, don't hit back harder; treat the dig as a sign of how she's feeling and take a chore off her plate.
 
-**Thick arc:** clear. It runs from "a chore that's usually hers" (her side) over OFF HER PLATE and lands, arrowhead down, on START HELPING (your side). A chore moves from her to you. No ambiguity.
+**Thick arc:** I read it as running from her to you. It starts at the dot on her line, by "a chore that's usually hers", goes over "OFF HER PLATE" and lands on YOU / START HELPING. The chore moves from her side to yours. I got that in one look.
 
-**Blame:** neither outright, but it leans toward "she starts it." Both opening zigzags come from HER. The bigger ones are yours, so the escalation is on you; the first shot is hers.
+**Blame:** Mostly neither. If anything it leans toward me: her zigzags stay small and mine get bigger, so I'm the one escalating. I think that's intended.
 
-**What confuses or reads wrong (6):**
+**What confuses me or reads wrong (5):**
 
-1. The bottom zigzag ("how she's feeling on the inside") is the darkest, thickest zigzag on the plate. It reads as a harder hit than the top ones. Draw it lighter or dashed, not heavier.
-2. That same zigzag points her-to-you like the slights do. I can't tell at a glance whether it's the same slight seen differently or a new thing she sends. The bracket helps a little. Put it level with the first slight, or draw it in the same light grey as the top-row slight, so it reads as the same arrow reinterpreted.
-3. "Was I the best part of her day?" floats under START HELPING with no owner. Is it his question or hers? On a phone it could read as sarcasm. Mark it as his question, or cut it.
-4. "a chore that's usually hers" invites the defensive reading "it's her job, so I'm doing her a favor." The word "usually" carries that.
-5. Skeptic's misreading: she snipes first, and the answer is that he does her chores. The plate shows nothing coming back to him. That's a finding for the text, not necessarily for the drawing.
-6. The title says KINDNESS, but kindness isn't drawn anywhere; what's drawn is a chore. Minor, and the footer line covers it.
-
-I'd skip nothing. The top four zigzags read instantly as escalation.
+1. **Skeptic's misreading: the arc points the same way as her zings.** Every her-to-you arrow above it is an attack, and the arc also goes her to you. A defensive man could read "she zings me, then hands me her chores too." Fix: draw the arc from YOU reaching over to collect the chore and carry it back, with the arrowhead at the YOU end, so the action starts with him.
+2. **The bracket over the lower zigzag.** It doesn't touch the arrow, so it could be marking the gap between us and not the remark. Cut the bracket and set "how she's feeling on the inside" directly above the zigzag, like "a little slight, a cutting remark" at the top.
+3. **"an equal or escalated response" only sits next to the bottom dark zigzag.** It isn't clear that it also covers the first dark one. Move the label up so it sits between the two dark zigzags, or add a small brace on the right covering both.
+4. **"Was I the best part of her day?"** is a second idea under START HELPING, and I'd skip it in ten seconds. I can't tell whose question it is or how it connects to the arc. Cut it, or make it smaller and grey so it doesn't compete with START HELPING.
+5. **"a chore that's usually hers" in a dashed box** could read as the plate saying chores are her job by default. Minor. The dashed outline does say "gone from her side", so it works. Just don't make the dashing any lighter.
