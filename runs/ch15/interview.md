@@ -248,3 +248,14 @@ long-game practice, "my own advice to myself and other me, learned through exper
 (Rounds 5-6); the chapter now covers the whole household, not only the wife. What
 it changed: the spine moved from "saving kindness for when she earns it" to floor and
 ceiling (Round 6, Q1).
+
+## Round 7 — 2026-10-25 14:58 (during /gw-edit 15, after section 1 was applied)
+
+Author's words, verbatim:
+
+> This is the sun ark and it is supposed to be about giving warmth and love. How can we adjust the chapter to better deliver that concept.
+> The idea was to meet hostility with kindness, frustration with patients, disconnection with warmth
+
+("ark" and "patients" are the author's typing, kept verbatim; context reads "arc" and "patience".)
+
+Publisher's reading, for the author to confirm: a new spine of three pairs, each a thing he meets in ordinary days and what he answers it with. This would replace the Round 6 Q1 "A" (floor and ceiling) as the organising spine; floor and ceiling would survive as the frame (the saying opens and closes). Not applied until he says so.
