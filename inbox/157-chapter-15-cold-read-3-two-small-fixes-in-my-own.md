@@ -1,9 +1,11 @@
 ---
 id: 157
-status: open
+status: resolved
 raised_by: gw-slopreader
 chapter: 15
 opened: 2026-10-24 15:29
+resolved: 2026-10-25 21:42
+okf_receipt: runs/reconciliation/2026-10-25-ch15-landed-files.json
 ---
 
 # Chapter 15 cold read #3: two small fixes in my own wording, plus the 'Off her plate.' label clashes with Chapter 14. Apply them?
@@ -19,3 +21,5 @@ scratchpad conf7 prose.md lines 45, 49, 71: L45 'If the remarks turn cruel, from
 ```
 
 **What unblocks this:** Whether the Line Editor applies fixes 1-2 and the label choice; the cold read must then run once more before the chapter is called ready
+
+**Resolution (2026-10-25 21:42):** Superseded by the 2026-10-25 rebuild; the section labels are now the author's three pairs. Approved.

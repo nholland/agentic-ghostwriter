@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-10-25T21:42:16.449978+00:00",
+  "subjects": [
+    "chapter:ch15"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/meet-hostility-frustration-disconnection.md",
+    "books/the-stoic-husband/okf/stories/the-vortex.md",
+    "books/the-stoic-husband/okf/stories/coming-home-into-the-tension.md"
+  ],
+  "authority": "The author, 2026-10-25: 'Commit to main' / 'Yes, approved'",
+  "reason": "Chapter knowledge (three-pair spine, vortex, Saturday pattern) already captured in OKF this session; landing adds no new fact.",
+  "files": {
+    "runs/ch15/refined.md": "27ba5ab93dd6e38683fcb41aa53722e5a0ce4f5cbb977b0e0730ec78cac360d4",
+    "runs/ch15/distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1",
+    "runs/ch15/verdict.md": "beb982a3564528cc4c8ea8b3a5e1eef14fded82fa812c0eb134d6d93c0520236"
+  }
+}

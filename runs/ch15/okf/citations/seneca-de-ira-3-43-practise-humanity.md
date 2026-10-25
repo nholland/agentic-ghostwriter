@@ -51,3 +51,5 @@ A candidate concrete image for the whole chapter (bull and bear), if the author 
 - One-image cap: the author chooses one image or none (research-premise section 11, item 9).
 - The bull-and-bear image casts the couple as beasts in an arena; check against the 01-voice.md threat rule before use. (Staging note, not from the research file.)
 - House-edition gap: 06-sources.md sets no edition for Seneca's dialogues. Stewart 1889 is public domain; Ch4 printed De Ira as Basore. The author should rule before a dialogue is quoted (inbox candidate in both research passes).
+
+House edition: ruled 2026-10-24 (author, "A", inbox #149): Basore (Loeb, Moral Essays I, 1928). The Stewart wording above is the earlier read, kept for the record; re-read this passage in Basore before it is quoted. Not yet re-read in Basore.

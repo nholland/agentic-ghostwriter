@@ -85,3 +85,9 @@
 1. **Proactive.** Before bed each night, write down one thing you valued about your wife that day. Name something you actually noticed. If nothing comes to mind, pay attention tomorrow instead of inventing praise.
 2. **Reactive.** When you notice something you appreciate about her, tell her what you saw and why it mattered to you. Let your thanks stand without requiring a particular response.
 3. **Reactive.** When a passing comparison becomes a complaint about your wife, ask whether meeting this new condition would satisfy you. Recall something you value about the whole person she is.
+
+## Chapter 15 — Be Patient, Be Kind
+
+1. **Reactive.** When she makes a small, cutting remark, don't send a sharper one back. Ask yourself whether it's true. If it is, fix it. If it isn't, let it go. Then ask what the remark tells you about how she's feeling.
+2. **Reactive.** When you're both fed up and a sharp comment comes about the things that need doing, don't answer in the first second. Start helping first. Then give her a hug, tell her what you see her carrying, and ask what would make her day lighter.
+3. **Proactive.** Every day, ask yourself whether you were the best part of her day. Take over one chore that's usually hers, or give her time to talk about her day.

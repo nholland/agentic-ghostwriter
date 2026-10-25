@@ -54,3 +54,13 @@ Slowness to anger (outline key point 1) and the benefit of the doubt (key point 
 
 - REUSE: Ch1's three-second gap overlaps 'delay'.
 - House-edition gap: 06-sources.md sets no edition for Seneca's dialogues. Stewart 1889 is public domain; Ch4 printed De Ira as Basore. The author should rule before a dialogue is quoted (inbox candidate in both research passes).
+
+# Basore's wording, read 2026-10-24 (page-text, II.29.1 only)
+
+From the archive.org scan of Heinemann 1928 (moralessayswithe01seneuoft), OCR with noise (some letters in the scan are garbled and are read here as the evident words):
+
+> The best corrective of anger lies in delay. Beg this concession from anger at the first, not in order that it may pardon, but in order that it may judge. Its first assaults are heavy; it will leave off if it waits.
+
+(De Ira II.29, Basore's page headed "ON ANGER, II. XXVIII. 8-XXIX. 3".) Stewart's version of the first sentence is "The greatest remedy for anger is delay". III.12 has not been re-read in Basore.
+
+House edition: ruled 2026-10-24 (author, "A", inbox #149): Basore (Loeb, Moral Essays I, 1928). The Stewart wording above is the earlier read, kept for the record; re-read this passage in Basore before it is quoted.

@@ -1,0 +1,5 @@
+# Chapter 15 verdict, 2026-10-25 21:42 UTC
+
+The author's words, verbatim. On the full chapter PDF with plate E: "Commit to main". Asked whether that was also his verdict that Chapter 15 is approved, so the chapter lands first and then everything goes on main, he answered: "Yes, approved (Recommended)".
+
+Disposition: the chapter ships as it stands in runs/ch15/refined.md. That is 1,436 words of prose on his three-pair spine (interview Rounds 7-8). The voice gate passed every HARD check. The review round (panel, coherence, conformance 39/42, cold read) and the final cold read are in runs/ch15/. Plate E was installed on his word ("E is fantastic.") and its standalone read passed. Left open: the caption "let it go" stays as drawn (optional "let the remark go" not taken); the transition to Ch16 is unprinted, as in Ch13 and Ch14; and every classical quotation and Gordon 2022 are unverified until he checks his copies. Basore's De Ira II.29 wording was read from an OCR scan, so the Fact-Checker should re-read it.

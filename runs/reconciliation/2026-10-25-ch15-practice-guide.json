@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-25T21:43:56.246088+00:00",
+  "subjects": [
+    "chapter:ch15"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "land.py on the author's verdict, 2026-10-25",
+  "reason": "Chapter 15 practices appended by land.py; they restate the approved distillation.",
+  "files": {
+    "books/the-stoic-husband/appendix/practice-guide.md": "2cb6afdd4b907e81c111124f34fefb30c0c1fc8af2abbaf7bbfb29590ae378d9"
+  }
+}

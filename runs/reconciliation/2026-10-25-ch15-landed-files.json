@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-10-25T21:42:59.175194+00:00",
+  "subjects": [
+    "chapter:ch15",
+    "inbox:153",
+    "inbox:154",
+    "inbox:157",
+    "inbox:158",
+    "inbox:159",
+    "inbox:160",
+    "inbox:161"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/meet-hostility-frustration-disconnection.md"
+  ],
+  "authority": "The author, 2026-10-25: 'All yes', 'E is fantastic.', 'Commit to main' / 'Yes, approved'",
+  "reason": "Landed chapter files; the Ch15 inbox items were superseded by today's in-session rebuild and his rulings. No new book knowledge.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch15/refined.md": "5f6f602972abc3a195e1df7f6f664066961944803cb3140701bd5fab267f7b48",
+    "books/the-stoic-husband/chapters/ch15/distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1",
+    "books/the-stoic-husband/chapters/ch15/interview.md": "84e0c927fcddea9593b32ef140270d597d91a96929d80811f6be73cd2ab227e5",
+    "books/the-stoic-husband/chapters/ch15/research.md": "3c7672793f9913dea0eafc46435f0733f4275f88a8cafad5b2ad48080ea73cd3",
+    "books/the-stoic-husband/citation-queue.md": "e99c9375511f72248607fae05eb136dea18d2fac41effc1f72126774dac3da82"
+  }
+}

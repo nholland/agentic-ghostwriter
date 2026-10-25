@@ -47,6 +47,6 @@ The kindness pass rates it the best 'source of warmth' anchor: calm and affectio
 # Cautions
 
 - Ch16 (warmth-is-strength) could also want it. Pick one chapter (research-kindness E).
-- Grounding per the research file: Sextus of Chaeronea, a philosopher, Plutarch's grandson, from Long's note as reported. Not separately checked.
+- Grounding per the research file: Sextus of Chaeronea, a philosopher, Plutarch's grandson, from Long's note as reported. Checked 2026-10-24 (Ch15 brief pass): Long's own note on Sextus reads "Sextus of Chaeronea, a grandson of Plutarch, or nephew, as some say; but more probably a grandson." The staged I.9 wording matches Gutenberg #15877. Misreading trap: Long's fragment "intercourse with him" reads differently today; do not print that span.
 - 'Free from passion' must not be read as coldness; the point is the pairing.
 - Not used anywhere in the book yet (research-kindness reuse grep).

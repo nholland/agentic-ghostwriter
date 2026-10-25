@@ -59,3 +59,5 @@ The compassion-versus-empathy beat, if Ch15 keeps it. The research file names Ch
 - The ancient target is pity (misericordia), not empathy. Do not put 'empathy' or 'compassion' in Seneca's mouth.
 - KRUSE DEFECT (standing): Kruse (2025) presents an apatheia paragraph as Seneca's and it is not in De Ira (/citations/seneca-calm-not-root-out-emotions.md). Cite Kruse as Kruse's words only, or not at all (/citations/kruse-stoic-compassion-psychology-today.md). Use this concept for what Seneca actually said.
 - House-edition gap: 06-sources.md sets no edition for Seneca's dialogues. Stewart 1889 is public domain; Ch4 printed De Ira as Basore. The author should rule before a dialogue is quoted (inbox candidate in both research passes).
+
+House edition: ruled 2026-10-24 (author, "A", inbox #149): Basore (Loeb, Moral Essays I, 1928). The Stewart wording above is the earlier read, kept for the record; re-read this passage in Basore before it is quoted. Not yet re-read in Basore (De Clementia is in the same 1928 volume).

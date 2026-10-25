@@ -1,9 +1,11 @@
 ---
 id: 153
-status: open
+status: resolved
 raised_by: gw-slopreader
 chapter: 15
 opened: 2026-10-24 05:44
+resolved: 2026-10-25 21:42
+okf_receipt: runs/reconciliation/2026-10-25-ch15-landed-files.json
 ---
 
 # Chapter 15 cold read is NOT READY twice. Apply the four plain text fixes and the one distillation fix it proposes?
@@ -19,3 +21,5 @@ grep -n 'The habit made sense\|What changed for me\|If you have been\|Seneca.s a
 ```
 
 **What unblocks this:** Whether /gw-edit applies these five fixes, after which the cold read must run once more before the chapter is called ready
+
+**Resolution (2026-10-25 21:42):** Superseded: the chapter was rebuilt in session on 2026-10-25 and approved ('Yes, approved').

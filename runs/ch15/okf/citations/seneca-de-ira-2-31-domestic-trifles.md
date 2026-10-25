@@ -48,3 +48,13 @@ Anger at home specifically; outline key point 2 (stress turns small differences 
 - III.35 mentions being 'answered back by your … wife' but in a passage about slaves and clients; not usable as-is (research file). No concept staged for it.
 - Ch11 owns displaced aggression (stress turning small things into offenses).
 - House-edition gap: 06-sources.md sets no edition for Seneca's dialogues. Stewart 1889 is public domain; Ch4 printed De Ira as Basore. The author should rule before a dialogue is quoted (inbox candidate in both research passes).
+
+# Basore's wording, read 2026-10-24 (page-text)
+
+From the archive.org scan of Heinemann 1928 (moralessayswithe01seneuoft), OCR with noise:
+
+> And so we are mightily stirred by all that happens contrary to hope and expectation, and this is the only reason why in domestic affairs we are vexed by trifles, why in the case of friends we call neglect a wrong.
+
+(De Ira II.31, Latin on the facing page: "nec aliud est quare in domesticis minima offendant, in amicis iniuriam vocemus neglegentiam.")
+
+House edition: ruled 2026-10-24 (author, "A", inbox #149): Basore (Loeb, Moral Essays I, 1928). The Stewart wording above is the earlier read, kept for the record; re-read this passage in Basore before it is quoted.

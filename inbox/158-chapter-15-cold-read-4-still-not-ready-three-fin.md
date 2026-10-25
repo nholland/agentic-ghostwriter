@@ -1,9 +1,11 @@
 ---
 id: 158
-status: open
+status: resolved
 raised_by: gw-slopreader
 chapter: 15
 opened: 2026-10-25 01:13
+resolved: 2026-10-25 21:42
+okf_receipt: runs/reconciliation/2026-10-25-ch15-landed-files.json
 ---
 
 # Chapter 15 cold read #4: still NOT READY, three findings, one is a label you must choose. Three labels have each been flagged by a different reader. Which one, and the other two fixes?
@@ -19,3 +21,5 @@ scratchpad conf8 prose.md: L43 'Letting a zing go doesn't mean doing whatever sh
 ```
 
 **What unblocks this:** Which label and which wording go in; the cold read must then run once more
+
+**Resolution (2026-10-25 21:42):** Superseded by the 2026-10-25 rebuild: labels are now the three pairs; 'Letting a zing go doesn't mean doing whatever she says' restored ('All yes'); the cruel line was cut with the spine ('1 yes').
