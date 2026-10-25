@@ -11,5 +11,5 @@ In an ordinary day, your warmth gets tested three ways. The first is a zing, a s
 
 **Practice:**
 1. **Reactive.** When she makes a small, cutting remark, don't send a sharper one back. Ask yourself whether it's true. If it is, fix it. If it isn't, let it go. Then ask what the remark tells you about how she's feeling.
-2. **Reactive.** When you're both fed up and a sharp comment comes about the things that need doing, don't answer in the first second. Start helping first. Then give her a hug, tell her you see her, and ask what would make her day lighter.
+2. **Reactive.** When you're both fed up and a sharp comment comes about the things that need doing, don't answer in the first second. Start helping first. Then give her a hug, tell her what you see her carrying, and ask what would make her day lighter.
 3. **Proactive.** Every day, ask yourself whether you were the best part of her day. Take over one chore that's usually hers, or give her time to talk about her day.

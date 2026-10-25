@@ -24,7 +24,7 @@ What changed for me came slowly, through experience. I started asking: who has t
 
 In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Forthwith" means at once. A zing rarely turns into a fight unless you send one back.
 
-So instead of zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
+So instead of zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her what I see her carrying, and take a little time to find out if I can make her day lighter.
 
 We have a saying in our house: "Never be the worst part of somebody's day." It's a spot check, a way to make sure we're not unkind. A sharper answer is the quickest way to be the worst part of her day.
 
@@ -32,13 +32,13 @@ We have a saying in our house: "Never be the worst part of somebody's day." It's
 
 **Meet frustration with patience.** Feeling fed up drives faster responses and more intense reactions. You may know that from your own arguments. I know it from ours. The ironic part is that ours weren't about any one topic. I was fed up with how we argued.
 
-She gets fed up too, and on a weekend with a mountain of work ahead, so do you. When she's tired, you may be tired too. That's two people who are equally tired. Patience is your choice to be kind anyway.
+She gets fed up too, and on a weekend with a mountain of work ahead, so do you. When she's tired, you may be tired too. That's two tired people. Patience is your choice to be kind anyway.
 
 Patience lives in the gap Chapter 1 named, between her remark and your reply. Seneca put it in one line: "The best corrective of anger lies in delay." (*De Ira* II.29, Basore trans.) You don't have to answer in the first second. You can roll up your sleeves first.
 
 Answering every zing is checkers. Chess means keeping your eye on the long game. When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and the mood of the entire house. I would rather have a good night of happiness with my wife than try to answer each exchange. You get to decide which of those you're after. I tell people, "Would you rather be right? Or would you rather be married?"
 
-None of this is surrender. It's my own advice to myself, learned through experience. It comes down to Chapter 1's question, asked in the moment: Are you being the best husband possible right now, at this moment, irrespective of what she is doing?
+None of this is surrender. Letting a zing go doesn't mean doing whatever she says. This is my own advice to myself, learned through experience. It comes down to Chapter 1's question, asked in the moment: Are you being the best husband possible right now, at this moment, irrespective of what she is doing?
 
 ---
 
@@ -48,7 +48,7 @@ Warmth is how you stay out of the vortex and pull her out of it. You can be home
 
 For me, that's a foot rub when she's had a long day. It's taking over a chore that's usually hers. It's letting her talk about her day, because it's a kindness to let her speak and get things off her chest.
 
-Why are those kind? They are acts of service, but that isn't why they're kind. It's because these are normally things that she does, and I'm taking chores and work off of her plate. I'm doing something that shows I want to make her life better. You know which chores are usually hers in your house.
+Why is the chore kind? It's an act of service, her love language. And it's kind because these are normally things that she does, and I'm taking chores and work off of her plate. I'm doing something that shows I want to make her life better. You know which chores are usually hers in your house.
 
 A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. The study wasn't about husbands who help, but I read it as a reason for you to do both: help her, and let her know you see her.
 
@@ -58,7 +58,7 @@ That pairing is compassion in your home: you see her load, you act on it, and yo
 
 ---
 
-**The best part.** Our saying has a second half: "You can be the best part of somebody's day." I think a lot of men, if you asked them whether they're the best part of their wife's day, would say no.
+**The best part.** Our saying has a second half: "You can be the best part of somebody's day." If you asked yourself whether you're the best part of her day, the honest answer might be no.
 
 So ask yourself, each day: "Was I the best part of her day?"
 
@@ -176,6 +176,8 @@ Line Editor desk (gw-lineeditor), cold. Clock read 2026-10-24 04:59. Read: `01-v
 63. **Counts and sync.** Neither edit adds or removes a "you" in the prose. Direct address is in the output below. practice_sync 15 was re-run; the result is in the round report.
 
 **Rebuild round, 2026-10-25 15:10 (Publisher, in session with the author, /gw-edit 15).** Section 1 applied on "1 yes, 2 yes, 3 four lines". Spine rebuilt on the author's Round 7 direction ("meet hostility with kindness, frustration with patients, disconnection with warmth") and Round 8 ("1 yes, 3 both, use sign", plus his disconnection account). Run-in headers are now his three pairs plus "The best part." Cut: Impett, *De Beneficiis* II.1, the cruel-remarks line, the standalone compassion line, the "Animosity" gloss, "giving in or". Added: Seneca *De Ira* II.29 (Stewart; the house edition for Seneca's essays is Basore, so the Fact-Checker should pull Basore's wording for II.29); his thesis question (Round 2); "When you are the sun, people come to you to feel good" (Round 3); the vortex (Round 8). The nine desk-wording lines are listed for him in runs/ch15/edit-2026-10-25-rebuild.md, and he has not confirmed them yet. The Pass 4 output below is from before this round. The current counts are in the round report. The distillation, the practice-guide section and the plate are now stale against the new spine.
+
+**Final calls round, 2026-10-25 19:00 (Publisher, on the author's "All yes").** Five author-line changes from runs/ch15/edit-2026-10-25-final-calls.md were applied verbatim. The desk fixes from the review round came first: Basore for II.29, "rarely ... unless", "That reading is for you to keep", the Chapter 1 pointers, cutting "That's chess.", and "a comment with an edge". The round-2 cold read found two small issues, both fixed: "This is my own advice" and "her love language. And it's kind because". The cold read has now had its two rounds, so it does not run again (Rule 6). Distillation practice 2 and the practice guide now say "tell her what you see her carrying"; practice_sync is PASS. The stale "Declared deviations" (c) and (d) below are superseded: the sun appears once, in his line "When you are the sun", and *De Beneficiis* is no longer quoted.
 
 ### Pass 4, counted (script output, verbatim, run on this file)
 

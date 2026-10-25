@@ -1,20 +1,20 @@
 {
   "inputs": {
-    "refined.md": "f25028a47dfd2a1718ffacabf46c183ec6fbdcae24067775f61c5576dc51e2ad",
-    "distillation.md": "88bc61402b61b1c70a0eaa24852869187670fa226a83a5e3efd33a7c36bd5c12"
+    "refined.md": "27ba5ab93dd6e38683fcb41aa53722e5a0ce4f5cbb977b0e0730ec78cac360d4",
+    "distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1"
   },
   "reviews": {
     "personas": {
       "status": "pass",
-      "report": "persona-refined.md",
-      "sha256": "54224800008cb97e435ef827511e063fa3d0ea85972920ff433eb2b2d7f3c7d8",
-      "scope": "gw-panel, one chapter, no whole-book reread, no plate. Read refined.md as of 05:36 on 2026-10-24 (1,384 words), distillation, premise, voice, audience. Its three essential findings were fixed in the Line Editor's fix round. The panel did not re-read the final text; the fixes since (five cold-read edits at the author's word) were re-read by a fresh cold reader and a fresh Conformance Checker. Author's calls carried to the verdict."
+      "report": "persona-rebuild.md",
+      "sha256": "f8ccd37dd719d6fd1da415f759d3dc85e8fb47b47789f9a10e9b2bf08dbd9402",
+      "scope": "gw-panel, one round on the 2026-10-25 rebuild (three-pair spine). Read Ch15 prose, 02-audience.md, outline Ch15-16, Ch6 in full; Ch8/12/14 by grep only. Four essentials: #1 'you're just stressed' and #3 the Seneca overclaim fixed by desk lines; #2 surrender and #4 'equally tired' resolved by the author ('All yes'). Re-read after fixes: final cold read on the changed sentences only."
     },
     "coherence": {
       "status": "pass",
-      "report": "coherence-refined.md",
-      "sha256": "abeb0cbe00e029ef2b91fc49b6423239867e7ba8e832763bd60d8c94e58457b9",
-      "scope": "gw-slopreader, scoped: Ch15 prose against Ch6 (L1-60), grep of Ch2, 4, 5, 12, 14; claims against research.md; outline. Not read: OKF concepts, Ch2 homecoming scene, interview in full. Its two plain fixes were applied; later edits were not re-reviewed for coherence, only cold-read and conformance-checked (inbox #157 carries what the third cold read still found). Author's calls carried to the verdict. Distinctness from neighbouring chapters was reviewed separately on the final text (persona-final-and-distinctness.md); its recommendation was applied at the author's word ('Middle')."
+      "report": "coherence-rebuild.md",
+      "sha256": "d1696e10181905da1614d316aa59aadf3c6441c320da8861587ae8ffcb78d09e",
+      "scope": "gw-slopreader, one round on the rebuild. Read Ch15 prose, 01-voice.md, outline Ch12-16, Ch6/8/14 in full, Ch4 L1-70; Ch1/5/12 by grep. Five essentials: the translator and the Chapter 1 pointers fixed by the desk; negative social proof, acts of service and 'I see you' resolved by the author ('All yes'). Transition to Ch16 is unprinted, as in Ch13 and Ch14."
     }
   },
   "deferred": []
