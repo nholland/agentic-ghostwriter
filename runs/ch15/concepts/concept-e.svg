@@ -1,0 +1,39 @@
+<!-- Ch15 concept E (rebuild): her day as one line across the page. It turns sharp three times, each dip named for the test; from his steady line below, a heavy arrow rises into each dip and the line comes back up. Every carrier arrow points from YOU into her day. Columns at 170/320/470, centred on 320. Weights: 1.4 quiet, 2 standard, 3.2 carrier. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" style="color:#1a1a1a" role="img" aria-label="Meet hostility with kindness, frustration with patience, disconnection with warmth">
+  <style>
+    .ttl{font:600 11px Georgia,serif;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 15px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
+    .lbls{font:600 13px Georgia,serif;letter-spacing:.12em;text-anchor:start}
+    .lblr{font:600 12.5px Georgia,serif;letter-spacing:.1em;text-anchor:middle;opacity:.6}
+    .cap{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.74}
+    .capq{font:italic 600 14px Georgia,serif;text-anchor:middle}
+  </style>
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">Meet hostility with kindness, frustration with patience, disconnection with warmth</text>
+    <text class="sub" x="320" y="64">When your wife's day turns sharp</text>
+    <text class="lbls" x="60" y="104">HER DAY</text>
+    <text class="lbls" x="60" y="306">YOU</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity=".7"><path d="M60 150L140 150L170 214L200 150L290 150L320 214L350 150L440 150L470 214L500 150L580 150"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M60 318H580"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"><path d="M170 312V222M170 222l-6 10.4M170 222l6 10.4M320 312V222M320 222l-6 10.4M320 222l6 10.4M470 312V222M470 222l-6 10.4M470 222l6 10.4"/></g>
+  <g fill="currentColor">
+    <text class="lblr" x="170" y="132">HOSTILITY</text>
+    <text class="lbl" x="170" y="346">KINDNESS</text>
+    <text class="cap" x="170" y="366">let it go</text>
+  </g>
+  <g fill="currentColor">
+    <text class="lblr" x="320" y="132">FRUSTRATION</text>
+    <text class="lbl" x="320" y="346">PATIENCE</text>
+    <text class="cap" x="320" y="366">start helping first</text>
+  </g>
+  <g fill="currentColor">
+    <text class="lblr" x="470" y="132">DISCONNECTION</text>
+    <text class="lbl" x="470" y="346">WARMTH</text>
+    <text class="cap" x="470" y="366">let her talk</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width=".8" opacity=".28"><path d="M96 396H544"/></g>
+  <g fill="currentColor"><text class="capq" x="320" y="428">“Was I the best part of her day?”</text></g>
+</svg>
