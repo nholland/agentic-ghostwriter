@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-25T14:59:27.505452+00:00",
+  "subjects": [
+    "interview:ch15-round7"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "The author, 2026-10-25 14:58: 'The idea was to meet hostility with kindness, frustration with patients, disconnection with warmth'",
+  "reason": "Direction recorded verbatim in interview Round 7; the Publisher's three-part spine reading is a pending proposal awaiting his yes, so no concept is written yet. On approval the outline and a framework concept are updated as their own commit.",
+  "files": {
+    "runs/ch15/interview.md": "d0186dad1111c5a7c5c9487cea1e814b36c67593ae0e59942c27e17d649660e7"
+  }
+}
