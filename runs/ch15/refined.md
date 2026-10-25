@@ -22,11 +22,7 @@ I used to take those lines personally. Over time I realized a line like that is 
 
 When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
-The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something.
-
-The same goes for everyone in your house. A child can have a temper tantrum because they're hungry or tired. I don't read that as a sign of their love for me, or of how I'm parenting.
-
-One question sends you looking at yourself. The other lets you see a person who is struggling. Either way, you don't have to be offended.
+The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
 
 ---
 
@@ -36,7 +32,7 @@ In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contra
 
 So instead of giving in or zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
 
-A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. That study was about whoever does the housework, not about a husband who helps. I read it as a reason to do both: help her, and let her know you see her.
+A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. That study was about whoever does more of the housework, not about a husband who helps. I read it as a reason to do both: help her, and let her know you see her.
 
 When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and the mood of the entire house. I would rather have a good night of happiness with my wife than try to answer each exchange. You get to decide which of those you're after. I tell people, "Would you rather be right? Or would you rather be married?"
 
@@ -56,7 +52,7 @@ Why are those kind? They are acts of service, but that isn't why they're kind. I
 
 Your reason matters. Impett, Gable and Peplau (2005) found that small sacrifices made to please a partner went with better days than sacrifices made to avoid conflict. They studied dating couples, so applying the finding to a marriage is my reading. Helping to end the tension and helping to make her day better look the same from the outside. You know which one you're doing.
 
-Seneca's work on giving and receiving is about friends and benefactors, the people who give help. His advice still fits a marriage: "Above all we should give willingly, quickly, and without any hesitation." (*De Beneficiis* II.1, Stewart trans.) If you're going to take something off her plate, take it gladly.
+Seneca's work on giving and receiving is about friends and benefactors, the people who give help. His advice still fits your marriage: "Above all we should give willingly, quickly, and without any hesitation." (*De Beneficiis* II.1, Stewart trans.) If you're going to take something off her plate, take it gladly.
 
 She deserves kindness every day, always, even when she's at her lowest. You don't wait for her to earn it.
 
@@ -66,7 +62,7 @@ She deserves kindness every day, always, even when she's at her lowest. You don'
 
 In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he learned from the people who shaped him. Sextus is one of them. Marcus wrote that Sextus "never showed anger or any other passion, but was entirely free from passion, and also most affectionate." (*Meditations* I.9, Long trans.) The Greek behind "most affectionate" belongs to the word *philostorgia*, family love. "Free from passion" here means Sextus wasn't ruled by anger or upset, and Marcus sets it right beside "most affectionate." Sextus was calm and warm at once.
 
-That pairing of calm and warm is what kindness looks like in your home. It shows up in the small friction of an ordinary day.
+That pairing of calm and warm is what kindness looks like in your home. It shows up in the small friction of your ordinary day.
 
 Compassion is part of kindness: you see her load, you act on it, and you stay steady yourself.
 
@@ -165,22 +161,42 @@ Line Editor desk (gw-lineeditor), cold. Clock read 2026-10-24 04:59. Read: `01-v
 51. **Author's confirmation, 2026-10-25 (relayed by the Publisher).** The author confirmed the ah-ha ("For a long time I answered every zing. I should have been asking whether I was the best part of her day."), the limit sentence as reworded in item 48, and the opening ("Your kindness usually slips first over something small. ..."). This closes the "author has not confirmed" flags in items 22, 24, 27 and 28 for those three passages. Deviation (o) stands as recorded in item 21.
 52. **Counts and sync.** Direct address is 40.5 per 1,000, above the floor of 40, so nothing was restored. Neither the distillation nor the Chapter 15 practice-guide section quotes a changed sentence, so neither changed. practice_sync 15 was re-run as a check and passed.
 
+**Distinctness round, 2026-10-25 06:57.** The Publisher relayed the author's "Middle" (2026-10-25) on the Reader Panel's distinctness finding (`runs/ch15/persona-final-and-distinctness.md`). The edits below were made as specified. The only additions are two zero-word direct-address swaps (item 57).
+
+53. **Tantrum paragraph cut (supersedes items 10 and 11).** Removed whole: "The same goes for everyone in your house. A child can have a temper tantrum because they're hungry or tired. I don't read that as a sign of their love for me, or of how I'm parenting."
+54. **Wrap paragraph.** Cut "One question sends you looking at yourself. The other lets you see a person who is struggling." I kept "Either way, you don't have to be offended." and attached it to the end of the "The second question is about her:" paragraph, right after "Maybe she's frustrated about something."
+55. **First question kept exactly**: "When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go."
+56. **Pointer added.** "If a remark still hurts you every time, Chapter 11 covers what to do." I placed it as the last sentence of the same paragraph, the fewest-words option, with no advice of my own. It is the Publisher's wording and echoes Ch14's pointer to Ch11.
+57. **Direct-address restore.** After items 53-56 the count fell to 39.5 per 1,000 (FAIL, 53 in 1343). I restored it in two desk-written sentences. Both are zero-word swaps, and no author line, quotation or the confirmed ah-ha was touched:
+    - Before: "His advice still fits a marriage:" After: "His advice still fits your marriage:" (the desk's lead-in to *De Beneficiis* II.1. The quotation is unchanged.)
+    - Before: "It shows up in the small friction of an ordinary day." After: "It shows up in the small friction of your ordinary day." (the desk's sentence from item 17's split.)
+    Result: 41.0 per 1,000 (55 in 1343). One swap alone would have given 40.2; the second keeps a margin.
+58. **Deviation (q), key point 1:** the child-and-household example ('The same goes for everyone in your house'; the hungry-or-tired child) is cut at the author's word (2026-10-25, 'Middle') because the Reader Panel found it invites 'you're just stressed' and the chapter's two-question block repeats Chapters 6 and 8; 'he does not have to be offended' is kept. Publisher's wording; for the author at the verdict.
+59. **Distillation and practice guide.** Neither quotes a cut or changed sentence. The distillation's mechanism paragraph and Practice 1 ("ask yourself what the remark tells you about how she's feeling") still match the prose. practice_sync 15: PASS, 3 practice(s) identical.
+
+**Cold read #5 round, 2026-10-25 07:01.** The Publisher relayed the author's "Fix all" (2026-10-25) to desk-wording fixes. Three edits, made exactly as specified. The cold reader's other notes, the repeated "Seneca's", the compassion line and the author's lines are untouched.
+
+60. **Distillation, mechanism paragraph.** "Seneca's point is that it takes two to make a fight, so the reply is yours." became "Seneca's point is that it takes two to make a fight, so whether it becomes one is up to your reply." The rest of the paragraph is unchanged. The practice guide doesn't quote it.
+61. **Pointer (supersedes item 56's wording).** "Chapter 11 covers what to do." became "Chapter 11 covers how to raise it with her." This names what Chapter 11 actually offers. No advice of the desk's own was added.
+62. **Gordon scope sentence.** "whoever does the housework" became "whoever does more of the housework", which matches the finding ("People who did more of it"). The finding sentence, the exception sentence and "I read it as" are unchanged.
+63. **Counts and sync.** Neither edit adds or removes a "you" in the prose. Direct address is in the output below. practice_sync 15 was re-run; the result is in the round report.
+
 ### Pass 4, counted (script output, verbatim, run on this file)
 
 ```
 voice_check: refined.md
-  1384 words of prose, 114 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 3979}
+  1348 words of prose, 110 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 4618}
 
   HARD (literal counts - a FAIL here is a fact)
     [ok  ] em-dash                  0 in prose (cap 0)
     [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 5 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      6/114 sentences at 25+ words = 5.3% (cap 10%)
+    [ok  ] long-sentence share      6/110 sentences at 25+ words = 5.5% (cap 10%)
              34w: Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer. **T...
              29w: A sharper answer is the quickest way to be the worst part of her day. **What she's carrying.** One kind of zin...
              27w: When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and th...
-    [ok  ] you-density              56 direct-address words in 1384 = 40.5 per 1,000 (floor 40)
-    [ok  ] metaphor family          4 mentions in 1384 words = 2.9 per 1,000 (cap 5); {'chess': 1, 'checkers': 1, 'game': 2}
+    [ok  ] you-density              55 direct-address words in 1348 = 40.8 per 1,000 (floor 40)
+    [ok  ] metaphor family          4 mentions in 1348 words = 3.0 per 1,000 (cap 5); {'chess': 1, 'checkers': 1, 'game': 2}
 
   CAND (needs a read - a clear line here is not a pass)
     [clear ] single ending            final sentence 14 words, shares 1 words with the previous one. Close: 'When the next zing lands, roll up your sleeves before you open your mouth.'

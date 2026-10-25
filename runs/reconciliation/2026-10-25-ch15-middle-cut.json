@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-25T06:59:40.435583+00:00",
+  "subjects": [
+    "decision:ch15-two-question-block-middle"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-zing-a-verdict-on-her-state.md"
+  ],
+  "authority": "The author, 2026-10-25: 'Middle'",
+  "reason": "The cut ideas remain recorded in his original wording in the zing framework concept (hungry or tired child, not a reflection of love or parenting); the decision about the chapter is logged in okf/log.md. No concept changed.",
+  "files": {
+    "books/the-stoic-husband/okf/log.md": "f83fb9329efd9d45feb96bc1f7cf177570a5789d30a2a71c45ff0654375248ab"
+  }
+}

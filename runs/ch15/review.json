@@ -1,7 +1,7 @@
 {
   "inputs": {
-    "refined.md": "e9eb894dfff14da11d04b6ea271f6195a385f74a1c7afaa222bdc189a9694bb0",
-    "distillation.md": "86cbc271870fa14ac3fde4d95a49d425939acf701668ee241ed3d3cdf8ea60f7"
+    "refined.md": "f25028a47dfd2a1718ffacabf46c183ec6fbdcae24067775f61c5576dc51e2ad",
+    "distillation.md": "88bc61402b61b1c70a0eaa24852869187670fa226a83a5e3efd33a7c36bd5c12"
   },
   "reviews": {
     "personas": {
@@ -14,7 +14,7 @@
       "status": "pass",
       "report": "coherence-refined.md",
       "sha256": "abeb0cbe00e029ef2b91fc49b6423239867e7ba8e832763bd60d8c94e58457b9",
-      "scope": "gw-slopreader, scoped: Ch15 prose against Ch6 (L1-60), grep of Ch2, 4, 5, 12, 14; claims against research.md; outline. Not read: OKF concepts, Ch2 homecoming scene, interview in full. Its two plain fixes were applied; later edits were not re-reviewed for coherence, only cold-read and conformance-checked (inbox #157 carries what the third cold read still found). Author's calls carried to the verdict."
+      "scope": "gw-slopreader, scoped: Ch15 prose against Ch6 (L1-60), grep of Ch2, 4, 5, 12, 14; claims against research.md; outline. Not read: OKF concepts, Ch2 homecoming scene, interview in full. Its two plain fixes were applied; later edits were not re-reviewed for coherence, only cold-read and conformance-checked (inbox #157 carries what the third cold read still found). Author's calls carried to the verdict. Distinctness from neighbouring chapters was reviewed separately on the final text (persona-final-and-distinctness.md); its recommendation was applied at the author's word ('Middle')."
     }
   },
   "deferred": []

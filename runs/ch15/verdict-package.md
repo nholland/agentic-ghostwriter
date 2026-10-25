@@ -1,27 +1,26 @@
 # Chapter 15 verdict package: Be Patient, Be Kind
 
-2026-10-25 01:14. Read the chapter first (from page 3). Your calls are on page 2. This replaces the earlier packages.
+2026-10-25 07:02. Read the chapter first (from page 3). Your calls are on page 2. This replaces the earlier packages.
 
 ## Where it stands
-- Words: 1,384. voice_check: all HARD checks pass (you-density 40.5, floor 40, a thin margin).
-- Done at your word ("Fix all"): the three #157 fixes are applied (the cruelty sentence, "Compassion is part of kindness", the label); the ah-ha, the limit sentence and the opening are confirmed; the plate had its extra round.
-- Conformance (final text): 11 of 17 rows. Every fail is a declared deviation, a checker blind spot, or your ruling.
-- **Cold read: NOT READY, three findings** (13, 6, 2, 3). Two came from my own last edits; I stopped looping (#158).
-- Plate: a stranger gets 2 of its 3 parts; its biggest confusion is the arc's direction (#154).
+- Words: 1,348. voice_check: all HARD checks pass (you-density 40.8, floor 40, thin).
+- Done at your word: the "Middle" cut (child paragraph and wrap out, "Either way, you don't have to be offended" kept, a one-line Chapter 11 pointer in). Panel on distinctness: it was "distinct only if the two-question block is cut or cut down". Done.
+- Conformance (final text): 14 of 22. Every fail is a declared deviation, a checker blind spot, or your ruling. New: (q) the child and household example, cut at your word.
+- **Cold read: five rounds. The last one found one blocker, in the distillation; it and two small fixes are applied but not re-read** (#158 holds the rest).
+- Plate: a stranger gets 2 of its 3 parts (#154).
 - inbox: 4 need your decision, 1 parked, 4 resolved (scripts/inbox.py --all --chapter 15).
-- On main: e3d9ced (the Chapter 15 working state). On the branch only: the outline change, the cold-read fixes, plate rounds, these files.
+- On main: the Chapter 15 working state. On the branch only: everything since.
 
 ## Your calls
-1. **#158, the section label.** Three readers flagged three labels. My pick: "Taken off her plate." Also: "Letting a zing go doesn't mean doing whatever she says" -> "Letting a zing go isn't giving in. The help is something you choose." (it touches your not-surrender point, so check it against what you meant). Leave the cruelty sentence as it is.
-2. **#154, plate arc.** The thick arc runs her to you, the same way as her zings; a defensive man reads "she hands me her chores too". Start it from YOU, or keep it so "off her plate" is literally true.
-3. **Your wording, still unanswered:** what was the reward in "you use what rewards"? Being right, winning the exchange, something else? I will not guess.
-4. **Your lines the readers stumbled on** (no edits proposed): "a verdict on how stressed and overworked she is"; "these are normally things that she does" (fits the chore, not the foot rub or the listening); "my own advice to myself"; the tantrum line.
-5. **Tension.** Your own zing back is told, never shown. A short example would have to be yours.
+1. **#158, the section label** ("Taken off her." was flagged as a fragment; my pick is "Taken off her plate."), and "Letting a zing go doesn't mean doing whatever she says" (reader's fix: "Letting a zing go isn't giving in. The help is something you choose."; check it against your not-surrender point). Leave the cruelty sentence.
+2. **#154, plate arc.** The thick arc runs her to you, the same way as her zings. Start it from you, or keep it so "off her plate" is literally true.
+3. **What was the reward in "you use what rewards"?** I will not guess.
+4. **Your lines the readers stumbled on** (no edits proposed): "a verdict on how stressed and overworked she is"; "these are normally things that she does"; "my own advice to myself"; "instead of giving in or zinging her back".
+5. **Your own zing back is told, never shown.** A short example would have to be yours.
 6. **The close** can read as "stay quiet" to a man who withdraws. Leave it.
-7. **Overlap with Chapter 6** is required by the outline. Leave it.
 
 ## Deviations from the outline (all declared)
-(a) "absorb" written as "stay steady yourself". (b) "moves" written as "responses"; "I see you" kept as "tell her I see her". (c) the sun does not appear. (d) only De Beneficiis II.1, not II.2. (e) philostorgia glossed "family love". (f) your own words for the Saturday scene. (g) "Most husbands have only checked the floor" not printed. (h) floor and ceiling are structure, not printed. (i) the long-game sentence is carried in meaning. (j) "pour" written plainly. (k) "answer each exchange", not "win". (l) "right or married" is a first printing (inbox 155). (m) the chore stays unnamed. (n) no Chapter 16 transition. (o) opening. (p) ah-ha.
+(a) "absorb" written as "stay steady yourself". (b) "moves" written as "responses"; "I see you" kept as "tell her I see her". (c) the sun does not appear. (d) only De Beneficiis II.1, not II.2. (e) philostorgia glossed "family love". (f) your own words for the Saturday scene. (g) "Most husbands have only checked the floor" not printed. (h) floor and ceiling are structure, not printed. (i) the long-game sentence is carried in meaning. (j) "pour" written plainly. (k) "answer each exchange", not "win". (l) "right or married" is a first printing (inbox 155). (m) the chore stays unnamed. (n) no Chapter 16 transition. (o) opening. (p) ah-ha. (q) the child and household example is cut.
 
 ## Not yet done
 Fact-Checker queue (#150). Nothing is marked verified. The chapter is not landed in books/; that needs your verdict.
@@ -52,11 +51,7 @@ I used to take those lines personally. Over time I realized a line like that is 
 
 When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
-The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something.
-
-The same goes for everyone in your house. A child can have a temper tantrum because they're hungry or tired. I don't read that as a sign of their love for me, or of how I'm parenting.
-
-One question sends you looking at yourself. The other lets you see a person who is struggling. Either way, you don't have to be offended.
+The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
 
 ---
 
@@ -66,7 +61,7 @@ In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contra
 
 So instead of giving in or zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
 
-A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. That study was about whoever does the housework, not about a husband who helps. I read it as a reason to do both: help her, and let her know you see her.
+A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. That study was about whoever does more of the housework, not about a husband who helps. I read it as a reason to do both: help her, and let her know you see her.
 
 When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and the mood of the entire house. I would rather have a good night of happiness with my wife than try to answer each exchange. You get to decide which of those you're after. I tell people, "Would you rather be right? Or would you rather be married?"
 
@@ -86,7 +81,7 @@ Why are those kind? They are acts of service, but that isn't why they're kind. I
 
 Your reason matters. Impett, Gable and Peplau (2005) found that small sacrifices made to please a partner went with better days than sacrifices made to avoid conflict. They studied dating couples, so applying the finding to a marriage is my reading. Helping to end the tension and helping to make her day better look the same from the outside. You know which one you're doing.
 
-Seneca's work on giving and receiving is about friends and benefactors, the people who give help. His advice still fits a marriage: "Above all we should give willingly, quickly, and without any hesitation." (*De Beneficiis* II.1, Stewart trans.) If you're going to take something off her plate, take it gladly.
+Seneca's work on giving and receiving is about friends and benefactors, the people who give help. His advice still fits your marriage: "Above all we should give willingly, quickly, and without any hesitation." (*De Beneficiis* II.1, Stewart trans.) If you're going to take something off her plate, take it gladly.
 
 She deserves kindness every day, always, even when she's at her lowest. You don't wait for her to earn it.
 
@@ -96,7 +91,7 @@ She deserves kindness every day, always, even when she's at her lowest. You don'
 
 In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he learned from the people who shaped him. Sextus is one of them. Marcus wrote that Sextus "never showed anger or any other passion, but was entirely free from passion, and also most affectionate." (*Meditations* I.9, Long trans.) The Greek behind "most affectionate" belongs to the word *philostorgia*, family love. "Free from passion" here means Sextus wasn't ruled by anger or upset, and Marcus sets it right beside "most affectionate." Sextus was calm and warm at once.
 
-That pairing of calm and warm is what kindness looks like in your home. It shows up in the small friction of an ordinary day.
+That pairing of calm and warm is what kindness looks like in your home. It shows up in the small friction of your ordinary day.
 
 Compassion is part of kindness: you see her load, you act on it, and you stay steady yourself.
 
