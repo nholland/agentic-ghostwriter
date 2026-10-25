@@ -6,11 +6,11 @@ Your kindness usually slips first over something small. She says something with 
 
 **The zing.** My family has a word for that kind of comment. We call it a zing, and there are so many in a day it's hard to keep count. A zing is a little slight, a cutting remark. It's a critique, only small.
 
-I didn't handle them well. Every little critique from her was met with an equal or escalated response. I had no patience, I didn't let things go, I wasn't kind.
+I didn't handle them well. Every little critique from her was met with an equal or escalated response. I had no patience, I didn't let things go, I wasn't kind. Frankly, neither was she.
 
-Answering back made sense, the way most habits do: you use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy.
+Arguing styles drift over time, almost like evolution. You use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy. And the ironic part is that it wasn't about any one topic. I was fed up with how we argued.
 
-You know that pull. You're worn out, the comment stings, and answering it feels like the natural thing to do. What changed for me came slowly, through experience. I started asking who has the strength to de-escalate.
+You know that pull. You're worn out, the comment stings, and answering it feels like the natural thing to do. What changed for me came slowly, through experience. I started asking: who has the strength to de-escalate? Somebody has to be calm. Somebody has to be patient. Somebody has to be the one that's romantic and kind. Someone has to be the one that brings the warmth into the relationship.
 
 We have a saying in our house: "Never be the worst part of somebody's day." It's a spot check, a way to make sure we're not unkind. It's also the reason not to send a zing back. A sharper answer is the quickest way to be the worst part of her day.
 
