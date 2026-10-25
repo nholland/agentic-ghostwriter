@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-25T15:08:55.270833+00:00",
+  "subjects": [
+    "decision:ch15-three-pair-spine"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/meet-hostility-frustration-disconnection.md"
+  ],
+  "authority": "The author, 2026-10-25: Round 8 '1 yes, 3 both, use sign'; 'Approved, keep going.'",
+  "reason": "The outline restates the three-pair spine already captured in the framework concept and log entry.",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "5fb3dfe49fb13298ab3791fd177d7ab8ea56867700c212a93252cea47685173f"
+  }
+}
