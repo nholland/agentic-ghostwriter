@@ -200,12 +200,15 @@
     "runs/ch15/brief-gaps.md": "c1515bc3ecf3e4205395a7c9c6bad8eda71119d639a60f43e648dc9e3c1bb863",
     "runs/ch15/coherence-rebuild.md": "d1696e10181905da1614d316aa59aadf3c6441c320da8861587ae8ffcb78d09e",
     "runs/ch15/coherence-refined.md": "abeb0cbe00e029ef2b91fc49b6423239867e7ba8e832763bd60d8c94e58457b9",
+    "runs/ch15/coldread-rebuild.md": "0f131eac03b3b658f016b12142472a21a91bfb21ac592d4e45628986c820faf2",
     "runs/ch15/coldread-refined.md": "43ec7a772908554639373c999c89e886d2e0451594297b4652b5565c7cc93e05",
+    "runs/ch15/conformance-rebuild.md": "0c97a04afbb3988c8d67306282f9329055321d85456532c2d1c93205e9f83fe8",
     "runs/ch15/conformance-refined.md": "12056e144f5631e5ddb7e3157105236a3e7d27ba471ade212cde2bedf306efd2",
     "runs/ch15/conformance-round-2.md": "7daa3898c4db557ca9d458983c03b18020d3ebda9e690d6510ec88ce65110c9d",
     "runs/ch15/conformance.md": "442a213c1291c6378423eb463e80b8caab539b1a4e53162be01abb2a566090e8",
     "runs/ch15/distillation.md": "8fb2f378863f11cba0665f365224af88beff71a6ab9c43f0af4154ad6bba52ae",
     "runs/ch15/draft.md": "6323779089172c412a8e41040c27d6b4ec3768145c2cb9bedef7ab424cd07467",
+    "runs/ch15/edit-2026-10-25-final-calls.md": "edbfb3a71c1af9ece8772a8f592813c97ff8e5da1975ad93e060069f616c8327",
     "runs/ch15/edit-2026-10-25-rebuild.md": "f30a1c1d0e9af67fe5b29f27a22d32920cd7ae026071f2caa406e3bdb542824a",
     "runs/ch15/edit-2026-10-25-s1.md": "bf4845c7377ad46345b8f8fa767c20cd2911472b6e1ae5bd1c45171ef659f827",
     "runs/ch15/edit-2026-10-25-s2.md": "f78d44469bb1ce60b6bb5f4d219da4e89bc8f3eed27d637047c1633ecf2cdaeb",
@@ -231,7 +234,7 @@
     "runs/ch15/plate.svg": "718a0300c153e472a608abe7b4c014bd134dac1473972ed34355bac2a919e64d",
     "runs/ch15/proposed-concepts-rounds-1-6.md": "e463e732c598f874e1468cd64522f7f82b2ef945c9c9c18d84bbc15348285425",
     "runs/ch15/quality-review-2026-10-25.md": "8537fbc954e6291e772c67783ee35ede7cb70fd10087e07a9c3de3c3e8e392c4",
-    "runs/ch15/refined.md": "f10296f331c87848566a6738188c95a0218fccca00814b6d75682bc86067caf2",
+    "runs/ch15/refined.md": "129522c239abdf35e869f97d759deebedd3955ec1d1b01c47b2a4b9ca6c05ede",
     "runs/ch15/research-kindness-brief.md": "42312da503a2745a772c6f0267e77565bf4a973efc6a0483707950fe38a132b4",
     "runs/ch15/research-kindness-brief.pdf": "6ffa4067385ccb5b90d156c4bd08e106ce71af2e3dc33c942606d4204dbe2201",
     "runs/ch15/research-kindness.md": "3350547d5ede8fac57019fc8d7431728cd96893da0dd5ed7b793bea9715770df",
@@ -243,5 +246,5 @@
     "runs/ch15/slop-read.md": "351b73b3a4d53119b3133b1cb9d95199084400de5aa5fe118ef58e5462a2926e",
     "runs/ch15/verdict-package.md": "7c590aec5ca5b9d1ba04169d41541a9d447eb7dc3fc739bc069f0c257c8737b1"
   },
-  "updated": "2026-10-25T15:10:33.650910+00:00"
+  "updated": "2026-10-25T15:11:33.107638+00:00"
 }
