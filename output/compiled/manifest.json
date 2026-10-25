@@ -1,5 +1,5 @@
 {
-  "built": "2026-10-25T18:59:15.238761+00:00",
+  "built": "2026-10-25T19:41:19.382622+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-15, relevant Arc openings and plates",
   "unapproved_chapters": [
     15
@@ -49,7 +49,7 @@
     "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac",
     "runs/ch15/refined.md": "27ba5ab93dd6e38683fcb41aa53722e5a0ce4f5cbb977b0e0730ec78cac360d4",
     "runs/ch15/distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1",
-    "runs/ch15/plate.svg": "718a0300c153e472a608abe7b4c014bd134dac1473972ed34355bac2a919e64d"
+    "runs/ch15/plate.svg": "58a283982d5f8596d2608a7fb85aa272e550d76889e2611cc3bc1224ba2e58e1"
   },
   "outputs": [
     "book.pdf",
@@ -73,7 +73,7 @@
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-10-25T18:59:15.237115+00:00",
+    "built": "2026-10-25T19:41:19.382146+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -185,7 +185,7 @@
       "runs/ch12/plate.svg": "6e995a6b6e8fef5a4b4e999af373f1682024cd9cbb9aa97a728894b0ce1b38ff",
       "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
       "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac",
-      "runs/ch15/plate.svg": "718a0300c153e472a608abe7b4c014bd134dac1473972ed34355bac2a919e64d",
+      "runs/ch15/plate.svg": "58a283982d5f8596d2608a7fb85aa272e550d76889e2611cc3bc1224ba2e58e1",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
       "runs/design/plate-briefs.md": "88acaee71bbbdd3541a32a09feff3db6bf9218850bb462541ee42ea6bbd5393d"
     }

@@ -1,109 +1,39 @@
-<!-- Chapter 15 plate, revision 3 (round-3 read, inbox #154, "Fix all"); was revision 2 (concept A, "It takes two"), the
-     author-authorised extra round (inbox #154) on four drawing problems from
-     the round-2 standalone read, runs/ch15/plate-read.md.
-     Carrier: the shape of his reply. Above, quietly, the exchange the chapter
-     confesses: her little zings stay small, and each one he sends back is
-     bigger than the last, glossed beside his own replies. The rule between
-     the halves is labelled "instead of zinging her back". Below, the same
-     small zing, in the same faint ink as her first, bracketed to "how she's
-     feeling on the inside", and nothing jagged goes back: one heavy smooth arc lifts a
-     chore that's usually hers (dashed, where it was) off her side and across
-     to him, ending at START HELPING and, under it in his ink, his own
-     question from the chapter.
-     Mirrored on the 320 axis: her post at 205, his at 435. Line weights:
-     1.4 quiet, 2 standard, 3.2 carrier. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 566" style="color:#1a1a1a" role="img" aria-label="Kindness answers the zing">
+<!-- Ch15 concept E (rebuild): her day as one line across the page. It turns sharp three times, each dip named for the test; from his steady line below, a heavy arrow rises into each dip and the line comes back up. Every carrier arrow points from YOU into her day. Columns at 170/320/470, centred on 320. Weights: 1.4 quiet, 2 standard, 3.2 carrier. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" style="color:#1a1a1a" role="img" aria-label="Meet hostility with kindness, frustration with patience, disconnection with warmth">
   <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .ttl{font:600 11px Georgia,serif;text-anchor:middle}
+    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
     .lbl{font:600 15px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
-    .lbls{font:600 13px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
-    .lblr{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle;opacity:.7}
-    .cap{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
-    .caps{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.74}
-    .capl{font:italic 14px Georgia,serif;text-anchor:start;opacity:.85}
-    .capf{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.85}
-    .capd{font:italic 12.5px Georgia,serif;text-anchor:middle;opacity:.62}
-    .capq{font:italic 600 13.5px Georgia,serif;text-anchor:middle}
+    .lbls{font:600 13px Georgia,serif;letter-spacing:.12em;text-anchor:start}
+    .lblr{font:600 12.5px Georgia,serif;letter-spacing:.1em;text-anchor:middle;opacity:.6}
+    .cap{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.74}
+    .capq{font:italic 600 14px Georgia,serif;text-anchor:middle}
   </style>
-
-  <rect x="0" y="0" width="640" height="566" fill="#ffffff"/>
-
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">KINDNESS ANSWERS THE ZING</text>
-    <text class="lbl" x="205" y="84">HER</text>
-    <text class="lbl" x="435" y="84">YOU</text>
+    <text class="ttl" x="320" y="40">Meet hostility with kindness, frustration with patience, disconnection with warmth</text>
+    <text class="sub" x="320" y="64">When your wife's day turns sharp</text>
+    <text class="lbls" x="60" y="104">HER DAY</text>
+    <text class="lbls" x="60" y="306">YOU</text>
   </g>
-
-  <!-- the two people, as quiet posts running down the page -->
-  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".2">
-    <path d="M205 98V276M205 312V456"/>
-    <path d="M435 98V276M435 312V456"/>
-  </g>
-
-  <!-- what a zing is, set on her first one -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity=".7"><path d="M60 150L140 150L170 214L200 150L290 150L320 214L350 150L440 150L470 214L500 150L580 150"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M60 318H580"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"><path d="M170 312V222M170 222l-6 10.4M170 222l6 10.4M320 312V222M320 222l-6 10.4M320 222l6 10.4M470 312V222M470 222l-6 10.4M470 222l6 10.4"/></g>
   <g fill="currentColor">
-    <text class="caps" x="320" y="120">a little slight, a cutting remark</text>
-  </g>
-
-  <!-- the exchange, quiet: her little zings stay small -->
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".38">
-    <path d="M205 136l23 -5l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 5"/>
-    <path d="M425 130l10 6l-10 6"/>
-    <path d="M205 204l23 -5l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 5"/>
-    <path d="M425 198l10 6l-10 6"/>
-  </g>
-
-  <!-- the exchange, quiet: what he sends back grows every time -->
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".62">
-    <path d="M435 170l-23 -11l-23 22l-23 -22l-23 22l-23 -22l-23 22l-23 -22l-23 22l-23 -22l-23 11"/>
-    <path d="M215 164l-10 6l10 6"/>
-    <path d="M435 246l-23 -20l-23 40l-23 -40l-23 40l-23 -40l-23 40l-23 -40l-23 40l-23 -40l-23 20"/>
-    <path d="M215 240l-10 6l10 6"/>
-  </g>
-  <!-- glossed beside his own replies, where they leave him -->
-  <g fill="currentColor">
-    <text class="capl" x="445" y="242">an equal or</text>
-    <text class="capl" x="445" y="260">escalated response</text>
-  </g>
-
-  <!-- the rule between the halves, and what it means -->
-  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".28"><path d="M96 292H176M464 292H544"/></g>
-  <g fill="currentColor">
-    <text class="lblr" x="320" y="296.5">INSTEAD OF ZINGING HER BACK</text>
-  </g>
-
-  <!-- the same small zing, in the same faint ink as her first, bracketed to what it tells you -->
-  <g fill="currentColor">
-    <text class="capf" x="320" y="322">how she's feeling on the inside</text>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" opacity=".38">
-    <path d="M215 335V329H425V335"/>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".38">
-    <path d="M205 344l23 -5l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 10l23 -10l23 5"/>
-    <path d="M425 338l10 6l-10 6"/>
-  </g>
-
-  <!-- where the chore was, on her side -->
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="4 4" opacity=".5">
-    <rect x="115" y="456" width="180" height="32"/>
+    <text class="lblr" x="170" y="132">HOSTILITY</text>
+    <text class="lbl" x="170" y="346">KINDNESS</text>
+    <text class="cap" x="170" y="366">let it go</text>
   </g>
   <g fill="currentColor">
-    <text class="capd" x="205" y="477">a chore that's usually hers</text>
-  </g>
-
-  <!-- the reply with no edge on it: the chore lifted off her side, carried to him -->
-  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M205 456C215 366 425 366 435 456"/>
-    <path d="M435 456l6 -13M435 456l-8 -11"/>
-  </g>
-  <g fill="#ffffff" stroke="currentColor" stroke-width="2">
-    <rect x="250" y="375" width="140" height="32"/>
+    <text class="lblr" x="320" y="132">FRUSTRATION</text>
+    <text class="lbl" x="320" y="346">PATIENCE</text>
+    <text class="cap" x="320" y="366">start helping first</text>
   </g>
   <g fill="currentColor">
-    <text class="lbls" x="320" y="396">OFF HER PLATE</text>
-    <text class="lbls" x="435" y="482">START HELPING</text>
-    <text class="capq" x="435" y="500">“Was I the best part of her day?”</text>
-    <text class="cap" x="320" y="542">Roll up your sleeves before you open your mouth.</text>
+    <text class="lblr" x="470" y="132">DISCONNECTION</text>
+    <text class="lbl" x="470" y="346">WARMTH</text>
+    <text class="cap" x="470" y="366">let her talk</text>
   </g>
+  <g fill="none" stroke="currentColor" stroke-width=".8" opacity=".28"><path d="M96 396H544"/></g>
+  <g fill="currentColor"><text class="capq" x="320" y="428">“Was I the best part of her day?”</text></g>
 </svg>
