@@ -5,9 +5,9 @@
   "branch": "ccr-9afea2d4-1iltjv",
   "oracle": {
     "chapter": 15,
-    "stage": "review",
-    "command": "/gw-chapter",
-    "detail": "review input changed or empty: refined.md"
+    "stage": "verdict",
+    "command": "/gw-compile",
+    "detail": "refined; plate present"
   },
   "notes": {
     "house": "Shared Claude/Codex runtime adapters installed. No manuscript edits were made. Fixture handoffs and the synthetic GPT-6 Astra conformance test passed. Review and trust the Codex hooks on first use. A complete author-supervised chapter handoff has not yet been exercised. Resume from the current state oracle and existing chapter records; existing content approvals are unchanged.",
@@ -196,7 +196,7 @@
     "runs/ch15/brief-gaps.md": "c1515bc3ecf3e4205395a7c9c6bad8eda71119d639a60f43e648dc9e3c1bb863",
     "runs/ch15/coherence-refined.md": "abeb0cbe00e029ef2b91fc49b6423239867e7ba8e832763bd60d8c94e58457b9",
     "runs/ch15/coldread-refined.md": "43ec7a772908554639373c999c89e886d2e0451594297b4652b5565c7cc93e05",
-    "runs/ch15/conformance-refined.md": "522fead5091d4d7b8a2d5d4e2e24cd15e457993e28a1b4573f9c483dffe925d1",
+    "runs/ch15/conformance-refined.md": "12056e144f5631e5ddb7e3157105236a3e7d27ba471ade212cde2bedf306efd2",
     "runs/ch15/conformance-round-2.md": "7daa3898c4db557ca9d458983c03b18020d3ebda9e690d6510ec88ce65110c9d",
     "runs/ch15/conformance.md": "442a213c1291c6378423eb463e80b8caab539b1a4e53162be01abb2a566090e8",
     "runs/ch15/distillation.md": "88bc61402b61b1c70a0eaa24852869187670fa226a83a5e3efd33a7c36bd5c12",
@@ -228,9 +228,9 @@
     "runs/ch15/research-premise-brief.pdf": "a54d4889e7a7c117b236a18fc3c0e3029b63e39c1aecae74293ad6cc4336cd12",
     "runs/ch15/research-premise.md": "87858ecc95ec4c976ed79a893f96a3653ffc52d748f87b0992480b32494a10dd",
     "runs/ch15/research.md": "3c7672793f9913dea0eafc46435f0733f4275f88a8cafad5b2ad48080ea73cd3",
-    "runs/ch15/review.json": "f3c986e78da7f9dad68b370c774ecfcfff185e1f112d1a1eb69c171454c16ecd",
+    "runs/ch15/review.json": "fca03658a4b9a6435affb6f58e63262a0dea60e3da2ac0c7fd2779818c87b76e",
     "runs/ch15/slop-read.md": "351b73b3a4d53119b3133b1cb9d95199084400de5aa5fe118ef58e5462a2926e",
-    "runs/ch15/verdict-package.md": "eb57ada506caa0cac47523839bf8e56d4bebefc22e3e9dab3ec52307172462d0"
+    "runs/ch15/verdict-package.md": "7c590aec5ca5b9d1ba04169d41541a9d447eb7dc3fc739bc069f0c257c8737b1"
   },
-  "updated": "2026-10-25T07:01:30.933662+00:00"
+  "updated": "2026-10-25T07:04:41.766943+00:00"
 }
