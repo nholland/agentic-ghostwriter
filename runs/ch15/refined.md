@@ -2,69 +2,63 @@
 
 Your kindness usually slips first over something small. She says something with an edge about the things that need doing. You feel it land. You're tired, and before you've decided anything, your answer is already in your mouth.
 
+In an ordinary day, your warmth gets tested three ways. Meet hostility with kindness. Meet frustration with patience. Meet disconnection with warmth.
+
 ---
 
-**The zing.** My family has a word for that kind of comment. We call it a zing, and there are so many in a day it's hard to keep count. A zing is a little slight, a cutting remark. It's a critique, only small.
+**Meet hostility with kindness.** My family has a word for that kind of comment. We call it a zing, and there are so many in a day it's hard to keep count. A zing is a little slight, a cutting remark. It's a critique, only small.
 
 I didn't handle them well. Every little critique from her was met with an equal or escalated response. I had no patience, I didn't let things go, I wasn't kind. Frankly, neither was she.
 
-Arguing styles drift over time, almost like evolution. You use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy. And the ironic part is that it wasn't about any one topic. I was fed up with how we argued.
+Arguing styles drift over time, almost like evolution. You use what rewards. I'd feel tired. I'd feel frustrated that immediately she was giving me things to do. Her words felt like she was calling me lazy.
 
-You know that pull. You're worn out, the comment stings, and answering it feels like the natural thing to do. What changed for me came slowly, through experience. I started asking: who has the strength to de-escalate? Somebody has to be calm. Somebody has to be patient. Somebody has to be the one that's romantic and kind. Someone has to be the one that brings the warmth into the relationship.
+One kind of zing comes on Saturday mornings, on busy weekends. My wife wakes up with a jam-packed agenda for Saturday and Sunday to get a lot of things done. I'm tired and want to relax, or I'm just sitting down talking to the kids. She's asking for the status of things that need to be done. And sometimes she'll say something like, "We don't have time to just lay around and not do stuff." Or: "There's an infinite amount of work to get done. Just look around. I shouldn't have to tell you what to do." You've probably heard your own version of those lines.
 
-We have a saying in our house: "Never be the worst part of somebody's day." It's a spot check, a way to make sure we're not unkind. It's also the reason not to send a zing back. A sharper answer is the quickest way to be the worst part of her day.
-
----
-
-**What she's carrying.** One kind of zing comes on Saturday mornings, on busy weekends. My wife wakes up with a jam-packed agenda for Saturday and Sunday to get a lot of things done. I'm tired and want to relax, or I'm just sitting down talking to the kids. She's asking for the status of things that need to be done. And sometimes she'll say something like, "We don't have time to just lay around and not do stuff." Or: "There's an infinite amount of work to get done. Just look around. I shouldn't have to tell you what to do." You've probably heard your own version of those lines.
-
-I used to take those lines personally. Over time I realized a line like that is more a verdict on how stressed and overworked she is.
+I used to take those lines personally. Over time I realized a line like that is more a sign of how stressed and overworked she is.
 
 When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
 The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
 
----
+What changed for me came slowly, through experience. I started asking: who has the strength to de-escalate? Somebody has to be calm. Somebody has to be patient. Somebody has to be the one that's romantic and kind. Someone has to be the one that brings the warmth into the relationship.
 
-**The long game.** Answering every zing is checkers. Chess means keeping your eye on the long game.
+In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Forthwith" means at once. A zing only turns into a fight if you send one back.
 
-In his study of anger, Seneca wrote: "Does a man get angry? Do you on the contrary challenge him with kindness. Animosity, if abandoned by one side, forthwith dies; it takes two to make a fight." (*De Ira* II.34, Basore trans.) "Animosity" means bad feeling between people, and "forthwith" means at once. Seneca's angry man could be anyone in your life, and Seneca's advice is to answer anger with kindness. Seneca's point is about the reply, and the reply is yours. A zing only turns into an exchange if you send one back.
+So instead of zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
 
-So instead of giving in or zinging her back, I do two things. I roll up my sleeves and start helping. Then I give her a hug, tell her I see her, and take a little time to find out if I can make her day lighter.
-
-A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. That study was about whoever does more of the housework, not about a husband who helps. I read it as a reason to do both: help her, and let her know you see her.
-
-When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and the mood of the entire house. I would rather have a good night of happiness with my wife than try to answer each exchange. You get to decide which of those you're after. I tell people, "Would you rather be right? Or would you rather be married?"
-
-None of this is surrender. Letting a zing go doesn't mean doing whatever she says. I learned that difference through experience, and it's my own advice to myself.
-
-Cruel remarks, from either of you, are a bigger problem than a zing, and letting them go isn't the answer.
+We have a saying in our house: "Never be the worst part of somebody's day." It's a spot check, a way to make sure we're not unkind. A sharper answer is the quickest way to be the worst part of her day.
 
 ---
 
-**Taken off her.** You can be home all weekend and still not be kind. As I see it, being kind is different than just being there. Being kind is when you need to show patience. You need to show understanding. It's trying your best to make someone's day better.
+**Meet frustration with patience.** Feeling fed up drives faster responses and more intense reactions. You may know that from your own arguments. I know it from ours. The ironic part is that ours weren't about any one topic. I was fed up with how we argued.
 
-When she's tired, you may be tired too. That's two people who are equally tired. Kindness is what you choose to do anyway.
+She gets fed up too, and on a weekend with a mountain of work ahead, so do you. When she's tired, you may be tired too. That's two people who are equally tired. Patience is your choice to be kind anyway.
 
-For me, kindness is a foot rub when she's had a long day. It's taking over a chore that's usually hers. It's letting her talk about her day, because it's a kindness to let her speak and get things off her chest.
+Patience lives in the gap between her remark and your reply. Seneca put it in one line: "The greatest remedy for anger is delay." (*De Ira* II.29, Stewart trans.) You don't have to answer in the first second. You can roll up your sleeves first.
+
+Answering every zing is checkers. Chess means keeping your eye on the long game. When I let the zings go and give her kindness instead, it has an incredible impact on changing the tone and the mood of the entire house. I would rather have a good night of happiness with my wife than try to answer each exchange. You get to decide which of those you're after. I tell people, "Would you rather be right? Or would you rather be married?"
+
+None of this is surrender. It's my own advice to myself, learned through experience. In the moment, it comes down to one question: Are you being the best husband possible right now, at this moment, irrespective of what she is doing? That's chess.
+
+---
+
+**Meet disconnection with warmth.** Disconnection often happens when everyone is busy and there's nothing but a mountain of work ahead of you. It gets even worse when other family members have friction between them. If my wife is frustrated with one of her siblings on the phone, or with one of our children, that then leads to disconnection with us. Sometimes I have to see that as not a verdict on me, just a sign that she is feeling strained. Whenever I take the bait, I add another layer, and then everybody's pulled into the vortex.
+
+Warmth is how you stay out of the vortex and pull her out of it. You can be home all weekend and still not be kind. As I see it, being kind is different than just being there. It's trying your best to make someone's day better.
+
+For me, that's a foot rub when she's had a long day. It's taking over a chore that's usually hers. It's letting her talk about her day, because it's a kindness to let her speak and get things off her chest.
 
 Why are those kind? They are acts of service, but that isn't why they're kind. It's because these are normally things that she does, and I'm taking chores and work off of her plate. I'm doing something that shows I want to make her life better. You know which chores are usually hers in your house.
 
-Your reason matters. Impett, Gable and Peplau (2005) found that small sacrifices made to please a partner went with better days than sacrifices made to avoid conflict. They studied dating couples, so applying the finding to a marriage is my reading. Helping to end the tension and helping to make her day better look the same from the outside. You know which one you're doing.
+A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. The study wasn't about husbands who help, but I read it as a reason for you to do both: help her, and let her know you see her.
 
-Seneca's work on giving and receiving is about friends and benefactors, the people who give help. His advice still fits your marriage: "Above all we should give willingly, quickly, and without any hesitation." (*De Beneficiis* II.1, Stewart trans.) If you're going to take something off her plate, take it gladly.
+When you are the sun, people come to you to feel good. In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he learned from the people who shaped him. Sextus is one of them. Marcus wrote that Sextus "never showed anger or any other passion, but was entirely free from passion, and also most affectionate." (*Meditations* I.9, Long trans.) The Greek behind "most affectionate" belongs to the word *philostorgia*, family love. "Free from passion" here means Sextus wasn't ruled by anger or upset. Sextus was calm and warm at once.
 
-She deserves kindness every day, always, even when she's at her lowest. You don't wait for her to earn it.
+That pairing is compassion in your home: you see her load, you act on it, and you stay steady yourself. She deserves kindness every day, always, even when she's at her lowest. You don't wait for her to earn it.
 
 ---
 
-**The best part.** Our saying has a second half: "You can be the best part of somebody's day."
-
-In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he learned from the people who shaped him. Sextus is one of them. Marcus wrote that Sextus "never showed anger or any other passion, but was entirely free from passion, and also most affectionate." (*Meditations* I.9, Long trans.) The Greek behind "most affectionate" belongs to the word *philostorgia*, family love. "Free from passion" here means Sextus wasn't ruled by anger or upset, and Marcus sets it right beside "most affectionate." Sextus was calm and warm at once.
-
-That pairing of calm and warm is what kindness looks like in your home. It shows up in the small friction of your ordinary day.
-
-Compassion is part of kindness: you see her load, you act on it, and you stay steady yourself.
+**The best part.** Our saying has a second half: "You can be the best part of somebody's day." I think a lot of men, if you asked them whether they're the best part of their wife's day, would say no.
 
 So ask yourself, each day: "Was I the best part of her day?"
 
@@ -180,6 +174,8 @@ Line Editor desk (gw-lineeditor), cold. Clock read 2026-10-24 04:59. Read: `01-v
 61. **Pointer (supersedes item 56's wording).** "Chapter 11 covers what to do." became "Chapter 11 covers how to raise it with her." This names what Chapter 11 actually offers. No advice of the desk's own was added.
 62. **Gordon scope sentence.** "whoever does the housework" became "whoever does more of the housework", which matches the finding ("People who did more of it"). The finding sentence, the exception sentence and "I read it as" are unchanged.
 63. **Counts and sync.** Neither edit adds or removes a "you" in the prose. Direct address is in the output below. practice_sync 15 was re-run; the result is in the round report.
+
+**Rebuild round, 2026-10-25 15:10 (Publisher, in session with the author, /gw-edit 15).** Section 1 applied on "1 yes, 2 yes, 3 four lines". Spine rebuilt on the author's Round 7 direction ("meet hostility with kindness, frustration with patients, disconnection with warmth") and Round 8 ("1 yes, 3 both, use sign", plus his disconnection account). Run-in headers are now his three pairs plus "The best part." Cut: Impett, *De Beneficiis* II.1, the cruel-remarks line, the standalone compassion line, the "Animosity" gloss, "giving in or". Added: Seneca *De Ira* II.29 (Stewart; the house edition for Seneca's essays is Basore, so the Fact-Checker should pull Basore's wording for II.29); his thesis question (Round 2); "When you are the sun, people come to you to feel good" (Round 3); the vortex (Round 8). The nine desk-wording lines are listed for him in runs/ch15/edit-2026-10-25-rebuild.md, and he has not confirmed them yet. The Pass 4 output below is from before this round. The current counts are in the round report. The distillation, the practice-guide section and the plate are now stale against the new spine.
 
 ### Pass 4, counted (script output, verbatim, run on this file)
 

@@ -259,3 +259,13 @@ Author's words, verbatim:
 ("ark" and "patients" are the author's typing, kept verbatim; context reads "arc" and "patience".)
 
 Publisher's reading, for the author to confirm: a new spine of three pairs, each a thing he meets in ordinary days and what he answers it with. This would replace the Round 6 Q1 "A" (floor and ceiling) as the organising spine; floor and ceiling would survive as the frame (the saying opens and closes). Not applied until he says so.
+
+## Round 8 — 2026-10-25 (answers to the spine proposal, runs/ch15/edit-2026-10-25-spine.md)
+
+Author's words, verbatim:
+
+> 1 yes, 3 both, use sign.
+>
+> Disconnection often happens when everyone is busy and there's nothing but a mountain of work ahead of you. It gets even worse whenever other family members might have friction between them. If my wife is frustrated with one of her siblings on the phone or if she's frustrated with one of our children, that then leads to disconnection with us. Sometimes I have to see that as not a verdict on me but just a sign that she is feeling strained. Whenever I take the bait I add to the overall layer and then everybody's pulled into the vortex
+
+Recorded: spine = three pairs (hostility/kindness, frustration/patience, disconnection/warmth), house saying as frame; patience covers both his and her frustration; section 2 "verdict" becomes "sign". Not answered: whether the Ch17-parked intimacy line (inbox #156) is used here; default is to keep it for Chapter 17.

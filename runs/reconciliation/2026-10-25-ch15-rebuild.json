@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-25T15:05:49.387103+00:00",
+  "subjects": [
+    "interview:ch15-round8"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/meet-hostility-frustration-disconnection.md",
+    "books/the-stoic-husband/okf/stories/the-vortex.md"
+  ],
+  "authority": "The author, 2026-10-25: Round 7 direction and Round 8 '1 yes, 3 both, use sign' plus his disconnection account",
+  "reason": "New spine framework and new story in his own words",
+  "files": {
+    "runs/ch15/interview.md": "84e0c927fcddea9593b32ef140270d597d91a96929d80811f6be73cd2ab227e5",
+    "books/the-stoic-husband/okf/index.md": "d0584900a16dbf862f2c5bfe6b9f2950dadbbc7ce16df1fba6e6700d29a179b8",
+    "books/the-stoic-husband/okf/log.md": "72c8b3bd559b1eb41c8d33e403559270062936ddea50a6518b0a38957cf226de",
+    "books/the-stoic-husband/okf/frameworks/meet-hostility-frustration-disconnection.md": "ac5b7ea2b4686cf765e9799523f9814cfcc5d296bb59606d0cb18bc596ad635e",
+    "books/the-stoic-husband/okf/stories/the-vortex.md": "3e68d2fae4de831a64c8747c472e39ac0d7e38c87a03ce19921d15e4057e542f"
+  }
+}

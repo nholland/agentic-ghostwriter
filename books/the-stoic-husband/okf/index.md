@@ -33,6 +33,7 @@ Author-developed models and lenses. Author IP — never cited as external
 research unless explicitly noted under `# Citations`.
 
 - [The Virtue Question (The Inward Turn)](/frameworks/the-virtue-question.md) — the book's daily operating tool; the practical version of Arête
+- [Three Pairs: Hostility With Kindness, Frustration With Patience, Disconnection With Warmth](/frameworks/meet-hostility-frustration-disconnection.md) — the author's spine for Chapter 15 (Rounds 7-8)
 - [Attachment vs. Devotion](/frameworks/attachment-vs-devotion.md) — the Stoic line on love without neediness
 - [The Dichotomy of Control in Marriage](/frameworks/dichotomy-of-control-in-marriage.md) — what a husband does and doesn't control in conflict
 - [The Four-Question Epictetan Marriage Rule](/frameworks/four-question-epictetan-marriage-rule.md) — the real-time sequence before reacting
@@ -137,6 +138,7 @@ Real audience signals and author anecdotes, used as composite scenarios.
 - [Two Truths: Tired Husband, Overloaded Wife](/stories/two-truths-tired-husband-overloaded-wife.md) — two genuine grievances on different axes collide and compete for acknowledgment
 - [The Wife Who Is Enough](/stories/the-wife-who-is-enough.md) — author testimony for Ch14; author approved use, subject to review.
 - [Her Full Agenda Meets His Rest (Coming Home, Busy Weekends)](/stories/coming-home-into-the-tension.md) — he walks in tired, or she wakes to a packed weekend, and she is stretched and asking; he used to hear 'lazy'; he came to hear her load, then help and hug (the author's own account; widened Round 5)
+- [The Vortex: Family Friction Becomes Disconnection](/stories/the-vortex.md) — her strain with a sibling or a child becomes distance between them; taking the bait pulls everyone in (the author's own account, Ch15 Round 8)
 
 ## Citations
 
