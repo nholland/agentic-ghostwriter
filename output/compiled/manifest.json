@@ -1,9 +1,7 @@
 {
-  "built": "2026-10-25T19:41:19.382622+00:00",
+  "built": "2026-10-26T12:46:56.006844+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-15, relevant Arc openings and plates",
-  "unapproved_chapters": [
-    15
-  ],
+  "unapproved_chapters": [],
   "source_sha256": {
     "books/the-stoic-husband/chapters/ch01/refined.md": "fbcf4706892948e428acfed091bd5bc12e7dfb4259fa2f23da4fda9c35ba7c7e",
     "books/the-stoic-husband/chapters/ch01/distillation.md": "c612b717fb7d42303d1161d6fcdb92b805622ba816beeb8f0cdbaf9fd99f0ae4",
@@ -47,8 +45,8 @@
     "books/the-stoic-husband/chapters/ch14/refined.md": "68c5c710403ee3260a660f623ba4029225537c67723177c6022da136bcab7eff",
     "books/the-stoic-husband/chapters/ch14/distillation.md": "7145414fff75084e285463ac425db651682aac270cb508332fb71f1408ef38d2",
     "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac",
-    "runs/ch15/refined.md": "27ba5ab93dd6e38683fcb41aa53722e5a0ce4f5cbb977b0e0730ec78cac360d4",
-    "runs/ch15/distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1",
+    "books/the-stoic-husband/chapters/ch15/refined.md": "669c24900b98fa6bb00a00b4e89a3c3124df676c41c401e68bf8a3085dabf67f",
+    "books/the-stoic-husband/chapters/ch15/distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1",
     "runs/ch15/plate.svg": "58a283982d5f8596d2608a7fb85aa272e550d76889e2611cc3bc1224ba2e58e1"
   },
   "outputs": [
@@ -73,7 +71,7 @@
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-10-25T19:41:19.382146+00:00",
+    "built": "2026-10-26T12:46:56.006257+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -159,7 +157,7 @@
       {
         "id": "ch15",
         "title": "Kindness answers the zing",
-        "approved_identical_copy": false
+        "approved_identical_copy": true
       },
       {
         "id": "part-III",
@@ -234,7 +232,7 @@
       "approved_identical_copy": true
     },
     "ch15": {
-      "approved_identical_copy": false
+      "approved_identical_copy": true
     }
   }
 }

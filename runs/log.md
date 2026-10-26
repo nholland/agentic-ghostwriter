@@ -4525,3 +4525,38 @@ verdict; no prose or plate is landed.
 - … and 84 more
 
 **Next:** `/gw 16` — Chapter 16 has not started.
+
+## 2026-10-26 12:46 — `ccr-cc5a744b-wxytua` — 21 commit(s) this session
+- `FINDINGS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch15/distillation.md`
+- `books/the-stoic-husband/chapters/ch15/interview.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch15/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/meet-hostility-with-kindness-frustration-with-patience-disconnection-with-warmth.svg`
+- `books/the-stoic-husband/okf/frameworks/meet-hostility-frustration-disconnection.md`
+- `books/the-stoic-husband/okf/index.md`
+- `books/the-stoic-husband/okf/log.md`
+- `books/the-stoic-husband/okf/stories/the-vortex.md`
+- `inbox/153-chapter-15-cold-read-is-not-ready-twice-apply-th.md`
+- `inbox/154-chapter-15-plate-a-stranger-gets-two-of-its-thre.md`
+- `inbox/157-chapter-15-cold-read-3-two-small-fixes-in-my-own.md`
+- `inbox/158-chapter-15-cold-read-4-still-not-ready-three-fin.md`
+- `inbox/159-chapter-15-what-was-the-reward-in-you-use-what-r.md`
+- `inbox/160-chapter-15-five-of-your-own-lines-readers-stumbl.md`
+- `inbox/161-chapter-15-show-your-own-zing-back-and-does-the-.md`
+- `output/compiled/assets/book.html`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-1-steady-river.png`
+- `output/compiled/assets/books-the-stoic-husband-parts-plate-2-sturdy-oak.png`
+- `output/compiled/assets/chapters/ch15-plate.png`
+- `output/compiled/assets/chapters/ch15.html`
+- `output/compiled/assets/distillations.html`
+- `output/compiled/assets/manuscript.md`
+- `output/compiled/assets/plate-ch01.png`
+- `output/compiled/assets/plate-ch02.png`
+- `output/compiled/assets/plate-ch03.png`
+- … and 87 more
+
+**Next:** `/gw 16` — Chapter 16 has not started.
