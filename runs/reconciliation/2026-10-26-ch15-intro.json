@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-26T12:44:31.602991+00:00",
+  "subjects": [
+    "chapter:ch15"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "The author, 2026-10-26: 'Yes. Then commit to the main branch'",
+  "reason": "Intro reordered for coherence; no new fact or meaning.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch15/refined.md": "669c24900b98fa6bb00a00b4e89a3c3124df676c41c401e68bf8a3085dabf67f",
+    "runs/ch15/refined.md": "8d6520c48f04b8199971306fc477fae608da3761c43a82b11179702a7454dc07"
+  }
+}

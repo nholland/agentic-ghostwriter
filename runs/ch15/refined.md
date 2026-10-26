@@ -1,12 +1,14 @@
 # Chapter 15: Be Patient, Be Kind
 
-Your kindness usually slips first over something small. She says something with an edge about the things that need doing. You feel it land. You're tired, and before you've decided anything, your answer is already in your mouth.
+Warmth is easy on a good day. It gets tested on the ordinary ones, when nobody is at their best.
 
-In an ordinary day, your warmth gets tested three ways. Meet hostility with kindness. Meet frustration with patience. Meet disconnection with warmth.
+Those days test it three ways. She's sharp with you. You're both fed up. A busy day pulls you apart. Each one has an answer: meet hostility with kindness, frustration with patience, and disconnection with warmth.
+
+It usually starts small. She says something with an edge about the things that need doing, and before you've decided anything, your answer is already in your mouth.
 
 ---
 
-**Meet hostility with kindness.** My family has a word for a comment with an edge. We call it a zing, and there are so many in a day it's hard to keep count. A zing is a little slight, a cutting remark. It's a critique, only small.
+**Meet hostility with kindness.** My family has a word for that kind of comment. We call it a zing, and there are so many in a day it's hard to keep count. A zing is a little slight, a cutting remark. It's a critique, only small.
 
 I didn't handle them well. Every little critique from her was met with an equal or escalated response. I had no patience, I didn't let things go, I wasn't kind. Frankly, neither was she.
 
