@@ -5,9 +5,9 @@
   "branch": "ccr-cc5a744b-wxytua",
   "oracle": {
     "chapter": 15,
-    "stage": "verdict",
-    "command": "/gw-compile",
-    "detail": "refined; plate present"
+    "stage": "shipped",
+    "command": null,
+    "detail": "verdict recorded; chapter is done here"
   },
   "notes": {
     "house": "Shared Claude/Codex runtime adapters installed. No manuscript edits were made. Fixture handoffs and the synthetic GPT-6 Astra conformance test passed. Review and trust the Codex hooks on first use. A complete author-supervised chapter handoff has not yet been exercised. Resume from the current state oracle and existing chapter records; existing content approvals are unchanged.",
@@ -186,15 +186,15 @@
     "inbox/150-fact-checker-queue-from-the-chapter-15-research-.md": "c254094ec475435018f2ee4e30985abbdfcc4d996198a1770234d544f13a7acd",
     "inbox/151-place-patience-with-her-seasons-she-is-changing-.md": "60871faa738c08bb25f4c60acb8fec75efc9fa2bad4ccde7ec3c2fb59dc2beec",
     "inbox/152-chapter-15-spec-says-the-gordon-et-al-2022-claus.md": "e2dc8b54cf902ebb6c44c3c99e4b099d4e5b217566d82541031b149e3dabe95d",
-    "inbox/153-chapter-15-cold-read-is-not-ready-twice-apply-th.md": "9ebe9205a0dbea2378d8970a8a04d6fb042c34652d6304078ae36978a9b005d3",
-    "inbox/154-chapter-15-plate-a-stranger-gets-two-of-its-thre.md": "5b6752b23217bc6f1e1204ac1a28b4017e7d2ca5b920fe8a8bb0cb9a296d4745",
+    "inbox/153-chapter-15-cold-read-is-not-ready-twice-apply-th.md": "15a02ae36ceaed7a857ebadbfc24e9ead803bcbed5191ccb1b892d06db1cad1b",
+    "inbox/154-chapter-15-plate-a-stranger-gets-two-of-its-thre.md": "90da522a6df5e47f934a8c8a1cd5697fafe24093aa7ab589408f1cb7216a9c3b",
     "inbox/155-add-the-author-s-would-you-rather-be-right-or-be.md": "ebdd023031ea3ab289990645434be5318dd1657da1445aa35a233d03dae35258",
     "inbox/156-use-the-author-s-observation-that-his-warmth-tra.md": "953aa5165380be6c0a7bbf6b2d03aac317c99dce3cd3b62a02349d1568cf3399",
-    "inbox/157-chapter-15-cold-read-3-two-small-fixes-in-my-own.md": "289ea664e7e8dc85407e6a1272bbfc8cadcf77cece7a8886940e373d5722efdc",
-    "inbox/158-chapter-15-cold-read-4-still-not-ready-three-fin.md": "e6f9ec8045731909ba15d6f5c5a911b8f244d80b6c1837b5fb3c872b3e603eb2",
-    "inbox/159-chapter-15-what-was-the-reward-in-you-use-what-r.md": "09128e1f97b21c355df13b6175cb3e74a010c41190a7a04a54c40de4bb6b0c13",
-    "inbox/160-chapter-15-five-of-your-own-lines-readers-stumbl.md": "a79fedca5ac24cb3ae292b2a4bd44281382a037c67ac986edc2c46b50f6ceb0e",
-    "inbox/161-chapter-15-show-your-own-zing-back-and-does-the-.md": "54a3bf3e67de901d9697d6f67d0c149643122abd89843a5da5c67ae566033a10",
+    "inbox/157-chapter-15-cold-read-3-two-small-fixes-in-my-own.md": "15eb6d4c8664de037637d4c5a69c4a3863c1dcf1d6da73e5212e4f213f59bca5",
+    "inbox/158-chapter-15-cold-read-4-still-not-ready-three-fin.md": "d53d133a818118d65d32f9de411202446b0fd19e700f19d80138b2929691a4ec",
+    "inbox/159-chapter-15-what-was-the-reward-in-you-use-what-r.md": "6a53727df3f0a69bec6b49ca55f40e22ca86d59eaa775d5cb7d806b460d115a0",
+    "inbox/160-chapter-15-five-of-your-own-lines-readers-stumbl.md": "b9fdbbc0d98524c37fb1e6b8f145b901e466a0a527d0f5130dda0e287786c031",
+    "inbox/161-chapter-15-show-your-own-zing-back-and-does-the-.md": "491c72d7a44651d70df1ef68aa76ac078fd9d994226cefdee5c064a1dd3813cf",
     "runs/ch15/brief-checkin.md": "52c89b38503a89c176a061187c0f9885c5604790f2437d66419a3fa209e0d7ba",
     "runs/ch15/brief-checkin.pdf": "b5fbd505804b740b7ea5a0f4c9928b7702734da80f86e17b8118e5505bb2d90a",
     "runs/ch15/brief-gaps.md": "c1515bc3ecf3e4205395a7c9c6bad8eda71119d639a60f43e648dc9e3c1bb863",
@@ -246,7 +246,8 @@
     "runs/ch15/research.md": "3c7672793f9913dea0eafc46435f0733f4275f88a8cafad5b2ad48080ea73cd3",
     "runs/ch15/review.json": "eab94bbf4f0b20dd9cb763195dd5a5b04cc78c1713ce46b415146b5b9a1ab8fe",
     "runs/ch15/slop-read.md": "351b73b3a4d53119b3133b1cb9d95199084400de5aa5fe118ef58e5462a2926e",
-    "runs/ch15/verdict-package.md": "7c590aec5ca5b9d1ba04169d41541a9d447eb7dc3fc739bc069f0c257c8737b1"
+    "runs/ch15/verdict-package.md": "7c590aec5ca5b9d1ba04169d41541a9d447eb7dc3fc739bc069f0c257c8737b1",
+    "runs/ch15/verdict.md": "beb982a3564528cc4c8ea8b3a5e1eef14fded82fa812c0eb134d6d93c0520236"
   },
-  "updated": "2026-10-25T19:41:20.142201+00:00"
+  "updated": "2026-10-25T21:45:09.595091+00:00"
 }
