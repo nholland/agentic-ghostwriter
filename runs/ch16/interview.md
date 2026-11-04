@@ -241,3 +241,14 @@ Author, verbatim:
 - **Defaults accepted ("The rest of the rulings look good"):** close is "She's my best friend."; Arête with the accent, Stoic sense excellence of character, "highest potential" his reading; the three words applied to a marriage are presented as his step; harbour and interest joke out; grandfather quotable as "Don't forget your wife when you have kids"; P1-P4 yes.
 - **Credits origin (Q4):** no direct answer; the stated handling stands: the prose credits Covey with making "emotional bank account" famous and never claims it as the author's coinage.
 - **Ah-ha:** unchanged (Publisher's sentence, adopted on "Proceed").
+
+## Round 4: refine-stage calls (asked 2026-11-04 ~16:10 UTC; answered 2026-11-04 16:30 UTC)
+
+Author, verbatim (the message ends mid-sentence):
+
+> 1. I thought his advice was to give 60 and expect 40.  Can you tell me, in Chapter 12, how it ties back to the kids leaving? If so, then we should stop retelling it. Or we could do something tongue-in-cheek like  "Again, my grandfathers words ring out... "
+> 2. Yes, let's cut it. I think the deposits and credits concept is enough for this chapter.For number five, I think we should
+
+- **1:** conditional. Publisher answered from Ch12 line 13: the grandfather gave two pieces of advice, sixty-forty (Ch7) and, when the author first got married, "Put your wife first. Focus on her because your kids will leave you." His ruling: stop retelling it; a tongue-in-cheek callback ("Again, my grandfather's words ring out...") is his offered form. Awaiting his pick.
+- **2:** ruled: cut the sun / night / winter lines; deposits and credits carry the chapter.
+- **5 (close):** his sentence was cut off; asked again. Other items (3, 4, 6, 7, 8) not yet answered.
