@@ -14,7 +14,7 @@ Feelings were another matter. My sense is that most of the men I grew up around 
 
 And when quiet stopped working, there was one more. A man bore things quietly or if he finally was pushed to the edge it was okay for him to lose himself in anger and blow up. That was the rule. The blow-up it called okay is the nail from Chapter 4, and the blueprint never counted the hole it leaves in the people around you.
 
-You met my grandfather and my father in Chapter 1. One was devoted to my grandmother for fifty-plus years and quick to yell. The other took the yelling further. Their word was the law. When they were challenged, it came out as curse words, yelling, screaming, and occasionally throwing things around the house. It was a way to show that they were powerful.
+In my family, that meant my grandfather and my father, the men you met in Chapter 1. Their word was the law. When they were challenged, it came out as curse words, yelling, screaming, and occasionally throwing things around the house. It was a way to show that they were powerful.
 
 You may not have grown up with the throwing. But you probably know the three settings. Think about the last time something was really bothering you. Did you make a demand, keep the talk light, or say nothing at all?
 
@@ -38,7 +38,7 @@ Some of those men find a philosophy that seems to answer the question. I did.
 
 When I found Stoicism, the first thing it gave me was a name for what I'd watched growing up. It put a label on the fact that being angry was a state of temporary madness. You were effectively out of control, and a man who is powerful and strong is in control. A man who is effectively slavish to his emotions is weak.
 
-That phrase wasn't new. Seneca was a Roman statesman who served as an adviser to an emperor, and he wrote a whole book on anger. He opens it by passing along what thinkers before him had said: "Certain wise men, therefore, have claimed that anger is temporary madness." (*De Ira* I.1, Basore trans.)
+That phrase wasn't new. Seneca was a Roman statesman and adviser to an emperor, and he wrote a whole book on anger. He opens it by passing along what thinkers before him had said: "Certain wise men, therefore, have claimed that anger is temporary madness." (*De Ira* I.1.2, Basore trans.)
 
 That turned the old picture over for me. The men I grew up around thought the blow-up proved how strong they were. Here was a book nearly two thousand years old saying the blow-up was a man losing his grip on himself. It also told me I didn't have to give in to the emotions of a situation. When someone around me was upset, I could stay calm.
 
@@ -58,7 +58,7 @@ Then she answered.
 
 She was very quick to communicate. She did not want to be married to a stone.
 
-Her words landed. When she started getting upset about the things I was saying, I had a moment of reflection. I realized I had to be doing something wrong, because at the end of the day, philosophy is about living a set of truths that should yield a good life. And whatever we were arguing about, it wasn't a matter of principle. I'd brought the heaviest tools I owned to a small fight. My behavior and the way I was talking to her had made the situation worse, and I needed to update how I was thinking about it.
+Her words landed. When she started getting upset about the things I was saying, I had a moment of reflection. I realized I had to be doing something wrong, because at the end of the day, philosophy is about living a set of truths that should yield a good life. And whatever we were arguing about, it wasn't a matter of principle. My behavior and the way I was talking to her had made the situation worse, and I needed to update how I was thinking about it.
 
 She had heard my Stoic phrases and concluded that I didn't care about her. In the hands of someone who is unskilled or uneducated about Stoicism, that is a reasonable conclusion. I was the unskilled one.
 
@@ -78,11 +78,11 @@ For me, the answer is compassion. I think empathy is the wrong emotion here, bec
 
 People want connection, and my wife craved connection. I crave connection with her. Of course, I don't want my wife unhappy.
 
-There's a Stoic reason under that, too. The Stoics believed every person is a citizen of one world-city, tied to everyone else by the reason we all share. They called it the cosmopolis. Justice, the virtue Chapter 1 called Kind, is what each citizen owes the others. One of the Stoic principles is that we are all here for each other as part of the cosmopolis. We want to find happiness and joy and success working with each other. Marcus Aurelius, the Roman emperor, said it about himself: "my city and country, so far as I am Antoninus, is Rome, but so far as I am a man, it is the world." (*Meditations* VI.44, Long trans.) Antoninus was one of his own names. If you owe justice to a stranger in that city, you owe it first to the woman you married.
+There's a Stoic reason under that, too. The Stoics believed every person is a citizen of one world-city, tied to everyone else by the reason we all share. The name for this idea is the cosmopolis. Justice, the virtue Chapter 1 called Kind, is what each citizen owes the others. One of the Stoic principles is that we are all here for each other as part of the cosmopolis. We want to find happiness and joy and success working with each other. Marcus Aurelius, the Roman emperor, said it about himself: "my city and country, so far as I am Antoninus, is Rome, but so far as I am a man, it is the world." (*Meditations* VI.44, Long trans.) Antoninus was one of his own names. The next step is my own. If you owe justice to a stranger in that city, you owe it first to the woman you married.
 
 Your steadiness is for her.
 
-Chapters 2 and 5 named the preferred indifferents: things outside your control that you'd still rather have go well. Her happiness is one of them. Dispreferred and preferred are states where you exist almost all day long. It's the absolutes of detachment or attachment that you effectively get to only a few times. I don't own how she feels. I do prefer to make her feel valued. I do prefer to make her feel loved.
+Chapters 2 and 5 named the preferred indifferents: things outside your control that you'd still rather have go well. Her happiness is one of them. As I read it, dispreferred and preferred are states where you exist almost all day long. It's the absolutes of detachment or attachment that you effectively get to only a few times. I don't own how she feels. I do prefer to make her feel valued. I do prefer to make her feel loved.
 
 Stoicism gets a bad rap because a lot of times people can seem like they are unemotional or detached, and I think that is a sign of immaturity in the study of the philosophy. You can be steady and warm at the same time. Your wife needs both.
 
@@ -96,7 +96,7 @@ My version starts here. People want to feel like their relationship is an invest
 
 Every small kindness is a deposit. You keep making them over a long time, because there is inevitably a time when you will need to make a withdrawal. Sometimes the sun goes down. It could just be for a short night. It could be because it's a long winter. What gets you through is what you put in before it got dark.
 
-So look back at your own. Over the last few weeks, the last semester, the last year, what have you put in? For me, it's small things. Saying good morning to my wife when I'm traveling. Making her coffee. Rubbing her back. Picking up a little gift for her while I'm out. They add up.
+So look back at your own. Over the last few weeks, the last semester, the last year, what have you put in? For me, it's small things. Saying good morning to my wife when I'm traveling. Making her coffee. Rubbing her back. Picking up a little gift for her while I'm out. They add up. It's just about the credits.
 
 You want to be in the green with everyone: your kids, your parents, your siblings, the people you work with, and your wife. But you should have the most credits with your wife because she is your number one.
 
@@ -114,13 +114,13 @@ Being happy as an individual is extremely different than being happy in a relati
 
 Three words help you hold that.
 
-The first is equanimity, the calm and steady inside that Chapter 1 named. When you are in equanimity as an individual, you are at peace. I want our marriage at peace.
+The first is equanimity, the calm and steady inside that Chapters 1 and 2 named. When you are in equanimity as an individual, you are at peace. I want our marriage at peace.
 
 The second is the Greek word for excellence. For the Stoics it meant excellence of character: being wise, just, brave, and self-controlled. The word is arête. I read it as being at your highest self. You're basically maximizing all of your potential. I want our marriage at its best.
 
 The third is a life going well as a whole, the kind of happiness that lasts longer than a good mood. The Greek word is eudaimonia, usually translated as happiness or flourishing. I want our marriage flourishing.
 
-The Stoics used all three words about a single person. Putting them on a marriage is my own step. But I think they apply to your relationship as well. You want yours at peace, at its best, and flourishing, and you can't get there by looking after only your own calm.
+The Stoics used arête and eudaimonia about a single person, and I use equanimity the same way. Putting all three on a marriage is my own step. But I think they apply to your relationship as well. You want yours at peace, at its best, and flourishing, and you can't get there by looking after only your own calm.
 
 I want my wife to be loved. I want her to feel desired. I want her to feel like a priority.
 
@@ -132,7 +132,7 @@ Ghostwriter desk (gw-ghostwriter), draft mode, 2026-11-04. Written cold from `ru
 
 **metaphor_family:** bank,account,deposit,withdraw,credit,invest,green,money
 
-Exactly the brief's C1 declaration. Nine mentions, matching the plan row for row: Covey credit (bank, account), "investment not a burden" (invest), "Every small kindness is a deposit" (deposit), "make a withdrawal" (withdraw), "in the green" (green), "the most credits" (credit), "the bank doesn't ever owe you money" (bank, money). The section header is "What you put in." so that no family word sits in a header. "Sun" appears once, in his quote. "Balance", "withdrawn", "accountable", "greener", "interest", "ledger" and "savings" are absent.
+Exactly the brief's C1 declaration. Ten mentions after revision round 1 (nine in round 0, plus "It's just about the credits."), 4.6 per 1,000 at 2,185 prose words, under the cap of 5. Round 0's nine: Covey credit (bank, account), "investment not a burden" (invest), "Every small kindness is a deposit" (deposit), "make a withdrawal" (withdraw), "in the green" (green), "the most credits" (credit), "the bank doesn't ever owe you money" (bank, money). The section header is "What you put in." so that no family word sits in a header. "Sun" appears once, in his quote. "Balance", "withdrawn", "accountable", "greener", "interest", "ledger" and "savings" are absent.
 
 ### Citations used (status as of the brief, section D)
 - Seneca, *De Ira* I.1.2, Basore: "Certain wise men, therefore, have claimed that anger is temporary madness." `/citations/seneca-de-ira-1-1-temporary-madness.md`. unverified, verbatim, page-text (OCR). Attributed as Seneca passing along what earlier thinkers said, never as his own phrase. "Unmindful of ties" not used.
@@ -147,21 +147,21 @@ None.
 ### Deviations from the brief or outline, with reasons
 1. **Author lines as narration.** Most of his verbatim lines appear in first person without quotation marks, since the chapter is in his voice. Quotation marks are kept only for his spoken line to her, her answer, the grandfather's words, and the classical texts. Small joins were added so the lines run as prose: commas, "and", "So a man had about three settings", "And whatever we were arguing about".
 2. **"I don't remember what it was about."** This comes from his Round 3 words in `/stories/i-cant-control-you-said-aloud.md`. No topic is named. "Likely something with kids" is not used.
-3. **"I'd brought the heaviest tools I owned to a small fight."** This renders "it wasn't something that was incredibly principled" in the way the brief suggests (B3b5, I.3), next to the plain statement "it wasn't a matter of principle." It's a small figure of speech, outside the declared family. **Author to rule:** keep it or cut it. The Fact-Checker should confirm the "not a matter of principle" reading.
+3. **"I'd brought the heaviest tools I owned to a small fight."** Cut in revision round 1 (conformance row 27, one-image rule). Only the plain "it wasn't a matter of principle" remains. The Fact-Checker should confirm that reading of "it wasn't something that was incredibly principled."
 4. **"I was the unskilled one."** This is my reading of his line "in the hands of someone who is unskilled or uneducated about Stoicism, that is a reasonable conclusion," taking "the hands" to be his. **Author to confirm** that he meant himself.
 5. **"I was using a lot of the Stoic phrases in the actual argument, and that line was one of them."** The second clause is mine. It ties his Round 1 sentence to the spoken line.
-6. **Lines of mine that state no new fact:** "Calm feels like strength, and most of the time it is." / "You've also absorbed, from somewhere, that opening up costs you." / "Every small kindness is a deposit." / "Small things add up." / "Your steadiness is for her." / "You can be steady and warm at the same time. Your wife needs both." / "Three words help you hold that."
+6. **Lines of mine that state no new fact:** "Calm feels like strength, and most of the time it is." / "You've also absorbed, from somewhere, that opening up costs you." / "Every small kindness is a deposit." / "They add up." / "Your steadiness is for her." / "You can be steady and warm at the same time. Your wife needs both." / "Three words help you hold that."
 7. **"What gets you through is what you put in before it got dark."** and the takeaway **"when the long night comes"** pick up his night and winter from the one sun line without naming the sun a second time (the outline names the sun once).
 8. **Grandfather.** One verbatim span ("You will not be there for them but your wife will always be there so treat her like your number one priority."). The leaving is paraphrased ("the kids will grow up and leave to live their own lives") so that his "move on" stays out of the prose (voice rule on "move") and so that no ellipsis joins his two tellings. "I asked him what he meant" is from his telling in the OKF story.
 9. **Audit examples.** Coffee, good morning when traveling, her back, a gift while out. "Or her feet" is dropped because Ch15 printed "a foot rub". "Little" was added to "gift".
-10. **Seneca's grounding.** "A Roman statesman who served as an adviser to an emperor" (the emperor was Nero, not named) and "a book nearly two thousand years old." Both are mine and both are general knowledge. The Fact-Checker may want to check them.
+10. **Seneca's grounding.** "A Roman statesman and adviser to an emperor" (the emperor was Nero, not named) and "a book nearly two thousand years old." Both are mine and both are general knowledge. The Fact-Checker may want to check them.
 11. **"Antoninus was one of his own names."** Added so the VI.44 quote reads for a reader who doesn't know Marcus's full name.
-12. **"If you owe justice to a stranger in that city, you owe it first to the woman you married."** This adapts the Researcher's gloss of the author's step (citation concept, "if he owes justice to strangers, he owes it first to her"). It is presented as the chapter's reasoning, not as Marcus's.
+12. **"If you owe justice to a stranger in that city, you owe it first to the woman you married."** This adapts the Researcher's gloss of the author's step (citation concept, "if he owes justice to strangers, he owes it first to her"). Since revision round 1 it is preceded by "The next step is my own." so it reads as the author's application, not Marcus's.
 13. **Preferred indifferents.** "Chapters 2 and 5 named the preferred indifferents: things outside your control that you'd still rather have go well." I did not open Ch2 or Ch5, so the gloss is my plain reading of the term. The Conformance Checker should confirm it doesn't conflict with how those chapters defined it.
 14. **Ch4 callback.** "The blow-up it called okay is the nail from Chapter 4, and the blueprint never counted the hole it leaves in the people around you." This is one clause, as the brief instructs. Ch4's line is not quoted, the fence is not retold, and there is no claim that those men never apologized. "Nail" and "hole" are Ch4's image, named once and not declared as family.
 15. **"Empathy is the wrong emotion here"** is given as his view ("I think"). The prose doesn't claim the Stoics rejected empathy (inbox #146).
 16. **Rhetorical shapes, by a model read** (the regex matched none): "different than" twice (the cloak beat, and "happy as an individual"), which is at the cap of two. The ah-ha is one contrast pair. "An investment not a burden" is one negated pair. "Instead of away from her" is one. No "That's not X. That's Y." anywhere.
-17. **Length.** 2,184 words of prose by the script, inside 1,800-2,200 but near the top. The "invest" line to his boys is not used, so the family stays at 9.
+17. **Length.** 2,185 words of prose by the script after revision round 1, inside 1,800-2,200 but near the top. The family is at 10, which needs at least 2,000 prose words to stay under the cap of 5 per 1,000: any cut of more than about 185 words must also cut a family word.
 18. **Sentence-split artifact.** `voice_check.py` merges the last sentence of a section with the next run-in header and its first sentence (for example, "...when the long night comes. **From me to us.** Being happy..." counts as 35 words). The real long-sentence share is a little lower than reported. Nothing was changed for this; it's flagged for the house.
 
 ### Places I wrote around a missing author detail
@@ -170,8 +170,21 @@ None.
 - The **Known tension** (01-voice keeps fight scenes for Ch1 and Ch5) is handled as the brief prescribes: the chapter doesn't open on the argument, and the argument isn't staged blow by blow.
 
 ### Outline rows
-All six key points, the central story, the second story, the ah-ha, the image, the takeaway and the close are present. Not printed: the outline's "It's just about the credits." (dropped on the brief's instruction, C1 and B5: an X-not-Y shape plus a family word) and the outline's transition to Part IV (the brief says no printed hand-off, matching Ch15). **For the Conformance Checker:** the outline's key point 2 says "seen as dangerous". The draft says he "fears you'll come across as dangerous", which keeps it as men's fear per the Round 2 ruling.
+All six key points, the central story, the second story, the ah-ha, the image, the takeaway and the close are present. "It's just about the credits." is restored in revision round 1 (row 9), without the X-not-Y half ("It is not about the act of service or the gift.") the brief objected to. Not printed: the outline's transition to Part IV (the brief says no printed hand-off, matching Ch15). **For the Conformance Checker:** the outline's key point 2 says "seen as dangerous". The draft says he "fears you'll come across as dangerous", which keeps it as men's fear per the Round 2 ruling.
 
 ### For the author to rule on
-- Item 3 (the "heaviest tools" line) and item 4 ("I was the unskilled one").
+- Item 4 ("I was the unskilled one"). Item 3's line was cut in revision round 1.
 - Whether "You can respect that, and I do." (B1, after "they provided for their families") says what you feel about those men.
+
+### Revision round 1 (2026-11-04, gw-ghostwriter, against `runs/ch16/conformance.md`)
+1. **Row 4.** The Chapter 1 lineage is now one clause of callback: "In my family, that meant my grandfather and my father, the men you met in Chapter 1." Cut: "devoted to my grandmother for fifty-plus years and quick to yell" and "The other took the yelling further." Kept: "Their word was the law." and the blueprint material (curse words, yelling, throwing things, "a way to show that they were powerful").
+2. **Row 9.** Restored "It's just about the credits." after the audit examples: "They add up. It's just about the credits." The X-not-Y half of his line stays out. Family now 10 (credit 2).
+3. **Row 19.** Equanimity: "the calm and steady inside that Chapters 1 and 2 named."
+4. **Row 27.** Cut "I'd brought the heaviest tools I owned to a small fight."
+5. **Attribution 1.** Seneca cited as *De Ira* I.1.2, matching the ledger concept.
+6. **Attribution 2.** "The next step is my own." now precedes the justice-to-the-woman-you-married sentence.
+7. **Attribution 3.** "The Stoics used all three words about a single person." became "The Stoics used arête and eudaimonia about a single person, and I use equanimity the same way." No claim that equanimity is a Stoic Greek term. The "I use" rests on his line "When you are in equanimity as an individual, you are at peace."
+8. **Attribution 5.** "They called it the cosmopolis." became "The name for this idea is the cosmopolis." The sentence before it already glosses world-city, following the gloss in `/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md`. No claim about which Stoics used the word.
+9. **Attribution 6.** "As I read it, dispreferred and preferred are states where you exist almost all day long."
+10. **Length trims to stay at or under 2,200:** "who served as an adviser to an emperor" became "and adviser to an emperor"; "the two men" became "the men". No author fact changed.
+11. Attribution 4 (arête/eudaimonia glosses) unchanged, as the conformance file directs; sourced to Diogenes Laertius VII.87-90 in Citations above. Row 30 (Part IV transition) unchanged, per the Publisher's disposition.
