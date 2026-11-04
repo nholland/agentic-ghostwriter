@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-11-04T14:15:28.863157+00:00",
+  "subjects": [
+    "research:ch16"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md",
+    "books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md",
+    "books/the-stoic-husband/okf/citations/male-roles-mirror-nature-gap.md",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-1-1-temporary-madness.md",
+    "books/the-stoic-husband/okf/citations/seneca-letter-71-3-no-wind-the-right-wind.md"
+  ],
+  "authority": "gw-researcher cold pass, 2026-11-04, from runs/ch16/interview.md and the approved Ch16 outline",
+  "reason": "Six unverified citation concepts (findings and one gap) for Ch16; content proposals left open for the author",
+  "files": {
+    "books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md": "fed3c08ab1d83397caee53e7331e11b3dbab26cd8ae6bd0504c68be29fc45a60",
+    "books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md": "591adfb030ab945c8b2dab118b1e0b932739d67bf776ee594e74df91a364ba49",
+    "books/the-stoic-husband/okf/citations/male-roles-mirror-nature-gap.md": "92cdffbb522a6812ecb8a94db103a5a68ea4cfa2e7c21e1c24b01b7b75c8e30d",
+    "books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md": "716e6cf04123f8864553782189b0a133ce95e294ca3b08fe24a7a8a98982a7f4",
+    "books/the-stoic-husband/okf/citations/seneca-de-ira-1-1-temporary-madness.md": "e92943212e0a6a9833424d0dd6cc3a4c881dce679c2219f1ec8e3a5793680597",
+    "books/the-stoic-husband/okf/citations/seneca-letter-71-3-no-wind-the-right-wind.md": "df1c6317c8013410ce891d4878375305d205d0b98c62cab3cff17b19a8db609e",
+    "runs/ch16/research.md": "c924d726c4070c43a90b7c80013515c9019db7b9b747772e9d16cbf2263fab0d",
+    "runs/ch16/proposed-concepts.md": "c018f1a064cff08a4f92206a0a3cb46a0b6ee8779eae2d2081c600cb4905557e",
+    "books/the-stoic-husband/okf/index.md": "838daeb5d593652301b2b9fe70b8dc755291fdc8ed9add8e73b973dbc2edb08e",
+    "books/the-stoic-husband/okf/log.md": "17f5deb00fc9ec838fa7686694717e7efc27359548fb61fb526b10dfbefde11c",
+    "books/the-stoic-husband/citation-queue.md": "59dd911805b508b42a2b0bbe72f9a6a6b0c8d8d9ac54906008de40f0f205abd6"
+  }
+}
