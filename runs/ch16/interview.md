@@ -252,3 +252,14 @@ Author, verbatim (the message ends mid-sentence):
 - **1:** conditional. Publisher answered from Ch12 line 13: the grandfather gave two pieces of advice, sixty-forty (Ch7) and, when the author first got married, "Put your wife first. Focus on her because your kids will leave you." His ruling: stop retelling it; a tongue-in-cheek callback ("Again, my grandfather's words ring out...") is his offered form. Awaiting his pick.
 - **2:** ruled: cut the sun / night / winter lines; deposits and credits carry the chapter.
 - **5 (close):** his sentence was cut off; asked again. Other items (3, 4, 6, 7, 8) not yet answered.
+
+### Round 4, continued (2026-11-04 16:31 UTC)
+
+Author, verbatim:
+
+> For number five, I think we should switch to the other ending line that you came up with, not "She's my best friend." For number 7, I don't want to keep the brackets those men provided because the audiobook will read it. The rest of the defaults are fine.
+
+- **5 (close), ruled:** the chapter ends on the other candidate offered: his own line, "You should have the most credits with your wife because she is your number one." (Round 2a; the Publisher had flagged its "you should" risk; he chose it.) "She's my best friend." may stay earlier, with the joy lines.
+- **7:** the bracket was the Publisher's chat gloss, not in the prose. The prose reads "They were providers and they provided for their families. You can respect that, and I do." No brackets in the book. Default (keep both Ghostwriter lines) otherwise accepted; his audiobook concern recorded: never print bracketed glosses in prose.
+- **1 (grandfather):** he offered the form himself ("Again, my grandfathers words ring out..."); applied as a one-line callback to Ch12, no retelling.
+- **3, 4, 6, 8:** defaults accepted ("The rest of the defaults are fine").

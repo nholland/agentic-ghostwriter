@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-11-04T16:30:31.097293+00:00",
+  "timestamp": "2026-11-04T16:31:07.449109+00:00",
   "subjects": [
     "interview:ch16-round4"
   ],
   "disposition": "no-knowledge-change",
   "concepts": [],
   "authority": "The author, Ch16 Round 4, 2026-11-04",
-  "reason": "Editorial rulings on prose only (cut the sun/night lines); the grandfather's Ch12 advice is already in the book; no new fact, story or framework. Close and callback form still pending.",
+  "reason": "Editorial rulings on prose only (close line, sun lines cut, Ch12 callback); no new fact, story or framework",
   "files": {
-    "runs/ch16/interview.md": "b664ab0c963c0edd3e06b9a6999e7f0572e60dc16ce1b9f70905ec931a239ae9"
+    "runs/ch16/interview.md": "fd49752e17a681ddeb9a0df8a23c645b4dd5200b89053f570aeccac27041cfa6"
   }
 }
