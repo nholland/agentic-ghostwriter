@@ -181,3 +181,38 @@ Verbatim, unedited:
      several (bank, plant, sun going down). Changing that is a constitution edit
      and needs his explicit word; the sun is already the arc's own image.
   3. Ch14 owns grass-and-water; the plant's water overlaps it.
+
+## Round 2 answers (received 2026-11-04 13:30 UTC)
+
+Verbatim, unedited:
+
+> To answer your questions, yes it was a slip. I meant to say, of course, I don't want my wife unhappy. I think the third word was eudaimonia. I like that. It was equanimity, arete, and then eudaimonia. Those are incredibly important to put in this chapter.
+>
+> I think on the pushback it is men's fear. On the "I can't control you" scene what happened was she said, "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by himself, then he will find himself in a relationship by himself." She was very quick to communicate. She did not want to be married to a stone. You can use my buddy's line in Chapter 26 if you want.
+>
+> I thought framing the bank account would not make it like a tally because the bank doesn't ever owe you money. You put your own money into your own bank account and then you pull it out. When you're at zero the bank account either closes down or, if you go negative, the bank account starts charging you interest, which could be a metaphor for divorce if we were trying to be funny.
+>
+> I don't know how you feel about that but it's more like a bank ledger and I don't know that the bank has ever paid me anything. I don't know about how we should treat the metaphors. I'm just telling you what I refer to in my children so we've got to balance real-world stories that I tell my kids and my friends with what works best for the book.
+>
+> I think I'm already comfortable leaving the plant out. I would be okay with the sun but it doesn't really take care of the reciprocation and the deposits metaphor so we got to think about that. Maybe it's all just about the emotional bank account. Maybe we just lean into that.
+>
+> As far as the typos when I said "when you are the sun," I did mean sun. When my grandfather said "when you have kids," although he was referring to himself when he said "when we have kids, we realize they leave us," he was telling us from his own experience. Yes he was giving me advice. He said, "When you have kids they will leave you."
+>
+> As far as chapter 16 we can move stuff around into other arcs. We still have 10 more arcs left after all this so do your best to put a cohesive chapter together. Let's put the rest filed away in our frameworks on the open knowledge format.
+
+### Rulings and what each changed (Rule 10)
+
+1. **Slip resolved:** "of course, I don't want my wife unhappy." Replaces the Round 1 reading ("do want her happy").
+2. **Three words confirmed:** equanimity, arete, eudaimonia; "incredibly important to put in this chapter."
+3. **Pushback, round 1 of 1, accepted:** "weak and whiny by women" is men's fear, not his observation. Prose frames it as what men fear.
+4. **The missing scene, supplied:** her words after "I can't control you": "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by himself, then he will find himself in a relationship by himself." "She did not want to be married to a stone."
+5. **Many-partners line:** to Chapter 26.
+6. **Bank vs. Ch7 tally, answered:** the bank never owes you; you deposit your own money into the account and withdraw it; at zero it closes, below zero it charges interest (divorce, "if we were trying to be funny"). He leaves metaphor policy to the house: "balance real-world stories ... with what works best for the book." Plant out. Sun is fine but does not carry deposits: "Maybe we just lean into" the emotional bank account.
+7. **Slips resolved:** "the sun" (not "son"); grandfather's advice was "When you have kids they will leave you," spoken from his own experience.
+8. **Scope:** "do your best to put a cohesive chapter together"; material that does not fit is filed in the OKF frameworks for later chapters.
+
+**Finding for him:** on 2026-10-02 the outline removed "deposits", "the account"
+and "debt" from Chapter 24 as the scorekeeping frame Chapters 7 and 9 take apart.
+His Round 2 answer (the bank never owes you) is a distinction that answer did not
+have. Using the bank in Ch16 reverses that decision for this chapter only;
+raised in the outline proposal.

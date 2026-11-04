@@ -2,6 +2,7 @@
 type: Story
 title: '"I Can''t Control You": Stoic Phrases Used Out Loud in an Argument'
 description: >
+  Her reply: a man who believes he is in a relationship by himself will find himself in one.
   Early in his Stoicism, after his wife finished being angry, he looked at her and said "I can't
   control you. I can only control me and I don't see things the way you do." She took it as him
   not caring.
@@ -21,4 +22,4 @@ In the author's words: "When I first got into Stoicism, one of the first argumen
 
 **Overlap:** Ch1 printed the internal version and "My wife thought I'd gone somewhere she couldn't reach." Ch16 may use the spoken line as new detail; do not retell Ch1's scene.
 
-**Open (Round 2):** how he came back to her afterward; asked, not yet answered.
+**Her answer (Round 2, 2026-11-04):** "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by himself, then he will find himself in a relationship by himself." In his words: "She was very quick to communicate. She did not want to be married to a stone."

@@ -16,6 +16,6 @@ timestamp: 2026-11-04T13:30:00Z
 
 In the author's words: "I remember him telling me, 'Don't forget your wife when we have kids.' I said, 'What do you mean?' He said, 'The reality is that your kids will leave you. They will grow up and as part of the natural evolution they will leave you and they will move on to live their own lives. You will not be there for them but your wife will always be there so treat her like your number one priority.' I think that that is a critical part of the investment mindset."
 
-**To confirm:** "when we have kids" read as "when you have kids".
+**Wording confirmed (Round 2):** the advice was "When you have kids they will leave you," spoken from his own experience ("when we have kids, we realize they leave us"). The Round 2a "when we have kids" mixed the two.
 
 **Note:** this is the same grandfather Ch1 describes as devoted to his grandmother for fifty-plus years and quick to yell. Ch7 holds his 60/40 rule. Possible tie to Ch27-28 (the long years; what they inherit).

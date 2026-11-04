@@ -28,6 +28,9 @@ See [README.md](/README.md) for the original pilot assessment and integration
 notes.
 
 ## Frameworks
+- [Equanimity, Arete, Eudaimonia](/frameworks/equanimity-arete-eudaimonia.md) — the relationship at peace, at its best, flourishing; the author's three words to close the Sun arc (Ch16 Rounds 1-2)
+- [Many Partners in One](/frameworks/many-partners-in-one.md) — a friend's line on asking one spouse to be every kind of partner; placed in Ch26 on the author's word
+- [There Are Two of You](/frameworks/there-are-two-of-you.md) — the universal problem is the other person; humility, negotiation, not being right (unattributed online source; candidate Ch19)
 - [The Bank of Credits](/frameworks/the-bank-of-credits.md) — the relationship as an investment, not a burden: deposits before the withdrawal, green everywhere, most of all with her (the author's, Ch16 Round 2a; attribution and Ch7 tension open)
 
 Author-developed models and lenses. Author IP — never cited as external

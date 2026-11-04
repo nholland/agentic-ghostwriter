@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-11-04T13:31:36.126256+00:00",
+  "subjects": [
+    "interview:ch16-round2"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md",
+    "books/the-stoic-husband/okf/stories/dont-forget-your-wife-when-you-have-kids.md",
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md",
+    "books/the-stoic-husband/okf/frameworks/equanimity-arete-eudaimonia.md",
+    "books/the-stoic-husband/okf/frameworks/many-partners-in-one.md",
+    "books/the-stoic-husband/okf/frameworks/there-are-two-of-you.md"
+  ],
+  "authority": "The author, Ch16 interview Round 2, 2026-11-04 (runs/ch16/interview.md)",
+  "reason": "Slip, eudaimonia, pushback and her reply recorded; bank framework gains his not-a-tally distinction; three frameworks added (two filed for Ch26 and candidate Ch19). Outline change proposed only.",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md": "ae445f5db727d1d6d6213d1518c35b06dcdbb111e62f264d84ccb148a2c9a437",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md": "af2b9e035612363efea3cd0c98c49f96f24713146efa65014fac2ba4566857c4",
+    "books/the-stoic-husband/okf/stories/dont-forget-your-wife-when-you-have-kids.md": "43b5aa95a063502844a7b0e31b7c538a608cd58febcfa9f219e74d661a2302ec",
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md": "c325584ea370a3a7431b74a708833b21c58095fe83d56eca1f709ddbe2e6ada0",
+    "books/the-stoic-husband/okf/frameworks/equanimity-arete-eudaimonia.md": "034f1358d7de54e9faaec3f520527c6a6ee204f78d36235196b03186767130fb",
+    "books/the-stoic-husband/okf/frameworks/many-partners-in-one.md": "2f21c5453dfc2c3e74767bf7193c069915da884040608667cd7b8e443123de20",
+    "books/the-stoic-husband/okf/frameworks/there-are-two-of-you.md": "9f0ae83049d2d5c6f1570988dd2f3691340049364886eb73b95cfb342e822d7a",
+    "runs/ch16/interview.md": "2cd7d962d660cf2b4d6537012cca648eea32b02ac44fa3dcebbeb2d51e5ebb3e",
+    "runs/ch16/outline-proposal.md": "60d52ebd784f29901a0b53aa12c5af3ae2891ea9522137a6520014b700747d7e",
+    "books/the-stoic-husband/okf/index.md": "eab27f25a52c0ab93246e7b633e7afa72ef080d54d6eda54c95fc3630a121c7e",
+    "books/the-stoic-husband/okf/log.md": "e64239afee8d05c1cc4552b9767fbf90c471ab09a0169a92183de71e8bf2e856"
+  }
+}
