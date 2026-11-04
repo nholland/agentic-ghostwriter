@@ -141,3 +141,43 @@ on no wind being favourable to a man who does not know his port, to be located);
 anger as brief madness (candidate: Seneca, *De Ira* I); cosmopolis; arete;
 eudaimonia; any research on the 2026 "lost boys" claim; the nature claim about
 male roles (he flagged lionesses himself).
+
+## Round 2a: unprompted addition, reciprocation and the bank of credits (received 2026-11-04 13:19 UTC)
+
+Before answering the five Round 2 questions, the author added new material.
+Verbatim, unedited:
+
+> There's something else I want to put into this chapter that we haven't gathered anywhere else. I think it is the concept of reciprocation: people want to feel like their relationship is an investment not a burden. Maybe this is a framing that we need to give to the husband.
+>
+> If it's an investment then the way you think about it is... I tend to make many metaphors and I think it's okay to put multiple metaphors into this because it gives a very good visual understanding of what's going on in the relationship from a reciprocation standpoint. You are really looking to put what we call credits in the bank.
+>
+> I teach my boys that relationships of all types, not just marriage, are ones where you have to invest in the relationship over a long period of time. That means constantly you have to put in deposits and those deposits begin to build up because there is inevitably a time when you will need to make a withdrawal. I tell my boys that this is with their teachers, with their coaches, with their girlfriends and I believe that it is critical for husbands to understand the same thing.
+>
+> The way that I might think about it in the book is that sometimes the sun goes down. It could just be for a short night. It could be because it's a long winter but at the end of the day you have to have built up credits. You have to have built up a significant number of deposits.
+>
+> I even talk to my boys a lot about if you think back over the last whatever period, the last few weeks, the last semester, the last year, what credits have you put into the bank of the relationship? How often have you been kind and said good morning to your wife when you're traveling? How often have you made coffee? How often have you rubbed her back or her feet? How often have you thought about her while you're out and got her a gift? It is not about the act of service or the gift. It's just about the credits.
+>
+> When you are the son your balances should be green everywhere. That means that you should be in the green with your kids, with your parents, with your siblings, with your work relationships, and with your wife. In fact I would argue that you should have the most credits with your wife because she is your number one.
+>
+> One of the stories that my grandfather told me that I thought was really critical in terms of framing how I think about this is that I remember him telling me, "Don't forget your wife when we have kids." I said, "What do you mean?" He said, "The reality is that your kids will leave you. They will grow up and as part of the natural evolution they will leave you and they will move on to live their own lives. You will not be there for them but your wife will always be there so treat her like your number one priority." I think that that is a critical part of the investment mindset.
+>
+> I think of it a lot like a plant as well. Is the relationship growing and thriving or is it starving? If it's starving for nutrients or water or sunlight, then effectively it will wilt. I don't know if there's a metaphor there to bring it all home but I do know the sunlight, the warmth, the love: a plant needs it to grow as well.
+>
+> As far as the nutrients I don't know if that's more like the oak or more like the river. We could just leave that out if we want to but I do think the metaphor of a bank account and the metaphor of a plant growing, those are critical to the relationships
+
+### Publisher's notes on Round 2a (2026-11-04 13:25 UTC)
+
+- **New to the book:** no chapter or concept uses a bank of credits; the
+  grandfather's "Don't forget your wife when we have kids" is new.
+- **Possible slips, to confirm:** "When you are the son" read as "the sun";
+  grandfather's "when we have kids" read as "when you have kids".
+- **Attribution risk:** "emotional bank account" is an established term (commonly
+  credited to Stephen Covey, and used by Gottman). The Researcher must locate it;
+  the prose must not present it as the author's coinage if it is not.
+- **Conflicts raised with him, not resolved:**
+  1. Ch7 (The End of Scorekeeping) argues against the private tally. A bank of
+     credits can read as scorekeeping unless it counts only his own deposits.
+  2. `01-voice.md` allows one image per chapter and bans stacking. He asks for
+     several (bank, plant, sun going down). Changing that is a constitution edit
+     and needs his explicit word; the sun is already the arc's own image.
+  3. Ch14 owns grass-and-water; the plant's water overlaps it.

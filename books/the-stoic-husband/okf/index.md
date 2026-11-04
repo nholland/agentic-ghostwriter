@@ -28,6 +28,7 @@ See [README.md](/README.md) for the original pilot assessment and integration
 notes.
 
 ## Frameworks
+- [The Bank of Credits](/frameworks/the-bank-of-credits.md) — the relationship as an investment, not a burden: deposits before the withdrawal, green everywhere, most of all with her (the author's, Ch16 Round 2a; attribution and Ch7 tension open)
 
 Author-developed models and lenses. Author IP — never cited as external
 research unless explicitly noted under `# Citations`.
@@ -141,6 +142,7 @@ Real audience signals and author anecdotes, used as composite scenarios.
 - [The Vortex: Family Friction Becomes Disconnection](/stories/the-vortex.md) — her strain with a sibling or a child becomes distance between them; taking the bait pulls everyone in (the author's own account, Ch15 Round 8)
 - [The Old Blueprint of a Man](/stories/the-old-blueprint-of-a-man.md) — demand, small talk, silence, or blow up; his grandfather's and father's word was law (the author's own account, Ch16 Round 1)
 - ["I Can't Control You"](/stories/i-cant-control-you-said-aloud.md) — the Stoic line said aloud mid-argument, heard as not caring (the author's own account, Ch16 Round 1; Ch1 told the internal version)
+- ["Don't Forget Your Wife When You Have Kids"](/stories/dont-forget-your-wife-when-you-have-kids.md) — his grandfather: the kids will leave, your wife will always be there (the author's own account, Ch16 Round 2a)
 
 ## Citations
 
