@@ -20,3 +20,14 @@ Checker: gw-specchecker, clean room (outline section + draft only). Recorded 202
 4. Arete/eudaimonia glosses presented as "the Stoics" meant, with no source. Acceptable as plain glosses; keep sourced to the Diogenes Laertius concept in Draft Notes.
 5. "They called it the cosmopolis": the Stoics' use of the word is unsourced. Soften or source.
 6. "Dispreferred and preferred ... all day long" sits in the Stoic passage as if doctrine: mark it as his reading.
+
+# Round 2 (2026-11-04 15:54 UTC)
+
+Checker: gw-specchecker, clean room, on the revised draft. **Result: 44/46 PASS; 6 attribution findings.**
+
+| Row | Finding | Disposition |
+|---|---|---|
+| 5 | Ch4 nails callback is two clauses and extends the image ("the hole it leaves") | To the Line Editor in refine: one clause. A one-clause trim; no third draft round. |
+| 46 | No printed transition to Part IV | House practice (Ch15 printed none); for the author at the verdict. |
+
+Attribution findings carried into refine: (3) the cosmopolis paraphrase claims more than VI.44 supports ("the reason we all share", justice owed) — trim to what the quote and the Marcus IV.4 concept support; (4) "Stoic phrases": optional callback to the dichotomy of control as Ch1 named it, no new citation; (5) Seneca biography: general knowledge, keep; (6) cross-chapter claims (Ch1 "Kind", Ch1/Ch2 equanimity, Ch2/Ch5 preferred indifferents, Ch7 tally, Ch2 mood) — the Line Editor verifies each against chapters/chNN/refined.md. Findings 1-2 (glosses): sourced in Draft Notes to Diogenes Laertius; acceptable as plain glosses.
