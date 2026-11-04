@@ -16,5 +16,11 @@
     "turn_id": null,
     "prompt": " I think this is too on the nose for stoicism. How can we adjust this? Just a bit to still capture the meaning but also not be 100% tied to stoicism. \n\nI'm thinking that we could go more with the lack of emotions, or their traditional confusion around what it means to be a man. I really like the whole concept of empathy is the wrong emotion because it gives your feelings over to somebody else. But compassion is the right emotion. \n\nWhat are some other ideas?",
     "recorded": "2026-11-03T16:51:46.173815+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Like your suggested hit points, please ask me questions that I can answer that will touch on all of those",
+    "recorded": "2026-11-04T01:47:40.732304+00:00"
   }
 ]
