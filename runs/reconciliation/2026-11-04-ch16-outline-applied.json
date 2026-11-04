@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-04T14:01:47.142949+00:00",
+  "subjects": [
+    "outline:ch16"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md"
+  ],
+  "authority": "The author, 2026-11-04: \"Proceed\" approving runs/ch16/outline-proposal.md",
+  "reason": "Ch16 spec reframed; author note marks the reframe as applied",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md": "d98d3da84a15436fac8d21a08ae122604e6553b2165dc6bc975b4ca04326436f",
+    "books/the-stoic-husband/okf/log.md": "91359f4732fd5fe155c532a3deabdefda93e3be433ec34c08f94fe108033d9cd",
+    "books/the-stoic-husband/03-outline.md": "96ff61751e15e392f1be02d2c09dcfd8d75eaefe1d658949625174a535911c74",
+    "runs/ch16/outline-before-approval.md": "3af1294414ceefc7b63030e0be8c833492f2418cddbba3a2b139255a356d85c7"
+  }
+}
