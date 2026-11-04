@@ -5,9 +5,9 @@ description: >
   The governing principle for a Stoic in a mixed marriage — don't try to "win"
   by being less reactive, more philosophical, or more disciplined; that becomes
   vanity wearing moral clothing.
-provenance: Author notes (Musonius/marriage-under-strain framework)
+provenance: 'Author notes (Musonius/marriage-under-strain framework) + author, Ch16 Round 1 (runs/ch16/interview.md), 2026-11-04; P1 accepted Round 3 ("The rest of the rulings look good")'
 ip: author-synthesis
-tags: [framework, musonius-rufus, mixed-marriage]
+tags: [framework, musonius-rufus, mixed-marriage, detachment, armor]
 chapter_slugs: [stop-outsourcing-your-peace, stop-defending-yourself, warmth-is-strength]
 timestamp: 2026-06-01T00:00:00Z
 ---
@@ -29,3 +29,11 @@ that becomes vanity wearing moral clothing.
 # Citations
 
 None — author IP.
+
+# The superiority cloak (author, Ch16 Round 1, 2026-11-04)
+
+"Being self-controlled in a situation is different than being detached or even smug. Sometimes
+people wear their philosophy and their religion like a moral superiority cloak."
+
+Widens the concept from a mixed marriage to any marriage: calm used to look above her is the same
+vanity. Ch16 key point 3. (Proposed by gw-researcher, accepted by the author 2026-11-04.)

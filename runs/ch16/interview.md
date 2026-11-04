@@ -216,3 +216,28 @@ and "debt" from Chapter 24 as the scorekeeping frame Chapters 7 and 9 take apart
 His Round 2 answer (the bank never owes you) is a distinction that answer did not
 have. Using the bank in Ch16 reverses that decision for this chapter only;
 raised in the outline proposal.
+
+## Round 3 (asked 2026-11-04 14:25 UTC; answered 2026-11-04 15:34 UTC)
+
+Asked: b1 the inside of the moment before "I can't control you"; b2 what happened
+after her answer; then nine quick rulings, each with a stated default (close "She's
+my best friend"; credits origin; Arête spelled with the accent, Stoic sense =
+excellence of character with "highest potential" as his reading; the three words
+applied to a marriage presented as his step; harbour quote and interest joke left
+out; grandfather quoted as "Don't forget your wife when you have kids"; proposals
+P1-P4 yes).
+
+Author, verbatim:
+
+> I don't remember what the argument was about, likely something with kids. But I do remember that when she started getting upset about the things I was saying, I had a moment of reflection. I realized that I had to be doing something wrong because at the end of the day philosophy is about living a set of truths that should yield a good life.
+>
+> When I thought about her reaction (I can't remember what we were arguing about) it wasn't something that was incredibly principled. I realized that my behavior and interactions actually made the situation worse and that's why I realized I needed to update how I was thinking about it
+>
+> The rest of the rulings look good
+
+### Rulings and what each changed (Rule 10)
+
+- **b1/b2:** topic unremembered ("likely something with kids"; the prose must not name a topic). The turn is his reflection as she grew upset: philosophy is "living a set of truths that should yield a good life", so if it made things worse he was doing it wrong; the argument "wasn't something that was incredibly principled"; "my behavior and interactions actually made the situation worse"; so he "needed to update how I was thinking about it." No account of what she did afterward; the prose must not invent one.
+- **Defaults accepted ("The rest of the rulings look good"):** close is "She's my best friend."; Arête with the accent, Stoic sense excellence of character, "highest potential" his reading; the three words applied to a marriage are presented as his step; harbour and interest joke out; grandfather quotable as "Don't forget your wife when you have kids"; P1-P4 yes.
+- **Credits origin (Q4):** no direct answer; the stated handling stands: the prose credits Covey with making "emotional bank account" famous and never claims it as the author's coinage.
+- **Ah-ha:** unchanged (Publisher's sentence, adopted on "Proceed").

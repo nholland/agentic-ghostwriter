@@ -28,6 +28,8 @@ See [README.md](/README.md) for the original pilot assessment and integration
 notes.
 
 ## Frameworks
+- [Self-Command, Not Detachment](/frameworks/self-command-not-detachment.md) — anger as temporary madness gave him a new picture of strength; overused, calm became distance (Ch16, author-accepted P2)
+- [The Thin Line](/frameworks/the-thin-line.md) — men's fear between vulnerable and detached (Ch16, author-accepted P3)
 - [Equanimity, Arete, Eudaimonia](/frameworks/equanimity-arete-eudaimonia.md) — the relationship at peace, at its best, flourishing; the author's three words to close the Sun arc (Ch16 Rounds 1-2)
 - [Many Partners in One](/frameworks/many-partners-in-one.md) — a friend's line on asking one spouse to be every kind of partner; placed in Ch26 on the author's word
 - [There Are Two of You](/frameworks/there-are-two-of-you.md) — the universal problem is the other person; humility, negotiation, not being right (unattributed online source; candidate Ch19)

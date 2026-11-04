@@ -1,5 +1,6 @@
 ---
-status: open
+status: answered
+answered: '2026-11-04 15:34, author: "The rest of the rulings look good" (P1-P4 yes)'
 chapter: 16
 raised_by: gw-researcher
 written: 2026-11-04 14:20

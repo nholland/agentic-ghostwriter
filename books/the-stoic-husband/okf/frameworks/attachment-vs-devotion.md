@@ -4,9 +4,9 @@ title: Attachment vs. Devotion
 description: >
   The Stoic distinction between needing a person to feel whole (attachment) and
   chosen care that acts lovingly without dependence (devotion).
-provenance: Author notes (Stoic Romance framework)
+provenance: 'Author notes (Stoic Romance framework) + author, Ch16 Rounds 1-2 (runs/ch16/interview.md), 2026-11-04; P4 accepted Round 3'
 ip: author
-tags: [framework, stoic-romance]
+tags: [framework, stoic-romance, preferred-indifferents]
 chapter_slugs: [stop-outsourcing-your-peace, the-sexless-marriage, warmth-is-strength]
 timestamp: 2026-06-01T00:00:00Z
 ---
@@ -36,3 +36,14 @@ Key line: *"Stoicism rejects unhealthy attachment. It does not reject devotion."
 # Citations
 
 None — author IP.
+
+# Where a Stoic lives all day (author, Ch16 Round 1, 2026-11-04)
+
+"Dispreferred and preferred are states where you exist almost all day long. It's the absolutes of
+detachment or attachment that you effectively get to only a few times."
+
+"I don't have to be unreasonably attached to her to the point where it drives anxiety or fear or
+negative emotions. But I do prefer to have her happy. I do prefer to make her feel valued. I do
+prefer to make her feel loved"
+
+Round 2 wording of the slip: "of course, I don't want my wife unhappy."
