@@ -139,6 +139,8 @@ Real audience signals and author anecdotes, used as composite scenarios.
 - [The Wife Who Is Enough](/stories/the-wife-who-is-enough.md) — author testimony for Ch14; author approved use, subject to review.
 - [Her Full Agenda Meets His Rest (Coming Home, Busy Weekends)](/stories/coming-home-into-the-tension.md) — he walks in tired, or she wakes to a packed weekend, and she is stretched and asking; he used to hear 'lazy'; he came to hear her load, then help and hug (the author's own account; widened Round 5)
 - [The Vortex: Family Friction Becomes Disconnection](/stories/the-vortex.md) — her strain with a sibling or a child becomes distance between them; taking the bait pulls everyone in (the author's own account, Ch15 Round 8)
+- [The Old Blueprint of a Man](/stories/the-old-blueprint-of-a-man.md) — demand, small talk, silence, or blow up; his grandfather's and father's word was law (the author's own account, Ch16 Round 1)
+- ["I Can't Control You"](/stories/i-cant-control-you-said-aloud.md) — the Stoic line said aloud mid-argument, heard as not caring (the author's own account, Ch16 Round 1; Ch1 told the internal version)
 
 ## Citations
 
@@ -422,6 +424,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 `type: QA Finding` concepts.
 
 ## Notes
+- [Ch16 Round 1: masculinity, superiority cloak, preferred indifference, two people](/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md) — the author's reframe of Ch16 and its material, in his words; outline change pending
 
 - [Inline chapter visuals](/notes/2026-10-01-inline-chapter-visuals.md) — inline-visual commissions and approved Chapter 1 plate/inline arrangement; Designer exploration queued in inbox 110.
 
