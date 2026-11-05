@@ -12,7 +12,7 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 **The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about what they felt and only spoke up to make a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.
 
-Calm was my first fix for that, and calm can go cold. Chapter 1 told the quiet version of cold calm. Once, I said mine out loud to my wife.
+Calm was my first fix for that, and calm can go cold. Chapter 1 told a story of cold calm kept silent. Once, I said it out loud to my wife.
 
 I'd just gotten into Stoicism. Not long after, we had an argument. She was angry at me, and I sat there quiet. When she was done, I looked at her and said, "I can't control you. I can only control me and I don't see things the way you do."
 
@@ -24,7 +24,7 @@ She didn't want to be married to a stone.
 
 I shouldn't have aimed that line at her at all. Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. The idea underneath it was right, and I had used it wrong. "I can only control me" is true. It's a standard I hold my own conduct to. In that argument, it had become a way to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her.
 
-What fixed it was turning toward her.
+What fixed that habit was turning toward her.
 
 ---
 
@@ -50,26 +50,27 @@ In a marriage, the two of you share one joint account. You both put in, and what
 
 A deposit is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Yours will look like your marriage. You know what she'd notice. Each one takes a minute or two. What makes it count is that you did it on an ordinary day, without being asked, because she was worth the minute.
 
-Hers go in too, in her own ways, and they land in the same place yours do. Attention and effort come in from both sides, and both of you live on what's there. That's what I mean by the give and take of attention and effort. When she feels your attention, it's easier for her to give hers. When you feel hers, it's easier for you. Effort works the same way. Two people who keep putting in make it lighter for each other to keep going.
+Hers go in too, in her own ways, and they land in the same place yours do. Attention and effort come in from both sides, and both of you live on what's there. That's the give and take of attention and effort. When she feels your attention, it's easier for her to give hers. When you feel hers, it's easier for you. Effort works the same way. Two people who keep putting in make it lighter for each other to keep going.
 
 You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. My grandfather put it plainly in Chapter 12: "Put your wife first."
 
-Nobody keeps track of whose was whose. In Chapter 7, the tally was the running score in your head of what you've done for her. It counted only your side, so she always came up short. Here nobody keeps count at all, and nobody checks to see who's ahead. The bank doesn't ever owe you money. Everything you put in stays there, for the marriage. Nothing you put in is waiting to be handed back to you.
+Nobody keeps track of who put in what. In Chapter 7, the tally was the running score in your head of what you've done for her. It counted only your side, so she always came up short. Here nobody keeps count at all, and nobody checks to see who's ahead. The bank doesn't ever owe you money. Everything you put in stays there, for the marriage. Nothing you put in is waiting to be handed back to you.
 
 So why keep it growing? Because hard stretches come. A bad month can land on you, on her, or on both of you at once. When one comes, neither of you may have much left over, and your marriage lives on what's already there between you. That's when the good mornings and the coffee turn out to matter. They're what the two of you have to go on. That's one reason to keep putting in on the easy days, when it feels like nothing needs it.
 
 So ask yourself about the two of you. Is there more between you now than there was a year ago?
+
 ---
 
 **In flow.** When all of this is working, the whole house feels different. There's a word for this that people in business like to use: flow. You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.
 
 The psychologist Mihaly Csikszentmihalyi described flow in his 1990 book *Flow: The Psychology of Optimal Experience*. He wrote about being absorbed in something that stretches you without overwhelming you. You stop watching yourself, and the doing becomes its own reward.
 
-My sense of the word is simpler. To me, flow is when everything is going well: you're at peace, and you're at your best. Applying that to a whole marriage is my own step. So is pairing it with three words from Stoic thought, two of them Greek. To me, they describe what flow looks like for the two of you.
+My sense of the word is simpler. To me, flow is when everything is going well: you're at peace, and you're at your best. Applying that to a whole marriage is my own step. So is pairing it with three words, two of them Greek terms the Stoics used. To me, they describe what flow looks like for the two of you.
 
 The first word is one you already know. Staying calm and steady on the inside is what Chapter 1 called equanimity. For one person, equanimity means you're at peace. Your marriage can be at peace too, with two steady people in it. Then a hard day can be hard without becoming a fight.
 
-The second word is new to this book. There's a best version of you, and a best version of your marriage. It's the version you'd be proud of. The Greek word for excellence is arête. For the Stoics it meant excellence of character, the same virtue I mentioned earlier. I read it as being at your best. Arête, for a marriage, is the marriage at its best.
+The second word is new to this book. There's a best version of you, and a best version of your marriage. Each is the version you'd be proud of. The Greek word for excellence is arête. For the Stoics it meant excellence of character, the same virtue I mentioned earlier. I read it as being at your best. Arête, for a marriage, is the marriage at its best.
 
 The third is eudaimonia, the flourishing from earlier: a life going well as a whole, over years, with both of you in it.
 
@@ -334,3 +335,7 @@ practice_sync: runs/appendix/practice-guide.md vs each chapter's distillation (r
 ### Publisher, after round 2 (2026-11-05)
 
 Finding 8 reverted: the eudaimonia sentence is the author's verbatim Round 5 line, also quoted in the outline; restored word for word.
+
+### Publisher, after the second cold read (2026-11-05)
+
+Applied cold-read findings 1, 2, 4, 6 (as 'who put in what', to keep the image family under its cap), 7 (blank line before a section rule), 8, 9 and 10 (distillation). Not applied: 3 (the author's verbatim line) and 5 (the 'go first' reasoning), left for the author's read.
