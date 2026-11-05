@@ -1,0 +1,150 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Chapter 16: Warmth Is Strength (author review)</title><style>
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+html { -webkit-print-color-adjust: exact; }
+body { font: 10.5pt/1.62 Georgia,'Liberation Serif',serif; color:#1a1a1a;
+       margin:0; text-rendering:optimizeLegibility; hyphens:auto; }
+
+/* ---- the reader-facing distillation after the plate ---- */
+.dist { page-break-after: always; font-size:9.5pt; line-height:1.3; }
+.dist.distback { page-break-before: always; page-break-after: auto; }
+.chapter-bundle + .chapter-bundle { break-before:page; }
+h1.chapter-heading { break-inside:avoid; page-break-inside:avoid; }
+.dist .kicker { font: italic 9.5pt Georgia,serif; letter-spacing:.06em;
+        color:#5a5a5a; text-align:center; margin:0 0 .08in; break-after:avoid; }
+.dist h1 { font-size:14pt; font-weight:600; letter-spacing:.01em;
+        text-align:center; line-height:1.25; margin:0 0 .08in;
+        page-break-before:avoid; }
+.dist .rule { width:2.2in; height:0; border-top:.6pt solid #bdbdbd;
+        margin:.08in auto .10in; }
+.dist .mech { text-align:center; font: 600 11pt Georgia,serif;
+        letter-spacing:.14em; text-transform:uppercase; margin:0 0 .06in; }
+.dist .convo { font: italic 11.5pt/1.55 Georgia,serif; text-align:center;
+        margin:0 auto .3in; max-width:4in; color:#2a2a2a; }
+.dist p { margin:0 0 .08in; }
+.dist h2 { font:600 9.5pt Georgia,serif; letter-spacing:.16em;
+        text-transform:uppercase; color:#5a5a5a;
+        margin:.16in 0 .08in; border-bottom:.5pt solid #ddd; padding-bottom:.05in; }
+.dist ol { margin:0 0 .1in; padding-left:.24in; }
+.dist li { margin:0 0 .07in; }
+
+/* ---- chapter ---- */
+/* Headings and chapter bundles start fresh pages. The first heading in
+   each section avoids an extra leading break. */
+h1 { font-size:20pt; font-weight:600; line-height:1.2; letter-spacing:.005em;
+     margin:0 0 .06in; page-break-before:always; }
+h1:first-of-type { page-break-before:avoid; }
+h1 + hr.beat { display:none; }
+/* compile.py's marker for "start fresh page here", used before the Putting
+   It Into Practice section so a chapter's back matter never runs onto the
+   same page as its closing lines. Zero height: it does not itself print. */
+.pb { page-break-before:always; }
+p { margin:0 0 .12in; text-align:left; text-indent:0; }
+p.runin, p.runin + p, blockquote + p, .plate + p, hr.beat + p { text-indent:0; }
+p.runin { margin-top:.2in; }
+p.runin strong { font-weight:600; letter-spacing:.01em; }
+hr.beat { border:0; height:0; margin:.24in auto; width:1.1in;
+     border-top:.6pt solid #cfcfcf; }
+blockquote { margin:.22in .42in; padding-left:.2in; border-left:1.2pt solid #d4d4d4; }
+blockquote.pull { margin:.26in .3in; padding:0 0 0 .22in;
+     border-left:1.6pt solid #c9c9c9; page-break-inside:avoid; }
+blockquote.pull p { font: italic 11pt/1.56 Georgia,serif; }
+blockquote cite { display:block; font: normal 9pt Georgia,serif; font-style:normal;
+     color:#6a6a6a; margin-top:.09in; letter-spacing:.02em; }
+blockquote p { font: italic 10.5pt/1.55 Georgia,serif; color:#2f2f2f;
+     text-align:left; text-indent:0; margin:0; }
+em { font-style:italic; }
+strong { font-weight:600; }
+
+/* ---- plate ---- */
+/* A plate is a page a reader flips to, not a figure sitting in the running
+   text - full isolation, same treatment the Part closing plates already
+   get. Centred vertically as well as horizontally since it now owns the
+   whole page. */
+figure.plate { margin:0; text-align:center; page-break-before:always;
+     page-break-after:always; page-break-inside:avoid;
+     min-height:7.3in; display:flex; flex-direction:column;
+     align-items:center; justify-content:center; }
+figure.plate img { max-width:100%; max-height:6.8in; height:auto; }
+figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
+     margin-top:.1in; }
+/* Part closing plate: a page of its own. 6x9 art on a 6x9 page with these
+   margins leaves a 7.45in content box, so bound by height or the bottom
+   spills onto the next page (the same lesson chapter_pdf.py records). */
+div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
+.dropfirst::first-letter { font-size:1em; }
+
+
+h1.chapter-heading { font-family: Georgia, 'Times New Roman', serif;
+  font-size:20pt; font-weight:700; line-height:1.25; letter-spacing:normal;
+  margin:0 0 .30in; padding:0; border:0; text-indent:0;
+  break-after:avoid; page-break-after:avoid; }
+h1.chapter-heading .num { display:block; font-size:10pt; font-weight:400;
+  letter-spacing:normal; text-transform:none; color:#444; margin:0 0 .12in; }
+h1.chapter-heading .chapter-title { display:block; font-size:20pt;
+  font-weight:700; letter-spacing:normal; text-transform:none; }
+h1 + p, h1 + hr + p, h2 + p, h3 + p { text-indent:0; }
+/* Shared reading format: ordinary paragraphs are flush left, never indented. */
+p, p + p, p.runin, p.runin + p { text-indent:0; text-align:left; }
+h2.beat-heading { font:700 11pt/1.35 Georgia,'Times New Roman',serif;
+  letter-spacing:normal; text-transform:none; color:inherit;
+  margin:.20in 0 .10in; padding:0; border:0;
+  break-after:avoid; page-break-after:avoid; }
+</style></head><body><section><h1 class="chapter-heading"><span class="num">Chapter 16</span>
+<strong class="chapter-title">Warmth Is Strength</strong></h1>
+<p>You know the stretch I mean. Nothing in the house needs managing. Nobody is bracing for the next thing, and nobody is waiting for the other one to slip. You and your wife are in the same room because you both want to be there, and it’s easy.</p>
+<p>That ease is what everything so far has been working toward, and it comes from the calm and the strength underneath it.</p>
+<p>Part I was the River: staying calm when things change. That calm keeps a hard week from turning into a fight with your wife. Part II was the Oak: the strength to carry weight, so she can lean on you when life gets heavy. Part III is the Sun, and this chapter is where the three come together. The warmth you bring her is what the calm and the strength were for. It’s the capstone, the piece that sits on top of everything you’ve done so far.</p>
+<p>The calm and the strength can feel like the hard part, and they are. But if you have both and still keep your warmth from her, you’ve done the work and she misses the best of it. Your attention and your joy are what she actually gets to live with every day.</p>
+<hr class="beat">
+<h2 class="beat-heading">The old picture.</h2>
+<p>A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I’ve known said nothing about what they felt and only spoke up to make a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.</p>
+<p>Calm was my first fix for that, and calm can go cold. Chapter 1 told a story of cold calm kept silent. Once, I said it out loud to my wife.</p>
+<p>I’d just gotten into Stoicism. Not long after, we had an argument. She was angry at me, and I sat there quiet. When she was done, I looked at her and said, “I can’t control you. I can only control me and I don’t see things the way you do.”</p>
+<p>She answered right away.</p>
+<p>“If I have a man who doesn’t care how I feel, if I have a man who believes that he’s in a relationship by himself, then he will find himself in a relationship by himself.”</p>
+<p>She didn’t want to be married to a stone.</p>
+<p>I shouldn’t have aimed that line at her at all. Saying “I can’t control you” carried a smug superiority, as if staying calm made me better than her. The idea underneath it was right, and I had used it wrong. “I can only control me” is true. It’s a standard I hold my own conduct to. In that argument, it had become a way to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her.</p>
+<p>What fixed that habit was turning toward her.</p>
+<hr class="beat">
+<h2 class="beat-heading">Toward her.</h2>
+<p>Compassion is where warmth starts. Chapter 2 drew the line between feeling her mood and becoming it. You can feel compassion for somebody without taking on their emotions. Then you go to her. You sit down next to her and ask what’s going on.</p>
+<p>I think compassion is a much stronger word than it sounds. It means you want her out of the upset and the worry. You want her in her highest state, at her best, and you put your effort into helping her get there. My wife craves connection, and I crave connection with her. Compassion is how you reach her.</p>
+<p>Reaching her is usually small. You put the phone down when she starts talking. You notice she’s tired before she has to say so, and you take something off her plate. All it takes is caring how she’s doing.</p>
+<p>The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The good things outside it that you hope for are what Chapter 2 called preferred indifferents. They don’t decide who you are. Her happiness is one of those things. <em>Indifferent</em> doesn’t mean you don’t care. I want my wife happy.</p>
+<p>I’d like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia. Eudaimonia is the Greek word for a life that’s going well as a whole. It’s often translated as flourishing.</p>
+<p>Every act of compassion you carry out is a gift to what the two of you share.</p>
+<hr class="beat">
+<h2 class="beat-heading">Both of you.</h2>
+<p>As I see it, people want to feel like their relationship is an investment, not a burden. Your wife is the same. She doesn’t want to be a chore on your list. She wants to be the thing you’re glad to put yourself into.</p>
+<p>You met Stephen Covey at the start of this book. He wrote <em>The 7 Habits of Highly Effective People</em>, and he made the phrase “emotional bank account” famous. His idea is that every caring thing you do for someone goes in and adds up over time. I teach my boys that every kind of relationship, not just marriage, is one you invest in over a long period of time. I tell them it’s true with their teachers, with their coaches, with their girlfriends. It’s true for you, too, and most of all at home.</p>
+<p>In a marriage, the two of you share one joint account. You both put in, and what’s there belongs to the marriage. Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. Putting Covey’s idea and Musonius’s together is my own step: one shared life that you both pay into.</p>
+<p>A deposit is small. I say good morning to her when I’m traveling. I make the coffee. I rub her back. I pick up a gift while I’m out because I thought of her. Yours will look like your marriage. You know what she’d notice. Each one takes a minute or two. What makes it count is that you did it on an ordinary day, without being asked, because she was worth the minute.</p>
+<p>Hers go in too, in her own ways, and they land in the same place yours do. Attention and effort come in from both sides, and both of you live on what’s there. That’s the give and take of attention and effort. When she feels your attention, it’s easier for her to give hers. When you feel hers, it’s easier for you. Effort works the same way. Two people who keep putting in make it lighter for each other to keep going.</p>
+<p>You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. My grandfather put it plainly in Chapter 12: “Put your wife first.”</p>
+<p>Nobody keeps track of who put in what. In Chapter 7, the tally was the running score in your head of what you’ve done for her. It counted only your side, so she always came up short. Here nobody keeps count at all, and nobody checks to see who’s ahead. The bank doesn’t ever owe you money. Everything you put in stays there, for the marriage. Nothing you put in is waiting to be handed back to you.</p>
+<p>So why keep it growing? Because hard stretches come. A bad month can land on you, on her, or on both of you at once. When one comes, neither of you may have much left over, and your marriage lives on what’s already there between you. That’s when the good mornings and the coffee turn out to matter. They’re what the two of you have to go on. That’s one reason to keep putting in on the easy days, when it feels like nothing needs it.</p>
+<p>So ask yourself about the two of you. Is there more between you now than there was a year ago?</p>
+<hr class="beat">
+<h2 class="beat-heading">In flow.</h2>
+<p>When all of this is working, the whole house feels different. There’s a word for this that people in business like to use: flow. You’ve seen <em>flow</em> before in this book. In the Introduction and Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.</p>
+<p>The psychologist Mihaly Csikszentmihalyi described flow in his 1990 book <em>Flow: The Psychology of Optimal Experience</em>. He wrote about being absorbed in something that stretches you without overwhelming you. You stop watching yourself, and the doing becomes its own reward.</p>
+<p>My sense of the word is simpler. To me, flow is when everything is going well: you’re at peace, and you’re at your best. Applying that to a whole marriage is my own step. So is pairing it with three words, two of them Greek terms the Stoics used. To me, they describe what flow looks like for the two of you.</p>
+<p>The first word is one you already know. Staying calm and steady on the inside is what Chapter 1 called equanimity. For one person, equanimity means you’re at peace. Your marriage can be at peace too, with two steady people in it. Then a hard day can be hard without becoming a fight.</p>
+<p>The second word is new to this book. There’s a best version of you, and a best version of your marriage. Each is the version you’d be proud of. The Greek word for excellence is arête. For the Stoics it meant excellence of character, the same virtue I mentioned earlier. I read it as being at your best. Arête, for a marriage, is the marriage at its best.</p>
+<p>The third is eudaimonia, the flourishing from earlier: a life going well as a whole, over years, with both of you in it.</p>
+<p>Each word comes from one part of the work. The calm you learned in Part I is what lets a marriage stay at peace. The strength from Part II, keeping your word and carrying weight, is part of what puts it at its best. The warmth in this part is what makes it a life she’s glad to share with you. When you’re calm and strong and loving at once, the calm, the strength and the warmth stop being separate jobs.</p>
+<p>All three words are about the marriage. Being happy as an individual is very different from being happy in a relationship. Being happy in a relationship means you’re always thinking about both people. I believe the health of the whole is more important than the health of the individual. Your peace counts. Hers counts. The marriage is the thing you’re both looking after.</p>
+<p>A marriage is one thing the two of you tend together. Keep it at peace, at its best, and flourishing, and it moves into flow.</p>
+<hr class="beat">
+<p>Most of what a marriage in flow looks like is ordinary. I feel deep joy and deep love for my wife. There’s nothing I want to do more than to just hang out with her. I love walking the block with her. I love going to the movies with her. On a regular weekday, that’s the whole plan. She’s my best friend.</p>
+<p>I want my wife to be loved. I want her to feel desired. I want her to feel like a priority. That’s what the warmth is for. Your wife should feel all of that from you, on the days nothing special is happening.</p>
+<p>You have a lot of people in your life who need you to keep putting in. Your kids. Your parents. Your siblings. The people you work with. Every one of those relationships matters, and you should be generous with all of them.</p>
+<p>You should have the most credits with your wife because she is your number one.</p><figure class="plate"><img src="ch16-plate.png" width="640" height="470" alt=""></figure></section><section class="dist distback"><p class="kicker">Putting into Practice</p><h1>Chapter 16 — Warmth Is Strength</h1><div class="rule"></div>
+<p class="runin"><strong>Mechanism:</strong> Calm, strength and warmth together put the marriage in flow</p>
+<p class="runin"><strong>The idea in one sentence:</strong> The calm and the strength were for something: when you add warmth, on ordinary days and without being asked, the two of you become one marriage at peace, at its best, and flourishing.</p>
+<p>Warmth is what the calm and the strength were for. Calm alone can go cold. “I can only control me” is true, but it belongs in your head as a mindset, not said out loud to your wife. Warmth starts with compassion. You don’t take on her emotions. You go to her, and you want her at her best. Most of it is small: the phone down when she talks, something taken off her plate when she’s tired. Think of your marriage as one account the two of you share. You both put in, nobody keeps count of whose was whose, and nothing you put in is owed back to you. You keep putting in on easy days because hard stretches come, and then the marriage lives on what is already there between you. When you’re calm, strong and warm at once, the calm, the strength and the warmth stop being separate jobs. Then the marriage is at peace (equanimity), at its best (arête, excellence), and flourishing (eudaimonia, a life going well as a whole). That’s what flow looks like for a marriage.</p>
+<p class="runin"><strong>Lesson:</strong> Warmth is what the calm and the strength were for, and it shows up in small things done for her on ordinary days.</p>
+<p class="runin"><strong>Challenge:</strong> Tomorrow, before she asks for anything, do one small thing for her because she was worth the minute, and that night ask yourself whether there’s more between the two of you now than there was a year ago.</p>
+<h2>Practice</h2>
+<ol><li><strong>Proactive.</strong> Every day, without being asked, do one small thing for your wife because you thought of her. Make the coffee, rub her back, or say good morning when you’re away. Don’t keep count of them.</li><li><strong>Reactive.</strong> When she’s upset with you and you feel the urge to tell her what you can and can’t control, keep that thought to yourself. Sit down next to her and ask what’s going on.</li><li><strong>Reactive.</strong> When she starts talking, put your phone down. When you notice she’s tired before she says so, take something off her plate.</li></ol></section></body></html>

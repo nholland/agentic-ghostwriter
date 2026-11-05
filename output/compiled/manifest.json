@@ -1,7 +1,9 @@
 {
-  "built": "2026-10-26T12:46:56.006844+00:00",
-  "coverage": "Prologue, Introduction, Chapters 1-15, relevant Arc openings and plates",
-  "unapproved_chapters": [],
+  "built": "2026-11-05T07:33:54.353860+00:00",
+  "coverage": "Prologue, Introduction, Chapters 1-16, relevant Arc openings and plates",
+  "unapproved_chapters": [
+    16
+  ],
   "source_sha256": {
     "books/the-stoic-husband/chapters/ch01/refined.md": "fbcf4706892948e428acfed091bd5bc12e7dfb4259fa2f23da4fda9c35ba7c7e",
     "books/the-stoic-husband/chapters/ch01/distillation.md": "c612b717fb7d42303d1161d6fcdb92b805622ba816beeb8f0cdbaf9fd99f0ae4",
@@ -47,7 +49,10 @@
     "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac",
     "books/the-stoic-husband/chapters/ch15/refined.md": "669c24900b98fa6bb00a00b4e89a3c3124df676c41c401e68bf8a3085dabf67f",
     "books/the-stoic-husband/chapters/ch15/distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1",
-    "runs/ch15/plate.svg": "58a283982d5f8596d2608a7fb85aa272e550d76889e2611cc3bc1224ba2e58e1"
+    "runs/ch15/plate.svg": "58a283982d5f8596d2608a7fb85aa272e550d76889e2611cc3bc1224ba2e58e1",
+    "runs/ch16/refined.md": "4a6809e01c3f0890d7652abb4bff3738d3ffcc4a9b0358f52fbc3786fa487ffc",
+    "runs/ch16/distillation.md": "ce79953f8fc1cbe894d8d7c6a3e2117d145022e8dd34ce1b1b6195c367f4a0ef",
+    "runs/ch16/plate.svg": "c96e75ac38f9778b54465f9a82c6e831c307198db386fe6321b77ee9bf3b86ba"
   },
   "outputs": [
     "book.pdf",
@@ -66,12 +71,13 @@
     "chapters/ch13.pdf",
     "chapters/ch14.pdf",
     "chapters/ch15.pdf",
+    "chapters/ch16.pdf",
     "distillations.pdf",
     "plates.pdf",
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-10-26T12:46:56.006257+00:00",
+    "built": "2026-11-05T07:33:54.353140+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -160,12 +166,17 @@
         "approved_identical_copy": true
       },
       {
+        "id": "ch16",
+        "title": "Calm, strength and warmth together put the marriage in flow",
+        "approved_identical_copy": false
+      },
+      {
         "id": "part-III",
         "title": "The Warm Sun",
         "approved_identical_copy": false
       }
     ],
-    "pages_expected": 36,
+    "pages_expected": 38,
     "source_sha256": {
       "runs/ch01/plate.svg": "0c8c9604e63de6c63e1cd0c0a2a34512a5304be9735adb9a36570756cc06a651",
       "runs/ch02/plate.svg": "e7bcb508bf93a3bb5024701f17332c23cf583179ae28d5883c3f15e9ac54d026",
@@ -184,8 +195,9 @@
       "runs/ch13/plate.svg": "f89c0d17d9a7a96aff30293d90b26e4d83e9cc8ed79f905303cd8c0835de42f4",
       "runs/ch14/plate.svg": "37bd5736d8faaee3fe03d927bb780381a7001ac7d2a334e2392840d59fb398ac",
       "runs/ch15/plate.svg": "58a283982d5f8596d2608a7fb85aa272e550d76889e2611cc3bc1224ba2e58e1",
+      "runs/ch16/plate.svg": "c96e75ac38f9778b54465f9a82c6e831c307198db386fe6321b77ee9bf3b86ba",
       "runs/parts/plate-3-warm-sun.svg": "713a6e598ea1d554233b61434c61ffd3558743038c007162ab4fff69c3254f47",
-      "runs/design/plate-briefs.md": "88acaee71bbbdd3541a32a09feff3db6bf9218850bb462541ee42ea6bbd5393d"
+      "runs/design/plate-briefs.md": "82009a0a15e53c9a70cbfa830aceb2c641560216fe58e7334a60bf1d635ca973"
     }
   },
   "plates": {
@@ -233,6 +245,9 @@
     },
     "ch15": {
       "approved_identical_copy": true
+    },
+    "ch16": {
+      "approved_identical_copy": false
     }
   }
 }
