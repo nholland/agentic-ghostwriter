@@ -263,3 +263,26 @@ Author, verbatim:
 - **7:** the bracket was the Publisher's chat gloss, not in the prose. The prose reads "They were providers and they provided for their families. You can respect that, and I do." No brackets in the book. Default (keep both Ghostwriter lines) otherwise accepted; his audiobook concern recorded: never print bracketed glosses in prose.
 - **1 (grandfather):** he offered the form himself ("Again, my grandfathers words ring out..."); applied as a one-line callback to Ch12, no retelling.
 - **3, 4, 6, 8:** defaults accepted ("The rest of the defaults are fine").
+
+## Round 5: scoped-review calls (asked 2026-11-04 ~17:00 UTC; answered 2026-11-05 05:05 UTC)
+
+Asked: (1) the bank vs Ch7's one-page ledger, default drop the counting, close on "deposits"; (2) the ah-ha repeats the Prologue, default a deliberate echo; (3) what he would say now instead of "I can't control you"; (4) preferred/dispreferred rewrite, default yes.
+
+Author, verbatim:
+
+> For number three I think that I shouldn't have even brought her up when I said, "I can't control you." I think that that was part of the smug superiority. I was saying that I can only control me. "I can't control you" was a way of effectively saying how you're feeling and what you're doing and saying during our argument is something separate from me and something I'm uninterested in.
+>
+> I don't think that was something that resonated with her. Whenever you think about the dichotomy of control and you're effectively saying, "I can only control me," it should be a mindset not something that you repeat out loud to another party. Effectively what you're trying to say is, "I need to make sure that I hold my own actions to a standard that I'm happy with, that I control myself, that I hold myself to, or conduct myself in, a virtuous manner." When you say something like, "I can't control you," it's a bit biting
+>
+> As for number 4 on the preferred and dispreferred, just be careful to not make it too complex. I find it to be a pretty complex topic in general. The Stoics would say that nothing matters besides virtue and everything else becomes just a preferred indifference. I think that there is a hard nuance to walk here. What I'm trying to do (and to be clear I'm open to feedback) is to try to say that, in general, I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia
+>
+> Once we feel good about this chapter, let's update the outline or if you feel confident enough to do it now, you can do it.
+>
+> Are we ready to research?
+
+### Rulings and what each changed (Rule 10)
+- **3, answered:** the fix is not a better sentence to her. "I can't control you" should never have been said; it was "part of the smug superiority" and meant her feelings were "separate from me and something I'm uninterested in"; "a bit biting". The dichotomy of control "should be a mindset not something that you repeat out loud to another party"; what it means inside is "I need to make sure that I hold my own actions to a standard that I'm happy with ... conduct myself in, a virtuous manner."
+- **4, answered with direction:** keep it simple. "nothing matters besides virtue and everything else becomes just a preferred indifference"; his point: "in general, I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia". Open to feedback.
+- **1 and 2:** not answered; re-asked, not assumed.
+- **Outline:** update once the chapter settles, or now at the Publisher's judgement.
+- **"Ready to research?":** research was completed 2026-11-04; the chapter is at scoped review.

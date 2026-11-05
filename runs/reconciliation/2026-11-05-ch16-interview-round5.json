@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-05T05:05:37.818502+00:00",
+  "subjects": [
+    "interview:ch16-round5"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/self-command-not-detachment.md",
+    "books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md"
+  ],
+  "authority": "The author, Ch16 Round 5, 2026-11-05",
+  "reason": "His ruling that the dichotomy of control is a mindset, not a line to say; his simpler statement of preferred indifference",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/self-command-not-detachment.md": "f17c2e0242be78acedad432e4ff35961475b59759aec433b618eaec0c5329f7c",
+    "books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md": "e6be193e70b7377ee3fe4e645837f3892949a074a2735ba6ce59b29dcc9e2ad8",
+    "runs/ch16/interview.md": "8877e663ba01bd7d0678a5a6bf50c341d93f427dfd343b0243a9175935e94e7d",
+    "books/the-stoic-husband/okf/log.md": "7639c4075c0d7f4b1a1d090849edf8c14f9037699f4fd51207a80b41709afcd7"
+  }
+}

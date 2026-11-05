@@ -47,3 +47,9 @@ negative emotions. But I do prefer to have her happy. I do prefer to make her fe
 prefer to make her feel loved"
 
 Round 2 wording of the slip: "of course, I don't want my wife unhappy."
+
+# Keep it simple (author, Ch16 Round 5, 2026-11-05)
+
+"just be careful to not make it too complex. I find it to be a pretty complex topic in general. The Stoics would say that nothing matters besides virtue and everything else becomes just a preferred indifference. I think that there is a hard nuance to walk here. What I'm trying to do (and to be clear I'm open to feedback) is to try to say that, in general, I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia"
+
+Supersedes, for prose purposes, his Round 1 "states where you exist almost all day long" framing (which reviewers found read as a redefinition of Ch2's term).
