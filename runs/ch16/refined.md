@@ -2,7 +2,7 @@
 
 You know the stretch I mean. Nothing in the house needs managing. Nobody is bracing for the next thing, and nobody is waiting for the other one to slip. You and your wife are in the same room because you both want to be there, and it's easy.
 
-That ease is what this whole book has been working toward, and it comes from the work underneath it.
+That ease is what everything so far has been working toward, and it comes from the work underneath it.
 
 Part I was the River: staying calm when things change. That calm keeps a hard week from turning into a fight with your wife. Part II was the Oak: the strength to carry weight, so she can lean on you when life gets heavy. Part III is the Sun, and this chapter is where the three come together. The warmth you bring her is what the calm and the strength were for. It's the capstone, the piece that sits on top of everything you've done so far.
 
@@ -10,9 +10,11 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 ---
 
-**The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was what it left a man to do with what he felt. A lot of men I know kept quiet until they made a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.
+**The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known kept quiet until they made a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.
 
-Calm was my first fix for that, and calm can go cold. I'd just gotten into Stoicism. One of the first arguments I had with my wife after that led to her being angry at me and me sitting there quiet. When she was done, I looked at her and said, "I can't control you. I can only control me and I don't see things the way you do."
+Calm was my first fix for that, and calm can go cold. Chapter 1 told the quiet version of this. Once, I said it out loud.
+
+I'd just gotten into Stoicism. One of the first arguments I had with my wife after that led to her being angry at me and me sitting there quiet. When she was done, I looked at her and said, "I can't control you. I can only control me and I don't see things the way you do."
 
 She answered right away.
 
@@ -20,59 +22,57 @@ She answered right away.
 
 She didn't want to be married to a stone.
 
-I think I shouldn't have even brought her up when I said, "I can't control you." I think that was part of the smug superiority. The idea underneath it was right. "I can only control me" is true. It should be a mindset, not something that you repeat out loud to another party.
+I shouldn't have aimed it at her at all. Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. The idea underneath it was right, and I had used it wrong. "I can only control me" is true. It's a standard I hold my own conduct to. In that argument, it had become a way to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her.
 
 What fixed it was turning toward her.
 
 ---
 
-**Toward her.** Compassion is where warmth starts. Chapter 2 drew the line between seeing what she feels and being swept into it. You can feel compassion for somebody without taking on their emotions. Then you go to her. You sit down next to her and ask what's going on.
+**Toward her.** Compassion is where warmth starts. Chapter 2 drew the line between feeling her mood and becoming it. You can feel compassion for somebody without taking on their emotions. Then you go to her. You sit down next to her and ask what's going on.
 
-I think compassion is a much stronger word than it sounds. It means you want her out of the upset and the worry. You want her in her highest state, at her best, and you put your effort there. My wife craved connection, and I crave connection with her. Compassion is how you reach her.
+I think compassion is a much stronger word than it sounds. It means you want her out of the upset and the worry. You want her in her highest state, at her best, and you put your effort there. My wife craves connection, and I crave connection with her. Compassion is how you reach her.
 
-Reaching her is usually small. You put the phone down when she starts talking. You notice she's tired before she has to say so, and you take something off her plate. All it takes is caring where she ends up.
+Reaching her is usually small. You put the phone down when she starts talking. You notice she's tired before she has to say so, and you take something off her plate. All it takes is caring how she's doing.
 
-The Stoics keep the rest of it simple. The way I read them, nothing matters besides virtue, which means the quality of your own character. Everything else is what Chapter 2 called a preferred indifferent: something you hope for that doesn't decide who you are. Her happiness is one of those things. It still matters to me. Of course, I don't want my wife unhappy.
+The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The good things outside it that you hope for are what Chapter 2 called preferred indifferents. They don't decide who you are. Her happiness is one of those things. *Indifferent* doesn't mean you don't care. I want my wife happy.
 
-So I hold it in plain words. I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia. Eudaimonia is the Greek word for a life that's going well as a whole. It's often translated as flourishing.
+I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia. Eudaimonia is the Greek word for a life that's going well as a whole. It's often translated as flourishing.
 
 Every act of compassion you carry out puts something into your marriage.
 
 ---
 
-**Both of you.** As I see it, people want to feel like their relationship is an investment, not a burden. Your wife doesn't want to be the weight you're hauling around. She wants to be the thing you're glad to put yourself into.
+**Both of you.** As I see it, people want to feel like their relationship is an investment, not a burden. Your wife is the same. She doesn't want to be a chore on your list. She wants to be the thing you're glad to put yourself into.
 
 You met Stephen Covey at the start of this book. He wrote *The 7 Habits of Highly Effective People*, and he made the phrase "emotional bank account" famous. I teach my boys that every kind of relationship, not just marriage, is one you invest in over a long period of time. I tell them it's true with their teachers, with their coaches, with their girlfriends. It's true for you, too, and most of all at home.
 
-In a marriage, the two of you share one joint account. You both put in, and what's there belongs to the marriage. It's the same shared project the Roman Stoic teacher Musonius Rufus described back in Chapter 6, one life run by two people.
+In a marriage, the two of you share one joint account. You both put in, and what's there belongs to the marriage. Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. Picturing that life as one place you both put into is my own idea.
 
 A deposit is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Yours will look like your marriage. You know what she'd notice. Each one takes a minute or two. What makes it count is that you did it on an ordinary day, without being asked, because she was worth the minute.
 
 Hers go in too, in her own ways, and they land in the same place yours do. Attention and effort come in from both sides, and both of you live on what's there. That's what I mean by the reciprocation of attention and effort. When she feels your attention, it's easier for her to give hers. When you feel hers, it's easier for you. Effort works the same way. Two people who keep putting in make it lighter for each other to keep going.
 
-You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and you don't need her permission to look after it.
+You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers.
 
 Nobody keeps track of whose was whose. Chapter 7's private tally counted only your side, so she always came up short. Here nobody keeps count at all, and nobody checks to see who's ahead. The bank doesn't ever owe you money. Everything you put in stays there, for the marriage. Nothing you put in is waiting to be handed back to you.
 
-So why keep it growing? Because hard stretches come. A bad month can land on you, on her, or on both of you at once. When one comes, neither of you may have much left over, and your marriage lives on what's already there between you. That's when the good mornings and the coffee turn out to matter. They're what the two of you have to go on. That's the whole reason to keep putting in on the easy days, when it feels like nothing needs it.
+So why keep it growing? Because hard stretches come. A bad month can land on you, on her, or on both of you at once. When one comes, neither of you may have much left over, and your marriage lives on what's already there between you. That's when the good mornings and the coffee turn out to matter. They're what the two of you have to go on. That's one reason to keep putting in on the easy days, when it feels like nothing needs it.
 
 So ask yourself about the two of you. Is there more between you now than there was a year ago?
 
-Again, my grandfather's words ring out, the ones you heard in Chapter 12: "Put your wife first."
+My grandfather put it plainly in Chapter 12: "Put your wife first."
 
 ---
 
-**In flow.** When all of this is working, the whole house feels different. There's a larger concept that's popular in business, and people call it flow. That's the word I reach for.
+**In flow.** When all of this is working, the whole house feels different. There's a larger concept that's popular in business, and people call it flow. You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.
 
-The psychologist Mihaly Csikszentmihalyi described it in his 1990 book *Flow: The Psychology of Optimal Experience*. He wrote about being absorbed in something that stretches you without overwhelming you. You stop watching yourself, and the doing becomes its own reward.
+The psychologist Mihaly Csikszentmihalyi described flow in his 1990 book *Flow: The Psychology of Optimal Experience*. He wrote about being absorbed in something that stretches you without overwhelming you. You stop watching yourself, and the doing becomes its own reward.
 
-The way I use the word is simpler, and it leans on the peace in it. To me, flow is when everything is going well. You're at peace, and you're operating at your highest self. Applying that to a whole marriage is my own step. So is pairing it with three Stoic words. To me, they describe what flow looks like for the two of you.
-
-You've seen the word before in this book. In Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.
+My sense of the word is simpler. To me, flow is when everything is going well: you're at peace, and you're at your best. Applying that to a whole marriage is my own step. So is pairing it with three Stoic words. To me, they describe what flow looks like for the two of you.
 
 The first word is one you already know. Staying calm and steady on the inside is what Chapter 1 called equanimity. For one person, equanimity means you're at peace. Your marriage can be at peace too, with two steady people in it. Then a hard day can be hard without becoming a fight.
 
-The second word is new to this book. There's a best version of you, and a best version of your marriage. It's the one you'd be proud of if you saw it from the outside. The Greek word for excellence is arête. For the Stoics it meant excellence of character. I read it as living up to your highest potential. Arête, for a marriage, is the marriage at its best.
+The second word is new to this book. There's a best version of you, and a best version of your marriage. It's the version you'd be proud of. The Greek word for excellence is arête. For the Stoics it meant excellence of character, the same virtue I mentioned earlier. I read it as being at your best. Arête, for a marriage, is the marriage at its best.
 
 The third is eudaimonia, the flourishing from earlier: a life going well as a whole, over years, with both of you in it.
 
@@ -192,3 +192,78 @@ None. No citation was marked verified. Csikszentmihalyi, Covey and the Diogenes 
 ## Distillation and guide
 
 `runs/ch16/distillation.md` written. The Chapter 16 section was appended to the end of `runs/appendix/practice-guide.md`, and a diff against a pre-append backup shows only the new lines were added. No practice asks him to count deposits. Practice 1 says "Don't keep count of them." The distillation's prose paragraph doesn't use the cut gloss. It restates the mindset lesson in his terms.
+
+## Revision round 1 (reviews)
+
+Line Editor desk (gw-lineeditor), cold. Clock read 2026-11-05 07:17. I applied the Publisher's list of fixes from `coherence-refined.md`, `persona-refined.md` and `conformance-refined.md`, and nothing beyond it. I made no changes to the distillation or the practice guide: no practice changed. Nothing in `books/` was written.
+
+**Changes (before → after):**
+- **C1, the retelling and its lesson.** Added "Chapter 1 told the quiet version of this. Once, I said it out loud." before the scene. Lesson paragraph: "I think I shouldn't have even brought her up ... I think that was part of the smug superiority. The idea underneath it was right. ..." → "I shouldn't have aimed it at her at all. Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. The idea underneath it was right, and I had used it wrong. "I can only control me" is true. It's a standard I hold my own conduct to. In that argument, it had become a way to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her." This now matches Ch1's diagnosis (opt-out). His mindset sentence is kept, with "to another party" changed to "to her". It is narration, not a quotation.
+- **Q1.** "brought her up" (which can be misread as "raised her") → "aimed it at her". "The smug superiority" is now named: "as if staying calm made me better than her". *That gloss is my reading of his "smug superiority". Author may reverse.*
+- **Q2.** "what it left a man to do with what he felt" → "it left a man nowhere to put what he felt". "A lot of men I know kept" → "A lot of men I've known kept".
+- **C3.** → "Chapter 2 drew the line between feeling her mood and becoming it."
+- **C4 + Panel 2.** The Stoics paragraph → "The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The good things outside it that you hope for are what Chapter 2 called preferred indifferents. They don't decide who you are. Her happiness is one of those things. *Indifferent* doesn't mean you don't care. I want my wife happy." This restores Ch2's gloss, and the double negative is gone.
+- **Q6.** "So I hold it in plain words." cut. His "I'd like to conduct myself..." line follows directly, unchanged.
+- **Q4.** "craved" → "craves".
+- **Q7.** "caring where she ends up" → "caring how she's doing".
+- **C10.** "Your wife doesn't want to be the weight you're hauling around." → "Your wife is the same. She doesn't want to be a chore on your list." The bridge sentence is needed because the line before is about "people".
+- **Musonius (conformance attribution).** "It's the same shared project ... Musonius Rufus described back in Chapter 6, one life run by two people." → "Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. Picturing that life as one place you both put into is my own idea." I did not use the word "joint account" again: it took the family count to 5.1 per 1,000, a HARD fail. Rewording it brought the count back to 4.6.
+- **Q9.** "you don't need her permission to look after it" → "looking after it is your job as much as hers".
+- **Q3.** "the whole reason" → "one reason".
+- **Q13.** "Again, my grandfather's words ring out, the ones you heard in Chapter 12:" → "My grandfather put it plainly in Chapter 12:".
+- **Q5 + C7 + Panel 4.** Cut "That's the word I reach for." The paragraph that tells flow apart from the River now comes right after his "popular in business ... flow" line and before Csikszentmihalyi: "You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River...". Naming *flow* makes the referent explicit, so it can no longer be read as one of the three words. "described it" → "described flow". "The way I use the word is simpler, and it leans on the peace in it. ... operating at your highest self." → "My sense of the word is simpler. To me, flow is when everything is going well: you're at peace, and you're at your best."
+- **Q10, Q11, C9 (arête).** "the one you'd be proud of if you saw it from the outside" → "the version you'd be proud of". "For the Stoics it meant excellence of character." → "...excellence of character, the same virtue I mentioned earlier." "living up to your highest potential" → "being at your best".
+- **C12.** "this whole book has been working toward" → "everything so far has been working toward".
+
+**Not changed, as instructed:**
+- **Q8, "reciprocation".** I kept the label sentence because outline key point 4 lists "Reciprocation of attention and effort". Cutting it risks the conformance row.
+- **Q11, partial.** "You want her in her highest state, at her best" keeps both phrases. The outline quotes "her highest state", and conformance earlier required that string. "Highest self" and "highest potential" are gone, so "highest" now appears once. *Author may prefer "at her best" alone.*
+
+**For the author's read (his calls, untouched):**
+- The last line, "You should have the most credits with your wife because she is your number one." The panel and the coherence reader both say "credits" brings back the tally that the account section disowns.
+- "tend" in the ah-ha. Ch24 and Part V use the same verb.
+- "She didn't want to be married to a stone." It sits next to the Introduction's stone.
+- The title "Warmth Is Strength". The panel notes that no sentence argues the claim.
+- The "health of the whole" line. The Skeptic sets it against "nothing is good in itself except virtue".
+- The "joint account" naming. Ch12 uses "joint account" literally, for money.
+
+**Final script output, verbatim (run after the last prose edit):**
+
+```
+voice_check: refined.md
+  1943 words of prose, 166 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1866}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      3/166 sentences at 25+ words = 1.8% (cap 10%)
+             35w: "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by hims...
+             33w: Your attention and your joy are what she actually gets to live with every day. **The old picture.** A lot of u...
+             32w: Every act of compassion you carry out puts something into your marriage. **Both of you.** As I see it, people ...
+    [ok  ] you-density              111 direct-address words in 1943 = 57.1 per 1,000 (floor 40)
+    [ok  ] metaphor family          9 mentions in 1943 words = 4.6 per 1,000 (cap 5); {'bank': 2, 'account': 2, 'deposit': 1, 'invest': 2, 'credit': 1, 'money': 1}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 15 words, shares 4 words with the previous one. Close: 'You should have the most credits with your wife because she is your number one.'
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+```
+
+```
+practice_sync: runs/appendix/practice-guide.md vs each chapter's distillation (runs/)
+  [PASS     ] Chapter 16  3 practice(s) identical
+
+  RESULT: PASS on 1 chapter(s)
+```
+
+**CAND reads.**
+- *Ending:* one sentence, his, with nothing after it. Pass by read.
+- *Devices:* the contrast pairs are still the two the outline requires ("an investment, not a burden"; "a mindset, not something..."). "*Indifferent* doesn't mean you don't care" is a plain negation, not a not-X-but-Y reframe.
+- *Glosses:* "preferred indifferents" is glossed in the next sentence. Arête is now tied to virtue.
+
+**Fences, by grep:** "move" appears only in the ah-ha ("moves"). "tend" appears only in the ah-ha. No storm, night or winter. Word count is 1,943, inside 1,800-2,200.
+
+**Placeholders still standing:** none. No citation was marked verified.
