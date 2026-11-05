@@ -323,3 +323,19 @@ Author, verbatim: "I will go with your recommendations to all six. Please run it
 - 1 (flow vs the River: one sentence distinguishing them), 2 (P1, how the joint account works), 3 (keep the approved ah-ha; no other garden words), 4 (credit Csikszentmihalyi; "popular in business" as his observation): yes.
 - 5 (what she puts in) and 6 (a hard stretch the account carried them through): the recommendation was to skip rather than invent; the chapter stays general on both. Nothing invented.
 - Direction: run the chapter through every desk, the Designer included; he reads it next and gives feedback.
+
+## Round 8: the author's read of the v2 reading copy (received 2026-11-05 14:42 UTC; recorded 2026-11-05 14:48 UTC)
+
+Author, verbatim:
+
+> 1. I'm still uncomfortable with this path. Is there no way to navigate the concept? Think of it this way, I don't have competition with myself and my own bank account. I'm not keeping up with what my bank account does. It is a very personal way for me to look at how I'm investing. When you talk about the transactions and the ledger and keeping count in the past, it's a competitive way of saying who owes who. It's a debt system. I am not talking about a debt system. I am talking about an investment system and I don't understand why we cannot navigate that clearly here. I'm okay using different words, but the concepts are totally different and it feels like we are really struggling to navigate that. Do you have any advice?
+>
+> 2. Let's update the title then, what do you recommend
+>
+> 3. I don't know what you mean by it isn't a joint account in the plate. Are you saying we should do that? I tend to agree that the entire chapter is not about the account itself. It's about treating the marriage as a whole entity, so the capstone makes sense. If you treat it like a whole structure. Maybe there's a way to connect the dots there. I would be comfortable changing the metaphor to investing in an asset you own, like a house or a property. The deal is you take a little bit out every day that you live there and so you have to periodically make sure you are maintaining and even upgrading the space that you live in. If we have to go that far, we could do that. That could get closer to a capstone-type plate but I do like the metaphor of investing in the relationship account, not because of transactions, but because at the end of the day you want it healthy. It's like your own investment, your own bank account. There's no debt. It's only upside or zero.
+>
+> 4. You didn't leave a recommendation for number four, so let me know if there's something to do, otherwise noted.
+>
+> 5. I've had to go out of my way to explain the bank account concept to you, which is why it is led to a domino of weird words. I thought the reader would find it obvious, but your first point seems to indicate no?
+
+Publisher's finding for him: the Introduction's Sun section opens "A house can be structurally sound and still feel cold. That is why strength and calm are not enough." (chapters/introduction/refined.md line 47). The house is already the book's Sun image; a house you own and keep up is a callback, not a new metaphor.
