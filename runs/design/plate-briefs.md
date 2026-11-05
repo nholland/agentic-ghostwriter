@@ -183,3 +183,13 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 **Validation question:** Without the chapter, whose replies grow in the upper exchange, and does the lower arc read as him taking something off her plate, or as her handing him a chore?
 
 **Source:** runs/ch15/plate.svg; runs/ch15/plate-notes.md; runs/ch15/distillation.md; runs/ch15/plate-brief.md; runs/ch15/refined.md ("The zing"; "What she's carrying"; "The long game"; "Off her plate"; "The best part", including the closing line); runs/ch15/plate-concepts.md, concept A; runs/ch15/plate-pick.md (four fixes, draft 2026-10-24); runs/ch15/plate-read.md (six edits, revision 1 2026-10-24; four drawing fixes from the round-2 read, revision 2 2026-10-24, inbox #154; two fixes from the round-3 read, revision 3 2026-10-25, inbox #154).
+
+## ch16 | Calm, strength and warmth together put the marriage in flow
+
+**Intent:** The calm and the strength were for something: warmth, given on ordinary days and without being asked, makes them one marriage at peace, at its best, and flourishing.
+
+**Visual explanation:** Two blocks, mirrored about the centre, joined by an arrow. Left: two posts, CALM and STRENGTH, labelled separately as two qualities in him (not him and her), leaning apart under an empty dashed slot that reads "calm can go cold". Right: the same two posts standing true, a heavy filled stone, WARMTH, laid flush across them, glossed above "on ordinary days, without being asked" and below "one marriage". The only changes between the blocks are the stone and the posts coming true under it, so the stone is what makes them one thing. Closing line: "At peace, at its best, and flourishing". The image is the chapter's own "capstone", not its declared joint-account metaphor_family; no money is drawn.
+
+**Validation question:** Without the chapter, does the stone read as what the posts were for, the thing that makes them stand as one, or as trim on top? Do the posts read as two qualities in him, or as him and her?
+
+**Source:** runs/ch16/plate.svg; runs/ch16/plate-notes.md; runs/ch16/distillation.md; runs/ch16/plate-brief.md; runs/ch16/refined.md (opening "It's the capstone"; "calm can go cold"; "on an ordinary day, without being asked"; "at peace, at its best, and flourishing"); runs/ch16/plate-concepts.md, concept A; runs/ch16/plate-pick.md (edits 1-4, draft 2026-11-05).
