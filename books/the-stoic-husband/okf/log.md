@@ -1045,3 +1045,5 @@ The constitutional outline and framework map now use the same direction.
 - 2026-11-05 05:05 UTC — Chapter 16 Round 5 (runs/ch16/interview.md). frameworks/self-command-not-detachment.md gains his ruling that 'I can only control me' is a mindset, never said aloud, and why 'I can't control you' was smug and biting; frameworks/attachment-vs-devotion.md gains his simpler statement of preferred indifference (conduct that makes the marriage stronger, her happier, toward eudaimonia). Bank-vs-Ch7 and ah-ha questions re-asked.
 
 - 2026-11-05 05:45 UTC — Chapter 16 Round 6. Added frameworks/marriage-in-flow.md (author's capstone: calm + strong + loving = the marriage in flow; flow source to locate). the-bank-of-credits.md records his Round 6 and the pending joint-account proposal.
+
+- 2026-11-05 06:25 UTC — Chapter 16 outline reframed as the Sun-arc capstone on the author's word ("Yes", approving runs/ch16/outline-proposal-v2.md): joint account, flow, new ah-ha. First version moved to runs/ch16/v1/. frameworks/the-bank-of-credits.md: joint account accepted.

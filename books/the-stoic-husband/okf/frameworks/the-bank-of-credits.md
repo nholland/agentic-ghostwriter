@@ -43,3 +43,5 @@ Plant out ("comfortable leaving the plant out"). The sun "doesn't really take ca
 # Round 6 (2026-11-05)
 
 "Yes I want to keep the bank. If there is another analogy for where you put deposits, again I want to make sure that the chapter talks about investing in the marriage and the reciprocation of attention and effort." The Publisher has proposed a joint account (runs/ch16/outline-proposal-v2.md) to answer Ch7's one-page-ledger objection; not yet ruled.
+
+Joint account accepted 2026-11-05 ("Yes" to runs/ch16/outline-proposal-v2.md): one account both pay into, nobody counts whose deposit was whose.
