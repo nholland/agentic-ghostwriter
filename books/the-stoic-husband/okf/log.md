@@ -1049,3 +1049,5 @@ The constitutional outline and framework map now use the same direction.
 - 2026-11-05 06:25 UTC — Chapter 16 outline reframed as the Sun-arc capstone on the author's word ("Yes", approving runs/ch16/outline-proposal-v2.md): joint account, flow, new ah-ha. First version moved to runs/ch16/v1/. frameworks/the-bank-of-credits.md: joint account accepted.
 
 - 2026-11-05 06:45 UTC — Chapter 16 v2 research (gw-researcher; runs/ch16/research.md). Added citations/csikszentmihalyi-1990-flow.md (unverified, search summaries only) and indexed it; Ch16 v2 note on diogenes-laertius-7-87-90. Proposal P1 open in runs/ch16/proposed-concepts.md.
+
+- 2026-11-05 06:50 UTC — Chapter 16 Round 7: P1 accepted; frameworks/the-bank-of-credits.md gains 'How the joint account works' (four rules). runs/ch16/proposed-concepts.md answered.

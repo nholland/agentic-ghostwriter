@@ -1,5 +1,6 @@
 ---
-status: open
+status: answered
+answered: '2026-11-05, author: "I will go with your recommendations to all six" (P1 yes)'
 chapter: 16
 raised_by: gw-researcher
 written: 2026-11-05 06:25

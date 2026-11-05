@@ -45,3 +45,21 @@ Plant out ("comfortable leaving the plant out"). The sun "doesn't really take ca
 "Yes I want to keep the bank. If there is another analogy for where you put deposits, again I want to make sure that the chapter talks about investing in the marriage and the reciprocation of attention and effort." The Publisher has proposed a joint account (runs/ch16/outline-proposal-v2.md) to answer Ch7's one-page-ledger objection; not yet ruled.
 
 Joint account accepted 2026-11-05 ("Yes" to runs/ch16/outline-proposal-v2.md): one account both pay into, nobody counts whose deposit was whose.
+
+# How the joint account works (proposed by gw-researcher 2026-11-05; accepted by the author 2026-11-05: "I will go with your recommendations to all six")
+
+1. **One account, nobody counting.** Both put in. Nobody keeps track of whose deposit was whose,
+   and nobody checks it to see who is ahead. The check is whether the account is growing, not who
+   filled it. (Answers Ch7: a tally is one page of a two-page ledger; this has one page.)
+2. **Reciprocation is what a working account looks like, not a condition.** The author wants the
+   chapter to be about "investing in the marriage and the reciprocation of attention and effort"
+   (Round 6). His side never waits on hers: the Prologue already says to invest "regardless of what
+   she's doing with her half". Her deposits are named in one plain sentence and never listed or
+   compared.
+3. **What it is for.** Hard stretches, his or hers or both, are carried by what is already in the
+   account. It never buys her patience for his mistakes. "the bank doesn't ever owe you money"
+   (Round 2): nothing comes back to him as a return; the account is the marriage's.
+4. **"Most" compares his relationships, not the two of them.** His line "you should have the most
+   credits with your wife because she is your number one" (Round 2a) follows his list: "with your
+   kids, with your parents, with your siblings, with your work relationships, and with your wife". "Most"
+   means more than with anyone else in his life, never more than she has.

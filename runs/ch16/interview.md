@@ -315,3 +315,11 @@ Author, verbatim:
 Author, verbatim: "Yes"
 
 Read as approving runs/ch16/outline-proposal-v2.md as written: the joint account; the ah-ha in the Publisher's wording ("A marriage is one thing the two of you tend together. Keep it at peace, at its best, and flourishing, and it moves into flow."); the close as the entry states it, his own line "You should have the most credits with your wife because she is your number one." (the "most invested" option not taken). Flagged to him in the reply so he can change any of the three.
+
+## Round 7: v2 brief questions (asked 2026-11-05 06:40 UTC; answered 2026-11-05 06:43 UTC)
+
+Author, verbatim: "I will go with your recommendations to all six. Please run it through all the desks, including the design desk, how will read it and give feedback next"
+
+- 1 (flow vs the River: one sentence distinguishing them), 2 (P1, how the joint account works), 3 (keep the approved ah-ha; no other garden words), 4 (credit Csikszentmihalyi; "popular in business" as his observation): yes.
+- 5 (what she puts in) and 6 (a hard stretch the account carried them through): the recommendation was to skip rather than invent; the chapter stays general on both. Nothing invented.
+- Direction: run the chapter through every desk, the Designer included; he reads it next and gives feedback.
