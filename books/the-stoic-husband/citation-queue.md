@@ -4,18 +4,18 @@
 > Every field is read from `okf/citations/*.md` frontmatter, which is canonical per CLAUDE.md Rule 11.
 > Edit the concept file, then re-run this script. Replaces the retired `sources/citation-manifest.md`.
 
-*Last generated: 2026-11-04 — 251 citations.*
+*Last generated: 2026-11-05 — 252 citations.*
 
 ## Where things stand
 
 | Status | Count | Meaning |
 |---|---|---|
-| `unverified` | 146 | Not yet confirmed against any source. |
+| `unverified` | 147 | Not yet confirmed against any source. |
 | `verifiable` | 101 | Confirmed, but not by you. Still needs your physical-copy check before print. |
 | `verified` | 1 | You confirmed it against your own copy. |
 | `superseded` | 3 | Replaced by a better source; no action. |
 
-**247 citations still need your attention** before publication.
+**248 citations still need your attention** before publication.
 
 ## Needs your physical copy
 
@@ -87,10 +87,11 @@ Sorted verbatim-quotes-first: those need exact wording *and* punctuation checked
 | [Seneca, On Anger III.6 (Stewart) — Democritus's maxim on peace of mind](okf/citations/seneca-de-ira-3-6-democritus-tranquillity.md) | `verifiable` | romance-is-a-discipline | WORDING RETRIEVED AND READ from the full plain-text file named above, not from a search summary. Stewart's sentence, verbatim: "We shall find much profit in that sound maxim of Democritus which defines peace of mind to consist in not labouring much, or too much for our strength, either in public … |
 | [Seneca — Letter 75: Letters Should Be Just What Conversation Would Be](okf/citations/seneca-letter-75-letters-as-conversation.md) | `verifiable` | how-to-fight-without-becoming-small | Ch5 now prints "together,—spontaneous and easy" exactly as Gummere 1920 does (comma, then dash, no spaces), per the 2026-09-03 external transcription with surrounding context (defect #7). This is the only em-dash in Ch5 prose and it is the translator's own punctuation, so the voice spec's excepti… |
 
-### Paraphrases — check the idea, not the wording (34)
+### Paraphrases — check the idea, not the wording (35)
 
 | Citation | Status | Chapters | What's needed |
 |---|---|---|---|
+| [Csikszentmihalyi, Flow: The Psychology of Optimal Experience (1990): flow as full absorption in a well-matched challenge](okf/citations/csikszentmihalyi-1990-flow.md) | `unverified` | warmth-is-strength | Searched 2026-11-05 06:20-06:25. Seen ONLY as web-search summaries of library catalog records (USI, LaPorte, TUM, Wellcome, AHML) and secondary study guides; direct fetches of openlibrary.org and search.ub.tum.de failed (hosts outside this session's network allowance), so no catalog page and no p… |
 | [Diogenes Laertius, Lives VII.87-90 (Hicks): the Stoic end, happiness as the smooth current of life, virtue as excellence](okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md) | `unverified` | warmth-is-strength | Read at page-text in the archive.org OCR of the 1925 Hicks scan, 2026-11-04 14:07; page image not viewed. Diogenes Laertius has no house edition in 06-sources.md; Hicks 1925 is believed public domain in the US (published 1925), not confirmed here. Filed as paraphrase: the brief recommends plain-E… |
 | [Gunnysacking — Stored Grievances](okf/citations/gunnysacking-stored-grievances.md) | `unverified` | silence-is-not-peace | The term and mechanism are real and widely used in relationship-coaching and conflict-resolution contexts, but a single canonical originating source was not confirmed. Do not attribute the term to George Bach (or any other named originator) in prose without further verification — use it unattribu… |
 | [Marcus Aurelius — "You Have Power Over Your Mind" (Modern Condensation)](okf/citations/marcus-aurelius-power-over-your-mind-condensation.md) | `unverified` | the-three-second-window | This is the famous modern condensation of Meditations, not a verbatim line from any single standard translation. The manuscript claims no book or section for it, and none should be added. Treat as a widely-known paraphrase. Status is `unverified` rather than `verifiable` because the attribution i… |

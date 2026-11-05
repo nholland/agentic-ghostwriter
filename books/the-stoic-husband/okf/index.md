@@ -158,6 +158,7 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 
 - [Gottman — The Four Horsemen](/citations/gottman-four-horsemen.md) — status: verifiable
 - [Carrère & Gottman (1999), the first three minutes](/citations/carrere-gottman-1999-first-three-minutes.md) — status: verifiable; supports the three-minute design only, not any accuracy figure
+- [Csikszentmihalyi (1990), Flow](/citations/csikszentmihalyi-1990-flow.md) — status: unverified; search summaries only; applying flow to a marriage is the author's step (Ch16)
 - [Seneca, De Ira I.1.2 (Basore): anger as temporary madness](/citations/seneca-de-ira-1-1-temporary-madness.md) — status: unverified; Seneca reports "certain wise men" said it, so never "Seneca called anger..." (Ch16)
 - [Marcus Aurelius, Meditations IV.4 and VI.44 (Long): the world as one city](/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md) — status: unverified; "cosmopolis" is a gloss, not Marcus's word (Ch16)
 - [Diogenes Laertius VII.87-90 (Hicks): eudaimonia and arete](/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md) — status: unverified; glosses only, Hicks is not a house edition (Ch16)

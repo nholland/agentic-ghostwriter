@@ -66,3 +66,15 @@ well. Virtue is excellence: in general, the perfection of anything at what it is
 - **Spelling.** `02-audience.md` and the outline for Ch18 write *Arête*; the Ch16 outline writes
   *arete*. A house spelling is not ruled. Arete has not appeared in any refined chapter as of
   2026-11-04; Ch16 would be its first printed use.
+
+# Ch16 v2 note (gw-researcher, 2026-11-05 06:25)
+
+The reframed Ch16 (outline 2026-11-05) introduces "flow" and says, in the author's words, that the
+three Stoic words "are representative of flow". VII.88's *euroia biou* (Hicks, page-text read
+2026-11-04: "the smooth current of life"; the Greek is literally a good, easy flowing) sits in the
+same sentence as the happy man's virtue. That makes it a possible classical bridge for the
+author's step: the early Stoics themselves described the happy life as one that flows well. Not
+yet put to the author; raised as an open question in runs/ch16/research.md. Still paraphrase only
+(Hicks is not a house edition), still a river image (the book's River owns current and flow), and
+never to be presented as Csikszentmihalyi's source. The earlier caution against importing "smooth
+current" into a bank-image chapter stands unless the author takes the bridge.

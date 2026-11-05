@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-05T06:33:38.125527+00:00",
+  "subjects": [
+    "research:ch16-v2"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md",
+    "books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md"
+  ],
+  "authority": "gw-researcher cold pass 2026-11-05 from the approved v2 outline and runs/ch16/interview.md",
+  "reason": "Flow citation concept (unverified); Diogenes note; P1 open for the author",
+  "files": {
+    "books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md": "ab9ee7117bc1650e5bdf49a74f282d6c92bbad1a9938df72ffb052fd602a8593",
+    "books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md": "61e42cb02589641d2753de38630ada9ee16e94786d56d898ef35103b9c038087",
+    "runs/ch16/research.md": "728d7c715ba90310be48e1975ecb0307de96dea7bc7b7098642251168b92556d",
+    "runs/ch16/proposed-concepts.md": "7d3fb36148f39fb1a65c00a28b16d502ab49d369605dca5bb5c4af2172dd6512",
+    "books/the-stoic-husband/okf/index.md": "6fa2aab5a82f36fec127b4f1c447bde6e33682f70fa0a135f6b8cfdfa875a303",
+    "books/the-stoic-husband/okf/log.md": "8c6fd445efdcad615c2a1ad5c89ed90673b672881e75d84c92c578994dda9783",
+    "books/the-stoic-husband/citation-queue.md": "a17b26c327f77f86bfeb501486848f97453ba16204812ab35ff3d91186e2d35f"
+  }
+}
