@@ -309,3 +309,9 @@ Author, verbatim:
 - **Ah-ha replaced:** not "further away" but the marriage as a joint unit you continually nurture toward equanimity, arete, eudaimonia.
 - **Flow introduced** as the modern name; the three Stoic words "are representative of flow".
 - **Capstone:** River (calm) + Oak (strong) + Sun (loving) culminate in the marriage in flow. "If the chapter doesn't capture that then we need to reframe it and rewrite it." The refined text does not; reframe and rewrite.
+
+### Round 6, ruling (2026-11-05 06:17 UTC)
+
+Author, verbatim: "Yes"
+
+Read as approving runs/ch16/outline-proposal-v2.md as written: the joint account; the ah-ha in the Publisher's wording ("A marriage is one thing the two of you tend together. Keep it at peace, at its best, and flourishing, and it moves into flow."); the close as the entry states it, his own line "You should have the most credits with your wife because she is your number one." (the "most invested" option not taken). Flagged to him in the reply so he can change any of the three.

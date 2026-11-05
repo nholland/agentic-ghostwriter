@@ -54,9 +54,3 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 1. **Reactive.** When she makes a small, cutting remark, don't send a sharper one back. Ask yourself whether it's true. If it is, fix it. If it isn't, let it go. Then ask what the remark tells you about how she's feeling.
 2. **Reactive.** When you're both fed up and a sharp comment comes about the things that need doing, don't answer in the first second. Start helping first. Then give her a hug, tell her what you see her carrying, and ask what would make her day lighter.
 3. **Proactive.** Every day, ask yourself whether you were the best part of her day. Take over one chore that's usually hers, or give her time to talk about her day.
-
-## Chapter 16 — Warmth Is Strength
-
-1. **Proactive.** Once a month, look back at what you've put into your marriage lately: a good-morning message when you're traveling, her coffee, a back rub, a small gift picked up while you were out. Count only what you gave, never what you think she owes you, and keep the count to yourself.
-2. **Proactive.** Every day, do one small kind thing for her before anything has gone wrong. Hard stretches come, and what you put in now is what gets the two of you through them.
-3. **Reactive.** When she's upset with you and you catch yourself going calm and quiet, don't say "I can't control you" or anything like it. Ask yourself how your calm sounds from her side. Then tell her you care how she feels, and ask what she needs from you.
