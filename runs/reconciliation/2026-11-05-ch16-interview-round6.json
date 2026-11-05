@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-11-05T05:37:53.882435+00:00",
+  "subjects": [
+    "interview:ch16-round6"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "The author, Ch16 Round 6, 2026-11-05",
+  "reason": "Chapter direction (reframe as capstone, flow, new ah-ha) recorded verbatim; OKF update follows his ruling on the proposal",
+  "files": {
+    "runs/ch16/interview.md": "1cbf31df5edd97f8433a4a73bce382b434ff135f40be742f4269637f3dd9afc1",
+    "runs/ch16/outline-proposal-v2.md": "464fd4be089823b95421cafbf4751a997e374578e8df8c3c73b6ce025e397fa6"
+  }
+}

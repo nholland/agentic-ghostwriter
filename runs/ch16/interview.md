@@ -286,3 +286,26 @@ Author, verbatim:
 - **1 and 2:** not answered; re-asked, not assumed.
 - **Outline:** update once the chapter settles, or now at the Publisher's judgement.
 - **"Ready to research?":** research was completed 2026-11-04; the chapter is at scoped review.
+
+## Round 6: the chapter reframed as the Sun-arc capstone (received 2026-11-05 05:32 UTC)
+
+Author, verbatim:
+
+> Yes I want to keep the bank. If there is another analogy for where you put deposits, again I want to make sure that the chapter talks about investing in the marriage and the reciprocation of attention and effort.
+>
+> Ultimately this is a sun chapter and I don't want to spend a bunch of time focused on negative things, this should be about the warmth and the joy you bring that then leads to the oneness of the marriage being in eudaimonia, the arete, and the equanimity. I think spending too much time in this chapter on when I use stoicism to become cold could miss the entire point of the sun arc so I just want to make sure we don't over-index on that.
+>
+> The aha for this chapter, in my opinion, shouldn't be getting further away. I think the aha should be treating the marriage as a joint unit that you continually nurture and that you want to exist in a point of equanimity. You want the marriage to reach its highest potential, arete, and you are trying to ultimately find eudaimonia for the marriage. That, to me, is the big aha.
+>
+> Ultimately when it comes down to it, there's a larger concept that is popular in business that people call flow. It is such a simple yet powerful concept that maybe that's what we need to introduce here. Flow is effectively when everything is going well: you're at peace and you're operating at your highest self. You are effectively in flow.
+>
+> I think that ultimately what we're trying to say is that when you, as a husband, are doing a great job delivering warmth, love, joy, and reciprocation in the marriage, you will start to see that everything starts to move into flow. Again the three Stoic words are representative of flow. I think that's the point.
+>
+> If the chapter doesn't capture that then we need to reframe it and rewrite it because ultimately I think that's the key takeaway, the point. The love that you're giving, the warmth, should be a capstone on top of your ability to weather all of the trials and tribulations that the river arcs carried you through and your ability to be strong. I think that this warmth chapter should be the capstone that says: when you do all this, when you're strong, when you're calm, and when you're loving, everything culminates in their marriage being in flow, that's the aha moment.
+
+### Rulings and what each changed (Rule 10)
+- **Bank kept;** open to another place for deposits, as long as the chapter is about investing in the marriage and the reciprocation of attention and effort.
+- **Tone:** a Sun chapter about warmth and joy; do not over-index on the coldness story.
+- **Ah-ha replaced:** not "further away" but the marriage as a joint unit you continually nurture toward equanimity, arete, eudaimonia.
+- **Flow introduced** as the modern name; the three Stoic words "are representative of flow".
+- **Capstone:** River (calm) + Oak (strong) + Sun (loving) culminate in the marriage in flow. "If the chapter doesn't capture that then we need to reframe it and rewrite it." The refined text does not; reframe and rewrite.
