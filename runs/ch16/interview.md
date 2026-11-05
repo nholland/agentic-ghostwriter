@@ -339,3 +339,9 @@ Author, verbatim:
 > 5. I've had to go out of my way to explain the bank account concept to you, which is why it is led to a domino of weird words. I thought the reader would find it obvious, but your first point seems to indicate no?
 
 Publisher's finding for him: the Introduction's Sun section opens "A house can be structurally sound and still feel cold. That is why strength and calm are not enough." (chapters/introduction/refined.md line 47). The house is already the book's Sun image; a house you own and keep up is a callback, not a new metaphor.
+
+### Round 8, continued (2026-11-05 14:48 UTC)
+
+Author, verbatim: "One other item, we made the oak about strength, so we need a different title."
+
+Ruling: the title "Warmth Is Strength" goes (strength is the Oak's word). New title pending his pick.

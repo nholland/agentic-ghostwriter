@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-11-05T14:48:30.050830+00:00",
+  "timestamp": "2026-11-05T14:48:57.927002+00:00",
   "subjects": [
     "interview:ch16-round8"
   ],
   "disposition": "no-knowledge-change",
   "concepts": [],
   "authority": "The author, Ch16 Round 8, 2026-11-05",
-  "reason": "His questions and an offered option (house as asset); no ruling yet; the bank framework is updated when he rules",
+  "reason": "Title ruling and open questions; no new book knowledge until he rules on the house",
   "files": {
-    "runs/ch16/interview.md": "1bb719f9fa827b35237070815624ab3b993123fbf9bd85e9043b434ea1b32c06"
+    "runs/ch16/interview.md": "f9c2d8f5110f8378add74a48d5eab9649584e1e48b6d91d65122df5888ff4706"
   }
 }
