@@ -28,6 +28,7 @@ See [README.md](/README.md) for the original pilot assessment and integration
 notes.
 
 ## Frameworks
+- [The Marriage in Flow](/frameworks/marriage-in-flow.md) — calm, strong and loving culminate in the marriage in flow: equanimity, arete, eudaimonia (the author's Sun-arc capstone, Ch16 Round 6)
 - [Self-Command, Not Detachment](/frameworks/self-command-not-detachment.md) — anger as temporary madness gave him a new picture of strength; overused, calm became distance (Ch16, author-accepted P2)
 - [The Thin Line](/frameworks/the-thin-line.md) — men's fear between vulnerable and detached (Ch16, author-accepted P3)
 - [Equanimity, Arete, Eudaimonia](/frameworks/equanimity-arete-eudaimonia.md) — the relationship at peace, at its best, flourishing; the author's three words to close the Sun arc (Ch16 Rounds 1-2)

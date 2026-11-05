@@ -39,3 +39,7 @@ Chapter 7's tally counts what she owes him; this counts only what he has put in.
 # Images (author, Round 2)
 
 Plant out ("comfortable leaving the plant out"). The sun "doesn't really take care of the reciprocation and the deposits metaphor ... Maybe we just lean into" the emotional bank account. Metaphor policy left to the house: "balance real-world stories that I tell my kids and my friends with what works best for the book."
+
+# Round 6 (2026-11-05)
+
+"Yes I want to keep the bank. If there is another analogy for where you put deposits, again I want to make sure that the chapter talks about investing in the marriage and the reciprocation of attention and effort." The Publisher has proposed a joint account (runs/ch16/outline-proposal-v2.md) to answer Ch7's one-page-ledger objection; not yet ruled.
