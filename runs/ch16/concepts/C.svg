@@ -1,0 +1,38 @@
+<!-- Ch16 concept C, rough thumbnail: three separate jobs become one marriage. Left: CALM, STRENGTH, WARMTH in three separate boxes. Right: one enclosure, THE MARRIAGE, holding at peace / at its best / flourishing. Each arrow crosses into the one shape; WARMTH's is the heavy one. Columns 150 and 490, mirrored about 320. Weights: 1.4 quiet, 2 standard, 3.2 carrier. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" style="color:#1a1a1a" role="img" aria-label="Calm, strength and warmth together put the marriage in flow">
+  <style>
+    .ttl{font:600 14px Georgia,serif;text-anchor:middle}
+    .sub{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 13px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
+    .state{font:600 15px Georgia,serif;text-anchor:middle}
+    .cap{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.74}
+    .capq{font:italic 600 14px Georgia,serif;text-anchor:middle}
+  </style>
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">Calm, strength and warmth together put the marriage in flow</text>
+    <text class="sub" x="320" y="64">When you're calm, strong and warm at once</text>
+  </g>
+  <!-- three separate jobs -->
+  <g fill="#ffffff" stroke="currentColor" stroke-width="2"><rect x="70" y="128" width="160" height="44"/><rect x="70" y="208" width="160" height="44"/></g>
+  <g fill="#ffffff" stroke="currentColor" stroke-width="3.2"><rect x="70" y="288" width="160" height="44"/></g>
+  <!-- one marriage -->
+  <g fill="#ffffff" stroke="currentColor" stroke-width="2"><rect x="400" y="96" width="180" height="252" rx="18"/></g>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M232 150H428M428 150l-9 -6M428 150l-9 6"/>
+    <path d="M232 230H428M428 230l-9 -6M428 230l-9 6"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M234 310H428M428 310l-10 -7M428 310l-10 7"/></g>
+  <g fill="currentColor">
+    <text class="lbl" x="150" y="155">CALM</text>
+    <text class="lbl" x="150" y="235">STRENGTH</text>
+    <text class="lbl" x="150" y="315">WARMTH</text>
+    <text class="cap" x="150" y="356">without being asked</text>
+    <text class="lbl" x="490" y="124">THE MARRIAGE</text>
+    <text class="state" x="490" y="155">at peace</text>
+    <text class="state" x="490" y="235">at its best</text>
+    <text class="state" x="490" y="315">flourishing</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".28"><path d="M120 400H520"/></g>
+  <text class="capq" x="320" y="432" fill="currentColor">That's what flow looks like for a marriage</text>
+</svg>
