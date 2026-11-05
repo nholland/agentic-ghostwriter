@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-05T06:56:39.553592+00:00",
+  "subjects": [
+    "okf:bank-of-credits-summary"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md"
+  ],
+  "authority": "The author's 2026-11-05 rulings (joint account; P1)",
+  "reason": "Concept description brought in line with the joint-account rules",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md": "2e1497fbcdaebbc03a9f13631bbab0c02d7b5ed30af14f6936448f80b6c13999"
+  }
+}

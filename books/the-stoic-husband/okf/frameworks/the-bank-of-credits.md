@@ -2,9 +2,10 @@
 type: Framework
 title: 'The Bank of Credits: The Relationship as an Investment, Not a Burden'
 description: >
-  Relationships of every kind need deposits over a long time, because a withdrawal always comes.
-  A husband should be in the green everywhere, and most of all with his wife. It is not about the
-  act or the gift; it is about the credits.
+  The relationship as an investment, not a burden. As ruled 2026-11-05: a joint account both pay
+  into, where nobody counts whose deposit was whose and the account never owes you money; most of
+  all with his wife. Earlier wording below (green everywhere, withdrawals, the sun going down) is
+  his Round 2a record, superseded for prose by the joint-account rules at the end.
 provenance: "Author, Chapter 16 interview Round 2a (runs/ch16/interview.md), 2026-11-04, unprompted. What he teaches his sons. Pushback rounds: one (Ch7 scorekeeping tension; one-image rule), answered in Round 2: the bank never owes you; plant out."
 ip: author-synthesis
 tags: [framework, reciprocation, investment, deposits, warmth, priority]
