@@ -12,7 +12,7 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 **The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about what they felt and only spoke up to make a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.
 
-Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. One time, I put that cold calm into words and said them to my wife.
+Calm was my first fix for that, and calm can go cold. That was Chapter 1, where my calm went cold and I said nothing. Another time, I put that cold calm into words and said them to my wife.
 
 I'd just gotten into Stoicism. Not long after, we had an argument. She was angry at me, and I sat there quiet. When she was done, I looked at her and said, "I can't control you. I can only control me and I don't see things the way you do."
 
@@ -34,7 +34,7 @@ I think compassion is a much stronger word than it sounds. It means you want her
 
 Reaching her is usually small. You put the phone down when she starts talking. You notice she's tired before she has to say so, and you take something off her plate. All it takes is caring how she's doing.
 
-The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The good things outside it that you hope for are what Chapter 2 called preferred indifferents. They don't decide who you are. Her happiness is one of those things. *Indifferent* doesn't mean you don't care. I want my wife happy.
+The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The things outside it that you hope for are what Chapter 2 called preferred indifferents. They don't decide who you are. Her happiness is one of those things. *Indifferent* doesn't mean you don't care. I want my wife happy.
 
 I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia. Eudaimonia is the Greek word for a life that's going well as a whole. It's often translated as flourishing.
 
@@ -48,9 +48,9 @@ I teach my boys that every kind of relationship, not just marriage, is one you b
 
 Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. I picture that life as a place the two of you own and live in every day. At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home.
 
-Even a warm place takes damage. Some of it is wear and tear from just living there. Some of it comes from outside: inclement weather, the parties you throw, the inconsiderate guests. That's what happens to a place people actually use.
+Even a warm place takes damage. Some of it is wear and tear from just living there. Some of it comes from inclement weather. Some comes from the parties you throw and the guests who don't take care of the place. That's what happens to a place people actually use.
 
-Your marriage takes those costs too. Some years one of your jobs has to come first. You each have a family, and both families need time and patience. Someone's health takes a turn. The kids need more than either of you planned on. None of that is anyone's fault, and every one of them takes something out of the marriage.
+Your marriage takes those costs too. Some years one of your jobs has to come first. You each come from a family, and both sides need time and patience. Someone's health takes a turn. The kids need more than either of you planned on. None of that is anyone's fault, and every one of them takes something out of the marriage.
 
 That's why you keep investing in it. You don't wait until something is broken. You put in all along, including the weeks when nothing seems wrong.
 
@@ -68,7 +68,7 @@ So ask yourself about the life you share. Is it better now than it was a year ag
 
 ---
 
-**In flow.** When all of this is working, the whole marriage feels different. There's a word for this that people in business like to use: flow. You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.
+**In flow.** When all of this is working, the whole marriage feels different. There's a word for this you may have heard at work: flow. You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.
 
 The psychologist Mihaly Csikszentmihalyi described flow in his 1990 book *Flow: The Psychology of Optimal Experience*. He wrote about being absorbed in something that stretches you without overwhelming you. You stop watching yourself, and the doing becomes its own reward.
 
@@ -97,6 +97,11 @@ You have a lot of people in your life who need you to show up for them. Your kid
 Put the most into your marriage, because she is your number one.
 
 ## Editor's Notes
+
+### Publisher, after the round-10 reviews (2026-11-06)
+
+Applied: cold read 1 (parties are not 'from outside'; guests no longer map onto families), 2 ('each come from a family'), 3 (flow's business framing kept as his observation, softened to 'you may have heard at work'), 4 (distillation). Final cold read: 2 findings applied (preferred-indifferents wording; which incident). Left for the author: 'investing strategy', 'the health of the whole', the old-picture section length (~325 vs ~250), arête's first appearance (book-level).
+
 
 Line Editor desk (gw-lineeditor), cold, v4. Clock read 2026-11-06 15:25. Commission: the Publisher's Round 10 brief. Read: `runs/ch16/interview.md` Round 10 (governs), key point 4 of the Chapter 16 entry in `03-outline.md`, `01-voice.md`, `okf/frameworks/write-down-the-dates-that-matter-to-her.md`. Nothing in `books/` was written. The v3 notes are in git at commit 49b8718 and are not repeated here.
 
