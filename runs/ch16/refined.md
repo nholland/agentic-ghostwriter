@@ -1,8 +1,8 @@
-# Chapter 16: Warmth Is Strength
+# Chapter 16: The Marriage in Flow
 
-You know the stretch I mean. Nothing in the house needs managing. Nobody is bracing for the next thing, and nobody is waiting for the other one to slip. You and your wife are in the same room because you both want to be there, and it's easy.
+You know the stretch I mean. Nothing between you needs managing. Nobody is bracing for the next thing, and nobody is waiting for the other one to slip. You and your wife are in the same room because you both want to be there, and it's easy.
 
-That ease is what everything so far has been working toward, and it comes from the calm and the strength underneath it.
+That ease is what everything so far has been working toward. The calm and the strength make it possible, and the warmth is what makes it easy.
 
 Part I was the River: staying calm when things change. That calm keeps a hard week from turning into a fight with your wife. Part II was the Oak: the strength to carry weight, so she can lean on you when life gets heavy. Part III is the Sun, and this chapter is where the three come together. The warmth you bring her is what the calm and the strength were for. It's the capstone, the piece that sits on top of everything you've done so far.
 
@@ -12,7 +12,7 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 **The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about what they felt and only spoke up to make a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.
 
-Calm was my first fix for that, and calm can go cold. Chapter 1 told a story of cold calm kept silent. Once, I said it out loud to my wife.
+Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. Once, I put my cold calm into words and said them to my wife.
 
 I'd just gotten into Stoicism. Not long after, we had an argument. She was angry at me, and I sat there quiet. When she was done, I looked at her and said, "I can't control you. I can only control me and I don't see things the way you do."
 
@@ -24,7 +24,7 @@ She didn't want to be married to a stone.
 
 I shouldn't have aimed that line at her at all. Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. The idea underneath it was right, and I had used it wrong. "I can only control me" is true. It's a standard I hold my own conduct to. In that argument, it had become a way to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her.
 
-What fixed that habit was turning toward her.
+What fixed it was turning toward her.
 
 ---
 
@@ -38,31 +38,33 @@ The way I read the Stoics, nothing is good in itself except virtue, which means 
 
 I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia. Eudaimonia is the Greek word for a life that's going well as a whole. It's often translated as flourishing.
 
-Every act of compassion you carry out is a gift to what the two of you share.
+Every act of compassion you carry out is a gift to your marriage.
 
 ---
 
-**Both of you.** As I see it, people want to feel like their relationship is an investment, not a burden. Your wife is the same. She doesn't want to be a chore on your list. She wants to be the thing you're glad to put yourself into.
+**Both of you.** As I see it, a relationship is an investment, not a burden. She wants to know the time you give her is time you're glad to give.
 
-You met Stephen Covey at the start of this book. He wrote *The 7 Habits of Highly Effective People*, and he made the phrase "emotional bank account" famous. His idea is that every caring thing you do for someone goes in and adds up over time. I teach my boys that every kind of relationship, not just marriage, is one you invest in over a long period of time. I tell them it's true with their teachers, with their coaches, with their girlfriends. It's true for you, too, and most of all at home.
+I teach my boys that every kind of relationship, not just marriage, is one you invest in over a long period of time. I tell them it's true with their teachers, with their coaches, with their girlfriends. It's true for you, too, and most of all with your wife.
 
-In a marriage, the two of you share one joint account. You both put in, and what's there belongs to the marriage. Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. Putting Covey's idea and Musonius's together is my own step: one shared life that you both pay into.
+Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. I picture that life as a house the two of you own. You live in it every day, and just living there wears on it a little. So you keep it up, and now and then you make it better than it was.
 
-A deposit is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Yours will look like your marriage. You know what she'd notice. Each one takes a minute or two. What makes it count is that you did it on an ordinary day, without being asked, because she was worth the minute.
+Most of that care is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Your small things will look like your marriage. You know what she'd notice. Each one takes a minute or two. What makes it matter is that you did it on an ordinary day, without being asked, because she was worth the minute.
 
-Hers go in too, in her own ways, and they land in the same place yours do. Attention and effort come in from both sides, and both of you live on what's there. That's the give and take of attention and effort. When she feels your attention, it's easier for her to give hers. When you feel hers, it's easier for you. Effort works the same way. Two people who keep putting in make it lighter for each other to keep going.
+She looks after the place too, in her own ways. When she feels your attention, it's easier for her to give hers. When you feel hers, it's easier for you. Effort works the same way. Two people who keep putting in make it lighter for each other to keep going.
 
-You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. My grandfather put it plainly in Chapter 12: "Put your wife first."
+You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. As my grandfather told me, in Chapter 12: "Put your wife first."
 
-Nobody keeps track of who put in what. In Chapter 7, the tally was the running score in your head of what you've done for her. It counted only your side, so she always came up short. Here nobody keeps count at all, and nobody checks to see who's ahead. The bank doesn't ever owe you money. Everything you put in stays there, for the marriage. Nothing you put in is waiting to be handed back to you.
+Nobody owes anybody here. She doesn't owe you for the coffee, and you don't owe her for what she does for you. The way I see it, there's no debt. Everything you put in is upside or zero. Every good morning either keeps your life together as good as it was or makes it better. None of it is ever wasted.
 
-So why keep it growing? Because hard stretches come. A bad month can land on you, on her, or on both of you at once. When one comes, neither of you may have much left over, and your marriage lives on what's already there between you. That's when the good mornings and the coffee turn out to matter. They're what the two of you have to go on. That's one reason to keep putting in on the easy days, when it feels like nothing needs it.
+Hard stretches come too. A bad month can land on you, on her, or on both of you at once. When one comes, neither of you may have much to give, and you both live in what you've already built. That's when the good mornings and the coffee turn out to matter.
 
-So ask yourself about the two of you. Is there more between you now than there was a year ago?
+At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home.
+
+So ask yourself about the life you share. Is it better now than it was a year ago?
 
 ---
 
-**In flow.** When all of this is working, the whole house feels different. There's a word for this that people in business like to use: flow. You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.
+**In flow.** When all of this is working, the whole marriage feels different. There's a word for this that people in business like to use: flow. You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.
 
 The psychologist Mihaly Csikszentmihalyi described flow in his 1990 book *Flow: The Psychology of Optimal Experience*. He wrote about being absorbed in something that stretches you without overwhelming you. You stop watching yourself, and the doing becomes its own reward.
 
@@ -76,9 +78,9 @@ The third is eudaimonia, the flourishing from earlier: a life going well as a wh
 
 Each word comes from one part of the work. The calm you learned in Part I is what lets a marriage stay at peace. The strength from Part II, keeping your word and carrying weight, is part of what puts it at its best. The warmth in this part is what makes it a life she's glad to share with you. When you're calm and strong and loving at once, the calm, the strength and the warmth stop being separate jobs.
 
-All three words are about the marriage. Being happy as an individual is very different from being happy in a relationship. Being happy in a relationship means you're always thinking about both people. I believe the health of the whole is more important than the health of the individual. Your peace counts. Hers counts. The marriage is the thing you're both looking after.
+All three words are about the marriage. Being happy as an individual is very different from being happy in a relationship. Being happy in a relationship means you're always thinking about both people. I believe the health of the whole is more important than the health of the individual. Your peace counts, and so does hers.
 
-A marriage is one thing the two of you tend together. Keep it at peace, at its best, and flourishing, and it moves into flow.
+A marriage is one home the two of you build and keep up together. Keep it at peace, at its best, and flourishing, and it moves into flow.
 
 ---
 
@@ -86,256 +88,102 @@ Most of what a marriage in flow looks like is ordinary. I feel deep joy and deep
 
 I want my wife to be loved. I want her to feel desired. I want her to feel like a priority. That's what the warmth is for. Your wife should feel all of that from you, on the days nothing special is happening.
 
-You have a lot of people in your life who need you to keep putting in. Your kids. Your parents. Your siblings. The people you work with. Every one of those relationships matters, and you should be generous with all of them.
+You have a lot of people in your life who need you to show up for them. Your kids. Your parents. Your siblings. The people you work with. Your wife. Every one of those relationships matters, and you should be generous with all of them.
 
-You should have the most credits with your wife because she is your number one.
+Put the most into your marriage, because she is your number one.
 
 ## Editor's Notes
 
-Line Editor desk (gw-lineeditor), cold. Clock read 2026-11-05 07:02. Read: `runs/ch16/draft.md` with Draft Notes, `01-voice.md`, the Chapter 16 entry in `03-outline.md`, `runs/ch16/research.md`, `runs/ch16/brief-review.md`, `runs/ch16/conformance.md`, and from v1 only `persona-refined.md`. I checked `runs/ch16/interview.md` for two source lines only: "demands" (Round 0, line 69) and "stone" (Round 2, line 191). Nothing in `books/` was written.
+### Publisher, after the v3 cold read (2026-11-06)
 
-**metaphor_family (from Draft Notes):** bank,account,deposit,invest,credit,money,withdraw,balance. The Draft Notes give the reason for going above the base rate: the account carries the chapter's mechanism. I did not change it.
+Applied cold-read findings 1-10 (7 as 'None of it is ever wasted.'; 3 by cutting the pointer sentence). Mechanism line shortened so the plate title fits: 'Calm and strength make the marriage sound; warmth makes it a home'.
 
-## Conformance must-fix list, each item
+Line Editor desk (gw-lineeditor), cold, v3 (the house). Clock read 2026-11-06 06:11. Commission: the Publisher's Round 9 brief. Read: the new Chapter 16 entry in `03-outline.md` (governs), `runs/ch16/interview.md` Rounds 6 to 9, `01-voice.md`, the Introduction's line 47, `runs/ch16/coldread-final.md`, and the Round 8-9 section of `okf/frameworks/the-bank-of-credits.md`. Nothing in `books/` was written. The v2 Editor's Notes (three rounds on the bank text) are in git at commit e6a507e and are not repeated here, because the text they describe is gone.
 
-1. **"Demands" is back in the old picture.** Before: "The trouble was what it left a man to do with what he felt. "A man bore things quietly or if he finally was pushed..."". After: "The trouble was what it left a man to do with what he felt. A lot of men I know kept quiet until they made a demand. A man bore things quietly. If he finally was pushed to the edge, ..." The new sentence is his Round 0 line ("a lot of men that I know basically kept quiet until they made a demand"), lightly trimmed. It matches the outline's "quiet until he demands or blows up". I did not use the three-part version the conformance row cites ("made demands, ... benign neutral conversation, or you kept quiet"). "Benign" needs a gloss for a 12-year-old. A third beat would also make another three-part list after "fearless / protectors / providers". *Author can reverse.*
-2. **His own lines are now plain first-person narration with no quotation marks.** The lines changed: "Men were fearless...", "A man bore things quietly...", "should be a mindset...", "you can feel compassion...", "highest state", "nothing matters besides virtue...", "I'd like to conduct myself...", "investment not a burden", the boys' "invest" line, "the bank doesn't ever owe you money", "larger concept ... flow", "Flow is effectively...", "the three Stoic words...", "When you are in equanimity...", "Being happy as an individual...", "the health of the whole...", "There's nothing I want to do more...", "I love walking the block...", and "I want my wife to be loved...". Six quoted spans remain in the prose, each something said aloud or a source's term: his line to her ("I can't control you. I can only control me..."), "I can't control you" inside his lesson, "I can only control me" (the line he said to her), her answer, Covey's term "emotional bank account", and the grandfather's "Put your wife first."
-3. **The Stoics no longer speak his words.** Before: "They would say that "nothing matters besides virtue and everything else becomes just a preferred indifference."" After: "The way I read them, nothing matters besides virtue, which means the quality of your own character. Everything else is what Chapter 2 called a preferred indifferent: something you hope for that doesn't decide who you are." The narration now uses Chapter 2's noun, "preferred indifferent", throughout. His spoken form was "indifference".
-4. **"Her highest state" is narration.** Before: ""You want them to be in their highest state." That's the aim of it. You want your wife at her best". After: "You want her in her highest state, at her best, and you put your effort there." The outline's string, "her highest state", now appears in the text.
-5. **The dangling "Again" is gone.** Before: "Applying that to a whole marriage is my own step, and so is pairing it with three Stoic words. "Again the three Stoic words are representative of flow."" After: "Applying that to a whole marriage is my own step. So is pairing it with three Stoic words. To me, they describe what flow looks like for the two of you."
-6. **Eudaimonia.** Before: "Most people translate it as flourishing." After: "It's often translated as flourishing."
-7. **The drafter's gloss is cut:** "Said out loud to her, it sounded like a man in a relationship by himself." I also made sure the distillation does not bring the same idea back.
-8. **Kept by ruling:** "She didn't want to be married to a stone." (his Round 2 summary, as narration). The H1 River sentence is verbatim.
+**metaphor_family (declared for v3, replacing the bank family):** house,home,upkeep,keep up,invest,maintain,repair,roof,wall,capstone. The house carries the chapter's mechanism (why the small things are done, and why nobody owes anybody), so the 5 cap applies, not the base 3.
 
-## Other changes, by pass
+**Script blind spot, counted by hand:** `voice_check.py` matches single words by prefix, so the declared "keep up" can never match. Two phrases are in the family and invisible to it: "So you keep it up" (house paragraph) and "build and keep up together" (ah-ha). Hand total: 7 script + 2 = 9 mentions in 1,912 words = 4.7 per 1,000, under 5. The script's line below shows 7. This is a defect in the check, not in the prose; worth an inbox gap if the Publisher agrees.
 
-**Pass 0 (approachability).** I split eight sentences over 20 words. Before/after examples:
-- "Part I was the River: staying calm when things change, so a hard week doesn't turn into a fight with your wife." became "Part I was the River: staying calm when things change. That calm keeps a hard week from turning into a fight with your wife."
-- "When I first got into Stoicism, one of the first arguments I had with my wife led to..." became "I'd just gotten into Stoicism. One of the first arguments I had with my wife after that led to..." The timing clause the brief requires is kept.
-- "He wrote about being so absorbed in something that stretches you, without overwhelming you, that you stop watching yourself and the doing becomes its own reward." became two sentences.
-- The boys' line is shorter: "every kind of relationship, not just marriage, is one you invest in over a long period of time."
-- Arête, equanimity, "Everything you put in stays there", and the three-words sentence are each split once.
+## What changed
 
-Glosses now come in plain-first order:
-- Equanimity: "Staying calm and steady on the inside is what Chapter 1 called equanimity." The old order was term first.
-- Reciprocation: the plain sentence ("Attention and effort come in from both sides...") now comes before the label.
-- Capstone: glossed as "the piece that sits on top of everything you've done so far".
-- Musonius Rufus: grounded as "the Roman Stoic teacher".
+1. **Title.** "Warmth Is Strength" became "The Marriage in Flow" in the chapter heading, the distillation heading and the practice-guide heading.
+2. **The bank section became the house.** Cut whole: the Covey sentences ("You met Stephen Covey... emotional bank account... goes in and adds up"), "one joint account", "Putting Covey's idea and Musonius's together... pay into", "A deposit is small", "Hers go in too", "The bank doesn't ever owe you money", the Chapter 7 tally callback, "So why keep it growing?" and "Is there more between you now". In: Musonius's "one shared life" kept, then "I picture that life as a house the two of you own. You live in it every day, and just living there wears on it a little. So you keep it up, and now and then you make it better than it was." (his Round 8 "you take a little bit out every day that you live there... maintaining and even upgrading"). The small things ("Most of that care is small. I say good morning...") are now the upkeep. "Nobody owes anybody here. She doesn't owe you for the coffee, and you don't owe her for what she does for you. The way I see it, there's no debt. It's only upside or zero." His phrase is in first-person narration without quotation marks, matching how the chapter carries his other lines. Then: "Every good morning either keeps your life together as good as it was or makes it better. None of it puts you behind." That is my gloss of "upside or zero" in house terms.
+3. **The Introduction callback, one sentence plus the claim:** "At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home."
+4. **Kept:** "You still go first" and its paragraph; "Put your wife first." (Chapter 12); "She didn't want to be married to a stone."; his eudaimonia sentence, word for word; "investment, not a burden"; the boys' "invest" line.
+5. **The hard-stretch paragraph is kept, shorter, in house words:** "you both live in what you've already built." "That's one reason to keep putting in on the easy days" is cut.
+6. **The check question:** "So ask yourself about the life you share. Is it better now than it was a year ago?" It asks about the place, never about a count.
+7. **Ah-ha, verbatim:** "A marriage is one home the two of you build and keep up together. Keep it at peace, at its best, and flourishing, and it moves into flow."
+8. **Close.** The reader's list now ends with "Your wife." (kids, parents, siblings, the people you work with, wife), so "the most" compares those. "who need you to keep putting in" became "who need you to show up for them", so the close is the only "put" in that run. Last line, exactly: "Put the most into your marriage, because she is your number one." Nothing follows it.
+9. **Opening house word moved.** "Nothing in the house needs managing." became "Nothing between you needs managing." It keeps the house for the section where it does its work, and keeps the family under its cap.
+10. **"the whole house feels different"** (start of In flow) became "the whole marriage feels different", for the same reason.
 
-The outside-view line "a man who has both and holds back his warmth" is now second person: "if you have both and hold back your warmth, you've done the work and kept the best of it for yourself." There are no em-dashes.
+## Round-3 cold-read notes
 
-**Pass 1 (voice).** I cut three windups:
-- "Mine look like this." The list is now four first-person sentences: "I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift..."
-- "The question to ask yourself is about the two of you." became "So ask yourself about the two of you."
-- "You can see where each one comes from." became "Each word comes from one part of the work."
+1. **L5, ease credited only to calm and strength.** Before: "...and it comes from the calm and the strength underneath it." After: "That ease is what everything so far has been working toward. The calm and the strength make it possible, and the warmth is what makes it easy."
+2. **L15, "Once, I said it out loud" (it?).** After: "Once, I put my cold calm into words and said them to my wife."
+3. **L41.** After: "Every act of compassion you carry out is a gift to your marriage."
+4. **L45, agency shift between "people want... an investment" and "she doesn't want to be a chore".** After: "As I see it, a relationship is an investment, not a burden. Your wife wants to feel that from you. She wants to know the time you give her is time you're glad to give." You give; she feels it. The chore line is cut.
+5. **L53, "That's the give and take of attention and effort." restated the sentence before it.** Cut. The reciprocation is still shown, in "When she feels your attention, it's easier for her to give hers..."
+6. **L57, the bank owing money.** Gone with the bank.
+7. **L79-81, "looking after" then the ah-ha said it again.** "The marriage is the thing you're both looking after." is cut. The paragraph now ends "Your peace counts, and so does hers." and the ah-ha follows.
+8. **Distillation "whose was whose".** Gone with the bank; the distillation is rewritten.
 
-"The second needs more room." became "The second word is new to this book." That is true: this is arête's first printed use. "Notice that all three words..." became "All three words...". I found no universal claim about all men. "A lot of men I know" is scoped. Nothing casts her mood as a threat.
+## Passes
 
-**Pass 2 (clarity).**
-- "It arrives because of what's underneath it" became "it comes from the work underneath it".
-- "so a hard day stays a hard day" became "Then a hard day can be hard without becoming a fight". The old phrase didn't say what a hard day was being kept from.
-- "Chapter 7's tally kept count of your side and found her short" became "Chapter 7's private tally counted only your side, so she always came up short."
-- "Being happy as an individual is extremely different than..." became "...very different from..." This is a small edit, possible now that the line is narration.
+**Pass 0.** No em-dashes, brackets or parentheses in prose. Every new sentence is 20 words or fewer. Glosses unchanged: equanimity, arête, eudaimonia, virtue, preferred indifferents, flow, capstone. "Structurally sound" stays as the Introduction has it.
+**Pass 1.** No windups added. No universal claims about all men. Nothing casts her mood as a threat.
+**Pass 2.** The plain-meaning test on the new lines: "wears on it a little" names what living there does; "upside or zero" is glossed in the next two sentences; "the place" refers back to the house in the sentence before it.
+**Pass 3.** Read whole. One close, one sentence.
+**Audiobook.** Read as if aloud: no brackets, no parentheses, no visual-only devices in prose. The italics (*Indifferent*, *flow*, the book title) and the four bold run-in labels read aloud as ordinary words. The section rules are breaks, not text.
 
-**Pass 3 (flow and devices).** I read the chapter whole. Two contrast shapes beyond the two the outline requires were removed. "It doesn't arrive by accident. It comes from..." (a not-X, then-Y reframe) is now one positive sentence. "stays a hard day and doesn't turn into a fight" became the "without" form. Contrast pairs remaining by hand count: "an investment, not a burden" (1) and "a mindset, not something that you repeat out loud" (2), both required by the outline. "Not just marriage" is inclusive, not a contrast. The close is exactly one sentence, his, verbatim, with nothing after it.
+**Fences, by grep of the prose:** "moves" 1 (ah-ha only); "movies" 1 (his line; not the banned verb); "Sun" 1 (Part III's name); "tend" 0. Zero: bank, account, deposit, credit, withdraw, money, ledger, balance, pay, Covey, tally, night, winter, storm, garden. "debt" 1 and "owe/owes" 3, all in the no-debt paragraph the commission asks for.
 
-**Fences, by grep of the prose:** "Sun" 1 (Part III's name only). "moves" 1 (the ah-ha). "movies" 1 (his line). "growing" 1. "tend" 1 (ah-ha). Each of these is zero: storm, night, winter, withdraw*, balanc*, interest, ledger, garden, brackets, em-dashes. The ah-ha is verbatim. Nothing new was added about what she puts in, a lived hard stretch, or what happened after her answer.
-
-## Pass 4: final script output, verbatim
+## Final script output, verbatim
 
 ```
 voice_check: refined.md
-  1923 words of prose, 163 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1865}
+  1912 words of prose, 162 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1627}
 
   HARD (literal counts - a FAIL here is a fact)
     [ok  ] em-dash                  0 in prose (cap 0)
     [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      4/163 sentences at 25+ words = 2.5% (cap 10%)
+    [ok  ] long-sentence share      3/162 sentences at 25+ words = 1.9% (cap 10%)
              35w: "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by hims...
              33w: Your attention and your joy are what she actually gets to live with every day. **The old picture.** A lot of u...
-             32w: Every act of compassion you carry out puts something into your marriage. **Both of you.** As I see it, people ...
-    [ok  ] you-density              111 direct-address words in 1923 = 57.7 per 1,000 (floor 40)
-    [ok  ] metaphor family          9 mentions in 1923 words = 4.7 per 1,000 (cap 5); {'bank': 2, 'account': 2, 'deposit': 1, 'invest': 2, 'credit': 1, 'money': 1}
+             28w: Every act of compassion you carry out is a gift to your marriage. **Both of you.** As I see it, a relationship...
+    [ok  ] you-density              106 direct-address words in 1912 = 55.4 per 1,000 (floor 40)
+    [ok  ] metaphor family          7 mentions in 1912 words = 3.7 per 1,000 (cap 5); {'house': 2, 'home': 2, 'invest': 2, 'capstone': 1}
 
   CAND (needs a read - a clear line here is not a pass)
-    [clear ] single ending            final sentence 15 words, shares 4 words with the previous one. Close: 'You should have the most credits with your wife because she is your number one.'
-    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] single ending            final sentence 12 words, shares 1 words with the previous one. Close: 'Put the most into your marriage, because she is your number one.'
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: {"you-don't pivot  'you don't X, you Y'": 1}. Regex cannot see every sentence-shape - a model read is still required.
     [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
 
   RESULT: all HARD checks passed
 
-(Run on the final prose. The prose is unchanged since. apparatus_words reflects the notes before this block was pasted in.)
+(Run on the final prose; the prose is unchanged since. apparatus_words reflects the notes before this block was pasted in.)
 ```
 
 CAND reads:
-- *Single ending:* the final sentence is the author's line, and nothing follows it. Pass by read.
-- *Rhetorical device:* contrast pairs are at the cap of 2, both outline-required. Fragment lists: two ("Your kids. Your parents...", "Men were fearless. They were protectors..."). Three-part lists: the three-words run with the ah-ha (the deliberate run), loved / desired / a priority, and "fearless / protectors / providers". The last is three short sentences of his, not a list device. It is flagged in case the Anti-Slop Reader counts it.
-- *Gloss:* every term is glossed in the same or next sentence: equanimity, arête, eudaimonia, virtue, preferred indifferent, flow, capstone, reciprocation.
+- *Single ending:* the final sentence is the commissioned line, and nothing follows it. Pass by read.
+- *Rhetorical device:* the one "you-don't pivot" the regex found is "She doesn't owe you for the coffee, and you don't owe her..." The outline's two contrast pairs remain ("an investment, not a burden"; "a mindset, not something..."). "there's no debt. It's only upside or zero." is his phrase and reads as a third soft contrast. Flagged, not changed.
+- *Gloss:* every term is glossed in the same or next sentence. Unchanged from v2.
 
 ## Judgement calls the author might reverse
 
-1. **"Demands" uses his Round 0 sentence ("kept quiet until they made a demand"),** not the three-part "demands / benign neutral conversation / kept quiet" the conformance row cites. Say so if you want the three-part form.
-2. **Narration now uses "preferred indifferent" (Chapter 2's noun), not your spoken "preferred indifference".** That is a small change to your wording, now that it's narration.
-3. **Light edits to your lines, possible now that they're narration and not quotations:** a comma in "a mindset, not something that you repeat out loud to another party"; "I think that that was" became "I think that was"; "extremely different than" became "very different from"; "a larger concept that is popular in business that people call flow" became "a larger concept that's popular in business, and people call it flow"; the boys' line is shortened. If the Conformance Checker searches for exact strings, these will not match. That is deliberate.
-4. **"Another party"** is kept as your phrase. It reads a little legal. "another person" is the plain swap.
-5. **"She didn't want to be married to a stone."** It sits directly after her quotation. A v1 panel reader took "stone" as her word. The text has no quotation marks on it, so it reads as yours, but you may want "In my words," or a different placement.
-6. **The B5 mapping paragraph (calm → peace, strength → at its best, warmth → flourishing)** is unchanged and is still the drafter's structure for your capstone idea (Draft Notes item 4).
-7. **The deposit list is now first-person present tense ("I make the coffee")** instead of gerund fragments. It describes what you do now. It does not describe any specific day.
+1. **The Chapter 7 tally callback is dropped.** In a chapter that says nobody owes anybody, a reminder of the running score pulled back toward the debt frame he rejected. Say so to restore one sentence.
+2. **"upside or zero" is narration, not a quotation.** The commission allowed quoting it as his. It reads as his in first person either way. Quotation marks are the swap.
+3. **"Every good morning either keeps your life together as good as it was or makes it better. None of it puts you behind."** This is my reading of "only upside or zero". If "zero" meant something else to him, these two sentences are the ones to change.
+4. **The hard-stretch paragraph stayed.** It is drafter's material from v2 (Round 7: stay general, invent nothing). It is shorter now and in house words. It could go entirely for a more positive Sun chapter.
+5. **"She looks after the place too, in her own ways."** This replaces "Hers go in too". It says only that she contributes. Nothing new about what she does was added.
+6. **The boys' line keeps "invest".** It is his word and his point ("an investment system"). It costs one family mention.
+7. **"Most of all with your wife"** replaces "most of all at home", to keep "home" for the callback and the ah-ha.
 
 ## Placeholders still standing
 
-None. No citation was marked verified. Csikszentmihalyi, Covey and the Diogenes Laertius glosses are still `unverified`, as the Draft Notes say.
+None. No citation was marked verified. Csikszentmihalyi and the Diogenes Laertius glosses stay `unverified`. Covey is no longer cited in the prose; the Fact-Checker may want to untag `emotional-bank-account-covey-gottman` from this chapter. That is the Publisher's call, not mine.
 
 ## Distillation and guide
 
-`runs/ch16/distillation.md` written. The Chapter 16 section was appended to the end of `runs/appendix/practice-guide.md`, and a diff against a pre-append backup shows only the new lines were added. No practice asks him to count deposits. Practice 1 says "Don't keep count of them." The distillation's prose paragraph doesn't use the cut gloss. It restates the mindset lesson in his terms.
-
-## Revision round 1 (reviews)
-
-Line Editor desk (gw-lineeditor), cold. Clock read 2026-11-05 07:17. I applied the Publisher's list of fixes from `coherence-refined.md`, `persona-refined.md` and `conformance-refined.md`, and nothing beyond it. I made no changes to the distillation or the practice guide: no practice changed. Nothing in `books/` was written.
-
-**Changes (before → after):**
-- **C1, the retelling and its lesson.** Added "Chapter 1 told the quiet version of this. Once, I said it out loud." before the scene. Lesson paragraph: "I think I shouldn't have even brought her up ... I think that was part of the smug superiority. The idea underneath it was right. ..." → "I shouldn't have aimed it at her at all. Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. The idea underneath it was right, and I had used it wrong. "I can only control me" is true. It's a standard I hold my own conduct to. In that argument, it had become a way to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her." This now matches Ch1's diagnosis (opt-out). His mindset sentence is kept, with "to another party" changed to "to her". It is narration, not a quotation.
-- **Q1.** "brought her up" (which can be misread as "raised her") → "aimed it at her". "The smug superiority" is now named: "as if staying calm made me better than her". *That gloss is my reading of his "smug superiority". Author may reverse.*
-- **Q2.** "what it left a man to do with what he felt" → "it left a man nowhere to put what he felt". "A lot of men I know kept" → "A lot of men I've known kept".
-- **C3.** → "Chapter 2 drew the line between feeling her mood and becoming it."
-- **C4 + Panel 2.** The Stoics paragraph → "The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The good things outside it that you hope for are what Chapter 2 called preferred indifferents. They don't decide who you are. Her happiness is one of those things. *Indifferent* doesn't mean you don't care. I want my wife happy." This restores Ch2's gloss, and the double negative is gone.
-- **Q6.** "So I hold it in plain words." cut. His "I'd like to conduct myself..." line follows directly, unchanged.
-- **Q4.** "craved" → "craves".
-- **Q7.** "caring where she ends up" → "caring how she's doing".
-- **C10.** "Your wife doesn't want to be the weight you're hauling around." → "Your wife is the same. She doesn't want to be a chore on your list." The bridge sentence is needed because the line before is about "people".
-- **Musonius (conformance attribution).** "It's the same shared project ... Musonius Rufus described back in Chapter 6, one life run by two people." → "Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. Picturing that life as one place you both put into is my own idea." I did not use the word "joint account" again: it took the family count to 5.1 per 1,000, a HARD fail. Rewording it brought the count back to 4.6.
-- **Q9.** "you don't need her permission to look after it" → "looking after it is your job as much as hers".
-- **Q3.** "the whole reason" → "one reason".
-- **Q13.** "Again, my grandfather's words ring out, the ones you heard in Chapter 12:" → "My grandfather put it plainly in Chapter 12:".
-- **Q5 + C7 + Panel 4.** Cut "That's the word I reach for." The paragraph that tells flow apart from the River now comes right after his "popular in business ... flow" line and before Csikszentmihalyi: "You've seen *flow* before in this book. In the Introduction and Part I, it belonged to the River...". Naming *flow* makes the referent explicit, so it can no longer be read as one of the three words. "described it" → "described flow". "The way I use the word is simpler, and it leans on the peace in it. ... operating at your highest self." → "My sense of the word is simpler. To me, flow is when everything is going well: you're at peace, and you're at your best."
-- **Q10, Q11, C9 (arête).** "the one you'd be proud of if you saw it from the outside" → "the version you'd be proud of". "For the Stoics it meant excellence of character." → "...excellence of character, the same virtue I mentioned earlier." "living up to your highest potential" → "being at your best".
-- **C12.** "this whole book has been working toward" → "everything so far has been working toward".
-
-**Not changed, as instructed:**
-- **Q8, "reciprocation".** I kept the label sentence because outline key point 4 lists "Reciprocation of attention and effort". Cutting it risks the conformance row.
-- **Q11, partial.** "You want her in her highest state, at her best" keeps both phrases. The outline quotes "her highest state", and conformance earlier required that string. "Highest self" and "highest potential" are gone, so "highest" now appears once. *Author may prefer "at her best" alone.*
-
-**For the author's read (his calls, untouched):**
-- The last line, "You should have the most credits with your wife because she is your number one." The panel and the coherence reader both say "credits" brings back the tally that the account section disowns.
-- "tend" in the ah-ha. Ch24 and Part V use the same verb.
-- "She didn't want to be married to a stone." It sits next to the Introduction's stone.
-- The title "Warmth Is Strength". The panel notes that no sentence argues the claim.
-- The "health of the whole" line. The Skeptic sets it against "nothing is good in itself except virtue".
-- The "joint account" naming. Ch12 uses "joint account" literally, for money.
-
-**Final script output, verbatim (run after the last prose edit):**
-
-```
-voice_check: refined.md
-  1943 words of prose, 166 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1866}
-
-  HARD (literal counts - a FAIL here is a fact)
-    [ok  ] em-dash                  0 in prose (cap 0)
-    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      3/166 sentences at 25+ words = 1.8% (cap 10%)
-             35w: "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by hims...
-             33w: Your attention and your joy are what she actually gets to live with every day. **The old picture.** A lot of u...
-             32w: Every act of compassion you carry out puts something into your marriage. **Both of you.** As I see it, people ...
-    [ok  ] you-density              111 direct-address words in 1943 = 57.1 per 1,000 (floor 40)
-    [ok  ] metaphor family          9 mentions in 1943 words = 4.6 per 1,000 (cap 5); {'bank': 2, 'account': 2, 'deposit': 1, 'invest': 2, 'credit': 1, 'money': 1}
-
-  CAND (needs a read - a clear line here is not a pass)
-    [clear ] single ending            final sentence 15 words, shares 4 words with the previous one. Close: 'You should have the most credits with your wife because she is your number one.'
-    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
-    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
-
-  RESULT: all HARD checks passed
-```
-
-```
-practice_sync: runs/appendix/practice-guide.md vs each chapter's distillation (runs/)
-  [PASS     ] Chapter 16  3 practice(s) identical
-
-  RESULT: PASS on 1 chapter(s)
-```
-
-**CAND reads.**
-- *Ending:* one sentence, his, with nothing after it. Pass by read.
-- *Devices:* the contrast pairs are still the two the outline requires ("an investment, not a burden"; "a mindset, not something..."). "*Indifferent* doesn't mean you don't care" is a plain negation, not a not-X-but-Y reframe.
-- *Glosses:* "preferred indifferents" is glossed in the next sentence. Arête is now tied to virtue.
-
-**Fences, by grep:** "move" appears only in the ah-ha ("moves"). "tend" appears only in the ah-ha. No storm, night or winter. Word count is 1,943, inside 1,800-2,200.
-
-**Placeholders still standing:** none. No citation was marked verified.
-
-## Revision round 2 (cold read)
-
-Line Editor desk (gw-lineeditor), cold, round 2 of 2. Clock read 2026-11-05 07:26. Applied the first-time cold read's findings. Nothing in `books/` was written. The last line, the ah-ha, "stone" and the title are unchanged.
-
-**Changes, by finding number (before → after):**
-
-1. "it comes from the work underneath it" → "it comes from the calm and the strength underneath it."
-2. "you've done the work and kept the best of it for yourself" → "But if you have both and still keep your warmth from her, you've done the work and she misses the best of it."
-3. "kept quiet until they made a demand" → "said nothing about what they felt and only spoke up to make a demand." ("demand" kept for the outline.)
-4. "Chapter 1 told the quiet version of this. Once, I said it out loud." → "Chapter 1 told the quiet version of cold calm. Once, I said mine out loud to my wife."
-5. "One of the first arguments I had with my wife after that led to her being angry at me and me sitting there quiet." → "Not long after, we had an argument. She was angry at me, and I sat there quiet."
-6. "aimed it at her" → "aimed that line at her."
-7. "and you put your effort there" → "and you put your effort into helping her get there."
-8. The line is narration, not quoted, so I fixed the list grammar: "makes our marriage stronger and my wife happier, and brings us closer to eudaimonia." "Moves" was not used, to keep it ah-ha only.
-9. "Every act of compassion you carry out puts something into your marriage." → "Every act of compassion you carry out is a gift to what the two of you share." It now points ahead to the shared account without naming it early, and adds no family word.
-10. Added after the Covey sentence: "His idea is that every caring thing you do for someone goes in and adds up over time."
-11. "Picturing that life as one place you both put into is my own idea." → "Putting Covey's idea and Musonius's together is my own step: one shared life that you both pay into." I avoided repeating "account" to hold the family count.
-12. "the reciprocation of attention and effort" → "the give and take of attention and effort."
-13. "Chapter 7's private tally counted only your side, so she always came up short." → "In Chapter 7, the tally was the running score in your head of what you've done for her. It counted only your side, so she always came up short." Taken from the Chapter 7 outline entry ("the running tally in his head"). Nothing new is claimed.
-14. The grandfather line moved from its own paragraph to the end of the "You still go first" paragraph.
-15. → "There's a word for this that people in business like to use: flow."
-16. "three Stoic words" → "three words from Stoic thought, two of them Greek." (equanimity is English, arête and eudaimonia are Greek.)
-17. "those three stop being separate jobs" → "the calm, the strength and the warmth stop being separate jobs."
-18. "Most of what that looks like" → "Most of what a marriage in flow looks like is ordinary."
-20. Distillation: "the marriage stops being two people managing each other" → "the calm, the strength and the warmth stop being separate jobs." No practice changed, so the practice guide is untouched.
-
-**Judgement calls the author might reverse:** (8) The eudaimonia sentence is his line in first person. It was not in quotation marks, so I treated it as narration and fixed the grammar. If it is a verbatim quote, restore "and helps us get towards eudaimonia." (2) "she misses the best of it" is my rewording of "kept the best of it for yourself". (9) "a gift to what the two of you share" is my bridge into the account section.
-
-**Final script output, verbatim (run after the last prose edit):**
-
-```
-voice_check: refined.md
-  2014 words of prose, 169 sentences
-  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 2925}
-
-  HARD (literal counts - a FAIL here is a fact)
-    [ok  ] em-dash                  0 in prose (cap 0)
-    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
-    [ok  ] long-sentence share      4/169 sentences at 25+ words = 2.4% (cap 10%)
-             37w: Every act of compassion you carry out is a gift to what the two of you share. **Both of you.** As I see it, pe...
-             35w: "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by hims...
-             33w: Your attention and your joy are what she actually gets to live with every day. **The old picture.** A lot of u...
-    [ok  ] you-density              112 direct-address words in 2014 = 55.6 per 1,000 (floor 40)
-    [ok  ] metaphor family          9 mentions in 2014 words = 4.5 per 1,000 (cap 5); {'bank': 2, 'account': 2, 'deposit': 1, 'invest': 2, 'credit': 1, 'money': 1}
-
-  CAND (needs a read - a clear line here is not a pass)
-    [clear ] single ending            final sentence 15 words, shares 4 words with the previous one. Close: 'You should have the most credits with your wife because she is your number one.'
-    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
-    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
-
-  RESULT: all HARD checks passed
-```
-
-```
-practice_sync: runs/appendix/practice-guide.md vs each chapter's distillation (runs/)
-  [PASS     ] Chapter 16  3 practice(s) identical
-
-  RESULT: PASS on 1 chapter(s)
-```
-
-**CAND reads.** The 37w and 33w long sentences are the script joining a paragraph's last sentence to the next bolded run-in header. Each real sentence is under 20 words. The ending is one sentence with nothing after it. My hand read found no new repeated device shapes.
-
-**Fences, by grep of the prose:** "moves" 1 (ah-ha only). "tend" 1 (ah-ha only). withdraw* 0, balanc* 0. Word count 2,014, inside 1,800-2,200.
-
-**Placeholders still standing:** none. No citation was marked verified.
-
-### Publisher, after round 2 (2026-11-05)
-
-Finding 8 reverted: the eudaimonia sentence is the author's verbatim Round 5 line, also quoted in the outline; restored word for word.
-
-### Publisher, after the second cold read (2026-11-05)
-
-Applied cold-read findings 1, 2, 4, 6 (as 'who put in what', to keep the image family under its cap), 7 (blank line before a section rule), 8, 9 and 10 (distillation). Not applied: 3 (the author's verbatim line) and 5 (the 'go first' reasoning), left for the author's read.
+`runs/ch16/distillation.md` is rewritten to the house, with no parentheses. Practice 1 lost "Don't keep count of them.", so no practice mentions counting. Practices 2 and 3 are unchanged. In `runs/appendix/practice-guide.md`, only the Chapter 16 section changed: the heading and practice 1. A diff against a pre-edit copy shows lines 58 and 60 changed and nothing else.

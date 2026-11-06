@@ -1,3 +1,84 @@
+# Chapter 16 plate notes (revision: the house)
+
+Designer (gw-designer), draft mode, revision. Clock read 2026-11-06 06:19. Concept A, "The capstone", redrawn for the chapter's new version, "The Marriage in Flow", whose image is a house you own and keep up. Files: `runs/ch16/plate.svg`, render `runs/ch16/pdf/plate.png` (looked at). Draft 1 notes are kept below the line.
+
+## What it shows
+
+Two houses, mirrored about x=320, joined by an arrow.
+
+- **Left:** two walls, CALM and STRENGTH, labelled separately, standing on one floor line with a quiet door between them. The roof is an empty dashed outline. Above it: "calm alone can go cold". Below the labels: "structurally sound".
+- **Right:** the same walls, door and floor, with the roof laid on solid black, WARMTH reversed out of it. Above it: "kept up every day". Below the labels: "a home".
+- Closing line under a quiet rule: "At peace, at its best, and flourishing".
+
+**The carrier:** the roof. It is the only difference between the two drawings, so warmth is what turns a sound house into a home; the roof sitting on both walls keeps draft 1's "two qualities become one structure". This is the chapter's own sentence drawn: "a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home."
+
+## What changed from draft 1
+
+1. Title: new Mechanism line, word for word, on two lines (see the FAIL below).
+2. Posts became walls of a house: a shared floor line and a door between the walls on both sides; the flat stone became a pitched roof, so the right-hand drawing reads as a house rather than a gate.
+3. **The left walls no longer lean.** The new Mechanism says calm and strength make the marriage *sound*; leaning walls would contradict that. The "incomplete" signal is carried by the missing roof and the gloss "calm alone can go cold" instead. Flagged for the author since the brief said to keep the leaning argument.
+4. Gloss "calm can go cold" became "calm alone can go cold" (the Panel's suggestion; grounded in the distillation: "Calm alone can go cold."). It now sits above the empty roof, mirroring "kept up every day" above the warm one.
+5. "on ordinary days, / without being asked" replaced by "kept up every day" (Mechanism words): the new chapter's emphasis is upkeep.
+6. "one marriage" replaced by "a home"; "structurally sound" added under the left house. The old Conversation sentence that held "one marriage" no longer exists.
+7. The old alignment WARN on "calm can go cold" at x=180 is gone: the two left glosses now share that column, as the right glosses share x=460.
+
+## Every phrase of copy and its source
+
+| Copy | Role | Source |
+|---|---|---|
+| Calm and strength make the marriage sound; / warmth, kept up every day, makes it a home and puts it in flow | title (two lines) + aria-label (one) | distillation Mechanism, word for word |
+| Warmth is what the calm and the strength were for | subtitle | distillation Lesson and summary; refined.md: "The warmth you bring her is what the calm and the strength were for." |
+| CALM, STRENGTH (twice each) | labels | Mechanism |
+| WARMTH | label (in the roof) | Mechanism |
+| calm alone can go cold | gloss, empty roof | distillation summary: "Calm alone can go cold."; refined.md: "calm can go cold" |
+| kept up every day | gloss, roof | Mechanism: "warmth, kept up every day" |
+| structurally sound | gloss, left house | refined.md: "a house can be structurally sound and still feel cold" |
+| a home | gloss, right house | Mechanism; refined.md: "The warmth makes it a home." |
+| At peace, at its best, and flourishing | closing line | refined.md: "Keep it at peace, at its best, and flourishing"; Conversation sentence |
+
+No Stoic term printed. No number, no quotation, no em-dash. The image is the chapter's declared v3 metaphor_family (house, home, upkeep, roof, wall, capstone), so draft 1's capstone-versus-joint-account ruling is moot.
+
+## Format checklist
+
+- [x] Centred text on the axis or a shared column: title lines, subtitle, closing on x=320; left glosses share x=180; right glosses and WARMTH share x=460. **WARN remains:** CALM (134, 414) and STRENGTH (226, 506) sit on their walls' axes, mirrored across the plate, with no other text on their columns.
+- [x] Drawing blocks mirrored about x=320 (180/460); arrow on the axis.
+- [x] Canvas 640 wide (640x470).
+- [x] Caption count within the cap: 6 italic lines against 7.
+- [x] No bare `text-anchor` attribute.
+
+## plate_check.py, verbatim (after render)
+
+```
+runs/ch16/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x470
+  [FAIL] title       title 'Calm and strength make the marriage sound;' / aria-label 'Calm and strength make the marriage sound; warmth, kept up every day, makes it a home and puts it in flow' vs Mechanism 'Calm and strength make the marriage sound; warmth, kept up every day, makes it a home and puts it in flow' (differs; inbox #065)
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    6 italic lines against a cap of 7 (5 labels + subtitle + closing line)
+  [WARN] alignment   centred text on no shared axis: 'CALM' x=134, 'STRENGTH' x=226, 'CALM' x=414, 'STRENGTH' x=506
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```
+
+**The title FAIL is unfixable from the plate.** The new Mechanism is 107 characters. On one line it measures 882 units at 14px, 693 at 11px (Ch15's precedent size), and only fits the 560-unit live area below about 9px, which is illegible on a phone. Tried on one line at 13px: `geometry` FAIL (MARGIN -90..730) and `ink` FAIL (left=643, right=693). On two lines every other row passes, but `plate_check.py` compares only the *first* `ttl` element to the Mechanism. The words on the plate and the aria-label match the Mechanism exactly. Repair options for the Publisher/author: (a) the checker joins consecutive `ttl` lines before comparing (production tooling, not the Designer's to change, and not the desk being graded); or (b) a shorter Mechanism line from the Line Editor.
+
+## Style matched
+
+Ch15 and draft 1's class set (`ttl`, `sub`, `lbl`, `lblw`, `cap`, `capq`), Georgia with Times New Roman / serif fallback, one ink `#1a1a1a` via `currentColor` with opacity for lighter tones, white ground, three line weights (1.4 quiet: dashed roof, doors, rule; 2 standard: walls, floor, arrow; 3.2 carrier: the roof), 640 wide, per the approved chapter plate style in `books/the-stoic-husband/design/plates/README.md`. Title set at 13px on two lines (draft 1 was 14px on one).
+
+## For the author to rule on
+
+- **Title FAIL** above: accept the two-line title with a checker repair, or ask for a shorter Mechanism.
+- **Leaning dropped** on the left walls, because the Mechanism calls calm and strength "sound". Say if he wants the lean back.
+- **Skeptic's misreading:** a reader may ask how a house with no roof is "structurally sound". The plate leans on the chapter's own claim; the dashed outline shows the roof's place as missing, not the walls as failing.
+- **Alignment WARN** on the wall labels, as in draft 1.
+
+---
+
 # Chapter 16 plate notes (draft 1)
 
 Designer (gw-designer), draft mode. Clock read 2026-11-05 07:21. Concept A, "The capstone", picked by the Reader Panel (`runs/ch16/plate-pick.md`). Files: `runs/ch16/plate.svg`, render `runs/ch16/pdf/plate.png` (looked at).

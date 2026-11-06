@@ -55,8 +55,8 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 2. **Reactive.** When you're both fed up and a sharp comment comes about the things that need doing, don't answer in the first second. Start helping first. Then give her a hug, tell her what you see her carrying, and ask what would make her day lighter.
 3. **Proactive.** Every day, ask yourself whether you were the best part of her day. Take over one chore that's usually hers, or give her time to talk about her day.
 
-## Chapter 16 — Warmth Is Strength
+## Chapter 16 — The Marriage in Flow
 
-1. **Proactive.** Every day, without being asked, do one small thing for your wife because you thought of her. Make the coffee, rub her back, or say good morning when you're away. Don't keep count of them.
+1. **Proactive.** Every day, without being asked, do one small thing for your wife because you thought of her. Make the coffee, rub her back, or say good morning when you're away.
 2. **Reactive.** When she's upset with you and you feel the urge to tell her what you can and can't control, keep that thought to yourself. Sit down next to her and ask what's going on.
 3. **Reactive.** When she starts talking, put your phone down. When you notice she's tired before she says so, take something off her plate.
