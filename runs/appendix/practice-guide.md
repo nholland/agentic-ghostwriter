@@ -57,6 +57,6 @@ there so you can see the balance at a glance. Neither kind outranks the other.
 
 ## Chapter 16 — The Marriage in Flow
 
-1. **Proactive.** Every day, without being asked, do one small thing for your wife because you thought of her. Make the coffee, rub her back, or say good morning when you're away.
-2. **Reactive.** When she's upset with you and you feel the urge to tell her what you can and can't control, keep that thought to yourself. Sit down next to her and ask what's going on.
-3. **Reactive.** When she starts talking, put your phone down. When you notice she's tired before she says so, take something off her plate.
+1. **Proactive.** Write down the dates that matter to her, like your anniversary and her special days, in your phone or on a calendar. Put them somewhere you'll see them in time to plan.
+2. **Proactive.** Every day, without being asked, do one small thing for your wife because you thought of her. Make the coffee, rub her back, or say good morning when you're away. Don't let it slip in the weeks when work, family, health or the kids are taking a lot out of your marriage.
+3. **Reactive.** When she's upset with you and you feel the urge to tell her what you can and can't control, keep that thought to yourself. Sit down next to her and ask what's going on.
