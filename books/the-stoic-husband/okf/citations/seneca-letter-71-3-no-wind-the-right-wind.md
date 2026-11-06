@@ -23,7 +23,7 @@ verification_note: 'Wording read at page-text in the Wikisource transcription (p
   the passage has wind and a harbour, not a storm, so his recollection must not be printed as a
   quotation. Only the author sets verified, against his own copy (CLAUDE.md Rule 3).'
 tags: [seneca, gummere, letters, aim, purpose, harbour]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: '2026-11-04T14:07:24Z'
 ---
 

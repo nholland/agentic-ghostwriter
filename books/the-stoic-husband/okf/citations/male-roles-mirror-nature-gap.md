@@ -21,7 +21,7 @@ verification_note: 'Nothing searched or read: the approved outline entry for Ch1
   nature claim, so research effort waits on whether it belongs anywhere. Status unverified: only
   the author sets verified (CLAUDE.md Rule 3).'
 tags: [gap, masculinity, nature, biology]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: '2026-11-04T14:07:24Z'
 ---
 

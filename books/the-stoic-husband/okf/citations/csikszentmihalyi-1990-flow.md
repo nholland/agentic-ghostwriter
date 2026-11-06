@@ -35,7 +35,7 @@ verification_note: 'Searched 2026-11-05 06:20-06:25. Seen ONLY as web-search sum
   and nothing was read on the page. No numbers (the "nine features", study results) may be printed;
   none were read. Only the author sets verified, against his own copy (CLAUDE.md Rule 3).'
 tags: [flow, csikszentmihalyi, optimal-experience, positive-psychology, capstone, sun]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: '2026-11-05T06:25:12Z'
 ---
 

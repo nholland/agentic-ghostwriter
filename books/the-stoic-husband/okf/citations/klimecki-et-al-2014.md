@@ -21,7 +21,7 @@ verification_note: 'SEARCH ONLY: located by a search summary; the source was not
   copy (CLAUDE.md Rule 3). Staged by gw-researcher 2026-10-23 15:10 UTC from the research
   file only; nothing re-read or re-transcribed at staging.'
 tags: [empathy, compassion, training, neuroscience]
-chapter_slugs: [be-patient-be-kind, warmth-is-strength]
+chapter_slugs: [be-patient-be-kind, the-marriage-in-flow]
 timestamp: '2026-10-23T15:10:31Z'
 ---
 

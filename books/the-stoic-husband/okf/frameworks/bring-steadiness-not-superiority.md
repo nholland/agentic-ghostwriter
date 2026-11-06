@@ -8,7 +8,7 @@ description: >
 provenance: 'Author notes (Musonius/marriage-under-strain framework) + author, Ch16 Round 1 (runs/ch16/interview.md), 2026-11-04; P1 accepted Round 3 ("The rest of the rulings look good")'
 ip: author-synthesis
 tags: [framework, musonius-rufus, mixed-marriage, detachment, armor]
-chapter_slugs: [stop-outsourcing-your-peace, stop-defending-yourself, warmth-is-strength]
+chapter_slugs: [stop-outsourcing-your-peace, stop-defending-yourself, the-marriage-in-flow]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

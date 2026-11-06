@@ -27,7 +27,7 @@ verification_note: 'Wording read at page-text in the archive.org OCR of the 1928
   Fact-Checker to consider raising to verifiable; only the author sets verified, against his
   own copy (CLAUDE.md Rule 3).'
 tags: [seneca, basore, de-ira, anger, self-command, madness]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: '2026-11-04T14:07:24Z'
 ---
 

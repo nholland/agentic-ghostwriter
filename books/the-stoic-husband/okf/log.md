@@ -1051,3 +1051,5 @@ The constitutional outline and framework map now use the same direction.
 - 2026-11-05 06:45 UTC — Chapter 16 v2 research (gw-researcher; runs/ch16/research.md). Added citations/csikszentmihalyi-1990-flow.md (unverified, search summaries only) and indexed it; Ch16 v2 note on diogenes-laertius-7-87-90. Proposal P1 open in runs/ch16/proposed-concepts.md.
 
 - 2026-11-05 06:50 UTC — Chapter 16 Round 7: P1 accepted; frameworks/the-bank-of-credits.md gains 'How the joint account works' (four rules). runs/ch16/proposed-concepts.md answered.
+
+- 2026-11-06 06:20 UTC — Chapter 16 retitled 'The Marriage in Flow' and its image changed from the bank/joint account to a house you own and keep up, on the author's word (Round 9, 'Let's do it'). Chapter slug warmth-is-strength renamed to the-marriage-in-flow in 37 OKF files (40 occurrences, asserted). frameworks/the-bank-of-credits.md records Rounds 8-9.

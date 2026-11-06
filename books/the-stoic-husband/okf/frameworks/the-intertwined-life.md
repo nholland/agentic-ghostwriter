@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Ch 2 tone feedback, 2026-06-02); direct author chronology correction, 2026-09-27
 ip: author
 tags: [framework, conclusion, personal-frame, connection]
-chapter_slugs: [stop-outsourcing-your-peace, warmth-is-strength, conclusion]
+chapter_slugs: [stop-outsourcing-your-peace, the-marriage-in-flow, conclusion]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

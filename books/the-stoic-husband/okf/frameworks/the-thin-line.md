@@ -7,7 +7,7 @@ description: >
 provenance: "Author, Chapter 16 interview Round 1 (runs/ch16/interview.md), 2026-11-04. Pushback: one round (Round 2): 'I think on the pushback it is men's fear.' The Round 1 wording ('seen as weak and whiny by women') is superseded by that ruling. Proposed by gw-researcher (P3); accepted Round 3."
 ip: author
 tags: [framework, masculinity, vulnerability, fear]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-04T15:40:00Z
 ---
 

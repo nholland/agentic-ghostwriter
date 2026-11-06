@@ -8,7 +8,7 @@ description: >
 provenance: "Author, Chapter 16 interview Round 6 (runs/ch16/interview.md), 2026-11-05. 'Flow' is his borrowing from business usage; its source (Csikszentmihalyi) is not yet located. Applying flow and the three Stoic words to a marriage is his step. Pushback rounds: none."
 ip: author-synthesis
 tags: [framework, flow, capstone, sun, equanimity, arete, eudaimonia, joint-unit]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-05T05:45:00Z
 ---
 

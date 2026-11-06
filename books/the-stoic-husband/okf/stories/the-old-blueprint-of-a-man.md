@@ -9,7 +9,7 @@ disclosure: identified
 provenance: "Author, Chapter 16 interview Round 1 (runs/ch16/interview.md), 2026-11-04. His own account, a pattern across the men in his family, not a dated scene. Extends the Ch1 lineage (grandfather, father) with what they did with feelings. Pushback rounds: none yet."
 ip: author
 tags: [story, masculinity, family, anger, silence, warmth]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-04T04:50:00Z
 ---
 

@@ -26,7 +26,7 @@ verification_note: 'Covey: the 1989 Simon and Schuster first edition exists (arc
   way. Copyright works: name, do not quote. Only the author sets verified, against his own copy
   (CLAUDE.md Rule 3).'
 tags: [emotional-bank-account, covey, gottman, attribution, deposits]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: '2026-11-04T14:07:24Z'
 ---
 

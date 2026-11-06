@@ -8,7 +8,7 @@ disclosure: identified
 provenance: "Author, Chapter 16 interview Round 2a (runs/ch16/interview.md), 2026-11-04. Recalled conversation with his grandfather; no date given. Pushback rounds: none."
 ip: author
 tags: [story, grandfather, priority, children, investment]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-04T13:30:00Z
 ---
 

@@ -8,7 +8,7 @@ description: >
 provenance: "Author interview, Chapter 15 (runs/ch15/interview.md), 2026-10-23 (Rounds 3, 4)."
 ip: author
 tags: [framework, kindness, warmth, sun, compassion]
-chapter_slugs: [be-patient-be-kind, warmth-is-strength, the-marriage-you-build-every-day]
+chapter_slugs: [be-patient-be-kind, the-marriage-in-flow, the-marriage-you-build-every-day]
 timestamp: 2026-10-23T14:45:00Z
 ---
 
@@ -48,7 +48,7 @@ plate. I'm doing something that shows that I want to make her life better."
 - **Chapter 12** (romance-is-a-discipline) already treats the love languages as "a popular
   list rather than a science"; do not rest this on them. At most, kindness is the attitude
   any gift carries.
-- **Chapter 16** (warmth-is-strength): where compassion vs. empathy is currently tagged.
+- **Chapter 16** (the-marriage-in-flow): where compassion vs. empathy is currently tagged.
 
 # Related
 

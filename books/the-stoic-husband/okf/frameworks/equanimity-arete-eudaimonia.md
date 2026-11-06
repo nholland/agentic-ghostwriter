@@ -7,7 +7,7 @@ description: >
 provenance: "Author, Chapter 16 interview Rounds 1-2 (runs/ch16/interview.md), 2026-11-04. Round 1 named equanimity and arete and could not recall the third; Round 2 confirmed eudaimonia. Definitions are his; classical definitions to be located by the Researcher."
 ip: author-synthesis
 tags: [framework, equanimity, arete, eudaimonia, sun, relationship, flourishing]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-04T13:40:00Z
 ---
 

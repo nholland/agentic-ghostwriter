@@ -6,7 +6,7 @@ provenance: Author, Chapter 16 interview Rounds 0-1 (runs/ch16/interview.md), 20
 ip: author
 topic: chapter direction
 tags: [masculinity, warmth, compassion, preferred-indifferents, arete, eudaimonia, equanimity]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-04T04:50:00Z
 ---
 

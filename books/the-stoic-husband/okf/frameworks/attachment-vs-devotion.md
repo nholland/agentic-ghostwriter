@@ -7,7 +7,7 @@ description: >
 provenance: 'Author notes (Stoic Romance framework) + author, Ch16 Rounds 1-2 (runs/ch16/interview.md), 2026-11-04; P4 accepted Round 3'
 ip: author
 tags: [framework, stoic-romance, preferred-indifferents]
-chapter_slugs: [stop-outsourcing-your-peace, the-sexless-marriage, warmth-is-strength]
+chapter_slugs: [stop-outsourcing-your-peace, the-sexless-marriage, the-marriage-in-flow]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

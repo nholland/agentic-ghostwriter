@@ -10,7 +10,7 @@ disclosure: identified
 provenance: "Author, Chapter 16 interview Round 1 (runs/ch16/interview.md), 2026-11-04. The same period Ch1 tells (chapters/ch01/refined.md, the internal 'I can only control me' opt-out); new here: he said it aloud, to her, and the added clause. Pushback rounds: none."
 ip: author
 tags: [story, dichotomy-of-control, detachment, warmth, misuse-of-stoicism]
-chapter_slugs: [the-three-second-window, warmth-is-strength]
+chapter_slugs: [the-three-second-window, the-marriage-in-flow]
 timestamp: 2026-11-04T04:50:00Z
 ---
 

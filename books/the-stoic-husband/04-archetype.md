@@ -30,7 +30,7 @@ Five sequential parts, each building a layer of who the reader is becoming, from
   *Problems: imbalance, unequal effort, emotional labor, financial stress, martyrdom, passive endurance, lack of boundaries, corrosive outside influence*
 
 - **Part III — The Warm Sun** *(active love)*
-  Romance Is a Discipline / Pursue Her After You Have Her / She Is Enough / Be Patient, Be Kind / Warmth Is Strength
+  Romance Is a Discipline / Pursue Her After You Have Her / She Is Enough / Be Patient, Be Kind / The Marriage in Flow
   *Problems: loss of romance, sexlessness, rejection, boredom, disconnection, roommate marriage, lack of affection*
 
 - **Part IV — The Desert** *(honest trouble)*

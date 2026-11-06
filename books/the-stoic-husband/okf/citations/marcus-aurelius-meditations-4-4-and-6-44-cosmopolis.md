@@ -22,7 +22,7 @@ verification_note: 'Wording read at page-text in Long (Gutenberg #15877), 2026-1
   the word in Marcus''s mouth. Only the author sets verified, against his own copy (CLAUDE.md
   Rule 3).'
 tags: [marcus-aurelius, long, cosmopolis, justice, citizenship, social-nature]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: '2026-11-04T14:07:24Z'
 ---
 

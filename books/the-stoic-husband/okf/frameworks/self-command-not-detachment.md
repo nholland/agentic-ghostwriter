@@ -8,7 +8,7 @@ description: >
 provenance: "Author, Chapter 16 interview Rounds 1-3 (runs/ch16/interview.md), 2026-11-04. Proposed by gw-researcher 2026-11-04 14:20 (P2); accepted by the author Round 3 ('The rest of the rulings look good'). Pushback rounds: none on this framing."
 ip: author-synthesis
 tags: [framework, self-command, detachment, anger, armor, warmth]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-04T15:40:00Z
 ---
 

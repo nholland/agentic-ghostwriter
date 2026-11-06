@@ -8,7 +8,7 @@ description: >
 provenance: Author notes (Marcus Aurelius framework)
 ip: author-synthesis
 tags: [framework, marcus-aurelius, introduction]
-chapter_slugs: [introduction, anger-is-failed-leadership, warmth-is-strength]
+chapter_slugs: [introduction, anger-is-failed-leadership, the-marriage-in-flow]
 timestamp: 2026-06-01T00:00:00Z
 ---
 

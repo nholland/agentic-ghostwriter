@@ -9,7 +9,7 @@ description: >
 provenance: "Author, Chapter 16 interview Round 2a (runs/ch16/interview.md), 2026-11-04, unprompted. What he teaches his sons. Pushback rounds: one (Ch7 scorekeeping tension; one-image rule), answered in Round 2: the bank never owes you; plant out."
 ip: author-synthesis
 tags: [framework, reciprocation, investment, deposits, warmth, priority]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: 2026-11-04T13:30:00Z
 ---
 
@@ -64,3 +64,7 @@ Joint account accepted 2026-11-05 ("Yes" to runs/ch16/outline-proposal-v2.md): o
    credits with your wife because she is your number one" (Round 2a) follows his list: "with your
    kids, with your parents, with your siblings, with your work relationships, and with your wife". "Most"
    means more than with anyone else in his life, never more than she has.
+
+# Round 8-9: the house replaces the bank (author, 2026-11-05/06)
+
+"I don't have competition with myself and my own bank account. ... When you talk about the transactions and the ledger and keeping count in the past, it's a competitive way of saying who owes who. It's a debt system. I am not talking about a debt system. I am talking about an investment system". He offered: "investing in an asset you own, like a house or a property. The deal is you take a little bit out every day that you live there and so you have to periodically make sure you are maintaining and even upgrading the space that you live in." "There's no debt. It's only upside or zero." Ruled 2026-11-06 ("Let's do it"): the chapter uses the house; bank, account, deposit, credit and withdrawal words leave the prose. The joint-account rules above are superseded for prose; the investment idea stands.

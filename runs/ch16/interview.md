@@ -345,3 +345,9 @@ Publisher's finding for him: the Introduction's Sun section opens "A house can b
 Author, verbatim: "One other item, we made the oak about strength, so we need a different title."
 
 Ruling: the title "Warmth Is Strength" goes (strength is the Oak's word). New title pending his pick.
+
+## Round 9 (2026-11-06 06:10 UTC)
+
+Author, verbatim, across three messages: "Marriage in Flow grows on me ... Copyright issues? If so, maybe \"The Warmth of Marriage\" ?" then "Let's do it. Give me the updated chapter, with the distillation and the plate included. And I'll review for the audiobook"
+
+Ruling, read against the Publisher's standing recommendation ("The Marriage in Flow, go with the house"): title becomes "The Marriage in Flow"; the bank/account image is replaced by a house the two of you own and keep up (his Round 8 words: "investing in an asset you own, like a house or a property. The deal is you take a little bit out every day that you live there and so you have to periodically make sure you are maintaining and even upgrading the space that you live in"; "There's no debt. It's only upside or zero"); the Introduction's "A house can be structurally sound and still feel cold" is the callback; the ah-ha's "tend" changes to the house wording; "stone" stays; the close drops "credits". He reviews the result for the audiobook.

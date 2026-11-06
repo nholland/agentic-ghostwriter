@@ -21,7 +21,7 @@ verification_note: 'Read at page-text in the archive.org OCR of the 1925 Hicks s
   paraphrase: the brief recommends plain-English glosses only. If a desk wants to quote Hicks,
   that needs a house-edition ruling first. Only the author sets verified (CLAUDE.md Rule 3).'
 tags: [diogenes-laertius, hicks, eudaimonia, arete, virtue, happiness, zeno]
-chapter_slugs: [warmth-is-strength]
+chapter_slugs: [the-marriage-in-flow]
 timestamp: '2026-11-04T14:07:24Z'
 ---
 
