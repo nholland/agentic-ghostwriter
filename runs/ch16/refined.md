@@ -12,7 +12,7 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 **The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about what they felt and only spoke up to make a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.
 
-Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. Once, I put my cold calm into words and said them to my wife.
+Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. One time, I put that cold calm into words and said them to my wife.
 
 I'd just gotten into Stoicism. Not long after, we had an argument. She was angry at me, and I sat there quiet. When she was done, I looked at her and said, "I can't control you. I can only control me and I don't see things the way you do."
 
@@ -48,11 +48,11 @@ I teach my boys that every kind of relationship, not just marriage, is one you i
 
 Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. I picture that life as a house the two of you own. You live in it every day, and just living there wears on it a little. So you keep it up, and now and then you make it better than it was.
 
-Most of that care is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Your small things will look like your marriage. You know what she'd notice. Each one takes a minute or two. What makes it matter is that you did it on an ordinary day, without being asked, because she was worth the minute.
+Most of that care is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Your small things will be different from mine. They'll fit your marriage. You know what she'd notice. Each one takes a minute or two. What makes it matter is that you did it on an ordinary day, without being asked, because she was worth the minute.
 
 She looks after the place too, in her own ways. When she feels your attention, it's easier for her to give hers. When you feel hers, it's easier for you. Effort works the same way. Two people who keep putting in make it lighter for each other to keep going.
 
-You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. As my grandfather told me, in Chapter 12: "Put your wife first."
+You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. As I said in Chapter 12, my grandfather told me: "Put your wife first."
 
 Nobody owes anybody here. She doesn't owe you for the coffee, and you don't owe her for what she does for you. The way I see it, there's no debt. Everything you put in is upside or zero. Every good morning either keeps your life together as good as it was or makes it better. None of it is ever wasted.
 
@@ -96,7 +96,7 @@ Put the most into your marriage, because she is your number one.
 
 ### Publisher, after the v3 cold read (2026-11-06)
 
-Applied cold-read findings 1-10 (7 as 'None of it is ever wasted.'; 3 by cutting the pointer sentence). Mechanism line shortened so the plate title fits: 'Calm and strength make the marriage sound; warmth makes it a home'.
+Applied cold-read findings 1-10 (7 as 'None of it is ever wasted.'; 3 by cutting the pointer sentence). Final cold read (3 audiobook findings) applied. Mechanism line shortened so the plate title fits: 'Calm and strength make the marriage sound; warmth makes it a home'.
 
 Line Editor desk (gw-lineeditor), cold, v3 (the house). Clock read 2026-11-06 06:11. Commission: the Publisher's Round 9 brief. Read: the new Chapter 16 entry in `03-outline.md` (governs), `runs/ch16/interview.md` Rounds 6 to 9, `01-voice.md`, the Introduction's line 47, `runs/ch16/coldread-final.md`, and the Round 8-9 section of `okf/frameworks/the-bank-of-credits.md`. Nothing in `books/` was written. The v2 Editor's Notes (three rounds on the bank text) are in git at commit e6a507e and are not repeated here, because the text they describe is gone.
 
