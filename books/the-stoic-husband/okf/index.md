@@ -28,6 +28,7 @@ See [README.md](/README.md) for the original pilot assessment and integration
 notes.
 
 ## Frameworks
+- [Write Down the Dates That Matter to Her](/frameworks/write-down-the-dates-that-matter-to-her.md) — investing is showing up where she knows you're invested; have a system for the dates (the author, Ch16 Round 10)
 - [The Marriage in Flow](/frameworks/marriage-in-flow.md) — calm, strong and loving culminate in the marriage in flow: equanimity, arete, eudaimonia (the author's Sun-arc capstone, Ch16 Round 6)
 - [Self-Command, Not Detachment](/frameworks/self-command-not-detachment.md) — anger as temporary madness gave him a new picture of strength; overused, calm became distance (Ch16, author-accepted P2)
 - [The Thin Line](/frameworks/the-thin-line.md) — men's fear between vulnerable and detached (Ch16, author-accepted P3)

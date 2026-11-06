@@ -351,3 +351,32 @@ Ruling: the title "Warmth Is Strength" goes (strength is the Oak's word). New ti
 Author, verbatim, across three messages: "Marriage in Flow grows on me ... Copyright issues? If so, maybe \"The Warmth of Marriage\" ?" then "Let's do it. Give me the updated chapter, with the distillation and the plate included. And I'll review for the audiobook"
 
 Ruling, read against the Publisher's standing recommendation ("The Marriage in Flow, go with the house"): title becomes "The Marriage in Flow"; the bank/account image is replaced by a house the two of you own and keep up (his Round 8 words: "investing in an asset you own, like a house or a property. The deal is you take a little bit out every day that you live there and so you have to periodically make sure you are maintaining and even upgrading the space that you live in"; "There's no debt. It's only upside or zero"); the Introduction's "A house can be structurally sound and still feel cold" is the callback; the ah-ha's "tend" changes to the house wording; "stone" stays; the close drops "credits". He reviews the result for the audiobook.
+
+## Round 10: the author's read of the v3 reading copy (received 2026-11-06 15:19 UTC)
+
+Author, verbatim:
+
+> I just went through the chapter and have a few thoughts.
+>
+> First I think that we overly index on trying to make sure it's not a transaction. Saying certain phrases like "nobody is owed anything" is just overkill. I don't think you need to do that. I think we really need to lean more into the concept that it's an investment.
+>
+> Effectively I do think we need to address at a high level that there will be inevitable costs in a marriage: things where the marriage takes a cost. It's not about the transaction layer between the two people. It's more like having to prioritize somebody else's job. It's more like having to deal with each other's families. It's more like stressful situations with health or children. Those all come at a cost to the marriage.
+>
+> It's not a ledger where things are owed between each other and I think you need to get that in your head because you keep trying to go back to it. It's just that the cost comes.
+>
+> An example would be if you're using the house analogy, there will be inevitable storms. There will be inevitable wear and tear on the house just by living in it and that actually does damage. It creates costs. That's why I use the debits and credits type thing: it will be withdrawals from the account and therefore you have to keep investing in it.
+>
+> I need a way to pull all this together because I do like the chapter. If we're going to use the house, what I would just say is: inclement weather, house parties, inconsiderate guests. All of these things are metaphors for the fact that the house will take damage and wear and tear so you have to keep investing in it. That is the whole point. When the marriage is in flow your house is warm and in order so I like that.
+>
+> Another lesson that I want to put in there is that I think we over-index on little acts of service. I think that the other things that you are investing in there are like remembering dates. It might be hard for men to remember anniversaries. It might be hard for men to remember special things but in today's technology world what you do need to do is just have a system for putting it down somewhere. Just jot down dates that are important to her.
+>
+> The reality is that if you haven't done that then it shows that you haven't really thought about your investing strategy. That's why I would say that is an area where it's not just acts of service. It's about showing, it's like places where you show up and she knows that you are investing in the relationship. You are with her.
+>
+> There are multiple times where the wife wants to feel like she's a priority and it's not a controlling factor. It's just that she wants to know that you are invested in the relationship. It's not that she's a passenger or that it's just two separate people cohabitating. That's been a key thing I've also heard in some of the relationships and we might want to flag that for The Desert and The Orchard. People really can't stand, later on in their marriages, where they just simply live like roommates.
+
+### Rulings and what each changed (Rule 10)
+- Cut the anti-transaction defenses ("nobody owes anybody", "no debt", "upside or zero" as a defense). Lean into investment.
+- New: the inevitable costs to the marriage (prioritizing someone's job, each other's families, health, children), not a ledger between the two; in the house: wear and tear from living there, inclement weather, house parties, inconsiderate guests; so you keep investing. In flow, the house is warm and in order.
+- New: beyond small acts of service, investing means showing up where she knows you're invested: remember the dates that matter to her, with a system (write them down); not having one shows you haven't thought about your investing strategy.
+- She wants to know she's a priority and that you're invested; not a passenger, not two people cohabiting. Roommates flagged for the Desert (Ch18 Living Separate Lives) and Orchard.
+- Publisher note: he said "storms"; the Introduction gives the storm to the Oak, so the prose uses his other words ("inclement weather"). For him to overrule.
