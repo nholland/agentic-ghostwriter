@@ -4,5 +4,11 @@
     "turn_id": null,
     "prompt": "/gw",
     "recorded": "2026-11-07T14:32:43.062456+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Why would a new session start so far behind Main?",
+    "recorded": "2026-11-07T14:34:07.236466+00:00"
   }
 ]
