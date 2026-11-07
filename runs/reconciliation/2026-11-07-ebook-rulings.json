@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-07T15:04:59.604708+00:00",
+  "subjects": [
+    "note:ebook-rulings"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-11-07-ebook-rulings.md"
+  ],
+  "authority": "The author, 2026-11-07, in session",
+  "reason": "Author name, title form, cover deferral, plate-type ruling",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-11-07-ebook-rulings.md": "c6ac9a9c35f15329c90fba4d7c48408470491dbf335925e500c51a34d2a6cd6e",
+    "books/the-stoic-husband/okf/index.md": "452a962afb3be09f08c11d7150131bbd1351d7fe3dbb4a6910b36bc82ec4df52",
+    "books/the-stoic-husband/okf/log.md": "895adba4205f321a3da69c6e3d94d6386d2235b2860d462fae1403a5b395eea6"
+  }
+}
