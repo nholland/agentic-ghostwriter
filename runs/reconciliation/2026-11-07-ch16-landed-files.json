@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-07T14:27:56.519442+00:00",
+  "subjects": [
+    "chapter:ch16"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/marriage-in-flow.md"
+  ],
+  "authority": "The author, 2026-11-07: '16 is approved'",
+  "reason": "Landed book files for Ch16; knowledge already in the OKF concepts",
+  "files": {
+    "books/the-stoic-husband/appendix/practice-guide.md": "624bd84b5f3e160532c7d9d28bafe696fd11255411514c8eaeeaa4cd444c3ac0",
+    "books/the-stoic-husband/chapters/ch16/distillation.md": "d6c57650911403e48d36d4178782616fbf88b16aecec21afab208d7a8ed86d2e",
+    "books/the-stoic-husband/chapters/ch16/interview.md": "6acfb4a955e6d1b6d6e4f1e3c895e3ded02c1dfb418e61597d70c545ea50e286",
+    "books/the-stoic-husband/chapters/ch16/refined.md": "1ae3eabd17ab2e752a22143b5ddcd07f822e7e69ce37bb2752dfb0c254dbe3b3",
+    "books/the-stoic-husband/chapters/ch16/research.md": "728d7c715ba90310be48e1975ecb0307de96dea7bc7b7098642251168b92556d",
+    "books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg": "efc33c3ebf239a1601de5263a4dc1cf3e31976d1bb62be0e5283e558e597a84e"
+  }
+}

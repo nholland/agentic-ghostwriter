@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-11-07T14:27:39.834103+00:00",
+  "subjects": [
+    "chapter:ch16"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/marriage-in-flow.md",
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md",
+    "books/the-stoic-husband/okf/frameworks/write-down-the-dates-that-matter-to-her.md",
+    "books/the-stoic-husband/okf/frameworks/equanimity-arete-eudaimonia.md",
+    "books/the-stoic-husband/okf/frameworks/self-command-not-detachment.md",
+    "books/the-stoic-husband/okf/frameworks/there-are-two-of-you.md",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md"
+  ],
+  "authority": "The author, 2026-11-07: '16 is approved'",
+  "reason": "The chapter's knowledge is already in the cited concepts (Rounds 0-11); landing adds no new book knowledge",
+  "files": {
+    "runs/ch16/refined.md": "9ca9a838d8a47c2d533e94b3ecb08237cfb7c7dc520dcd577df0dc1677000832",
+    "runs/ch16/distillation.md": "d6c57650911403e48d36d4178782616fbf88b16aecec21afab208d7a8ed86d2e",
+    "runs/ch16/verdict.md": "d35e14b9835ee37e6c8f5c1cf6ec4358ff11030dbde57124682091c34e4c2783",
+    "runs/ch16/review.json": "e813e90e8d4b68af77004a09f8782b29db9c432244375f189b79b7506f96df87"
+  }
+}
