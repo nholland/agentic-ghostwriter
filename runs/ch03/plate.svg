@@ -1,40 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" style="color:#1a1a1a" role="img" aria-label="The Closed Door">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 496" style="color:#1a1a1a" role="img" aria-label="The Closed Door">
   <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
-    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 12px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
-    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .ttl{font:600 22px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 17px Georgia,serif;letter-spacing:.12em;text-anchor:start;opacity:.86}
+    .cap{font:italic 18px Georgia,serif;opacity:.66;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
 
-  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="496" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE CLOSED DOOR</text>
-    <text class="sub" x="320" y="70">Defend yourself enough times, and she stops bringing you the truth.</text>
+    <text class="ttl" x="320" y="44">THE CLOSED DOOR</text>
+    <text class="sub" x="320" y="80">Defend yourself enough times,</text>
+    <text class="sub" x="320" y="104">and she stops bringing you the truth.</text>
   </g>
 
-  <!-- the same doorway four times, closing from the right by degrees, until it is shut -->
+  <!-- the same doorway four times, closing from the right by degrees, until it is shut.
+       2026-11-07: labels moved above their bars so they can be set at phone size. -->
   <g stroke="currentColor" stroke-width="1.2">
-    <rect x="248" y="118" width="332" height="30" fill="none" opacity=".5"/>
-    <rect x="248" y="162" width="332" height="30" fill="none" opacity=".5"/>
-    <rect x="248" y="206" width="332" height="30" fill="none" opacity=".5"/>
-    <rect x="248" y="250" width="332" height="30" fill="none" opacity=".5"/>
-    <rect x="469" y="162" width="111" height="30" fill="currentColor" stroke="none" opacity=".85"/>
-    <rect x="359" y="206" width="221" height="30" fill="currentColor" stroke="none" opacity=".85"/>
-    <rect x="248" y="250" width="332" height="30" fill="currentColor" stroke="none" opacity=".85"/>
+    <rect x="88" y="158" width="464" height="30" fill="none" opacity=".5"/>
+    <rect x="88" y="228" width="464" height="30" fill="none" opacity=".5"/>
+    <rect x="88" y="298" width="464" height="30" fill="none" opacity=".5"/>
+    <rect x="88" y="368" width="464" height="30" fill="none" opacity=".5"/>
+    <rect x="397" y="228" width="155" height="30" fill="currentColor" stroke="none" opacity=".85"/>
+    <rect x="243" y="298" width="309" height="30" fill="currentColor" stroke="none" opacity=".85"/>
+    <rect x="88" y="368" width="464" height="30" fill="currentColor" stroke="none" opacity=".85"/>
   </g>
 
   <g fill="currentColor">
-    <text class="lbl" x="228" y="138">SHE BRINGS SOMETHING</text>
-    <text class="lbl" x="228" y="182">YOU DEFEND</text>
-    <text class="lbl" x="228" y="226">SHE UPDATES</text>
-    <text class="lbl" x="228" y="270">SHE STOPS</text>
+    <text class="lbl" x="88" y="150">SHE BRINGS SOMETHING</text>
+    <text class="lbl" x="88" y="220">YOU DEFEND</text>
+    <text class="lbl" x="88" y="290">SHE UPDATES</text>
+    <text class="lbl" x="88" y="360">SHE STOPS</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 308h552"/></g>
+  <g class="rule" fill="none"><path d="M44 430h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="336">She's been keeping track longer than you know.</text>
+    <text class="cap" x="320" y="466">She's been keeping track longer than you know.</text>
   </g>
 </svg>

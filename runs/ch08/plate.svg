@@ -4,28 +4,30 @@
      landed and nothing counted it, dark = it was named as it landed. On the
      left, eleven faint weights nobody counted and one dark one, the only one
      you noticed, and the beam has already gone over. On the right every weight
-     is named as it arrives, so none of them pile and the beam holds level. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 352" style="color:#1a1a1a" role="img" aria-label="The Tipping Scale">
+     is named as it arrives, so none of them pile and the beam holds level.
+     2026-11-07: type re-set for phone width (author ruling "1. Enlarge");
+     words and drawing unchanged. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 366" style="color:#1a1a1a" role="img" aria-label="The Tipping Scale">
   <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
-    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
-    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .ttl{font:600 22px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 17px Georgia,serif;letter-spacing:.08em;text-anchor:start}
+    .cap{font:italic 18px Georgia,serif;opacity:.66;text-anchor:middle}
     .ln{stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
     .fall{stroke:currentColor;stroke-width:1.1;fill:none;stroke-dasharray:3 5;opacity:.2}
     .last{stroke:currentColor;stroke-width:1.3;fill:none;opacity:.7;stroke-dasharray:3 5}
   </style>
 
-  <rect x="0" y="0" width="640" height="352" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="366" fill="#ffffff"/>
 
   <g fill="currentColor">
     <text class="ttl" x="320" y="44">THE TIPPING SCALE</text>
-    <text class="sub" x="320" y="70">Unfairness rarely arrives as one moment.</text>
+    <text class="sub" x="320" y="78">Unfairness rarely arrives as one moment.</text>
   </g>
 
   <g fill="currentColor">
-    <text class="lbl" x="44" y="112">UNCOUNTED</text>
-    <text class="lbl" x="348" y="112">NAMED WHEN IT LANDS</text>
+    <text class="lbl" x="44" y="122">UNCOUNTED</text>
+    <text class="lbl" x="340" y="122">NAMED WHEN IT LANDS</text>
   </g>
 
   <!-- LEFT: the same six small things arrive, and five of them register on
@@ -100,6 +102,6 @@
   </g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="330">The last pebble is rarely the whole weight.</text>
+    <text class="cap" x="320" y="340">The last pebble is rarely the whole weight.</text>
   </g>
 </svg>

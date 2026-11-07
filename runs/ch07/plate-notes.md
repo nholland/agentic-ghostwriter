@@ -289,3 +289,34 @@ strokes rather than as texture at phone width. No collisions, no clipping.
 2. **Ch6 and Ch7 as two accounting graphics.** The reviewer's real worry. Fixing
    it means changing one of the two plates' objects, which this round forbids.
    That is his call, not mine.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: The two pages, same size as each other, now stack (YOUR PAGE above HER PAGE, each 544 wide) instead of sitting side by side: at 18px 'a ledger you can't fully read' does not fit a 240-wide page, and wrapping it would exceed the caption cap (4 of 4). The tick field moved down whole with a translate. Canvas 424 -> 630 tall.
+
+Rendered to runs/ch07/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch07/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x630
+  [ ok ] title       title 'THE PRIVATE TALLY' / aria-label 'The Private Tally' vs Mechanism 'The Private Tally'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 5 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

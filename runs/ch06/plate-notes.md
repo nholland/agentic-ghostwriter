@@ -378,3 +378,34 @@ which is what makes the frame read as a limit of view rather than as a highlight
 
 **For the author.** Nothing new. Two standing items: the second caption line,
 above, and the retitle.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Subtitle wrapped onto two lines. Title at 20px rather than 22 because the spaced capitals fill the width. Canvas 338 -> 366 tall.
+
+Rendered to runs/ch06/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch06/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x366
+  [ ok ] title       title 'THE TALLY YOU DON’T READ ALOUD' / aria-label "The Tally You Don't Read Aloud" vs Mechanism "The Tally You Don't Read Aloud"
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   5 centred texts on the axis or a shared column; 2 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

@@ -467,3 +467,34 @@ The author replied “Approved” after viewing the current two-scale replacemen
 in inbox #054. The exact runs/ch08/plate.svg now replaces the older book SVG
 at books/the-stoic-husband/design/plates/tipping-scale.svg. The earlier diagram
 whose final-trigger label sat on the raised pan is superseded.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Type only, plus label letter-spacing .16em -> .08em and the right label moved 8px left so NAMED WHEN IT LANDS fits. Canvas 352 -> 366 tall.
+
+Rendered to runs/ch08/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch08/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x366
+  [ ok ] title       title 'THE TIPPING SCALE' / aria-label 'The Tipping Scale' vs Mechanism 'The Tipping Scale'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    2 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   3 centred texts on the axis or a shared column; 10 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

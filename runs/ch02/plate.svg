@@ -1,46 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 368" style="color:#1a1a1a" role="img" aria-label="The Mood Mirror">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 466" style="color:#1a1a1a" role="img" aria-label="The Mood Mirror">
   <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
-    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
-    .lbls{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
-    .lble{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
-    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .ttl{font:600 22px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 17px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
+    .lbls{font:600 17px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
+    .lble{font:600 17px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
+    .cap{font:italic 18px Georgia,serif;opacity:.66;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
   </style>
 
-  <rect x="0" y="0" width="640" height="368" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="466" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE MOOD MIRROR</text>
-    <text class="sub" x="320" y="70">When her mood sets your mood, you've outsourced your peace.</text>
+    <text class="ttl" x="320" y="44">THE MOOD MIRROR</text>
+    <text class="sub" x="320" y="80">When her mood sets your mood,</text>
+    <text class="sub" x="320" y="104">you've outsourced your peace.</text>
   </g>
 
   <!-- the evening with nothing of yours in it: her weather comes in, and leaves twice as heavy -->
   <g fill="currentColor">
-    <text class="lbls" x="60" y="132">HER WEATHER</text>
-    <text class="lble" x="580" y="132">THE STORM DOUBLES</text>
+    <text class="lbls" x="60" y="158">HER WEATHER</text>
+    <text class="lble" x="580" y="158">THE STORM DOUBLES</text>
   </g>
   <g fill="none" stroke="currentColor" stroke-linecap="round">
-    <path d="M60 156h260" stroke-width="1.5"/>
-    <path d="M320 156h260" stroke-width="5"/>
+    <path d="M60 182h260" stroke-width="1.5"/>
+    <path d="M320 182h260" stroke-width="5"/>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 204h552"/></g>
+  <g class="rule" fill="none"><path d="M44 226h552"/></g>
 
   <!-- the same evening, with one thing of yours planted in it: the line comes out the weight it went in -->
   <g fill="currentColor">
-    <text class="lbls" x="60" y="252">HER WEATHER</text>
-    <text class="lbl" x="320" y="252">YOUR OWN WEATHER</text>
+    <text class="lbls" x="60" y="274">HER WEATHER</text>
+    <text class="lbl" x="320" y="360">YOUR OWN WEATHER</text>
   </g>
   <g fill="none" stroke="currentColor" stroke-linecap="round">
-    <path d="M60 288h520" stroke-width="1.5"/>
-    <path d="M320 264v48" stroke-width="5"/>
+    <path d="M60 310h520" stroke-width="1.5"/>
+    <path d="M320 286v48" stroke-width="5"/>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 328h552"/></g>
+  <g class="rule" fill="none"><path d="M44 382h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="354">Not to go cold. To bring something real through the door.</text>
+    <text class="cap" x="320" y="416">Not to go cold.</text>
+    <text class="cap" x="320" y="440">To bring something real through the door.</text>
   </g>
 </svg>

@@ -1,65 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 486" style="color:#1a1a1a" role="img" aria-label="The courage to come back">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 580" style="color:#1a1a1a" role="img" aria-label="The courage to come back">
+  <!-- 2026-11-07: type re-set for phone width (author ruling "1. Enlarge").
+       Each row's label moved above its drawing; drawing centred on the axis;
+       words and drawing unchanged. -->
   <style>
-    .ttl{font:600 17px Georgia,serif;text-anchor:middle}
-    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
-    .txtc{font:13px Georgia,serif;opacity:.86;text-anchor:middle}
-    .note{font:12.5px Georgia,serif;opacity:.7;text-anchor:middle}
-    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .ttl{font:600 22px Georgia,serif;text-anchor:middle}
+    .sub{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 17px Georgia,serif;letter-spacing:.12em;text-anchor:start;opacity:.86}
+    .txtc{font:18px Georgia,serif;opacity:.86;text-anchor:middle}
+    .note{font:17px Georgia,serif;opacity:.7;text-anchor:middle}
+    .cap{font:italic 18px Georgia,serif;opacity:.66;text-anchor:middle}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
     .ln{stroke:currentColor;stroke-width:1.6}
   </style>
 
-  <rect x="0" y="0" width="640" height="486" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="580" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">The courage to come back</text>
-    <text class="sub" x="320" y="70">A pause is only healthy if you come back.</text>
+    <text class="ttl" x="320" y="44">The courage to come back</text>
+    <text class="sub" x="320" y="78">A pause is only healthy if you come back.</text>
   </g>
 
   <!-- it goes quiet: the piece he never said is the height he does not get back -->
   <g fill="currentColor" opacity=".85">
-    <rect x="196" y="118" width="28" height="76"/>
-    <rect x="416" y="152" width="28" height="42"/>
+    <rect x="194" y="154" width="28" height="76"/>
+    <rect x="418" y="188" width="28" height="42"/>
   </g>
-  <g class="ln" fill="none" stroke-linecap="round"><path d="M170 194h304"/></g>
+  <g class="ln" fill="none" stroke-linecap="round"><path d="M168 230h304"/></g>
   <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 5" opacity=".55">
-    <path d="M224 118h250"/>
-    <rect x="416" y="118" width="28" height="34"/>
+    <path d="M222 154h250"/>
+    <rect x="418" y="154" width="28" height="34"/>
   </g>
   <g fill="currentColor">
-    <text class="note" x="430" y="108">the real thing, never said</text>
-    <text class="lbl" x="44" y="160">GOES QUIET</text>
-    <text class="note" x="210" y="214">walks in</text>
-    <text class="note" x="430" y="214">walks out</text>
-    <text class="txtc" x="320" y="242">he becomes small without deciding to</text>
+    <text class="note" x="432" y="140">the real thing, never said</text>
+    <text class="lbl" x="44" y="140">GOES QUIET</text>
+    <text class="note" x="208" y="256">walks in</text>
+    <text class="note" x="432" y="256">walks out</text>
+    <text class="txtc" x="320" y="288">he becomes small without deciding to</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 266h552"/></g>
+  <g class="rule" fill="none"><path d="M44 314h552"/></g>
 
   <!-- he goes back and says it: the same measure, filled in, and he leaves at the height he came in -->
   <g fill="currentColor" opacity=".85">
-    <rect x="196" y="292" width="28" height="76"/>
-    <rect x="416" y="292" width="28" height="76"/>
+    <rect x="194" y="362" width="28" height="76"/>
+    <rect x="418" y="362" width="28" height="76"/>
   </g>
-  <g class="ln" fill="none" stroke-linecap="round"><path d="M170 368h304"/></g>
+  <g class="ln" fill="none" stroke-linecap="round"><path d="M168 438h304"/></g>
   <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 5" opacity=".55">
-    <path d="M224 292h250"/>
+    <path d="M222 362h250"/>
   </g>
   <g fill="none" stroke="#ffffff" stroke-width="1.1" stroke-dasharray="3 5" opacity=".9">
-    <path d="M416 326h28"/>
+    <path d="M418 396h28"/>
   </g>
   <g fill="currentColor">
-    <text class="note" x="430" y="282">the real thing, said</text>
-    <text class="lbl" x="44" y="334">GOES BACK</text>
-    <text class="note" x="210" y="388">walks in</text>
-    <text class="note" x="430" y="388">walks out</text>
-    <text class="txtc" x="320" y="416">he leaves the fight the same size</text>
+    <text class="note" x="432" y="348">the real thing, said</text>
+    <text class="lbl" x="44" y="348">GOES BACK</text>
+    <text class="note" x="208" y="464">walks in</text>
+    <text class="note" x="432" y="464">walks out</text>
+    <text class="txtc" x="320" y="496">he leaves the fight the same size</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 440h552"/></g>
+  <g class="rule" fill="none"><path d="M44 522h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="466">Say the real thing before silence says it for you.</text>
+    <text class="cap" x="320" y="556">Say the real thing before silence says it for you.</text>
   </g>
 </svg>
