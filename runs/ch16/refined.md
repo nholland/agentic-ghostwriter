@@ -10,11 +10,11 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 ---
 
-**The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless. They were protectors. They were providers, and they provided for their families. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about what they felt and only spoke up to make a demand. A man bore things quietly. If he finally was pushed to the edge, it was okay for him to lose himself in anger and blow up.
+**The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless protectors and providers. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about their feelings and only spoke up to make a demand. If a man was pushed to the edge, it was okay for him to blow up.
 
-Calm was my first fix for that, and calm can go cold. That was Chapter 1, where my calm went cold and I said nothing. Another time, I put that cold calm into words and said them to my wife.
+Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. Another time, I put it into words for my wife.
 
-I'd just gotten into Stoicism. Not long after, we had an argument. She was angry at me, and I sat there quiet. When she was done, I looked at her and said, "I can't control you. I can only control me and I don't see things the way you do."
+I'd just gotten into Stoicism. We had an argument. She was angry, and I sat there quiet. When she was done, I said, "I can't control you. I can only control me and I don't see things the way you do."
 
 She answered right away.
 
@@ -22,7 +22,7 @@ She answered right away.
 
 She didn't want to be married to a stone.
 
-I shouldn't have aimed that line at her at all. Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. The idea underneath it was right, and I had used it wrong. "I can only control me" is true. It's a standard I hold my own conduct to. In that argument, it had become a way to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her.
+Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. "I can only control me" is true. In that argument, I used it to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her.
 
 What fixed it was turning toward her.
 
@@ -48,7 +48,7 @@ I teach my boys that every kind of relationship, not just marriage, is one you b
 
 Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. I picture that life as a place the two of you own and live in every day. At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home.
 
-Even a warm place takes damage. Some of it is wear and tear from just living there. Some of it comes from inclement weather. Some comes from the parties you throw and the guests who don't take care of the place. That's what happens to a place people actually use.
+Even a warm place takes damage. Some of it is wear and tear from just living there. Some of it comes from the seasons. Some comes from the parties you throw and the guests who don't take care of the place. That's what happens to a place people actually use.
 
 Your marriage takes those costs too. Some years one of your jobs has to come first. You each come from a family, and both sides need time and patience. Someone's health takes a turn. The kids need more than either of you planned on. None of that is anyone's fault, and every one of them takes something out of the marriage.
 
@@ -76,13 +76,15 @@ My sense of the word is simpler. To me, flow is when everything is going well: y
 
 The first word is one you already know. Staying calm and steady on the inside is what Chapter 1 called equanimity. For one person, equanimity means you're at peace. Your marriage can be at peace too, with two steady people in it. Then a hard day can be hard without becoming a fight.
 
-The second word is new to this book. There's a best version of you, and a best version of your marriage. Each is the version you'd be proud of. The Greek word for excellence is arête. For the Stoics it meant excellence of character, the same virtue I mentioned earlier. I read it as being at your best. Arête, for a marriage, is the marriage at its best.
+The second word is new to this book, but you've used the idea since Chapter 1. There's a best version of you, and a best version of your marriage. Each is the version you'd be proud of. The Greek word for excellence is arête. It's the word behind the question Chapter 1 asked: was I being the best husband I could be? The four things you checked there, being logical, kind, self-controlled and brave enough to stay engaged, are its parts. For the Stoics, arête was excellence of character, the virtue I mentioned earlier, and it starts with the man. Arête, for a marriage, is the marriage at its best.
 
 The third is eudaimonia, the flourishing from earlier: a life going well as a whole, over years, with both of you in it.
 
 Each word comes from one part of the work. The calm you learned in Part I is what lets a marriage stay at peace. The strength from Part II, keeping your word and carrying weight, is part of what puts it at its best. The warmth in this part is what makes it a life she's glad to share with you. When you're calm and strong and loving at once, the calm, the strength and the warmth stop being separate jobs.
 
-All three words are about the marriage. Being happy as an individual is very different from being happy in a relationship. Being happy in a relationship means you're always thinking about both people. I believe the health of the whole is more important than the health of the individual. Your peace counts, and so does hers.
+All three words are about the marriage. Being happy as an individual is very different from being happy in a relationship. Your marriage is its own living thing, with its own health, separate from you. A lot of people get confused on that. They look at the marriage as an extension of themselves, and it isn't one.
+
+I heard a line once that I've always loved. The biggest problem in any relationship is that it has another person in it. That person is different from you, and you can't control them. It makes me laugh every time, because it's true. It's also why the marriage needs its own care. There are two of you in it, so what's good for you alone won't keep it healthy. You make it a priority, and you take care of it. Your peace counts, and so does hers.
 
 A marriage is one home the two of you build and keep up together. Keep it at peace, at its best, and flourishing, and it moves into flow.
 
@@ -97,6 +99,77 @@ You have a lot of people in your life who need you to show up for them. Your kid
 Put the most into your marriage, because she is your number one.
 
 ## Editor's Notes
+
+### Publisher (2026-11-07)
+
+Cut the second "my own step" (the flow paragraph already says it) and matched Chapter 1's label "brave enough to stay engaged".
+
+
+### Round 11 (Line Editor desk, gw-lineeditor, cold, v5; clock read 2026-11-07 02:14)
+
+Commission: the Publisher's Round 11 brief. Read: `runs/ch16/interview.md` "## Round 11" (his words govern), `01-voice.md`, `okf/frameworks/marriage-in-flow.md` (Round 11 section), `okf/frameworks/there-are-two-of-you.md`, and Chapter 1's refined four-question passage, to name arête's link right. Nothing in `books/` was written. The v4 notes below stand as history.
+
+**What changed**
+1. **Seasons.** "Some of it comes from inclement weather." became "Some of it comes from the seasons." Storm, night, winter: 0 in prose.
+2. **"investing strategy"** kept as it was, per his ruling.
+3. **The health of the whole, softened.** Cut: "Being happy in a relationship means you're always thinking about both people. I believe the health of the whole is more important than the health of the individual." New, split into two paragraphs (one idea each):
+   - "Your marriage is its own living thing, with its own health, separate from you. A lot of people get confused on that. They look at the marriage as an extension of themselves, and it isn't one."
+   - "I heard a line once that I've always loved. The biggest problem in any relationship is that it has another person in it. That person is different from you, and you can't control them. It makes me laugh every time, because it's true. It's also why the marriage needs its own care. There are two of you in it, so what's good for you alone won't keep it healthy. You make it a priority, and you take care of it. Your peace counts, and so does hers."
+   No source named, no quotation marks (the OKF entry says unattributable). "Nurture" not used; "take care of it" instead. No suffer or endure.
+4. **The old picture, 324 to 255 words** (header through the mindset sentence). Kept verbatim: her answer, "She didn't want to be married to a stone.", "It should be a mindset, not something that you repeat out loud to her.", "demand". Cut or tightened: "They were protectors. They were providers, and they provided for their families." became "Men were fearless protectors and providers."; "A man bore things quietly."; "lose himself in anger and"; "That was Chapter 1, where" became "In Chapter 1,"; "Not long after,"; "I looked at her and"; "I shouldn't have aimed that line at her at all."; "The idea underneath it was right, and I had used it wrong."; "It's a standard I hold my own conduct to."
+5. **Arête, more airspace (applied as reversible).** Before: "The Greek word for excellence is arête. For the Stoics it meant excellence of character, the same virtue I mentioned earlier. I read it as being at your best." After: "The second word is new to this book, but you've used the idea since Chapter 1. ... The Greek word for excellence is arête. It's the word behind the question Chapter 1 asked: was I being the best husband I could be? The four things you checked there, being logical, kind, self-controlled and brave enough to stay, are its parts. For the Stoics, arête was excellence of character, the virtue I mentioned earlier, and it starts with the man. Taking it to the marriage is my own step." Chapter 1's labels are used, not the classical names, so no new term needs a gloss.
+6. **Distillation:** "inclement weather" became "the seasons", and one sentence was added after "you still go first": "Your marriage is its own living thing, with its own health, separate from you, so you make it a priority and take care of it." Practices unchanged, so `runs/appendix/practice-guide.md` was not touched.
+
+**Held verbatim:** title, ah-ha, last line, the eudaimonia sentence, the Csikszentmihalyi and "My sense of the word" paragraphs, the dates passage.
+
+**Hand count of "keep up":** 1 in prose ("build and keep up together", ah-ha). Script 9 + hand 1 = 10 mentions in 2,088 words = 4.79 per 1,000, under 5. "season" replaced "weather" one for one.
+
+**Fences, by grep of prose:** em-dash 0; "move/moves" 1 (ah-ha); storm, night, winter, roof, wall, nurture, suffer, endure: 0.
+
+**Final script output, verbatim**
+
+```
+voice_check: refined.md
+  2088 words of prose, 177 sentences
+  excluded from counts: {'cut_at_heading': "Editor's Notes", 'apparatus_words': 1605}
+
+  HARD (literal counts - a FAIL here is a fact)
+    [ok  ] em-dash                  0 in prose (cap 0)
+    [ok  ] bold-as-crutch           0 inline bolded span(s) (cap 1); 4 bolded run-in header(s), NOT counted - legalized as structure by the author 2026-09-14, per 01-voice.md's run-in header exception.
+    [ok  ] long-sentence share      3/177 sentences at 25+ words = 1.7% (cap 10%)
+             35w: "If I have a man who doesn't care how I feel, if I have a man who believes that he's in a relationship by hims...
+             33w: Your attention and your joy are what she actually gets to live with every day. **The old picture.** A lot of u...
+             28w: Every act of compassion you carry out is a gift to your marriage. **Both of you.** As I see it, a relationship...
+    [ok  ] you-density              118 direct-address words in 2088 = 56.5 per 1,000 (floor 40)
+    [ok  ] metaphor family          9 mentions in 2088 words = 4.3 per 1,000 (cap 5); {'house': 1, 'home': 2, 'invest': 3, 'capstone': 1, 'guest': 1, 'season': 1}
+
+  CAND (needs a read - a clear line here is not a pass)
+    [clear ] single ending            final sentence 12 words, shares 1 words with the previous one. Close: 'Put the most into your marriage, because she is your number one.'
+    [clear ] rhetorical-device repetition no detectable shape over cap 2. Counts: none matched. Regex cannot see every sentence-shape - a model read is still required.
+    [clear ] Stoic term gloss on first use every listed term that appears has punctuation or a gloss verb nearby
+
+  RESULT: all HARD checks passed
+```
+
+```
+practice_sync: runs/appendix/practice-guide.md vs each chapter's distillation (runs/)
+  [PASS     ] Chapter 16  3 practice(s) identical
+
+  RESULT: PASS on 1 chapter(s)
+```
+
+The long-sentence lines are the script joining a paragraph's end to the next bold header; the only real 25+ sentence is her quote, verbatim. CAND reads: single ending is the commissioned line with nothing after it; "X, not Y" still appears twice ("an investment, not a burden"; "a mindset, not something"), under the cap; no new Stoic terms, and arête's gloss got longer.
+
+**Judgement calls the author might reverse**
+1. **"you can't control them" echoes "I can't control you"** from the old-picture argument. I kept the echo on purpose: the same truth that sounded smug said to her reads as humble and funny when it's about relationships in general. If it reads as contradicting the earlier lesson, the line can say "and you can't run them" instead.
+2. **"I heard a line once"** for the Facebook source. It is vaguer than "I saw it online"; either one works.
+3. **"It makes me laugh every time, because it's true."** is my rendering of "it's hilarious".
+4. **"Being happy in a relationship means you're always thinking about both people."** was cut, because "There are two of you in it" now does that job. Say so and it can come back.
+5. **Arête uses Chapter 1's four labels** (logical, kind, self-controlled, brave enough to stay), not wisdom, justice, temperance and courage, so the reader isn't handed four new terms. "Taking it to the marriage is my own step" sits two paragraphs after "Applying that to a whole marriage is my own step"; the repetition is deliberate (both are his steps), but one could go.
+6. **The arête and health edits sit inside the "In flow" section,** which the brief also said to hold. I read the hold as covering the flow definition (the Csikszentmihalyi paragraphs), since items 3 and 5 point into this section.
+7. **Old picture at 255, not exactly 250.** The next cut would be "I'd just gotten into Stoicism." (5 words), which costs the context.
+
+**Placeholders still standing:** none. No citation marked verified. The Csikszentmihalyi and Diogenes Laertius glosses stay `unverified`.
 
 ### Publisher, after the round-10 reviews (2026-11-06)
 
