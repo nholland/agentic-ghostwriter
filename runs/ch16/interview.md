@@ -380,3 +380,24 @@ Author, verbatim:
 - New: beyond small acts of service, investing means showing up where she knows you're invested: remember the dates that matter to her, with a system (write them down); not having one shows you haven't thought about your investing strategy.
 - She wants to know she's a priority and that you're invested; not a passenger, not two people cohabiting. Roommates flagged for the Desert (Ch18 Living Separate Lives) and Orchard.
 - Publisher note: he said "storms"; the Introduction gives the storm to the Oak, so the prose uses his other words ("inclement weather"). For him to overrule.
+
+## Round 11 (received 2026-11-07 02:07 UTC)
+
+Author, verbatim:
+
+> 1.  Seasons would work best I think
+> 2. This is for men. I think they will get it. It is also very common to tell women as well. They need to invest in their relationship.
+> 3. I think this is a great point, how can we soften this. I don't want the man to suffer or endure, but I do think he needs to treat it as its own entity that has its own health. You need to prioritize it and you need to nurture it. And you have to realize that it's its own organic entity separate from you as the individual. I think a lot of people get confused on that, and they look at the marriage as an extension of themselves.
+>
+>  The number one problem with  relationships is that it has another person in it that is different than you and that you can't control. I always love that phrase comment it's hilarious.
+>
+>  4. Yes, let's trim it
+>
+> 5. What do you recommend, introducing it earlier or giving it more Airspace?
+
+### Rulings (Rule 10)
+- 1: "seasons" replaces "inclement weather" (his word; the Introduction's storm stays the Oak's).
+- 2: "investing strategy" stays.
+- 3: soften "the health of the whole is more important than the health of the individual": the marriage is its own entity with its own health, separate from you; prioritize it and nurture it; not an extension of yourself. He brings back the "another person you can't control" line (okf/frameworks/there-are-two-of-you.md, filed for Ch19 on 2026-11-04) for this chapter.
+- 4: trim the old-picture section to about 250 words.
+- 5: asked for a recommendation. Publisher recommends more airspace here (see reply); applied in this round as reversible.

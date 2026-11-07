@@ -25,3 +25,7 @@ In the author's words: "the aha should be treating the marriage as a joint unit 
 Tone (same round): a Sun chapter about warmth and joy; "spending too much time in this chapter on when I use stoicism to become cold could miss the entire point of the sun arc".
 
 Related: [/frameworks/equanimity-arete-eudaimonia.md](/frameworks/equanimity-arete-eudaimonia.md), [/frameworks/the-bank-of-credits.md](/frameworks/the-bank-of-credits.md).
+
+# The marriage as its own entity (author, Round 11, 2026-11-07)
+
+"I don't want the man to suffer or endure, but I do think he needs to treat it as its own entity that has its own health. You need to prioritize it and you need to nurture it. And you have to realize that it's its own organic entity separate from you as the individual. I think a lot of people get confused on that, and they look at the marriage as an extension of themselves." Softens his Round 1 "the health of the whole is more important than the health of the individual" for prose.

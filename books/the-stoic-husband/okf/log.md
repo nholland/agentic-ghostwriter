@@ -1055,3 +1055,5 @@ The constitutional outline and framework map now use the same direction.
 - 2026-11-06 06:20 UTC — Chapter 16 retitled 'The Marriage in Flow' and its image changed from the bank/joint account to a house you own and keep up, on the author's word (Round 9, 'Let's do it'). Chapter slug warmth-is-strength renamed to the-marriage-in-flow in 37 OKF files (40 occurrences, asserted). frameworks/the-bank-of-credits.md records Rounds 8-9.
 
 - 2026-11-06 15:30 UTC — Chapter 16 Round 10. the-bank-of-credits.md gains 'costs come; keep investing'; added frameworks/write-down-the-dates-that-matter-to-her.md. Roommates flag parked for Ch18 (inbox).
+
+- 2026-11-07 02:15 UTC — Chapter 16 Round 11: marriage-in-flow.md gains 'the marriage as its own entity'; there-are-two-of-you.md now also tagged the-marriage-in-flow with his Round 11 words.
