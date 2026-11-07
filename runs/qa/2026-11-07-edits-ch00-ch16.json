@@ -1,11 +1,13 @@
 {
  "schema": 1,
  "created": "2026-11-07",
- "coverage": "Prologue, Introduction, Ch1-Ch15 (refined.md as of 2026-11-07)",
+ "coverage": "Prologue, Introduction, Ch1-Ch15 (landed refined.md) and Ch16 (unlanded draft runs/ch16/refined.md), as of 2026-11-07",
  "sources": [
   "runs/qa/2026-11-07-panel-ch00-ch15.md",
   "runs/qa/2026-11-07-slop-ch00-ch15.md",
-  "runs/qa/2026-11-07-readability-ch00-ch15.json",
+  "runs/qa/2026-11-07-panel-ch16.md",
+  "runs/qa/2026-11-07-slop-ch16.md",
+  "runs/qa/2026-11-07-readability-ch00-ch16.json",
   "scripts/voice_check.py"
  ],
  "statuses": "proposed -> accepted | rejected | deferred -> applied (applied_commit set)",
@@ -59,7 +61,20 @@
     {
      "desk": "gw-panel",
      "fix": "Cut Prologue L36-39 to two sentences: 'Early on, I took one piece of the philosophy and ran it too far, and I started applying it to my wife. She noticed before I did, and I'll tell you how in Chapter 16.' Keep Ch1's mechanism; save her words, duration and cost for Ch16.",
-     "severity": "high"
+     "severity": "high",
+     "superseded": true
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "Prologue L37: replace 'She told me, in her own words, that I'd gone somewhere she couldn't follow me to. She was right.' with 'She noticed before I did. She told me so, and she was right.' The long Prologue cut is no longer needed.",
+     "severity": "high",
+     "after_ch16": true
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Compress Prologue L35-39 without a forward pointer (Q015's slopreader fix); keep Ch1's mechanism; keep Ch16's said-aloud incident; change Ch16 L25's 'opt out' (new item).",
+     "severity": "high",
+     "after_ch16": true
     }
    ],
    "raised_by": [
@@ -70,7 +85,23 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "changed",
+     "reason": "Ch16 was reframed and no longer depends on the armor reveal; it tells a new side (said aloud, her actual words). What remains is the Prologue's 'in her own words' competing with Ch16's quotation."
+    },
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "changed",
+     "reason": "Ch16 now gives her words once (L21) and a different incident, said aloud ('Another time', L15), so 'leaving Ch16 nothing new to reveal' no longer holds. The Panel's fix ('I'll tell you how in Chapter 16') would now misstate it, because Ch16 does not tell how she first noticed."
+    }
+   ]
   },
   {
    "id": "Q003",
@@ -154,7 +185,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "still-valid",
+     "reason": "More urgent: Ch16 L79 makes Ch1's question the arête question, the book's load-bearer, while Ch8 and Ch15 still use it mid-moment against Ch1 L69. Ch16's own past-tense use is consistent with Ch1."
+    }
+   ]
   },
   {
    "id": "Q006",
@@ -307,7 +347,20 @@
     {
      "desk": "gw-panel",
      "fix": "Spec Ch16 to carry: her actual words once (author interview); what it cost and how he got back; the 'river without the sun' callback; the compassion distinction promised by inbox 146; a Part III close with a bridge to the Desert; no one-line imperative ending.",
-     "severity": "high"
+     "severity": "high",
+     "superseded": true
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "The one open requirement: the Introduction's sixth-failure-mode callback before Ch16 L27 (see the new ch16 L27 item).",
+     "severity": "high",
+     "after_ch16": true
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "The only part left is the author's ruling on L99 (see the new item).",
+     "severity": "high",
+     "after_ch16": true
     }
    ],
    "raised_by": [
@@ -318,7 +371,23 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "changed",
+     "reason": "Met: her words once, the compassion distinction without Sextus, a Part III close. Withdrawn: duration and cost (the author ruled the turn brief, Round 6) and the Desert bridge (the Part IV opener carries it). The one-line close is the author's own line, so it is downgraded."
+    },
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "changed",
+     "reason": "Mostly met by the draft: her words once (L21), the turn (L27), the compassion distinction (L31), and River/Oak/Sun brought together (L7, L83). Overtaken by the outline: duration and cost (the author capped the old picture at about 250 words), the Desert bridge ('none printed'), and the river-without-sun callback (Ch16 calls back Intro 47 instead, which works). Still unmet: 'no one-line imperative ending' (L99)."
+    }
+   ]
   },
   {
    "id": "Q011",
@@ -335,7 +404,20 @@
     {
      "desk": "gw-panel",
      "fix": "Author ruling: allow one explicit element line per Part (then Ch10 takes 'The oak holds firm' and Ch16 calls back the Introduction's 'The river without the sun becomes detached'), or cut Ch15's sun line.",
-     "severity": "medium"
+     "severity": "medium",
+     "superseded": true
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "Inbox item: amend the rule text to allow the elements as arc names in a Part-closing chapter, and one image line per Part on the author's word; then rule Ch10's 'The oak holds firm' (#26).",
+     "severity": "medium",
+     "after_ch16": true
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "If Ch16 L7 stands, the ruling is in practice 'arc names allowed in prose'; what is left to decide is Ch15 L57's metaphorical 'When you are the sun' and whether Ch10 takes 'The oak holds firm'.",
+     "severity": "medium",
+     "after_ch16": true
     }
    ],
    "raised_by": [
@@ -346,7 +428,23 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "changed",
+     "reason": "The author's Ch16 spec allows River/Oak/Sun as arc names, and Ch16 uses them consistently with the Introduction and openly moves 'flow' to the marriage. The preamble-only rule now lags two approved exceptions (Ch15 L57, Ch16 L7). The Oak still has no image line in any chapter."
+    },
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "changed",
+     "reason": "Ch16 L7 names the River, Oak and Sun once each as arc names, and L71 names the River, as the outline allows, so the oak now appears in chapter prose. In practice Ch16 takes the 'one explicit element line per Part' option."
+    }
+   ]
   },
   {
    "id": "Q012",
@@ -374,7 +472,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "still-valid",
+     "reason": "Ch16 adds another explanation taught again: preferred indifferents at L37, repeating Ch2 50 word for word (new item). Its Musonius introduction is a single clause, which matches the fix."
+    }
+   ]
   },
   {
    "id": "Q013",
@@ -458,7 +565,23 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "still-valid",
+     "reason": "The Prologue and Ch1 still tell the same story in full; Ch16's account is new material, not a third retelling."
+    },
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "still-valid",
+     "reason": "Stronger now: Ch16 L13-25 makes a third telling, and L25 reuses Ch1 85's 'opt out'."
+    }
+   ]
   },
   {
    "id": "Q016",
@@ -633,7 +756,14 @@
     {
      "desk": "gw-panel",
      "fix": "That three-second window is where all of this starts.",
-     "severity": "medium"
+     "severity": "medium",
+     "superseded": true
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "Keep the Ch1 L13 fix and add Prologue L33: 'A lot of this book was written to keep you from making it.'",
+     "severity": "medium",
+     "after_ch16": true
     }
    ],
    "raised_by": [
@@ -644,7 +774,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "changed",
+     "reason": "Ch16 L5 adds a fourth thesis line, and the Prologue's 'This whole book was written to keep you from making it' now overclaims, since the capstone gives the mistake one short turn."
+    }
+   ]
   },
   {
    "id": "Q022",
@@ -678,7 +817,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "still-valid",
+     "reason": "Ch16 does return the four checks, so the panel's wording ('You'll meet those four things again') now matches the book exactly; 'unpack' is still on the avoid list."
+    }
+   ]
   },
   {
    "id": "Q023",
@@ -706,7 +854,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "still-valid",
+     "reason": "Unaffected. Ch16's 'married to a stone' now carries the turn, which makes Ch1's third-person model-husband line more expendable."
+    }
+   ]
   },
   {
    "id": "Q024",
@@ -734,7 +891,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "still-valid",
+     "reason": "Ch16 L5-7 adds a fourth recap opening, but the outline asks for it at the capstone. That makes the Ch2/Ch5/Ch8 recaps harder to defend, since this is the one that earns its place."
+    }
+   ]
   },
   {
    "id": "Q025",
@@ -1354,7 +1520,23 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "still-valid",
+     "reason": "Ch16's close is a fifth imperative-style ending in eight chapters, but it is the author's own line; vary Ch13 and Ch15 instead."
+    },
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "still-valid",
+     "reason": "Ch16 L99 ('Put the most into your marriage, because she is your number one.') is a fifth imperative close in the last eight chapters, in a 'do X, because Y' form."
+    }
+   ]
   },
   {
    "id": "Q045",
@@ -1388,7 +1570,16 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "still-valid",
+     "reason": "More urgent: Ch16 L79 makes Ch1's four checks arête's parts, and Ch9's 'same four questions' are not those four."
+    }
+   ]
   },
   {
    "id": "Q046",
@@ -1478,7 +1669,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "still-valid",
+     "reason": "Ch16's labels ('The old picture.', 'Toward her.', 'Both of you.', 'In flow.') are the descriptive style the fix asks for, so they can serve as the house model for Ch11-14."
+    }
+   ]
   },
   {
    "id": "Q049",
@@ -1568,7 +1768,23 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-panel",
+     "verdict": "still-valid",
+     "reason": "More urgent: Ch11's five qualities now conflict with the four checks Ch16 names as arête's parts."
+    },
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "still-valid",
+     "reason": "Ch16 L79 names Ch1's four questions as the parts of arête, so Ch11's five qualities now conflict with two chapters. More urgent than before."
+    }
+   ]
   },
   {
    "id": "Q052",
@@ -1630,7 +1846,16 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "rechecks": [
+    {
+     "date": "2026-11-07",
+     "after": "Ch16 draft",
+     "desk": "gw-slopreader",
+     "verdict": "still-valid",
+     "reason": "Ch16 L75 uses the shape once, within the fix's one-per-chapter limit; it does not add to the problem."
+    }
+   ]
   },
   {
    "id": "Q054",
@@ -3411,6 +3636,750 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null
+  },
+  {
+   "chapter": "ch16",
+   "line": 15,
+   "anchor": "In Chapter 1, my calm went cold and I said nothing. Another time, my cold calm came out in words, said straight to my wife.",
+   "kind": "continuity",
+   "severity": "high",
+   "effort": "small",
+   "finding": "Splits what the interview records as one argument (silence, then the line aloud) into two events; 'Another time' is not the author's; Ch1 calls its version 'the first time'; 'In Chapter 1' dates an event to a chapter.",
+   "evidence": "Interview L85 'her being angry at me and me sitting there quiet. After she was done engaging, I simply looked at her and said...'; Publisher Round 1 note: the story 'is told in Ch1 ... New here: he said it aloud'; Ch16 L17; Ch1 L77.",
+   "raised_by": [
+    "gw-panel"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "'I told you in Chapter 1 how I'd go calm and quiet and wait for her upset to pass. What I didn't tell you is that early on, I once said the quiet part out loud.' Author to confirm one event or two; if two, change only to 'In Chapter 1, I told you how my calm went cold'.",
+     "severity": "high"
+    }
+   ],
+   "id": "Q115",
+   "anchor_check": "found",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 25,
+   "anchor": "It should be a mindset, not something that you repeat out loud to her.",
+   "kind": "add",
+   "severity": "high",
+   "effort": "small",
+   "finding": "Reads as 'keep the doctrine silent', which Ch1 shows was the same failure; a defensive reader returns to Ch1's quiet withdrawal.",
+   "evidence": "Ch1 L81-85 '*I can't control her. I can only control me.* Then I'd go calm, go quiet, and wait for it to pass' = 'an excuse to disappear'. Interview Round 4: 'hold my own actions to a standard'; Round 11 cut 'It's a standard I hold my own conduct to.' | gw-slopreader: Ch1 81 '*I can't control her. I can only control me.*'; Ch1 85 '\"I can only control me\" had become a way to opt out.' Prologue 35-37 tells it too; Ch2 60-66 corrects it.",
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "After L25 restore the author's sentence, e.g. 'Kept in my head the way I used it in Chapter 1, it was a way out too. As a mindset, it's a standard I hold my own conduct to.' (needs the author's word)",
+     "severity": "high"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'In that argument, I used it to end the conversation instead of hearing her.' Pair with the Prologue compression in Q015.",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q116",
+   "anchor_check": "found",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 7,
+   "anchor": "Part III is the Sun, and this chapter is where the three come together.",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "After a good orientation at L3, L5-9 state the thesis and describe the chapter's own role before any scene; 'It's the capstone, the piece that sits on top of everything you've done so far' explains its own metaphor.",
+   "evidence": "L5 'That ease is what everything so far has been working toward. The calm and the strength make it possible…'; L7 'this chapter is where the three come together… It's the capstone, the piece that sits on top…'. Never Do: 'Never open with the lesson'; same meta-signpost family as Ch7 L11 (Q085).",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete L5's second sentence. L7 becomes: 'Part I was the River: staying calm when things change. That calm keeps a hard week from turning into a fight with your wife. Part II was the Oak: the strength to carry weight, so she can lean on you when life gets heavy. The warmth you bring her is what the calm and the strength were for.' (Removes 'capstone', so voice_check must re-count the family.)",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q117",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 27,
+   "anchor": "What fixed it was turning toward her.",
+   "kind": "add",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "The Introduction's sixth failure mode is exactly Ch16's two frames (calm gone wrong, investing) and is never called back; Ch16 instead says 'cold', the Introduction's word for the oak without the sun.",
+   "evidence": "Introduction L77 'The river without the sun becomes detached. His calm comes from no longer being invested.'; L71 'The oak without the sun becomes cold.'; Ch16 L15 'calm can go cold'.",
+   "raised_by": [
+    "gw-panel"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Before L27 add: 'At the start of this book I wrote that the river without the sun becomes detached, that his calm comes from no longer being invested. That was me.' (needs the author's word)",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q118",
+   "anchor_check": "found",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 35,
+   "anchor": "You put the phone down when she starts talking. You notice she's tired before she has to say so, and you take something off her plate.",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Re-serves Ch13's close and Ch15's chore line nearly verbatim, while the capstone never gathers Part III by name as Ch5 does Part I.",
+   "evidence": "Ch13 L61 'Put the phone down, and give her the evening you came to share.'; Ch15 L53 'taking chores and work off of her plate'; Ch5 L77.",
+   "raised_by": [
+    "gw-panel"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Replace the two sentences with: 'You've seen what it looks like in the last four chapters: effort in her language, attention when you're together, noticing what you already have, kindness when she's sharp.' Keep L57.",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q119",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16-ch02",
+   "line": 37,
+   "anchor": "*Indifferent* doesn't mean you don't care. I want my wife happy.",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Re-teaches preferred indifferents and repeats Ch2's sentence word for word.",
+   "evidence": "Ch2 50: '*Indifferent* doesn't mean you don't care. It means this isn't where your character gets built…'",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Her happiness is one of those things. It doesn't decide who I am, and I still want it more than almost anything. I want my wife happy.'",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q120",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 49,
+   "anchor": "I picture that life as a place the two of you own and live in every day.",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "medium",
+   "finding": "'place' stands in for 'house' five times (L49, L51 x2, L63, L93), apparently to stay under the metaphor cap; the declared single image is never plainly named until the Introduction quote.",
+   "evidence": "L51 'Even a warm place takes damage… a place people actually use'; L63 'She looks after the place too'; L93 'the place you share'.",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "L49: 'I picture that life as a house the two of you own and live in every day.' Keep the others as 'place' or 'it' as needed. Re-run voice_check; if it goes over 5 per 1,000, take the house word back by cutting 'capstone' (L7) or 'investing strategy' (L59, author-ruled).",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q121",
+   "anchor_check": "found",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 59,
+   "anchor": "If you haven't done that, you haven't really thought about your investing strategy.",
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Makes the calendar a pillar and a verdict, against Ch12's 'the date matters less than the thought' and the author's own forgotten-anniversary confession.",
+   "evidence": "Ch12 L73 'You don't owe the calendar a performance ... The date matters less than whether you've been thoughtful the rest of the year.'; Ch12 L25. The author ruled 'investing strategy' stays. | gw-panel: Whole-book finding 4(3). | gw-slopreader: Next sentence: 'Remembering the dates that matter to her is one of them.' | gw-slopreader: Round 11 item 2: kept 'per his ruling'.",
+   "raised_by": [
+    "gw-panel",
+    "gw-panel",
+    "gw-slopreader",
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Keep the sentence. Before 'So have a system.' add: 'Chapter 12 said the date matters less than the thought behind it. The thought starts with knowing it's coming.'",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "L59: 'Anniversaries and special days are easy to lose track of.' L85: cut 'A lot of people get confused on that.'",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Replace both sentences with: 'The other part is showing up on the days that matter to her, and that starts with remembering them.'",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Leave per the author's ruling. If reopened: 'If you haven't done that, you haven't really planned for her.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q122",
+   "anchor_check": "found",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 71,
+   "anchor": "You've seen *flow* before in this book.",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "About 700 words of definitions (flow, Csikszentmihalyi, equanimity, arête, eudaimonia) sit where the capstone should be warmest; Paul skims, Eric wants it.",
+   "evidence": "L71-85; same cooling as whole-book finding 14. | gw-slopreader: The next sentence carries the content ('In the Introduction and Part I, it belonged to the River…').",
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Trim L71's last three sentences to: 'In Part I it belonged to the River. Here it belongs to the two of you.' Leave the held Csikszentmihalyi paragraphs alone.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'You may have heard the word for this at work: flow. Earlier, flow belonged to the River, as the way you keep going when life changes. Here it belongs to the whole marriage, the two of you working together.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q123",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 83,
+   "anchor": "The strength from Part II, keeping your word and carrying weight, is part of what puts it at its best.",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "L79 makes arête all four of Ch1's checks; L83 maps it to Part II strength, an internal mismatch an evidence-minded reader catches.",
+   "evidence": "L79 'The four things you checked there ... are its parts.' | gw-slopreader: L83's preceding three sentences already map each word to its Part.",
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "'Everything you checked in Chapter 1, the strength from Part II included, is what puts it at its best.'",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete the sentence; L83 ends on 'The warmth in this part is what makes it a life she's glad to share with you.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q124",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 85,
+   "anchor": "A lot of people get confused on that. They look at the marriage as an extension of themselves, and it isn't one.",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Invents a confused crowd so the reader can stand apart from it.",
+   "evidence": "01-voice.md third form: 'never establish the value of something by pointing at the men who missed it.' | gw-slopreader: Outline Ch16: 'the house… declared as the chapter's one image'; Never Do: 'Never stack metaphors.'",
+   "raised_by": [
+    "gw-slopreader",
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'It's easy to treat the marriage as an extension of yourself. It isn't one.'",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "L85: 'Your marriage is its own thing, separate from you, and it needs looking after.' L87: '…so what's good for you alone won't keep it in good shape.' Check the distillation, which the notes say carries the same sentence.",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q125",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "outline-ch24-ch26",
+   "line": null,
+   "anchor": null,
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Ch16 now pre-empts Ch24's daily-investment ah-ha and adds a fourth upkeep image (the house) to Ch24's one image in three places; it gives Ch25's 'Arête question returned' and eudaimonia their antecedent; and its 'She's my best friend' sits against Ch26's ah-ha.",
+   "evidence": "Outline Ch24 ah-ha 'The daily ones do' and the image note at L571; Ch25 key point 3; Ch26 ah-ha 'I'm not sure I've been her friend'; Ch16 L55-57, L79, L93.",
+   "raised_by": [
+    "gw-panel"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Inbox item for the Ch24-26 specs: Ch24 recalls Ch16's house in a clause and does not re-argue investing; Ch25 recalls Ch16's arête gloss; Ch26's ah-ha stays a second-person man's.",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q126",
+   "anchor_check": "not-applicable",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "book",
+   "line": null,
+   "anchor": null,
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Arête is first named in Ch16 (inbox 164). The panel reads this as correct (concept first, word later), on condition that the word does not lie unused from Ch16 to Ch25.",
+   "evidence": "02-audience L71 'Introduce via the concept before the word'; Ch1 L55-67; Ch16 L79; Ch25 spec 'The Arête question returned'.",
+   "raised_by": [
+    "gw-panel"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Leave it in Ch16; no landed-chapter edit. Ch17-23 specs use 'arête' as the handle at least once; fix Q005. Optionally (author's word, constitution) note in 02-audience that it is first named at the Part III close.",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q127",
+   "anchor_check": "not-applicable",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16-book",
+   "line": null,
+   "anchor": null,
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "About 10 back-references in about 2,100 words, the densest in the book; the capstone reads like a review instead of arriving.",
+   "evidence": "L15 'In Chapter 1'; L31 'Chapter 2 drew'; L37 'what Chapter 2 called'; L49 'Chapter 6 brought in', 'At the start of this book'; L65 'As I said in Chapter 12'; L71 'in this book… the Introduction and Part I'; L77 'what Chapter 1 called'; L79 'since Chapter 1', 'the question Chapter 1 asked'.",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Keep L49's Introduction callback and L79's Ch1 link for arête. Elsewhere drop the number: L15 'Once, my calm went cold and I said nothing.'; L37 'The Stoics call those preferred indifferents.'; L49 'The Roman Stoic teacher Musonius Rufus described marriage as one shared life.'; L65 'My grandfather told me: \"Put your wife first.\"'",
+     "severity": "medium"
+    }
+   ],
+   "id": "Q128",
+   "anchor_check": "not-applicable",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 3,
+   "anchor": "You know the stretch I mean.",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Assumes a reader in a good stretch; Paul, in crisis, is told the capstone describes someone else's marriage.",
+   "evidence": "02-audience: Paul's 'marriage is in real trouble'.",
+   "raised_by": [
+    "gw-panel"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "'You may know the stretch I mean, even if it's been a while.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q129",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16-ch02",
+   "line": 31,
+   "anchor": "Chapter 2 drew the line between feeling her mood and becoming it.",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Points to Ch2 but drops Ch2's named handle, so 'compassion' arrives as if it were a new mechanism rather than the same one renamed.",
+   "evidence": "Ch2 68: 'That is what care without contagion looks like.'",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Chapter 2 called it care without contagion: you feel for her without taking on her mood. Then you go to her.' (and delete 'You can feel compassion for somebody without taking on their emotions.')",
+     "severity": "low"
+    }
+   ],
+   "id": "Q130",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 41,
+   "anchor": "Every act of compassion you carry out is a gift to your marriage.",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A greeting-card line that ends the section and adds a 'gift' image.",
+   "evidence": "L39 already lands the section.",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete.",
+     "severity": "low"
+    }
+   ],
+   "id": "Q131",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16-introduction",
+   "line": 51,
+   "anchor": "Some of it comes from the seasons.",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "'seasons' replaced 'weather' to keep clear of the Oak, but Introduction 37 uses 'seasons' in the Oak section (and Prologue 13 uses it too).",
+   "evidence": "Intro 37 'There will be seasons when your wife is tired…'",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Some of it is just age.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q132",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 53,
+   "anchor": "You each come from a family, and both sides need time and patience.",
+   "kind": "move",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Placed right after 'the guests who don't take care of the place' (L51), the families can read as the bad guests in the parallel list.",
+   "evidence": "The Publisher's round-10 fix removed the explicit mapping; the adjacency remains.",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Put the families sentence last in L53: '…The kids need more than either of you planned on. You each come from a family, and both sides need time and patience.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q133",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 75,
+   "anchor": "Applying that to a whole marriage is my idea, not his. So is pairing it with three words,",
+   "kind": "compress",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Joins the later chapters' caveat shape (Q053), though it is the chapter's only one and the outline requires 'said so'.",
+   "evidence": "Same shape as Ch15 55 'The study wasn't about husbands who help, but I read it as…'.",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Optional: 'Taking it to a whole marriage, and pairing it with three words, two of them Greek terms the Stoics used, is my step, not his.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q134",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 77,
+   "anchor": "The first word is one you already know.",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Announces the next sentence.",
+   "evidence": "Next: 'Staying calm and steady on the inside is what Chapter 1 called equanimity.'",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'The first word is equanimity, which Chapter 1 described as staying calm and steady on the inside.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q135",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 87,
+   "anchor": "That person is different from you, and you can't control them.",
+   "kind": "continuity",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Echoes the line L25 scolds. The skeptic says it licenses the line as a joke; the continuity editor says the rhyme is deliberate and works. Not averaged.",
+   "evidence": "L17 'I can't control you'; Line Editor's judgement call 1. | gw-slopreader: L17 'I can't control you'; L25 'carried a smug superiority'. The Line Editor flagged it (Round 11 call 1).",
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Author's choice: keep, or use the Line Editor's 'and you can't run them'. The risk falls if the L25 fix lands.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'That person is different from you, and you don't get to decide for them.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q136",
+   "anchor_check": "found",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 97,
+   "anchor": "Your kids. Your parents. Your siblings. The people you work with. Your wife.",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The early chapters' fragment list, the one place Ch16 drops its later register.",
+   "evidence": "Same device as Ch2 38 and Ch5 39 (Part 1 of the whole-book report).",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Your kids, your parents, your siblings and the people you work with all need you to show up, and so does your wife.'",
+     "severity": "low"
+    }
+   ],
+   "id": "Q137",
+   "anchor_check": "found",
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+  },
+  {
+   "chapter": "ch16",
+   "line": 99,
+   "anchor": "Put the most into your marriage, because she is your number one.",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A one-line imperative close, the fifth in the last eight chapters (Q044), and it carries none of the house words the outline asked for ('his point in house words').",
+   "evidence": "Never Do: 'Close on the chapter's own image.' The notes say the line was held verbatim as commissioned.",
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Author's ruling. If reopened: 'Put the most into the home you share, because she is your number one.' (adds 'home'; re-count)",
+     "severity": "low"
+    }
+   ],
+   "id": "Q138",
+   "anchor_check": "found",
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null,
+   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
   }
  ]
 }

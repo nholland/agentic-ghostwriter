@@ -338,5 +338,25 @@
   "max_para": 115,
   "sections": 0,
   "one_line_paras_pct": 14.3
+ },
+ {
+  "ch": "ch16",
+  "words": 2088,
+  "sents": 185,
+  "avg_sent": 11.3,
+  "sd_sent": 5.2,
+  "long_pct": 0.5,
+  "short_pct": 20.0,
+  "fre": 89.2,
+  "fk_grade": 3.6,
+  "poly_pct": 5.5,
+  "you_per100": 5.6,
+  "i_per100": 3.3,
+  "avg_para": 44.0,
+  "quotes": 5,
+  "paras": 49,
+  "max_para": 116,
+  "one_line_paras_pct": 18.4,
+  "note": "runs/ch16/refined.md, unlanded draft"
  }
 ]
