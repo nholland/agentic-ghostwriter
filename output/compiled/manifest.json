@@ -1,9 +1,7 @@
 {
-  "built": "2026-11-07T07:38:53.902150+00:00",
+  "built": "2026-11-07T14:30:37.511282+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-16, relevant Arc openings and plates",
-  "unapproved_chapters": [
-    16
-  ],
+  "unapproved_chapters": [],
   "source_sha256": {
     "books/the-stoic-husband/chapters/ch01/refined.md": "fbcf4706892948e428acfed091bd5bc12e7dfb4259fa2f23da4fda9c35ba7c7e",
     "books/the-stoic-husband/chapters/ch01/distillation.md": "c612b717fb7d42303d1161d6fcdb92b805622ba816beeb8f0cdbaf9fd99f0ae4",
@@ -50,8 +48,8 @@
     "books/the-stoic-husband/chapters/ch15/refined.md": "669c24900b98fa6bb00a00b4e89a3c3124df676c41c401e68bf8a3085dabf67f",
     "books/the-stoic-husband/chapters/ch15/distillation.md": "3e334bcd6764896e0bd5b125d19d374d4ab1d494c7dde0cfeb1611b8be2732f1",
     "runs/ch15/plate.svg": "58a283982d5f8596d2608a7fb85aa272e550d76889e2611cc3bc1224ba2e58e1",
-    "runs/ch16/refined.md": "9ca9a838d8a47c2d533e94b3ecb08237cfb7c7dc520dcd577df0dc1677000832",
-    "runs/ch16/distillation.md": "d6c57650911403e48d36d4178782616fbf88b16aecec21afab208d7a8ed86d2e",
+    "books/the-stoic-husband/chapters/ch16/refined.md": "1ae3eabd17ab2e752a22143b5ddcd07f822e7e69ce37bb2752dfb0c254dbe3b3",
+    "books/the-stoic-husband/chapters/ch16/distillation.md": "d6c57650911403e48d36d4178782616fbf88b16aecec21afab208d7a8ed86d2e",
     "runs/ch16/plate.svg": "efc33c3ebf239a1601de5263a4dc1cf3e31976d1bb62be0e5283e558e597a84e"
   },
   "outputs": [
@@ -78,7 +76,7 @@
     "share/ch14-16-listening-copy.pdf"
   ],
   "plate_packet": {
-    "built": "2026-11-07T07:38:53.901590+00:00",
+    "built": "2026-11-07T14:30:37.510662+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -169,7 +167,7 @@
       {
         "id": "ch16",
         "title": "Calm and strength make the marriage sound; warmth, kept up every day, makes it a home and puts it in flow",
-        "approved_identical_copy": false
+        "approved_identical_copy": true
       },
       {
         "id": "part-III",
@@ -248,7 +246,7 @@
       "approved_identical_copy": true
     },
     "ch16": {
-      "approved_identical_copy": false
+      "approved_identical_copy": true
     }
   }
 }

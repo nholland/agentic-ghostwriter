@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "refined.md": "9ca9a838d8a47c2d533e94b3ecb08237cfb7c7dc520dcd577df0dc1677000832",
+    "distillation.md": "d6c57650911403e48d36d4178782616fbf88b16aecec21afab208d7a8ed86d2e"
+  },
+  "reviews": {
+    "personas": {
+      "status": "pass",
+      "report": "persona-refined.md",
+      "sha256": "02bc866a14590f4f41a0475fe10a4cef8bee1b83463ad1378cbdba123748a46a",
+      "scope": "gw-panel on the round-10 text (house version): Ch16 prose, 02-audience.md, Ch15 and Introduction in part, Ch1/2/6/12 by grep. Essentials: in-laws read as 'inconsiderate guests' fixed; 'investing strategy' kept on the author's word (Round 11: 'they will get it'); 'health of the whole' softened on his word; ar\u00eate given airspace on his word, earlier naming parked as inbox #164. Round-11 edits after the panel re-checked by two first-time cold reads (all findings applied)."
+    },
+    "coherence": {
+      "status": "pass",
+      "report": "review-round10.md",
+      "sha256": "0bfe3d5f9225cfe4f2f3f6872a8cc9743afbabdd8340d7d61ad673d4687ce395",
+      "scope": "Cross-chapter coherence: full gw-slopreader coherence pass on v2 (v1/coherence-refined.md and coherence-refined.md); on v3 the Reader Panel's continuity editor, conformance (gw-specchecker, 12/15 with declared rulings), cold reads, and the Publisher's check of the Ch1 callbacks (best-husband question, four virtues) against chapters/ch01/refined.md. Not run on v3: a separate full gw-slopreader whole-book coherence pass."
+    }
+  },
+  "deferred": [
+    "164"
+  ]
+}
