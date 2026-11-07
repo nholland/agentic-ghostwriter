@@ -4560,3 +4560,17 @@ verdict; no prose or plate is landed.
 - … and 87 more
 
 **Next:** `/gw 16` — Chapter 16 has not started.
+
+## 2026-11-07 14:55 — `ccr-fe0a0d31-uw1din` — 4 commit(s) this session
+- `inbox/162-rule-on-the-whole-book-qa-ledger-114-edit-sugges.md`
+- `runs/handoff.json`
+- `runs/handoff/intake-676873f66a02594b.json`
+- `runs/qa/2026-11-07-edits-ch00-ch15.json`
+- `runs/qa/2026-11-07-edits-ch00-ch15.md`
+- `runs/qa/2026-11-07-panel-ch00-ch15.md`
+- `runs/qa/2026-11-07-qa-review.pdf`
+- `runs/qa/2026-11-07-qa.md`
+- `runs/qa/2026-11-07-readability-ch00-ch15.json`
+- `runs/qa/2026-11-07-slop-ch00-ch15.md`
+
+**Next:** `/gw 16` — Chapter 16 has not started.
