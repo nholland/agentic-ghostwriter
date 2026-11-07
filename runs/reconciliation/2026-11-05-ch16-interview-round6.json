@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-05T05:38:17.091218+00:00",
+  "subjects": [
+    "interview:ch16-round6"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/marriage-in-flow.md",
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md"
+  ],
+  "authority": "The author, Ch16 Round 6, 2026-11-05",
+  "reason": "New framework: the marriage in flow; bank framework records his Round 6",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/marriage-in-flow.md": "7e2ab536a20ef9d2eef2cd2c71afd7d3effcf655ef07abc9383c5ced53cc5988",
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md": "55e1613079d5a7a33214dd0197fd27e7d56d32bced9ef65f1e4787a7c1dd3f3a",
+    "runs/ch16/interview.md": "1cbf31df5edd97f8433a4a73bce382b434ff135f40be742f4269637f3dd9afc1",
+    "runs/ch16/outline-proposal-v2.md": "464fd4be089823b95421cafbf4751a997e374578e8df8c3c73b6ce025e397fa6",
+    "books/the-stoic-husband/okf/index.md": "65310f452492136903ce5846d21288a19b1056c0d4b51e831c3b909e3681ef47",
+    "books/the-stoic-husband/okf/log.md": "08dfcf6bd6fa85b78ede40e30de9a74d5b5cc553bda08dd0c4956726df222610"
+  }
+}

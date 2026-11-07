@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-04T13:26:00.921550+00:00",
+  "subjects": [
+    "interview:ch16-round2a"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md",
+    "books/the-stoic-husband/okf/stories/dont-forget-your-wife-when-you-have-kids.md"
+  ],
+  "authority": "The author, Ch16 interview Round 2a, 2026-11-04 (runs/ch16/interview.md)",
+  "reason": "New framework (bank of credits) and new grandfather story in his words; attribution, Ch7 tension and one-image rule left open as questions.",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md": "0a6c04a5e38e733c094934a70d455e1302442d7f9b18bd383f257968c2571007",
+    "books/the-stoic-husband/okf/stories/dont-forget-your-wife-when-you-have-kids.md": "b2223445c347f4a7d8b88a0da81a619375d7028b2bb2f3f8cb1292436e4aa4a5",
+    "runs/ch16/interview.md": "9aaaceba63879c15b46218065be818ba1d30deea6c407aded029e63dfa3d65dc",
+    "books/the-stoic-husband/okf/index.md": "b00ea23dd2649f51aee51a025903cd99ca216d7db722cc34a52a961331be136c",
+    "books/the-stoic-husband/okf/log.md": "aa0179e8ccb16e2447b3df663dc96b81081d3cb4b41416822346c0a8ca75f39a"
+  }
+}

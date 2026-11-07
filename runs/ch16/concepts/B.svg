@@ -1,0 +1,42 @@
+<!-- Ch16 concept B, rough thumbnail: the joint account over time. Small identical deposits on ordinary days raise one shared level; in a bad month the level falls but stays above empty, because of what is already there. Graph centred on 320 (60..580). Weights: 1.4 quiet, 2 standard, 3.2 carrier. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" style="color:#1a1a1a" role="img" aria-label="Calm, strength and warmth together put the marriage in flow">
+  <style>
+    .ttl{font:600 14px Georgia,serif;text-anchor:middle}
+    .sub{font:italic 14px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 13px Georgia,serif;letter-spacing:.12em;text-anchor:middle}
+    .cap{font:italic 13px Georgia,serif;text-anchor:middle;opacity:.74}
+    .capq{font:italic 600 14px Georgia,serif;text-anchor:middle}
+  </style>
+  <rect x="0" y="0" width="640" height="480" fill="#ffffff"/>
+  <g fill="currentColor">
+    <text class="ttl" x="320" y="40">Calm, strength and warmth together put the marriage in flow</text>
+    <text class="sub" x="320" y="64">In a marriage, the two of you share one joint account</text>
+  </g>
+  <!-- what is there: shaded area under the level -->
+  <path d="M60 360V330H92V318H124V306H156V294H188V282H220V270H252V258H284V246H316V234H348V222H380L440 300H520L580 286V360Z" fill="currentColor" opacity=".08"/>
+  <!-- empty: the baseline -->
+  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5"><path d="M60 360H580"/></g>
+  <!-- the level, carrier -->
+  <g fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"><path d="M60 330H92V318H124V306H156V294H188V282H220V270H252V258H284V246H316V234H348V222H380L440 300H520L580 286"/></g>
+  <!-- deposits: small, identical, nobody keeps count -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8">
+    <path d="M76 296V318M76 318l-4 -6M76 318l4 -6"/>
+    <path d="M108 284V306M108 306l-4 -6M108 306l4 -6"/>
+    <path d="M140 272V294M140 294l-4 -6M140 294l4 -6"/>
+    <path d="M172 260V282M172 282l-4 -6M172 282l4 -6"/>
+    <path d="M204 248V270M204 270l-4 -6M204 270l4 -6"/>
+    <path d="M236 236V258M236 258l-4 -6M236 258l4 -6"/>
+    <path d="M268 224V246M268 246l-4 -6M268 246l4 -6"/>
+    <path d="M300 212V234M300 234l-4 -6M300 234l4 -6"/>
+    <path d="M332 200V222M332 222l-4 -6M332 222l4 -6"/>
+    <path d="M364 188V210M364 210l-4 -6M364 210l4 -6"/>
+  </g>
+  <g fill="currentColor">
+    <text class="lbl" x="220" y="390">ORDINARY DAYS</text>
+    <text class="cap" x="220" y="410">small, and nobody keeps count</text>
+    <text class="lbl" x="460" y="390">A BAD MONTH</text>
+    <text class="cap" x="460" y="410">lives on what's already there</text>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".28"><path d="M120 428H520"/></g>
+  <text class="capq" x="320" y="456" fill="currentColor">Is there more between you now than there was a year ago?</text>
+</svg>

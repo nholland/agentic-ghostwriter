@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-11-04T15:37:08.453088+00:00",
+  "subjects": [
+    "interview:ch16-round3"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md",
+    "books/the-stoic-husband/okf/frameworks/bring-steadiness-not-superiority.md",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md",
+    "books/the-stoic-husband/okf/frameworks/self-command-not-detachment.md",
+    "books/the-stoic-husband/okf/frameworks/the-thin-line.md"
+  ],
+  "authority": "The author, Ch16 Round 3, 2026-11-04: his reflection, and 'The rest of the rulings look good'",
+  "reason": "His turn after her answer recorded; P1-P4 accepted and written",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md": "fe697c90ae2dfeb041fe1ba7791b28c058ff203ed9ec8d4cce466a23e73a9eb0",
+    "books/the-stoic-husband/okf/frameworks/bring-steadiness-not-superiority.md": "7993bc50cc024188d5fda76eb5a5ebdd49b757118c61416fff49d6c3ce0312f3",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md": "ca8471963f2ec7a32af485080a57ee0d01dabb50245e77c3fdc057bead1763ac",
+    "books/the-stoic-husband/okf/frameworks/self-command-not-detachment.md": "87c887b586a028b68ded9491fae2fc7fab64c4554e6f42d7886428ea87e994e9",
+    "books/the-stoic-husband/okf/frameworks/the-thin-line.md": "79c4fb38591da193887142b0cc65165f5f22b3734e335493e163be400b15c142",
+    "runs/ch16/interview.md": "6193d86a0cc333d319bd051424a86cd8d82a1305815506064baf7570920c12a3",
+    "runs/ch16/proposed-concepts.md": "067c82939c556f03f17310392855092e197a7c2a981188eb727f81fe8c822b28",
+    "books/the-stoic-husband/okf/index.md": "182eba973addcab3c590445a8e3b860c2d98f8082b775de6fd15fa3569a78ae5",
+    "books/the-stoic-husband/okf/log.md": "51305b255c94e3da01c3cf5ce841b75338382be2d7d07d11f7b35de2feecb547"
+  }
+}

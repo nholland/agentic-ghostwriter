@@ -24,7 +24,7 @@ verification_note: >
   those need independent book/chapter verification before manuscript use.
 ip: external
 tags: [citation, kruse, psychology-today, verified]
-chapter_slugs: [stop-outsourcing-your-peace, warmth-is-strength]
+chapter_slugs: [stop-outsourcing-your-peace, the-marriage-in-flow]
 timestamp: 2026-06-14T00:00:00Z
 ---
 

@@ -30,7 +30,7 @@ verification_note: >
   inbox #116. Full report: runs/ch02/seneca-calm-not-root-out-factcheck.md.
 ip: external
 tags: [citation, seneca, de-ira, misattribution, defect, do-not-quote]
-chapter_slugs: [stop-outsourcing-your-peace, anger-is-failed-leadership, warmth-is-strength]
+chapter_slugs: [stop-outsourcing-your-peace, anger-is-failed-leadership, the-marriage-in-flow]
 timestamp: 2026-06-14T00:00:00Z
 ---
 

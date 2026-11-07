@@ -12,7 +12,7 @@ tags:
 - placement
 chapter_slugs:
 - be-patient-be-kind
-- warmth-is-strength
+- the-marriage-in-flow
 - how-to-fight-without-becoming-small
 - what-they-inherit
 timestamp: '2026-10-23T14:50:00Z'

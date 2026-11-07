@@ -7,7 +7,7 @@ description: >
 provenance: "Author interview, Chapter 15 (runs/ch15/interview.md), 2026-10-23 (Rounds 3, 4)."
 ip: author
 tags: [framework, kindness, warmth, sun, spot-check]
-chapter_slugs: [be-patient-be-kind, warmth-is-strength, the-marriage-you-build-every-day]
+chapter_slugs: [be-patient-be-kind, the-marriage-in-flow, the-marriage-you-build-every-day]
 timestamp: 2026-10-23T14:45:00Z
 ---
 
@@ -35,7 +35,7 @@ itself still awaits his yes.
 # Placement (flagged 2026-10-23, proposal for the author's word)
 
 - **Chapter 15** (be-patient-be-kind): the spine candidate.
-- **Chapter 16** (warmth-is-strength): the other half of the Sun arc's close.
+- **Chapter 16** (the-marriage-in-flow): the other half of the Sun arc's close.
 - **Chapter 24** (the-marriage-you-build-every-day): a candidate evening-review question,
   "Was I the best part of her day?"
 

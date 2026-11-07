@@ -6,7 +6,7 @@ pipeline does that this house does not, each with the trigger that should close
 it. Say "not yet, and here is what it waits on" rather than discovering a gap
 when he needs it.*
 
-## Open (2)
+## Open (3)
 
 ### Publication stack: positioning, pitch, publishing path, indie plan, review strategy, book club guide, Substack push, Buffer
 
@@ -80,6 +80,12 @@ anything; that does not change.
 **Trigger:** starting a new book
 
 
+
+### voice_check.py counts metaphor-family terms by single-word prefix, so a declared two-word term (e.g. 'keep up') is never counted
+
+**Trigger:** the next chapter that declares a multi-word image term
+
+Ch16 v3 declared 'keep up' in its house family; the script reported 7 mentions (3.7/1,000) where a hand count gives 9 (4.7/1,000). Still under the cap, but a two-word image could pass the cap uncounted.
 
 ## Built since the audit (6)
 

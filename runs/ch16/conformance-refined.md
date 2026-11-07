@@ -1,0 +1,2 @@
+# Ch16 v2 conformance on refined (2026-11-05 07:15 UTC)
+gw-specchecker clean room: 13/15 PASS; both FAIL rows are declared author rulings (River named twice per H1; "married to a stone" his summary). 3 attribution findings, low: Musonius back-reference hangs his joint-account idea on Musonius ("the same shared project"); "The Stoics" on virtue unsourced but hedged; arête gloss unsourced (Diogenes Laertius concept).

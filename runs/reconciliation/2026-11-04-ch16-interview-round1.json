@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-11-04T04:39:04.833793+00:00",
+  "subjects": [
+    "interview:ch16-round1"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/the-old-blueprint-of-a-man.md",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md",
+    "books/the-stoic-husband/okf/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md",
+    "books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md"
+  ],
+  "authority": "The author, Ch16 interview Round 1 brain dump, 2026-11-04 (runs/ch16/interview.md)",
+  "reason": "Two new stories and one author note in his words; compassion framework gains his 'highest state' line. Reframe of Ch16 and five Round 2 questions remain pending.",
+  "files": {
+    "books/the-stoic-husband/okf/stories/the-old-blueprint-of-a-man.md": "eed3af7ad8ecd66f8f8d62de83bb203ed18ec8b38fa9630107cc94b3cd5f2f6a",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md": "cea1b07ae668414a723ae5f537403cec9a10a2b6782988d203136a09a860db70",
+    "books/the-stoic-husband/okf/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md": "6be9e7895011aa0a8e940acebb45de4c281d8643c6b0ce221aa3d503dd165834",
+    "books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md": "9058a57a0ca4a55db77f5bb5dabc50765f232465286d395ceb8947d1efff6163",
+    "runs/ch16/interview.md": "39df94729ee7441a1adeddbab7142f615bc156023fc27670d8d145c2d84447f0",
+    "books/the-stoic-husband/okf/index.md": "05805435153b54ffb6f625317a3786fa0df468fbe09f586cc9bad28a6fb75548",
+    "books/the-stoic-husband/okf/log.md": "3a339df580a81943b59eb571918fb089e722c7f0b3bfa7b2985a6f85d5bd3ec8"
+  }
+}

@@ -1,8 +1,8 @@
 # Current compiled copies
 
-Coverage: Prologue, Introduction, Chapters 1-15, relevant Arc openings and plates. This is the available book, not all 29 planned chapters.
+Coverage: Prologue, Introduction, Chapters 1-16, relevant Arc openings and plates. This is the available book, not all 29 planned chapters.
 
-Unapproved chapter inputs: none. Plate approval status is recorded in manifest.json.
+Unapproved chapter inputs: [16]. Plate approval status is recorded in manifest.json.
 
 - [Book](book.pdf): each chapter’s prose, plate, and Putting into Practice page, with Arc openings and closing plates.
 - [Putting into Practice](distillations.pdf): every chapter’s Putting into Practice page, in order.
@@ -25,5 +25,6 @@ Chapter PDFs include plate and distillation when built by compile_current.py:
 - [ch13](chapters/ch13.pdf)
 - [ch14](chapters/ch14.pdf)
 - [ch15](chapters/ch15.pdf)
+- [ch16](chapters/ch16.pdf)
 
 Stable filenames are replaced on rebuild. Supporting HTML/images are in assets/. Sources and review reports remain in books/ and runs/.

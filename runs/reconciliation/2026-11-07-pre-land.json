@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-11-07T09:44:15.117411+00:00",
+  "subjects": [
+    "derived:pre-land"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Generated files, regenerated before the author's 'Commit all to main'",
+  "reason": "Queue reflects the 2026-11-06 slug rename; GAPS.md reflects inbox #162. No knowledge changed.",
+  "files": {
+    "books/the-stoic-husband/citation-queue.md": "0c25ba074697b8e59f8e18f17b6e75258404bb84874b6ba8857603692badd16b",
+    "GAPS.md": "2b1b93db6abedc7085a64a90efc7702bbe90f532daf5c4f45866bdea589c4863"
+  }
+}

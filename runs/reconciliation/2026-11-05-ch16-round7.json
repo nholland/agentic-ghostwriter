@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-05T06:43:49.157604+00:00",
+  "subjects": [
+    "interview:ch16-round7"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md"
+  ],
+  "authority": "The author, 2026-11-05: 'I will go with your recommendations to all six'",
+  "reason": "P1 joint-account rules accepted and written",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md": "018a4abb631954ce24fc60d80d3a56e58e2e5b884c91f0cc98b59f10b6a8d826",
+    "books/the-stoic-husband/okf/log.md": "734b2a71bbadf71d8d1813833622f62a4b05885db127dc0ad60cd672c6118aa4",
+    "runs/ch16/interview.md": "4cb816763cfb849955ea174b49bb879b54d6e846cbd346524a7c1d5d5f95f341",
+    "runs/ch16/proposed-concepts.md": "ee20b648b7e35dfc1f16143e8a544a868046b54c78d3e67d98a4e500eac25cd6"
+  }
+}

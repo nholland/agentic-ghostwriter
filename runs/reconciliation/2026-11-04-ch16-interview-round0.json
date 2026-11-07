@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-04T01:48:47.378471+00:00",
+  "subjects": [
+    "chapter:ch16"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md"
+  ],
+  "authority": "Author's words, runs/ch16/interview.md Round 0 (2026-11-03)",
+  "reason": "Round 0 restates the author's existing compassion-over-empathy view, already in compassion-vs-empathy.md. His reframe of Ch16 (less Stoicism, more the inherited idea of what a man is) is a pending outline proposal, not accepted knowledge; to be reconciled after round 1 answers and his ruling on 03-outline.md.",
+  "files": {
+    "runs/ch16/interview.md": "fbdee2290a4b3ab4b79e3747fbfbe67c3d677cf752346b5e3906dffc69404e67"
+  }
+}

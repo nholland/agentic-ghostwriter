@@ -9,7 +9,7 @@ description: >
 provenance: Author notes (Ch 2 tone feedback, 2026-06-02)
 ip: author-synthesis
 tags: [framework, emotional-contagion, hegemonikon, mirroring]
-chapter_slugs: [stop-outsourcing-your-peace, warmth-is-strength, friendship-is-the-hidden-engine]
+chapter_slugs: [stop-outsourcing-your-peace, the-marriage-in-flow, friendship-is-the-hidden-engine]
 timestamp: 2026-06-02T00:00:00Z
 ---
 

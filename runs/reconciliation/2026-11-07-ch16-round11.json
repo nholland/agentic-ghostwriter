@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-07T02:12:23.788084+00:00",
+  "subjects": [
+    "interview:ch16-round11"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/there-are-two-of-you.md",
+    "books/the-stoic-husband/okf/frameworks/marriage-in-flow.md"
+  ],
+  "authority": "The author, Ch16 Round 11, 2026-11-07",
+  "reason": "Marriage as its own entity; two-of-you line brought into Ch16",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/there-are-two-of-you.md": "39f75a8707ed86ed4ce1cf9f535100451fcc4e22438344b7583245d468e5547e",
+    "books/the-stoic-husband/okf/frameworks/marriage-in-flow.md": "0b1e2d3846d4b590d7cdae4c7c9d67b94840b35508b809d8a1d4cb62d57e9b7f",
+    "books/the-stoic-husband/okf/log.md": "4e3afeb3d1b9d6daccaaf7e2f251167a053f676f6d708990043379683310834e",
+    "runs/ch16/interview.md": "6acfb4a955e6d1b6d6e4f1e3c895e3ded02c1dfb418e61597d70c545ea50e286"
+  }
+}

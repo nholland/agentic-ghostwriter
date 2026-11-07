@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-06T15:24:10.485946+00:00",
+  "subjects": [
+    "interview:ch16-round10"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md",
+    "books/the-stoic-husband/okf/frameworks/write-down-the-dates-that-matter-to-her.md"
+  ],
+  "authority": "The author, Ch16 Round 10, 2026-11-06",
+  "reason": "Costs-to-the-marriage and dates-system frameworks; outline key point 4 revised",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md": "e1d197e4180391dac6dd38f1d445248d82b1cb671097d2561defa67247747cd0",
+    "books/the-stoic-husband/okf/frameworks/write-down-the-dates-that-matter-to-her.md": "6e764fb80b525e980408a11d930f89b2b206fa3b412b3baca3ddfa5db9475d21",
+    "books/the-stoic-husband/okf/index.md": "26fc084bf8e752c89effe2998c6860028ee1f71d46a2cf6077968bdcb3d7593b",
+    "books/the-stoic-husband/okf/log.md": "c9799580a18ea72eae70637d69a0ac5d84ba1ab54dc8296267b7373183701966",
+    "books/the-stoic-husband/03-outline.md": "b5f5a4c1565085e41ae20f1069fe9a39d195b87128c401d0fae8d6254cbb4d26",
+    "runs/ch16/interview.md": "4663c262d43cbafc19839012c566418350ba01beb34d8909a2d9f193f67464ec"
+  }
+}

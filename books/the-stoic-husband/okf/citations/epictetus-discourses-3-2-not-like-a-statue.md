@@ -22,7 +22,7 @@ verification_note: 'Wording read at page-text in Long (Gutenberg #10661 selectio
   against his own copy (CLAUDE.md Rule 3). Staged by gw-researcher 2026-10-23 15:10 UTC from
   the research file only; nothing re-read or re-transcribed at staging.'
 tags: [epictetus, long, discipline-of-action, apatheia, relations]
-chapter_slugs: [warmth-is-strength, be-patient-be-kind]
+chapter_slugs: [the-marriage-in-flow, be-patient-be-kind]
 timestamp: '2026-10-23T15:10:31Z'
 ---
 

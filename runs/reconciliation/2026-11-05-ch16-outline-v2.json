@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-05T06:18:36.511773+00:00",
+  "subjects": [
+    "outline:ch16-v2"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md"
+  ],
+  "authority": "The author, 2026-11-05: \"Yes\" to runs/ch16/outline-proposal-v2.md",
+  "reason": "Ch16 spec reframed as capstone; joint account recorded as accepted",
+  "files": {
+    "books/the-stoic-husband/okf/frameworks/the-bank-of-credits.md": "0007da7af8979cc634d8f7cfc850052f60740fdfc32524f8f95454aa35ae21e4",
+    "books/the-stoic-husband/okf/log.md": "3cea35194de9536c122546a962df07c7c71c32cbf96ff21358eb4c233972c9b1",
+    "books/the-stoic-husband/03-outline.md": "f7ca311ab8ca2863e7974e792c5097030c444b75154a468cae6cb6d4ddb25a55",
+    "runs/ch16/interview.md": "0c531093ed9b458203c1d8a33e72e921d708f8ef377d7e82783a29a9cf5223da"
+  }
+}

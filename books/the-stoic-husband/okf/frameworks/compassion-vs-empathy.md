@@ -9,7 +9,8 @@ description: >
 provenance: Author notes (Ch 2 check-in, 2026-06-02) + Psychology Today article (CONFIRMED — Kruse, 2025)
 ip: author-synthesis
 tags: [framework, compassion, empathy, apatheia, governance]
-chapter_slugs: [stop-outsourcing-your-peace, warmth-is-strength]
+chapter_slugs: [stop-outsourcing-your-peace, the-marriage-in-flow]
+updated: '2026-11-04, author, Ch16 Round 1 - compassion aims at her highest state'
 timestamp: 2026-06-02T00:00:00Z
 ---
 
@@ -49,6 +50,7 @@ not only more Stoic — it is more effective.
   baseline — steady, warm, present — *is* the care. Being swept into her illness
   is not love; it is losing jurisdiction at the moment she most needs him to
   have it.
+- **Ch16 Round 1 (author, 2026-11-04):** "you can feel compassion for somebody without taking on their emotions. ... I think compassion is a much stronger word because you don't want the other person to feel upset, anxious, or sad. You want them to be in their highest state."
 - **Key line (author):** "You don't have to feel what the other person is
   feeling. You have to see it and recognize it."
 

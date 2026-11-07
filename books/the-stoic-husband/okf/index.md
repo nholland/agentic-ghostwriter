@@ -28,6 +28,14 @@ See [README.md](/README.md) for the original pilot assessment and integration
 notes.
 
 ## Frameworks
+- [Write Down the Dates That Matter to Her](/frameworks/write-down-the-dates-that-matter-to-her.md) — investing is showing up where she knows you're invested; have a system for the dates (the author, Ch16 Round 10)
+- [The Marriage in Flow](/frameworks/marriage-in-flow.md) — calm, strong and loving culminate in the marriage in flow: equanimity, arete, eudaimonia (the author's Sun-arc capstone, Ch16 Round 6)
+- [Self-Command, Not Detachment](/frameworks/self-command-not-detachment.md) — anger as temporary madness gave him a new picture of strength; overused, calm became distance (Ch16, author-accepted P2)
+- [The Thin Line](/frameworks/the-thin-line.md) — men's fear between vulnerable and detached (Ch16, author-accepted P3)
+- [Equanimity, Arete, Eudaimonia](/frameworks/equanimity-arete-eudaimonia.md) — the relationship at peace, at its best, flourishing; the author's three words to close the Sun arc (Ch16 Rounds 1-2)
+- [Many Partners in One](/frameworks/many-partners-in-one.md) — a friend's line on asking one spouse to be every kind of partner; placed in Ch26 on the author's word
+- [There Are Two of You](/frameworks/there-are-two-of-you.md) — the universal problem is the other person; humility, negotiation, not being right (unattributed online source; candidate Ch19)
+- [The Bank of Credits](/frameworks/the-bank-of-credits.md) — the relationship as an investment, not a burden: deposits before the withdrawal, green everywhere, most of all with her (the author's, Ch16 Round 2a; attribution and Ch7 tension open)
 
 Author-developed models and lenses. Author IP — never cited as external
 research unless explicitly noted under `# Citations`.
@@ -139,6 +147,9 @@ Real audience signals and author anecdotes, used as composite scenarios.
 - [The Wife Who Is Enough](/stories/the-wife-who-is-enough.md) — author testimony for Ch14; author approved use, subject to review.
 - [Her Full Agenda Meets His Rest (Coming Home, Busy Weekends)](/stories/coming-home-into-the-tension.md) — he walks in tired, or she wakes to a packed weekend, and she is stretched and asking; he used to hear 'lazy'; he came to hear her load, then help and hug (the author's own account; widened Round 5)
 - [The Vortex: Family Friction Becomes Disconnection](/stories/the-vortex.md) — her strain with a sibling or a child becomes distance between them; taking the bait pulls everyone in (the author's own account, Ch15 Round 8)
+- [The Old Blueprint of a Man](/stories/the-old-blueprint-of-a-man.md) — demand, small talk, silence, or blow up; his grandfather's and father's word was law (the author's own account, Ch16 Round 1)
+- ["I Can't Control You"](/stories/i-cant-control-you-said-aloud.md) — the Stoic line said aloud mid-argument, heard as not caring (the author's own account, Ch16 Round 1; Ch1 told the internal version)
+- ["Don't Forget Your Wife When You Have Kids"](/stories/dont-forget-your-wife-when-you-have-kids.md) — his grandfather: the kids will leave, your wife will always be there (the author's own account, Ch16 Round 2a)
 
 ## Citations
 
@@ -148,6 +159,13 @@ no-fabrication ledger for CLAUDE.md Rule 3.
 
 - [Gottman — The Four Horsemen](/citations/gottman-four-horsemen.md) — status: verifiable
 - [Carrère & Gottman (1999), the first three minutes](/citations/carrere-gottman-1999-first-three-minutes.md) — status: verifiable; supports the three-minute design only, not any accuracy figure
+- [Csikszentmihalyi (1990), Flow](/citations/csikszentmihalyi-1990-flow.md) — status: unverified; search summaries only; applying flow to a marriage is the author's step (Ch16)
+- [Seneca, De Ira I.1.2 (Basore): anger as temporary madness](/citations/seneca-de-ira-1-1-temporary-madness.md) — status: unverified; Seneca reports "certain wise men" said it, so never "Seneca called anger..." (Ch16)
+- [Marcus Aurelius, Meditations IV.4 and VI.44 (Long): the world as one city](/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md) — status: unverified; "cosmopolis" is a gloss, not Marcus's word (Ch16)
+- [Diogenes Laertius VII.87-90 (Hicks): eudaimonia and arete](/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md) — status: unverified; glosses only, Hicks is not a house edition (Ch16)
+- ["Emotional bank account": Covey 1989; also Gottman](/citations/emotional-bank-account-covey-gottman.md) — status: unverified; "Covey made it famous", never "coined" (Ch16)
+- [Seneca, Letter 71.3 (Gummere): no wind is the right wind](/citations/seneca-letter-71-3-no-wind-the-right-wind.md) — status: unverified; optional, likely the author's half-remembered "storm" line (Ch16)
+- [GAP: male roles "mirror" nature](/citations/male-roles-mirror-nature-gap.md) — gap marker; not in the Ch16 spec (Ch16)
 - [Gottman — Repair Attempts](/citations/gottman-repair-attempts.md) — status: verifiable
 - [Morally Good People and Happiness/Meaning](/citations/morally-good-people-and-happiness-meaning.md) — status: unverified (Psyche article)
 - [Perel — Mating in Captivity](/citations/perel-mating-in-captivity.md) — status: verifiable
@@ -422,6 +440,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 `type: QA Finding` concepts.
 
 ## Notes
+- [Ch16 Round 1: masculinity, superiority cloak, preferred indifference, two people](/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md) — the author's reframe of Ch16 and its material, in his words; outline change pending
 
 - [Inline chapter visuals](/notes/2026-10-01-inline-chapter-visuals.md) — inline-visual commissions and approved Chapter 1 plate/inline arrangement; Designer exploration queued in inbox 110.
 

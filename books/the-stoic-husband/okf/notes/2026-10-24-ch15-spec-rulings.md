@@ -11,7 +11,7 @@ tags:
 - spec
 chapter_slugs:
 - be-patient-be-kind
-- warmth-is-strength
+- the-marriage-in-flow
 timestamp: '2026-10-24T01:12:00Z'
 ---
 

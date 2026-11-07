@@ -183,3 +183,13 @@ The historical predecessor is `runs/design/2026-09-20-plate-names-and-visual-sum
 **Validation question:** Without the chapter, whose replies grow in the upper exchange, and does the lower arc read as him taking something off her plate, or as her handing him a chore?
 
 **Source:** runs/ch15/plate.svg; runs/ch15/plate-notes.md; runs/ch15/distillation.md; runs/ch15/plate-brief.md; runs/ch15/refined.md ("The zing"; "What she's carrying"; "The long game"; "Off her plate"; "The best part", including the closing line); runs/ch15/plate-concepts.md, concept A; runs/ch15/plate-pick.md (four fixes, draft 2026-10-24); runs/ch15/plate-read.md (six edits, revision 1 2026-10-24; four drawing fixes from the round-2 read, revision 2 2026-10-24, inbox #154; two fixes from the round-3 read, revision 3 2026-10-25, inbox #154).
+
+## ch16 | Calm and strength make the marriage sound; warmth, kept up every day, makes it a home and puts it in flow
+
+**Intent:** Calm and strength make the marriage sound, but calm alone can go cold; warmth, kept up every day, is what makes the sound house a home, and with all three at once the marriage is at peace, at its best, and flourishing.
+
+**Visual explanation:** Two houses, mirrored about the centre, joined by an arrow. Left: two walls, CALM and STRENGTH, labelled separately as two qualities in him, standing on one floor line with a door between them, under an empty dashed roof glossed "calm alone can go cold"; below, "structurally sound". Right: the same walls, door and floor, with the roof laid on solid and black, WARMTH, glossed above "kept up every day" and below "a home". The only change between the two is the roof, so warmth is what turns a sound house into a home. Closing line: "At peace, at its best, and flourishing". The image is the chapter's own house (metaphor_family declared for v3: house, home, upkeep, roof, wall, capstone), calling back the Introduction's "A house can be structurally sound and still feel cold".
+
+**Validation question:** Without the chapter, does the roof read as what turns the sound house into a home, or as trim on a house that was already finished? Do the walls read as two qualities in him, or as him and her?
+
+**Source:** runs/ch16/plate.svg; runs/ch16/plate-notes.md; runs/ch16/distillation.md (Mechanism; "Calm alone can go cold"; "Calm and strength make the house sound, and warmth makes it a home"); runs/ch16/refined.md ("a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home"; "It's the capstone"; "at peace, at its best, and flourishing"; metaphor_family v3); runs/ch16/plate-concepts.md, concept A; runs/ch16/plate-pick.md; runs/ch16/plate-read.md (draft 2026-11-05, house revision 2026-11-06).
