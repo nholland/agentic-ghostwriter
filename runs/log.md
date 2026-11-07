@@ -4560,3 +4560,38 @@ verdict; no prose or plate is landed.
 - … and 87 more
 
 **Next:** `/gw 16` — Chapter 16 has not started.
+
+## 2026-11-07 09:44 — `ccr-b71105f1-5fo8nf` — 63 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-1-11-natural-affection-sick-daughter.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-3-2-not-like-a-statue.md`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-16-sympathy-not-inward-lament.md`
+- `books/the-stoic-husband/okf/citations/klimecki-et-al-2014.md`
+- `books/the-stoic-husband/okf/citations/kruse-stoic-compassion-psychology-today.md`
+- `books/the-stoic-husband/okf/citations/male-roles-mirror-nature-gap.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-1-9-free-from-passion-most-affectionate.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md`
+- `books/the-stoic-husband/okf/citations/seneca-calm-not-root-out-emotions.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-clementia-2-5-6-help-not-pity.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-ira-1-1-temporary-madness.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-71-3-no-wind-the-right-wind.md`
+- `books/the-stoic-husband/okf/citations/seneca-weep-but-not-wail.md`
+- `books/the-stoic-husband/okf/citations/singer-klimecki-2014-empathy-compassion.md`
+- `books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md`
+- `books/the-stoic-husband/okf/frameworks/bring-steadiness-not-superiority.md`
+- `books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md`
+- `books/the-stoic-husband/okf/frameworks/emotional-contagion-the-human-mirror.md`
+- `books/the-stoic-husband/okf/frameworks/equanimity-arete-eudaimonia.md`
+- `books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md`
+- `books/the-stoic-husband/okf/frameworks/many-partners-in-one.md`
+- `books/the-stoic-husband/okf/frameworks/marriage-as-the-death-of-the-imagined-self.md`
+- `books/the-stoic-husband/okf/frameworks/marriage-in-flow.md`
+- … and 140 more
+
+**Next:** `/gw 16` — Chapter 16 stopped at review (scoped chapter review evidence missing or invalid (review.json)).
