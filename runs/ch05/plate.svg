@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 486" style="color:#1a1a1a" role="img" aria-label="The courage to come back: the same fight twice, once with the real thing left unsaid and once with it said">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 486" style="color:#1a1a1a" role="img" aria-label="The courage to come back">
   <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .ttl{font:600 17px Georgia,serif;text-anchor:middle}
     .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
     .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
     .txtc{font:13px Georgia,serif;opacity:.86;text-anchor:middle}
@@ -13,7 +13,7 @@
   <rect x="0" y="0" width="640" height="486" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE COURAGE TO COME BACK</text>
+    <text class="ttl" x="320" y="40">The courage to come back</text>
     <text class="sub" x="320" y="70">A pause is only healthy if you come back.</text>
   </g>
 

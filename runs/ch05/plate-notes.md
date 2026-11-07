@@ -374,3 +374,7 @@ that disappears turns panel two into a plain bar.
    cue that this is one man twice.
 3. **Parrhesia is gone, above.** If you want the term in the book's plate set it
    belongs where the chapter glosses it, not as a footer nobody can use.
+
+## Publisher fix, 2026-11-07 07:37 UTC (author: "fix the Ch5 plate")
+
+plate_check FAILed the title row (inbox #065): the title read "THE COURAGE TO COME BACK" and the aria-label carried a longer description, against the Mechanism "The courage to come back". Title text and aria-label now match the Mechanism word for word, in sentence case like the other plates; the title's caps letter-spacing was removed so sentence case reads normally. Drawing and copy otherwise unchanged. plate_check: no FAIL or WARN rows.
