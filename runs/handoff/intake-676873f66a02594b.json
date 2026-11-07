@@ -4,5 +4,11 @@
     "turn_id": null,
     "prompt": "/gw",
     "recorded": "2026-11-07T09:40:12.536117+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Show me the book chapters by arc ",
+    "recorded": "2026-11-07T09:41:06.526688+00:00"
   }
 ]
