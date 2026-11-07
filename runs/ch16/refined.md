@@ -10,9 +10,9 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 ---
 
-**The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless protectors and providers. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about their feelings and only spoke up to make a demand. If a man was pushed to the edge, it was okay for him to blow up.
+**The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless protectors and providers. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about their feelings and only spoke up to make a demand. If a man was pushed to the edge, the old picture said it was okay for him to blow up.
 
-Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. Another time, I put it into words for my wife.
+Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. Another time, my cold calm came out in words, said straight to my wife.
 
 I'd just gotten into Stoicism. We had an argument. She was angry, and I sat there quiet. When she was done, I said, "I can't control you. I can only control me and I don't see things the way you do."
 
@@ -72,7 +72,7 @@ So ask yourself about the life you share. Is it better now than it was a year ag
 
 The psychologist Mihaly Csikszentmihalyi described flow in his 1990 book *Flow: The Psychology of Optimal Experience*. He wrote about being absorbed in something that stretches you without overwhelming you. You stop watching yourself, and the doing becomes its own reward.
 
-My sense of the word is simpler. To me, flow is when everything is going well: you're at peace, and you're at your best. Applying that to a whole marriage is my own step. So is pairing it with three words, two of them Greek terms the Stoics used. To me, they describe what flow looks like for the two of you.
+My sense of the word is simpler. To me, flow is when everything is going well: you're at peace, and you're at your best. Applying that to a whole marriage is my idea, not his. So is pairing it with three words, two of them Greek terms the Stoics used. To me, they describe what flow looks like for the two of you.
 
 The first word is one you already know. Staying calm and steady on the inside is what Chapter 1 called equanimity. For one person, equanimity means you're at peace. Your marriage can be at peace too, with two steady people in it. Then a hard day can be hard without becoming a fight.
 
@@ -99,6 +99,11 @@ You have a lot of people in your life who need you to show up for them. Your kid
 Put the most into your marriage, because she is your number one.
 
 ## Editor's Notes
+
+### Publisher, final cold read (2026-11-07)
+
+Applied all four findings (old picture's voice marked; 'it' named; 'my idea, not his'; distillation 'sharing an address').
+
 
 ### Publisher (2026-11-07)
 
