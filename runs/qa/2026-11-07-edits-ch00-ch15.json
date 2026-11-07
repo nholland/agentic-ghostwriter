@@ -1,0 +1,3416 @@
+{
+ "schema": 1,
+ "created": "2026-11-07",
+ "coverage": "Prologue, Introduction, Ch1-Ch15 (refined.md as of 2026-11-07)",
+ "sources": [
+  "runs/qa/2026-11-07-panel-ch00-ch15.md",
+  "runs/qa/2026-11-07-slop-ch00-ch15.md",
+  "runs/qa/2026-11-07-readability-ch00-ch15.json",
+  "scripts/voice_check.py"
+ ],
+ "statuses": "proposed -> accepted | rejected | deferred -> applied (applied_commit set)",
+ "items": [
+  {
+   "id": "Q001",
+   "chapter": "prologue",
+   "line": 17,
+   "anchor": "both of us working full time the whole time, from diapers up through a house full of teenagers.",
+   "anchor_check": "found",
+   "kind": "continuity",
+   "severity": "high",
+   "effort": "small",
+   "finding": "The Prologue says both always worked full time; Ch14 says she has been on a three-year sabbatical as a full-time mother.",
+   "evidence": "Prologue L17 against Ch14 L13 'For about three years she's been on sabbatical'. | gw-slopreader: Prologue 17 vs Ch14 13: 'For about three years she's been on sabbatical… to be a full-time mother.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Author to confirm the timeline; likely 'both of us working full time for most of it, from diapers up through a house full of teenagers.'",
+     "severity": "high"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Author to confirm, then: 'both of us working full time for most of it'.",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q002",
+   "chapter": "prologue",
+   "line": 37,
+   "anchor": "She told me, in her own words, that I'd gone somewhere she couldn't follow me to.",
+   "anchor_check": "found",
+   "kind": "compress",
+   "severity": "high",
+   "effort": "medium",
+   "finding": "The book's central reveal (the armor mistake) is told in full and resolved in the Prologue, retold in Ch1 and re-corrected in Ch2, leaving Ch16 nothing new to reveal.",
+   "evidence": "Prologue L35-39 and Ch1 L77-89 give the same mechanism and the same response from her ('couldn't follow'/'couldn't reach'); the Ch16 spec plans 'I don't know where you went'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Cut Prologue L36-39 to two sentences: 'Early on, I took one piece of the philosophy and ran it too far, and I started applying it to my wife. She noticed before I did, and I'll tell you how in Chapter 16.' Keep Ch1's mechanism; save her words, duration and cost for Ch16.",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q003",
+   "chapter": "ch01-ch05",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "restructure",
+   "severity": "high",
+   "effort": "large",
+   "finding": "The early chapters read worse than Ch12-15 because of fragment chains carrying explanation, near-zero author presence, 'most men' foils and closing verdict lines, not sentence length alone.",
+   "evidence": "readability.json: Ch2-5 have 42-50% short sentences and 0.1-0.8 first-person per 100 words, against Ch12/14/15 at 2.0-3.1; Grep finds 20 'most/some/many men' lines from the Prologue to Ch10 and zero in Ch11-15.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Revision pass: rejoin fragment chains in explanatory passages (e.g., Ch2 L38, Ch4 L59) into sentences and keep one hit per section; cut the foils; drop about half of the '---' dividers in Ch2-5; keep Part I's diagnostic edge.",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q004",
+   "chapter": "ch01-ch05",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "restructure",
+   "severity": "high",
+   "effort": "large",
+   "finding": "The early chapters run on fragment chains, 'Not X. Not Y.' stacks and a punchline at the end of nearly every paragraph; that, more than length, is why readers prefer Ch11-15.",
+   "evidence": "Script: 8.3-9.2 words per sentence and 42-50% short sentences vs 11.1-12.5 and 15-27%. Examples: Ch1 15, Ch2 10 and 38, Ch4 5, Ch5 39 against Ch11 39 and Ch13 15.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Per chapter: merge fragment chains into one sentence with the link stated; cut paragraph-ending aphorisms except the chapter's one turn; turn 'most men' into 'you'; add one sentence of her side; keep the Window, the Four D's, the fence parable, the soup scene and the Ch1/Ch2/Ch4 closes. Samples are in Part 1.",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q005",
+   "chapter": "ch01",
+   "line": 71,
+   "anchor": "In the moment itself, there's room for something smaller.",
+   "anchor_check": "found",
+   "kind": "add",
+   "severity": "high",
+   "effort": "small",
+   "finding": "Ch1 reserves the 'best husband' question for afterward, but Ch8 and Ch15 use it mid-moment as 'Chapter 1's question'.",
+   "evidence": "Ch1 L69 'Save this for afterward, not mid-fight'; Ch8 L39 'three seconds, then the question'; Ch15 L43 'Chapter 1's question, asked in the moment'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Add after L71: 'Some nights the long question fits in one breath too: *Am I being the best husband I can be right now?* Ask it that way in the moment if it comes. Save the four checks for later.' (needs the author's word; Ch1 is accepted prose)",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q006",
+   "chapter": "ch04",
+   "line": 63,
+   "anchor": "Anger isn't strength. It's the absence of it.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "high",
+   "effort": "small",
+   "finding": "Still present from inbox 101; a verdict that contradicts the chapter's own account of anger as an involuntary first motion.",
+   "evidence": "Lines 57 and 99 say the first motion can't be stopped; line 63 then calls feeling anger a lack of strength. | gw-panel: runs/qa/2026-11-07-panel-ch00-ch15.md, earlier-reports section.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Anger feels like strength. The strength Marcus meant is what you do with it.'",
+     "severity": "high"
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "KEEP the author's line as written; earlier reports disagreed and the panel recommends not averaging them.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader",
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q007",
+   "chapter": "ch10",
+   "line": 147,
+   "anchor": "getting to safety comes first.",
+   "anchor_check": "found",
+   "kind": "move",
+   "severity": "high",
+   "effort": "small",
+   "finding": "The refrain 'You hold it anyway.' directly follows the safety sentence, so it reads as 'stay in harm's way'.",
+   "evidence": "L142-147: '...getting to safety comes first. Holding your own standard doesn't require staying in harm's way. / You hold it anyway.' | gw-slopreader: Lines 142-147: '…getting to safety comes first. Holding your own standard doesn't require staying in harm's way.' then 'You hold it anyway.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Move 'You hold it anyway.' (L147) to directly after 'Her crossing a line doesn't give you permission to cross it too.' (L134-135); end the tier on 'Holding your own standard doesn't require staying in harm's way.'",
+     "severity": "high"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Move 'You hold it anyway.' to follow line 135 ('…doesn't give you permission to cross it too. You hold it anyway.') and end the beat at '…doesn't require staying in harm's way.'",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q008",
+   "chapter": "ch14",
+   "line": 29,
+   "anchor": "But many of them have never been with the woman of their dreams, so it's just a dream.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "high",
+   "effort": "small",
+   "finding": "The logic doesn't follow, and it reads as a dig.",
+   "evidence": "L29. | gw-slopreader: 'Men tend to think…' assigns a belief to all men; 'so it's just a dream' doesn't say who dreams what.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "But the woman they're comparing her to is someone they've never lived with, so it's just a dream.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Replace the three sentences with: 'It's easy to picture a better life with someone else. It's easy to picture because you've never had to live it.'",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q009",
+   "chapter": "ch15",
+   "line": 23,
+   "anchor": "Most of the time, the remark says less about you than it seems.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "high",
+   "effort": "small",
+   "finding": "Gives a defensive reader licence to treat every complaint as her mood, and contradicts Ch3's 'she has the outside view of your behavior'.",
+   "evidence": "Ch3 L73 'In some cases, a more accurate set. She has the outside view of your behavior. You don't.' | gw-slopreader: Fails the 12-year-old test.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Often the remark says as much about her day as it does about you.",
+     "severity": "high"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'It shows you how she's feeling.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q010",
+   "chapter": "ch16",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "add",
+   "severity": "high",
+   "effort": "large",
+   "finding": "Ch16 must close Part III by giving what the Prologue and Ch1 have not: her words once, duration, cost, the turn, and the oak-plus-sun integration.",
+   "evidence": "The Ch16 spec premise repeats Prologue L35-39 and Ch1 L77-89; no chapter has called back the Introduction's sixth failure mode (Intro L77).",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Spec Ch16 to carry: her actual words once (author interview); what it cost and how he got back; the 'river without the sun' callback; the compassion distinction promised by inbox 146; a Part III close with a bridge to the Desert; no one-line imperative ending.",
+     "severity": "high"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q011",
+   "chapter": "book",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "River, oak and sun are almost absent from chapter prose: the oak never appears, the sun appears once in Ch15, which breaks the elements-only-in-preambles rule.",
+   "evidence": "Ch15 L57 'When you are the sun'; Ch10's refrain is the parked placeholder (#26) for 'The oak holds firm'; the river appears only as 'current' in Ch2 L52-54 and Ch5 L77.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Author ruling: allow one explicit element line per Part (then Ch10 takes 'The oak holds firm' and Ch16 calls back the Introduction's 'The river without the sun becomes detached'), or cut Ch15's sun line.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q012",
+   "chapter": "book",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "medium",
+   "finding": "Marcus gets his private-notebook biography in five chapters, Epictetus his in three, and the dichotomy of control is explained from scratch four times.",
+   "evidence": "Marcus: Ch1 L93, Ch2 L46, Ch9 L35, Ch11 L25, Ch12 L83 (plus Ch1 L93 and Ch4 L61 share 'wars he didn't choose'); Epictetus: Ch2 L5, Ch10 L6, Ch12 L29; control: Prologue L35, Ch1 L79, Ch2 L7-10, Ch7 L31.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "After the first chapter, one clause of identification, never repeated in the same words (e.g. 'Marcus Aurelius, the emperor whose private notes became the Meditations'). Keep Ch1's full Marcus paragraph and Ch2's Epictetus line.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q013",
+   "chapter": "book",
+   "line": null,
+   "anchor": "There's a move you make when someone criticizes you.",
+   "anchor_check": "multi-chapter",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Five chapters open on 'There's/There are a [thing] you didn't choose or notice.'",
+   "evidence": "Ch1 3, Ch3 3, Ch7 5, Ch10 3, Ch13 3.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Vary Ch3: 'When she criticizes you, your answer is ready before she's finished, and you never chose it. You learned it.' Ch13: 'You can give your wife an evening and still not give her your attention, and the difference is small enough to miss for years.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q014",
+   "chapter": "prologue",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Counted voice rule: you-density 30.7 per 1,000 (floor 40).",
+   "evidence": "scripts/voice_check.py on refined.md, 2026-11-07.",
+   "fixes": [
+    {
+     "desk": "voice_check.py",
+     "fix": "Line Editor fix to bring the count inside the rule; for the Prologue/Introduction you-density, author ruling on whether memoir register is exempt.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "voice_check.py"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q015",
+   "chapter": "prologue-ch01",
+   "line": 37,
+   "anchor": "She told me, in her own words, that I'd gone somewhere she couldn't follow me to.",
+   "anchor_check": "multi-chapter",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "The disappearance story is told in full in both the Prologue and Ch1, and both lift lines from the voice spec's own example.",
+   "evidence": "Prologue 37 'I'd built something invulnerable and called it growth' and Ch1 83-85 'gone somewhere she couldn't reach. She wasn't wrong' match 01-voice.md line 166.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Prologue 37: 'She noticed before I did, and she was right. Nothing I was doing looked bad from the outside. From inside the marriage, it was a slow quiet distance she couldn't name and I wouldn't admit to.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q016",
+   "chapter": "prologue",
+   "line": 41,
+   "anchor": "Every man worth knowing has needed help with something.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "A universal claim that sorts men morally (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: 'Every man worth knowing'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "I've needed help with things that mattered.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'I've needed help with every hard thing I've gotten good at.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q017",
+   "chapter": "prologue",
+   "line": 43,
+   "anchor": "Skipping it is the easy way out.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "A verdict after a diagnosis of inherited expectations (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: 'A lot of men skip this kind of work entirely… I've never met a man who believed that and was actually good at this… Skipping it is the easy way out.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Without that effort, the habits you already have keep deciding for you.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete from 'A lot of men skip…' through 'was actually good at this.' and delete 'Skipping it is the easy way out.'; keep 'It takes real effort, sustained over years.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q018",
+   "chapter": "introduction",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Counted voice rule: you-density 29.9 per 1,000 (floor 40).",
+   "evidence": "scripts/voice_check.py on refined.md, 2026-11-07.",
+   "fixes": [
+    {
+     "desk": "voice_check.py",
+     "fix": "Line Editor fix to bring the count inside the rule; for the Prologue/Introduction you-density, author ruling on whether memoir register is exempt.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "voice_check.py"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q019",
+   "chapter": "ch01",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Counted voice rule: you-density 33.0 per 1,000 (floor 40).",
+   "evidence": "scripts/voice_check.py on refined.md, 2026-11-07.",
+   "fixes": [
+    {
+     "desk": "voice_check.py",
+     "fix": "Line Editor fix to bring the count inside the rule; for the Prologue/Introduction you-density, author ruling on whether memoir register is exempt.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "voice_check.py"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q020",
+   "chapter": "ch01",
+   "line": 5,
+   "anchor": "The content doesn't matter. None of it does.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Dismisses her actual concern on page one of Ch1 (backlog, still present).",
+   "evidence": "Slop report table; contradicts Ch3's case that her view may be accurate. | gw-slopreader: Contradicts the later chapters, which treat what she says as information (Ch3 73, Ch15 19).",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Before you answer the concern, notice what you're about to do with it.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'What she said matters. What happens in the next three seconds matters first.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q021",
+   "chapter": "ch01",
+   "line": 13,
+   "anchor": "That three-second window is what this book is about.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "One of three competing thesis statements (Prologue: the armor mistake; Introduction: three qualities; Ch1: the window), and Part III is not about the window.",
+   "evidence": "Prologue L33; Introduction L9-15; Ch1 L13-15.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "That three-second window is where all of this starts.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q022",
+   "chapter": "ch01",
+   "line": 73,
+   "anchor": "The rest of this book unpacks those four things in every specific situation a marriage hands you.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Makes a promise the book doesn't keep (the device is capped from Ch15) and uses 'unpack', a word on the audience file's avoid list.",
+   "evidence": "02-audience.md 'Words/concepts to avoid: ... journey, unpack'; outline device rule for Ch15-28. | gw-slopreader: 01-voice.md Never Do: 'leverage, synergize, process your feelings, unpack…'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "You'll meet those four things again in the situations a marriage hands you. The replay question doesn't change. Neither does the breath.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'The rest of this book takes those four things into every specific situation a marriage hands you.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q023",
+   "chapter": "ch01",
+   "line": 87,
+   "anchor": "The Stoic Husband stays reachable. He's learned to pause in the place most men fire from.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Shifts to a third-person model husband and an inferior crowd at the chapter's turn.",
+   "evidence": "The rest of the passage is in 'you' and 'I'.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Stay reachable. Pause in the place you used to fire from. That pause takes more presence than distance ever could.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q024",
+   "chapter": "ch02-ch05-ch08",
+   "line": null,
+   "anchor": "The last chapter took the private tally apart.",
+   "anchor_check": "multi-chapter",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Still present: three recap openings across Parts I-II.",
+   "evidence": "Ch2 3 'Chapter 1 gave you a gap', Ch5 3 'Part I has been about the gap', Ch8 5 'The last chapter took the private tally apart.'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Ch8: 'You've done something for the family, and a small criticism is still bothering you days later.' Ch5: 'You're already inside a real fight, and everything from the last four chapters gets used at once.' Ch2: 'Something has been deciding how you feel when you walk through your own door, and you never signed off on it.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q025",
+   "chapter": "ch02",
+   "line": 10,
+   "anchor": "Study that list. Her mood isn't on either side.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Misreads the quote: 'whatever are not our own acts' plainly covers her mood, and a reader who knows the Enchiridion will catch it.",
+   "evidence": "L7 quote ends 'Not in our power are... in a word, whatever are not our own acts.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Replace the paragraph with: 'Study that list. Her mood isn't named on it. Not her state of mind. Not the energy she carries through the door. It falls under the last line, with whatever are not your own acts, because other people's inner states were never yours to work with.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q026",
+   "chapter": "ch02",
+   "line": 52,
+   "anchor": "Some men have peaceful houses and call it character.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "An invented crowd of lesser men as a foil (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: Negative social proof.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Notice whether your calm depends on everyone else being calm.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'A peaceful house can feel like character when it's really just timing.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q027",
+   "chapter": "ch02",
+   "line": 64,
+   "anchor": "Not suppress. Not eliminate.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "An orphaned echo of the removed De Ira quotation; it now answers nothing.",
+   "evidence": "The Seneca 'give calm... not root them out' line was removed 2026-10-02 (inbox 116); L64 still echoes it.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete 'Not suppress. Not eliminate. *Calm.*' and begin the paragraph 'The goal is not to stop feeling.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q028",
+   "chapter": "ch02",
+   "line": 78,
+   "anchor": "That's not loving her. That's adding to her weight.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Still present: a verdict that repeats what line 76 already says.",
+   "evidence": "Line 76: 'And she has to manage it, alongside everything else she's already carrying.' | gw-panel: runs/qa/2026-11-07-panel-ch00-ch15.md, earlier-reports section.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete line 78.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "KEEP the author's line as written; earlier reports disagreed and the panel recommends not averaging them.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader",
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q029",
+   "chapter": "ch02",
+   "line": 80,
+   "anchor": "These are the things you prefer. Worth tending, every one of them.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "'These' has no antecedent for thirty lines, and the paragraph makes a third ending after L78.",
+   "evidence": "The nearest referent is L50's preferred indifferents; L78 and L82 both read as endings.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Her good days and her hard ones are things you prefer or don't. Worth tending, every one of them.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q030",
+   "chapter": "ch03-ch05",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "add",
+   "severity": "medium",
+   "effort": "large",
+   "finding": "Ch3, Ch4 and Ch5 have no story from the author's own marriage, which is what makes Ch12-15 read better.",
+   "evidence": "first-person per 100 words: Ch3 0.3, Ch4 0.1, Ch5 0.8; Ch15 L13 shows the author has defensiveness and escalation material.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Inbox item for an author interview: one first-person specific each for defensiveness (Ch3), anger (Ch4) and coming back after a fight (Ch5). Do not invent.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q031",
+   "chapter": "ch03",
+   "line": 57,
+   "anchor": "Most men don't.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Negative social proof (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: Sets the reader above an invented crowd.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Waiting in dread leaves you unprepared.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Waiting in dread doesn't prepare you for anything.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q032",
+   "chapter": "ch03",
+   "line": 95,
+   "anchor": "She's been keeping track longer than you know.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Casts her as the scorekeeper the book later takes apart, and closes on a threat.",
+   "evidence": "Ch7 dismantles private tallies. | gw-slopreader: Ch7 is entirely about why a private tally fails.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "She's been noticing longer than you know.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'She can tell, and she's been able to tell for longer than you know.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q033",
+   "chapter": "ch05",
+   "line": 15,
+   "anchor": "The mood that infected your inner weather before anything happened.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Contagion-as-invasion framing (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: The voice spec's Red Flag names 'infected' as the frame to avoid.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "The mood you picked up before the conversation began.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'The mood you picked up before the conversation began.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q034",
+   "chapter": "ch05",
+   "line": 37,
+   "anchor": "The withdrawal that punishes without naming itself. You go quiet in a specific way she can feel.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Repeats Ch4's cold-anger lines almost word for word, in the next chapter.",
+   "evidence": "Ch4 L39 'Withdrawal that punishes without ever naming what it's punishing for'; Ch4 L41 'You went quiet in a specific way she felt.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Cold anger, from the last chapter, is one. Not because you're cooling down, but because you want her to know.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q035",
+   "chapter": "ch05",
+   "line": 65,
+   "anchor": "When the Stoic husband comes back to the unresolved conversation, he waits until things are calm.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Third person in a second-person book: the reader watches a model husband (still present from the 2026-09-23 backlog).",
+   "evidence": "L65-71 use 'he'; the rest of the book uses 'you'. | gw-slopreader: 'He says the true thing… He doesn't govern her response… She lives in a register he doesn't always have full access to.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "When you come back to the unresolved conversation, wait until things are calm. (Continue L65-71 in second person.)",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Rewrite 65-71 in second person: 'When you come back to the unresolved conversation, wait until things are calm. Ask if you can talk. Say what's true for you…'; line 71: 'You have a framework built on reason. Marriage doesn't run purely on reason, and she won't always get to an answer the way you do.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q036",
+   "chapter": "ch06",
+   "line": 9,
+   "anchor": "until the dog walks belong to you and the dishes belong to her",
+   "anchor_check": "found",
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "The dishes are hers in L9 but his in L11 and L13.",
+   "evidence": "L11 'every late night with the dishes'; L13 'Trash on Tuesday. Dishes most nights.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "until the dog walks belong to you and the laundry belongs to her",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q037",
+   "chapter": "ch06",
+   "line": 41,
+   "anchor": "When that verdict lands, you've got four ways to swing back",
+   "anchor_check": "found",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Re-explains Ch3's Four D's in full, one Part later.",
+   "evidence": "Ch3 L13-29 covers them in full and Ch5 restates them twice; Ch6 L41-43 runs all four again with examples.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Replace L41-43 with: 'When that verdict lands, the Four D's from Chapter 3 are right there: defend, deny, downplay, deflect. Each one feels justified, and each one turns a tired woman's comment about laundry into a trial over your character.' Keep L45-47.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q038",
+   "chapter": "ch06-ch08",
+   "line": 59,
+   "anchor": "Chapter 7 examines the ledger directly.",
+   "anchor_check": "multi-chapter",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Ch6-8 each close or near-close on a forward pointer instead of an image.",
+   "evidence": "Ch6 59; Ch7 27 'That's the next chapter's work'; Ch8 57 'The next chapter looks at…'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Ch6: move 'Scorekeeping can feed resentment… can't sustain.' to the end of 'The paradox' beat, delete the pointer, and close on 'One of them is steady enough to be counted on without needing to be counted.' Ch8: delete line 57.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q039",
+   "chapter": "ch07",
+   "line": 15,
+   "anchor": "Different currencies, same instinct: somewhere inside you, a running total exists, and you didn't sit down and decide to keep it.",
+   "anchor_check": "found",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Repeats the chapter's own opening lines almost word for word.",
+   "evidence": "L5 'there's a running total. You didn't sit down and decide to keep it. You just know where you stand.' | gw-slopreader: Line 5: 'Somewhere inside you, there's a running total. You didn't sit down and decide to keep it. You just know where you stand.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Different currencies, same instinct, and you know where you stand in each the way you know your bank balance without checking it.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Different currencies, same instinct: you know where you stand the way you know your bank balance without checking it.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q040",
+   "chapter": "ch07",
+   "line": 25,
+   "anchor": "people who'd been married more than four decades",
+   "anchor_check": "found",
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Pillemer's interview pool is described differently in Ch10.",
+   "evidence": "Ch10 L82 'seven hundred people who'd been married thirty years or more'. | gw-slopreader: voice_check REVIEW: 'That's not X. That's Y.' ×3 in Ch7.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "people who'd been married thirty years or more (Fact-Checker to confirm)",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "Name the study, or cut it to [PLACEHOLDER: 13-year 7,000-couple study, source] for the Fact-Checker.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'It's the pattern that shows up when long marriages describe themselves looking backward.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": true,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q041",
+   "chapter": "ch08",
+   "line": 5,
+   "anchor": "The last chapter took the private tally apart.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "A recap opening (the third in the book) that starts outside the reader's experience; unchanged since the 2026-09-23 fix was proposed.",
+   "evidence": "Ch2 L3 and Ch5 L3 open the same way; slop report item 6.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "You've done something for the family, and a small criticism is still bothering you days later. (Move the Ch7 link after L11.)",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q042",
+   "chapter": "ch08",
+   "line": 15,
+   "anchor": "You might be in the traditional configuration",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "'Traditional' mislabels the husband's example (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: 'configuration' is management vocabulary; 'most books admit' invents a foil.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "You might earn less and do more of the work at home.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'The shape of what's underneath varies from marriage to marriage. You might earn less and do more of the work at home.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q043",
+   "chapter": "ch08",
+   "line": 33,
+   "anchor": "She's very likely not being cruel. She's being unreflective,",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Raises cruelty only to dismiss it.",
+   "evidence": "Nothing in the passage suggests cruelty.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'She's seeing her side, the same way you've only seen yours a hundred times over.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q044",
+   "chapter": "ch09-ch15",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Four of the last seven chapters end on the same one-line 'when X, do Y' imperative.",
+   "evidence": "Ch9 L55, Ch11 L131, Ch13 L61, Ch15 L71.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Vary at least Ch13 and Ch15 (see their items) so that each closes on its own image.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q045",
+   "chapter": "ch09",
+   "line": 47,
+   "anchor": "So run the same four questions Chapter 1 already gave you.",
+   "anchor_check": "found",
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "The four questions that follow are not Ch1's four, and they come in a different order.",
+   "evidence": "Ch1 L61-67 (Logical/Kind/Self-controlled/Brave with their own questions) against Ch9 L47's speaking-up questions. | gw-slopreader: Line 49: '…keeps this from turning into permission to complain.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "So run the four checks from Chapter 1, aimed at speaking up.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete the sentence.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q046",
+   "chapter": "ch10",
+   "line": 60,
+   "anchor": "Naming it does something else, too, and this is the part most men never get",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Windup plus negative social proof (backlog, still present).",
+   "evidence": "Slop report table; Ch10 has 5 'most men' lines. | gw-slopreader: Windup plus negative social proof in one sentence.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete L60-61; begin 'Naming it changes the argument you have with your wife.'",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Merge 60-61: 'Naming it also changes the argument you have with your wife.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q047",
+   "chapter": "ch10",
+   "line": 224,
+   "anchor": "Most men hand that job to their wife.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "One of six crowd foils in Ch10, the heaviest cluster in the book.",
+   "evidence": "Also at lines 4, 50, 60, 121 and 259.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "224: 'It's easy to hand that job to your wife.' 50: 'If you've never answered that question out loud, that's exactly why the rule folds…' 121: 'The third one is the hardest.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q048",
+   "chapter": "ch11-ch15",
+   "line": null,
+   "anchor": "Decide what needs your attention.",
+   "anchor_check": "multi-chapter",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "The later chapters use instructional beat labels; the archetype asks for evocative ones.",
+   "evidence": "Ch11 all five labels; Ch13 'Be there for the time you share.' and 'Don't let knowing her end your learning about her.'; Ch14 'Notice what you value.', 'Practice before you need it.', 'Let appreciation become care.'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "For example, Ch11: 'What needs your attention.' / 'Hardship without shutting down.' / 'The rule you disagree with.' / 'The postponed conversation.' / 'Say it, then listen.' Ch13: 'The time you share.' / 'Still learning her.' Ch14: 'What you value.' / 'Before you need it.' / 'Watering it.' Ch15's triad may stay as its named structure.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q049",
+   "chapter": "ch11",
+   "line": 37,
+   "anchor": "For about ten years, we lived mostly on my wife's income",
+   "anchor_check": "found",
+   "kind": "add",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "The decade she carried the income is used only for his self-denial, with no word of thanks to her.",
+   "evidence": "Warmth review Ch11 item 4; L37-39 unchanged.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Add one sentence of thanks in the author's own words: [AUTHOR: one line on what her carrying that decade meant].",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q050",
+   "chapter": "ch11",
+   "line": 77,
+   "anchor": "These are examples of words you might use, not claims that she will agree.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "A liability-voice disclaimer breaks the guide's register.",
+   "evidence": "The next sentences already scope the outcome ('She may describe something you've missed…').",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete the sentence.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q051",
+   "chapter": "ch11",
+   "line": 119,
+   "anchor": "Patience means giving the conversation time and returning to a problem that still needs attention.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Turns Ch1's four virtues into five qualities, and L121's self-control sentence already covers trying again.",
+   "evidence": "Ch1 L59-67 has four; Ch11 L119-121 lists courage, kindness, patience, self-control, wisdom. | gw-slopreader: Ch1 61-67: Logical/Kind/Self-controlled/Brave. Ch11 119-121 adds 'Patience means giving the conversation time…'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete the sentence.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Cut the Patience sentence and fold it into Self-control: 'Self-control means giving the conversation time and keeping your tone respectful when her answer disappoints you.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q052",
+   "chapter": "ch11",
+   "line": 131,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "add",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Part II has no closing beat; Ch5 closes Part I but Ch11 ends on a complaint script with no handoff to the Sun.",
+   "evidence": "Ch5 L77 has the Part I/II bridge; the outline's Ch11 transition ('Part III asks: is he also loving?') is not in the prose.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "After L131 add a short Part close, e.g. 'Part II asked whether you can carry the weight without resentment, scorekeeping or silence. Part III asks whether she can feel it: whether you bring warmth on purpose, before anyone asks.'",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-panel",
+     "fix": "Say the small thing while it's still small, so the rest of the evening can belong to the two of you again.",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q053",
+   "chapter": "ch12-ch15",
+   "line": null,
+   "anchor": "It wasn't a study of marriages, but it's a reason to practice on purpose.",
+   "anchor_check": "multi-chapter",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "medium",
+   "finding": "The same research-caveat sentence recurs across four chapters and reads like a methods section.",
+   "evidence": "Ch12 77 'travel together', Ch13 57 'travel together', Ch14 29 and 47, Ch15 55 'The study wasn't about husbands who help, but I read it as…'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Keep one caveat per chapter as a clause before the finding; author to rule on dropping one of Ch14's four studies (for example Froh, line 21, since the kids' story carries that point).",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q054",
+   "chapter": "ch12",
+   "line": 15,
+   "anchor": "He's also the man whose temper I inherited.",
+   "anchor_check": "found",
+   "kind": "continuity",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Contradicts Ch1's careful account of what the author inherited (the sulk and the cutting sentence, not the yelling).",
+   "evidence": "Ch1 L49 'I don't yell. I don't break things. But I can sulk'. | gw-slopreader: Ch1 49: 'I don't yell. I don't break things. But I can sulk, and I can find that sentence.'",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "He's also the man whose temper ran down through my family.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'He's also the man whose temper ran down through my family.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q055",
+   "chapter": "ch12",
+   "line": 77,
+   "anchor": "Couples followed over the years don't usually come apart because the fighting starts.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "An unsourced empirical claim plus a garbled research clause, in front of an evidence-oriented reader.",
+   "evidence": "L77 ends 'and the research only says they travel together' with no study named. | gw-slopreader: 'travel together' in both chapters.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Fact-Checker to source it or make it [PLACEHOLDER: source]; otherwise state it as the author's observation: 'In long marriages, the danger usually isn't that the fighting starts. It's that the warmth stops.' Cut the 'travel together' clause or name the study.",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Partners who feel appreciated also tend to show more appreciation, though the research can't say which comes first.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": true,
+   "needs_factcheck": true,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q056",
+   "chapter": "ch13-ch15",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "compress",
+   "severity": "medium",
+   "effort": "medium",
+   "finding": "Study inserts with caveats cool the later chapters just as they warm up, the one place the later voice is weaker.",
+   "evidence": "Ch13 L57 (five sentences, three caveats); Ch14 L21, L29, L47, L55; Ch15 L55.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "One sentence per study, caveats to the endnotes. For example, Ch13 L57: 'Tsapelas, Aron and Orbuch followed married couples for sixteen years; those who found the marriage boring in year seven were less satisfied nine years later.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q057",
+   "chapter": "ch14",
+   "line": 73,
+   "anchor": "Thankfulness is how you keep wanting what you already have.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "The chapter ends on a moral after a stronger image close.",
+   "evidence": "Never Do: 'Never wrap up with a moral.' Line 71 already lands on 'Slow down enough to taste them.'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete line 73; the chapter closes on 'Slow down enough to taste them.'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q058",
+   "chapter": "ch15",
+   "line": 5,
+   "anchor": "Each one has an answer: meet hostility with kindness, frustration with patience, and disconnection with warmth.",
+   "anchor_check": "found",
+   "kind": "restructure",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Ch15 opens with the principle and then a table of contents.",
+   "evidence": "Lines 3-5 state the lesson before the zing scene at line 7.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Open with line 7 ('She says something with an edge…'), keep 'Warmth is easy on a good day. It gets tested on the ordinary ones.' as the orientation after it, and delete 'Each one has an answer: …'",
+     "severity": "medium"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q059",
+   "chapter": "ch15",
+   "line": 41,
+   "anchor": "it has an incredible impact on changing the tone and the mood of the entire house",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "medium",
+   "effort": "small",
+   "finding": "Management-deck filler.",
+   "evidence": "'incredible impact on changing'.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'When I let the zings go and give her kindness instead, the whole house gets lighter.'",
+     "severity": "medium"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete both sentences; at 47 '…everybody's pulled into the vortex' becomes '…everybody ends up in it'; at 49 'Warmth is how you stay out of it and help her out of it.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": true,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q060",
+   "chapter": "book",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "continuity",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Citation and typography style drifts between chapters.",
+   "evidence": "Arabic numerals in Ch3-13, Roman in Ch14-15; 'II.18' in Ch1 but '2.18' in Ch12; 'trans. Gummere' and 'Gummere trans.'; curly quotes in Ch14 only; Ch10 hard-wrapped.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "One mechanical pass: pick one numeral style and one translator-credit form, normalize quotes, unwrap Ch10.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q061",
+   "chapter": "book",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "'Tuesday' is the default day across the book.",
+   "evidence": "Ch1 L95, Ch2 L50, Ch6 L3/L9/L35, Ch7 L9, Ch8 L47, Ch10 L105/L256, Ch13 L31.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Vary the day in Ch6 L35, Ch10 L105 and Ch10 L256.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q062",
+   "chapter": "book",
+   "line": null,
+   "anchor": "on a Tuesday when you were already finished at four",
+   "anchor_check": "multi-chapter",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "'Tuesday' is the stock ordinary day in seven chapters.",
+   "evidence": "Ch1 95, Ch2 50, Ch6 3/9/35, Ch7 9, Ch8 47, Ch10 105/256, Ch13 31.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Keep Ch1 and Ch6 3; vary the others, for example Ch10 256 'on a weeknight when you were already finished at four', Ch2 50 'They can change any day without warning.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q063",
+   "chapter": "prologue",
+   "line": 33,
+   "anchor": "Which brings me to the mistake I want you to know about now.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Windup; inbox 101 backlog item, still present.",
+   "evidence": "Slop report table. | gw-slopreader: Announces line 35.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete; begin L35.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete line 33 entirely; begin 'Early on, I took one piece of the philosophy and ran it too far.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q064",
+   "chapter": "prologue",
+   "line": 45,
+   "anchor": "I want to be clear about that before saying anything else here.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "An announcement sentence, and false: it comes late in the Prologue.",
+   "evidence": "Line 45.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete the sentence.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q065",
+   "chapter": "prologue",
+   "line": 53,
+   "anchor": "one ordinary day at a time",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The same phrase ends the Prologue and the Part I opener, which are read back to back.",
+   "evidence": "parts/part-1-steady-river.md 'one ordinary day at a time'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Change the Prologue to 'day by ordinary day'.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q066",
+   "chapter": "ch01",
+   "line": 19,
+   "anchor": "Here's what actually happens, in order.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Windup (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: The next paragraph supplies the sequence.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q067",
+   "chapter": "ch02",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Counted voice rule: em-dash: 1 in prose (cap 0).",
+   "evidence": "scripts/voice_check.py on refined.md, 2026-11-07.",
+   "fixes": [
+    {
+     "desk": "voice_check.py",
+     "fix": "Line Editor fix to bring the count inside the rule; for the Prologue/Introduction you-density, author ruling on whether memoir register is exempt.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "voice_check.py"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q068",
+   "chapter": "ch02-ch10",
+   "line": 6,
+   "anchor": "Epictetus spent his early life as a slave and the rest of it running a school.",
+   "anchor_check": "multi-chapter",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Nearly word for word the same as Ch2 5's biography line.",
+   "evidence": "Ch2 5: 'spent his early years as a slave and his later years running a school.'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Ch10: 'Epictetus, a former slave who became a teacher, left a short handbook called the *Enchiridion*.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q069",
+   "chapter": "ch02",
+   "line": 38,
+   "anchor": "Your ungoverned arrival. An entire household in distress. Ending with an animal who had no part in any of it.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A fragment chain with clinical nouns, and two 'Nobody…pass it' sentences in a row.",
+   "evidence": "Lines 38 and 40.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Replace 38-40 with 'You came home carrying the day, and by bedtime the whole house had it, down to a dog that did nothing. Nobody meant to pass it on. It didn't stop until it ran out of people.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q070",
+   "chapter": "ch02",
+   "line": 46,
+   "anchor": "Haines trans.",
+   "anchor_check": "found",
+   "kind": "continuity",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The only Marcus quotation not in the house's Long translation.",
+   "evidence": "House standard per the citation-correction notes (Long for Marcus); every other Marcus quote is Long.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Fact-Checker to confirm whether Haines is an approved exception or swap to Long's 6.8.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": true,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q071",
+   "chapter": "ch03",
+   "line": 35,
+   "anchor": "She just updated her model of what it costs to bring things to you.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Analytical jargon where recognition belongs (backlog, still present).",
+   "evidence": "Slop report table.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "She just remembered how hard it was to tell you.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q072",
+   "chapter": "ch03-ch04",
+   "line": 83,
+   "anchor": "Just an updated sense of who she was dealing with.",
+   "anchor_check": "multi-chapter",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Ch3 35 'updated her model' and Ch4 83 'updated sense' echo across consecutive chapters that both end at her withdrawing trust.",
+   "evidence": "Inbox 101 persona finding on Ch3/Ch4.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Ch3 35: 'She remembers how hard it was to tell you.' Ch4 83: 'Just a quieter sense of who she was dealing with.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q073",
+   "chapter": "ch04",
+   "line": 43,
+   "anchor": "But when both of you are in the activation state at the same time, it can move to places neither of you chose.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Clinical indirection (backlog, still present).",
+   "evidence": "Slop report table. | gw-slopreader: Clinical noun and vague 'it'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "When you're both angry, you can say things neither of you meant to say.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'But when you're both angry, you can say things neither of you meant to say.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q074",
+   "chapter": "ch04",
+   "line": 59,
+   "anchor": "That's where your *prohairesis* lives. Your capacity to choose. The part of you that chooses before you react.",
+   "anchor_check": "found",
+   "kind": "compress",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Partly fixed; glossed twice, and 'lives' appears twice.",
+   "evidence": "The previous sentence also ends 'is where everything lives.'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'That's where your *prohairesis* lives: your capacity to choose.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q075",
+   "chapter": "ch04",
+   "line": 61,
+   "anchor": "He was writing to himself, leading an army through a war he didn't choose, about what actual strength looks like.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Repeats Ch1's framing of Marcus word for word.",
+   "evidence": "Ch1 L93 'leading his army through wars he didn't choose'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "He was writing to himself, about what actual strength looks like.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q076",
+   "chapter": "ch04",
+   "line": 79,
+   "anchor": "That's what most men miss.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A 'most men' foil in front of the chapter's key line.",
+   "evidence": "Grep: 20 such lines from the Prologue to Ch10, zero in Ch11-15.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete; keep 'An apology pulls the nail. It doesn't fill the hole.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q077",
+   "chapter": "ch04",
+   "line": 93,
+   "anchor": "You don't know which cigarette gave someone the diagnosis. Nobody does. The learning isn't forensic.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A second image stacked on the nail parable.",
+   "evidence": "Line 85 already makes the point: 'You didn't know which nail made which hole.'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Replace line 93 with 'You don't need to find the nail behind each hole. You know what the hammer does, and you put it down.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q078",
+   "chapter": "ch05",
+   "line": 19,
+   "anchor": "The trigger with the nail in it.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The heading keeps the nail image whose meaning changed, which the 2026-09-23 fix removed from the body.",
+   "evidence": "The Ch4 nail is an outburst; the Ch5 body now says 'the hurt that set it off'. | gw-slopreader: In Ch4 a nail is harm done; this heading makes it an old wound.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "**The trigger that lands on something tender.**",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'**The tender spot.**'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q079",
+   "chapter": "ch05",
+   "line": 53,
+   "anchor": "The couples who stay married for fifty years didn't avoid fighting.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Asserted without a source.",
+   "evidence": "Outline Ch5 research burden notes the claim is unsourced.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Couples who make it fifty years don't avoid fighting.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q080",
+   "chapter": "ch06",
+   "line": 11,
+   "anchor": "Here's the part nobody warns you about:",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A windup plus an invented 'nobody'.",
+   "evidence": "Same shape as Ch4 3.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Begin 'Once the split happens, you mostly stop seeing her half of it.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q081",
+   "chapter": "ch06",
+   "line": 13,
+   "anchor": "or coaching the flag football team because nobody else would",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The coaching example is repeated in Ch7, where it is central.",
+   "evidence": "Ch7 L9 'coaching your kid's team'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete the clause; end the sentence at 'running them through the wash.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q082",
+   "chapter": "ch06",
+   "line": 59,
+   "anchor": "Chapter 7 examines the ledger directly.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The chapter's last words are a signpost.",
+   "evidence": "L59.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete; end on 'Giving freely doesn't mean carrying an arrangement you can't sustain.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q083",
+   "chapter": "ch07",
+   "line": null,
+   "anchor": null,
+   "anchor_check": "not-applicable",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Counted voice rule: 'That's not X. That's Y.' reframe x3 (cap 2), REVIEW.",
+   "evidence": "scripts/voice_check.py on refined.md, 2026-11-07.",
+   "fixes": [
+    {
+     "desk": "voice_check.py",
+     "fix": "Line Editor fix to bring the count inside the rule; for the Prologue/Introduction you-density, author ruling on whether memoir register is exempt.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "voice_check.py"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q084",
+   "chapter": "ch07",
+   "line": 9,
+   "anchor": "like the ceiling fan that started clicking last month.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Reuses Ch6's ceiling fan in the next chapter.",
+   "evidence": "Ch6 L13 'the ceiling fan that's been rattling for a month'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "It's just yours. Like the TV that needed a new setting after the last software update.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q085",
+   "chapter": "ch07",
+   "line": 11,
+   "anchor": "And that's exactly the problem this chapter is about.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A meta signpost.",
+   "evidence": "Line 15 signposts again: 'This chapter goes deep on…'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q086",
+   "chapter": "ch08",
+   "line": 19,
+   "anchor": "You don't carry that channel's mental load.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Management and therapy vocabulary close to the avoided 'emotional labor' (backlog, still present).",
+   "evidence": "02-audience.md avoid list; slop report table. | gw-slopreader: 'channel', 'mental load'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "She remembers the appointments and plans what the kids need.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'She remembers the appointments and plans what the kids need.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q087",
+   "chapter": "ch08",
+   "line": 27,
+   "anchor": "Most men read it for a different reason, but it's the right tool here.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A crowd foil introducing the quote.",
+   "evidence": "Adds nothing the next sentence doesn't already do.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete the sentence.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q088",
+   "chapter": "ch08",
+   "line": 57,
+   "anchor": "The next chapter looks at what happens when you stay quiet and expect something back.",
+   "anchor_check": "found",
+   "kind": "move",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A signpost line sits between the last section and the closing line, making a double ending.",
+   "evidence": "L55-59.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Move to the end of L55's paragraph or cut it; end on L59.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q089",
+   "chapter": "ch09",
+   "line": 25,
+   "anchor": "The same kind of list Chapters 6 and 7 already described.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Repeats line 17's back-reference.",
+   "evidence": "Line 17: 'Chapters 6 and 7 already talked about the mental tally…'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete the sentence.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q090",
+   "chapter": "ch09",
+   "line": 27,
+   "anchor": "John Gottman spent decades studying what actually predicts divorce, and he found four warning signs",
+   "anchor_check": "found",
+   "kind": "compress",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Re-lists Gottman's four signs (already in Ch3) and repeats Ch4's disdain-to-contempt chain.",
+   "evidence": "Ch3 L43; Ch4 L87-89.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Contempt, the warning sign John Gottman found matters most, is what disappointment turns into when it never gets spoken and never gets addressed.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q091",
+   "chapter": "ch09",
+   "line": 43,
+   "anchor": "Now for the misreading a thoughtful man will make here.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Windup (backlog, still present).",
+   "evidence": "Slop report table (cited there as L41). | gw-slopreader: Announces the next paragraph.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete; begin with 'Epictetus, in his handbook the *Enchiridion*...'",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "Delete; begin 'Epictetus, in his handbook the *Enchiridion*, tells his student…'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q092",
+   "chapter": "ch10",
+   "line": 6,
+   "anchor": "Epictetus spent his early life as a slave and the rest of it running a school.",
+   "anchor_check": "found",
+   "kind": "compress",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Near-verbatim repeat of Ch2's introduction of Epictetus.",
+   "evidence": "Ch2 L5 'spent his early years as a slave and his later years running a school'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Epictetus, the former slave who became a teacher, wrote a handbook, the *Enchiridion*... (merge into L7).",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q093",
+   "chapter": "ch10-ch07",
+   "line": 82,
+   "anchor": "Karl Pillemer interviewed seven hundred people who'd been married thirty years",
+   "anchor_check": "multi-chapter",
+   "kind": "move",
+   "severity": "low",
+   "effort": "small",
+   "finding": "An orphan paragraph, and it describes the Pillemer sample differently from Ch7.",
+   "evidence": "Ch7 25 'married more than four decades' vs Ch10 82 'thirty years or more'.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Fact-Checker to reconcile against the citation concept; move Ch10 82-84 to open 'What you do to each other' or cut it.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": true,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q094",
+   "chapter": "ch10",
+   "line": 84,
+   "anchor": "way two people speak to each other all came up.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The Pillemer paragraph is orphaned and connects to nothing.",
+   "evidence": "L82-84 ends the test section, then the tiers begin.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "way two people speak to each other all came up. Those are the three places the lines in this chapter live.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q095",
+   "chapter": "ch10",
+   "line": 273,
+   "anchor": "You're not holding any of this to win, you're holding it because your marriage",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A comma splice in the chapter's last line.",
+   "evidence": "L273-274.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "You're not holding any of this to win. You're holding it because your marriage is what's on the other side of it.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q096",
+   "chapter": "ch11",
+   "line": 3,
+   "anchor": "Now you're in bed, explaining to yourself why you stayed quiet.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Repeats Ch1's lying-in-bed replay staging.",
+   "evidence": "Ch1 L11; slop report item 6, still present. | gw-slopreader: Ch1 11, 53 and 71.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "The next morning, on the drive in, you're still explaining to yourself why you stayed quiet.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'The next morning, on the drive in, you're still explaining to yourself why you stayed quiet.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q097",
+   "chapter": "ch11",
+   "line": 27,
+   "anchor": "I tolerate that because I want her to have real friends.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "'Tolerate' three times frames her friendships as something he endures.",
+   "evidence": "L27 'I tolerate that... I tolerate those conversations too'; warmth review fix 5 not applied.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "I'm glad she has real friends, and those friendships matter more to me than the comments.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q098",
+   "chapter": "ch11",
+   "line": 113,
+   "anchor": "You can be disappointed by her response and still be glad you spoke honestly.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "'You can [A] and still [B]' appears four times in Ch11 and is the later chapters' signature shape; the count is for voice_check.py to confirm.",
+   "evidence": "Ch11 29, 65, 113, 117; also Ch8 59, Ch10 137, Ch14 65, Ch15 49.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Ch11 117: 'Staying calm in an argument doesn't mean you've started the discussion that needs to happen.'; Ch11 29: 'Disliking part of the visit doesn't mean you don't want to go.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q099",
+   "chapter": "ch12",
+   "line": 7,
+   "anchor": "Nobody established that number. Being there is the part that counts.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "An unclear dismissal of the weekly-date advice.",
+   "evidence": "L7.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "I don't know where that number came from. What counts is that you actually go.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q100",
+   "chapter": "ch12",
+   "line": 37,
+   "anchor": "Romance is trying to win favor with your wife.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Reads as a transaction and has to be walked back at L51; the reports disagree (persona report: the author's chosen language; warmth review: change it).",
+   "evidence": "2026-09-23 persona #4 against 2026-10-02 warmth Ch12 item 4.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Author decision; the warmth option is 'Romance is showing your wife she's still chosen.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q101",
+   "chapter": "ch12",
+   "line": 51,
+   "anchor": "Winning favor isn't trading for it, either.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The reader has to rebuild who trades what.",
+   "evidence": "'it' has no clear antecedent.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Trying to win her favor doesn't mean expecting payment for it.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q102",
+   "chapter": "ch12",
+   "line": 83,
+   "anchor": "He was a Stoic, and the notebook is *Meditations*.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Talks down to a reader the audience file says already knows Marcus.",
+   "evidence": "02-audience.md: he knows Marcus Aurelius and Meditations; this is the fifth Marcus biography.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete the sentence.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q103",
+   "chapter": "ch12",
+   "line": 87,
+   "anchor": "and that muscle is one you can start using tonight.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The close mixes 'necessary things' with 'muscle'.",
+   "evidence": "Two images in one closing sentence.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'She's been waiting to be one of the necessary things, and you can put her on the list tonight.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q104",
+   "chapter": "ch13",
+   "line": 3,
+   "anchor": "The gap between those two is small enough to miss for years.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Reuses Ch1's key term 'gap' for a new meaning (attention), the same drift fixed in Ch6.",
+   "evidence": "Ch1, Ch4, Ch5 and Ch15 39 use 'gap' for the response window.",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "'The difference is small enough to miss for years.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q105",
+   "chapter": "ch13",
+   "line": 23,
+   "anchor": "The date you can't plan.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Ch12 and Ch13 both centre on 'the date' (deferred in inbox 112).",
+   "evidence": "Ch12 L5 and L65 ('romance is bigger' than a date), then Ch13 L23.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "**The Saturday you can't plan.**",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q106",
+   "chapter": "ch13",
+   "line": 61,
+   "anchor": "Put the phone down, and give her the evening you came to share.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Ends on the opening's failure (the phone) rather than on her; the 2026-10-02 warmth fix was not applied.",
+   "evidence": "runs/qa/2026-10-02-warmth-ch13.md item 2.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "She's still telling you who she is, a little at a time, and tonight you get to listen.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q107",
+   "chapter": "ch14-ch15",
+   "line": null,
+   "anchor": "Frankly, neither was she.",
+   "anchor_check": "multi-chapter",
+   "kind": "continuity",
+   "severity": "low",
+   "effort": "small",
+   "finding": "By Ch15 the reader holds a verbatim file of the wife's complaints ('hoarders', 'very anxious', the Saturday lines), and the wife will read the book.",
+   "evidence": "Ch14 L9-11; Ch15 L11-17; the outline's Prologue disclosure boundary says nothing that could embarrass her.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Author to confirm that the disclosure boundary covers Ch14-15 as written; no edit without his word.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q108",
+   "chapter": "ch14",
+   "line": 11,
+   "anchor": "It can be annoying, but so can being late in her eyes.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A muddled comparison.",
+   "evidence": "L11. | gw-slopreader: 'in her eyes' leaves the subject unclear.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Her worry can annoy me, but in her eyes, being late is just as annoying.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'That's who she is. It can annoy me, and my lateness annoys her just as much.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q109",
+   "chapter": "ch14",
+   "line": 21,
+   "anchor": "In a 2014 classroom study, Froh and colleagues taught children aged eight to eleven",
+   "anchor_check": "found",
+   "kind": "move",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A study of schoolchildren interrupts the author's warmest domestic paragraph.",
+   "evidence": "L21 sits between his kids complaining about dinner and his wife's line about meals.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Cut it, or move it to an endnote.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q110",
+   "chapter": "ch14-ch15",
+   "line": 23,
+   "anchor": "Chapter 11 covers how to raise it with her.",
+   "anchor_check": "multi-chapter",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "The identical pointer appears in Ch14 67 and Ch15 23.",
+   "evidence": "'Chapter 11 covers what to do' / 'Chapter 11 covers how to raise it with her.'",
+   "fixes": [
+    {
+     "desk": "gw-slopreader",
+     "fix": "Ch15 23: 'If a remark still hurts you every time, tell her, the way you'd raise anything else that keeps coming back.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q111",
+   "chapter": "ch14",
+   "line": 31,
+   "anchor": "When either of you catches yourself comparing, you can say so kindly.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Invites the misreading 'tell her I noticed someone else' (warmth review item, softened but still present).",
+   "evidence": "runs/qa/2026-10-02-warmth-ch14.md armor audit.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "When you catch yourself comparing, look back at the whole of the woman in front of you.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q112",
+   "chapter": "ch14",
+   "line": 53,
+   "anchor": "I think the thanks can land as hollow, like an \"I love you\" said with nothing behind it.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "Unclear whether the Avatar gesture is the remedy for hollow thanks or one more ritual.",
+   "evidence": "L53 moves from the gesture to thanks at every meal to 'hollow'.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Author to clarify; likely 'A quick thanks can land hollow, like an \"I love you\" said with nothing behind it. The fingertip and \"I see you\" are how we try to mean it.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": true,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q113",
+   "chapter": "ch15",
+   "line": 15,
+   "anchor": "You use what rewards.",
+   "anchor_check": "found",
+   "kind": "rewrite",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A garbled sentence.",
+   "evidence": "L15. | gw-slopreader: 'You use what rewards' has no clear subject or object.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "You keep using whatever works in the moment.",
+     "severity": "low"
+    },
+    {
+     "desk": "gw-slopreader",
+     "fix": "'Over the years we'd each learned which answers worked in an argument, and we kept using them.'",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel",
+    "gw-slopreader"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  },
+  {
+   "id": "Q114",
+   "chapter": "ch15",
+   "line": 71,
+   "anchor": "When the next zing lands, roll up your sleeves before you open your mouth.",
+   "anchor_check": "found",
+   "kind": "cut",
+   "severity": "low",
+   "effort": "small",
+   "finding": "A double ending after the author-confirmed ah-ha (L69), and the third 'roll up your sleeves'.",
+   "evidence": "L29, L39, L71; L69 already closes.",
+   "fixes": [
+    {
+     "desk": "gw-panel",
+     "fix": "Delete L71 and end on L69.",
+     "severity": "low"
+    }
+   ],
+   "raised_by": [
+    "gw-panel"
+   ],
+   "needs_author": false,
+   "needs_factcheck": false,
+   "desk_disagreement": false,
+   "status": "proposed",
+   "ruling": null,
+   "applied_commit": null
+  }
+ ]
+}
