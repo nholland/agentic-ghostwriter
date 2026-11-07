@@ -1,5 +1,5 @@
 {
-  "built": "2026-11-07T02:20:17.599696+00:00",
+  "built": "2026-11-07T02:43:16.110521+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-16, relevant Arc openings and plates",
   "unapproved_chapters": [
     16
@@ -77,7 +77,7 @@
     "reader-ch12-ch13.pdf"
   ],
   "plate_packet": {
-    "built": "2026-11-07T02:20:17.599198+00:00",
+    "built": "2026-11-07T02:43:16.110103+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
