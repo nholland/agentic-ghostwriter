@@ -420,3 +420,34 @@ singular and about persistence, under a picture of ten holes claiming
 accumulation. The chapter's own `refined.md:73` says "It's full of holes.",
 which passes `grounded` and holds the caption cap. The Panel's suggested
 "The holes remain. And they keep coming." fails `grounded`.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 14.5px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Posts centred on the axis (same 344 width, contents shifted together); each label moved above its post, each caption centred under it. The closing line stays on ONE line at 14.5px: wrapping it would make 6 italic lines against a cap of 5 (inbox #066), which FAILs. Canvas 396 -> 520 tall.
+
+Rendered to runs/ch04/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch04/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x520
+  [ ok ] title       title 'THE HOLE MAKER' / aria-label 'The Hole Maker' vs Mechanism 'The Hole Maker'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    5 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   6 centred texts on the axis or a shared column; 7 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

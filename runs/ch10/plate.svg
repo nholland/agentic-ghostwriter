@@ -4,55 +4,58 @@
      dark block wedged underneath. The only change the reviewer asked for is
      labelling: the block is now named for what it is, and the top row shows
      the same block as an empty dashed outline with the sentence nobody
-     finished, so the line falls straight through where the support should be. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 368" style="color:#1a1a1a" role="img" aria-label="The Undecided Line">
+     finished, so the line falls straight through where the support should be.
+     2026-11-07: type re-set for phone width (author ruling "1. Enlarge").
+     Row labels moved above the start of each line; words and drawing unchanged. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 424" style="color:#1a1a1a" role="img" aria-label="The Undecided Line">
   <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
-    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 14px Georgia,serif;letter-spacing:.16em;text-anchor:start}
-    .lblw{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:middle;fill:#ffffff}
-    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
+    .ttl{font:600 22px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 17px Georgia,serif;letter-spacing:.12em;text-anchor:start}
+    .lblw{font:600 17px Georgia,serif;letter-spacing:.10em;text-anchor:middle;fill:#ffffff}
+    .cap{font:italic 18px Georgia,serif;opacity:.66;text-anchor:middle}
     .ln{stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
     .press{stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round}
   </style>
 
-  <rect x="0" y="0" width="640" height="368" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="424" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE UNDECIDED LINE</text>
-    <text class="sub" x="320" y="66">If you cannot name what it protects, it is probably a preference.</text>
+    <text class="ttl" x="320" y="44">THE UNDECIDED LINE</text>
+    <text class="sub" x="320" y="80">If you cannot name what it protects,</text>
+    <text class="sub" x="320" y="104">it is probably a preference.</text>
   </g>
 
   <!-- the same pressure, twice -->
   <g class="press">
-    <path d="M320 100v28"/>
-    <path d="M320 252v28"/>
+    <path d="M320 140v28"/>
+    <path d="M320 300v28"/>
   </g>
   <g fill="currentColor">
-    <path d="M320 142l-5.5-12h11z"/>
-    <path d="M320 294l-5.5-12h11z"/>
+    <path d="M320 182l-5.5-12h11z"/>
+    <path d="M320 342l-5.5-12h11z"/>
   </g>
 
   <!-- top: nothing wedged underneath, so the line falls through the gap. The
        dashed outline that used to stand here is cut: it read as a selection
        box, and the V sags on its own. -->
   <g class="ln">
-    <path d="M160 156h100l60 50 60-50h100"/>
+    <path d="M160 196h100l60 50 60-50h100"/>
   </g>
   <g fill="currentColor">
-    <text class="lbl" x="44" y="161">UNDECIDED</text>
-    <text class="cap" x="320" y="230">this protects ________</text>
+    <text class="lbl" x="160" y="180">UNDECIDED</text>
+    <text class="cap" x="320" y="276">this protects ________</text>
   </g>
 
   <!-- bottom: the same line, with the named thing wedged under it -->
   <g class="ln">
-    <path d="M160 308h320"/>
+    <path d="M160 356h320"/>
   </g>
   <g fill="currentColor" opacity=".92">
-    <rect x="232" y="310" width="176" height="30"/>
+    <rect x="206" y="358" width="228" height="38"/>
   </g>
   <g fill="currentColor">
-    <text class="lbl" x="44" y="313">DECIDED</text>
-    <text class="lblw" x="320" y="330">WHAT IT PROTECTS</text>
+    <text class="lbl" x="160" y="340">DECIDED</text>
+    <text class="lblw" x="320" y="383">WHAT IT PROTECTS</text>
   </g>
 </svg>

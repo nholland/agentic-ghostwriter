@@ -231,3 +231,34 @@ would photograph.
 was cut, and it was a good line. It went rather than **nothing said out loud**
 because the caption cap allowed only one of the two and the other one is what
 stops the empty box being misread. If he wants it back, it costs the gloss.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Boxes rebalanced: IN YOUR HEAD 240 wide at x=48, WITH HER 262 wide at x=330 (mirrored within tolerance), so 'you haven't told her' fits on one line at 18px; wrapping it would exceed the caption cap (4 of 4). Title at 20px with letter-spacing .20em -> .12em: it is the longest title and must stay on one line. Canvas 376 -> 410 tall.
+
+Rendered to runs/ch11/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch11/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x410
+  [ ok ] title       title 'THE CONVERSATION SHE’S NEVER HEARD' / aria-label 'The Conversation She’s Never Heard' vs Mechanism "The Conversation She's Never Heard"
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 6 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

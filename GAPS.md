@@ -6,7 +6,7 @@ pipeline does that this house does not, each with the trigger that should close
 it. Say "not yet, and here is what it waits on" rather than discovering a gap
 when he needs it.*
 
-## Open (3)
+## Open (5)
 
 ### Publication stack: positioning, pitch, publishing path, indie plan, review strategy, book club guide, Substack push, Buffer
 
@@ -86,6 +86,18 @@ anything; that does not change.
 **Trigger:** the next chapter that declares a multi-word image term
 
 Ch16 v3 declared 'keep up' in its house family; the script reported 7 mentions (3.7/1,000) where a hand count gives 9 (4.7/1,000). Still under the cap, but a two-word image could pass the cap uncounted.
+
+### No EPUB build in the house: the 2026-11-07 EPUB was built ad hoc with pandoc from output/compiled/assets/book.html (headings fixed by a scratch script), and not validated with EPUBCheck
+
+**Trigger:** the next time the author asks for an ebook, or before any store submission
+
+Author asked for an ePub on 2026-11-07. Pandoc 3.1.3 is installed; the build demoted practice-page headings and flattened wrapper divs so the contents list is complete; plates went in as the compiled PNGs with alt text. EPUBCheck could not be downloaded in this session. Nothing in compile_current.py produces an EPUB, so the next one would be ad hoc again.
+
+### plate_check.py's geometry row can miss a real collision: its width estimate runs about 10% narrow for spaced bold capitals
+
+**Trigger:** the next plate revision
+
+Designer, 2026-11-07 Ch1-11 plate re-set: on a first Ch2 attempt the checker reported a 21px gap between HER WEATHER and YOUR OWN WEATHER while the Chromium render showed them touching. Final plates are clean by eye; the check alone is not enough.
 
 ## Built since the audit (6)
 

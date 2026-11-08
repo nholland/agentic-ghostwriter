@@ -378,3 +378,34 @@ that disappears turns panel two into a plain bar.
 ## Publisher fix, 2026-11-07 07:37 UTC (author: "fix the Ch5 plate")
 
 plate_check FAILed the title row (inbox #065): the title read "THE COURAGE TO COME BACK" and the aria-label carried a longer description, against the Mechanism "The courage to come back". Title text and aria-label now match the Mechanism word for word, in sentence case like the other plates; the title's caps letter-spacing was removed so sentence case reads normally. Drawing and copy otherwise unchanged. plate_check: no FAIL or WARN rows.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: GOES QUIET / GOES BACK moved from the left of each drawing to its top-left, on the row of the note; the drawing recentred on the axis (2px). Canvas 486 -> 580 tall.
+
+Rendered to runs/ch05/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch05/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x580
+  [ ok ] title       title 'The courage to come back' / aria-label 'The courage to come back' vs Mechanism 'The courage to come back'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    2 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   11 centred texts on the axis or a shared column; 9 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

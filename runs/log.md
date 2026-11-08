@@ -4615,6 +4615,18 @@ verdict; no prose or plate is landed.
 - `books/the-stoic-husband/03-outline.md`
 - `books/the-stoic-husband/04-archetype.md`
 - `books/the-stoic-husband/citation-queue.md`
+
+## 2026-11-07 15:27 — `ccr-b71105f1-5fo8nf` — 71 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
 - `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
 - `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
 - `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
@@ -4644,3 +4656,7 @@ verdict; no prose or plate is landed.
 - … and 151 more
 
 **Next:** `/gw 16` — Chapter 16 stopped at review (scoped chapter review evidence missing or invalid (review.json)).
+
+- … and 200 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
