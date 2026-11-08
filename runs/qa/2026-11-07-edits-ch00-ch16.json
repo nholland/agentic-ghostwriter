@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "created": "2026-11-07",
- "coverage": "Prologue, Introduction, Ch1-Ch15 (landed refined.md) and Ch16 (unlanded draft runs/ch16/refined.md), as of 2026-11-07",
+ "coverage": "Prologue, Introduction, Ch1-Ch16 (refined.md as of 2026-11-08; Ch16 landed 2026-11-07, prose unchanged from the draft reviewed)",
  "sources": [
   "runs/qa/2026-11-07-panel-ch00-ch15.md",
   "runs/qa/2026-11-07-slop-ch00-ch15.md",
@@ -44,7 +44,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q002",
@@ -101,7 +102,8 @@
      "verdict": "changed",
      "reason": "Ch16 now gives her words once (L21) and a different incident, said aloud ('Another time', L15), so 'leaving Ch16 nothing new to reveal' no longer holds. The Panel's fix ('I'll tell you how in Chapter 16') would now misstate it, because Ch16 does not tell how she first noticed."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q003",
@@ -129,7 +131,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 5
   },
   {
    "id": "Q004",
@@ -157,7 +160,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 5
   },
   {
    "id": "Q005",
@@ -194,7 +198,8 @@
      "verdict": "still-valid",
      "reason": "More urgent: Ch16 L79 makes Ch1's question the arête question, the book's load-bearer, while Ch8 and Ch15 still use it mid-moment against Ch1 L69. Ch16's own past-tense use is consistent with Ch1."
     }
-   ]
+   ],
+   "ease_tier": 3
   },
   {
    "id": "Q006",
@@ -228,7 +233,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q007",
@@ -262,7 +268,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q008",
@@ -296,7 +303,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q009",
@@ -330,7 +338,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q010",
@@ -387,7 +396,8 @@
      "verdict": "changed",
      "reason": "Mostly met by the draft: her words once (L21), the turn (L27), the compassion distinction (L31), and River/Oak/Sun brought together (L7, L83). Overtaken by the outline: duration and cost (the author capped the old picture at about 250 words), the Desert bridge ('none printed'), and the river-without-sun callback (Ch16 calls back Intro 47 instead, which works). Still unmet: 'no one-line imperative ending' (L99)."
     }
-   ]
+   ],
+   "ease_tier": 5
   },
   {
    "id": "Q011",
@@ -444,7 +454,8 @@
      "verdict": "changed",
      "reason": "Ch16 L7 names the River, Oak and Sun once each as arc names, and L71 names the River, as the outline allows, so the oak now appears in chapter prose. In practice Ch16 takes the 'one explicit element line per Part' option."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q012",
@@ -481,7 +492,8 @@
      "verdict": "still-valid",
      "reason": "Ch16 adds another explanation taught again: preferred indifferents at L37, repeating Ch2 50 word for word (new item). Its Musonius introduction is a single clause, which matches the fix."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q013",
@@ -509,7 +521,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q014",
@@ -537,7 +550,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q015",
@@ -581,7 +595,8 @@
      "verdict": "still-valid",
      "reason": "Stronger now: Ch16 L13-25 makes a third telling, and L25 reuses Ch1 85's 'opt out'."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q016",
@@ -615,7 +630,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q017",
@@ -649,7 +665,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q018",
@@ -677,7 +694,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q019",
@@ -705,7 +723,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q020",
@@ -739,7 +758,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q021",
@@ -783,7 +803,9 @@
      "verdict": "changed",
      "reason": "Ch16 L5 adds a fourth thesis line, and the Prologue's 'This whole book was written to keep you from making it' now overclaims, since the capstone gives the mistake one short turn."
     }
-   ]
+   ],
+   "ease_tier": 1,
+   "publisher_approach": "Accept both halves: Ch1 L13 becomes 'That three-second window is where all of this starts.' and Prologue L33 becomes 'A lot of this book was written to keep you from making it.'"
   },
   {
    "id": "Q022",
@@ -826,7 +848,8 @@
      "verdict": "still-valid",
      "reason": "Ch16 does return the four checks, so the panel's wording ('You'll meet those four things again') now matches the book exactly; 'unpack' is still on the avoid list."
     }
-   ]
+   ],
+   "ease_tier": 2
   },
   {
    "id": "Q023",
@@ -863,7 +886,9 @@
      "verdict": "still-valid",
      "reason": "Unaffected. Ch16's 'married to a stone' now carries the turn, which makes Ch1's third-person model-husband line more expendable."
     }
-   ]
+   ],
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q024",
@@ -900,7 +925,8 @@
      "verdict": "still-valid",
      "reason": "Ch16 L5-7 adds a fourth recap opening, but the outline asks for it at the capstone. That makes the Ch2/Ch5/Ch8 recaps harder to defend, since this is the one that earns its place."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q025",
@@ -928,7 +954,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept, minus the 'Not her...' fragments the Anti-Slop Reader flags elsewhere: 'Study that list. Her mood isn't named on it, but it falls under the last line, with whatever are not your own acts. Other people's inner states were never yours to work with.'"
   },
   {
    "id": "Q026",
@@ -962,7 +990,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q027",
@@ -990,7 +1019,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q028",
@@ -1024,7 +1055,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q029",
@@ -1052,7 +1084,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q030",
@@ -1080,7 +1114,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 5
   },
   {
    "id": "Q031",
@@ -1114,7 +1149,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q032",
@@ -1148,7 +1184,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q033",
@@ -1182,7 +1219,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q034",
@@ -1210,7 +1248,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q035",
@@ -1244,7 +1284,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q036",
@@ -1272,7 +1313,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q037",
@@ -1300,7 +1343,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q038",
@@ -1328,7 +1373,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q039",
@@ -1362,7 +1408,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q040",
@@ -1402,7 +1449,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q041",
@@ -1430,7 +1478,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written; the Line Editor moves the Ch7 link after L11."
   },
   {
    "id": "Q042",
@@ -1464,7 +1514,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q043",
@@ -1492,7 +1543,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q044",
@@ -1536,7 +1589,8 @@
      "verdict": "still-valid",
      "reason": "Ch16 L99 ('Put the most into your marriage, because she is your number one.') is a fifth imperative close in the last eight chapters, in a 'do X, because Y' form."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q045",
@@ -1579,7 +1633,8 @@
      "verdict": "still-valid",
      "reason": "More urgent: Ch16 L79 makes Ch1's four checks arête's parts, and Ch9's 'same four questions' are not those four."
     }
-   ]
+   ],
+   "ease_tier": 2
   },
   {
    "id": "Q046",
@@ -1613,7 +1668,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q047",
@@ -1641,7 +1697,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept all three lines (224, 50, 121)."
   },
   {
    "id": "Q048",
@@ -1678,7 +1736,8 @@
      "verdict": "still-valid",
      "reason": "Ch16's labels ('The old picture.', 'Toward her.', 'Both of you.', 'In flow.') are the descriptive style the fix asks for, so they can serve as the house model for Ch11-14."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q049",
@@ -1706,7 +1765,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q050",
@@ -1734,7 +1794,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q051",
@@ -1784,7 +1846,8 @@
      "verdict": "still-valid",
      "reason": "Ch16 L79 names Ch1's four questions as the parts of arête, so Ch11's five qualities now conflict with two chapters. More urgent than before."
     }
-   ]
+   ],
+   "ease_tier": 2
   },
   {
    "id": "Q052",
@@ -1818,7 +1881,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q053",
@@ -1855,7 +1919,8 @@
      "verdict": "still-valid",
      "reason": "Ch16 L75 uses the shape once, within the fix's one-per-chapter limit; it does not add to the problem."
     }
-   ]
+   ],
+   "ease_tier": 4
   },
   {
    "id": "Q054",
@@ -1889,7 +1954,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q055",
@@ -1923,7 +1989,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q056",
@@ -1951,7 +2018,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q057",
@@ -1979,7 +2047,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "id": "Q058",
@@ -2007,7 +2077,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 5
   },
   {
    "id": "Q059",
@@ -2041,7 +2112,8 @@
    "desk_disagreement": true,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q060",
@@ -2069,7 +2141,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q061",
@@ -2097,7 +2170,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q062",
@@ -2125,7 +2199,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q063",
@@ -2159,7 +2234,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q064",
@@ -2187,7 +2263,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q065",
@@ -2215,7 +2293,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q066",
@@ -2249,7 +2329,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q067",
@@ -2277,7 +2358,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q068",
@@ -2305,7 +2387,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q069",
@@ -2333,7 +2416,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q070",
@@ -2361,7 +2446,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q071",
@@ -2389,7 +2475,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q072",
@@ -2417,7 +2505,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q073",
@@ -2451,7 +2540,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q074",
@@ -2479,7 +2569,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q075",
@@ -2507,7 +2599,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q076",
@@ -2535,7 +2629,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q077",
@@ -2563,7 +2659,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "id": "Q078",
@@ -2597,7 +2695,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q079",
@@ -2625,7 +2724,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q080",
@@ -2653,7 +2754,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q081",
@@ -2681,7 +2784,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete the clause."
   },
   {
    "id": "Q082",
@@ -2709,7 +2814,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q083",
@@ -2737,7 +2844,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q084",
@@ -2765,7 +2873,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q085",
@@ -2793,7 +2903,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q086",
@@ -2827,7 +2939,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q087",
@@ -2855,7 +2968,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q088",
@@ -2883,7 +2998,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Cut the signpost rather than move it, so the chapter ends on L59."
   },
   {
    "id": "Q089",
@@ -2911,7 +3028,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q090",
@@ -2939,7 +3058,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q091",
@@ -2973,7 +3094,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q092",
@@ -3001,7 +3123,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept; the Line Editor merges L6 into L7 in one sentence."
   },
   {
    "id": "Q093",
@@ -3029,7 +3153,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q094",
@@ -3057,7 +3182,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q095",
@@ -3085,7 +3212,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q096",
@@ -3119,7 +3248,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q097",
@@ -3147,7 +3277,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3,
+   "tier_note": "Moved up by the Publisher: says how you feel about her friendships; only you can say it."
   },
   {
    "id": "Q098",
@@ -3175,7 +3307,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept both lines (117 and 29)."
   },
   {
    "id": "Q099",
@@ -3203,7 +3337,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q100",
@@ -3231,7 +3367,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q101",
@@ -3259,7 +3396,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q102",
@@ -3287,7 +3426,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "id": "Q103",
@@ -3315,7 +3456,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "id": "Q104",
@@ -3343,7 +3486,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q105",
@@ -3371,7 +3516,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q106",
@@ -3399,7 +3546,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "id": "Q107",
@@ -3427,7 +3576,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q108",
@@ -3461,7 +3611,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q109",
@@ -3489,7 +3640,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Cut it (the source stays in the OKF); the book has no endnotes."
   },
   {
    "id": "Q110",
@@ -3517,7 +3670,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 4
   },
   {
    "id": "Q111",
@@ -3545,7 +3699,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "id": "Q112",
@@ -3573,7 +3729,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 3
   },
   {
    "id": "Q113",
@@ -3607,7 +3764,8 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2
   },
   {
    "id": "Q114",
@@ -3635,7 +3793,9 @@
    "desk_disagreement": false,
    "status": "proposed",
    "ruling": null,
-   "applied_commit": null
+   "applied_commit": null,
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "chapter": "ch16",
@@ -3664,7 +3824,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 3
   },
   {
    "chapter": "ch16",
@@ -3699,7 +3860,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 3
   },
   {
    "chapter": "ch16",
@@ -3728,7 +3890,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "chapter": "ch16",
@@ -3757,7 +3921,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 3
   },
   {
    "chapter": "ch16",
@@ -3786,7 +3951,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "chapter": "ch16-ch02",
@@ -3815,7 +3982,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 4
   },
   {
    "chapter": "ch16",
@@ -3844,7 +4012,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 4
   },
   {
    "chapter": "ch16",
@@ -3891,7 +4060,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 3
   },
   {
    "chapter": "ch16",
@@ -3926,7 +4096,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 2
   },
   {
    "chapter": "ch16",
@@ -3961,7 +4132,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 2
   },
   {
    "chapter": "ch16",
@@ -3996,7 +4168,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 2
   },
   {
    "chapter": "outline-ch24-ch26",
@@ -4025,7 +4198,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 4
   },
   {
    "chapter": "book",
@@ -4054,7 +4228,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 4
   },
   {
    "chapter": "ch16-book",
@@ -4083,7 +4258,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 4
   },
   {
    "chapter": "ch16",
@@ -4112,7 +4288,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 2,
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
   {
    "chapter": "ch16-ch02",
@@ -4141,7 +4319,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 4
   },
   {
    "chapter": "ch16",
@@ -4170,7 +4349,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 1,
+   "publisher_approach": "Accept: delete."
   },
   {
    "chapter": "ch16-introduction",
@@ -4199,7 +4380,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 4
   },
   {
    "chapter": "ch16",
@@ -4228,7 +4410,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written (reorder only)."
   },
   {
    "chapter": "ch16",
@@ -4257,7 +4441,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 1,
+   "publisher_approach": "Reject. It's Ch16's only caveat, and the spec requires saying the step is yours. The fix is optional by the desk's own account."
   },
   {
    "chapter": "ch16",
@@ -4286,7 +4472,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "chapter": "ch16",
@@ -4321,7 +4509,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 3
   },
   {
    "chapter": "ch16",
@@ -4350,7 +4539,9 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 1,
+   "publisher_approach": "Accept as written."
   },
   {
    "chapter": "ch16",
@@ -4379,7 +4570,8 @@
    "status": "proposed",
    "ruling": null,
    "applied_commit": null,
-   "note": "Ch16 is an unlanded draft (runs/ch16/refined.md); line numbers refer to it."
+   "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
+   "ease_tier": 3
   }
  ]
 }
