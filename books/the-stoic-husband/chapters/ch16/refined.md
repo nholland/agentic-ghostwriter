@@ -45,7 +45,7 @@ I teach my boys that every kind of relationship, not just marriage, is one you b
 
 Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. I picture that life as a place the two of you own and live in every day. At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home.
 
-Even a warm place takes damage. Some of it is wear and tear from just living there. Some of it comes from the seasons. Some comes from the parties you throw and the guests who don't take care of the place. That's what happens to a place people actually use.
+Even a warm place takes damage. Some of it is wear and tear from just living there. Some of it comes from the seasons. Some comes from the parties you throw and the guests who don't take care of it. That's what happens when people actually live there.
 
 Your marriage takes those costs too. Some years one of your jobs has to come first. Someone's health takes a turn. The kids need more than either of you planned on. You each come from a family, and both sides need time and patience. None of that is anyone's fault, and every one of them takes something out of the marriage.
 
@@ -53,7 +53,7 @@ That's why you keep investing in it. You don't wait until something is broken. Y
 
 Some of it is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Yours will be different from mine. You know what she'd notice. What makes it matter is that you did it on an ordinary day, without being asked.
 
-Small acts of service are only part of it. The other part is showing up in the places where she knows you're with her. Remembering the dates that matter to her is one of them. Many men find anniversaries and special days hard to remember. So have a system. Write them down, in your phone or on a calendar, somewhere you'll see them in time. If you haven't done that, you haven't really thought about your investing strategy.
+Small acts of service are only part of it. The other part is showing up where she knows you're with her. Remembering the dates that matter to her is one of them. Many men find anniversaries and special days hard to remember. So have a system. Write them down, in your phone or on a calendar, somewhere you'll see them in time. If you haven't done that, you haven't really thought about your investing strategy.
 
 She wants to know she's a priority to you, and that you're in this with her. She doesn't want to ride along as a passenger in your life. She doesn't want a marriage where you're just two people sharing an address.
 
