@@ -4337,17 +4337,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "accepted-held",
+   "status": "applied",
    "ruling": {
     "by": "author",
     "date": "2026-11-09",
-    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
-    "delegated_to": "Publisher",
-    "apply": "Delete L71 and end on L69.",
-    "desk_fix": "gw-panel",
-    "reason": "Only fix offered."
+    "words": "Go with (b) for Q114.",
+    "apply": "Delete L71 and change L35 to 'When you're fed up, you answer faster and react harder.'"
    },
-   "applied_commit": null,
+   "applied_commit": "c42e247",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics.",
    "held_reason": "Deleting L71 drops Ch15 you-density to 38.7 (floor 40). Options: keep L71, or also change L35 'Feeling fed up drives faster responses and more intense reactions.' to 'When you're fed up, you answer faster and react harder.' (40.1). Needs the author's word."

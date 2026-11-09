@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-11-09T22:42:15.880772+00:00",
+  "subjects": [
+    "qa:Q114 and Ch16 place cuts"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-11-09: \"Go with (b) for Q114. Chp 16 - You can reduce 'place'\"",
+  "reason": "Wording and count fixes only; no fact, story, claim or definition changed.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch15/refined.md": "34eeda73b480f8297fd17cc3a12b216ccc966b3873236e1b739ed90212093401",
+    "books/the-stoic-husband/chapters/ch16/refined.md": "7c44fc01f07841f25f5f0ecb3c53e9fc752a6a924c1eb4cca67fd60b274ec00b"
+  }
+}
