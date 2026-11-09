@@ -2,7 +2,7 @@
 
 Between the moment she says something and the moment you respond, there's a window. Most men don't know it's there. The ones who learn to use it become a different kind of husband.
 
-She says something sharp. Maybe it's about the dishes, or your tone from an hour ago, or the thing you forgot again. The content doesn't matter. None of it does. What matters is what happens next. That half-second where you're still somewhere between deciding and reacting. And then the two and a half seconds after, when you stop deciding and just fire.
+She says something sharp. Maybe it's about the dishes, or your tone from an hour ago, or the thing you forgot again. What she said matters. What happens in the next three seconds matters first. That half-second where you're still somewhere between deciding and reacting. And then the two and a half seconds after, when you stop deciding and just fire.
 
 The words are already out before you've finished thinking them. She's somewhere else now. The night was fine two minutes ago. Now it's something else entirely.
 
@@ -10,13 +10,11 @@ You know the rest. You've lived the rest.
 
 That night you're lying in bed. She's there, but something is in the room that wasn't there an hour ago. You're not sleeping. Your mind is already replaying it. The exact moment the window opened. What you did with it. What a different choice would have looked like, and where the night would have gone.
 
-That three-second window is what this book is about.
+That three-second window is where all of this starts.
 
 Not the big fights. Not the hard years or the good ones. The window. Who you are in those three seconds is the husband you've been becoming, mostly without knowing it.
 
 **The Gap**
-
-Here's what actually happens, in order.
 
 Something lands. She says something, or doesn't say something, or you catch her face doing a particular thing. On its own, that's just data: a sound, a look, a silence.
 
@@ -70,7 +68,7 @@ Save this for afterward, not mid-fight. Walk through it then. Ask it honestly, a
 
 In the moment itself, there's room for something smaller. One breath, and one quick question: *What's this actually about for me right now, and how do I want to respond?* That's it. The breath buys the half-second. The question loosens whatever just got loaded. You don't need the full four-part review while she's standing in the doorway. You need it later, lying awake, training the thing that fires automatically next time.
 
-The rest of this book unpacks those four things in every specific situation a marriage hands you. The replay question doesn't change. Neither does the breath.
+You'll meet those four things again in the situations a marriage hands you. The replay question doesn't change. Neither does the breath.
 
 **The Mistake I Made First**
 
@@ -84,7 +82,7 @@ My wife thought I'd gone somewhere she couldn't reach.
 
 She wasn't wrong. "I can only control me" had become a way to opt out. Her frustration, what she needed from me in that moment. I'd filed it under *not mine to deal with*. Equanimity means staying calm and steady on the inside, no matter what's happening around you. What I'd done wasn't that. It was an excuse to disappear, and I'd called it progress. The Stoics called for self-command. I'd built self-removal instead.
 
-The fourth virtue is on the list for exactly this reason. *Brave enough to stay engaged.* The gap is where you step toward what's hard, and stay in the room. The Stoic Husband stays reachable. He's learned to pause in the place most men fire from. That pause takes more presence than distance ever could.
+The fourth virtue is on the list for exactly this reason. *Brave enough to stay engaged.* The gap is where you step toward what's hard, and stay in the room. Stay reachable. Pause in the place you used to fire from. That pause takes more presence than distance ever could.
 
 She's been waiting for someone to come home who isn't just riding it out.
 
