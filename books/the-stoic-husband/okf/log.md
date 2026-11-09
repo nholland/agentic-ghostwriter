@@ -1059,3 +1059,5 @@ The constitutional outline and framework map now use the same direction.
 - 2026-11-07 02:15 UTC — Chapter 16 Round 11: marriage-in-flow.md gains 'the marriage as its own entity'; there-are-two-of-you.md now also tagged the-marriage-in-flow with his Round 11 words.
 
 - 2026-11-07 15:20 UTC — Author's ebook rulings recorded in notes/2026-11-07-ebook-rulings.md (name, all-caps title, no cover yet, enlarge Ch1-11 plate type).
+
+- 2026-11-09 23:57 UTC — Whole-book QA rulings: i-cant-control-you-said-aloud.md records "One argument" (Q115); the-wife-who-is-enough.md records what the Avatar "I see you" gesture means, in his words (Q112).

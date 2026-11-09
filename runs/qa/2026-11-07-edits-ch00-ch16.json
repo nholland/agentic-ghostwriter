@@ -42,9 +42,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section A, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "1308fed",
    "ease_tier": 3
   },
   {
@@ -187,9 +192,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section A, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "1238d95",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -231,9 +241,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section A, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "4868ce4",
    "ease_tier": 3
   },
   {
@@ -1145,8 +1160,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section A, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md",
+    "choice": "keep as written"
+   },
    "applied_commit": null,
    "ease_tier": 3
   },
@@ -1607,9 +1628,14 @@
    "needs_author": false,
    "needs_factcheck": true,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section D, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "deec878",
    "ease_tier": 3
   },
   {
@@ -1968,9 +1994,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section B: * One argument * Yes for Q116, Q118 * Q049 - approved * Q112 - no. Its a fun way we make it known we recognize the person. Mixes a shared moment we all know from avatar with the concept of saying 'I see and recognize you'",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "77394b5",
    "ease_tier": 3
   },
   {
@@ -2222,9 +2253,14 @@
    "needs_author": true,
    "needs_factcheck": true,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section D, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "20cd8ea",
    "ease_tier": 3
   },
   {
@@ -3734,8 +3770,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section A, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md",
+    "choice": "keep as written"
+   },
    "applied_commit": null,
    "ease_tier": 3,
    "tier_note": "Moved up by the Publisher: says how you feel about her friendships; only you can say it."
@@ -3838,8 +3880,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section C, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md",
+    "choice": "keep as written"
+   },
    "applied_commit": null,
    "ease_tier": 3
   },
@@ -4266,8 +4314,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section B: * One argument * Yes for Q116, Q118 * Q049 - approved * Q112 - no. Its a fun way we make it known we recognize the person. Mixes a shared moment we all know from avatar with the concept of saying 'I see and recognize you'",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md",
+    "choice": "keep as written"
+   },
    "applied_commit": null,
    "ease_tier": 3
   },
@@ -4373,9 +4427,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section B: * One argument * Yes for Q116, Q118 * Q049 - approved * Q112 - no. Its a fun way we make it known we recognize the person. Mixes a shared moment we all know from avatar with the concept of saying 'I see and recognize you'",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "9ca3828",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 3
   },
@@ -4409,9 +4468,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section B: * One argument * Yes for Q116, Q118 * Q049 - approved * Q112 - no. Its a fun way we make it known we recognize the person. Mixes a shared moment we all know from avatar with the concept of saying 'I see and recognize you'",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "9ca3828",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 3
   },
@@ -4478,9 +4542,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section B: * One argument * Yes for Q116, Q118 * Q049 - approved * Q112 - no. Its a fun way we make it known we recognize the person. Mixes a shared moment we all know from avatar with the concept of saying 'I see and recognize you'",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "9ca3828",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 3
   },
@@ -4625,9 +4694,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section C, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md"
+   },
+   "applied_commit": "9ca3828",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 3
   },
@@ -5133,8 +5207,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section C, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md",
+    "choice": "keep as written"
+   },
    "applied_commit": null,
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 3
@@ -5201,8 +5281,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "Section C, items approved",
+    "source": "runs/qa/2026-11-09-decisions-batch3.md",
+    "choice": "keep as written"
+   },
    "applied_commit": null,
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 3
