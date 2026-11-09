@@ -4,7 +4,7 @@ The question that woke me up in my own marriage came in a normal conversation, f
 
 My wife and I were talking about nothing in particular, and she asked when the last time was that I took her on a date.
 
-It hit me like a ton of bricks, because she was right. I counted back. Close to five months, and I hadn't felt one of them go by. You've heard the same advice I have, that a couple should get out once a week. Nobody established that number. Being there is the part that counts.
+It hit me like a ton of bricks, because she was right. I counted back. Close to five months, and I hadn't felt one of them go by. You've heard the same advice I have, that a couple should get out once a week. I don't know where that number came from. What counts is that you actually go.
 
 She wasn't accusing me of anything. She was asking. If there's a stretch like that in your house, you probably don't know how long it is either. You didn't stop loving her. Nothing in a week tells you how long it's been.
 
@@ -12,7 +12,7 @@ She wasn't accusing me of anything. She was asking. If there's a stretch like th
 
 **The second piece of advice.** My grandfather gave me two things worth keeping about marriage. You've already had the one about giving sixty and expecting forty. The other came when I first got married, and it was harder to take: "Put your wife first. Focus on her because your kids will leave you."
 
-That came off as harsh. It still does. You're supposed to say your family is everything, not rank the people inside it. Here was an old man ranking them out loud to me. He's also the man whose temper I inherited. He got plenty wrong. He got this right.
+That came off as harsh. It still does. You're supposed to say your family is everything, not rank the people inside it. Here was an old man ranking them out loud to me. He's also the man whose temper ran down through my family. He got plenty wrong. He got this right.
 
 I think he meant something gentler than it sounded. You pick a partner, and you keep putting her first after the house fills up with people who need you more loudly. The kids grow and go. They're supposed to. She's the one still across from you when they do, and the one who notices first when you drift.
 
@@ -48,7 +48,7 @@ And acts of service is my lowest. Bringing somebody a coffee, seeing what needs 
 
 So your effort can be real and still land flat. You put your back into something in your own language, she thanks you and means it, and it's flat. You carry that for three days deciding she's ungrateful. She isn't. It arrived in a form she doesn't read as love. To her, love is you asking about the meeting she's been dreading, then asking again on Thursday, because you remembered there was a Thursday.
 
-When love arrives in a form that doesn't land for you, the reflex is to overlook it. Effort in the wrong language is still effort, and you owe it a real thank you. Winning favor isn't trading for it, either.
+When love arrives in a form that doesn't land for you, the reflex is to overlook it. Effort in the wrong language is still effort, and you owe it a real thank you. Trying to win her favor doesn't mean expecting payment for it.
 
 Twenty years ago I took my wife on a short sightseeing flight over Nashville, and I wrote her letters. I haven't done anything like it since, and she's never asked for another flight. She asked about a date. What lands is smaller: something done in her language on an ordinary day. It's the small thing that says I still see you rather than I planned something impressive.
 
@@ -80,10 +80,10 @@ That sounds bleak for about four seconds. Fighting is a problem you have to solv
 
 When you stop making an effort, she may stop expecting it from you.
 
-Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. He was a Stoic, and the notebook is *Meditations*. In 4.24 he picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
+Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. In 4.24 he picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
 
 ---
 
-She's been waiting to be one of the necessary things, and that muscle is one you can start using tonight.
+She's been waiting to be one of the necessary things, and you can put her on the list tonight.
 
 ---
