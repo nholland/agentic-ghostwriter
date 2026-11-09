@@ -60,7 +60,7 @@ The gap between the first stage and the second is where everything lives. That's
 
 Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He wasn't describing an achievement. He was writing to himself, about what actual strength looks like.
 
-Anger isn't strength. It's the absence of it.
+Acting on anger isn't strength. It's the absence of it.
 
 ---
 
