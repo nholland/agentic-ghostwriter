@@ -6,11 +6,11 @@ You take out the trash every Tuesday night. You've done it for years. Nobody tha
 
 **The split.**
 
-Every household splits its work. Sometimes you sit down and divide it on purpose. Most of the time it just happens, one Tuesday at a time, until the dog walks belong to you and the dishes belong to her and nobody remembers deciding any of it.
+Every household splits its work. Sometimes you sit down and divide it on purpose. Most of the time it just happens, one Tuesday at a time, until the dog walks belong to you and the laundry belongs to her and nobody remembers deciding any of it.
 
-Here's the part nobody warns you about: once the split happens, you mostly stop seeing her half of it. Not because you don't care. Because you're the one living your half. You feel every trip to the dump, every late night with the dishes, every weekend project nobody else watched you start or finish. You don't feel her half nearly as much, because you weren't standing in it. She's the hero of her own story the same way you're the hero of yours. The work she sees clearly is her own.
+Once the split happens, you mostly stop seeing her half of it. Not because you don't care. Because you're the one living your half. You feel every trip to the dump, every late night with the dishes, every weekend project nobody else watched you start or finish. You don't feel her half nearly as much, because you weren't standing in it. She's the hero of her own story the same way you're the hero of yours. The work she sees clearly is her own.
 
-Some of what you carry has a name and a schedule. Trash on Tuesday. Dishes most nights. But a lot of it doesn't have either. It's a bucket. One weekend it's the ceiling fan that's been rattling for a month. Another weekend it's helping her finish a project she's been planning for weeks. Another it's gassing up both cars and running them through the wash, or coaching the flag football team because nobody else would. None of those jobs repeats often enough to earn a name, so it just lives in the bucket labeled "whatever needs doing." That bucket is exactly why this blindness gets worse the longer a marriage runs. There's no slot on the calendar that says "ceiling fan." There's no moment where either of you notices it got emptied again.
+Some of what you carry has a name and a schedule. Trash on Tuesday. Dishes most nights. But a lot of it doesn't have either. It's a bucket. One weekend it's the ceiling fan that's been rattling for a month. Another weekend it's helping her finish a project she's been planning for weeks. Another it's gassing up both cars and running them through the wash. None of those jobs repeats often enough to earn a name, so it just lives in the bucket labeled "whatever needs doing." That bucket is exactly why this blindness gets worse the longer a marriage runs. There's no slot on the calendar that says "ceiling fan." There's no moment where either of you notices it got emptied again.
 
 This isn't a flaw in your marriage. It's just how two people work. The philosopher Musonius Rufus called marriage a "community of life." He's a Stoic teacher most men have never heard of, even if they know Marcus Aurelius or Seneca. His idea was simple: two people running one shared project, not two private ones. That's the goal: one household, not two ledgers each of you keeps to yourself. But goals don't erase how human attention actually works. You still only live inside one half of the house.
 
@@ -38,9 +38,7 @@ It isn't really about the laundry. The total weight either of you carries that w
 
 **The four D's.**
 
-When that verdict lands, you've got four ways to swing back, and you already know all four, because you've used them before you ever heard them named.
-
-You can defend yourself: list everything you did this week, out loud, like a man reading a closing argument. You can deny it: "That's not true, I do plenty." You can downplay it: "It's not that bad, calm down." You can deflect it onto her: "You're not exactly perfect either." Each one feels justified the second you reach for it. Each one also turns a tired woman's comment about laundry into a trial over your character, and that's a fight nobody wins, because now you're both defending instead of either of you listening.
+When that verdict lands, the Four D's from Chapter 3 are right there: defend, deny, downplay, deflect. Each one feels justified, and each one turns a tired woman's comment about laundry into a trial over your character, and that's a fight nobody wins, because now you're both defending instead of either of you listening.
 
 The moment you produce a defense, you've handed her a reason to produce one back. Nobody loses an argument like that without reaching for their own evidence. So now there are two ledgers in the room instead of one shared project, and ledgers don't reconcile. They just get longer, week after week, until neither of you can remember what actually started the fight. That's how one comment about laundry turns into a referendum on a parent-teacher conference from three months ago. You didn't invent scorekeeping by accident. You invented it the moment you decided your tally was worth reciting out loud.
 
@@ -56,7 +54,7 @@ Marcus Aurelius asked himself a version of this every morning he didn't want to 
 
 If the honest answer is yes, you were avoiding your own job. That's not an attack to defend against. That's a gift, and you take it. If the answer is no, you weren't lazy. You were just out of step for one evening. Give her the same grace you'd want on a night when you're the one folding towels and she's the one with her feet up. Either way, the tally never gets read out loud.
 
-That's the whole difference between a man who carries his half of the house and a man who's quietly billing for it. One of them is steady enough to be counted on without needing to be counted. Scorekeeping can feed resentment. Resentment can also grow when the work you're carrying has become too much. Giving freely doesn't mean carrying an arrangement you can't sustain. Chapter 7 examines the ledger directly.
+That's the whole difference between a man who carries his half of the house and a man who's quietly billing for it. One of them is steady enough to be counted on without needing to be counted. Scorekeeping can feed resentment. Resentment can also grow when the work you're carrying has become too much. Giving freely doesn't mean carrying an arrangement you can't sustain.
 
 ---
 ## Editor's Notes
