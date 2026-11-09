@@ -3,10 +3,9 @@
 There are rules in your marriage nobody ever wrote down. You'd defend them
 anyway. Ask what one of them is actually for and most men come up empty.
 
-Epictetus spent his early life as a slave and the rest of it running a school.
-His handbook, the *Enchiridion*, is a short field guide to living, and its
-thirty-third section opens by telling you to settle that question early, before
-anyone is watching.
+The handbook of Epictetus, a former slave who became a teacher, is the
+*Enchiridion*, a short field guide to living, and its thirty-third section
+opens by telling you to settle that question early, before anyone is watching.
 
 *"Immediately prescribe some character and some form to yourself, which you
 shall observe both when you are alone and when you meet with men."*
@@ -47,8 +46,8 @@ the first person who pushes on it.
 Take the money one. What is it protecting? Not what it stops. What it
 protects. If the answer is that you don't like being surprised, that's a
 preference. If the answer is the savings, or the house you're working toward,
-or the two of you making big calls together, that's a boundary. Most men have
-never answered that question out loud, and that's exactly why the rule folds
+or the two of you making big calls together, that's a boundary. If you've
+never answered that question out loud, that's exactly why the rule folds
 when somebody leans on it hard enough. There was nothing underneath it.
 
 Run it on a second one. You don't let friends complain about your wife to you.
@@ -57,8 +56,7 @@ people around you, which is yours to look after whether she ever finds out you
 did it or not. Now you can hold the line, because you know what you're holding
 it for.
 
-Naming it does something else, too, and this is the part most men never get
-to. It changes the argument you have with your wife.
+Naming it also changes the argument you have with your wife.
 
 When the two of you disagree about a rule, you argue about the rule, and that
 argument has nowhere to go. Nobody ever won "no screens after dinner." But if
@@ -81,7 +79,8 @@ that can flex, and should.
 
 Karl Pillemer interviewed seven hundred people who'd been married thirty years
 or more about what puts the most strain on a marriage. In-laws, money, and the
-way two people speak to each other all came up.
+way two people speak to each other all came up. Those are the three places
+the lines in this chapter live.
 
 **What you do to each other.**
 
@@ -118,7 +117,7 @@ doesn't get to fill your cup either. A friend telling you something hard and
 true about your own marriage is a gift. A friend complaining about her to you
 is a different thing, and you can feel the difference while it's happening.
 
-The third one is the hardest, and most men have no answer for it. Sometimes
+The third one is the hardest. Sometimes
 you hold the line and she doesn't. She's tired, or she's had a week you
 wouldn't wish on anyone, and something comes out of her that's on the list.
 Now what?
@@ -134,6 +133,8 @@ He's talking about a son and a hard parent. The part that belongs here is
 your responsibility for your own conduct. Her crossing a line doesn't give
 you permission to cross it too.
 
+You hold it anyway.
+
 You can refuse to call her names and also end a conversation in which she's
 calling you names. Say what you're doing: "I want to talk about this, but I
 won't keep going while we're insulting each other. Let's come back to it
@@ -143,8 +144,6 @@ If it keeps happening, name the pattern and seek help rather than treating
 each incident as another test of your patience. If you're afraid or someone
 gets physical, getting to safety comes first. Holding your own standard
 doesn't require staying in harm's way.
-
-You hold it anyway.
 
 **What you do with money.**
 
@@ -221,7 +220,7 @@ pick it up or let it sit there and turn into December.
 The line itself is simple: a decision the two of you already made together is
 closed. The hard part isn't drawing it. It's who does the work of holding it.
 
-Most men hand that job to their wife. You send her to talk to your own mother.
+It's easy to hand that job to your wife. You send her to talk to your own mother.
 Or her father calls you about something already settled, and instead of
 answering him, you carry it home and set it down in front of her. The line was
 yours to hold and you gave her the uncomfortable half of it. Do that enough
@@ -270,8 +269,8 @@ job doesn't get handed to anyone else in your house, and doing it on the night
 it costs something is the entire difference between a line you drew and a line
 you keep.
 
-You're not holding any of this to win, you're holding it because your marriage
-is what's on the other side of it.
+You're not holding any of this to win. You're holding it because your
+marriage is what's on the other side of it.
 
 ---
 ## Editor's Notes
