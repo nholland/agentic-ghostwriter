@@ -12,7 +12,7 @@ The calm and the strength can feel like the hard part, and they are. But if you 
 
 **The old picture.** A lot of us grew up with a different idea of what a man is. Men were fearless protectors and providers. You can respect that, and I do. The trouble was that it left a man nowhere to put what he felt. A lot of men I've known said nothing about their feelings and only spoke up to make a demand. If a man was pushed to the edge, the old picture said it was okay for him to blow up.
 
-Calm was my first fix for that, and calm can go cold. In Chapter 1, my calm went cold and I said nothing. Another time, my cold calm came out in words, said straight to my wife.
+Calm was my first fix for that, and calm can go cold. I told you in Chapter 1 how I'd go calm and quiet and wait for her upset to pass. What I didn't tell you is that early on, I once said the quiet part out loud.
 
 I'd just gotten into Stoicism. We had an argument. She was angry, and I sat there quiet. When she was done, I said, "I can't control you. I can only control me and I don't see things the way you do."
 
@@ -22,7 +22,9 @@ She answered right away.
 
 She didn't want to be married to a stone.
 
-Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. "I can only control me" is true. In that argument, I used it to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her.
+Saying "I can't control you" carried a smug superiority, as if staying calm made me better than her. "I can only control me" is true. In that argument, I used it to opt out of what she was feeling. It should be a mindset, not something that you repeat out loud to her. As a mindset, it's a standard I hold my own conduct to.
+
+At the start of this book I wrote that the river without the sun becomes detached, that his calm comes from no longer being invested. That was me.
 
 What fixed it was turning toward her.
 
@@ -45,7 +47,7 @@ I teach my boys that every kind of relationship, not just marriage, is one you b
 
 Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. I picture that life as a place the two of you own and live in every day. At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home.
 
-Even a warm place takes damage. Some of it is wear and tear from just living there. Some of it comes from the seasons. Some comes from the parties you throw and the guests who don't take care of it. That's what happens when people actually live there.
+Even a warm one takes damage. Some of it is wear and tear from just living there. Some of it comes from the seasons. Some comes from the parties you throw and the guests who don't take care of it. That's what happens when people actually live there.
 
 Your marriage takes those costs too. Some years one of your jobs has to come first. Someone's health takes a turn. The kids need more than either of you planned on. You each come from a family, and both sides need time and patience. None of that is anyone's fault, and every one of them takes something out of the marriage.
 
@@ -53,7 +55,7 @@ That's why you keep investing in it. You don't wait until something is broken. Y
 
 Some of it is small. I say good morning to her when I'm traveling. I make the coffee. I rub her back. I pick up a gift while I'm out because I thought of her. Yours will be different from mine. You know what she'd notice. What makes it matter is that you did it on an ordinary day, without being asked.
 
-Small acts of service are only part of it. The other part is showing up where she knows you're with her. Remembering the dates that matter to her is one of them. Many men find anniversaries and special days hard to remember. So have a system. Write them down, in your phone or on a calendar, somewhere you'll see them in time. If you haven't done that, you haven't really thought about your investing strategy.
+Small acts of service are only part of it. The other part is showing up where she knows you're with her. Remembering the dates that matter to her is one of them. Many men find anniversaries and special days hard to remember. Chapter 12 said the date matters less than the thought behind it. The thought starts with knowing it's coming. So have a system. Write them down, in your phone or on a calendar, somewhere you'll see them in time. If you haven't done that, you haven't really thought about your investing strategy.
 
 She wants to know she's a priority to you, and that you're in this with her. She doesn't want to ride along as a passenger in your life. She doesn't want a marriage where you're just two people sharing an address.
 
