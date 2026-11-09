@@ -74,7 +74,7 @@ You don't owe the calendar a performance, and a quiet evening at home is an hone
 
 ---
 
-**What's still there.** Couples followed over the years don't usually come apart because the fighting starts. They come apart because the warmth stops, and it stops first in the couples who've been at it longest. Partners who feel appreciated tend to be more appreciative back, and the research only says they travel together.
+**What's still there.** In long marriages, the danger usually isn't that the fighting starts. It's that the warmth stops. Partners who feel appreciated tend to be more appreciative back, though the research can't say which comes first.
 
 That sounds bleak for about four seconds. Fighting is a problem you have to solve. This is a thing you stopped doing. You can start again, and you may also owe her an apology.
 
