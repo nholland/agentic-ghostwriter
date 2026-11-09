@@ -7,7 +7,7 @@ Epictetus was a Stoic teacher who spent his early years as a slave and his later
 *"Of things some are in our power, and others are not. In our power are opinion, movement towards a thing, desire, aversion, turning from a thing; and in a word, whatever are our acts. Not in our power are the body, property, reputation, offices (magisterial power), and in a word, whatever are not our own acts."*
 — Epictetus, *Enchiridion*, Ch. 1 (Long trans.)
 
-Study that list. Her mood isn't on either side. Not her state of mind. Not the energy she carries through the door. Not the temperature in the house when she walks in. None of it appears. Not because Epictetus overlooked it. Because other people's inner states were never yours to work with. They were never on the list because they were never yours.
+Study that list. Her mood isn't named on it, but it falls under the last line, with whatever are not your own acts. Other people's inner states were never yours to work with.
 
 Your wife comes home from catching up with a friend and you can tell before she's through the door. She's lit up. She gives you a hug, a quick kiss on the cheek, and your whole night lifts. You didn't decide to feel that. You just do.
 
@@ -35,9 +35,7 @@ She carries that into the kitchen where the kids already are. The tone she bring
 
 The dog did nothing.
 
-Your ungoverned arrival. An entire household in distress. Ending with an animal who had no part in any of it. Nobody decided to pass it along. It moved on its own, the way these things do. It didn't stop until it ran out of people.
-
-Nobody meant to pass it on. You just came home carrying what the day gave you. The house caught it.
+You came home carrying the day, and by bedtime the whole house had it, down to a dog that did nothing. Nobody meant to pass it on. It didn't stop until it ran out of people.
 
 ---
 
@@ -49,7 +47,7 @@ The Stoics called this the *hegemonikon*: the ruling faculty. Not the part that 
 
 Her mood. Her stress. What she's carrying when you walk through the door. None of it is yours to govern. It's external. Outside of you. You hope it goes well. Of course you do. When she's happy, the Stoics would call that a preferred indifferent. When she's carrying something hard, a dispreferred indifferent. *Indifferent* doesn't mean you don't care. It means this isn't where your character gets built, good day or bad. Preferred or dispreferred, that part stays the same. Build your inner peace on these things, and you haven't built anything. They can change on a Tuesday without warning.
 
-Any man can hold steady when the current's easy. Maybe you've called that steadiness: being okay when conditions cooperate, level when the house is quiet. But an easy current doesn't test anything. Some men have peaceful houses and call it character. It might just be timing.
+Any man can hold steady when the current's easy. Maybe you've called that steadiness: being okay when conditions cooperate, level when the house is quiet. But an easy current doesn't test anything. Notice whether your calm depends on everyone else being calm. If it does, it might just be timing.
 
 The Stoic question is different: can you keep flowing when the terrain changes? Can you stay governed when the externals stop cooperating? When she comes in carrying something heavy. When the day left a mark on you. When the house is loud and everyone needs something at once. That's when the *hegemonikon* either holds or it doesn't.
 
@@ -61,7 +59,7 @@ Reading this so far, some of you are building something cold in your head. The g
 
 That's not this.
 
-Not suppress. Not eliminate. *Calm.* The goal is not to stop feeling. The goal is to stop being run by feelings that are downstream of things you don't control.
+The goal is not to stop feeling. The goal is to stop being run by feelings that are downstream of things you don't control.
 
 She's sick, really sick, the miserable kind. You walk in with soup. You're warm. You make a small, quiet joke that lightens the room without dismissing what she's going through. You're not swept into her illness. You're not performing Stoic-cool from somewhere she can't reach. You're yourself: steady, warm, genuinely there. Your equanimity is not the distance between you. It is what you're bringing her.
 
@@ -77,7 +75,7 @@ You can be funny in your marriage. Warm, romantic, invested, genuinely present. 
 
 That's not loving her. That's adding to her weight.
 
-These are the things you prefer. Worth tending, every one of them. But they were never the source of your inner state. They never were. You just handed them that job, and they were never qualified for it.
+Her good days and her hard ones are things you prefer or don't. Worth tending, every one of them. But they were never the source of your inner state. They never were. You just handed them that job, and they were never qualified for it.
 
 Take it back. Not to go cold. Not to go distant. To bring something real through the door: a man with his own weather, who knows how to come home.
 
