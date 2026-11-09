@@ -32,7 +32,7 @@ All four feel like honesty. None of them are listening.
 
 **The cost.**
 
-She picked the time, chose to say it, and came to you with it. When she got the defensive response back, she registered it. Not consciously, not dramatically. She just updated her model of what it costs to bring things to you.
+She picked the time, chose to say it, and came to you with it. When she got the defensive response back, she registered it. Not consciously, not dramatically. She just remembered how hard it was to tell you.
 
 She does this enough times, and she stops.
 
@@ -54,7 +54,7 @@ You can feel when something is simmering between you. Not a fight. Just a weight
 
 The Stoic move isn't to push through anyway. And it isn't to ignore it and hope it resolves. It's to make a deliberate choice: *I'm going to come back to this when we're both calmer.* Then use the time between now and then.
 
-Most men don't. They wait, dreading it, without doing anything with that dread.
+Waiting in dread doesn't prepare you for anything.
 
 You use that window. You pre-live how the conversation might go. You feel the pull of the Four D's in your imagination, before it's real. You decide in advance what you'll do when you feel that pull. So when the moment comes, you're not caught off guard, driven back to the automatic pattern. You already made your choice.
 
@@ -92,7 +92,7 @@ The Four D's are automatic. Absorbed before you had words for them, installed by
 
 What interrupts the automatic isn't willpower in the moment. It's preparation before it. You saw the conversation coming. You used the window. You already decided.
 
-When she brings something to you tonight, the door is either open or it isn't. She can tell. She's been keeping track longer than you know.
+When she brings something to you tonight, the door is either open or it isn't. She can tell. She's been noticing longer than you know.
 
 ---
 
