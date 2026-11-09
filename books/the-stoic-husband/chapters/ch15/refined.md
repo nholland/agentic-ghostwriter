@@ -20,7 +20,7 @@ I used to take those lines personally. Over time I realized a line like that is 
 
 When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
-The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. That reading is for you to keep, not something to say to her. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
+The second question is about her: what does the remark tell you about how she feels? Often the remark says as much about her day as it does about you. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. That reading is for you to keep, not something to say to her. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
 
 What changed for me came slowly, through experience. I started asking: who has the strength to de-escalate? Somebody has to be calm. Somebody has to be patient. Somebody has to be the one that's romantic and kind. Someone has to be the one that brings the warmth into the relationship.
 
