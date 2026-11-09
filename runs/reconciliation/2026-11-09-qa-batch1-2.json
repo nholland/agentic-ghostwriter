@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-11-09T14:09:50.819711+00:00",
+  "subjects": [
+    "qa:2026-11-07-edits-ch00-ch16 batch 1-2"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-11-09: \"I want to accept all of batch 1 and batch 2, We can go with your best choice.\"",
+  "reason": "Line-level style and continuity edits (cuts, rewordings, second-person, de-duplication). No new fact, story, claim or definition; the two fact-adjacent edits align landed prose with facts the book already records (Ch12 temper wording now matches Ch1's account of what he inherited; Ch6 chores made consistent within the chapter). Pillemer/Q040 and the Prologue timeline/Q001 were NOT changed and remain open.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch01/refined.md": "f5bd52e3261410b95434317b33b2554b097222a4f9ecab4122cd0aaca76897fa",
+    "books/the-stoic-husband/chapters/ch02/refined.md": "109bfeb5a35bb9433b8ea8fef8af670fbfa735d455429d6a734bdac9456d0035",
+    "books/the-stoic-husband/chapters/ch03/refined.md": "b9e5d0cc275b721635ea8279de08a41af1005d278f8715af6d0af94253670ffb",
+    "books/the-stoic-husband/chapters/ch04/refined.md": "ace33a209c878181d9e471728cec89771161d02a035c09743ab4ec8a75c5b4de",
+    "books/the-stoic-husband/chapters/ch05/refined.md": "41da28c8d47da3e78c88514750df293826eed8adaeeee00631326181ed092068",
+    "books/the-stoic-husband/chapters/ch06/refined.md": "600f91010f96eaf1beb9769e4dfa70b8007a7b08a740dbe52619147d1e758777",
+    "books/the-stoic-husband/chapters/ch07/refined.md": "f59d58bc98b63995722c0e40bdabad58494e04b6f8e70fee464dc4fa632cdbb7",
+    "books/the-stoic-husband/chapters/ch08/refined.md": "8823521d93896eab889d82a456947b62ec1b31dad7f081f2e58a14a80a54fa6a",
+    "books/the-stoic-husband/chapters/ch09/refined.md": "fe4cec2be59450a9960177e52763334d4536a9d04892b9aabc88596a1b0455c0",
+    "books/the-stoic-husband/chapters/ch10/refined.md": "a4d191cd5f4519fd34399dbe539292a6f1eb1a12313d6fb10ccc0561b066b8e6",
+    "books/the-stoic-husband/chapters/ch11/refined.md": "3c168c27b47087b4e559acf45dca485f043b191aee2a4e07c403fd705d8a001b",
+    "books/the-stoic-husband/chapters/ch12/refined.md": "48217279456fefc40434d0e6de46d12403a2a7e67f910bd3a0ecde8b0f46527b",
+    "books/the-stoic-husband/chapters/ch13/refined.md": "39ac43c164cf2e8db9f8e7f4ced5b568b002d32d7b418d5b2dfd821c14652136",
+    "books/the-stoic-husband/chapters/ch14/distillation.md": "10801af621ef5e0526a4748799cc5db3a44b5c6a2667c02348458be00ac0a79c",
+    "books/the-stoic-husband/chapters/ch14/refined.md": "8ec5ab420de2b2cae7d303ffceb08d50f00a7d8e7b6581f683958790553625a1",
+    "books/the-stoic-husband/chapters/ch15/refined.md": "f59accbdeb64d6e26964edc9fefd6ef887969083c9c85dffe8cc9fff18ab4284",
+    "books/the-stoic-husband/chapters/ch16/refined.md": "ba20e00fd53012295843ce713d65822ff91fd3732ddf99d4016e876842ca1a4b",
+    "books/the-stoic-husband/chapters/prologue/refined.md": "42f4a429f20c029c0d2eef03e5c5a230d4fa83f5240da36ed1e582ad52d5abf2"
+  }
+}

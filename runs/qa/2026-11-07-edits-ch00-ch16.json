@@ -266,9 +266,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Move 'You hold it anyway.' (L147) to directly after 'Her crossing a line doesn't give you permission to cross it too.' (L134-135); end the tier on 'Holding your own standard doesn't require staying in harm's way.'",
+    "desk_fix": "gw-panel",
+    "reason": "Both desks agree."
+   },
+   "applied_commit": "4157758",
    "ease_tier": 2
   },
   {
@@ -301,9 +309,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "But the woman they're comparing her to is someone they've never lived with, so it's just a dream.",
+    "desk_fix": "gw-panel",
+    "reason": "Keeps your 'so it's just a dream' line; the Anti-Slop version would replace your words."
+   },
+   "applied_commit": "70ec317",
    "ease_tier": 2
   },
   {
@@ -336,9 +352,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Often the remark says as much about her day as it does about you.",
+    "desk_fix": "gw-panel",
+    "reason": "Keeps both sides: her day and you."
+   },
+   "applied_commit": "f55f80b",
    "ease_tier": 2
   },
   {
@@ -628,9 +652,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "I've needed help with things that mattered.",
+    "desk_fix": "gw-panel",
+    "reason": "Shortest and plainest."
+   },
+   "applied_commit": "a327275",
    "ease_tier": 2
   },
   {
@@ -663,9 +695,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Without that effort, the habits you already have keep deciding for you.",
+    "desk_fix": "gw-panel",
+    "reason": "Smallest change; keeps your paragraph."
+   },
+   "applied_commit": "a327275",
    "ease_tier": 2
   },
   {
@@ -756,9 +796,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'What she said matters. What happens in the next three seconds matters first.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Ties straight to the three-second window."
+   },
+   "applied_commit": "205ea6d",
    "ease_tier": 2
   },
   {
@@ -792,9 +840,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept both halves: Ch1 L13 becomes 'That three-second window is where all of this starts.' and Prologue L33 becomes 'A lot of this book was written to keep you from making it.'"
+   },
+   "applied_commit": "205ea6d",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -837,9 +892,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "You'll meet those four things again in the situations a marriage hands you. The replay question doesn't change. Neither does the breath.",
+    "desk_fix": "gw-panel",
+    "reason": "Doesn't promise what later chapters don't deliver."
+   },
+   "applied_commit": "205ea6d",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -875,9 +938,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "205ea6d",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -952,9 +1022,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept, minus the 'Not her...' fragments the Anti-Slop Reader flags elsewhere: 'Study that list. Her mood isn't named on it, but it falls under the last line, with whatever are not your own acts. Other people's inner states were never yours to work with.'"
+   },
+   "applied_commit": "0094151",
    "ease_tier": 1,
    "publisher_approach": "Accept, minus the 'Not her...' fragments the Anti-Slop Reader flags elsewhere: 'Study that list. Her mood isn't named on it, but it falls under the last line, with whatever are not your own acts. Other people's inner states were never yours to work with.'"
   },
@@ -988,9 +1065,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Notice whether your calm depends on everyone else being calm.",
+    "desk_fix": "gw-panel",
+    "reason": "An instruction, not a new aphorism."
+   },
+   "applied_commit": "0094151",
    "ease_tier": 2
   },
   {
@@ -1017,9 +1102,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "0094151",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -1082,9 +1174,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "0094151",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -1147,9 +1246,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'Waiting in dread doesn't prepare you for anything.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Reads more naturally."
+   },
+   "applied_commit": "0a7ddcb",
    "ease_tier": 2
   },
   {
@@ -1182,9 +1289,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "She's been noticing longer than you know.",
+    "desk_fix": "gw-panel",
+    "reason": "Shortest."
+   },
+   "applied_commit": "0a7ddcb",
    "ease_tier": 2
   },
   {
@@ -1217,9 +1332,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "The mood you picked up before the conversation began.",
+    "desk_fix": "gw-panel",
+    "reason": "Both desks agree."
+   },
+   "applied_commit": "3739dc7",
    "ease_tier": 2
   },
   {
@@ -1246,9 +1369,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "3739dc7",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -1282,9 +1412,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Rewrite 65-71 in second person: 'When you come back to the unresolved conversation, wait until things are calm. Ask if you can talk. Say what's true for you…'; line 71: 'You have a framework built on reason. Marriage doesn't run purely on reason, and she won't always get to an answer the way you do.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Covers the whole passage, L65-71, in second person."
+   },
+   "applied_commit": "3739dc7",
    "ease_tier": 2
   },
   {
@@ -1311,9 +1449,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "f72f02f",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -1341,9 +1486,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "f72f02f",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -1406,9 +1558,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'Different currencies, same instinct: you know where you stand the way you know your bank balance without checking it.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Tighter."
+   },
+   "applied_commit": "6e12fc2",
    "ease_tier": 2
   },
   {
@@ -1476,9 +1636,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written; the Line Editor moves the Ch7 link after L11."
+   },
+   "applied_commit": "da88cd7",
    "ease_tier": 1,
    "publisher_approach": "Accept as written; the Line Editor moves the Ch7 link after L11."
   },
@@ -1512,9 +1679,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "You might earn less and do more of the work at home.",
+    "desk_fix": "gw-panel",
+    "reason": "No added preamble."
+   },
+   "applied_commit": "da88cd7",
    "ease_tier": 2
   },
   {
@@ -1541,9 +1716,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "da88cd7",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -1622,9 +1804,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "So run the four checks from Chapter 1, aimed at speaking up.",
+    "desk_fix": "gw-panel",
+    "reason": "Keeps the link to Chapter 1 that Ch16 now relies on."
+   },
+   "applied_commit": "b1da36c",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -1666,9 +1856,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Merge 60-61: 'Naming it also changes the argument you have with your wife.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Keeps the transition."
+   },
+   "applied_commit": "4157758",
    "ease_tier": 2
   },
   {
@@ -1695,9 +1893,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept all three lines (224, 50, 121)."
+   },
+   "applied_commit": "4157758",
    "ease_tier": 1,
    "publisher_approach": "Accept all three lines (224, 50, 121)."
   },
@@ -1792,9 +1997,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "6015f44",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -1828,9 +2040,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Delete the sentence.",
+    "desk_fix": "gw-panel",
+    "reason": "Delete; self-control already covers it."
+   },
+   "applied_commit": "6015f44",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -1879,9 +2099,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Say the small thing while it's still small, so the rest of the evening can belong to the two of you again.",
+    "reason": "Last-line rewrite only. The added Part close is not taken: since Ch15 the house prints no hand-offs between Parts (outline, Ch15 and Ch16 transitions)."
+   },
+   "applied_commit": "6015f44",
    "ease_tier": 2
   },
   {
@@ -1952,9 +2179,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "He's also the man whose temper ran down through my family.",
+    "desk_fix": "gw-panel",
+    "reason": "Both desks agree."
+   },
+   "applied_commit": "131c870",
    "ease_tier": 2
   },
   {
@@ -2045,9 +2280,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Delete line 73; the chapter closes on 'Slow down enough to taste them.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Only fix offered."
+   },
+   "applied_commit": "70ec317",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
@@ -2110,8 +2353,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "keep author's wording",
+    "reason": "Your own words from the Ch15 interview; kept as you said them."
+   },
    "applied_commit": null,
    "ease_tier": 2
   },
@@ -2232,9 +2482,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Delete; begin L35.",
+    "desk_fix": "gw-panel",
+    "reason": "Delete only; the Prologue armor lines are a separate batch 3 item (Q002)."
+   },
+   "applied_commit": "a327275",
    "ease_tier": 2
   },
   {
@@ -2261,9 +2519,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "a327275",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -2291,9 +2556,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "a327275",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2327,9 +2599,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Delete.",
+    "desk_fix": "gw-panel",
+    "reason": "Both desks agree."
+   },
+   "applied_commit": "205ea6d",
    "ease_tier": 2
   },
   {
@@ -2414,9 +2694,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "0094151",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2444,8 +2731,13 @@
    "needs_author": false,
    "needs_factcheck": true,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "gw-factchecker",
+    "date": "2026-11-09",
+    "reason": "Haines for Meditations VI.8 in Ch2 is the house's one ratified exception (06-sources.md); concept verifiable/verbatim/page-image. No change.",
+    "source": "runs/qa/2026-11-09-factcheck-q040-q070.md"
+   },
    "applied_commit": null,
    "ease_tier": 3
   },
@@ -2473,9 +2765,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "0a7ddcb",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2538,9 +2837,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'But when you're both angry, you can say things neither of you meant to say.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Keeps the 'But' transition."
+   },
+   "applied_commit": "ec2094f",
    "ease_tier": 2
   },
   {
@@ -2567,9 +2874,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "ec2094f",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2597,9 +2911,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "ec2094f",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2627,9 +2948,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "ec2094f",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -2657,9 +2985,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Replace line 93 with 'You don't need to find the nail behind each hole. You know what the hammer does, and you put it down.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Only fix offered."
+   },
+   "applied_commit": "ec2094f",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
@@ -2693,9 +3029,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "**The trigger that lands on something tender.**",
+    "desk_fix": "gw-panel",
+    "reason": "Clearer heading."
+   },
+   "applied_commit": "3739dc7",
    "ease_tier": 2
   },
   {
@@ -2722,9 +3066,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "3739dc7",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2752,9 +3103,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "f72f02f",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2782,9 +3140,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete the clause."
+   },
+   "applied_commit": "f72f02f",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete the clause."
   },
@@ -2812,9 +3177,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "f72f02f",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -2871,9 +3243,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "6e12fc2",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -2901,9 +3280,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "6e12fc2",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -2937,9 +3323,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "She remembers the appointments and plans what the kids need.",
+    "desk_fix": "gw-panel",
+    "reason": "Both desks agree."
+   },
+   "applied_commit": "da88cd7",
    "ease_tier": 2
   },
   {
@@ -2966,9 +3360,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "da88cd7",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -2996,9 +3397,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Cut the signpost rather than move it, so the chapter ends on L59."
+   },
+   "applied_commit": "da88cd7",
    "ease_tier": 1,
    "publisher_approach": "Cut the signpost rather than move it, so the chapter ends on L59."
   },
@@ -3026,9 +3434,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "b1da36c",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -3056,9 +3471,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "b1da36c",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3092,9 +3514,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Delete; begin 'Epictetus, in his handbook the *Enchiridion*, tells his student…'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Both desks agree."
+   },
+   "applied_commit": "b1da36c",
    "ease_tier": 2
   },
   {
@@ -3121,9 +3551,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept; the Line Editor merges L6 into L7 in one sentence."
+   },
+   "applied_commit": "4157758",
    "ease_tier": 1,
    "publisher_approach": "Accept; the Line Editor merges L6 into L7 in one sentence."
   },
@@ -3180,9 +3617,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "4157758",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3210,9 +3654,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "4157758",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3246,9 +3697,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "The next morning, on the drive in, you're still explaining to yourself why you stayed quiet.",
+    "desk_fix": "gw-panel",
+    "reason": "Both desks agree."
+   },
+   "applied_commit": "6015f44",
    "ease_tier": 2
   },
   {
@@ -3305,9 +3764,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept both lines (117 and 29)."
+   },
+   "applied_commit": "6015f44",
    "ease_tier": 1,
    "publisher_approach": "Accept both lines (117 and 29)."
   },
@@ -3335,9 +3801,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "131c870",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3394,9 +3867,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "131c870",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3424,9 +3904,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "131c870",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
   },
@@ -3454,9 +3941,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'She's been waiting to be one of the necessary things, and you can put her on the list tonight.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Only fix offered."
+   },
+   "applied_commit": "131c870",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
@@ -3484,9 +3979,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "f3fa315",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3514,9 +4016,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "f3fa315",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3544,9 +4053,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "She's still telling you who she is, a little at a time, and tonight you get to listen.",
+    "desk_fix": "gw-panel",
+    "reason": "Only fix offered."
+   },
+   "applied_commit": "f3fa315",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
   },
@@ -3609,9 +4126,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'That's who she is. It can annoy me, and my lateness annoys her just as much.'",
+    "desk_fix": "gw-slopreader",
+    "reason": "Clearer, and both of you are named."
+   },
+   "applied_commit": "70ec317",
    "ease_tier": 2
   },
   {
@@ -3638,9 +4163,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Cut it (the source stays in the OKF); the book has no endnotes."
+   },
+   "applied_commit": "70ec317",
    "ease_tier": 1,
    "publisher_approach": "Cut it (the source stays in the OKF); the book has no endnotes."
   },
@@ -3697,9 +4229,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "70ec317",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
   },
@@ -3762,8 +4301,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "keep author's wording",
+    "reason": "Your own words from the Ch15 interview; kept as you said them."
+   },
    "applied_commit": null,
    "ease_tier": 2
   },
@@ -3791,11 +4337,20 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "accepted-held",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Delete L71 and end on L69.",
+    "desk_fix": "gw-panel",
+    "reason": "Only fix offered."
+   },
    "applied_commit": null,
    "ease_tier": 2,
-   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
+   "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics.",
+   "held_reason": "Deleting L71 drops Ch15 you-density to 38.7 (floor 40). Options: keep L71, or also change L35 'Feeling fed up drives faster responses and more intense reactions.' to 'When you're fed up, you answer faster and react harder.' (40.1). Needs the author's word."
   },
   {
    "chapter": "ch16",
@@ -3887,9 +4442,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Delete L5's second sentence. L7 becomes: 'Part I was the River: staying calm when things change. That calm keeps a hard week from turning into a fight with your wife. Part II was the Oak: the strength to carry weight, so she can lean on you when life gets heavy. The warmth you bring her is what the calm and the strength were for.' (Removes 'capstone', so voice_check must re-count the family.)",
+    "desk_fix": "gw-slopreader",
+    "reason": "Only fix offered."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
@@ -3948,9 +4511,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Replace the two sentences with: 'You've seen what it looks like in the last four chapters: effort in her language, attention when you're together, noticing what you already have, kindness when she's sharp.' Keep L57.",
+    "desk_fix": "gw-panel",
+    "reason": "Only fix offered."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
@@ -4093,9 +4664,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "Trim L71's last three sentences to: 'In Part I it belonged to the River. Here it belongs to the two of you.' Leave the held Csikszentmihalyi paragraphs alone.",
+    "desk_fix": "gw-panel",
+    "reason": "Shorter, so the capstone stays warm."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 2
   },
@@ -4129,9 +4708,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": true,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'Everything you checked in Chapter 1, the strength from Part II included, is what puts it at its best.'",
+    "desk_fix": "gw-panel",
+    "reason": "Fixes the arête mismatch rather than cutting it."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 2
   },
@@ -4165,8 +4752,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "keep author's wording",
+    "reason": "'A lot of people get confused on that...' is your own wording from the Ch16 interview; kept."
+   },
    "applied_commit": null,
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 2
@@ -4285,9 +4879,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "apply": "'You may know the stretch I mean, even if it's been a while.'",
+    "desk_fix": "gw-panel",
+    "reason": "Only fix offered."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 2,
    "tier_note": "Moved up by the Publisher: changes an opening, closing or image, so it is your taste, not mechanics."
@@ -4346,9 +4948,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept: delete."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 1,
    "publisher_approach": "Accept: delete."
@@ -4407,9 +5016,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written (reorder only)."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 1,
    "publisher_approach": "Accept as written (reorder only)."
@@ -4438,8 +5054,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "reject",
+    "reason": "Reject. It's Ch16's only caveat, and the spec requires saying the step is yours. The fix is optional by the desk's own account."
+   },
    "applied_commit": null,
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 1,
@@ -4469,9 +5092,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
@@ -4536,9 +5166,16 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-09",
+    "words": "I want to accept all of batch 1 and batch 2, We can go with your best choice. If you need to kick off sub agents to rewrite those, I'm good with it.",
+    "delegated_to": "Publisher",
+    "choice": "publisher_approach",
+    "apply": "Accept as written."
+   },
+   "applied_commit": "8da6c96",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 1,
    "publisher_approach": "Accept as written."
