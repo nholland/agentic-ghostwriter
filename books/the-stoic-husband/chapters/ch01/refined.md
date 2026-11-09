@@ -68,6 +68,8 @@ Save this for afterward, not mid-fight. Walk through it then. Ask it honestly, a
 
 In the moment itself, there's room for something smaller. One breath, and one quick question: *What's this actually about for me right now, and how do I want to respond?* That's it. The breath buys the half-second. The question loosens whatever just got loaded. You don't need the full four-part review while she's standing in the doorway. You need it later, lying awake, training the thing that fires automatically next time.
 
+Some nights the long question fits in one breath too: *Am I being the best husband I can be right now?* Ask it that way in the moment if it comes. Save the four checks for later.
+
 You'll meet those four things again in the situations a marriage hands you. The replay question doesn't change. Neither does the breath.
 
 **The Mistake I Made First**
