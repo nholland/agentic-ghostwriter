@@ -22,9 +22,9 @@ Chapters 6 and 7 already talked about the mental tally you keep of who does more
 
 This isn't usually one blowup. It's smaller than that, and it happens more often. Every night you did everything she wanted and it still turned into a sexless night. Every time you went along with what she wanted to do, and she didn't want to do what you wanted. Every story of hers you listened to all the way through, and she never asked to hear one of yours back.
 
-None of those is a fight. None of those even sounds like a complaint you'd bring to her. But you remember them. You're keeping a list. The same kind of list Chapters 6 and 7 already described. Every unreciprocated night adds one more line to it.
+None of those is a fight. None of those even sounds like a complaint you'd bring to her. But you remember them. You're keeping a list. Every unreciprocated night adds one more line to it.
 
-There's an old word for this. Gunnysacking. You keep every one of these small disappointments quietly out of sight. You don't name them one at a time, while they're still small and manageable. John Gottman spent decades studying what actually predicts divorce, and he found four warning signs: criticism, defensiveness, contempt, and stonewalling. Contempt is the one that matters most here. It's what disappointment turns into when it never gets spoken and never gets addressed. It happens slowly instead. Disappointment curdles into resentment, then into something closer to disdain, aimed at the person you're not telling any of this to.
+There's an old word for this. Gunnysacking. You keep every one of these small disappointments quietly out of sight. You don't name them one at a time, while they're still small and manageable. Contempt, the warning sign John Gottman found matters most, is what disappointment turns into when it never gets spoken and never gets addressed. It happens slowly instead. Disappointment curdles into resentment, then into something closer to disdain, aimed at the person you're not telling any of this to.
 
 ---
 
@@ -40,11 +40,11 @@ The trade doesn't actually protect peace, though. It costs it. The writer Elie W
 
 **What restraint actually means.**
 
-Now for the misreading a thoughtful man will make here. Epictetus, in his handbook the *Enchiridion*, tells his student to mostly keep silent. To speak rarely. And when he does speak, not to blame or praise or compare other people. A Stoic-curious reader picks that up and hears: Stoicism means staying quiet. Perfect. Confirms the strategy.
+Epictetus, in his handbook the *Enchiridion*, tells his student to mostly keep silent. To speak rarely. And when he does speak, not to blame or praise or compare other people. A Stoic-curious reader picks that up and hears: Stoicism means staying quiet. Perfect. Confirms the strategy.
 
 But that's not the whole point Epictetus was making. He wasn't telling people to go silent forever. He was telling them to be picky. Save your words for what actually matters instead of wasting them on gossip and trivia. That's a rule about how much you talk. It has nothing to do with hiding things from your wife.
 
-So run the same four questions Chapter 1 already gave you. Is this actually worth saying, and is now the moment. Are you willing to say it even though it risks the peace you've been protecting. Can you tell the difference between what genuinely needs raising and what you should just let go of. This isn't permission to bring up every little annoyance. And when you do speak, can you deliver it as your position rather than an attack on hers.
+So run the four checks from Chapter 1, aimed at speaking up. Is this actually worth saying, and is now the moment. Are you willing to say it even though it risks the peace you've been protecting. Can you tell the difference between what genuinely needs raising and what you should just let go of. This isn't permission to bring up every little annoyance. And when you do speak, can you deliver it as your position rather than an attack on hers.
 
 The logical part is the check on whether it's real and now. The brave part is being willing to risk the stability to say it anyway. The self-controlled part is the discipline to name the small things before they pile up. It's also knowing when not to raise a fuss about nothing. The kind part is the delivery. That last one is what keeps this from turning into permission to complain. Restraint means choosing what's worth saying, and saying it well.
 
