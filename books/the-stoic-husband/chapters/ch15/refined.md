@@ -32,7 +32,7 @@ We have a saying in our house: "Never be the worst part of somebody's day." It's
 
 ---
 
-**Meet frustration with patience.** Feeling fed up drives faster responses and more intense reactions. You may know that from your own arguments. I know it from ours. The ironic part is that ours weren't about any one topic. I was fed up with how we argued.
+**Meet frustration with patience.** When you're fed up, you answer faster and react harder. You may know that from your own arguments. I know it from ours. The ironic part is that ours weren't about any one topic. I was fed up with how we argued.
 
 She gets fed up too, and on a weekend with a mountain of work ahead, so do you. When she's tired, you may be tired too. That's two tired people. Patience is your choice to be kind anyway.
 
@@ -67,5 +67,3 @@ So ask yourself, each day: "Was I the best part of her day?"
 ---
 
 For a long time I answered every zing. I should have been asking whether I was the best part of her day.
-
-When the next zing lands, roll up your sleeves before you open your mouth.
