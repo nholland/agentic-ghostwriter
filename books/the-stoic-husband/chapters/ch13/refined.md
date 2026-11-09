@@ -1,6 +1,6 @@
 # Chapter 13: Pursue Her After You Have Her
 
-There's a difference between the time you gave your wife and the time she actually got. The gap between those two is small enough to miss for years.
+There's a difference between the time you gave your wife and the time she actually got. The difference is small enough to miss for years.
 
 She asks if you want to watch a show together. You sit down beside her, and your phone stays in your hand. Halfway through she laughs at something and looks over to see if you caught it. You didn't.
 
@@ -20,7 +20,7 @@ Epictetus has a rule for this in his Handbook, the *Enchiridion*: "Duties are un
 
 ---
 
-**The date you can't plan.** Say you're twelve years into your marriage and you decide to take her out. You want to arrange the whole thing yourself.
+**The Saturday you can't plan.** Say you're twelve years into your marriage and you decide to take her out. You want to arrange the whole thing yourself.
 
 The first place that comes to mind is the Italian restaurant she loved when you were dating. Then you try to remember the last time she ordered pasta, and you can't. You know what she liked at twenty-six. You can't name one thing she'd be excited about this Saturday.
 
@@ -58,4 +58,4 @@ In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been follow
 
 ---
 
-Put the phone down, and give her the evening you came to share.
+She's still telling you who she is, a little at a time, and tonight you get to listen.
