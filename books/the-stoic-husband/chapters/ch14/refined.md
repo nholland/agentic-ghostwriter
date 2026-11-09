@@ -8,7 +8,7 @@ That pause doesn't mean you don't care. You notice the appointment nobody made, 
 
 **The woman you love now.** My wife saves things I'd throw away. When the house feels junky, I've told her we live like hoarders. I think that sometimes hurts her feelings. There's a balance, and some things do need clearing out. Other times, what she kept is exactly what we need, and we don't have to buy it again. She has saved us a lot of money by reusing things and keeping them around.
 
-"Hoarder" is the harsh word. The word I much prefer is thrifty. It's the same trait either way, and what I'm paying attention to picks the word. After a long stretch of nothing but work and family duty, every small thing is like nails on a chalkboard. My wife gets very anxious when we're late or things are behind schedule. That's just who she is, and I've learned to accept it. It can be annoying, but so can being late in her eyes.
+"Hoarder" is the harsh word. The word I much prefer is thrifty. It's the same trait either way, and what I'm paying attention to picks the word. After a long stretch of nothing but work and family duty, every small thing is like nails on a chalkboard. My wife gets very anxious when we're late or things are behind schedule. That's just who she is, and I've learned to accept it. It can annoy me, and my lateness annoys her just as much.
 
 She's getting gray hairs. She doesn't want other people to see them. I love them. She was a powerful attorney and a vice president at a public company. For about three years she's been on sabbatical, a break from her career, to be a full-time mother. Her income has changed. Her body has changed. Mine has too. When she's working in the garden in shorts and a T-shirt, I find her incredibly attractive, and that's enough. She is enough for me.
 
@@ -18,7 +18,7 @@ Name something true about her, and stay with it long enough to remember why you 
 
 ---
 
-**The plate in front of you.** My kids complain a lot about dinner. Then it's their turn to cook, and they find out how much work it is. They didn't appreciate what they had until they saw what it cost. In a 2014 classroom study, Froh and colleagues taught children aged eight to eleven to notice what a helper meant, what it cost and what it gave them. The children became more grateful. My wife cooks all the time, so she already knows what a meal costs. That's why she says the best meals are the ones you don't have to cook.
+**The plate in front of you.** My kids complain a lot about dinner. Then it's their turn to cook, and they find out how much work it is. They didn't appreciate what they had until they saw what it cost. My wife cooks all the time, so she already knows what a meal costs. That's why she says the best meals are the ones you don't have to cook.
 
 A meal someone made for you can be enough on its own. We see what we wanted and miss what went into it. I don't complain about dinner, because I've learned firsthand how hard her job is. That gave me perspective. Anything she makes is enough for me.
 
@@ -26,9 +26,9 @@ A meal someone made for you can be enough on its own. We see what we wanted and 
 
 **When enough keeps changing.** Spouses compare, husbands and wives both, often without noticing. On social media you see only what other people post, and you compare it piece by piece with your whole life. Life on the other side of the fence can look better. You meet someone who's funny, and suddenly your wife's humor is under review. Someone else catches your eye, and whatever you noticed becomes a new condition your wife has to meet. What you have starts to feel like it isn't enough.
 
-Men tend to think a life beyond their wife is better. For some, maybe that's true. But many of them have never been with the woman of their dreams, so it's just a dream. Schkade and Kahneman found in 1998 that students in the Midwest and in California were equally satisfied with life, yet both groups expected Californians to be happier, because they fixed on the weather. Nobody asked them about marriage, but we do the same: we fix on the one thing someone else has, and let it decide the comparison.
+Men tend to think a life beyond their wife is better. For some, maybe that's true. But the woman they're comparing her to is someone they've never lived with, so it's just a dream. Schkade and Kahneman found in 1998 that students in the Midwest and in California were equally satisfied with life, yet both groups expected Californians to be happier, because they fixed on the weather. Nobody asked them about marriage, but we do the same: we fix on the one thing someone else has, and let it decide the comparison.
 
-It runs both ways. You'd want her to remember the whole of you, and she'd want the same from you. When either of you catches yourself comparing, you can say so kindly.
+It runs both ways. You'd want her to remember the whole of you, and she'd want the same from you. When you catch yourself comparing, look back at the whole of the woman in front of you.
 
 In Letter 16, the Roman Stoic Seneca wrote to his friend Lucilius: “Natural desires are limited; but those which spring from false opinion can have no stopping-point.” You can put Seneca's test to what you want from her: can it stop at any definite point? If your wife met today's condition, would you let yourself enjoy her? Or would you find the next thing she lacks?
 
@@ -69,5 +69,3 @@ Contentment doesn't replace a conversation that needs to happen. If you'd still 
 ---
 
 Most of your marriage happens in ordinary hours: a meal, a walk, a question about your day, the thing she saved that turns out to be exactly what you need. They don't feel like much while you're in them. They are the life you chose. Slow down enough to taste them.
-
-Thankfulness is how you keep wanting what you already have.
