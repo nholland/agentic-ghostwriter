@@ -34,7 +34,7 @@ That doesn't make every problem a minor annoyance. If you're hurt each time a pa
 
 **Get through hardship without shutting down.**
 
-For about ten years, we lived mostly on my wife's income while I was building a company with no guaranteed paycheck. Three kids. Both of us working full time. We didn't know when the money would get easier.
+For about ten years, we lived mostly on my wife's income while I was building a company with no guaranteed paycheck. Three kids. Both of us working full time. We didn't know when the money would get easier. I don't think I thanked her enough for carrying us through that.
 
 When a hard period lasts that long, you get used to doing less for yourself. You cancel plans. You put off rest. Sometimes that's necessary. But you can keep doing it after the need has passed, because you stopped asking what you could afford to resume.
 
