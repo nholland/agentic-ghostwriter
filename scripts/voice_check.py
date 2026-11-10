@@ -140,7 +140,11 @@ def sentences(text):
     variant, which is what matters for a comparison."""
     t = text
     for i, ab in enumerate(ABBREV):
-        t = t.replace(ab, f"\x00{i}\x00")
+        # Whole words only (inbox #169): a plain replace turned the end of
+        # "usual." / "real." into "al." and merged the next sentence into it.
+        # "No." is an abbreviation only before a number ("No. 5").
+        tail = r"(?=\s*\d)" if ab == "No." else ""
+        t = re.sub(r"(?<![A-Za-z])" + re.escape(ab) + tail, f"\x00{i}\x00", t)
     t = t.replace("...", "\x01").replace("…", "\x01")
     parts = re.split(r'(?<=[.!?])["”\')\]]*\s+(?=[A-Z“"(])', t)
     out = []
