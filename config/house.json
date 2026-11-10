@@ -36,7 +36,12 @@
       "value": 40,
       "source": "01-voice.md Counted rules: 'the direct-address floor (you/your at 40+ per 1,000 words)'",
       "spec_probe": "40\\+ per 1,000 words",
-      "spec_number": 40
+      "spec_number": 40,
+      "exempt_chapters": [
+        "prologue",
+        "introduction"
+      ],
+      "exempt_source": "01-voice.md: 'The Prologue and the Introduction are exempt' (author, 2026-11-10)"
     },
     "metaphor_family_max_per_1000": {
       "value": 5,
