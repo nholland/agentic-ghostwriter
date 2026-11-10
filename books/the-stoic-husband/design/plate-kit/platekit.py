@@ -208,6 +208,15 @@ def book_svg(plate, deck, caption, interlude=False):
     # is a whole page, so its art keeps to 78% to clear the 60-unit page bands
     k = VW * (0.78 if interlude else 0.86) / W
     ox = (VW - W * k) / 2
+    # A drawing that spills past its 324-unit canvas (the frontispiece's river
+    # does) is shrunk and re-centred on its real extent; one that stays inside
+    # keeps the standard scale, so existing plates do not move.
+    xs = [float(v) for part in plate.parts if not part.startswith("<text")
+          for v in _re.findall(r'(?:[MLC ]|cx=")(-?[\d.]+)', part)]
+    if xs and (min(xs) < -1 or max(xs) > W + 1):
+        lo, hi = min(xs), max(xs)
+        k = min(k, VW * (0.78 if interlude else 0.86) / (hi - lo))
+        ox = (VW - (hi - lo) * k) / 2 - lo * k
     cx = VW / 2
     css = (Path(__file__).parent / "plates.css").read_text()
     rows, y = [], 0.0

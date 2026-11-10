@@ -48,6 +48,11 @@ Two consequences, recorded rather than hidden:
 |---|---|
 | `out/plate-NN-*.book.svg` | `runs/chNN/plate.svg` and `design/plates/<title-slug>.svg` |
 | `out/interlude-N-*.book.svg` | `parts/plate-N-<slug>.svg` (Part closing plates I-III) |
+| `out/frontispiece.book.svg` | `design/plates/frontispiece.svg` (own page before the Prologue; added with his second upload, 2026-11-10) |
 
 Rebuild and recopy together; `compile.py` reports a chapter plate as approved
 only when `runs/chNN/plate.svg` and its `design/plates/` copy are identical.
+
+A drawing that spills past its 324-unit canvas (the frontispiece's river, the
+Part II oak's lower limb) is shrunk and re-centred on its real extent by
+`book_svg()`; drawings inside the canvas keep the standard scale.

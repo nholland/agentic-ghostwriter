@@ -1,5 +1,5 @@
 {
-  "built": "2026-11-10T05:46:17.535274+00:00",
+  "built": "2026-11-10T15:30:31.922040+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-16, relevant Arc openings and plates",
   "unapproved_chapters": [],
   "source_sha256": {
@@ -76,7 +76,7 @@
     "share/ch14-16-listening-copy.pdf"
   ],
   "plate_packet": {
-    "built": "2026-11-10T05:46:17.534708+00:00",
+    "built": "2026-11-10T15:30:31.921646+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {
@@ -189,7 +189,7 @@
       "runs/ch09/plate.svg": "19af6ee8702b3ec242a2b2b613c10e337a1c764ac1cf9cf6b8d5de0caca6fe4b",
       "runs/ch10/plate.svg": "045d76231f9aba319983c1e1a5791d6a168d237f366c084704f6821d3da2e9f0",
       "runs/ch11/plate.svg": "255e4e583ed7493e121840c3447c4098b431c16ea8c7d7d848cadc2ef7bfe3cc",
-      "books/the-stoic-husband/parts/plate-2-sturdy-oak.svg": "0f678854babbae59ca7b52b43eaa82421bf163beeaa3f26f84c1381c37c1f4e1",
+      "books/the-stoic-husband/parts/plate-2-sturdy-oak.svg": "f4a132094f19af9855fcd2ed1ca587aaf6fe94f3df6f63b5ebb57a836a864ea9",
       "runs/ch12/plate.svg": "f838135925f3d9166d56cdc410aba365e906dc1c193fe3c40ae743a88153de78",
       "runs/ch13/plate.svg": "20f4f3a1566b16bf0a30a93f2d9bc3718077f0a27b55d1908975b1e2e6af7e09",
       "runs/ch14/plate.svg": "330717421078b711f6f04d0734ed2dcc7393302f7011e134a3bd8e79bfc25246",

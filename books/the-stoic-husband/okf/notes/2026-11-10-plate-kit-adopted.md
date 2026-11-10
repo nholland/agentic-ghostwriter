@@ -29,3 +29,17 @@ closing plate ("What it reaches, opens."), which ends the arc-plate deferral of
 
 The Part I closing page's last line is pending his choice among three options
 (runs/parts/closing-part-1-last-line-options.md).
+
+# Update, 2026-11-10 15:31 UTC: frontispiece
+
+Author, with a second kit upload: "Updates plates, now with Cover page scene". The
+kit adds `frontispiece.py` (one landscape: the sun rising on the horizon, the
+river running from it toward the reader past two stones, the oak on the near
+bank; closing line "Flow with wisdom. Stand with courage. Love with warmth.",
+his punctuation of the Introduction's sentence), `scenery.py` (shared oak and
+sun), and a STYLE.md section on interludes and the frontispiece. All nineteen
+existing drawings were byte-identical to the installed kit. The frontispiece
+prints on its own page before the Prologue (`design/plates/frontispiece.svg`).
+His README still lists one open item: the Part I opener still ends on the canyon
+sentence while the river interlude's line is "The stone drops in, and the
+current keeps its pace" (see inbox #171).

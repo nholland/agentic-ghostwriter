@@ -300,6 +300,14 @@ def main():
     outdir = os.path.realpath(a.outdir)
     os.makedirs(outdir, exist_ok=True)
 
+    # The frontispiece (author, 2026-11-10: "now with Cover page scene") faces
+    # the opening: its own page before the Prologue.
+    front = os.path.join(B, "design", "plates", "frontispiece.svg")
+    if a.plates and lo <= 1 and os.path.isfile(front):
+        pieces.append(plate_block("part", front, outdir, "Frontispiece: River, Oak, Sun"))
+        sections.append("frontispiece")
+        plates.append(("frontispiece", front, True))
+
     for key in PRECURSORS:
         src = os.path.join(B, "chapters", key, "refined.md")
         if os.path.isfile(src):

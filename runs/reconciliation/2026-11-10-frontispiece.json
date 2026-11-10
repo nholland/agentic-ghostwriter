@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-10T15:31:10.224580+00:00",
+  "subjects": [
+    "frontispiece"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-11-10-plate-kit-adopted.md"
+  ],
+  "authority": "Author, 2026-11-10: 'Updates plates, now with Cover page scene'",
+  "reason": "Frontispiece added from the author's kit",
+  "files": {
+    "books/the-stoic-husband/okf/notes/2026-11-10-plate-kit-adopted.md": "8e4420fe959ab5a2b9a3e70bedb874ff7bbce132fd9a47507768e2f2fdbfac0a",
+    "books/the-stoic-husband/okf/log.md": "373879f23f7956146900db88d357a5f89d2d714e9e86bceb7f9fb3cf6449971e",
+    "books/the-stoic-husband/design/plate-kit/README.md": "0e770bc217258c60dfe46c64c43d9c6aa671182f9ca13980813b99e65afaf970",
+    "books/the-stoic-husband/design/plate-kit/STYLE.md": "1d18184c0cea628c3f33ea05eb789de3d68d19ce90a3da2033a8ff6a91c18454"
+  }
+}

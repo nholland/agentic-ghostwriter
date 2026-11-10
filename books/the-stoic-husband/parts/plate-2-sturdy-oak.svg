@@ -53,11 +53,11 @@ figure.plate-fig            { margin: 0; text-align: center; color: var(--plate-
 .plate-fig.interlude figcaption::before  { display: none; }
 
 .plate .ttl { font-weight: 400; letter-spacing: 0.01em; }</style>
-<text class="ital cap" x="300.00" y="693.08" style="font-size:20.55px;text-anchor:middle">The storm comes through,</text>
-<text class="ital cap" x="300.00" y="723.90" style="font-size:20.55px;text-anchor:middle">and in the morning the</text>
-<text class="ital cap" x="300.00" y="754.73" style="font-size:20.55px;text-anchor:middle">oak is still there.</text>
+<text class="ital cap" x="300.00" y="686.95" style="font-size:20.55px;text-anchor:middle">The storm comes through,</text>
+<text class="ital cap" x="300.00" y="717.77" style="font-size:20.55px;text-anchor:middle">and in the morning the</text>
+<text class="ital cap" x="300.00" y="748.59" style="font-size:20.55px;text-anchor:middle">oak is still there.</text>
 
-<g transform="translate(66.00 133.97) scale(1.44444)">
+<g transform="translate(72.76 140.10) scale(1.40815)">
   <path class="ink hair" d="M18.00 222.00L306.00 222.00"/>
   <path class="ink bold" d="M140.86 168.00C141.77 169.00 145.03 172.00 146.32 174.00C147.60 176.00 148.19 178.00 148.58 180.00C148.97 182.00 148.61 184.00 148.65 186.00C148.69 188.00 148.79 190.00 148.83 192.00C148.87 194.00 148.91 196.00 148.90 198.00C148.89 200.00 149.01 202.00 148.77 204.00C148.53 206.00 148.75 208.00 147.46 210.00C146.16 212.00 144.08 214.00 140.98 216.00C137.88 218.00 130.90 221.00 128.88 222.00"/>
   <path class="ink line" d="M146.15 168.00C146.85 169.00 149.33 172.00 150.33 174.00C151.34 176.00 151.86 178.00 152.19 180.00C152.52 182.00 152.36 184.00 152.31 186.00C152.26 188.00 151.92 190.00 151.88 192.00C151.85 194.00 152.05 196.00 152.10 198.00C152.15 200.00 152.37 202.00 152.21 204.00C152.04 206.00 152.11 208.00 151.11 210.00C150.10 212.00 148.53 214.00 146.20 216.00C143.86 218.00 138.61 221.00 137.10 222.00"/>

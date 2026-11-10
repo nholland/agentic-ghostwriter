@@ -30,3 +30,9 @@ A plate never states a colour, a stroke width or a font size. It names a class (
 - Plates go into the book as inline `<svg>` inside `<figure class="plate-fig">`, not as `<img>`, so they print as vectors and take the book's typeface.
 - Plates are drawn on a 324-unit canvas and printed at 86% of the text block, so no drawing reaches the text margins. The hairline prints at 0.4 pt, which is the floor for print; do not go thinner.
 - `--plate-font` should be the same face as the body text.
+
+## Interludes and frontispiece
+
+- The frontispiece and the three interludes are full-page drawings with no title or deck: the image, then one closing line set slightly larger than on the mechanism plates.
+- They follow the same grammar as the plates. The oak, the sun and the river current are drawn by shared code (`scenery.py` and the interlude files), so the opening scene uses the same three drawings the reader meets later.
+- Each interlude closes its Part. Its line should be a sentence from that Part's opener.
