@@ -32,7 +32,7 @@ Resentment almost never fires on the real math. It fires on what's visible right
 
 Say you like to unwind at night. TV on, feet up, day done. She likes to fold laundry in the evening, basket on the couch, towels into stacks. Most nights that's just two people doing two different things in the same room. But some nights she'll say it: "I'm working all the time, and you aren't." And for a second, every trash bag you've hauled and every weekend you spent emptying that bucket disappears. None of that is in this room right now. What's in this room is one person sitting and one person folding.
 
-It isn't really about the laundry. The total weight either of you carries that week has almost nothing to do with what fires in that moment. It's the visible difference, her hands moving, yours still, that turns an ordinary Tuesday into a verdict.
+It isn't really about the laundry. The total weight either of you carries that week has almost nothing to do with what fires in that moment. It's the visible difference, her hands moving, yours still, that turns an ordinary weeknight into a verdict.
 
 ---
 
