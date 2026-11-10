@@ -48,7 +48,7 @@ Couples who make it fifty years don't avoid fighting. What long marriages seem t
 
 That's one outcome: you let it go. You're making a genuine decision that this belongs with the things that don't need a ruling, and you aren't pushing anything down.
 
-But some things won't shrink from altitude. When you zoom out and the thing is still big, that's the signal. A fight ends up in one of four places. You let it go. You fight hard, both take damage, and then time passes and you call it resolved without the real conversation. You fight hard, both take damage, and someone has the courage to come back. Or you communicate, either in the moment or after you've cooled. It's common never to come back to it later. That's how the unresolved hurts pile up.
+But some things won't shrink from altitude. When you zoom out and the thing is still big, that's the signal. A fight ends up in one of four places. You let it go. You fight hard, both take damage, and then time passes and you call it resolved without the real conversation. You fight hard, both take damage, and someone has the courage to come back. Or you communicate, either in the moment or after you've cooled. It's common never to come back to it later. That's how the unresolved hurts accumulate.
 
 **The courage to come back.**
 
