@@ -422,7 +422,7 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
+   "status": "resolved",
    "ruling": null,
    "applied_commit": null,
    "rechecks": [
@@ -441,7 +441,12 @@
      "reason": "Mostly met by the draft: her words once (L21), the turn (L27), the compassion distinction (L31), and River/Oak/Sun brought together (L7, L83). Overtaken by the outline: duration and cost (the author capped the old picture at about 250 words), the Desert bridge ('none printed'), and the river-without-sun callback (Ch16 calls back Intro 47 instead, which works). Still unmet: 'no one-line imperative ending' (L99)."
     }
    ],
-   "ease_tier": 5
+   "ease_tier": 5,
+   "resolution": {
+    "date": "2026-11-10",
+    "by": "Publisher",
+    "reason": "Both desks' rechecks found Ch16 met it except the Introduction callback, which landed as Q118 (2026-11-09)."
+   }
   },
   {
    "id": "Q011",
