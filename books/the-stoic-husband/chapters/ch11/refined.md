@@ -1,6 +1,6 @@
 # Chapter 11: Speak or Endure
 
-You've decided not to bring it up, but you're still thinking about it. Maybe it's a purchase you wish you'd discussed first. Maybe it's a remark that embarrassed you in front of the kids. You let the evening go on. Now you're in bed, explaining to yourself why you stayed quiet.
+You've decided not to bring it up, but you're still thinking about it. Maybe it's a purchase you wish you'd discussed first. Maybe it's a remark that embarrassed you in front of the kids. You let the evening go on. The next morning, on the drive in, you're still explaining to yourself why you stayed quiet.
 
 You tell yourself you have to choose your hills to die on. Sometimes that's good judgment. A small annoyance doesn't need a long conversation. But sometimes you're avoiding a conversation because you expect it to be uncomfortable. You want her to know you're hurt without having to tell her.
 
@@ -8,7 +8,7 @@ From her side, you haven't said there's a problem.
 
 ---
 
-**Decide what needs your attention.**
+**What needs your attention.**
 
 Before you decide to speak, ask what you're dealing with. Some problems need a conversation or a practical step. Some hardships can't be ended by either of you. Some annoyances aren't worth trying to change.
 
@@ -22,19 +22,19 @@ Other hardships won't end because you find better words. You can't talk a dying 
 
 Then there are preferences you can leave alone. You don't have to enjoy her hobby or choose all the same friends. If her brother's opinions annoy you, you can disagree without spending the whole visit arguing. Ask whether there's harm to address or just a difference you don't like.
 
-Marcus Aurelius was a Roman emperor who wrote private reminders about how to live. One of them was about choosing what deserved his attention. *"It is in our power to have no opinion about a thing, and not to be disturbed in our soul; for things themselves have no natural power to form our judgments."* (*Meditations* 6.52, Long trans.) You don't have to decide what you think about every comment you hear, much less respond to it.
+Marcus Aurelius wrote about choosing what deserved his attention. *"It is in our power to have no opinion about a thing, and not to be disturbed in our soul; for things themselves have no natural power to form our judgments."* (*Meditations* 6.52, Long trans.) You don't have to decide what you think about every comment you hear, much less respond to it.
 
 Some of my wife's friends aren't helpful to the relationship. They're not against it, but they say things that don't help. I tolerate that because I want her to have real friends. Those friendships matter more to me than the comments. Politics used to wait for Thanksgiving. Now it doesn't. I tolerate those conversations too.
 
-Tolerance makes sense when you can say why you're choosing it. You want her to enjoy her friendships. You want to see your family even though you disagree about politics. You can dislike part of the visit and still want to go.
+Tolerance makes sense when you can say why you're choosing it. You want her to enjoy her friendships. You want to see your family even though you disagree about politics. Disliking part of the visit doesn't mean you don't want to go.
 
 That doesn't make every problem a minor annoyance. If you're hurt each time a particular remark comes up, say what the remark does to you. Calling it small won't help if you spend the next two days resenting it. And if you can let a difference go, let it go without reminding her what you put up with. Arguing about a harmless preference can use up the evening while the problem you need to discuss goes unmentioned.
 
 ---
 
-**Get through hardship without shutting down.**
+**Hardship without shutting down.**
 
-For about ten years, we lived mostly on my wife's income while I was building a company with no guaranteed paycheck. Three kids. Both of us working full time. We didn't know when the money would get easier.
+For about ten years, we lived mostly on my wife's income while I was building a company with no guaranteed paycheck. Three kids. Both of us working full time. We didn't know when the money would get easier. I don't think I thanked her enough for carrying us through that.
 
 When a hard period lasts that long, you get used to doing less for yourself. You cancel plans. You put off rest. Sometimes that's necessary. But you can keep doing it after the need has passed, because you stopped asking what you could afford to resume.
 
@@ -56,7 +56,7 @@ The hardship may last. You can still have honest conversations, pay attention to
 
 ---
 
-**Talk about the rule you disagree with.**
+**The rule you disagree with.**
 
 Suppose your wife raises her voice at the kids. Later, when you raise yours, she tells you that you're frightening them. You feel there's one rule for her and another for you. But you're reluctant to say so because it could sound like a request for permission to yell.
 
@@ -74,11 +74,11 @@ Sometimes a different expectation has a reason, as it may when your voice fright
 
 Sometimes neither of you can explain the difference. Perhaps being tired excuses her sharp tone, while yours gets challenged. Name the behavior and ask for the same care from both of you: "I want us both to be able to say we're tired without being short with each other."
 
-These are examples of words you might use, not claims that she will agree. She may describe something you've missed. You may realize the two situations were different. You may still disagree. But now you're discussing what happened together, instead of deciding alone what she meant.
+She may describe something you've missed. You may realize the two situations were different. You may still disagree. But now you're discussing what happened together, instead of deciding alone what she meant.
 
 ---
 
-**Stop putting off the conversation.**
+**The postponed conversation.**
 
 You don't have to choose years of silence for it to happen. You only have to keep deciding that today is a bad day.
 
@@ -104,7 +104,7 @@ You need a way to raise a concern while it's still specific enough to discuss. Y
 
 ---
 
-**Say it clearly, then listen.**
+**Say it, then listen.**
 
 When a remark hurts you, say which remark and why. For example: "That joke about my spending embarrassed me in front of the kids. I'd rather we talk about money in private." You haven't accused her of ruining the evening. You've told her what happened for you and what you're asking for.
 
@@ -114,9 +114,9 @@ Once you've said what you mean, give her room to answer. You don't have to repea
 
 This doesn't mean you have to settle a serious, repeated problem with one sentence. It means you stop treating immediate agreement as the condition for speaking at all. If you need another conversation, have one. If you need help having it, ask for help.
 
-Chapter 5 dealt with how to behave during a hard conversation. The question here comes earlier: will you tell her there's a problem? You can know how to stay calm in an argument and still avoid starting a necessary discussion.
+Chapter 5 dealt with how to behave during a hard conversation. The question here comes earlier: will you tell her there's a problem? Staying calm in an argument doesn't mean you've started the discussion that needs to happen.
 
-If you've been silent for a long time, look back at what that silence has changed. Courage means having the conversation you've been avoiding. Kindness means continuing to treat her with care while you're upset. If you've stopped asking about her day or caring how she feels, your silence has changed how you treat her. Patience means giving the conversation time and returning to a problem that still needs attention.
+If you've been silent for a long time, look back at what that silence has changed. Courage means having the conversation you've been avoiding. Kindness means continuing to treat her with care while you're upset. If you've stopped asking about her day or caring how she feels, your silence has changed how you treat her.
 
 Self-control means keeping your tone respectful when her answer disappoints you. It also means trying again after several frustrating attempts, instead of giving up on a problem that still needs attention. Wisdom means remembering what she actually knew. If you never told her, don't blame her for failing to answer the arguments you kept to yourself.
 
@@ -128,4 +128,4 @@ An honest request may not get the answer you want. It gives both of you a chance
 
 ---
 
-Tell her what bothered you while you can still talk about that one moment, then listen to what she says.
+Say the small thing while it's still small, so the rest of the evening can belong to the two of you again.

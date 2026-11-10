@@ -1,0 +1,25 @@
+body{font-family:Georgia,serif;line-height:1.5}
+p{margin:0 0 .8em;text-indent:0}
+h1{font-size:1.5em;margin:1.5em 0 1em;text-align:left}
+h2{font-size:1em;margin:1.4em 0 .6em}
+h1.chapter-heading .num{display:block;font-size:.55em;font-weight:normal;color:#444;margin-bottom:.5em}
+h1.chapter-heading .sep{display:none}
+hr{border:0;border-top:1px solid #cfcfcf;width:30%;margin:1.6em auto}
+figure{margin:0;page-break-before:always;break-before:page;page-break-inside:avoid;text-align:center}
+figure img{width:100%;max-height:95vh;margin:0 auto;display:block}
+figcaption{display:none}
+img{max-width:100%;height:auto}
+p.closing-plate{page-break-before:always;break-before:page;text-align:center;margin:0}
+p.closing-plate img{max-height:95vh;width:auto;max-width:100%}
+section.dist-title{page-break-before:always;break-before:page}
+h2.dist-title{text-align:center;font-size:1.2em;font-weight:600;margin:0 0 .3em}
+h2.dist-title .kicker{display:block;font-style:italic;font-weight:normal;font-size:.75em;letter-spacing:.06em;color:#5a5a5a;margin-bottom:.4em}
+h2.dist-title + hr{width:40%;margin:.4em auto 1em}
+section.dist-title p{margin:0 0 .5em}
+section.level2:not(.beat-heading):not(.dist-title) > h2{font-size:.8em;letter-spacing:.16em;text-transform:uppercase;color:#5a5a5a;border-bottom:1px solid #ddd;padding-bottom:.2em}
+blockquote{margin:1em 1.2em;padding-left:.8em;border-left:2px solid #d4d4d4}
+blockquote p{font-style:italic}
+.titlepage{text-align:center;margin-top:30%}
+.titlepage h1{text-align:center}
+ol.toc{list-style:none;padding:0}
+ol.toc a{text-decoration:none;color:inherit}

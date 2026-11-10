@@ -440,6 +440,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 `type: QA Finding` concepts.
 
 ## Notes
+- [Ebook and book identity rulings](/notes/2026-11-07-ebook-rulings.md) — author name Nicholas L. Holland; title in all caps; no cover yet; Ch1-11 plate type enlarged (2026-11-07)
 - [Ch16 Round 1: masculinity, superiority cloak, preferred indifference, two people](/notes/2026-11-04-ch16-round1-masculinity-and-warmth.md) — the author's reframe of Ch16 and its material, in his words; outline change pending
 
 - [Inline chapter visuals](/notes/2026-10-01-inline-chapter-visuals.md) — inline-visual commissions and approved Chapter 1 plate/inline arrangement; Designer exploration queued in inbox 110.

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-09T23:57:59.781970+00:00",
+  "subjects": [
+    "qa:batch 3 rulings"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md",
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md"
+  ],
+  "authority": "Author, 2026-11-09: \"One argument\"; \"Q112 - no. Its a fun way we make it known we recognize the person...\"",
+  "reason": "Two explicit author facts recorded verbatim. Prose edits for Q001 (timeline already in the-wife-who-is-enough: sabbatical), Q040 (Pillemer sample already 30+ in the OKF) and the rest are already-represented or wording only.",
+  "files": {
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md": "6206247dc8171619d4482ad19d8aef75e2d64b63dffd7a5a54def526b7244546",
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md": "a05058f58cfc65a7eebf15103c2fd80abe8cffd6feed6b905a746dc25ef44285",
+    "books/the-stoic-husband/okf/log.md": "aabd5dae3e595d569c658abda111a15b5d8e982974c52a8255c6a2ee0502c882"
+  }
+}

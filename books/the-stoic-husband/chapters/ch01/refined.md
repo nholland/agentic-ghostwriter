@@ -1,8 +1,8 @@
 # Chapter 1: The Three-Second Window
 
-Between the moment she says something and the moment you respond, there's a window. Most men don't know it's there. The ones who learn to use it become a different kind of husband.
+Between the moment she says something and the moment you respond, there's a window. You probably don't know it's there. If you learn to use it, you become a different kind of husband.
 
-She says something sharp. Maybe it's about the dishes, or your tone from an hour ago, or the thing you forgot again. The content doesn't matter. None of it does. What matters is what happens next. That half-second where you're still somewhere between deciding and reacting. And then the two and a half seconds after, when you stop deciding and just fire.
+She says something sharp. Maybe it's about the dishes, or your tone from an hour ago, or the thing you forgot again. What she said matters. What happens in the next three seconds matters first. That half-second where you're still somewhere between deciding and reacting. And then the two and a half seconds after, when you stop deciding and just fire.
 
 The words are already out before you've finished thinking them. She's somewhere else now. The night was fine two minutes ago. Now it's something else entirely.
 
@@ -10,23 +10,21 @@ You know the rest. You've lived the rest.
 
 That night you're lying in bed. She's there, but something is in the room that wasn't there an hour ago. You're not sleeping. Your mind is already replaying it. The exact moment the window opened. What you did with it. What a different choice would have looked like, and where the night would have gone.
 
-That three-second window is what this book is about.
+That three-second window is where all of this starts.
 
 Not the big fights. Not the hard years or the good ones. The window. Who you are in those three seconds is the husband you've been becoming, mostly without knowing it.
 
 **The Gap**
 
-Here's what actually happens, in order.
-
 Something lands. She says something, or doesn't say something, or you catch her face doing a particular thing. On its own, that's just data: a sound, a look, a silence.
 
-But it never arrives on its own. It lands on something already there. A thing you're sensitive about. A story you carry about what this kind of moment usually means. Baggage you picked up somewhere along the way. The thing plus the baggage produces a feeling, instantly, before you've had a single conscious thought. And that feeling already comes with meaning attached. It already says "she's disrespecting me" or "here we go again" or "I can't do anything right in this house." You didn't decide that meaning. It just showed up already finished, the way a smell arrives before you choose to notice it.
+But it never arrives on its own. It lands on something already there. A thing you're sensitive about. A story you carry about what this kind of moment usually means. Baggage you picked up somewhere along the way. The thing plus the baggage produces a feeling in you, instantly, before you've had a single conscious thought. And that feeling already comes with meaning attached. It already says "she's disrespecting me" or "here we go again" or "I can't do anything right in this house." You didn't decide that meaning. It just showed up already finished, the way a smell arrives before you choose to notice it.
 
-Then comes the response. For most men, most of the time, this part runs on its own too. The tone shifts. The comment fires. The silence starts, and it's a particular kind of silence, the kind that has something behind it. None of this was decided. It happened the way it's happened before, the way you've watched it happen in someone else.
+Then comes the response. For you, most of the time, this part runs on its own too. The tone shifts. The comment fires. The silence starts, and it's a particular kind of silence, the kind that has something behind it. You didn't decide any of this. It happened the way it's happened before, the way you've watched it happen in someone else.
 
-Trigger. Loaded meaning. Automatic response. Run that sequence enough times, on enough different triggers, and you get something like an operating system. A set of defaults that decide, without your input, what things mean and what you do about them. Some men got a pretty mild one. Most things don't carry much weight, and most of the responses are small. Some men got a rough one. Small things carry enormous weight, and the response matches. Almost nobody picked theirs. It's just what got installed.
+Trigger. Loaded meaning. Automatic response. Run that sequence enough times, on enough different triggers, and you get something like an operating system. A set of defaults that decide, without your input, what things mean and what you do about them. Maybe you got a mild one. Most things don't carry much weight for you, and your responses are small. Maybe you got a rough one. Small things carry enormous weight, and your response matches. You almost certainly didn't pick yours. It's just what got installed.
 
-There's a gap between the second step and the third. Between the meaning showing up and the response firing. It's real, even on the nights it doesn't feel real, even when it's three seconds or less. Epictetus had a word for the loaded thing that shows up first: he called it an impression, an appearance in the older translations. And he had a word for the part of you that can sit in that gap for a moment before the response fires: *prohairesis*, your faculty of choice. Most of us never use it. We let the impression go straight through to the response, the same way it always has. "Appearances, wait for me a little," he told himself, when an impression hit hard. "Let me see who you are, and what you are about; let me put you to the test." (*Discourses* II.18, Long trans.) That's the whole move. Not denying what just landed. Just not letting it drive yet.
+There's a gap between the second step and the third. Between the meaning showing up and the response firing. It's real, even on the nights it doesn't feel real, even when it's three seconds or less. Epictetus had a word for the loaded thing that shows up first: he called it an impression, an appearance in the older translations. And he had a word for the part of you that can sit in that gap for a moment before the response fires: *prohairesis*, your faculty of choice. You probably never use it. You let the impression go straight through to the response, the same way it always has. "Appearances, wait for me a little," he told himself, when an impression hit hard. "Let me see who you are, and what you are about; let me put you to the test." (*Discourses* 2.18, Long trans.) That's the whole move. Not denying what just landed. Just not letting it drive yet.
 
 There's a physical version of that pause. Before you respond, take one breath. Not a sigh she can hear, not a performance. Just one breath, in and slow out, before any words come. It's hard to fire on autopilot and breathe on purpose at the same time. Use that. Some nights it's easier than others. When you're under-slept, or already carrying something from earlier in the day, the gap is smaller and the breath is harder to remember. It's still there.
 
@@ -68,9 +66,11 @@ Not a feeling. Four things, and when you replay the moment, ask them as if you'r
 
 Save this for afterward, not mid-fight. Walk through it then. Ask it honestly, and you already know most of the answers. You usually do.
 
-In the moment itself, there's room for something smaller. One breath, and one quick question: *What's this actually about for me right now, and how do I want to respond?* That's it. The breath buys the half-second. The question loosens whatever just got loaded. You don't need the full four-part review while she's standing in the doorway. You need it later, lying awake, training the thing that fires automatically next time.
+In the moment itself, there's room for something smaller. One breath, and one quick question: *What's this actually about for me right now, and how do I want to respond?* That's it. The breath buys you the half-second. The question loosens whatever just got loaded. You don't need the full four-part review while she's standing in the doorway. You need it later, lying awake, training the thing that fires automatically next time.
 
-The rest of this book unpacks those four things in every specific situation a marriage hands you. The replay question doesn't change. Neither does the breath.
+Some nights the long question fits in one breath too: *Am I being the best husband I can be right now?* Ask it that way in the moment if it comes. Save the four checks for later.
+
+You'll meet those four things again in the situations a marriage hands you. The replay question doesn't change. Neither does the breath.
 
 **The Mistake I Made First**
 
@@ -84,7 +84,7 @@ My wife thought I'd gone somewhere she couldn't reach.
 
 She wasn't wrong. "I can only control me" had become a way to opt out. Her frustration, what she needed from me in that moment. I'd filed it under *not mine to deal with*. Equanimity means staying calm and steady on the inside, no matter what's happening around you. What I'd done wasn't that. It was an excuse to disappear, and I'd called it progress. The Stoics called for self-command. I'd built self-removal instead.
 
-The fourth virtue is on the list for exactly this reason. *Brave enough to stay engaged.* The gap is where you step toward what's hard, and stay in the room. The Stoic Husband stays reachable. He's learned to pause in the place most men fire from. That pause takes more presence than distance ever could.
+The fourth virtue is on the list for exactly this reason. *Brave enough to stay engaged.* The gap is where you step toward what's hard, and stay in the room. Stay reachable. Pause in the place you used to fire from. That pause takes more presence than distance ever could.
 
 She's been waiting for someone to come home who isn't just riding it out.
 
@@ -174,4 +174,4 @@ flow were spot-checked with no new findings since the 2026-06-03 pass.
 ### Citation corrections (2026-09-09 12:56)
 House translation standard (`06-sources.md`, established 2026-09-07 and applied here 2026-09-09): George Long for Marcus Aurelius and Epictetus, Richard Gummere for Seneca, all public domain. Long's text was transcribed from Project Gutenberg through its GitHub mirror (raw.githubusercontent.com/GITenberg/...), the one route to a primary text this container can reach; every Long quotation here is verbatim against that text. Remaining retrofit items are tracked in parking-lot #35.
 
-- *Discourses* II.18: the line was a paraphrase printed inside quotation marks with a citation (external verification, 2026-09-06). Replaced with George Long's 1877 wording, transcribed from the Project Gutenberg text (#10661) via its GitHub mirror. One clause of prose adjusted so "appearances," Long's word, lands for a reader who was just told the Stoic word is "impression."
+- *Discourses* 2.18: the line was a paraphrase printed inside quotation marks with a citation (external verification, 2026-09-06). Replaced with George Long's 1877 wording, transcribed from the Project Gutenberg text (#10661) via its GitHub mirror. One clause of prose adjusted so "appearances," Long's word, lands for a reader who was just told the Stoic word is "impression."

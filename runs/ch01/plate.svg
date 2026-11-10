@@ -1,45 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" style="color:#1a1a1a" role="img" aria-label="The Gap">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" style="color:#1a1a1a" role="img" aria-label="The Gap">
   <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
-    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:middle}
-    .lble{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:end;opacity:.86}
-    .lbls{font:600 12.5px Georgia,serif;letter-spacing:.14em;text-anchor:start;opacity:.86}
-    .lblw{font:600 12.5px Georgia,serif;letter-spacing:.10em;text-anchor:middle;fill:#ffffff}
-    .cap{font:italic 12px Georgia,serif;text-anchor:middle;opacity:.66}
+    .ttl{font:600 22px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
+    .sub{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.74}
+    .lbl{font:600 17px Georgia,serif;letter-spacing:.08em;text-anchor:middle}
+    .lble{font:600 17px Georgia,serif;letter-spacing:.10em;text-anchor:end;opacity:.86}
+    .lbls{font:600 17px Georgia,serif;letter-spacing:.10em;text-anchor:start;opacity:.86}
+    .lblw{font:600 17px Georgia,serif;letter-spacing:.06em;text-anchor:middle;fill:#ffffff}
+    .cap{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.66}
     .rule{stroke:currentColor;stroke-width:.8;opacity:.26}
   </style>
 
-  <rect x="0" y="0" width="640" height="340" fill="#ffffff"/>
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
 
   <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE GAP</text>
-    <text class="sub" x="320" y="70">Between what she says and what you say next are three seconds.</text>
+    <text class="ttl" x="320" y="44">THE GAP</text>
+    <text class="sub" x="320" y="80">Between what she says and what you say next</text>
+    <text class="sub" x="320" y="104">are three seconds.</text>
   </g>
 
   <!-- her words, then the interval, then yours: the interval is the only dark
        thing on the plate, and it is dark because something is already in it.
        The two words standing inside it are what that something can be. -->
   <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".5">
-    <rect x="76" y="174" width="174" height="34"/>
-    <rect x="390" y="174" width="174" height="34"/>
+    <rect x="56" y="202" width="170" height="38"/>
+    <rect x="414" y="202" width="170" height="38"/>
   </g>
   <g fill="currentColor" opacity=".92">
-    <rect x="250" y="162" width="140" height="58"/>
+    <rect x="226" y="186" width="188" height="70"/>
   </g>
 
   <g fill="currentColor">
-    <text class="lble" x="240" y="150">WHAT SHE SAYS</text>
-    <text class="lbls" x="400" y="150">WHAT YOU SAY NEXT</text>
+    <text class="lbls" x="56" y="180">WHAT SHE SAYS</text>
+    <text class="lble" x="584" y="180">WHAT YOU SAY NEXT</text>
   </g>
   <g>
-    <text class="lblw" x="320" y="185">CHOSEN</text>
-    <text class="lblw" x="320" y="205">OR INHERITED</text>
+    <text class="lblw" x="320" y="215">CHOSEN</text>
+    <text class="lblw" x="320" y="239">OR INHERITED</text>
   </g>
 
-  <g class="rule" fill="none"><path d="M44 272h552"/></g>
+  <g class="rule" fill="none"><path d="M44 300h552"/></g>
 
   <g fill="currentColor">
-    <text class="cap" x="320" y="304">Your marriage lives there.</text>
+    <text class="cap" x="320" y="340">Your marriage lives there.</text>
   </g>
 </svg>

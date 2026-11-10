@@ -320,3 +320,34 @@ holds in any font.
 rather than the house 13px, because the longest of them ("A night you did
 everything she wanted") needs the room to clear the arrow gutter. If he wants
 13px back, the shortest fix is to trim that entry, which is the chapter's line.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Each yes wraps onto two lines (roman text, not counted as captions); arrows and faint returns re-centred on each pair. Subtitle kept on ONE line at 17px: wrapping it would make 5 italic lines against a cap of 4. Canvas 430 -> 556 tall. First try broke 'Her story, heard / all the way through' and the grounded row WARNed; re-broken as 'Her story, / heard all the way through', which clears it.
+
+Rendered to runs/ch09/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch09/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x556
+  [ ok ] title       title 'THE BOTTOMLESS YES' / aria-label 'The Bottomless Yes' vs Mechanism 'The Bottomless Yes'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    4 italic lines against a cap of 4 (2 labels + subtitle + closing line)
+  [ ok ] alignment   5 centred texts on the axis or a shared column; 6 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

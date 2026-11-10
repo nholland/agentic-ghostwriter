@@ -1,6 +1,6 @@
 # Chapter 5: How to Fight Without Becoming Small
 
-Part I has been about the gap. The three seconds between what happens and what you do. This chapter is about what happens when you're already inside a real fight, where everything you've built gets used at once and the only question left is what kind of man you are at the end of it.
+You're already inside a real fight, and everything from the last four chapters gets used at once. The only question left is what kind of man you are at the end of it.
 
 ---
 
@@ -12,11 +12,11 @@ If you're not governing it, the Four D's are already running before you've decid
 
 That is the arc. You've run it before. So has she.
 
-This is the last chapter of Part I because it's where all five chapters apply at once. The mood that infected your inner weather before anything happened. The gap that opened when the trigger hit. The Four D's that fired automatically. The anger underneath all of it. Now: what you do with the rest.
+This is the last chapter of Part I because it's where all five chapters apply at once. The mood you picked up before the conversation began. The gap that opened when the trigger hit. The Four D's that fired automatically. The anger underneath all of it. Now: what you do with the rest.
 
 ---
 
-**The trigger with the nail in it.**
+**The trigger that lands on something tender.**
 
 The Four D's don't fire hardest for generic criticism. They fire hardest for the ones that hit something already there.
 
@@ -34,7 +34,7 @@ The reaction out of proportion to the incident is always telling you where the w
 
 The Four D's are one version. There are others.
 
-The withdrawal that punishes without naming itself. You go quiet in a specific way she can feel. Not because you're cooling down, but because you want her to know. Two days of distance between you that neither of you names. The sulk has no stated charge. She has to navigate it alone.
+Cold anger, from the last chapter, is one. Not because you're cooling down, but because you want her to know. Two days of distance between you that neither of you names. The sulk has no stated charge. She has to navigate it alone.
 
 The winning of the argument while losing the relationship. You're right. She's wrong. The point is scored. The marriage is slightly colder.
 
@@ -50,7 +50,7 @@ Marcus put a name on the practice: the view from above. *"Look down from above o
 
 The same movement in a fight: zoom out until the thing is at its actual scale. You are fighting about what time to get up in the morning, not world peace. You are fighting about a messy room, a tone of voice, something that didn't get done. From altitude, most of what feels urgent in the moment becomes almost nothing.
 
-The couples who stay married for fifty years didn't avoid fighting. Most small fights don't need a verdict. Long marriages seem to learn that. The fight about the dishes. The cold drive home. The two-day silence after something someone said on a Thursday. You can't remember most of it. It didn't need to be resolved. It needed grace and a little time.
+Couples who make it fifty years don't avoid fighting. Most small fights don't need a verdict. Long marriages seem to learn that. The fight about the dishes. The cold drive home. The two-day silence after something someone said on a Thursday. You can't remember most of it. It didn't need to be resolved. It needed grace and a little time.
 
 That's one outcome. You let it go. The decision is genuine, not a suppression: it belongs in the category of things that don't require a ruling. Let it be small. It is small.
 
@@ -62,13 +62,13 @@ But some things won't shrink from altitude. When you zoom out and the thing is s
 
 The Stoics called it *parrhesia*: frank speech. Seneca's version of it, from a letter to his friend Lucilius: *"I prefer that my letters should be just what my conversation would be if you and I were sitting in one another's company or taking walks together,—spontaneous and easy; for my letters have nothing strained or artificial about them."* (*Epistulae Morales*, Letter 75, Gummere trans.) He was writing about letters. The principle is the same in a fight. Not arranged for effect. The true thing, said directly, without managing what comes back.
 
-When the Stoic husband comes back to the unresolved conversation, he waits until things are calm. He asks if they can talk. He says what is true for him, not as a prosecution, but because he doesn't want to be the man who stores things instead of saying them. Because the environment two people create when nothing ever gets addressed leaks into everything else in the house. The kids feel it too.
+When you come back to the unresolved conversation, wait until things are calm. Ask if you can talk. Say what's true for you, not as a prosecution, but because you don't want to be the man who stores things instead of saying them. Because the environment two people create when nothing ever gets addressed leaks into everything else in the house. The kids feel it too.
 
-He says the true thing. Then he lets it land however it lands.
+Say the true thing. Then let it land however it lands.
 
-Her response is hers. Whether she hears it the way he meant it, whether it produces the conversation he hoped for: all of that is a preferred indifferent. He doesn't govern her response. He governs his engagement.
+Her response is hers. Whether she hears it the way you meant it, whether it produces the conversation you hoped for: all of that is a preferred indifferent. You don't govern her response. You govern your engagement.
 
-Not everything resolves logically. She may tell you this directly, and she'll be right. The Stoic husband has a framework built on reason. Marriage doesn't operate purely in reason. She lives in a register he doesn't always have full access to. Some misalignments won't resolve cleanly. Some conversations will need to be had more than once.
+Not everything resolves logically. She may tell you this directly, and she'll be right. You have a framework built on reason. Marriage doesn't run purely on reason, and she won't always get to an answer the way you do. Some misalignments won't resolve cleanly. Some conversations will need to be had more than once.
 
 The courage to communicate includes the courage to leave something unresolved and come back to it again. Not because you need the win. Because you're committed to the conversation regardless of how long it takes.
 

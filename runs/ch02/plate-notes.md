@@ -276,3 +276,34 @@ eye goes to in row two.
 2. **Stroke 5 against 1.5 is more than double.** Drawn at exactly double the
    difference is too small to see at phone width. The claim on the plate is the
    endorsed sentence's, not a measurement.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Subtitle and closing line each wrapped onto two lines. YOUR OWN WEATHER moved from beside HER WEATHER to below the vertical mark: at 17px the two collided in the Chromium render (the checker measured a 21px gap; the render showed them touching). Canvas 368 -> 466 tall.
+
+Rendered to runs/ch02/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch02/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x466
+  [ ok ] title       title 'THE MOOD MIRROR' / aria-label 'The Mood Mirror' vs Mechanism 'The Mood Mirror'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    4 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   6 centred texts on the axis or a shared column; 4 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

@@ -273,10 +273,16 @@ def check_long_sentences(sents, rules):
     }
 
 
-def check_you_density(prose, rules):
+def check_you_density(prose, rules, path=""):
     w = words(prose)
     total = len(w)
     floor = rules["you_density_min_per_1000"]["value"]
+    exempt = rules["you_density_min_per_1000"].get("exempt_chapters", [])
+    parent = os.path.basename(os.path.dirname(os.path.abspath(path))) if path else ""
+    if parent in exempt:
+        return {"check": "you-density", "kind": "HARD", "status": "SKIP",
+                "value": None, "threshold": floor,
+                "detail": f"'{parent}' is exempt by the author's ruling in 01-voice.md (first-person by design)"}
     if total == 0:
         return {"check": "you-density", "kind": "HARD", "status": "SKIP",
                 "value": None, "threshold": floor, "detail": "no words found"}
@@ -413,7 +419,7 @@ def run(path, cfg, family, short_form=False):
         check_em_dash(body, rules),
         check_bold(body, rules),
         check_long_sentences(sents, rules),
-        check_you_density(prose, rules),
+        check_you_density(prose, rules, path),
         check_metaphor_family(prose, rules, family),
         check_ending(sents, rules),
         check_devices(prose, rules),

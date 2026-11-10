@@ -234,3 +234,34 @@ legible because the black block below sits in the same x-range the V dips throug
 **For the author, unchanged from Round 4.** This is still the only plate in twelve
 with no hairline rule and no closing caption, which the Panel raised again from the
 whole-set view. Fixing it is new copy, so it stays an inbox question.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: UNDECIDED / DECIDED moved from the left margin to just above the start of each line; the block under the lower line widened to 228x38 to hold WHAT IT PROTECTS at 17px. Subtitle wrapped onto two lines. Canvas 368 -> 424 tall.
+
+Rendered to runs/ch10/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch10/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x424
+  [ ok ] title       title 'THE UNDECIDED LINE' / aria-label 'The Undecided Line' vs Mechanism 'The Undecided Line'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    3 italic lines against a cap of 5 (3 labels + subtitle + closing line)
+  [ ok ] alignment   5 centred texts on the axis or a shared column; 5 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

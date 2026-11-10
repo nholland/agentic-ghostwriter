@@ -33,7 +33,8 @@
     "runs/handoff/intake-06f324390620a89a.json",
     "runs/handoff/intake-8a8329cfe8a253c4.json",
     "runs/handoff/intake-06535dfbd431f5c5.json",
-    "runs/handoff/intake-0d0f17e904d04bfb.json"
+    "runs/handoff/intake-0d0f17e904d04bfb.json",
+    "runs/handoff/intake-676873f66a02594b.json"
   ],
   "artifacts": {
     "inbox/001-are-bolded-run-in-section-headers-legal.md": "e78386c291d3cb3dc5b505076253b3c3df588ed41334113ade6f69b704297a15",
@@ -201,6 +202,9 @@
     "inbox/163-roommates-the-author-wants-part-iv-v-to-address-.md": "bdcf575554bd3a6d9ee7db8966798695248de0885d9f87936a3f8f9434c0ff22",
     "inbox/164-ar-te-first-named-in-ch16-the-part-iii-capstone-.md": "ef98d67092adb0c7744be2237ac7071824a5fa4d1a9e2fe684f29441be96d626",
     "inbox/165-no-epub-build-in-the-house-the-2026-11-07-epub-w.md": "126033eaf3dccdc9b8d4b2635375bbfa1a8f0772e32f017ccd561e0286ed59dd",
+    "inbox/166-book-cover-pick-a-direction-and-commission-a-usa.md": "a0d672395eebc5d2c54743459a1fe1aa4ff5a7c6bed844a73b05aceb604fe412",
+    "inbox/167-plate-check-py-s-geometry-row-can-miss-a-real-co.md": "934df603a364acf601b629084784a9dd8adde94f375f008c02b0525c1e7d65de",
+    "inbox/168-rule-on-the-whole-book-qa-ledger-114-edit-sugges.md": "a38bc86a2f9a0e1cfdd1d475cfe27774f19d2d7dc1e576c3f595abe01a5fb36a",
     "runs/ch15/brief-checkin.md": "52c89b38503a89c176a061187c0f9885c5604790f2437d66419a3fa209e0d7ba",
     "runs/ch15/brief-checkin.pdf": "b5fbd505804b740b7ea5a0f4c9928b7702734da80f86e17b8118e5505bb2d90a",
     "runs/ch15/brief-gaps.md": "c1515bc3ecf3e4205395a7c9c6bad8eda71119d639a60f43e648dc9e3c1bb863",
@@ -256,5 +260,5 @@
     "runs/ch15/verdict-package.md": "7c590aec5ca5b9d1ba04169d41541a9d447eb7dc3fc739bc069f0c257c8737b1",
     "runs/ch15/verdict.md": "beb982a3564528cc4c8ea8b3a5e1eef14fded82fa812c0eb134d6d93c0520236"
   },
-  "updated": "2026-11-07T14:32:43.112956+00:00"
+  "updated": "2026-11-08T01:00:43.716419+00:00"
 }

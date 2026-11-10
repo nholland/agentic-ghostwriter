@@ -303,3 +303,34 @@ The current working plate was rendered and visually inspected after retitling.
 Its twelve reported rows pass, including raster-current. The older book SVG’s
 pre-existing endpoint-caption margin warnings remain; this title-only ruling
 does not substitute the different working drawing or certify that older layout.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Subtitle wrapped onto two lines. Canvas 340 -> 380 tall. The three boxes rebalanced so the dark interval is 188 wide and holds OR INHERITED at 17px; WHAT SHE SAYS and WHAT YOU SAY NEXT now sit flush with the outer edges of their boxes (they no longer fit hugging the dark interval at 17px). Letter-spacing on labels .14em -> .10em/.06em.
+
+Rendered to runs/ch01/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch01/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x380
+  [ ok ] title       title 'THE GAP' / aria-label 'The Gap' vs Mechanism 'The Gap'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    3 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   6 centred texts on the axis or a shared column; 3 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

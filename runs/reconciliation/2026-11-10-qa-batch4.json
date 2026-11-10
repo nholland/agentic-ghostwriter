@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-11-10T02:40:28.854101+00:00",
+  "subjects": [
+    "qa:batch 4"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-11-10: \"A. All approved / B. All Approved / C. All Approved\"",
+  "reason": "Style, repetition, typography and spec-note edits. No new fact, story, claim or definition: study inserts were compressed without strengthening any claim; biographies shortened; the constitution changes (you-density exemption, element rule, Part IV/V notes) are rules, not book knowledge.",
+  "files": {
+    "books/the-stoic-husband/01-voice.md": "4208459022785c7ae8f49ae375c7521128c61fbe9cf011415e728bf389a7dcfb",
+    "books/the-stoic-husband/03-outline.md": "704f24d6aaefef1486d1cfdbd822d699f01e14329dd52a6f03e474a3df198d75",
+    "books/the-stoic-husband/chapters/ch01/refined.md": "1be06f3713125921ed5a024c1bac9f60473973e403c4a9446c19c2d93d6a5d1a",
+    "books/the-stoic-husband/chapters/ch02/refined.md": "b0dc3d317a25f4d4deef41e71c5a69a1c73d482f6b6d291a108568c7cb7a62c5",
+    "books/the-stoic-husband/chapters/ch03/refined.md": "c4d32febad694aee0278891dd2d21bb7144e573e8c18f316ac07eccf4476c04d",
+    "books/the-stoic-husband/chapters/ch04/refined.md": "2c7b086727bef09eb66513c46d6ff0a47e155c10dc4ea073c360ab52f7d26a60",
+    "books/the-stoic-husband/chapters/ch05/refined.md": "4d2ae56b76c8342fb8ecc0e8e10d9dc6dbbbee0aeae256f8d663500e0e42b8e5",
+    "books/the-stoic-husband/chapters/ch06/refined.md": "afc291fd2f16818f6a2abf9c5eece099d02ca4af20d65c9f4280775ea20c040a",
+    "books/the-stoic-husband/chapters/ch07/refined.md": "cef20d139df1611184b529236504ab1ca276784af62cbd0a3f1cec2d35740b2d",
+    "books/the-stoic-husband/chapters/ch09/refined.md": "61f04f3af2af4608bb95cc04611454a038c23c09f01ea666cfbbb36c49f553fe",
+    "books/the-stoic-husband/chapters/ch10/refined.md": "af9f7a2b61f2a2f2674f8c5b5c057d1d8aaf6c05dfaf25eea4f884a8dd99136b",
+    "books/the-stoic-husband/chapters/ch11/refined.md": "a92b9084546d12ecb208192eb8006b5aa5f9b6ce8d451e9358fd42bfcb1a2270",
+    "books/the-stoic-husband/chapters/ch12/refined.md": "e19a0d6bd14cc566ddda9ed66a570e08135713a0576226b0bc9a5336d292dc4d",
+    "books/the-stoic-husband/chapters/ch13/refined.md": "da7fbdafc747e3b9d7b6b872754481a669a4bb454780ec868566bc7878134393",
+    "books/the-stoic-husband/chapters/ch14/refined.md": "bd4a583295dc9ac274e75e799357570215efb7febc1dc9402f7307394b1af92f",
+    "books/the-stoic-husband/chapters/ch15/refined.md": "27102fcf96f65520d2ab676104edcbc9496308acfa98041428b097819f5f5627",
+    "books/the-stoic-husband/chapters/ch16/distillation.md": "0e2a97ab393928c554e545e01b36bf664c10f6add32c81713add90cf7961f0ee",
+    "books/the-stoic-husband/chapters/ch16/refined.md": "a821613a84b34aa9a617bc5371d65fe112417d1c72de6fb6ac2d4dc27b7f7a0b",
+    "books/the-stoic-husband/chapters/prologue/refined.md": "bd8e46d45f41fbda108085b8d4b60996ea1c497720fb233ebf349365b6e28fab"
+  }
+}

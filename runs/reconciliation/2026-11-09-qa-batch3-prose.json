@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-09T23:58:19.385984+00:00",
+  "subjects": [
+    "qa:batch 3 prose"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/stories/the-wife-who-is-enough.md",
+    "books/the-stoic-husband/okf/stories/i-cant-control-you-said-aloud.md"
+  ],
+  "authority": "Author, 2026-11-09: Sections A-D approved",
+  "reason": "Each prose change aligns the book with facts the OKF already holds (sabbatical in the-wife-who-is-enough; Pillemer 30+ in the Pillemer concepts; the said-aloud story) or is wording only.",
+  "files": {
+    "books/the-stoic-husband/chapters/prologue/refined.md": "7afa4d5a5bf97f4aa774db3b08b21c5d50d9d61acaed77ed3a63cf0aedd1b59b",
+    "books/the-stoic-husband/chapters/ch01/refined.md": "0aac46f98f44c80a4b95d61c93e64e553b1bfffe4408caadf652badfbc26e4d9",
+    "books/the-stoic-husband/chapters/ch04/refined.md": "b64b47ed1836707ba7732da28c0f2b4e14e49b2d64416865ee4f789a79ec84eb",
+    "books/the-stoic-husband/chapters/ch07/refined.md": "619228754307eaf7ed9a81f3ecd9eb1166069c75cad8971142db7ab2d166a984",
+    "books/the-stoic-husband/chapters/ch11/refined.md": "351b8f5a9d796921f2ebae6aa3d9600bdf5d785399d42ca5273799f38a864beb",
+    "books/the-stoic-husband/chapters/ch12/refined.md": "499640b9cf4d954bf8d62b34e86da308da367db03a0a7eea463f9726d35ca93b",
+    "books/the-stoic-husband/chapters/ch16/refined.md": "9a8da9487ba22d2f64b76494c3023edc8f9bb65a4838280ec9e654582da1bde6"
+  }
+}

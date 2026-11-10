@@ -40,7 +40,7 @@ Sometimes it's hot: a raised voice, full volume, something said that can't be re
 
 The triggers span the same range. On one end: disrespect in front of your children, a major decision made without you. On the other end, it's smaller. She watched the next episode without you. The house is a mess again. You came home depleted, wanted something acknowledged, and nothing came. Most men dismiss those as "not really anger." That's the error. The tone just shortened. You went quiet in a specific way she felt. The mechanism is the same.
 
-Both partners can get angry. Both can escalate. This chapter addresses you because you're reading it. But when both of you are in the activation state at the same time, it can move to places neither of you chose. Recognizing it in yourself is where your work starts.
+Both partners can get angry. Both can escalate. This chapter addresses you because you're reading it. But when you're both angry, you can say things neither of you meant to say. Recognizing it in yourself is where your work starts.
 
 ---
 
@@ -54,13 +54,13 @@ She isn't the threat.
 
 When you turn off your logic and lash out, the system aims at the nearest target: her. Your body can't tell the difference between a rival tribe and the woman across the table. The system fires at the signal, not at the actual relationship.
 
-Seneca's *De Ira*, his study of anger, described what happens at the moment of activation in three stages. The first is involuntary: "a preparation for passion, as it were, and a sort of menace." The flush, the narrowing, the physiological response that arrives before any choice. The second stage is a choice: whether you decide the response is justified. The third stage is when reason has already been overtaken. (*De Ira*, Book II, trans. Basore.)
+Seneca's *De Ira*, his study of anger, described what happens at the moment of activation in three stages. The first is involuntary: "a preparation for passion, as it were, and a sort of menace." The flush, the narrowing, the physiological response that arrives before any choice. The second stage is a choice: whether you decide the response is justified. The third stage is when reason has already been overtaken. (*De Ira*, Book II, Basore trans.)
 
-The gap between the first stage and the second is where everything lives. That's where your *prohairesis* lives. Your capacity to choose. The part of you that chooses before you react. Chapter 1 named that gap. Three seconds. This is what those three seconds are for.
+The gap between the first stage and the second is where everything lives. That's where your *prohairesis* lives: your capacity to choose. Chapter 1 named that gap. Three seconds. This is what those three seconds are for.
 
-Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He wasn't describing an achievement. He was writing to himself, leading an army through a war he didn't choose, about what actual strength looks like.
+Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He wasn't describing an achievement. He was reminding himself what actual strength looks like.
 
-Anger isn't strength. It's the absence of it.
+Acting on anger isn't strength. It's the absence of it.
 
 ---
 
@@ -76,7 +76,7 @@ It's full of holes.
 
 The boy thought he'd fixed it. The fence showed him he hadn't.
 
-That's what most men miss. An apology pulls the nail. It doesn't fill the hole.
+An apology pulls the nail. It doesn't fill the hole.
 
 Think about a moment, not necessarily dramatic, where you raised your voice once under real pressure. It felt justified. By morning it was over, or close enough that life moved on.
 
@@ -90,7 +90,7 @@ Contempt, Gottman found, is the single strongest predictor of divorce: the most 
 
 ---
 
-You don't know which cigarette gave someone the diagnosis. Nobody does. The learning isn't forensic. You don't go back and find the specific one. You understand what the behavior leads to, and you stop.
+You don't need to find the nail behind each hole. You know what the hammer does, and you put it down.
 
 Stop making holes.
 

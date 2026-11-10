@@ -2,21 +2,19 @@
 
 ---
 
-The last chapter took the private tally apart. This one is about what the tally could never read, the part underneath it. And what to do once you feel it break the surface.
-
----
-
 **Not one moment.** What lands on you as "this is unfair" almost never arrives as one clean grievance. It's built out of many smaller things you didn't count at the time because each one was too small to name. A critique that stung a little more than she meant it to. A weekend of work she didn't seem to notice. A morning where you swallowed something to keep the peace. Individually, each one is nothing. Together, over weeks, they add weight to an invisible scale. One day something small tips it, and the feeling that arrives seems to come from nowhere.
 
 That's the first thing to see clearly. What feels sudden almost never is. You just notice it late. The small stuff underneath has been landing for a long time before it ever reaches the surface.
 
+The last chapter took the private tally apart. This one is about what the tally could never read, the part underneath it. And what to do once you feel it break the surface.
+
 ---
 
-**Different shapes.** The shape of what's underneath varies from marriage to marriage, more than most books admit. You might be in the traditional configuration: not the earner, or earning less, doing more of the visible home tasks. That work goes uncredited because she's measuring by a different standard than you are.
+**Different shapes.** The shape of what's underneath varies from marriage to marriage, more than most books admit. You might earn less and do more of the work at home. That work goes uncredited because she's measuring by a different standard than you are.
 
 Or it looks the opposite for you. You hold the primary income, or the harder job, and what you contribute goes invisible because it happens offstage. Its output, a mortgage payment, insurance, retirement money that doesn't exist yet, doesn't visually compete with a clean kitchen.
 
-Or you're both working. You do more of the physical household work. She owns a whole different domain that's just as demanding but unseen: the kids' schooling, their activities, the medical appointments. You don't carry that channel's mental load. She does. That third shape isn't clean at all for you. It's task volume and recognition tangled together at once.
+Or you're both working. You do more of the physical household work. She owns a whole different domain that's just as demanding but unseen: the kids' schooling, their activities, the medical appointments. She remembers the appointments and plans what the kids need. That third shape isn't clean at all for you. It's task volume and recognition tangled together at once.
 
 You know which shape yours is. What matters is that the mechanism is the same in all three. Many small things you didn't count at the time, and no one else counting them either.
 
@@ -24,13 +22,13 @@ You know which shape yours is. What matters is that the mechanism is the same in
 
 **When it lands on you.** Sooner or later she'll name one. She'll say the thing she's been carrying. You'll feel the shape of an accusation, and everything in you will want to defend or counter. Before you do either, run one question at the moment before you speak.
 
-Marcus Aurelius has a passage in *Meditations*, Book 5, section 28. Most men read it for a different reason, but it's the right tool here. He's writing to himself about how to think about a person whose fault is a small physical offense: "Art thou angry with him whose armpits stink? Art thou angry with him whose mouth smells foul? What good will this anger do thee? He has such a mouth, he has such armpits: it is necessary that such an emanation must come from such things." The point isn't the smell. The point is that anger is the wrong response to a fact. The honest thing to do is check whether the fact is actually real.
+Marcus Aurelius has a passage in *Meditations*, Book 5, section 28. He's writing to himself about how to think about a person whose fault is a small physical offense: "Art thou angry with him whose armpits stink? Art thou angry with him whose mouth smells foul? What good will this anger do thee? He has such a mouth, he has such armpits: it is necessary that such an emanation must come from such things." The point isn't the smell. The point is that anger is the wrong response to a fact. The honest thing to do is check whether the fact is actually real.
 
 So when she names an unfairness, the diagnostic is a question you speak to yourself first. Is what she's saying true, or not true?
 
 Say it's true, even partly, even in a shape you didn't see until she said it out loud. If so, the work in front of you is not an apology performance. It's a construction project: real change, in the thing you actually fix, over time she can watch you fix it. An apology by itself won't answer what she's actually named. Different behavior will.
 
-Or say it isn't true. She might be missing something she hasn't yet looked at, seeing only her side because that's the side she can see. She's very likely not being cruel. She's being unreflective, the same way you have been unreflective about her side a hundred times over. That calls for a quieter response than counterattack, and a slower one than a competing list. A plain sentence, said without heat: this is what I don't think you're seeing. Marcus's rule holds either way. Anger at what emanates from another person's blind spot is a waste. The correction, if it comes, comes without heat.
+Or say it isn't true. She might be missing something she hasn't yet looked at, seeing only her side because that's the side she can see. She's seeing her side, the same way you've only seen yours a hundred times over. That calls for a quieter response than counterattack, and a slower one than a competing list. A plain sentence, said without heat: this is what I don't think you're seeing. Marcus's rule holds either way. Anger at what emanates from another person's blind spot is a waste. The correction, if it comes, comes without heat.
 
 ---
 
@@ -53,8 +51,6 @@ If you keep asking and nothing changes, say plainly that the current arrangement
 **Gratitude, standing.** You can notice what your wife carries without using it to dismiss what you carry. Tell her what you appreciate. Then tell her what has become too much. Both belong in the same conversation.
 
 Give sixty, expect forty was a way to loosen your grip on repayment. It doesn't settle how you divide a week that neither of you can manage.
-
-The next chapter looks at what happens when you stay quiet and expect something back.
 
 You can thank her for what she carries and still ask for help with what you can't keep carrying.
 

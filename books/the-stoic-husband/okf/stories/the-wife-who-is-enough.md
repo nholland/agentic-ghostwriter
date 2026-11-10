@@ -61,6 +61,10 @@ specific items is **pending**; Round 3's release covered only the details above.
   meal. He thinks it is sometimes received as hollow, like "I love you" said too
   often, and that quick thanks does not reach the level of appreciation she is
   looking for.
+  **What the gesture means (author, 2026-11-09, whole-book QA Q112):** "Its a fun
+  way we make it known we recognize the person. Mixes a shared moment we all know
+  from avatar with the concept of saying 'I see and recognize you'." It is not a
+  remedy for hollow thanks; he declined that reading.
 - **Sayings about enough:** his wife says "the best meals are the ones you don't
   have to cook." "Hunger is the best sauce" is the author's own addition (she did
   not say it); he believes it is a Stoic phrase and wants it tied back to

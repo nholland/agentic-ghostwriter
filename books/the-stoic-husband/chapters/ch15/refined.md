@@ -20,7 +20,7 @@ I used to take those lines personally. Over time I realized a line like that is 
 
 When you hear a line like that, you can ask one of two different questions. The first is about you. If it sounds like she's calling you lazy, ask yourself, "Is that truly the case?" If it is, fix it. If it isn't, let the remark go.
 
-The second question is about her: what does the remark tell you about how she feels? Most of the time, the remark says less about you than it seems. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. That reading is for you to keep, not something to say to her. If a remark still hurts you every time, Chapter 11 covers how to raise it with her.
+The second question is about her: what does the remark tell you about how she feels? Often the remark says as much about her day as it does about you. It's an outward manifestation of how she's feeling on the inside. Maybe she isn't in a good mental state. Maybe she's frustrated about something. Either way, you don't have to be offended. That reading is for you to keep, not something to say to her. If a remark still hurts you every time, tell her, the way you'd raise anything else that keeps coming back.
 
 What changed for me came slowly, through experience. I started asking: who has the strength to de-escalate? Somebody has to be calm. Somebody has to be patient. Somebody has to be the one that's romantic and kind. Someone has to be the one that brings the warmth into the relationship.
 
@@ -32,7 +32,7 @@ We have a saying in our house: "Never be the worst part of somebody's day." It's
 
 ---
 
-**Meet frustration with patience.** Feeling fed up drives faster responses and more intense reactions. You may know that from your own arguments. I know it from ours. The ironic part is that ours weren't about any one topic. I was fed up with how we argued.
+**Meet frustration with patience.** When you're fed up, you answer faster and react harder. You may know that from your own arguments. I know it from ours. The ironic part is that ours weren't about any one topic. I was fed up with how we argued.
 
 She gets fed up too, and on a weekend with a mountain of work ahead, so do you. When she's tired, you may be tired too. That's two tired people. Patience is your choice to be kind anyway.
 
@@ -52,9 +52,9 @@ For me, that's a foot rub when she's had a long day. It's taking over a chore th
 
 Why is the chore kind? It's an act of service, her love language. And it's kind because these are normally things that she does, and I'm taking chores and work off of her plate. I'm doing something that shows I want to make her life better. You know which chores are usually hers in your house.
 
-A 2022 study by Gordon and colleagues looked at housework. People who did more of it, and felt the split was unfair, tended to be less satisfied in the relationship. The exception was people who felt appreciated by their partner. The study wasn't about husbands who help, but I read it as a reason for you to do both: help her, and let her know you see her.
+In a 2022 study, Gordon and colleagues found that people who did more of the housework and felt the split was unfair tended to be less satisfied in the relationship, unless they felt appreciated by their partner. My reading, not theirs, is that you should do both: help her, and let her know you see her.
 
-When you are the sun, people come to you to feel good. In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he learned from the people who shaped him. Sextus is one of them. Marcus wrote that Sextus "never showed anger or any other passion, but was entirely free from passion, and also most affectionate." (*Meditations* I.9, Long trans.) The Greek behind "most affectionate" belongs to the word *philostorgia*, family love. "Free from passion" here means Sextus wasn't ruled by anger or upset. Sextus was calm and warm at once.
+When you are the sun, people come to you to feel good. In Book I of *Meditations*, the Roman emperor Marcus Aurelius lists what he learned from the people who shaped him. Sextus is one of them. Marcus wrote that Sextus "never showed anger or any other passion, but was entirely free from passion, and also most affectionate." (*Meditations* 1.9, Long trans.) The Greek behind "most affectionate" belongs to the word *philostorgia*, family love. "Free from passion" here means Sextus wasn't ruled by anger or upset. Sextus was calm and warm at once.
 
 That pairing is compassion in your home: you see her load, you act on it, and you stay steady yourself. She deserves kindness every day, always, even when she's at her lowest. You don't wait for her to earn it.
 
@@ -67,5 +67,3 @@ So ask yourself, each day: "Was I the best part of her day?"
 ---
 
 For a long time I answered every zing. I should have been asking whether I was the best part of her day.
-
-When the next zing lands, roll up your sleeves before you open your mouth.

@@ -178,3 +178,34 @@ is entirely dark and nothing on the plate rewards that as completion.
 2. **YOU DEFEND for YOU EXPLAIN.** The four D's are all in the chapter and
    Defend is the first; explaining is what it feels like from the inside. I
    chose the reader's word over his. Say the word and it goes back.
+
+
+## Phone-size type revision, 2026-11-07 15:15 (Designer)
+
+Author ruling 2026-11-07, "1. Enlarge" (runs/epub/epub-design-review.md
+finding 2): plates must read on a phone without zooming. Type re-set toward
+the Ch13/Ch14 plates: title 20 to 22px, subtitle and captions 17 to 18px,
+labels and running text 17 to 18px. Smallest type 12px -> 17px.
+No word, title or aria-label changed; the drawing's argument is unchanged.
+
+Layout changes needed to fit: Labels moved from the left of each doorway to above it, since SHE BRINGS SOMETHING cannot fit beside a bar at 17px. The four doorways widened to 464 and centred on the axis; the closing fractions kept (one third, two thirds, full). Subtitle wrapped onto two lines. Canvas 360 -> 496 tall.
+
+Rendered to runs/ch03/pdf/plate.png and inspected: no collisions, no clipping.
+
+plate_check.py output:
+
+```
+runs/ch03/plate.svg
+  [ ok ] charset     valid UTF-8, no mojibake
+  [ ok ] geometry    no margin or collision rows
+  [ ok ] anchor-attr anchors set in classes or inline styles only
+  [ ok ] em-dash     none
+  [ ok ] digits      none
+  [ ok ] canvas      640x496
+  [ ok ] title       title 'THE CLOSED DOOR' / aria-label 'The Closed Door' vs Mechanism 'The Closed Door'
+  [ ok ] grounded    each text has a three-word match in permitted source copy
+  [ ok ] captions    3 italic lines against a cap of 6 (4 labels + subtitle + closing line)
+  [ ok ] alignment   4 centred texts on the axis or a shared column; 2 drawing blocks centred or mirrored
+  [ ok ] ink         no rendered ink inside the 40px margin bands (dark px {'left': 0, 'right': 0, 'top': 0, 'bottom': 0})
+  [ ok ] raster-current preview matches source pixels at its own scale
+```

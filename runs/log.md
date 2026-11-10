@@ -4595,3 +4595,332 @@ verdict; no prose or plate is landed.
 - … and 140 more
 
 **Next:** `/gw 16` — Chapter 16 stopped at review (scoped chapter review evidence missing or invalid (review.json)).
+
+## 2026-11-07 14:55 — `ccr-fe0a0d31-uw1din` — 4 commit(s) this session
+- `inbox/162-rule-on-the-whole-book-qa-ledger-114-edit-sugges.md`
+- `runs/handoff.json`
+- `runs/handoff/intake-676873f66a02594b.json`
+- `runs/qa/2026-11-07-edits-ch00-ch15.json`
+- `runs/qa/2026-11-07-edits-ch00-ch15.md`
+- `runs/qa/2026-11-07-panel-ch00-ch15.md`
+- `runs/qa/2026-11-07-qa-review.pdf`
+- `runs/qa/2026-11-07-qa.md`
+- `runs/qa/2026-11-07-readability-ch00-ch15.json`
+- `runs/qa/2026-11-07-slop-ch00-ch15.md`
+
+**Next:** `/gw 16` — Chapter 16 has not started.
+
+## 2026-11-07 15:21 — `ccr-fe0a0d31-uw1din` — 72 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-1-11-natural-affection-sick-daughter.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-3-2-not-like-a-statue.md`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-16-sympathy-not-inward-lament.md`
+- `books/the-stoic-husband/okf/citations/klimecki-et-al-2014.md`
+- `books/the-stoic-husband/okf/citations/kruse-stoic-compassion-psychology-today.md`
+- `books/the-stoic-husband/okf/citations/male-roles-mirror-nature-gap.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-1-9-free-from-passion-most-affectionate.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md`
+- `books/the-stoic-husband/okf/citations/seneca-calm-not-root-out-emotions.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-clementia-2-5-6-help-not-pity.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-ira-1-1-temporary-madness.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-71-3-no-wind-the-right-wind.md`
+- `books/the-stoic-husband/okf/citations/seneca-weep-but-not-wail.md`
+- `books/the-stoic-husband/okf/citations/singer-klimecki-2014-empathy-compassion.md`
+- `books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md`
+- `books/the-stoic-husband/okf/frameworks/bring-steadiness-not-superiority.md`
+- `books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md`
+- `books/the-stoic-husband/okf/frameworks/emotional-contagion-the-human-mirror.md`
+- `books/the-stoic-husband/okf/frameworks/equanimity-arete-eudaimonia.md`
+- `books/the-stoic-husband/okf/frameworks/kindness-takes-the-load-off-her-plate.md`
+- `books/the-stoic-husband/okf/frameworks/many-partners-in-one.md`
+- `books/the-stoic-husband/okf/frameworks/marriage-as-the-death-of-the-imagined-self.md`
+- `books/the-stoic-husband/okf/frameworks/marriage-in-flow.md`
+- … and 151 more
+
+**Next:** `/gw 16` — Chapter 16 stopped at review (scoped chapter review evidence missing or invalid (review.json)).
+
+## 2026-11-07 15:27 — `ccr-b71105f1-5fo8nf` — 71 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-1-11-natural-affection-sick-daughter.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-3-2-not-like-a-statue.md`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-16-sympathy-not-inward-lament.md`
+- `books/the-stoic-husband/okf/citations/klimecki-et-al-2014.md`
+- `books/the-stoic-husband/okf/citations/kruse-stoic-compassion-psychology-today.md`
+- `books/the-stoic-husband/okf/citations/male-roles-mirror-nature-gap.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-1-9-free-from-passion-most-affectionate.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md`
+- `books/the-stoic-husband/okf/citations/seneca-calm-not-root-out-emotions.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-clementia-2-5-6-help-not-pity.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-ira-1-1-temporary-madness.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-71-3-no-wind-the-right-wind.md`
+- `books/the-stoic-husband/okf/citations/seneca-weep-but-not-wail.md`
+- `books/the-stoic-husband/okf/citations/singer-klimecki-2014-empathy-compassion.md`
+- `books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md`
+- `books/the-stoic-husband/okf/frameworks/bring-steadiness-not-superiority.md`
+- `books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md`
+- … and 200 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-08 01:00 — `ccr-fe0a0d31-uw1din` — 85 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-1-11-natural-affection-sick-daughter.md`
+- `books/the-stoic-husband/okf/citations/epictetus-discourses-3-2-not-like-a-statue.md`
+- `books/the-stoic-husband/okf/citations/epictetus-enchiridion-16-sympathy-not-inward-lament.md`
+- `books/the-stoic-husband/okf/citations/klimecki-et-al-2014.md`
+- `books/the-stoic-husband/okf/citations/kruse-stoic-compassion-psychology-today.md`
+- `books/the-stoic-husband/okf/citations/male-roles-mirror-nature-gap.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-1-9-free-from-passion-most-affectionate.md`
+- `books/the-stoic-husband/okf/citations/marcus-aurelius-meditations-4-4-and-6-44-cosmopolis.md`
+- `books/the-stoic-husband/okf/citations/seneca-calm-not-root-out-emotions.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-clementia-2-5-6-help-not-pity.md`
+- `books/the-stoic-husband/okf/citations/seneca-de-ira-1-1-temporary-madness.md`
+- `books/the-stoic-husband/okf/citations/seneca-letter-71-3-no-wind-the-right-wind.md`
+- `books/the-stoic-husband/okf/citations/seneca-weep-but-not-wail.md`
+- `books/the-stoic-husband/okf/citations/singer-klimecki-2014-empathy-compassion.md`
+- `books/the-stoic-husband/okf/frameworks/attachment-vs-devotion.md`
+- `books/the-stoic-husband/okf/frameworks/bring-steadiness-not-superiority.md`
+- `books/the-stoic-husband/okf/frameworks/compassion-vs-empathy.md`
+- … and 213 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-09 14:10 — `ccr-fe0a0d31-uw1din` — 106 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch03/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch07/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch14/distillation.md`
+- `books/the-stoic-husband/chapters/ch14/refined.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- … and 268 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-09 22:43 — `ccr-fe0a0d31-uw1din` — 111 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch03/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch07/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch14/distillation.md`
+- `books/the-stoic-husband/chapters/ch14/refined.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- … and 272 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-09 23:58 — `ccr-fe0a0d31-uw1din` — 121 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch03/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch07/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch14/distillation.md`
+- `books/the-stoic-husband/chapters/ch14/refined.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- … and 275 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-10 02:17 — `ccr-fe0a0d31-uw1din` — 123 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch03/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch07/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch14/distillation.md`
+- `books/the-stoic-husband/chapters/ch14/refined.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- `books/the-stoic-husband/okf/citations/emotional-bank-account-covey-gottman.md`
+- … and 277 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-10 02:40 — `ccr-fe0a0d31-uw1din` — 143 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/01-voice.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch03/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch07/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch14/distillation.md`
+- `books/the-stoic-husband/chapters/ch14/refined.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- … and 297 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-10 03:04 — `ccr-fe0a0d31-uw1din` — 146 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/01-voice.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch03/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch07/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch14/distillation.md`
+- `books/the-stoic-husband/chapters/ch14/refined.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- … and 306 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
