@@ -34,7 +34,7 @@ A lot of this book was written to keep you from making the mistake I made.
 
 Early on, I took one piece of the philosophy and ran it too far. Stoicism teaches you to stop spending energy on things you can't control. I got good at that fast, at work, with money, with setbacks. I got calmer. I got harder to knock off balance. Then, without really noticing, I started applying the same logic to my wife. Her mood, her feedback, the things she was upset about. I filed all of it under "not up to me" and stayed serenely above it. I thought I was getting stronger. I was actually getting really good at not being fully present in my own marriage.
 
-She noticed before I did. She told me, in her own words, that I'd gone somewhere she couldn't follow me to. She was right. I'd built something invulnerable and called it growth. Nothing I was doing looked bad from the outside. From the inside of the marriage, it was a slow quiet distance she couldn't name and I wouldn't admit to.
+She noticed before I did. She told me so, and she was right. I'd built something invulnerable and called it growth. Nothing I was doing looked bad from the outside. From the inside of the marriage, it was a slow quiet distance she couldn't name and I wouldn't admit to.
 
 It took me a while to understand what I'd gotten wrong. Several of the Stoic philosophers were husbands and fathers themselves. They wrote to stay clear-headed inside their obligations, not to float above them. I'd been applying the philosophy everywhere in my life except the one place it actually needed to go. A reachable man is the strong one. A man who's found a quiet way to disappear from his marriage looks calm from the outside and is doing damage on the inside.
 
