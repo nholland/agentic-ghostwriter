@@ -26,7 +26,7 @@ It isn't only me. My wife has gotten every bit as busy, and we've both forgotten
 
 You run the rest of your life on purpose. If you've read any Stoicism, you aimed it at your temper and it held. This is the one corner you never aimed at.
 
-Epictetus was born a slave in the Roman empire, was freed, and became a teacher whose students wrote down what he said. He put it this way nineteen hundred years ago, and he wasn't talking about marriage.
+Epictetus put it this way nineteen hundred years ago, and he wasn't talking about marriage.
 
 *"Every habit and faculty is maintained and increased by the corresponding actions: the habit of walking by walking, the habit of running by running. If you would be a good reader, read; if a writer, write."* (*Discourses* 2.18, Long trans.)
 
@@ -80,7 +80,7 @@ That sounds bleak for about four seconds. Fighting is a problem you have to solv
 
 When you stop making an effort, she may stop expecting it from you.
 
-Marcus Aurelius ran the Roman empire and kept a notebook where he argued with himself. In 4.24 he picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
+Marcus Aurelius, in his notebook at 4.24, picks up an old line from a philosopher he doesn't name: if you want to be untroubled, do few things. Marcus corrected it. Do the necessary things instead. That list is harder to write, because it makes you say what actually counts.
 
 ---
 
