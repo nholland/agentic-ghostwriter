@@ -2,9 +2,9 @@
 
 Anger works. That's the part nobody tells you when they're explaining why it's a problem.
 
-The chemicals that fire when someone challenges you. The narrowing of thought that makes you fast and not very careful. That system exists because it worked. Every culture on earth has tried to explain anger and contain it. The Stoics wrote books on it. Researchers have spent decades measuring it. All that attention exists because anger is universal, not because it's rare.
+When someone challenges you, your body floods and your thinking narrows. That makes you fast and not very careful, and the reaction exists because it worked. Cultures all over the world have tried to explain anger and contain it. The Stoics wrote books on it, and researchers have spent decades measuring it. All that attention exists because nearly everyone gets angry.
 
-It showed up in your life this week. Maybe not as a flare. Maybe just the quiet version: the shortened answer, the silence that had something behind it, the cold shoulder that lasted longer than you meant.
+It probably showed up in your life this week, maybe as the quiet version rather than a flare. It was the shortened answer, the silence that had something behind it, or the cold shoulder that lasted longer than you meant.
 
 The question isn't whether you get angry. The question is what you do with it.
 
@@ -14,55 +14,43 @@ The question isn't whether you get angry. The question is what you do with it.
 
 Researchers have produced more than one theory for why anger evolved, and none of them call it a mistake.
 
-The oldest and most intuitive: anger evolved to defend resources. Territory, food, mates, status. The man who moved quickly to protect what was his had an edge. The system is fast. It narrows your thinking to the immediate threat and generates the intensity needed to back up a claim. It exists because it worked.
+The oldest and most intuitive theory is that anger evolved to defend resources like territory, food, mates and status. The man who acted quickly to protect what was his had an edge. Anger is fast. It narrows your thinking to the immediate threat and gives you the intensity to back up a claim.
 
-A more recent theory goes further. In 2009, Aaron Sell and colleagues at UC Santa Barbara proposed what they call the recalibrational theory. The core finding: anger doesn't fire only when something is being taken from you. It fires when you detect that another person isn't weighing your welfare sufficiently. The signal it sends: "You are not accounting for me correctly." Your face changes, your voice changes, your body shifts. All of it tells someone else what you cost to disregard. (Sell, Tooby, and Cosmides, "Formidability and the Logic of Human Anger," *PNAS*, 2009.)
+A more recent theory goes further. In 2009, Aaron Sell and colleagues at UC Santa Barbara proposed what they call the recalibrational theory. The core finding: anger doesn't fire only when something is being taken from you. It fires when you detect that another person isn't weighing your welfare sufficiently. The message it sends is "You are not accounting for me correctly." Your face changes, your voice changes, your body shifts. All of it tells the other person what it will cost them to disregard you. (Sell, Tooby, and Cosmides, "Formidability and the Logic of Human Anger," *PNAS*, 2009.)
 
-This explains a wider range of triggers than resource defense alone. When you get angry because you feel dismissed, disrespected, or ignored at home, you're not just protecting territory. You're running a deeply wired social signal: "You are not treating my interests as real." The signal is real. The mechanism is real. Whether the tool fits the situation is a different question.
-
----
+This explains a wider range of triggers than resource defense alone. When you get angry because you feel dismissed, disrespected, or ignored at home, you're doing more than protecting territory. You're sending a deeply wired social signal: "You are not treating my interests as real." The signal is genuine, and so is the reason behind it. Whether anger fits the situation is a different question.
 
 **The resource frame.**
 
-In a marriage, the finite things are real. Your time. Your energy. Your attention. Your standing inside the home. When you're depleted and another demand arrives, the scarcity is real. When you feel dismissed in front of your children, the cost is real.
+In a marriage, the limited things are real: your time, your energy, your attention, your standing inside the home. When you're depleted and another demand arrives, you really are running short. When you feel dismissed in front of your children, the cost is real.
 
-Respect is the social contract that acknowledges those things belong to you. Not a feeling. An agreement: your needs count, your interests are worth accounting for. Every long-term relationship has that contract, stated or not. When it feels violated, the anger mechanism fires for the same reason it fires when any finite resource is threatened.
-
-The mechanism is doing its job. That doesn't mean the job fits the situation.
-
----
+Respect, in this sense, is less a feeling than an agreement. It says those things belong to you: your needs count, and your interests are worth accounting for. A long-term relationship has that agreement whether or not anyone says it out loud. When it feels broken, your anger fires for the same reason it fires when anything limited is threatened.
 
 **The forms.**
 
 Anger doesn't always announce itself.
 
-Sometimes it's hot: a raised voice, full volume, something said that can't be retrieved. Sometimes it's cold, and cold is often worse. Three days of silence. A hardness in the face that won't break. Withdrawal that punishes without ever naming what it's punishing for. Both are anger. Both make holes.
+Sometimes it's hot: a raised voice, full volume, something said that can't be retrieved. Sometimes it's cold, and cold is often worse. It's three days of silence, or a hardness in the face that won't break. It's withdrawal that punishes without ever naming what it's punishing for. Both are anger, and both make holes.
 
-The triggers span the same range. On one end: disrespect in front of your children, a major decision made without you. On the other end, it's smaller. She watched the next episode without you. The house is a mess again. You came home depleted, wanted something acknowledged, and nothing came. Most men dismiss those as "not really anger." That's the error. The tone just shortened. You went quiet in a specific way she felt. The mechanism is the same.
+The triggers span the same range. At one end are disrespect in front of your children and a major decision made without you. At the other end, it's smaller. She watched the next episode without you, or the house is a mess again. You came home depleted, wanted something acknowledged, and nothing came. It's easy to dismiss those as "not really anger," but your tone still shortened, and you went quiet in a way she felt. It's the same anger.
 
-Both partners can get angry. Both can escalate. This chapter addresses you because you're reading it. But when you're both angry, you can say things neither of you meant to say. Recognizing it in yourself is where your work starts.
-
----
+Both partners can get angry, and both can escalate. This chapter talks to you because you're the one reading it. When you're both angry, you can say things neither of you meant to say. Recognizing it in yourself is where your work starts.
 
 **The wrong direction.**
 
-The system was built for external threats. A competitor. An actual violation. Something genuinely coming for what's yours.
+Anger was built for threats from outside: a competitor, an actual violation, something genuinely coming for what's yours.
 
-When there are no external threats and the system activates anyway, the activation goes somewhere. In a marriage, it goes to the person closest. You reclassify her as the threat the system was designed to handle. Not consciously. Not deliberately. The mechanism doesn't check the relationship before it responds.
+When there's no outside threat and the anger comes anyway, it has to go somewhere. In a marriage, it goes to the person closest, and without meaning to, you start treating her as the threat. From where she's standing, she's just your wife, and she's getting heat meant for an enemy.
 
-She isn't the threat.
+When you stop thinking and lash out, you aim at the nearest target, and that's her. Your body can't tell the difference between a rival tribe and the woman across the table. It reacts to the signal and ignores the actual relationship.
 
-When you turn off your logic and lash out, the system aims at the nearest target: her. Your body can't tell the difference between a rival tribe and the woman across the table. The system fires at the signal, not at the actual relationship.
+Seneca's *De Ira*, his study of anger, described what happens in the moment anger starts, in three stages. The first is involuntary: "a preparation for passion, as it were, and a sort of menace." That's the flush and the narrowing, the body's reaction that arrives before any choice. The second stage is a choice: whether you decide the response is justified. The third stage is when reason has already been overtaken. (*De Ira*, Book II, Basore trans.)
 
-Seneca's *De Ira*, his study of anger, described what happens at the moment of activation in three stages. The first is involuntary: "a preparation for passion, as it were, and a sort of menace." The flush, the narrowing, the physiological response that arrives before any choice. The second stage is a choice: whether you decide the response is justified. The third stage is when reason has already been overtaken. (*De Ira*, Book II, Basore trans.)
+The gap between the first stage and the second is where your *prohairesis* lives, your capacity to choose. Chapter 1 named that gap the Three-Second Window, and this is what those three seconds are for.
 
-The gap between the first stage and the second is where everything lives. That's where your *prohairesis* lives: your capacity to choose. Chapter 1 named that gap. Three seconds. This is what those three seconds are for.
-
-Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He wasn't describing an achievement. He was reminding himself what actual strength looks like.
+Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He was reminding himself what actual strength looks like.
 
 Acting on anger isn't strength. It's the absence of it.
-
----
 
 **The holes.**
 
@@ -78,15 +66,15 @@ The boy thought he'd fixed it. The fence showed him he hadn't.
 
 An apology pulls the nail. It doesn't fill the hole.
 
-Think about a moment, not necessarily dramatic, where you raised your voice once under real pressure. It felt justified. By morning it was over, or close enough that life moved on.
+Think about a moment, not necessarily dramatic, where you raised your voice once under real pressure. It felt justified, and by morning it was over, or close enough that life went on.
 
-But she noticed. She didn't say anything. A few months later, something had shifted. Not in what she brought to you. In how she looked at you. A slight adjustment in what she believed you were capable of. No single incident she could point to. Just an updated sense of who she was dealing with.
+But she noticed, even though she didn't say anything. A few months later, something had shifted in how she looked at you, more than in what she brought to you. She'd quietly adjusted what she believed you were capable of. There was no single incident she could point to, just a changed sense of who she was dealing with.
 
 You didn't know which nail made which hole. You'd already pulled most of them.
 
-The blur, the accumulated weight of incidents each addressed and moved past, becomes a feeling. Not a list. Just a quiet, settled belief: you can't be trusted with the hard stuff. That feeling, over time, becomes disdain. Disdain becomes contempt.
+The incidents blur together, each one addressed and gotten past, until their weight becomes a feeling instead of a list. It's a quiet, settled belief that you can't be trusted with the hard stuff. Over time that feeling becomes disdain, and disdain becomes contempt.
 
-Contempt, Gottman found, is the single strongest predictor of divorce: the most reliable signal from all those years watching couples. Not the fights. The slow corrosion of a partner's sense that the other person is worth full effort anymore. You don't get there from one bad moment. You get there from hundreds of small ones that were never quite fully repaired.
+Contempt, Gottman found, is the single strongest predictor of divorce: the most reliable signal from all those years watching couples. More than the fights, it's the slow wearing-away of a partner's sense that the other person is still worth full effort. You don't get there from one bad moment. You get there from hundreds of small ones that were never quite fully repaired.
 
 ---
 
@@ -94,9 +82,9 @@ You don't need to find the nail behind each hole. You know what the hammer does,
 
 Stop making holes.
 
-What's already in the fence is the work of the chapter on repair. This chapter's job is simpler: name the gap. Know what it's for.
+What's already in the fence is the work of the chapter on repair. This chapter's job is simpler: name the gap, and know what it's for.
 
-You feel the activation. The spike, the narrowing, the pull. You're not pretending it isn't happening. Seneca knew the first motion can't be stopped. You're not trying to stop it.
+You feel the anger start: the spike, the narrowing, the pull. You aren't pretending it isn't happening, and you aren't trying to stop it, because Seneca knew the first motion can't be stopped.
 
 You're trying to govern what happens next.
 

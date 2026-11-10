@@ -1,10 +1,10 @@
 # Chapter 15: Be Patient, Be Kind
 
+It usually starts small. She says something with an edge about the things that need doing, and before you've decided anything, your answer is already in your mouth.
+
 Warmth is easy on a good day. It gets tested on the ordinary ones, when nobody is at their best.
 
-Those days test it three ways. She's sharp with you. You're both fed up. A busy day pulls you apart. Each one has an answer: meet hostility with kindness, frustration with patience, and disconnection with warmth.
-
-It usually starts small. She says something with an edge about the things that need doing, and before you've decided anything, your answer is already in your mouth.
+Those days test it three ways: she's sharp with you, you're both fed up, or a busy day pulls you apart.
 
 ---
 

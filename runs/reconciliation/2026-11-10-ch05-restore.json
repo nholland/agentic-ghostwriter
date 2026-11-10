@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-10T04:26:07.130662+00:00",
+  "subjects": [
+    "qa:ch05 approved line restored"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-09-27-approved-inbox-knowledge.md"
+  ],
+  "authority": "Author-approved wording, inbox #095 (2026-09-26)",
+  "reason": "Restores the approved sentence verbatim; the OKF note already records it.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch05/refined.md": "c0d1f1c4d9d4202cfacb2be18200c0e47dea952e7f97eb52d559ccaa2e0d1330"
+  }
+}

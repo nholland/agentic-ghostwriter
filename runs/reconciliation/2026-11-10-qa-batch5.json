@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-11-10T04:14:03.736992+00:00",
+  "subjects": [
+    "qa:batch 5"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-11-10: 'Go on voice pass. Exception is ok for now, but note with detail in the Inbox.'",
+  "reason": "Register pass: sentence and paragraph rewording only; the one new 'her side' sentence per chapter restates what each chapter already says. No new fact, story, claim or definition.",
+  "files": {
+    "books/the-stoic-husband/chapters/ch01/refined.md": "25153b4dd03f0de9d098d8a528527bf4b6640b68298e43b3578e9ca839d53af0",
+    "books/the-stoic-husband/chapters/ch02/refined.md": "b86370863377a73ffe8080504beae652b1b9d892519dc23aa98131d3cbede0bb",
+    "books/the-stoic-husband/chapters/ch03/refined.md": "e9cee789e04784fd45c610d17935a111c39306706f796becb442ebef418c2d97",
+    "books/the-stoic-husband/chapters/ch04/refined.md": "2e7e4f5052360c91ff131b72cb7abc12ea41bf5b7c06f9dc667b124fc2ee055b",
+    "books/the-stoic-husband/chapters/ch05/refined.md": "3c11a91040547d851669b06f7507fbccde40300264c1e2c9b93c1ec3e169f515",
+    "books/the-stoic-husband/chapters/ch15/refined.md": "1208208a8e5f1dfe25e099ae5e4bfc8bfceefb6dcee145587ea12a0c0f7490c6"
+  }
+}

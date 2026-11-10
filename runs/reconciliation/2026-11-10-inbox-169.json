@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-10T04:12:35.928397+00:00",
+  "subjects": [
+    "inbox:169"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-11-10: 'File it' / 'Go on voice pass'",
+  "reason": "Tooling fix to sentence splitting; no book knowledge involved.",
+  "files": {
+    "scripts/voice_check.py": "e7f59fd9ea6af8189cc91323710dd169c7539b3deb4a9e7b913b35c37200d838"
+  }
+}

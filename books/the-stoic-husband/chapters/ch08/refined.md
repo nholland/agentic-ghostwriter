@@ -2,39 +2,39 @@
 
 ---
 
-**Not one moment.** What lands on you as "this is unfair" almost never arrives as one clean grievance. It's built out of many smaller things you didn't count at the time because each one was too small to name. A critique that stung a little more than she meant it to. A weekend of work she didn't seem to notice. A morning where you swallowed something to keep the peace. Individually, each one is nothing. Together, over weeks, they add weight to an invisible scale. One day something small tips it, and the feeling that arrives seems to come from nowhere.
+**Not one moment.** You've done something for the family, and a small criticism is still bothering you days later. What lands on you as "this is unfair" almost never arrives as one clean grievance. It's built out of many smaller things you didn't count at the time because each one was too small to name. A critique stung a little more than she meant it to. She didn't seem to notice a weekend of work. One morning you swallowed something to keep the peace. On its own, each one is nothing, but over weeks they add weight to an invisible scale. One day something small tips it, and the feeling that arrives seems to come from nowhere.
 
-That's the first thing to see clearly. What feels sudden almost never is. You just notice it late. The small stuff underneath has been landing for a long time before it ever reaches the surface.
+What feels sudden usually isn't. You just notice it late. The small stuff underneath has been landing for a long time before it ever reaches the surface.
 
-The last chapter took the private tally apart. This one is about what the tally could never read, the part underneath it. And what to do once you feel it break the surface.
-
----
-
-**Different shapes.** The shape of what's underneath varies from marriage to marriage, more than most books admit. You might earn less and do more of the work at home. That work goes uncredited because she's measuring by a different standard than you are.
-
-Or it looks the opposite for you. You hold the primary income, or the harder job, and what you contribute goes invisible because it happens offstage. Its output, a mortgage payment, insurance, retirement money that doesn't exist yet, doesn't visually compete with a clean kitchen.
-
-Or you're both working. You do more of the physical household work. She owns a whole different domain that's just as demanding but unseen: the kids' schooling, their activities, the medical appointments. She remembers the appointments and plans what the kids need. That third shape isn't clean at all for you. It's task volume and recognition tangled together at once.
-
-You know which shape yours is. What matters is that the mechanism is the same in all three. Many small things you didn't count at the time, and no one else counting them either.
+The last chapter took the private tally apart. This one is about what the tally could never read and what to do once you feel it break the surface.
 
 ---
 
-**When it lands on you.** Sooner or later she'll name one. She'll say the thing she's been carrying. You'll feel the shape of an accusation, and everything in you will want to defend or counter. Before you do either, run one question at the moment before you speak.
+**Different shapes.** The shape of what's underneath varies from marriage to marriage. You might earn less and do more of the work at home. That work goes uncredited because she's measuring by a different standard than you are.
 
-Marcus Aurelius has a passage in *Meditations*, Book 5, section 28. He's writing to himself about how to think about a person whose fault is a small physical offense: "Art thou angry with him whose armpits stink? Art thou angry with him whose mouth smells foul? What good will this anger do thee? He has such a mouth, he has such armpits: it is necessary that such an emanation must come from such things." The point isn't the smell. The point is that anger is the wrong response to a fact. The honest thing to do is check whether the fact is actually real.
+Or it looks the opposite for you. You hold the primary income, or the harder job, and what you contribute goes invisible because it happens offstage. A mortgage payment, insurance and retirement money that doesn't exist yet don't catch the eye the way a clean kitchen does.
 
-So when she names an unfairness, the diagnostic is a question you speak to yourself first. Is what she's saying true, or not true?
+Or you're both working. You do more of the physical household work. She owns a whole different domain that's just as demanding but unseen: the kids' schooling, their activities, the medical appointments. She remembers the appointments and plans what the kids need. That third shape is the messiest. How much each of you does and how much of it gets seen are tangled together.
 
-Say it's true, even partly, even in a shape you didn't see until she said it out loud. If so, the work in front of you is not an apology performance. It's a construction project: real change, in the thing you actually fix, over time she can watch you fix it. An apology by itself won't answer what she's actually named. Different behavior will.
+You know which shape yours is. In all three, it works the same way. Many small things went uncounted at the time, by you and by everyone else.
 
-Or say it isn't true. She might be missing something she hasn't yet looked at, seeing only her side because that's the side she can see. She's seeing her side, the same way you've only seen yours a hundred times over. That calls for a quieter response than counterattack, and a slower one than a competing list. A plain sentence, said without heat: this is what I don't think you're seeing. Marcus's rule holds either way. Anger at what emanates from another person's blind spot is a waste. The correction, if it comes, comes without heat.
+---
+
+**When it lands on you.** Sooner or later she'll name one. She'll say the thing she's been carrying. You'll feel the shape of an accusation, and everything in you will want to defend or counter. Before you do either, ask yourself one question.
+
+Marcus Aurelius has a passage in *Meditations*, Book 5, section 28. He's writing to himself about how to think about a person whose fault is a small physical offense: "Art thou angry with him whose armpits stink? Art thou angry with him whose mouth smells foul? What good will this anger do thee? He has such a mouth, he has such armpits: it is necessary that such an emanation must come from such things." The smell is just his example. His point is that anger is the wrong response to a fact. The honest thing to do is check whether the fact is actually real.
+
+So when she names an unfairness, ask yourself first: is what she's saying true, or not true?
+
+Say it's true, even partly, even in a shape you didn't see until she said it out loud. If so, the work in front of you is a construction project, not a show of being sorry. It means real change in the thing you actually fix, over enough time that she can watch you fix it. An apology by itself won't answer what she's named, but different behavior will.
+
+Or say it isn't true. She might be missing something she hasn't yet looked at, seeing only her side because that's the side she can see. She's seeing her side, the same way you've only seen yours a hundred times over. That calls for a quieter response than counterattack, and a slower one than a competing list. A plain sentence, said without heat: this is what I don't think you're seeing. Marcus's rule holds either way: getting angry at what comes out of another person's blind spot is a waste.
 
 ---
 
 **When it's yours.** The harder direction is when the felt unfairness is your own. You've done real work. It met real needs. Nobody in the house seems to have noticed. You feel the pull to say something, or worse, to say nothing while quietly running a count.
 
-Before either belief does its work, take the pause you already know how to take. The moment goes back to Chapter 1: three seconds, then the question. Am I being the best husband I can be right now, uncredited or not? The pause doesn't make the feeling disappear. It just keeps it from turning into a pointed comment, a flat tone, a door closed a little harder than it needed to be, before you've had the chance to answer what's actually underneath it.
+Before you act on that pull, take the pause you already know how to take. The moment goes back to Chapter 1: three seconds, then the question. Am I being the best husband I can be right now, uncredited or not? The pause doesn't make the feeling disappear. It just keeps it from turning into a pointed comment, a flat tone, a door closed a little harder than it needed to be, before you've had the chance to answer what's actually underneath it.
 
 Once you've taken the pause, look at the work with her. Include the paid hours, the housework, and the things each of you has to remember. You may find work you hadn't seen. You may also find that you really are carrying more than you can keep doing.
 

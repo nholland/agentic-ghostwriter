@@ -1569,6 +1569,24 @@ def hook_environment_cases():
                  r.stdout + r.stderr)]
 
 
+def sentence_split_cases():
+    """voice_check.sentences, proved on the shape the batch-5 Line Editor hit
+    (inbox #169): abbreviations matched inside words, so 'usual.' and 'real.'
+    ended in 'al.' and a lone 'No.' was taken for 'No. 5', merging sentences
+    and inflating the long-sentence share."""
+    import voice_check
+    out = []
+    for text, want, what in [
+        ("That was usual. She left. It was real. No. Then he spoke.", 5,
+         "sentence splitter: abbreviations match whole words only"),
+        ("Dr. Gottman said so. Pillemer et al. found it too. See No. 5 below.", 3,
+         "sentence splitter: real abbreviations still hold a sentence together"),
+    ]:
+        got = voice_check.sentences(text)
+        out.append((len(got) == want, what, f"{want} sentences expected from: {text}", got))
+    return out
+
+
 def main():
     # Hooks export their real checkout as GW_PROJECT_ROOT. Fixture hooks must
     # resolve their own temporary checkout; inheriting the live root invokes
@@ -1599,7 +1617,7 @@ def main():
            + next_cases() + pdf_heading_cases() + streak_cases() + log_check_cases() + inbox_cases() + staged_link_cases() + toolcheck_cases()
            + retro_window_cases() + state_ignore_cases()
            + sys_path_hardcode_cases() + session_log_dedup_cases()
-           + prove_cases() + plate_check_cases())
+           + prove_cases() + plate_check_cases() + sentence_split_cases())
     bad = 0
     for ok, what, why, detail in rows:
         print(f"{'[ ok ]' if ok else '[FAIL]'} {what}")

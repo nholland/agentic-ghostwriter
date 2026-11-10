@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-10T04:35:05.521909+00:00",
+  "subjects": [
+    "qa:voice pass"
+  ],
+  "disposition": "no-knowledge-change",
+  "concepts": [],
+  "authority": "Author, 2026-11-10: 'Go on voice pass.' / 'Single sentence is good' / 'Paraphrase is fine as long as it's cited.'",
+  "reason": "Sentence- and paragraph-level rewording; no new fact, story, claim or definition. The Introduction's new 'cover for each other' paragraph restates its existing six failure modes.",
+  "files": {
+    "books/the-stoic-husband/chapters/introduction/refined.md": "0d83eff883bf026669d4d62e5cf6100b63f1c924e85a45513fb259ca3471f419",
+    "books/the-stoic-husband/chapters/prologue/refined.md": "6848adeb487725a2771efc7ef7298d823dfaf2ea1bc6afd5c8a44cce7bfb298a",
+    "books/the-stoic-husband/chapters/ch06/refined.md": "7f8ef53b019c09d04b2134012ab2acb2d154d145bce0bcdef8044aa00629530f",
+    "books/the-stoic-husband/chapters/ch07/refined.md": "04f4b1cc1e14210f40cf698b91ecf834fd3c6b605501dcf522f81c482ff213bb",
+    "books/the-stoic-husband/chapters/ch08/refined.md": "6cd7e976a1ab5c45b0ec347571fb9ced277727e2bae253808da3e6dc65713830",
+    "books/the-stoic-husband/chapters/ch09/refined.md": "ba9add2aadbd12a40059880570f751a1cb6b5d28f8fd6684f777f6f7add06c5c",
+    "books/the-stoic-husband/chapters/ch10/refined.md": "15b49c98cdee763e0d8babd7c7e3271a50a17247a7e1c7b467cf327ad52dff13"
+  }
+}

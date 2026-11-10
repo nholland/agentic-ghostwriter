@@ -9,53 +9,47 @@ Epictetus was a Stoic teacher who spent his early years as a slave and his later
 
 Study that list. Her mood isn't named on it, but it falls under the last line, with whatever are not your own acts. Other people's inner states were never yours to work with.
 
-Your wife comes home from catching up with a friend and you can tell before she's through the door. She's lit up. She gives you a hug, a quick kiss on the cheek, and your whole night lifts. You didn't decide to feel that. You just do.
+Your wife comes home from catching up with a friend and you can tell before she's through the door. She's lit up. She gives you a hug, a quick kiss on the cheek, and your whole night lifts without your deciding anything.
 
-The reverse is just as automatic. She walks in distracted, or quiet, or carrying something heavy from a long day. Not a fight, nothing said: just the weather off her. Something in you shifts before she's said a word.
+The reverse is just as automatic. She walks in distracted, or quiet, or carrying something heavy from a long day. There's been no fight, and she hasn't said a word, but something in you shifts anyway.
 
-You've probably never named this. It just runs. And if you haven't named it, you definitely haven't governed it.
+You've probably never named this, because it runs on its own. If you haven't named it, you haven't governed it either.
 
 ---
 
 **The human mirror.**
 
-When someone laughs, you laugh. When someone winces, you feel a shadow of it. Walk into a room full of nervous people and your own chest tightens before you've identified a single reason. Call it emotional contagion: the unconscious, automatic transfer of emotional states between people. It moves through facial expressions, through tone of voice, through posture, faster than thought.
+When someone laughs, you laugh. When someone winces, you feel a shadow of it. Walk into a room full of nervous people and your own chest tightens before you've identified a single reason. It has a name, emotional contagion: one person's feelings passing to another without either of them choosing it. It travels through faces, tone of voice and posture, faster than thought.
 
-The deeper the bond, the stronger the pull. You've built a life with this woman. Your history is her history. Feeling her is part of that connection, and it's not going anywhere.
+The deeper the bond, the stronger the pull. You've built a life with this woman, and your history is her history. Feeling her is part of that connection, and it's not going anywhere.
 
-Mirroring is what turns it into a problem. Feeling her mood is one thing. Becoming it is another. She comes in low and now you're low. She comes in tense and now the whole evening bends around it. You didn't decide any of that. It just happened. Left alone, it runs the house.
-
----
+Mirroring is what turns it into a problem: feeling her mood is one thing, and becoming it is another. She comes in low and now you're low. She comes in tense and now the whole evening bends around it. You didn't decide any of that. Left alone, it runs the house.
 
 **The cascade.**
 
-You've had the kind of day you can feel in your shoulders. You walk through the door still carrying it. She says something. It lands wrong. You snap. Nothing dramatic. Just edges.
+You've had the kind of day you can feel in your shoulders. You walk through the door still carrying it. She says something, it lands wrong, and you snap. Nothing dramatic. Just edges.
 
-She carries that into the kitchen where the kids already are. The tone she brings them isn't the one she started the day with. The kids catch it. Pass it. The youngest, running out of targets, kicks the dog.
+She only said one thing, and she got your whole day back. She carries that into the kitchen where the kids already are. The tone she brings them isn't the one she started the day with. The kids catch it. Pass it. The youngest, running out of targets, kicks the dog.
 
 The dog did nothing.
 
 You came home carrying the day, and by bedtime the whole house had it, down to a dog that did nothing. Nobody meant to pass it on. It didn't stop until it ran out of people.
 
----
-
 **The ruling faculty.**
 
-Marcus Aurelius, who led Rome through plague and war, wrote in the *Meditations* about the governing part of a man. The part that decides what a moment means, and what you do about it. *"The ruling Reason it is that can arouse and deflect itself, make itself whatever it will, and invest everything that befalls with such a semblance as it wills."* *(Meditations* 6.8, Haines trans.)
+Marcus Aurelius, who led Rome through plague and war, wrote in the *Meditations* about the governing part of a man. It's the part that decides what a moment means, and what you do about it. *"The ruling Reason it is that can arouse and deflect itself, make itself whatever it will, and invest everything that befalls with such a semblance as it wills."* *(Meditations* 6.8, Haines trans.)
 
-The Stoics called this the *hegemonikon*: the ruling faculty. Not the part that reacts, not the part that mirrors, but the part that governs.
+The Stoics called this the *hegemonikon*: the ruling faculty. It's the part of you that governs, separate from the part that reacts and the part that mirrors.
 
-Her mood. Her stress. What she's carrying when you walk through the door. None of it is yours to govern. It's external. Outside of you. You hope it goes well. Of course you do. When she's happy, the Stoics would call that a preferred indifferent. When she's carrying something hard, a dispreferred indifferent. *Indifferent* doesn't mean you don't care. It means this isn't where your character gets built, good day or bad. Preferred or dispreferred, that part stays the same. Build your inner peace on these things, and you haven't built anything. They can change any day without warning.
+Her mood, her stress, and what she's carrying when you walk through the door aren't yours to govern. They're outside of you, and of course you hope her day goes well. The Stoics would call her happy day a preferred indifferent, something you'd rather have. Her hard day is a dispreferred indifferent, something you'd rather not have. *Indifferent* doesn't mean you don't care. It means this isn't where your character gets built, good day or bad. Preferred or dispreferred, that part stays the same. If you build your inner peace on these things, you've built it on something that can change any day without warning.
 
-Any man can hold steady when the current's easy. Maybe you've called that steadiness: being okay when conditions cooperate, level when the house is quiet. But an easy current doesn't test anything. Notice whether your calm depends on everyone else being calm. If it does, it might just be timing.
+Holding steady when the current's easy doesn't take much. Maybe you've called that steadiness: being okay when conditions cooperate, level when the house is quiet. But an easy current doesn't test anything. Notice whether your calm depends on everyone else being calm, because if it does, it might just be good timing.
 
-The Stoic question is different: can you keep flowing when the terrain changes? Can you stay governed when the externals stop cooperating? When she comes in carrying something heavy. When the day left a mark on you. When the house is loud and everyone needs something at once. That's when the *hegemonikon* either holds or it doesn't.
-
----
+The Stoic question is different: can you keep flowing when the terrain changes? Can you stay governed when things outside you stop cooperating? It might be the night she comes in carrying something heavy, or a day that left a mark on you. It might be a loud house where everyone needs something at once. That's when the *hegemonikon* either holds or it doesn't.
 
 **The corrective.**
 
-Reading this so far, some of you are building something cold in your head. The governed man as the one who doesn't react. He watches his wife's emotional life from behind glass. He processes everything as data and stays level while she feels everything around him. You're picturing equanimity, staying calm and steady inside no matter what's happening, as distance. Governance as armor.
+Reading this so far, you might be building something cold in your head. It's a governed man who doesn't react, who watches his wife's emotional life from behind glass. He processes everything as data and stays level while she feels everything around him. You're picturing equanimity, staying calm and steady inside no matter what's happening, as distance, and governance as armor.
 
 That's not this.
 
@@ -69,13 +63,13 @@ I know the difference from the inside: absorbing her low made it larger, not sma
 
 ---
 
-Epictetus wasn't asking you to stop caring about your wife. He was asking you to find the part of you that's still yours. The part that doesn't change no matter what she's doing when you walk through the door. Lead from there.
+Epictetus wasn't asking you to stop caring about your wife. He was asking you to find the part of you that's still yours. It's the part that doesn't change no matter what she's doing when you walk through the door. Lead from there.
 
-You can be funny in your marriage. Warm, romantic, invested, genuinely present. The governing is not armor. It's the foundation the warmth stands on. Without it, you don't have warmth. You have a mood that mirrors hers. It rises and falls with her weather. And she has to manage it, alongside everything else she's already carrying.
+You can be funny in your marriage, and warm, romantic, invested and genuinely present. Governing yourself is the foundation the warmth stands on. Without it, what you have is a mood that mirrors hers, rising and falling with her weather. Then she has to manage your mood too, alongside everything else she's already carrying.
 
 That's not loving her. That's adding to her weight.
 
-Her good days and her hard ones are things you prefer or don't. Worth tending, every one of them. But they were never the source of your inner state. They never were. You just handed them that job, and they were never qualified for it.
+Her good days and her hard ones are things you prefer or don't. Every one of them is worth tending. But they were never the source of your inner state. You handed them that job, and they were never qualified for it.
 
 Take it back. Not to go cold. Not to go distant. To bring something real through the door: a man with his own weather, who knows how to come home.
 
