@@ -26,17 +26,17 @@ A meal someone made for you can be enough on its own. We see what we wanted and 
 
 **When enough keeps changing.** Spouses compare, husbands and wives both, often without noticing. On social media you see only what other people post, and you compare it piece by piece with your whole life. Life on the other side of the fence can look better. You meet someone who's funny, and suddenly your wife's humor is under review. Someone else catches your eye, and whatever you noticed becomes a new condition your wife has to meet. What you have starts to feel like it isn't enough.
 
-Men tend to think a life beyond their wife is better. For some, maybe that's true. But the woman they're comparing her to is someone they've never lived with, so it's just a dream. Schkade and Kahneman found in 1998 that students in the Midwest and in California were equally satisfied with life, yet both groups expected Californians to be happier, because they fixed on the weather. Nobody asked them about marriage, but we do the same: we fix on the one thing someone else has, and let it decide the comparison.
+Men tend to think a life beyond their wife is better. For some, maybe that's true. But the woman they're comparing her to is someone they've never lived with, so it's just a dream. In a 1998 study that had nothing to do with marriage, Schkade and Kahneman found that students in the Midwest and in California were equally satisfied with life, yet both groups expected Californians to be happier because they fixed on the weather. We do the same with a wife: we fix on the one thing someone else has, and let it decide the comparison.
 
 It runs both ways. You'd want her to remember the whole of you, and she'd want the same from you. When you catch yourself comparing, look back at the whole of the woman in front of you.
 
-In Letter 16, the Roman Stoic Seneca wrote to his friend Lucilius: “Natural desires are limited; but those which spring from false opinion can have no stopping-point.” You can put Seneca's test to what you want from her: can it stop at any definite point? If your wife met today's condition, would you let yourself enjoy her? Or would you find the next thing she lacks?
+In Letter 16, the Roman Stoic Seneca wrote to his friend Lucilius: "Natural desires are limited; but those which spring from false opinion can have no stopping-point." You can put Seneca's test to what you want from her: can it stop at any definite point? If your wife met today's condition, would you let yourself enjoy her? Or would you find the next thing she lacks?
 
 Your wife doesn't need to win another comparison before you treat her with affection.
 
 ---
 
-**Notice what you value.** The Stoic philosopher Marcus Aurelius offers a practice in *Meditations* VI.48: “When thou wishest to delight thyself, think of the virtues of those who live with thee.”
+**What you value.** The Stoic philosopher Marcus Aurelius offers a practice in *Meditations* 6.48: "When thou wishest to delight thyself, think of the virtues of those who live with thee."
 
 Give your mind an actual task: recall something worth being glad about.
 
@@ -44,7 +44,7 @@ This is the discipline of enough: practicing appreciation for the real person yo
 
 ---
 
-**Practice before you need it.** In a 2003 paper reporting three studies, psychologists Robert Emmons and Michael McCullough had people write down what they were grateful for. The people who listed them reported better well-being than comparison groups on several measures, though not all. It wasn't a study of marriages, but it's a reason to practice on purpose.
+**Before you need it.** In a 2003 paper, psychologists Robert Emmons and Michael McCullough had people write down what they were grateful for, and those people reported better well-being than comparison groups on several of the measures, though none of it was about marriage.
 
 Before you go to bed, write down one thing you valued about your wife that day. Her patience with a child. Her excitement about something she's learning. Choose what you actually noticed, rather than qualities a good wife is supposed to have.
 
@@ -58,7 +58,7 @@ You can also enjoy things about her that do nothing for you. You get to love a p
 
 ---
 
-**Let appreciation become care.** “The grass is greener where you water it” is a saying I keep coming back to. I don’t know who first said it. It turns the old line about the other side of the fence around. Your attention and care are the water. What grows is your enjoyment of the woman already there. That can look like a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.
+**Watering it.** "The grass is greener where you water it" is a saying I keep coming back to. I don't know who first said it. It turns the old line about the other side of the fence around. Your attention and care are the water. What grows is your enjoyment of the woman already there. That can look like a kinder answer, a sincere compliment, or time spent enjoying her company. Keep doing that on ordinary days, before dissatisfaction makes it feel urgent.
 
 Talk with her because you like talking to her.
 
