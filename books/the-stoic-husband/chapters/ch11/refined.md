@@ -8,7 +8,7 @@ From her side, you haven't said there's a problem.
 
 ---
 
-**Decide what needs your attention.**
+**What needs your attention.**
 
 Before you decide to speak, ask what you're dealing with. Some problems need a conversation or a practical step. Some hardships can't be ended by either of you. Some annoyances aren't worth trying to change.
 
@@ -22,7 +22,7 @@ Other hardships won't end because you find better words. You can't talk a dying 
 
 Then there are preferences you can leave alone. You don't have to enjoy her hobby or choose all the same friends. If her brother's opinions annoy you, you can disagree without spending the whole visit arguing. Ask whether there's harm to address or just a difference you don't like.
 
-Marcus Aurelius was a Roman emperor who wrote private reminders about how to live. One of them was about choosing what deserved his attention. *"It is in our power to have no opinion about a thing, and not to be disturbed in our soul; for things themselves have no natural power to form our judgments."* (*Meditations* 6.52, Long trans.) You don't have to decide what you think about every comment you hear, much less respond to it.
+Marcus Aurelius wrote about choosing what deserved his attention. *"It is in our power to have no opinion about a thing, and not to be disturbed in our soul; for things themselves have no natural power to form our judgments."* (*Meditations* 6.52, Long trans.) You don't have to decide what you think about every comment you hear, much less respond to it.
 
 Some of my wife's friends aren't helpful to the relationship. They're not against it, but they say things that don't help. I tolerate that because I want her to have real friends. Those friendships matter more to me than the comments. Politics used to wait for Thanksgiving. Now it doesn't. I tolerate those conversations too.
 
@@ -32,7 +32,7 @@ That doesn't make every problem a minor annoyance. If you're hurt each time a pa
 
 ---
 
-**Get through hardship without shutting down.**
+**Hardship without shutting down.**
 
 For about ten years, we lived mostly on my wife's income while I was building a company with no guaranteed paycheck. Three kids. Both of us working full time. We didn't know when the money would get easier. I don't think I thanked her enough for carrying us through that.
 
@@ -56,7 +56,7 @@ The hardship may last. You can still have honest conversations, pay attention to
 
 ---
 
-**Talk about the rule you disagree with.**
+**The rule you disagree with.**
 
 Suppose your wife raises her voice at the kids. Later, when you raise yours, she tells you that you're frightening them. You feel there's one rule for her and another for you. But you're reluctant to say so because it could sound like a request for permission to yell.
 
@@ -78,7 +78,7 @@ She may describe something you've missed. You may realize the two situations wer
 
 ---
 
-**Stop putting off the conversation.**
+**The postponed conversation.**
 
 You don't have to choose years of silence for it to happen. You only have to keep deciding that today is a bad day.
 
@@ -104,7 +104,7 @@ You need a way to raise a concern while it's still specific enough to discuss. Y
 
 ---
 
-**Say it clearly, then listen.**
+**Say it, then listen.**
 
 When a remark hurts you, say which remark and why. For example: "That joke about my spending embarrassed me in front of the kids. I'd rather we talk about money in private." You haven't accused her of ruining the evening. You've told her what happened for you and what you're asking for.
 
