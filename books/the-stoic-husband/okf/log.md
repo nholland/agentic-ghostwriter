@@ -1061,3 +1061,4 @@ The constitutional outline and framework map now use the same direction.
 - 2026-11-07 15:20 UTC — Author's ebook rulings recorded in notes/2026-11-07-ebook-rulings.md (name, all-caps title, no cover yet, enlarge Ch1-11 plate type).
 
 - 2026-11-09 23:57 UTC — Whole-book QA rulings: i-cant-control-you-said-aloud.md records "One argument" (Q115); the-wife-who-is-enough.md records what the Avatar "I see you" gesture means, in his words (Q112).
+- 2026-11-10 05:21 UTC — Author rejected one-page arc recaps ("too obtuse ... far too vague") and approved Part I closing page Version B, placed beside the Part I plate. Recorded in notes/2026-11-10-part-closing-page.md; page landed at parts/part-1-steady-river-closing.md with its outline pointer and parts/README.md section.

@@ -68,6 +68,27 @@ tracked in the manifest as `stages.parts.<N-slug>.closing`, and emitted by
 The opening page describes the element before the reader has lived the
 chapters; the plate shows the same element after. That gap is the point.
 
+## Closing pages
+
+Added 2026-11-10 on the author's word ("B, and put it next to the plate").
+A Part may carry a **closing page**: the element again, after the reader has
+lived the Part's chapters. It prints on its own page directly before the
+Part's closing plate, so its last line leads into the drawing.
+
+Stored at `parts/part-N-<slug>-closing.md`, pointed to from `03-outline.md` by
+``*Reader-facing closing page: `parts/<file>`*`` under the Part header, and
+emitted by `scripts/compile.py` once the Part's last chapter is in range.
+
+Form, from Part I (the only one so far): one italic paragraph, 62-66 words,
+no heading. Unlike the opening pages it speaks to the man in second person
+and names each chapter's skill plainly, one sentence per chapter in order,
+in river terms only at the start and the close. That is deliberate: the
+author rejected a nature-only recap form as "too obtuse if you haven't just
+read the arc, far too vague to be easily understood." No domestic scene
+words. Its last sentence may echo the opening page's last line.
+
+Whether Parts II and III get one is open; he asked for Part I only.
+
 ## Why IV and V are places, not elements
 
 Parts I–III are things the husband *is*. Parts IV and V are where he goes and

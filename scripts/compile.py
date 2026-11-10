@@ -78,6 +78,19 @@ def parts(outline_text):
     return out
 
 
+def closing_pages(outline_text):
+    """{numeral: file} for Parts whose outline header names a reader-facing
+    closing page. Kept apart from parts() so its tuple stays stable for
+    plate_packet.py. Added 2026-11-10 for Part I's closing page."""
+    out = {}
+    for m in re.finditer(r"^##\s*PART\s+([IVX]+)\s*[—-]\s*[^\n]+\n(.*?)(?=^##\s*PART |\Z)",
+                         outline_text, re.M | re.S):
+        c = re.search(r"Reader-facing closing page:\s*`([^`]+)`", m.group(2))
+        if c:
+            out[m.group(1)] = c.group(1)
+    return out
+
+
 ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5}
 
 
@@ -318,6 +331,18 @@ def main():
                 os.path.join(d, 'refined.md'), os.path.join(d, 'distillation.md')) + '\n'
             pieces.append(body)
             sections.append("ch%02d" % n)
+        # The closing page prints on its own page right before the closing
+        # plate, so its last line leads into the drawing (author, 2026-11-10:
+        # "put it next to the plate"). Text, so it prints with or without --plates.
+        page = closing_pages(outline).get(numeral)
+        if page and in_part and in_part[-1] == last:
+            path = os.path.join(B, page)
+            if os.path.isfile(path):
+                pieces.append('<div class="pb"></div>\n\n'
+                              + strip_apparatus(io.open(path, encoding="utf-8").read()))
+                sections.append("PART %s closing page" % numeral)
+            else:
+                missing_part_files.append(page)
         if a.plates and in_part:
             svg, landed = part_plate(B, numeral, closing)
             if svg:

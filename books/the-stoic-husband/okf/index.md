@@ -448,6 +448,7 @@ and the Anti-Slop Reader's cross-chapter pass — will populate this section as
 - [Chapter plate title rule and detail choices](/notes/2026-10-01-chapter-plate-titles.md) — approved Mechanism titles and Chapter 12’s TONIGHT/early-square choices; separate redesign verdicts remain pending.
 - [Superseded plate label questions](/notes/2026-10-01-superseded-plate-label-questions.md) — author retired inbox 061 and 067’s obsolete chapter questions; newer drawings’ review status is unchanged.
 - [Arc plates deferred](/notes/2026-10-01-arc-plates-deferred.md) — arc/Part plate designs and placement parked until the arcs are complete; shown drafts not approved.
+- [Part I closing page](/notes/2026-11-10-part-closing-page.md) — Version B, plain second person, prints beside the Part I plate; arc recaps rejected as too vague.
 - [Chapter plate style](/notes/2026-10-01-chapter-plate-style.md) — approved chapter style, copy cap and drawn Lesson; universal symbol dictionary declined.
 - [Outline revision: joy merged into Ch25, mortality in Ch27, four retitles, specs follow the prose](/notes/2026-10-02-outline-revision-merge-titles-as-written.md) — the author's 2026-10-02 rulings on the whole-outline read; caps and overlaps were ruled 2026-10-03, see the note below.
 

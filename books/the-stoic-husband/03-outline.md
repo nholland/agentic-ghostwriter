@@ -48,6 +48,7 @@
 
 ## PART I — THE STEADY RIVER
 *Reader-facing opening: `parts/part-1-steady-river.md`*
+*Reader-facing closing page: `parts/part-1-steady-river-closing.md`*
 *Reader-facing closing plate: `parts/plate-1-steady-river.svg`*
 *The domain of self-command. A man cannot lead his marriage until he can lead himself.*
 

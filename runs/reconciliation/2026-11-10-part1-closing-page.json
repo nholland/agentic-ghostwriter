@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-10T05:24:48.297959+00:00",
+  "subjects": [
+    "part1-closing-page"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-11-10-part-closing-page.md"
+  ],
+  "authority": "Author, in session 2026-11-10: 'B, and put it next to the plate.'",
+  "reason": "New reader-facing Part I closing page and its placement",
+  "files": {
+    "books/the-stoic-husband/parts/part-1-steady-river-closing.md": "fd8a5590b5dbad9368a6afa1ee6b9df397839fa69d2aeff532f134ae2c738906",
+    "books/the-stoic-husband/03-outline.md": "f15ef334e48f8c840b92b08385608482adc5e41a22f4bf81a2c723864703de0d",
+    "books/the-stoic-husband/parts/README.md": "f6a1415e1a976e81a6dfb69be8561d83deb645ebc2988c4b5bb0111f9cdf0287",
+    "books/the-stoic-husband/okf/index.md": "04125c3c962d7a7161b610af8e68f657193a108b8b951d5caf1e61d2a765e685",
+    "books/the-stoic-husband/okf/log.md": "6bbc1623cd29cc6d13771b8cd7c0008fdf2f31265a647716790218021e97e8cf",
+    "books/the-stoic-husband/okf/notes/2026-11-10-part-closing-page.md": "7a5889eefa4745a2eebd78c29f6b6a5602093feba8a0032322699778b516cb61"
+  }
+}

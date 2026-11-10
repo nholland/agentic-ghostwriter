@@ -1,0 +1,1 @@
+*The river is you, steady under pressure. When something hits, you pause before you answer. You feel someone else's mood without making it yours. When criticism lands, you hear it instead of defending yourself. Anger still rises, and you choose what happens next. In a hard conversation, you don't go quiet. You say the true thing. A canyon is cut one ordinary day at a time.*
