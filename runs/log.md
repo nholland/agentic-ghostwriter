@@ -4959,3 +4959,38 @@ verdict; no prose or plate is landed.
 - … and 307 more
 
 **Next:** `/gw 17` — Chapter 17 has not started.
+
+## 2026-11-10 04:25 — `ccr-fe0a0d31-uw1din` — 161 commit(s) this session
+- `GAPS.md`
+- `books/the-stoic-husband/01-voice.md`
+- `books/the-stoic-husband/03-outline.md`
+- `books/the-stoic-husband/04-archetype.md`
+- `books/the-stoic-husband/appendix/practice-guide.md`
+- `books/the-stoic-husband/chapters/ch01/refined.md`
+- `books/the-stoic-husband/chapters/ch02/refined.md`
+- `books/the-stoic-husband/chapters/ch03/refined.md`
+- `books/the-stoic-husband/chapters/ch04/refined.md`
+- `books/the-stoic-husband/chapters/ch05/refined.md`
+- `books/the-stoic-husband/chapters/ch06/refined.md`
+- `books/the-stoic-husband/chapters/ch07/refined.md`
+- `books/the-stoic-husband/chapters/ch08/refined.md`
+- `books/the-stoic-husband/chapters/ch09/refined.md`
+- `books/the-stoic-husband/chapters/ch10/refined.md`
+- `books/the-stoic-husband/chapters/ch11/refined.md`
+- `books/the-stoic-husband/chapters/ch12/refined.md`
+- `books/the-stoic-husband/chapters/ch13/refined.md`
+- `books/the-stoic-husband/chapters/ch14/distillation.md`
+- `books/the-stoic-husband/chapters/ch14/refined.md`
+- `books/the-stoic-husband/chapters/ch15/refined.md`
+- `books/the-stoic-husband/chapters/ch16/distillation.md`
+- `books/the-stoic-husband/chapters/ch16/interview.md`
+- `books/the-stoic-husband/chapters/ch16/refined.md`
+- `books/the-stoic-husband/chapters/ch16/research.md`
+- `books/the-stoic-husband/chapters/prologue/refined.md`
+- `books/the-stoic-husband/citation-queue.md`
+- `books/the-stoic-husband/design/plates/calm-and-strength-make-the-marriage-sound-warmth-makes-it-a-home.svg`
+- `books/the-stoic-husband/okf/citations/csikszentmihalyi-1990-flow.md`
+- `books/the-stoic-husband/okf/citations/diogenes-laertius-7-87-90-eudaimonia-and-arete.md`
+- … and 321 more
+
+**Next:** `/gw 17` — Chapter 17 has not started.
