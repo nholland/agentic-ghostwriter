@@ -1,6 +1,6 @@
 # Chapter 13: Pursue Her After You Have Her
 
-There's a difference between the time you gave your wife and the time she actually got. The difference is small enough to miss for years.
+You can give your wife an evening and still not give her your attention, and the difference is small enough to miss for years.
 
 She asks if you want to watch a show together. You sit down beside her, and your phone stays in your hand. Halfway through she laughs at something and looks over to see if you caught it. You didn't.
 
@@ -42,7 +42,7 @@ When you finally start asking again, she may not open up the way you pictured. G
 
 ---
 
-**Be there for the time you share.** If she wants to watch a show, put the phone in a drawer. Whether or not you love the show, you can enjoy sitting beside her, seeing what makes her laugh, and letting an hour belong to the two of you. At dinner, the problem at work can wait until the drive home.
+**The time you share.** If she wants to watch a show, put the phone in a drawer. Whether or not you love the show, you can enjoy sitting beside her, seeing what makes her laugh, and letting an hour belong to the two of you. At dinner, the problem at work can wait until the drive home.
 
 Some nights she wants to tell you about her day. Some nights she wants your company while neither of you says much. You can tell which one it is when you're paying attention. If your mind wanders, come back to the table. You won't give her every minute perfectly, but you can give her the evening you offered.
 
@@ -52,9 +52,9 @@ When you're paying attention, you see the errand she mentioned and the week that
 
 ---
 
-**Don't let knowing her end your learning about her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. Leave room for the woman beside you to surprise you. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
+**Still learning her.** Esther Perel is a therapist who writes about desire in long relationships. Her argument is that familiarity can settle into routine, and that curiosity and new experience help keep desire alive. Leave room for the woman beside you to surprise you. Some of what she wanted when you met still matters to her. Some of it doesn't, and she may not have announced the difference.
 
-In 2009, Tsapelas, Aron and Orbuch looked at married couples who had been followed for sixteen years. Spouses who said their marriage felt boring in year seven were less satisfied with it nine years later. That held even after the researchers adjusted for how satisfied each spouse already was in year seven. It shows the two travel together; it doesn't show which caused the other. The study only included couples still married at year sixteen, so it tells you nothing about divorce. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
+In 2009, Tsapelas, Aron and Orbuch reported on married couples followed for sixteen years: those who found the marriage boring in year seven were less satisfied nine years later, though boredom may be a symptom as much as a cause. The show you watch every week can be familiar and good. Guard against going through every shared hour as though there were nothing left to find out.
 
 ---
 
