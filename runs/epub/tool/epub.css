@@ -4,19 +4,37 @@ h1{font-size:1.5em;margin:1.5em 0 1em;text-align:left}
 h2{font-size:1em;margin:1.4em 0 .6em}
 h1.chapter-heading .num{display:block;font-size:.55em;font-weight:normal;color:#444;margin-bottom:.5em}
 h1.chapter-heading .sep{display:none}
+/* 2026-11-10: in-chapter heads are p[role=heading] (post.py). They flow; they never open a page. */
+p.beat-heading{margin:1.4em 0 .6em;page-break-before:auto;break-before:auto;page-break-after:avoid;break-after:avoid}
+p.beat-heading strong{font-weight:bold}
 hr{border:0;border-top:1px solid #cfcfcf;width:30%;margin:1.6em auto}
-figure{margin:0;page-break-before:always;break-before:page;page-break-inside:avoid;text-align:center}
-figure img{width:100%;max-height:95vh;margin:0 auto;display:block}
+/* Plates: the only in-chapter page starts. Ink-only PNGs with a transparent ground (prep.py),
+   so they sit on whatever page colour the reader chose. 80vh leaves room for the reader's own
+   header and footer; 95vh did not, and a plate taller than the page can push to a blank page. */
+figure{margin:0;page-break-before:always;break-before:page;page-break-inside:avoid;text-align:center;background:transparent}
+figure img{width:100%;max-height:80vh;object-fit:contain;margin:0 auto;display:block;background:transparent}
 figcaption{display:none}
 img{max-width:100%;height:auto}
-p.closing-plate{page-break-before:always;break-before:page;text-align:center;margin:0}
-p.closing-plate img{max-height:95vh;width:auto;max-width:100%}
-section.dist-title{page-break-before:always;break-before:page}
+div.part-closing{page-break-before:always;break-before:page;margin-top:30%}
+div.closing-plate{page-break-before:always;break-before:page;text-align:center;margin:0;line-height:0}
+div.closing-plate img{display:block;max-height:80vh;width:auto;max-width:100%;margin:0 auto;background:transparent}
+/* Night themes: the ink is near-black, so on a black page it would vanish. Where the reader
+   says which theme it is showing (Apple Books' theme attribute; Readium's night setting),
+   turn the ink light. Not keyed to prefers-color-scheme: that reports the phone, not the
+   reader, and would whiten the ink on a sepia page whenever the phone is in dark mode. */
+:root[__ibooks_internal_theme*="Night"] figure img,
+:root[__ibooks_internal_theme*="Gray"] figure img,
+:root[__ibooks_internal_theme*="Night"] div.closing-plate img,
+:root[__ibooks_internal_theme*="Gray"] div.closing-plate img,
+:root[style*="readium-night-on"] figure img,
+:root[style*="readium-night-on"] div.closing-plate img{filter:invert(1)}
+/* The practice page follows a full-page plate, so its break costs no extra blank space. */
+div.dist-title{page-break-before:always;break-before:page}
 h2.dist-title{text-align:center;font-size:1.2em;font-weight:600;margin:0 0 .3em}
 h2.dist-title .kicker{display:block;font-style:italic;font-weight:normal;font-size:.75em;letter-spacing:.06em;color:#5a5a5a;margin-bottom:.4em}
 h2.dist-title + hr{width:40%;margin:.4em auto 1em}
-section.dist-title p{margin:0 0 .5em}
-section.level2:not(.beat-heading):not(.dist-title) > h2{font-size:.8em;letter-spacing:.16em;text-transform:uppercase;color:#5a5a5a;border-bottom:1px solid #ddd;padding-bottom:.2em}
+div.dist-title p{margin:0 0 .5em}
+p.practice-label{font-size:.8em;letter-spacing:.16em;text-transform:uppercase;color:#5a5a5a;border-bottom:1px solid #ddd;padding-bottom:.2em;margin:1.4em 0 .6em;page-break-after:avoid;break-after:avoid}
 blockquote{margin:1em 1.2em;padding-left:.8em;border-left:2px solid #d4d4d4}
 blockquote p{font-style:italic}
 .titlepage{text-align:center;margin-top:30%}

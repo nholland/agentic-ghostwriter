@@ -135,3 +135,118 @@ I did not make one. The author needs to pick a direction first. Until he does, t
 2. The author's name as it should appear, and the title form: colon, or "RIVER. OAK. SUN." (item 6).
 3. Which cover direction, if any, before a public build (item 7).
 4. Em-dashes in Part titles and practice titles (item 8).
+
+---
+
+## 2026-11-10: page breaks, blank pages, and plates on the reader's page
+
+Designer desk, 2026-11-10 12:40. **What started it:** the author read `book-draft.epub` on a phone reader in sepia and sent four screenshots. In them, Chapter 1's "Logical.", "Kind." and "Self-controlled." each start a new page, with the rest of the page blank. "You Own This" starts a page too. The book's very first page is fully blank. "The Gap" plate is an opaque white rectangle on the sepia page.
+
+**Changed:** `runs/epub/tool/` only:
+- `prep.py`, `epub.css` and `build.sh` were edited.
+- `post.py` is new.
+- `render_pages.js` is new: the paginated preview harness used below.
+
+No chapter text was changed, and nothing in `books/` was touched.
+
+### Defect 1: in-chapter heads open a new page
+**Cause:**
+- `epub.css` asks for no break before beat heads. The only page breaks it sets are on the plate, the practice title and the closing plate.
+- Pandoc's EPUB writer, however, always wraps every heading and its text in a `<section>`. Chapter 1 alone had nine `section.level2` blocks, one per beat, including one for each virtue.
+- The author's reader started a page at each beat. It also ignored at least part of our CSS: the headings are centred, the `hr` is full width, and the plate did not get its own page. So it is breaking on markup, either at every `<section>` or at every `h2`. I cannot tell which from the screenshots, so the fix removes both.
+
+**Fix:** `post.py` runs after pandoc and rewrites the EPUB:
+- All 146 `<section>` elements become `<div>`s, keeping the same id, class and `epub:type`. Nav targets still resolve; checked.
+- All 92 in-chapter heads become `<p class="beat-heading" role="heading" aria-level="2"><strong>…</strong></p>`, as do the 16 "Practice" labels. That covers 86 `h2.beat-heading` plus the Introduction's 6 unclassed h2s. Screen readers still announce them as level-2 headings, and they still read bold if a reader drops our CSS.
+- Chapter and Part titles stay `h1`, and the practice title stays `h2.dist-title`.
+- The zip is rewritten with `mimetype` first and stored.
+
+**Page starts now:** the CSS breaks before exactly four things:
+- `figure` (chapter plate);
+- `div.part-closing` (Part I's closing text);
+- `div.closing-plate` (Part closing plates);
+- `div.dist-title` (the practice page).
+
+The practice page always follows a full-page plate, so its break adds no blank space. The 2026-11-07 decision (print's `distback`) stands.
+
+### Defect 2: fully blank pages, including the first
+**Cause:** not reproduced, because Chromium is not the author's reader. Two causes are likely from the markup:
+- **(a) A break with nothing before it.** The same section-break behaviour as defect 1 applies at the start of a file. Every spine file, the title page included, opened with a `<section>`. A reader that breaks before a section and does not suppress the break at the top of a file emits an empty page first.
+- **(b) Plates taller than the reader's page.** Plates were bounded at `max-height:95vh`. On a phone, the reader's header and footer eat more than 5% of the screen, so a plate after a forced break could be taller than the page. The plate then gets pushed on, leaving a blank page. The screenshot of "The Gap" shows the plate running into the footer.
+
+**Fix:**
+- (a) No `<section>` remains anywhere: checked, 0 in 23 files.
+- (b) Plates are now bounded at `80vh`. The closing-plate image is `display:block` with `line-height:0`, so no text line box adds height under it.
+- A further bug in the same area was fixed: Part closing pages never got their page. `prep.py` step 4 matched a `<p>` wrapper the compiled book never has. The plates are in `<div class="plate">` and the closing text follows `<div class="pb">`, and step 5 deleted both. So the Part I closing text ran straight on from the last practice item. Both now survive as `div.part-closing` (1) and `div.closing-plate` (3).
+
+**Not fixed:** if the reader generates a blank page because the book has **no cover** (inbox #166, no cover yet), only a cover will remove it.
+
+### Defect 3: plates sit on a white box
+**Cause:**
+- The plate PNGs are the print rasters from `chapter_pdf_local.py`: opaque RGB on white.
+- The plate kit's `.knock` shapes (`fill: var(--plate-paper)`, #fff) clear the lines behind them, so transparency alone would still leave white dots.
+
+**Fix:** `prep.py` step 3b derives an ink-only image from each print raster:
+- All 19 rasters are greyscale (maximum channel spread 0) and drawn in the kit's one ink, #111. Every pixel is therefore a mix of ink and paper.
+- `alpha = (255 - grey) / (255 - 17)` recovers the ink exactly. The output is a grey+alpha PNG with grey fixed at 17.
+- Paper, including the knock-outs, becomes transparent. The ring in "The Gap" now shows the reader's page through its centre, and the lines behind it stay cleared.
+- On any light page this looks identical to the print plate laid on that page.
+- These files exist only in the EPUB. The print rasters and the SVG sources are untouched.
+
+**Why not re-rasterise the SVGs with a transparent background?** It would still paint the knock shapes white, and it would need a second render path that could drift from print. The derived image is exactly the print plate, minus the paper.
+
+**Size:** the EPUB grew from 1.88 MB to 2.48 MB.
+
+### Night themes (decision)
+Near-black ink on a black page is close to invisible: `2026-11-10-phone-night-unsignalled-ch01-plate.png`.
+
+**What the build does:**
+- Where the reader tells the book its theme, the CSS inverts the plate to light ink. That covers:
+  - Apple Books' `__ibooks_internal_theme` attribute (Night, Gray);
+  - Readium-based readers' `readium-night-on`.
+- See `2026-11-10-phone-night-applebooks-*.png`.
+- I did **not** key it to `prefers-color-scheme: dark`. That reports the phone's setting, not the reader's, so a phone in dark mode reading in sepia would get white ink on a sepia page, which is worse than the defect.
+
+**Residual:** a reader in a dark theme that gives no signal will show the plates very faint. That includes the Kindle apps, Google Play Books and most Android readers, as far as I know.
+- Kindle e-ink "dark mode" inverts the whole screen, so it is fine there.
+- The alternative, a light card behind every plate, is exactly what the author rejected on sepia.
+
+**Author ruling:** accept the residual, or ask for a plate-only light card in dark themes for a specific reader he uses.
+
+### Verified, and how
+- **Structure:**
+  - All 23 XHTML files parse as XML.
+  - Every `<img>` and every internal link and fragment resolves.
+  - No XHTML file is empty; the smallest are the Part pages at 69 to 73 words, and the title page at 11.
+  - The OPF manifest resolves.
+  - `mimetype` is the first zip entry, stored.
+- **Visual:** `render_pages.js` lays each file out as phone pages, 390x844 CSS px at 2x on #f0dfc6, with 20 px margins. It uses CSS columns, with every `break-before:page` mapped to a column break.
+  - Pages rendered: title, contents, Prologue, Chapter 1 (13 pages), Chapter 5 with Part I closing (11), Chapter 12 (11), plus night renders.
+  - A blank-page scan found **no blank page** in any rendered file.
+  - The Chapter 1 virtues flow: "Logical." sits mid-page under "The Inward Turn", and "Kind.", "Self-controlled." and "Brave enough…" share the next page.
+- **Not verified:**
+  - **EPUBCheck: NOT RUN.** `/opt/epubcheck/epubcheck-5.1.0/epubcheck.jar` is not installed and cannot be downloaded here. `build.sh` still ends by calling it and exits 1 on that line. Two new constructs need its confirmation: `role="heading"` with `aria-level` on `<p>`, and `epub:type` on `<div>`.
+  - **Real e-reader pagination cannot be fully emulated in a browser.** Chromium honours our CSS; the author's reader evidently does not. These renders prove what the markup and CSS now ask for, not what his app will do. The one real test is the author opening this build in the same app, in sepia and in night.
+
+**Screenshots** (`runs/epub/epub-review-shots/2026-11-10-*`):
+- `before-phone-sepia-ch01-plate-white-box`
+- `phone-sepia-title-page`
+- `phone-sepia-contents`
+- `phone-sepia-prologue-p01`
+- `phone-sepia-ch01-p06-virtues-start`
+- `phone-sepia-ch01-p07-virtues-flow`
+- `phone-sepia-ch01-p10-chapter-end`
+- `phone-sepia-ch01-p11-plate`
+- `phone-sepia-ch01-p12-practice`
+- `phone-sepia-ch05-part1-closing-text`
+- `phone-sepia-ch05-part1-closing-plate`
+- `phone-sepia-ch12-plate`
+- `phone-night-applebooks-ch01-plate`
+- `phone-night-applebooks-part1-closing-plate`
+- `phone-night-unsignalled-ch01-plate`
+
+**Left open:**
+1. Night-theme residual in readers that give no theme signal (above).
+2. A blank first page caused by the missing cover, if that is what his reader does (inbox #166).
+3. "Use it." ends Chapter 1 on a mostly empty page, because the plate that follows takes a page of its own. This is the rule the author set; it is not a defect.
+4. The section rule (`hr`) printed just before each plate now sits alone at the foot of that page; the 2026-11-07 review noted it as harmless.

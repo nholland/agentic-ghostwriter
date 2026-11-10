@@ -32,10 +32,36 @@ def alt(m):
     if lab: tag = re.sub(r'alt="[^"]*"', 'alt="' + lab.replace('"', "'") + '"', tag)
     return tag
 s = re.sub(r'<img src="([^"]+)"[^>]*>', alt, s)
-# 4. Part closing plates: their own page
-s = re.sub(r'<p>(\s*<img src="[^"]*parts[^"]*plate[^"]*"[^>]*>\s*)</p>', r'<p class="closing-plate">\1</p>', s)
+# 3b. plates on the reader's own page colour (author, 2026-11-10: "the plates don't match the book BG color").
+# The print rasters are one ink (#111) on white paper, greyscale only. Each pixel is a mix of ink and
+# paper, so alpha = (255 - grey) / (255 - 17) recovers the ink exactly; white, including the plate kit's
+# .knock shapes that clear lines behind them, becomes transparent. Written next to OUT_HTML; build.sh
+# puts that folder on pandoc's resource path.
+def ink_only(m):
+    tag, png = m.group(0), m.group(1)
+    srcp = os.path.join(os.path.dirname(os.path.abspath(src)), png)
+    if 'plate' not in png or not os.path.exists(srcp): return tag
+    from PIL import Image
+    import numpy as np
+    g = np.asarray(Image.open(srcp).convert('L')).astype(np.float32)
+    a = np.clip((255.0 - g) / (255.0 - 17.0), 0, 1)
+    la = np.zeros(g.shape + (2,), np.uint8); la[..., 0] = 17; la[..., 1] = np.round(a * 255)
+    out = 'ink-' + png
+    Image.fromarray(la, 'LA').save(os.path.join(os.path.dirname(os.path.abspath(dst)), out), optimize=True)
+    return tag.replace(f'src="{png}"', f'src="{out}"')
+s = re.sub(r'<img src="([^"]+)"[^>]*>', ink_only, s)
+print('plates made transparent:', s.count('src="ink-'))
+# 4. Part closing pages: their own page, as in print. (Until 2026-11-10 this matched a <p> wrapper the
+# compiled book never has: the plates sit in <div class="plate">, the closing text after <div class="pb">,
+# and step 5 deleted both, so neither ever got its page.) Pandoc drops classes on <p> but keeps them on
+# <div>, so these two survive step 5 as a placeholder tag and come back as classed divs.
+s, n1 = re.subn(r'<div class="pb"></div>\s*(<p>.*?</p>)', r'<keep class="part-closing">\1</keep>', s, flags=re.S)
+s, n2 = re.subn(r'<div class="plate">\s*(<img src="[^"]*parts[^"]*plate[^"]*"[^>]*>)\s*</div>',
+                r'<keep class="closing-plate">\1</keep>', s)
+print('Part closing texts:', n1, ' Part closing plates:', n2)
 # 5. flatten wrappers pandoc would otherwise hide from the contents list
 s = s.replace('<div class="rule"></div>', '<hr/>')
 s = re.sub(r'</?(?:div|section|article|main|header)\b[^>]*>', '', s)
+s = s.replace('<keep ', '<div ').replace('</keep>', '</div>')
 open(dst, 'w', encoding='utf-8').write(s)
 print('alt texts from SVG:', len(re.findall(r'<img[^>]*alt="(?!Plate, )', s)))
