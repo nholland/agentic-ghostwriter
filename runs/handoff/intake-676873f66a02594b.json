@@ -112,5 +112,11 @@
     "turn_id": null,
     "prompt": "Section A, items approved\nSection B:\n\n* One argument\n* Yes for Q116, Q118\n* Q049 - approved\n* Q112 - no. Its a fun way we make it known we recognize the person. Mixes a shared moment we all know from avatar with the concept of saying 'I see and recognize you'\n\nSection C, items approved\nSection D, items approved",
     "recorded": "2026-11-09T23:56:28.544175+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Show me a batch 4",
+    "recorded": "2026-11-10T02:16:10.953898+00:00"
   }
 ]

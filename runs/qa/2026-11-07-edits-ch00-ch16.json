@@ -1544,10 +1544,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
+   "status": "resolved",
    "ruling": null,
    "applied_commit": null,
-   "ease_tier": 4
+   "ease_tier": 4,
+   "resolution": {
+    "date": "2026-11-10",
+    "by": "Publisher",
+    "reason": "Ch6's closing pointer was cut (Q082) and Ch8's signpost cut (Q088); both chapters now close on their own lines."
+   }
   },
   {
    "id": "Q039",
@@ -1779,7 +1784,7 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
+   "status": "resolved",
    "ruling": null,
    "applied_commit": null,
    "rechecks": [
@@ -1798,7 +1803,12 @@
      "reason": "Ch16 L99 ('Put the most into your marriage, because she is your number one.') is a fifth imperative close in the last eight chapters, in a 'do X, because Y' form."
     }
    ],
-   "ease_tier": 4
+   "ease_tier": 4,
+   "resolution": {
+    "date": "2026-11-10",
+    "by": "Publisher",
+    "reason": "Ch13 (Q106) and Ch15 (Q114) closes were varied and landed; Ch16's close is the author's line (Q138 kept)."
+   }
   },
   {
    "id": "Q045",
@@ -2483,10 +2493,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
+   "status": "resolved",
    "ruling": null,
    "applied_commit": null,
-   "ease_tier": 4
+   "ease_tier": 4,
+   "resolution": {
+    "date": "2026-11-10",
+    "by": "Publisher",
+    "reason": "Merged into Q061 (same finding, other desk)."
+   }
   },
   {
    "id": "Q063",
@@ -2701,10 +2716,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
+   "status": "resolved",
    "ruling": null,
    "applied_commit": null,
-   "ease_tier": 4
+   "ease_tier": 4,
+   "resolution": {
+    "date": "2026-11-10",
+    "by": "Publisher",
+    "reason": "Ch10's Epictetus line was merged and reworded under Q092."
+   }
   },
   {
    "id": "Q069",
@@ -2838,10 +2858,15 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
+   "status": "resolved",
    "ruling": null,
    "applied_commit": null,
-   "ease_tier": 4
+   "ease_tier": 4,
+   "resolution": {
+    "date": "2026-11-10",
+    "by": "Publisher",
+    "reason": "Ch3's 'updated her model' was replaced (Q071); Ch4 no longer contains 'updated sense'."
+   }
   },
   {
    "id": "Q073",
@@ -3624,10 +3649,15 @@
    "needs_author": false,
    "needs_factcheck": true,
    "desk_disagreement": false,
-   "status": "proposed",
+   "status": "resolved",
    "ruling": null,
    "applied_commit": null,
-   "ease_tier": 4
+   "ease_tier": 4,
+   "resolution": {
+    "date": "2026-11-10",
+    "by": "Publisher",
+    "reason": "Ch10's Pillemer sample now matches Ch7 (Q040), and Q094 tied the paragraph to the tiers."
+   }
   },
   {
    "id": "Q094",
