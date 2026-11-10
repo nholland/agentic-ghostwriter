@@ -1,11 +1,11 @@
 # Chapter 2: Stop Outsourcing Your Peace
 
-Chapter 1 gave you a gap: the three-second window between what happens and what you do about it. This chapter is about what's been filling that gap for years, without you ever signing off on it.
+Something has been deciding how you feel when you walk through your own door, and you never signed off on it.
 
 Epictetus was a Stoic teacher who spent his early years as a slave and his later years running a school. His *Enchiridion*, a short field manual for Stoic living, opens with a line most people read once and never apply:
 
 *"Of things some are in our power, and others are not. In our power are opinion, movement towards a thing, desire, aversion, turning from a thing; and in a word, whatever are our acts. Not in our power are the body, property, reputation, offices (magisterial power), and in a word, whatever are not our own acts."*
-— Epictetus, *Enchiridion*, Ch. 1 (Long trans.)
+(Epictetus, *Enchiridion*, Ch. 1, Long trans.)
 
 Study that list. Her mood isn't named on it, but it falls under the last line, with whatever are not your own acts. Other people's inner states were never yours to work with.
 
@@ -41,11 +41,11 @@ You came home carrying the day, and by bedtime the whole house had it, down to a
 
 **The ruling faculty.**
 
-Marcus Aurelius ruled the Roman Empire for nearly two decades. Plague, war, political betrayal. He kept a private journal through all of it. It's called *Meditations*. In it, he wrote about the governing part of a man. The part that decides what a moment means, and what you do about it. *"The ruling Reason it is that can arouse and deflect itself, make itself whatever it will, and invest everything that befalls with such a semblance as it wills."* *(Meditations* 6.8, Haines trans.)
+Marcus Aurelius, who led Rome through plague and war, wrote in the *Meditations* about the governing part of a man. The part that decides what a moment means, and what you do about it. *"The ruling Reason it is that can arouse and deflect itself, make itself whatever it will, and invest everything that befalls with such a semblance as it wills."* *(Meditations* 6.8, Haines trans.)
 
 The Stoics called this the *hegemonikon*: the ruling faculty. Not the part that reacts, not the part that mirrors, but the part that governs.
 
-Her mood. Her stress. What she's carrying when you walk through the door. None of it is yours to govern. It's external. Outside of you. You hope it goes well. Of course you do. When she's happy, the Stoics would call that a preferred indifferent. When she's carrying something hard, a dispreferred indifferent. *Indifferent* doesn't mean you don't care. It means this isn't where your character gets built, good day or bad. Preferred or dispreferred, that part stays the same. Build your inner peace on these things, and you haven't built anything. They can change on a Tuesday without warning.
+Her mood. Her stress. What she's carrying when you walk through the door. None of it is yours to govern. It's external. Outside of you. You hope it goes well. Of course you do. When she's happy, the Stoics would call that a preferred indifferent. When she's carrying something hard, a dispreferred indifferent. *Indifferent* doesn't mean you don't care. It means this isn't where your character gets built, good day or bad. Preferred or dispreferred, that part stays the same. Build your inner peace on these things, and you haven't built anything. They can change any day without warning.
 
 Any man can hold steady when the current's easy. Maybe you've called that steadiness: being okay when conditions cooperate, level when the house is quiet. But an easy current doesn't test anything. Notice whether your calm depends on everyone else being calm. If it does, it might just be timing.
 
