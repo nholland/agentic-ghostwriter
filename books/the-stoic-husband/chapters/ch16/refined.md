@@ -30,13 +30,13 @@ What fixed it was turning toward her.
 
 ---
 
-**Toward her.** Compassion is where warmth starts. Chapter 2 drew the line between feeling her mood and becoming it. You can feel compassion for somebody without taking on their emotions. Then you go to her. You sit down next to her and ask what's going on.
+**Toward her.** Compassion is where warmth starts. Chapter 2 called it care without contagion: you feel for her without taking on her mood. Then you go to her. You sit down next to her and ask what's going on.
 
 I think compassion is a much stronger word than it sounds. It means you want her out of the upset and the worry. You want her in her highest state, at her best, and you put your effort into helping her get there. My wife craves connection, and I crave connection with her. Compassion is how you reach her.
 
 Reaching her is usually small. You've seen what it looks like in the last four chapters: effort in her language, attention when you're together, noticing what you already have, kindness when she's sharp. All it takes is caring how she's doing.
 
-The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The things outside it that you hope for are what Chapter 2 called preferred indifferents. They don't decide who you are. Her happiness is one of those things. *Indifferent* doesn't mean you don't care. I want my wife happy.
+The way I read the Stoics, nothing is good in itself except virtue, which means the quality of your own character. The things outside it that you hope for, the Stoics call preferred indifferents. Her happiness is one of those things. It doesn't decide who I am, and I still want it more than almost anything. I want my wife happy.
 
 I'd like to conduct myself in a way that makes our marriage stronger, my wife happier, and helps us get towards eudaimonia. Eudaimonia is the Greek word for a life that's going well as a whole. It's often translated as flourishing.
 ---
@@ -45,9 +45,9 @@ I'd like to conduct myself in a way that makes our marriage stronger, my wife ha
 
 I teach my boys that every kind of relationship, not just marriage, is one you build over a long period of time. I tell them it's true with their teachers, with their coaches, with their girlfriends. It's true for you, too, and most of all with your wife.
 
-Chapter 6 brought in the Roman Stoic teacher Musonius Rufus, who described marriage as one shared life. I picture that life as a place the two of you own and live in every day. At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home.
+The Roman Stoic teacher Musonius Rufus described marriage as one shared life. I picture that life as a house the two of you own and live in every day. At the start of this book, I said a house can be structurally sound and still feel cold. The calm and the strength make it sound. The warmth makes it a home.
 
-Even a warm one takes damage. Some of it is wear and tear from just living there. Some of it comes from the seasons. Some comes from the parties you throw and the guests who don't take care of it. That's what happens when people actually live there.
+Even a warm one takes damage. Some of it is wear and tear from just living there. Some of it is just age. Some comes from the parties you throw and the guests who don't take care of it. That's what happens when people actually live there.
 
 Your marriage takes those costs too. Some years one of your jobs has to come first. Someone's health takes a turn. The kids need more than either of you planned on. You each come from a family, and both sides need time and patience. None of that is anyone's fault, and every one of them takes something out of the marriage.
 
@@ -61,7 +61,7 @@ She wants to know she's a priority to you, and that you're in this with her. She
 
 She looks after the place too, in her own ways. When she feels your attention, it's easier for her to give hers. When you feel hers, it's easier for you. Two people who keep putting in make it lighter for each other to keep going.
 
-You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. As I said in Chapter 12, my grandfather told me: "Put your wife first."
+You still go first. You put in whether or not she has much to give that week. The marriage is yours too, and looking after it is your job as much as hers. My grandfather told me: "Put your wife first."
 
 So ask yourself about the life you share. Is it better now than it was a year ago?
 
