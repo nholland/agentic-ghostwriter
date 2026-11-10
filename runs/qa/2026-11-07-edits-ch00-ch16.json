@@ -89,9 +89,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "d40e1f9",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -475,9 +480,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "constitution commit (01-voice.md / 03-outline.md / config/house.json)",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -520,9 +530,21 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "bcd7b29",
+    "e370b95",
+    "3abf89a",
+    "46fbec7",
+    "11e9d1b",
+    "efa1ec3"
+   ],
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -558,9 +580,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "4802e5c",
+    "365b7d8"
+   ],
    "ease_tier": 4
   },
   {
@@ -587,9 +617,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "constitution commit (01-voice.md / 03-outline.md / config/house.json)",
    "ease_tier": 4
   },
   {
@@ -616,9 +651,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "d40e1f9",
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -747,9 +787,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "constitution commit (01-voice.md / 03-outline.md / config/house.json)",
    "ease_tier": 4
   },
   {
@@ -776,9 +821,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "c7d1a1f",
    "ease_tier": 4
   },
   {
@@ -999,9 +1049,17 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "bcd7b29",
+    "b19bda4"
+   ],
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -1966,9 +2024,18 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "11e9d1b",
+    "365b7d8",
+    "478e912"
+   ],
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -2176,9 +2243,19 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "efa1ec3",
+    "365b7d8",
+    "478e912",
+    "0157f78"
+   ],
    "rechecks": [
     {
      "date": "2026-11-07",
@@ -2297,9 +2374,18 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "365b7d8",
+    "478e912",
+    "0157f78"
+   ],
    "ease_tier": 4
   },
   {
@@ -2435,9 +2521,22 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "c7d1a1f",
+    "bcd7b29",
+    "4802e5c",
+    "e370b95",
+    "6d446af",
+    "478e912",
+    "0157f78"
+   ],
    "ease_tier": 4
   },
   {
@@ -2464,9 +2563,18 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": [
+    "bcd7b29",
+    "f427011",
+    "6d446af"
+   ],
    "ease_tier": 4
   },
   {
@@ -2687,9 +2795,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "bcd7b29",
    "ease_tier": 4
   },
   {
@@ -3275,9 +3388,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "3abf89a",
    "ease_tier": 4
   },
   {
@@ -4169,8 +4287,13 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
+   "status": "rejected",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "choice": "keep as written; the author confirms the disclosure boundary covers Ch14-15"
+   },
    "applied_commit": null,
    "ease_tier": 4
   },
@@ -4278,9 +4401,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "0157f78",
    "ease_tier": 4
   },
   {
@@ -4646,9 +4774,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "717543e",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 4
   },
@@ -4676,9 +4809,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "717543e",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 4
   },
@@ -4890,9 +5028,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "constitution commit (01-voice.md / 03-outline.md / config/house.json)",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 4
   },
@@ -4920,9 +5063,14 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "constitution commit (01-voice.md / 03-outline.md / config/house.json)",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 4
   },
@@ -4950,9 +5098,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "717543e",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 4
   },
@@ -5019,9 +5172,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "717543e",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 4
   },
@@ -5087,9 +5245,14 @@
    "needs_author": false,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"A. All approved / B. All Approved / C. All Approved\"",
+    "source": "runs/qa/2026-11-10-decisions-batch4.md"
+   },
+   "applied_commit": "717543e",
    "note": "Ch16 landed 2026-11-07 (commit 0dd518b) with prose identical to the draft reviewed; line numbers hold.",
    "ease_tier": 4
   },
