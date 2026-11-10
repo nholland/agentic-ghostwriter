@@ -44,11 +44,9 @@ attribute in the browser and the checker follows that).
 
 ## Read first, in this order
 
-0. **The book's plate kit, if it has one** — `{bookRoot}/design/plate-kit/STYLE.md`,
-   `plates.css` and `platekit.py`. Where it exists it is the style of record, set by
-   the author: draw a new plate as a `plate_NN_name.py` with `platekit`, geometry
-   only, and build it with `python3 plate_NN_name.py`; the book takes
-   `out/plate-NN-*.book.svg`. (The Stoic Husband's kit arrived 2026-11-10.)
+0. **The book's style of record** — whatever `{bookRoot}/design/` names as the
+   book's style (its README or style guide says where it lives and how to build
+   with it). Follow it. The style belongs to the book, not to this desk.
 1. **The book's existing plates** — `{bookRoot}/design/plates/*.svg`. This is the
    house style, and it was set by the author, not by you. Match it: the canvas,
    the palette, the type, the weight of lines, the way labels sit. If only one

@@ -6,7 +6,7 @@ pipeline does that this house does not, each with the trigger that should close
 it. Say "not yet, and here is what it waits on" rather than discovering a gap
 when he needs it.*
 
-## Open (5)
+## Open (7)
 
 ### Publication stack: positioning, pitch, publishing path, indie plan, review strategy, book club guide, Substack push, Buffer
 
@@ -98,6 +98,18 @@ Author asked for an ePub on 2026-11-07. Pandoc 3.1.3 is installed; the build dem
 **Trigger:** the next plate revision
 
 Designer, 2026-11-07 Ch1-11 plate re-set: on a first Ch2 attempt the checker reported a 21px gap between HER WEATHER and YOUR OWN WEATHER while the Chromium render showed them touching. Final plates are clean by eye; the check alone is not enough.
+
+### How should a book's visual style be created and kept, versus the Designer's own instructions?
+
+**Trigger:** the next new book (/gw-found), or the next time the Designer's instructions or a book's style change
+
+Author, 2026-11-10: 'I don't want to change the design desks instructions outside of they should just follow the styles of the book, which is where the plate kit comes into play. We might need to work out how we handle styles versus the agent instructions. For future users of this system, the design desk should collaborate to create a style, and apply it going forward as part of the agent instructions.' Today the Designer's instructions say only: follow the book's style of record under {bookRoot}/design/. Missing: a Designer step that co-creates a style with the author for a new book and records it in the book, so later plates apply it.
+
+### No desk owns the book's cover
+
+**Trigger:** now: the author asked why no cover exists (2026-11-10); and before any public ebook upload, store submission or print proof
+
+The Designer's charter is one plate per chapter; no desk's instructions mention a cover. The Designer did raise inbox #166 on 2026-11-07 and the author parked it ('Leave blank for now'), with a trigger (public upload or print proof) that did not fire when the author asked for an ePub, a frontispiece and a title page on 2026-11-10, and the Publisher did not resurface it then. Author, 2026-11-10: 'why the design desk hasn't designed a cover for the book yet ... isn't that a Miss on their part?'
 
 ## Built since the audit (6)
 
