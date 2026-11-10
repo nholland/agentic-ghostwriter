@@ -17,7 +17,20 @@ items = [(i, zin.read(i.filename)) for i in zin.infolist()]
 zin.close()
 n_sec = n_beat = n_prac = 0
 out = []
+# 2026-11-10: the frontispiece's file loses its pandoc heading (below); its contents entry is
+# pointed at the title page instead, so the list opens on the title, once.
+front = [i.filename for i, d in items if i.filename.endswith('.xhtml') and b'alt="Frontispiece' in d]
+tpage = [i.filename for i, d in items if i.filename.endswith('.xhtml') and b'class="title-page"' in d]
 for info, data in items:
+    if info.filename == 'EPUB/nav.xhtml' and front and tpage:
+        t = data.decode('utf-8')
+        f, g = (x.split('EPUB/', 1)[1] for x in (front[0], tpage[0]))
+        t = re.sub(r'href="' + re.escape(g) + r'(?:#[^"]*)?"', 'href="' + f + '"', t)   # one target, then dedupe
+        t = re.sub(r'(<li[^>]*>\s*<a href="' + re.escape(f) + r'">[^<]*</a>\s*</li>)\s*<li[^>]*>\s*<a href="'
+                   + re.escape(f) + r'">[^<]*</a>\s*</li>', r'\1', t)
+        t = t.replace('href="' + f + '"', 'href="' + g + '"')
+        xml.dom.minidom.parseString(t.encode('utf-8'))
+        data = t.encode('utf-8')
     name = info.filename
     if name.startswith('EPUB/text/') and name.endswith('.xhtml'):
         s = data.decode('utf-8')
@@ -31,6 +44,13 @@ for info, data in items:
         s, e = re.subn(r'<h2>(.*?)</h2>',   # the Introduction's unclassed beat heads
                        r'<p class="beat-heading" role="heading" aria-level="2"><strong>\1</strong></p>', s, flags=re.S)
         n_beat += c + e; n_prac += d
+        # 2026-11-10: pandoc names any content before the first heading after the book; on the
+        # frontispiece that printed "RIVER. OAK. SUN." above the drawing. The title page follows.
+        if 'alt="Frontispiece' in s:
+            s, f = re.subn(r'<h1 class="unnumbered">[^<]*</h1>\s*', '', s, count=1)
+        if 'class="title-page"' in s:   # the title page's subtitle and author keep their classes
+            s = re.sub(r'(<h1 class="title-page">.*?</h1>\s*)<p>(.*?)</p>\s*<p>(.*?)</p>',
+                       r'\1<p class="tp-sub">\2</p>\n<p class="tp-author">\3</p>', s, count=1, flags=re.S)
         left = re.findall(r'<h2(?! class="dist-title")[^>]*>.*?</h2>', s, flags=re.S)
         assert not left, (name, left[:3])
         xml.dom.minidom.parseString(s.encode('utf-8'))   # every file must still be well-formed

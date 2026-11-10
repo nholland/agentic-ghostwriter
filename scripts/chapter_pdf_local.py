@@ -48,7 +48,7 @@ PLATE_BLOCK = re.compile(r'^<(figure|div) class="plate">')
 PLATE_IMG = re.compile(r'(<(?:figure|div) class="plate"><img src=")([^"]+\.svg)(")')
 HTML_COMMENT = re.compile(r'^<!--.*-->$')
 PAGEBREAK_DIV = '<div class="pb"></div>'
-RAW_PASSTHROUGH = re.compile(r'^(<!--|<(figure|div) class="plate"|<div class="pb">|<section class="dist distback")')
+RAW_PASSTHROUGH = re.compile(r'^(<!--|<(figure|div) class="plate"|<div class="pb">|<div class="titlepage">|<section class="dist distback")')
 # The reader-facing name of the page that closes each chapter (author, 2026-09-30).
 # Its source file stays distillation.md; the reader never sees that word.
 PRACTICE_KICKER = "Putting into Practice"
@@ -103,6 +103,13 @@ def md_to_html(md):
             continue
         if PLATE_BLOCK.match(s):
             # compile.py --plates emits these already rasterised by build().
+            out.append(s)
+            i += 1
+            continue
+        if s.startswith('<div class="titlepage">'):
+            # compile.py's title page, one line of finished HTML. Every line
+            # RAW_PASSTHROUGH names needs a branch here: the paragraph loop
+            # below skips them, so an unhandled one never advances i.
             out.append(s)
             i += 1
             continue
@@ -291,6 +298,14 @@ figure.plate figcaption { font: italic 9pt Georgia,serif; color:#6a6a6a;
    margins leaves a 7.45in content box, so bound by height or the bottom
    spills onto the next page (the same lesson chapter_pdf.py records). */
 div.plate { page-break-before:always; page-break-after:always; text-align:center; margin:0; }
+/* Title page (2026-11-10): the title in spaced caps as on the cover candidates,
+   the subtitle smaller and wider, the author's name in italic well below. */
+.titlepage { page-break-before:always; page-break-after:always; text-align:center; padding-top:2.1in; }
+.titlepage p { text-align:center; text-indent:0; margin:0; }
+.titlepage .tp-title { font:400 23pt/1.2 Georgia,'Liberation Serif',serif; letter-spacing:.14em; }
+.titlepage .tp-sub { font:400 10.5pt Georgia,'Liberation Serif',serif; letter-spacing:.32em; margin-top:.2in; }
+.titlepage .tp-sub::after { content:""; display:block; width:.45in; margin:.32in auto 0; border-top:.6pt solid #1a1a1a; }
+.titlepage .tp-author { font:italic 13pt Georgia,'Liberation Serif',serif; margin-top:1.7in; }
 div.plate img { max-height:7.3in; max-width:100%; width:auto; height:auto; }
 .dropfirst::first-letter { font-size:1em; }
 """

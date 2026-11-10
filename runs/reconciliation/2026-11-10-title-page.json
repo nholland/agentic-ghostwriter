@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-10T21:21:58.631750+00:00",
+  "subjects": [
+    "title-page"
+  ],
+  "disposition": "already-represented",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-11-07-ebook-rulings.md"
+  ],
+  "authority": "Author, 2026-11-10: 'Can we get a title page too?'; wording per his 2026-11-07 rulings",
+  "reason": "Title, subtitle and author name already ruled; the page only sets them",
+  "files": {
+    "books/the-stoic-husband/title-page.md": "67ff7ae18936ce92adc0bc9ce5355eea62507f629bce7f6da5a17604a8d0236f"
+  }
+}

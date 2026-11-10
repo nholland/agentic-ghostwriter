@@ -308,6 +308,16 @@ def main():
         sections.append("frontispiece")
         plates.append(("frontispiece", front, True))
 
+    # The title page (author, 2026-11-10: "Can we get a title page too?"), facing
+    # nothing, after the frontispiece. Wording lives in the book's title-page.md.
+    tp = os.path.join(B, "title-page.md")
+    if lo <= 1 and os.path.isfile(tp):
+        lines = [l.strip() for l in re.sub(r"<!--.*?-->", "", io.open(tp, encoding="utf-8").read(), flags=re.S).splitlines() if l.strip()]
+        cls = ["tp-title", "tp-sub", "tp-author"]
+        pieces.append('<div class="titlepage">' + "".join(
+            '<p class="%s">%s</p>' % (cls[min(i, 2)], l) for i, l in enumerate(lines)) + "</div>")
+        sections.append("title page")
+
     for key in PRECURSORS:
         src = os.path.join(B, "chapters", key, "refined.md")
         if os.path.isfile(src):

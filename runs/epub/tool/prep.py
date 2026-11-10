@@ -59,6 +59,11 @@ s, n1 = re.subn(r'<div class="pb"></div>\s*(<p>.*?</p>)', r'<keep class="part-cl
 s, n2 = re.subn(r'<div class="plate">\s*(<img src="[^"]*parts[^"]*plate[^"]*"[^>]*>)\s*</div>',
                 r'<keep class="closing-plate">\1</keep>', s)
 print('Part closing texts:', n1, ' Part closing plates:', n2)
+# 4b. title page (2026-11-10): the book's own page from title-page.md replaces pandoc's, which
+#     printed a build date. Its title becomes the h1 that starts the title-page file.
+s, ntp = re.subn(r'<div class="titlepage"><p class="tp-title">(.*?)</p>',
+                 r'<h1 class="title-page">\1</h1><div class="titlepage">', s, count=1)
+print('title page:', ntp)
 # 5. flatten wrappers pandoc would otherwise hide from the contents list
 s = s.replace('<div class="rule"></div>', '<hr/>')
 s = re.sub(r'</?(?:div|section|article|main|header)\b[^>]*>', '', s)

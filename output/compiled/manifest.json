@@ -1,5 +1,5 @@
 {
-  "built": "2026-11-10T15:30:31.922040+00:00",
+  "built": "2026-11-10T21:20:44.508460+00:00",
   "coverage": "Prologue, Introduction, Chapters 1-16, relevant Arc openings and plates",
   "unapproved_chapters": [],
   "source_sha256": {
@@ -76,7 +76,7 @@
     "share/ch14-16-listening-copy.pdf"
   ],
   "plate_packet": {
-    "built": "2026-11-10T15:30:31.921646+00:00",
+    "built": "2026-11-10T21:20:44.508129+00:00",
     "source": "runs/design/plate-briefs.md",
     "entries": [
       {

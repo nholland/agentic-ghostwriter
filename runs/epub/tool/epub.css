@@ -41,3 +41,9 @@ blockquote p{font-style:italic}
 .titlepage h1{text-align:center}
 ol.toc{list-style:none;padding:0}
 ol.toc a{text-decoration:none;color:inherit}
+
+/* Title page, 2026-11-10: the book's own (title-page.md), after the frontispiece. */
+.title-page{page-break-before:always;break-before:page}
+h1.title-page{text-align:center;margin-top:30%;font-weight:400;letter-spacing:.14em;font-size:1.6em}
+p.tp-sub{text-align:center;text-indent:0;letter-spacing:.3em;font-size:.8em;margin-top:.8em}
+p.tp-author{text-align:center;text-indent:0;font-style:italic;margin-top:5em}
