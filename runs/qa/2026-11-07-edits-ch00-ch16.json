@@ -139,9 +139,19 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"Go on voice pass. Exception is ok for now, but note with detail in the Inbox.\" (2026-11-10), approving the plan whose first step was landing batch 5"
+   },
+   "applied_commit": [
+    "bf83729",
+    "9d8526a",
+    "deadaf6",
+    "6262320",
+    "9e40d1c"
+   ],
    "ease_tier": 5
   },
   {
@@ -168,9 +178,19 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"Go on voice pass. Exception is ok for now, but note with detail in the Inbox.\" (2026-11-10), approving the plan whose first step was landing batch 5"
+   },
+   "applied_commit": [
+    "bf83729",
+    "9d8526a",
+    "deadaf6",
+    "6262320",
+    "9e40d1c"
+   ],
    "ease_tier": 5
   },
   {
@@ -2455,9 +2475,13 @@
    "needs_author": true,
    "needs_factcheck": false,
    "desk_disagreement": false,
-   "status": "proposed",
-   "ruling": null,
-   "applied_commit": null,
+   "status": "applied",
+   "ruling": {
+    "by": "author",
+    "date": "2026-11-10",
+    "words": "\"Go on voice pass. Exception is ok for now, but note with detail in the Inbox.\" (2026-11-10), approving the plan whose first step was landing batch 5"
+   },
+   "applied_commit": "4c104a6",
    "ease_tier": 5
   },
   {

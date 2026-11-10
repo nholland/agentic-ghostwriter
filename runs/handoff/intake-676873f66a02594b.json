@@ -172,5 +172,11 @@
     "turn_id": null,
     "prompt": "Many chapter were written by a different model. It means the voice is slightly different. Is there a way to redraft the prose of older chapters to all be from Opus 5.5 and re-written under our style and voice checks. Does that make sense?\n\nLike the opening \"River Oak Sun\", feels like it could use improvements both in terms of ease of understanding, as well as it seems to have too many line breaks.\n\nChapter 1 was sonnet 4.5 if I recall... So it sounds different. \n\nWhat is best way to clean those up?\n",
     "recorded": "2026-11-10T03:48:47.395282+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": " Go on voice pass. \n\nException is ok for now, but note with detail in the Inbox.\n\nThe intro isn't my writing, it's ChatGPT if I recall. It's my material though, so just work on prose",
+    "recorded": "2026-11-10T04:10:42.870601+00:00"
   }
 ]

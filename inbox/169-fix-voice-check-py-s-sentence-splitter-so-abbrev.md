@@ -1,9 +1,12 @@
 ---
 id: 169
-status: open
+status: resolved
 raised_by: Publisher
 chapter: 0
 opened: 2026-11-10 03:45
+resolved: 2026-11-10 04:12
+applied_by: python3 tests/run.py
+okf_receipt: runs/reconciliation/2026-11-10-inbox-169.json
 ---
 
 # Fix voice_check.py's sentence splitter so abbreviations like 'al.' and 'No.' only match as whole words?
@@ -19,3 +22,9 @@ python3 -c "import sys; sys.path.insert(0,'scripts'); import voice_check as v; p
 ```
 
 **What unblocks this:** Accurate sentence statistics and long-sentence counts for every chapter, including the batch-5 register pass
+
+**Resolution (2026-11-10 04:12):** Fixed in d74c090: word-boundary matching for ABBREV, 'No.' only before a number; fixtures in tests/run.py (old code: 2 sentences, new: 5).
+
+**Not applied yet.** This ruling lands outside this repo. It closes when `python3 tests/run.py` exits 0.
+
+**Applied, confirmed 2026-11-10 04:13:** `python3 tests/run.py` now exits 0.
