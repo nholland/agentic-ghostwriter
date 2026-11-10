@@ -112,5 +112,11 @@
     "turn_id": null,
     "prompt": "Where were we with recaps? Are we blending them with interludes ",
     "recorded": "2026-11-10T05:49:18.906648+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Let's skip for now. Compile an ePub with images ",
+    "recorded": "2026-11-10T05:51:40.251880+00:00"
   }
 ]
