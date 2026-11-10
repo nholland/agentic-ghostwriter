@@ -54,11 +54,11 @@ She isn't the threat.
 
 When you turn off your logic and lash out, the system aims at the nearest target: her. Your body can't tell the difference between a rival tribe and the woman across the table. The system fires at the signal, not at the actual relationship.
 
-Seneca's *De Ira*, his study of anger, described what happens at the moment of activation in three stages. The first is involuntary: "a preparation for passion, as it were, and a sort of menace." The flush, the narrowing, the physiological response that arrives before any choice. The second stage is a choice: whether you decide the response is justified. The third stage is when reason has already been overtaken. (*De Ira*, Book II, trans. Basore.)
+Seneca's *De Ira*, his study of anger, described what happens at the moment of activation in three stages. The first is involuntary: "a preparation for passion, as it were, and a sort of menace." The flush, the narrowing, the physiological response that arrives before any choice. The second stage is a choice: whether you decide the response is justified. The third stage is when reason has already been overtaken. (*De Ira*, Book II, Basore trans.)
 
 The gap between the first stage and the second is where everything lives. That's where your *prohairesis* lives: your capacity to choose. Chapter 1 named that gap. Three seconds. This is what those three seconds are for.
 
-Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He wasn't describing an achievement. He was writing to himself, about what actual strength looks like.
+Marcus Aurelius wrote it plainly in *Meditations*: "to be moved by passion is not manly, but that mildness and gentleness, as they are more agreeable to human nature, so also are they more manly; and he who possesses these qualities possesses strength, nerves, and courage, and not the man who is subject to fits of passion and discontent." (*Meditations* 11.18, Long trans.) He wasn't describing an achievement. He was reminding himself what actual strength looks like.
 
 Acting on anger isn't strength. It's the absence of it.
 
