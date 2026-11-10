@@ -4,57 +4,47 @@ You take out the trash every Tuesday night. You've done it for years. Nobody tha
 
 ---
 
-**The split.**
+**The split.** Every household splits its work. Sometimes you sit down and divide it on purpose. Most of the time it just happens, one Tuesday at a time, until the dog walks belong to you and the laundry belongs to her and nobody remembers deciding any of it.
 
-Every household splits its work. Sometimes you sit down and divide it on purpose. Most of the time it just happens, one Tuesday at a time, until the dog walks belong to you and the laundry belongs to her and nobody remembers deciding any of it.
+Once the split happens, you mostly stop seeing her half of it. That isn't because you don't care. It's because you're the one living your half. You feel every trip to the dump, every late night with the dishes, every weekend project nobody else watched you start or finish. You don't feel her half nearly as much, because you weren't standing in it. She's the hero of her own story the same way you're the hero of yours. The work she sees clearly is her own.
 
-Once the split happens, you mostly stop seeing her half of it. Not because you don't care. Because you're the one living your half. You feel every trip to the dump, every late night with the dishes, every weekend project nobody else watched you start or finish. You don't feel her half nearly as much, because you weren't standing in it. She's the hero of her own story the same way you're the hero of yours. The work she sees clearly is her own.
+Some of what you carry has a name and a schedule. The trash goes out on Tuesday, and the dishes get done most nights. But a lot of it has neither, so it goes in a bucket. One weekend it's the ceiling fan that's been rattling for a month. Another weekend it's helping her finish a project she's been planning for weeks. Another it's gassing up both cars and running them through the wash. None of those jobs repeats often enough to earn a name, so they all go in the bucket labeled "whatever needs doing." That bucket is why each of you sees less of the other's work the longer a marriage runs. There's no slot on the calendar that says "ceiling fan." There's no moment where either of you notices it got emptied again.
 
-Some of what you carry has a name and a schedule. Trash on Tuesday. Dishes most nights. But a lot of it doesn't have either. It's a bucket. One weekend it's the ceiling fan that's been rattling for a month. Another weekend it's helping her finish a project she's been planning for weeks. Another it's gassing up both cars and running them through the wash. None of those jobs repeats often enough to earn a name, so it just lives in the bucket labeled "whatever needs doing." That bucket is exactly why this blindness gets worse the longer a marriage runs. There's no slot on the calendar that says "ceiling fan." There's no moment where either of you notices it got emptied again.
-
-This isn't a flaw in your marriage. It's just how two people work. The philosopher Musonius Rufus called marriage a "community of life." He's a Stoic teacher most men have never heard of, even if they know Marcus Aurelius or Seneca. His idea was simple: two people running one shared project, not two private ones. That's the goal: one household, not two ledgers each of you keeps to yourself. But goals don't erase how human attention actually works. You still only live inside one half of the house.
+This isn't a flaw in your marriage. It's just how two people work. The philosopher Musonius Rufus called marriage a "community of life." He was a Roman Stoic teacher, less well known today than Marcus Aurelius or Seneca. His idea was simple: two people running one shared project, not two private ones. That's the goal: one household, not two ledgers each of you keeps to yourself. Having that goal doesn't change what you notice, though. You still live inside only one half of the house.
 
 ---
 
-**The paradox.**
+**The paradox.** You don't need her to thank you for the trash. That's the whole point of doing it without resentment: it's your job, not a favor you're owed credit for.
 
-But there's a catch. You don't need her to thank you for the trash. That's the whole point of doing it without resentment: it's your job, not a favor you're owed credit for.
+Going without thanks still costs something, though. It stays quiet until the day it doesn't. When nobody's saying thank you, the thing most likely to fill that silence is criticism. You don't need gratitude to do your job well. You do need something other than constant correction, or the job starts to feel less like duty and more like being used.
 
-The absence of thanks isn't neutral, though. It just sits there, quiet, until the day it isn't quiet anymore. When nobody's saying thank you, the only thing left to fill that silence is criticism. You don't need gratitude to do your job well. You do need something other than constant correction, or the job starts to feel less like duty and more like being used.
-
-And when that correction comes, it rarely comes from malice. It comes from someone just as blind to your half of the work as you are to hers. She's not building a case against you. She's tired. She's overloaded. The only thing in front of her right now is a sink full of dishes and a husband who isn't in it. Overload looks for an outlet. Tonight, you're standing closest to it.
+And when that correction comes, it rarely comes from malice. It comes from someone just as blind to your half of the work as you are to hers. She isn't building a case against you. She's tired and overloaded. Right now all she can see is a sink full of dishes and a husband who isn't at it. When she's carrying that much, it comes out at whoever is nearest, and tonight that's you.
 
 ---
 
-**The visible moment.**
+**The visible moment.** Resentment usually doesn't come from the real totals. It comes from what you can both see in the room tonight.
 
-Resentment almost never fires on the real math. It fires on what's visible right now, in the room, tonight.
+Say you like to unwind at night with the TV on and your feet up. She likes to fold laundry in the evening, basket on the couch, towels into stacks. Most nights that's just two people doing two different things in the same room. But some nights she'll say it: "I'm working all the time, and you aren't." And for a second, every trash bag you've hauled and every weekend you spent emptying that bucket disappears. None of that is in this room right now. What's in this room is one person sitting and one person folding.
 
-Say you like to unwind at night. TV on, feet up, day done. She likes to fold laundry in the evening, basket on the couch, towels into stacks. Most nights that's just two people doing two different things in the same room. But some nights she'll say it: "I'm working all the time, and you aren't." And for a second, every trash bag you've hauled and every weekend you spent emptying that bucket disappears. None of that is in this room right now. What's in this room is one person sitting and one person folding.
-
-It isn't really about the laundry. The total weight either of you carries that week has almost nothing to do with what fires in that moment. It's the visible difference, her hands moving, yours still, that turns an ordinary weeknight into a verdict.
+It isn't really about the laundry. The total weight either of you carries that week has almost nothing to do with what gets said in that moment. It's the visible difference, her hands moving, yours still, that turns an ordinary weeknight into a verdict.
 
 ---
 
-**The four D's.**
+**The four D's.** When that verdict lands, the Four D's from Chapter 3 are right there: defend, deny, downplay, deflect. Each one feels justified. Each one also turns her tired comment about the laundry into a trial over your character. Nobody wins that fight. Now you're both defending yourselves, and neither of you is listening.
 
-When that verdict lands, the Four D's from Chapter 3 are right there: defend, deny, downplay, deflect. Each one feels justified, and each one turns a tired woman's comment about laundry into a trial over your character, and that's a fight nobody wins, because now you're both defending instead of either of you listening.
+The moment you produce a defense, you've handed her a reason to produce one back. Nobody loses an argument like that without reaching for their own evidence. So now there are two ledgers in the room instead of one shared project, and ledgers don't reconcile. They just get longer, week after week, until neither of you can remember what actually started the fight. That's how one comment about laundry turns into an argument about a parent-teacher conference from three months ago. Scorekeeping starts the moment you decide your tally is worth reciting out loud.
 
-The moment you produce a defense, you've handed her a reason to produce one back. Nobody loses an argument like that without reaching for their own evidence. So now there are two ledgers in the room instead of one shared project, and ledgers don't reconcile. They just get longer, week after week, until neither of you can remember what actually started the fight. That's how one comment about laundry turns into a referendum on a parent-teacher conference from three months ago. You didn't invent scorekeeping by accident. You invented it the moment you decided your tally was worth reciting out loud.
-
-The stronger play costs more in the moment and pays more later. Notice what she's actually doing. Say so. Then make the play instead of defending: "I see you're working. I appreciate it. You want to sit down, or should I help first?" That single sentence does what no defense ever could. It lets you help each other instead of arguing about who did more.
+The stronger play costs more in the moment and pays more later. Notice what she's actually doing. Say so. Then make the play instead of defending: "I see you're working. I appreciate it. You want to sit down, or should I help first?" That one sentence does what a defense can't. It lets you help each other instead of arguing about who did more.
 
 ---
 
-**The question.**
+**The question.** Some nights the sting still lingers, even after you've said the right thing. On those nights, ask yourself honestly: am I actually being lazy right now, or are we just out of rhythm?
 
-Some nights the sting still lingers, even after you've said the right thing. That's when the question is worth asking yourself honestly: am I actually being lazy right now, or are we just out of rhythm?
+Marcus Aurelius asked himself a version of this every morning he didn't want to get out of bed. You weren't born to stay under the covers, he told himself. Everybody has to go about doing their job. He meant something plainer than ambition: a man does his work the way a horse runs or a bee makes honey. Neither one needs applause for it.
 
-Marcus Aurelius asked himself a version of this every morning he didn't want to get out of bed. You weren't born to stay under the covers, he told himself. Everybody has to go about doing their job. He wasn't talking about ambition. He was talking about the plain fact that a man does his work the way a horse runs or a bee makes honey. Neither one needs applause for it.
+If the honest answer is yes, you were avoiding your own job. Her comment is a gift you can take, not an attack to defend against. If the answer is no, you were just out of step for one evening. Give her the same grace you'd want on a night when you're the one folding towels and she's the one with her feet up. Either way, the tally never gets read out loud.
 
-If the honest answer is yes, you were avoiding your own job. That's not an attack to defend against. That's a gift, and you take it. If the answer is no, you weren't lazy. You were just out of step for one evening. Give her the same grace you'd want on a night when you're the one folding towels and she's the one with her feet up. Either way, the tally never gets read out loud.
-
-That's the whole difference between a man who carries his half of the house and a man who's quietly billing for it. One of them is steady enough to be counted on without needing to be counted. Scorekeeping can feed resentment. Resentment can also grow when the work you're carrying has become too much. Giving freely doesn't mean carrying an arrangement you can't sustain.
+That's the whole difference between carrying your half of the house and quietly billing for it. You can be steady enough to be counted on without needing to be counted. Scorekeeping can feed resentment. Resentment can also grow when the work you're carrying has become too much. Giving freely doesn't mean carrying an arrangement you can't sustain.
 
 ---
 ## Editor's Notes
