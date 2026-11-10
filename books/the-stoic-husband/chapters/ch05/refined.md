@@ -1,6 +1,6 @@
 # Chapter 5: How to Fight Without Becoming Small
 
-Part I has been about the gap. The three seconds between what happens and what you do. This chapter is about what happens when you're already inside a real fight, where everything you've built gets used at once and the only question left is what kind of man you are at the end of it.
+You're already inside a real fight, and everything from the last four chapters gets used at once. The only question left is what kind of man you are at the end of it.
 
 ---
 
