@@ -301,6 +301,7 @@
 
 ## PART III — THE WARM SUN
 *Reader-facing opening: `parts/part-3-warm-sun.md`*
+*Reader-facing closing plate: `parts/plate-3-warm-sun.svg`*
 *The domain of active love. Steadiness earns the right to be present; this part asks what he does with that presence.*
 
 ---

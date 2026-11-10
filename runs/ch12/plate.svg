@@ -1,81 +1,169 @@
-<!-- Chapter 12 plate, round 4 (outside-reader round, 2026-09-21).
-     Same objects as round 3: two timelines running to the same right-hand
-     endpoint, dark squares along them, one hollow open square at the end.
-     Re-weighted so the argument is what the eye lands on first: the row that
-     gets marked every week is dropped back to a murmur, the stretch with
-     nothing in it is the loudest thing on the plate, and the open square at
-     the end is drawn large and heavy, because it is the one thing here that
-     is still available. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" style="color:#1a1a1a" role="img" aria-label="The Thing With No Deadline">
-  <style>
-    .ttl{font:600 17px Georgia,serif;letter-spacing:.20em;text-anchor:middle}
-    .sub{font:italic 13.5px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start}
-    .lbld{font:600 13px Georgia,serif;letter-spacing:.16em;text-anchor:start;opacity:.45}
-    .lblc{font:600 12.5px Georgia,serif;letter-spacing:.16em;text-anchor:middle}
-    .lblcd{font:600 12.5px Georgia,serif;letter-spacing:.16em;text-anchor:middle;opacity:.45}
-    .cap{font:italic 12px Georgia,serif;opacity:.66;text-anchor:middle}
-    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
-    .span{stroke:currentColor;stroke-width:1.2;fill:none;opacity:.5}
-  </style>
+<svg class="plate" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 619.82" role="img" aria-label="The Thing With No Deadline"><style>/* ------------------------------------------------------------------
+   River, Oak, Sun — plate style ("Engraved Line")
+   One declaration for every plate. Plates carry class names only;
+   change a value here and every plate changes with it.
+   Plates are drawn on a 324-unit canvas and printed at 86% of the text
+   block, so the art keeps clear air on both sides. Weights and sizes below
+   are in canvas units; the comments give what that prints as.
+   ------------------------------------------------------------------ */
 
-  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+:root {
+  /* Ink. One ink, no greys: tone is made from line density, never opacity. */
+  --plate-ink: #111;
+  --plate-paper: #fff;
 
-  <g fill="currentColor">
-    <text class="ttl" x="320" y="40">THE THING WITH NO DEADLINE</text>
-    <text class="sub" x="320" y="66">What has no deadline is easiest to neglect.</text>
-  </g>
+  /* Three line weights (print as 0.4 / 0.7 / 1.5 pt). Nothing else is allowed. */
+  --w-hair: 0.47;  /* measures, ticks, dotted "not yet" lines   */
+  --w-line: 0.82;  /* the body of every drawing                  */
+  --w-bold: 1.75;  /* the one thing the plate is about           */
 
-  <!-- the week both rows start in, and the week we are standing in -->
-  <g class="rule" fill="none"><path d="M102 140v124"/></g>
-  <g class="rule" fill="none"><path d="M520 114v122"/></g>
+  /* Lettering. Same face as the book body. */
+  --plate-font: Georgia, 'Liberation Serif', serif;  /* exactly the book body stack, scripts/chapter_pdf_local.py (author, 2026-11-10: plates in Georgia) */
+  --t-caps: 7.4px;      /* prints ~6.4pt. fixed things: what is given */
+  --t-ital: 10px;       /* prints ~8.6pt. moving things: chosen, felt */
+  --caps-track: 0.2em;
+}
 
-  <!-- the things with a day attached: marked every week, all the way to now,
-       and deliberately quiet, because they are not the argument -->
-  <g fill="none" stroke="currentColor" stroke-width=".8" opacity=".22"><path d="M110 160h424"/></g>
-  <g fill="currentColor" opacity=".34">
-    <rect x="119" y="150" width="10" height="10"/>
-    <rect x="152" y="150" width="10" height="10"/>
-    <rect x="185" y="150" width="10" height="10"/>
-    <rect x="218" y="150" width="10" height="10"/>
-    <rect x="251" y="150" width="10" height="10"/>
-    <rect x="284" y="150" width="10" height="10"/>
-    <rect x="317" y="150" width="10" height="10"/>
-    <rect x="350" y="150" width="10" height="10"/>
-    <rect x="383" y="150" width="10" height="10"/>
-    <rect x="416" y="150" width="10" height="10"/>
-    <rect x="449" y="150" width="10" height="10"/>
-    <rect x="482" y="150" width="10" height="10"/>
-    <rect x="515" y="150" width="10" height="10"/>
-  </g>
+/* ---- linework ---- */
+.plate        { color: var(--plate-ink); font-family: var(--plate-font); overflow: visible; }
+.plate .ink   { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.plate .hair  { stroke-width: var(--w-hair); }
+.plate .line  { stroke-width: var(--w-line); }
+.plate .bold  { stroke-width: var(--w-bold); }
+.plate .dotted { stroke-dasharray: 0.01 2.3; }           /* latent, not yet happened */
+.plate .bold.dotted { stroke-dasharray: 0.01 3.7; }                  /* heavier dots need more air */
+.plate .knock { fill: var(--plate-paper); }               /* shape that clears what is behind it */
+.plate .solid { fill: currentColor; stroke: none; }
 
-  <!-- the one for her: a few weeks, then a stretch with nothing in it at all,
-       and at the end of it one square still open -->
-  <g fill="none" stroke="currentColor" stroke-width="1.1" opacity=".55"><path d="M110 258h424"/></g>
-  <g fill="currentColor" opacity=".9">
-    <rect x="119" y="248" width="10" height="10"/>
-    <rect x="152" y="248" width="10" height="10"/>
-    <rect x="185" y="248" width="10" height="10"/>
-  </g>
-  <g fill="#ffffff" stroke="currentColor" stroke-width="2.6">
-    <rect x="511" y="240" width="18" height="18"/>
-  </g>
+/* ---- lettering inside the art ---- */
+.plate text   { fill: currentColor; stroke: none; }
+.plate .caps  { font-size: var(--t-caps); letter-spacing: var(--caps-track); text-transform: uppercase; font-weight: 500; }
+.plate .ital  { font-size: var(--t-ital); font-style: italic; }
 
-  <!-- the span nothing in the week ever marked -->
-  <g class="span"><path d="M197 288v8h308v-8"/></g>
+/* ---- plate furniture (HTML around the SVG) ---- */
+figure.plate-fig            { margin: 0; text-align: center; color: var(--plate-ink); font-family: var(--plate-font); break-inside: avoid; }
+.plate-fig .plate-title     { font-size: 19pt; font-weight: 400; letter-spacing: 0.01em; line-height: 1.12; margin: 0 auto 6pt; max-width: 88%; text-wrap: balance; }
+.plate-fig .plate-deck      { font-size: 10pt; font-style: italic; line-height: 1.35; margin: 0 auto 26pt; text-wrap: balance; }
+.plate-fig svg              { display: block; width: 86%; height: auto; margin: 0 auto; }
+.plate-fig figcaption       { font-size: 10.5pt; font-style: italic; margin: 24pt 0 0; }
+.plate-fig figcaption::before { content: ""; display: block; width: 18pt; border-top: 0.5pt solid currentColor; margin: 0 auto 11pt; }
 
-  <g fill="currentColor">
-    <text class="lbld" x="110" y="134">THE THINGS WITH A DAY ATTACHED</text>
-    <text class="lbl" x="110" y="232">THE ONE THING FOR HER</text>
-    <text class="lblcd" x="520" y="104">THIS WEEK</text>
-    <text class="lblc" x="520" y="282">TONIGHT</text>
-    <text class="cap" x="347" y="322">the stretch you never felt go by</text>
-    <text class="cap" x="347" y="344">you didn’t stop loving her</text>
-  </g>
+/* ---- interludes: full-page drawings between the parts ---- */
+.plate-fig.interlude figcaption          { font-size: 12pt; line-height: 1.5; margin-top: 30pt; }
+.plate-fig.interlude figcaption::before  { display: none; }
 
-  <g class="rule" fill="none"><path d="M44 386h552"/></g>
-
-  <g fill="currentColor">
-    <text class="cap" x="320" y="412">Love rarely becomes urgent. That is why you have to make room for it.</text>
-  </g>
+.plate .ttl { font-weight: 400; letter-spacing: 0.01em; }</style>
+<text class="ttl" x="320.00" y="74.52" style="font-size:37.53px;text-anchor:middle">The Thing With</text>
+<text class="ttl" x="320.00" y="116.56" style="font-size:37.53px;text-anchor:middle">No Deadline</text>
+<text class="ital deck" x="320.00" y="159.20" style="font-size:19.75px;text-anchor:middle">What has no deadline is easiest to neglect.</text>
+<path class="ink" style="stroke-width:0.99" d="M302.22 471.20H337.78"/>
+<text class="ital cap" x="320.00" y="510.56" style="font-size:20.74px;text-anchor:middle">You didn’t stop loving her.</text>
+<text class="ital cap" x="320.00" y="537.53" style="font-size:20.74px;text-anchor:middle">Love rarely becomes urgent.</text>
+<text class="ital cap" x="320.00" y="564.49" style="font-size:20.74px;text-anchor:middle">That is why you have to make room for it.</text>
+<text class="caps" x="70.28" y="235.23" style="font-size:12.57px;text-anchor:start;letter-spacing:0.2em">THE THINGS WITH A DAY ATTACHED</text>
+<text class="caps" x="83.36" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">M</text>
+<text class="caps" x="107.14" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">T</text>
+<text class="caps" x="130.93" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">W</text>
+<text class="caps" x="154.71" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">T</text>
+<text class="caps" x="178.49" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">F</text>
+<text class="caps" x="202.28" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">S</text>
+<text class="caps" x="226.06" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">S</text>
+<text class="caps" x="249.84" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">M</text>
+<text class="caps" x="273.62" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">T</text>
+<text class="caps" x="297.41" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">W</text>
+<text class="caps" x="321.19" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">T</text>
+<text class="caps" x="344.97" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">F</text>
+<text class="caps" x="368.75" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">S</text>
+<text class="caps" x="392.54" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">S</text>
+<text class="caps" x="416.32" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">M</text>
+<text class="caps" x="440.10" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">T</text>
+<text class="caps" x="463.89" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">W</text>
+<text class="caps" x="487.67" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">T</text>
+<text class="caps" x="511.45" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">F</text>
+<text class="caps" x="535.23" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">S</text>
+<text class="caps" x="559.02" y="262.41" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">S</text>
+<text class="caps" x="70.28" y="335.46" style="font-size:12.57px;text-anchor:start;letter-spacing:0.2em">THE ONE THING FOR HER</text>
+<text class="caps" x="569.72" y="335.46" style="font-size:12.57px;text-anchor:end;letter-spacing:0.2em">TONIGHT</text>
+<text class="ital" x="343.78" y="411.91" style="font-size:16.99px;text-anchor:middle">the stretch you never felt go by</text>
+<g transform="translate(44.80 219.95) scale(1.69877)">
+  <path class="ink line" d="M15.00 30.00C16.00 30.00 19.00 30.00 21.00 30.01C23.00 30.01 25.00 30.01 27.00 30.01C29.00 30.01 31.00 30.00 33.00 29.99C35.00 29.98 37.00 29.95 39.00 29.94C41.00 29.94 43.00 29.94 45.00 29.96C47.00 29.97 49.00 30.01 51.00 30.02C53.00 30.04 55.00 30.04 57.00 30.05C59.00 30.05 61.00 30.03 63.00 30.03C65.00 30.03 67.00 30.04 69.00 30.04C71.00 30.04 73.00 30.05 75.00 30.03C77.00 30.02 79.00 29.98 81.00 29.95C83.00 29.93 85.00 29.90 87.00 29.90C89.00 29.90 91.00 29.94 93.00 29.96C95.00 29.98 97.00 30.02 99.00 30.03C101.00 30.04 103.00 30.03 105.00 30.03C107.00 30.04 109.00 30.04 111.00 30.04C113.00 30.05 115.00 30.08 117.00 30.08C119.00 30.07 121.00 30.06 123.00 30.03C125.00 30.00 127.00 29.94 129.00 29.92C131.00 29.90 133.00 29.89 135.00 29.90C137.00 29.91 139.00 29.96 141.00 29.98C143.00 30.00 145.00 30.01 147.00 30.01C149.00 30.02 151.00 30.01 153.00 30.02C155.00 30.03 157.00 30.06 159.00 30.07C161.00 30.08 163.00 30.11 165.00 30.10C167.00 30.09 169.00 30.03 171.00 30.00C173.00 29.97 175.00 29.92 177.00 29.91C179.00 29.89 181.00 29.92 183.00 29.93C185.00 29.94 187.00 29.97 189.00 29.98C191.00 29.99 193.00 29.98 195.00 29.98C197.00 29.99 199.00 30.00 201.00 30.02C203.00 30.04 205.00 30.09 207.00 30.10C209.00 30.11 211.00 30.10 213.00 30.08C215.00 30.06 217.00 30.00 219.00 29.98C221.00 29.95 223.00 29.93 225.00 29.93C227.00 29.93 229.00 29.95 231.00 29.96C233.00 29.97 235.00 29.97 237.00 29.97C239.00 29.97 241.00 29.96 243.00 29.97C245.00 29.98 247.00 30.01 249.00 30.03C251.00 30.05 253.00 30.09 255.00 30.09C257.00 30.09 259.00 30.06 261.00 30.04C263.00 30.02 265.00 29.99 267.00 29.97C269.00 29.96 271.00 29.97 273.00 29.97C275.00 29.97 277.00 29.98 279.00 29.98C281.00 29.98 283.00 29.96 285.00 29.96C287.00 29.97 289.00 29.97 291.00 29.98C293.00 29.99 295.00 30.02 297.00 30.03C299.00 30.03 301.00 30.03 303.00 30.03C305.00 30.02 308.00 30.00 309.00 30.00"/>
+  <path class="ink line" d="M15.00 44.00C16.00 44.00 19.00 44.00 21.00 44.01C23.00 44.01 25.00 44.04 27.00 44.04C29.00 44.05 31.00 44.04 33.00 44.03C35.00 44.02 37.00 44.00 39.00 43.99C41.00 43.98 43.00 43.97 45.00 43.97C47.00 43.97 49.00 43.98 51.00 43.98C53.00 43.97 55.00 43.96 57.00 43.95C59.00 43.95 61.00 43.95 63.00 43.96C65.00 43.98 67.00 44.02 69.00 44.04C71.00 44.06 73.00 44.09 75.00 44.09C77.00 44.09 79.00 44.05 81.00 44.04C83.00 44.02 85.00 43.99 87.00 43.98C89.00 43.98 91.00 43.99 93.00 43.98C95.00 43.98 97.00 43.97 99.00 43.95C101.00 43.94 103.00 43.91 105.00 43.91C107.00 43.91 109.00 43.94 111.00 43.97C113.00 44.00 115.00 44.06 117.00 44.08C119.00 44.10 121.00 44.10 123.00 44.09C125.00 44.08 127.00 44.04 129.00 44.03C131.00 44.01 133.00 44.01 135.00 44.01C137.00 44.00 139.00 44.01 141.00 43.99C143.00 43.98 145.00 43.94 147.00 43.92C149.00 43.90 151.00 43.88 153.00 43.90C155.00 43.91 157.00 43.96 159.00 44.00C161.00 44.03 163.00 44.07 165.00 44.08C167.00 44.09 169.00 44.07 171.00 44.06C173.00 44.05 175.00 44.04 177.00 44.03C179.00 44.03 181.00 44.05 183.00 44.04C185.00 44.03 187.00 44.01 189.00 43.98C191.00 43.96 193.00 43.91 195.00 43.89C197.00 43.88 199.00 43.89 201.00 43.92C203.00 43.94 205.00 44.00 207.00 44.02C209.00 44.04 211.00 44.05 213.00 44.06C215.00 44.06 217.00 44.04 219.00 44.04C221.00 44.04 223.00 44.05 225.00 44.05C227.00 44.05 229.00 44.06 231.00 44.05C233.00 44.03 235.00 43.99 237.00 43.96C239.00 43.94 241.00 43.91 243.00 43.90C245.00 43.90 247.00 43.94 249.00 43.96C251.00 43.97 253.00 44.01 255.00 44.02C257.00 44.03 259.00 44.02 261.00 44.02C263.00 44.02 265.00 44.02 267.00 44.03C269.00 44.03 271.00 44.05 273.00 44.05C275.00 44.05 277.00 44.04 279.00 44.03C281.00 44.01 283.00 43.97 285.00 43.96C287.00 43.95 289.00 43.95 291.00 43.95C293.00 43.96 295.00 43.98 297.00 43.99C299.00 44.00 301.00 44.00 303.00 44.00C305.00 44.00 308.00 44.00 309.00 44.00"/>
+  <path class="ink hair" d="M15.00 30.00C15.01 31.17 15.05 34.67 15.05 37.00C15.05 39.33 15.01 42.83 15.00 44.00"/>
+  <path class="ink hair" d="M29.00 30.00C28.99 31.17 28.93 34.67 28.93 37.00C28.93 39.33 28.99 42.83 29.00 44.00"/>
+  <path class="ink hair" d="M43.00 30.00C43.01 31.17 43.04 34.67 43.04 37.00C43.04 39.33 43.01 42.83 43.00 44.00"/>
+  <path class="ink hair" d="M57.00 30.00C57.01 31.17 57.05 34.67 57.05 37.00C57.05 39.33 57.01 42.83 57.00 44.00"/>
+  <path class="ink hair" d="M71.00 30.00C71.00 31.17 71.00 34.67 71.00 37.00C71.00 39.33 71.00 42.83 71.00 44.00"/>
+  <path class="ink hair" d="M85.00 30.00C85.00 31.17 84.99 34.67 84.99 37.00C84.99 39.33 85.00 42.83 85.00 44.00"/>
+  <path class="ink hair" d="M99.00 30.00C99.00 31.17 99.02 34.67 99.02 37.00C99.02 39.33 99.00 42.83 99.00 44.00"/>
+  <path class="ink hair" d="M113.00 30.00C113.00 31.17 113.03 34.67 113.03 37.00C113.03 39.33 113.00 42.83 113.00 44.00"/>
+  <path class="ink hair" d="M127.00 30.00C127.00 31.17 126.99 34.67 126.99 37.00C126.99 39.33 127.00 42.83 127.00 44.00"/>
+  <path class="ink hair" d="M141.00 30.00C141.00 31.17 140.98 34.67 140.98 37.00C140.98 39.33 141.00 42.83 141.00 44.00"/>
+  <path class="ink hair" d="M155.00 30.00C154.99 31.17 154.96 34.67 154.96 37.00C154.96 39.33 154.99 42.83 155.00 44.00"/>
+  <path class="ink hair" d="M169.00 30.00C169.00 31.17 168.99 34.67 168.99 37.00C168.99 39.33 169.00 42.83 169.00 44.00"/>
+  <path class="ink hair" d="M183.00 30.00C183.00 31.17 183.01 34.67 183.01 37.00C183.01 39.33 183.00 42.83 183.00 44.00"/>
+  <path class="ink hair" d="M197.00 30.00C197.01 31.17 197.07 34.67 197.07 37.00C197.07 39.33 197.01 42.83 197.00 44.00"/>
+  <path class="ink hair" d="M211.00 30.00C211.00 31.17 211.00 34.67 211.00 37.00C211.00 39.33 211.00 42.83 211.00 44.00"/>
+  <path class="ink hair" d="M225.00 30.00C225.00 31.17 225.00 34.67 225.00 37.00C225.00 39.33 225.00 42.83 225.00 44.00"/>
+  <path class="ink hair" d="M239.00 30.00C239.00 31.17 239.01 34.67 239.01 37.00C239.01 39.33 239.00 42.83 239.00 44.00"/>
+  <path class="ink hair" d="M253.00 30.00C253.01 31.17 253.05 34.67 253.05 37.00C253.05 39.33 253.01 42.83 253.00 44.00"/>
+  <path class="ink hair" d="M267.00 30.00C267.00 31.17 266.98 34.67 266.98 37.00C266.98 39.33 267.00 42.83 267.00 44.00"/>
+  <path class="ink hair" d="M281.00 30.00C281.01 31.17 281.04 34.67 281.04 37.00C281.04 39.33 281.01 42.83 281.00 44.00"/>
+  <path class="ink hair" d="M295.00 30.00C294.99 31.17 294.97 34.67 294.97 37.00C294.97 39.33 294.99 42.83 295.00 44.00"/>
+  <path class="ink hair" d="M309.00 30.00C308.99 31.17 308.97 34.67 308.97 37.00C308.97 39.33 308.99 42.83 309.00 44.00"/>
+  <path class="ink line" d="M18.60 37.38C18.98 37.82 19.70 40.60 20.90 40.00C22.10 39.40 24.98 34.82 25.80 33.78"/>
+  <path class="ink line" d="M32.60 37.50C32.98 37.92 33.70 40.60 34.90 40.00C36.10 39.40 38.98 34.92 39.80 33.90"/>
+  <path class="ink line" d="M46.60 37.20C46.98 37.66 47.70 40.60 48.90 40.00C50.10 39.40 52.98 34.66 53.80 33.60"/>
+  <path class="ink line" d="M60.60 37.50C60.98 37.92 61.70 40.60 62.90 40.00C64.10 39.40 66.98 34.92 67.80 33.90"/>
+  <path class="ink line" d="M74.60 37.58C74.98 37.98 75.70 40.60 76.90 40.00C78.10 39.40 80.98 34.98 81.80 33.98"/>
+  <path class="ink line" d="M88.60 37.21C88.98 37.68 89.70 40.60 90.90 40.00C92.10 39.40 94.98 34.68 95.80 33.61"/>
+  <path class="ink line" d="M102.60 37.04C102.98 37.54 103.70 40.60 104.90 40.00C106.10 39.40 108.98 34.54 109.80 33.44"/>
+  <path class="ink line" d="M116.60 37.08C116.98 37.57 117.70 40.60 118.90 40.00C120.10 39.40 122.98 34.57 123.80 33.48"/>
+  <path class="ink line" d="M130.60 37.31C130.98 37.76 131.70 40.60 132.90 40.00C134.10 39.40 136.98 34.76 137.80 33.71"/>
+  <path class="ink line" d="M144.60 37.27C144.98 37.72 145.70 40.60 146.90 40.00C148.10 39.40 150.98 34.72 151.80 33.67"/>
+  <path class="ink line" d="M158.60 37.20C158.98 37.66 159.70 40.60 160.90 40.00C162.10 39.40 164.98 34.66 165.80 33.60"/>
+  <path class="ink line" d="M172.60 37.09C172.98 37.57 173.70 40.60 174.90 40.00C176.10 39.40 178.98 34.57 179.80 33.49"/>
+  <path class="ink line" d="M186.60 37.44C186.98 37.87 187.70 40.60 188.90 40.00C190.10 39.40 192.98 34.87 193.80 33.84"/>
+  <path class="ink line" d="M200.60 37.38C200.98 37.82 201.70 40.60 202.90 40.00C204.10 39.40 206.98 34.82 207.80 33.78"/>
+  <path class="ink line" d="M214.60 37.64C214.98 38.03 215.70 40.60 216.90 40.00C218.10 39.40 220.98 35.03 221.80 34.04"/>
+  <path class="ink line" d="M228.60 37.66C228.98 38.05 229.70 40.60 230.90 40.00C232.10 39.40 234.98 35.05 235.80 34.06"/>
+  <path class="ink line" d="M242.60 36.71C242.98 37.26 243.70 40.60 244.90 40.00C246.10 39.40 248.98 34.26 249.80 33.11"/>
+  <path class="ink line" d="M256.60 37.10C256.98 37.58 257.70 40.60 258.90 40.00C260.10 39.40 262.98 34.58 263.80 33.50"/>
+  <path class="ink line" d="M270.60 37.44C270.98 37.87 271.70 40.60 272.90 40.00C274.10 39.40 276.98 34.87 277.80 33.84"/>
+  <path class="ink line" d="M284.60 37.24C284.98 37.70 285.70 40.60 286.90 40.00C288.10 39.40 290.98 34.70 291.80 33.64"/>
+  <path class="ink line" d="M298.60 37.32C298.98 37.76 299.70 40.60 300.90 40.00C302.10 39.40 304.98 34.76 305.80 33.72"/>
+  <path class="ink line" d="M15.00 76.00C16.00 76.00 19.00 76.01 21.00 76.01C23.00 76.00 25.00 75.99 27.00 75.99C29.00 75.99 31.00 75.99 33.00 75.99C35.00 75.99 37.00 75.97 39.00 75.97C41.00 75.96 43.00 75.94 45.00 75.95C47.00 75.95 49.00 75.98 51.00 76.00C53.00 76.02 55.00 76.06 57.00 76.07C59.00 76.07 61.00 76.06 63.00 76.05C65.00 76.04 67.00 76.02 69.00 76.01C71.00 76.00 73.00 76.01 75.00 76.01C77.00 76.00 79.00 76.00 81.00 75.98C83.00 75.97 85.00 75.93 87.00 75.92C89.00 75.91 91.00 75.91 93.00 75.92C95.00 75.94 97.00 76.00 99.00 76.03C101.00 76.05 103.00 76.08 105.00 76.08C107.00 76.08 109.00 76.05 111.00 76.05C113.00 76.04 115.00 76.03 117.00 76.03C119.00 76.03 121.00 76.04 123.00 76.03C125.00 76.02 127.00 75.98 129.00 75.96C131.00 75.93 133.00 75.89 135.00 75.88C137.00 75.88 139.00 75.91 141.00 75.94C143.00 75.97 145.00 76.02 147.00 76.04C149.00 76.06 151.00 76.06 153.00 76.06C155.00 76.06 157.00 76.04 159.00 76.04C161.00 76.04 163.00 76.06 165.00 76.06C167.00 76.06 169.00 76.06 171.00 76.03C173.00 76.01 175.00 75.95 177.00 75.93C179.00 75.90 181.00 75.88 183.00 75.89C185.00 75.89 187.00 75.95 189.00 75.97C191.00 75.99 193.00 76.02 195.00 76.03C197.00 76.04 199.00 76.03 201.00 76.03C203.00 76.03 205.00 76.04 207.00 76.05C209.00 76.06 211.00 76.09 213.00 76.08C215.00 76.07 217.00 76.04 219.00 76.01C221.00 75.98 223.00 75.93 225.00 75.91C227.00 75.90 229.00 75.91 231.00 75.92C233.00 75.93 235.00 75.97 237.00 75.99C239.00 76.00 241.00 76.00 243.00 76.00C245.00 76.01 247.00 76.00 249.00 76.01C251.00 76.02 253.00 76.06 255.00 76.06C257.00 76.07 259.00 76.08 261.00 76.07C263.00 76.05 265.00 76.01 267.00 75.99C269.00 75.97 271.00 75.95 273.00 75.94C275.00 75.94 277.00 75.96 279.00 75.97C281.00 75.97 283.00 75.99 285.00 75.99C287.00 75.99 289.00 75.99 291.00 75.99C293.00 75.99 295.00 76.01 297.00 76.01C299.00 76.02 301.00 76.03 303.00 76.03C305.00 76.03 308.00 76.00 309.00 76.00"/>
+  <path class="ink line" d="M15.00 90.00C16.00 90.00 19.00 89.99 21.00 89.99C23.00 90.00 25.00 90.02 27.00 90.03C29.00 90.04 31.00 90.04 33.00 90.04C35.00 90.03 37.00 90.02 39.00 90.01C41.00 90.01 43.00 90.01 45.00 90.00C47.00 90.00 49.00 90.00 51.00 89.99C53.00 89.98 55.00 89.95 57.00 89.94C59.00 89.93 61.00 89.92 63.00 89.93C65.00 89.94 67.00 89.98 69.00 90.01C71.00 90.03 73.00 90.06 75.00 90.07C77.00 90.07 79.00 90.05 81.00 90.05C83.00 90.04 85.00 90.03 87.00 90.03C89.00 90.02 91.00 90.04 93.00 90.03C95.00 90.02 97.00 90.00 99.00 89.98C101.00 89.95 103.00 89.91 105.00 89.90C107.00 89.89 109.00 89.90 111.00 89.93C113.00 89.95 115.00 90.01 117.00 90.03C119.00 90.05 121.00 90.06 123.00 90.06C125.00 90.06 127.00 90.04 129.00 90.04C131.00 90.04 133.00 90.06 135.00 90.06C137.00 90.06 139.00 90.07 141.00 90.05C143.00 90.03 145.00 89.97 147.00 89.94C149.00 89.92 151.00 89.88 153.00 89.88C155.00 89.88 157.00 89.93 159.00 89.95C161.00 89.98 163.00 90.02 165.00 90.03C167.00 90.04 169.00 90.03 171.00 90.03C173.00 90.03 175.00 90.04 177.00 90.05C179.00 90.06 181.00 90.09 183.00 90.09C185.00 90.08 187.00 90.06 189.00 90.03C191.00 90.01 193.00 89.94 195.00 89.92C197.00 89.90 199.00 89.89 201.00 89.90C203.00 89.91 205.00 89.96 207.00 89.98C209.00 89.99 211.00 90.00 213.00 90.01C215.00 90.01 217.00 90.00 219.00 90.01C221.00 90.02 223.00 90.05 225.00 90.07C227.00 90.08 229.00 90.10 231.00 90.09C233.00 90.08 235.00 90.03 237.00 90.00C239.00 89.98 241.00 89.94 243.00 89.93C245.00 89.92 247.00 89.94 249.00 89.95C251.00 89.96 253.00 89.98 255.00 89.98C257.00 89.99 259.00 89.98 261.00 89.98C263.00 89.99 265.00 90.00 267.00 90.01C269.00 90.03 271.00 90.06 273.00 90.06C275.00 90.07 277.00 90.06 279.00 90.05C281.00 90.04 283.00 90.00 285.00 89.99C287.00 89.97 289.00 89.97 291.00 89.97C293.00 89.97 295.00 89.98 297.00 89.98C299.00 89.99 301.00 89.99 303.00 89.99C305.00 89.99 308.00 90.00 309.00 90.00"/>
+  <path class="ink hair" d="M15.00 76.00C14.99 77.17 14.97 80.67 14.97 83.00C14.97 85.33 14.99 88.83 15.00 90.00"/>
+  <path class="ink hair" d="M29.00 76.00C28.99 77.17 28.96 80.67 28.96 83.00C28.96 85.33 28.99 88.83 29.00 90.00"/>
+  <path class="ink hair" d="M43.00 76.00C42.99 77.17 42.96 80.67 42.96 83.00C42.96 85.33 42.99 88.83 43.00 90.00"/>
+  <path class="ink hair" d="M57.00 76.00C57.00 77.17 57.00 80.67 57.00 83.00C57.00 85.33 57.00 88.83 57.00 90.00"/>
+  <path class="ink hair" d="M71.00 76.00C71.01 77.17 71.04 80.67 71.04 83.00C71.04 85.33 71.01 88.83 71.00 90.00"/>
+  <path class="ink hair" d="M85.00 76.00C85.00 77.17 85.00 80.67 85.00 83.00C85.00 85.33 85.00 88.83 85.00 90.00"/>
+  <path class="ink hair" d="M99.00 76.00C99.01 77.17 99.07 80.67 99.07 83.00C99.07 85.33 99.01 88.83 99.00 90.00"/>
+  <path class="ink hair" d="M113.00 76.00C112.99 77.17 112.94 80.67 112.94 83.00C112.94 85.33 112.99 88.83 113.00 90.00"/>
+  <path class="ink hair" d="M127.00 76.00C126.99 77.17 126.95 80.67 126.95 83.00C126.95 85.33 126.99 88.83 127.00 90.00"/>
+  <path class="ink hair" d="M141.00 76.00C141.00 77.17 140.98 80.67 140.98 83.00C140.98 85.33 141.00 88.83 141.00 90.00"/>
+  <path class="ink hair" d="M155.00 76.00C154.99 77.17 154.96 80.67 154.96 83.00C154.96 85.33 154.99 88.83 155.00 90.00"/>
+  <path class="ink hair" d="M169.00 76.00C168.99 77.17 168.94 80.67 168.94 83.00C168.94 85.33 168.99 88.83 169.00 90.00"/>
+  <path class="ink hair" d="M183.00 76.00C182.99 77.17 182.96 80.67 182.96 83.00C182.96 85.33 182.99 88.83 183.00 90.00"/>
+  <path class="ink hair" d="M197.00 76.00C197.01 77.17 197.06 80.67 197.06 83.00C197.06 85.33 197.01 88.83 197.00 90.00"/>
+  <path class="ink hair" d="M211.00 76.00C211.00 77.17 211.02 80.67 211.02 83.00C211.02 85.33 211.00 88.83 211.00 90.00"/>
+  <path class="ink hair" d="M225.00 76.00C224.99 77.17 224.97 80.67 224.97 83.00C224.97 85.33 224.99 88.83 225.00 90.00"/>
+  <path class="ink hair" d="M239.00 76.00C238.99 77.17 238.94 80.67 238.94 83.00C238.94 85.33 238.99 88.83 239.00 90.00"/>
+  <path class="ink hair" d="M253.00 76.00C253.00 77.17 252.99 80.67 252.99 83.00C252.99 85.33 253.00 88.83 253.00 90.00"/>
+  <path class="ink hair" d="M267.00 76.00C267.01 77.17 267.03 80.67 267.03 83.00C267.03 85.33 267.01 88.83 267.00 90.00"/>
+  <path class="ink hair" d="M281.00 76.00C281.00 77.17 281.02 80.67 281.02 83.00C281.02 85.33 281.00 88.83 281.00 90.00"/>
+  <path class="ink hair" d="M295.00 76.00C295.01 77.17 295.05 80.67 295.05 83.00C295.05 85.33 295.01 88.83 295.00 90.00"/>
+  <path class="ink hair" d="M309.00 76.00C308.99 77.17 308.94 80.67 308.94 83.00C308.94 85.33 308.99 88.83 309.00 90.00"/>
+  <path class="ink line" d="M18.60 83.13C18.98 83.60 19.70 86.60 20.90 86.00C22.10 85.40 24.98 80.60 25.80 79.53"/>
+  <path class="ink line" d="M32.60 83.62C32.98 84.02 33.70 86.60 34.90 86.00C36.10 85.40 38.98 81.02 39.80 80.02"/>
+  <path class="ink line" d="M46.60 83.48C46.98 83.90 47.70 86.60 48.90 86.00C50.10 85.40 52.98 80.90 53.80 79.88"/>
+  <path class="ink bold" d="M295.00 76.00C296.17 76.01 299.67 76.08 302.00 76.08C304.33 76.08 307.83 76.01 309.00 76.00"/>
+  <path class="ink bold" d="M309.00 76.00C309.00 77.17 309.00 80.67 309.00 83.00C309.00 85.33 309.00 88.83 309.00 90.00"/>
+  <path class="ink bold" d="M309.00 90.00C307.83 90.01 304.33 90.07 302.00 90.07C299.67 90.07 296.17 90.01 295.00 90.00"/>
+  <path class="ink bold" d="M295.00 90.00C295.00 88.83 295.02 85.33 295.02 83.00C295.02 80.67 295.00 77.17 295.00 76.00"/>
+  <path class="ink hair" d="M59.00 99.00L293.00 99.00"/>
+  <path class="ink hair" d="M59.00 96.40L59.00 101.60"/>
+  <path class="ink hair" d="M293.00 96.40L293.00 101.60"/>
+</g>
 </svg>

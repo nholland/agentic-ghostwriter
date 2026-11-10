@@ -1,0 +1,124 @@
+<svg class="plate" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 510.27" role="img" aria-label="The Tipping Scale"><style>/* ------------------------------------------------------------------
+   River, Oak, Sun — plate style ("Engraved Line")
+   One declaration for every plate. Plates carry class names only;
+   change a value here and every plate changes with it.
+   Plates are drawn on a 324-unit canvas and printed at 86% of the text
+   block, so the art keeps clear air on both sides. Weights and sizes below
+   are in canvas units; the comments give what that prints as.
+   ------------------------------------------------------------------ */
+
+:root {
+  /* Ink. One ink, no greys: tone is made from line density, never opacity. */
+  --plate-ink: #111;
+  --plate-paper: #fff;
+
+  /* Three line weights (print as 0.4 / 0.7 / 1.5 pt). Nothing else is allowed. */
+  --w-hair: 0.47;  /* measures, ticks, dotted "not yet" lines   */
+  --w-line: 0.82;  /* the body of every drawing                  */
+  --w-bold: 1.75;  /* the one thing the plate is about           */
+
+  /* Lettering. Same face as the book body. */
+  --plate-font: Georgia, 'Liberation Serif', serif;  /* exactly the book body stack, scripts/chapter_pdf_local.py (author, 2026-11-10: plates in Georgia) */
+  --t-caps: 7.4px;      /* prints ~6.4pt. fixed things: what is given */
+  --t-ital: 10px;       /* prints ~8.6pt. moving things: chosen, felt */
+  --caps-track: 0.2em;
+}
+
+/* ---- linework ---- */
+.plate        { color: var(--plate-ink); font-family: var(--plate-font); overflow: visible; }
+.plate .ink   { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.plate .hair  { stroke-width: var(--w-hair); }
+.plate .line  { stroke-width: var(--w-line); }
+.plate .bold  { stroke-width: var(--w-bold); }
+.plate .dotted { stroke-dasharray: 0.01 2.3; }           /* latent, not yet happened */
+.plate .bold.dotted { stroke-dasharray: 0.01 3.7; }                  /* heavier dots need more air */
+.plate .knock { fill: var(--plate-paper); }               /* shape that clears what is behind it */
+.plate .solid { fill: currentColor; stroke: none; }
+
+/* ---- lettering inside the art ---- */
+.plate text   { fill: currentColor; stroke: none; }
+.plate .caps  { font-size: var(--t-caps); letter-spacing: var(--caps-track); text-transform: uppercase; font-weight: 500; }
+.plate .ital  { font-size: var(--t-ital); font-style: italic; }
+
+/* ---- plate furniture (HTML around the SVG) ---- */
+figure.plate-fig            { margin: 0; text-align: center; color: var(--plate-ink); font-family: var(--plate-font); break-inside: avoid; }
+.plate-fig .plate-title     { font-size: 19pt; font-weight: 400; letter-spacing: 0.01em; line-height: 1.12; margin: 0 auto 6pt; max-width: 88%; text-wrap: balance; }
+.plate-fig .plate-deck      { font-size: 10pt; font-style: italic; line-height: 1.35; margin: 0 auto 26pt; text-wrap: balance; }
+.plate-fig svg              { display: block; width: 86%; height: auto; margin: 0 auto; }
+.plate-fig figcaption       { font-size: 10.5pt; font-style: italic; margin: 24pt 0 0; }
+.plate-fig figcaption::before { content: ""; display: block; width: 18pt; border-top: 0.5pt solid currentColor; margin: 0 auto 11pt; }
+
+/* ---- interludes: full-page drawings between the parts ---- */
+.plate-fig.interlude figcaption          { font-size: 12pt; line-height: 1.5; margin-top: 30pt; }
+.plate-fig.interlude figcaption::before  { display: none; }
+
+.plate .ttl { font-weight: 400; letter-spacing: 0.01em; }</style>
+<text class="ttl" x="320.00" y="74.52" style="font-size:37.53px;text-anchor:middle">The Tipping Scale</text>
+<text class="ital deck" x="320.00" y="117.17" style="font-size:19.75px;text-anchor:middle">Unfairness rarely arrives as one moment.</text>
+<path class="ink" style="stroke-width:0.99" d="M302.22 415.58H337.78"/>
+<text class="ital cap" x="320.00" y="454.94" style="font-size:20.74px;text-anchor:middle">The last pebble is rarely the whole weight.</text>
+<text class="caps" x="179.00" y="193.20" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">UNCOUNTED</text>
+<text class="ital" x="179.00" y="257.75" style="font-size:16.99px;text-anchor:middle">the last pebble</text>
+<text class="caps" x="461.00" y="193.20" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">NAMED WHEN IT LANDS</text>
+<g transform="translate(44.80 177.91) scale(1.69877)">
+  <path class="ink hair" d="M21.57 81.96L37.55 81.96"/>
+  <path class="ink hair" d="M28.59 87.60L38.64 87.60"/>
+  <path class="ink hair" d="M21.03 87.79L33.31 87.79"/>
+  <path class="ink hair" d="M12.43 71.34L24.66 71.34"/>
+  <path class="ink hair" d="M104.70 80.84L120.52 80.84"/>
+  <path class="ink hair" d="M22.74 77.49L32.31 77.49"/>
+  <path class="ink hair" d="M110.78 84.98L126.72 84.98"/>
+  <path class="ink line" d="M6.00 100.88C7.01 100.91 10.06 101.13 12.08 101.05C14.11 100.97 16.14 100.61 18.17 100.42C20.19 100.23 22.22 100.00 24.25 99.91C26.28 99.81 28.31 99.90 30.33 99.85C32.36 99.80 34.39 99.74 36.42 99.61C38.44 99.48 40.47 99.14 42.50 99.05C44.53 98.96 46.56 98.89 48.58 99.05C50.61 99.22 52.64 99.70 54.67 100.02C56.69 100.33 58.72 100.80 60.75 100.95C62.78 101.10 64.81 101.02 66.83 100.92C68.86 100.82 70.89 100.48 72.92 100.36C74.94 100.23 76.97 100.20 79.00 100.16C81.03 100.13 83.06 100.23 85.08 100.13C87.11 100.04 89.14 99.80 91.17 99.60C93.19 99.39 95.22 99.00 97.25 98.92C99.28 98.83 101.31 98.90 103.33 99.09C105.36 99.27 107.39 99.77 109.42 100.04C111.44 100.31 113.47 100.60 115.50 100.69C117.53 100.79 119.56 100.66 121.58 100.62C123.61 100.57 125.64 100.46 127.67 100.44C129.69 100.41 131.72 100.52 133.75 100.48C135.78 100.44 137.81 100.38 139.83 100.21C141.86 100.03 143.89 99.65 145.92 99.45C147.94 99.25 150.99 99.08 152.00 99.01"/>
+  <circle class="ink knock line" cx="56.69" cy="96.61" r="3.42"/>
+  <circle class="ink knock line" cx="64.25" cy="96.74" r="3.38"/>
+  <circle class="ink knock line" cx="72.04" cy="96.73" r="3.27"/>
+  <circle class="ink knock line" cx="78.90" cy="96.85" r="3.23"/>
+  <circle class="ink knock line" cx="86.77" cy="96.96" r="3.12"/>
+  <circle class="ink knock line" cx="94.08" cy="96.95" r="3.29"/>
+  <circle class="ink knock line" cx="101.30" cy="96.59" r="3.26"/>
+  <circle class="ink knock line" cx="60.86" cy="90.34" r="3.43"/>
+  <circle class="ink knock line" cx="68.31" cy="90.41" r="3.11"/>
+  <circle class="ink knock line" cx="75.65" cy="90.38" r="3.1"/>
+  <circle class="ink knock line" cx="82.70" cy="90.23" r="3.03"/>
+  <circle class="ink knock line" cx="89.76" cy="90.55" r="3.47"/>
+  <circle class="ink knock line" cx="96.82" cy="90.74" r="3.21"/>
+  <circle class="ink knock line" cx="64.09" cy="84.36" r="3.38"/>
+  <circle class="ink knock line" cx="71.89" cy="84.03" r="3.46"/>
+  <circle class="ink knock line" cx="78.63" cy="84.14" r="3.14"/>
+  <circle class="ink knock line" cx="86.75" cy="84.50" r="3.26"/>
+  <circle class="ink knock line" cx="93.16" cy="84.13" r="3.1"/>
+  <circle class="ink knock line" cx="67.93" cy="78.31" r="2.99"/>
+  <circle class="ink knock line" cx="75.60" cy="78.29" r="3.02"/>
+  <circle class="ink knock line" cx="82.16" cy="78.35" r="3.52"/>
+  <circle class="ink knock line" cx="90.34" cy="78.23" r="3.18"/>
+  <circle class="ink knock line" cx="71.29" cy="71.69" r="3.43"/>
+  <circle class="ink knock line" cx="79.49" cy="71.62" r="3.42"/>
+  <circle class="ink knock line" cx="86.05" cy="71.72" r="3.3"/>
+  <circle class="ink knock line" cx="75.79" cy="65.75" r="3.46"/>
+  <circle class="ink knock line" cx="82.19" cy="65.41" r="3.15"/>
+  <circle class="solid" cx="79.00" cy="59.50" r="3.5999999999999996"/>
+  <path class="ink line" d="M6.00 59.70C7.00 59.70 10.00 59.69 12.00 59.69C14.00 59.70 16.00 59.73 18.00 59.73C20.00 59.74 22.00 59.63 24.00 59.72C26.00 59.81 28.00 60.13 30.00 60.26C32.00 60.40 34.00 60.57 36.00 60.53C38.00 60.50 40.00 60.17 42.00 60.05C44.00 59.94 46.00 59.88 48.00 59.85C50.00 59.81 52.00 59.88 54.00 59.86C56.00 59.84 58.00 59.69 60.00 59.73C62.00 59.77 65.00 60.04 66.00 60.10"/>
+  <path class="ink line" d="M92.00 59.75C93.00 59.72 96.00 59.53 98.00 59.56C100.00 59.59 102.00 59.79 104.00 59.94C106.00 60.09 108.00 60.38 110.00 60.44C112.00 60.49 114.00 60.32 116.00 60.26C118.00 60.21 120.00 60.16 122.00 60.13C124.00 60.10 126.00 60.17 128.00 60.09C130.00 60.01 132.00 59.72 134.00 59.65C136.00 59.57 138.00 59.55 140.00 59.64C142.00 59.73 144.00 60.10 146.00 60.20C148.00 60.31 151.00 60.25 152.00 60.26"/>
+  <path class="ink line" d="M66.00 60.06C66.75 59.90 69.10 59.48 70.50 59.10C71.90 58.72 73.75 58.02 74.40 57.80"/>
+  <path class="ink line" d="M92.00 59.82C91.25 59.70 88.90 59.44 87.50 59.10C86.10 58.76 84.25 58.02 83.60 57.80"/>
+  <path class="ink hair" d="M281.27 70.29L293.20 70.29"/>
+  <path class="ink hair" d="M231.59 71.73L242.11 71.73"/>
+  <path class="ink hair" d="M242.21 85.68L255.63 85.68"/>
+  <path class="ink hair" d="M274.06 79.74L284.67 79.74"/>
+  <path class="ink hair" d="M227.29 81.63L241.12 81.63"/>
+  <path class="ink hair" d="M216.87 73.38L231.82 73.38"/>
+  <path class="ink line" d="M172.00 100.79C173.01 100.84 176.06 101.12 178.08 101.05C180.11 100.99 182.14 100.65 184.17 100.43C186.19 100.21 188.22 99.89 190.25 99.76C192.28 99.64 194.31 99.69 196.33 99.68C198.36 99.67 200.39 99.75 202.42 99.69C204.44 99.64 206.47 99.43 208.50 99.36C210.53 99.29 212.56 99.16 214.58 99.27C216.61 99.38 218.64 99.74 220.67 100.01C222.69 100.29 224.72 100.76 226.75 100.90C228.78 101.04 230.81 100.99 232.83 100.86C234.86 100.73 236.89 100.32 238.92 100.14C240.94 99.96 242.97 99.83 245.00 99.79C247.03 99.76 249.06 99.94 251.08 99.94C253.11 99.94 255.14 99.90 257.17 99.79C259.19 99.69 261.22 99.37 263.25 99.30C265.28 99.23 267.31 99.22 269.33 99.37C271.36 99.52 273.39 99.97 275.42 100.21C277.44 100.46 279.47 100.78 281.50 100.84C283.53 100.89 285.56 100.70 287.58 100.57C289.61 100.43 291.64 100.13 293.67 100.03C295.69 99.92 297.72 99.94 299.75 99.92C301.78 99.91 303.81 99.99 305.83 99.93C307.86 99.87 309.89 99.67 311.92 99.56C313.94 99.45 316.99 99.32 318.00 99.28"/>
+  <path class="ink line" d="M172.00 59.68C173.01 59.74 176.06 59.96 178.08 60.02C180.11 60.09 182.14 60.00 184.17 60.04C186.19 60.08 188.22 60.23 190.25 60.27C192.28 60.30 194.31 60.36 196.33 60.25C198.36 60.15 200.39 59.76 202.42 59.65C204.44 59.54 206.47 59.53 208.50 59.58C210.53 59.64 212.56 59.90 214.58 59.98C216.61 60.05 218.64 59.98 220.67 60.03C222.69 60.08 224.72 60.20 226.75 60.28C228.78 60.37 230.81 60.57 232.83 60.53C234.86 60.50 236.89 60.19 238.92 60.05C240.94 59.91 242.97 59.73 245.00 59.68C247.03 59.64 249.06 59.78 251.08 59.78C253.11 59.78 255.14 59.64 257.17 59.66C259.19 59.68 261.22 59.74 263.25 59.88C265.28 60.01 267.31 60.39 269.33 60.45C271.36 60.52 273.39 60.39 275.42 60.29C277.44 60.20 279.47 59.94 281.50 59.88C283.53 59.81 285.56 59.91 287.58 59.89C289.61 59.87 291.64 59.77 293.67 59.77C295.69 59.76 297.72 59.75 299.75 59.86C301.78 59.98 303.81 60.36 305.83 60.44C307.86 60.53 309.89 60.47 311.92 60.37C313.94 60.27 316.99 59.92 318.00 59.83"/>
+  <circle class="solid" cx="185.07" cy="96.90" r="3.02"/>
+  <circle class="solid" cx="196.55" cy="96.90" r="3.46"/>
+  <circle class="solid" cx="210.04" cy="96.90" r="3.31"/>
+  <circle class="solid" cx="220.47" cy="96.90" r="3.2"/>
+  <circle class="solid" cx="232.37" cy="96.90" r="3.22"/>
+  <circle class="solid" cx="243.88" cy="96.90" r="3.4"/>
+  <circle class="solid" cx="256.99" cy="96.90" r="3.29"/>
+  <circle class="solid" cx="267.66" cy="96.90" r="3.26"/>
+  <circle class="solid" cx="281.46" cy="96.90" r="3.22"/>
+  <circle class="solid" cx="292.93" cy="96.90" r="3.34"/>
+  <circle class="solid" cx="305.00" cy="96.90" r="3.27"/>
+</g>
+</svg>

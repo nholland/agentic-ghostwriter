@@ -353,7 +353,8 @@ def rows(svg_path, chapter=None, part=None, book_root=None, runs_root=None, rend
         tag = 'ch%02d' % chapter
         cands = [os.path.join(runs_root, tag), os.path.join(book_root, 'chapters', tag)]
         mech, src = mechanism_line(cands)
-        ttl = next((b['text'] for b in bx if b['cls'] == 'ttl'), '')
+        # A title may wrap onto several ttl lines (the 2026-11-10 plate kit); read them as one.
+        ttl = ' '.join(b['text'] for b in bx if b['cls'] == 'ttl')
         aria = re.search(r'aria-label="([^"]*)"', s)
         aria = aria.group(1) if aria else ''
         if mech is None:

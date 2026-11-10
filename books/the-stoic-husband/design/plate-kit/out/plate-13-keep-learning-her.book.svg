@@ -1,0 +1,83 @@
+<svg class="plate" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 819.76" role="img" aria-label="Keep learning her after you’ve won her"><style>/* ------------------------------------------------------------------
+   River, Oak, Sun — plate style ("Engraved Line")
+   One declaration for every plate. Plates carry class names only;
+   change a value here and every plate changes with it.
+   Plates are drawn on a 324-unit canvas and printed at 86% of the text
+   block, so the art keeps clear air on both sides. Weights and sizes below
+   are in canvas units; the comments give what that prints as.
+   ------------------------------------------------------------------ */
+
+:root {
+  /* Ink. One ink, no greys: tone is made from line density, never opacity. */
+  --plate-ink: #111;
+  --plate-paper: #fff;
+
+  /* Three line weights (print as 0.4 / 0.7 / 1.5 pt). Nothing else is allowed. */
+  --w-hair: 0.47;  /* measures, ticks, dotted "not yet" lines   */
+  --w-line: 0.82;  /* the body of every drawing                  */
+  --w-bold: 1.75;  /* the one thing the plate is about           */
+
+  /* Lettering. Same face as the book body. */
+  --plate-font: Georgia, 'Liberation Serif', serif;  /* exactly the book body stack, scripts/chapter_pdf_local.py (author, 2026-11-10: plates in Georgia) */
+  --t-caps: 7.4px;      /* prints ~6.4pt. fixed things: what is given */
+  --t-ital: 10px;       /* prints ~8.6pt. moving things: chosen, felt */
+  --caps-track: 0.2em;
+}
+
+/* ---- linework ---- */
+.plate        { color: var(--plate-ink); font-family: var(--plate-font); overflow: visible; }
+.plate .ink   { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.plate .hair  { stroke-width: var(--w-hair); }
+.plate .line  { stroke-width: var(--w-line); }
+.plate .bold  { stroke-width: var(--w-bold); }
+.plate .dotted { stroke-dasharray: 0.01 2.3; }           /* latent, not yet happened */
+.plate .bold.dotted { stroke-dasharray: 0.01 3.7; }                  /* heavier dots need more air */
+.plate .knock { fill: var(--plate-paper); }               /* shape that clears what is behind it */
+.plate .solid { fill: currentColor; stroke: none; }
+
+/* ---- lettering inside the art ---- */
+.plate text   { fill: currentColor; stroke: none; }
+.plate .caps  { font-size: var(--t-caps); letter-spacing: var(--caps-track); text-transform: uppercase; font-weight: 500; }
+.plate .ital  { font-size: var(--t-ital); font-style: italic; }
+
+/* ---- plate furniture (HTML around the SVG) ---- */
+figure.plate-fig            { margin: 0; text-align: center; color: var(--plate-ink); font-family: var(--plate-font); break-inside: avoid; }
+.plate-fig .plate-title     { font-size: 19pt; font-weight: 400; letter-spacing: 0.01em; line-height: 1.12; margin: 0 auto 6pt; max-width: 88%; text-wrap: balance; }
+.plate-fig .plate-deck      { font-size: 10pt; font-style: italic; line-height: 1.35; margin: 0 auto 26pt; text-wrap: balance; }
+.plate-fig svg              { display: block; width: 86%; height: auto; margin: 0 auto; }
+.plate-fig figcaption       { font-size: 10.5pt; font-style: italic; margin: 24pt 0 0; }
+.plate-fig figcaption::before { content: ""; display: block; width: 18pt; border-top: 0.5pt solid currentColor; margin: 0 auto 11pt; }
+
+/* ---- interludes: full-page drawings between the parts ---- */
+.plate-fig.interlude figcaption          { font-size: 12pt; line-height: 1.5; margin-top: 30pt; }
+.plate-fig.interlude figcaption::before  { display: none; }
+
+.plate .ttl { font-weight: 400; letter-spacing: 0.01em; }</style>
+<text class="ttl" x="320.00" y="74.52" style="font-size:37.53px;text-anchor:middle">Keep learning her</text>
+<text class="ttl" x="320.00" y="116.56" style="font-size:37.53px;text-anchor:middle">after you’ve won her</text>
+<text class="ital deck" x="320.00" y="159.20" style="font-size:19.75px;text-anchor:middle">One thing she’d be excited</text>
+<text class="ital deck" x="320.00" y="185.87" style="font-size:19.75px;text-anchor:middle">about this Saturday.</text>
+<path class="ink" style="stroke-width:0.99" d="M302.22 671.15H337.78"/>
+<text class="ital cap" x="320.00" y="710.50" style="font-size:20.74px;text-anchor:middle">You can love her and keep doing things</text>
+<text class="ital cap" x="320.00" y="737.47" style="font-size:20.74px;text-anchor:middle">for her, and still have stopped</text>
+<text class="ital cap" x="320.00" y="764.43" style="font-size:20.74px;text-anchor:middle">being curious about who she is now.</text>
+<text class="caps" x="46.50" y="261.90" style="font-size:12.57px;text-anchor:start;letter-spacing:0.2em">PLANNING A DATE</text>
+<text class="ital" x="483.08" y="415.64" style="font-size:16.99px;text-anchor:middle">what she liked at twenty-six</text>
+<text class="caps" x="46.50" y="460.66" style="font-size:12.57px;text-anchor:start;letter-spacing:0.2em">ASK HER</text>
+<text class="ital" x="130.08" y="461.34" style="font-size:16.99px;text-anchor:start">and ask about it again later in the week</text>
+<text class="ital" x="483.08" y="614.40" style="font-size:16.99px;text-anchor:middle">who she is now</text>
+<g transform="translate(44.80 246.61) scale(1.69877)">
+  <path class="ink hair" d="M26.00 85.00L298.00 85.00"/>
+  <path class="ink line" d="M56.64 85.00C56.92 82.40 58.18 74.60 58.33 69.40C58.48 64.20 57.48 58.02 57.55 53.80C57.61 49.57 57.83 46.43 58.72 44.05C59.61 41.67 61.15 40.26 62.88 39.50C64.61 38.74 67.39 38.74 69.12 39.50C70.85 40.26 72.39 41.67 73.28 44.05C74.17 46.43 74.39 49.57 74.45 53.80C74.52 58.02 73.52 64.20 73.67 69.40C73.82 74.60 75.08 82.40 75.36 85.00"/>
+  <circle class="ink line" cx="66.00" cy="31.05" r="5.85"/>
+  <path class="ink line dotted" d="M245.31 85.00C245.80 82.76 247.14 76.26 248.24 71.58C249.34 66.90 251.35 61.01 251.90 56.94C252.45 52.87 250.98 49.52 251.53 47.18C252.08 44.84 253.65 43.62 255.19 42.91C256.74 42.20 259.26 42.20 260.81 42.91C262.35 43.62 263.92 44.84 264.47 47.18C265.01 49.52 263.55 52.87 264.10 56.94C264.65 61.01 266.66 66.90 267.76 71.58C268.86 76.26 270.20 82.76 270.69 85.00"/>
+  <circle class="ink line dotted" cx="258.00" cy="34.37" r="5.49"/>
+  <path class="ink line" d="M92.00 47.95C93.01 47.87 96.03 47.60 98.04 47.42C100.06 47.25 102.07 47.00 104.09 46.93C106.10 46.85 108.12 46.86 110.13 46.99C112.14 47.11 114.16 47.43 116.17 47.68C118.19 47.93 120.20 48.29 122.22 48.48C124.23 48.68 126.25 48.80 128.26 48.83C130.28 48.86 132.29 48.73 134.30 48.65C136.32 48.58 138.33 48.43 140.35 48.39C142.36 48.34 144.38 48.36 146.39 48.36C148.41 48.37 150.42 48.46 152.43 48.43C154.45 48.40 156.46 48.33 158.48 48.18C160.49 48.03 162.51 47.73 164.52 47.52C166.54 47.30 168.55 47.01 170.57 46.90C172.58 46.80 174.59 46.79 176.61 46.89C178.62 46.99 180.64 47.29 182.65 47.51C184.67 47.74 186.68 48.07 188.70 48.25C190.71 48.43 192.72 48.54 194.74 48.58C196.75 48.62 198.77 48.52 200.78 48.49C202.80 48.46 204.81 48.39 206.83 48.40C208.84 48.41 210.86 48.50 212.87 48.55C214.88 48.60 216.90 48.73 218.91 48.70C220.93 48.68 222.94 48.59 224.96 48.42C226.97 48.24 229.99 47.79 231.00 47.67"/>
+  <path class="ink hair" d="M26.00 202.00L298.00 202.00"/>
+  <path class="ink line" d="M56.64 202.00C56.92 199.40 58.18 191.60 58.33 186.40C58.48 181.20 57.48 175.03 57.55 170.80C57.61 166.58 57.83 163.43 58.72 161.05C59.61 158.67 61.15 157.26 62.88 156.50C64.61 155.74 67.39 155.74 69.12 156.50C70.85 157.26 72.39 158.67 73.28 161.05C74.17 163.43 74.39 166.58 74.45 170.80C74.52 175.03 73.52 181.20 73.67 186.40C73.82 191.60 75.08 199.40 75.36 202.00"/>
+  <circle class="ink line" cx="66.00" cy="148.05" r="5.85"/>
+  <path class="ink line" d="M245.31 202.00C245.80 199.76 247.14 193.26 248.24 188.58C249.34 183.90 251.35 178.01 251.90 173.94C252.45 169.87 250.98 166.52 251.53 164.18C252.08 161.84 253.65 160.62 255.19 159.91C256.74 159.20 259.26 159.20 260.81 159.91C262.35 160.62 263.92 161.84 264.47 164.18C265.01 166.52 263.55 169.87 264.10 173.94C264.65 178.01 266.66 183.90 267.76 188.58C268.86 193.26 270.20 199.76 270.69 202.00"/>
+  <circle class="ink line" cx="258.00" cy="151.37" r="5.49"/>
+  <path class="ink bold" d="M92.00 163.87C93.01 163.96 96.03 164.16 98.04 164.39C100.06 164.61 102.07 164.99 104.09 165.22C106.10 165.45 108.12 165.66 110.13 165.74C112.14 165.82 114.16 165.76 116.17 165.71C118.19 165.66 120.20 165.50 122.22 165.45C124.23 165.39 126.25 165.37 128.26 165.37C130.28 165.38 132.29 165.48 134.30 165.48C136.32 165.48 138.33 165.47 140.35 165.36C142.36 165.24 144.38 165.00 146.39 164.78C148.41 164.56 150.42 164.22 152.43 164.06C154.45 163.90 156.46 163.78 158.48 163.81C160.49 163.84 162.51 164.05 164.52 164.25C166.54 164.45 168.55 164.80 170.57 165.01C172.58 165.21 174.59 165.40 176.61 165.48C178.62 165.56 180.64 165.51 182.65 165.50C184.67 165.48 186.68 165.38 188.70 165.38C190.71 165.38 192.72 165.44 194.74 165.50C196.75 165.56 198.77 165.71 200.78 165.73C202.80 165.75 204.81 165.74 206.83 165.61C208.84 165.49 210.86 165.21 212.87 164.96C214.88 164.72 216.90 164.35 218.91 164.16C220.93 163.97 222.94 163.83 224.96 163.83C226.97 163.84 229.99 164.13 231.00 164.19"/>
+</g>
+</svg>

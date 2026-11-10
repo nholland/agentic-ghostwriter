@@ -1,44 +1,136 @@
-<!-- Ch16 plate, revision for "The Marriage in Flow": concept A, the capstone, redrawn as a house. Left: two walls, CALM and STRENGTH, standing on one floor line under an empty dashed roof; structurally sound. Right: the same walls with WARMTH laid on top as the roof; a home. Blocks mirrored at 180/460 about 320. Weights: 1.4 quiet, 2 standard, 3.2 carrier. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" width="640" height="470" style="color:#1a1a1a" role="img" aria-label="Calm and strength make the marriage sound; warmth makes it a home">
-  <style>
-    .ttl{font:600 13px Georgia,'Times New Roman',serif;text-anchor:middle}
-    .sub{font:italic 14px Georgia,'Times New Roman',serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 13px Georgia,'Times New Roman',serif;letter-spacing:.12em;text-anchor:middle}
-    .lblw{font:600 14px Georgia,'Times New Roman',serif;letter-spacing:.14em;text-anchor:middle}
-    .cap{font:italic 13px Georgia,'Times New Roman',serif;text-anchor:middle;opacity:.74}
-    .capq{font:italic 600 14px Georgia,'Times New Roman',serif;text-anchor:middle}
-  </style>
-  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
-  <g fill="currentColor">
-    <text class="ttl" x="320" y="40">Calm and strength make the marriage sound; warmth makes it a home</text>
-    <text class="sub" x="320" y="84">Warmth is what the calm and the strength were for</text>
-  </g>
-  <!-- left: the walls alone, sound, the roof slot empty -->
-  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="5 5" stroke-linejoin="round" opacity=".45"><path d="M88 206L180 136L272 206Z"/></g>
-  <g fill="#ffffff" stroke="currentColor" stroke-width="2">
-    <rect x="120" y="206" width="28" height="130"/>
-    <rect x="212" y="206" width="28" height="130"/>
-    <rect x="400" y="206" width="28" height="130"/>
-    <rect x="492" y="206" width="28" height="130"/>
-  </g>
-  <!-- right: the same walls, warmth laid on top as the roof -->
-  <g fill="currentColor" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"><path d="M368 206L460 136L552 206Z"/></g>
-  <text class="lblw" x="460" y="196" fill="#ffffff">WARMTH</text>
-  <!-- doors and floor lines, identical on both sides -->
-  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".6"><path d="M168 336V296H192V336M448 336V296H472V336"/></g>
-  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M88 336H272M368 336H552"/></g>
-  <!-- the move between them -->
-  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M290 271H350M350 271l-9 -6M350 271l-9 6"/></g>
-  <g fill="currentColor">
-    <text class="cap" x="180" y="122">calm alone can go cold</text>
-    <text class="cap" x="460" y="122">small, warm things</text>
-    <text class="lbl" x="134" y="360">CALM</text>
-    <text class="lbl" x="226" y="360">STRENGTH</text>
-    <text class="lbl" x="414" y="360">CALM</text>
-    <text class="lbl" x="506" y="360">STRENGTH</text>
-    <text class="cap" x="180" y="388">structurally sound</text>
-    <text class="cap" x="460" y="388">a home</text>
-  </g>
-  <g fill="none" stroke="currentColor" stroke-width="1.4" opacity=".28"><path d="M120 410H520"/></g>
-  <text class="capq" x="320" y="440" fill="currentColor">At peace, at its best, and flourishing</text>
+<svg class="plate" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 712.74" role="img" aria-label="Calm and strength make the marriage sound; warmth makes it a home"><style>/* ------------------------------------------------------------------
+   River, Oak, Sun — plate style ("Engraved Line")
+   One declaration for every plate. Plates carry class names only;
+   change a value here and every plate changes with it.
+   Plates are drawn on a 324-unit canvas and printed at 86% of the text
+   block, so the art keeps clear air on both sides. Weights and sizes below
+   are in canvas units; the comments give what that prints as.
+   ------------------------------------------------------------------ */
+
+:root {
+  /* Ink. One ink, no greys: tone is made from line density, never opacity. */
+  --plate-ink: #111;
+  --plate-paper: #fff;
+
+  /* Three line weights (print as 0.4 / 0.7 / 1.5 pt). Nothing else is allowed. */
+  --w-hair: 0.47;  /* measures, ticks, dotted "not yet" lines   */
+  --w-line: 0.82;  /* the body of every drawing                  */
+  --w-bold: 1.75;  /* the one thing the plate is about           */
+
+  /* Lettering. Same face as the book body. */
+  --plate-font: Georgia, 'Liberation Serif', serif;  /* exactly the book body stack, scripts/chapter_pdf_local.py (author, 2026-11-10: plates in Georgia) */
+  --t-caps: 7.4px;      /* prints ~6.4pt. fixed things: what is given */
+  --t-ital: 10px;       /* prints ~8.6pt. moving things: chosen, felt */
+  --caps-track: 0.2em;
+}
+
+/* ---- linework ---- */
+.plate        { color: var(--plate-ink); font-family: var(--plate-font); overflow: visible; }
+.plate .ink   { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.plate .hair  { stroke-width: var(--w-hair); }
+.plate .line  { stroke-width: var(--w-line); }
+.plate .bold  { stroke-width: var(--w-bold); }
+.plate .dotted { stroke-dasharray: 0.01 2.3; }           /* latent, not yet happened */
+.plate .bold.dotted { stroke-dasharray: 0.01 3.7; }                  /* heavier dots need more air */
+.plate .knock { fill: var(--plate-paper); }               /* shape that clears what is behind it */
+.plate .solid { fill: currentColor; stroke: none; }
+
+/* ---- lettering inside the art ---- */
+.plate text   { fill: currentColor; stroke: none; }
+.plate .caps  { font-size: var(--t-caps); letter-spacing: var(--caps-track); text-transform: uppercase; font-weight: 500; }
+.plate .ital  { font-size: var(--t-ital); font-style: italic; }
+
+/* ---- plate furniture (HTML around the SVG) ---- */
+figure.plate-fig            { margin: 0; text-align: center; color: var(--plate-ink); font-family: var(--plate-font); break-inside: avoid; }
+.plate-fig .plate-title     { font-size: 19pt; font-weight: 400; letter-spacing: 0.01em; line-height: 1.12; margin: 0 auto 6pt; max-width: 88%; text-wrap: balance; }
+.plate-fig .plate-deck      { font-size: 10pt; font-style: italic; line-height: 1.35; margin: 0 auto 26pt; text-wrap: balance; }
+.plate-fig svg              { display: block; width: 86%; height: auto; margin: 0 auto; }
+.plate-fig figcaption       { font-size: 10.5pt; font-style: italic; margin: 24pt 0 0; }
+.plate-fig figcaption::before { content: ""; display: block; width: 18pt; border-top: 0.5pt solid currentColor; margin: 0 auto 11pt; }
+
+/* ---- interludes: full-page drawings between the parts ---- */
+.plate-fig.interlude figcaption          { font-size: 12pt; line-height: 1.5; margin-top: 30pt; }
+.plate-fig.interlude figcaption::before  { display: none; }
+
+.plate .ttl { font-weight: 400; letter-spacing: 0.01em; }</style>
+<text class="ttl" x="320.00" y="74.52" style="font-size:37.53px;text-anchor:middle">Calm and strength make</text>
+<text class="ttl" x="320.00" y="116.56" style="font-size:37.53px;text-anchor:middle">the marriage sound;</text>
+<text class="ttl" x="320.00" y="158.59" style="font-size:37.53px;text-anchor:middle">warmth makes it a home</text>
+<text class="ital deck" x="320.00" y="201.24" style="font-size:19.75px;text-anchor:middle">Warmth is what the calm</text>
+<text class="ital deck" x="320.00" y="227.91" style="font-size:19.75px;text-anchor:middle">and the strength were for.</text>
+<path class="ink" style="stroke-width:0.99" d="M302.22 618.05H337.78"/>
+<text class="ital cap" x="320.00" y="657.41" style="font-size:20.74px;text-anchor:middle">At peace, at its best, and flourishing.</text>
+<text class="ital" x="182.40" y="303.94" style="font-size:16.99px;text-anchor:middle">calm alone can go cold</text>
+<text class="caps" x="117.85" y="534.97" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">CALM</text>
+<text class="caps" x="246.95" y="534.97" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">STRENGTH</text>
+<text class="ital" x="182.40" y="560.45" style="font-size:16.99px;text-anchor:middle">structurally sound</text>
+<text class="caps" x="454.20" y="410.11" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">WARMTH</text>
+<text class="ital" x="427.02" y="303.94" style="font-size:16.99px;text-anchor:middle">small, warm things</text>
+<text class="caps" x="393.05" y="534.97" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">CALM</text>
+<text class="caps" x="522.15" y="534.97" style="font-size:12.57px;text-anchor:middle;letter-spacing:0.2em">STRENGTH</text>
+<text class="ital" x="457.60" y="560.45" style="font-size:16.99px;text-anchor:middle">a home</text>
+<g transform="translate(44.80 288.65) scale(1.69877)">
+  <path class="ink hair" d="M23.00 124.00L139.00 124.00"/>
+  <path class="ink line" d="M99.00 58.87C99.01 57.97 99.07 55.25 99.07 53.44C99.07 51.62 99.01 48.91 99.00 48.00"/>
+  <path class="ink line" d="M108.00 64.81C108.01 63.41 108.09 59.21 108.09 56.40C108.09 53.60 108.01 49.40 108.00 48.00"/>
+  <path class="ink line" d="M97.50 48.00C98.50 48.01 101.50 48.05 103.50 48.05C105.50 48.05 108.50 48.01 109.50 48.00"/>
+  <path class="ink line" d="M34.00 78.00C34.87 77.42 37.48 75.70 39.21 74.54C40.95 73.39 42.70 72.25 44.43 71.10C46.17 69.94 47.90 68.77 49.63 67.61C51.36 66.44 53.08 65.26 54.82 64.12C56.57 62.98 58.35 61.89 60.11 60.77C61.87 59.66 63.65 58.57 65.40 57.43C67.14 56.29 68.86 55.11 70.59 53.95C72.33 52.79 74.05 51.61 75.78 50.45C77.52 49.29 80.13 47.58 81.00 47.00"/>
+  <path class="ink line" d="M81.00 47.00C81.86 47.58 84.45 49.35 86.19 50.50C87.92 51.65 89.69 52.77 91.43 53.91C93.18 55.05 94.92 56.20 96.66 57.34C98.41 58.48 100.15 59.63 101.90 60.76C103.65 61.89 105.43 62.99 107.18 64.12C108.92 65.26 110.66 66.41 112.39 67.58C114.12 68.75 115.81 69.97 117.54 71.14C119.26 72.31 121.00 73.47 122.74 74.61C124.49 75.75 127.12 77.43 128.00 78.00"/>
+  <path class="ink line" d="M34.00 78.00C35.04 77.99 38.18 77.94 40.27 77.94C42.36 77.94 44.44 77.98 46.53 78.00C48.62 78.03 50.71 78.06 52.80 78.07C54.89 78.07 56.98 78.05 59.07 78.05C61.16 78.05 63.24 78.06 65.33 78.06C67.42 78.06 69.51 78.08 71.60 78.06C73.69 78.04 75.78 77.97 77.87 77.94C79.96 77.90 82.04 77.85 84.13 77.85C86.22 77.85 88.31 77.91 90.40 77.95C92.49 77.98 94.58 78.03 96.67 78.04C98.76 78.06 100.84 78.04 102.93 78.04C105.02 78.04 107.11 78.05 109.20 78.05C111.29 78.06 113.38 78.07 115.47 78.07C117.56 78.06 119.64 78.01 121.73 78.00C123.82 77.99 126.96 78.00 128.00 78.00"/>
+  <path class="ink bold" d="M43.00 78.00C43.01 79.10 43.05 82.38 43.05 84.57C43.05 86.76 43.02 88.95 43.00 91.14C42.98 93.33 42.94 95.52 42.93 97.71C42.92 99.90 42.95 102.10 42.96 104.29C42.97 106.48 42.98 108.67 42.99 110.86C42.99 113.05 42.99 115.24 42.99 117.43C42.99 119.62 43.00 122.90 43.00 124.00"/>
+  <path class="ink bold" d="M119.00 78.00C119.00 79.10 119.01 82.38 119.03 84.57C119.04 86.76 119.08 88.95 119.08 91.14C119.08 93.33 119.04 95.52 119.02 97.71C119.00 99.90 118.97 102.10 118.96 104.29C118.96 106.48 118.97 108.67 118.98 110.86C118.98 113.05 118.97 115.24 118.97 117.43C118.97 119.62 118.99 122.90 119.00 124.00"/>
+  <path class="ink line" d="M60.00 124.00C60.01 122.79 60.05 119.17 60.04 116.75C60.04 114.33 59.98 111.92 59.97 109.50C59.96 107.08 59.96 104.67 59.96 102.25C59.97 99.83 59.99 96.21 60.00 95.00"/>
+  <path class="ink line" d="M60.00 95.00C61.25 95.00 65.00 95.02 67.50 95.02C70.00 95.02 73.75 95.00 75.00 95.00"/>
+  <path class="ink line" d="M75.00 95.00C75.01 96.21 75.03 99.83 75.03 102.25C75.04 104.67 75.02 107.08 75.01 109.50C75.01 111.92 75.01 114.33 75.01 116.75C75.01 119.17 75.00 122.79 75.00 124.00"/>
+  <path class="ink line" d="M88.00 91.00C89.00 90.99 92.00 90.97 94.00 90.97C96.00 90.96 98.00 90.98 100.00 90.99C102.00 91.00 105.00 91.00 106.00 91.00"/>
+  <path class="ink line" d="M106.00 91.00C106.00 92.00 106.01 95.00 106.01 97.00C106.01 99.00 106.01 101.00 106.01 103.00C106.01 105.00 106.00 108.00 106.00 109.00"/>
+  <path class="ink line" d="M106.00 109.00C105.00 109.00 102.00 109.03 100.00 109.02C98.00 109.01 96.00 108.96 94.00 108.96C92.00 108.96 89.00 108.99 88.00 109.00"/>
+  <path class="ink line" d="M88.00 109.00C88.00 108.00 88.01 105.00 88.00 103.00C87.99 101.00 87.94 99.00 87.94 97.00C87.94 95.00 87.99 92.00 88.00 91.00"/>
+  <path class="ink hair" d="M97.00 91.00C97.00 92.00 97.00 95.00 97.00 97.00C97.00 99.00 97.00 101.00 97.00 103.00C97.00 105.00 97.00 108.00 97.00 109.00"/>
+  <path class="ink hair" d="M88.00 100.00C89.00 100.00 92.00 100.00 94.00 100.00C96.00 100.00 98.00 100.00 100.00 100.00C102.00 100.00 105.00 100.00 106.00 100.00"/>
+  <path class="ink hair" d="M61.90 96.00C61.90 97.17 61.89 100.67 61.89 103.00C61.90 105.33 61.92 107.67 61.93 110.00C61.94 112.33 61.96 114.67 61.96 117.00C61.95 119.33 61.91 122.83 61.90 124.00"/>
+  <path class="ink hair" d="M63.80 96.00C63.80 97.17 63.79 100.67 63.78 103.00C63.77 105.33 63.72 107.67 63.73 110.00C63.73 112.33 63.77 114.67 63.79 117.00C63.80 119.33 63.80 122.83 63.80 124.00"/>
+  <path class="ink hair" d="M65.70 96.00C65.69 97.17 65.66 100.67 65.66 103.00C65.67 105.33 65.71 107.67 65.72 110.00C65.73 112.33 65.73 114.67 65.72 117.00C65.72 119.33 65.70 122.83 65.70 124.00"/>
+  <path class="ink hair" d="M67.60 96.00C67.60 97.17 67.60 100.67 67.59 103.00C67.58 105.33 67.54 107.67 67.53 110.00C67.53 112.33 67.55 114.67 67.57 117.00C67.58 119.33 67.59 122.83 67.60 124.00"/>
+  <path class="ink hair" d="M69.50 96.00C69.50 97.17 69.47 100.67 69.47 103.00C69.48 105.33 69.53 107.67 69.55 110.00C69.56 112.33 69.56 114.67 69.56 117.00C69.55 119.33 69.51 122.83 69.50 124.00"/>
+  <path class="ink hair" d="M71.40 96.00C71.39 97.17 71.34 100.67 71.34 103.00C71.34 105.33 71.37 107.67 71.39 110.00C71.40 112.33 71.44 114.67 71.45 117.00C71.45 119.33 71.41 122.83 71.40 124.00"/>
+  <path class="ink hair" d="M73.30 96.00C73.30 97.17 73.30 100.67 73.29 103.00C73.28 105.33 73.25 107.67 73.24 110.00C73.24 112.33 73.26 114.67 73.27 117.00C73.28 119.33 73.30 122.83 73.30 124.00"/>
+  <circle class="knock" cx="71.80" cy="111.00" r="1.9"/>
+  <circle class="solid" cx="71.80" cy="111.00" r="0.9"/>
+  <path class="ink hair" d="M185.00 124.00L301.00 124.00"/>
+  <path class="ink line" d="M261.00 58.87C261.02 57.97 261.12 55.25 261.12 53.44C261.12 51.62 261.02 48.91 261.00 48.00"/>
+  <path class="ink line" d="M270.00 64.81C269.98 63.41 269.86 59.21 269.86 56.40C269.86 53.60 269.98 49.40 270.00 48.00"/>
+  <path class="ink line" d="M259.50 48.00C260.50 47.98 263.50 47.89 265.50 47.89C267.50 47.89 270.50 47.98 271.50 48.00"/>
+  <path class="ink line" d="M196.00 78.00C196.87 77.43 199.48 75.70 201.22 74.56C202.97 73.42 204.74 72.31 206.48 71.17C208.23 70.03 209.96 68.86 211.70 67.71C213.44 66.56 215.18 65.42 216.92 64.27C218.66 63.12 220.41 61.99 222.14 60.83C223.87 59.66 225.58 58.46 227.30 57.29C229.03 56.11 230.75 54.93 232.49 53.79C234.23 52.64 236.01 51.55 237.76 50.42C239.51 49.28 242.13 47.57 243.00 47.00"/>
+  <path class="ink line" d="M243.00 47.00C243.86 47.58 246.45 49.35 248.18 50.50C249.92 51.66 251.68 52.78 253.43 53.92C255.17 55.06 256.91 56.20 258.66 57.35C260.40 58.49 262.14 59.64 263.89 60.78C265.64 61.91 267.42 63.00 269.17 64.13C270.92 65.27 272.67 66.40 274.40 67.57C276.13 68.73 277.83 69.95 279.55 71.12C281.27 72.29 283.00 73.46 284.74 74.61C286.49 75.75 289.12 77.43 290.00 78.00"/>
+  <path class="ink line" d="M196.00 78.00C197.04 77.99 200.18 77.98 202.27 77.97C204.36 77.96 206.44 77.94 208.53 77.93C210.62 77.93 212.71 77.96 214.80 77.96C216.89 77.97 218.98 77.96 221.07 77.96C223.16 77.97 225.24 77.96 227.33 77.99C229.42 78.01 231.51 78.08 233.60 78.11C235.69 78.13 237.78 78.15 239.87 78.13C241.96 78.11 244.04 78.03 246.13 78.00C248.22 77.96 250.31 77.93 252.40 77.92C254.49 77.91 256.58 77.95 258.67 77.95C260.76 77.95 262.84 77.94 264.93 77.94C267.02 77.94 269.11 77.93 271.20 77.95C273.29 77.97 275.38 78.02 277.47 78.04C279.56 78.06 281.64 78.07 283.73 78.07C285.82 78.06 288.96 78.01 290.00 78.00"/>
+  <path class="ink bold" d="M205.00 78.00C205.00 79.10 205.00 82.38 205.00 84.57C205.00 86.76 205.01 88.95 205.00 91.14C204.99 93.33 204.95 95.52 204.94 97.71C204.93 99.90 204.91 102.10 204.93 104.29C204.94 106.48 205.00 108.67 205.02 110.86C205.04 113.05 205.05 115.24 205.04 117.43C205.04 119.62 205.01 122.90 205.00 124.00"/>
+  <path class="ink bold" d="M281.00 78.00C280.99 79.10 280.97 82.38 280.96 84.57C280.95 86.76 280.93 88.95 280.93 91.14C280.94 93.33 280.98 95.52 280.99 97.71C281.01 99.90 281.01 102.10 281.02 104.29C281.02 106.48 281.02 108.67 281.02 110.86C281.02 113.05 281.05 115.24 281.04 117.43C281.04 119.62 281.01 122.90 281.00 124.00"/>
+  <path class="ink line" d="M222.00 124.00C221.99 122.79 221.95 119.17 221.95 116.75C221.95 114.33 221.95 111.92 221.97 109.50C221.99 107.08 222.04 104.67 222.05 102.25C222.05 99.83 222.01 96.21 222.00 95.00"/>
+  <path class="ink line" d="M222.00 95.00C223.25 95.00 227.00 94.99 229.50 94.99C232.00 94.99 235.75 95.00 237.00 95.00"/>
+  <path class="ink line" d="M237.00 95.00C237.00 96.21 237.02 99.83 237.01 102.25C237.01 104.67 236.98 107.08 236.97 109.50C236.95 111.92 236.93 114.33 236.94 116.75C236.95 119.17 236.99 122.79 237.00 124.00"/>
+  <path class="ink line" d="M250.00 91.00C251.00 91.00 254.00 90.98 256.00 90.98C258.00 90.98 260.00 90.98 262.00 90.99C264.00 90.99 267.00 91.00 268.00 91.00"/>
+  <path class="ink line" d="M268.00 91.00C268.00 92.00 268.00 95.00 268.01 97.00C268.02 99.00 268.07 101.00 268.06 103.00C268.06 105.00 268.01 108.00 268.00 109.00"/>
+  <path class="ink line" d="M268.00 109.00C267.00 108.99 264.00 108.95 262.00 108.95C260.00 108.95 258.00 108.99 256.00 109.00C254.00 109.01 251.00 109.00 250.00 109.00"/>
+  <path class="ink line" d="M250.00 109.00C250.01 108.00 250.04 105.00 250.04 103.00C250.05 101.00 250.03 99.00 250.03 97.00C250.02 95.00 250.00 92.00 250.00 91.00"/>
+  <path class="ink hair" d="M259.00 91.00C259.00 92.00 259.00 95.00 259.00 97.00C259.00 99.00 259.00 101.00 259.00 103.00C259.00 105.00 259.00 108.00 259.00 109.00"/>
+  <path class="ink hair" d="M250.00 100.00C251.00 100.00 254.00 100.00 256.00 100.00C258.00 100.00 260.00 100.00 262.00 100.00C264.00 100.00 267.00 100.00 268.00 100.00"/>
+  <path class="ink line" d="M273.01 103.73C273.38 103.82 274.46 104.11 275.19 104.31C275.91 104.50 277.00 104.79 277.36 104.88"/>
+  <path class="ink line" d="M269.27 110.23C269.68 110.65 270.92 111.88 271.75 112.70C272.58 113.53 273.82 114.76 274.23 115.18"/>
+  <path class="ink line" d="M262.78 114.00C262.88 114.36 263.17 115.45 263.36 116.17C263.56 116.90 263.85 117.98 263.95 118.34"/>
+  <path class="ink line" d="M255.27 114.01C255.12 114.58 254.67 116.27 254.37 117.40C254.07 118.52 253.62 120.21 253.47 120.78"/>
+  <path class="ink line" d="M248.77 110.27C248.50 110.54 247.71 111.33 247.18 111.87C246.65 112.40 245.85 113.19 245.59 113.46"/>
+  <path class="ink line" d="M245.00 103.78C244.44 103.93 242.75 104.39 241.62 104.69C240.50 104.99 238.81 105.45 238.24 105.60"/>
+  <path class="ink line" d="M244.99 96.27C244.62 96.18 243.54 95.89 242.81 95.69C242.09 95.50 241.00 95.21 240.64 95.12"/>
+  <path class="ink line" d="M248.73 89.77C248.32 89.35 247.08 88.12 246.25 87.30C245.42 86.47 244.18 85.24 243.77 84.82"/>
+  <path class="ink line" d="M255.22 86.00C255.12 85.64 254.83 84.55 254.64 83.83C254.44 83.10 254.15 82.02 254.05 81.66"/>
+  <path class="ink line" d="M269.23 89.73C269.50 89.46 270.29 88.67 270.82 88.13C271.35 87.60 272.15 86.81 272.41 86.54"/>
+  <path class="ink line" d="M273.00 96.22C273.56 96.07 275.25 95.61 276.38 95.31C277.50 95.01 279.19 94.55 279.76 94.40"/>
+  <path class="ink line" d="M223.50 126.40C223.22 127.12 222.35 129.29 221.80 130.74C221.25 132.19 220.47 134.39 220.20 135.12"/>
+  <path class="ink line" d="M226.50 126.40C226.38 127.17 226.06 129.50 225.79 131.04C225.51 132.57 225.01 134.87 224.85 135.63"/>
+  <path class="ink line" d="M229.50 126.40C229.52 127.04 229.60 128.98 229.60 130.26C229.60 131.55 229.52 133.48 229.50 134.13"/>
+  <path class="ink line" d="M232.50 126.40C232.64 127.16 233.09 129.44 233.36 130.96C233.64 132.49 234.02 134.78 234.15 135.54"/>
+  <path class="ink line" d="M235.50 126.40C235.78 127.09 236.61 129.18 237.16 130.57C237.71 131.96 238.53 134.05 238.80 134.75"/>
+  <path class="ink line" d="M265.50 45.00C264.97 44.00 261.87 40.83 262.30 39.00C262.73 37.17 267.97 35.83 268.10 34.00C268.23 32.17 263.03 29.92 263.10 28.00C263.17 26.08 267.60 23.42 268.50 22.50"/>
+</g>
 </svg>

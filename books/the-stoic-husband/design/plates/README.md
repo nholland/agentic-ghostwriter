@@ -1,5 +1,7 @@
 # Plates
 
+**Style of record since 2026-11-10: `../plate-kit/`** (the author's Engraved Line kit; see its README). The chapter plates here named by title (`the-gap.svg` ... `calm-and-strength-...svg`) are built from it. The older files below are the earlier library, kept as history.
+
 Nine draft plates. Each is traceable to an approved concept; none introduces
 new claims. Stroke-based SVG using `currentColor`, same as `../marks/`.
 

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-10T05:46:40.615279+00:00",
+  "subjects": [
+    "plate-kit"
+  ],
+  "disposition": "updated",
+  "concepts": [
+    "books/the-stoic-husband/okf/notes/2026-11-10-plate-kit-adopted.md"
+  ],
+  "authority": "Author, in session 2026-11-10: 'update all of my plates and interludes ... incorporate into the design system, book'; Ch8 'Alt (pebble piles)'; 'Plates in Georgia'.",
+  "reason": "Plate style of record and all plates replaced from the author's kit",
+  "files": {
+    "books/the-stoic-husband/03-outline.md": "3f6e51c1a001c9ad29e9e6da0acc674926a2e4c628b0797dac0bb0d4b641dbe7",
+    "books/the-stoic-husband/okf/index.md": "d47be95ee8397869463929b7ee7fa29255c5d1c73185c20c88c7c1b942ac4402",
+    "books/the-stoic-husband/okf/log.md": "99d35dd3d888def29c092172b187b3023e1a8acbeaac3b423ba934d7e5515aa1",
+    "books/the-stoic-husband/okf/notes/2026-11-10-plate-kit-adopted.md": "7b044f8f83f1a2fcbaf99fbd443fc9c5f106e3952f40d4fa4a6824940aaa82f2",
+    "books/the-stoic-husband/design/plate-kit/README.md": "35e91987af5d3d4a8877bf6b52bc37081fd4e04682a41037917d7dad354c51ab",
+    "books/the-stoic-husband/design/plate-kit/STYLE.md": "87f352087f1c65d2b449459bb1d031aaff74c85a77d2af7d04df28aa6760ca52",
+    "books/the-stoic-husband/design/plates/README.md": "65fd5d3f77ee2564ec8db29c17f534496194b96cda6b21d3c66eb98a357943c7"
+  }
+}

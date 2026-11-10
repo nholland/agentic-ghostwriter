@@ -1,68 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 580" style="color:#1a1a1a" role="img" aria-label="The courage to come back">
-  <!-- 2026-11-07: type re-set for phone width (author ruling "1. Enlarge").
-       Each row's label moved above its drawing; drawing centred on the axis;
-       words and drawing unchanged. -->
-  <style>
-    .ttl{font:600 22px Georgia,serif;text-anchor:middle}
-    .sub{font:italic 18px Georgia,serif;text-anchor:middle;opacity:.74}
-    .lbl{font:600 17px Georgia,serif;letter-spacing:.12em;text-anchor:start;opacity:.86}
-    .txtc{font:18px Georgia,serif;opacity:.86;text-anchor:middle}
-    .note{font:17px Georgia,serif;opacity:.7;text-anchor:middle}
-    .cap{font:italic 18px Georgia,serif;opacity:.66;text-anchor:middle}
-    .rule{stroke:currentColor;stroke-width:.8;opacity:.28}
-    .ln{stroke:currentColor;stroke-width:1.6}
-  </style>
+<svg class="plate" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 730.89" role="img" aria-label="The Courage to Come Back"><style>/* ------------------------------------------------------------------
+   River, Oak, Sun — plate style ("Engraved Line")
+   One declaration for every plate. Plates carry class names only;
+   change a value here and every plate changes with it.
+   Plates are drawn on a 324-unit canvas and printed at 86% of the text
+   block, so the art keeps clear air on both sides. Weights and sizes below
+   are in canvas units; the comments give what that prints as.
+   ------------------------------------------------------------------ */
 
-  <rect x="0" y="0" width="640" height="580" fill="#ffffff"/>
+:root {
+  /* Ink. One ink, no greys: tone is made from line density, never opacity. */
+  --plate-ink: #111;
+  --plate-paper: #fff;
 
-  <g fill="currentColor">
-    <text class="ttl" x="320" y="44">The courage to come back</text>
-    <text class="sub" x="320" y="78">A pause is only healthy if you come back.</text>
-  </g>
+  /* Three line weights (print as 0.4 / 0.7 / 1.5 pt). Nothing else is allowed. */
+  --w-hair: 0.47;  /* measures, ticks, dotted "not yet" lines   */
+  --w-line: 0.82;  /* the body of every drawing                  */
+  --w-bold: 1.75;  /* the one thing the plate is about           */
 
-  <!-- it goes quiet: the piece he never said is the height he does not get back -->
-  <g fill="currentColor" opacity=".85">
-    <rect x="194" y="154" width="28" height="76"/>
-    <rect x="418" y="188" width="28" height="42"/>
-  </g>
-  <g class="ln" fill="none" stroke-linecap="round"><path d="M168 230h304"/></g>
-  <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 5" opacity=".55">
-    <path d="M222 154h250"/>
-    <rect x="418" y="154" width="28" height="34"/>
-  </g>
-  <g fill="currentColor">
-    <text class="note" x="432" y="140">the real thing, never said</text>
-    <text class="lbl" x="44" y="140">GOES QUIET</text>
-    <text class="note" x="208" y="256">walks in</text>
-    <text class="note" x="432" y="256">walks out</text>
-    <text class="txtc" x="320" y="288">he becomes small without deciding to</text>
-  </g>
+  /* Lettering. Same face as the book body. */
+  --plate-font: Georgia, 'Liberation Serif', serif;  /* exactly the book body stack, scripts/chapter_pdf_local.py (author, 2026-11-10: plates in Georgia) */
+  --t-caps: 7.4px;      /* prints ~6.4pt. fixed things: what is given */
+  --t-ital: 10px;       /* prints ~8.6pt. moving things: chosen, felt */
+  --caps-track: 0.2em;
+}
 
-  <g class="rule" fill="none"><path d="M44 314h552"/></g>
+/* ---- linework ---- */
+.plate        { color: var(--plate-ink); font-family: var(--plate-font); overflow: visible; }
+.plate .ink   { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.plate .hair  { stroke-width: var(--w-hair); }
+.plate .line  { stroke-width: var(--w-line); }
+.plate .bold  { stroke-width: var(--w-bold); }
+.plate .dotted { stroke-dasharray: 0.01 2.3; }           /* latent, not yet happened */
+.plate .bold.dotted { stroke-dasharray: 0.01 3.7; }                  /* heavier dots need more air */
+.plate .knock { fill: var(--plate-paper); }               /* shape that clears what is behind it */
+.plate .solid { fill: currentColor; stroke: none; }
 
-  <!-- he goes back and says it: the same measure, filled in, and he leaves at the height he came in -->
-  <g fill="currentColor" opacity=".85">
-    <rect x="194" y="362" width="28" height="76"/>
-    <rect x="418" y="362" width="28" height="76"/>
-  </g>
-  <g class="ln" fill="none" stroke-linecap="round"><path d="M168 438h304"/></g>
-  <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="3 5" opacity=".55">
-    <path d="M222 362h250"/>
-  </g>
-  <g fill="none" stroke="#ffffff" stroke-width="1.1" stroke-dasharray="3 5" opacity=".9">
-    <path d="M418 396h28"/>
-  </g>
-  <g fill="currentColor">
-    <text class="note" x="432" y="348">the real thing, said</text>
-    <text class="lbl" x="44" y="348">GOES BACK</text>
-    <text class="note" x="208" y="464">walks in</text>
-    <text class="note" x="432" y="464">walks out</text>
-    <text class="txtc" x="320" y="496">he leaves the fight the same size</text>
-  </g>
+/* ---- lettering inside the art ---- */
+.plate text   { fill: currentColor; stroke: none; }
+.plate .caps  { font-size: var(--t-caps); letter-spacing: var(--caps-track); text-transform: uppercase; font-weight: 500; }
+.plate .ital  { font-size: var(--t-ital); font-style: italic; }
 
-  <g class="rule" fill="none"><path d="M44 522h552"/></g>
+/* ---- plate furniture (HTML around the SVG) ---- */
+figure.plate-fig            { margin: 0; text-align: center; color: var(--plate-ink); font-family: var(--plate-font); break-inside: avoid; }
+.plate-fig .plate-title     { font-size: 19pt; font-weight: 400; letter-spacing: 0.01em; line-height: 1.12; margin: 0 auto 6pt; max-width: 88%; text-wrap: balance; }
+.plate-fig .plate-deck      { font-size: 10pt; font-style: italic; line-height: 1.35; margin: 0 auto 26pt; text-wrap: balance; }
+.plate-fig svg              { display: block; width: 86%; height: auto; margin: 0 auto; }
+.plate-fig figcaption       { font-size: 10.5pt; font-style: italic; margin: 24pt 0 0; }
+.plate-fig figcaption::before { content: ""; display: block; width: 18pt; border-top: 0.5pt solid currentColor; margin: 0 auto 11pt; }
 
-  <g fill="currentColor">
-    <text class="cap" x="320" y="556">Say the real thing before silence says it for you.</text>
-  </g>
+/* ---- interludes: full-page drawings between the parts ---- */
+.plate-fig.interlude figcaption          { font-size: 12pt; line-height: 1.5; margin-top: 30pt; }
+.plate-fig.interlude figcaption::before  { display: none; }
+
+.plate .ttl { font-weight: 400; letter-spacing: 0.01em; }</style>
+<text class="ttl" x="320.00" y="74.52" style="font-size:37.53px;text-anchor:middle">The Courage to Come Back</text>
+<text class="ital deck" x="320.00" y="117.17" style="font-size:19.75px;text-anchor:middle">A pause is only healthy if you come back.</text>
+<path class="ink" style="stroke-width:0.99" d="M302.22 609.24H337.78"/>
+<text class="ital cap" x="320.00" y="648.60" style="font-size:20.74px;text-anchor:middle">Say the real thing before</text>
+<text class="ital cap" x="320.00" y="675.56" style="font-size:20.74px;text-anchor:middle">silence says it for you.</text>
+<text class="caps" x="46.50" y="193.20" style="font-size:12.57px;text-anchor:start;letter-spacing:0.2em">GOES QUIET</text>
+<text class="ital" x="595.20" y="194.22" style="font-size:16.99px;text-anchor:end">he becomes small without deciding to</text>
+<text class="ital" x="328.49" y="281.74" style="font-size:16.99px;text-anchor:middle">the real thing, never said</text>
+<text class="ital" x="156.92" y="353.73" style="font-size:16.99px;text-anchor:middle">walks in</text>
+<text class="ital" x="483.08" y="353.73" style="font-size:16.99px;text-anchor:middle">walks out</text>
+<text class="caps" x="46.50" y="402.15" style="font-size:12.57px;text-anchor:start;letter-spacing:0.2em">GOES BACK</text>
+<text class="ital" x="595.20" y="403.17" style="font-size:16.99px;text-anchor:end">he leaves the fight the same size</text>
+<text class="ital" x="328.49" y="465.00" style="font-size:16.99px;text-anchor:middle">the real thing, said</text>
+<text class="ital" x="156.92" y="562.68" style="font-size:16.99px;text-anchor:middle">walks in</text>
+<text class="ital" x="483.08" y="562.68" style="font-size:16.99px;text-anchor:middle">walks out</text>
+<g transform="translate(44.80 177.91) scale(1.69877)">
+  <path class="ink hair" d="M26.00 89.00L298.00 89.00"/>
+  <path class="ink line" d="M56.64 89.00C56.92 86.40 58.18 78.60 58.33 73.40C58.48 68.20 57.48 62.02 57.55 57.80C57.61 53.57 57.83 50.43 58.72 48.05C59.61 45.67 61.15 44.26 62.88 43.50C64.61 42.74 67.39 42.74 69.12 43.50C70.85 44.26 72.39 45.67 73.28 48.05C74.17 50.43 74.39 53.57 74.45 57.80C74.52 62.02 73.52 68.20 73.67 73.40C73.82 78.60 75.08 86.40 75.36 89.00"/>
+  <circle class="ink line" cx="66.00" cy="35.05" r="5.85"/>
+  <path class="ink line dotted" d="M248.64 89.00C248.92 86.40 250.18 78.60 250.33 73.40C250.48 68.20 249.49 62.02 249.55 57.80C249.62 53.57 249.83 50.43 250.72 48.05C251.61 45.67 253.15 44.26 254.88 43.50C256.61 42.74 259.39 42.74 261.12 43.50C262.85 44.26 264.39 45.67 265.28 48.05C266.17 50.43 266.38 53.57 266.45 57.80C266.51 62.02 265.52 68.20 265.67 73.40C265.82 78.60 267.08 86.40 267.36 89.00"/>
+  <circle class="ink line dotted" cx="258.00" cy="35.05" r="5.85"/>
+  <path class="ink line knock" d="M252.57 89.00C252.73 87.49 253.46 82.97 253.55 79.95C253.64 76.94 253.06 73.35 253.10 70.90C253.14 68.45 253.26 66.63 253.78 65.25C254.29 63.87 255.19 63.05 256.19 62.61C257.20 62.17 258.80 62.17 259.81 62.61C260.81 63.05 261.71 63.87 262.22 65.25C262.74 66.63 262.86 68.45 262.90 70.90C262.94 73.35 262.36 76.94 262.45 79.95C262.54 82.97 263.27 87.49 263.43 89.00"/>
+  <circle class="ink line knock" cx="258.00" cy="57.71" r="3.39"/>
+  <path class="ink bold dotted" d="M92.00 66.79C93.00 66.79 96.00 66.82 98.00 66.81C100.00 66.79 102.00 66.65 104.00 66.71C106.00 66.78 108.00 66.95 110.00 67.19C112.00 67.43 114.00 67.91 116.00 68.14C118.00 68.38 120.00 68.63 122.00 68.61C124.00 68.59 126.00 68.30 128.00 68.04C130.00 67.79 132.00 67.31 134.00 67.09C136.00 66.86 138.00 66.72 140.00 66.67C142.00 66.62 144.00 66.78 146.00 66.80C148.00 66.81 150.00 66.82 152.00 66.77C154.00 66.71 156.00 66.49 158.00 66.46C160.00 66.43 162.00 66.41 164.00 66.57C166.00 66.74 168.00 67.16 170.00 67.47C172.00 67.78 174.00 68.25 176.00 68.41C178.00 68.58 180.00 68.57 182.00 68.45C184.00 68.34 186.00 67.93 188.00 67.70C190.00 67.47 192.00 67.20 194.00 67.08C196.00 66.97 198.00 67.03 200.00 67.01C202.00 66.99 204.00 67.04 206.00 66.96C208.00 66.87 210.00 66.63 212.00 66.50C214.00 66.37 216.00 66.14 218.00 66.17C220.00 66.21 222.00 66.43 224.00 66.71C226.00 66.98 228.00 67.53 230.00 67.82C232.00 68.11 234.00 68.39 236.00 68.44C238.00 68.49 241.00 68.17 242.00 68.12"/>
+  <path class="ink hair" d="M26.00 212.00L298.00 212.00"/>
+  <path class="ink line" d="M56.64 212.00C56.92 209.40 58.18 201.60 58.33 196.40C58.48 191.20 57.48 185.03 57.55 180.80C57.61 176.58 57.83 173.43 58.72 171.05C59.61 168.67 61.15 167.26 62.88 166.50C64.61 165.74 67.39 165.74 69.12 166.50C70.85 167.26 72.39 168.67 73.28 171.05C74.17 173.43 74.39 176.58 74.45 180.80C74.52 185.03 73.52 191.20 73.67 196.40C73.82 201.60 75.08 209.40 75.36 212.00"/>
+  <circle class="ink line" cx="66.00" cy="158.05" r="5.85"/>
+  <path class="ink line" d="M248.64 212.00C248.92 209.40 250.18 201.60 250.33 196.40C250.48 191.20 249.49 185.03 249.55 180.80C249.62 176.58 249.83 173.43 250.72 171.05C251.61 168.67 253.15 167.26 254.88 166.50C256.61 165.74 259.39 165.74 261.12 166.50C262.85 167.26 264.39 168.67 265.28 171.05C266.17 173.43 266.38 176.58 266.45 180.80C266.51 185.03 265.52 191.20 265.67 196.40C265.82 201.60 267.08 209.40 267.36 212.00"/>
+  <circle class="ink line" cx="258.00" cy="158.05" r="5.85"/>
+  <path class="ink bold" d="M92.00 176.73C93.00 176.73 96.00 176.83 98.00 176.71C100.00 176.59 102.00 176.28 104.00 176.01C106.00 175.73 108.00 175.26 110.00 175.07C112.00 174.89 114.00 174.80 116.00 174.90C118.00 175.00 120.00 175.41 122.00 175.68C124.00 175.95 126.00 176.35 128.00 176.52C130.00 176.69 132.00 176.70 134.00 176.71C136.00 176.73 138.00 176.58 140.00 176.59C142.00 176.60 144.00 176.70 146.00 176.78C148.00 176.86 150.00 177.09 152.00 177.07C154.00 177.06 156.00 176.94 158.00 176.71C160.00 176.47 162.00 175.96 164.00 175.66C166.00 175.37 168.00 175.00 170.00 174.92C172.00 174.84 174.00 175.00 176.00 175.18C178.00 175.35 180.00 175.76 182.00 175.96C184.00 176.16 186.00 176.31 188.00 176.38C190.00 176.45 192.00 176.34 194.00 176.37C196.00 176.40 198.00 176.45 200.00 176.58C202.00 176.70 204.00 177.01 206.00 177.12C208.00 177.23 210.00 177.36 212.00 177.25C214.00 177.13 216.00 176.76 218.00 176.45C220.00 176.14 222.00 175.61 224.00 175.37C226.00 175.14 228.00 175.02 230.00 175.04C232.00 175.07 234.00 175.36 236.00 175.52C238.00 175.68 241.00 175.92 242.00 176.00"/>
+</g>
 </svg>
