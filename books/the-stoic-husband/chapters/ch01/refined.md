@@ -2,33 +2,33 @@
 
 Between the moment she says something and the moment you respond, there's a window. You probably don't know it's there. If you learn to use it, you become a different kind of husband.
 
-She says something sharp. Maybe it's about the dishes, or your tone from an hour ago, or the thing you forgot again. What she said matters. What happens in the next three seconds matters first. That half-second where you're still somewhere between deciding and reacting. And then the two and a half seconds after, when you stop deciding and just fire.
+She says something sharp. Maybe it's about the dishes, or your tone from an hour ago, or the thing you forgot again. What she said matters, but what happens in the next three seconds matters first. There's a half-second where you're still somewhere between deciding and reacting. Then come the two and a half seconds after it, when you stop deciding and just fire.
 
-The words are already out before you've finished thinking them. She's somewhere else now. The night was fine two minutes ago. Now it's something else entirely.
+The words are out before you've finished thinking them, and she's somewhere else now. From where she's standing, she said one thing and got something sharper back. The night was fine two minutes ago, and now it's something else entirely.
 
-You know the rest. You've lived the rest.
+You know the rest, because you've lived it.
 
-That night you're lying in bed. She's there, but something is in the room that wasn't there an hour ago. You're not sleeping. Your mind is already replaying it. The exact moment the window opened. What you did with it. What a different choice would have looked like, and where the night would have gone.
+That night you're lying in bed. She's there, but something is in the room that wasn't there an hour ago. You're not sleeping. Your mind is replaying the exact moment the window opened and what you did with it. It's working out what a different choice would have looked like, and where the night would have gone.
 
 That three-second window is where all of this starts.
 
-Not the big fights. Not the hard years or the good ones. The window. Who you are in those three seconds is the husband you've been becoming, mostly without knowing it.
+Who you are in those three seconds matters more than the big fights, or the hard years and the good ones. It's the husband you've been becoming, mostly without knowing it.
 
 **The Gap**
 
-Something lands. She says something, or doesn't say something, or you catch her face doing a particular thing. On its own, that's just data: a sound, a look, a silence.
+Something lands. She says something, or doesn't say something, or you catch her face doing a particular thing. On its own, that's just a sound, a look, or a silence.
 
-But it never arrives on its own. It lands on something already there. A thing you're sensitive about. A story you carry about what this kind of moment usually means. Baggage you picked up somewhere along the way. The thing plus the baggage produces a feeling in you, instantly, before you've had a single conscious thought. And that feeling already comes with meaning attached. It already says "she's disrespecting me" or "here we go again" or "I can't do anything right in this house." You didn't decide that meaning. It just showed up already finished, the way a smell arrives before you choose to notice it.
+But it almost never arrives on its own. It lands on something already there, like a thing you're sensitive about or a story you carry about what this kind of moment usually means. It might be baggage you picked up somewhere along the way. The moment and your baggage together give you a feeling, instantly, before you've had a single conscious thought. That feeling already comes with a meaning attached. It says "she's disrespecting me" or "here we go again" or "I can't do anything right in this house." You didn't decide that meaning. It showed up already finished, the way a smell arrives before you choose to notice it.
 
-Then comes the response. For you, most of the time, this part runs on its own too. The tone shifts. The comment fires. The silence starts, and it's a particular kind of silence, the kind that has something behind it. You didn't decide any of this. It happened the way it's happened before, the way you've watched it happen in someone else.
+Then comes the response, and for you, most of the time, this part runs on its own too. Your tone shifts, or the comment fires, or the silence starts. It's a particular kind of silence, the kind that has something behind it. You didn't decide any of this. It happened the way it's happened before, the way you've watched it happen in someone else.
 
-Trigger. Loaded meaning. Automatic response. Run that sequence enough times, on enough different triggers, and you get something like an operating system. A set of defaults that decide, without your input, what things mean and what you do about them. Maybe you got a mild one. Most things don't carry much weight for you, and your responses are small. Maybe you got a rough one. Small things carry enormous weight, and your response matches. You almost certainly didn't pick yours. It's just what got installed.
+Trigger, loaded meaning, automatic response: run that sequence enough times, on enough different triggers, and you get something like an operating system. It's a set of defaults that decide, without your input, what things mean and what you do about them. Maybe you got a mild one, where most things don't carry much weight for you and your responses are small. Maybe you got a rough one, where small things carry enormous weight and your response matches. You almost certainly didn't pick yours. It's just what got installed.
 
-There's a gap between the second step and the third. Between the meaning showing up and the response firing. It's real, even on the nights it doesn't feel real, even when it's three seconds or less. Epictetus had a word for the loaded thing that shows up first: he called it an impression, an appearance in the older translations. And he had a word for the part of you that can sit in that gap for a moment before the response fires: *prohairesis*, your faculty of choice. You probably never use it. You let the impression go straight through to the response, the same way it always has. "Appearances, wait for me a little," he told himself, when an impression hit hard. "Let me see who you are, and what you are about; let me put you to the test." (*Discourses* 2.18, Long trans.) That's the whole move. Not denying what just landed. Just not letting it drive yet.
+There's a gap between the second step and the third, between the meaning showing up and the response firing. It's real, even on the nights it doesn't feel real, even when it's three seconds or less. Epictetus had a word for the loaded thing that shows up first: he called it an impression, an appearance in the older translations. And he had a word for the part of you that can sit in that gap for a moment before the response fires: *prohairesis*, your faculty of choice. You probably never use it, and you let the impression go straight through to the response the same way it always has. "Appearances, wait for me a little," he told himself, when an impression hit hard. "Let me see who you are, and what you are about; let me put you to the test." (*Discourses* 2.18, Long trans.) That's the whole move: you let what just landed be there, and you don't let it drive yet.
 
-There's a physical version of that pause. Before you respond, take one breath. Not a sigh she can hear, not a performance. Just one breath, in and slow out, before any words come. It's hard to fire on autopilot and breathe on purpose at the same time. Use that. Some nights it's easier than others. When you're under-slept, or already carrying something from earlier in the day, the gap is smaller and the breath is harder to remember. It's still there.
+There's a physical version of that pause. Before any words come, take one breath, in and slow out, quiet enough that she doesn't hear a sigh. It's hard to fire on autopilot and breathe on purpose at the same time. Some nights it's easier than others. When you're under-slept, or already carrying something from earlier in the day, the gap is smaller and the breath is harder to remember. It's still there.
 
-Where did the meaning come from, the baggage that turns an ordinary comment into a trigger? Some of it is yours alone. A lot of it, you picked up the same place you picked up the response. Watching someone else live this exact sequence, your whole life.
+Where did the meaning come from, the baggage that turns an ordinary comment into a trigger? Some of it is yours alone. A lot of it you picked up the same place you picked up the response. You watched someone else live this exact sequence your whole life.
 
 **What Got Installed**
 
@@ -52,9 +52,9 @@ I had all of this in me too, even with the philosophy. Then one night, lying awa
 
 So I started asking. Not in the moment. After. Lying there in the dark, replaying what had happened: *Was I being the best husband I could be?*
 
-Not *who's right*. Not *did she deserve that*. Not *is this fair*. Those questions matter, and they have their place, but not here. This question does something the others don't: it stops asking what she did and starts asking what you did. From the territory you don't govern to the only territory you do.
+This one is different. Asking *who's right*, *did she deserve that* or *is this fair* matters, and those questions have their place, but not here. This question stops asking what she did and starts asking what you did. It turns your attention from the territory you don't govern to the only territory you do.
 
-Not a feeling. Four things, and when you replay the moment, ask them as if you're still standing in it:
+Being the best husband you can be comes down to four things. When you replay the moment, ask them as if you're still standing in it:
 
 **Logical.** Wisdom is the classical word for it. Are you thinking clearly, or reacting to an impression you haven't examined? Does this moment actually require what you're about to do, or have you already decided and you're just executing it?
 
@@ -62,11 +62,11 @@ Not a feeling. Four things, and when you replay the moment, ask them as if you'r
 
 **Self-controlled.** Temperance. Are you governing this impulse before it fires, or have you decided that what you feel is what needs to happen?
 
-**Brave enough to stay engaged.** The fourth is courage. Are you here? In this room, in this moment, reachable? Or are you leaving? Through your words, or your silence, or the thing you're about to say to end this.
+**Brave enough to stay engaged.** The fourth is courage. Are you here, in this room and in this moment, reachable? Or are you leaving, through your words, your silence, or the thing you're about to say to end this?
 
-Save this for afterward, not mid-fight. Walk through it then. Ask it honestly, and you already know most of the answers. You usually do.
+Save this for afterward, not mid-fight, and walk through it then. Ask it honestly and you'll usually find you already know most of the answers.
 
-In the moment itself, there's room for something smaller. One breath, and one quick question: *What's this actually about for me right now, and how do I want to respond?* That's it. The breath buys you the half-second. The question loosens whatever just got loaded. You don't need the full four-part review while she's standing in the doorway. You need it later, lying awake, training the thing that fires automatically next time.
+In the moment itself, there's room for something smaller: one breath, and one quick question. *What's this actually about for me right now, and how do I want to respond?* The breath buys you the half-second. The question loosens whatever just got loaded. You don't need the full four-part review while she's standing in the doorway. You need it later, lying awake, training the thing that fires automatically next time.
 
 Some nights the long question fits in one breath too: *Am I being the best husband I can be right now?* Ask it that way in the moment if it comes. Save the four checks for later.
 
@@ -90,7 +90,7 @@ She's been waiting for someone to come home who isn't just riding it out.
 
 **You Own This**
 
-Marcus Aurelius was a Roman emperor. For years, he lived away from home, leading his army through wars he didn't choose. He was governing an empire and losing people he loved. The whole time, he wrote himself notes. Not for anyone else to read, not for history. Just reminders, written in the middle of everything else. That he had power over his own mind, whatever was happening outside it. That this was where whatever strength he had left would have to come from. A man in a hard season, reminding himself of the one thing he still owned.
+Marcus Aurelius was a Roman emperor. For years, he lived away from home, leading his army through wars he didn't choose. He was governing an empire and losing people he loved. The whole time, he wrote himself notes that nobody else was meant to read. In the middle of everything else, he kept reminding himself that he had power over his own mind, whatever was happening outside it. That was where whatever strength he had left would have to come from. A man in a hard season, reminding himself of the one thing he still owned.
 
 You own the window. Three seconds, Tuesday night, both of you tired. The night goes wherever you take it.
 
