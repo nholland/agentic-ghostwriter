@@ -184,5 +184,11 @@
     "turn_id": null,
     "prompt": "Who should own the design of the book cover to cover? Is that somebody other than the designer desk? Is that like a printmaker or something else?",
     "recorded": "2026-11-10T21:27:01.676909+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Can I see the latest HTML overview of the ghost writing system",
+    "recorded": "2026-11-11T01:41:39.642390+00:00"
   }
 ]
