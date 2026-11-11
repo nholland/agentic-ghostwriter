@@ -190,5 +190,11 @@
     "turn_id": null,
     "prompt": "Can I see the latest HTML overview of the ghost writing system",
     "recorded": "2026-11-11T01:41:39.642390+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "How can I share both of those?",
+    "recorded": "2026-11-11T01:42:56.561033+00:00"
   }
 ]
