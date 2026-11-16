@@ -4,7 +4,7 @@
 - **Medium:** spoken conversation with the author; machine transcript pasted by the author.
 - **Recorded:** 2026-11-16 13:21 UTC (session clock)
 - **Version read:** latest compiled book (`output/compiled/book.pdf`, last committed 2026-11-10), per the author.
-- **Coverage:** Marcus has read through Chapter 8. This conversation is mainly about the **Prologue**, with general comments on the book's Stoic framing.
+- **Coverage:** Marcus has read through Chapter 8. Per the author (2026-11-16): "that was all related to the Prologue.... Nothing else." Every point applies to the Prologue only.
 - **Speaker labels:** the transcript labels the author "You" and Marcus "The speaker". The labels are machine-assigned and sometimes wrong. For example, "Meaning, meaning... The gist of the book is about helping men reading it. You don't need to go so deep on your own damn story." is labelled "You" but may be Marcus's point restated. Attribute by content, not by label alone.
 - **Contains the author's own notes:** partway through, the author reads out his own reader-notes on the Prologue ("I don't like the way the author bragged about being three steps ahead..."). Those are the author's, not Marcus's.
 
