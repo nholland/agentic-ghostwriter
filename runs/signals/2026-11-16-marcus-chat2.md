@@ -6,7 +6,8 @@
 - **Version read:** latest compiled book (`output/compiled/book.pdf`, last committed 2026-11-10), per the author. Marcus says he *listened* to it for about an hour while running, so it was most likely read aloud by a device. He couldn't say how far that hour got him.
 - **Coverage:** whole-book feedback through Chapter 8. The Introduction is the one section he names.
 - **Speaker labels:** "You" is the author and "The speaker" is Marcus. The labels are machine-assigned and sometimes wrong. Attribute by content.
-- **Ends mid-sentence:** the paste stops at "I mean, but I'm". Ask the author whether there is more.
+- **Complete:** the chat paste stopped at "I mean, but I'm". The author then uploaded the full transcript as a PDF (`Temp_-_Marcus_Feedback_.pdf`, 33 pages, 2026-11-16). Everything from that line to the end is pdftotext output of the PDF, verbatim. The two sources overlap and agree up to that point.
+- **PRIVATE, never quote outside the house:** the author says his wife (Brandy) has not read the book yet, and he worries how she will take it ("I don't want f****** world war three"). Treat this as context for an author decision, never as material.
 - **PRIVATE, never quote outside the house:** Marcus mentions something going on between him and his wife ("Tanya and I are going through a little something"; "airplane stuff"). This is his private life, not material for the book. Do not quote it or paraphrase it in any signal concept, marketing, or prose.
 
 ## Transcript (verbatim, as pasted)
@@ -882,4 +883,497 @@ You
 Oh, I know because they're both gone. They're not gonna like yell at me.
 
 The speaker
-Right, right? Yeah, exactly. I mean, but I'm
+
+You
+I was mostly trying to say that, like, I think that I do think.
+
+You
+We have a little bit of a scrambled.
+
+You
+Go ahead.
+
+You
+Yeah.
+
+The speaker
+I'm, I'm, I mean, dude. Can we just say something real quick, like you actually were willing to out
+your dad and Grandad more than you were willing to out yourself?
+
+You
+Oh, I know because they're both gone. They're not gonna like yell at me.
+
+The speaker
+Right, right? Yeah, exactly. I mean, but I'm listening to this, and I'm just like, you know, Nick
+you're a f****** b**** dude. Like, like you, you have risks. Absolutely f****** nothing, but you're
+literally. But like, you even like throwing your. F******, you know?
+
+You
+Yeah.
+
+You
+Yeah.
+
+The speaker
+You know, you throw your ancestors under the f****** bus, but you won't take a shot at all at all.
+
+The speaker
+You know?
+
+You
+That's true. That's true. It's Sally Joel.
+
+The speaker
+Tomorrow, okay?
+
+You
+I mean, part of it is also like from a b**** mode. Is, like, I haven't f****** got Brandy to go through
+it yet. So part of me is, like, I don't want f****** world war three. Once this happened so
+anyways, I agree with you. I agree with you, but?
+
+You
+Yeah.
+
+You
+I, like, uh, I wrote this book, and then I got a divorce after it.
+
+You
+No, but the um.
+
+You
+But a couple of other things I think are are kind of interesting was, um.
+
+You
+You know, when you, I will say like as you reflect on today. Like, what do you think if you were to
+talk to, you know, Karen, or Tristan, like?
+
+You
+I think a lot of men do struggle with.
+
+You
+You know, uh, what does it mean to be like? A, you know, one. I think we've already talked
+about in the ring. What does it mean to be a man today and then? What does it mean to be a
+good husband and I?
+
+You
+I thought to myself, like?
+
+You
+Some of the men today aren't even like safe providers. I don't think that's like all of them, but
+like.
+
+You
+I, I do, and this is, I do think, as an author, I get my own ability to have some of my own opinion.
+But, like, I do think I like, I.
+
+You
+Yeah.
+
+The speaker
+Of course, no, no, no? So that's, that's the one thing you, you absolutely. Like, you, you, you're
+the author, so you can be very opinionated. There's no problem with that.
+
+You
+Well, but that's what I said. I, I am part of this is my own journey in learning of, like, just asking,
+like, where you are like, I do think men should be a net ad to society meaning, like, I think they
+should be adding value. And I think of that. I think of like, I do think a provider I do think security.
+
+You
+It doesn't mean you have to be the only provider. I mean, help brand made more than me for
+years, but I just do think I do think of that. And so, when I think of that kind of?
+
+You
+Shelter From the Storm Safety security. I think of that as like the oak. That's what I'm trying to
+get through with the oak, and then when I think through.
+
+The speaker
+Oh, okay, okay, but but why, but why see the thing I couldn't really get is why it matters?
+
+You
+Is it?
+
+The speaker
+Why why?
+
+You
+Uh, let me let me ask you this, is it? I know, this is it. Oh, I mean back up, would it? Would it be
+interesting to talk to because I just think that?
+
+You
+Women don't have that trait.
+
+You
+Like, I think that.
+
+The speaker
+Now, you're talking about.
+
+You
+Yeah.
+
+The speaker
+Taking a risk, right, somebody's like, okay?
+
+The speaker
+Because because here's the thing, right? It's like.
+
+You
+Yeah.
+
+You
+Yeah.
+
+You
+Yeah.
+
+The speaker
+You're gonna write a book and you're and what you're really doing is you're entering the arena
+of ideas with a whole lot of other m************ who are out there, telling men why, what they are
+saying, matters right, and you're just asserting this is the way you know, I mean, but but you, but
+you haven't. You haven't actually like debated with the other ideas.
+
+You
+Well.
+
+The speaker
+You have an interesting?
+
+You
+I, I haven't addressed them. I have, I mean, and, and maybe this is a longer topic, but I.
+
+The speaker
+Why, why, why, why?
+
+You
+
+Like, put put it in the table with, like an Andrew Tate, I would actually say I don't disagree with
+some of your stances that I think men should be dangerous, and I do think they should be a
+beast, and I do think they should be intimidating, and I like the alpha side because I think that,
+well, I'll say. I do think all of that comes back to. I think that that is like one of the biological
+differences in our genders. Like, I think that from just like an evolution from a safety security,
+somebody has to step up.
+
+You
+And I think that you know whether you get into the biological hormonal side or you get into the
+physicality side like that is what a lot of men do and so you?
+
+The speaker
+Why?
+
+You
+You take that, that I think that you should lean into that, that kind of the strength that you have
+that is basically kind of from nature and the aggression and the the protection. All of that, I think
+that's a good side of it. And then I, I just wanted to kind of expend it like that. The part that I don't
+like from the kind of manosphere is that? I do think you need to be like more like the Riverside,
+though you have to be adaptable. You have to be calm. You have to be in self control. You have
+to be well because I think if you're not, then that's where, like, the whole part of, like, if you're
+one or not, the other. I think that at the end of the day, you could be again too rigid, too
+passionate, you know, I've got. There's a guy in my mind right now that that is a friend of mine
+here, and he's a huge screamer. Yellery break s*** kind of, like, my my, uh, my ancestors did,
+and so.
+
+You
+You know that dude is the absolute opposite of the river, and that creates intimidation and fear.
+People basically walk on eggshells around them, and so, what that does is that kind of stymies
+their relationships that he has with his kids. It's time he's the relationship that he has with his
+wife.
+
+The speaker
+Oh, oh, oh, okay. Now, you're okay, you're you're. You're scratching at it now, right?
+
+You
+Yeah.
+
+The speaker
+The consequences.
+
+You
+Yep.
+
+The speaker
+Consequences like, like, I mean, I think you need to be more more willing to to talk about the
+consequence. Like, I feel like I didn't hear the word divorce.
+
+You
+Yeah.
+
+You
+Yeah.
+
+The speaker
+At all. You know what I mean, and and I'm like, how can you talk have a book about marriage in
+an era where one of every two marriages breaks up?
+
+You
+No, dude. That's right, cuz that's, like, I mean, it's the it's like death.
+
+You
+Yeah.
+
+The speaker
+I, I, I, I, and you didn't even talk about it. You didn't even f****** talk about it, you know what I
+mean?
+
+You
+Yeah, it's true. That's totally true. Yeah.
+
+You
+That's totally true.
+
+You
+You know, what's fascinating you? You sparked something.
+
+You
+Yeah, you fart something, like?
+
+The speaker
+So, so it's, it's, it's. It's just like this book of Axiom that's just overly safe and and, and is missing,
+the s*** that is missing this. It's missing the ship is making. It makes it compelling like you have
+to take risks.
+
+You
+You know, something that's like giving me a really good idea right now is like?
+
+You
+Again, I could go through a bunch of stuff, like part of the reason why.
+
+You
+Again, I gotta figure out how to say it correctly, but another thing is, is that also, like, if, if divorce,
+let's say, if divorce is like the end game, the worst part scenario, and maybe maybe that's what I
+have to do is set it up as like, one of the ends the end games, the worst end game.
+
+The speaker
+Yeah, and and.
+
+You
+But the reality is, is that women don't like weak men? They don't want someone who's not a
+protector. They don't want somebody who won't fight for them. They don't want somebody who
+provides that. And again, that's back to some of the biology stuff. But so if you're not Oak, she
+thinks you're a b****. And that's a problem.
+
+The speaker
+Yep.
+
+The speaker
+Yes.
+
+You
+And then the flip side. If you're a f****** Hot Head and you can't control yourself, you're
+dangerous to a point where then it's no longer about safety them. You're unsafe to everybody,
+and then the the warmth part is like so many men tried to basically be stoic and under control.
+They tried to be basically providers, but then you just become a stone. D******* no one likes you.
+
+You
+And that's the warmth side.
+
+The speaker
+Yeah.
+
+You
+Yeah.
+
+You
+Yeah.
+
+You
+Yep.
+
+The speaker
+Yeah, yeah, and, and, and I mean, and I mean, I, I think, I think, like, you have to sort of talk
+about the importance of community, the importance of your reputation, like the importance of?
+
+You
+Yeah, reputation, trust, dependability? Yep.
+
+You
+Yep, yep.
+
+You
+Yep, leadership.
+
+You
+Yeah.
+
+You
+Yeah.
+
+The speaker
+Of, uh, you know, the way people speak about you when you're not in the room, right? Like, you
+know and correct, correct, and, and like all these things actually have a lot to do with how much
+money you'll be able to make, you know, um, you know whether or not you'll be able to to be to
+be part of, uh, you know, societies and Gatherings and celebrations? And like, you know, just
+with all these leadership, like, will you get leadership opportunities, right? Like, like, it's all these
+things, you know, and so you just gotta you gotta save these things, and you got to say these
+things knowing.
+
+You
+Yeah.
+
+The speaker
+People will absolutely disagree with them. It's like, it's like you, it's like you said a lot of things
+that are unlikely to get people to disagree with them.
+
+You
+Yep, yep.
+
+You
+Yeah.
+
+The speaker
+And that's not really the goal, right? So, so if in the first chapter of creating an ordin Street like I
+take on the assertion, that college is always good.
+
+You
+Yeah.
+
+The speaker
+You know what I mean, like, like, that's?
+
+You
+Oh, and that's definitely unpopular right now.
+
+The speaker
+Yeah, I mean, when I wrote the f****** book, it's like, you know, that wasn't the case?
+
+You
+Yeah.
+
+The speaker
+You know?
+
+You
+That's right, yeah.
+
+You
+Yeah.
+
+The speaker
+True, right? And that's one of the things you want. Like, you want to be on record before some
+things becomes obvious.
+
+You
+Yeah.
+
+The speaker
+But that's, that's when you really get get leverage.
+
+You
+Yeah.
+
+The speaker
+So anyway, I mean, yeah.
+
+You
+Yeah, this is good. This is good. Okay, I kept you too long. This is good man. I appreciate you
+Marcus. This is super helpful brother.
+
+The speaker
+Yeah, don't listen different. Good for you. Asking for help, I mean, I think it's super important for,
+uh, you know, authors to be being vulnerable, and that's the thing. And you know, like, like, I
+know you're up for the feedback, so I'm just like, I'm just like, okay, you're up for it. So, here you
+go, you know what I mean? Like, I don't wanna I don't want to blow smoke up your ass?
+
+You
+Also, like you said man, I mean, it gives me. It gives me a ton, gives me a ton of energy that,
+like, you know.
+
+You
+You know, partially. What I was thinking about, like, I don't know which part resonated with you
+as you deal with, um.
+
+You
+You know your own situation, but I think part of it, like you said, is just being aware that, like?
+
+The speaker
+Yeah.
+
+You
+People will read this in a moment where they're like, yeah, s***'s not going perfect, and so some
+of it's just time to have deep breath reflection. Some of it is the framework conaxions, and then a
+lot of it. Probably I need to go back and just think through, like some of it, will just feel nice to be
+part of a community of men that are. F****** struggling with their girlfriends or wives, or
+whatever, because s***'s hard dude.
+
+The speaker
+You, you. So, so the the, uh?
+
+The speaker
+You know what you?
+
+The speaker
+One of the things that you said in the book that was helpful for me today was, and you reiterated
+it enough times where, like, I really was reminded of it.
+
+The speaker
+Was basically like?
+
+You
+Yeah.
+
+You
+Yep.
+
+The speaker
+Stop f****** thinking about yourself and have some empathy for your wife and actually try to
+show up in a way where she will see that you have empathy for her. Like, I mean, you said that
+in, like 30 different f****** ways, you know what I mean, um?
+
+You
+Yeah.
+
+You
+Yeah.
+
+You
+Yeah.
+
+You
+Yeah.
+
+You
+Yeah.
+
+You
+Yep.
+
+The speaker
+But that, but that was a very clear theme, you know, and, and it wasn't, it wasn't do it. It wasn't
+be safe, and it wasn't like, shut down, you know. It was like, actually, engaged, actually
+engaged, but engaged in a way where you are listening and you are respecting, and you're
+thinking about all the blind spots that you both have. You know, let's use your f****** brain be
+smart, you know, um, and don't be triggered by your f****** emotions like, you don't have to be
+triggered by a second emotion. It's not necessary unless you don't have to be you.
+
+You
+Yeah, the part that I, the part of this just pulling out again, part of the stoic lessons that were
+super helpful for me, was just this basic question, which is like, when I do reflect just a very
+straightforward question, was I the best husband that I could be?
+
+You
+Despite how crazy ass somebody acted around you?
+
+The speaker
+Right?
+
+You
+And then the second part is you go into, like, well, what does being the best husband? And it's
+like, yeah, to your point. Like I tried to use my brain. I tried to have some self-control. I didn't
+b**** out and run away from the situation and at the end of the day, I tried to be kind with the
+s*** that I had to say so.
+
+You
+Yeah.
+
+The speaker
+Yeah.
+
+You
+Good s***, all right, brother, I appreciate you. Um, if you get a chance, uh, over the next day,
+when you tell me where you are. I'll jump up with you, cuz I do have some specific questions. I
+wanted to ask you as well, sound good.
+
+The speaker
+Google sounds good. Sounds good.
+
+You
+All right, man later, bye!
