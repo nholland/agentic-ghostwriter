@@ -4,5 +4,11 @@
     "turn_id": null,
     "prompt": "/gw",
     "recorded": "2026-11-15T16:10:37.828659+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "I have a bunch of feedback from A friend Marcus I want to process and discuss. He's been reading ",
+    "recorded": "2026-11-16T13:19:34.226763+00:00"
   }
 ]
