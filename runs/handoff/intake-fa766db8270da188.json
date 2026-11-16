@@ -10,5 +10,11 @@
     "turn_id": null,
     "prompt": "I have a bunch of feedback from A friend Marcus I want to process and discuss. He's been reading ",
     "recorded": "2026-11-16T13:19:34.226763+00:00"
+  },
+  {
+    "runtime": "claude",
+    "turn_id": null,
+    "prompt": "Latest copy, he said he made it to chapter 8. But feedback is more general",
+    "recorded": "2026-11-16T13:20:20.177778+00:00"
   }
 ]
